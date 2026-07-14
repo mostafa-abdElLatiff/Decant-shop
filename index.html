@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fragrance Wishlist</title>
+<script>
+  /* apply saved theme before first paint to avoid a flash */
+  document.documentElement.setAttribute("data-theme", localStorage.getItem("theme") || "dark");
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#14160F; --ink:#EEEBDD;
+    --olive:#93B255; --olive-deep:#B8D678; --brass:#E0B85B;
+    --card:#1D2016; --line:#33362A; --red:#E2795F;
+    --radius:14px; --shadow:0 2px 14px rgba(0,0,0,.35);
+    font-size:16px;
+  }
+  :root[data-theme="light"]{
+    --bg:#F7F4EC; --ink:#22251B;
+    --olive:#5A6B2F; --olive-deep:#3E4A1F; --brass:#B08D3E;
+    --card:#FFFFFF; --line:#E3DECF; --red:#B4462F;
+    --shadow:0 2px 14px rgba(34,37,27,.07);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:'IBM Plex Sans Arabic',sans-serif;line-height:1.6}
+  h1,h2,h3{font-family:'El Messiri',serif}
+  [dir="ltr"] h1,[dir="ltr"] h2,[dir="ltr"] h3{font-family:inherit}
+
+  header{background:var(--card);border-bottom:1px solid var(--line);color:var(--ink);padding:1.6rem 1.2rem 1.4rem;position:sticky;top:0;z-index:40;box-shadow:var(--shadow)}
+  .header-row{max-width:1080px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+  .brand h1{font-size:1.45rem;letter-spacing:.02em}
+  .brand small{color:var(--olive);font-size:.8rem;display:block;margin-top:-2px}
+  .header-actions{display:flex;align-items:center;gap:.5rem}
+  .icon-btn{background:transparent;border:1.5px solid var(--line);color:var(--ink);cursor:pointer;font-family:inherit;font-size:.85rem;font-weight:600;padding:.5rem .8rem;border-radius:999px}
+  .icon-btn:hover{border-color:var(--olive)}
+  .cart-btn{background:var(--brass);color:#1a1a12;border:none;cursor:pointer;font-family:inherit;font-size:.95rem;font-weight:700;padding:.55rem 1.1rem;border-radius:999px;display:flex;align-items:center;gap:.5rem;transition:transform .15s}
+  .cart-btn:hover{transform:translateY(-1px)}
+  .cart-btn:focus-visible{outline:3px solid var(--olive);outline-offset:2px}
+  .cart-count{background:#1a1a12;color:var(--brass);border-radius:999px;min-width:1.4rem;height:1.4rem;display:inline-flex;align-items:center;justify-content:center;font-size:.8rem;font-weight:700}
+
+  .toolbar{max-width:1080px;margin:1.4rem auto .6rem;padding:0 1.2rem;display:flex;flex-wrap:wrap;gap:.6rem;align-items:center}
+  .search{flex:1;min-width:220px;border:1.5px solid var(--line);border-radius:999px;background:var(--card);padding:.55rem 1rem;font-family:inherit;font-size:.95rem;color:var(--ink)}
+  .search:focus{outline:2px solid var(--olive);border-color:var(--olive)}
+  .chip{border:1.5px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:.4rem 1rem;font-family:inherit;font-size:.88rem;cursor:pointer}
+  .chip[aria-pressed="true"]{background:var(--olive);border-color:var(--olive);color:#12140D}
+  .chip:focus-visible{outline:3px solid var(--brass);outline-offset:2px}
+
+  .grid{max-width:1080px;margin:0 auto 4rem;padding:0 1.2rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.2rem}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column;outline:0 solid transparent;transition:outline-color .3s}
+  .card.flash{outline:3px solid var(--brass);outline-offset:2px}
+  .card-img{height:190px;display:flex;align-items:center;justify-content:center;background:linear-gradient(160deg,var(--line),var(--bg));font-size:3.4rem}
+  .card-img img{width:100%;height:100%;object-fit:cover}
+  .card-body{padding:1rem 1.1rem 1.2rem;display:flex;flex-direction:column;gap:.6rem;flex:1}
+  .card-body h3{font-size:1.08rem;line-height:1.35}
+  .name-alt{font-size:.8rem;color:#8A8D7B;direction:ltr;text-align:start}
+  .dupe-of,.duped-by{font-size:.78rem;color:var(--brass);font-weight:600}
+  .dupe-of a,.duped-by a{color:var(--brass);text-decoration:underline;cursor:pointer;background:none;border:none;font:inherit;padding:0}
+  .accords{display:flex;flex-direction:column;gap:3px;margin-top:.1rem}
+  .accord{height:1.3rem;border-radius:4px;display:flex;align-items:center;padding:0 .6rem;font-size:.7rem;font-weight:600;color:rgba(0,0,0,.68)}
+  .store-block{border-top:1px dashed var(--line);padding-top:.55rem;margin-top:.15rem}
+  .store-name{font-size:.85rem;font-weight:700;margin-bottom:.35rem}
+  .store-name a{color:var(--olive-deep);text-decoration:none;border-bottom:1px solid currentColor}
+  .store-name a:hover{opacity:.8}
+  .offers{display:flex;flex-wrap:wrap;gap:.4rem}
+  .offer-btn{border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:10px;padding:.4rem .7rem;cursor:pointer;font-family:inherit;font-size:.82rem;text-align:center}
+  .offer-btn b{display:block;font-size:.9rem;color:var(--olive-deep)}
+  .offer-btn:hover{border-color:var(--olive)}
+  .offer-btn:focus-visible{outline:3px solid var(--brass);outline-offset:2px}
+
+  .overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:60;opacity:0;pointer-events:none;transition:opacity .2s}
+  .overlay.open{opacity:1;pointer-events:auto}
+  .drawer{position:fixed;top:0;bottom:0;inset-inline-start:0;width:min(420px,100%);background:var(--bg);z-index:70;transform:translateX(-100%);transition:transform .25s ease;display:flex;flex-direction:column;box-shadow:8px 0 30px rgba(0,0,0,.3)}
+  [dir="rtl"] .drawer{transform:translateX(100%)}
+  .drawer.open{transform:translateX(0)}
+  .drawer-head{padding:1.1rem 1.2rem;background:var(--card);border-bottom:1px solid var(--line);color:var(--ink);display:flex;justify-content:space-between;align-items:center}
+  .drawer-head h2{font-size:1.15rem}
+  .close-x{background:none;border:none;color:var(--ink);font-size:1.5rem;cursor:pointer;line-height:1}
+  .drawer-body{flex:1;overflow-y:auto;padding:1rem 1.2rem;display:flex;flex-direction:column;gap:.8rem}
+  .cart-item{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.7rem .9rem;display:flex;justify-content:space-between;align-items:center;gap:.6rem}
+  .cart-item .info{font-size:.86rem}
+  .cart-item .info b{display:block;font-size:.92rem}
+  .cart-item .store{color:#8A8D7B;font-size:.76rem}
+  .qty{display:flex;align-items:center;gap:.45rem}
+  .qty button{width:1.7rem;height:1.7rem;border-radius:8px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer;font-size:1rem}
+  .remove{background:none;border:none;color:var(--red);cursor:pointer;font-size:.78rem;font-family:inherit;padding:0;margin-top:2px}
+  .empty{color:#8A8D7B;text-align:center;margin-top:2rem;font-size:.95rem}
+  .drawer-foot{border-top:1px solid var(--line);padding:1rem 1.2rem;background:var(--card);display:flex;flex-direction:column;gap:.7rem}
+  .total-row{display:flex;justify-content:space-between;font-weight:700;font-size:1.05rem}
+  .copy-msg{background:var(--olive);color:#12140D;border:none;border-radius:10px;padding:.7rem;font-family:inherit;font-weight:700;font-size:.98rem;cursor:pointer}
+  .toast{position:fixed;bottom:1.4rem;inset-inline-start:50%;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:.6rem 1.3rem;border-radius:999px;font-size:.88rem;opacity:0;transition:opacity .25s;z-index:90;pointer-events:none}
+  [dir="rtl"] .toast{transform:translateX(50%)}
+  .toast.show{opacity:1}
+  @media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-row">
+    <div class="brand">
+      <h1 id="shopName">Fragrance Wishlist</h1>
+      <small id="shopTag">decants • full bottles • leftovers, price-compared</small>
+    </div>
+    <div class="header-actions">
+      <button class="icon-btn" id="toggleLang">العربية</button>
+      <button class="icon-btn" id="toggleTheme">☀️</button>
+      <button class="cart-btn" id="openCart" aria-label="open cart">
+        🛒 <span id="cartLabel">List</span> <span class="cart-count" id="cartCount">0</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="toolbar">
+  <input class="search" id="search" type="search">
+  <button class="chip" data-filter="all" aria-pressed="true"></button>
+  <button class="chip" data-filter="decant" aria-pressed="false"></button>
+  <button class="chip" data-filter="full" aria-pressed="false"></button>
+  <button class="chip" data-filter="leftover" aria-pressed="false"></button>
+</div>
+
+<main class="grid" id="grid"></main>
+
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="drawer" aria-label="cart">
+  <div class="drawer-head">
+    <h2 id="drawerTitle">Your list</h2>
+    <button class="close-x" id="closeCart" aria-label="close">×</button>
+  </div>
+  <div class="drawer-body" id="cartBody"></div>
+  <div class="drawer-foot">
+    <div class="total-row"><span id="totalLabel">Total</span><span id="total">0</span></div>
+    <button class="copy-msg" id="copyMsg"></button>
+  </div>
+</aside>
+
+<div class="toast" id="toast"></div>
+
+<script>
+/* All data lives in products.json — edit that file (or use admin.html / extract.py), never this one. */
+
+const I18N = {
+  en: {
+    site_name:"Fragrance Wishlist", tag:"decants • full bottles • leftovers, price-compared",
+    search_ph:"Search by name or brand…",
+    filter_all:"All", filter_decant:"Decants", filter_full:"Full bottles", filter_leftover:"Leftovers",
+    cart_label:"List", drawer_title:"Your list", empty:"Your list is empty — add a size from any fragrance.",
+    no_results:"No results — try another search.", loading:"Loading products…",
+    load_failed:"Couldn't load products. If opening this file locally, run a simple server: python -m http.server",
+    total:"total", store_total:"total", copy_btn:"Copy list", copied:"Copied ✓", copy_failed:"Couldn't copy — try another browser",
+    added:"Added ✓", remove:"Remove", dupe_of:"Dupe of", duped_by:"Duped by",
+    full_tag:"full bottle", leftover_tag:"with bottle", toggle_lang:"العربية", theme_to_light:"☀️", theme_to_dark:"🌙",
+  },
+  ar: {
+    site_name:"قائمة أمنيات العطور", tag:"مقسمات • زجاجات كاملة • بواقي تقسيم، مقارنة أسعار",
+    search_ph:"ابحث باسم العطر أو البراند…",
+    filter_all:"الكل", filter_decant:"مقسمات", filter_full:"زجاجات كاملة", filter_leftover:"بواقي تقسيم",
+    cart_label:"القائمة", drawer_title:"قائمتك", empty:"القائمة فارغة — أضف حجمًا من أي عطر.",
+    no_results:"لا توجد نتائج — جرّب كلمة بحث أخرى.", loading:"جارٍ تحميل المنتجات…",
+    load_failed:"تعذّر تحميل المنتجات. لو بتفتح الملف محليًا استخدم خادمًا بسيطًا: python -m http.server",
+    total:"الإجمالي", store_total:"إجمالي", copy_btn:"نسخ القائمة", copied:"تم النسخ ✓", copy_failed:"تعذّر النسخ — جرّب متصفحًا آخر",
+    added:"تمت الإضافة ✓", remove:"إزالة", dupe_of:"مستوحى من", duped_by:"مصدر إلهام لـ",
+    full_tag:"زجاجة كاملة", leftover_tag:"باقي تقسيم", toggle_lang:"English", theme_to_light:"☀️", theme_to_dark:"🌙",
+  }
+};
+
+let SETTINGS = {};
+let PRODUCTS = [];
+let cart = []; // {key, productId, storeIdx, offerIdx, qty}
+let filter = "all";
+let query = "";
+let lang = localStorage.getItem("lang") || "en";
+let theme = localStorage.getItem("theme") || "dark";
+
+const grid = document.getElementById("grid");
+const t = () => I18N[lang];
+const slugify = s => (s||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+const pname = p => lang==="ar" ? (p.name_ar||p.name_en) : (p.name_en||p.name_ar);
+const pname_alt = p => lang==="ar" ? p.name_en : p.name_ar;
+const nlabel = n => lang==="ar" ? (n.label_ar||n.label_en) : (n.label_en||n.label_ar);
+
+function offerLabel(o){
+  const size = lang==="ar" ? `${o.ml} مل` : `${o.ml}ml`;
+  if(o.kind==="full") return `${size} "${t().full_tag}"`;
+  if(o.kind==="leftover") return `${size} "${t().leftover_tag}"`;
+  return size;
+}
+
+function productHasKind(p, kind){
+  return (p.stores||[]).some(s => (s.offers||[]).some(o => o.kind===kind));
+}
+
+async function load(){
+  try{
+    const res = await fetch("products.json?v=" + Date.now());
+    const data = await res.json();
+    SETTINGS = data.settings || {};
+    PRODUCTS = data.products || [];
+    applyI18n();
+    render();
+  }catch(e){
+    grid.innerHTML = `<p class="empty">${t().load_failed}</p>`;
+  }
+}
+
+function applyI18n(){
+  document.documentElement.lang = lang;
+  document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
+  document.getElementById("shopName").textContent = lang==="ar" ? (SETTINGS.site_name_ar||t().site_name) : (SETTINGS.site_name_en||t().site_name);
+  document.getElementById("shopTag").textContent = t().tag;
+  document.getElementById("search").placeholder = t().search_ph;
+  document.querySelector('[data-filter="all"]').textContent = t().filter_all;
+  document.querySelector('[data-filter="decant"]').textContent = t().filter_decant;
+  document.querySelector('[data-filter="full"]').textContent = t().filter_full;
+  document.querySelector('[data-filter="leftover"]').textContent = t().filter_leftover;
+  document.getElementById("cartLabel").textContent = t().cart_label;
+  document.getElementById("drawerTitle").textContent = t().drawer_title;
+  document.getElementById("totalLabel").textContent = t().total;
+  document.getElementById("copyMsg").textContent = t().copy_btn;
+  document.getElementById("toggleLang").textContent = t().toggle_lang;
+  document.getElementById("toggleTheme").textContent = theme==="dark" ? t().theme_to_light : t().theme_to_dark;
+}
+
+function render(){
+  const q = query.trim().toLowerCase();
+  const byId = Object.fromEntries(PRODUCTS.map(p=>[p.id,p]));
+
+  const items = PRODUCTS.filter(p =>
+    (filter==="all" || productHasKind(p, filter)) &&
+    (!q || (p.name_ar||"").toLowerCase().includes(q) || (p.name_en||"").toLowerCase().includes(q) || (p.brand||"").toLowerCase().includes(q))
+  );
+  grid.innerHTML = items.length ? "" : `<p class="empty">${t().no_results}</p>`;
+
+  items.forEach(p => {
+    const dupeMatches = (p.dupe_of||[]).map(name => ({ name, match: byId[slugify(name)] || null }));
+    const dupedBy = PRODUCTS.filter(o => o.id!==p.id && (o.dupe_of||[]).some(d => slugify(d)===p.id));
+
+    const card = document.createElement("article");
+    card.className = "card";
+    card.id = "card-" + p.id;
+    card.innerHTML = `
+      <div class="card-img">
+        ${p.image ? `<img src="${p.image}" alt="${pname(p)}" loading="lazy">` : "🧴"}
+      </div>
+      <div class="card-body">
+        <h3>${pname(p)}</h3>
+        ${pname_alt(p) ? `<div class="name-alt">${pname_alt(p)}</div>` : ""}
+        ${dupeMatches.length ? `<div class="dupe-of">${t().dupe_of}: ${dupeMatches.map(d => d.match ? `<button data-jump="${d.match.id}">${d.name}</button>` : d.name).join(", ")}</div>` : ""}
+        ${dupedBy.length ? `<div class="duped-by">${t().duped_by}: ${dupedBy.map(o => `<button data-jump="${o.id}">${pname(o)}</button>`).join(", ")}</div>` : ""}
+        ${p.accords && p.accords.length ? `<div class="accords">${p.accords.map(a=>`<div class="accord" style="background:${a.color};width:${a.w}%">${nlabel(a)}</div>`).join("")}</div>` : ""}
+        ${(p.stores||[]).map((s,si)=>`
+          <div class="store-block">
+            <div class="store-name">${s.url ? `<a href="${s.url}" target="_blank" rel="noopener">${s.name}</a>` : s.name}</div>
+            <div class="offers">
+              ${(s.offers||[]).map((o,oi)=>`
+                <button class="offer-btn" data-pid="${p.id}" data-si="${si}" data-oi="${oi}">
+                  ${offerLabel(o)} <b>${o.price}</b>
+                </button>`).join("")}
+            </div>
+          </div>`).join("")}
+      </div>`;
+    grid.appendChild(card);
+  });
+}
+
+grid.addEventListener("click", e => {
+  const jumpBtn = e.target.closest("[data-jump]");
+  if (jumpBtn){ focusProduct(jumpBtn.dataset.jump); return; }
+  const offerBtn = e.target.closest(".offer-btn");
+  if (offerBtn){
+    addToCart(offerBtn.dataset.pid, +offerBtn.dataset.si, +offerBtn.dataset.oi);
+  }
+});
+
+function focusProduct(id){
+  filter = "all"; query = "";
+  document.getElementById("search").value = "";
+  document.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed", String(c.dataset.filter==="all")));
+  render();
+  requestAnimationFrame(()=>{
+    const el = document.getElementById("card-"+id);
+    if(el){
+      el.scrollIntoView({behavior:"smooth", block:"center"});
+      el.classList.add("flash");
+      setTimeout(()=>el.classList.remove("flash"), 1500);
+    }
+  });
+}
+
+document.querySelectorAll(".chip").forEach(ch => ch.addEventListener("click", ()=>{
+  document.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed","false"));
+  ch.setAttribute("aria-pressed","true");
+  filter = ch.dataset.filter;
+  render();
+}));
+document.getElementById("search").addEventListener("input", e=>{ query=e.target.value; render(); });
+
+document.getElementById("toggleLang").onclick = ()=>{
+  lang = lang === "en" ? "ar" : "en";
+  localStorage.setItem("lang", lang);
+  applyI18n();
+  render();
+  syncCart();
+};
+document.getElementById("toggleTheme").onclick = ()=>{
+  theme = theme === "dark" ? "light" : "dark";
+  localStorage.setItem("theme", theme);
+  document.documentElement.setAttribute("data-theme", theme);
+  document.getElementById("toggleTheme").textContent = theme==="dark" ? t().theme_to_light : t().theme_to_dark;
+};
+
+const drawer = document.getElementById("drawer");
+const overlay = document.getElementById("overlay");
+const cartBody = document.getElementById("cartBody");
+
+function addToCart(productId, storeIdx, offerIdx){
+  const key = `${productId}|${storeIdx}|${offerIdx}`;
+  const existing = cart.find(c=>c.key===key);
+  if (existing) existing.qty++;
+  else cart.push({key, productId, storeIdx, offerIdx, qty:1});
+  toast(t().added);
+  syncCart();
+}
+
+function resolveCartLine(c){
+  const p = PRODUCTS.find(x=>x.id===c.productId);
+  if(!p) return null;
+  const s = (p.stores||[])[c.storeIdx];
+  if(!s) return null;
+  const o = (s.offers||[])[c.offerIdx];
+  if(!o) return null;
+  return { p, s, o };
+}
+
+function syncCart(){
+  document.getElementById("cartCount").textContent = cart.reduce((a,c)=>a+c.qty,0);
+  cartBody.innerHTML = cart.length ? "" : `<p class="empty">${t().empty}</p>`;
+  cart.forEach((c,i)=>{
+    const line = resolveCartLine(c);
+    if(!line) return;
+    const { p, s, o } = line;
+    const row = document.createElement("div");
+    row.className = "cart-item";
+    row.innerHTML = `
+      <div class="info">
+        <b>${pname(p)}</b>
+        ${offerLabel(o)} × ${o.price}
+        <div class="store">${s.name}</div>
+        <button class="remove" data-rm="${i}">${t().remove}</button>
+      </div>
+      <div class="qty">
+        <button data-dec="${i}" aria-label="decrease">−</button>
+        <span>${c.qty}</span>
+        <button data-inc="${i}" aria-label="increase">+</button>
+      </div>`;
+    cartBody.appendChild(row);
+  });
+  document.getElementById("total").textContent = cart.reduce((a,c)=>{
+    const line = resolveCartLine(c);
+    return a + (line ? line.o.price*c.qty : 0);
+  }, 0);
+}
+
+cartBody.addEventListener("click", e=>{
+  const inc=e.target.dataset.inc, dec=e.target.dataset.dec, rm=e.target.dataset.rm;
+  if(inc!=null) cart[inc].qty++;
+  if(dec!=null){ cart[dec].qty--; if(cart[dec].qty<1) cart.splice(dec,1); }
+  if(rm!=null) cart.splice(rm,1);
+  syncCart();
+});
+
+document.getElementById("openCart").onclick = ()=>{ drawer.classList.add("open"); overlay.classList.add("open"); };
+const closeDrawer = ()=>{ drawer.classList.remove("open"); overlay.classList.remove("open"); };
+document.getElementById("closeCart").onclick = closeDrawer;
+overlay.onclick = closeDrawer;
+
+function buildMessage(){
+  const groups = [];
+  const byKey = {};
+  cart.forEach(c=>{
+    const line = resolveCartLine(c);
+    if(!line) return;
+    const { p, s, o } = line;
+    const key = (s.name||"").trim().toLowerCase() || "_";
+    if(!byKey[key]){ byKey[key] = { name: s.name, lines: [], total: 0 }; groups.push(byKey[key]); }
+    const lineTotal = o.price * c.qty;
+    const qtyTag = c.qty > 1 ? ` × ${c.qty}` : "";
+    byKey[key].lines.push(`${pname(p)} - ${offerLabel(o)}${qtyTag} - ${lineTotal}`);
+    byKey[key].total += lineTotal;
+  });
+
+  let msg = "";
+  let grand = 0;
+  groups.forEach(g=>{
+    msg += `${g.name}:\n${g.lines.join("\n")}\n${g.name} ${t().store_total}: ${g.total}\n\n`;
+    grand += g.total;
+  });
+  msg += `${t().total}: ${grand}`;
+  return msg;
+}
+
+document.getElementById("copyMsg").onclick = async ()=>{
+  if(!cart.length){ toast(t().empty); return; }
+  try{
+    await navigator.clipboard.writeText(buildMessage());
+    toast(t().copied);
+  }catch{
+    toast(t().copy_failed);
+  }
+};
+
+let toastTimer;
+function toast(txt){
+  const el = document.getElementById("toast");
+  el.textContent = txt;
+  el.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=>el.classList.remove("show"), 2200);
+}
+
+load();
+syncCart();
+</script>
+</body>
+</html>

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>لوحة التحكم — قائمة أمنيات العطور</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{--paper:#F7F4EC;--ink:#22251B;--olive:#5A6B2F;--olive-deep:#3E4A1F;--brass:#B08D3E;--card:#fff;--line:#E3DECF;--red:#B4462F}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--paper);color:var(--ink);font-family:'IBM Plex Sans Arabic',sans-serif;line-height:1.6;padding:1.2rem}
+  .wrap{max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:1.2rem}
+  h1{font-size:1.3rem}
+  section{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1.2rem;display:flex;flex-direction:column;gap:.8rem}
+  section h2{font-size:1.05rem;color:var(--olive-deep)}
+  label{display:flex;flex-direction:column;gap:.2rem;font-size:.85rem;font-weight:500}
+  input,select,textarea{border:1.5px solid var(--line);border-radius:8px;padding:.55rem .7rem;font-family:inherit;font-size:.92rem;background:#FBFAF5}
+  input:focus,select:focus{outline:2px solid var(--olive)}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:.7rem}
+  .note-row{display:grid;grid-template-columns:1fr 1fr auto;gap:.5rem;align-items:end}
+  .offer-row{display:grid;grid-template-columns:1fr 1fr 1fr auto;gap:.5rem;align-items:end}
+  button{font-family:inherit;cursor:pointer;border-radius:10px;border:none;font-weight:600}
+  .primary{background:var(--olive);color:#fff;padding:.7rem;font-size:1rem}
+  .ghost{background:#fff;border:1.5px solid var(--line);padding:.45rem .8rem;font-size:.85rem}
+  .danger{background:none;color:var(--red);font-size:.8rem;padding:.3rem}
+  .status{font-size:.85rem;padding:.6rem .8rem;border-radius:8px;display:none}
+  .status.ok{display:block;background:#E8F0DC;color:var(--olive-deep)}
+  .status.err{display:block;background:#F6E3DE;color:var(--red)}
+  .prod-item{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding:.5rem 0;font-size:.9rem}
+  .hint{font-size:.76rem;color:#8A8D7B}
+  details summary{cursor:pointer;font-weight:600;font-size:.95rem;color:var(--olive-deep)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>لوحة التحكم — إضافة/تحديث عرض</h1>
+  <p class="hint">أضف عطرًا جديدًا أو اربط عرضًا (متجر + أحجام/أسعار) بعطر موجود بالفعل — سيتم التعرف عليه تلقائيًا بالاسم.</p>
+
+  <details id="setupBox" open>
+    <summary>⚙️ إعداد الاتصال بـ GitHub (مرة واحدة)</summary>
+    <section style="margin-top:.8rem">
+      <div class="row">
+        <label>اسم المستخدم على GitHub<input id="ghOwner" placeholder="username" dir="ltr"></label>
+        <label>اسم المستودع (repo)<input id="ghRepo" placeholder="decant-shop" dir="ltr"></label>
+      </div>
+      <div class="row">
+        <label>الفرع (branch)<input id="ghBranch" value="main" dir="ltr"></label>
+        <label>Personal Access Token<input id="ghToken" type="password" placeholder="ghp_…" dir="ltr"></label>
+      </div>
+      <p class="hint">أنشئ التوكن من GitHub → Settings → Developer settings → Fine-grained tokens، وامنحه صلاحية Contents: Read and write على هذا المستودع فقط. يُحفظ في متصفحك أنت فقط ولا يُرسل لأي جهة غير GitHub.</p>
+      <button class="primary" id="saveSetup">حفظ الإعدادات</button>
+    </section>
+  </details>
+
+  <section>
+    <h2>بيانات العطر</h2>
+    <div class="row">
+      <label>الاسم بالعربية<input id="nameAr" placeholder="جاسمير — فرينش أفينيو"></label>
+      <label>الاسم بالإنجليزية<input id="nameEn" dir="ltr" placeholder="French Avenue Jasmere"></label>
+    </div>
+    <div class="row">
+      <label>البراند<input id="brand" dir="ltr" placeholder="French Avenue"></label>
+      <label>مستوحى من (اختياري، مفصول بفواصل)<input id="dupeOf" dir="ltr" placeholder="Tilia — Marc-Antoine Barrois"></label>
+    </div>
+    <label>صورة المنتج (اختياري — يُترك فارغًا للإبقاء على الصورة الحالية)<input id="imgFile" type="file" accept="image/*"></label>
+
+    <h2>المكونات (Fragrantica) — اختياري، اتركه فارغًا للإبقاء على المكونات الحالية</h2>
+    <div id="noteRows"></div>
+    <button class="ghost" id="addNote" type="button">+ إضافة مكوّن</button>
+  </section>
+
+  <section>
+    <h2>المتجر وعروضه</h2>
+    <div class="row">
+      <label>اسم المتجر / الصفحة<input id="storeName" placeholder="Ahmed Perfumes"></label>
+      <label>الرابط (اختياري)<input id="storeUrl" dir="ltr" placeholder="https://facebook.com/..."></label>
+    </div>
+    <div id="offerRows"></div>
+    <button class="ghost" id="addOffer" type="button">+ إضافة حجم/سعر</button>
+
+    <button class="primary" id="publish">نشر على الموقع</button>
+    <div class="status" id="status"></div>
+    <p class="hint">بعد النشر، GitHub Pages يعيد بناء الموقع خلال دقيقة تقريبًا.</p>
+  </section>
+
+  <section>
+    <h2>المنتجات الحالية</h2>
+    <div id="prodList"><p class="hint">احفظ الإعدادات أولًا ثم اضغط تحديث.</p></div>
+    <button class="ghost" id="refreshList">تحديث القائمة</button>
+  </section>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+const cfgKeys = ["ghOwner","ghRepo","ghBranch","ghToken"];
+
+/* palette for auto-coloring notes */
+const PALETTE = ["#F5F0A9","#D96B3B","#C98B5E","#E86A6A","#A8D18D","#B9A8E0","#8A6242","#EDF0F7","#F3E97A","#D8A45B"];
+const KIND_LABELS = {decant:"مقسم", full:"زجاجة كاملة", leftover:"باقي تقسيم"};
+
+/* ---------- setup persistence ---------- */
+cfgKeys.forEach(k => { const v = localStorage.getItem(k); if(v) $(k).value = v; });
+if (localStorage.getItem("ghToken")) $("setupBox").open = false;
+$("saveSetup").onclick = ()=>{
+  cfgKeys.forEach(k => localStorage.setItem(k, $(k).value.trim()));
+  say("ok","تم حفظ الإعدادات ✓");
+  $("setupBox").open = false;
+};
+
+function cfg(){
+  return {
+    owner: localStorage.getItem("ghOwner"),
+    repo: localStorage.getItem("ghRepo"),
+    branch: localStorage.getItem("ghBranch") || "main",
+    token: localStorage.getItem("ghToken")
+  };
+}
+
+/* ---------- note rows ---------- */
+function addNoteRow(labelEn="", labelAr=""){
+  const div = document.createElement("div");
+  div.className = "note-row";
+  div.innerHTML = `
+    <label>الاسم بالإنجليزية<input class="note-en" dir="ltr" value="${labelEn}" placeholder="Vanilla"></label>
+    <label>الاسم بالعربية<input class="note-ar" value="${labelAr}" placeholder="الفانيلا"></label>
+    <button class="danger" type="button" onclick="this.parentElement.remove()">حذف</button>`;
+  $("noteRows").appendChild(div);
+}
+$("addNote").onclick = ()=>addNoteRow();
+
+/* ---------- offer rows ---------- */
+function addOfferRow(kind="decant", ml="", price=""){
+  const div = document.createElement("div");
+  div.className = "offer-row";
+  div.innerHTML = `
+    <label>النوع
+      <select class="kind">
+        <option value="decant" ${kind==="decant"?"selected":""}>مقسم</option>
+        <option value="full" ${kind==="full"?"selected":""}>زجاجة كاملة</option>
+        <option value="leftover" ${kind==="leftover"?"selected":""}>باقي تقسيم</option>
+      </select>
+    </label>
+    <label>الحجم (مل)<input type="number" class="ml" value="${ml}" min="1" dir="ltr"></label>
+    <label>السعر (ج.م)<input type="number" class="price" value="${price}" min="1" dir="ltr"></label>
+    <button class="danger" type="button" onclick="this.parentElement.remove()">حذف</button>`;
+  $("offerRows").appendChild(div);
+}
+$("addOffer").onclick = ()=>addOfferRow();
+addOfferRow("decant",3,""); addOfferRow("decant",5,""); addOfferRow("decant",10,"");
+
+/* ---------- GitHub API helpers ---------- */
+async function gh(path, opts={}){
+  const c = cfg();
+  const res = await fetch(`https://api.github.com/repos/${c.owner}/${c.repo}/contents/${path}` + (opts.method==="GET"||!opts.method ? `?ref=${c.branch}&t=${Date.now()}` : ""), {
+    ...opts,
+    headers: {
+      "Authorization": `Bearer ${c.token}`,
+      "Accept": "application/vnd.github+json",
+      ...(opts.headers||{})
+    }
+  });
+  if(!res.ok && res.status !== 404) throw new Error(`GitHub ${res.status}: ${(await res.json()).message||""}`);
+  return res.status === 404 ? null : res.json();
+}
+
+/* UTF-8-safe base64 */
+const b64encode = str => btoa(String.fromCharCode(...new TextEncoder().encode(str)));
+const b64decode = b64 => new TextDecoder().decode(Uint8Array.from(atob(b64.replace(/\n/g,"")), c=>c.charCodeAt(0)));
+
+async function getCatalog(){
+  const f = await gh("products.json");
+  if(!f) return { sha:null, data:{settings:{},products:[]} };
+  return { sha: f.sha, data: JSON.parse(b64decode(f.content)) };
+}
+
+async function putFile(path, contentB64, sha, message){
+  const c = cfg();
+  return gh(path, {
+    method: "PUT",
+    body: JSON.stringify({ message, content: contentB64, branch: c.branch, ...(sha?{sha}:{}) })
+  });
+}
+
+const slugify = s => s.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"") || ("p-"+Date.now());
+
+/* ---------- store/offer merge (mirrors extract.py's merge_store) ---------- */
+function mergeStore(product, storeName, storeUrl, offers){
+  product.stores = product.stores || [];
+  let store = product.stores.find(s => s.name.trim().toLowerCase() === storeName.trim().toLowerCase());
+  if(!store){
+    store = { name: storeName, url: storeUrl, offers: [] };
+    product.stores.push(store);
+  } else if(storeUrl){
+    store.url = storeUrl;
+  }
+  offers.forEach(offer => {
+    const idx = store.offers.findIndex(o => o.kind===offer.kind && o.ml===offer.ml);
+    if(idx>=0) store.offers[idx] = offer; else store.offers.push(offer);
+  });
+}
+
+/* ---------- publish ---------- */
+$("publish").onclick = async ()=>{
+  const c = cfg();
+  if(!c.token || !c.owner || !c.repo){ say("err","احفظ إعدادات GitHub أولًا."); return; }
+
+  const nameEn = $("nameEn").value.trim();
+  const nameAr = $("nameAr").value.trim();
+  if(!nameAr && !nameEn){ say("err","اكتب اسم العطر."); return; }
+
+  const storeName = $("storeName").value.trim();
+  if(!storeName){ say("err","اكتب اسم المتجر."); return; }
+
+  const offers = [...document.querySelectorAll("#offerRows .offer-row")]
+    .map(r => ({ kind: r.querySelector(".kind").value, ml:+r.querySelector(".ml").value, price:+r.querySelector(".price").value }))
+    .filter(o => o.ml>0 && o.price>0);
+  if(!offers.length){ say("err","أضف حجمًا وسعرًا واحدًا على الأقل."); return; }
+
+  say("ok","جارٍ النشر…");
+  try{
+    const id = slugify(nameEn || nameAr);
+    const { sha, data } = await getCatalog();
+    data.products = data.products || [];
+    let product = data.products.find(p=>p.id===id);
+    const isNew = !product;
+    if(isNew){
+      product = { id, name_ar:"", name_en:"", brand:"", dupe_of:[], image:"", accords:[], stores:[] };
+      data.products.push(product);
+    }
+
+    product.name_ar = nameAr || nameEn;
+    product.name_en = nameEn;
+    product.brand = $("brand").value.trim();
+
+    const dupeText = $("dupeOf").value.trim();
+    if(dupeText) product.dupe_of = dupeText.split(",").map(s=>s.trim()).filter(Boolean);
+
+    const noteRows = [...document.querySelectorAll("#noteRows .note-row")]
+      .map(r => ({ en: r.querySelector(".note-en").value.trim(), ar: r.querySelector(".note-ar").value.trim() }))
+      .filter(n => n.en || n.ar);
+    if(noteRows.length){
+      product.accords = noteRows.map((n,i)=>({
+        label_en: n.en || n.ar, label_ar: n.ar,
+        color: PALETTE[i % PALETTE.length], w: Math.max(40, 100 - i*14)
+      }));
+    }
+
+    /* optional image upload */
+    const file = $("imgFile").files[0];
+    if(file){
+      const ext = (file.name.split(".").pop()||"jpg").toLowerCase();
+      const imagePath = `images/${id}.${ext}`;
+      const imgB64 = await new Promise((res,rej)=>{
+        const r = new FileReader();
+        r.onload = ()=>res(r.result.split(",")[1]);
+        r.onerror = ()=>rej(new Error("فشل قراءة الصورة"));
+        r.readAsDataURL(file);
+      });
+      const existing = await gh(imagePath);
+      await putFile(imagePath, imgB64, existing?.sha, `Add image for ${id}`);
+      product.image = imagePath;
+    }
+
+    mergeStore(product, storeName, $("storeUrl").value.trim(), offers);
+
+    await putFile("products.json", b64encode(JSON.stringify(data,null,2)), sha, `${isNew?"Add":"Update"} ${id} (${storeName})`);
+    say("ok",`تم النشر ✓ — "${nameAr||nameEn}" سيظهر على الموقع خلال دقيقة.`);
+    loadList();
+  }catch(e){
+    say("err","خطأ: " + e.message);
+  }
+};
+
+/* ---------- product list + delete ---------- */
+async function loadList(){
+  try{
+    const { data } = await getCatalog();
+    const box = $("prodList");
+    const products = data.products || [];
+    box.innerHTML = products.length ? "" : '<p class="hint">لا توجد منتجات بعد.</p>';
+    products.forEach(p=>{
+      const storeCount = (p.stores||[]).length;
+      const d = document.createElement("div");
+      d.className = "prod-item";
+      d.innerHTML = `<span>${p.name_ar||p.name_en} <span class="hint">(${storeCount} ${storeCount===1?"متجر":"متاجر"})</span></span>
+                     <button class="danger" data-del="${p.id}">حذف</button>`;
+      box.appendChild(d);
+    });
+  }catch(e){ say("err","تعذّر تحميل القائمة: "+e.message); }
+}
+$("refreshList").onclick = loadList;
+
+$("prodList").addEventListener("click", async e=>{
+  const id = e.target.dataset.del;
+  if(!id || !confirm("حذف هذا المنتج بالكامل (كل المتاجر والعروض) من الموقع؟")) return;
+  try{
+    const { sha, data } = await getCatalog();
+    data.products = data.products.filter(p=>p.id!==id);
+    await putFile("products.json", b64encode(JSON.stringify(data,null,2)), sha, `Remove ${id}`);
+    say("ok","تم الحذف ✓");
+    loadList();
+  }catch(err){ say("err","خطأ: "+err.message); }
+});
+
+function say(kind, txt){
+  const s = $("status");
+  s.className = "status " + kind;
+  s.textContent = txt;
+}
+</script>
+</body>
+</html>

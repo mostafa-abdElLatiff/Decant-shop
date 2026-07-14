@@ -1,0 +1,89 @@
+{
+  "settings": {
+    "site_name_en": "Fragrance Wishlist",
+    "site_name_ar": "قائمة أمنيات العطور"
+  },
+  "products": [
+    {
+      "id": "french-avenue-jasmere",
+      "name_en": "French Avenue Jasmere Parfum",
+      "name_ar": "جاسمير — فرينش أفينيو",
+      "brand": "French Avenue",
+      "dupe_of": ["Tilia — Marc-Antoine Barrois"],
+      "image": "images/french-avenue-jasmere.jpg",
+      "accords": [
+        { "label_en": "Yellow Flowers", "label_ar": "زهور صفراء", "color": "#F5F0A9", "w": 100 },
+        { "label_en": "White Flowers", "label_ar": "الزهور البيضاء", "color": "#D96B3B", "w": 86 },
+        { "label_en": "Sweet", "label_ar": "حلو", "color": "#C98B5E", "w": 72 },
+        { "label_en": "Floral", "label_ar": "زهري", "color": "#E86A6A", "w": 58 },
+        { "label_en": "Soft", "label_ar": "ناعم", "color": "#A8D18D", "w": 44 },
+        { "label_en": "Honey", "label_ar": "العسل", "color": "#B9A8E0", "w": 40 },
+        { "label_en": "Herbal", "label_ar": "عشبي", "color": "#8A6242", "w": 40 }
+      ],
+      "stores": [
+        {
+          "name": "Unknown store",
+          "url": "",
+          "offers": [
+            { "kind": "decant", "ml": 3, "price": 100 },
+            { "kind": "decant", "ml": 5, "price": 150 },
+            { "kind": "decant", "ml": 10, "price": 250 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rayhaan-nocturno-pour-homme-elixir",
+      "name_en": "Rayhaan Nocturno Pour Homme Elixir",
+      "name_ar": "نوكتورنو بور هوم إليكسير — ريحان",
+      "brand": "Rayhaan",
+      "dupe_of": ["Bleu de Chanel L'Exclusif — Chanel"],
+      "image": "images/rayhaan-nocturno-pour-homme-elixir.jpg",
+      "accords": [
+        { "label_en": "Woody", "label_ar": "خشبي", "color": "#F5F0A9", "w": 100 },
+        { "label_en": "Amber", "label_ar": "العنبر", "color": "#D96B3B", "w": 86 },
+        { "label_en": "Soft", "label_ar": "ناعم", "color": "#C98B5E", "w": 72 },
+        { "label_en": "Musky", "label_ar": "مسكي", "color": "#E86A6A", "w": 58 },
+        { "label_en": "Balsamic", "label_ar": "بلسمي", "color": "#A8D18D", "w": 44 }
+      ],
+      "stores": [
+        {
+          "name": "Unknown store",
+          "url": "",
+          "offers": [
+            { "kind": "decant", "ml": 3, "price": 100 },
+            { "kind": "decant", "ml": 5, "price": 130 },
+            { "kind": "decant", "ml": 10, "price": 200 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arsh-extrait",
+      "name_en": "Arsh Extrait",
+      "name_ar": "عرش — اكستريه",
+      "brand": "",
+      "dupe_of": ["L'Homme Idéal Platine Privé — Guerlain"],
+      "image": "images/arsh-extrait.jpg",
+      "accords": [
+        { "label_en": "Citrus", "label_ar": "الحمضيات", "color": "#F5F0A9", "w": 100 },
+        { "label_en": "Aromatic", "label_ar": "أروماتك", "color": "#D96B3B", "w": 86 },
+        { "label_en": "Almond", "label_ar": "اللوز", "color": "#C98B5E", "w": 72 },
+        { "label_en": "Fresh Spicy", "label_ar": "تابلي منعش", "color": "#E86A6A", "w": 58 },
+        { "label_en": "Musky", "label_ar": "مسكي", "color": "#A8D18D", "w": 44 },
+        { "label_en": "Nutty", "label_ar": "بنكهة الجوز", "color": "#B9A8E0", "w": 40 }
+      ],
+      "stores": [
+        {
+          "name": "Unknown store",
+          "url": "",
+          "offers": [
+            { "kind": "decant", "ml": 3, "price": 100 },
+            { "kind": "decant", "ml": 5, "price": 150 },
+            { "kind": "decant", "ml": 10, "price": 250 }
+          ]
+        }
+      ]
+    }
+  ]
+}
