@@ -4207,22 +4207,22 @@
             {
               "kind": "decant",
               "ml": 5,
-              "price": 110.0
+              "price": 110
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 200.0
+              "price": 200
             },
             {
               "kind": "decant",
               "ml": 30,
-              "price": 575.0
+              "price": 575
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 1650.0
+              "price": 1650
             }
           ]
         }
@@ -4854,22 +4854,22 @@
             {
               "kind": "decant",
               "ml": 5,
-              "price": 100.0
+              "price": 100
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 175.0
+              "price": 175
             },
             {
               "kind": "decant",
               "ml": 30,
-              "price": 500.0
+              "price": 500
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 1400.0
+              "price": 1400
             }
           ]
         }
@@ -6515,7 +6515,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1600.0
+              "price": 1600
             }
           ]
         }
@@ -19256,303 +19256,6 @@
               "kind": "decant",
               "ml": 10,
               "price": 220
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "9pm-elixir-afnan",
-      "name_ar": "",
-      "name_en": "9PM Elixir Afnan",
-      "brand": "Afnan",
-      "dupe_of": [
-        "Le Male Elixir Absolu — Jean Paul Gaultier"
-      ],
-      "image": "images/9pm-elixir-afnan.jpg",
-      "accords": [
-        {
-          "label_en": "Cardamom",
-          "label_ar": "الهيل",
-          "color": "#CC3300",
-          "w": 100
-        },
-        {
-          "label_en": "Nutmeg",
-          "label_ar": "جوزه الطيب",
-          "color": "#CC3300",
-          "w": 90
-        },
-        {
-          "label_en": "Elemi",
-          "label_ar": "الإليمي",
-          "color": "#9C9C9C",
-          "w": 80
-        },
-        {
-          "label_en": "Pepper",
-          "label_ar": "الفلفل الحلو الاسباني",
-          "color": "#9C9C9C",
-          "w": 70
-        },
-        {
-          "label_en": "Leather",
-          "label_ar": "الجلود",
-          "color": "#78483A",
-          "w": 60
-        },
-        {
-          "label_en": "Lavender",
-          "label_ar": "الخزامي",
-          "color": "#9B7DB8",
-          "w": 50
-        },
-        {
-          "label_en": "Vanilla",
-          "label_ar": "تتكون من الفانيليا",
-          "color": "#FFFEC0",
-          "w": 40
-        },
-        {
-          "label_en": "Patchouli",
-          "label_ar": "الباتشولي",
-          "color": "#63652e",
-          "w": 40
-        },
-        {
-          "label_en": "Labdanum",
-          "label_ar": "اللابدانوم",
-          "color": "#9C9C9C",
-          "w": 40
-        },
-        {
-          "label_en": "Rockrose",
-          "label_ar": "الورد الصخري",
-          "color": "#FE016B",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1600
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "club-de-nuit-intense-man-armaf",
-      "name_ar": "",
-      "name_en": "Club de Nuit Intense Man Armaf",
-      "brand": "Armaf",
-      "dupe_of": [
-        "Aventus — Creed"
-      ],
-      "image": "images/club-de-nuit-intense-man-armaf.jpg",
-      "accords": [
-        {
-          "label_en": "Lemon",
-          "label_ar": "الليمون",
-          "color": "#9C9C9C",
-          "w": 100
-        },
-        {
-          "label_en": "Pineapple",
-          "label_ar": "الأناناس",
-          "color": "#9C9C9C",
-          "w": 90
-        },
-        {
-          "label_en": "Bergamot",
-          "label_ar": "البرغموت",
-          "color": "#F9FF52",
-          "w": 80
-        },
-        {
-          "label_en": "Blackcurrant",
-          "label_ar": "الكشمش الأسود",
-          "color": "#9C9C9C",
-          "w": 70
-        },
-        {
-          "label_en": "Apple",
-          "label_ar": "التفاح",
-          "color": "#FC4B29",
-          "w": 60
-        },
-        {
-          "label_en": "Birch",
-          "label_ar": "أخشاب البتولا",
-          "color": "#9C9C9C",
-          "w": 50
-        },
-        {
-          "label_en": "Jasmine",
-          "label_ar": "الياسمين",
-          "color": "#9C9C9C",
-          "w": 40
-        },
-        {
-          "label_en": "Rose",
-          "label_ar": "الورد",
-          "color": "#FE016B",
-          "w": 40
-        },
-        {
-          "label_en": "Musk",
-          "label_ar": "تتكون من المسك",
-          "color": "#E7D8EA",
-          "w": 40
-        },
-        {
-          "label_en": "Ambergris",
-          "label_ar": "الآمبرغريس",
-          "color": "#bc4d10",
-          "w": 40
-        },
-        {
-          "label_en": "Patchouli",
-          "label_ar": "الباتشولي",
-          "color": "#63652e",
-          "w": 40
-        },
-        {
-          "label_en": "Vanilla",
-          "label_ar": "الفانيليا",
-          "color": "#FFFEC0",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 110
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 200
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 575
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1650
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "island-khadlaj-perfumes",
-      "name_ar": "",
-      "name_en": "Island Khadlaj Perfumes",
-      "brand": "Khadlaj",
-      "dupe_of": [
-        "Le Beau Le Parfum — Jean Paul Gaultier"
-      ],
-      "image": "images/island-khadlaj-perfumes.jpg",
-      "accords": [
-        {
-          "label_en": "Pineapple",
-          "label_ar": "الأناناس",
-          "color": "#9C9C9C",
-          "w": 100
-        },
-        {
-          "label_en": "Iris",
-          "label_ar": "السوسن",
-          "color": "#b7a7d7",
-          "w": 90
-        },
-        {
-          "label_en": "Ginger",
-          "label_ar": "الزنجبيل",
-          "color": "#83C928",
-          "w": 80
-        },
-        {
-          "label_en": "Cypress",
-          "label_ar": "أشجار السرور",
-          "color": "#9C9C9C",
-          "w": 70
-        },
-        {
-          "label_en": "Coconut",
-          "label_ar": "جوز الهند",
-          "color": "#FC4B29",
-          "w": 60
-        },
-        {
-          "label_en": "Woods",
-          "label_ar": "الأخشاب",
-          "color": "#9C9C9C",
-          "w": 50
-        },
-        {
-          "label_en": "Tonka Bean",
-          "label_ar": "تتكون من حبوب التونكا",
-          "color": "#FFFEC0",
-          "w": 40
-        },
-        {
-          "label_en": "Amber",
-          "label_ar": "العنبر",
-          "color": "#bc4d10",
-          "w": 40
-        },
-        {
-          "label_en": "Sandalwood",
-          "label_ar": "خشب الصندل",
-          "color": "#774414",
-          "w": 40
-        },
-        {
-          "label_en": "Ambergris",
-          "label_ar": "الآمبرغريس",
-          "color": "#bc4d10",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 100
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 175
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 500
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1400
             }
           ]
         }

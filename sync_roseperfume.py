@@ -14,11 +14,13 @@ file) with no human input. Each run:
   3. Only includes variants that are actually purchasable right now — a
      product with some sizes in stock and others sold out only gets the
      in-stock ones.
-  4. Fully replaces roseperfume's offers on each product with the current
-     state (so a decant size that's gone out of stock since the last run
-     is removed, not left stale) and drops the roseperfume listing (or the
-     whole product, if roseperfume was its only store) for anything no
-     longer sold at all.
+  4. For each product it can confidently re-identify (exact ID, or an exact
+     normalized-name match), fully replaces roseperfume's offers with the
+     current state, so a decant size that's gone out of stock is dropped.
+     Deliberately never removes a roseperfume listing it can't re-match —
+     see the comment on replace_store_offers() for why. Run
+     find_duplicates.py periodically to catch near-duplicates and stale
+     listings for manual cleanup instead.
   5. Commits locally if anything changed — never pushes. Review with
      `git log` / `git diff` and push yourself when ready.
 
@@ -156,19 +158,27 @@ def download_image(url, dest_path):
 
 def replace_store_offers(product: dict, offers: list):
     """Fully replace this store's offers (not merge-append) so sizes that
-    went out of stock since the last sync are dropped, not left stale."""
+    went out of stock since the last sync are dropped, not left stale — but
+    only ever called on a product we positively re-identified this run.
+
+    Deliberately NOT symmetric: this script never removes a roseperfume
+    listing from a product it *couldn't* re-identify this run. The matching
+    in find_existing_product is conservative on purpose (see extract.py) —
+    it won't recognize e.g. "9PM Elixir Afnan" as the same product as a
+    manually-merged "9pm Elixir", since that's exactly the brand-suffix
+    mismatch a stricter check exists to avoid false-merging on. Doing
+    removal on "wasn't matched this run" would silently strip roseperfume's
+    listing from the correct, already-deduplicated product every single run
+    and recreate a duplicate instead — worse than just leaving a stale
+    listing. Run find_duplicates.py periodically to catch genuinely
+    discontinued listings by hand instead.
+    """
     product.setdefault("stores", [])
     store = next((s for s in product["stores"] if s["name"] == STORE_NAME), None)
     if store is None:
         product["stores"].append({"name": STORE_NAME, "url": STORE_URL, "offers": offers})
     else:
         store["offers"] = offers
-
-
-def remove_store(product: dict) -> bool:
-    before = len(product.get("stores", []))
-    product["stores"] = [s for s in product.get("stores", []) if s["name"] != STORE_NAME]
-    return len(product["stores"]) < before
 
 
 def main():
@@ -187,7 +197,7 @@ def main():
         else {"settings": {}, "products": []}
 
     IMAGES_DIR.mkdir(exist_ok=True)
-    added, synced, removed = 0, 0, 0
+    added, synced = 0, 0
     matched_ids = set()
 
     for name_en, info in parsed.items():
@@ -221,22 +231,10 @@ def main():
         matched_ids.add(product["id"])
         synced += 1
 
-    # anything that used to be sold by roseperfume but isn't in this run's
-    # qualifying set anymore: drop the roseperfume listing (stock/price
-    # changed to nothing purchasable, or removed from the collection)
-    for product in catalog["products"]:
-        if product["id"] not in matched_ids:
-            if remove_store(product):
-                removed += 1
-
-    before_count = len(catalog["products"])
-    catalog["products"] = [p for p in catalog["products"] if p.get("stores")]
-    deleted = before_count - len(catalog["products"])
-
     CATALOG.write_text(json.dumps(catalog, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"\nDone. {added} new products, {synced} product listings synced (incl. new), "
-          f"{removed} roseperfume listings dropped (stock changed), "
-          f"{deleted} product(s) removed entirely (no store left).")
+    print(f"\nDone. {added} new products, {synced} product listings synced (incl. new). "
+          f"Nothing is ever auto-removed — run find_duplicates.py periodically to "
+          f"catch near-duplicates, and review stale listings by hand.")
 
     status = subprocess.run(
         ["git", "status", "--porcelain", "products.json", "images/"],
@@ -249,7 +247,7 @@ def main():
     subprocess.run(["git", "add", "products.json", "images/"], cwd=CATALOG.parent, check=True)
     subprocess.run(
         ["git", "commit", "-m",
-         f"sync_roseperfume.py: {added} added, {synced} synced, {deleted} removed"],
+         f"sync_roseperfume.py: {added} added, {synced} synced"],
         cwd=CATALOG.parent, check=True,
     )
     print("Committed locally (not pushed). Review with `git log`/`git diff`, then `git push` when ready.")
