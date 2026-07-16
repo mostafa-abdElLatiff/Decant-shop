@@ -27,9 +27,12 @@
   .status{font-size:.85rem;padding:.6rem .8rem;border-radius:8px;display:none}
   .status.ok{display:block;background:#E8F0DC;color:var(--olive-deep)}
   .status.err{display:block;background:#F6E3DE;color:var(--red)}
-  .prod-item{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding:.5rem 0;font-size:.9rem}
+  .prod-item{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding:.5rem 0;font-size:.9rem;gap:.5rem}
+  .prod-item .prod-actions{display:flex;gap:.4rem;flex-shrink:0}
+  .prod-item .edit-btn{background:none;color:var(--olive-deep);font-size:.8rem;padding:.3rem;border:1.5px solid var(--line);border-radius:6px}
   .hint{font-size:.76rem;color:#8A8D7B}
   details summary{cursor:pointer;font-weight:600;font-size:.95rem;color:var(--olive-deep)}
+  .editing-banner{display:flex;justify-content:space-between;align-items:center;background:#FBF3DC;border:1.5px solid var(--brass);border-radius:8px;padding:.6rem .8rem;font-size:.88rem}
 </style>
 </head>
 <body>
@@ -54,6 +57,10 @@
   </details>
 
   <section>
+    <div id="editingBanner" class="editing-banner" style="display:none">
+      <span>✏️ تعديل: <b id="editingName"></b></span>
+      <button class="ghost" id="cancelEdit" type="button">إلغاء التعديل / عطر جديد</button>
+    </div>
     <h2>بيانات العطر</h2>
     <div class="row">
       <label>الاسم بالعربية<input id="nameAr" placeholder="جاسمير — فرينش أفينيو"></label>
@@ -71,7 +78,7 @@
   </section>
 
   <section>
-    <h2>المتجر وعروضه</h2>
+    <h2>المتجر وعروضه <span class="hint">(اختياري عند تعديل الاسم فقط — اتركه فارغًا لعدم تغيير المتاجر)</span></h2>
     <div class="row">
       <label>اسم المتجر / الصفحة<input id="storeName" placeholder="Ahmed Perfumes"></label>
       <label>الرابط (اختياري)<input id="storeUrl" dir="ltr" placeholder="https://facebook.com/..."></label>
@@ -86,6 +93,7 @@
 
   <section>
     <h2>المنتجات الحالية</h2>
+    <input id="prodSearch" placeholder="ابحث بالاسم أو البراند لتعديله…" dir="rtl">
     <div id="prodList"><p class="hint">احفظ الإعدادات أولًا ثم اضغط تحديث.</p></div>
     <button class="ghost" id="refreshList">تحديث القائمة</button>
   </section>
@@ -188,6 +196,45 @@ function addOfferRow(kind="decant", ml="", price=""){
 $("addOffer").onclick = ()=>addOfferRow();
 addOfferRow("decant",3,""); addOfferRow("decant",5,""); addOfferRow("decant",10,"");
 
+/* ---------- edit-in-place state ---------- */
+let editingId = null;
+let lastCatalog = null;
+
+function resetForm(){
+  editingId = null;
+  $("editingBanner").style.display = "none";
+  $("nameAr").value = ""; $("nameEn").value = ""; $("brand").value = ""; $("dupeOf").value = "";
+  $("imgFile").value = "";
+  $("noteRows").innerHTML = "";
+  $("storeName").value = ""; $("storeUrl").value = "";
+  $("offerRows").innerHTML = "";
+  addOfferRow("decant",3,""); addOfferRow("decant",5,""); addOfferRow("decant",10,"");
+}
+
+function startEdit(id){
+  const product = (lastCatalog?.products || []).find(p => p.id === id);
+  if(!product){ say("err","تعذّر العثور على هذا المنتج — اضغط تحديث القائمة."); return; }
+
+  editingId = id;
+  $("editingBanner").style.display = "flex";
+  $("editingName").textContent = product.name_ar || product.name_en;
+
+  $("nameAr").value = product.name_ar || "";
+  $("nameEn").value = product.name_en || "";
+  $("brand").value = product.brand || "";
+  $("dupeOf").value = (product.dupe_of || []).join(", ");
+  $("imgFile").value = "";
+
+  $("noteRows").innerHTML = "";
+  (product.accords || []).forEach(a => addNoteRow(a.label_en || "", a.label_ar || ""));
+
+  $("storeName").value = ""; $("storeUrl").value = "";
+  $("offerRows").innerHTML = "";
+
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+$("cancelEdit").onclick = resetForm;
+
 /* ---------- GitHub API helpers ---------- */
 async function gh(path, opts={}){
   const c = cfg();
@@ -248,9 +295,6 @@ $("publish").onclick = async ()=>{
   const nameAr = $("nameAr").value.trim();
   if(!nameAr && !nameEn){ say("err","اكتب اسم العطر."); return; }
 
-  const storeName = $("storeName").value.trim();
-  if(!storeName){ say("err","اكتب اسم المتجر."); return; }
-
   const offers = [...document.querySelectorAll("#offerRows .offer-row")]
     .map(r => ({
       kind: r.querySelector(".kind").value,
@@ -258,18 +302,28 @@ $("publish").onclick = async ()=>{
       price: +r.querySelector(".price").value
     }))
     .filter(o => (o.ml==="as-shown" || o.ml>0) && o.price>0);
-  if(!offers.length){ say("err","أضف حجمًا وسعرًا واحدًا على الأقل."); return; }
+
+  const storeName = $("storeName").value.trim();
+  if(offers.length && !storeName){ say("err","اكتب اسم المتجر، أو احذف صفوف الحجم/السعر إذا كنت تعدّل الاسم فقط."); return; }
+  if(!offers.length && !editingId){ say("err","أضف حجمًا وسعرًا واحدًا على الأقل لعطر جديد."); return; }
 
   say("ok","جارٍ النشر…");
   try{
-    const id = slugify(nameEn || nameAr);
     const { sha, data } = await getCatalog();
     data.products = data.products || [];
-    let product = data.products.find(p=>p.id===id);
-    const isNew = !product;
-    if(isNew){
-      product = { id, name_ar:"", name_en:"", brand:"", dupe_of:[], image:"", accords:[], stores:[] };
-      data.products.push(product);
+
+    let product, isNew = false;
+    if(editingId){
+      product = data.products.find(p=>p.id===editingId);
+      if(!product){ say("err","هذا المنتج لم يعد موجودًا — اضغط تحديث القائمة."); return; }
+    } else {
+      const id = slugify(nameEn || nameAr);
+      product = data.products.find(p=>p.id===id);
+      isNew = !product;
+      if(isNew){
+        product = { id, name_ar:"", name_en:"", brand:"", dupe_of:[], image:"", accords:[], stores:[] };
+        data.products.push(product);
+      }
     }
 
     product.name_ar = nameAr || nameEn;
@@ -277,7 +331,7 @@ $("publish").onclick = async ()=>{
     product.brand = $("brand").value.trim();
 
     const dupeText = $("dupeOf").value.trim();
-    if(dupeText) product.dupe_of = dupeText.split(",").map(s=>s.trim()).filter(Boolean);
+    product.dupe_of = dupeText ? dupeText.split(",").map(s=>s.trim()).filter(Boolean) : [];
 
     const noteRows = [...document.querySelectorAll("#noteRows .note-row")]
       .map(r => ({ en: r.querySelector(".note-en").value.trim(), ar: r.querySelector(".note-ar").value.trim() }))
@@ -293,7 +347,7 @@ $("publish").onclick = async ()=>{
     const file = $("imgFile").files[0];
     if(file){
       const ext = (file.name.split(".").pop()||"jpg").toLowerCase();
-      const imagePath = `images/${id}.${ext}`;
+      const imagePath = `images/${product.id}.${ext}`;
       const imgB64 = await new Promise((res,rej)=>{
         const r = new FileReader();
         r.onload = ()=>res(r.result.split(",")[1]);
@@ -301,40 +355,61 @@ $("publish").onclick = async ()=>{
         r.readAsDataURL(file);
       });
       const existing = await gh(imagePath);
-      await putFile(imagePath, imgB64, existing?.sha, `Add image for ${id}`);
+      await putFile(imagePath, imgB64, existing?.sha, `Add image for ${product.id}`);
       product.image = imagePath;
     }
 
-    mergeStore(product, storeName, $("storeUrl").value.trim(), offers);
+    if(offers.length) mergeStore(product, storeName, $("storeUrl").value.trim(), offers);
 
-    await putFile("products.json", b64encode(JSON.stringify(data,null,2)), sha, `${isNew?"Add":"Update"} ${id} (${storeName})`);
+    const action = editingId ? "Edit" : (isNew ? "Add" : "Update");
+    await putFile("products.json", b64encode(JSON.stringify(data,null,2)), sha, `${action} ${product.id}${storeName ? ` (${storeName})` : ""}`);
     say("ok",`تم النشر ✓ — "${nameAr||nameEn}" سيظهر على الموقع خلال دقيقة.`);
+    resetForm();
     loadList();
   }catch(e){
     say("err","خطأ: " + e.message);
   }
 };
 
-/* ---------- product list + delete ---------- */
+/* ---------- product list + edit/delete ---------- */
+function renderProdList(){
+  const box = $("prodList");
+  const products = lastCatalog?.products || [];
+  const q = $("prodSearch").value.trim().toLowerCase();
+  const filtered = q ? products.filter(p =>
+    (p.name_ar||"").toLowerCase().includes(q) ||
+    (p.name_en||"").toLowerCase().includes(q) ||
+    (p.brand||"").toLowerCase().includes(q)
+  ) : products;
+
+  box.innerHTML = filtered.length ? "" : '<p class="hint">لا توجد نتائج.</p>';
+  filtered.forEach(p=>{
+    const storeCount = (p.stores||[]).length;
+    const d = document.createElement("div");
+    d.className = "prod-item";
+    d.innerHTML = `<span>${p.name_ar||p.name_en} <span class="hint">(${storeCount} ${storeCount===1?"متجر":"متاجر"})</span></span>
+                   <span class="prod-actions">
+                     <button class="edit-btn" data-edit="${p.id}" type="button">تعديل</button>
+                     <button class="danger" data-del="${p.id}" type="button">حذف</button>
+                   </span>`;
+    box.appendChild(d);
+  });
+}
+
 async function loadList(){
   try{
     const { data } = await getCatalog();
-    const box = $("prodList");
-    const products = data.products || [];
-    box.innerHTML = products.length ? "" : '<p class="hint">لا توجد منتجات بعد.</p>';
-    products.forEach(p=>{
-      const storeCount = (p.stores||[]).length;
-      const d = document.createElement("div");
-      d.className = "prod-item";
-      d.innerHTML = `<span>${p.name_ar||p.name_en} <span class="hint">(${storeCount} ${storeCount===1?"متجر":"متاجر"})</span></span>
-                     <button class="danger" data-del="${p.id}">حذف</button>`;
-      box.appendChild(d);
-    });
+    lastCatalog = data;
+    renderProdList();
   }catch(e){ say("err","تعذّر تحميل القائمة: "+e.message); }
 }
 $("refreshList").onclick = loadList;
+$("prodSearch").addEventListener("input", renderProdList);
 
 $("prodList").addEventListener("click", async e=>{
+  const editId = e.target.dataset.edit;
+  if(editId){ startEdit(editId); return; }
+
   const id = e.target.dataset.del;
   if(!id || !confirm("حذف هذا المنتج بالكامل (كل المتاجر والعروض) من الموقع؟")) return;
   try{
@@ -342,6 +417,7 @@ $("prodList").addEventListener("click", async e=>{
     data.products = data.products.filter(p=>p.id!==id);
     await putFile("products.json", b64encode(JSON.stringify(data,null,2)), sha, `Remove ${id}`);
     say("ok","تم الحذف ✓");
+    if(editingId === id) resetForm();
     loadList();
   }catch(err){ say("err","خطأ: "+err.message); }
 });

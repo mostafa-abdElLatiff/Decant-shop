@@ -36,6 +36,10 @@
   .header-actions{display:flex;align-items:center;gap:.5rem}
   .icon-btn{background:transparent;border:1.5px solid var(--line);color:var(--ink);cursor:pointer;font-family:inherit;font-size:.85rem;font-weight:600;padding:.5rem .8rem;border-radius:999px}
   .icon-btn:hover{border-color:var(--olive)}
+  .icon-btn[aria-pressed="true"]{background:var(--olive);border-color:var(--olive);color:#12140D}
+  .header-search{max-width:1080px;margin:0 auto;padding:0 1.2rem;box-sizing:border-box;overflow:hidden;max-height:0;transition:max-height .2s ease}
+  .header-search.open{max-height:70px;padding-top:.7rem}
+  .header-search .search{width:100%;box-sizing:border-box}
   .cart-btn{background:var(--brass);color:#1a1a12;border:none;cursor:pointer;font-family:inherit;font-size:.95rem;font-weight:700;padding:.55rem 1.1rem;border-radius:999px;display:flex;align-items:center;gap:.5rem;transition:transform .15s}
   .cart-btn:hover{transform:translateY(-1px)}
   .cart-btn:focus-visible{outline:3px solid var(--olive);outline-offset:2px}
@@ -47,6 +51,8 @@
   .chip{border:1.5px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:.4rem 1rem;font-family:inherit;font-size:.88rem;cursor:pointer}
   .chip[aria-pressed="true"]{background:var(--olive);border-color:var(--olive);color:#12140D}
   .chip:focus-visible{outline:3px solid var(--brass);outline-offset:2px}
+  .store-select{border:1.5px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:.4rem 1rem;font-family:inherit;font-size:.88rem;cursor:pointer}
+  .store-select:focus-visible{outline:3px solid var(--brass);outline-offset:2px}
 
   .grid{max-width:1080px;margin:0 auto 4rem;padding:0 1.2rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.2rem}
   .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column;outline:0 solid transparent;transition:outline-color .3s}
@@ -83,8 +89,9 @@
   .drawer-head h2{font-size:1.15rem}
   .close-x{background:none;border:none;color:var(--ink);font-size:1.5rem;cursor:pointer;line-height:1}
   .drawer-body{flex:1;overflow-y:auto;padding:1rem 1.2rem;display:flex;flex-direction:column;gap:.8rem}
-  .cart-item{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.7rem .9rem;display:flex;justify-content:space-between;align-items:center;gap:.6rem}
-  .cart-item .info{font-size:.86rem}
+  .cart-item{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.7rem .9rem;display:flex;align-items:center;gap:.6rem}
+  .cart-thumb{width:44px;height:44px;border-radius:8px;object-fit:cover;flex-shrink:0;background:var(--bg)}
+  .cart-item .info{font-size:.86rem;flex:1;min-width:0}
   .cart-item .info b{display:block;font-size:.92rem}
   .cart-item .store{color:#8A8D7B;font-size:.76rem}
   .qty{display:flex;align-items:center;gap:.45rem}
@@ -109,6 +116,7 @@
       <small id="shopTag">decants • full bottles • leftovers, price-compared</small>
     </div>
     <div class="header-actions">
+      <button class="icon-btn" id="toggleSearch" aria-label="search" aria-pressed="false">🔍</button>
       <button class="icon-btn" id="toggleLang">العربية</button>
       <button class="icon-btn" id="toggleTheme">☀️</button>
       <button class="cart-btn" id="openCart" aria-label="open cart">
@@ -116,14 +124,17 @@
       </button>
     </div>
   </div>
+  <div class="header-search" id="headerSearch">
+    <input class="search" id="search" type="search">
+  </div>
 </header>
 
 <div class="toolbar">
-  <input class="search" id="search" type="search">
   <button class="chip" data-filter="all" aria-pressed="true"></button>
   <button class="chip" data-filter="decant" aria-pressed="false"></button>
   <button class="chip" data-filter="full" aria-pressed="false"></button>
   <button class="chip" data-filter="leftover" aria-pressed="false"></button>
+  <select class="store-select" id="storeFilter"></select>
 </div>
 
 <main class="grid" id="grid"></main>
@@ -156,6 +167,7 @@ const I18N = {
     site_name:"Fragrance Wishlist", tag:"decants • full bottles • leftovers, price-compared",
     search_ph:"Search by name or brand…",
     filter_all:"All", filter_decant:"Decants", filter_full:"Full bottles", filter_leftover:"Leftovers",
+    store_all:"All stores",
     cart_label:"List", drawer_title:"Your list", empty:"Your list is empty — add a size from any fragrance.",
     no_results:"No results — try another search.", loading:"Loading products…",
     load_failed:"Couldn't load products. If opening this file locally, run a simple server: python -m http.server",
@@ -168,6 +180,7 @@ const I18N = {
     site_name:"قائمة أمنيات العطور", tag:"مقسمات • زجاجات كاملة • بواقي تقسيم، مقارنة أسعار",
     search_ph:"ابحث باسم العطر أو البراند…",
     filter_all:"الكل", filter_decant:"مقسمات", filter_full:"زجاجات كاملة", filter_leftover:"بواقي تقسيم",
+    store_all:"كل المتاجر",
     cart_label:"القائمة", drawer_title:"قائمتك", empty:"القائمة فارغة — أضف حجمًا من أي عطر.",
     no_results:"لا توجد نتائج — جرّب كلمة بحث أخرى.", loading:"جارٍ تحميل المنتجات…",
     load_failed:"تعذّر تحميل المنتجات. لو بتفتح الملف محليًا استخدم خادمًا بسيطًا: python -m http.server",
@@ -182,6 +195,7 @@ let SETTINGS = {};
 let PRODUCTS = [];
 let cart = []; // {key, productId, storeIdx, offerIdx, qty}
 let filter = "all";
+let storeFilter = "all";
 let query = "";
 let lang = localStorage.getItem("lang") || "en";
 let theme = localStorage.getItem("theme") || "dark";
@@ -202,6 +216,20 @@ function offerLabel(o){
 
 function productHasKind(p, kind){
   return (p.stores||[]).some(s => (s.offers||[]).some(o => o.kind===kind));
+}
+
+function productHasStore(p, storeName){
+  return (p.stores||[]).some(s => s.name===storeName);
+}
+
+function populateStoreFilter(){
+  const names = [...new Set(PRODUCTS.flatMap(p => (p.stores||[]).map(s => s.name)))].sort();
+  const sel = document.getElementById("storeFilter");
+  const prev = sel.value || "all";
+  sel.innerHTML = `<option value="all">${t().store_all}</option>` +
+    names.map(n => `<option value="${n}">${n}</option>`).join("");
+  sel.value = names.includes(prev) ? prev : "all";
+  storeFilter = sel.value;
 }
 
 async function load(){
@@ -233,6 +261,7 @@ function applyI18n(){
   document.getElementById("copyMsg").textContent = t().copy_btn;
   document.getElementById("toggleLang").textContent = t().toggle_lang;
   document.getElementById("toggleTheme").textContent = theme==="dark" ? t().theme_to_light : t().theme_to_dark;
+  populateStoreFilter();
 }
 
 function render(){
@@ -241,6 +270,7 @@ function render(){
 
   const items = PRODUCTS.filter(p =>
     (filter==="all" || productHasKind(p, filter)) &&
+    (storeFilter==="all" || productHasStore(p, storeFilter)) &&
     (!q || (p.name_ar||"").toLowerCase().includes(q) || (p.name_en||"").toLowerCase().includes(q) || (p.brand||"").toLowerCase().includes(q))
   );
   grid.innerHTML = items.length ? "" : `<p class="empty">${t().no_results}</p>`;
@@ -304,8 +334,9 @@ document.getElementById("lightboxClose").addEventListener("click", closeLightbox
 document.addEventListener("keydown", e => { if(e.key === "Escape") closeLightbox(); });
 
 function focusProduct(id){
-  filter = "all"; query = "";
+  filter = "all"; query = ""; storeFilter = "all";
   document.getElementById("search").value = "";
+  document.getElementById("storeFilter").value = "all";
   document.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed", String(c.dataset.filter==="all")));
   render();
   requestAnimationFrame(()=>{
@@ -325,6 +356,15 @@ document.querySelectorAll(".chip").forEach(ch => ch.addEventListener("click", ()
   render();
 }));
 document.getElementById("search").addEventListener("input", e=>{ query=e.target.value; render(); });
+document.getElementById("storeFilter").addEventListener("change", e=>{ storeFilter=e.target.value; render(); });
+
+const headerSearch = document.getElementById("headerSearch");
+const toggleSearchBtn = document.getElementById("toggleSearch");
+toggleSearchBtn.onclick = ()=>{
+  const open = headerSearch.classList.toggle("open");
+  toggleSearchBtn.setAttribute("aria-pressed", String(open));
+  if(open) requestAnimationFrame(()=>document.getElementById("search").focus());
+};
 
 document.getElementById("toggleLang").onclick = ()=>{
   lang = lang === "en" ? "ar" : "en";
@@ -373,6 +413,7 @@ function syncCart(){
     const row = document.createElement("div");
     row.className = "cart-item";
     row.innerHTML = `
+      ${p.image ? `<img class="cart-thumb" src="${p.image}" alt="">` : ""}
       <div class="info">
         <b>${pname(p)}</b>
         ${offerLabel(o)} × ${o.price}
