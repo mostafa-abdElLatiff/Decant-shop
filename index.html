@@ -203,6 +203,8 @@ const I18N = {
 let SETTINGS = {};
 let PRODUCTS = [];
 let cart = []; // {key, productId, storeIdx, offerIdx, qty}
+try{ cart = JSON.parse(localStorage.getItem("cart") || "[]"); }catch{ cart = []; }
+const saveCart = () => localStorage.setItem("cart", JSON.stringify(cart));
 let filter = "all";
 let storeFilter = "all";
 let query = "";
@@ -212,6 +214,10 @@ let theme = localStorage.getItem("theme") || "dark";
 const grid = document.getElementById("grid");
 const t = () => I18N[lang];
 const slugify = s => (s||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+/* dupe_of entries are stored "Name — Brand" for display, but product ids are
+   slugified from name_en alone (no brand suffix) — strip the "— Brand" part
+   before slugifying so the cross-link lookup actually matches. */
+const dupeSlug = s => slugify((s||"").split(/\s+—\s+/)[0]);
 const pname = p => lang==="ar" ? (p.name_ar||p.name_en) : (p.name_en||p.name_ar);
 const pname_alt = p => lang==="ar" ? p.name_en : p.name_ar;
 const nlabel = n => lang==="ar" ? (n.label_ar||n.label_en) : (n.label_en||n.label_ar);
@@ -249,6 +255,7 @@ async function load(){
     PRODUCTS = data.products || [];
     applyI18n();
     render();
+    syncCart(); // re-resolve any cart restored from localStorage now that PRODUCTS is populated
   }catch(e){
     grid.innerHTML = `<p class="empty">${t().load_failed}</p>`;
   }
@@ -287,8 +294,8 @@ function render(){
   grid.innerHTML = items.length ? "" : `<p class="empty">${t().no_results}</p>`;
 
   items.forEach(p => {
-    const dupeMatches = (p.dupe_of||[]).map(name => ({ name, match: byId[slugify(name)] || null }));
-    const dupedBy = PRODUCTS.filter(o => o.id!==p.id && (o.dupe_of||[]).some(d => slugify(d)===p.id));
+    const dupeMatches = (p.dupe_of||[]).map(name => ({ name, match: byId[dupeSlug(name)] || null }));
+    const dupedBy = PRODUCTS.filter(o => o.id!==p.id && (o.dupe_of||[]).some(d => dupeSlug(d)===p.id));
 
     const card = document.createElement("article");
     card.className = "card";
@@ -431,6 +438,11 @@ function resolveCartLine(c){
 }
 
 function syncCart(){
+  // drop entries that no longer resolve (e.g. a catalog sync removed/reordered
+  // a store's offers) so a stale localStorage cart never shows a count that
+  // doesn't match what's actually displayed
+  if(PRODUCTS.length) cart = cart.filter(c => resolveCartLine(c) !== null);
+  saveCart();
   document.getElementById("cartCount").textContent = cart.reduce((a,c)=>a+c.qty,0);
   cartBody.innerHTML = cart.length ? "" : `<p class="empty">${t().empty}</p>`;
   cart.forEach((c,i)=>{
