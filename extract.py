@@ -67,6 +67,7 @@ import subprocess
 import sys
 import time
 import unicodedata
+from datetime import date
 import urllib.request
 import tempfile
 from pathlib import Path
@@ -461,6 +462,24 @@ def unique_id_for(catalog: dict, name_en: str, brand: str = "") -> str:
     return candidate
 
 
+def track_offer(old_offer, new_offer: dict) -> dict:
+    """Stamp a merged/new offer with the two fields index.html uses for the
+    "New" badge and the price-drop strikethrough:
+    - "first_seen": set once, the first time this kind+ml is seen for a
+      store, then carried forward unchanged on every later update.
+    - "prev_price": only present while the current price is a drop from
+      what it was last recorded at — self-clears once the price rises back
+      or is updated again, so there's no separate expiry date to track."""
+    out = dict(new_offer)
+    if old_offer is None:
+        out["first_seen"] = date.today().isoformat()
+    else:
+        out["first_seen"] = old_offer.get("first_seen") or date.today().isoformat()
+        if new_offer["price"] < old_offer["price"]:
+            out["prev_price"] = old_offer["price"]
+    return out
+
+
 def merge_store(product: dict, store_name: str, store_url: str, offers: list,
                  image_rel: str = None, product_url: str = None):
     """Find-or-create the named store on product, then merge offers into it
@@ -493,9 +512,9 @@ def merge_store(product: dict, store_name: str, store_url: str, offers: list,
             None,
         )
         if idx is not None:
-            store["offers"][idx] = offer
+            store["offers"][idx] = track_offer(store["offers"][idx], offer)
         else:
-            store["offers"].append(offer)
+            store["offers"].append(track_offer(None, offer))
 
 
 class QuotaExhausted(Exception):

@@ -78,10 +78,12 @@
   .store-thumb{width:26px;height:26px;border-radius:6px;object-fit:cover;cursor:zoom-in;flex-shrink:0}
   .store-link{font-size:.76rem;font-weight:500;border-bottom:1px dashed currentColor}
   .offers{display:flex;flex-wrap:wrap;gap:.4rem}
-  .offer-btn{border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:10px;padding:.4rem .7rem;cursor:pointer;font-family:inherit;font-size:.82rem;text-align:center}
+  .offer-btn{position:relative;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:10px;padding:.4rem .7rem;cursor:pointer;font-family:inherit;font-size:.82rem;text-align:center}
   .offer-btn b{display:block;font-size:.9rem;color:var(--olive-deep)}
   .offer-btn:hover{border-color:var(--olive)}
   .offer-btn:focus-visible{outline:3px solid var(--brass);outline-offset:2px}
+  .offer-btn .prev-price{opacity:.55;text-decoration:line-through;font-size:.78em;margin-inline-end:.25em}
+  .offer-btn .new-badge{position:absolute;top:-8px;inset-inline-end:-6px;background:var(--brass);color:#12140D;font-size:.6rem;font-weight:700;padding:.05rem .35rem;border-radius:6px;line-height:1.4}
 
   .overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:60;opacity:0;pointer-events:none;transition:opacity .2s}
   .overlay.open{opacity:1;pointer-events:auto}
@@ -183,7 +185,7 @@ const I18N = {
     full_tag:"full bottle", leftover_tag:"with bottle", as_shown:"as shown",
     toggle_lang:"العربية", theme_to_light:"☀️", theme_to_dark:"🌙", zoom_close:"Close",
     disclaimer:"Prices shown do not include shipping — each store/seller charges their own delivery fee.",
-    better_deal:"Better value:", view_listing:"View listing",
+    better_deal:"Better value:", view_listing:"View listing", new_badge:"New",
   },
   ar: {
     site_name:"قائمة أمنيات العطور", tag:"تقسيمات • زجاجات كاملة • بواقي تقسيم، مقارنة أسعار",
@@ -198,7 +200,7 @@ const I18N = {
     full_tag:"زجاجة كاملة", leftover_tag:"باقي تقسيم", as_shown:"كما بالصورة",
     toggle_lang:"English", theme_to_light:"☀️", theme_to_dark:"🌙", zoom_close:"إغلاق",
     disclaimer:"الأسعار الموضحة لا تشمل الشحن — كل متجر/بائع له مصاريف شحن مختلفة.",
-    better_deal:"سعر أفضل:", view_listing:"عرض المنتج",
+    better_deal:"سعر أفضل:", view_listing:"عرض المنتج", new_badge:"جديد",
   }
 };
 
@@ -229,6 +231,15 @@ function offerLabel(o){
   if(o.kind==="full") return `${size} "${t().full_tag}"`;
   if(o.kind==="leftover") return `${size} "${t().leftover_tag}"`;
   return size;
+}
+
+const NEW_BADGE_DAYS = 14;
+function isNewOffer(o){
+  if(!o.first_seen) return false;
+  // days can be slightly negative near a UTC day boundary (first_seen is a
+  // local calendar date, parsed here as UTC midnight) — still "new" either way
+  const days = (Date.now() - new Date(o.first_seen)) / 86400000;
+  return days <= NEW_BADGE_DAYS;
 }
 
 function productHasKind(p, kind){
@@ -322,7 +333,8 @@ function render(){
             <div class="offers">
               ${(s.offers||[]).map((o,oi)=>`
                 <button class="offer-btn" data-pid="${p.id}" data-si="${si}" data-oi="${oi}">
-                  ${offerLabel(o)} <b>${o.price}</b>
+                  ${isNewOffer(o) ? `<span class="new-badge">${t().new_badge}</span>` : ""}
+                  ${offerLabel(o)} <b>${o.prev_price ? `<span class="prev-price">${o.prev_price}</span>` : ""}${o.price}</b>
                 </button>`).join("")}
             </div>
           </div>`).join("")}

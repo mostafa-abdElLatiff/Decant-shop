@@ -33,7 +33,7 @@ import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from extract import slugify, accord_color, find_existing_product, unique_id_for, CATALOG  # noqa: E402
+from extract import slugify, accord_color, find_existing_product, unique_id_for, track_offer, CATALOG  # noqa: E402
 from rp_notes import translate_note, split_dupe  # noqa: E402
 
 COLLECTION_URL = "https://roseperfume.online/collections/men-fragrances/products.json"
@@ -177,10 +177,13 @@ def replace_store_offers(product: dict, offers: list, image_rel: str = None, pro
     product.setdefault("stores", [])
     store = next((s for s in product["stores"] if s["name"] == STORE_NAME), None)
     if store is None:
-        store = {"name": STORE_NAME, "url": STORE_URL, "offers": offers}
+        store = {"name": STORE_NAME, "url": STORE_URL, "offers": []}
         product["stores"].append(store)
-    else:
-        store["offers"] = offers
+    old_offers = store["offers"]
+    store["offers"] = [
+        track_offer(next((o for o in old_offers if o["kind"] == offer["kind"] and o["ml"] == offer["ml"]), None), offer)
+        for offer in offers
+    ]
     if image_rel:
         store["image"] = image_rel
     if product_url:

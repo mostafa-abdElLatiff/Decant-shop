@@ -66,10 +66,10 @@ Each product looks like:
       "product_url": "https://www.facebook.com/groups/.../posts/...",
       "image": "images/french-avenue-jasmere--ahmed-perfumes.jpg",
       "offers": [
-        { "kind": "decant", "ml": 5, "price": 450 },
-        { "kind": "full", "ml": 100, "price": 4400 },
-        { "kind": "leftover", "ml": 60, "price": 975 },
-        { "kind": "leftover", "ml": "as-shown", "price": 700 }
+        { "kind": "decant", "ml": 5, "price": 450, "first_seen": "2026-07-01" },
+        { "kind": "full", "ml": 100, "price": 4400, "first_seen": "2026-06-10", "prev_price": 4800 },
+        { "kind": "leftover", "ml": 60, "price": 975, "first_seen": "2026-05-20" },
+        { "kind": "leftover", "ml": "as-shown", "price": 700, "first_seen": "2026-05-20" }
       ]
     }
   ]
@@ -86,6 +86,15 @@ bottle — a box being visible, or a nominal capacity being printed on it, is
 *not* enough evidence on its own. If a `dupe_of` name matches another
 product already in the catalogue (by slugified name), the site cross-links
 them automatically — otherwise it's just shown as plain text.
+
+Each offer also carries `first_seen` (the date it was first added for that
+store, stamped automatically by `extract.py`/`sync_*.py`/`admin.html` —
+never hand-edit it) and, only while relevant, `prev_price` (the price it
+just dropped from). The site uses these for two small badges: a "New" tag
+on offers first seen in the last 14 days, and a struck-through old price
+next to the current one when it just dropped. `prev_price` clears itself
+automatically the next time the price rises back or changes again — there's
+nothing to maintain by hand.
 
 Each store entry can also carry `product_url` (the specific product page or
 Facebook post this listing came from — different from `url`, which is the

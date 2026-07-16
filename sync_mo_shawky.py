@@ -31,7 +31,7 @@ import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from extract import slugify, find_existing_product, unique_id_for, CATALOG  # noqa: E402
+from extract import slugify, find_existing_product, unique_id_for, track_offer, CATALOG  # noqa: E402
 from brand_prefixes import split_brand_prefix  # noqa: E402
 
 BASE_URL = "https://z-original-perfumes-decant.odoo.com"
@@ -151,17 +151,16 @@ def main():
 
         product.setdefault("stores", [])
         store = next((s for s in product["stores"] if s["name"] == STORE_NAME), None)
-        offer = {"kind": "decant", "ml": info["ml"], "price": info["price"]}
         if store is None:
-            store = {"name": STORE_NAME, "url": STORE_URL, "offers": [offer]}
+            store = {"name": STORE_NAME, "url": STORE_URL, "offers": []}
             product["stores"].append(store)
+        offer = {"kind": "decant", "ml": info["ml"], "price": info["price"]}
+        idx = next((i for i, o in enumerate(store["offers"])
+                    if o["kind"] == "decant" and o["ml"] == info["ml"]), None)
+        if idx is not None:
+            store["offers"][idx] = track_offer(store["offers"][idx], offer)
         else:
-            idx = next((i for i, o in enumerate(store["offers"])
-                        if o["kind"] == "decant" and o["ml"] == info["ml"]), None)
-            if idx is not None:
-                store["offers"][idx] = offer
-            else:
-                store["offers"].append(offer)
+            store["offers"].append(track_offer(None, offer))
         if store_image_rel:
             store["image"] = store_image_rel
         if info.get("product_url"):

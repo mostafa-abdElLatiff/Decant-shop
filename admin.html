@@ -298,6 +298,19 @@ function uniqueIdFor(data, nameEn, brand){
   return candidate;
 }
 
+/* ---------- offer history tracking (mirrors extract.py's track_offer) ---------- */
+function trackOffer(oldOffer, newOffer){
+  const out = {...newOffer};
+  const today = new Date().toISOString().slice(0,10);
+  if(!oldOffer){
+    out.first_seen = today;
+  } else {
+    out.first_seen = oldOffer.first_seen || today;
+    if(newOffer.price < oldOffer.price) out.prev_price = oldOffer.price;
+  }
+  return out;
+}
+
 /* ---------- store/offer merge (mirrors extract.py's merge_store) ---------- */
 function mergeStore(product, storeName, storeUrl, offers, productUrl, imageRel){
   product.stores = product.stores || [];
@@ -312,7 +325,7 @@ function mergeStore(product, storeName, storeUrl, offers, productUrl, imageRel){
   if(imageRel) store.image = imageRel;
   offers.forEach(offer => {
     const idx = store.offers.findIndex(o => o.kind===offer.kind && o.ml===offer.ml);
-    if(idx>=0) store.offers[idx] = offer; else store.offers.push(offer);
+    if(idx>=0) store.offers[idx] = trackOffer(store.offers[idx], offer); else store.offers.push(trackOffer(null, offer));
   });
 }
 
