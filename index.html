@@ -415,13 +415,15 @@ function addToCart(productId, storeIdx, offerIdx){
    kind (decant/full/leftover) across every store, is there one with a
    lower price-per-ml? "as-shown" offers have no known quantity so they're
    excluded from the comparison — there's no fair per-ml basis for them. */
-function findBestDeal(product, kind){
+function findBestDeal(product, kind, ml){
+  // same kind AND same exact size only — a bigger size being cheaper per ml
+  // is normal and not what "is this a good deal" should be flagging here
+  if(ml === "as-shown" || !ml) return null;
   let best = null;
   (product.stores||[]).forEach(s => {
     (s.offers||[]).forEach(o => {
-      if(o.kind !== kind || o.ml === "as-shown" || !o.ml) return;
-      const perMl = o.price / o.ml;
-      if(!best || perMl < best.perMl) best = { store: s, offer: o, perMl };
+      if(o.kind !== kind || o.ml !== ml) return;
+      if(!best || o.price < best.offer.price) best = { store: s, offer: o };
     });
   });
   return best;
@@ -450,11 +452,9 @@ function syncCart(){
     if(!line) return;
     const { p, s, o } = line;
     let tip = "";
-    if(o.ml !== "as-shown" && o.ml){
-      const best = findBestDeal(p, o.kind);
-      if(best && best.offer.price / best.offer.ml < o.price / o.ml - 1e-9){
-        tip = `<div class="cart-tip">💡 ${t().better_deal} ${best.store.name} — ${offerLabel(best.offer)} ${best.offer.price}</div>`;
-      }
+    const best = findBestDeal(p, o.kind, o.ml);
+    if(best && best.offer.price < o.price){
+      tip = `<div class="cart-tip">💡 ${t().better_deal} ${best.store.name} — ${offerLabel(best.offer)} ${best.offer.price}</div>`;
     }
     const row = document.createElement("div");
     row.className = "cart-item";
