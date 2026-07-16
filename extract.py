@@ -467,7 +467,13 @@ def find_existing_product(catalog: dict, name_en: str, brand: str = ""):
     id alone) — a brand-disambiguated id like "khanjar-lattafa" wouldn't
     equal slugify("Khanjar")=="khanjar", so a later run for the same
     name+brand needs the name-string check to find it again instead of
-    creating a duplicate."""
+    creating a duplicate.
+
+    The fuzzy pass strips each side's own brand words out of its name
+    tokens before comparing — some sources fold the brand into name_en
+    ("Kenzo Homme Indigo"), others keep it purely in the brand field with
+    a bare product name ("Homme Indigo", brand "Kenzo"); without this,
+    those look like different products and silently duplicate."""
     exact_id = slugify(name_en)
     name_key = re.sub(r"\s+", " ", (name_en or "").strip().lower())
     for p in catalog["products"]:
@@ -476,11 +482,12 @@ def find_existing_product(catalog: dict, name_en: str, brand: str = ""):
                 and _brands_match(p.get("brand", ""), brand):
             return p
 
-    core = _tokens(name_en)
+    core = _tokens(name_en) - _brand_tokens(brand)
     if len(core) < 2:
         return None
     for p in catalog["products"]:
-        if _tokens(p["name_en"]) == core and _brands_match(p.get("brand", ""), brand):
+        p_core = _tokens(p["name_en"]) - _brand_tokens(p.get("brand", ""))
+        if p_core == core and _brands_match(p.get("brand", ""), brand):
             return p
     return None
 

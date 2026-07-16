@@ -1513,6 +1513,20 @@
             }
           ],
           "image": "images/fahad-gaze.jpg"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1600,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/fahad-gaze-arabiyat-prestige--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/fahad-gaze-arabiyat-prestige"
         }
       ]
     },
@@ -4641,7 +4655,9 @@
               "price": 1650,
               "first_seen": "2026-01-01"
             }
-          ]
+          ],
+          "image": "images/club-de-nuit-intense-man-armaf--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/club-de-nuit-intense-man-armaf"
         },
         {
           "name": "sniffz",
@@ -6968,6 +6984,20 @@
             }
           ],
           "image": "images/urban-man-le-parfum.jpg"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 850,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/urban-man-le-parfum-fragrance-world--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/urban-man-le-parfum-fragrance-world"
         }
       ]
     },
@@ -7177,7 +7207,9 @@
               "price": 1600,
               "first_seen": "2026-01-01"
             }
-          ]
+          ],
+          "image": "images/9pm-elixir-afnan--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/9pm-elixir-afnan"
         },
         {
           "name": "sniffz",
@@ -10631,7 +10663,26 @@
       "brand": "Kenzo",
       "dupe_of": [],
       "image": "images/kenzo-homme-eau-de-parfum.jpg",
-      "accords": [],
+      "accords": [
+        {
+          "label_en": "Sea Notes",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 100
+        },
+        {
+          "label_en": "Leather",
+          "label_ar": "",
+          "color": "#78483A",
+          "w": 90
+        },
+        {
+          "label_en": "Patchouli",
+          "label_ar": "",
+          "color": "#63652e",
+          "w": 80
+        }
+      ],
       "stores": [
         {
           "name": "Mostafa Mohamed",
@@ -10674,7 +10725,9 @@
               "price": 4650,
               "first_seen": "2026-01-01"
             }
-          ]
+          ],
+          "image": "images/homme-eau-de-parfum--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/kenzo-homme-eau-de-parfum-1"
         }
       ]
     },
@@ -11106,11 +11159,19 @@
           "offers": [
             {
               "kind": "decant",
+              "ml": 5,
+              "price": 225,
+              "first_seen": "2026-07-17"
+            },
+            {
+              "kind": "decant",
               "ml": 10,
               "price": 380,
               "first_seen": "2026-01-01"
             }
-          ]
+          ],
+          "image": "images/homme-indigo--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/kenzo-homme-indigo-10ml-356"
         }
       ]
     },
@@ -12305,30 +12366,6 @@
       ]
     },
     {
-      "id": "valentino-uomo-intense",
-      "name_ar": "Valentino Uomo Intense",
-      "name_en": "Valentino Uomo Intense",
-      "brand": "Valentino",
-      "dupe_of": [],
-      "image": "images/valentino-uomo-intense.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Mostafa Mohamed",
-          "url": "https://www.facebook.com/mostafa.mohamed.390048/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 600,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/valentino-uomo-intense.jpg"
-        }
-      ]
-    },
-    {
       "id": "roberto-cavalli-uomo",
       "name_ar": "Roberto Cavalli Uomo",
       "name_en": "Roberto Cavalli Uomo",
@@ -12621,6 +12658,12 @@
           "name": "Mostafa Mohamed",
           "url": "https://www.facebook.com/mostafa.mohamed.390048/",
           "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 600,
+              "first_seen": "2026-01-01"
+            },
             {
               "kind": "leftover",
               "ml": "as-shown",
@@ -14263,7 +14306,9 @@
               "price": 2250,
               "first_seen": "2026-01-01"
             }
-          ]
+          ],
+          "image": "images/turathi-blue--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/afnan-turathi-blue"
         }
       ]
     },
@@ -15093,88 +15138,6 @@
           ],
           "image": "images/obsidian-rayhaan--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/obsidian-rayhaan"
-        }
-      ]
-    },
-    {
-      "id": "fahad-gaze-arabiyat-prestige",
-      "name_ar": "",
-      "name_en": "Fahad Gaze Arabiyat Prestige",
-      "brand": "Arabiyat Prestige",
-      "dupe_of": [
-        "Guilty Elixir de Parfum pour Homme — Gucci"
-      ],
-      "image": "images/fahad-gaze-arabiyat-prestige.jpg",
-      "accords": [
-        {
-          "label_en": "Metallic",
-          "label_ar": "النوتات المعدنية",
-          "color": "#97B0B7",
-          "w": 100
-        },
-        {
-          "label_en": "Spices",
-          "label_ar": "رائحه التوابل",
-          "color": "#9C9C9C",
-          "w": 90
-        },
-        {
-          "label_en": "Elemi",
-          "label_ar": "الإليمي",
-          "color": "#9C9C9C",
-          "w": 80
-        },
-        {
-          "label_en": "Orange Blossom",
-          "label_ar": "زهر البرتقال",
-          "color": "#9C9C9C",
-          "w": 70
-        },
-        {
-          "label_en": "Patchouli",
-          "label_ar": "الباتشولي",
-          "color": "#63652e",
-          "w": 60
-        },
-        {
-          "label_en": "Incense",
-          "label_ar": "البخور",
-          "color": "#9C9C9C",
-          "w": 50
-        },
-        {
-          "label_en": "Vanilla",
-          "label_ar": "تتكون من الفانيليا",
-          "color": "#FFFEC0",
-          "w": 40
-        },
-        {
-          "label_en": "Ambergris",
-          "label_ar": "الآمبرغريس",
-          "color": "#bc4d10",
-          "w": 40
-        },
-        {
-          "label_en": "Moss",
-          "label_ar": "الطحالب",
-          "color": "#5B6B32",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1600,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/fahad-gaze-arabiyat-prestige--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/fahad-gaze-arabiyat-prestige"
         }
       ]
     },
@@ -16658,100 +16621,6 @@
       ]
     },
     {
-      "id": "hawas-elixir-rasasi",
-      "name_ar": "",
-      "name_en": "Hawas Elixir Rasasi",
-      "brand": "Rasasi",
-      "dupe_of": [
-        "Le Male Elixir — Jean Paul Gaultier"
-      ],
-      "image": "images/hawas-elixir-rasasi.jpg",
-      "accords": [
-        {
-          "label_en": "Wormwood",
-          "label_ar": "الشيح",
-          "color": "#9C9C9C",
-          "w": 100
-        },
-        {
-          "label_en": "Bergamot",
-          "label_ar": "البرغموت",
-          "color": "#F9FF52",
-          "w": 90
-        },
-        {
-          "label_en": "Mint",
-          "label_ar": "النعناع",
-          "color": "#9C9C9C",
-          "w": 80
-        },
-        {
-          "label_en": "Dark Chocolate",
-          "label_ar": "الشيكولاته الداكنة",
-          "color": "#603000",
-          "w": 70
-        },
-        {
-          "label_en": "Lavender",
-          "label_ar": "اللافندر",
-          "color": "#9B7DB8",
-          "w": 60
-        },
-        {
-          "label_en": "Benzoin",
-          "label_ar": "البنزوين",
-          "color": "#9C9C9C",
-          "w": 50
-        },
-        {
-          "label_en": "White Musk",
-          "label_ar": "المسك الأبيض",
-          "color": "#E7D8EA",
-          "w": 40
-        },
-        {
-          "label_en": "Tonka Bean",
-          "label_ar": "حبوب التونكا",
-          "color": "#FFFEC0",
-          "w": 40
-        },
-        {
-          "label_en": "Vanilla",
-          "label_ar": "الفانيليا",
-          "color": "#FFFEC0",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1400,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/hawas-elixir-rasasi--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/hawas-elixir-rasasi"
-        },
-        {
-          "name": "MO Shawky",
-          "url": "https://www.facebook.com/mo.freeto.play/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 220,
-              "first_seen": "2026-01-01"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "emper-genius-ranger",
       "name_ar": "",
       "name_en": "Emper Genius Ranger",
@@ -17667,70 +17536,6 @@
           ],
           "image": "images/l-immensit-nuit-de-noir-milestone-perfumes--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/limmensite-nuit-de-noir-milestone-perfumes"
-        }
-      ]
-    },
-    {
-      "id": "urban-man-le-parfum-fragrance-world",
-      "name_ar": "",
-      "name_en": "Urban Man Le Parfum Fragrance World",
-      "brand": "Fragrance World",
-      "dupe_of": [
-        "Le Male Le Parfum — Jean Paul Gaultier"
-      ],
-      "image": "images/urban-man-le-parfum-fragrance-world.jpg",
-      "accords": [
-        {
-          "label_en": "Cardamom",
-          "label_ar": "الهيل",
-          "color": "#CC3300",
-          "w": 100
-        },
-        {
-          "label_en": "Lavender",
-          "label_ar": "الخزامى",
-          "color": "#9B7DB8",
-          "w": 90
-        },
-        {
-          "label_en": "Iris",
-          "label_ar": "السوسن",
-          "color": "#b7a7d7",
-          "w": 80
-        },
-        {
-          "label_en": "Vanilla",
-          "label_ar": "الفانيليا",
-          "color": "#FFFEC0",
-          "w": 70
-        },
-        {
-          "label_en": "Oriental",
-          "label_ar": "نفحات شرقية",
-          "color": "#9C9C9C",
-          "w": 60
-        },
-        {
-          "label_en": "Woody Notes",
-          "label_ar": "نفحات خشبية",
-          "color": "#774414",
-          "w": 50
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 90,
-              "price": 850,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/urban-man-le-parfum-fragrance-world--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/urban-man-le-parfum-fragrance-world"
         }
       ]
     },
@@ -19128,100 +18933,6 @@
           ],
           "image": "images/proud-of-you-intense-fragrance-world--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/proud-of-you-intense-fragrance-world"
-        }
-      ]
-    },
-    {
-      "id": "an-equestrian-series-haydan-french-avenue",
-      "name_ar": "",
-      "name_en": "An Equestrian Series Haydan French Avenue",
-      "brand": "French avenue",
-      "dupe_of": [
-        "Haltane — Parfums de Marly"
-      ],
-      "image": "images/an-equestrian-series-haydan-french-avenue.jpg",
-      "accords": [
-        {
-          "label_en": "Lavender",
-          "label_ar": "الخزامي",
-          "color": "#9B7DB8",
-          "w": 100
-        },
-        {
-          "label_en": "Sage",
-          "label_ar": "المريمية",
-          "color": "#6CA47F",
-          "w": 90
-        },
-        {
-          "label_en": "Bergamot",
-          "label_ar": "البرغموت",
-          "color": "#F9FF52",
-          "w": 80
-        },
-        {
-          "label_en": "Almond",
-          "label_ar": "حلوي اللوز",
-          "color": "#C68E5A",
-          "w": 70
-        },
-        {
-          "label_en": "Saffron",
-          "label_ar": "الزعفران",
-          "color": "#9C9C9C",
-          "w": 60
-        },
-        {
-          "label_en": "Cedarwood",
-          "label_ar": "خشب الأرز",
-          "color": "#774414",
-          "w": 50
-        },
-        {
-          "label_en": "Leather",
-          "label_ar": "تتكون من الجلود",
-          "color": "#78483A",
-          "w": 40
-        },
-        {
-          "label_en": "Lemongrass",
-          "label_ar": "نجيل الهند",
-          "color": "#9C9C9C",
-          "w": 40
-        },
-        {
-          "label_en": "Patchouli",
-          "label_ar": "الباتشولي",
-          "color": "#63652e",
-          "w": 40
-        },
-        {
-          "label_en": "Musk",
-          "label_ar": "المسك",
-          "color": "#E7D8EA",
-          "w": 40
-        },
-        {
-          "label_en": "Oakmoss",
-          "label_ar": "طحلب البلوط (طحلب السنديان)",
-          "color": "#5B6B32",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1550,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/an-equestrian-series-haydan-french-avenue--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/an-equestrian-series-haydan-french-avenue"
         }
       ]
     },
@@ -21055,6 +20766,20 @@
             }
           ],
           "image": "images/haydan-an-equestrian-series.jpg"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1550,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/an-equestrian-series-haydan-french-avenue--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/an-equestrian-series-haydan-french-avenue"
         }
       ]
     },
@@ -32175,7 +31900,9 @@
       "name_ar": "",
       "name_en": "Hawas Elixir",
       "brand": "Rasasi",
-      "dupe_of": [],
+      "dupe_of": [
+        "Le Male Elixir — Jean Paul Gaultier"
+      ],
       "image": "images/hawas-elixir.jpg",
       "accords": [
         {
@@ -32261,6 +31988,20 @@
           ],
           "image": "images/hawas-elixir--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/rasasi-hawas-elixir-10-ml-56"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1400,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/hawas-elixir-rasasi--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/hawas-elixir-rasasi"
         }
       ]
     },
@@ -38622,42 +38363,6 @@
       ]
     },
     {
-      "id": "dior-homme-parfum-2025",
-      "name_ar": "Dior Homme Parfum 2025",
-      "name_en": "Dior Homme Parfum 2025",
-      "brand": "Dior",
-      "dupe_of": [],
-      "image": "images/dior-homme-parfum-2025.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Hossam ElDeen Gamal",
-          "url": "https://www.facebook.com/hossameldeien/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 325,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 475,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 850,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/dior-homme-parfum-2025--hossam-eldeen-gamal.jpg"
-        }
-      ]
-    },
-    {
       "id": "divine-vanille-by-olivier-pescheux",
       "name_ar": "Divine Vanille by Olivier Pescheux",
       "name_en": "Divine Vanille by Olivier Pescheux",
@@ -38910,37 +38615,6 @@
           ],
           "image": "images/signature-mont-blanc--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/montblanc-signature-10ml-380"
-        }
-      ]
-    },
-    {
-      "id": "homme-indigo",
-      "name_ar": "",
-      "name_en": "Homme Indigo",
-      "brand": "Kenzo",
-      "dupe_of": [],
-      "image": "images/homme-indigo.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "MO Shawky",
-          "url": "https://www.facebook.com/mo.freeto.play/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 225,
-              "first_seen": "2026-07-17"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 380,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/homme-indigo--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/kenzo-homme-indigo-10ml-356"
         }
       ]
     },
@@ -39313,86 +38987,6 @@
       ]
     },
     {
-      "id": "turathi-blue",
-      "name_ar": "",
-      "name_en": "Turathi Blue",
-      "brand": "Afnan",
-      "dupe_of": [],
-      "image": "images/turathi-blue.jpg",
-      "accords": [
-        {
-          "label_en": "Citruses",
-          "label_ar": "",
-          "color": "#F9FF52",
-          "w": 100
-        },
-        {
-          "label_en": "Amber",
-          "label_ar": "",
-          "color": "#bc4d10",
-          "w": 90
-        },
-        {
-          "label_en": "Woodsy Notes",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 80
-        },
-        {
-          "label_en": "Musk",
-          "label_ar": "",
-          "color": "#E7D8EA",
-          "w": 70
-        },
-        {
-          "label_en": "Patchouli",
-          "label_ar": "",
-          "color": "#63652e",
-          "w": 60
-        },
-        {
-          "label_en": "Spices",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 50
-        }
-      ],
-      "stores": [
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 140,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 180,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 300,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "full",
-              "ml": 90,
-              "price": 2250,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/turathi-blue--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/afnan-turathi-blue"
-        }
-      ]
-    },
-    {
       "id": "acqua-di-gi-profondo-old-batch",
       "name_ar": "",
       "name_en": "Acqua di Giò Profondo (Old batch)",
@@ -39499,68 +39093,6 @@
           ],
           "image": "images/acqua-di-gi-profondo-old-batch--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/armani-acqua-di-gio-profondo"
-        }
-      ]
-    },
-    {
-      "id": "homme-eau-de-parfum",
-      "name_ar": "",
-      "name_en": "Homme Eau de Parfum",
-      "brand": "Kenzo",
-      "dupe_of": [],
-      "image": "images/homme-eau-de-parfum.jpg",
-      "accords": [
-        {
-          "label_en": "Sea Notes",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 100
-        },
-        {
-          "label_en": "Leather",
-          "label_ar": "",
-          "color": "#78483A",
-          "w": 90
-        },
-        {
-          "label_en": "Patchouli",
-          "label_ar": "",
-          "color": "#63652e",
-          "w": 80
-        }
-      ],
-      "stores": [
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 275,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 380,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 600,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "full",
-              "ml": 110,
-              "price": 4650,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/homme-eau-de-parfum--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/kenzo-homme-eau-de-parfum-1"
         }
       ]
     },
@@ -39777,6 +39309,31 @@
           ],
           "image": "images/homme-parfum-2025--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/dior-homme-parfum-2025"
+        },
+        {
+          "name": "Hossam ElDeen Gamal",
+          "url": "https://www.facebook.com/hossameldeien/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 325,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 475,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 850,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/dior-homme-parfum-2025--hossam-eldeen-gamal.jpg"
         }
       ]
     },
@@ -40085,212 +39642,6 @@
           ],
           "image": "images/tom-ford-ombr-leather--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/tom-ford-tom-ford-ombre-leather-full-sealed"
-        }
-      ]
-    },
-    {
-      "id": "9pm-elixir-afnan",
-      "name_ar": "",
-      "name_en": "9PM Elixir Afnan",
-      "brand": "Afnan",
-      "dupe_of": [
-        "Le Male Elixir Absolu — Jean Paul Gaultier"
-      ],
-      "image": "images/9pm-elixir-afnan.jpg",
-      "accords": [
-        {
-          "label_en": "Cardamom",
-          "label_ar": "الهيل",
-          "color": "#CC3300",
-          "w": 100
-        },
-        {
-          "label_en": "Nutmeg",
-          "label_ar": "جوزه الطيب",
-          "color": "#CC3300",
-          "w": 90
-        },
-        {
-          "label_en": "Elemi",
-          "label_ar": "الإليمي",
-          "color": "#9C9C9C",
-          "w": 80
-        },
-        {
-          "label_en": "Pepper",
-          "label_ar": "الفلفل الحلو الاسباني",
-          "color": "#9C9C9C",
-          "w": 70
-        },
-        {
-          "label_en": "Leather",
-          "label_ar": "الجلود",
-          "color": "#78483A",
-          "w": 60
-        },
-        {
-          "label_en": "Lavender",
-          "label_ar": "الخزامي",
-          "color": "#9B7DB8",
-          "w": 50
-        },
-        {
-          "label_en": "Vanilla",
-          "label_ar": "تتكون من الفانيليا",
-          "color": "#FFFEC0",
-          "w": 40
-        },
-        {
-          "label_en": "Patchouli",
-          "label_ar": "الباتشولي",
-          "color": "#63652e",
-          "w": 40
-        },
-        {
-          "label_en": "Labdanum",
-          "label_ar": "اللابدانوم",
-          "color": "#9C9C9C",
-          "w": 40
-        },
-        {
-          "label_en": "Rockrose",
-          "label_ar": "الورد الصخري",
-          "color": "#FE016B",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1600,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/9pm-elixir-afnan--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/9pm-elixir-afnan"
-        }
-      ]
-    },
-    {
-      "id": "club-de-nuit-intense-man-armaf",
-      "name_ar": "",
-      "name_en": "Club de Nuit Intense Man Armaf",
-      "brand": "Armaf",
-      "dupe_of": [
-        "Aventus — Creed"
-      ],
-      "image": "images/club-de-nuit-intense-man-armaf.jpg",
-      "accords": [
-        {
-          "label_en": "Lemon",
-          "label_ar": "الليمون",
-          "color": "#9C9C9C",
-          "w": 100
-        },
-        {
-          "label_en": "Pineapple",
-          "label_ar": "الأناناس",
-          "color": "#9C9C9C",
-          "w": 90
-        },
-        {
-          "label_en": "Bergamot",
-          "label_ar": "البرغموت",
-          "color": "#F9FF52",
-          "w": 80
-        },
-        {
-          "label_en": "Blackcurrant",
-          "label_ar": "الكشمش الأسود",
-          "color": "#9C9C9C",
-          "w": 70
-        },
-        {
-          "label_en": "Apple",
-          "label_ar": "التفاح",
-          "color": "#FC4B29",
-          "w": 60
-        },
-        {
-          "label_en": "Birch",
-          "label_ar": "أخشاب البتولا",
-          "color": "#9C9C9C",
-          "w": 50
-        },
-        {
-          "label_en": "Jasmine",
-          "label_ar": "الياسمين",
-          "color": "#9C9C9C",
-          "w": 40
-        },
-        {
-          "label_en": "Rose",
-          "label_ar": "الورد",
-          "color": "#FE016B",
-          "w": 40
-        },
-        {
-          "label_en": "Musk",
-          "label_ar": "تتكون من المسك",
-          "color": "#E7D8EA",
-          "w": 40
-        },
-        {
-          "label_en": "Ambergris",
-          "label_ar": "الآمبرغريس",
-          "color": "#bc4d10",
-          "w": 40
-        },
-        {
-          "label_en": "Patchouli",
-          "label_ar": "الباتشولي",
-          "color": "#63652e",
-          "w": 40
-        },
-        {
-          "label_en": "Vanilla",
-          "label_ar": "الفانيليا",
-          "color": "#FFFEC0",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 110,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 200,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 575,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1650,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/club-de-nuit-intense-man-armaf--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/club-de-nuit-intense-man-armaf"
         }
       ]
     },

@@ -34,13 +34,13 @@ point so you're not building from scratch.
 
 | File | What it is |
 |---|---|
-| `index.html` | The catalogue. Filter by decant/full/leftover and by store, search (🔍 icon in the header opens it from anywhere on the page without scrolling up), click a fragrance's photo to zoom, cart shows a thumbnail + a "better value elsewhere" tip per line when one exists. |
+| `index.html` | The catalogue. Filter by decant/full/leftover and by store, sort by newest/oldest/cheapest, search (🔍 icon in the header opens it from anywhere on the page without scrolling up), click a fragrance's or a store's photo to zoom, cart shows a thumbnail + a "better value elsewhere" tip per line when one exists. |
 | `products.json` | Fragrances, their Fragrantica-style notes, what they're a dupe of (if any), and every store offering them. |
 | `admin.html` | Manual editor: add a fragrance, add/update a store's offers, or **edit an existing fragrance's name/brand/notes in place** (search the product list at the bottom, click تعديل/Edit). Commits directly to this repo via the GitHub API. |
 | `extract.py` | The underlying batch tool for *any* Facebook seller's post — the two `update_*.py` scripts below are just this pre-filled with a store's name/link. Claude (default) reads each post image and extracts name, dupe info, notes, and sizes/prices; `--gemini` or `--local` (Ollama) are available as alternate backends. |
 | `update_eslam_nasser.py`, `update_mostafa_mohamed.py` | One-line wrappers around `extract.py` for these two Facebook sellers — just pass a post URL. |
 | `sync_roseperfume.py`, `sync_sniffz.py` | Fully automatic, no-AI sync for these two Shopify stores — re-polls their product API and updates offers. |
-| `sync_mo_shawky.py` | Fully automatic, no-AI sync for MO Shawky's Odoo storefront — Odoo doesn't expose a JSON API like Shopify does, so this parses the product grid HTML directly. |
+| `sync_mo_shawky.py` | Fully automatic, no-AI sync for MO Shawky's Odoo storefront — Odoo doesn't expose a JSON API like Shopify does, so this parses the product grid HTML directly. The shop grid only shows one size per fragrance even when others exist as separate listings, so this also visits each listing's own page to follow the sibling-size buttons MO Shawky adds to the description. |
 | `brand_prefixes.py` | Shared "Brand Fragrance Name" recognition table used by `sync_mo_shawky.py` and `sync_sniffz.py` (stores whose listings don't have a separate structured brand field). |
 | `rp_notes.py` | Arabic→English note-name translation table used by `sync_roseperfume.py`. |
 | `find_duplicates.py` | Read-only report of likely duplicate products worth merging by hand — run occasionally (see Maintenance below). |
@@ -107,6 +107,12 @@ photo set once and left alone) specifically so a "leftover — as shown"
 offer always shows the bottle it was actually photographed with, never a
 different store's picture of the same fragrance.
 
+The product-level `image` (the card/hero photo) prefers a clean product
+page photo from roseperfume/sniffz/MO Shawky over a Facebook seller's
+phone photo whenever both exist — `sync_*.py` for those three stores will
+upgrade the hero photo the first time they sync a product that only had a
+Facebook-sourced one, then leave it alone.
+
 ### Matching — how a scraped/extracted item finds its product
 
 `find_existing_product()` (in `extract.py`, shared by every `sync_*.py`
@@ -130,7 +136,10 @@ Accord/note colors come from a fixed table (`ACCORD_COLORS` in `extract.py`,
 mirrored in `admin.html`) matching Fragrantica's own "main accords" bar
 colors — the same note always gets the same color across every fragrance.
 Adding a new note name to that table (once) is all that's needed for it to
-color correctly everywhere going forward.
+color correctly everywhere going forward. A note that shows up more than
+once for the same fragrance (common on `--dupe-pattern` extractions, which
+read notes off two different reference fragrances that can share some) is
+deduplicated automatically, keeping the first/most prominent occurrence.
 
 ## Deploy (once, ~5 minutes)
 

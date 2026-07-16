@@ -85,7 +85,11 @@ def parse_detail_page(page_html: str) -> dict:
     own listing) — the grid never shows these, only the detail page does."""
     title_m = re.search(r'<h1 class="h3 ">([^<]+)</h1>', page_html)
     price_m = re.search(r'oe_currency_value">([\d.]+)</span>\s*LE', page_html)
-    img_m = re.search(r'data-zoom-image="([^"]+)"', page_html)
+    # data-zoom-image isn't present on every listing (depends on whether
+    # zoom is enabled for that product) — the plain product image src is
+    # always there and there's exactly one per detail page, so prefer it
+    img_m = re.search(r'src="(/web/image/product\.product/[^"]+)"', page_html) \
+        or re.search(r'data-zoom-image="([^"]+)"', page_html)
     siblings = re.findall(r'href="(/shop/[^"]+)" class="btn btn-primary"', page_html)
     if not title_m or not price_m:
         return None

@@ -142,6 +142,7 @@
   <button class="chip" data-filter="full" aria-pressed="false"></button>
   <button class="chip" data-filter="leftover" aria-pressed="false"></button>
   <select class="store-select" id="storeFilter"></select>
+  <select class="store-select" id="sortOrder"></select>
 </div>
 <p class="disclaimer" id="disclaimer"></p>
 
@@ -186,9 +187,10 @@ const I18N = {
     toggle_lang:"العربية", theme_to_light:"☀️", theme_to_dark:"🌙", zoom_close:"Close",
     disclaimer:"Prices shown do not include shipping — each store/seller charges their own delivery fee.",
     better_deal:"Better value:", view_listing:"View listing", new_badge:"New",
+    sort_default:"Sort: default", sort_newest:"Newest first", sort_oldest:"Oldest first", sort_cheapest:"Cheapest first",
   },
   ar: {
-    site_name:"قائمة أمنيات العطور", tag:"تقسيمات • زجاجات كاملة • بواقي تقسيم، مقارنة أسعار",
+    site_name:"ليسته", tag:"تقسيمات • زجاجات كاملة • بواقي تقسيم، مقارنة أسعار",
     search_ph:"ابحث باسم العطر أو البراند…",
     filter_all:"الكل", filter_decant:"تقسيمات", filter_full:"زجاجات كاملة", filter_leftover:"بواقي تقسيم",
     store_all:"كل المتاجر",
@@ -201,6 +203,7 @@ const I18N = {
     toggle_lang:"English", theme_to_light:"☀️", theme_to_dark:"🌙", zoom_close:"إغلاق",
     disclaimer:"الأسعار الموضحة لا تشمل الشحن — كل متجر/بائع له مصاريف شحن مختلفة.",
     better_deal:"سعر أفضل:", view_listing:"عرض المنتج", new_badge:"جديد",
+    sort_default:"الترتيب: الافتراضي", sort_newest:"الأحدث أولاً", sort_oldest:"الأقدم أولاً", sort_cheapest:"الأرخص أولاً",
   }
 };
 
@@ -211,6 +214,7 @@ try{ cart = JSON.parse(localStorage.getItem("cart") || "[]"); }catch{ cart = [];
 const saveCart = () => localStorage.setItem("cart", JSON.stringify(cart));
 let filter = "all";
 let storeFilter = "all";
+let sortOrder = "default";
 let query = "";
 let lang = localStorage.getItem("lang") || "en";
 let theme = localStorage.getItem("theme") || "dark";
@@ -260,6 +264,30 @@ function populateStoreFilter(){
   storeFilter = sel.value;
 }
 
+function populateSortOrder(){
+  const sel = document.getElementById("sortOrder");
+  const prev = sel.value || "default";
+  sel.innerHTML = `
+    <option value="default">${t().sort_default}</option>
+    <option value="newest">${t().sort_newest}</option>
+    <option value="oldest">${t().sort_oldest}</option>
+    <option value="cheapest">${t().sort_cheapest}</option>`;
+  sel.value = prev;
+  sortOrder = sel.value;
+}
+
+function productCheapestPrice(p){
+  let min = Infinity;
+  (p.stores||[]).forEach(s => (s.offers||[]).forEach(o => { if(o.price < min) min = o.price; }));
+  return min;
+}
+
+function productNewestDate(p){
+  let latest = "";
+  (p.stores||[]).forEach(s => (s.offers||[]).forEach(o => { if(o.first_seen && o.first_seen > latest) latest = o.first_seen; }));
+  return latest;
+}
+
 async function load(){
   try{
     const res = await fetch("products.json?v=" + Date.now());
@@ -293,6 +321,7 @@ function applyI18n(){
   document.getElementById("disclaimer").textContent = t().disclaimer;
   document.getElementById("cartDisclaimer").textContent = t().disclaimer;
   populateStoreFilter();
+  populateSortOrder();
 }
 
 function render(){
@@ -304,6 +333,9 @@ function render(){
     (storeFilter==="all" || productHasStore(p, storeFilter)) &&
     (!q || (p.name_ar||"").toLowerCase().includes(q) || (p.name_en||"").toLowerCase().includes(q) || (p.brand||"").toLowerCase().includes(q))
   );
+  if(sortOrder==="newest") items.sort((a,b) => productNewestDate(b).localeCompare(productNewestDate(a)));
+  else if(sortOrder==="oldest") items.sort((a,b) => productNewestDate(a).localeCompare(productNewestDate(b)));
+  else if(sortOrder==="cheapest") items.sort((a,b) => productCheapestPrice(a) - productCheapestPrice(b));
   grid.innerHTML = items.length ? "" : `<p class="empty">${t().no_results}</p>`;
 
   items.forEach(p => {
@@ -393,6 +425,7 @@ document.querySelectorAll(".chip").forEach(ch => ch.addEventListener("click", ()
 }));
 document.getElementById("search").addEventListener("input", e=>{ query=e.target.value; render(); });
 document.getElementById("storeFilter").addEventListener("change", e=>{ storeFilter=e.target.value; render(); });
+document.getElementById("sortOrder").addEventListener("change", e=>{ sortOrder=e.target.value; render(); });
 
 const headerSearch = document.getElementById("headerSearch");
 const toggleSearchBtn = document.getElementById("toggleSearch");
