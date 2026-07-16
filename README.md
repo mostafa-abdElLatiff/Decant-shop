@@ -37,7 +37,7 @@ point so you're not building from scratch.
 | `index.html` | The catalogue. Filter by decant/full/leftover and by store, search (🔍 icon in the header opens it from anywhere on the page without scrolling up), click a fragrance's photo to zoom, cart shows a thumbnail + a "better value elsewhere" tip per line when one exists. |
 | `products.json` | Fragrances, their Fragrantica-style notes, what they're a dupe of (if any), and every store offering them. |
 | `admin.html` | Manual editor: add a fragrance, add/update a store's offers, or **edit an existing fragrance's name/brand/notes in place** (search the product list at the bottom, click تعديل/Edit). Commits directly to this repo via the GitHub API. |
-| `extract.py` | The underlying batch tool for *any* Facebook seller's post — the two `update_*.py` scripts below are just this pre-filled with a store's name/link. Gemini (free tier) reads each post image and extracts name, dupe info, notes, and sizes/prices. |
+| `extract.py` | The underlying batch tool for *any* Facebook seller's post — the two `update_*.py` scripts below are just this pre-filled with a store's name/link. Claude (default) reads each post image and extracts name, dupe info, notes, and sizes/prices; `--gemini` or `--local` (Ollama) are available as alternate backends. |
 | `update_eslam_nasser.py`, `update_mostafa_mohamed.py` | One-line wrappers around `extract.py` for these two Facebook sellers — just pass a post URL. |
 | `sync_roseperfume.py`, `sync_sniffz.py` | Fully automatic, no-AI sync for these two Shopify stores — re-polls their product API and updates offers. |
 | `sync_mo_shawky.py` | Fully automatic, no-AI sync for MO Shawky's Odoo storefront — Odoo doesn't expose a JSON API like Shopify does, so this parses the product grid HTML directly. |
@@ -110,8 +110,8 @@ For EsLam Nasser or Mostafa Mohamed, just run their `update_*.py` script
 seller:
 
 ```bash
-pip install google-genai
-export GEMINI_API_KEY="..."   # free key: https://aistudio.google.com/apikey
+pip install anthropic
+export ANTHROPIC_API_KEY="..."   # https://console.anthropic.com/settings/keys
 python extract.py --store "Ahmed Perfumes" --url "https://facebook.com/ahmedperfumes" \
   "https://www.facebook.com/groups/.../posts/..."
 ```
@@ -223,5 +223,6 @@ It only prints candidates — it never changes anything itself.
 
 ## Costs
 
-GitHub Pages: free. Gemini extraction: free tier. Domain: optional
-(`github.io` subdomain is free). Total: **0 EGP/month**.
+GitHub Pages: free. Claude extraction: pay-as-you-go, a few cents per batch
+of images (use `--gemini` for the free-tier alternative, with daily quota
+limits). Domain: optional (`github.io` subdomain is free).

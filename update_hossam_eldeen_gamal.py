@@ -15,8 +15,8 @@ URL and run:
 
     python update_hossam_eldeen_gamal.py "https://www.facebook.com/groups/.../posts/..."
 
-Needs GEMINI_API_KEY set (see extract.py's docstring for how to get a free
-one) — or add --local to use Ollama offline instead. Commits locally when
+Needs ANTHROPIC_API_KEY set (see extract.py's docstring) — or add --gemini /
+--local to use one of the other backends instead. Commits locally when
 done, never pushes; review with `git diff` / `git log` then push yourself.
 """
 import subprocess

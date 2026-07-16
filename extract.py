@@ -6,11 +6,16 @@ You run this by hand whenever a seller posts something new — no AI agent
 needed, this is a plain CLI. Every run is tied to one store (where you saw
 the offer), so pass --store and --url alongside the image(s):
 
-    # --- Gemini (cloud, free tier has daily limits) ---
-    pip install google-genai
-    export GEMINI_API_KEY="..."        # free key from https://aistudio.google.com/apikey
+    # --- Claude (cloud, default — paid API, no free-tier quota wall) ---
+    pip install anthropic
+    export ANTHROPIC_API_KEY="..."     # https://console.anthropic.com/settings/keys
     python extract.py --store "Ahmed Perfumes" --url "https://facebook.com/ahmedperfumes" image.jpg
     python extract.py --store "Ahmed Perfumes" --url "https://facebook.com/ahmedperfumes" posts/
+
+    # --- Gemini (cloud, free tier — has daily quota limits) ---
+    pip install google-genai
+    export GEMINI_API_KEY="..."        # free key from https://aistudio.google.com/apikey
+    python extract.py --gemini --store "..." --url "..." image.jpg
 
     # --- Ollama (local, offline, no limits — can be slow depending on hardware) ---
     brew install ollama
@@ -69,8 +74,14 @@ from pathlib import Path
 OLLAMA_MODEL = os.environ.get("OLLAMA_MODEL", "llama3.2-vision")
 OLLAMA_URL   = "http://localhost:11434/api/generate"
 
+try:
+    import anthropic
+except ImportError:
+    anthropic = None
+
 CATALOG = Path(__file__).parent / "products.json"
-MODEL = "gemini-2.0-flash-lite"  # highest free-tier quota
+GEMINI_MODEL = "gemini-2.0-flash-lite"  # highest free-tier quota
+CLAUDE_MODEL = "claude-opus-4-8"
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
 VALID_KINDS = {"decant", "full", "leftover"}
 AS_SHOWN = "as-shown"
@@ -424,7 +435,7 @@ def gemini_generate(client, img_path: Path, prompt: str) -> str:
     uploaded = client.files.upload(file=img_path)
     for attempt in range(3):
         try:
-            resp = client.models.generate_content(model=MODEL, contents=[prompt, uploaded])
+            resp = client.models.generate_content(model=GEMINI_MODEL, contents=[prompt, uploaded])
             return resp.text
         except Exception as ex:
             err = str(ex)
@@ -441,6 +452,42 @@ def gemini_generate(client, img_path: Path, prompt: str) -> str:
                     "  3. Run with --local to use Ollama offline (no limits, but can be\n"
                     "     very slow on modest hardware)."
                 ) from None
+            if attempt < 2:
+                wait = (attempt + 1) * 10
+                print(f"  ⏳ rate limit — waiting {wait}s...")
+                time.sleep(wait)
+            else:
+                raise
+
+
+IMAGE_MEDIA_TYPES = {
+    ".jpg": "image/jpeg", ".jpeg": "image/jpeg",
+    ".png": "image/png", ".webp": "image/webp",
+}
+
+
+def claude_generate(client, img_path: Path, prompt: str) -> str:
+    import base64
+    media_type = IMAGE_MEDIA_TYPES.get(img_path.suffix.lower(), "image/jpeg")
+    img_b64 = base64.standard_b64encode(img_path.read_bytes()).decode("utf-8")
+    for attempt in range(3):
+        try:
+            resp = client.messages.create(
+                model=CLAUDE_MODEL,
+                max_tokens=2048,
+                messages=[{
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "image",
+                            "source": {"type": "base64", "media_type": media_type, "data": img_b64},
+                        },
+                        {"type": "text", "text": prompt},
+                    ],
+                }],
+            )
+            return next(b.text for b in resp.content if b.type == "text")
+        except anthropic.RateLimitError:
             if attempt < 2:
                 wait = (attempt + 1) * 10
                 print(f"  ⏳ rate limit — waiting {wait}s...")
@@ -507,6 +554,9 @@ def git_commit_local(message: str):
 def main():
     parser = argparse.ArgumentParser(add_help=False)
     parser.add_argument("--local", action="store_true")
+    parser.add_argument("--gemini", action="store_true",
+                         help="Use Gemini (free tier, daily quota limits) instead of the "
+                              "default Claude backend.")
     parser.add_argument("--dupe-pattern", action="store_true",
                          help="This seller's posts show a reference/designer fragrance "
                               "alongside a different actual local-brand bottle for sale "
@@ -527,15 +577,27 @@ def main():
     client = None
     if ns.local:
         print(f"  using local model: {OLLAMA_MODEL}  (ollama)")
-    else:
+    elif ns.gemini:
         try:
             from google import genai
         except ImportError:
             sys.exit("Missing package. Run:  pip install google-genai")
         api_key = os.environ.get("GEMINI_API_KEY")
         if not api_key:
-            sys.exit("Set GEMINI_API_KEY  or use --local for offline mode.")
+            sys.exit("Set GEMINI_API_KEY  or drop --gemini to use the default Claude backend.")
         client = genai.Client(api_key=api_key)
+        print(f"  using model: {GEMINI_MODEL}  (gemini)")
+    else:
+        if anthropic is None:
+            sys.exit("Missing package. Run:  pip install anthropic")
+        api_key = os.environ.get("ANTHROPIC_API_KEY")
+        if not api_key:
+            sys.exit(
+                "Set ANTHROPIC_API_KEY (https://console.anthropic.com/settings/keys)\n"
+                "  or use --gemini / --local for the other backends."
+            )
+        client = anthropic.Anthropic(api_key=api_key)
+        print(f"  using model: {CLAUDE_MODEL}  (claude)")
 
     images = collect_images(ns.sources, use_captions=ns.use_captions)
     if not images:
@@ -558,7 +620,12 @@ def main():
         print(f"→ {label}" + (f"  (caption: {caption!r})" if caption else ""))
         prompt = build_prompt(ns.dupe_pattern, known_name=caption) if caption else base_prompt
         try:
-            text = ollama_generate(img, prompt) if ns.local else gemini_generate(client, img, prompt)
+            if ns.local:
+                text = ollama_generate(img, prompt)
+            elif ns.gemini:
+                text = gemini_generate(client, img, prompt)
+            else:
+                text = claude_generate(client, img, prompt)
             raw = parse_json(text)
 
             offers = to_offers(raw)
@@ -609,8 +676,8 @@ def main():
             save_cache(cache)
         if quota_hit:
             break
-        if not ns.local:
-            time.sleep(2)  # stay within free-tier rate limit
+        if ns.gemini:
+            time.sleep(2)  # stay within Gemini's free-tier rate limit
 
     print(f"\nDone. {added} added, {updated} updated, {failed} failed, "
           f"{cached_skipped} already-processed skipped → {CATALOG}")
