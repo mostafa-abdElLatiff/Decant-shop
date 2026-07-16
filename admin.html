@@ -18,7 +18,8 @@
   input:focus,select:focus{outline:2px solid var(--olive)}
   .row{display:grid;grid-template-columns:1fr 1fr;gap:.7rem}
   .note-row{display:grid;grid-template-columns:1fr 1fr auto;gap:.5rem;align-items:end}
-  .offer-row{display:grid;grid-template-columns:1fr 1fr 1fr auto;gap:.5rem;align-items:end}
+  .offer-row{display:grid;grid-template-columns:1fr 1fr auto 1fr auto;gap:.5rem;align-items:end}
+  .offer-row .as-shown-check{display:flex;flex-direction:row-reverse;align-items:center;gap:.3rem;font-size:.78rem;white-space:nowrap;padding-bottom:.55rem}
   button{font-family:inherit;cursor:pointer;border-radius:10px;border:none;font-weight:600}
   .primary{background:var(--olive);color:#fff;padding:.7rem;font-size:1rem}
   .ghost{background:#fff;border:1.5px solid var(--line);padding:.45rem .8rem;font-size:.85rem}
@@ -94,8 +95,39 @@
 const $ = id => document.getElementById(id);
 const cfgKeys = ["ghOwner","ghRepo","ghBranch","ghToken"];
 
-/* palette for auto-coloring notes */
-const PALETTE = ["#F5F0A9","#D96B3B","#C98B5E","#E86A6A","#A8D18D","#B9A8E0","#8A6242","#EDF0F7","#F3E97A","#D8A45B"];
+/* accord colors — mirrors ACCORD_COLORS/ACCORD_ALIASES in extract.py, scraped from Fragrantica's own "main accords" bars */
+const ACCORD_COLORS = {
+  "woody":"#774414","amber":"#bc4d10","warm spicy":"#CC3300","metallic":"#97B0B7","fresh spicy":"#83C928",
+  "aromatic":"#37a089","white floral":"#edf2fb","animalic":"#8E4B13","fresh":"#9be5ed","vanilla":"#FFFEC0",
+  "coffee":"#503B1D","sweet":"#ee363b","soft spicy":"#E27752","fruity":"#FC4B29","balsamic":"#ad8359",
+  "powdery":"#EEDDCC","aldehydic":"#d8e9f6","iris":"#b7a7d7","musky":"#E7D8EA","earthy":"#544838",
+  "yellow floral":"#FFDC10","citrus":"#F9FF52","tobacco":"#ad7727","cacao":"#9a3a0d","patchouli":"#63652e",
+  "rose":"#FE016B","marine":"#0E529B","floral":"#FF5F8D","caramel":"#DDA356","leather":"#78483A",
+  "smoky":"#827487","mossy":"#5B6B32","green":"#0E8C1D","honey":"#FAA907","chocolate":"#603000",
+  "lavender":"#9B7DB8","oud":"#544136","herbal":"#6CA47F","conifer":"#1b422f","nutty":"#C68E5A","salty":"#B7D8DC",
+};
+const ACCORD_ALIASES = {
+  "akigalawood":"woody","aldehyde":"aldehydic","almond":"nutty","ambrofix":"amber","ambroxan":"amber",
+  "anise":"aromatic","apple":"fruity","aquatic":"marine","aquatic notes":"marine","bergamot":"citrus",
+  "bitter":"earthy","bitter orange":"citrus","cardamom":"warm spicy","cedarwood":"woody","cinnamon":"warm spicy",
+  "cocoa":"chocolate","coconut":"fruity","cognac":"balsamic","cucumber":"green","dragon fruit":"fruity",
+  "fig":"green","gazelle leather (tanned leather)":"leather","geranium":"green","ginger":"fresh spicy",
+  "granny smith apple":"fruity","grapefruit":"citrus","green notes":"green","juniper":"aromatic","lactonic":"powdery",
+  "mahonial":"woody","mandarin":"citrus","musk":"musky","neroli":"white floral","nutmeg":"warm spicy",
+  "oakmoss":"mossy","ozonic":"fresh","peony":"floral","red cranberry":"fruity","refreshing nuance":"fresh",
+  "resin (smoky)":"smoky","rum":"balsamic","sage":"herbal","sandalwood":"woody","sea salt":"salty",
+  "sea water":"marine","soft":"powdery","soft spices":"soft spicy","tangy":"citrus","tea":"green",
+  "terpenic":"aromatic","toffee":"caramel","tonka bean":"vanilla","tonka beans":"vanilla","tropical":"fruity",
+  "vetiver":"earthy","violet":"powdery","virginia cedarwood":"woody","walnut flavor":"nutty",
+  "white flowers":"white floral","white musk":"musky","yellow flowers":"yellow floral","yuzu":"citrus",
+};
+function accordColor(label){
+  const key = (label||"").trim().toLowerCase();
+  if (ACCORD_COLORS[key]) return ACCORD_COLORS[key];
+  if (ACCORD_ALIASES[key]) return ACCORD_COLORS[ACCORD_ALIASES[key]];
+  for (const name in ACCORD_COLORS){ if (key.includes(name) || name.includes(key)) return ACCORD_COLORS[name]; }
+  return "#9C9C9C";
+}
 const KIND_LABELS = {decant:"مقسم", full:"زجاجة كاملة", leftover:"باقي تقسيم"};
 
 /* ---------- setup persistence ---------- */
@@ -132,6 +164,7 @@ $("addNote").onclick = ()=>addNoteRow();
 function addOfferRow(kind="decant", ml="", price=""){
   const div = document.createElement("div");
   div.className = "offer-row";
+  const isAsShown = ml === "as-shown";
   div.innerHTML = `
     <label>النوع
       <select class="kind">
@@ -140,9 +173,16 @@ function addOfferRow(kind="decant", ml="", price=""){
         <option value="leftover" ${kind==="leftover"?"selected":""}>باقي تقسيم</option>
       </select>
     </label>
-    <label>الحجم (مل)<input type="number" class="ml" value="${ml}" min="1" dir="ltr"></label>
+    <label>الحجم (مل)<input type="number" class="ml" value="${isAsShown?"":ml}" min="1" dir="ltr" ${isAsShown?"disabled":""}></label>
+    <label class="as-shown-check"><input type="checkbox" class="as-shown" ${isAsShown?"checked":""}> الكمية كما بالصورة (غير محددة)</label>
     <label>السعر (ج.م)<input type="number" class="price" value="${price}" min="1" dir="ltr"></label>
     <button class="danger" type="button" onclick="this.parentElement.remove()">حذف</button>`;
+  const mlInput = div.querySelector(".ml");
+  const asShownCheck = div.querySelector(".as-shown");
+  asShownCheck.addEventListener("change", ()=>{
+    mlInput.disabled = asShownCheck.checked;
+    if(asShownCheck.checked) mlInput.value = "";
+  });
   $("offerRows").appendChild(div);
 }
 $("addOffer").onclick = ()=>addOfferRow();
@@ -212,8 +252,12 @@ $("publish").onclick = async ()=>{
   if(!storeName){ say("err","اكتب اسم المتجر."); return; }
 
   const offers = [...document.querySelectorAll("#offerRows .offer-row")]
-    .map(r => ({ kind: r.querySelector(".kind").value, ml:+r.querySelector(".ml").value, price:+r.querySelector(".price").value }))
-    .filter(o => o.ml>0 && o.price>0);
+    .map(r => ({
+      kind: r.querySelector(".kind").value,
+      ml: r.querySelector(".as-shown").checked ? "as-shown" : +r.querySelector(".ml").value,
+      price: +r.querySelector(".price").value
+    }))
+    .filter(o => (o.ml==="as-shown" || o.ml>0) && o.price>0);
   if(!offers.length){ say("err","أضف حجمًا وسعرًا واحدًا على الأقل."); return; }
 
   say("ok","جارٍ النشر…");
@@ -241,7 +285,7 @@ $("publish").onclick = async ()=>{
     if(noteRows.length){
       product.accords = noteRows.map((n,i)=>({
         label_en: n.en || n.ar, label_ar: n.ar,
-        color: PALETTE[i % PALETTE.length], w: Math.max(40, 100 - i*14)
+        color: accordColor(n.en || n.ar), w: Math.max(40, 100 - i*14)
       }));
     }
 

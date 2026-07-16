@@ -2,8 +2,9 @@
 """
 extract.py — turn perfume post images into wishlist entries.
 
-Every run is tied to one store (where you saw the offer), so pass --store and
---url alongside the image(s):
+You run this by hand whenever a seller posts something new — no AI agent
+needed, this is a plain CLI. Every run is tied to one store (where you saw
+the offer), so pass --store and --url alongside the image(s):
 
     # --- Gemini (cloud, free tier has daily limits) ---
     pip install google-genai
@@ -22,12 +23,26 @@ Every run is tied to one store (where you saw the offer), so pass --store and
     # Facebook CDN URLs (right-click image → Copy Image Address):
     python extract.py --store "..." --url "..." "https://scontent-*.fbcdn.net/..."
 
+    # Seller posts local-brand bottles "inspired by" a named designer/niche
+    # fragrance (a price banner names the reference, a separate photo shows
+    # the actual bottle for sale) — pass --dupe-pattern so the reference name
+    # goes to dupe_of instead of being mistaken for the product itself:
+    python extract.py --dupe-pattern --store "..." --url "..." "https://www.facebook.com/..."
+
 For each image, extracts the fragrance name, brand, what it's a dupe of (if
 stated), Fragrantica-style notes, and sizes/prices — then merges it into
-products.json as an offer under the given store. If the fragrance already
-exists (matched by slugified name), the store is added or its offers updated
-in place; otherwise a new product entry is created.
-Review with `git diff`, commit & push — GitHub Pages redeploys the site.
+products.json as an offer under the given store. Matching against existing
+products first tries the slugified name, then falls back to a fuzzy
+name+brand match so near-duplicate spellings/brand-suffix differences don't
+create a second entry for the same fragrance.
+
+Progress is saved after every image and cached in .extract_cache.json (per
+store), so if the free-tier daily quota runs out mid-run, just re-run the
+same command tomorrow — already-processed images are skipped automatically.
+
+On success, changes are committed locally (never pushed) so there's a
+history to review. Run `git log` / `git diff` and `git push` yourself when
+you're happy with what landed.
 """
 
 import argparse
@@ -38,6 +53,7 @@ import shutil
 import subprocess
 import sys
 import time
+import unicodedata
 import urllib.request
 import tempfile
 from pathlib import Path
@@ -49,17 +65,106 @@ CATALOG = Path(__file__).parent / "products.json"
 MODEL = "gemini-2.0-flash-lite"  # highest free-tier quota
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
 VALID_KINDS = {"decant", "full", "leftover"}
+AS_SHOWN = "as-shown"
 
-PALETTE = ["#F5F0A9", "#D96B3B", "#C98B5E", "#E86A6A", "#A8D18D",
-           "#B9A8E0", "#8A6242", "#EDF0F7", "#F3E97A", "#D8A45B"]
+# Colors as used on Fragrantica's own "main accords" bars (scraped from live
+# perfume pages — these are a fixed palette keyed by accord name, not chosen
+# per-fragrance). Keep in sync with the ACCORD_COLORS object in index.html
+# and admin.html.
+ACCORD_COLORS = {
+    "woody": "#774414", "amber": "#bc4d10", "warm spicy": "#CC3300",
+    "metallic": "#97B0B7", "fresh spicy": "#83C928", "aromatic": "#37a089",
+    "white floral": "#edf2fb", "animalic": "#8E4B13", "fresh": "#9be5ed",
+    "vanilla": "#FFFEC0", "coffee": "#503B1D", "sweet": "#ee363b",
+    "soft spicy": "#E27752", "fruity": "#FC4B29", "balsamic": "#ad8359",
+    "powdery": "#EEDDCC", "aldehydic": "#d8e9f6", "iris": "#b7a7d7",
+    "musky": "#E7D8EA", "earthy": "#544838", "yellow floral": "#FFDC10",
+    "citrus": "#F9FF52", "tobacco": "#ad7727", "cacao": "#9a3a0d",
+    "patchouli": "#63652e", "rose": "#FE016B", "marine": "#0E529B",
+    "floral": "#FF5F8D", "caramel": "#DDA356", "leather": "#78483A",
+    "smoky": "#827487", "mossy": "#5B6B32", "green": "#0E8C1D",
+    "honey": "#FAA907", "chocolate": "#603000", "lavender": "#9B7DB8",
+    "oud": "#544136", "herbal": "#6CA47F", "conifer": "#1b422f",
+    "nutty": "#C68E5A", "salty": "#B7D8DC",
+}
 
-PROMPT = """You are extracting a perfume listing from a social media post image
+# Specific ingredient/note names -> nearest Fragrantica accord family.
+ACCORD_ALIASES = {
+    "akigalawood": "woody", "aldehyde": "aldehydic", "almond": "nutty",
+    "ambrofix": "amber", "ambroxan": "amber", "anise": "aromatic",
+    "apple": "fruity", "aquatic": "marine", "aquatic notes": "marine",
+    "bergamot": "citrus", "bitter": "earthy", "bitter orange": "citrus",
+    "cardamom": "warm spicy", "cedarwood": "woody", "cinnamon": "warm spicy",
+    "cocoa": "chocolate", "coconut": "fruity", "cognac": "balsamic",
+    "cucumber": "green", "dragon fruit": "fruity", "fig": "green",
+    "gazelle leather (tanned leather)": "leather", "geranium": "green",
+    "ginger": "fresh spicy", "granny smith apple": "fruity",
+    "grapefruit": "citrus",
+    "green notes": "green", "juniper": "aromatic", "lactonic": "powdery",
+    "mahonial": "woody", "mandarin": "citrus", "musk": "musky",
+    "neroli": "white floral", "nutmeg": "warm spicy", "oakmoss": "mossy",
+    "ozonic": "fresh", "peony": "floral", "red cranberry": "fruity",
+    "refreshing nuance": "fresh", "resin (smoky)": "smoky", "rum": "balsamic",
+    "sage": "herbal", "sandalwood": "woody", "sea salt": "salty",
+    "sea water": "marine", "soft": "powdery", "soft spices": "soft spicy",
+    "tangy": "citrus", "tea": "green", "terpenic": "aromatic",
+    "toffee": "caramel", "tonka bean": "vanilla", "tonka beans": "vanilla",
+    "tropical": "fruity", "vetiver": "earthy", "violet": "powdery",
+    "virginia cedarwood": "woody", "walnut flavor": "nutty",
+    "white flowers": "white floral", "white musk": "musky",
+    "yellow flowers": "yellow floral", "yuzu": "citrus",
+}
+
+FALLBACK_COLOR = "#9C9C9C"
+
+
+def accord_color(label: str) -> str:
+    key = (label or "").strip().lower()
+    if key in ACCORD_COLORS:
+        return ACCORD_COLORS[key]
+    if key in ACCORD_ALIASES:
+        return ACCORD_COLORS[ACCORD_ALIASES[key]]
+    for name, color in ACCORD_COLORS.items():
+        if name in key or key in name:
+            return color
+    return FALLBACK_COLOR
+
+PROMPT_CONTEXT_DEFAULT = """You are extracting a perfume listing from a social media post image
 for a perfume decant catalogue. The image usually contains the fragrance name
 (often in both English and Arabic), size/price lines like "10 ml = 220"
 (prices in EGP), sometimes colored accord bars with note labels, and
 sometimes a mention of which original/designer fragrance this one is a dupe
-of ("انسباير من", "دوب لـ", "inspired by", etc).
+of ("انسباير من", "دوب لـ", "inspired by", etc). Most listings are the
+genuine named fragrance being sold directly — only fill "dupe_of" if the
+image explicitly says this is inspired by / a clone of a different named
+fragrance."""
 
+PROMPT_CONTEXT_DUPE_PATTERN = """You are extracting a perfume listing from a social media post image
+for a perfume decant catalogue. This seller's posts follow a two-panel
+template:
+- LEFT panel: a price banner ("10 ml = 220" etc, in EGP) plus a fragrance
+  NAME/BRAND text block (English + Arabic) and a colored notes/accord list,
+  sometimes with a small stock-photo thumbnail. This LEFT-panel name is the
+  REFERENCE / ORIGINAL / "inspired by" fragrance — it is NOT the product
+  being sold. It goes in "dupe_of", formatted "Name — Brand".
+- RIGHT panel: a real photograph (hand holding a bottle, or a shelf) of the
+  ACTUAL bottle being sold. This bottle has its own printed name/logo, often
+  a DIFFERENT local/Middle-Eastern brand (Lattafa, Armaf, Rasasi, Khadlaj,
+  Afnan, French Avenue, Rayhaan, or similar) — read the RIGHT-panel bottle's
+  own printed text to decide the product identity, never assume from the
+  left banner alone. This is the ACTUAL PRODUCT — it goes in
+  "name_en"/"name_ar"/"brand".
+
+NEVER put the left-banner's famous designer/niche name into "name_en" —
+always read the right-panel bottle photo's own printed text for
+name_en/brand, and always put the left-banner name into dupe_of. If (rare)
+the right-panel photo is genuinely a stock photo of the SAME bottle named on
+the left (no different local bottle shown), then name_en = that fragrance
+and dupe_of = [] — check carefully, this is the exception not the rule. If
+two listings are stacked in one image with only one price banner, pick
+whichever is most clearly associated with that banner/photo."""
+
+PROMPT_SCHEMA = """
 Return ONLY valid JSON, no markdown fences, matching exactly this schema:
 {
   "name_en": "English fragrance name incl. brand, empty string if absent",
@@ -72,14 +177,28 @@ Return ONLY valid JSON, no markdown fences, matching exactly this schema:
 }
 
 Rules:
-- "type": decant for ml-sized splits; full for sealed/complete bottles;
-  leftover for the remainder of a decanted bottle (باقي/بواقي التقسيم).
+- "type": decant for ml-sized splits. "full" ONLY if the post explicitly
+  states this is a new/sealed/complete bottle — do not assume "full" just
+  because a box is shown or a nominal bottle capacity is printed on it.
+  Otherwise, if the bottle is visibly opened/used or the post is about
+  remaining/leftover stock (باقي/بواقي التقسيم, "remaining bottles"), use
+  "leftover".
+- For each size: if an exact or approximate remaining amount is stated
+  (e.g. "10 ml", "~92 ml", "حوالي 46 ملي"), use that number for "ml". If the
+  price has no quantity attached at all (e.g. just a price, or text like "as
+  shown" / "كما بالصوره" / "Old batch"), set "ml" to the literal string
+  "as-shown" instead of guessing a number from the box's printed capacity.
 - Include every size/price pair you can read. Prices are integers in EGP.
 - "dupe_of" only if the post explicitly says this is inspired by / a dupe of
   another named fragrance — do not guess.
 - List notes top to bottom in order of prominence if accord bars are visible,
   else [].
 - Do not invent data you cannot read from the image."""
+
+
+def build_prompt(dupe_pattern: bool) -> str:
+    context = PROMPT_CONTEXT_DUPE_PATTERN if dupe_pattern else PROMPT_CONTEXT_DEFAULT
+    return context + PROMPT_SCHEMA
 
 
 def slugify(text: str) -> str:
@@ -173,7 +292,7 @@ def to_product(raw: dict, image_rel: str) -> dict:
         {
             "label_en": n.get("label_en") or n.get("label_ar") or "",
             "label_ar": n.get("label_ar") or "",
-            "color": PALETTE[i % len(PALETTE)],
+            "color": accord_color(n.get("label_en") or n.get("label_ar") or ""),
             "w": max(40, 100 - i * 14),
         }
         for i, n in enumerate(raw.get("notes") or [])
@@ -191,11 +310,47 @@ def to_product(raw: dict, image_rel: str) -> dict:
 
 def to_offers(raw: dict) -> list:
     kind = raw.get("type") if raw.get("type") in VALID_KINDS else "decant"
-    return sorted(
-        [{"kind": kind, "ml": int(s["ml"]), "price": int(s["price"])}
-         for s in raw.get("sizes", []) if s.get("ml") and s.get("price")],
-        key=lambda s: s["ml"],
-    )
+    offers = []
+    for s in raw.get("sizes", []):
+        if not s.get("price"):
+            continue
+        ml = s.get("ml")
+        if ml == AS_SHOWN or (isinstance(ml, str) and ml.strip().lower() in ("as shown", "as-shown")):
+            offers.append({"kind": kind, "ml": AS_SHOWN, "price": int(s["price"])})
+        elif ml:
+            offers.append({"kind": kind, "ml": int(ml), "price": int(s["price"])})
+    return sorted(offers, key=lambda s: (s["ml"] == AS_SHOWN, s["ml"] if s["ml"] != AS_SHOWN else 0))
+
+
+STOPWORDS = {"perfumes", "perfume", "men", "women", "fragrances", "fragrance"}
+
+
+def _tokens(text: str) -> set:
+    text = unicodedata.normalize("NFKD", text or "").encode("ascii", "ignore").decode()
+    return set(re.sub(r"[^a-z0-9]+", " ", text.lower()).split()) - STOPWORDS
+
+
+def find_existing_product(catalog: dict, name_en: str):
+    """Exact slug match first, then a *conservative* fuzzy match: only when
+    the normalized core-name token sets are exactly equal (catches accent/
+    punctuation spelling differences like "Édition" vs "Edition"). Deliberately
+    NOT a subset/containment match — that would also match "Club De Nuit Man"
+    against "Club De Nuit Intense Man", which are different real fragrances.
+    A missed duplicate (occasional near-duplicate entry) is a far cheaper
+    mistake than silently merging two different products' offers together,
+    which is why this stays strict for an unattended run."""
+    exact_id = slugify(name_en)
+    for p in catalog["products"]:
+        if p["id"] == exact_id:
+            return p
+
+    core = _tokens(name_en)
+    if len(core) < 2:
+        return None
+    for p in catalog["products"]:
+        if _tokens(p["name_en"]) == core:
+            return p
+    return None
 
 
 def merge_store(product: dict, store_name: str, store_url: str, offers: list):
@@ -223,26 +378,32 @@ def merge_store(product: dict, store_name: str, store_url: str, offers: list):
             store["offers"].append(offer)
 
 
-def gemini_generate(client, img_path: Path) -> str:
+class QuotaExhausted(Exception):
+    """Daily free-tier quota hit — caller should save progress and stop,
+    not lose everything processed so far in this run."""
+
+
+def gemini_generate(client, img_path: Path, prompt: str) -> str:
     uploaded = client.files.upload(file=img_path)
     for attempt in range(3):
         try:
-            resp = client.models.generate_content(model=MODEL, contents=[PROMPT, uploaded])
+            resp = client.models.generate_content(model=MODEL, contents=[prompt, uploaded])
             return resp.text
         except Exception as ex:
             err = str(ex)
             if "429" not in err:
                 raise
             if "PerDay" in err or "per_day" in err.lower():
-                sys.exit(
-                    "\n✗ Daily free-tier quota exhausted.\n"
+                raise QuotaExhausted(
+                    "Daily free-tier quota exhausted.\n"
                     "  Options:\n"
-                    "  1. Wait until tomorrow (UTC midnight) for quota to reset.\n"
+                    "  1. Wait until tomorrow (UTC midnight) for quota to reset — just\n"
+                    "     re-run the same command, already-processed images are skipped.\n"
                     "  2. Enable billing at https://console.cloud.google.com/billing\n"
                     "     (costs ~$0.01 per 100 images — essentially free).\n"
                     "  3. Run with --local to use Ollama offline (no limits, but can be\n"
                     "     very slow on modest hardware)."
-                )
+                ) from None
             if attempt < 2:
                 wait = (attempt + 1) * 10
                 print(f"  ⏳ rate limit — waiting {wait}s...")
@@ -251,12 +412,12 @@ def gemini_generate(client, img_path: Path) -> str:
                 raise
 
 
-def ollama_generate(img_path: Path) -> str:
+def ollama_generate(img_path: Path, prompt: str) -> str:
     import base64
     img_b64 = base64.b64encode(img_path.read_bytes()).decode()
     body = json.dumps({
         "model": OLLAMA_MODEL,
-        "prompt": PROMPT,
+        "prompt": prompt,
         "images": [img_b64],
         "stream": False,
     }).encode()
@@ -274,15 +435,53 @@ def ollama_generate(img_path: Path) -> str:
         )
 
 
+CACHE_FILE = Path(__file__).parent / ".extract_cache.json"
+
+
+def load_cache() -> dict:
+    if CACHE_FILE.exists():
+        return json.loads(CACHE_FILE.read_text(encoding="utf-8"))
+    return {}
+
+
+def save_cache(cache: dict):
+    CACHE_FILE.write_text(json.dumps(cache, indent=2), encoding="utf-8")
+
+
+def save_catalog(catalog: dict):
+    CATALOG.write_text(json.dumps(catalog, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def git_commit_local(message: str):
+    """Stage products.json/images and commit locally. Never pushes —
+    review with `git log`/`git diff` and push yourself when ready."""
+    repo = CATALOG.parent
+    status = subprocess.run(
+        ["git", "status", "--porcelain", "products.json", "images/"],
+        cwd=repo, capture_output=True, text=True,
+    )
+    if not status.stdout.strip():
+        return False
+    subprocess.run(["git", "add", "products.json", "images/"], cwd=repo, check=True)
+    subprocess.run(["git", "commit", "-m", message], cwd=repo, check=True)
+    return True
+
+
 def main():
     parser = argparse.ArgumentParser(add_help=False)
     parser.add_argument("--local", action="store_true")
+    parser.add_argument("--dupe-pattern", action="store_true",
+                         help="This seller's posts show a reference/designer fragrance "
+                              "alongside a different actual local-brand bottle for sale "
+                              "(see module docstring). Omit for sellers who sell the named "
+                              "fragrance directly.")
     parser.add_argument("--store", required=True, help="Name of the store/seller this offer is from")
     parser.add_argument("--url", default="", help="Link to the store/seller (website or Facebook profile)")
     parser.add_argument("sources", nargs="+", help="Image file(s), folder(s), or Facebook/image URL(s)")
     if len(sys.argv) < 2:
         sys.exit(__doc__)
     ns = parser.parse_args()
+    prompt = build_prompt(ns.dupe_pattern)
 
     client = None
     if ns.local:
@@ -303,14 +502,21 @@ def main():
 
     catalog = json.loads(CATALOG.read_text(encoding="utf-8")) if CATALOG.exists() \
         else {"settings": {}, "products": []}
+    cache = load_cache()
+    done = set(cache.get(ns.store, []))
 
-    added, updated, failed = 0, 0, 0
+    added, updated, failed, cached_skipped = 0, 0, 0, 0
+    images_dir = CATALOG.parent / "images"
+    quota_hit = False
 
     for img, original in images:
         label = original.name if original else img.name
+        if label in done:
+            cached_skipped += 1
+            continue
         print(f"→ {label}")
         try:
-            text = ollama_generate(img) if ns.local else gemini_generate(client, img)
+            text = ollama_generate(img, prompt) if ns.local else gemini_generate(client, img, prompt)
             raw = parse_json(text)
 
             offers = to_offers(raw)
@@ -319,18 +525,15 @@ def main():
                 failed += 1
                 continue
 
+            name_en = raw.get("name_en") or raw.get("name_ar") or ""
             product = to_product(raw, "")
-            idx = next((i for i, p in enumerate(catalog["products"])
-                        if p["id"] == product["id"]), None)
+            existing = find_existing_product(catalog, name_en)
 
-            images_dir = CATALOG.parent / "images"
-
-            if idx is not None:
-                existing = catalog["products"][idx]
+            if existing is not None:
                 existing.setdefault("stores", [])
                 if not existing.get("image"):
                     images_dir.mkdir(exist_ok=True)
-                    dest = images_dir / f"{product['id']}{img.suffix.lower()}"
+                    dest = images_dir / f"{existing['id']}{img.suffix.lower()}"
                     dest.write_bytes(img.read_bytes())
                     existing["image"] = f"images/{dest.name}"
                 merge_store(existing, ns.store, ns.url, offers)
@@ -349,15 +552,34 @@ def main():
 
             for o in offers:
                 print(f"      [{o['kind']}] {o['ml']} ml = {o['price']} EGP")
+
+            done.add(label)
+        except QuotaExhausted as e:
+            print(f"\n✗ {e}")
+            quota_hit = True
         except Exception as e:
             failed += 1
             print(f"  ✗ failed: {e}")
+        finally:
+            # save after every image so a quota cutoff or crash never loses progress
+            save_catalog(catalog)
+            cache[ns.store] = sorted(done)
+            save_cache(cache)
+        if quota_hit:
+            break
         if not ns.local:
             time.sleep(2)  # stay within free-tier rate limit
 
-    CATALOG.write_text(json.dumps(catalog, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"\nDone. {added} added, {updated} updated, {failed} failed → {CATALOG}")
-    print("Review with `git diff`, then commit & push to update the live site.")
+    print(f"\nDone. {added} added, {updated} updated, {failed} failed, "
+          f"{cached_skipped} already-processed skipped → {CATALOG}")
+
+    committed = git_commit_local(
+        f"extract.py: {ns.store} — {added} added, {updated} updated"
+    )
+    if committed:
+        print("Committed locally (not pushed). Review with `git log`/`git diff`, then `git push` when ready.")
+    else:
+        print("No catalog changes to commit.")
 
 
 if __name__ == "__main__":
