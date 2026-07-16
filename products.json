@@ -8802,19 +8802,6 @@
               "price": 1150
             }
           ]
-        },
-        {
-          "name": "MO Shawky",
-          "url": "https://www.facebook.com/mo.freeto.play/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 495
-            }
-          ],
-          "image": "images/khanjar--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lattafa-khanjar-10ml-178"
         }
       ]
     },
@@ -35902,7 +35889,8 @@
               "price": 300
             }
           ],
-          "image": "images/private-mercedes-benz.jpg"
+          "image": "images/private-mercedes-benz--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/mercedes-benz-private-10ml-206"
         }
       ]
     },
@@ -35925,7 +35913,8 @@
               "price": 495
             }
           ],
-          "image": "images/khanjar-lattafa.jpg"
+          "image": "images/khanjar-lattafa--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lattafa-khanjar-10ml-178"
         }
       ]
     },
@@ -36046,30 +36035,6 @@
           ],
           "image": "images/eros-flame-edp--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/versace-eros-flame-edp-10ml-287"
-        }
-      ]
-    },
-    {
-      "id": "private-mercedes-benz-2",
-      "name_ar": "",
-      "name_en": "Private",
-      "brand": "Mercedes Benz",
-      "dupe_of": [],
-      "image": "images/private-mercedes-benz-2.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "MO Shawky",
-          "url": "https://www.facebook.com/mo.freeto.play/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 300
-            }
-          ],
-          "image": "images/private-mercedes-benz-2--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/mercedes-benz-private-10ml-206"
         }
       ]
     }
