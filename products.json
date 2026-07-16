@@ -2963,105 +2963,6 @@
       ]
     },
     {
-      "id": "rayhaan",
-      "name_ar": "Rayhaan",
-      "name_en": "Rayhaan",
-      "brand": "Rayhaan",
-      "dupe_of": [
-        "Outlands — Amouage"
-      ],
-      "image": "images/rayhaan.jpg",
-      "accords": [
-        {
-          "label_en": "Amber",
-          "label_ar": "العنبر",
-          "color": "#bc4d10",
-          "w": 100
-        },
-        {
-          "label_en": "Warm Spicy",
-          "label_ar": "تابلي دافئ",
-          "color": "#CC3300",
-          "w": 86
-        },
-        {
-          "label_en": "Aromatic",
-          "label_ar": "أروماتك",
-          "color": "#37a089",
-          "w": 72
-        },
-        {
-          "label_en": "Fresh Spicy",
-          "label_ar": "تابلي منعش",
-          "color": "#83C928",
-          "w": 58
-        },
-        {
-          "label_en": "Citrus",
-          "label_ar": "الحمضيات",
-          "color": "#F9FF52",
-          "w": 44
-        },
-        {
-          "label_en": "Balsamic",
-          "label_ar": "بلسمي",
-          "color": "#ad8359",
-          "w": 40
-        },
-        {
-          "label_en": "Vanilla",
-          "label_ar": "الفانيلا",
-          "color": "#FFFEC0",
-          "w": 40
-        },
-        {
-          "label_en": "Woody",
-          "label_ar": "خشبي",
-          "color": "#774414",
-          "w": 40
-        },
-        {
-          "label_en": "Sweet",
-          "label_ar": "حلو",
-          "color": "#ee363b",
-          "w": 40
-        },
-        {
-          "label_en": "Patchouli",
-          "label_ar": "الباتشولي",
-          "color": "#63652e",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "EsLam Nasser",
-          "url": "https://www.facebook.com/eslam.nasser.10/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 100,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 130,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 200,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/rayhaan.jpg"
-        }
-      ]
-    },
-    {
       "id": "oryn",
       "name_ar": "Oryn",
       "name_en": "Oryn",
@@ -13951,6 +13852,31 @@
           ],
           "image": "images/terra-rayhaan--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/terra-rayhaan"
+        },
+        {
+          "name": "EsLam Nasser",
+          "url": "https://www.facebook.com/eslam.nasser.10/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 100,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 130,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/rayhaan.jpg"
         }
       ]
     },
