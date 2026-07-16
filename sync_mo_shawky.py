@@ -15,6 +15,13 @@ at — no grouping needed. The shop's own listing only shows what's currently
 sellable (no explicit "sold out" state was found in the HTML), so scraping
 the listing pages already gives you in-stock items only.
 
+The `/shop?tags=...` grid only shows ONE variant card per fragrance even
+when several sizes exist as separate listings — MO Shawky links the other
+sizes by hand from within each listing's own description ("5ML"/"10ML"
+buttons pointing at the sibling's URL). So after the grid pages, this also
+visits every listing's own detail page and follows those buttons to pick
+up sibling sizes the grid never shows.
+
 Run whenever you want to refresh this store's listings:
 
     python sync_mo_shawky.py
@@ -31,7 +38,7 @@ import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from extract import slugify, find_existing_product, unique_id_for, track_offer, CATALOG  # noqa: E402
+from extract import slugify, find_existing_product, unique_id_for, track_offer, offer_sort_key, is_web_sourced_hero, CATALOG  # noqa: E402
 from brand_prefixes import split_brand_prefix  # noqa: E402
 
 BASE_URL = "https://z-original-perfumes-decant.odoo.com"
@@ -71,6 +78,25 @@ def parse_cards(html: str) -> list:
     return items
 
 
+def parse_detail_page(page_html: str) -> dict:
+    """Parse one product's own detail page: its confirmed title/price/image
+    (same shape as a grid card) plus any sibling-size buttons MO Shawky
+    embedded in the description (e.g. a "5ML" button linking to that size's
+    own listing) — the grid never shows these, only the detail page does."""
+    title_m = re.search(r'<h1 class="h3 ">([^<]+)</h1>', page_html)
+    price_m = re.search(r'oe_currency_value">([\d.]+)</span>\s*LE', page_html)
+    img_m = re.search(r'data-zoom-image="([^"]+)"', page_html)
+    siblings = re.findall(r'href="(/shop/[^"]+)" class="btn btn-primary"', page_html)
+    if not title_m or not price_m:
+        return None
+    return {
+        "title": title_m.group(1).strip(),
+        "price": float(price_m.group(1)),
+        "image": img_m.group(1) if img_m else "",
+        "siblings": siblings,
+    }
+
+
 def split_brand(name_and_size: str):
     """Strip the trailing size, then split a leading known brand off the name."""
     name_and_size = re.sub(r"\s+", " ", html.unescape(name_and_size)).strip()
@@ -99,6 +125,38 @@ def main():
         html = fetch(f"/shop/page/{p}?tags=62,63")
         cards.extend(parse_cards(html))
     print(f"  {len(cards)} listings")
+
+    print("  checking each listing's detail page for sibling sizes...")
+    url_to_card = {c["product_url"]: c for c in cards if c.get("product_url")}
+    queue = list(url_to_card.keys())
+    seen = set(queue)
+    extra = 0
+    qi = 0
+    while qi < len(queue):
+        url = queue[qi]
+        qi += 1
+        try:
+            detail_html = fetch(url[len(BASE_URL):])
+        except Exception as e:
+            print(f"  ✗ couldn't fetch {url}: {e}")
+            continue
+        detail = parse_detail_page(detail_html)
+        if not detail:
+            continue
+        if url not in url_to_card:
+            card = {
+                "title": detail["title"], "price": detail["price"],
+                "image": detail["image"], "product_url": url,
+            }
+            cards.append(card)
+            url_to_card[url] = card
+            extra += 1
+        for sib in detail["siblings"]:
+            sib_url = f"{BASE_URL}{sib}"
+            if sib_url not in seen:
+                seen.add(sib_url)
+                queue.append(sib_url)
+    print(f"  +{extra} sibling size(s) found via detail pages")
 
     parsed = []
     for c in cards:
@@ -132,7 +190,7 @@ def main():
             catalog["products"].append(product)
             added += 1
 
-        if not product.get("image") and info["image"]:
+        if not is_web_sourced_hero(product) and info["image"]:
             dest = IMAGES_DIR / f"{product['id']}.jpg"
             try:
                 download_image(f"{BASE_URL}{info['image']}", dest)
@@ -161,6 +219,7 @@ def main():
             store["offers"][idx] = track_offer(store["offers"][idx], offer)
         else:
             store["offers"].append(track_offer(None, offer))
+        store["offers"].sort(key=offer_sort_key)
         if store_image_rel:
             store["image"] = store_image_rel
         if info.get("product_url"):

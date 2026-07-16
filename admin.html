@@ -386,9 +386,16 @@ $("publish").onclick = async ()=>{
     const dupeText = $("dupeOf").value.trim();
     product.dupe_of = dupeText ? dupeText.split(",").map(s=>s.trim()).filter(Boolean) : [];
 
+    const seenNotes = new Set();
     const noteRows = [...document.querySelectorAll("#noteRows .note-row")]
       .map(r => ({ en: r.querySelector(".note-en").value.trim(), ar: r.querySelector(".note-ar").value.trim() }))
-      .filter(n => n.en || n.ar);
+      .filter(n => n.en || n.ar)
+      .filter(n => {
+        const key = (n.en || n.ar).toLowerCase();
+        if(seenNotes.has(key)) return false;
+        seenNotes.add(key);
+        return true;
+      });
     if(noteRows.length){
       product.accords = noteRows.map((n,i)=>({
         label_en: n.en || n.ar, label_ar: n.ar,

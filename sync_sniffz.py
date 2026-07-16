@@ -30,7 +30,7 @@ import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from extract import slugify, accord_color, find_existing_product, unique_id_for, track_offer, CATALOG  # noqa: E402
+from extract import slugify, accord_color, find_existing_product, unique_id_for, track_offer, offer_sort_key, is_web_sourced_hero, CATALOG  # noqa: E402
 from brand_prefixes import split_brand_prefix, split_brand_suffix  # noqa: E402
 
 BASE_URL = "https://sniffz-eg.com"
@@ -85,7 +85,7 @@ def extract_notes(body_html: str):
     with nothing but a closing tag right after it doesn't bleed into the
     next label's list, and the last label doesn't bleed into the prose that
     follows the notes block."""
-    notes = []
+    notes, seen = [], set()
     for label in ("Top Notes", "Middle Notes", "Base Notes"):
         idx = body_html.find(label)
         if idx == -1:
@@ -98,7 +98,11 @@ def extract_notes(body_html: str):
         chunk = re.sub(rf"^{label}:?\s*", "", chunk, flags=re.I)
         for tok in chunk.split(","):
             tok = tok.strip().rstrip(".")
-            if tok:
+            # a note can legitimately appear in more than one of Top/Middle/
+            # Base (e.g. Bergamot in both top and base) — keep only the
+            # first mention so it doesn't show as a duplicated accord bar
+            if tok and tok.lower() not in seen:
+                seen.add(tok.lower())
                 notes.append(tok)
     return notes
 
@@ -203,7 +207,7 @@ def main():
             catalog["products"].append(product)
             added += 1
 
-        if not product.get("image") and info["image"]:
+        if not is_web_sourced_hero(product) and info["image"]:
             dest = IMAGES_DIR / f"{product['id']}.jpg"
             try:
                 download_image(info["image"], dest)
@@ -232,6 +236,7 @@ def main():
                 store["offers"][idx] = track_offer(store["offers"][idx], offer)
             else:
                 store["offers"].append(track_offer(None, offer))
+        store["offers"].sort(key=offer_sort_key)
         if store_image_rel:
             store["image"] = store_image_rel
         if info.get("product_url"):

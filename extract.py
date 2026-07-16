@@ -87,6 +87,23 @@ IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
 VALID_KINDS = {"decant", "full", "leftover"}
 AS_SHOWN = "as-shown"
 
+# Stores with their own product-page photos (vs. a Facebook seller's phone
+# photo with a price overlay) — preferred as the product's default/hero
+# image whenever one is available. See is_web_sourced_hero().
+WEB_STORE_NAMES = {"roseperfume", "sniffz", "MO Shawky"}
+
+
+def is_web_sourced_hero(product: dict, web_store_names: set = WEB_STORE_NAMES) -> bool:
+    """True if product["image"] (the hero/card photo) is already confirmed
+    to come from one of web_store_names. Sync scripts for those stores use
+    this to upgrade a Facebook-sourced hero to their own clean product
+    photo, while Facebook extraction (extract.py) never overwrites a
+    non-empty hero either way."""
+    hero = product.get("image")
+    if not hero:
+        return False
+    return any(s.get("image") == hero and s["name"] in web_store_names for s in product.get("stores", []))
+
 # Colors as used on Fragrantica's own "main accords" bars (scraped from live
 # perfume pages — these are a fixed palette keyed by accord name, not chosen
 # per-fragrance). Keep in sync with the ACCORD_COLORS object in index.html
@@ -336,6 +353,23 @@ def parse_json(text: str) -> dict:
     return json.loads(text)
 
 
+def dedupe_notes(raw_notes: list) -> list:
+    """Drop repeat note names (case/whitespace-insensitive on label_en, or
+    label_ar when label_en is blank), keeping the first occurrence — which
+    is also the most prominent one, since notes are listed in descending
+    order of prominence. Duplicates happen most often on --dupe-pattern
+    extractions, where notes get read off two different reference
+    fragrances that share some of the same notes."""
+    seen, out = set(), []
+    for n in raw_notes:
+        key = (n.get("label_en") or n.get("label_ar") or "").strip().lower()
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        out.append(n)
+    return out
+
+
 def to_product(raw: dict, image_rel: str) -> dict:
     notes = [
         {
@@ -344,7 +378,7 @@ def to_product(raw: dict, image_rel: str) -> dict:
             "color": accord_color(n.get("label_en") or n.get("label_ar") or ""),
             "w": max(40, 100 - i * 14),
         }
-        for i, n in enumerate(raw.get("notes") or [])
+        for i, n in enumerate(dedupe_notes(raw.get("notes") or []))
     ]
     return {
         "id": slugify(raw.get("name_en") or raw.get("name_ar") or ""),
@@ -355,6 +389,13 @@ def to_product(raw: dict, image_rel: str) -> dict:
         "image": image_rel,
         "accords": notes,
     }
+
+
+def offer_sort_key(o: dict):
+    """Smallest size first, "as-shown" always last (it has no comparable
+    number) — the one sort order every offers list should be kept in,
+    regardless of what order sizes were originally added/merged in."""
+    return (o["ml"] == AS_SHOWN, o["ml"] if o["ml"] != AS_SHOWN else 0)
 
 
 def to_offers(raw: dict) -> list:
@@ -368,7 +409,7 @@ def to_offers(raw: dict) -> list:
             offers.append({"kind": kind, "ml": AS_SHOWN, "price": int(s["price"])})
         elif ml:
             offers.append({"kind": kind, "ml": int(ml), "price": int(s["price"])})
-    return sorted(offers, key=lambda s: (s["ml"] == AS_SHOWN, s["ml"] if s["ml"] != AS_SHOWN else 0))
+    return sorted(offers, key=offer_sort_key)
 
 
 STOPWORDS = {"perfumes", "perfume", "men", "women", "fragrances", "fragrance"}
@@ -515,6 +556,7 @@ def merge_store(product: dict, store_name: str, store_url: str, offers: list,
             store["offers"][idx] = track_offer(store["offers"][idx], offer)
         else:
             store["offers"].append(track_offer(None, offer))
+    store["offers"].sort(key=offer_sort_key)
 
 
 class QuotaExhausted(Exception):
