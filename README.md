@@ -2,21 +2,46 @@
 
 A zero-cost static site for tracking fragrances you want to try, where each
 one can be sold by several different stores/sellers at different sizes and
-prices. Browse, filter by type/store, search, compare, pick specific store
-offers, and copy a plain-text shopping list grouped by store — no checkout,
-no backend, no database server. `products.json` in this repo *is* the
-database, and every push redeploys the site. Bilingual (English/Arabic) with
-a dark/light theme toggle.
+prices. Browse, filter by type/store, search, compare, get a simple
+"cheaper elsewhere" nudge in the cart, and copy a plain-text shopping list
+grouped by store — no checkout, no backend, no database server.
+`products.json` in this repo *is* the database, and every push redeploys the
+site. Bilingual (English/Arabic) with a dark/light theme toggle. Prices
+shown never include shipping — each store charges its own, so the site
+carries a disclaimer to that effect.
+
+## Stores — how to update each one
+
+Every store that feeds this catalogue has its own script with the exact
+command to run. None of them need me (an AI agent) to run — they're plain
+CLI tools you trigger yourself whenever a seller posts something new or you
+just want a refresh. None of them push to GitHub either — they only commit
+locally, so you always review before `git push`.
+
+| Store | Type | Script |
+|---|---|---|
+| EsLam Nasser | Facebook seller | `python update_eslam_nasser.py "<post URL>"` |
+| Mostafa Mohamed | Facebook seller | `python update_mostafa_mohamed.py "<post URL>"` |
+| roseperfume.online | Shopify | `python sync_roseperfume.py` (no URL needed, re-polls the whole collection) |
+| sniffz-eg.com | Shopify | `python sync_sniffz.py` (no URL needed) |
+| MO Shawky | Odoo storefront | `python sync_mo_shawky.py` (no URL needed) |
+
+**Adding a brand-new store later:** see Workflows A/C below for a Facebook
+seller vs. a store with its own website — both have a copyable starting
+point so you're not building from scratch.
 
 ## Files
 
 | File | What it is |
 |---|---|
-| `index.html` | The catalogue. Reads `products.json`. Filter by decant/full/leftover and by store, search (🔍 icon in the header opens it from anywhere on the page), click a fragrance's photo to zoom, cart shows a thumbnail per line. |
+| `index.html` | The catalogue. Filter by decant/full/leftover and by store, search (🔍 icon in the header opens it from anywhere on the page without scrolling up), click a fragrance's photo to zoom, cart shows a thumbnail + a "better value elsewhere" tip per line when one exists. |
 | `products.json` | Fragrances, their Fragrantica-style notes, what they're a dupe of (if any), and every store offering them. |
 | `admin.html` | Manual editor: add a fragrance, add/update a store's offers, or **edit an existing fragrance's name/brand/notes in place** (search the product list at the bottom, click تعديل/Edit). Commits directly to this repo via the GitHub API. |
-| `extract.py` | Batch tool for a Facebook seller's post: feed it post images + a store name/link, Gemini (free tier) extracts the fragrance name, dupe info, notes, and sizes/prices, and merges the result in as an offer from that store. |
-| `sync_roseperfume.py` | Fully automatic, no-AI sync for roseperfume.online (a Shopify store) — re-polls their product API and updates offers. Run it yourself whenever you want (see Workflow C); nothing on this machine runs it on a timer. |
+| `extract.py` | The underlying batch tool for *any* Facebook seller's post — the two `update_*.py` scripts below are just this pre-filled with a store's name/link. Gemini (free tier) reads each post image and extracts name, dupe info, notes, and sizes/prices. |
+| `update_eslam_nasser.py`, `update_mostafa_mohamed.py` | One-line wrappers around `extract.py` for these two Facebook sellers — just pass a post URL. |
+| `sync_roseperfume.py`, `sync_sniffz.py` | Fully automatic, no-AI sync for these two Shopify stores — re-polls their product API and updates offers. |
+| `sync_mo_shawky.py` | Fully automatic, no-AI sync for MO Shawky's Odoo storefront — Odoo doesn't expose a JSON API like Shopify does, so this parses the product grid HTML directly. |
+| `brand_prefixes.py` | Shared "Brand Fragrance Name" recognition table used by `sync_mo_shawky.py` and `sync_sniffz.py` (stores whose listings don't have a separate structured brand field). |
 | `rp_notes.py` | Arabic→English note-name translation table used by `sync_roseperfume.py`. |
 | `find_duplicates.py` | Read-only report of likely duplicate products worth merging by hand — run occasionally (see Maintenance below). |
 | `images/` | Fragrance photos referenced by the catalogue. |
@@ -78,7 +103,11 @@ the tools below push for you — they only commit locally — so you're always
 the one who decides what goes live and `git push` is always your own last
 step.
 
-## Workflow A — batch extraction from a Facebook seller's post
+## Workflow A — a Facebook seller's post
+
+For EsLam Nasser or Mostafa Mohamed, just run their `update_*.py` script
+(see the Stores table above) with the post URL. For a **new** Facebook
+seller:
 
 ```bash
 pip install google-genai
@@ -98,14 +127,12 @@ Some sellers post local-brand bottles "inspired by" a named designer/niche
 fragrance — a price banner names the reference fragrance, while a *separate*
 photo shows the actual bottle for sale. For those sellers, add
 `--dupe-pattern` so the reference name goes into `dupe_of` instead of being
-mistaken for the product itself:
-
-```bash
-python extract.py --dupe-pattern --store "EsLam Nasser" --url "..." "https://www.facebook.com/..."
-```
-
-Omit the flag for sellers who just sell the named fragrance directly (decant
-or full bottle of the real thing) — most sellers are this simpler case.
+mistaken for the product itself (this is what `update_eslam_nasser.py`
+does under the hood). Omit the flag for sellers who just sell the named
+fragrance directly, like `update_mostafa_mohamed.py` does — most sellers are
+this simpler case. Once you've settled on the flag for a new seller, copy
+one of the two `update_*.py` scripts as a starting point so you don't have
+to remember it next time.
 
 Progress saves after every single image (into `products.json` and a local
 `.extract_cache.json`), so if the free-tier daily quota runs out partway
@@ -137,41 +164,50 @@ very slow depending on hardware — Gemini is the recommended path.
    while editing) to update *only* the fragrance's own details without
    touching any store's pricing. Publish as usual.
 
-## Workflow C — sync a store that runs its own website (Shopify etc.)
+## Workflow C — a store that runs its own website
 
-`sync_roseperfume.py` is the reference example: roseperfume.online runs on
-Shopify, which exposes a public JSON product API (`/products.json`), so no
-AI/vision is needed at all — it's plain structured-data parsing (title,
-tags, variant prices/stock, and the description text for dupe references and
-notes). Run it whenever you want to refresh that store's listings:
+Three examples to copy from, depending on the platform:
+
+- **Shopify** (`sync_roseperfume.py`, `sync_sniffz.py`): Shopify exposes a
+  public JSON product API (`/products.json` on any collection), so it's
+  plain structured-data parsing — title, vendor/tags, variant prices/stock,
+  and the description text for notes and dupe references. No AI/vision
+  needed. Copy one of these two scripts, change `STORE_NAME`/`STORE_URL`/the
+  collection URL(s), and adjust the description-parsing regexes to match the
+  new store's write-up style (Arabic vs English, "dupe of X" phrasing, etc).
+- **Odoo** (`sync_mo_shawky.py`): Odoo doesn't have a public JSON API, so
+  this scrapes the rendered product grid HTML directly with regex — still no
+  AI/vision, just a different data source. Useful as a starting point for
+  any other server-rendered (non-Shopify) storefront.
+- **A Facebook seller instead of a website**: that's Workflow A, no new code
+  needed.
+
+Run any of them with `python sync_<store>.py`:
 
 ```bash
 python sync_roseperfume.py
 ```
 
-It only ever adds or updates products it can positively re-identify (exact
-ID or exact normalized-name match) — it never removes a listing it can't
-confidently re-match, since a wrong auto-removal (stripping a store from the
-wrong product) is worse than an occasional stale/duplicate entry. It commits
-locally, never pushes.
-
-**To add a similar store in the future**: if it also runs on Shopify, copy
-`sync_roseperfume.py` as a starting point and change `COLLECTION_URL`,
-`STORE_NAME`, `STORE_URL`, and the non-fragrance keyword/parsing rules to
-match the new store's product page structure — most Shopify stores share the
-same `/products.json` shape. If it's a Facebook seller instead, Workflow A
-already covers that with no new code needed.
+All three only ever add or update products they can positively re-identify
+(exact ID or exact normalized-name match) — they never remove a listing they
+can't confidently re-match, since a wrong auto-removal (stripping a store
+from the wrong product) is worse than an occasional stale/duplicate entry.
+They also all check availability/stock before including an offer — an item
+with nothing currently purchasable is skipped rather than added with a
+guess. They commit locally, never push.
 
 ## Maintenance — catching duplicates
 
-Both `extract.py` and `sync_roseperfume.py` merge conservatively on purpose:
+`extract.py` and every `sync_*.py` script merge conservatively on purpose:
 they only auto-match a product by exact ID or exact normalized name, never a
 fuzzy/subset match, because a wrong auto-merge (mixing two different
 fragrances' pricing together) is a much worse mistake than an occasional
 near-duplicate entry (e.g. "Jasmere Parfum" vs "French Avenue Jasmere
-Parfum" — same fragrance, different spelling). Run this occasionally to see
-what's worth merging by hand via `admin.html`'s Edit, or a quick manual
-`products.json` edit:
+Parfum" — same fragrance, different spelling; this happens most often when
+a seller's own naming differs slightly from how the fragrance is already in
+the catalogue from another store). Run this occasionally to see what's worth
+merging by hand via `admin.html`'s Edit, or a quick manual `products.json`
+edit:
 
 ```bash
 python find_duplicates.py

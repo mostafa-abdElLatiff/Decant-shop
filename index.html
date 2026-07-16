@@ -53,6 +53,7 @@
   .chip:focus-visible{outline:3px solid var(--brass);outline-offset:2px}
   .store-select{border:1.5px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:.4rem 1rem;font-family:inherit;font-size:.88rem;cursor:pointer}
   .store-select:focus-visible{outline:3px solid var(--brass);outline-offset:2px}
+  .disclaimer{max-width:1080px;margin:0 auto;padding:0 1.2rem;font-size:.76rem;color:#8A8D7B;line-height:1.5}
 
   .grid{max-width:1080px;margin:0 auto 4rem;padding:0 1.2rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.2rem}
   .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column;outline:0 solid transparent;transition:outline-color .3s}
@@ -94,6 +95,8 @@
   .cart-item .info{font-size:.86rem;flex:1;min-width:0}
   .cart-item .info b{display:block;font-size:.92rem}
   .cart-item .store{color:#8A8D7B;font-size:.76rem}
+  .cart-tip{color:var(--olive-deep);font-size:.74rem;font-weight:600;margin-top:.25rem}
+  .cart-disclaimer{color:#8A8D7B;font-size:.74rem;text-align:center;line-height:1.5}
   .qty{display:flex;align-items:center;gap:.45rem}
   .qty button{width:1.7rem;height:1.7rem;border-radius:8px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer;font-size:1rem}
   .remove{background:none;border:none;color:var(--red);cursor:pointer;font-size:.78rem;font-family:inherit;padding:0;margin-top:2px}
@@ -112,7 +115,7 @@
 <header>
   <div class="header-row">
     <div class="brand">
-      <h1 id="shopName">Fragrance Wishlist</h1>
+      <h1 id="shopName">My list</h1>
       <small id="shopTag">decants • full bottles • leftovers, price-compared</small>
     </div>
     <div class="header-actions">
@@ -136,6 +139,7 @@
   <button class="chip" data-filter="leftover" aria-pressed="false"></button>
   <select class="store-select" id="storeFilter"></select>
 </div>
+<p class="disclaimer" id="disclaimer"></p>
 
 <main class="grid" id="grid"></main>
 
@@ -148,6 +152,7 @@
   <div class="drawer-body" id="cartBody"></div>
   <div class="drawer-foot">
     <div class="total-row"><span id="totalLabel">Total</span><span id="total">0</span></div>
+    <p class="cart-disclaimer" id="cartDisclaimer"></p>
     <button class="copy-msg" id="copyMsg"></button>
   </div>
 </aside>
@@ -175,11 +180,13 @@ const I18N = {
     added:"Added ✓", remove:"Remove", dupe_of:"Dupe of", duped_by:"Duped by",
     full_tag:"full bottle", leftover_tag:"with bottle", as_shown:"as shown",
     toggle_lang:"العربية", theme_to_light:"☀️", theme_to_dark:"🌙", zoom_close:"Close",
+    disclaimer:"Prices shown do not include shipping — each store/seller charges their own delivery fee.",
+    better_deal:"Better value:",
   },
   ar: {
-    site_name:"قائمة أمنيات العطور", tag:"مقسمات • زجاجات كاملة • بواقي تقسيم، مقارنة أسعار",
+    site_name:"قائمة أمنيات العطور", tag:"تقسيمات • زجاجات كاملة • بواقي تقسيم، مقارنة أسعار",
     search_ph:"ابحث باسم العطر أو البراند…",
-    filter_all:"الكل", filter_decant:"مقسمات", filter_full:"زجاجات كاملة", filter_leftover:"بواقي تقسيم",
+    filter_all:"الكل", filter_decant:"تقسيمات", filter_full:"زجاجات كاملة", filter_leftover:"بواقي تقسيم",
     store_all:"كل المتاجر",
     cart_label:"القائمة", drawer_title:"قائمتك", empty:"القائمة فارغة — أضف حجمًا من أي عطر.",
     no_results:"لا توجد نتائج — جرّب كلمة بحث أخرى.", loading:"جارٍ تحميل المنتجات…",
@@ -188,6 +195,8 @@ const I18N = {
     added:"تمت الإضافة ✓", remove:"إزالة", dupe_of:"مستوحى من", duped_by:"مصدر إلهام لـ",
     full_tag:"زجاجة كاملة", leftover_tag:"باقي تقسيم", as_shown:"كما بالصورة",
     toggle_lang:"English", theme_to_light:"☀️", theme_to_dark:"🌙", zoom_close:"إغلاق",
+    disclaimer:"الأسعار الموضحة لا تشمل الشحن — كل متجر/بائع له مصاريف شحن مختلفة.",
+    better_deal:"سعر أفضل:",
   }
 };
 
@@ -261,6 +270,8 @@ function applyI18n(){
   document.getElementById("copyMsg").textContent = t().copy_btn;
   document.getElementById("toggleLang").textContent = t().toggle_lang;
   document.getElementById("toggleTheme").textContent = theme==="dark" ? t().theme_to_light : t().theme_to_dark;
+  document.getElementById("disclaimer").textContent = t().disclaimer;
+  document.getElementById("cartDisclaimer").textContent = t().disclaimer;
   populateStoreFilter();
 }
 
@@ -393,6 +404,22 @@ function addToCart(productId, storeIdx, offerIdx){
   syncCart();
 }
 
+/* Simple "best value" check: among all this product's offers of the same
+   kind (decant/full/leftover) across every store, is there one with a
+   lower price-per-ml? "as-shown" offers have no known quantity so they're
+   excluded from the comparison — there's no fair per-ml basis for them. */
+function findBestDeal(product, kind){
+  let best = null;
+  (product.stores||[]).forEach(s => {
+    (s.offers||[]).forEach(o => {
+      if(o.kind !== kind || o.ml === "as-shown" || !o.ml) return;
+      const perMl = o.price / o.ml;
+      if(!best || perMl < best.perMl) best = { store: s, offer: o, perMl };
+    });
+  });
+  return best;
+}
+
 function resolveCartLine(c){
   const p = PRODUCTS.find(x=>x.id===c.productId);
   if(!p) return null;
@@ -410,6 +437,13 @@ function syncCart(){
     const line = resolveCartLine(c);
     if(!line) return;
     const { p, s, o } = line;
+    let tip = "";
+    if(o.ml !== "as-shown" && o.ml){
+      const best = findBestDeal(p, o.kind);
+      if(best && best.offer.price / best.offer.ml < o.price / o.ml - 1e-9){
+        tip = `<div class="cart-tip">💡 ${t().better_deal} ${best.store.name} — ${offerLabel(best.offer)} ${best.offer.price}</div>`;
+      }
+    }
     const row = document.createElement("div");
     row.className = "cart-item";
     row.innerHTML = `
@@ -418,6 +452,7 @@ function syncCart(){
         <b>${pname(p)}</b>
         ${offerLabel(o)} × ${o.price}
         <div class="store">${s.name}</div>
+        ${tip}
         <button class="remove" data-rm="${i}">${t().remove}</button>
       </div>
       <div class="qty">
