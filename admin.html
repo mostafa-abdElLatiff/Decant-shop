@@ -83,6 +83,7 @@
       <label>اسم المتجر / الصفحة<input id="storeName" placeholder="Ahmed Perfumes"></label>
       <label>الرابط (اختياري)<input id="storeUrl" dir="ltr" placeholder="https://facebook.com/..."></label>
     </div>
+    <label>رابط المنتج المباشر (اختياري)<input id="storeProductUrl" dir="ltr" placeholder="https://.../products/xxx أو رابط منشور فيسبوك المحدد"></label>
     <div id="offerRows"></div>
     <button class="ghost" id="addOffer" type="button">+ إضافة حجم/سعر</button>
 
@@ -206,7 +207,7 @@ function resetForm(){
   $("nameAr").value = ""; $("nameEn").value = ""; $("brand").value = ""; $("dupeOf").value = "";
   $("imgFile").value = "";
   $("noteRows").innerHTML = "";
-  $("storeName").value = ""; $("storeUrl").value = "";
+  $("storeName").value = ""; $("storeUrl").value = ""; $("storeProductUrl").value = "";
   $("offerRows").innerHTML = "";
   addOfferRow("decant",3,""); addOfferRow("decant",5,""); addOfferRow("decant",10,"");
 }
@@ -228,7 +229,7 @@ function startEdit(id){
   $("noteRows").innerHTML = "";
   (product.accords || []).forEach(a => addNoteRow(a.label_en || "", a.label_ar || ""));
 
-  $("storeName").value = ""; $("storeUrl").value = "";
+  $("storeName").value = ""; $("storeUrl").value = ""; $("storeProductUrl").value = "";
   $("offerRows").innerHTML = "";
 
   window.scrollTo({ top: 0, behavior: "smooth" });
@@ -270,8 +271,35 @@ async function putFile(path, contentB64, sha, message){
 
 const slugify = s => s.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"") || ("p-"+Date.now());
 
+/* ---------- brand-aware id matching (mirrors extract.py's _brands_match /
+   find_existing_product / unique_id_for) ---------- */
+const BRAND_GENERIC_WORDS = new Set(["men","women","unisex","fragrance","fragrances","perfume","perfumes"]);
+function brandTokens(b){
+  const norm = (b||"").toLowerCase().normalize("NFKD").replace(/[\u0300-\u036f]/g,"");
+  return new Set(norm.replace(/[^a-z0-9]+/g," ").split(" ").filter(w=>w && !BRAND_GENERIC_WORDS.has(w)));
+}
+function brandsMatch(b1, b2){
+  const t1 = brandTokens(b1), t2 = brandTokens(b2);
+  if(!t1.size || !t2.size) return true;
+  const overlap = [...t1].filter(w=>t2.has(w)).length;
+  const smaller = Math.min(t1.size, t2.size);
+  return smaller<=2 ? overlap===smaller : overlap/smaller >= 0.6;
+}
+function uniqueIdFor(data, nameEn, brand){
+  const base = slugify(nameEn);
+  const conflict = data.products.find(p=>p.id===base);
+  if(!conflict || brandsMatch(conflict.brand, brand)) return base;
+  let candidate = brand ? `${base}-${slugify(brand)}` : `${base}-${Date.now()}`;
+  let i = 2;
+  while(data.products.find(p=>p.id===candidate)){
+    candidate = `${base}-${slugify(brand)}-${i}`;
+    i++;
+  }
+  return candidate;
+}
+
 /* ---------- store/offer merge (mirrors extract.py's merge_store) ---------- */
-function mergeStore(product, storeName, storeUrl, offers){
+function mergeStore(product, storeName, storeUrl, offers, productUrl, imageRel){
   product.stores = product.stores || [];
   let store = product.stores.find(s => s.name.trim().toLowerCase() === storeName.trim().toLowerCase());
   if(!store){
@@ -280,6 +308,8 @@ function mergeStore(product, storeName, storeUrl, offers){
   } else if(storeUrl){
     store.url = storeUrl;
   }
+  if(productUrl) store.product_url = productUrl;
+  if(imageRel) store.image = imageRel;
   offers.forEach(offer => {
     const idx = store.offers.findIndex(o => o.kind===offer.kind && o.ml===offer.ml);
     if(idx>=0) store.offers[idx] = offer; else store.offers.push(offer);
@@ -312,23 +342,33 @@ $("publish").onclick = async ()=>{
     const { sha, data } = await getCatalog();
     data.products = data.products || [];
 
+    const brandVal = $("brand").value.trim();
     let product, isNew = false;
     if(editingId){
       product = data.products.find(p=>p.id===editingId);
       if(!product){ say("err","هذا المنتج لم يعد موجودًا — اضغط تحديث القائمة."); return; }
     } else {
       const id = slugify(nameEn || nameAr);
-      product = data.products.find(p=>p.id===id);
+      const nameKey = (nameEn || nameAr || "").trim().toLowerCase().replace(/\s+/g," ");
+      /* id match OR exact name-string match (needed to re-find a brand-
+         disambiguated id like "khanjar-lattafa" on a later edit — its id
+         doesn't equal slugify("Khanjar")) — either way an incompatible
+         brand means it's a DIFFERENT product that happens to share a name
+         (e.g. "Khanjar" by Omanluxury vs Lattafa), so don't silently merge */
+      const candidate = data.products.find(p =>
+        p.id===id || (nameKey && (p.name_en||"").trim().toLowerCase().replace(/\s+/g," ")===nameKey));
+      product = candidate && brandsMatch(candidate.brand, brandVal) ? candidate : null;
       isNew = !product;
       if(isNew){
-        product = { id, name_ar:"", name_en:"", brand:"", dupe_of:[], image:"", accords:[], stores:[] };
+        const newId = uniqueIdFor(data, nameEn || nameAr, brandVal);
+        product = { id: newId, name_ar:"", name_en:"", brand:"", dupe_of:[], image:"", accords:[], stores:[] };
         data.products.push(product);
       }
     }
 
     product.name_ar = nameAr || nameEn;
     product.name_en = nameEn;
-    product.brand = $("brand").value.trim();
+    product.brand = brandVal;
 
     const dupeText = $("dupeOf").value.trim();
     product.dupe_of = dupeText ? dupeText.split(",").map(s=>s.trim()).filter(Boolean) : [];
@@ -343,8 +383,11 @@ $("publish").onclick = async ()=>{
       }));
     }
 
-    /* optional image upload */
+    /* optional image upload — also used as this store's own listing photo
+       below, so a "leftover — as shown" offer shows the bottle it was
+       actually photographed with rather than another store's picture */
     const file = $("imgFile").files[0];
+    let uploadedImagePath = null;
     if(file){
       const ext = (file.name.split(".").pop()||"jpg").toLowerCase();
       const imagePath = `images/${product.id}.${ext}`;
@@ -357,9 +400,11 @@ $("publish").onclick = async ()=>{
       const existing = await gh(imagePath);
       await putFile(imagePath, imgB64, existing?.sha, `Add image for ${product.id}`);
       product.image = imagePath;
+      uploadedImagePath = imagePath;
     }
 
-    if(offers.length) mergeStore(product, storeName, $("storeUrl").value.trim(), offers);
+    if(offers.length) mergeStore(product, storeName, $("storeUrl").value.trim(), offers,
+                                  $("storeProductUrl").value.trim(), uploadedImagePath);
 
     const action = editingId ? "Edit" : (isNew ? "Add" : "Update");
     await putFile("products.json", b64encode(JSON.stringify(data,null,2)), sha, `${action} ${product.id}${storeName ? ` (${storeName})` : ""}`);

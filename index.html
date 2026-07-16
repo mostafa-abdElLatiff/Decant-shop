@@ -72,9 +72,11 @@
   .accords{display:flex;flex-direction:column;gap:3px;margin-top:.1rem}
   .accord{height:1.3rem;border-radius:4px;display:flex;align-items:center;padding:0 .6rem;font-size:.7rem;font-weight:600;color:rgba(0,0,0,.68)}
   .store-block{border-top:1px dashed var(--line);padding-top:.55rem;margin-top:.15rem}
-  .store-name{font-size:.85rem;font-weight:700;margin-bottom:.35rem}
+  .store-name{font-size:.85rem;font-weight:700;margin-bottom:.35rem;display:flex;align-items:center;gap:.4rem;flex-wrap:wrap}
   .store-name a{color:var(--olive-deep);text-decoration:none;border-bottom:1px solid currentColor}
   .store-name a:hover{opacity:.8}
+  .store-thumb{width:26px;height:26px;border-radius:6px;object-fit:cover;cursor:zoom-in;flex-shrink:0}
+  .store-link{font-size:.76rem;font-weight:500;border-bottom:1px dashed currentColor}
   .offers{display:flex;flex-wrap:wrap;gap:.4rem}
   .offer-btn{border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:10px;padding:.4rem .7rem;cursor:pointer;font-family:inherit;font-size:.82rem;text-align:center}
   .offer-btn b{display:block;font-size:.9rem;color:var(--olive-deep)}
@@ -181,7 +183,7 @@ const I18N = {
     full_tag:"full bottle", leftover_tag:"with bottle", as_shown:"as shown",
     toggle_lang:"العربية", theme_to_light:"☀️", theme_to_dark:"🌙", zoom_close:"Close",
     disclaimer:"Prices shown do not include shipping — each store/seller charges their own delivery fee.",
-    better_deal:"Better value:",
+    better_deal:"Better value:", view_listing:"View listing",
   },
   ar: {
     site_name:"قائمة أمنيات العطور", tag:"تقسيمات • زجاجات كاملة • بواقي تقسيم، مقارنة أسعار",
@@ -196,7 +198,7 @@ const I18N = {
     full_tag:"زجاجة كاملة", leftover_tag:"باقي تقسيم", as_shown:"كما بالصورة",
     toggle_lang:"English", theme_to_light:"☀️", theme_to_dark:"🌙", zoom_close:"إغلاق",
     disclaimer:"الأسعار الموضحة لا تشمل الشحن — كل متجر/بائع له مصاريف شحن مختلفة.",
-    better_deal:"سعر أفضل:",
+    better_deal:"سعر أفضل:", view_listing:"عرض المنتج",
   }
 };
 
@@ -312,7 +314,11 @@ function render(){
         ${p.accords && p.accords.length ? `<div class="accords">${p.accords.map(a=>`<div class="accord" style="background:${a.color};width:${a.w}%">${nlabel(a)}</div>`).join("")}</div>` : ""}
         ${(p.stores||[]).map((s,si)=>`
           <div class="store-block">
-            <div class="store-name">${s.url ? `<a href="${s.url}" target="_blank" rel="noopener">${s.name}</a>` : s.name}</div>
+            <div class="store-name">
+              ${s.image ? `<img class="store-thumb" src="${s.image}" alt="${s.name}" loading="lazy">` : ""}
+              ${s.url ? `<a href="${s.url}" target="_blank" rel="noopener">${s.name}</a>` : s.name}
+              ${s.product_url ? `<a class="store-link" href="${s.product_url}" target="_blank" rel="noopener">🔗 ${t().view_listing}</a>` : ""}
+            </div>
             <div class="offers">
               ${(s.offers||[]).map((o,oi)=>`
                 <button class="offer-btn" data-pid="${p.id}" data-si="${si}" data-oi="${oi}">
@@ -326,7 +332,7 @@ function render(){
 }
 
 grid.addEventListener("click", e => {
-  const img = e.target.closest(".card-img img");
+  const img = e.target.closest(".card-img img, .store-thumb");
   if (img){ openLightbox(img.src, img.alt); return; }
   const jumpBtn = e.target.closest("[data-jump]");
   if (jumpBtn){ focusProduct(jumpBtn.dataset.jump); return; }

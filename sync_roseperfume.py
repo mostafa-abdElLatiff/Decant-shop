@@ -6,8 +6,7 @@ store runs on Shopify, which exposes a public JSON product API, so this is
 plain structured-data parsing (product title, tags, variant prices/stock,
 and the Arabic description's dupe-reference / notes-pyramid sections).
 
-Meant to run on a schedule (see the crontab entry installed alongside this
-file) with no human input. Each run:
+Run manually whenever you want to refresh this store's listings. Each run:
   1. Fetches the full men's-fragrances product list.
   2. Skips non-fragrance items (deodorants, body splashes, gift sets) and
      anything with no in-stock variant.
@@ -34,12 +33,13 @@ import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from extract import slugify, accord_color, find_existing_product, CATALOG  # noqa: E402
+from extract import slugify, accord_color, find_existing_product, unique_id_for, CATALOG  # noqa: E402
 from rp_notes import translate_note, split_dupe  # noqa: E402
 
 COLLECTION_URL = "https://roseperfume.online/collections/men-fragrances/products.json"
 STORE_NAME = "roseperfume"
 STORE_URL = "https://roseperfume.online/"
+STORE_SLUG = slugify(STORE_NAME)
 IMAGES_DIR = CATALOG.parent / "images"
 
 NON_PERFUME_KW = ["deodorant", "body splash", "body spray", "gift set", "gift box", " box"]
@@ -146,6 +146,7 @@ def parse_product(p):
         "dupe_of": split_dupe(dupe_raw) if dupe_raw else None,
         "notes": notes,
         "image": p["images"][0]["src"] if p["images"] else "",
+        "product_url": f"{STORE_URL.rstrip('/')}/products/{p['handle']}" if p.get("handle") else None,
         "offers": sorted(offers, key=lambda o: o["ml"]),
     }
 
@@ -156,7 +157,7 @@ def download_image(url, dest_path):
         dest_path.write_bytes(resp.read())
 
 
-def replace_store_offers(product: dict, offers: list):
+def replace_store_offers(product: dict, offers: list, image_rel: str = None, product_url: str = None):
     """Fully replace this store's offers (not merge-append) so sizes that
     went out of stock since the last sync are dropped, not left stale — but
     only ever called on a product we positively re-identified this run.
@@ -176,9 +177,14 @@ def replace_store_offers(product: dict, offers: list):
     product.setdefault("stores", [])
     store = next((s for s in product["stores"] if s["name"] == STORE_NAME), None)
     if store is None:
-        product["stores"].append({"name": STORE_NAME, "url": STORE_URL, "offers": offers})
+        store = {"name": STORE_NAME, "url": STORE_URL, "offers": offers}
+        product["stores"].append(store)
     else:
         store["offers"] = offers
+    if image_rel:
+        store["image"] = image_rel
+    if product_url:
+        store["product_url"] = product_url
 
 
 def main():
@@ -201,10 +207,10 @@ def main():
     matched_ids = set()
 
     for name_en, info in parsed.items():
-        product = find_existing_product(catalog, name_en)
+        product = find_existing_product(catalog, name_en, info["brand"])
         if product is None:
             product = {
-                "id": slugify(name_en),
+                "id": unique_id_for(catalog, name_en, info["brand"]),
                 "name_ar": "",
                 "name_en": name_en,
                 "brand": info["brand"],
@@ -227,7 +233,16 @@ def main():
             except Exception as e:
                 print(f"  image failed for {product['id']}: {e}")
 
-        replace_store_offers(product, info["offers"])
+        store_image_rel = None
+        if info["image"]:
+            store_dest = IMAGES_DIR / f"{product['id']}--{STORE_SLUG}.jpg"
+            try:
+                download_image(info["image"], store_dest)
+                store_image_rel = f"images/{store_dest.name}"
+            except Exception as e:
+                print(f"  store image failed for {product['id']}: {e}")
+
+        replace_store_offers(product, info["offers"], image_rel=store_image_rel, product_url=info.get("product_url"))
         matched_ids.add(product["id"])
         synced += 1
 

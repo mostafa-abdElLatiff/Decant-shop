@@ -31,13 +31,14 @@ import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from extract import slugify, find_existing_product, CATALOG  # noqa: E402
+from extract import slugify, find_existing_product, unique_id_for, CATALOG  # noqa: E402
 from brand_prefixes import split_brand_prefix  # noqa: E402
 
 BASE_URL = "https://z-original-perfumes-decant.odoo.com"
 SHOP_PATH = "/shop?tags=62,63"
 STORE_NAME = "MO Shawky"
 STORE_URL = "https://www.facebook.com/mo.freeto.play/"
+STORE_SLUG = slugify(STORE_NAME)
 IMAGES_DIR = CATALOG.parent / "images"
 
 
@@ -59,11 +60,13 @@ def parse_cards(html: str) -> list:
         title_m = re.search(r'aria-label="([^"]+)"', b)
         img_m = re.search(r'<img src="([^"]+)"', b)
         price_m = re.search(r'oe_currency_value">([\d.]+)</span>\s*LE', b)
+        href_m = re.search(r'href="(/shop/[^"]+)"', b)
         if title_m and price_m:
             items.append({
                 "title": title_m.group(1).strip(),
                 "price": float(price_m.group(1)),
                 "image": img_m.group(1) if img_m else "",
+                "product_url": f"{BASE_URL}{href_m.group(1)}" if href_m else None,
             })
     return items
 
@@ -105,6 +108,7 @@ def main():
             continue
         info["image"] = c["image"]
         info["price"] = int(c["price"])
+        info["product_url"] = c["product_url"]
         parsed.append(info)
 
     catalog = json.loads(CATALOG.read_text(encoding="utf-8")) if CATALOG.exists() \
@@ -113,10 +117,10 @@ def main():
     added, synced = 0, 0
 
     for info in parsed:
-        product = find_existing_product(catalog, info["name_en"])
+        product = find_existing_product(catalog, info["name_en"], info["brand"])
         if product is None:
             product = {
-                "id": slugify(info["name_en"]),
+                "id": unique_id_for(catalog, info["name_en"], info["brand"]),
                 "name_ar": "",
                 "name_en": info["name_en"],
                 "brand": info["brand"],
@@ -136,11 +140,21 @@ def main():
             except Exception as e:
                 print(f"  image failed for {product['id']}: {e}")
 
+        store_image_rel = None
+        if info["image"]:
+            store_dest = IMAGES_DIR / f"{product['id']}--{STORE_SLUG}.jpg"
+            try:
+                download_image(f"{BASE_URL}{info['image']}", store_dest)
+                store_image_rel = f"images/{store_dest.name}"
+            except Exception as e:
+                print(f"  store image failed for {product['id']}: {e}")
+
         product.setdefault("stores", [])
         store = next((s for s in product["stores"] if s["name"] == STORE_NAME), None)
         offer = {"kind": "decant", "ml": info["ml"], "price": info["price"]}
         if store is None:
-            product["stores"].append({"name": STORE_NAME, "url": STORE_URL, "offers": [offer]})
+            store = {"name": STORE_NAME, "url": STORE_URL, "offers": [offer]}
+            product["stores"].append(store)
         else:
             idx = next((i for i, o in enumerate(store["offers"])
                         if o["kind"] == "decant" and o["ml"] == info["ml"]), None)
@@ -148,6 +162,10 @@ def main():
                 store["offers"][idx] = offer
             else:
                 store["offers"].append(offer)
+        if store_image_rel:
+            store["image"] = store_image_rel
+        if info.get("product_url"):
+            store["product_url"] = info["product_url"]
         synced += 1
 
     CATALOG.write_text(json.dumps(catalog, ensure_ascii=False, indent=2), encoding="utf-8")

@@ -63,6 +63,8 @@ Each product looks like:
     {
       "name": "Ahmed Perfumes",
       "url": "https://facebook.com/ahmedperfumes",
+      "product_url": "https://www.facebook.com/groups/.../posts/...",
+      "image": "images/french-avenue-jasmere--ahmed-perfumes.jpg",
       "offers": [
         { "kind": "decant", "ml": 5, "price": 450 },
         { "kind": "full", "ml": 100, "price": 4400 },
@@ -84,6 +86,36 @@ bottle — a box being visible, or a nominal capacity being printed on it, is
 *not* enough evidence on its own. If a `dupe_of` name matches another
 product already in the catalogue (by slugified name), the site cross-links
 them automatically — otherwise it's just shown as plain text.
+
+Each store entry can also carry `product_url` (the specific product page or
+Facebook post this listing came from — different from `url`, which is the
+store's general homepage/profile) and `image` (that specific store's own
+photo of this listing, shown as a small thumbnail next to the store's
+offers). Both are optional and only appear once a store has been synced
+since this feature was added. `store.image` is refreshed on every sync/
+extraction run (unlike the product-level `image`, which is a stable hero
+photo set once and left alone) specifically so a "leftover — as shown"
+offer always shows the bottle it was actually photographed with, never a
+different store's picture of the same fragrance.
+
+### Matching — how a scraped/extracted item finds its product
+
+`find_existing_product()` (in `extract.py`, shared by every `sync_*.py`
+script and mirrored in `admin.html`) decides whether a new listing is the
+*same* fragrance as an existing product or a *different* one. It requires
+both the name **and the brand** to be compatible — matching on name text
+alone let two different fragrances that happen to share a generic name
+(e.g. "Khanjar" sold by both Omanluxury and Lattafa, or "Private" by
+Mercedes-Benz vs. by Najla Abdul Samad Al Qurashi) silently collapse into
+one product with the wrong brand and a mix of both sellers' offers. Brand
+matching is deliberately lenient about sub-brand/rebrand/spelling
+differences ("Armani" vs "Emporio Armani", "Maison Martin Margiela" vs
+"Maison Margiela") so those don't get wrongly split into duplicates — see
+`_brands_match()`'s docstring in `extract.py` for the exact rule. When a
+new product's plain name-slug is already taken by a different, brand-
+incompatible product, `unique_id_for()` disambiguates the id with a brand
+suffix (e.g. `khanjar-lattafa`) instead of colliding two different
+fragrances onto the same id.
 
 Accord/note colors come from a fixed table (`ACCORD_COLORS` in `extract.py`,
 mirrored in `admin.html`) matching Fragrantica's own "main accords" bar
@@ -135,11 +167,12 @@ one of the two `update_*.py` scripts as a starting point so you don't have
 to remember it next time.
 
 Progress saves after every single image (into `products.json` and a local
-`.extract_cache.json`), so if the free-tier daily quota runs out partway
-through, nothing is lost — just re-run the exact same command tomorrow and
-already-processed images are skipped automatically. On success the script
-commits locally (never pushes) so there's a clean history to review with
-`git diff` / `git log` before you `git push` yourself.
+`.extract_cache.json`), so if the run is interrupted — or, with `--gemini`,
+the free-tier daily quota runs out — nothing is lost: just re-run the exact
+same command and already-processed images are skipped automatically. On
+success the script commits locally (never pushes) so there's a clean
+history to review with `git diff` / `git log` before you `git push`
+yourself.
 
 Ollama (`--local`) is also supported for fully offline extraction, but can be
 very slow depending on hardware — Gemini is the recommended path.

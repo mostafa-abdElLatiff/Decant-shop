@@ -308,23 +308,23 @@ def download_url(url: str) -> Path:
 
 
 def collect_images(args, use_captions: bool = False):
-    paths = []  # list of (Path, display_label_or_None, caption_or_None)
+    paths = []  # list of (Path, display_label_or_None, caption_or_None, source_post_url_or_None)
     for a in args:
         if is_facebook_url(a):
             print(f"→ Facebook post: {a}")
-            paths += [(img, None, caption) for img, caption in download_facebook_post(a, write_metadata=use_captions)]
+            paths += [(img, None, caption, a) for img, caption in download_facebook_post(a, write_metadata=use_captions)]
         elif is_url(a):
             print(f"→ image URL: {a[:80]}...")
             try:
-                paths.append((download_url(a), None, None))
+                paths.append((download_url(a), None, None, None))
             except Exception as e:
                 print(f"  ✗ could not download: {e}")
         else:
             p = Path(a)
             if p.is_dir():
-                paths += [(f, f, None) for f in sorted(p.iterdir()) if f.suffix.lower() in IMAGE_EXTS]
+                paths += [(f, f, None, None) for f in sorted(p.iterdir()) if f.suffix.lower() in IMAGE_EXTS]
             elif p.suffix.lower() in IMAGE_EXTS:
-                paths.append((p, p, None))
+                paths.append((p, p, None, None))
             else:
                 print(f"  skipping (not an image): {p}")
     return paths
@@ -371,6 +371,7 @@ def to_offers(raw: dict) -> list:
 
 
 STOPWORDS = {"perfumes", "perfume", "men", "women", "fragrances", "fragrance"}
+BRAND_GENERIC_WORDS = {"men", "women", "unisex", "fragrance", "fragrances", "perfume", "perfumes"}
 
 
 def _tokens(text: str) -> set:
@@ -378,7 +379,34 @@ def _tokens(text: str) -> set:
     return set(re.sub(r"[^a-z0-9]+", " ", text.lower()).split()) - STOPWORDS
 
 
-def find_existing_product(catalog: dict, name_en: str):
+def _brand_tokens(brand: str) -> set:
+    return _tokens(brand) - BRAND_GENERIC_WORDS
+
+
+def _brands_match(b1: str, b2: str) -> bool:
+    """True unless the two brand strings clearly name different fragrance
+    houses. An empty/generic brand on either side (unknown, or a junk value
+    like a Shopify tag "Men Fragrances") never blocks a match. Otherwise,
+    lenient about sub-brand/rebrand/suffix spelling differences — "Armani"
+    vs "Emporio Armani", "Maison Martin Margiela" vs "Maison Margiela",
+    "Stephane Humbert Lucas 777" vs "...Paris" should all still be treated
+    as the same house — while still catching genuinely different houses
+    that happen to sell a fragrance with the same generic name (e.g.
+    "Khanjar" sold by both Omanluxury and Lattafa, which must NOT merge)."""
+    t1, t2 = _brand_tokens(b1), _brand_tokens(b2)
+    if not t1 or not t2:
+        return True
+    overlap = len(t1 & t2)
+    smaller = min(len(t1), len(t2))
+    # smaller<=2: require the smaller brand's tokens to be FULLY contained in
+    # the other (not smaller-1, which would let e.g. two unrelated one-word
+    # brands like "Omanluxury"/"Lattafa" pass with zero overlap >= 0)
+    if smaller <= 2:
+        return overlap == smaller
+    return overlap / smaller >= 0.6
+
+
+def find_existing_product(catalog: dict, name_en: str, brand: str = ""):
     """Exact slug match first, then a *conservative* fuzzy match: only when
     the normalized core-name token sets are exactly equal (catches accent/
     punctuation spelling differences like "Édition" vs "Edition"). Deliberately
@@ -386,24 +414,64 @@ def find_existing_product(catalog: dict, name_en: str):
     against "Club De Nuit Intense Man", which are different real fragrances.
     A missed duplicate (occasional near-duplicate entry) is a far cheaper
     mistake than silently merging two different products' offers together,
-    which is why this stays strict for an unattended run."""
+    which is why this stays strict for an unattended run.
+
+    Also requires the brand to be compatible (see _brands_match) — matching
+    on name text alone let e.g. "Khanjar" from Omanluxury and "Khanjar" from
+    Lattafa collapse into one product. A name match with an incompatible
+    brand is treated as a different product, not a match.
+
+    The exact-match pass checks id OR normalized name-string equality (not
+    id alone) — a brand-disambiguated id like "khanjar-lattafa" wouldn't
+    equal slugify("Khanjar")=="khanjar", so a later run for the same
+    name+brand needs the name-string check to find it again instead of
+    creating a duplicate."""
     exact_id = slugify(name_en)
+    name_key = re.sub(r"\s+", " ", (name_en or "").strip().lower())
     for p in catalog["products"]:
-        if p["id"] == exact_id:
+        p_name_key = re.sub(r"\s+", " ", (p.get("name_en") or "").strip().lower())
+        if (p["id"] == exact_id or (name_key and p_name_key == name_key)) \
+                and _brands_match(p.get("brand", ""), brand):
             return p
 
     core = _tokens(name_en)
     if len(core) < 2:
         return None
     for p in catalog["products"]:
-        if _tokens(p["name_en"]) == core:
+        if _tokens(p["name_en"]) == core and _brands_match(p.get("brand", ""), brand):
             return p
     return None
 
 
-def merge_store(product: dict, store_name: str, store_url: str, offers: list):
+def unique_id_for(catalog: dict, name_en: str, brand: str = "") -> str:
+    """id for a brand-new product: the plain name slug, unless that slug is
+    already taken by a different (brand-incompatible) product — e.g. adding
+    Lattafa's "Khanjar" when Omanluxury's "Khanjar" already owns the plain
+    "khanjar" id — in which case disambiguate with a brand suffix instead of
+    colliding two different fragrances onto the same id."""
+    base = slugify(name_en)
+    conflict = next((p for p in catalog["products"] if p["id"] == base), None)
+    if conflict is None or _brands_match(conflict.get("brand", ""), brand):
+        return base
+    candidate = f"{base}-{slugify(brand)}" if brand else f"{base}-{int(time.time())}"
+    i = 2
+    while any(p["id"] == candidate for p in catalog["products"]):
+        candidate = f"{base}-{slugify(brand)}-{i}"
+        i += 1
+    return candidate
+
+
+def merge_store(product: dict, store_name: str, store_url: str, offers: list,
+                 image_rel: str = None, product_url: str = None):
     """Find-or-create the named store on product, then merge offers into it
-    (replace matches on kind+ml, append otherwise)."""
+    (replace matches on kind+ml, append otherwise). image_rel is that
+    store's OWN photo for this listing (always refreshed — distinct from
+    the product's product-level `image`, which is a stable hero photo set
+    once and left alone) so a "leftover — as shown" offer always displays
+    the actual bottle it was photographed with, not some other store's
+    picture of the same fragrance. product_url is the specific product/post
+    page for this store's listing, if one exists (vs. store_url, which is
+    the store's general homepage/profile)."""
     store = next(
         (s for s in product["stores"] if s["name"].strip().lower() == store_name.strip().lower()),
         None,
@@ -413,6 +481,10 @@ def merge_store(product: dict, store_name: str, store_url: str, offers: list):
         product["stores"].append(store)
     elif store_url:
         store["url"] = store_url
+    if image_rel:
+        store["image"] = image_rel
+    if product_url:
+        store["product_url"] = product_url
 
     for offer in offers:
         idx = next(
@@ -612,7 +684,9 @@ def main():
     images_dir = CATALOG.parent / "images"
     quota_hit = False
 
-    for img, original, caption in images:
+    store_slug = slugify(ns.store)
+
+    for img, original, caption, source_url in images:
         label = original.name if original else img.name
         if label in done:
             cached_skipped += 1
@@ -635,26 +709,39 @@ def main():
                 continue
 
             name_en = raw.get("name_en") or raw.get("name_ar") or ""
+            brand = raw.get("brand") or ""
             product = to_product(raw, "")
-            existing = find_existing_product(catalog, name_en)
+            existing = find_existing_product(catalog, name_en, brand)
+
+            images_dir.mkdir(exist_ok=True)
+            target = existing if existing is not None else product
+            if existing is None:
+                target["id"] = unique_id_for(catalog, name_en, brand)
+
+            # product-level hero photo: set once, never overwritten by a
+            # later store's photo (so it stays stable for the card/lightbox)
+            if not target.get("image"):
+                dest = images_dir / f"{target['id']}{img.suffix.lower()}"
+                dest.write_bytes(img.read_bytes())
+                target["image"] = f"images/{dest.name}"
+
+            # this store's own photo of THIS listing: always refreshed, so a
+            # "leftover — as shown" offer never displays a different store's
+            # bottle
+            store_dest = images_dir / f"{target['id']}--{store_slug}{img.suffix.lower()}"
+            store_dest.write_bytes(img.read_bytes())
+            store_image_rel = f"images/{store_dest.name}"
 
             if existing is not None:
                 existing.setdefault("stores", [])
-                if not existing.get("image"):
-                    images_dir.mkdir(exist_ok=True)
-                    dest = images_dir / f"{existing['id']}{img.suffix.lower()}"
-                    dest.write_bytes(img.read_bytes())
-                    existing["image"] = f"images/{dest.name}"
-                merge_store(existing, ns.store, ns.url, offers)
+                merge_store(existing, ns.store, ns.url, offers,
+                            image_rel=store_image_rel, product_url=source_url)
                 updated += 1
                 print(f"  ✓ updated: {existing['name_en'] or existing['name_ar']} ({ns.store})")
             else:
-                images_dir.mkdir(exist_ok=True)
-                dest = images_dir / f"{product['id']}{img.suffix.lower()}"
-                dest.write_bytes(img.read_bytes())
-                product["image"] = f"images/{dest.name}"
                 product["stores"] = []
-                merge_store(product, ns.store, ns.url, offers)
+                merge_store(product, ns.store, ns.url, offers,
+                            image_rel=store_image_rel, product_url=source_url)
                 catalog["products"].append(product)
                 added += 1
                 print(f"  ✓ added:   {product['name_en'] or product['name_ar']} ({ns.store})")

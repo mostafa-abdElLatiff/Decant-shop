@@ -30,12 +30,13 @@ import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from extract import slugify, accord_color, find_existing_product, CATALOG  # noqa: E402
+from extract import slugify, accord_color, find_existing_product, unique_id_for, CATALOG  # noqa: E402
 from brand_prefixes import split_brand_prefix, split_brand_suffix  # noqa: E402
 
 BASE_URL = "https://sniffz-eg.com"
 STORE_NAME = "sniffz"
 STORE_URL = "https://sniffz-eg.com/"
+STORE_SLUG = slugify(STORE_NAME)
 IMAGES_DIR = CATALOG.parent / "images"
 
 # (collection handle, offer kind)
@@ -154,6 +155,7 @@ def parse_product(p, kind: str):
         "dupe_of": dupe,
         "notes": notes,
         "image": p["images"][0]["src"] if p["images"] else "",
+        "product_url": f"{STORE_URL.rstrip('/')}/products/{p['handle']}" if p.get("handle") else None,
         "offers": sorted(offers, key=lambda o: o["ml"]),
     }
 
@@ -182,14 +184,14 @@ def main():
     added, synced = 0, 0
 
     for name_en, info in parsed_by_name.items():
-        product = find_existing_product(catalog, name_en)
+        product = find_existing_product(catalog, name_en, info["brand"])
         if product is None:
             accords = [
                 {"label_en": n, "label_ar": "", "color": accord_color(n), "w": max(40, 100 - i * 10)}
                 for i, n in enumerate(info["notes"])
             ]
             product = {
-                "id": slugify(name_en),
+                "id": unique_id_for(catalog, name_en, info["brand"]),
                 "name_ar": "",
                 "name_en": name_en,
                 "brand": info["brand"],
@@ -209,10 +211,20 @@ def main():
             except Exception as e:
                 print(f"  image failed for {product['id']}: {e}")
 
+        store_image_rel = None
+        if info["image"]:
+            store_dest = IMAGES_DIR / f"{product['id']}--{STORE_SLUG}.jpg"
+            try:
+                download_image(info["image"], store_dest)
+                store_image_rel = f"images/{store_dest.name}"
+            except Exception as e:
+                print(f"  store image failed for {product['id']}: {e}")
+
         product.setdefault("stores", [])
         store = next((s for s in product["stores"] if s["name"] == STORE_NAME), None)
         if store is None:
-            product["stores"].append({"name": STORE_NAME, "url": STORE_URL, "offers": info["offers"]})
+            store = {"name": STORE_NAME, "url": STORE_URL, "offers": info["offers"]}
+            product["stores"].append(store)
         else:
             for offer in info["offers"]:
                 idx = next((i for i, o in enumerate(store["offers"])
@@ -221,6 +233,10 @@ def main():
                     store["offers"][idx] = offer
                 else:
                     store["offers"].append(offer)
+        if store_image_rel:
+            store["image"] = store_image_rel
+        if info.get("product_url"):
+            store["product_url"] = info["product_url"]
         synced += 1
 
     CATALOG.write_text(json.dumps(catalog, ensure_ascii=False, indent=2), encoding="utf-8")
