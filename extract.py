@@ -29,6 +29,14 @@ the offer), so pass --store and --url alongside the image(s):
     # goes to dupe_of instead of being mistaken for the product itself:
     python extract.py --dupe-pattern --store "..." --url "..." "https://www.facebook.com/..."
 
+    # Seller writes each photo's fragrance name in the post text/caption
+    # itself (visible per-photo on Facebook, e.g. multi-photo posts where
+    # each image has its own caption) while sizes/prices are only in the
+    # image — pass --use-captions so the caption is trusted for the name
+    # instead of guessed from the image, which only has to supply
+    # brand/notes/sizes/prices:
+    python extract.py --use-captions --store "..." --url "..." "https://www.facebook.com/..."
+
 For each image, extracts the fragrance name, brand, what it's a dupe of (if
 stated), Fragrantica-style notes, and sizes/prices — then merges it into
 products.json as an offer under the given store. Matching against existing
@@ -196,9 +204,22 @@ Rules:
 - Do not invent data you cannot read from the image."""
 
 
-def build_prompt(dupe_pattern: bool) -> str:
+PROMPT_KNOWN_NAME = """
+
+The fragrance name for this image is already confirmed from the seller's
+own Facebook caption for this photo: "{name}". Use exactly this text (only
+fix an obvious typo, e.g. a missing letter) for "name_en" — do not guess a
+different name from the image. Still read brand (from the bottle/box if
+visible, or infer it from the name itself), dupe_of (only if explicitly
+stated in the image), notes, and sizes/prices from the image as normal."""
+
+
+def build_prompt(dupe_pattern: bool, known_name: str = None) -> str:
     context = PROMPT_CONTEXT_DUPE_PATTERN if dupe_pattern else PROMPT_CONTEXT_DEFAULT
-    return context + PROMPT_SCHEMA
+    prompt = context + PROMPT_SCHEMA
+    if known_name:
+        prompt += PROMPT_KNOWN_NAME.format(name=known_name)
+    return prompt
 
 
 def slugify(text: str) -> str:
@@ -214,8 +235,11 @@ def is_facebook_url(s: str) -> bool:
     return "facebook.com" in s and ("/posts/" in s or "story_fbid" in s or "permalink" in s)
 
 
-def download_facebook_post(url: str) -> list:
-    """Use gallery-dl to download all images from a Facebook post."""
+def download_facebook_post(url: str, write_metadata: bool = False) -> list:
+    """Use gallery-dl to download all images from a Facebook post. Returns
+    a list of (Path, caption_or_None) — caption is only populated when
+    write_metadata is True and Facebook exposed a per-photo caption in the
+    gallery-dl metadata sidecar."""
     if not shutil.which("gallery-dl"):
         sys.exit(
             "gallery-dl is required for Facebook URLs.\n"
@@ -225,11 +249,11 @@ def download_facebook_post(url: str) -> list:
     print(f"  fetching all images from Facebook post...")
     succeeded = False
     for browser in ("chrome", "firefox", "safari", "chromium", "edge"):
-        result = subprocess.run(
-            ["gallery-dl", f"--cookies-from-browser={browser}",
-             "--directory", str(tmp_dir), url],
-            capture_output=True, text=True
-        )
+        cmd = ["gallery-dl", f"--cookies-from-browser={browser}", "--directory", str(tmp_dir)]
+        if write_metadata:
+            cmd.append("--write-metadata")
+        cmd.append(url)
+        result = subprocess.run(cmd, capture_output=True, text=True)
         if result.returncode == 0:
             succeeded = True
             break
@@ -241,7 +265,20 @@ def download_facebook_post(url: str) -> list:
         return []
     images = sorted(f for f in tmp_dir.rglob("*") if f.suffix.lower() in IMAGE_EXTS)
     print(f"  found {len(images)} image(s) in post")
-    return images
+
+    results = []
+    for img in images:
+        caption = None
+        if write_metadata:
+            sidecar = img.with_suffix(img.suffix + ".json")
+            if sidecar.exists():
+                try:
+                    meta = json.loads(sidecar.read_text(encoding="utf-8"))
+                    caption = (meta.get("caption") or "").strip() or None
+                except (json.JSONDecodeError, OSError):
+                    pass
+        results.append((img, caption))
+    return results
 
 
 def download_url(url: str) -> Path:
@@ -259,24 +296,24 @@ def download_url(url: str) -> Path:
     return Path(tmp.name)
 
 
-def collect_images(args):
-    paths = []  # list of (Path, display_label_or_None)
+def collect_images(args, use_captions: bool = False):
+    paths = []  # list of (Path, display_label_or_None, caption_or_None)
     for a in args:
         if is_facebook_url(a):
             print(f"→ Facebook post: {a}")
-            paths += [(img, None) for img in download_facebook_post(a)]
+            paths += [(img, None, caption) for img, caption in download_facebook_post(a, write_metadata=use_captions)]
         elif is_url(a):
             print(f"→ image URL: {a[:80]}...")
             try:
-                paths.append((download_url(a), None))
+                paths.append((download_url(a), None, None))
             except Exception as e:
                 print(f"  ✗ could not download: {e}")
         else:
             p = Path(a)
             if p.is_dir():
-                paths += [(f, f) for f in sorted(p.iterdir()) if f.suffix.lower() in IMAGE_EXTS]
+                paths += [(f, f, None) for f in sorted(p.iterdir()) if f.suffix.lower() in IMAGE_EXTS]
             elif p.suffix.lower() in IMAGE_EXTS:
-                paths.append((p, p))
+                paths.append((p, p, None))
             else:
                 print(f"  skipping (not an image): {p}")
     return paths
@@ -475,13 +512,17 @@ def main():
                               "alongside a different actual local-brand bottle for sale "
                               "(see module docstring). Omit for sellers who sell the named "
                               "fragrance directly.")
+    parser.add_argument("--use-captions", action="store_true",
+                         help="This seller writes each photo's fragrance name in the post's "
+                              "own per-photo caption on Facebook — trust that for the name "
+                              "instead of guessing it from the image (see module docstring).")
     parser.add_argument("--store", required=True, help="Name of the store/seller this offer is from")
     parser.add_argument("--url", default="", help="Link to the store/seller (website or Facebook profile)")
     parser.add_argument("sources", nargs="+", help="Image file(s), folder(s), or Facebook/image URL(s)")
     if len(sys.argv) < 2:
         sys.exit(__doc__)
     ns = parser.parse_args()
-    prompt = build_prompt(ns.dupe_pattern)
+    base_prompt = build_prompt(ns.dupe_pattern)
 
     client = None
     if ns.local:
@@ -496,7 +537,7 @@ def main():
             sys.exit("Set GEMINI_API_KEY  or use --local for offline mode.")
         client = genai.Client(api_key=api_key)
 
-    images = collect_images(ns.sources)
+    images = collect_images(ns.sources, use_captions=ns.use_captions)
     if not images:
         sys.exit("No images found.")
 
@@ -509,12 +550,13 @@ def main():
     images_dir = CATALOG.parent / "images"
     quota_hit = False
 
-    for img, original in images:
+    for img, original, caption in images:
         label = original.name if original else img.name
         if label in done:
             cached_skipped += 1
             continue
-        print(f"→ {label}")
+        print(f"→ {label}" + (f"  (caption: {caption!r})" if caption else ""))
+        prompt = build_prompt(ns.dupe_pattern, known_name=caption) if caption else base_prompt
         try:
             text = ollama_generate(img, prompt) if ns.local else gemini_generate(client, img, prompt)
             raw = parse_json(text)
