@@ -429,9 +429,9 @@
     },
     {
       "id": "mazaaj",
-      "name_ar": "مزاج",
-      "name_en": "Mazaaj",
-      "brand": "",
+      "name_ar": "مزاج ريثيم",
+      "name_en": "Mazaaj Rhythm",
+      "brand": "Zimaya",
       "dupe_of": [
         "Symphony — Louis Vuitton"
       ],
@@ -1031,9 +1031,9 @@
     },
     {
       "id": "vulcan-feu",
-      "name_ar": "Vulcan Feu",
+      "name_ar": "فولكان فو",
       "name_en": "Vulcan Feu",
-      "brand": "",
+      "brand": "French Avenue",
       "dupe_of": [
         "God of Fire — Stéphane Humbert Lucas 777"
       ],
@@ -1163,13 +1163,13 @@
     },
     {
       "id": "hawas-for-him-black",
-      "name_ar": "هواس",
-      "name_en": "Hawas For Him Black",
+      "name_ar": "هوس بلاك",
+      "name_en": "Hawas Black",
       "brand": "Rasasi",
       "dupe_of": [
         "Hacivat — Nishane"
       ],
-      "image": "images/hawas-for-him-black.jpg",
+      "image": "images/hawas-black.jpg",
       "accords": [
         {
           "label_en": "Woody",
@@ -1286,19 +1286,21 @@
               "price": 1850,
               "first_seen": "2026-01-01"
             }
-          ]
+          ],
+          "image": "images/hawas-black--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/rasasi-hawas-black"
         }
       ]
     },
     {
       "id": "hawas-for-him-ice",
-      "name_ar": "هواس",
-      "name_en": "Hawas For Him Ice",
+      "name_ar": "هوس ايس",
+      "name_en": "Hawas Ice",
       "brand": "Rasasi",
       "dupe_of": [
         "Invictus Aqua (2018) — Rabanne"
       ],
-      "image": "images/hawas-for-him-ice.jpg",
+      "image": "images/hawas-ice.jpg",
       "accords": [
         {
           "label_en": "Marine",
@@ -1415,7 +1417,9 @@
               "price": 1950,
               "first_seen": "2026-01-01"
             }
-          ]
+          ],
+          "image": "images/hawas-ice--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/rasasi-hawas-ice"
         }
       ]
     },
@@ -1423,7 +1427,7 @@
       "id": "fahad-gaze",
       "name_ar": "فهد",
       "name_en": "Fahad Gaze",
-      "brand": "",
+      "brand": "Arabiyat Prestige",
       "dupe_of": [
         "Guilty Elixir de Parfum pour Homme — Gucci"
       ],
@@ -1537,7 +1541,7 @@
       "id": "odyssey-mandarinsky-vintage-edition",
       "name_ar": "Odyssey Mandarinsky Vintage Edition",
       "name_en": "Odyssey Mandarinsky Vintage Edition",
-      "brand": "",
+      "brand": "Armaf",
       "dupe_of": [
         "Scandal Pour Homme Absolu — Jean Paul Gaultier"
       ],
@@ -1630,7 +1634,7 @@
       "id": "aqriz",
       "name_ar": "أرز",
       "name_en": "Aqriz",
-      "brand": "",
+      "brand": "Arabiyat Prestige",
       "dupe_of": [
         "Vibrato — Sospiro Perfumes"
       ],
@@ -1709,7 +1713,7 @@
     },
     {
       "id": "khamrah-waha",
-      "name_ar": "خمرة",
+      "name_ar": "خمرة واحة",
       "name_en": "Khamrah Waha",
       "brand": "Lattafa",
       "dupe_of": [],
@@ -1973,7 +1977,7 @@
       "id": "mirsaal",
       "name_ar": "مرسال",
       "name_en": "Mirsaal",
-      "brand": "",
+      "brand": "Le Falconé Perfumes",
       "dupe_of": [
         "Torino21 — Xerjoff"
       ],
@@ -2168,7 +2172,7 @@
       "id": "atlantis-extrait",
       "name_ar": "Atlantis Extrait",
       "name_en": "Atlantis Extrait",
-      "brand": "",
+      "brand": "French Avenue",
       "dupe_of": [
         "Wavechild — Room 1015"
       ],
@@ -2538,9 +2542,9 @@
     },
     {
       "id": "blue-zenith",
-      "name_ar": "Blue Zenith",
-      "name_en": "Blue Zenith",
-      "brand": "Zenith",
+      "name_ar": "Zenith Blue",
+      "name_en": "Zenith Blue",
+      "brand": "French Avenue",
       "dupe_of": [
         "Sauvage Eau de Parfum — Dior"
       ],
@@ -2878,9 +2882,9 @@
     },
     {
       "id": "oryn",
-      "name_ar": "Oryn",
-      "name_en": "Oryn",
-      "brand": "Pinnace",
+      "name_ar": "Pinnace Oryn",
+      "name_en": "Pinnace Oryn",
+      "brand": "French Avenue",
       "dupe_of": [
         "Afternoon Swim — Louis Vuitton"
       ],
@@ -3042,7 +3046,7 @@
       "id": "divin-vert",
       "name_ar": "Divin Vert",
       "name_en": "Divin Vert",
-      "brand": "",
+      "brand": "Fragrance World",
       "dupe_of": [
         "Apex — Roja Dove"
       ],
@@ -3340,9 +3344,9 @@
     },
     {
       "id": "aariz-l-absolu",
-      "name_ar": "ارز",
+      "name_ar": "ارز ابسولو",
       "name_en": "Aariz L'Absolu",
-      "brand": "Aariz",
+      "brand": "Arabiyat Prestige",
       "dupe_of": [
         "Velvet Tonka — BDK Parfums"
       ],
@@ -3538,9 +3542,9 @@
     },
     {
       "id": "noir",
-      "name_ar": "Noir",
-      "name_en": "Noir",
-      "brand": "Pinnace",
+      "name_ar": "Pinnace Noir",
+      "name_en": "Pinnace Noir",
+      "brand": "French Avenue",
       "dupe_of": [
         "Boss Bottled Intense Eau de Parfum — Hugo Boss"
       ],
@@ -3639,7 +3643,7 @@
       "id": "divin-musc",
       "name_ar": "Divin Musc",
       "name_en": "Divin Musc",
-      "brand": "",
+      "brand": "Fragrance World",
       "dupe_of": [],
       "image": "images/divin-musc.jpg",
       "accords": [
@@ -3724,7 +3728,7 @@
       "id": "prodigy",
       "name_ar": "Prodigy",
       "name_en": "Prodigy",
-      "brand": "Fragrance World",
+      "brand": "PARIS CORNER",
       "dupe_of": [
         "Alexandria II — Xerjoff"
       ],
@@ -3823,7 +3827,7 @@
       "id": "pinnace",
       "name_ar": "Pinnace",
       "name_en": "Pinnace",
-      "brand": "Pinnace",
+      "brand": "French Avenue",
       "dupe_of": [
         "Pacific Chill — Louis Vuitton"
       ],
@@ -3896,9 +3900,9 @@
     },
     {
       "id": "shabaz-amber",
-      "name_ar": "شباز",
+      "name_ar": "شباز عنبر",
       "name_en": "Shabaz Amber",
-      "brand": "Ard Al Zaafaran",
+      "brand": "Athoor Al Alam",
       "dupe_of": [
         "Amber Intrigue — Tom Ford"
       ],
@@ -3966,7 +3970,7 @@
     {
       "id": "la-dor-bakhur-white",
       "name_ar": "لادور بخور ڤالي",
-      "name_en": "La'dor Bakhur White",
+      "name_en": "LA'DOR BAKHUR VALLEY",
       "brand": "Laverne",
       "dupe_of": [
         "Gris Charnel Extrait — BDK Parfums"
@@ -4066,7 +4070,7 @@
       "id": "essence-de-blanc",
       "name_ar": "Essence de Blanc",
       "name_en": "Essence de Blanc",
-      "brand": "",
+      "brand": "French Avenue",
       "dupe_of": [
         "Imagination — Louis Vuitton"
       ],
@@ -4232,7 +4236,7 @@
     },
     {
       "id": "hawas-for-him",
-      "name_ar": "هواس",
+      "name_ar": "هوس فور هيم",
       "name_en": "Hawas for Him",
       "brand": "Rasasi",
       "dupe_of": [
@@ -7591,7 +7595,7 @@
       "name_en": "Supremacy Collector's Edition",
       "brand": "Afnan",
       "dupe_of": [],
-      "image": "images/supremacy-collector-s-edition.jpg",
+      "image": "images/supremacy-collector-s-edition-pour-homme.jpg",
       "accords": [],
       "stores": [
         {
@@ -12845,7 +12849,7 @@
       "id": "lion-rayhaan",
       "name_ar": "",
       "name_en": "Lion Rayhaan",
-      "brand": "Men Fragrances",
+      "brand": "Rayhaan",
       "dupe_of": [
         "Ultra Male — Jean Paul Gaultier"
       ],
@@ -13071,7 +13075,7 @@
       "id": "illusion-intense",
       "name_ar": "",
       "name_en": "Illusion Intense",
-      "brand": "Men Fragrances",
+      "brand": "Privé",
       "dupe_of": [
         "Dior Homme Intense 2011 — Dior"
       ],
@@ -13189,7 +13193,7 @@
       "id": "smart-collection-678",
       "name_ar": "",
       "name_en": "Smart Collection 678",
-      "brand": "Men Fragrances",
+      "brand": "Smart Collection",
       "dupe_of": [
         "Imagination — Louis Vuitton"
       ],
@@ -13217,7 +13221,7 @@
       "id": "emper-the-immencity",
       "name_ar": "",
       "name_en": "Emper The Immencity",
-      "brand": "Men Fragrances",
+      "brand": "Milestone",
       "dupe_of": [
         "L’Immensité — Louis Vuitton"
       ],
@@ -13306,7 +13310,7 @@
       "id": "milestone-l-immensit-classique",
       "name_ar": "",
       "name_en": "Milestone L'Immensité Classique",
-      "brand": "Men Fragrances",
+      "brand": "Milestone",
       "dupe_of": [
         "L'Eau d'Issey — Issey Miyake"
       ],
@@ -13454,7 +13458,7 @@
       "id": "terra-rayhaan",
       "name_ar": "",
       "name_en": "Terra Rayhaan",
-      "brand": "Men Fragrances",
+      "brand": "Rayhaan",
       "dupe_of": [
         "Outlands — Amouage"
       ],
@@ -13674,13 +13678,13 @@
     },
     {
       "id": "hawas-kobra-rasasi",
-      "name_ar": "",
-      "name_en": "Hawas Kobra Rasasi",
-      "brand": "Men Fragrances",
+      "name_ar": "هوس كوبرا",
+      "name_en": "Hawas Kobra",
+      "brand": "Rasasi",
       "dupe_of": [
         "Imagination — Louis Vuitton"
       ],
-      "image": "images/hawas-kobra-rasasi.jpg",
+      "image": "images/hawas-kobra.jpg",
       "accords": [
         {
           "label_en": "Ginger",
@@ -13769,6 +13773,31 @@
           ]
         },
         {
+          "name": "Hossam ElDeen Gamal",
+          "url": "https://www.facebook.com/hossameldeien/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 130,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 200,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 350,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/hawas-kobra--hossam-eldeen-gamal.jpg"
+        },
+        {
           "name": "sniffz",
           "url": "https://sniffz-eg.com/",
           "offers": [
@@ -13778,7 +13807,9 @@
               "price": 155,
               "first_seen": "2026-01-01"
             }
-          ]
+          ],
+          "image": "images/hawas-kobra--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/rasasi-hawas-kobra"
         }
       ]
     },
@@ -14037,7 +14068,7 @@
       "id": "smart-collection-486",
       "name_ar": "",
       "name_en": "Smart Collection 486",
-      "brand": "Men Fragrances",
+      "brand": "Smart Collection",
       "dupe_of": [
         "Emporio Armani Stronger With You — Giorgio Armani"
       ],
@@ -14065,7 +14096,7 @@
       "id": "smart-collection-527",
       "name_ar": "",
       "name_en": "Smart Collection 527",
-      "brand": "Men Fragrances",
+      "brand": "Smart Collection",
       "dupe_of": [
         "Layton — Parfums de Marly"
       ],
@@ -14093,7 +14124,7 @@
       "id": "smart-collection-600",
       "name_ar": "",
       "name_en": "Smart Collection 600",
-      "brand": "Men Fragrances",
+      "brand": "Smart Collection",
       "dupe_of": [
         "Scandal Pour Homme — Jean Paul Gaultier"
       ],
@@ -14121,7 +14152,7 @@
       "id": "smart-collection-668",
       "name_ar": "",
       "name_en": "Smart Collection 668",
-      "brand": "Men Fragrances",
+      "brand": "Smart Collection",
       "dupe_of": [
         "Guilty Elixir de Parfum pour Homme — Gucci"
       ],
@@ -14149,7 +14180,7 @@
       "id": "smart-collection-671",
       "name_ar": "",
       "name_en": "Smart Collection 671",
-      "brand": "Men Fragrances",
+      "brand": "Smart Collection",
       "dupe_of": [
         "Bottled Absolu — Hugo Boss"
       ],
@@ -14501,7 +14532,7 @@
       "id": "pendora-scents-clasico-de-profondo",
       "name_ar": "",
       "name_en": "Pendora Scents Clasico De Profondo",
-      "brand": "Men Fragrances",
+      "brand": "Pendora Scents",
       "dupe_of": [
         "Acqua di Giò Profondo — Giorgio Armani"
       ],
@@ -14798,7 +14829,7 @@
       "id": "obsidian-rayhaan",
       "name_ar": "",
       "name_en": "Obsidian Rayhaan",
-      "brand": "Men Fragrances",
+      "brand": "Rayhaan",
       "dupe_of": [],
       "image": "images/obsidian-rayhaan.jpg",
       "accords": [
@@ -15079,7 +15110,7 @@
       "id": "smart-collection-401",
       "name_ar": "",
       "name_en": "Smart Collection 401",
-      "brand": "Men Fragrances",
+      "brand": "Smart Collection",
       "dupe_of": [
         "Eros — Versace"
       ],
@@ -15107,7 +15138,7 @@
       "id": "brave-noir-mirada",
       "name_ar": "",
       "name_en": "Brave Noir Mirada",
-      "brand": "Men Fragrances",
+      "brand": "Mirada",
       "dupe_of": [
         "MYSLF Eau de Parfum — Yves Saint Laurent"
       ],
@@ -15591,7 +15622,7 @@
       "id": "milestone-element-03-santal-wood",
       "name_ar": "",
       "name_en": "Milestone Element 03 Santal Wood",
-      "brand": "Men Fragrances",
+      "brand": "Milestone",
       "dupe_of": [
         "Molecule 01 + Guaiac Wood Escentric Molecules"
       ],
@@ -15818,7 +15849,7 @@
       "id": "pendora-scents-classico-de-profumo",
       "name_ar": "",
       "name_en": "Pendora Scents Classico De Profumo",
-      "brand": "Men Fragrances",
+      "brand": "Pendora Scents",
       "dupe_of": [
         "Acqua di Giò Profumo — Giorgio Armani"
       ],
@@ -15889,7 +15920,7 @@
       "id": "white-montagne-pendora-scents",
       "name_ar": "",
       "name_en": "White Montagne Pendora Scents",
-      "brand": "Men Fragrances",
+      "brand": "Pendora Scents",
       "dupe_of": [
         "Silver Mountain Water — Creed"
       ],
@@ -16156,7 +16187,7 @@
       "id": "shuhrah-boisee-rasasi",
       "name_ar": "",
       "name_en": "Shuhrah Boisee Rasasi",
-      "brand": "Men Fragrances",
+      "brand": "Rasasi",
       "dupe_of": [
         "Emporio Armani Stronger With You Intensely — Giorgio Armani"
       ],
@@ -16451,7 +16482,7 @@
       "id": "smart-collection-666",
       "name_ar": "",
       "name_en": "Smart Collection 666",
-      "brand": "Men Fragrances",
+      "brand": "Smart Collection",
       "dupe_of": [
         "MYSLF Eau de Parfum — Yves Saint Laurent"
       ],
@@ -16479,7 +16510,7 @@
       "id": "smart-collection-521",
       "name_ar": "",
       "name_en": "Smart Collection 521",
-      "brand": "Men Fragrances",
+      "brand": "Smart Collection",
       "dupe_of": [
         "Oud Wood Intense — Tom Ford"
       ],
@@ -17027,7 +17058,7 @@
       "id": "smart-collection-172",
       "name_ar": "",
       "name_en": "Smart Collection 172",
-      "brand": "Men Fragrances",
+      "brand": "Smart Collection",
       "dupe_of": [
         "Allure Homme Sport — Chanel"
       ],
@@ -17245,7 +17276,7 @@
       "id": "l-immensit-nuit-de-noir-milestone-perfumes",
       "name_ar": "",
       "name_en": "L'Immensité Nuit de Noir Milestone Perfumes",
-      "brand": "Men Fragrances",
+      "brand": "Milestone",
       "dupe_of": [
         "Nuit d’Issey ssey Miyake"
       ],
@@ -17310,7 +17341,7 @@
       "id": "smart-collection-362",
       "name_ar": "",
       "name_en": "Smart Collection 362",
-      "brand": "Men Fragrances",
+      "brand": "Smart Collection",
       "dupe_of": [
         "Silver Mountain Water — Creed"
       ],
@@ -17338,7 +17369,7 @@
       "id": "azul-rayhaan",
       "name_ar": "",
       "name_en": "Azul Rayhaan",
-      "brand": "Men Fragrances",
+      "brand": "Rayhaan",
       "dupe_of": [
         "Dior Homme Cologne 2022 — Dior"
       ],
@@ -17587,7 +17618,7 @@
       "id": "khumar-zanzibar-by-wadi-al-khaleej",
       "name_ar": "",
       "name_en": "Khumar Zanzibar By Wadi Al khaleej",
-      "brand": "Men Fragrances",
+      "brand": "wadi Al Khaleej",
       "dupe_of": [
         "Ultra Male — Jean Paul Gaultier"
       ],
@@ -17810,7 +17841,7 @@
       "id": "khumar-absolute-by-wadi-al-khaleej",
       "name_ar": "",
       "name_en": "Khumar Absolute By wadi Al Khaleej",
-      "brand": "Men Fragrances",
+      "brand": "wadi Al Khaleej",
       "dupe_of": [
         "Absolu Aventus 2023 — Creed"
       ],
@@ -18576,7 +18607,7 @@
       "id": "together-with-you-always-homme-mirada",
       "name_ar": "",
       "name_en": "Together With You Always Homme Mirada",
-      "brand": "Men Fragrances",
+      "brand": "Mirada",
       "dupe_of": [
         "Emporio Armani Stronger With You Intensely — Giorgio Armani"
       ],
@@ -23189,7 +23220,7 @@
     },
     {
       "id": "hawas-tropical",
-      "name_ar": "",
+      "name_ar": "هوس تروبيكال",
       "name_en": "Hawas Tropical",
       "brand": "Rasasi",
       "dupe_of": [],
@@ -30388,7 +30419,7 @@
     },
     {
       "id": "hawas-viper",
-      "name_ar": "",
+      "name_ar": "هوس فايبر",
       "name_en": "Hawas Viper",
       "brand": "Rasasi",
       "dupe_of": [],
@@ -31821,7 +31852,7 @@
     },
     {
       "id": "hawas-elixir",
-      "name_ar": "",
+      "name_ar": "هوس اليكسير",
       "name_en": "Hawas Elixir",
       "brand": "Rasasi",
       "dupe_of": [
@@ -37126,57 +37157,6 @@
       ]
     },
     {
-      "id": "hawas-kobra",
-      "name_ar": "Hawas Kobra",
-      "name_en": "Hawas Kobra",
-      "brand": "Rasasi",
-      "dupe_of": [],
-      "image": "images/hawas-kobra.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Hossam ElDeen Gamal",
-          "url": "https://www.facebook.com/hossameldeien/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 130,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 200,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 350,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/hawas-kobra--hossam-eldeen-gamal.jpg"
-        },
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 155,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/hawas-kobra--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/rasasi-hawas-kobra"
-        }
-      ],
-      "_hero_source": "sniffz"
-    },
-    {
       "id": "deep-amber",
       "name_ar": "Deep Amber",
       "name_en": "Deep Amber",
@@ -38639,216 +38619,6 @@
       "_hero_source": "MO Shawky"
     },
     {
-      "id": "hawas-ice",
-      "name_ar": "",
-      "name_en": "Hawas Ice",
-      "brand": "Rasasi",
-      "dupe_of": [],
-      "image": "images/hawas-ice.jpg",
-      "accords": [
-        {
-          "label_en": "Apple",
-          "label_ar": "",
-          "color": "#FC4B29",
-          "w": 100
-        },
-        {
-          "label_en": "Italian Lemon",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 90
-        },
-        {
-          "label_en": "Sicilian Bergamot",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 80
-        },
-        {
-          "label_en": "Star Anise",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 70
-        },
-        {
-          "label_en": "Plum",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 60
-        },
-        {
-          "label_en": "Orange Blossom",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 50
-        },
-        {
-          "label_en": "Cardamom",
-          "label_ar": "",
-          "color": "#CC3300",
-          "w": 40
-        },
-        {
-          "label_en": "Musk",
-          "label_ar": "",
-          "color": "#E7D8EA",
-          "w": 40
-        },
-        {
-          "label_en": "Amber",
-          "label_ar": "",
-          "color": "#bc4d10",
-          "w": 40
-        },
-        {
-          "label_en": "Moss",
-          "label_ar": "",
-          "color": "#5B6B32",
-          "w": 40
-        },
-        {
-          "label_en": "Driftwood",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 160,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 200,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 310,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1950,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/hawas-ice--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/rasasi-hawas-ice"
-        }
-      ],
-      "_hero_source": "sniffz"
-    },
-    {
-      "id": "hawas-black",
-      "name_ar": "",
-      "name_en": "Hawas Black",
-      "brand": "Rasasi",
-      "dupe_of": [],
-      "image": "images/hawas-black.jpg",
-      "accords": [
-        {
-          "label_en": "Pineapple",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 100
-        },
-        {
-          "label_en": "Bergamot",
-          "label_ar": "",
-          "color": "#F9FF52",
-          "w": 90
-        },
-        {
-          "label_en": "Grapefruit",
-          "label_ar": "",
-          "color": "#F9FF52",
-          "w": 80
-        },
-        {
-          "label_en": "Cedarwood",
-          "label_ar": "",
-          "color": "#774414",
-          "w": 70
-        },
-        {
-          "label_en": "Patchouli",
-          "label_ar": "",
-          "color": "#63652e",
-          "w": 60
-        },
-        {
-          "label_en": "Jasmine",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 50
-        },
-        {
-          "label_en": "Oakmoss",
-          "label_ar": "",
-          "color": "#5B6B32",
-          "w": 40
-        },
-        {
-          "label_en": "Woody Notes",
-          "label_ar": "",
-          "color": "#774414",
-          "w": 40
-        },
-        {
-          "label_en": "Amber",
-          "label_ar": "",
-          "color": "#bc4d10",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 145,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 185,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 280,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1850,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/hawas-black--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/rasasi-hawas-black"
-        }
-      ],
-      "_hero_source": "sniffz"
-    },
-    {
       "id": "acqua-di-gi-profondo-old-batch",
       "name_ar": "",
       "name_en": "Acqua di Giò Profondo (Old batch)",
@@ -39511,105 +39281,6 @@
           ],
           "image": "images/tom-ford-ombr-leather--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/tom-ford-tom-ford-ombre-leather-full-sealed"
-        }
-      ],
-      "_hero_source": "sniffz"
-    },
-    {
-      "id": "supremacy-collector-s-edition-pour-homme",
-      "name_ar": "",
-      "name_en": "Supremacy Collector's Edition Pour Homme",
-      "brand": "Afnan",
-      "dupe_of": [],
-      "image": "images/supremacy-collector-s-edition-pour-homme.jpg",
-      "accords": [
-        {
-          "label_en": "Pineapple",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 100
-        },
-        {
-          "label_en": "Bergamot",
-          "label_ar": "",
-          "color": "#F9FF52",
-          "w": 90
-        },
-        {
-          "label_en": "Apple",
-          "label_ar": "",
-          "color": "#FC4B29",
-          "w": 80
-        },
-        {
-          "label_en": "White Floral",
-          "label_ar": "",
-          "color": "#edf2fb",
-          "w": 70
-        },
-        {
-          "label_en": "Orange Blossom",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 60
-        },
-        {
-          "label_en": "Birch",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 50
-        },
-        {
-          "label_en": "Amber",
-          "label_ar": "",
-          "color": "#bc4d10",
-          "w": 40
-        },
-        {
-          "label_en": "Ambergris",
-          "label_ar": "",
-          "color": "#bc4d10",
-          "w": 40
-        },
-        {
-          "label_en": "Musk",
-          "label_ar": "",
-          "color": "#E7D8EA",
-          "w": 40
-        },
-        {
-          "label_en": "Oak Moss",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 195,
-              "first_seen": "2026-07-17"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 255,
-              "first_seen": "2026-07-17"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 390,
-              "first_seen": "2026-07-17"
-            }
-          ],
-          "image": "images/supremacy-collector-s-edition-pour-homme--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/afnan-supremacy-collectors-edition-pour-homme"
         }
       ],
       "_hero_source": "sniffz"

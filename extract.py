@@ -207,7 +207,20 @@ the right-panel photo is genuinely a stock photo of the SAME bottle named on
 the left (no different local bottle shown), then name_en = that fragrance
 and dupe_of = [] — check carefully, this is the exception not the rule. If
 two listings are stacked in one image with only one price banner, pick
-whichever is most clearly associated with that banner/photo."""
+whichever is most clearly associated with that banner/photo.
+
+On the RIGHT-panel bottle itself, "brand" is specifically the
+MANUFACTURER/HOUSE (who makes it — e.g. "French Avenue", "Arabiyat
+Prestige", "Lattafa") — this is often printed smaller, on the box, or below
+the main name. Do not confuse it with the product's own individual name or
+collection/line name, even when that's the largest or most prominent text
+on the bottle (e.g. a bottle prominently embossed "PINNACE" or "AARIZ" is
+usually still a French Avenue / Arabiyat Prestige product where "Pinnace"/
+"Aariz" is the fragrance's own name or line, not the manufacturer — put
+that in "name_en", and look for the actual manufacturer elsewhere on the
+bottle/box for "brand"). If you cannot find the manufacturer's name
+anywhere in the image, leave "brand" empty rather than guessing from the
+most prominent text."""
 
 PROMPT_SCHEMA = """
 Return ONLY valid JSON, no markdown fences, matching exactly this schema:

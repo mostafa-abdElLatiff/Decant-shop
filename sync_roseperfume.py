@@ -45,6 +45,23 @@ IMAGES_DIR = CATALOG.parent / "images"
 
 NON_PERFUME_KW = ["deodorant", "body splash", "body spray", "gift set", "gift box", " box"]
 
+# Shopify tags mix a product's actual brand in with generic category/
+# marketing labels, in no reliable order (a real brand is just as likely to
+# be tags[1] as tags[0]) — these are the category tags observed on this
+# collection, skipped when picking which tag is the brand.
+GENERIC_TAGS = {
+    "men fragrances", "women fragrances", "unisex fragrances",
+    "saudi arabia perfumes", "deodorant", "luxury perfume",
+    "concentrated perfume oils", "best selling",
+}
+
+
+def pick_brand_tag(tags: list) -> str:
+    for t in tags or []:
+        if t.strip().lower() not in GENERIC_TAGS:
+            return t
+    return ""
+
 
 def fetch_url(url: str, attempts: int = 5) -> bytes:
     """roseperfume.online has been observed going down with a transient 503
@@ -156,7 +173,7 @@ def parse_product(p):
 
     return {
         "name_en": p["title"].strip(),
-        "brand": p["tags"][0] if p["tags"] else "",
+        "brand": pick_brand_tag(p["tags"]),
         "dupe_of": split_dupe(dupe_raw) if dupe_raw else None,
         "notes": notes,
         "image": p["images"][0]["src"] if p["images"] else "",
