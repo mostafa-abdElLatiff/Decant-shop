@@ -158,7 +158,7 @@
       "id": "arsh-extrait",
       "name_en": "Arsh Extrait",
       "name_ar": "عرش — اكستريه",
-      "brand": "",
+      "brand": "French Avenue",
       "dupe_of": [
         "L'Homme Idéal Platine Privé — Guerlain"
       ],
@@ -231,9 +231,9 @@
     },
     {
       "id": "hawas-for-him-malibu",
-      "name_ar": "هواس",
-      "name_en": "Hawas For Him Malibu",
-      "brand": "",
+      "name_ar": "هوس ماليبو",
+      "name_en": "Hawas Malibu",
+      "brand": "Rasasi",
       "dupe_of": [
         "Le Beau Le Parfum — Jean Paul Gaultier"
       ],
@@ -625,7 +625,8 @@
           "image": "images/9pm-rebel--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/afnan-9pm-rebel"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "shiyaaka-shadow",
@@ -1157,7 +1158,8 @@
           "image": "images/vulcan-feu--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/french-avenue-vulcan-feu"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "hawas-for-him-black",
@@ -1849,7 +1851,8 @@
           "image": "images/khamrah-waha--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/lattafa-khamrah-waha"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "9pm",
@@ -1962,7 +1965,8 @@
           "image": "images/9pm--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/afnan-9pm-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "mirsaal",
@@ -2156,7 +2160,8 @@
           "image": "images/tonquin-giza--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/rayhaan-tonquin-giza"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "atlantis-extrait",
@@ -2867,7 +2872,8 @@
           "image": "images/9pm-night-out--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/afnan-9pm-night-out"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "oryn",
@@ -3235,7 +3241,8 @@
           "image": "images/opulent-dubai--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/lattafa-opulent-dubai-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "odyssey-wild-one-gold-edition",
@@ -4853,7 +4860,8 @@
           "image": "images/shiyaaka-snow--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/khadlaj-shiyaaka-snow"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "odyssey-mega",
@@ -5188,7 +5196,9 @@
               "price": 1400,
               "first_seen": "2026-01-01"
             }
-          ]
+          ],
+          "image": "images/island-khadlaj-perfumes--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/island-khadlaj-perfumes"
         },
         {
           "name": "sniffz",
@@ -5222,7 +5232,8 @@
           "image": "images/island--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/khadlaj-island"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "so-wild-boulder",
@@ -5576,7 +5587,8 @@
           "image": "images/island-dreams--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/khadlaj-island-dreams"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "bamboo-reflection",
@@ -6113,105 +6125,6 @@
       ]
     },
     {
-      "id": "arabiyat-prestige",
-      "name_ar": "Arabiyat Prestige",
-      "name_en": "Arabiyat Prestige",
-      "brand": "Arabiyat Prestige",
-      "dupe_of": [
-        "Althaïr — Parfums de Marly"
-      ],
-      "image": "images/arabiyat-prestige.jpg",
-      "accords": [
-        {
-          "label_en": "Sweet",
-          "label_ar": "حلو",
-          "color": "#ee363b",
-          "w": 100
-        },
-        {
-          "label_en": "Vanilla",
-          "label_ar": "الفانيلا",
-          "color": "#FFFEC0",
-          "w": 86
-        },
-        {
-          "label_en": "Warm Spicy",
-          "label_ar": "تابلي دافئ",
-          "color": "#CC3300",
-          "w": 72
-        },
-        {
-          "label_en": "Cinnamon",
-          "label_ar": "القرفة",
-          "color": "#CC3300",
-          "w": 58
-        },
-        {
-          "label_en": "Aromatic",
-          "label_ar": "أروماتك",
-          "color": "#37a089",
-          "w": 44
-        },
-        {
-          "label_en": "Musky",
-          "label_ar": "مسكي",
-          "color": "#E7D8EA",
-          "w": 40
-        },
-        {
-          "label_en": "Soft",
-          "label_ar": "ناعم",
-          "color": "#EEDDCC",
-          "w": 40
-        },
-        {
-          "label_en": "Citrus",
-          "label_ar": "الحمضيات",
-          "color": "#F9FF52",
-          "w": 40
-        },
-        {
-          "label_en": "Amber",
-          "label_ar": "العنبر",
-          "color": "#bc4d10",
-          "w": 40
-        },
-        {
-          "label_en": "White Flowers",
-          "label_ar": "الزهور البيضاء",
-          "color": "#edf2fb",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "EsLam Nasser",
-          "url": "https://www.facebook.com/eslam.nasser.10/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 85,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 125,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 200,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/arabiyat-prestige.jpg"
-        }
-      ]
-    },
-    {
       "id": "go-mango",
       "name_ar": "Go Mango",
       "name_en": "Go Mango",
@@ -6700,7 +6613,8 @@
           "image": "images/obsidian--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/rayhaan-obsidian"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "urban-man-le-parfum",
@@ -7033,7 +6947,8 @@
           "image": "images/9pm-elixir--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/afnan-9pm-elixir-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "pacific-blue",
@@ -7320,7 +7235,8 @@
           "image": "images/dynasty--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/lattafa-dynasty"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "bois-pacifique",
@@ -7425,7 +7341,8 @@
           ],
           "image": "images/outlands--hossam-eldeen-gamal.jpg"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "terroni",
@@ -7469,7 +7386,8 @@
           "image": "images/terroni--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/orto-parisi-terroni-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "god-of-fire",
@@ -7513,7 +7431,8 @@
           "image": "images/god-of-fire--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/stephane-humbert-lucas-777-god-of-fire-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "the-king",
@@ -7713,7 +7632,9 @@
               "price": 390,
               "first_seen": "2026-01-01"
             }
-          ]
+          ],
+          "image": "images/supremacy-collector-s-edition-pour-homme--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/afnan-supremacy-collectors-edition-pour-homme"
         },
         {
           "name": "Hossam ElDeen Gamal",
@@ -8332,7 +8253,8 @@
           ],
           "image": "images/hacivat-x--hossam-eldeen-gamal.jpg"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "hacivat",
@@ -8394,7 +8316,8 @@
           "image": "images/hacivat--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/nishane-hacivat"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "ocean-the-rive",
@@ -8799,7 +8722,8 @@
           "image": "images/replica-jazz-club--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/maison-martin-margiela-replica-jazz-club-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "eucalyptus-patchouli",
@@ -9404,7 +9328,8 @@
           ],
           "image": "images/torino-21--hossam-eldeen-gamal.jpg"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "casamorati-fiero",
@@ -9515,7 +9440,8 @@
           ],
           "image": "images/vibrato--hossam-eldeen-gamal.jpg"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "ani-x",
@@ -10114,7 +10040,8 @@
           "image": "images/ani--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/nishane-ani"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "psych-d-lique",
@@ -10537,7 +10464,8 @@
           "image": "images/kenzo-homme-eau-de-parfum--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/kenzo-homme-eau-de-parfum-1"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "lalique-pour-homme",
@@ -10891,7 +10819,9 @@
               "price": 345,
               "first_seen": "2026-01-01"
             }
-          ]
+          ],
+          "image": "images/eros-flame-edp--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/versace-eros-flame-edp-10ml-287"
         },
         {
           "name": "sniffz",
@@ -10925,7 +10855,8 @@
           "image": "images/eros-flame--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/versace-eros-flame"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "kenzo-homme-indigo",
@@ -11201,7 +11132,8 @@
           "image": "images/myslf-le-parfum--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/yves-saint-laurent-myslf-le-parfum-copy"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "guerlain-homme-eau-de-parfum",
@@ -11479,7 +11411,8 @@
           "image": "images/eau-d-ombre-leather--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/tom-ford-eau-dombre-leather"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "stronger-with-you-intensely",
@@ -11555,7 +11488,8 @@
           "image": "images/stronger-with-you-intensely--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/armani-stronger-with-you-intensely-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "allure-homme-dition-blanche",
@@ -11641,7 +11575,8 @@
           "image": "images/acqua-di-gi-elixir--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/acqua-di-gio-elixir"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "bleu-de-chanel-l-exclusif",
@@ -11740,7 +11675,8 @@
           ],
           "image": "images/bleu-de-chanel-l-exclusif--hossam-eldeen-gamal.jpg"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "acqua-di-gi-profondo",
@@ -12003,7 +11939,8 @@
           ],
           "image": "images/intense-oud--hossam-eldeen-gamal.jpg"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "sauvage-elixir",
@@ -14143,7 +14080,8 @@
           "image": "images/turathi-blue-afnan--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/afnan-turathi-blue"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "smart-collection-486",
@@ -19854,7 +19792,8 @@
           "image": "images/pharaoh--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/rayhaan-pharaoh"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "oscar",
@@ -20124,105 +20063,6 @@
       ]
     },
     {
-      "id": "modhesh-noble",
-      "name_ar": "مدهش",
-      "name_en": "Modhesh Noble",
-      "brand": "Zimaya",
-      "dupe_of": [
-        "MYSLF L'Absolu — Yves Saint Laurent"
-      ],
-      "image": "images/modhesh-noble.jpg",
-      "accords": [
-        {
-          "label_en": "Citrus",
-          "label_ar": "الحمضيات",
-          "color": "#F9FF52",
-          "w": 100
-        },
-        {
-          "label_en": "White Flowers",
-          "label_ar": "الزهور البيضاء",
-          "color": "#edf2fb",
-          "w": 86
-        },
-        {
-          "label_en": "Fresh Spicy",
-          "label_ar": "تابلي منعش",
-          "color": "#83C928",
-          "w": 72
-        },
-        {
-          "label_en": "Floral",
-          "label_ar": "زهري",
-          "color": "#FF5F8D",
-          "w": 58
-        },
-        {
-          "label_en": "Warm Spicy",
-          "label_ar": "تابلي دافئ",
-          "color": "#CC3300",
-          "w": 44
-        },
-        {
-          "label_en": "Patchouli",
-          "label_ar": "الباتشولي",
-          "color": "#63652e",
-          "w": 40
-        },
-        {
-          "label_en": "Woody",
-          "label_ar": "خشبي",
-          "color": "#774414",
-          "w": 40
-        },
-        {
-          "label_en": "Aromatic",
-          "label_ar": "أروماتك",
-          "color": "#37a089",
-          "w": 40
-        },
-        {
-          "label_en": "Fresh",
-          "label_ar": "منعش",
-          "color": "#9be5ed",
-          "w": 40
-        },
-        {
-          "label_en": "Sweet",
-          "label_ar": "حلو",
-          "color": "#ee363b",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "EsLam Nasser",
-          "url": "https://www.facebook.com/eslam.nasser.10/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 100,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 140,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 220,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/modhesh-noble.jpg"
-        }
-      ]
-    },
-    {
       "id": "liquid-brun",
       "name_ar": "Liquid Brun",
       "name_en": "Liquid Brun",
@@ -20333,7 +20173,8 @@
           "image": "images/liquid-brun--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/french-avenue-liquid-brun-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "pinnace-noir",
@@ -20752,7 +20593,8 @@
           ],
           "image": "images/amber-empire--hossam-eldeen-gamal.jpg"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "western-shisha",
@@ -21627,7 +21469,8 @@
           "image": "images/rare-reef--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/afnan-rare-reef"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "bois-imp-rial",
@@ -21721,7 +21564,8 @@
           ],
           "image": "images/bois-imp-rial--hossam-eldeen-gamal.jpg"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "velvet-iris",
@@ -21951,7 +21795,8 @@
           "image": "images/aquatica--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/rayhaan-aquatica"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "nightly-donna",
@@ -22676,7 +22521,8 @@
           "image": "images/donna-born-in-roma-extradose-women--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/valentino-donna-born-in-roma-extradose"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "power-of-you-women",
@@ -23048,7 +22894,8 @@
           "image": "images/le-beau-le-parfum--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/jean-paul-gaultier-le-beau-le-parfum"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "l-eau-d-issey-pour-homme-vetiver",
@@ -23334,7 +23181,8 @@
           "image": "images/hawas-tropical--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/rasasi-hawas-tropical"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "l-instant-de-guerlain-edp-women",
@@ -23478,7 +23326,8 @@
           "image": "images/stronger-with-you-parfum--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/armani-stronger-with-you-parfum-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "devotion-edp-men",
@@ -23789,7 +23638,8 @@
           "image": "images/the-most-wanted-parfum--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/azzaro-the-most-wanted-parfum-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "desire-extreme",
@@ -24751,7 +24601,8 @@
           "image": "images/encre-noire-a-lextreme--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/lalique-encre-noire-a-l-extreme"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "icon-absolute",
@@ -25251,7 +25102,8 @@
           "image": "images/for-men-intense--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/bentley-for-men-intense-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "1000-miglia",
@@ -25432,7 +25284,8 @@
           "image": "images/marwa--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/arabiyat-prestige-marwa"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "y-eau-de-parfum",
@@ -25542,7 +25395,8 @@
           "image": "images/y-eau-de-parfum--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/yves-saint-laurent-y-eau-de-parfum"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "myslf-eau-de-parfum",
@@ -25616,7 +25470,8 @@
           "image": "images/myslf-eau-de-parfum--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/yves-saint-laurent-myslf-eau-de-parfum"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "aura-pegasus",
@@ -25653,7 +25508,8 @@
           "image": "images/aura-pegasus--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/assaf-aura-pegasus"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "riffs-freeze",
@@ -25769,7 +25625,8 @@
           "image": "images/riffs-freeze--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/riffs-freeze"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "emerald-soul-diamond",
@@ -25843,7 +25700,8 @@
           "image": "images/emerald-soul-diamond--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/ibraheem-alqurashi-emerald-soul-diamond"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "fakhar-black",
@@ -25947,7 +25805,8 @@
           "image": "images/fakhar-black--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/lattafa-fakhar-black"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "hersh-2",
@@ -25990,7 +25849,8 @@
           "image": "images/hersh-2--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/hersh-2"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "hersh-lahab",
@@ -26052,7 +25912,8 @@
           "image": "images/hersh-lahab--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/al-ezz-for-oud-hersh-lahab"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "paciifc-aura",
@@ -26164,7 +26025,8 @@
           "image": "images/paciifc-aura--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/rayhaan-paciifc-aura"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "dylan-blue",
@@ -26286,7 +26148,8 @@
           "image": "images/dylan-blue--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/versace-dylan-blue"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "french-tobacco-ibraheem-alqurashi",
@@ -26384,7 +26247,8 @@
           "image": "images/french-tobacco-ibraheem-alqurashi--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/french-tobacco-ibraheem-alqurashi"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "bleu-de-chanel-eau-de-parfum",
@@ -26542,7 +26406,8 @@
           "image": "images/bleu-de-chanel-eau-de-parfum--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/bleu-de-chanel-eau-de-parfum"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "ingenious-ginger",
@@ -26671,7 +26536,8 @@
           ],
           "image": "images/ingenious-ginger--hossam-eldeen-gamal.jpg"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "imagination",
@@ -26781,7 +26647,8 @@
           "image": "images/imagination--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/louis-vuitton-imagination"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "le-beau-narcisse",
@@ -26861,7 +26728,8 @@
           "image": "images/le-beau-narcisse--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/jean-paul-gaultier-le-beau-narcisse"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "allure-homme-sport-eau-extreme",
@@ -26947,7 +26815,8 @@
           "image": "images/allure-homme-sport-eau-extreme--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/chanel-allure-homme-sport-eau-extreme"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "borntostandout-gold-juice",
@@ -27039,7 +26908,8 @@
           "image": "images/borntostandout-gold-juice--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/borntostandout®-gold-juice"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "erba-gold",
@@ -27161,7 +27031,8 @@
           "image": "images/erba-gold--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/xerjoff-erba-gold"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "x-aromatix-teas-me",
@@ -27265,7 +27136,8 @@
           "image": "images/x-aromatix-teas-me--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/french-avenue-x-aromatix-team-me"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "iven-peace",
@@ -27326,7 +27198,8 @@
           "image": "images/iven-peace--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/iven-peace"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "y-iced-cologne",
@@ -27400,7 +27273,8 @@
           "image": "images/y-iced-cologne--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/yves-saint-laurent-y-iced-cologne"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "wavechild",
@@ -27486,7 +27360,8 @@
           "image": "images/wavechild--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/room-1015-wavechild"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "40-knots",
@@ -27548,7 +27423,8 @@
           ],
           "image": "images/40-knots--hossam-eldeen-gamal.jpg"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "pacific",
@@ -27628,7 +27504,8 @@
           "image": "images/pacific--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/rayhaan-pacific"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "frankel-afternoon",
@@ -27665,7 +27542,8 @@
           "image": "images/frankel-afternoon--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/assaf-frankel-afternoon"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "symphony",
@@ -27733,7 +27611,8 @@
           ],
           "image": "images/symphony--hossam-eldeen-gamal.jpg"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "frankel-blue-elixir",
@@ -27776,7 +27655,8 @@
           "image": "images/frankel-blue-elixir--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/assaf-frankel-blue-elixir"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "magtetiq",
@@ -27819,7 +27699,8 @@
           "image": "images/magtetiq--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/aromatix-magtetiq"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "myslf-l-absolu",
@@ -27893,7 +27774,8 @@
           "image": "images/myslf-l-absolu--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/yves-saint-laurent-myslf-l-absolu"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "no-comment",
@@ -27954,7 +27836,8 @@
           "image": "images/no-comment--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/assaf-no-comment"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "strike-black",
@@ -27991,7 +27874,8 @@
           "image": "images/strike-black--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/assaf-strike-black"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "pacific-chill",
@@ -28119,7 +28003,8 @@
           "image": "images/pacific-chill--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/louis-vuitton-pacific-chill"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "le-male-terrible",
@@ -28193,7 +28078,8 @@
           "image": "images/le-male-terrible--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/jean-paul-gaultier-le-male-terrible"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "gary",
@@ -28279,7 +28165,8 @@
           "image": "images/gary--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/spongebob-gary"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "squidward",
@@ -28371,7 +28258,8 @@
           "image": "images/squidward--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/spongebob-squidward"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "bleu-de-chanel-parfum",
@@ -28487,7 +28375,8 @@
           "image": "images/bleu-de-chanel-parfum--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/bleu-de-chanel-parfum"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "the-most-wanted-eau-de-parfum-intense",
@@ -28530,7 +28419,8 @@
           "image": "images/the-most-wanted-eau-de-parfum-intense--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/azzaro-the-most-wanted-eau-de-parfum-intense"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "spicebomb-extreme",
@@ -28573,7 +28463,8 @@
           "image": "images/spicebomb-extreme--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/viktor-rolf-spicebomb-extreme"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "side-effect",
@@ -28610,7 +28501,8 @@
           "image": "images/side-effect--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/initio-side-effect"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "noir-extreme",
@@ -28738,7 +28630,8 @@
           "image": "images/noir-extreme--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/tom-ford-noir-extrem"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "punto-monte",
@@ -28775,7 +28668,8 @@
           "image": "images/punto-monte--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/punto-monte"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "angels-share",
@@ -28861,7 +28755,8 @@
           "image": "images/angels-share--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/killian-angels-share"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "elixir",
@@ -28941,7 +28836,8 @@
           "image": "images/elixir--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/rayhaan-elixir"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "altha-r",
@@ -29051,7 +28947,8 @@
           "image": "images/altha-r--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/parfums-de-marly-althair"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "liquid-brun-limited-edition",
@@ -29088,7 +28985,8 @@
           "image": "images/liquid-brun-limited-edition--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/liquid-brun-limited-edition"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "lion",
@@ -29192,7 +29090,8 @@
           "image": "images/lion--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/rayhaan-lion"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "mexican-tobacco",
@@ -29278,7 +29177,8 @@
           "image": "images/mexican-tobacco--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/ibraheem-alqurashi-mexican-tobacco"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "le-male-elixir-absolu",
@@ -29388,7 +29288,8 @@
           "image": "images/le-male-elixir-absolu--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/jean-paul-gaultier-le-male-elixir-absolu"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "sharaf-divine",
@@ -29517,7 +29418,8 @@
           "image": "images/sharaf-divine--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/zimaya-sharaf-divine"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "forever-wanted-elixir",
@@ -29609,7 +29511,8 @@
           "image": "images/forever-wanted-elixir--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/azzaro-forever-wanted-elixir"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "crimson",
@@ -29691,7 +29594,8 @@
           "image": "images/crimson--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/rayhaan-crimson"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "vanilla-diorama-old-batch",
@@ -29783,7 +29687,8 @@
           "image": "images/vanilla-diorama-old-batch--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/dior-vanilla-diorama"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "delina",
@@ -29917,7 +29822,8 @@
           "image": "images/delina--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/parfums-de-marly-delina"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "vanilla-28",
@@ -30003,7 +29909,8 @@
           "image": "images/vanilla-28--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/kayali-vanilla-28"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "x-french-avenue-royal-taboo",
@@ -30113,7 +30020,8 @@
           "image": "images/x-french-avenue-royal-taboo--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/aromatix-x-french-avenue-royal-taboo"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "vanilla-aura",
@@ -30205,7 +30113,8 @@
           "image": "images/vanilla-aura--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/vanilla-aura"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "amore-caff",
@@ -30285,7 +30194,8 @@
           "image": "images/amore-caff--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/mancera-amore-caffe"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "oud-for-greatness",
@@ -30359,7 +30269,8 @@
           "image": "images/oud-for-greatness--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/initio-oud-for-greatness"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "hawas-viper",
@@ -30475,7 +30386,8 @@
           "image": "images/hawas-viper--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/rasasi-hawas-viper"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "notes-jazz",
@@ -30573,7 +30485,8 @@
           "image": "images/notes-jazz--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/fragrance-world-notes-jazz"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "habik",
@@ -30616,7 +30529,8 @@
           "image": "images/habik--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/lattafa-habik"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "sindbad",
@@ -30774,7 +30688,8 @@
           "image": "images/sindbad--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/amouage-sindbad"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "reasons",
@@ -30926,7 +30841,8 @@
           "image": "images/reasons--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/amouage-reasons"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "new-bond-st",
@@ -31024,7 +30940,8 @@
           "image": "images/new-bond-st--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/bond-no-9-new-bond-st"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "the-one-collector",
@@ -31110,7 +31027,8 @@
           "image": "images/the-one-collector--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/dolce-gabbana-the-one-collector"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "criminal-of-love",
@@ -31202,7 +31120,8 @@
           "image": "images/criminal-of-love--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/killian-criminal-of-love"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "fierezza",
@@ -31306,7 +31225,8 @@
           "image": "images/fierezza--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/xerjoff-fierezza"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "asad-bourbon",
@@ -31386,7 +31306,8 @@
           "image": "images/asad-bourbon--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/lattafa-asad-bourbon-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "uomo-born-in-roma-intense",
@@ -31430,7 +31351,8 @@
           "image": "images/uomo-born-in-roma-intense--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/valentino-uomo-born-in-roma-intense-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "pour-homme",
@@ -31522,7 +31444,8 @@
           "image": "images/pour-homme--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/versace-pour-homme-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "teriaq-intense",
@@ -31615,7 +31538,8 @@
           ],
           "image": "images/teriaq-intense--hossam-eldeen-gamal.jpg"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "le-male-elixir",
@@ -31683,7 +31607,8 @@
           "image": "images/le-male-elixir--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/jean-paul-gaultier-le-male-elixir-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "homme-intense",
@@ -31751,7 +31676,8 @@
           "image": "images/homme-intense--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/dior-homme-intense-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "hawas-elixir",
@@ -31861,7 +31787,8 @@
           "image": "images/hawas-elixir-rasasi--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/hawas-elixir-rasasi"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "la-nuit-de-l-homme",
@@ -31923,7 +31850,8 @@
           "image": "images/la-nuit-de-l-homme--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/yves-saint-laurent-la-nuit-de-lhomme-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "lynked-freedom",
@@ -32003,7 +31931,8 @@
           "image": "images/lynked-freedom--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/afnan-lynked-freedom-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "the-one-for-men-eau-de-parfum",
@@ -32089,7 +32018,8 @@
           "image": "images/the-one-for-men-eau-de-parfum--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/dolce-gabbana-the-one-for-men-eau-de-parfum-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "stronger-with-you-absolutely",
@@ -32169,7 +32099,8 @@
           "image": "images/stronger-with-you-absolutely--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/armani-stronger-with-you-absolutely-copy"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "le-sel-d-issey",
@@ -32231,7 +32162,8 @@
           "image": "images/le-sel-d-issey--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/issey-miyake-le-sel-d-issey-copy"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "la-capitale",
@@ -32323,7 +32255,8 @@
           "image": "images/la-capitale--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/xerjoff-la-capitale-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "supremacy-not-only-intense",
@@ -32403,7 +32336,8 @@
           "image": "images/supremacy-not-only-intense--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/afnan-supremacy-not-only-intense-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "light-blue-eau-intense-pour-homme",
@@ -32465,7 +32399,8 @@
           "image": "images/light-blue-eau-intense-pour-homme--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/dolce-gabbana-light-blue-eau-intense-pour-homme-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "sculpture",
@@ -32563,7 +32498,8 @@
           "image": "images/sculpture--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/nikos-sculpture-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "oud-satin-mood-extrait-de-parfum",
@@ -32673,7 +32609,8 @@
           "image": "images/oud-satin-mood-extrait-de-parfum--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/maison-francis-kurkdjian-oud-satin-mood-extrait-de-parfum-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "vulcan-sable",
@@ -32791,7 +32728,8 @@
           "image": "images/vulcan-sable--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/french-avenue-vulcan-sable-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "man-eau-fraiche",
@@ -32901,7 +32839,8 @@
           "image": "images/man-eau-fraiche--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/versace-man-eau-fraiche-copy"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "decision",
@@ -33006,7 +32945,8 @@
           ],
           "image": "images/decision--hossam-eldeen-gamal.jpg"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "for-men-azure",
@@ -33092,7 +33032,8 @@
           "image": "images/for-men-azure--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/bentley-for-men-azure-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "layton",
@@ -33196,7 +33137,8 @@
           "image": "images/layton--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/parfums-de-marly-layton-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "his-confession",
@@ -33300,7 +33242,8 @@
           "image": "images/his-confession--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/lattafa-his-confession-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "najdia-intense",
@@ -33394,7 +33337,8 @@
           "image": "images/najdia-intense--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/lattafa-najdia-intense-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "ultra-male",
@@ -33492,7 +33436,8 @@
           "image": "images/ultra-male--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/jean-paul-gaultier-ultra-male-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "qaed-al-fursan",
@@ -33560,7 +33505,8 @@
           "image": "images/qaed-al-fursan--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/lattafa-qaed-al-fursan-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "code-eau-de-parfum",
@@ -33585,7 +33531,8 @@
           "image": "images/code-eau-de-parfum--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/armani-code-eau-de-parfum-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "alexandria-ii",
@@ -33677,7 +33624,8 @@
           "image": "images/alexandria-ii--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/xerjoff-alexandria-ii-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "eros-eau-de-parfum",
@@ -33781,7 +33729,8 @@
           "image": "images/eros-eau-de-parfum--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/versace-eros-eau-de-parfum"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "replica-by-the-fireplace",
@@ -33861,7 +33810,8 @@
           "image": "images/replica-by-the-fireplace--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/maison-martin-margiela-replica-by-the-fireplace-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "halfeti",
@@ -33989,7 +33939,8 @@
           "image": "images/halfeti--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/penhaligons-halfeti-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "tony-iommi-monkey-special",
@@ -34105,7 +34056,8 @@
           "image": "images/tony-iommi-monkey-special--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/xerjoff-tony-iommi-monkey-special"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "eros-parfum",
@@ -34221,7 +34173,8 @@
           "image": "images/eros-parfum--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/versace-eros-parfum"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "eclaire",
@@ -34295,7 +34248,8 @@
           "image": "images/eclaire--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/lattafa-eclaire-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "greenley",
@@ -34375,7 +34329,8 @@
           "image": "images/greenley--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/parfums-de-marly-greenley-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "acqua-di-gi-parfum",
@@ -34443,7 +34398,8 @@
           "image": "images/acqua-di-gi-parfum--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/armani-acqua-di-gio-parfum-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "purpose-50",
@@ -34572,7 +34528,8 @@
           ],
           "image": "images/purpose-50--hossam-eldeen-gamal.jpg"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "baraonda",
@@ -34597,7 +34554,8 @@
           "image": "images/baraonda--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/nasomatto-baraonda-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "black-afgano",
@@ -34761,7 +34719,8 @@
           "image": "images/black-afgano--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/nasomatto-black-afgano-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "aventus",
@@ -34865,7 +34824,8 @@
           "image": "images/aventus--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/creed-aventus-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "angels-share-paradis",
@@ -34957,7 +34917,8 @@
           "image": "images/angels-share-paradis--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/kilian-angels-share-paradis-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "tony-iommi-deified",
@@ -35037,7 +34998,8 @@
           "image": "images/tony-iommi-deified--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/xerjoff-tony-iommi-deified-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "cairo",
@@ -35111,7 +35073,8 @@
           "image": "images/cairo--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/penhaligons-cairo-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "deziro",
@@ -35203,7 +35166,8 @@
           "image": "images/deziro--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/nishane-deziro-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "roses-vanille",
@@ -35247,7 +35211,8 @@
           "image": "images/roses-vanille--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/mancera-roses-vanille-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "alien",
@@ -35291,7 +35256,8 @@
           "image": "images/alien--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/mugler-alien"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "tobacco-vanille",
@@ -35365,7 +35331,8 @@
           "image": "images/tobacco-vanille--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/tom-ford-tobacco-vanille-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "imperial-valley",
@@ -35451,7 +35418,8 @@
           "image": "images/imperial-valley--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/gissah-imperial-valley-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "sauvage",
@@ -35549,7 +35517,8 @@
           "image": "images/sauvage--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/dior-sauvage"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "eros-eau-de-toilette",
@@ -35641,7 +35610,8 @@
           "image": "images/eros-eau-de-toilette--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/versace-eros-eau-de-toilette-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "stercus",
@@ -35727,7 +35697,8 @@
           "image": "images/stercus--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/orto-parisi-stercus-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "megamare",
@@ -35801,7 +35772,8 @@
           "image": "images/megamare--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/orto-parisi-megamare-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "bergamask",
@@ -35906,7 +35878,8 @@
           ],
           "image": "images/bergamask--hossam-eldeen-gamal.jpg"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "sea-my-love",
@@ -35986,7 +35959,8 @@
           "image": "images/sea-my-love--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/stephane-humbert-lucas-sea-my-love"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "halfeti-leather",
@@ -36114,7 +36088,8 @@
           "image": "images/halfeti-leather--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/penhaligons-halfeti-leather"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "hundred-silent-ways",
@@ -36194,7 +36169,8 @@
           "image": "images/hundred-silent-ways--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/nishane-hundred-silent-ways-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "guidance",
@@ -36292,7 +36268,8 @@
           "image": "images/guidance--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/amouage-guidance-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "stronger-with-you-edt",
@@ -36360,7 +36337,8 @@
           "image": "images/stronger-with-you-edt--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/armani-stronger-with-you-edt-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "bianco-latte",
@@ -36416,7 +36394,8 @@
           "image": "images/bianco-latte--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/giardini-di-toscana-bianco-latte-copy"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "babycat-raw-bourbon",
@@ -37054,7 +37033,8 @@
           "image": "images/hawas-kobra--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/rasasi-hawas-kobra"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "deep-amber",
@@ -38514,129 +38494,6 @@
       ]
     },
     {
-      "id": "eros-flame-edp",
-      "name_ar": "",
-      "name_en": "Eros Flame EDP",
-      "brand": "Versace",
-      "dupe_of": [],
-      "image": "images/eros-flame-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "MO Shawky",
-          "url": "https://www.facebook.com/mo.freeto.play/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 345,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/eros-flame-edp--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/versace-eros-flame-edp-10ml-287"
-        }
-      ]
-    },
-    {
-      "id": "supremacy-collector-s-edition-pour-homme",
-      "name_ar": "",
-      "name_en": "Supremacy Collector's Edition Pour Homme",
-      "brand": "Afnan",
-      "dupe_of": [],
-      "image": "images/supremacy-collector-s-edition-pour-homme.jpg",
-      "accords": [
-        {
-          "label_en": "Pineapple",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 100
-        },
-        {
-          "label_en": "Bergamot",
-          "label_ar": "",
-          "color": "#F9FF52",
-          "w": 90
-        },
-        {
-          "label_en": "Apple",
-          "label_ar": "",
-          "color": "#FC4B29",
-          "w": 80
-        },
-        {
-          "label_en": "White Floral",
-          "label_ar": "",
-          "color": "#edf2fb",
-          "w": 70
-        },
-        {
-          "label_en": "Orange Blossom",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 60
-        },
-        {
-          "label_en": "Birch",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 50
-        },
-        {
-          "label_en": "Amber",
-          "label_ar": "",
-          "color": "#bc4d10",
-          "w": 40
-        },
-        {
-          "label_en": "Ambergris",
-          "label_ar": "",
-          "color": "#bc4d10",
-          "w": 40
-        },
-        {
-          "label_en": "Musk",
-          "label_ar": "",
-          "color": "#E7D8EA",
-          "w": 40
-        },
-        {
-          "label_en": "Oak Moss",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 195,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 255,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 390,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/supremacy-collector-s-edition-pour-homme--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/afnan-supremacy-collectors-edition-pour-homme"
-        }
-      ]
-    },
-    {
       "id": "hawas-ice",
       "name_ar": "",
       "name_en": "Hawas Ice",
@@ -38744,7 +38601,8 @@
           "image": "images/hawas-ice--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/rasasi-hawas-ice"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "hawas-black",
@@ -38842,7 +38700,8 @@
           "image": "images/hawas-black--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/rasasi-hawas-black"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "acqua-di-gi-profondo-old-batch",
@@ -38952,7 +38811,8 @@
           "image": "images/acqua-di-gi-profondo-old-batch--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/armani-acqua-di-gio-profondo"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "n-5",
@@ -39032,7 +38892,8 @@
           "image": "images/n-5--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/rosendo-mateu-nº-5"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "ameer-al-oud-intense",
@@ -39106,7 +38967,8 @@
           "image": "images/ameer-al-oud-intense--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/lattafa-ameer-al-oud-intense"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "homme-parfum-2025",
@@ -39193,7 +39055,8 @@
           ],
           "image": "images/dior-homme-parfum-2025--hossam-eldeen-gamal.jpg"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "club-de-nuit-intense-man-edt",
@@ -39291,7 +39154,8 @@
           "image": "images/club-de-nuit-intense-man-edt--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/armaf-club-de-nuit-intense-man-edt-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "gentleman-reserve-priv-e-givenchy",
@@ -39347,7 +39211,8 @@
           "image": "images/gentleman-reserve-priv-e-givenchy--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/gentleman-reserve-privee-givenchy-1"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "absolu-aventus-2025",
@@ -39439,7 +39304,8 @@
           "image": "images/absolu-aventus-2025--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/creed-absolu-aventus-2025-full-sealed"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "tom-ford-ombr-leather",
@@ -39501,119 +39367,14 @@
           "image": "images/tom-ford-ombr-leather--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/tom-ford-tom-ford-ombre-leather-full-sealed"
         }
-      ]
-    },
-    {
-      "id": "island-khadlaj-perfumes",
-      "name_ar": "",
-      "name_en": "Island Khadlaj Perfumes",
-      "brand": "Khadlaj",
-      "dupe_of": [
-        "Le Beau Le Parfum — Jean Paul Gaultier"
       ],
-      "image": "images/island-khadlaj-perfumes.jpg",
-      "accords": [
-        {
-          "label_en": "Pineapple",
-          "label_ar": "الأناناس",
-          "color": "#9C9C9C",
-          "w": 100
-        },
-        {
-          "label_en": "Iris",
-          "label_ar": "السوسن",
-          "color": "#b7a7d7",
-          "w": 90
-        },
-        {
-          "label_en": "Ginger",
-          "label_ar": "الزنجبيل",
-          "color": "#83C928",
-          "w": 80
-        },
-        {
-          "label_en": "Cypress",
-          "label_ar": "أشجار السرور",
-          "color": "#9C9C9C",
-          "w": 70
-        },
-        {
-          "label_en": "Coconut",
-          "label_ar": "جوز الهند",
-          "color": "#FC4B29",
-          "w": 60
-        },
-        {
-          "label_en": "Woods",
-          "label_ar": "الأخشاب",
-          "color": "#9C9C9C",
-          "w": 50
-        },
-        {
-          "label_en": "Tonka Bean",
-          "label_ar": "تتكون من حبوب التونكا",
-          "color": "#FFFEC0",
-          "w": 40
-        },
-        {
-          "label_en": "Amber",
-          "label_ar": "العنبر",
-          "color": "#bc4d10",
-          "w": 40
-        },
-        {
-          "label_en": "Sandalwood",
-          "label_ar": "خشب الصندل",
-          "color": "#774414",
-          "w": 40
-        },
-        {
-          "label_en": "Ambergris",
-          "label_ar": "الآمبرغريس",
-          "color": "#bc4d10",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 100,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 175,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 500,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1400,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/island-khadlaj-perfumes--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/island-khadlaj-perfumes"
-        }
-      ]
+      "_hero_source": "sniffz"
     },
     {
       "id": "hawas-elixir-rasasi",
-      "name_ar": "",
-      "name_en": "Hawas Elixir Rasasi",
-      "brand": "Men Fragrances",
+      "name_ar": "هوس اليكسير",
+      "name_en": "Hawas Elixir",
+      "brand": "Rasasi",
       "dupe_of": [
         "Le Male Elixir — Jean Paul Gaultier"
       ],
@@ -39690,6 +39451,105 @@
           "product_url": "https://roseperfume.online/products/hawas-elixir-rasasi"
         }
       ]
+    },
+    {
+      "id": "supremacy-collector-s-edition-pour-homme",
+      "name_ar": "",
+      "name_en": "Supremacy Collector's Edition Pour Homme",
+      "brand": "Afnan",
+      "dupe_of": [],
+      "image": "images/supremacy-collector-s-edition-pour-homme.jpg",
+      "accords": [
+        {
+          "label_en": "Pineapple",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 100
+        },
+        {
+          "label_en": "Bergamot",
+          "label_ar": "",
+          "color": "#F9FF52",
+          "w": 90
+        },
+        {
+          "label_en": "Apple",
+          "label_ar": "",
+          "color": "#FC4B29",
+          "w": 80
+        },
+        {
+          "label_en": "White Floral",
+          "label_ar": "",
+          "color": "#edf2fb",
+          "w": 70
+        },
+        {
+          "label_en": "Orange Blossom",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 60
+        },
+        {
+          "label_en": "Birch",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 50
+        },
+        {
+          "label_en": "Amber",
+          "label_ar": "",
+          "color": "#bc4d10",
+          "w": 40
+        },
+        {
+          "label_en": "Ambergris",
+          "label_ar": "",
+          "color": "#bc4d10",
+          "w": 40
+        },
+        {
+          "label_en": "Musk",
+          "label_ar": "",
+          "color": "#E7D8EA",
+          "w": 40
+        },
+        {
+          "label_en": "Oak Moss",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 195,
+              "first_seen": "2026-07-17"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 255,
+              "first_seen": "2026-07-17"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 390,
+              "first_seen": "2026-07-17"
+            }
+          ],
+          "image": "images/supremacy-collector-s-edition-pour-homme--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/afnan-supremacy-collectors-edition-pour-homme"
+        }
+      ],
+      "_hero_source": "sniffz"
     }
   ]
 }
