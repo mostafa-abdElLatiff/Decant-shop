@@ -95,6 +95,9 @@
   .store-name a:hover{opacity:.8}
   .store-thumb{width:26px;height:26px;border-radius:6px;object-fit:cover;cursor:zoom-in;flex-shrink:0}
   .store-link{font-size:.76rem;font-weight:500;border-bottom:1px dashed currentColor}
+  .offer-group{display:flex;align-items:center;gap:.5rem;margin-top:.35rem}
+  .offer-group:first-of-type{margin-top:0}
+  .offer-group .store-thumb{width:30px;height:30px}
   .offers{display:flex;flex-wrap:wrap;gap:.4rem}
   .offer-btn{position:relative;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:10px;padding:.4rem .7rem;cursor:pointer;font-family:inherit;font-size:.82rem;text-align:center;transition:border-color .15s, background .15s, transform .1s}
   .offer-btn b{display:block;font-size:.9rem;color:var(--olive-deep)}
@@ -389,21 +392,37 @@ function render(){
           <div class="accords" id="accords-${p.id}">${p.accords.map(a=>`<div class="accord" style="background:${a.color};width:${a.w}%">${nlabel(a)}</div>`).join("")}</div>
           ${p.accords.length>5 ? `<button class="accords-toggle" data-target="accords-${p.id}" data-more="${p.accords.length-5}">${t().show_more_notes.replace("{n}", p.accords.length-5)}</button>` : ""}
         ` : ""}
-        ${(p.stores||[]).map((s,si)=>`
+        ${(p.stores||[]).map((s,si)=>{
+          // Offers with their own photo (e.g. a full-bottle listing) get their
+          // own thumb+group instead of sharing the store's general one — a
+          // single store.image can't represent both a decant vial and a
+          // sealed full bottle.
+          const groups = [];
+          const byImage = new Map();
+          (s.offers||[]).forEach((o,oi) => {
+            const img = o.image || s.image || "";
+            if (!byImage.has(img)) { byImage.set(img, []); groups.push(img); }
+            byImage.get(img).push(oi);
+          });
+          return `
           <div class="store-block">
             <div class="store-name">
-              ${s.image ? `<img class="store-thumb" src="${s.image}" alt="${s.name}" loading="lazy">` : ""}
               ${s.url ? `<a href="${s.url}" target="_blank" rel="noopener">${s.name}</a>` : s.name}
               ${s.product_url ? `<a class="store-link" href="${s.product_url}" target="_blank" rel="noopener">🔗 ${t().view_listing}</a>` : ""}
             </div>
-            <div class="offers">
-              ${(s.offers||[]).map((o,oi)=>`
-                <button class="offer-btn" data-pid="${p.id}" data-si="${si}" data-oi="${oi}">
-                  ${isNewOffer(o) ? `<span class="new-badge">${t().new_badge}</span>` : ""}
-                  ${offerLabel(o)} <b>${o.prev_price ? `<span class="prev-price">${o.prev_price}</span>` : ""}${o.price}</b>
-                </button>`).join("")}
-            </div>
-          </div>`).join("")}
+            ${groups.map(img => `
+              <div class="offer-group">
+                ${img ? `<img class="store-thumb" src="${img}" alt="${s.name}" loading="lazy">` : ""}
+                <div class="offers">
+                  ${byImage.get(img).map(oi => { const o = s.offers[oi]; return `
+                    <button class="offer-btn" data-pid="${p.id}" data-si="${si}" data-oi="${oi}">
+                      ${isNewOffer(o) ? `<span class="new-badge">${t().new_badge}</span>` : ""}
+                      ${offerLabel(o)} <b>${o.prev_price ? `<span class="prev-price">${o.prev_price}</span>` : ""}${o.price}</b>
+                    </button>`; }).join("")}
+                </div>
+              </div>`).join("")}
+          </div>`;
+        }).join("")}
       </div>`;
     grid.appendChild(card);
   });
