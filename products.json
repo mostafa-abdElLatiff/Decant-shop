@@ -10268,7 +10268,8 @@
           "image": "images/artisan-pure--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/john-varvatos-artisan-pure-5-ml-102"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "ejaazi",
@@ -10392,7 +10393,8 @@
           "image": "images/l-homme-id-al-l-intense--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/guerlain-l-homme-ideal-l-intense-10ml-334"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "kenzo-homme-eau-de-parfum",
@@ -10559,36 +10561,6 @@
             }
           ],
           "image": "images/tobacco-jam-50.jpg"
-        }
-      ]
-    },
-    {
-      "id": "lalique-white",
-      "name_ar": "Lalique White",
-      "name_en": "Lalique White",
-      "brand": "Lalique",
-      "dupe_of": [],
-      "image": "images/lalique-white.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Mostafa Mohamed",
-          "url": "https://www.facebook.com/mostafa.mohamed.390048/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 225,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 20,
-              "price": 425,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/lalique-white.jpg"
         }
       ]
     },
@@ -10912,10 +10884,11 @@
               "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/homme-indigo--mo-shawky.jpg",
+          "image": "images/kenzo-homme-indigo--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/kenzo-homme-indigo-10ml-356"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "scandal-absolu",
@@ -10971,7 +10944,8 @@
           "image": "images/scandal-absolu--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/jpg-scandal-absolu-women-5ml-392"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "brioni-eau-de-parfum",
@@ -11189,30 +11163,6 @@
             }
           ],
           "image": "images/boss-bottled-elixir.jpg"
-        }
-      ]
-    },
-    {
-      "id": "missoni-wave",
-      "name_ar": "Missoni Wave",
-      "name_en": "Missoni Wave",
-      "brand": "Missoni",
-      "dupe_of": [],
-      "image": "images/missoni-wave.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Mostafa Mohamed",
-          "url": "https://www.facebook.com/mostafa.mohamed.390048/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 20,
-              "price": 400,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/missoni-wave.jpg"
         }
       ]
     },
@@ -11831,7 +11781,8 @@
             }
           ]
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "gentleman-eau-de-parfum-bois-e",
@@ -12114,36 +12065,6 @@
       ]
     },
     {
-      "id": "roberto-cavalli-uomo",
-      "name_ar": "Roberto Cavalli Uomo",
-      "name_en": "Roberto Cavalli Uomo",
-      "brand": "Roberto Cavalli",
-      "dupe_of": [],
-      "image": "images/roberto-cavalli-uomo.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Mostafa Mohamed",
-          "url": "https://www.facebook.com/mostafa.mohamed.390048/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 250,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 20,
-              "price": 450,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/roberto-cavalli-uomo.jpg"
-        }
-      ]
-    },
-    {
       "id": "armani-code-absolu-parfum",
       "name_ar": "Armani Code Absolu Parfum",
       "name_en": "Armani Code Absolu Parfum",
@@ -12247,8 +12168,8 @@
     },
     {
       "id": "uomo",
-      "name_ar": "Uomo",
-      "name_en": "Uomo",
+      "name_ar": "Roberto Cavalli Uomo",
+      "name_en": "Roberto Cavalli Uomo",
       "brand": "Roberto Cavalli",
       "dupe_of": [],
       "image": "images/uomo.jpg",
@@ -12258,6 +12179,18 @@
           "name": "Mostafa Mohamed",
           "url": "https://www.facebook.com/mostafa.mohamed.390048/",
           "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 250,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 20,
+              "price": 450,
+              "first_seen": "2026-01-01"
+            },
             {
               "kind": "leftover",
               "ml": "as-shown",
@@ -21683,7 +21616,8 @@
           "image": "images/velvet-iris--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-velvet-iris-3ml-481"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "n-roli-botanica",
@@ -21720,7 +21654,8 @@
           "image": "images/n-roli-botanica--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-neroli-botanica-3ml-478"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "fig-infusion",
@@ -21782,7 +21717,8 @@
           ],
           "image": "images/fig-infusion--hossam-eldeen-gamal.jpg"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "man-wood-neroli",
@@ -21819,7 +21755,8 @@
           "image": "images/man-wood-neroli--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/bvlgari-man-wood-neroli-3ml-472"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "aquatica",
@@ -21908,7 +21845,8 @@
           "image": "images/nightly-donna--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/le-bonheur-nightly-donna-5ml-466"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "aura-c35",
@@ -21939,7 +21877,8 @@
           "image": "images/aura-c35--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/assaf-aura-35-10ml-461"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "frankel-black-elixir",
@@ -21970,7 +21909,8 @@
           "image": "images/frankel-black-elixir--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/assaf-frankel-aventus-black-elixir-10ml-459"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "eau-de-vintage",
@@ -22007,7 +21947,8 @@
           "image": "images/eau-de-vintage--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ghalati-eau-de-vintage-3ml-469"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "invictus-victory-extreme-edp",
@@ -22032,7 +21973,8 @@
           "image": "images/invictus-victory-extreme-edp--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/paco-rabanne-invictus-victory-extreme-edp-3ml-447"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "icon-racing-blue",
@@ -22063,7 +22005,8 @@
           "image": "images/icon-racing-blue--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/alfred-dunhill-icon-racing-blue-5ml-427"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "icon-elite",
@@ -22094,7 +22037,8 @@
           "image": "images/icon-elite--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/alfred-dunhill-icon-elite-5ml-425"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "the-one-edp-new-2025",
@@ -22131,7 +22075,8 @@
           "image": "images/the-one-edp-new-2025--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/d-g-the-one-edp-new-2025-5ml-423"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "femme-individuelle-women",
@@ -22162,7 +22107,8 @@
           "image": "images/femme-individuelle-women--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/montblanc-femme-individuelle-women-5ml-371"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "cool-water-women",
@@ -22193,7 +22139,8 @@
           "image": "images/cool-water-women--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/davidoff-cool-water-women-5ml-373"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "edp-women",
@@ -22224,7 +22171,8 @@
           "image": "images/edp-women--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/roberto-cavalli-edp-women-5ml-375"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "212-vip-ros-love-ny-women",
@@ -22255,7 +22203,8 @@
           "image": "images/212-vip-ros-love-ny-women--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ch-212-vip-rose-love-ny-women-5ml-377"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "irresistible-edp-women",
@@ -22292,7 +22241,8 @@
           "image": "images/irresistible-edp-women--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/givenchy-irresistible-edp-women-3ml-436"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "signature",
@@ -22317,7 +22267,8 @@
           "image": "images/signature--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/sf-uomo-signature-10ml-146"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "la-vie-est-belle-vanille-nude-women",
@@ -22354,7 +22305,8 @@
           "image": "images/la-vie-est-belle-vanille-nude-women--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lancome-la-vie-est-belle-vanille-nude-women-3ml-442"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "la-vie-est-belle-l-elixir-women",
@@ -22391,7 +22343,8 @@
           "image": "images/la-vie-est-belle-l-elixir-women--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lancome-la-vie-est-belle-l-elixir-women-5ml-385"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "la-vie-est-belle-iris-absolu-women",
@@ -22428,7 +22381,8 @@
           "image": "images/la-vie-est-belle-iris-absolu-women--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lancome-la-vie-est-belle-iris-absolu-women-3ml-440"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "million-gold-for-her-edp",
@@ -22465,7 +22419,8 @@
           "image": "images/million-gold-for-her-edp--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/rabanne-million-gold-for-her-edp-3ml-448"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "for-her-intense",
@@ -22502,7 +22457,8 @@
           "image": "images/for-her-intense--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/narciso-rodriguez-for-her-intense-3ml-444"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "donna-born-in-roma-ivory-women",
@@ -22539,7 +22495,8 @@
           "image": "images/donna-born-in-roma-ivory-women--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/valentino-donna-born-in-roma-ivory-women-3ml-452"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "donna-born-in-roma-extradose-women",
@@ -22640,7 +22597,8 @@
           "image": "images/power-of-you-women--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/giorgio-armani-power-of-you-women-3ml-433"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "la-femme-absolu",
@@ -22677,7 +22635,8 @@
           "image": "images/la-femme-absolu--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/prada-la-femme-absolu-3ml-445"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "alien-hypersense-women",
@@ -22714,7 +22673,8 @@
           "image": "images/alien-hypersense-women--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/mugler-alien-hypersense-women-5ml-402"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "invictus-victory-absolu",
@@ -22751,7 +22711,8 @@
           "image": "images/invictus-victory-absolu--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/rabanne-invictus-victory-absolu-3ml-446"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "pure-blue",
@@ -22782,7 +22743,8 @@
           "image": "images/pure-blue--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/nautica-pure-blue-5ml-406"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "wave",
@@ -22812,8 +22774,22 @@
           ],
           "image": "images/wave--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/missoni-wave-5ml-408"
+        },
+        {
+          "name": "Mostafa Mohamed",
+          "url": "https://www.facebook.com/mostafa.mohamed.390048/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 20,
+              "price": 400,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/missoni-wave.jpg"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "icon",
@@ -22844,7 +22820,8 @@
           "image": "images/icon--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/alfred-dunhill-icon-5ml-410"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "homme-edp",
@@ -22875,7 +22852,8 @@
           "image": "images/homme-edp--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/kenzo-homme-edp-5ml-412"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "legend-edp",
@@ -22906,7 +22884,8 @@
           "image": "images/legend-edp--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/montblanc-legend-edp-5ml-416"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "le-beau-le-parfum",
@@ -23007,7 +22986,8 @@
           "image": "images/l-eau-d-issey-pour-homme-vetiver--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/issey-miyake-leau-dissey-pour-homme-vetiver-10ml-419"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "1-million-parfum",
@@ -23038,7 +23018,8 @@
           "image": "images/1-million-parfum--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/paco-rabanne-1-million-parfum-10ml-360"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "cool-water-parfum",
@@ -23069,7 +23050,8 @@
           "image": "images/cool-water-parfum--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/davidoff-cool-water-parfum-10ml-354"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "h24-edt",
@@ -23100,7 +23082,8 @@
           "image": "images/h24-edt--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/h24-hermes-10ml-351"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "ricci-ricci-nina-ricci",
@@ -23137,7 +23120,8 @@
           "image": "images/ricci-ricci-nina-ricci--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ricci-ricci-nina-ricci-5ml-348"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "l-homme-aromatic-touch",
@@ -23168,7 +23152,8 @@
           "image": "images/l-homme-aromatic-touch--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/rochas-lhomme-aromatic-touch-10ml-345"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "d-claration-edp",
@@ -23199,7 +23184,8 @@
           "image": "images/d-claration-edp--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/cartier-declaration-edp-10ml-344"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "hawas-tropical",
@@ -23294,7 +23280,8 @@
           "image": "images/l-instant-de-guerlain-edp-women--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/guerlain-linstant-de-guerlain-edp-10ml-338"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "l-homme-id-al-extr-me",
@@ -23325,7 +23312,8 @@
           "image": "images/l-homme-id-al-extr-me--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/guerlain-lhomme-ideal-lintense-10ml-336"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "drakkar-intense",
@@ -23356,7 +23344,8 @@
           "image": "images/drakkar-intense--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/guy-laroche-drakkar-intense-5ml-333"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "stronger-with-you-parfum",
@@ -23439,7 +23428,8 @@
           "image": "images/devotion-edp-men--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/dolcegabbana-devotion-edp-men-10ml-328"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "devotion-edp-intense-women",
@@ -23470,7 +23460,8 @@
           "image": "images/devotion-edp-intense-women--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/dolcegabbana-devotion-edp-intense-women-10ml-326"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "explorer",
@@ -23501,7 +23492,8 @@
           "image": "images/explorer--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/montblanc-explorer-5ml-325"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "l-interdit-edp-women",
@@ -23538,7 +23530,8 @@
           "image": "images/l-interdit-edp-women--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/givenchy-l-interdit-edp-women-5ml-321"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "signature-absolue",
@@ -23569,44 +23562,8 @@
           "image": "images/signature-absolue--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/valentino-uomo-born-in-roma-intense-10ml-318"
         }
-      ]
-    },
-    {
-      "id": "uomo-born-in-roma-edp-intense-men",
-      "name_ar": "",
-      "name_en": "Uomo Born In Roma EDP Intense MEN",
-      "brand": "Valentino",
-      "dupe_of": [],
-      "image": "images/uomo-born-in-roma-edp-intense-men.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "MO Shawky",
-          "url": "https://www.facebook.com/mo.freeto.play/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 220,
-              "first_seen": "2026-07-17"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 335,
-              "first_seen": "2026-07-17"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 600,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/uomo-born-in-roma-edp-intense-men--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/valentino-uomo-born-in-roma-edp-intense-men-5ml-317"
-        }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "y-edp-intense",
@@ -23643,7 +23600,8 @@
           "image": "images/y-edp-intense--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ysl-y-edp-intense-3ml-456"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "cool-water-edt",
@@ -23674,7 +23632,8 @@
           "image": "images/cool-water-edt--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/davidoff-cool-water-edt-5ml-313"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "the-most-wanted-parfum",
@@ -23751,7 +23710,8 @@
           "image": "images/desire-extreme--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/alfred-dunhill-desire-extreme-5ml-309"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "terre-d-herm-s-eau-givree",
@@ -23782,7 +23742,8 @@
           "image": "images/terre-d-herm-s-eau-givree--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/hermes-terre-dhermes-eau-givre-10ml-306"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "terre-d-hermes-parfum",
@@ -23813,7 +23774,8 @@
           "image": "images/terre-d-hermes-parfum--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/hermes-terre-dhermes-parfum-10ml-304"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "essentials-blue-edt",
@@ -23838,7 +23800,8 @@
           "image": "images/essentials-blue-edt--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/davidoff-essentials-blue-edt-10ml-301"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "l-12-12-noir-intense",
@@ -23863,7 +23826,8 @@
           "image": "images/l-12-12-noir-intense--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lacoste-l-12-12-noir-intense-10ml-299"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "marmara",
@@ -23888,7 +23852,8 @@
           "image": "images/marmara--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/french-avenue-marmara-5ml-298"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "l-homme-intense",
@@ -23913,7 +23878,8 @@
           "image": "images/l-homme-intense--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lacoste-l-homme-intense-10ml-289"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "1-million-edt",
@@ -23938,7 +23904,8 @@
           "image": "images/1-million-edt--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/paco-rabanne-1-million-edt-10ml-285"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "eros-edt",
@@ -23963,7 +23930,8 @@
           "image": "images/eros-edt--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/versace-eros-edt-10ml-283"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "signature-elixir",
@@ -23988,7 +23956,8 @@
           "image": "images/signature-elixir--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/montblanc-signature-elixir-5ml-280"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "voyage-sport",
@@ -24013,7 +23982,8 @@
           "image": "images/voyage-sport--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/nautica-voyage-sport-10ml-275"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "olymp-a-parfum",
@@ -24050,7 +24020,8 @@
           "image": "images/olymp-a-parfum--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/rabanne-olympea-parfum-5ml-273"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "legend-edt",
@@ -24075,7 +24046,8 @@
           "image": "images/legend-edt--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/mont-blanc-legend-edt-10ml-270"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "l-12-12-silver-rose",
@@ -24100,7 +24072,8 @@
           "image": "images/l-12-12-silver-rose--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lacoste-l-12-12-silver-rose-10ml-268"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "vetiver-musc",
@@ -24125,7 +24098,8 @@
           "image": "images/vetiver-musc--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/narciso-rodriguez-vetiver-musc-10ml-266"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "xx-indigo",
@@ -24150,7 +24124,8 @@
           "image": "images/xx-indigo--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/john-varvatos-xx-indigo-10ml-264"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "l-12-12-noir-edt",
@@ -24175,7 +24150,8 @@
           "image": "images/l-12-12-noir-edt--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lacoste-l-12-12-noir-edt-10ml-260"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "bleu-noir-edt",
@@ -24200,7 +24176,8 @@
           "image": "images/bleu-noir-edt--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/narciso-rodriguez-bleu-noir-edt-10ml-258"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "legacy-cristiano-ronaldo",
@@ -24225,7 +24202,8 @@
           "image": "images/legacy-cristiano-ronaldo--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/legacy-cristiano-ronaldo-10ml-256"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "custom",
@@ -24250,7 +24228,8 @@
           "image": "images/custom--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/dunhill-custom-10ml-254"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "original-parfum",
@@ -24275,7 +24254,8 @@
           "image": "images/original-parfum--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lacoste-original-parfum-10ml-252"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "white",
@@ -24299,8 +24279,28 @@
           ],
           "image": "images/white--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lalique-white-10ml-250"
+        },
+        {
+          "name": "Mostafa Mohamed",
+          "url": "https://www.facebook.com/mostafa.mohamed.390048/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 225,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 20,
+              "price": 425,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/lalique-white.jpg"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "for-men-silverlake",
@@ -24325,7 +24325,8 @@
           "image": "images/for-men-silverlake--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/bentley-for-men-silverlake-5ml-249"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "sign-your-power",
@@ -24350,7 +24351,8 @@
           "image": "images/sign-your-power--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/mercedes-benz-sign-your-power-10ml-246"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "pour-homme-blue-label",
@@ -24375,7 +24377,8 @@
           "image": "images/pour-homme-blue-label--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/givenchy-pour-homme-blue-label-10ml-242"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "explorer-ultra-blue-edp",
@@ -24400,7 +24403,8 @@
           "image": "images/explorer-ultra-blue-edp--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/mont-blanc-explorer-ultra-blue-edp-10ml-240"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "pour-homme-edp",
@@ -24425,7 +24429,8 @@
           "image": "images/pour-homme-edp--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/boucheron-pour-homme-edp-10ml-236"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "goddess-parfum",
@@ -24456,7 +24461,8 @@
           "image": "images/goddess-parfum--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/burberry-goddess-parfum-3ml-428"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "declaration-edt",
@@ -24481,7 +24487,8 @@
           "image": "images/declaration-edt--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/cartier-declaration-edt-10ml-232"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "bella-vita-rosa",
@@ -24506,7 +24513,8 @@
           "image": "images/bella-vita-rosa--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/guess-bella-vita-rosa-10ml-230"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "dare-edt",
@@ -24531,7 +24539,8 @@
           "image": "images/dare-edt--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/guess-dare-edt-10ml-228"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "flower-women-edp",
@@ -24556,7 +24565,8 @@
           "image": "images/flower-women-edp--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/kenzo-flower-women-edp-10ml-226"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "cristal",
@@ -24581,7 +24591,8 @@
           "image": "images/cristal--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/narciso-rodriguez-cristal-10ml-218"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "mademoiselle-in-black",
@@ -24606,7 +24617,8 @@
           "image": "images/mademoiselle-in-black--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/rochas-mademoiselle-in-black-10ml-214"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "myslf-edp",
@@ -24631,7 +24643,8 @@
           "image": "images/myslf-edp--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ysl-myslf-edp-5ml-211"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "encre-noire-a-lextreme",
@@ -24708,7 +24721,8 @@
           "image": "images/icon-absolute--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/dunhill-icon-absolute-10ml-202"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "nyc-212-edt",
@@ -24733,7 +24747,8 @@
           "image": "images/nyc-212-edt--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/carolina-herrera-nyc-212-edt-5ml-201"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "supremacy-gala-edp",
@@ -24758,7 +24773,8 @@
           "image": "images/supremacy-gala-edp--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/afnan-supremacy-gala-edp-10ml-198"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "cool-water-intense",
@@ -24783,7 +24799,8 @@
           "image": "images/cool-water-intense--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/davidoff-cool-water-intense-5ml-239"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "open-edt",
@@ -24808,7 +24825,8 @@
           "image": "images/open-edt--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/roger-gallet-open-edt-10ml-193"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "frankel-battle",
@@ -24833,7 +24851,8 @@
           "image": "images/frankel-battle--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/assaf-frankel-battle-10ml-175"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "rose-noir",
@@ -24858,7 +24877,8 @@
           "image": "images/rose-noir--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ahmed-al-maghribi-rose-noir-5ml-167"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "yacht-mood",
@@ -24883,7 +24903,8 @@
           "image": "images/yacht-mood--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/arabian-oud-yacht-mood-10ml-159"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "jasmin-noir",
@@ -24908,7 +24929,8 @@
           "image": "images/jasmin-noir--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/assaf-jasmin-noir-5ml-99"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "desire",
@@ -24933,7 +24955,8 @@
           "image": "images/desire--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/alfred-dunhill-desire-10ml-73"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "drakkar-noir",
@@ -24958,7 +24981,8 @@
           "image": "images/drakkar-noir--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/guy-laroche-drakkar-noir-10ml-71"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "after-effect",
@@ -24983,7 +25007,8 @@
           "image": "images/after-effect--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/french-avenue-after-effect-10ml-67"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "spicebomb-extreme-viktor-rolf",
@@ -25020,7 +25045,8 @@
           "image": "images/spicebomb-extreme-viktor-rolf--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/spicebomb-extreme-viktor-rolf-5-ml-55"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "miss-laverne",
@@ -25051,7 +25077,8 @@
           "image": "images/miss-laverne--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/miss-laverne-10ml-41"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "now",
@@ -25082,7 +25109,8 @@
           "image": "images/now--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/azzaro-now-5ml-70"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "vintage",
@@ -25113,7 +25141,8 @@
           "image": "images/vintage--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/john-varvatos-vintage-5-ml-97"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "oud",
@@ -25144,7 +25173,8 @@
           "image": "images/oud--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/john-varvatos-oud-5-ml-91"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "for-men-intense",
@@ -25209,7 +25239,8 @@
           "image": "images/1000-miglia--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/chopard-1000-miglia-10ml-8"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "voyage",
@@ -25234,7 +25265,8 @@
           "image": "images/voyage--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/nautica-voyage-10ml-6"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "nyc-5th-avenue-edp",
@@ -25259,7 +25291,8 @@
           "image": "images/nyc-5th-avenue-edp--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/elizabeth-arden-nyc-5th-avenue-edp-10ml-17"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "marwa",
@@ -31431,6 +31464,32 @@
           ],
           "image": "images/uomo-born-in-roma-intense--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/valentino-uomo-born-in-roma-intense-full-sealed"
+        },
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 220,
+              "first_seen": "2026-07-17"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 335,
+              "first_seen": "2026-07-17"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 600,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/uomo-born-in-roma-edp-intense-men--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/valentino-uomo-born-in-roma-edp-intense-men-5ml-317"
         }
       ],
       "_hero_source": "sniffz"
@@ -38448,7 +38507,8 @@
           "image": "images/private-mercedes-benz--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/mercedes-benz-private-10ml-206"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "khanjar-lattafa",
@@ -38473,7 +38533,8 @@
           "image": "images/khanjar-lattafa--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lattafa-khanjar-10ml-178"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "l-eau-d-issey-noir-ambre",
@@ -38510,7 +38571,8 @@
           "image": "images/l-eau-d-issey-noir-ambre--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/issey-miyake-l-eau-d-issey-noir-ambre-3ml-490"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "signature-mont-blanc",
@@ -38535,7 +38597,8 @@
           "image": "images/signature-mont-blanc--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/montblanc-signature-10ml-380"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "acqua-di-gi-profondo-edp",
@@ -38572,7 +38635,8 @@
           "image": "images/acqua-di-gi-profondo-edp--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/giorgio-armani-acqua-di-gio-profondo-edp-3ml-432"
         }
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "hawas-ice",
@@ -39452,89 +39516,6 @@
       "_hero_source": "sniffz"
     },
     {
-      "id": "hawas-elixir-rasasi",
-      "name_ar": "هوس اليكسير",
-      "name_en": "Hawas Elixir",
-      "brand": "Rasasi",
-      "dupe_of": [
-        "Le Male Elixir — Jean Paul Gaultier"
-      ],
-      "image": "images/hawas-elixir-rasasi.jpg",
-      "accords": [
-        {
-          "label_en": "Wormwood",
-          "label_ar": "الشيح",
-          "color": "#9C9C9C",
-          "w": 100
-        },
-        {
-          "label_en": "Bergamot",
-          "label_ar": "البرغموت",
-          "color": "#F9FF52",
-          "w": 90
-        },
-        {
-          "label_en": "Mint",
-          "label_ar": "النعناع",
-          "color": "#9C9C9C",
-          "w": 80
-        },
-        {
-          "label_en": "Dark Chocolate",
-          "label_ar": "الشيكولاته الداكنة",
-          "color": "#603000",
-          "w": 70
-        },
-        {
-          "label_en": "Lavender",
-          "label_ar": "اللافندر",
-          "color": "#9B7DB8",
-          "w": 60
-        },
-        {
-          "label_en": "Benzoin",
-          "label_ar": "البنزوين",
-          "color": "#9C9C9C",
-          "w": 50
-        },
-        {
-          "label_en": "White Musk",
-          "label_ar": "المسك الأبيض",
-          "color": "#E7D8EA",
-          "w": 40
-        },
-        {
-          "label_en": "Tonka Bean",
-          "label_ar": "حبوب التونكا",
-          "color": "#FFFEC0",
-          "w": 40
-        },
-        {
-          "label_en": "Vanilla",
-          "label_ar": "الفانيليا",
-          "color": "#FFFEC0",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1400,
-              "first_seen": "2026-07-17"
-            }
-          ],
-          "image": "images/hawas-elixir-rasasi--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/hawas-elixir-rasasi"
-        }
-      ],
-      "_hero_source": "roseperfume"
-    },
-    {
       "id": "supremacy-collector-s-edition-pour-homme",
       "name_ar": "",
       "name_en": "Supremacy Collector's Edition Pour Homme",
@@ -39632,6 +39613,70 @@
         }
       ],
       "_hero_source": "sniffz"
+    },
+    {
+      "id": "uomo-born-in-roma-edp-intense-men",
+      "name_ar": "",
+      "name_en": "Uomo Born In Roma EDP Intense MEN",
+      "brand": "Valentino",
+      "dupe_of": [],
+      "image": "images/uomo-born-in-roma-edp-intense-men.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 220,
+              "first_seen": "2026-07-17"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 335,
+              "first_seen": "2026-07-17"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 600,
+              "first_seen": "2026-07-17"
+            }
+          ],
+          "image": "images/uomo-born-in-roma-edp-intense-men--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/valentino-uomo-born-in-roma-edp-intense-men-5ml-317"
+        }
+      ],
+      "_hero_source": "MO Shawky"
+    },
+    {
+      "id": "eros-flame-edp",
+      "name_ar": "",
+      "name_en": "Eros Flame EDP",
+      "brand": "Versace",
+      "dupe_of": [],
+      "image": "images/eros-flame-edp.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 345,
+              "first_seen": "2026-07-17"
+            }
+          ],
+          "image": "images/eros-flame-edp--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/versace-eros-flame-edp-10ml-287"
+        }
+      ],
+      "_hero_source": "MO Shawky"
     }
   ]
 }
