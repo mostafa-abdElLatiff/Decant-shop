@@ -1525,7 +1525,7 @@
               "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/fahad-gaze-arabiyat-prestige--roseperfume.jpg",
+          "image": "images/fahad-gaze--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/fahad-gaze-arabiyat-prestige"
         }
       ]
@@ -2527,99 +2527,6 @@
             }
           ],
           "image": "images/ana-abiyedh.jpg"
-        }
-      ]
-    },
-    {
-      "id": "divine",
-      "name_ar": "Divine",
-      "name_en": "Divine",
-      "brand": "Sharaf",
-      "dupe_of": [
-        "Angel's Share On The Rocks — Kilian"
-      ],
-      "image": "images/divine.jpg",
-      "accords": [
-        {
-          "label_en": "Citrus",
-          "label_ar": "الحمضيات",
-          "color": "#F9FF52",
-          "w": 100
-        },
-        {
-          "label_en": "Woody",
-          "label_ar": "خشي",
-          "color": "#774414",
-          "w": 86
-        },
-        {
-          "label_en": "Warm Spicy",
-          "label_ar": "تابلي دافئ",
-          "color": "#CC3300",
-          "w": 72
-        },
-        {
-          "label_en": "Fresh",
-          "label_ar": "منعش",
-          "color": "#9be5ed",
-          "w": 58
-        },
-        {
-          "label_en": "Aromatic",
-          "label_ar": "أروماتك",
-          "color": "#37a089",
-          "w": 44
-        },
-        {
-          "label_en": "Sweet",
-          "label_ar": "حلو",
-          "color": "#ee363b",
-          "w": 40
-        },
-        {
-          "label_en": "Amber",
-          "label_ar": "العنبر",
-          "color": "#bc4d10",
-          "w": 40
-        },
-        {
-          "label_en": "Cinnamon",
-          "label_ar": "القرفة",
-          "color": "#CC3300",
-          "w": 40
-        },
-        {
-          "label_en": "Aldehydic",
-          "label_ar": "ألدهيد",
-          "color": "#d8e9f6",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "EsLam Nasser",
-          "url": "https://www.facebook.com/eslam.nasser.10/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 90,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 120,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 180,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/divine.jpg"
         }
       ]
     },
@@ -4557,7 +4464,7 @@
               "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/club-de-nuit-intense-man-armaf--roseperfume.jpg",
+          "image": "images/club-de-nuit-intense-man--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/club-de-nuit-intense-man-armaf"
         },
         {
@@ -4675,7 +4582,7 @@
     },
     {
       "id": "abadi",
-      "name_ar": "أبادي",
+      "name_ar": "أبدي",
       "name_en": "Abadi",
       "brand": "Zimaya",
       "dupe_of": [
@@ -6897,7 +6804,7 @@
               "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/urban-man-le-parfum-fragrance-world--roseperfume.jpg",
+          "image": "images/urban-man-le-parfum--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/urban-man-le-parfum-fragrance-world"
         }
       ]
@@ -7109,7 +7016,7 @@
               "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/9pm-elixir-afnan--roseperfume.jpg",
+          "image": "images/9pm-elixir--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/9pm-elixir-afnan"
         },
         {
@@ -20704,7 +20611,7 @@
               "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/an-equestrian-series-haydan-french-avenue--roseperfume.jpg",
+          "image": "images/haydan-an-equestrian-series--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/an-equestrian-series-haydan-french-avenue"
         }
       ]
@@ -29559,6 +29466,31 @@
         }
       ],
       "stores": [
+        {
+          "name": "EsLam Nasser",
+          "url": "https://www.facebook.com/eslam.nasser.10/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 90,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 120,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 180,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/divine.jpg"
+        },
         {
           "name": "sniffz",
           "url": "https://sniffz-eg.com/",
@@ -39674,6 +39606,88 @@
           ],
           "image": "images/island-khadlaj-perfumes--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/island-khadlaj-perfumes"
+        }
+      ]
+    },
+    {
+      "id": "hawas-elixir-rasasi",
+      "name_ar": "",
+      "name_en": "Hawas Elixir Rasasi",
+      "brand": "Men Fragrances",
+      "dupe_of": [
+        "Le Male Elixir — Jean Paul Gaultier"
+      ],
+      "image": "images/hawas-elixir-rasasi.jpg",
+      "accords": [
+        {
+          "label_en": "Wormwood",
+          "label_ar": "الشيح",
+          "color": "#9C9C9C",
+          "w": 100
+        },
+        {
+          "label_en": "Bergamot",
+          "label_ar": "البرغموت",
+          "color": "#F9FF52",
+          "w": 90
+        },
+        {
+          "label_en": "Mint",
+          "label_ar": "النعناع",
+          "color": "#9C9C9C",
+          "w": 80
+        },
+        {
+          "label_en": "Dark Chocolate",
+          "label_ar": "الشيكولاته الداكنة",
+          "color": "#603000",
+          "w": 70
+        },
+        {
+          "label_en": "Lavender",
+          "label_ar": "اللافندر",
+          "color": "#9B7DB8",
+          "w": 60
+        },
+        {
+          "label_en": "Benzoin",
+          "label_ar": "البنزوين",
+          "color": "#9C9C9C",
+          "w": 50
+        },
+        {
+          "label_en": "White Musk",
+          "label_ar": "المسك الأبيض",
+          "color": "#E7D8EA",
+          "w": 40
+        },
+        {
+          "label_en": "Tonka Bean",
+          "label_ar": "حبوب التونكا",
+          "color": "#FFFEC0",
+          "w": 40
+        },
+        {
+          "label_en": "Vanilla",
+          "label_ar": "الفانيليا",
+          "color": "#FFFEC0",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1400,
+              "first_seen": "2026-07-17"
+            }
+          ],
+          "image": "images/hawas-elixir-rasasi--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/hawas-elixir-rasasi"
         }
       ]
     }
