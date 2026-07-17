@@ -54,19 +54,37 @@
   .cart-btn:focus-visible{outline:3px solid var(--olive);outline-offset:2px}
   .cart-count{background:#1a1a12;color:var(--brass);border-radius:999px;min-width:1.4rem;height:1.4rem;display:inline-flex;align-items:center;justify-content:center;font-size:.8rem;font-weight:700}
 
-  .toolbar{max-width:1080px;margin:1.4rem auto .6rem;padding:0 1.2rem;display:flex;flex-wrap:wrap;gap:.6rem;align-items:center}
-  .search{flex:1;min-width:220px;border:1.5px solid var(--line);border-radius:999px;background:var(--card);padding:.55rem 1rem;font-family:inherit;font-size:.95rem;color:var(--ink);transition:border-color .15s, box-shadow .15s}
+  .toolbar{max-width:1080px;margin:1.4rem auto .6rem;padding:1rem 1.1rem;box-sizing:border-box;display:flex;flex-wrap:wrap;gap:1rem 1.4rem;align-items:flex-end;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+  .toolbar-group{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center}
+  .select-wrap{display:flex;flex-direction:column;gap:.3rem}
+  .select-label{font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#8A8D7B;padding-inline-start:.25rem}
+  .search{width:100%;box-sizing:border-box;border:1.5px solid var(--line);border-radius:999px;background:var(--bg);padding:.55rem 1rem;font-family:inherit;font-size:.95rem;color:var(--ink);transition:border-color .15s, box-shadow .15s}
   .search:focus{outline:none;border-color:var(--olive);box-shadow:0 0 0 3px color-mix(in srgb, var(--olive) 22%, transparent)}
-  .chip{border:1.5px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:.4rem 1rem;font-family:inherit;font-size:.88rem;cursor:pointer;transition:border-color .15s, background .15s, transform .15s}
+  .chip{border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:.4rem 1rem;font-family:inherit;font-size:.88rem;cursor:pointer;transition:border-color .15s, background .15s, transform .15s}
   .chip:hover{border-color:var(--olive);transform:translateY(-1px)}
   .chip[aria-pressed="true"]{background:var(--olive);border-color:var(--olive);color:#12140D}
   .chip:focus-visible{outline:3px solid var(--brass);outline-offset:2px}
-  .store-select{border:1.5px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:.4rem 1rem;font-family:inherit;font-size:.88rem;cursor:pointer;transition:border-color .15s}
+  .store-select{border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:.45rem 1rem;font-family:inherit;font-size:.88rem;cursor:pointer;transition:border-color .15s}
   .store-select:hover{border-color:var(--olive)}
   .store-select:focus-visible{outline:3px solid var(--brass);outline-offset:2px}
+  .toolbar-view{margin-inline-start:auto}
+  .view-toggle{display:flex;gap:2px;background:var(--bg);border:1.5px solid var(--line);border-radius:999px;padding:3px}
+  .view-btn{border:none;background:transparent;color:var(--ink);cursor:pointer;font-family:inherit;font-size:.8rem;font-weight:700;padding:.4rem .75rem;border-radius:999px;transition:background .15s,color .15s;line-height:1}
+  .view-btn:hover{color:var(--olive-deep)}
+  .view-btn[aria-pressed="true"]{background:var(--olive);color:#12140D}
+  .view-btn:focus-visible{outline:3px solid var(--brass);outline-offset:1px}
   .disclaimer{max-width:1080px;margin:0 auto;padding:0 1.2rem;font-size:.76rem;color:#8A8D7B;line-height:1.5}
+  @media (max-width:640px){
+    .toolbar{padding:.9rem}
+    .toolbar-group{width:100%;justify-content:space-between}
+    .toolbar-view{margin-inline-start:0}
+  }
 
   .grid{max-width:1080px;margin:0 auto 4rem;padding:0 1.2rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.2rem}
+  .grid[data-cols="1"]{grid-template-columns:1fr}
+  .grid[data-cols="2"]{grid-template-columns:repeat(2,1fr)}
+  .grid[data-cols="3"]{grid-template-columns:repeat(3,1fr)}
+  @media (max-width:520px){ .grid[data-cols="3"]{gap:.6rem} .grid[data-cols="2"]{gap:.7rem} }
   .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column;outline:0 solid transparent;transition:outline-color .3s, transform .15s ease, border-color .15s ease;
     animation:card-in .35s ease backwards}
   .card:hover{transform:translateY(-3px);border-color:color-mix(in srgb, var(--olive) 45%, var(--line))}
@@ -162,12 +180,28 @@
 </header>
 
 <div class="toolbar">
-  <button class="chip" data-filter="all" aria-pressed="true"></button>
-  <button class="chip" data-filter="decant" aria-pressed="false"></button>
-  <button class="chip" data-filter="full" aria-pressed="false"></button>
-  <button class="chip" data-filter="leftover" aria-pressed="false"></button>
-  <select class="store-select" id="storeFilter"></select>
-  <select class="store-select" id="sortOrder"></select>
+  <div class="toolbar-group toolbar-kind">
+    <button class="chip" data-filter="all" aria-pressed="true"></button>
+    <button class="chip" data-filter="decant" aria-pressed="false"></button>
+    <button class="chip" data-filter="full" aria-pressed="false"></button>
+    <button class="chip" data-filter="leftover" aria-pressed="false"></button>
+  </div>
+  <div class="toolbar-group toolbar-selects">
+    <label class="select-wrap"><span class="select-label" id="storeFilterLabel"></span><select class="store-select" id="storeFilter"></select></label>
+    <label class="select-wrap"><span class="select-label" id="brandFilterLabel"></span><select class="store-select" id="brandFilter"></select></label>
+    <label class="select-wrap"><span class="select-label" id="sortOrderLabel"></span><select class="store-select" id="sortOrder"></select></label>
+  </div>
+  <div class="toolbar-group toolbar-view">
+    <div class="select-wrap">
+      <span class="select-label" id="viewLabel"></span>
+      <div class="view-toggle" id="viewToggle" role="group">
+        <button class="view-btn" data-cols="auto" aria-pressed="true" id="viewAutoBtn"></button>
+        <button class="view-btn" data-cols="1">1</button>
+        <button class="view-btn" data-cols="2">2</button>
+        <button class="view-btn" data-cols="3">3</button>
+      </div>
+    </div>
+  </div>
 </div>
 <p class="disclaimer" id="disclaimer"></p>
 
@@ -205,7 +239,9 @@ const I18N = {
     site_name:"My list", tag:"decants • full bottles • leftovers, price-compared",
     search_ph:"Search by name or brand…",
     filter_all:"All", filter_decant:"Decants", filter_full:"Full bottles", filter_leftover:"Leftovers",
-    store_all:"All stores",
+    store_all:"All stores", brand_all:"All brands",
+    label_store:"Store", label_brand:"Brand", label_sort:"Sort by", label_view:"Per row",
+    view_auto:"Auto",
     cart_label:"List", drawer_title:"Your list", empty:"Your list is empty — add a size from any fragrance.",
     no_results:"No results — try another search.", loading:"Loading products…",
     load_failed:"Couldn't load products. If opening this file locally, run a simple server: python -m http.server",
@@ -222,7 +258,9 @@ const I18N = {
     site_name:"ليسته", tag:"تقسيمات • زجاجات كاملة • بواقي تقسيم، مقارنة أسعار",
     search_ph:"ابحث باسم العطر أو البراند…",
     filter_all:"الكل", filter_decant:"تقسيمات", filter_full:"زجاجات كاملة", filter_leftover:"بواقي تقسيم",
-    store_all:"كل المتاجر",
+    store_all:"كل المتاجر", brand_all:"كل البراندات",
+    label_store:"المتجر", label_brand:"البراند", label_sort:"ترتيب حسب", label_view:"في الصف",
+    view_auto:"تلقائي",
     cart_label:"القائمة", drawer_title:"قائمتك", empty:"القائمة فارغة — أضف حجمًا من أي عطر.",
     no_results:"لا توجد نتائج — جرّب كلمة بحث أخرى.", loading:"جارٍ تحميل المنتجات…",
     load_failed:"تعذّر تحميل المنتجات. لو بتفتح الملف محليًا استخدم خادمًا بسيطًا: python -m http.server",
@@ -244,10 +282,12 @@ try{ cart = JSON.parse(localStorage.getItem("cart") || "[]"); }catch{ cart = [];
 const saveCart = () => localStorage.setItem("cart", JSON.stringify(cart));
 let filter = "all";
 let storeFilter = "all";
+let brandFilter = "all";
 let sortOrder = "default";
 let query = "";
 let lang = localStorage.getItem("lang") || "en";
 let theme = localStorage.getItem("theme") || "dark";
+let gridCols = localStorage.getItem("gridCols") || "auto";
 
 const grid = document.getElementById("grid");
 const t = () => I18N[lang];
@@ -296,6 +336,16 @@ function populateStoreFilter(){
     names.map(n => `<option value="${n}">${n}</option>`).join("");
   sel.value = names.includes(prev) ? prev : "all";
   storeFilter = sel.value;
+}
+
+function populateBrandFilter(){
+  const names = [...new Set(PRODUCTS.map(p => p.brand).filter(Boolean))].sort();
+  const sel = document.getElementById("brandFilter");
+  const prev = sel.value || "all";
+  sel.innerHTML = `<option value="all">${t().brand_all}</option>` +
+    names.map(n => `<option value="${n}">${n}</option>`).join("");
+  sel.value = names.includes(prev) ? prev : "all";
+  brandFilter = sel.value;
 }
 
 function populateSortOrder(){
@@ -354,7 +404,13 @@ function applyI18n(){
   document.getElementById("toggleTheme").textContent = theme==="dark" ? t().theme_to_light : t().theme_to_dark;
   document.getElementById("disclaimer").textContent = t().disclaimer;
   document.getElementById("cartDisclaimer").textContent = t().disclaimer;
+  document.getElementById("storeFilterLabel").textContent = t().label_store;
+  document.getElementById("brandFilterLabel").textContent = t().label_brand;
+  document.getElementById("sortOrderLabel").textContent = t().label_sort;
+  document.getElementById("viewLabel").textContent = t().label_view;
+  document.getElementById("viewAutoBtn").textContent = t().view_auto;
   populateStoreFilter();
+  populateBrandFilter();
   populateSortOrder();
 }
 
@@ -365,6 +421,7 @@ function render(){
   const items = PRODUCTS.filter(p =>
     (filter==="all" || productHasKind(p, filter)) &&
     (storeFilter==="all" || productHasStore(p, storeFilter)) &&
+    (brandFilter==="all" || p.brand===brandFilter) &&
     (!q || (p.name_ar||"").toLowerCase().includes(q) || (p.name_en||"").toLowerCase().includes(q) || (p.brand||"").toLowerCase().includes(q))
   );
   if(sortOrder==="newest") items.sort((a,b) => productNewestDate(b).localeCompare(productNewestDate(a)));
@@ -462,9 +519,10 @@ document.getElementById("lightboxClose").addEventListener("click", closeLightbox
 document.addEventListener("keydown", e => { if(e.key === "Escape") closeLightbox(); });
 
 function focusProduct(id){
-  filter = "all"; query = ""; storeFilter = "all";
+  filter = "all"; query = ""; storeFilter = "all"; brandFilter = "all";
   document.getElementById("search").value = "";
   document.getElementById("storeFilter").value = "all";
+  document.getElementById("brandFilter").value = "all";
   document.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed", String(c.dataset.filter==="all")));
   render();
   requestAnimationFrame(()=>{
@@ -485,7 +543,20 @@ document.querySelectorAll(".chip").forEach(ch => ch.addEventListener("click", ()
 }));
 document.getElementById("search").addEventListener("input", e=>{ query=e.target.value; render(); });
 document.getElementById("storeFilter").addEventListener("change", e=>{ storeFilter=e.target.value; render(); });
+document.getElementById("brandFilter").addEventListener("change", e=>{ brandFilter=e.target.value; render(); });
 document.getElementById("sortOrder").addEventListener("change", e=>{ sortOrder=e.target.value; render(); });
+
+function applyGridCols(){
+  if(gridCols === "auto") grid.removeAttribute("data-cols");
+  else grid.setAttribute("data-cols", gridCols);
+  document.querySelectorAll(".view-btn").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.cols===gridCols)));
+}
+document.querySelectorAll(".view-btn").forEach(b => b.addEventListener("click", ()=>{
+  gridCols = b.dataset.cols;
+  localStorage.setItem("gridCols", gridCols);
+  applyGridCols();
+}));
+applyGridCols();
 
 const headerSearch = document.getElementById("headerSearch");
 const toggleSearchBtn = document.getElementById("toggleSearch");
