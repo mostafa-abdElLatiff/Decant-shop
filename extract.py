@@ -95,14 +95,22 @@ WEB_STORE_NAMES = {"roseperfume", "sniffz", "MO Shawky"}
 
 def is_web_sourced_hero(product: dict, web_store_names: set = WEB_STORE_NAMES) -> bool:
     """True if product["image"] (the hero/card photo) is already confirmed
-    to come from one of web_store_names. Sync scripts for those stores use
-    this to upgrade a Facebook-sourced hero to their own clean product
-    photo, while Facebook extraction (extract.py) never overwrites a
-    non-empty hero either way."""
-    hero = product.get("image")
-    if not hero:
-        return False
-    return any(s.get("image") == hero and s["name"] in web_store_names for s in product.get("stores", []))
+    to come from one of web_store_names, per the "_hero_source" bookkeeping
+    field (the store name that last set the hero — not shown in the UI).
+    Sync scripts for web stores use this to upgrade a Facebook-sourced hero
+    to their own clean product photo, and to avoid re-downloading every run
+    once it's already web-sourced. Facebook extraction (extract.py) never
+    overwrites a non-empty hero either way, but still stamps _hero_source
+    when it fills an empty one, so a later web-store sync can tell it's
+    safe to upgrade.
+
+    NOTE: this is deliberately NOT a file-path comparison against
+    stores[].image — every store's own image is saved under a
+    "{id}--{store-slug}" filename (see merge_store's image_rel), which by
+    construction never equals the hero's plain "{id}" filename even when
+    the hero genuinely did come from that store. Path-matching would
+    always return False and silently never short-circuit the re-download."""
+    return product.get("_hero_source") in web_store_names
 
 # Colors as used on Fragrantica's own "main accords" bars (scraped from live
 # perfume pages — these are a fixed palette keyed by accord name, not chosen
@@ -413,6 +421,12 @@ def to_offers(raw: dict) -> list:
 
 
 STOPWORDS = {"perfumes", "perfume", "men", "women", "fragrances", "fragrance"}
+# NOTE: deliberately does NOT include "edp"/"edt" — tried that, but several
+# houses (Mont Blanc Legend, Cartier Déclaration, Davidoff Cool Water) sell
+# genuinely different EDP/EDT concentrations at different prices, so
+# stripping the concentration word caused real false-positive merges. Only
+# "Eros Flame"/"Eros Flame EDP" (same product, same price, no real EDP
+# variant exists) was merged, by hand, as a one-off.
 BRAND_GENERIC_WORDS = {"men", "women", "unisex", "fragrance", "fragrances", "perfume", "perfumes"}
 
 
@@ -473,7 +487,13 @@ def find_existing_product(catalog: dict, name_en: str, brand: str = ""):
     tokens before comparing — some sources fold the brand into name_en
     ("Kenzo Homme Indigo"), others keep it purely in the brand field with
     a bare product name ("Homme Indigo", brand "Kenzo"); without this,
-    those look like different products and silently duplicate."""
+    those look like different products and silently duplicate. Stripping
+    the brand often leaves just one token ("Island Khadlaj Perfumes",
+    brand "Khadlaj" -> {"island"}) — a bare single-word core is normally
+    too generic to trust, but it's safe here specifically because a real,
+    matching brand on *both* sides is required too (two unrelated products
+    that happen to share one generic word, with no brand to cross-check,
+    still won't match)."""
     exact_id = slugify(name_en)
     name_key = re.sub(r"\s+", " ", (name_en or "").strip().lower())
     for p in catalog["products"]:
@@ -482,12 +502,18 @@ def find_existing_product(catalog: dict, name_en: str, brand: str = ""):
                 and _brands_match(p.get("brand", ""), brand):
             return p
 
-    core = _tokens(name_en) - _brand_tokens(brand)
-    if len(core) < 2:
+    search_brand_tokens = _brand_tokens(brand)
+    core = _tokens(name_en) - search_brand_tokens
+    if not core:
         return None
     for p in catalog["products"]:
-        p_core = _tokens(p["name_en"]) - _brand_tokens(p.get("brand", ""))
-        if p_core == core and _brands_match(p.get("brand", ""), brand):
+        p_brand_tokens = _brand_tokens(p.get("brand", ""))
+        p_core = _tokens(p["name_en"]) - p_brand_tokens
+        if p_core != core:
+            continue
+        if len(core) < 2 and not (search_brand_tokens and p_brand_tokens):
+            continue
+        if _brands_match(p.get("brand", ""), brand):
             return p
     return None
 
@@ -792,6 +818,7 @@ def main():
                 dest = images_dir / f"{target['id']}{img.suffix.lower()}"
                 dest.write_bytes(img.read_bytes())
                 target["image"] = f"images/{dest.name}"
+                target["_hero_source"] = ns.store
 
             # this store's own photo of THIS listing: always refreshed, so a
             # "leftover — as shown" offer never displays a different store's

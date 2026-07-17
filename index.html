@@ -29,7 +29,7 @@
       radial-gradient(1100px 500px at 12% -10%, color-mix(in srgb, var(--olive) 10%, transparent), transparent 60%),
       radial-gradient(900px 600px at 100% 0%, color-mix(in srgb, var(--brass) 7%, transparent), transparent 55%),
       var(--bg);
-    background-attachment:fixed;color:var(--ink);font-family:'IBM Plex Sans Arabic',sans-serif;line-height:1.6}
+    color:var(--ink);font-family:'IBM Plex Sans Arabic',sans-serif;line-height:1.6}
   h1,h2,h3{font-family:'El Messiri',serif}
   [dir="ltr"] h1,[dir="ltr"] h2,[dir="ltr"] h3{font-family:inherit}
   ::selection{background:var(--olive);color:#12140D}
@@ -38,7 +38,7 @@
   ::-webkit-scrollbar-thumb{background:var(--line);border-radius:999px;border:3px solid var(--bg)}
   ::-webkit-scrollbar-thumb:hover{background:var(--olive)}
 
-  header{background:color-mix(in srgb, var(--card) 92%, transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line);color:var(--ink);padding:1.6rem 1.2rem 1.4rem;position:sticky;top:0;z-index:40;box-shadow:var(--shadow)}
+  header{background:var(--card);border-bottom:1px solid var(--line);color:var(--ink);padding:1.6rem 1.2rem 1.4rem;position:sticky;top:0;z-index:40;box-shadow:var(--shadow)}
   .header-row{max-width:1080px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
   .brand h1{font-size:1.6rem;letter-spacing:.01em;background:linear-gradient(100deg, var(--ink) 40%, var(--olive-deep));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
   .brand small{color:var(--olive);font-size:.8rem;display:block;margin-top:0;letter-spacing:.02em}
@@ -67,9 +67,9 @@
   .disclaimer{max-width:1080px;margin:0 auto;padding:0 1.2rem;font-size:.76rem;color:#8A8D7B;line-height:1.5}
 
   .grid{max-width:1080px;margin:0 auto 4rem;padding:0 1.2rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.2rem}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column;outline:0 solid transparent;transition:outline-color .3s, transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column;outline:0 solid transparent;transition:outline-color .3s, transform .15s ease, border-color .15s ease;
     animation:card-in .35s ease backwards}
-  .card:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(0,0,0,.28);border-color:color-mix(in srgb, var(--olive) 45%, var(--line))}
+  .card:hover{transform:translateY(-3px);border-color:color-mix(in srgb, var(--olive) 45%, var(--line))}
   .card.flash{outline:3px solid var(--brass);outline-offset:2px}
   @keyframes card-in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
   @media (prefers-reduced-motion:reduce){.card{animation:none}}
@@ -211,7 +211,7 @@ const I18N = {
     full_tag:"full bottle", leftover_tag:"with bottle", as_shown:"as shown",
     toggle_lang:"العربية", theme_to_light:"☀️", theme_to_dark:"🌙", zoom_close:"Close",
     disclaimer:"Prices shown do not include shipping — each store/seller charges their own delivery fee.",
-    better_deal:"Better value:", view_listing:"View listing", new_badge:"New",
+    better_deal:"Better value:", from_store:"", view_listing:"View listing", new_badge:"New",
     sort_default:"Sort: default", sort_newest:"Newest first", sort_oldest:"Oldest first", sort_cheapest:"Cheapest first",
     show_more_notes:"+{n} more notes", show_less_notes:"Show less",
   },
@@ -228,7 +228,7 @@ const I18N = {
     full_tag:"زجاجة كاملة", leftover_tag:"باقي تقسيم", as_shown:"كما بالصورة",
     toggle_lang:"English", theme_to_light:"☀️", theme_to_dark:"🌙", zoom_close:"إغلاق",
     disclaimer:"الأسعار الموضحة لا تشمل الشحن — كل متجر/بائع له مصاريف شحن مختلفة.",
-    better_deal:"سعر أفضل:", view_listing:"عرض المنتج", new_badge:"جديد",
+    better_deal:"سعر أفضل:", from_store:"من ", view_listing:"عرض المنتج", new_badge:"جديد",
     sort_default:"الترتيب: الافتراضي", sort_newest:"الأحدث أولاً", sort_oldest:"الأقدم أولاً", sort_cheapest:"الأرخص أولاً",
     show_more_notes:"+{n} مكونات أخرى", show_less_notes:"عرض أقل",
   }
@@ -546,7 +546,12 @@ function syncCart(){
     let tip = "";
     const best = findBestDeal(p, o.kind, o.ml);
     if(best && best.offer.price < o.price){
-      tip = `<div class="cart-tip">💡 ${t().better_deal} ${best.store.name} — ${offerLabel(best.offer)} ${best.offer.price}</div>`;
+      // the store name is always Latin-script (English seller names), so in
+      // an Arabic (RTL) line it needs a bidi isolate around it — otherwise
+      // the browser's bidi algorithm can pull neighboring dashes/numbers
+      // out of their intended order. "من" ("from") also reads naturally in
+      // Arabic where English just uses the store name directly.
+      tip = `<div class="cart-tip">💡 ${t().better_deal} ${t().from_store}<bdi>${best.store.name}</bdi> - ${offerLabel(best.offer)} - ${best.offer.price}</div>`;
     }
     const row = document.createElement("div");
     row.className = "cart-item";

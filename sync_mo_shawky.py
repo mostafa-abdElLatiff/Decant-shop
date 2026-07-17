@@ -199,6 +199,7 @@ def main():
             try:
                 download_image(f"{BASE_URL}{info['image']}", dest)
                 product["image"] = f"images/{dest.name}"
+                product["_hero_source"] = STORE_NAME
             except Exception as e:
                 print(f"  image failed for {product['id']}: {e}")
 

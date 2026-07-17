@@ -29,6 +29,7 @@ import json
 import re
 import subprocess
 import sys
+import time
 import urllib.request
 from pathlib import Path
 
@@ -45,16 +46,29 @@ IMAGES_DIR = CATALOG.parent / "images"
 NON_PERFUME_KW = ["deodorant", "body splash", "body spray", "gift set", "gift box", " box"]
 
 
+def fetch_url(url: str, attempts: int = 5) -> bytes:
+    """roseperfume.online has been observed going down with a transient 503
+    (same as sniffz-eg.com) — retry with backoff instead of failing the
+    whole run over what's usually a temporary blip."""
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    for attempt in range(attempts):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return resp.read()
+        except urllib.error.HTTPError as e:
+            if e.code != 503 or attempt == attempts - 1:
+                raise
+            wait = int(e.headers.get("Retry-After", 30 * (attempt + 1)))
+            print(f"  503 from roseperfume.online, waiting {wait}s and retrying "
+                  f"({attempt + 1}/{attempts})...")
+            time.sleep(wait)
+
+
 def fetch_all_products() -> list:
     products = []
     page = 1
     while True:
-        req = urllib.request.Request(
-            f"{COLLECTION_URL}?limit=250&page={page}",
-            headers={"User-Agent": "Mozilla/5.0"},
-        )
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            data = json.loads(resp.read())
+        data = json.loads(fetch_url(f"{COLLECTION_URL}?limit=250&page={page}"))
         batch = data.get("products", [])
         if not batch:
             break
@@ -152,9 +166,7 @@ def parse_product(p):
 
 
 def download_image(url, dest_path):
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        dest_path.write_bytes(resp.read())
+    dest_path.write_bytes(fetch_url(url))
 
 
 def replace_store_offers(product: dict, offers: list, image_rel: str = None, product_url: str = None):
@@ -233,6 +245,7 @@ def main():
             try:
                 download_image(info["image"], dest)
                 product["image"] = f"images/{dest.name}"
+                product["_hero_source"] = STORE_NAME
             except Exception as e:
                 print(f"  image failed for {product['id']}: {e}")
 
