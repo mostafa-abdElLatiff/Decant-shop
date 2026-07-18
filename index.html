@@ -40,6 +40,9 @@
 
   header{background:var(--card);border-bottom:1px solid var(--line);color:var(--ink);padding:1.6rem 1.2rem 1.4rem;position:sticky;top:0;z-index:40;box-shadow:var(--shadow)}
   .header-row{max-width:1080px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+  .brand{display:block;text-decoration:none;cursor:pointer;transition:opacity .15s}
+  .brand:hover{opacity:.85}
+  .brand:focus-visible{outline:3px solid var(--brass);outline-offset:4px;border-radius:6px}
   .brand h1{font-size:1.6rem;letter-spacing:.01em;background:linear-gradient(100deg, var(--ink) 40%, var(--olive-deep));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
   .brand small{color:var(--olive);font-size:.8rem;display:block;margin-top:0;letter-spacing:.02em}
   .header-actions{display:flex;align-items:center;gap:.5rem}
@@ -113,6 +116,8 @@
   .lightbox-close{position:fixed;top:1.1rem;inset-inline-end:1.2rem;background:rgba(0,0,0,.5);color:#fff;border:none;font-size:1.6rem;line-height:1;width:2.4rem;height:2.4rem;border-radius:50%;cursor:pointer}
   .card-body{padding:1rem 1.1rem 1.2rem;display:flex;flex-direction:column;gap:.6rem;flex:1}
   .card-body h3{font-size:1.08rem;line-height:1.35}
+  .card-brand{align-self:flex-start;background:none;border:none;color:var(--olive);font-family:inherit;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;cursor:pointer;padding:0;margin-bottom:-.3rem;direction:ltr}
+  .card-brand:hover{text-decoration:underline}
   .name-alt{font-size:.8rem;color:#8A8D7B;direction:ltr;text-align:start}
   .dupe-of,.duped-by{font-size:.78rem;color:var(--brass);font-weight:600}
   .dupe-of a,.duped-by a{color:var(--brass);text-decoration:underline;cursor:pointer;background:none;border:none;font:inherit;padding:0}
@@ -180,10 +185,10 @@
 
 <header>
   <div class="header-row">
-    <div class="brand">
+    <a class="brand" id="homeLink" href="#" aria-label="Back to top, clear filters">
       <h1 id="shopName">My list</h1>
       <small id="shopTag">decants • full bottles • leftovers, price-compared</small>
-    </div>
+    </a>
     <div class="header-actions">
       <button class="icon-btn" id="toggleLang">العربية</button>
       <button class="icon-btn" id="toggleTheme">☀️</button>
@@ -284,7 +289,7 @@ const I18N = {
     toggle_lang:"العربية", theme_to_light:"☀️", theme_to_dark:"🌙", zoom_close:"Close",
     disclaimer:"Prices shown do not include shipping — each store/seller charges their own delivery fee.",
     better_deal:"Better value:", from_store:"", view_listing:"View listing", new_badge:"New",
-    sort_default:"Sort: default", sort_newest:"Newest first", sort_oldest:"Oldest first", sort_cheapest:"Cheapest first",
+    sort_default:"Catalog order", sort_newest:"Newest first", sort_oldest:"Oldest first", sort_cheapest:"Cheapest first",
     show_more_notes:"+{n} more notes", show_less_notes:"Show less",
   },
   ar: {
@@ -303,7 +308,7 @@ const I18N = {
     toggle_lang:"English", theme_to_light:"☀️", theme_to_dark:"🌙", zoom_close:"إغلاق",
     disclaimer:"الأسعار الموضحة لا تشمل الشحن — كل متجر/بائع له مصاريف شحن مختلفة.",
     better_deal:"سعر أفضل:", from_store:"من ", view_listing:"عرض المنتج", new_badge:"جديد",
-    sort_default:"الترتيب: الافتراضي", sort_newest:"الأحدث أولاً", sort_oldest:"الأقدم أولاً", sort_cheapest:"الأرخص أولاً",
+    sort_default:"ترتيب الكتالوج", sort_newest:"الأحدث أولاً", sort_oldest:"الأقدم أولاً", sort_cheapest:"الأرخص أولاً",
     show_more_notes:"+{n} مكونات أخرى", show_less_notes:"عرض أقل",
   }
 };
@@ -316,7 +321,7 @@ const saveCart = () => localStorage.setItem("cart", JSON.stringify(cart));
 let filter = "all";
 let storeFilter = "all";
 let brandFilter = "all";
-let sortOrder = "default";
+let sortOrder = "newest";
 let query = "";
 let lang = localStorage.getItem("lang") || "en";
 let theme = localStorage.getItem("theme") || "dark";
@@ -324,13 +329,84 @@ let gridCols = localStorage.getItem("gridCols") || "auto";
 
 const grid = document.getElementById("grid");
 const t = () => I18N[lang];
+
+/* --- Smart search ---------------------------------------------------
+   Goals: doesn't need an exact substring match (typo-tolerant), works
+   regardless of whether the query is Arabic or English, matches on
+   brand as well as name, and understands common niche-fragrance-
+   community shorthand for both brands and specific lines. */
+
+// strips Latin accents AND Arabic diacritics (tashkeel) via the same
+// Unicode decomposition, so "Déclaration"/"declaration" and Arabic text
+// with/without harakat both normalize to the same comparable form.
+const normalizeText = s => (s||"").normalize("NFKD").replace(/[\u0300-\u036f\u064b-\u065f\u0670\u06d6-\u06ed]/g, "").toLowerCase();
+
+// shortcut -> the full text it should also match; expanded onto the
+// product's own searchable text (not the query) so typing either the
+// shortcut or the full name finds the same products.
+const SEARCH_ALIASES = {
+  "ysl": "yves saint laurent", "mfk": "maison francis kurkdjian",
+  "pdm": "parfums de marly", "tf": "tom ford", "jpg": "jean paul gaultier",
+  "cdn": "club de nuit", "shl": "stephane humbert lucas",
+  "dg": "dolce gabbana", "d&g": "dolce gabbana", "ea": "emporio armani",
+  "mmk": "maison francis kurkdjian", "ck": "calvin klein",
+  "ffm": "fragrance world", "fw": "fragrance world",
+};
+
+function buildSearchHaystack(p){
+  let text = normalizeText([p.name_en, p.name_ar, p.brand, ...(p.dupe_of||[])].filter(Boolean).join(" "));
+  for(const [short, full] of Object.entries(SEARCH_ALIASES)){
+    if(text.includes(full)) text += " " + short;
+  }
+  return text;
+}
+
+// bounded edit distance — bails early once the two strings' lengths
+// differ by more than the max allowed distance, since 939 products'
+// worth of these run on every keystroke that doesn't exact-match.
+function editDistanceWithin(a, b, max){
+  if(Math.abs(a.length - b.length) > max) return false;
+  const dp = [];
+  for(let i=0;i<=a.length;i++) dp.push([i, ...Array(b.length).fill(0)]);
+  for(let j=0;j<=b.length;j++) dp[0][j] = j;
+  for(let i=1;i<=a.length;i++){
+    for(let j=1;j<=b.length;j++){
+      dp[i][j] = a[i-1]===b[j-1] ? dp[i-1][j-1] : 1 + Math.min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]);
+    }
+  }
+  return dp[a.length][b.length] <= max;
+}
+
+// exact substring first (cheap, catches the vast majority of searches);
+// only falls back to fuzzy per-word comparison — allowing a 1-character
+// typo for short-ish words and 2 for longer ones — when that fails, and
+// only for tokens long enough that a fuzzy match means something.
+function tokenMatchesHaystack(token, haystack){
+  if(haystack.includes(token)) return true;
+  if(token.length < 4) return false;
+  const maxDist = token.length > 6 ? 2 : 1;
+  return haystack.split(" ").some(w => w.length >= 3 && editDistanceWithin(token, w, maxDist));
+}
+
+function productMatchesQuery(p, qTokens){
+  if(!qTokens.length) return true;
+  if(!p._searchHaystack) p._searchHaystack = buildSearchHaystack(p);
+  return qTokens.every(tok => tokenMatchesHaystack(tok, p._searchHaystack));
+}
 const slugify = s => (s||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 /* dupe_of entries are stored "Name — Brand" for display, but product ids are
    slugified from name_en alone (no brand suffix) — strip the "— Brand" part
    before slugifying so the cross-link lookup actually matches. */
 const dupeSlug = s => slugify((s||"").split(/\s+—\s+/)[0]);
 const pname = p => lang==="ar" ? (p.name_ar||p.name_en) : (p.name_en||p.name_ar);
-const pname_alt = p => lang==="ar" ? p.name_en : p.name_ar;
+/* The alt-name line under the title is only useful when it actually adds
+   information — skip it if there's no Arabic/English name on file, or if
+   the two are just the same text (nothing to translate/transliterate). */
+const pname_alt = p => {
+  const alt = lang==="ar" ? p.name_en : p.name_ar;
+  if(!alt || alt.trim().toLowerCase() === pname(p).trim().toLowerCase()) return "";
+  return alt;
+};
 const nlabel = n => lang==="ar" ? (n.label_ar||n.label_en) : (n.label_en||n.label_ar);
 
 function offerLabel(o){
@@ -398,12 +474,12 @@ function populateBrandFilter(){
 
 function populateSortOrder(){
   const sel = document.getElementById("sortOrder");
-  const prev = sel.value || "default";
+  const prev = sel.value || "newest";
   sel.innerHTML = `
-    <option value="default">${t().sort_default}</option>
     <option value="newest">${t().sort_newest}</option>
     <option value="oldest">${t().sort_oldest}</option>
-    <option value="cheapest">${t().sort_cheapest}</option>`;
+    <option value="cheapest">${t().sort_cheapest}</option>
+    <option value="default">${t().sort_default}</option>`;
   sel.value = prev;
   sortOrder = sel.value;
 }
@@ -465,14 +541,14 @@ function applyI18n(){
 }
 
 function render(){
-  const q = query.trim().toLowerCase();
+  const qTokens = normalizeText(query).split(/\s+/).filter(Boolean);
   const byId = Object.fromEntries(PRODUCTS.map(p=>[p.id,p]));
 
   const items = PRODUCTS.filter(p =>
     (filter==="all" || productHasKind(p, filter)) &&
     (storeFilter==="all" || productHasStore(p, storeFilter)) &&
     (brandFilter==="all" || (p.brand||"").trim().toLowerCase()===brandFilter) &&
-    (!q || (p.name_ar||"").toLowerCase().includes(q) || (p.name_en||"").toLowerCase().includes(q) || (p.brand||"").toLowerCase().includes(q))
+    productMatchesQuery(p, qTokens)
   );
   if(sortOrder==="newest") items.sort((a,b) => productNewestDate(b).localeCompare(productNewestDate(a)));
   else if(sortOrder==="oldest") items.sort((a,b) => productNewestDate(a).localeCompare(productNewestDate(b)));
@@ -491,6 +567,7 @@ function render(){
         ${p.image ? `<img src="${p.image}" alt="${pname(p)}" loading="lazy">` : "🧴"}
       </div>
       <div class="card-body">
+        ${p.brand ? `<button class="card-brand" data-brand-jump="${p.brand}">${p.brand}</button>` : ""}
         <h3>${pname(p)}</h3>
         ${pname_alt(p) ? `<div class="name-alt">${pname_alt(p)}</div>` : ""}
         ${dupeMatches.length ? `<div class="dupe-of">${t().dupe_of}: ${dupeMatches.map(d => d.match ? `<button data-jump="${d.match.id}">${d.name}</button>` : d.name).join(", ")}</div>` : ""}
@@ -535,9 +612,20 @@ function render(){
   });
 }
 
+function filterByBrand(brand){
+  resetFilters();
+  brandFilter = brand.trim().toLowerCase();
+  document.getElementById("brandFilter").value = brandFilter;
+  updateFilterBadge();
+  render();
+  window.scrollTo({top: 0, behavior: "smooth"});
+}
+
 grid.addEventListener("click", e => {
   const img = e.target.closest(".card-img img, .store-thumb");
   if (img){ openLightbox(img.src, img.alt); return; }
+  const brandBtn = e.target.closest("[data-brand-jump]");
+  if (brandBtn){ filterByBrand(brandBtn.dataset.brandJump); return; }
   const jumpBtn = e.target.closest("[data-jump]");
   if (jumpBtn){ focusProduct(jumpBtn.dataset.jump); return; }
   const accordsToggle = e.target.closest(".accords-toggle");
@@ -568,13 +656,17 @@ lightbox.addEventListener("click", e => { if(e.target === lightbox) closeLightbo
 document.getElementById("lightboxClose").addEventListener("click", closeLightbox);
 document.addEventListener("keydown", e => { if(e.key === "Escape") closeLightbox(); });
 
-function focusProduct(id){
+function resetFilters(){
   filter = "all"; query = ""; storeFilter = "all"; brandFilter = "all";
   document.getElementById("search").value = "";
   document.getElementById("storeFilter").value = "all";
   document.getElementById("brandFilter").value = "all";
   document.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed", String(c.dataset.filter==="all")));
   updateFilterBadge();
+}
+
+function focusProduct(id){
+  resetFilters();
   render();
   requestAnimationFrame(()=>{
     const el = document.getElementById("card-"+id);
@@ -585,6 +677,13 @@ function focusProduct(id){
     }
   });
 }
+
+document.getElementById("homeLink").addEventListener("click", e=>{
+  e.preventDefault();
+  resetFilters();
+  render();
+  window.scrollTo({top: 0, behavior: "smooth"});
+});
 
 document.querySelectorAll(".chip").forEach(ch => ch.addEventListener("click", ()=>{
   document.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed","false"));
@@ -622,7 +721,7 @@ filtersToggle.onclick = ()=>{
   filtersToggle.setAttribute("aria-expanded", String(open));
 };
 function updateFilterBadge(){
-  const n = [storeFilter!=="all", brandFilter!=="all", sortOrder!=="default", gridCols!=="auto"].filter(Boolean).length;
+  const n = [storeFilter!=="all", brandFilter!=="all", sortOrder!=="newest", gridCols!=="auto"].filter(Boolean).length;
   const badge = document.getElementById("filterBadge");
   badge.textContent = n;
   badge.hidden = n === 0;
