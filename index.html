@@ -597,15 +597,25 @@ function addToCart(productId, storeIdx, offerIdx){
    kind (decant/full/leftover) across every store, is there one with a
    lower price-per-ml? "as-shown" offers have no known quantity so they're
    excluded from the comparison — there's no fair per-ml basis for them. */
+const offerPerMl = o => o.price / o.ml;
 function findBestDeal(product, kind, ml){
-  // same kind AND same exact size only — a bigger size being cheaper per ml
-  // is normal and not what "is this a good deal" should be flagging here
   if(ml === "as-shown" || !ml) return null;
   let best = null;
   (product.stores||[]).forEach(s => {
     (s.offers||[]).forEach(o => {
-      if(o.kind !== kind || o.ml !== ml) return;
-      if(!best || o.price < best.offer.price) best = { store: s, offer: o };
+      if(o.kind !== kind) return;
+      if(kind === "leftover"){
+        // a leftover's ml is whatever happened to remain in an opened
+        // bottle, not a chosen size — different stores' leftovers are
+        // essentially never going to match exactly, so compare by
+        // price-per-ml across ALL leftover offers instead of requiring
+        // the same ml (unlike decants/full bottles, where a bigger size
+        // being cheaper per ml is normal and not what this should flag).
+        if(o.ml === "as-shown" || !o.ml) return;
+      } else if(o.ml !== ml){
+        return;
+      }
+      if(!best || offerPerMl(o) < offerPerMl(best.offer)) best = { store: s, offer: o };
     });
   });
   return best;
@@ -635,7 +645,8 @@ function syncCart(){
     const { p, s, o } = line;
     let tip = "";
     const best = findBestDeal(p, o.kind, o.ml);
-    if(best && best.offer.price < o.price){
+    const isBetter = best && (o.kind === "leftover" ? offerPerMl(best.offer) < offerPerMl(o) : best.offer.price < o.price);
+    if(isBetter){
       // the store name is always Latin-script (English seller names), so in
       // an Arabic (RTL) line it needs a bidi isolate around it — otherwise
       // the browser's bidi algorithm can pull neighboring dashes/numbers
