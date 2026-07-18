@@ -38,7 +38,7 @@ import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from extract import slugify, find_existing_product, unique_id_for, track_offer, offer_sort_key, is_web_sourced_hero, CATALOG  # noqa: E402
+from extract import slugify, find_existing_product, unique_id_for, reconcile_offers, is_web_sourced_hero, CATALOG  # noqa: E402
 from brand_prefixes import split_brand_prefix  # noqa: E402
 
 BASE_URL = "https://z-original-perfumes-decant.odoo.com"
@@ -178,6 +178,14 @@ def main():
     IMAGES_DIR.mkdir(exist_ok=True)
     added, synced = 0, 0
 
+    # Each fragrance can have several `info` entries (one per size, since
+    # MO Shawky lists each size as its own listing) — collect everything
+    # seen this run per product first, THEN reconcile once at the end, so
+    # a size that's genuinely gone (not just "this particular info wasn't
+    # the one that happened to carry it") gets marked sold rather than
+    # merely being whatever the LAST info for that product left behind.
+    touched = {}  # product id -> {"product": dict, "offers": [...], "store_image": str|None, "product_url": str|None}
+
     for info in parsed:
         product = find_existing_product(catalog, info["name_en"], info["brand"])
         if product is None:
@@ -212,24 +220,26 @@ def main():
             except Exception as e:
                 print(f"  store image failed for {product['id']}: {e}")
 
+        entry = touched.setdefault(product["id"], {"product": product, "offers": [], "store_image": None, "product_url": None})
+        entry["offers"].append({"kind": "decant", "ml": info["ml"], "price": info["price"]})
+        if store_image_rel:
+            entry["store_image"] = store_image_rel
+        if info.get("product_url"):
+            entry["product_url"] = info["product_url"]
+        synced += 1
+
+    for entry in touched.values():
+        product = entry["product"]
         product.setdefault("stores", [])
         store = next((s for s in product["stores"] if s["name"] == STORE_NAME), None)
         if store is None:
             store = {"name": STORE_NAME, "url": STORE_URL, "offers": []}
             product["stores"].append(store)
-        offer = {"kind": "decant", "ml": info["ml"], "price": info["price"]}
-        idx = next((i for i, o in enumerate(store["offers"])
-                    if o["kind"] == "decant" and o["ml"] == info["ml"]), None)
-        if idx is not None:
-            store["offers"][idx] = track_offer(store["offers"][idx], offer)
-        else:
-            store["offers"].append(track_offer(None, offer))
-        store["offers"].sort(key=offer_sort_key)
-        if store_image_rel:
-            store["image"] = store_image_rel
-        if info.get("product_url"):
-            store["product_url"] = info["product_url"]
-        synced += 1
+        store["offers"] = reconcile_offers(store["offers"], entry["offers"])
+        if entry["store_image"]:
+            store["image"] = entry["store_image"]
+        if entry["product_url"]:
+            store["product_url"] = entry["product_url"]
 
     CATALOG.write_text(json.dumps(catalog, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"\nDone. {added} new products, {synced} listings synced. "

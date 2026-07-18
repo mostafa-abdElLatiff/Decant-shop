@@ -25,7 +25,7 @@ import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from extract import slugify, accord_color, find_existing_product, unique_id_for, track_offer, offer_sort_key, is_web_sourced_hero, CATALOG  # noqa: E402
+from extract import slugify, find_existing_product, unique_id_for, reconcile_offers, is_web_sourced_hero, CATALOG  # noqa: E402
 
 STORE_NAME = "eldesoki-fragrances"
 STORE_URL = "https://eldesoki-fragrances.com/"
@@ -182,29 +182,6 @@ def download_image(url, dest_path):
     dest_path.write_bytes(fetch_url(url))
 
 
-def merge_offer(product: dict, offer: dict, image_rel: str = None, product_url: str = None):
-    """Upsert ONE offer into this product's eldesoki-fragrances store entry
-    (replace on matching kind+ml, append otherwise) — this store lists every
-    size as its own separate listing, so offers accumulate across multiple
-    calls for the same product rather than arriving as one batch."""
-    product.setdefault("stores", [])
-    store = next((s for s in product["stores"] if s["name"] == STORE_NAME), None)
-    if store is None:
-        store = {"name": STORE_NAME, "url": STORE_URL, "offers": []}
-        product["stores"].append(store)
-    idx = next((i for i, o in enumerate(store["offers"])
-                if o["kind"] == offer["kind"] and o["ml"] == offer["ml"]), None)
-    if idx is not None:
-        store["offers"][idx] = track_offer(store["offers"][idx], offer)
-    else:
-        store["offers"].append(track_offer(None, offer))
-    store["offers"].sort(key=offer_sort_key)
-    if image_rel:
-        store["image"] = image_rel
-    if product_url:
-        store["product_url"] = product_url
-
-
 def main():
     parsed = []
     for cat_id, kind in CATEGORY_KIND.items():
@@ -222,6 +199,13 @@ def main():
 
     IMAGES_DIR.mkdir(exist_ok=True)
     added, synced = 0, 0
+
+    # This store lists every size as its own separate listing, so a
+    # fragrance can show up as several `info` entries — collect everything
+    # seen this run per product first, then reconcile once at the end
+    # (rather than upsert-only), so a size that's genuinely gone gets
+    # marked sold instead of just sitting there stale forever.
+    touched = {}  # product id -> {"product": dict, "offers": [...], "store_image": str|None, "product_url": str|None}
 
     for info in parsed:
         product = find_existing_product(catalog, info["name_en"], info["brand"])
@@ -257,8 +241,26 @@ def main():
             except Exception as e:
                 print(f"  store image failed for {product['id']}: {e}")
 
-        merge_offer(product, info["offer"], image_rel=store_image_rel, product_url=info.get("product_url"))
+        entry = touched.setdefault(product["id"], {"product": product, "offers": [], "store_image": None, "product_url": None})
+        entry["offers"].append(info["offer"])
+        if store_image_rel:
+            entry["store_image"] = store_image_rel
+        if info.get("product_url"):
+            entry["product_url"] = info["product_url"]
         synced += 1
+
+    for entry in touched.values():
+        product = entry["product"]
+        product.setdefault("stores", [])
+        store = next((s for s in product["stores"] if s["name"] == STORE_NAME), None)
+        if store is None:
+            store = {"name": STORE_NAME, "url": STORE_URL, "offers": []}
+            product["stores"].append(store)
+        store["offers"] = reconcile_offers(store["offers"], entry["offers"])
+        if entry["store_image"]:
+            store["image"] = entry["store_image"]
+        if entry["product_url"]:
+            store["product_url"] = entry["product_url"]
 
     CATALOG.write_text(json.dumps(catalog, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"\nDone. {added} new products, {synced} listing(s) synced. "
