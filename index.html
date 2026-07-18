@@ -125,6 +125,8 @@
   .accords:not(.expanded) .accord:nth-child(n+6){display:none}
   .accords-toggle{align-self:flex-start;background:none;border:none;color:var(--olive-deep);font-size:.76rem;font-weight:600;cursor:pointer;padding:0;text-decoration:underline;margin-top:-2px}
   .accord{height:1.3rem;border-radius:5px;display:flex;align-items:center;padding:0 .6rem;font-size:.7rem;font-weight:600;color:rgba(0,0,0,.68);box-shadow:inset 0 1px 0 rgba(255,255,255,.25), inset 0 -1px 2px rgba(0,0,0,.12)}
+  .stores-list:not(.expanded) .store-block:nth-child(n+2){display:none}
+  .stores-toggle{align-self:flex-start;background:none;border:none;color:var(--olive-deep);font-size:.76rem;font-weight:600;cursor:pointer;padding:0;text-decoration:underline;margin-top:-.15rem}
   .store-block{border-top:1px dashed var(--line);padding-top:.55rem;margin-top:.15rem}
   .store-name{font-size:.85rem;font-weight:700;margin-bottom:.35rem;display:flex;align-items:center;gap:.4rem;flex-wrap:wrap}
   .store-name a{color:var(--olive-deep);text-decoration:none;border-bottom:1px solid currentColor}
@@ -250,6 +252,7 @@
   <div class="skel"></div><div class="skel"></div><div class="skel"></div>
   <div class="skel"></div><div class="skel"></div><div class="skel"></div>
 </main>
+<div id="loadSentinel" hidden></div>
 
 <div class="overlay" id="overlay"></div>
 <aside class="drawer" id="drawer" aria-label="cart">
@@ -294,6 +297,7 @@ const I18N = {
     better_deal:"Better value:", from_store:"", view_listing:"View listing", new_badge:"New", sold_badge:"Sold",
     sort_default:"Catalog order", sort_newest:"Newest first", sort_oldest:"Oldest first", sort_cheapest:"Cheapest first",
     show_more_notes:"+{n} more notes", show_less_notes:"Show less",
+    show_more_stores:"+{n} more stores", show_less_stores:"Show less",
   },
   ar: {
     site_name:"ليسته", tag:"تقسيمات • زجاجات كاملة • بواقي تقسيم، مقارنة أسعار",
@@ -313,6 +317,7 @@ const I18N = {
     better_deal:"سعر أفضل:", from_store:"من ", view_listing:"عرض المنتج", new_badge:"جديد", sold_badge:"تم البيع",
     sort_default:"ترتيب الكتالوج", sort_newest:"الأحدث أولاً", sort_oldest:"الأقدم أولاً", sort_cheapest:"الأرخص أولاً",
     show_more_notes:"+{n} مكونات أخرى", show_less_notes:"عرض أقل",
+    show_more_stores:"+{n} متاجر أخرى", show_less_stores:"عرض أقل",
   }
 };
 
@@ -329,6 +334,13 @@ let query = "";
 let lang = localStorage.getItem("lang") || "en";
 let theme = localStorage.getItem("theme") || "dark";
 let gridCols = localStorage.getItem("gridCols") || "auto";
+
+// Rendering the full catalog's cards at once got noticeably heavy on
+// mobile as the product count grew past ~1000 — render in pages instead,
+// growing the DOM only as the user actually scrolls down.
+const PAGE_SIZE = 24;
+let currentItems = [];
+let renderedCount = 0;
 
 const grid = document.getElementById("grid");
 const t = () => I18N[lang];
@@ -543,10 +555,8 @@ function applyI18n(){
   updateFilterBadge();
 }
 
-function render(){
+function computeItems(){
   const qTokens = normalizeText(query).split(/\s+/).filter(Boolean);
-  const byId = Object.fromEntries(PRODUCTS.map(p=>[p.id,p]));
-
   const items = PRODUCTS.filter(p =>
     (filter==="all" || productHasKind(p, filter)) &&
     (storeFilter==="all" || productHasStore(p, storeFilter)) &&
@@ -556,30 +566,45 @@ function render(){
   if(sortOrder==="newest") items.sort((a,b) => productNewestDate(b).localeCompare(productNewestDate(a)));
   else if(sortOrder==="oldest") items.sort((a,b) => productNewestDate(a).localeCompare(productNewestDate(b)));
   else if(sortOrder==="cheapest") items.sort((a,b) => productCheapestPrice(a) - productCheapestPrice(b));
-  grid.innerHTML = items.length ? "" : `<p class="empty">${t().no_results}</p>`;
+  return items;
+}
 
-  items.forEach(p => {
-    const dupeMatches = (p.dupe_of||[]).map(name => ({ name, match: byId[dupeSlug(name)] || null }));
-    const dupedBy = PRODUCTS.filter(o => o.id!==p.id && (o.dupe_of||[]).some(d => dupeSlug(d)===p.id));
+function storeCheapestPrice(s){
+  let min = Infinity;
+  (s.offers||[]).forEach(o => { if(o.price < min) min = o.price; });
+  return min;
+}
 
-    const card = document.createElement("article");
-    card.className = "card";
-    card.id = "card-" + p.id;
-    card.innerHTML = `
-      <div class="card-img">
-        ${p.image ? `<img src="${p.image}" alt="${pname(p)}" loading="lazy">` : "🧴"}
-      </div>
-      <div class="card-body">
-        ${p.brand ? `<button class="card-brand" data-brand-jump="${p.brand}">${p.brand}</button>` : ""}
-        <h3>${pname(p)}</h3>
-        ${pname_alt(p) ? `<div class="name-alt">${pname_alt(p)}</div>` : ""}
-        ${dupeMatches.length ? `<div class="dupe-of">${t().dupe_of}: ${dupeMatches.map(d => d.match ? `<button data-jump="${d.match.id}">${d.name}</button>` : d.name).join(", ")}</div>` : ""}
-        ${dupedBy.length ? `<div class="duped-by">${t().duped_by}: ${dupedBy.map(o => `<button data-jump="${o.id}">${pname(o)}</button>`).join(", ")}</div>` : ""}
-        ${p.accords && p.accords.length ? `
-          <div class="accords" id="accords-${p.id}">${p.accords.map(a=>`<div class="accord" style="background:${a.color};width:${a.w}%">${nlabel(a)}</div>`).join("")}</div>
-          ${p.accords.length>5 ? `<button class="accords-toggle" data-target="accords-${p.id}" data-more="${p.accords.length-5}">${t().show_more_notes.replace("{n}", p.accords.length-5)}</button>` : ""}
-        ` : ""}
-        ${(p.stores||[]).map((s,si)=>{
+function buildCardEl(p, byId){
+  const dupeMatches = (p.dupe_of||[]).map(name => ({ name, match: byId[dupeSlug(name)] || null }));
+  const dupedBy = PRODUCTS.filter(o => o.id!==p.id && (o.dupe_of||[]).some(d => dupeSlug(d)===p.id));
+
+  // With more stores added over time a card listing every one in full got
+  // unreadably long — show only the cheapest store's offers by default
+  // (the one most people actually care about), with the rest one toggle
+  // away instead of always taking up the full card height.
+  const sortedStores = (p.stores||[]).map((s, si) => ({ s, si }))
+    .sort((a,b) => storeCheapestPrice(a.s) - storeCheapestPrice(b.s));
+
+  const card = document.createElement("article");
+  card.className = "card";
+  card.id = "card-" + p.id;
+  card.innerHTML = `
+    <div class="card-img">
+      ${p.image ? `<img src="${p.image}" alt="${pname(p)}" loading="lazy">` : "🧴"}
+    </div>
+    <div class="card-body">
+      ${p.brand ? `<button class="card-brand" data-brand-jump="${p.brand}">${p.brand}</button>` : ""}
+      <h3>${pname(p)}</h3>
+      ${pname_alt(p) ? `<div class="name-alt">${pname_alt(p)}</div>` : ""}
+      ${dupeMatches.length ? `<div class="dupe-of">${t().dupe_of}: ${dupeMatches.map(d => d.match ? `<button data-jump="${d.match.id}">${d.name}</button>` : d.name).join(", ")}</div>` : ""}
+      ${dupedBy.length ? `<div class="duped-by">${t().duped_by}: ${dupedBy.map(o => `<button data-jump="${o.id}">${pname(o)}</button>`).join(", ")}</div>` : ""}
+      ${p.accords && p.accords.length ? `
+        <div class="accords" id="accords-${p.id}">${p.accords.map(a=>`<div class="accord" style="background:${a.color};width:${a.w}%">${nlabel(a)}</div>`).join("")}</div>
+        ${p.accords.length>5 ? `<button class="accords-toggle" data-target="accords-${p.id}" data-more="${p.accords.length-5}">${t().show_more_notes.replace("{n}", p.accords.length-5)}</button>` : ""}
+      ` : ""}
+      <div class="stores-list" id="stores-${p.id}">
+        ${sortedStores.map(({s,si})=>{
           // Offers with their own photo (e.g. a full-bottle listing) get their
           // own thumb+group instead of sharing the store's general one — a
           // single store.image can't represent both a decant vial and a
@@ -610,9 +635,39 @@ function render(){
               </div>`).join("")}
           </div>`;
         }).join("")}
-      </div>`;
-    grid.appendChild(card);
-  });
+      </div>
+      ${sortedStores.length>1 ? `<button class="stores-toggle" data-target="stores-${p.id}" data-more="${sortedStores.length-1}">${t().show_more_stores.replace("{n}", sortedStores.length-1)}</button>` : ""}
+    </div>`;
+  return card;
+}
+
+function appendCards(items){
+  const byId = Object.fromEntries(PRODUCTS.map(p=>[p.id,p]));
+  items.forEach(p => grid.appendChild(buildCardEl(p, byId)));
+}
+
+function updateLoadSentinel(){
+  document.getElementById("loadSentinel").hidden = renderedCount >= currentItems.length;
+}
+
+function renderItems(items, count){
+  currentItems = items;
+  renderedCount = Math.min(count, items.length);
+  grid.innerHTML = items.length ? "" : `<p class="empty">${t().no_results}</p>`;
+  appendCards(items.slice(0, renderedCount));
+  updateLoadSentinel();
+}
+
+function loadMore(){
+  if(renderedCount >= currentItems.length) return;
+  const next = currentItems.slice(renderedCount, renderedCount + PAGE_SIZE);
+  appendCards(next);
+  renderedCount += next.length;
+  updateLoadSentinel();
+}
+
+function render(){
+  renderItems(computeItems(), PAGE_SIZE);
 }
 
 function filterByBrand(brand){
@@ -636,6 +691,13 @@ grid.addEventListener("click", e => {
     const target = document.getElementById(accordsToggle.dataset.target);
     const expanded = target.classList.toggle("expanded");
     accordsToggle.textContent = expanded ? t().show_less_notes : t().show_more_notes.replace("{n}", accordsToggle.dataset.more);
+    return;
+  }
+  const storesToggle = e.target.closest(".stores-toggle");
+  if (storesToggle){
+    const target = document.getElementById(storesToggle.dataset.target);
+    const expanded = target.classList.toggle("expanded");
+    storesToggle.textContent = expanded ? t().show_less_stores : t().show_more_stores.replace("{n}", storesToggle.dataset.more);
     return;
   }
   const offerBtn = e.target.closest(".offer-btn");
@@ -670,7 +732,13 @@ function resetFilters(){
 
 function focusProduct(id){
   resetFilters();
-  render();
+  // a dupe_of/duped_by jump target can sit far past the first page under
+  // the current sort order — extend how much is rendered up front so its
+  // card actually exists in the DOM to scroll to, instead of only being
+  // reachable by scrolling/load-more first.
+  const items = computeItems();
+  const idx = items.findIndex(p => p.id === id);
+  renderItems(items, idx >= 0 ? idx + 1 : PAGE_SIZE);
   requestAnimationFrame(()=>{
     const el = document.getElementById("card-"+id);
     if(el){
@@ -938,6 +1006,13 @@ function toast(txt){
   clearTimeout(toastTimer);
   toastTimer = setTimeout(()=>el.classList.remove("show"), 2200);
 }
+
+// fires loadMore() a bit before the sentinel actually enters the
+// viewport (rootMargin) so the next page is ready before the user hits
+// the bottom, rather than a visible pause-then-append.
+new IntersectionObserver(entries => {
+  if(entries[0].isIntersecting) loadMore();
+}, { rootMargin: "600px" }).observe(document.getElementById("loadSentinel"));
 
 load();
 syncCart();
