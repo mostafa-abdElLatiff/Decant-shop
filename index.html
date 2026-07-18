@@ -142,6 +142,9 @@
   .offer-btn:focus-visible{outline:3px solid var(--brass);outline-offset:2px}
   .offer-btn .prev-price{opacity:.55;text-decoration:line-through;font-size:.78em;margin-inline-end:.25em}
   .offer-btn .new-badge{position:absolute;top:-8px;inset-inline-end:-6px;background:var(--brass);color:#12140D;font-size:.6rem;font-weight:700;padding:.05rem .35rem;border-radius:6px;line-height:1.4}
+  .offer-btn.sold{opacity:.5;cursor:not-allowed;filter:grayscale(.6)}
+  .offer-btn.sold:hover{border-color:var(--line);background:var(--bg)}
+  .offer-btn .sold-badge{position:absolute;top:-8px;inset-inline-end:-6px;background:var(--red);color:#fff;font-size:.6rem;font-weight:700;padding:.05rem .35rem;border-radius:6px;line-height:1.4}
 
   .overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:60;opacity:0;pointer-events:none;transition:opacity .2s}
   .overlay.open{opacity:1;pointer-events:auto}
@@ -288,7 +291,7 @@ const I18N = {
     full_tag:"full bottle", leftover_tag:"with bottle", as_shown:"as shown",
     toggle_lang:"العربية", theme_to_light:"☀️", theme_to_dark:"🌙", zoom_close:"Close",
     disclaimer:"Prices shown do not include shipping — each store/seller charges their own delivery fee.",
-    better_deal:"Better value:", from_store:"", view_listing:"View listing", new_badge:"New",
+    better_deal:"Better value:", from_store:"", view_listing:"View listing", new_badge:"New", sold_badge:"Sold",
     sort_default:"Catalog order", sort_newest:"Newest first", sort_oldest:"Oldest first", sort_cheapest:"Cheapest first",
     show_more_notes:"+{n} more notes", show_less_notes:"Show less",
   },
@@ -307,7 +310,7 @@ const I18N = {
     full_tag:"زجاجة كاملة", leftover_tag:"باقي تقسيم", as_shown:"كما بالصورة",
     toggle_lang:"English", theme_to_light:"☀️", theme_to_dark:"🌙", zoom_close:"إغلاق",
     disclaimer:"الأسعار الموضحة لا تشمل الشحن — كل متجر/بائع له مصاريف شحن مختلفة.",
-    better_deal:"سعر أفضل:", from_store:"من ", view_listing:"عرض المنتج", new_badge:"جديد",
+    better_deal:"سعر أفضل:", from_store:"من ", view_listing:"عرض المنتج", new_badge:"جديد", sold_badge:"تم البيع",
     sort_default:"ترتيب الكتالوج", sort_newest:"الأحدث أولاً", sort_oldest:"الأقدم أولاً", sort_cheapest:"الأرخص أولاً",
     show_more_notes:"+{n} مكونات أخرى", show_less_notes:"عرض أقل",
   }
@@ -599,8 +602,8 @@ function render(){
                 ${img ? `<img class="store-thumb" src="${img}" alt="${s.name}" loading="lazy">` : ""}
                 <div class="offers">
                   ${byImage.get(img).map(oi => { const o = s.offers[oi]; return `
-                    <button class="offer-btn" data-pid="${p.id}" data-si="${si}" data-oi="${oi}">
-                      ${isNewOffer(o) ? `<span class="new-badge">${t().new_badge}</span>` : ""}
+                    <button class="offer-btn${o.sold_since ? " sold" : ""}" data-pid="${p.id}" data-si="${si}" data-oi="${oi}"${o.sold_since ? ` disabled aria-disabled="true"` : ""}>
+                      ${o.sold_since ? `<span class="sold-badge">${t().sold_badge}</span>` : isNewOffer(o) ? `<span class="new-badge">${t().new_badge}</span>` : ""}
                       ${offerLabel(o)} <b>${o.prev_price ? `<span class="prev-price">${o.prev_price}</span>` : ""}${o.price}</b>
                     </button>`; }).join("")}
                 </div>

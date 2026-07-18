@@ -608,6 +608,47 @@ def track_offer(old_offer, new_offer: dict) -> dict:
     return out
 
 
+SOLD_GRACE_DAYS = 7
+
+
+def reconcile_offers(old_offers: list, fresh_offers: list, today: date = None) -> list:
+    """Combine a store's previous offers with everything actually seen on
+    this sync run: offers seen again are upserted via track_offer (and
+    any earlier "sold_since" clears — it came back in stock). An offer
+    that existed before but wasn't in this run's results is kept and
+    stamped "sold_since" the first time it goes missing (so the site can
+    still show it, greyed out, as "Sold" rather than yanking it the
+    instant a store runs out) — then dropped for good once it's been
+    sold for SOLD_GRACE_DAYS without reappearing in a later run.
+
+    Only meaningful for a store whose sync fetches its FULL current
+    catalog every run (roseperfume/sniffz/MO Shawky/eldesoki/
+    emaratiscents) — a one-off Facebook post extraction never sees "the
+    whole picture" for a store, so merge_store()'s plain upsert (never
+    remove) is deliberately the only thing used there."""
+    today = today or date.today()
+    fresh_keys = {(o["kind"], o["ml"]) for o in fresh_offers}
+    result = []
+    for o in fresh_offers:
+        old = next((x for x in old_offers if x["kind"] == o["kind"] and x["ml"] == o["ml"]), None)
+        merged = track_offer(old, o)
+        merged.pop("sold_since", None)
+        result.append(merged)
+    for o in old_offers:
+        if (o["kind"], o["ml"]) in fresh_keys:
+            continue
+        sold_since = o.get("sold_since")
+        if not sold_since:
+            o = dict(o)
+            o["sold_since"] = today.isoformat()
+            result.append(o)
+            continue
+        if (today - date.fromisoformat(sold_since)).days < SOLD_GRACE_DAYS:
+            result.append(o)
+        # else: dropped — sold >= SOLD_GRACE_DAYS and never restocked
+    return sorted(result, key=offer_sort_key)
+
+
 def merge_store(product: dict, store_name: str, store_url: str, offers: list,
                  image_rel: str = None, product_url: str = None):
     """Find-or-create the named store on product, then merge offers into it

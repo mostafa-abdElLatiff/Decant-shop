@@ -34,7 +34,7 @@ import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from extract import slugify, accord_color, find_existing_product, unique_id_for, track_offer, offer_sort_key, is_web_sourced_hero, CATALOG  # noqa: E402
+from extract import slugify, accord_color, find_existing_product, unique_id_for, reconcile_offers, is_web_sourced_hero, CATALOG  # noqa: E402
 from rp_notes import translate_note, split_dupe  # noqa: E402
 
 COLLECTION_URL = "https://roseperfume.online/collections/men-fragrances/products.json"
@@ -187,9 +187,11 @@ def download_image(url, dest_path):
 
 
 def replace_store_offers(product: dict, offers: list, image_rel: str = None, product_url: str = None):
-    """Fully replace this store's offers (not merge-append) so sizes that
-    went out of stock since the last sync are dropped, not left stale — but
-    only ever called on a product we positively re-identified this run.
+    """Reconcile this store's offers against what's actually in stock this
+    run — a size that's gone out of stock gets marked "sold" (and, if it
+    stays that way for a week without restocking, dropped for good) rather
+    than either staying stale forever or vanishing the instant it's gone —
+    but only ever called on a product we positively re-identified this run.
 
     Deliberately NOT symmetric: this script never removes a roseperfume
     listing from a product it *couldn't* re-identify this run. The matching
@@ -208,11 +210,7 @@ def replace_store_offers(product: dict, offers: list, image_rel: str = None, pro
     if store is None:
         store = {"name": STORE_NAME, "url": STORE_URL, "offers": []}
         product["stores"].append(store)
-    old_offers = store["offers"]
-    store["offers"] = sorted((
-        track_offer(next((o for o in old_offers if o["kind"] == offer["kind"] and o["ml"] == offer["ml"]), None), offer)
-        for offer in offers
-    ), key=offer_sort_key)
+    store["offers"] = reconcile_offers(store["offers"], offers)
     if image_rel:
         store["image"] = image_rel
     if product_url:
