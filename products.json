@@ -2240,7 +2240,7 @@
       "id": "mirsaal",
       "name_ar": "مرسال",
       "name_en": "Mirsaal",
-      "brand": "Le Falconé Perfumes",
+      "brand": "Le Falconé Perfumes",
       "dupe_of": [
         "Torino21 — Xerjoff"
       ],
@@ -4123,7 +4123,7 @@
       "id": "prodigy",
       "name_ar": "Prodigy",
       "name_en": "Prodigy",
-      "brand": "PARIS CORNER",
+      "brand": "Paris Corner",
       "dupe_of": [
         "Alexandria II — Xerjoff"
       ],
@@ -6201,7 +6201,7 @@
       "id": "bamboo-reflection",
       "name_ar": "Bamboo Reflection",
       "name_en": "Bamboo Reflection",
-      "brand": "",
+      "brand": "Arabiyat Prestige",
       "dupe_of": [
         "Torino21 — Xerjoff"
       ],
@@ -6270,7 +6270,7 @@
       "id": "odyssey-aqua",
       "name_ar": "Odyssey Aqua",
       "name_en": "Odyssey Aqua",
-      "brand": "",
+      "brand": "Armaf",
       "dupe_of": [
         "Invictus Platinum — Rabanne"
       ],
@@ -6537,7 +6537,7 @@
       "id": "mashrabya",
       "name_ar": "مشربية",
       "name_en": "Mashrabya",
-      "brand": "",
+      "brand": "Lattafa",
       "dupe_of": [
         "Smoking Hot — By Kilian"
       ],
@@ -6649,9 +6649,9 @@
     },
     {
       "id": "aromatix",
-      "name_ar": "Aromatix",
-      "name_en": "Aromatix",
-      "brand": "French Avenue",
+      "name_ar": "فروستبايت",
+      "name_en": "Frostbite",
+      "brand": "Aromatix X French Avenue",
       "dupe_of": [
         "Ambassador Men — Gisada"
       ],
@@ -6740,6 +6740,12 @@
               "ml": 10,
               "price": 260,
               "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "leftover",
+              "ml": 64,
+              "price": 1400,
+              "first_seen": "2026-07-17"
             }
           ],
           "image": "images/aromatix.jpg"
@@ -6849,7 +6855,7 @@
       "id": "emir-super-crush",
       "name_ar": "Emir Super Crush",
       "name_en": "Emir Super Crush",
-      "brand": "Emir",
+      "brand": "Paris Corner",
       "dupe_of": [
         "Instant Crush — Mancera"
       ],
@@ -6946,9 +6952,9 @@
     },
     {
       "id": "hayba-majesty",
-      "name_ar": "هيبة",
+      "name_ar": "هيبة ماجيستي",
       "name_en": "Hayba Majesty",
-      "brand": "",
+      "brand": "Le Falconé Perfumes",
       "dupe_of": [
         "Le Beau Flower Edition — Jean Paul Gaultier"
       ],
@@ -7128,7 +7134,7 @@
       "id": "urban-man-le-parfum",
       "name_ar": "Urban Man Le Parfum",
       "name_en": "Urban Man Le Parfum",
-      "brand": "",
+      "brand": "Fragrance World",
       "dupe_of": [
         "Le Male Le Parfum — Jean Paul Gaultier"
       ],
@@ -7598,7 +7604,7 @@
     },
     {
       "id": "moohesh-noble",
-      "name_ar": "موهش",
+      "name_ar": "مودهش نوبل",
       "name_en": "Moohesh Noble",
       "brand": "Zimaya",
       "dupe_of": [
@@ -8055,7 +8061,7 @@
       "id": "serious",
       "name_ar": "Serious",
       "name_en": "Serious",
-      "brand": "",
+      "brand": "Al Majed Oud",
       "dupe_of": [],
       "image": "images/serious.jpg",
       "accords": [],
@@ -8113,9 +8119,9 @@
     },
     {
       "id": "shooting-stars-uden",
-      "name_ar": "Shooting Stars - Uden",
-      "name_en": "Shooting Stars - Uden",
-      "brand": "Maison Francis Kurkdjian",
+      "name_ar": "Uden",
+      "name_en": "Uden",
+      "brand": "Xerjoff",
       "dupe_of": [],
       "image": "images/shooting-stars-uden.jpg",
       "accords": [],
@@ -9094,7 +9100,7 @@
       "id": "shams-dubai",
       "name_ar": "Shams Dubai",
       "name_en": "Shams Dubai",
-      "brand": "Shams Dubai",
+      "brand": "Athena",
       "dupe_of": [],
       "image": "images/shams-dubai.jpg",
       "accords": [],
@@ -9154,7 +9160,7 @@
       "id": "nero",
       "name_ar": "Nero",
       "name_en": "Nero",
-      "brand": "",
+      "brand": "Sedra",
       "dupe_of": [],
       "image": "images/nero.jpg",
       "accords": [],
@@ -9422,7 +9428,7 @@
       "id": "hommage-1744",
       "name_ar": "Hommage 1744",
       "name_en": "Hommage 1744",
-      "brand": "Omanluxury",
+      "brand": "Oman Luxury",
       "dupe_of": [],
       "image": "images/hommage-1744.jpg",
       "accords": [],
@@ -9482,7 +9488,7 @@
       "id": "dejan",
       "name_ar": "Dejan",
       "name_en": "Dejan",
-      "brand": "Omanluxury",
+      "brand": "Oman Luxury",
       "dupe_of": [],
       "image": "images/dejan.jpg",
       "accords": [],
@@ -9664,7 +9670,7 @@
       "id": "flowerlush",
       "name_ar": "Flowerlush",
       "name_en": "Flowerlush",
-      "brand": "Omanluxury",
+      "brand": "Oman Luxury",
       "dupe_of": [],
       "image": "images/flowerlush.jpg",
       "accords": [],
@@ -9694,7 +9700,7 @@
       "id": "khanjar",
       "name_ar": "Khanjar",
       "name_en": "Khanjar",
-      "brand": "Omanluxury",
+      "brand": "Oman Luxury",
       "dupe_of": [],
       "image": "images/khanjar.jpg",
       "accords": [],
@@ -9782,8 +9788,8 @@
     },
     {
       "id": "dubai-bahar",
-      "name_ar": "Dubai Bahar",
-      "name_en": "Dubai Bahar",
+      "name_ar": "Bahar",
+      "name_en": "Bahar",
       "brand": "The Spirit of Dubai",
       "dupe_of": [],
       "image": "images/dubai-bahar.jpg",
@@ -9812,8 +9818,8 @@
     },
     {
       "id": "dubai-meydan",
-      "name_ar": "Dubai Meydan",
-      "name_en": "Dubai Meydan",
+      "name_ar": "Meydan",
+      "name_en": "Meydan",
       "brand": "The Spirit of Dubai",
       "dupe_of": [],
       "image": "images/dubai-meydan.jpg",
@@ -10068,7 +10074,7 @@
       "id": "caden",
       "name_ar": "Caden",
       "name_en": "Caden",
-      "brand": "",
+      "brand": "Oman Luxury",
       "dupe_of": [],
       "image": "images/caden.jpg",
       "accords": [],
@@ -10156,8 +10162,8 @@
     },
     {
       "id": "no-5-floral-amber-sensual-musk",
-      "name_ar": "No 5 Floral Amber Sensual Musk",
-      "name_en": "No 5 Floral Amber Sensual Musk",
+      "name_ar": "No 5",
+      "name_en": "No 5",
       "brand": "Rosendo Mateu",
       "dupe_of": [],
       "image": "images/no-5-floral-amber-sensual-musk.jpg",
@@ -10204,7 +10210,9 @@
               "price": 700,
               "first_seen": "2026-01-01"
             }
-          ]
+          ],
+          "image": "images/n-5--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/rosendo-mateu-nº-5"
         }
       ]
     },
@@ -10291,6 +10299,12 @@
               "kind": "decant",
               "ml": 10,
               "price": 1850,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 5350,
               "first_seen": "2026-01-01"
             }
           ],
@@ -10638,7 +10652,7 @@
       "id": "psych-d-lique",
       "name_ar": "Psychédélique",
       "name_en": "Psychédélique",
-      "brand": "",
+      "brand": "Jovoy Paris",
       "dupe_of": [],
       "image": "images/psych-d-lique.jpg",
       "accords": [],
@@ -11035,8 +11049,8 @@
     },
     {
       "id": "kenzo-homme-eau-de-parfum",
-      "name_ar": "Kenzo Homme Eau de Parfum",
-      "name_en": "Kenzo Homme Eau de Parfum",
+      "name_ar": "Kenzo Homme EDP",
+      "name_en": "Kenzo Homme EDP",
       "brand": "Kenzo",
       "dupe_of": [],
       "image": "images/kenzo-homme-eau-de-parfum.jpg",
@@ -11105,6 +11119,26 @@
           ],
           "image": "images/kenzo-homme-eau-de-parfum--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/kenzo-homme-eau-de-parfum-1"
+        },
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 235,
+              "first_seen": "2026-07-17"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 400,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/homme-edp--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/kenzo-homme-edp-5ml-412"
         }
       ],
       "_hero_source": "sniffz"
@@ -11314,8 +11348,8 @@
     },
     {
       "id": "pasha-de-cartier-dition-noire",
-      "name_ar": "Pasha de Cartier Édition Noire",
-      "name_en": "Pasha de Cartier Édition Noire",
+      "name_ar": "Pasha",
+      "name_en": "Pasha",
       "brand": "Cartier",
       "dupe_of": [],
       "image": "images/pasha-de-cartier-dition-noire.jpg",
@@ -11631,7 +11665,7 @@
     },
     {
       "id": "1-million-golden-oud-parfum-intense",
-      "name_ar": "العود الذهبي",
+      "name_ar": "العود الذهبي انتنس",
       "name_en": "1 Million Golden Oud Parfum Intense",
       "brand": "Rabanne",
       "dupe_of": [],
@@ -12431,7 +12465,9 @@
               "price": 5000,
               "first_seen": "2026-01-01"
             }
-          ]
+          ],
+          "image": "images/gentleman-reserve-priv-e-givenchy--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/gentleman-reserve-privee-givenchy-1"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -12580,8 +12616,8 @@
     },
     {
       "id": "kenzo-homme-eau-de-toilette-intense",
-      "name_ar": "Kenzo Homme Eau de Toilette Intense",
-      "name_en": "Kenzo Homme Eau de Toilette Intense",
+      "name_ar": "Kenzo Homme EDT Intense",
+      "name_en": "Kenzo Homme EDT Intense",
       "brand": "Kenzo",
       "dupe_of": [],
       "image": "images/kenzo-homme-eau-de-toilette-intense.jpg",
@@ -12688,8 +12724,8 @@
     },
     {
       "id": "reef-i-love-ksa",
-      "name_ar": "Reef - I Love KSA",
-      "name_en": "Reef - I Love KSA",
+      "name_ar": "Abaya - I Love KSA",
+      "name_en": "Abaya - I Love KSA",
       "brand": "Reef",
       "dupe_of": [],
       "image": "images/reef-i-love-ksa.jpg",
@@ -12856,8 +12892,8 @@
     },
     {
       "id": "zen-gi",
-      "name_ar": "Zen'Gi",
-      "name_en": "Zen'Gi",
+      "name_ar": "Zen'Gi Extrait de Parfum",
+      "name_en": "Zen'Gi Extrait de Parfum",
       "brand": "Unique'e Luxury",
       "dupe_of": [],
       "image": "images/zen-gi.jpg",
@@ -12875,6 +12911,31 @@
             }
           ],
           "image": "images/zen-gi.jpg"
+        },
+        {
+          "name": "Hossam ElDeen Gamal",
+          "url": "https://www.facebook.com/hossameldeien/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 450,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 725,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 1400,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/unique-e-luxury-zen-gi-extrait-de-parfum--hossam-eldeen-gamal.jpg"
         }
       ]
     },
@@ -12934,7 +12995,7 @@
       "id": "yes-i-am-the-king-evolution",
       "name_ar": "Yes I Am The King Evolution",
       "name_en": "Yes I Am The King Evolution",
-      "brand": "",
+      "brand": "Geparlys",
       "dupe_of": [],
       "image": "images/yes-i-am-the-king-evolution.jpg",
       "accords": [],
@@ -13181,54 +13242,6 @@
       ]
     },
     {
-      "id": "zen-gi-extrait-de-parfum-tester",
-      "name_ar": "Zen'Gi Extrait de Parfum (Tester)",
-      "name_en": "Zen'Gi Extrait de Parfum (Tester)",
-      "brand": "Unique'e Luxury",
-      "dupe_of": [],
-      "image": "images/zen-gi-extrait-de-parfum-tester.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Mostafa Mohamed",
-          "url": "https://www.facebook.com/mostafa.mohamed.390048/",
-          "offers": [
-            {
-              "kind": "leftover",
-              "ml": "as-shown",
-              "price": 1650,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/zen-gi-extrait-de-parfum-tester.jpg"
-        }
-      ]
-    },
-    {
-      "id": "jtc-ivory-route",
-      "name_ar": "JTC Ivory Route",
-      "name_en": "JTC Ivory Route",
-      "brand": "Xerjoff",
-      "dupe_of": [],
-      "image": "images/jtc-ivory-route.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Mostafa Mohamed",
-          "url": "https://www.facebook.com/mostafa.mohamed.390048/",
-          "offers": [
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 5350,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/jtc-ivory-route.jpg"
-        }
-      ]
-    },
-    {
       "id": "jad-rustic",
       "name_ar": "",
       "name_en": "Jad Rustic",
@@ -13325,9 +13338,9 @@
     },
     {
       "id": "black-horse-al-rehab-perfumes",
-      "name_ar": "",
-      "name_en": "Black Horse AL-REHAB PERFUMES",
-      "brand": "Al-Rehab",
+      "name_ar": "Black Horse",
+      "name_en": "Black Horse",
+      "brand": "ALREHAB",
       "dupe_of": [],
       "image": "images/black-horse-al-rehab-perfumes.jpg",
       "accords": [
@@ -13388,8 +13401,8 @@
     },
     {
       "id": "asad-elixir-lattafa-perfumes",
-      "name_ar": "",
-      "name_en": "Asad Elixir Lattafa Perfumes",
+      "name_ar": "Asad Elixir",
+      "name_en": "Asad Elixir",
       "brand": "Lattafa",
       "dupe_of": [
         "Bottled Absolu — Hugo Boss"
@@ -13509,8 +13522,8 @@
     },
     {
       "id": "lion-rayhaan",
-      "name_ar": "",
-      "name_en": "Lion Rayhaan",
+      "name_ar": "Lion",
+      "name_en": "Lion",
       "brand": "Rayhaan",
       "dupe_of": [
         "Ultra Male — Jean Paul Gaultier"
@@ -13625,15 +13638,41 @@
           ],
           "image": "images/lion-rayhaan--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/lion-rayhaan%d9%84%d8%a7%d9%8a%d9%88%d9%86-%d8%b1%d9%8a%d8%ad%d8%a7%d9%86/"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 125,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 165,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 250,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/lion--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/rayhaan-lion"
         }
       ],
       "_hero_source": "roseperfume"
     },
     {
       "id": "limonar-alrehab-perfumes",
-      "name_ar": "",
-      "name_en": "Limonar ALREHAB PERFUMES",
-      "brand": "Al-Rehab",
+      "name_ar": "Limonar",
+      "name_en": "Limonar",
+      "brand": "ALREHAB",
       "dupe_of": [
         "Castley — Parfums de Marly"
       ],
@@ -13762,9 +13801,9 @@
     },
     {
       "id": "illusion-intense",
-      "name_ar": "",
+      "name_ar": "Illusion Intense",
       "name_en": "Illusion Intense",
-      "brand": "Privé",
+      "brand": "Prive",
       "dupe_of": [
         "Dior Homme Intense 2011 — Dior"
       ],
@@ -13815,9 +13854,9 @@
     },
     {
       "id": "of-course-alrehab-perfumes",
-      "name_ar": "",
-      "name_en": "Of Course ALREHAB PERFUMES",
-      "brand": "Al-Rehab",
+      "name_ar": "Of Course",
+      "name_en": "Of Course",
+      "brand": "ALREHAB",
       "dupe_of": [
         "Le Male — Jean Paul Gaultier"
       ],
@@ -13880,8 +13919,8 @@
     },
     {
       "id": "smart-collection-678",
-      "name_ar": "",
-      "name_en": "Smart Collection 678",
+      "name_ar": "678",
+      "name_en": "678",
       "brand": "Smart Collection",
       "dupe_of": [
         "Imagination — Louis Vuitton"
@@ -13908,8 +13947,8 @@
     },
     {
       "id": "emper-the-immencity",
-      "name_ar": "",
-      "name_en": "Emper The Immencity",
+      "name_ar": "The Immencity",
+      "name_en": "The Immencity",
       "brand": "Milestone",
       "dupe_of": [
         "L’Immensité — Louis Vuitton"
@@ -13997,8 +14036,8 @@
     },
     {
       "id": "milestone-l-immensit-classique",
-      "name_ar": "",
-      "name_en": "Milestone L'Immensité Classique",
+      "name_ar": "L'Immensite Classique",
+      "name_en": "L'Immensite Classique",
       "brand": "Milestone",
       "dupe_of": [
         "L'Eau d'Issey — Issey Miyake"
@@ -14074,8 +14113,8 @@
     },
     {
       "id": "emper-genius-sport-code",
-      "name_ar": "",
-      "name_en": "Emper Genius Sport Code",
+      "name_ar": "Genius Sport Code",
+      "name_en": "Genius Sport Code",
       "brand": "Emper",
       "dupe_of": [
         "Armani Code Sport — Giorgio Armani"
@@ -14145,8 +14184,8 @@
     },
     {
       "id": "terra-rayhaan",
-      "name_ar": "",
-      "name_en": "Terra Rayhaan",
+      "name_ar": "Terra",
+      "name_en": "Terra",
       "brand": "Rayhaan",
       "dupe_of": [
         "Outlands — Amouage"
@@ -14530,8 +14569,8 @@
     },
     {
       "id": "la-sera-valero-uomo",
-      "name_ar": "",
-      "name_en": "La Sera Valero Uomo",
+      "name_ar": "Valero Uomo",
+      "name_en": "Valero Uomo",
       "brand": "La Sera",
       "dupe_of": [
         "Valentino Uomo Intense — Valentino"
@@ -14595,8 +14634,8 @@
     },
     {
       "id": "emper-valera",
-      "name_ar": "",
-      "name_en": "Emper Valera",
+      "name_ar": "Valera",
+      "name_en": "Valera",
       "brand": "Emper",
       "dupe_of": [
         "Valaya Parfums De Marly"
@@ -14684,8 +14723,8 @@
     },
     {
       "id": "turathi-blue-afnan",
-      "name_ar": "",
-      "name_en": "Turathi Blue Afnan",
+      "name_ar": "Turathi Blue",
+      "name_en": "Turathi Blue",
       "brand": "Afnan",
       "dupe_of": [
         "Tygar — Bvlgari"
@@ -14795,8 +14834,8 @@
     },
     {
       "id": "smart-collection-486",
-      "name_ar": "",
-      "name_en": "Smart Collection 486",
+      "name_ar": "486",
+      "name_en": "486",
       "brand": "Smart Collection",
       "dupe_of": [
         "Emporio Armani Stronger With You — Giorgio Armani"
@@ -14823,8 +14862,8 @@
     },
     {
       "id": "smart-collection-527",
-      "name_ar": "",
-      "name_en": "Smart Collection 527",
+      "name_ar": "527",
+      "name_en": "527",
       "brand": "Smart Collection",
       "dupe_of": [
         "Layton — Parfums de Marly"
@@ -14851,8 +14890,8 @@
     },
     {
       "id": "smart-collection-600",
-      "name_ar": "",
-      "name_en": "Smart Collection 600",
+      "name_ar": "600",
+      "name_en": "600",
       "brand": "Smart Collection",
       "dupe_of": [
         "Scandal Pour Homme — Jean Paul Gaultier"
@@ -14879,8 +14918,8 @@
     },
     {
       "id": "smart-collection-668",
-      "name_ar": "",
-      "name_en": "Smart Collection 668",
+      "name_ar": "668",
+      "name_en": "668",
       "brand": "Smart Collection",
       "dupe_of": [
         "Guilty Elixir de Parfum pour Homme — Gucci"
@@ -14907,8 +14946,8 @@
     },
     {
       "id": "smart-collection-671",
-      "name_ar": "",
-      "name_en": "Smart Collection 671",
+      "name_ar": "671",
+      "name_en": "671",
       "brand": "Smart Collection",
       "dupe_of": [
         "Bottled Absolu — Hugo Boss"
@@ -14935,8 +14974,8 @@
     },
     {
       "id": "emper-unplugged-with-you",
-      "name_ar": "",
-      "name_en": "Emper Unplugged With You",
+      "name_ar": "Unplugged With You",
+      "name_en": "Unplugged With You",
       "brand": "Emper",
       "dupe_of": [
         "Emporio Armani Stronger With You Intensely — Giorgio Armani"
@@ -15000,8 +15039,8 @@
     },
     {
       "id": "noir-arabiyat-prestige",
-      "name_ar": "",
-      "name_en": "Noirè Arabiyat Prestige",
+      "name_ar": "Noirè",
+      "name_en": "Noirè",
       "brand": "Arabiyat Prestige",
       "dupe_of": [
         "Dior Homme Parfum 2025 — Dior"
@@ -15101,8 +15140,8 @@
     },
     {
       "id": "extradose-homme-arabiyat-prestige",
-      "name_ar": "",
-      "name_en": "Extradose Homme Arabiyat Prestige",
+      "name_ar": "Extradose Homme",
+      "name_en": "Extradose Homme",
       "brand": "Arabiyat Prestige",
       "dupe_of": [
         "Born in Roma Extradose Uomo — Valentino"
@@ -15202,9 +15241,9 @@
     },
     {
       "id": "blue-night-al-rehab",
-      "name_ar": "",
-      "name_en": "Blue Night Al-Rehab",
-      "brand": "Al Rehab",
+      "name_ar": "Blue Night",
+      "name_en": "Blue Night",
+      "brand": "ALREHAB",
       "dupe_of": [],
       "image": "images/blue-night-al-rehab.jpg",
       "accords": [
@@ -15259,8 +15298,8 @@
     },
     {
       "id": "pendora-scents-clasico-de-profondo",
-      "name_ar": "",
-      "name_en": "Pendora Scents Clasico De Profondo",
+      "name_ar": "Clasico De Profondo",
+      "name_en": "Clasico De Profondo",
       "brand": "Pendora Scents",
       "dupe_of": [
         "Acqua di Giò Profondo — Giorgio Armani"
@@ -15374,8 +15413,8 @@
     },
     {
       "id": "la-sera-neo-aqua",
-      "name_ar": "",
-      "name_en": "La Sera Neo Aqua",
+      "name_ar": "Neo Aqua",
+      "name_en": "Neo Aqua",
       "brand": "La Sera",
       "dupe_of": [
         "Acqua di Gio — Giorgio Armani"
@@ -15481,8 +15520,8 @@
     },
     {
       "id": "dark-door-sport-maison-alhambra",
-      "name_ar": "",
-      "name_en": "Dark Door Sport Maison Alhambra",
+      "name_ar": "Dark Door Sport",
+      "name_en": "Dark Door Sport",
       "brand": "Maison Alhambra",
       "dupe_of": [
         "Dior Homme Sport 2021 — Dior"
@@ -15570,8 +15609,8 @@
     },
     {
       "id": "obsidian-rayhaan",
-      "name_ar": "",
-      "name_en": "Obsidian Rayhaan",
+      "name_ar": "Obsidian",
+      "name_en": "Obsidian",
       "brand": "Rayhaan",
       "dupe_of": [],
       "image": "images/obsidian-rayhaan.jpg",
@@ -15709,8 +15748,8 @@
     },
     {
       "id": "le-chameau-save-elixir",
-      "name_ar": "",
-      "name_en": "Le Chameau Save Elixir",
+      "name_ar": "Save Age Elixir",
+      "name_en": "Save Age Elixir",
       "brand": "Le Chameau",
       "dupe_of": [
         "Sauvage Elixir — Dior"
@@ -15792,9 +15831,9 @@
     },
     {
       "id": "al-faris-arabiyat-prestige",
-      "name_ar": "",
-      "name_en": "Al Faris Arabiyat Prestige",
-      "brand": "Arabiyat Prestige",
+      "name_ar": "الفارس عربيات",
+      "name_en": "Al Faris Arabiyat",
+      "brand": "MY PERFUMES",
       "dupe_of": [],
       "image": "images/al-faris-arabiyat-prestige.jpg",
       "accords": [
@@ -15909,8 +15948,8 @@
     },
     {
       "id": "smart-collection-401",
-      "name_ar": "",
-      "name_en": "Smart Collection 401",
+      "name_ar": "401",
+      "name_en": "401",
       "brand": "Smart Collection",
       "dupe_of": [
         "Eros — Versace"
@@ -15937,8 +15976,8 @@
     },
     {
       "id": "brave-noir-mirada",
-      "name_ar": "",
-      "name_en": "Brave Noir Mirada",
+      "name_ar": "Brave Noir",
+      "name_en": "Brave Noir",
       "brand": "Mirada",
       "dupe_of": [
         "MYSLF Eau de Parfum — Yves Saint Laurent"
@@ -16002,8 +16041,8 @@
     },
     {
       "id": "la-sera-solara-tigris",
-      "name_ar": "",
-      "name_en": "La Sera Solara Tigris",
+      "name_ar": "Solara Tigris",
+      "name_en": "Solara Tigris",
       "brand": "La Sera",
       "dupe_of": [
         "Tygar — Bvlgari"
@@ -16073,8 +16112,8 @@
     },
     {
       "id": "la-sera-lucky-1",
-      "name_ar": "",
-      "name_en": "La Sera Lucky 1",
+      "name_ar": "Lucky 1",
+      "name_en": "Lucky 1",
       "brand": "La Sera",
       "dupe_of": [
         "1 Million — Rabanne"
@@ -16162,8 +16201,8 @@
     },
     {
       "id": "la-sera-chandelle",
-      "name_ar": "",
-      "name_en": "La Sera Chandelle",
+      "name_ar": "Chandelle",
+      "name_en": "Chandelle",
       "brand": "La Sera",
       "dupe_of": [
         "Scandal Pour Homme Le Parfum — Jean Paul Gaultier"
@@ -16221,8 +16260,8 @@
     },
     {
       "id": "la-sera-vintage",
-      "name_ar": "",
-      "name_en": "La Sera Vintage",
+      "name_ar": "Vintage",
+      "name_en": "Vintage",
       "brand": "La Sera",
       "dupe_of": [
         "Aventus — Creed"
@@ -16328,8 +16367,8 @@
     },
     {
       "id": "emper-parfum-de-intense-for-men",
-      "name_ar": "",
-      "name_en": "Emper Parfum De Intense For Men",
+      "name_ar": "Parfum De Intense For Men",
+      "name_en": "Parfum De Intense For Men",
       "brand": "Emper",
       "dupe_of": [],
       "image": "images/emper-parfum-de-intense-for-men.jpg",
@@ -16421,8 +16460,8 @@
     },
     {
       "id": "milestone-element-03-santal-wood",
-      "name_ar": "",
-      "name_en": "Milestone Element 03 Santal Wood",
+      "name_ar": "Element 03 Santal Wood",
+      "name_en": "Element 03 Santal Wood",
       "brand": "Milestone",
       "dupe_of": [
         "Molecule 01 + Guaiac Wood Escentric Molecules"
@@ -16510,9 +16549,9 @@
     },
     {
       "id": "chelsea-al-rehab",
-      "name_ar": "",
-      "name_en": "Chelsea Al-Rehab",
-      "brand": "Al Rehab",
+      "name_ar": "Chelsea Man",
+      "name_en": "Chelsea Man",
+      "brand": "ALREHAB",
       "dupe_of": [],
       "image": "images/chelsea-al-rehab.jpg",
       "accords": [
@@ -16561,9 +16600,9 @@
     },
     {
       "id": "lord-blue-al-rehab",
-      "name_ar": "",
-      "name_en": "Lord Blue Al-Rehab",
-      "brand": "Al Rehab",
+      "name_ar": "Lord Blue",
+      "name_en": "Lord Blue",
+      "brand": "ALREHAB",
       "dupe_of": [],
       "image": "images/lord-blue-al-rehab.jpg",
       "accords": [
@@ -16648,8 +16687,8 @@
     },
     {
       "id": "pendora-scents-classico-de-profumo",
-      "name_ar": "",
-      "name_en": "Pendora Scents Classico De Profumo",
+      "name_ar": "Classico De Profumo",
+      "name_en": "Classico De Profumo",
       "brand": "Pendora Scents",
       "dupe_of": [
         "Acqua di Giò Profumo — Giorgio Armani"
@@ -16719,8 +16758,8 @@
     },
     {
       "id": "white-montagne-pendora-scents",
-      "name_ar": "",
-      "name_en": "White Montagne Pendora Scents",
+      "name_ar": "White Montagne",
+      "name_en": "White Montagne",
       "brand": "Pendora Scents",
       "dupe_of": [
         "Silver Mountain Water — Creed"
@@ -16796,8 +16835,8 @@
     },
     {
       "id": "urban-man-paradise-fragrance-world",
-      "name_ar": "",
-      "name_en": "Urban Man Paradise Fragrance World",
+      "name_ar": "Urban Man Paradise",
+      "name_en": "Urban Man Paradise",
       "brand": "Fragrance World",
       "dupe_of": [
         "Le Beau Paradise Garden — Jean Paul Gaultier"
@@ -16893,8 +16932,8 @@
     },
     {
       "id": "proud-of-you-tobacco-fragrance-world",
-      "name_ar": "",
-      "name_en": "Proud of You Tobacco Fragrance World",
+      "name_ar": "Proud of You Tobacco",
+      "name_en": "Proud of You Tobacco",
       "brand": "Fragrance World",
       "dupe_of": [
         "Emporio Armani Stronger With You Tobacco — Giorgio Armani"
@@ -17014,8 +17053,8 @@
     },
     {
       "id": "shuhrah-boisee-rasasi",
-      "name_ar": "",
-      "name_en": "Shuhrah Boisee Rasasi",
+      "name_ar": "Shuhrah Boisee",
+      "name_en": "Shuhrah Boisee",
       "brand": "Rasasi",
       "dupe_of": [
         "Emporio Armani Stronger With You Intensely — Giorgio Armani"
@@ -17103,9 +17142,9 @@
     },
     {
       "id": "zenith-deep-french-avenue",
-      "name_ar": "",
-      "name_en": "Zenith Deep French Avenue",
-      "brand": "French avenue",
+      "name_ar": "Zenith Deep",
+      "name_en": "Zenith Deep",
+      "brand": "French Avenue",
       "dupe_of": [
         "Bleu de Chanel Eau de Parfum — Chanel"
       ],
@@ -17234,8 +17273,8 @@
     },
     {
       "id": "emper-genius-ranger",
-      "name_ar": "",
-      "name_en": "Emper Genius Ranger",
+      "name_ar": "Genius Ranger",
+      "name_en": "Genius Ranger",
       "brand": "Emper",
       "dupe_of": [
         "Tygar — Bvlgari"
@@ -17281,8 +17320,8 @@
     },
     {
       "id": "nuke-2-0-fragrance-world",
-      "name_ar": "",
-      "name_en": "Nuke 2.0 Fragrance World",
+      "name_ar": "Nuke 2.0",
+      "name_en": "Nuke 2.0",
       "brand": "Fragrance World",
       "dupe_of": [
         "Spicebomb Extreme Viktor&amp;Rolf"
@@ -17309,8 +17348,8 @@
     },
     {
       "id": "smart-collection-666",
-      "name_ar": "",
-      "name_en": "Smart Collection 666",
+      "name_ar": "666",
+      "name_en": "666",
       "brand": "Smart Collection",
       "dupe_of": [
         "MYSLF Eau de Parfum — Yves Saint Laurent"
@@ -17337,8 +17376,8 @@
     },
     {
       "id": "smart-collection-521",
-      "name_ar": "",
-      "name_en": "Smart Collection 521",
+      "name_ar": "521",
+      "name_en": "521",
       "brand": "Smart Collection",
       "dupe_of": [
         "Oud Wood Intense — Tom Ford"
@@ -17365,8 +17404,8 @@
     },
     {
       "id": "la-sera-sharaf",
-      "name_ar": "",
-      "name_en": "La Sera Sharaf",
+      "name_ar": "Sharaf",
+      "name_en": "Sharaf",
       "brand": "La Sera",
       "dupe_of": [
         "Hawas for Him Rasasi"
@@ -17466,8 +17505,8 @@
     },
     {
       "id": "la-sera-forever-with-you",
-      "name_ar": "",
-      "name_en": "La Sera Forever With You",
+      "name_ar": "Forever With You",
+      "name_en": "Forever With You",
       "brand": "La Sera",
       "dupe_of": [
         "Emporio Armani Stronger With You — Giorgio Armani"
@@ -17561,8 +17600,8 @@
     },
     {
       "id": "la-sera-valorus",
-      "name_ar": "",
-      "name_en": "La Sera Valorus",
+      "name_ar": "Valorus",
+      "name_en": "Valorus",
       "brand": "La Sera",
       "dupe_of": [
         "Invictus Aqua (2024) — Rabanne"
@@ -17638,8 +17677,8 @@
     },
     {
       "id": "alpine-homme-sport-maison-alhambra",
-      "name_ar": "",
-      "name_en": "Alpine Homme Sport Maison Alhambra",
+      "name_ar": "Alpine Homme Sport",
+      "name_en": "Alpine Homme Sport",
       "brand": "Maison Alhambra",
       "dupe_of": [
         "Allure Homme Sport — Chanel"
@@ -17748,8 +17787,8 @@
     },
     {
       "id": "panther-pour-homme-maison-alhambra",
-      "name_ar": "",
-      "name_en": "Panther Pour Homme Maison Alhambra",
+      "name_ar": "Panther Pour Homme",
+      "name_en": "Panther Pour Homme",
       "brand": "Maison Alhambra",
       "dupe_of": [
         "Phantom — Rabanne"
@@ -17845,9 +17884,9 @@
     },
     {
       "id": "lord-alrehab-perfumes",
-      "name_ar": "",
-      "name_en": "Lord ALREHAB PERFUMES",
-      "brand": "Al-Rehab",
+      "name_ar": "Lord",
+      "name_en": "Lord",
+      "brand": "ALREHAB",
       "dupe_of": [
         "Lapidus Pour Homme Ted Lapidus"
       ],
@@ -17873,9 +17912,9 @@
     },
     {
       "id": "rawdat-taibah-alrehab-perfumes",
-      "name_ar": "",
-      "name_en": "Rawdat Taibah ALREHAB PERFUMES",
-      "brand": "Al-Rehab",
+      "name_ar": "Rawdat Taibah",
+      "name_en": "Rawdat Taibah",
+      "brand": "ALREHAB",
       "dupe_of": [
         "Eau d'Ombré Leather — Tom Ford"
       ],
@@ -17926,8 +17965,8 @@
     },
     {
       "id": "smart-collection-172",
-      "name_ar": "",
-      "name_en": "Smart Collection 172",
+      "name_ar": "172",
+      "name_en": "172",
       "brand": "Smart Collection",
       "dupe_of": [
         "Allure Homme Sport — Chanel"
@@ -17954,8 +17993,8 @@
     },
     {
       "id": "fakhar-extrait-lattafa-perfumes",
-      "name_ar": "",
-      "name_en": "Fakhar Extrait Lattafa Perfumes",
+      "name_ar": "Fakhar Extrait",
+      "name_en": "Fakhar Extrait",
       "brand": "Lattafa",
       "dupe_of": [
         "Million Parfum Rabanne 1"
@@ -18076,7 +18115,7 @@
     {
       "id": "champion-g-o-a-t-fragrance-world",
       "name_ar": "",
-      "name_en": "Champion G.O.A.T Fragrance World",
+      "name_en": "Champion G.O.A.T",
       "brand": "Fragrance World",
       "dupe_of": [
         "MYSLF Eau de Parfum — Yves Saint Laurent"
@@ -18159,7 +18198,7 @@
     {
       "id": "l-immensit-nuit-de-noir-milestone-perfumes",
       "name_ar": "",
-      "name_en": "L'Immensité Nuit de Noir Milestone Perfumes",
+      "name_en": "L'Immensité Nuit de Noir",
       "brand": "Milestone",
       "dupe_of": [
         "Nuit d’Issey ssey Miyake"
@@ -18224,7 +18263,7 @@
     {
       "id": "smart-collection-362",
       "name_ar": "",
-      "name_en": "Smart Collection 362",
+      "name_en": "362",
       "brand": "Smart Collection",
       "dupe_of": [
         "Silver Mountain Water — Creed"
@@ -18252,7 +18291,7 @@
     {
       "id": "azul-rayhaan",
       "name_ar": "",
-      "name_en": "Azul Rayhaan",
+      "name_en": "Azul",
       "brand": "Rayhaan",
       "dupe_of": [
         "Dior Homme Cologne 2022 — Dior"
@@ -18329,7 +18368,7 @@
     {
       "id": "dubai-nights-midnight-armaf",
       "name_ar": "",
-      "name_en": "Dubai Nights Midnight Armaf",
+      "name_en": "Dubai Nights Midnight",
       "brand": "Armaf",
       "dupe_of": [
         "MYSLF Eau de Parfum — Yves Saint Laurent"
@@ -18412,7 +18451,7 @@
     {
       "id": "odyssey-homme-armaf",
       "name_ar": "",
-      "name_en": "Odyssey Homme Armaf",
+      "name_en": "Odyssey Homme",
       "brand": "Armaf",
       "dupe_of": [
         "Noir Extreme — Tom Ford"
@@ -18501,8 +18540,8 @@
     {
       "id": "khumar-zanzibar-by-wadi-al-khaleej",
       "name_ar": "",
-      "name_en": "Khumar Zanzibar By Wadi Al khaleej",
-      "brand": "wadi Al Khaleej",
+      "name_en": "Khumar Zanzibar",
+      "brand": "Wadi Al Khaleej",
       "dupe_of": [
         "Ultra Male — Jean Paul Gaultier"
       ],
@@ -18578,8 +18617,8 @@
     {
       "id": "chief-elixir-al-rehab-perfumes",
       "name_ar": "",
-      "name_en": "Chief Elixir Al Rehab Perfumes",
-      "brand": "Al-Rehab",
+      "name_en": "Chief Elixir",
+      "brand": "ALREHAB",
       "dupe_of": [
         "Sauvage Elixir — Dior"
       ],
@@ -18667,8 +18706,8 @@
     {
       "id": "ameer-alrehab-perfumes",
       "name_ar": "",
-      "name_en": "Ameer ALREHAB PERFUMES",
-      "brand": "Al-Rehab",
+      "name_en": "Ameer",
+      "brand": "ALREHAB",
       "dupe_of": [],
       "image": "images/ameer-alrehab-perfumes.jpg",
       "accords": [
@@ -18724,8 +18763,8 @@
     {
       "id": "khumar-absolute-by-wadi-al-khaleej",
       "name_ar": "",
-      "name_en": "Khumar Absolute By wadi Al Khaleej",
-      "brand": "wadi Al Khaleej",
+      "name_en": "Khumar Absolute",
+      "brand": "Wadi Al Khaleej",
       "dupe_of": [
         "Absolu Aventus 2023 — Creed"
       ],
@@ -18831,7 +18870,7 @@
     {
       "id": "fortnight-maison-alhambra",
       "name_ar": "",
-      "name_en": "Fortnight Maison Alhambra",
+      "name_en": "Fortnight",
       "brand": "Maison Alhambra",
       "dupe_of": [
         "Fahrenheit — Dior"
@@ -18980,7 +19019,7 @@
     {
       "id": "contra-men-only-intense-camara-perfumes",
       "name_ar": "",
-      "name_en": "Contra Men Only Intense Camara Perfumes",
+      "name_en": "Contra Men Only Intense",
       "brand": "Camara Perfumes",
       "dupe_of": [
         "Gentleman Eau de Parfum Givenchy"
@@ -19087,7 +19126,7 @@
     {
       "id": "la-sera-valorus-victory",
       "name_ar": "",
-      "name_en": "La Sera Valorus Victory",
+      "name_en": "Valorus Victory",
       "brand": "La Sera",
       "dupe_of": [
         "Invictus Victory — Rabanne"
@@ -19158,7 +19197,7 @@
     {
       "id": "la-sera-noir-homme-extreme",
       "name_ar": "",
-      "name_en": "La Sera Noir Homme Extreme",
+      "name_en": "Noir Homme Extreme",
       "brand": "La Sera",
       "dupe_of": [
         "Dior Homme Intense"
@@ -19235,7 +19274,7 @@
     {
       "id": "la-sera-nine-to-9",
       "name_ar": "",
-      "name_en": "La Sera Nine To 9",
+      "name_en": "Nine To 9",
       "brand": "La Sera",
       "dupe_of": [
         "9pm Afnan"
@@ -19324,7 +19363,7 @@
     {
       "id": "jean-antoine-elviera-imperio-samples-240-ml",
       "name_ar": "",
-      "name_en": "Jean Antoine | Elviera Imperio + Samples (240 ML",
+      "name_en": "Elviera Imperio",
       "brand": "Jean Antoine",
       "dupe_of": [
         "Black XS — Rabanne"
@@ -19401,7 +19440,7 @@
     {
       "id": "jean-antoine-elviera-vivace-samples-240-ml",
       "name_ar": "",
-      "name_en": "Jean Antoine | Elviera Vivace + Samples (240 ML)",
+      "name_en": "Elviera Vivace",
       "brand": "Jean Antoine",
       "dupe_of": [
         "Imagination — Louis Vuitton"
@@ -19490,7 +19529,7 @@
     {
       "id": "together-with-you-always-homme-mirada",
       "name_ar": "",
-      "name_en": "Together With You Always Homme Mirada",
+      "name_en": "Together With You Always Homme",
       "brand": "Mirada",
       "dupe_of": [
         "Emporio Armani Stronger With You Intensely — Giorgio Armani"
@@ -19549,7 +19588,7 @@
     {
       "id": "proud-of-you-intense-fragrance-world",
       "name_ar": "",
-      "name_en": "Proud of You Intense Fragrance World",
+      "name_en": "Proud of You Intense",
       "brand": "Fragrance World",
       "dupe_of": [
         "Emporio Armani Stronger With You Intensely — Giorgio Armani"
@@ -19976,7 +20015,7 @@
       "id": "infinity",
       "name_ar": "Infinity",
       "name_en": "Infinity",
-      "brand": "",
+      "brand": "Armaf",
       "dupe_of": [
         "L'Homme Ultime — Yves Saint Laurent"
       ],
@@ -20082,7 +20121,7 @@
       "id": "spartacus",
       "name_ar": "Spartacus",
       "name_en": "Spartacus",
-      "brand": "",
+      "brand": "Armaf",
       "dupe_of": [
         "Althaïr — Parfums de Marly"
       ],
@@ -20180,9 +20219,9 @@
     },
     {
       "id": "matcha-magix",
-      "name_ar": "Matcha Magix",
-      "name_en": "Matcha Magix",
-      "brand": "Scentasy",
+      "name_ar": "Scentasy Matcha Magix",
+      "name_en": "Scentasy Matcha Magix",
+      "brand": "Armaf",
       "dupe_of": [
         "Velvet Infusion — Dolce & Gabbana"
       ],
@@ -20462,7 +20501,7 @@
       "id": "beach-party",
       "name_ar": "Beach Party",
       "name_en": "Beach Party",
-      "brand": "",
+      "brand": "Armaf",
       "dupe_of": [
         "Summer Hammer — Lorenzo Pazzaglia"
       ],
@@ -20682,7 +20721,7 @@
       "id": "pharaoh",
       "name_ar": "Pharaoh",
       "name_en": "Pharaoh",
-      "brand": "",
+      "brand": "Rayhaan",
       "dupe_of": [
         "Caden — Oman Luxury"
       ],
@@ -21102,7 +21141,7 @@
       "id": "liquid-brun",
       "name_ar": "Liquid Brun",
       "name_en": "Liquid Brun",
-      "brand": "",
+      "brand": "French Avenue",
       "dupe_of": [
         "Althaïr — Parfums de Marly"
       ],
@@ -21240,177 +21279,9 @@
       "_hero_source": "sniffz"
     },
     {
-      "id": "pinnace-noir",
-      "name_ar": "Pinnace Noir",
-      "name_en": "Pinnace Noir",
-      "brand": "",
-      "dupe_of": [
-        "Boss Bottled Intense Eau de Parfum — Hugo Boss"
-      ],
-      "image": "images/pinnace-noir.jpg",
-      "accords": [
-        {
-          "label_en": "Warm Spicy",
-          "label_ar": "تابلي دافئ",
-          "color": "#CC3300",
-          "w": 100
-        },
-        {
-          "label_en": "Cinnamon",
-          "label_ar": "القرفة",
-          "color": "#CC3300",
-          "w": 86
-        },
-        {
-          "label_en": "Woody",
-          "label_ar": "خشبي",
-          "color": "#774414",
-          "w": 72
-        },
-        {
-          "label_en": "Vanilla",
-          "label_ar": "الفانيلا",
-          "color": "#FFFEC0",
-          "w": 58
-        },
-        {
-          "label_en": "Fruity",
-          "label_ar": "فاكهي",
-          "color": "#FC4B29",
-          "w": 44
-        },
-        {
-          "label_en": "Soft",
-          "label_ar": "ناعم",
-          "color": "#EEDDCC",
-          "w": 40
-        },
-        {
-          "label_en": "Fresh",
-          "label_ar": "منعش",
-          "color": "#9be5ed",
-          "w": 40
-        },
-        {
-          "label_en": "Herbal",
-          "label_ar": "عشبي",
-          "color": "#6CA47F",
-          "w": 40
-        },
-        {
-          "label_en": "White Flowers",
-          "label_ar": "الزهور البيضاء",
-          "color": "#edf2fb",
-          "w": 40
-        },
-        {
-          "label_en": "Aromatic",
-          "label_ar": "أروماتك",
-          "color": "#37a089",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "EsLam Nasser",
-          "url": "https://www.facebook.com/eslam.nasser.10/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 90,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 130,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 200,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/pinnace-noir.jpg"
-        }
-      ]
-    },
-    {
-      "id": "pinnace-oryn",
-      "name_ar": "Pinnace Oryn",
-      "name_en": "Pinnace Oryn",
-      "brand": "",
-      "dupe_of": [
-        "Afternoon Swim — Louis Vuitton"
-      ],
-      "image": "images/pinnace-oryn.jpg",
-      "accords": [
-        {
-          "label_en": "Citrus",
-          "label_ar": "الحمضيات",
-          "color": "#F9FF52",
-          "w": 100
-        },
-        {
-          "label_en": "Fresh Spicy",
-          "label_ar": "تابلي منعش",
-          "color": "#83C928",
-          "w": 86
-        },
-        {
-          "label_en": "Sweet",
-          "label_ar": "حلو",
-          "color": "#ee363b",
-          "w": 72
-        },
-        {
-          "label_en": "Amber",
-          "label_ar": "العنبر",
-          "color": "#bc4d10",
-          "w": 58
-        },
-        {
-          "label_en": "Aromatic",
-          "label_ar": "أروماتك",
-          "color": "#37a089",
-          "w": 44
-        }
-      ],
-      "stores": [
-        {
-          "name": "EsLam Nasser",
-          "url": "https://www.facebook.com/eslam.nasser.10/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 90,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 130,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 200,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/pinnace-oryn.jpg"
-        }
-      ]
-    },
-    {
       "id": "haydan-an-equestrian-series",
-      "name_ar": "Haydan — An Equestrian Series",
-      "name_en": "Haydan — An Equestrian Series",
+      "name_ar": "An Equestrian Series Haydan",
+      "name_en": "An Equestrian Series Haydan",
       "brand": "French Avenue",
       "dupe_of": [
         "Haltane — Parfums de Marly"
@@ -21684,7 +21555,7 @@
       "id": "western-shisha",
       "name_ar": "Western Shisha",
       "name_en": "Western Shisha",
-      "brand": "",
+      "brand": "French Avenue",
       "dupe_of": [
         "Smoking Hot — By Kilian"
       ],
@@ -21781,9 +21652,9 @@
     },
     {
       "id": "vanilla",
-      "name_ar": "Vanilla",
-      "name_en": "Vanilla",
-      "brand": "Zenith",
+      "name_ar": "Zenith Vanilla",
+      "name_en": "Zenith Vanilla",
+      "brand": "French Avenue",
       "dupe_of": [
         "Vanilla Diorama — Dior"
       ],
@@ -21875,6 +21746,20 @@
             }
           ],
           "image": "images/vanilla.jpg"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1675,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/zenith-vanilla--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/zenith-vanilla-100ml%d8%b2%d9%8a%d9%86%d8%b3-%d9%81%d8%a7%d9%86%d9%8a%d9%84%d8%a7-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ]
     },
@@ -21988,7 +21873,7 @@
       "id": "the-story",
       "name_ar": "The Story",
       "name_en": "The Story",
-      "brand": "",
+      "brand": "Le Bonheur",
       "dupe_of": [
         "Bois Impérial — Essential Parfums"
       ],
@@ -22088,9 +21973,9 @@
     },
     {
       "id": "akhumar-luban",
-      "name_ar": "Akhumar Luban",
-      "name_en": "Akhumar Luban",
-      "brand": "",
+      "name_ar": "Khumar Luban",
+      "name_en": "Khumar Luban",
+      "brand": "Wadi Al Khaleej",
       "dupe_of": [
         "Purpose 50 — Amouage"
       ],
@@ -22390,7 +22275,7 @@
       "id": "optimystic",
       "name_ar": "Optimystic",
       "name_en": "Optimystic",
-      "brand": "",
+      "brand": "Fragrance World",
       "dupe_of": [
         "The One for Men Eau de Parfum — Dolce & Gabbana"
       ],
@@ -22964,7 +22849,7 @@
     {
       "id": "aura-c35",
       "name_ar": "",
-      "name_en": "Aura (C35)",
+      "name_en": "Aura",
       "brand": "Assaf",
       "dupe_of": [],
       "image": "images/aura-c35.jpg",
@@ -23291,7 +23176,7 @@
       "id": "212-vip-ros-love-ny-women",
       "name_ar": "",
       "name_en": "212 VIP Rosé Love NY women",
-      "brand": "CH",
+      "brand": "Carolina Herrera",
       "dupe_of": [],
       "image": "images/212-vip-ros-love-ny-women.jpg",
       "accords": [],
@@ -23360,8 +23245,8 @@
     {
       "id": "signature",
       "name_ar": "",
-      "name_en": "Signature",
-      "brand": "SF Uomo",
+      "name_en": "Uomo Signature",
+      "brand": "Salvatore Ferragamo",
       "dupe_of": [],
       "image": "images/signature.jpg",
       "accords": [],
@@ -23937,38 +23822,6 @@
       "_hero_source": "MO Shawky"
     },
     {
-      "id": "homme-edp",
-      "name_ar": "",
-      "name_en": "Homme EDP",
-      "brand": "Kenzo",
-      "dupe_of": [],
-      "image": "images/homme-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "MO Shawky",
-          "url": "https://www.facebook.com/mo.freeto.play/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 235,
-              "first_seen": "2026-07-17"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 400,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/homme-edp--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/kenzo-homme-edp-5ml-412"
-        }
-      ],
-      "_hero_source": "MO Shawky"
-    },
-    {
       "id": "legend-edp",
       "name_ar": "",
       "name_en": "Legend EDP",
@@ -24073,7 +23926,7 @@
     {
       "id": "l-eau-d-issey-pour-homme-vetiver",
       "name_ar": "",
-      "name_en": "L’Eau d’Issey pour Homme Vetiver",
+      "name_en": "L'Eau d'Issey pour Homme Vetiver",
       "brand": "Issey Miyake",
       "dupe_of": [],
       "image": "images/l-eau-d-issey-pour-homme-vetiver.jpg",
@@ -24098,6 +23951,31 @@
           ],
           "image": "images/l-eau-d-issey-pour-homme-vetiver--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/issey-miyake-leau-dissey-pour-homme-vetiver-10ml-419"
+        },
+        {
+          "name": "Hossam ElDeen Gamal",
+          "url": "https://www.facebook.com/hossameldeien/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 150,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 225,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 350,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/l-eau-d-issey-pour-homme-v-tiver--hossam-eldeen-gamal.jpg"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -24170,7 +24048,7 @@
       "id": "h24-edt",
       "name_ar": "",
       "name_en": "H24 EDT",
-      "brand": "Hermès",
+      "brand": "Hermes",
       "dupe_of": [],
       "image": "images/h24-edt.jpg",
       "accords": [],
@@ -24201,8 +24079,8 @@
     {
       "id": "ricci-ricci-nina-ricci",
       "name_ar": "",
-      "name_en": "Ricci Ricci Nina Ricci",
-      "brand": "",
+      "name_en": "Ricci Ricci",
+      "brand": "Nina Ricci",
       "dupe_of": [],
       "image": "images/ricci-ricci-nina-ricci.jpg",
       "accords": [],
@@ -24271,7 +24149,7 @@
     {
       "id": "d-claration-edp",
       "name_ar": "",
-      "name_en": "Déclaration EDP",
+      "name_en": "Declaration EDP",
       "brand": "Cartier",
       "dupe_of": [],
       "image": "images/d-claration-edp.jpg",
@@ -24836,7 +24714,7 @@
       "id": "terre-d-herm-s-eau-givree",
       "name_ar": "",
       "name_en": "Terre d'Hermès Eau Givree",
-      "brand": "Hermès",
+      "brand": "Hermes",
       "dupe_of": [],
       "image": "images/terre-d-herm-s-eau-givree.jpg",
       "accords": [],
@@ -24868,7 +24746,7 @@
       "id": "terre-d-hermes-parfum",
       "name_ar": "",
       "name_en": "Terre d'Hermes Parfum",
-      "brand": "Hermès",
+      "brand": "Hermes",
       "dupe_of": [],
       "image": "images/terre-d-hermes-parfum.jpg",
       "accords": [],
@@ -25301,8 +25179,8 @@
     {
       "id": "legacy-cristiano-ronaldo",
       "name_ar": "",
-      "name_en": "Legacy Cristiano Ronaldo",
-      "brand": "",
+      "name_en": "Legacy Eau de Parfum",
+      "brand": "Cristiano Ronaldo",
       "dupe_of": [],
       "image": "images/legacy-cristiano-ronaldo.jpg",
       "accords": [],
@@ -25451,7 +25329,7 @@
       "id": "sign-your-power",
       "name_ar": "",
       "name_en": "Sign Your Power",
-      "brand": "Mercedes Benz",
+      "brand": "Mercedes-Benz",
       "dupe_of": [],
       "image": "images/sign-your-power.jpg",
       "accords": [],
@@ -26146,8 +26024,8 @@
     {
       "id": "spicebomb-extreme-viktor-rolf",
       "name_ar": "",
-      "name_en": "Spicebomb Extreme Viktor&Rolf",
-      "brand": "",
+      "name_en": "Spicebomb Extreme",
+      "brand": "Viktor&Rolf",
       "dupe_of": [],
       "image": "images/spicebomb-extreme-viktor-rolf.jpg",
       "accords": [],
@@ -26177,6 +26055,38 @@
           ],
           "image": "images/spicebomb-extreme-viktor-rolf--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/spicebomb-extreme-viktor-rolf-5-ml-55"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 250,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 350,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 550,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 5500,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/spicebomb-extreme--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/viktor-rolf-spicebomb-extreme"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -26184,7 +26094,7 @@
     {
       "id": "miss-laverne",
       "name_ar": "",
-      "name_en": "Miss Laverne",
+      "name_en": "Miss",
       "brand": "Laverne",
       "dupe_of": [],
       "image": "images/miss-laverne.jpg",
@@ -26761,8 +26671,8 @@
     {
       "id": "riffs-freeze",
       "name_ar": "",
-      "name_en": "Riffs Freeze",
-      "brand": "",
+      "name_en": "Freeze",
+      "brand": "Riffs",
       "dupe_of": [],
       "image": "images/riffs-freeze.jpg",
       "accords": [
@@ -27415,8 +27325,8 @@
     {
       "id": "french-tobacco-ibraheem-alqurashi",
       "name_ar": "",
-      "name_en": "French Tobacco Ibraheem AlQurashi",
-      "brand": "",
+      "name_en": "French Tobacco",
+      "brand": "Ibraheem AlQurashi",
       "dupe_of": [],
       "image": "images/french-tobacco-ibraheem-alqurashi.jpg",
       "accords": [
@@ -27515,7 +27425,7 @@
       "id": "bleu-de-chanel-eau-de-parfum",
       "name_ar": "",
       "name_en": "Bleu de Chanel Eau de Parfum",
-      "brand": "",
+      "brand": "Chanel",
       "dupe_of": [],
       "image": "images/bleu-de-chanel-eau-de-parfum.jpg",
       "accords": [
@@ -28082,8 +27992,8 @@
     {
       "id": "borntostandout-gold-juice",
       "name_ar": "",
-      "name_en": "BORNTOSTANDOUT® Gold Juice",
-      "brand": "",
+      "name_en": "Gold Juice",
+      "brand": "BORNTOSTANDOUT",
       "dupe_of": [],
       "image": "images/borntostandout-gold-juice.jpg",
       "accords": [
@@ -28298,8 +28208,8 @@
     {
       "id": "x-aromatix-teas-me",
       "name_ar": "",
-      "name_en": "X Aromatix Teas Me",
-      "brand": "French Avenue",
+      "name_en": "Teas Me",
+      "brand": "Aromatix X French Avenue",
       "dupe_of": [],
       "image": "images/x-aromatix-teas-me.jpg",
       "accords": [
@@ -28403,8 +28313,8 @@
     {
       "id": "iven-peace",
       "name_ar": "",
-      "name_en": "Iven Peace",
-      "brand": "",
+      "name_en": "Peace",
+      "brand": "Iven",
       "dupe_of": [],
       "image": "images/iven-peace.jpg",
       "accords": [],
@@ -28923,7 +28833,7 @@
       "id": "magtetiq",
       "name_ar": "",
       "name_en": "Magtetiq",
-      "brand": "Aromatix",
+      "brand": "Aromatix X French Avenue",
       "dupe_of": [],
       "image": "images/magtetiq.jpg",
       "accords": [],
@@ -28966,7 +28876,7 @@
     {
       "id": "myslf-l-absolu",
       "name_ar": "",
-      "name_en": "MYSLF L’Absolu",
+      "name_en": "MYSLF L'Absolu",
       "brand": "Yves Saint Laurent",
       "dupe_of": [],
       "image": "images/myslf-l-absolu.jpg",
@@ -29540,7 +29450,7 @@
       "id": "bleu-de-chanel-parfum",
       "name_ar": "",
       "name_en": "Bleu de Chanel Parfum",
-      "brand": "",
+      "brand": "Chanel",
       "dupe_of": [],
       "image": "images/bleu-de-chanel-parfum.jpg",
       "accords": [
@@ -29693,50 +29603,6 @@
           ],
           "image": "images/the-most-wanted-eau-de-parfum-intense--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/azzaro-the-most-wanted-eau-de-parfum-intense"
-        }
-      ],
-      "_hero_source": "sniffz"
-    },
-    {
-      "id": "spicebomb-extreme",
-      "name_ar": "",
-      "name_en": "Spicebomb Extreme",
-      "brand": "Viktor&Rolf",
-      "dupe_of": [],
-      "image": "images/spicebomb-extreme.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 250,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 350,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 550,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "full",
-              "ml": 90,
-              "price": 5500,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/spicebomb-extreme--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/viktor-rolf-spicebomb-extreme"
         }
       ],
       "_hero_source": "sniffz"
@@ -29912,7 +29778,7 @@
       "id": "punto-monte",
       "name_ar": "",
       "name_en": "Punto Monte",
-      "brand": "",
+      "brand": "Punto",
       "dupe_of": [],
       "image": "images/punto-monte.jpg",
       "accords": [],
@@ -30229,7 +30095,7 @@
       "id": "liquid-brun-limited-edition",
       "name_ar": "",
       "name_en": "Liquid Brun Limited Edition",
-      "brand": "",
+      "brand": "French Avenue",
       "dupe_of": [],
       "image": "images/liquid-brun-limited-edition.jpg",
       "accords": [],
@@ -30292,111 +30158,6 @@
           ],
           "image": "images/liquid-brun-limited-edition--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/liquid-brun-limited-edition-150ml%d9%84%d9%8a%d9%83%d9%88%d9%8a%d8%af-%d8%a8%d8%b1%d9%88%d9%86-%d9%84%d9%8a%d9%85%d9%8a%d8%aa%d9%8a%d8%af-%d8%a7%d8%af%d9%8a%d8%b4%d9%86-%d9%a1%d9%a5%d9%a0%d9%85%d9%84/"
-        }
-      ],
-      "_hero_source": "sniffz"
-    },
-    {
-      "id": "lion",
-      "name_ar": "",
-      "name_en": "Lion",
-      "brand": "Rayhaan",
-      "dupe_of": [],
-      "image": "images/lion.jpg",
-      "accords": [
-        {
-          "label_en": "Pear",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 100
-        },
-        {
-          "label_en": "Lavender",
-          "label_ar": "",
-          "color": "#9B7DB8",
-          "w": 90
-        },
-        {
-          "label_en": "Mint",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 80
-        },
-        {
-          "label_en": "Bergamot",
-          "label_ar": "",
-          "color": "#F9FF52",
-          "w": 70
-        },
-        {
-          "label_en": "Cinnamon",
-          "label_ar": "",
-          "color": "#CC3300",
-          "w": 60
-        },
-        {
-          "label_en": "Clary Sage",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 50
-        },
-        {
-          "label_en": "Cumin",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 40
-        },
-        {
-          "label_en": "Vanilla",
-          "label_ar": "",
-          "color": "#FFFEC0",
-          "w": 40
-        },
-        {
-          "label_en": "Amber",
-          "label_ar": "",
-          "color": "#bc4d10",
-          "w": 40
-        },
-        {
-          "label_en": "Cedar",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 40
-        },
-        {
-          "label_en": "Patchouli",
-          "label_ar": "",
-          "color": "#63652e",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 125,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 165,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 250,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/lion--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/rayhaan-lion"
         }
       ],
       "_hero_source": "sniffz"
@@ -31275,8 +31036,8 @@
     {
       "id": "x-french-avenue-royal-taboo",
       "name_ar": "",
-      "name_en": "X French Avenue Royal Taboo",
-      "brand": "Aromatix",
+      "name_en": "Royal Taboo",
+      "brand": "Aromatix X French Avenue",
       "dupe_of": [],
       "image": "images/x-french-avenue-royal-taboo.jpg",
       "accords": [
@@ -33473,7 +33234,7 @@
       "id": "stronger-with-you-absolutely",
       "name_ar": "",
       "name_en": "Stronger With You Absolutely",
-      "brand": "Armani",
+      "brand": "Emporio Armani",
       "dupe_of": [],
       "image": "images/stronger-with-you-absolutely.jpg",
       "accords": [
@@ -33553,7 +33314,7 @@
     {
       "id": "le-sel-d-issey",
       "name_ar": "",
-      "name_en": "Le Sel d’Issey",
+      "name_en": "Le Sel d'Issey",
       "brand": "Issey Miyake",
       "dupe_of": [],
       "image": "images/le-sel-d-issey.jpg",
@@ -34987,7 +34748,7 @@
       "id": "code-eau-de-parfum",
       "name_ar": "",
       "name_en": "Code Eau de Parfum",
-      "brand": "Armani",
+      "brand": "Giorgio Armani",
       "dupe_of": [],
       "image": "images/code-eau-de-parfum.jpg",
       "accords": [],
@@ -35811,7 +35572,7 @@
       "id": "acqua-di-gi-parfum",
       "name_ar": "",
       "name_en": "Acqua di Giò Parfum",
-      "brand": "Armani",
+      "brand": "Giorgio Armani",
       "dupe_of": [],
       "image": "images/acqua-di-gi-parfum.jpg",
       "accords": [
@@ -37750,7 +37511,7 @@
       "id": "stronger-with-you-edt",
       "name_ar": "",
       "name_en": "Stronger With You edt",
-      "brand": "Armani",
+      "brand": "Emporio Armani",
       "dupe_of": [],
       "image": "images/stronger-with-you-edt.jpg",
       "accords": [
@@ -37952,9 +37713,9 @@
     },
     {
       "id": "qurashi-blend",
-      "name_ar": "Qurashi Blend",
+      "name_ar": "خلطة القرشي",
       "name_en": "Qurashi Blend",
-      "brand": "Qurashi",
+      "brand": "Abdul Samad Al Qurashi",
       "dupe_of": [],
       "image": "images/qurashi-blend.jpg",
       "accords": [],
@@ -39265,42 +39026,6 @@
       ]
     },
     {
-      "id": "unique-e-luxury-zen-gi-extrait-de-parfum",
-      "name_ar": "Unique'e Luxury Zen'gi Extrait De Parfum",
-      "name_en": "Unique'e Luxury Zen'gi Extrait De Parfum",
-      "brand": "Unique'e Luxury",
-      "dupe_of": [],
-      "image": "images/unique-e-luxury-zen-gi-extrait-de-parfum.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Hossam ElDeen Gamal",
-          "url": "https://www.facebook.com/hossameldeien/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 450,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 725,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 1400,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/unique-e-luxury-zen-gi-extrait-de-parfum--hossam-eldeen-gamal.jpg"
-        }
-      ]
-    },
-    {
       "id": "torino-24",
       "name_ar": "Torino 24",
       "name_en": "Torino 24",
@@ -39340,7 +39065,7 @@
       "id": "ntimo-carisma",
       "name_ar": "Íntimo Carisma",
       "name_en": "Íntimo Carisma",
-      "brand": "Ramón Béjar",
+      "brand": "Ramon Bejar",
       "dupe_of": [],
       "image": "images/ntimo-carisma.jpg",
       "accords": [],
@@ -39405,42 +39130,6 @@
             }
           ],
           "image": "images/matador--hossam-eldeen-gamal.jpg"
-        }
-      ]
-    },
-    {
-      "id": "l-eau-d-issey-pour-homme-v-tiver",
-      "name_ar": "L'Eau D'Issey Pour Homme Vétiver",
-      "name_en": "L'Eau D'Issey Pour Homme Vétiver",
-      "brand": "Issey Miyake",
-      "dupe_of": [],
-      "image": "images/l-eau-d-issey-pour-homme-v-tiver.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Hossam ElDeen Gamal",
-          "url": "https://www.facebook.com/hossameldeien/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 150,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 225,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 350,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/l-eau-d-issey-pour-homme-v-tiver--hossam-eldeen-gamal.jpg"
         }
       ]
     },
@@ -39926,7 +39615,7 @@
       "id": "acqua-di-gi-profondo-old-batch",
       "name_ar": "",
       "name_en": "Acqua di Giò Profondo (Old batch)",
-      "brand": "Armani",
+      "brand": "Giorgio Armani",
       "dupe_of": [],
       "image": "images/acqua-di-gi-profondo-old-batch.jpg",
       "accords": [
@@ -40034,87 +39723,6 @@
       "_hero_source": "sniffz"
     },
     {
-      "id": "n-5",
-      "name_ar": "",
-      "name_en": "Nº 5",
-      "brand": "Rosendo Mateu",
-      "dupe_of": [],
-      "image": "images/n-5.jpg",
-      "accords": [
-        {
-          "label_en": "Spices",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 100
-        },
-        {
-          "label_en": "Exotic floral notes",
-          "label_ar": "",
-          "color": "#FF5F8D",
-          "w": 90
-        },
-        {
-          "label_en": "Carnation",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 80
-        },
-        {
-          "label_en": "Lily-of-the-Valley",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 70
-        },
-        {
-          "label_en": "Amber",
-          "label_ar": "",
-          "color": "#bc4d10",
-          "w": 60
-        },
-        {
-          "label_en": "Vanilla",
-          "label_ar": "",
-          "color": "#FFFEC0",
-          "w": 50
-        },
-        {
-          "label_en": "Musk",
-          "label_ar": "",
-          "color": "#E7D8EA",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 320,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 445,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 700,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/n-5--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/rosendo-mateu-nº-5"
-        }
-      ],
-      "_hero_source": "sniffz"
-    },
-    {
       "id": "homme-parfum-2025",
       "name_ar": "",
       "name_en": "Homme Parfum 2025",
@@ -40198,63 +39806,6 @@
             }
           ],
           "image": "images/dior-homme-parfum-2025--hossam-eldeen-gamal.jpg"
-        }
-      ],
-      "_hero_source": "sniffz"
-    },
-    {
-      "id": "gentleman-reserve-priv-e-givenchy",
-      "name_ar": "",
-      "name_en": "Gentleman Reserve Privée Givenchy",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/gentleman-reserve-priv-e-givenchy.jpg",
-      "accords": [
-        {
-          "label_en": "Iris",
-          "label_ar": "",
-          "color": "#b7a7d7",
-          "w": 100
-        },
-        {
-          "label_en": "Chestnut",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 90
-        },
-        {
-          "label_en": "Whiskey",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 80
-        },
-        {
-          "label_en": "Woodsy Notes",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 70
-        },
-        {
-          "label_en": "Amber",
-          "label_ar": "",
-          "color": "#bc4d10",
-          "w": 60
-        }
-      ],
-      "stores": [
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 5000,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/gentleman-reserve-priv-e-givenchy--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/gentleman-reserve-privee-givenchy-1"
         }
       ],
       "_hero_source": "sniffz"
@@ -40457,7 +40008,7 @@
       "id": "grey-pearl-diamond",
       "name_ar": "جراي بيرل",
       "name_en": "Grey Pearl Diamond",
-      "brand": "IBRAQ",
+      "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/grey-pearl-diamond.jpg",
       "accords": [],
@@ -40507,7 +40058,7 @@
       "id": "odyssey-eau-de-montagne",
       "name_ar": "أوديسي مونتاجين",
       "name_en": "Odyssey Eau de Montagne",
-      "brand": "",
+      "brand": "Armaf",
       "dupe_of": [],
       "image": "images/odyssey-eau-de-montagne.jpg",
       "accords": [],
@@ -40524,30 +40075,6 @@
             }
           ],
           "image": "images/odyssey-eau-de-montagne--eslam-nasser.jpg"
-        }
-      ]
-    },
-    {
-      "id": "aromatix-frostbite",
-      "name_ar": "اروماتكس فروستبايت",
-      "name_en": "Aromatix Frostbite",
-      "brand": "French Avenue",
-      "dupe_of": [],
-      "image": "images/aromatix-frostbite.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "EsLam Nasser",
-          "url": "https://www.facebook.com/eslam.nasser.10/",
-          "offers": [
-            {
-              "kind": "leftover",
-              "ml": 64,
-              "price": 1400,
-              "first_seen": "2026-07-17"
-            }
-          ],
-          "image": "images/aromatix-frostbite--eslam-nasser.jpg"
         }
       ]
     },
@@ -40670,7 +40197,7 @@
       "id": "club-de-nuit-bling",
       "name_ar": "كلوب دي نوي بلينج",
       "name_en": "Club de Nuit Bling",
-      "brand": "",
+      "brand": "Armaf",
       "dupe_of": [
         "Valeros — Parfums de Marly"
       ],
@@ -40846,7 +40373,7 @@
       "id": "urban-amaze",
       "name_ar": "أوربان أماز",
       "name_en": "Urban Amaze",
-      "brand": "",
+      "brand": "Fragrance World",
       "dupe_of": [
         "Le Beau — Jean Paul Gaultier"
       ],
@@ -41185,9 +40712,9 @@
     },
     {
       "id": "external-club-mpf",
-      "name_ar": "اكستيرنال كلوب ٢٠٠ملي من عطوري",
-      "name_en": "External Club MPF",
-      "brand": "",
+      "name_ar": "اكستيرنال كلوب",
+      "name_en": "External Club",
+      "brand": "MPF",
       "dupe_of": [],
       "image": "images/external-club-mpf.jpg",
       "accords": [],
@@ -41211,9 +40738,9 @@
     },
     {
       "id": "verato-for-men",
-      "name_ar": "فيراتو فور مين ١٠٠ملي من ميرادا",
+      "name_ar": "فيراتو",
       "name_en": "Verato For Men",
-      "brand": "",
+      "brand": "Mirada",
       "dupe_of": [],
       "image": "images/verato-for-men.jpg",
       "accords": [],
@@ -41237,9 +40764,9 @@
     },
     {
       "id": "vitality-cherry-musk",
-      "name_ar": "فيتاليتي مسك الكرز ١٠٠ملي",
-      "name_en": "Vitality Cherry Musk",
-      "brand": "",
+      "name_ar": "فيتاليتي مسك الكرز",
+      "name_en": "Cherry Musk",
+      "brand": "Vitality",
       "dupe_of": [],
       "image": "images/vitality-cherry-musk.jpg",
       "accords": [],
@@ -41263,9 +40790,9 @@
     },
     {
       "id": "vitality-pistachio-musk",
-      "name_ar": "فيتاليتي مسك الفسدق ١٠٠ملي",
-      "name_en": "Vitality Pistachio Musk",
-      "brand": "",
+      "name_ar": "مسك الفسدق",
+      "name_en": "Pistachio Musk",
+      "brand": "Vitality",
       "dupe_of": [],
       "image": "images/vitality-pistachio-musk.jpg",
       "accords": [],
@@ -41289,8 +40816,8 @@
     },
     {
       "id": "afro-leather-alhambra",
-      "name_ar": "افرو ليذر ١٠٠ملي من الهامبرا",
-      "name_en": "Afro Leather Alhambra",
+      "name_ar": "افرو ليذر",
+      "name_en": "Afro Leather",
       "brand": "Alhambra",
       "dupe_of": [],
       "image": "images/afro-leather-alhambra.jpg",
@@ -41315,8 +40842,8 @@
     },
     {
       "id": "bahar-al-arab-almas",
-      "name_ar": "بحر العرب ١٠٠ملي من الماس",
-      "name_en": "Bahar Al Arab Almas",
+      "name_ar": "بحر العرب",
+      "name_en": "Bahar Al Arab",
       "brand": "Almas",
       "dupe_of": [],
       "image": "images/bahar-al-arab-almas.jpg",
@@ -41341,8 +40868,8 @@
     },
     {
       "id": "tuwaiq-almas",
-      "name_ar": "طويق ١٠٠ملي من الماس",
-      "name_en": "Tuwaiq Almas",
+      "name_ar": "طويق",
+      "name_en": "Tuwaiq",
       "brand": "Almas",
       "dupe_of": [],
       "image": "images/tuwaiq-almas.jpg",
@@ -41367,9 +40894,9 @@
     },
     {
       "id": "king-tobacco-laverne",
-      "name_ar": "كينج توباكو ٢٠٠ملي من لافيرن",
-      "name_en": "King Tobacco Laverne",
-      "brand": "",
+      "name_ar": "كينج توباكو",
+      "name_en": "King Tobacco",
+      "brand": "Laverne",
       "dupe_of": [],
       "image": "images/king-tobacco-laverne.jpg",
       "accords": [],
@@ -41420,7 +40947,7 @@
     {
       "id": "aura-35-assaf",
       "name_ar": "اورا ٣٥ ١٥٠ملي من عساف",
-      "name_en": "Aura 35 Assaf",
+      "name_en": "Aura 35",
       "brand": "Assaf",
       "dupe_of": [],
       "image": "images/aura-35-assaf.jpg",
@@ -41457,9 +40984,9 @@
     },
     {
       "id": "vip-blend-oud",
-      "name_ar": "في اي بي بليند عود ١٠٠ملي من الرحاب",
+      "name_ar": "في اي بي بليند عود",
       "name_en": "Vip Blend Oud",
-      "brand": "Al Rehab",
+      "brand": "ALREHAB",
       "dupe_of": [],
       "image": "images/vip-blend-oud.jpg",
       "accords": [],
@@ -41483,7 +41010,7 @@
     },
     {
       "id": "aariz",
-      "name_ar": "ارز ١٠٠ملي من عربيات بريستيچ",
+      "name_ar": "ارز",
       "name_en": "Aariz",
       "brand": "Arabiyat Prestige",
       "dupe_of": [],
@@ -41522,8 +41049,8 @@
     {
       "id": "al-qamar-musk-bundle-75ml-6gm",
       "name_ar": "Al Qamar Musk Bundle ( 75ml + 10ml + 6gm )",
-      "name_en": "Al Qamar Musk Bundle 75ml + + 6gm",
-      "brand": "",
+      "name_en": "Al Qamar Musk Bundle 75ml + 10ml + 6gm",
+      "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/al-qamar-musk-bundle-75ml-6gm.jpg",
       "accords": [],
@@ -41547,9 +41074,9 @@
     },
     {
       "id": "assaf-day-night-bundle-perfumes",
-      "name_ar": "Assaf Day & Night Bundle ( 350ML Perfumes)",
-      "name_en": "Assaf Day & Night Bundle Perfumes",
-      "brand": "",
+      "name_ar": "",
+      "name_en": "Day & Night Bundle ( 350ML Perfumes)",
+      "brand": "Assaf",
       "dupe_of": [],
       "image": "images/assaf-day-night-bundle-perfumes.jpg",
       "accords": [],
@@ -41573,9 +41100,9 @@
     },
     {
       "id": "oros-edp-milestone",
-      "name_ar": "اوروس ١٠٠ملي من مايلستون",
-      "name_en": "Oros Edp MileStone",
-      "brand": "",
+      "name_ar": "اوروس",
+      "name_en": "Oros Edp",
+      "brand": "Milestone",
       "dupe_of": [],
       "image": "images/oros-edp-milestone.jpg",
       "accords": [],
@@ -41599,9 +41126,9 @@
     },
     {
       "id": "khamra-qahwa",
-      "name_ar": "خمرة قهوة ١٠٠ملي",
+      "name_ar": "خمرة قهوة",
       "name_en": "Khamra Qahwa",
-      "brand": "",
+      "brand": "Lattafa",
       "dupe_of": [],
       "image": "images/khamra-qahwa.jpg",
       "accords": [],
@@ -41625,9 +41152,9 @@
     },
     {
       "id": "contra-not-only-intense",
-      "name_ar": "كونترا نوت اونلي انتنس ١٠٠ملي",
+      "name_ar": "كونترا نوت اونلي انتنس",
       "name_en": "Contra Not Only Intense",
-      "brand": "",
+      "brand": "Camara",
       "dupe_of": [],
       "image": "images/contra-not-only-intense.jpg",
       "accords": [],
@@ -41677,9 +41204,9 @@
     },
     {
       "id": "arrogate-blue-de-assaf",
-      "name_ar": "اروجيت بلو دي عساف ٢٠٠ملي",
-      "name_en": "Arrogate Blue De Assaf",
-      "brand": "",
+      "name_ar": "اروجيت بلو",
+      "name_en": "Arrogate Blue",
+      "brand": "Assaf",
       "dupe_of": [],
       "image": "images/arrogate-blue-de-assaf.jpg",
       "accords": [],
@@ -42500,7 +42027,7 @@
     {
       "id": "mazaaj-edp-zimaya",
       "name_ar": "مزاج او دو بارفم ١٠٠ملي من زمايا",
-      "name_en": "Mazaaj Edp Zimaya",
+      "name_en": "Mazaaj Edp",
       "brand": "Zimaya",
       "dupe_of": [],
       "image": "images/mazaaj-edp-zimaya.jpg",
@@ -42526,7 +42053,7 @@
     {
       "id": "al-fajr-musk-ibraq",
       "name_ar": "مسك الفجر من ابراق ٧٥ملي",
-      "name_en": "Al fajr Musk Ibraq",
+      "name_en": "Al fajr Musk",
       "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/al-fajr-musk-ibraq.jpg",
@@ -42604,7 +42131,7 @@
     {
       "id": "tobacco-01-swiss-arabian",
       "name_ar": "توباكو ٠١ ٥٠ملي من سويس اريبيان",
-      "name_en": "Tobacco 01 Swiss Arabian",
+      "name_en": "Tobacco 01",
       "brand": "Swiss Arabian",
       "dupe_of": [],
       "image": "images/tobacco-01-swiss-arabian.jpg",
@@ -42760,7 +42287,7 @@
     {
       "id": "ishk-swiss-arabian",
       "name_ar": "عشق من سويس اريبيان ٥٠ملي",
-      "name_en": "Ishk Swiss Arabian",
+      "name_en": "Ishk",
       "brand": "Swiss Arabian",
       "dupe_of": [],
       "image": "images/ishk-swiss-arabian.jpg",
@@ -42864,7 +42391,7 @@
     {
       "id": "rebel-enable-assaf",
       "name_ar": "ريبل انيبل ١٥٠ملي من عساف",
-      "name_en": "Rebel Enable Assaf",
+      "name_en": "Rebel Enable",
       "brand": "Assaf",
       "dupe_of": [],
       "image": "images/rebel-enable-assaf.jpg",
@@ -42902,7 +42429,7 @@
     {
       "id": "gris-eric-assaf",
       "name_ar": "جريس ايريك ٢٠٠ملي من عساف",
-      "name_en": "Gris Eric Assaf",
+      "name_en": "Gris Eric",
       "brand": "Assaf",
       "dupe_of": [],
       "image": "images/gris-eric-assaf.jpg",
@@ -43038,7 +42565,7 @@
     {
       "id": "odyssey-aoud-armaf",
       "name_ar": "اوديسي عود من ارماف ١٠٠ملي",
-      "name_en": "Odyssey Aoud Armaf",
+      "name_en": "Odyssey Aoud",
       "brand": "Armaf",
       "dupe_of": [],
       "image": "images/odyssey-aoud-armaf.jpg",
@@ -43592,7 +43119,7 @@
     {
       "id": "venti-fragrance-world",
       "name_ar": "ڤينتي ١٠٠ملي من فراجرانس وورلد",
-      "name_en": "Venti Fragrance World",
+      "name_en": "Venti",
       "brand": "Fragrance World",
       "dupe_of": [],
       "image": "images/venti-fragrance-world.jpg",
@@ -43689,32 +43216,6 @@
           ],
           "image": "images/pinance-oryn--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/pinance-oryn-fa-100ml%d8%a8%d9%8a%d9%86%d8%a7%d9%86%d8%b3-%d8%a7%d9%88%d8%b1%d9%86-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "zenith-vanilla",
-      "name_ar": "زينس فانيلا ١٠٠ملي",
-      "name_en": "Zenith Vanilla",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/zenith-vanilla.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1675,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/zenith-vanilla--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/zenith-vanilla-100ml%d8%b2%d9%8a%d9%86%d8%b3-%d9%81%d8%a7%d9%86%d9%8a%d9%84%d8%a7-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "eldesoki-fragrances"
@@ -43864,7 +43365,7 @@
     {
       "id": "frankel-silver-assaf",
       "name_ar": "فرانكل سيلفر من عساف ١٠٠ملي",
-      "name_en": "Frankel Silver Assaf",
+      "name_en": "Frankel Silver",
       "brand": "Assaf",
       "dupe_of": [],
       "image": "images/frankel-silver-assaf.jpg",
@@ -44027,7 +43528,7 @@
       "id": "chelsea-man-al-rehab",
       "name_ar": "تشيلسي مان من الرحاب ٥٠ملي",
       "name_en": "Chelsea Man Al Rehab",
-      "brand": "Al Rehab",
+      "brand": "ALREHAB",
       "dupe_of": [],
       "image": "images/chelsea-man-al-rehab.jpg",
       "accords": [],
@@ -44292,7 +43793,7 @@
     {
       "id": "fakher-almas",
       "name_ar": "فاخر من الماس ١٠٠ملي",
-      "name_en": "Fakher Almas",
+      "name_en": "Fakher",
       "brand": "Almas",
       "dupe_of": [],
       "image": "images/fakher-almas.jpg",
@@ -44344,7 +43845,7 @@
     {
       "id": "musk-al-qamar-ibraq",
       "name_ar": "مسك القمر من ابراق ٧٥ملي",
-      "name_en": "Musk Al Qamar Ibraq",
+      "name_en": "Musk Al Qamar",
       "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/musk-al-qamar-ibraq.jpg",
@@ -44370,7 +43871,7 @@
     {
       "id": "musk-al-shams-ibraq",
       "name_ar": "مسك الشمس من ابراق ٧٥ملي",
-      "name_en": "Musk Al Shams Ibraq",
+      "name_en": "Musk Al Shams",
       "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/musk-al-shams-ibraq.jpg",
@@ -44552,7 +44053,7 @@
     {
       "id": "french-tobacco-ibraq",
       "name_ar": "فرينش توباكو من ابراق ١٠٠ملي",
-      "name_en": "French Tobacco Ibraq",
+      "name_en": "French Tobacco",
       "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/french-tobacco-ibraq.jpg",
@@ -44824,7 +44325,7 @@
     {
       "id": "balas-rose-ibraq-ibraq",
       "name_ar": "بالاس روز من ابراق ٧٥ملي",
-      "name_en": "Balas Rose Ibraq",
+      "name_en": "Balas Rose",
       "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/balas-rose-ibraq-ibraq.jpg",
@@ -45064,7 +44565,7 @@
     {
       "id": "oud-noir-khadlaj",
       "name_ar": "عود نوار من خادلاچ ١٠٠ملي",
-      "name_en": "Oud Noir Khadlaj",
+      "name_en": "Oud Noir",
       "brand": "Khadlaj",
       "dupe_of": [],
       "image": "images/oud-noir-khadlaj.jpg",
@@ -45090,7 +44591,7 @@
     {
       "id": "cafee-latte-khadlaj",
       "name_ar": "كافيه لاتيه من خادلاچ ١٠٠ملي",
-      "name_en": "Cafee Latte Khadlaj",
+      "name_en": "Cafee Latte",
       "brand": "Khadlaj",
       "dupe_of": [],
       "image": "images/cafee-latte-khadlaj.jpg",
@@ -45116,7 +44617,7 @@
     {
       "id": "cream-velvet-khadlaj",
       "name_ar": "كريم فيلفت من خادلاچ ١٠٠ملي",
-      "name_en": "Cream Velvet Khadlaj",
+      "name_en": "Cream Velvet",
       "brand": "Khadlaj",
       "dupe_of": [],
       "image": "images/cream-velvet-khadlaj.jpg",
@@ -45220,7 +44721,7 @@
     {
       "id": "faqat-lil-rijal-rasasi",
       "name_ar": "فقط للرجال من الرصاصي ١٠٠ملي",
-      "name_en": "FAQAT Lil Rijal Rasasi",
+      "name_en": "FAQAT Lil Rijal",
       "brand": "Rasasi",
       "dupe_of": [],
       "image": "images/faqat-lil-rijal-rasasi.jpg",
@@ -45460,7 +44961,7 @@
     {
       "id": "al-wisam-day-rasasi",
       "name_ar": "الوسام الأبيض من الرصاصي ١٠٠ملي",
-      "name_en": "Al Wisam Day Rasasi",
+      "name_en": "Al Wisam Day",
       "brand": "Rasasi",
       "dupe_of": [],
       "image": "images/al-wisam-day-rasasi.jpg",
@@ -45486,7 +44987,7 @@
     {
       "id": "cardamom-musk-ibraq",
       "name_ar": "مسك الهيل من ابراق (٧٥ملي)",
-      "name_en": "Cardamom Musk IBRAQ",
+      "name_en": "Cardamom Musk",
       "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/cardamom-musk-ibraq.jpg",
@@ -45694,7 +45195,7 @@
     {
       "id": "sharaf-blend-zimaya",
       "name_ar": "شرف بليند ١٠٠ملي من زمايا",
-      "name_en": "Sharaf Blend Zimaya",
+      "name_en": "Sharaf Blend",
       "brand": "Zimaya",
       "dupe_of": [],
       "image": "images/sharaf-blend-zimaya.jpg",
@@ -45850,7 +45351,7 @@
     {
       "id": "emeer-lattafa",
       "name_ar": "ايمير ١٠٠ملي من لطافة",
-      "name_en": "Emeer Lattafa",
+      "name_en": "Emeer",
       "brand": "Lattafa",
       "dupe_of": [],
       "image": "images/emeer-lattafa.jpg",
@@ -45860,6 +45361,12 @@
           "name": "eldesoki-fragrances",
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-07-18"
+            },
             {
               "kind": "full",
               "ml": 100,
@@ -46270,7 +45777,7 @@
     {
       "id": "pomegranate-musk-ibraq",
       "name_ar": "مسك الرمان ٧٥ملي من ابراق",
-      "name_en": "Pomegranate Musk Ibraq",
+      "name_en": "Pomegranate Musk",
       "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/pomegranate-musk-ibraq.jpg",
@@ -47352,32 +46859,6 @@
       "_hero_source": "eldesoki-fragrances"
     },
     {
-      "id": "emeer",
-      "name_ar": "ايمير لطافة تستر ١٠ملي",
-      "name_en": "Emeer",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/emeer.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 200,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/emeer--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/emeer-10ml%d8%a7%d9%8a%d9%85%d9%8a%d8%b1-%d9%84%d8%b7%d8%a7%d9%81%d8%a9-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "saphire-leather",
       "name_ar": "سفاير ليذر تستر ١٠ملي",
       "name_en": "Saphire Leather",
@@ -48370,7 +47851,7 @@
     {
       "id": "troove-assaf",
       "name_ar": "تروف من عساف (١٠ملي)",
-      "name_en": "Troove Assaf",
+      "name_en": "Troove",
       "brand": "Assaf",
       "dupe_of": [],
       "image": "images/troove-assaf.jpg",

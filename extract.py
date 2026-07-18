@@ -391,6 +391,44 @@ def dedupe_notes(raw_notes: list) -> list:
     return out
 
 
+_SUFFIX_JUNK_RE = re.compile(r"\s+(perfumes|parfums)\s*$", re.I)
+# A connector word directly before the brand ("Acne Studios PAR Frederic
+# Malle", "... BY Kilian") means the brand is grammatically part of the
+# name itself (a designer collab), not a redundant re-statement of the
+# manufacturer — must not strip those.
+_CONNECTOR_BEFORE_BRAND_RE = re.compile(r"\b(par|by|pour|de|avec|with|from)\s*$", re.I)
+
+
+def strip_redundant_brand_suffix(name: str, brand: str) -> str:
+    """Drop a trailing "... Perfumes"/"... Parfums" and/or the brand name
+    itself off the END of a product name, when it's just the source
+    re-stating the manufacturer that's already captured in the brand
+    field (e.g. "Oud Noir Khadlaj" with brand "Khadlaj" -> "Oud Noir").
+
+    Deliberately SUFFIX-only, never a prefix strip: "Kenzo Homme EDP"
+    (brand "Kenzo") must stay intact, because "Kenzo Homme" is the real,
+    recognized product line, not the manufacturer name glued onto a
+    generic word — the same is true for most designer-house naming
+    ("Dior Homme Sport", "Bleu de Chanel", "Tom Ford Beau de Jour", a
+    designer collab like "Acne Studios par Frederic Malle"...). Stripping
+    those would silently corrupt the actual name. A prefix or mid-string
+    brand mention is left completely untouched here — flag it for a
+    human to judge instead of guessing (see find_duplicates.py's
+    brand-suffix report)."""
+    if not name or not brand:
+        return name
+    working = _SUFFIX_JUNK_RE.sub("", name)
+    if not working.lower().endswith(brand.lower()):
+        return name
+    stripped = working[: -len(brand)].rstrip(" -—–|,")
+    if _CONNECTOR_BEFORE_BRAND_RE.search(stripped):
+        return name
+    stripped = stripped.strip()
+    if not stripped or stripped.lower() == name.lower():
+        return name
+    return stripped
+
+
 def to_product(raw: dict, image_rel: str) -> dict:
     notes = [
         {
@@ -401,11 +439,14 @@ def to_product(raw: dict, image_rel: str) -> dict:
         }
         for i, n in enumerate(dedupe_notes(raw.get("notes") or []))
     ]
+    brand = raw.get("brand") or ""
+    name_en = strip_redundant_brand_suffix(raw.get("name_en") or "", brand)
+    name_ar = strip_redundant_brand_suffix(raw.get("name_ar") or name_en, brand)
     return {
-        "id": slugify(raw.get("name_en") or raw.get("name_ar") or ""),
-        "name_ar": raw.get("name_ar") or raw.get("name_en") or "",
-        "name_en": raw.get("name_en") or "",
-        "brand": raw.get("brand") or "",
+        "id": slugify(name_en or raw.get("name_ar") or ""),
+        "name_ar": name_ar or name_en,
+        "name_en": name_en,
+        "brand": brand,
         "dupe_of": [d for d in (raw.get("dupe_of") or []) if d],
         "image": image_rel,
         "accords": notes,
