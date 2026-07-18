@@ -2433,6 +2433,20 @@
           ],
           "image": "images/tonquin-giza--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/rayhaan-tonquin-giza"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1550,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/rayhaan-tonquin-giza--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/rayhaan-tonquin-giza-100ml%d8%b1%d9%8a%d8%ad%d8%a7%d9%86-%d8%aa%d9%88%d9%86%d9%83%d9%86-%d8%ac%d9%8a%d8%b2%d9%87-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "sniffz"
@@ -3904,6 +3918,20 @@
             }
           ],
           "image": "images/island-vanilla-dunes.jpg"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1475,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/khadlaj-vanilla-dunes--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/khadlaj-vanilla-dunes-100ml%d8%ae%d8%a7%d8%af%d9%84%d8%a7%da%86-%d8%a2%d9%8a%d9%84%d8%a7%d9%86%d8%af-%d9%81%d8%a7%d9%86%d9%8a%d9%84%d8%a7-%d8%af%d9%88%d9%86%d8%b2-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ]
     },
@@ -6151,6 +6179,20 @@
           ],
           "image": "images/island-dreams--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/khadlaj-island-dreams"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1475,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/khadlaj-island-dreams--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/khadlaj-island-dreams-100ml%d8%ae%d8%a7%d8%af%d9%84%d8%a7%da%86-%d8%a2%d9%8a%d9%84%d8%a7%d9%86%d8%af-%d8%af%d8%b1%d9%8a%d9%85%d8%b2-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "sniffz"
@@ -10708,7 +10750,35 @@
               "price": 180,
               "first_seen": "2026-01-01"
             }
-          ]
+          ],
+          "image": "images/ameer-al-oud-intense--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/lattafa-ameer-al-oud-intense"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 125,
+              "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 600,
+              "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 975,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/ameer-al-oudh-intense--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/ameer-al-oudh-intense-100ml%d8%a7%d9%85%d9%8a%d8%b1-%d8%a7%d9%84%d8%b9%d9%88%d8%af-%d8%a7%d9%86%d8%aa%d9%86%d8%b3-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ]
     },
@@ -30202,6 +30272,12 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-07-18"
+            },
+            {
               "kind": "full",
               "ml": 150,
               "price": 2375,
@@ -30417,6 +30493,12 @@
               "kind": "leftover",
               "ml": 50,
               "price": 975,
+              "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1675,
               "first_seen": "2026-07-18"
             }
           ],
@@ -40027,81 +40109,6 @@
       "_hero_source": "sniffz"
     },
     {
-      "id": "ameer-al-oud-intense",
-      "name_ar": "",
-      "name_en": "Ameer Al Oud Intense",
-      "brand": "Lattafa",
-      "dupe_of": [],
-      "image": "images/ameer-al-oud-intense.jpg",
-      "accords": [
-        {
-          "label_en": "Woody Notes",
-          "label_ar": "",
-          "color": "#774414",
-          "w": 100
-        },
-        {
-          "label_en": "Oud",
-          "label_ar": "",
-          "color": "#544136",
-          "w": 90
-        },
-        {
-          "label_en": "Sugar",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 80
-        },
-        {
-          "label_en": "Vanilla",
-          "label_ar": "",
-          "color": "#FFFEC0",
-          "w": 70
-        },
-        {
-          "label_en": "Sandalwood",
-          "label_ar": "",
-          "color": "#774414",
-          "w": 50
-        },
-        {
-          "label_en": "Herbal Notes",
-          "label_ar": "",
-          "color": "#6CA47F",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 85,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 110,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 180,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/ameer-al-oud-intense--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/lattafa-ameer-al-oud-intense"
-        }
-      ],
-      "_hero_source": "sniffz"
-    },
-    {
       "id": "homme-parfum-2025",
       "name_ar": "",
       "name_en": "Homme Parfum 2025",
@@ -41747,58 +41754,6 @@
       "_hero_source": "eldesoki-fragrances"
     },
     {
-      "id": "rayhaan-tonquin-giza",
-      "name_ar": "ريحان تونكن جيزه ١٠٠ملي",
-      "name_en": "Rayhaan Tonquin Giza",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/rayhaan-tonquin-giza.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1550,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/rayhaan-tonquin-giza--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/rayhaan-tonquin-giza-100ml%d8%b1%d9%8a%d8%ad%d8%a7%d9%86-%d8%aa%d9%88%d9%86%d9%83%d9%86-%d8%ac%d9%8a%d8%b2%d9%87-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "rayhaan-lion",
-      "name_ar": "ريحان لايون ١٠٠ملي",
-      "name_en": "Rayhaan Lion",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/rayhaan-lion.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1450,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/rayhaan-lion--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/rayhaan-lion-100ml%d8%b1%d9%8a%d8%ad%d8%a7%d9%86-%d9%84%d8%a7%d9%8a%d9%88%d9%86-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "rayhaan-elixir",
       "name_ar": "ريحان اليكزير ١٠٠ملي",
       "name_en": "Rayhaan Elixir",
@@ -43139,58 +43094,6 @@
       "_hero_source": "eldesoki-fragrances"
     },
     {
-      "id": "khadlaj-vanilla-dunes",
-      "name_ar": "خادلاچ آيلاند فانيلا دونز ١٠٠ملي",
-      "name_en": "Khadlaj Vanilla Dunes",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/khadlaj-vanilla-dunes.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1475,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/khadlaj-vanilla-dunes--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/khadlaj-vanilla-dunes-100ml%d8%ae%d8%a7%d8%af%d9%84%d8%a7%da%86-%d8%a2%d9%8a%d9%84%d8%a7%d9%86%d8%af-%d9%81%d8%a7%d9%86%d9%8a%d9%84%d8%a7-%d8%af%d9%88%d9%86%d8%b2-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "khadlaj-island-dreams",
-      "name_ar": "خادلاچ آيلاند دريمز ١٠٠ملي",
-      "name_en": "Khadlaj Island Dreams",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/khadlaj-island-dreams.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1475,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/khadlaj-island-dreams--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/khadlaj-island-dreams-100ml%d8%ae%d8%a7%d8%af%d9%84%d8%a7%da%86-%d8%a2%d9%8a%d9%84%d8%a7%d9%86%d8%af-%d8%af%d8%b1%d9%8a%d9%85%d8%b2-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "khadlaj-island",
       "name_ar": "خادلاچ آيلاند ١٠٠ملي",
       "name_en": "Khadlaj Island",
@@ -44506,32 +44409,6 @@
           ],
           "image": "images/fire-on-ice--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/fire-on-ice-120ml%d9%81%d8%a7%d9%8a%d8%b1-%d8%a7%d9%88%d9%86-%d8%a7%d9%8a%d8%b3-%d9%a1%d9%a2%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "ameer-al-oudh-intense",
-      "name_ar": "امير العود انتنس ١٠٠ملي",
-      "name_en": "Ameer Al Oudh Intense",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/ameer-al-oudh-intense.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 975,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/ameer-al-oudh-intense--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/ameer-al-oudh-intense-100ml%d8%a7%d9%85%d9%8a%d8%b1-%d8%a7%d9%84%d8%b9%d9%88%d8%af-%d8%a7%d9%86%d8%aa%d9%86%d8%b3-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "eldesoki-fragrances"
@@ -46043,32 +45920,6 @@
       "_hero_source": "eldesoki-fragrances"
     },
     {
-      "id": "mexican-tobacco-ibrahim-al-qurashi",
-      "name_ar": "ميكسيكان توباكو من القرشي ١٠٠ملي",
-      "name_en": "Mexican Tobacco",
-      "brand": "Ibrahim Al Qurashi",
-      "dupe_of": [],
-      "image": "images/mexican-tobacco-ibrahim-al-qurashi.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1675,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/mexican-tobacco-ibrahim-al-qurashi--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/mexican-tobacco-100ml%d9%85%d9%8a%d9%83%d8%b3%d9%8a%d9%83%d8%a7%d9%86-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%85%d9%86-%d8%a7%d9%84%d9%82%d8%b1%d8%b4%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "musk-khas-elmas",
       "name_ar": "مسك الماس الخاص ١٠٠ملي",
       "name_en": "Musk Khas Elmas",
@@ -46837,32 +46688,6 @@
       "_hero_source": "eldesoki-fragrances"
     },
     {
-      "id": "liquid-brun-limited",
-      "name_ar": "ليكويد برون ليميتد اديشن تستر ١٠ملي",
-      "name_en": "Liquid Brun Limited",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/liquid-brun-limited.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 200,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/liquid-brun-limited--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/liquid-brun-limited-10ml%d9%84%d9%8a%d9%83%d9%88%d9%8a%d8%af-%d8%a8%d8%b1%d9%88%d9%86-%d9%84%d9%8a%d9%85%d9%8a%d8%aa%d8%af-%d8%a7%d8%af%d9%8a%d8%b4%d9%86-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "kahilan",
       "name_ar": "كحيلان تستر ١٠ملي من دخون",
       "name_en": "Kahilan",
@@ -47186,38 +47011,6 @@
           ],
           "image": "images/mahd-al-dahab--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/mahd-al-dahab-50ml%d9%85%d9%87%d8%af-%d8%a7%d9%84%d8%af%d9%87%d8%a8-%d8%b9%d8%b1%d8%a8%d9%8a%d8%a7%d8%aa-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "ameer-oud-intense",
-      "name_ar": "امير العود انتنس تستر ١٠ملي",
-      "name_en": "Ameer Oud Intense",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/ameer-oud-intense.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 125,
-              "first_seen": "2026-07-18"
-            },
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 600,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/ameer-oud-intense--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/ameer-oud-intense-50ml%d8%a7%d9%85%d9%8a%d8%b1-%d8%a7%d9%84%d8%b9%d9%88%d8%af-%d8%a7%d9%86%d8%aa%d9%86%d8%b3-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "eldesoki-fragrances"
