@@ -46,24 +46,33 @@
   .icon-btn{background:transparent;border:1.5px solid var(--line);color:var(--ink);cursor:pointer;font-family:inherit;font-size:.85rem;font-weight:600;padding:.5rem .8rem;border-radius:999px;transition:border-color .15s ease, background .15s ease, transform .15s ease}
   .icon-btn:hover{border-color:var(--olive);transform:translateY(-1px)}
   .icon-btn[aria-pressed="true"]{background:var(--olive);border-color:var(--olive);color:#12140D}
-  .header-search{max-width:1080px;margin:0 auto;padding:0 1.2rem;box-sizing:border-box;overflow:hidden;max-height:0;transition:max-height .2s ease}
-  .header-search.open{max-height:70px;padding-top:.7rem}
-  .header-search .search{width:100%;box-sizing:border-box}
   .cart-btn{background:linear-gradient(135deg, var(--brass), color-mix(in srgb, var(--brass) 75%, #fff));color:#1a1a12;border:none;cursor:pointer;font-family:inherit;font-size:.95rem;font-weight:700;padding:.55rem 1.1rem;border-radius:999px;display:flex;align-items:center;gap:.5rem;transition:transform .15s, box-shadow .15s;box-shadow:0 2px 10px color-mix(in srgb, var(--brass) 35%, transparent)}
   .cart-btn:hover{transform:translateY(-1px);box-shadow:0 6px 16px color-mix(in srgb, var(--brass) 45%, transparent)}
   .cart-btn:focus-visible{outline:3px solid var(--olive);outline-offset:2px}
   .cart-count{background:#1a1a12;color:var(--brass);border-radius:999px;min-width:1.4rem;height:1.4rem;display:inline-flex;align-items:center;justify-content:center;font-size:.8rem;font-weight:700}
 
-  .toolbar{max-width:1080px;margin:1.4rem auto .6rem;padding:1rem 1.1rem;box-sizing:border-box;display:flex;flex-wrap:wrap;gap:1rem 1.4rem;align-items:flex-end;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
-  .toolbar-group{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center}
-  .select-wrap{display:flex;flex-direction:column;gap:.3rem}
-  .select-label{font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#8A8D7B;padding-inline-start:.25rem}
-  .search{width:100%;box-sizing:border-box;border:1.5px solid var(--line);border-radius:999px;background:var(--bg);padding:.55rem 1rem;font-family:inherit;font-size:.95rem;color:var(--ink);transition:border-color .15s, box-shadow .15s}
+  .toolbar{max-width:1080px;margin:1.4rem auto .6rem;padding:1rem 1.1rem;box-sizing:border-box;display:flex;flex-direction:column;gap:.85rem;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+  .tb-row{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center}
+  .tb-search-row{gap:.7rem}
+  .search-wrap{position:relative;flex:1;min-width:200px}
+  .search-icon{position:absolute;inset-inline-start:.85rem;top:50%;transform:translateY(-50%);font-size:.85rem;opacity:.6;pointer-events:none}
+  .search{width:100%;box-sizing:border-box;border:1.5px solid var(--line);border-radius:999px;background:var(--bg);padding:.6rem 1rem .6rem 2.35rem;font-family:inherit;font-size:.95rem;color:var(--ink);transition:border-color .15s, box-shadow .15s}
+  [dir="rtl"] .search{padding:.6rem 2.35rem .6rem 1rem}
   .search:focus{outline:none;border-color:var(--olive);box-shadow:0 0 0 3px color-mix(in srgb, var(--olive) 22%, transparent)}
+  .filters-toggle{display:none;align-items:center;gap:.4rem;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:.55rem 1rem;font-family:inherit;font-size:.85rem;font-weight:600;cursor:pointer;flex-shrink:0;transition:border-color .15s}
+  .filters-toggle:hover{border-color:var(--olive)}
+  .filters-toggle[aria-expanded="true"] .filters-chevron{transform:rotate(180deg)}
+  .filters-chevron{display:inline-block;transition:transform .2s ease;font-size:.85rem}
+  .filter-badge{background:var(--brass);color:#12140D;border-radius:999px;min-width:1.2rem;height:1.2rem;display:inline-flex;align-items:center;justify-content:center;font-size:.68rem;font-weight:700;padding:0 .3rem}
+  .filter-badge[hidden]{display:none}
+  .tb-kind{gap:.5rem}
   .chip{border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:.4rem 1rem;font-family:inherit;font-size:.88rem;cursor:pointer;transition:border-color .15s, background .15s, transform .15s}
   .chip:hover{border-color:var(--olive);transform:translateY(-1px)}
   .chip[aria-pressed="true"]{background:var(--olive);border-color:var(--olive);color:#12140D}
   .chip:focus-visible{outline:3px solid var(--brass);outline-offset:2px}
+  .tb-more{display:flex;flex-wrap:wrap;gap:.9rem 1.4rem;align-items:flex-end;padding-top:.85rem;border-top:1px dashed var(--line)}
+  .select-wrap{display:flex;flex-direction:column;gap:.3rem}
+  .select-label{font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#8A8D7B;padding-inline-start:.25rem;display:flex;align-items:center;gap:.3rem}
   .store-select{border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:.45rem 1rem;font-family:inherit;font-size:.88rem;cursor:pointer;transition:border-color .15s}
   .store-select:hover{border-color:var(--olive)}
   .store-select:focus-visible{outline:3px solid var(--brass);outline-offset:2px}
@@ -76,7 +85,11 @@
   .disclaimer{max-width:1080px;margin:0 auto;padding:0 1.2rem;font-size:.76rem;color:#8A8D7B;line-height:1.5}
   @media (max-width:640px){
     .toolbar{padding:.9rem}
-    .toolbar-group{width:100%;justify-content:space-between}
+    .filters-toggle{display:flex}
+    .tb-more{display:none;width:100%}
+    .tb-more.open{display:flex}
+    .tb-more .select-wrap{width:100%}
+    .tb-more select{width:100%}
     .toolbar-view{margin-inline-start:0}
   }
 
@@ -172,7 +185,6 @@
       <small id="shopTag">decants • full bottles • leftovers, price-compared</small>
     </div>
     <div class="header-actions">
-      <button class="icon-btn" id="toggleSearch" aria-label="search" aria-pressed="false">🔍</button>
       <button class="icon-btn" id="toggleLang">العربية</button>
       <button class="icon-btn" id="toggleTheme">☀️</button>
       <button class="cart-btn" id="openCart" aria-label="open cart">
@@ -180,26 +192,41 @@
       </button>
     </div>
   </div>
-  <div class="header-search" id="headerSearch">
-    <input class="search" id="search" type="search">
-  </div>
 </header>
 
 <div class="toolbar">
-  <div class="toolbar-group toolbar-kind">
+  <div class="tb-row tb-search-row">
+    <div class="search-wrap">
+      <span class="search-icon" aria-hidden="true">🔍</span>
+      <input class="search" id="search" type="search">
+    </div>
+    <button class="filters-toggle" id="filtersToggle" aria-expanded="false" aria-controls="tbMore">
+      <span aria-hidden="true">⚙️</span> <span id="filtersToggleLabel"></span>
+      <span class="filter-badge" id="filterBadge" hidden>0</span>
+      <span class="filters-chevron" aria-hidden="true">⌄</span>
+    </button>
+  </div>
+  <div class="tb-row tb-kind" role="group">
     <button class="chip" data-filter="all" aria-pressed="true"></button>
     <button class="chip" data-filter="decant" aria-pressed="false"></button>
     <button class="chip" data-filter="full" aria-pressed="false"></button>
     <button class="chip" data-filter="leftover" aria-pressed="false"></button>
   </div>
-  <div class="toolbar-group toolbar-selects">
-    <label class="select-wrap"><span class="select-label" id="storeFilterLabel"></span><select class="store-select" id="storeFilter"></select></label>
-    <label class="select-wrap"><span class="select-label" id="brandFilterLabel"></span><select class="store-select" id="brandFilter"></select></label>
-    <label class="select-wrap"><span class="select-label" id="sortOrderLabel"></span><select class="store-select" id="sortOrder"></select></label>
-  </div>
-  <div class="toolbar-group toolbar-view">
-    <div class="select-wrap">
-      <span class="select-label" id="viewLabel"></span>
+  <div class="tb-more" id="tbMore">
+    <label class="select-wrap">
+      <span class="select-label"><span aria-hidden="true">🏪</span> <span id="storeFilterLabel"></span></span>
+      <select class="store-select" id="storeFilter"></select>
+    </label>
+    <label class="select-wrap">
+      <span class="select-label"><span aria-hidden="true">🏷️</span> <span id="brandFilterLabel"></span></span>
+      <select class="store-select" id="brandFilter"></select>
+    </label>
+    <label class="select-wrap">
+      <span class="select-label"><span aria-hidden="true">⇅</span> <span id="sortOrderLabel"></span></span>
+      <select class="store-select" id="sortOrder"></select>
+    </label>
+    <div class="select-wrap toolbar-view">
+      <span class="select-label"><span aria-hidden="true">⊞</span> <span id="viewLabel"></span></span>
       <div class="view-toggle" id="viewToggle" role="group">
         <button class="view-btn" data-cols="auto" aria-pressed="true" id="viewAutoBtn"></button>
         <button class="view-btn" data-cols="1">1</button>
@@ -246,7 +273,7 @@ const I18N = {
     search_ph:"Search by name or brand…",
     filter_all:"All", filter_decant:"Decants", filter_full:"Full bottles", filter_leftover:"Leftovers",
     store_all:"All stores", brand_all:"All brands",
-    label_store:"Store", label_brand:"Brand", label_sort:"Sort by", label_view:"Per row",
+    label_store:"Store", label_brand:"Brand", label_sort:"Sort by", label_view:"Per row", filters_label:"Filters",
     view_auto:"Auto",
     cart_label:"List", drawer_title:"Your list", empty:"Your list is empty — add a size from any fragrance.",
     no_results:"No results — try another search.", loading:"Loading products…",
@@ -265,7 +292,7 @@ const I18N = {
     search_ph:"ابحث باسم العطر أو البراند…",
     filter_all:"الكل", filter_decant:"تقسيمات", filter_full:"زجاجات كاملة", filter_leftover:"بواقي تقسيم",
     store_all:"كل المتاجر", brand_all:"كل البراندات",
-    label_store:"المتجر", label_brand:"البراند", label_sort:"ترتيب حسب", label_view:"في الصف",
+    label_store:"المتجر", label_brand:"البراند", label_sort:"ترتيب حسب", label_view:"في الصف", filters_label:"الفلاتر",
     view_auto:"تلقائي",
     cart_label:"القائمة", drawer_title:"قائمتك", empty:"القائمة فارغة — أضف حجمًا من أي عطر.",
     no_results:"لا توجد نتائج — جرّب كلمة بحث أخرى.", loading:"جارٍ تحميل المنتجات…",
@@ -430,9 +457,11 @@ function applyI18n(){
   document.getElementById("sortOrderLabel").textContent = t().label_sort;
   document.getElementById("viewLabel").textContent = t().label_view;
   document.getElementById("viewAutoBtn").textContent = t().view_auto;
+  document.getElementById("filtersToggleLabel").textContent = t().filters_label;
   populateStoreFilter();
   populateBrandFilter();
   populateSortOrder();
+  updateFilterBadge();
 }
 
 function render(){
@@ -545,6 +574,7 @@ function focusProduct(id){
   document.getElementById("storeFilter").value = "all";
   document.getElementById("brandFilter").value = "all";
   document.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed", String(c.dataset.filter==="all")));
+  updateFilterBadge();
   render();
   requestAnimationFrame(()=>{
     const el = document.getElementById("card-"+id);
@@ -563,9 +593,9 @@ document.querySelectorAll(".chip").forEach(ch => ch.addEventListener("click", ()
   render();
 }));
 document.getElementById("search").addEventListener("input", e=>{ query=e.target.value; render(); });
-document.getElementById("storeFilter").addEventListener("change", e=>{ storeFilter=e.target.value; render(); });
-document.getElementById("brandFilter").addEventListener("change", e=>{ brandFilter=e.target.value; render(); });
-document.getElementById("sortOrder").addEventListener("change", e=>{ sortOrder=e.target.value; render(); });
+document.getElementById("storeFilter").addEventListener("change", e=>{ storeFilter=e.target.value; updateFilterBadge(); render(); });
+document.getElementById("brandFilter").addEventListener("change", e=>{ brandFilter=e.target.value; updateFilterBadge(); render(); });
+document.getElementById("sortOrder").addEventListener("change", e=>{ sortOrder=e.target.value; updateFilterBadge(); render(); });
 
 function applyGridCols(){
   if(gridCols === "auto") grid.removeAttribute("data-cols");
@@ -576,16 +606,27 @@ document.querySelectorAll(".view-btn").forEach(b => b.addEventListener("click", 
   gridCols = b.dataset.cols;
   localStorage.setItem("gridCols", gridCols);
   applyGridCols();
+  updateFilterBadge();
 }));
 applyGridCols();
 
-const headerSearch = document.getElementById("headerSearch");
-const toggleSearchBtn = document.getElementById("toggleSearch");
-toggleSearchBtn.onclick = ()=>{
-  const open = headerSearch.classList.toggle("open");
-  toggleSearchBtn.setAttribute("aria-pressed", String(open));
-  if(open) requestAnimationFrame(()=>document.getElementById("search").focus());
+/* "More filters" (store/brand/sort/view) collapses behind a toggle button
+   only on narrow screens (see .filters-toggle{display:none} above that
+   width) — the badge shows how many of those are set away from their
+   default, so it's obvious at a glance whether anything's hidden behind
+   the toggle worth expanding. */
+const tbMore = document.getElementById("tbMore");
+const filtersToggle = document.getElementById("filtersToggle");
+filtersToggle.onclick = ()=>{
+  const open = tbMore.classList.toggle("open");
+  filtersToggle.setAttribute("aria-expanded", String(open));
 };
+function updateFilterBadge(){
+  const n = [storeFilter!=="all", brandFilter!=="all", sortOrder!=="default", gridCols!=="auto"].filter(Boolean).length;
+  const badge = document.getElementById("filterBadge");
+  badge.textContent = n;
+  badge.hidden = n === 0;
+}
 
 document.getElementById("toggleLang").onclick = ()=>{
   lang = lang === "en" ? "ar" : "en";
