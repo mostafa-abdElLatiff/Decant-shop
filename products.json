@@ -22052,6 +22052,12 @@
               "ml": 10,
               "price": 150,
               "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 700,
+              "first_seen": "2026-07-17"
             }
           ],
           "image": "images/akhumar-luban.jpg"
@@ -40581,30 +40587,6 @@
             }
           ],
           "image": "images/ana-abiyedh-i-am-white--eslam-nasser.jpg"
-        }
-      ]
-    },
-    {
-      "id": "khumar-luban",
-      "name_ar": "خمار لبان",
-      "name_en": "Khumar Luban",
-      "brand": "Wadi Al Khaleef",
-      "dupe_of": [],
-      "image": "images/khumar-luban.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "EsLam Nasser",
-          "url": "https://www.facebook.com/eslam.nasser.10/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 700,
-              "first_seen": "2026-07-17"
-            }
-          ],
-          "image": "images/khumar-luban--eslam-nasser.jpg"
         }
       ]
     },
