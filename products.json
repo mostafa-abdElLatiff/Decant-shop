@@ -562,13 +562,12 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1250,
-              "first_seen": "2026-07-18",
-              "prev_price": 1290
+              "price": 1290,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/mazaaj--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/mazaaj"
+          "product_url": "https://emaratiscents.com/products/mazaaj-rhythm"
         }
       ],
       "_hero_source": "eldesoki-fragrances"
@@ -63129,6 +63128,32 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "mazaaj-emaratiscents",
+      "name_ar": "Mazaaj",
+      "name_en": "Mazaaj",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/mazaaj-emaratiscents.jpg",
+      "_hero_source": "emaratiscents",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1250,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/mazaaj-emaratiscents--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/mazaaj"
+        }
+      ]
     }
   ]
 }

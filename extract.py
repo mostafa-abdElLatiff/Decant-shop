@@ -537,6 +537,16 @@ def find_existing_product(catalog: dict, name_en: str, brand: str = ""):
     name+brand needs the name-string check to find it again instead of
     creating a duplicate.
 
+    The id check only counts when that id still reflects the product's
+    CURRENT name (slugify(p["name_en"]) == p["id"]) — otherwise a rename
+    (manual edit, or a merge that kept the shorter/older id — e.g. id
+    "mazaaj" renamed to name_en "Mazaaj Rhythm") leaves a stale id lying
+    around that a genuinely different, unrelated new product ("Mazaaj")
+    would slugify to and silently attract by id alone, even though its
+    name doesn't match the current name at all. Bit us for real: an
+    emaratiscents sync run merged a bare "Mazaaj" listing into the
+    existing "Mazaaj Rhythm" product this way, clobbering its price.
+
     The fuzzy pass strips each side's own brand words out of its name
     tokens before comparing — some sources fold the brand into name_en
     ("Kenzo Homme Indigo"), others keep it purely in the brand field with
@@ -552,7 +562,8 @@ def find_existing_product(catalog: dict, name_en: str, brand: str = ""):
     name_key = re.sub(r"\s+", " ", (name_en or "").strip().lower())
     for p in catalog["products"]:
         p_name_key = re.sub(r"\s+", " ", (p.get("name_en") or "").strip().lower())
-        if (p["id"] == exact_id or (name_key and p_name_key == name_key)) \
+        id_still_current = p["id"] == exact_id and slugify(p.get("name_en") or "") == p["id"]
+        if (id_still_current or (name_key and p_name_key == name_key)) \
                 and _brands_match(p.get("brand", ""), brand):
             return p
 
@@ -574,13 +585,24 @@ def find_existing_product(catalog: dict, name_en: str, brand: str = ""):
 
 def unique_id_for(catalog: dict, name_en: str, brand: str = "") -> str:
     """id for a brand-new product: the plain name slug, unless that slug is
-    already taken by a different (brand-incompatible) product — e.g. adding
-    Lattafa's "Khanjar" when Omanluxury's "Khanjar" already owns the plain
-    "khanjar" id — in which case disambiguate with a brand suffix instead of
-    colliding two different fragrances onto the same id."""
+    already taken — e.g. adding Lattafa's "Khanjar" when Omanluxury's
+    "Khanjar" already owns the plain "khanjar" id — in which case
+    disambiguate with a brand suffix instead of colliding two different
+    fragrances onto the same id.
+
+    Every call site only reaches this function after find_existing_product
+    already returned None for this exact name+brand — i.e. the caller has
+    already established this is a genuinely different product from
+    anything in the catalog. So ANY existing id collision must be
+    disambiguated here, full stop; there's deliberately no
+    "brand-compatible enough, just reuse it" escape hatch (that used to
+    call _brands_match, which treats a blank brand on either side as
+    always compatible — reusing the id in that case created a real
+    duplicate-id collision the one time this actually happened: a bare
+    "Mazaaj" with no brand info silently got assigned the same id as the
+    already-existing, unrelated "Mazaaj Rhythm")."""
     base = slugify(name_en)
-    conflict = next((p for p in catalog["products"] if p["id"] == base), None)
-    if conflict is None or _brands_match(conflict.get("brand", ""), brand):
+    if not any(p["id"] == base for p in catalog["products"]):
         return base
     candidate = f"{base}-{slugify(brand)}" if brand else f"{base}-{int(time.time())}"
     i = 2
