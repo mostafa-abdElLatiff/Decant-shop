@@ -588,7 +588,12 @@ STOPWORDS = {"perfumes", "perfume", "men", "women", "fragrances", "fragrance"}
 # stripping the concentration word caused real false-positive merges. Only
 # "Eros Flame"/"Eros Flame EDP" (same product, same price, no real EDP
 # variant exists) was merged, by hand, as a one-off.
-BRAND_GENERIC_WORDS = {"men", "women", "unisex", "fragrance", "fragrances", "perfume", "perfumes"}
+BRAND_GENERIC_WORDS = {"men", "women", "unisex", "fragrance", "fragrances", "perfume", "perfumes", "al"}
+# "al" (Arabic definite article "the") is stripped as generic rather than a
+# distinguishing brand word — without this, "Ibrahim Al Qurashi" vs "Abdul
+# Samad Al Qurashi" (two distinct real houses that happen to share the
+# surname "Qurashi" plus "Al") shared 2 of 3 tokens, clearing _brands_match's
+# 0.6 overlap threshold and risking a false merge between them.
 
 
 def _tokens(text: str) -> set:
@@ -600,6 +605,31 @@ def _brand_tokens(brand: str) -> set:
     return _tokens(brand) - BRAND_GENERIC_WORDS
 
 
+# Real houses whose name a store's own scrape sometimes renders as a
+# completely different word/abbreviation/sub-line name — not a spelling
+# variant of the same tokens (which _brands_match's token-overlap check
+# already handles), but a genuinely different string for the same brand.
+# Token overlap can never bridge these (e.g. "ibraq" and "ibrahim al
+# qurashi" share zero tokens), so each one silently created a fresh
+# duplicate product on every sync until caught by hand and added here.
+# Keyed lowercase; values are the catalog's canonical spelling.
+BRAND_CANONICAL = {
+    "ibraq": "Ibrahim Al Qurashi",
+    "ibraheem alqurashi": "Ibrahim Al Qurashi",
+    "ibraheem al qurashi": "Ibrahim Al Qurashi",
+    "ibrahim al  qurashi": "Ibrahim Al Qurashi",
+    "al-ezz for oud": "Al Ezz Lel Oud",
+    "alezzoud": "Al Ezz Lel Oud",
+    "hersh": "Al Ezz Lel Oud",  # Hersh is that brand's sub-line name, not a separate house
+    "abdulsamad alqurashi": "Abdul Samad Al Qurashi",  # NOT the same house as Ibrahim Al Qurashi
+}
+
+
+def canonicalize_brand(brand: str) -> str:
+    key = re.sub(r"\s+", " ", (brand or "").strip().lower())
+    return BRAND_CANONICAL.get(key, brand)
+
+
 def _brands_match(b1: str, b2: str) -> bool:
     """True unless the two brand strings clearly name different fragrance
     houses. An empty/generic brand on either side (unknown, or a junk value
@@ -609,8 +639,12 @@ def _brands_match(b1: str, b2: str) -> bool:
     "Stephane Humbert Lucas 777" vs "...Paris" should all still be treated
     as the same house — while still catching genuinely different houses
     that happen to sell a fragrance with the same generic name (e.g.
-    "Khanjar" sold by both Omanluxury and Lattafa, which must NOT merge)."""
-    t1, t2 = _brand_tokens(b1), _brand_tokens(b2)
+    "Khanjar" sold by both Omanluxury and Lattafa, which must NOT merge).
+
+    Each side is first run through canonicalize_brand() — token overlap
+    alone can't catch a real abbreviation or sub-line name (see
+    BRAND_CANONICAL) since there's no shared text to overlap on."""
+    t1, t2 = _brand_tokens(canonicalize_brand(b1)), _brand_tokens(canonicalize_brand(b2))
     if not t1 or not t2:
         return True
     overlap = len(t1 & t2)
