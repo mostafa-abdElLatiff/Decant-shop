@@ -43434,8 +43434,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/onyx-gold--emaratiscents.jpg",
@@ -63559,7 +63558,8 @@
               "kind": "full",
               "ml": 200,
               "price": 2400,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-19"
             }
           ],
           "image": "images/fearless--emaratiscents.jpg",
@@ -69697,8 +69697,7 @@
               "kind": "full",
               "ml": 200,
               "price": 290,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/badee-al-oud-sublime-body-spray--emaratiscents.jpg",
@@ -79175,6 +79174,32 @@
         }
       ],
       "_hero_source": "MO Shawky"
+    },
+    {
+      "id": "freeze-by-riiffs",
+      "name_ar": "Freeze By Riiffs",
+      "name_en": "Freeze By Riiffs",
+      "brand": "Riiffs Perfumes",
+      "dupe_of": [],
+      "image": "images/freeze-by-riiffs.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/freeze-by-riiffs--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/freeze"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
