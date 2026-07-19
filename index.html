@@ -9,7 +9,7 @@
   document.documentElement.setAttribute("data-theme", localStorage.getItem("theme") || "dark");
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
     --bg:#14160F; --ink:#EEEBDD;
@@ -29,23 +29,76 @@
       radial-gradient(1100px 500px at 12% -10%, color-mix(in srgb, var(--olive) 10%, transparent), transparent 60%),
       radial-gradient(900px 600px at 100% 0%, color-mix(in srgb, var(--brass) 7%, transparent), transparent 55%),
       var(--bg);
-    color:var(--ink);font-family:'IBM Plex Sans Arabic',sans-serif;line-height:1.6}
-  h1,h2,h3{font-family:'El Messiri',serif}
-  [dir="ltr"] h1,[dir="ltr"] h2,[dir="ltr"] h3{font-family:inherit}
+    color:var(--ink);font-family:'Manrope','IBM Plex Sans Arabic',sans-serif;line-height:1.6}
+  h1,h2,h3{font-family:inherit;font-weight:800}
   ::selection{background:var(--olive);color:#12140D}
   ::-webkit-scrollbar{width:11px;height:11px}
   ::-webkit-scrollbar-track{background:transparent}
   ::-webkit-scrollbar-thumb{background:var(--line);border-radius:999px;border:3px solid var(--bg)}
   ::-webkit-scrollbar-thumb:hover{background:var(--olive)}
 
-  header{background:var(--card);border-bottom:1px solid var(--line);color:var(--ink);padding:1.6rem 1.2rem 1.4rem;position:sticky;top:0;z-index:40;box-shadow:var(--shadow)}
-  .header-row{max-width:1080px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
-  .brand{display:block;text-decoration:none;cursor:pointer;transition:opacity .15s}
-  .brand:hover{opacity:.85}
-  .brand:focus-visible{outline:3px solid var(--brass);outline-offset:4px;border-radius:6px}
-  .brand h1{font-size:1.6rem;letter-spacing:.01em;background:linear-gradient(100deg, var(--ink) 40%, var(--olive-deep));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
-  .brand small{color:var(--olive);font-size:.8rem;display:block;margin-top:0;letter-spacing:.02em}
-  .header-actions{display:flex;align-items:center;gap:.5rem}
+  .shell{display:grid;grid-template-columns:272px 1fr;min-height:100vh}
+
+  /* ---------- sidebar ---------- */
+  .sidebar{background:var(--card);border-inline-end:1px solid var(--line);padding:1.5rem 1.3rem;display:flex;flex-direction:column;gap:1.5rem;position:sticky;top:0;height:100vh;overflow-y:auto}
+  .wordmark{display:block;text-decoration:none;cursor:pointer;transition:opacity .15s;display:flex;flex-direction:column;gap:.15rem}
+  .wordmark:hover{opacity:.85}
+  .wordmark:focus-visible{outline:3px solid var(--brass);outline-offset:4px;border-radius:6px}
+  .wordmark h1{font-size:1.5rem;line-height:1.05;letter-spacing:.005em;background:linear-gradient(100deg, var(--ink) 40%, var(--olive-deep));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  .wordmark small{color:var(--olive);font-size:.74rem;letter-spacing:.02em}
+
+  .filter-section{border-top:1px solid var(--line);padding-top:1.05rem}
+  .filter-section:first-of-type{border-top:none;padding-top:0}
+  .filter-section summary{display:flex;align-items:center;justify-content:space-between;font-weight:700;font-size:.78rem;letter-spacing:.07em;text-transform:uppercase;color:var(--ink);cursor:pointer;list-style:none}
+  .filter-section summary::-webkit-details-marker{display:none}
+  .filter-section summary::after{content:"+";color:var(--olive);font-size:1.15rem;font-weight:400;line-height:1}
+  .filter-section[open] summary::after{content:"–"}
+  .filter-list{display:flex;flex-direction:column;gap:.1rem;margin-top:.7rem;max-height:230px;overflow-y:auto}
+  .filter-row{display:flex;align-items:center;justify-content:space-between;gap:.6rem;padding:.42rem .35rem;font-size:.85rem;font-weight:500;color:var(--ink);cursor:pointer;border-radius:6px;background:none;border:none;font-family:inherit;width:100%;text-align:start}
+  .filter-row:hover{color:var(--olive-deep)}
+  .filter-row[aria-pressed="true"]{color:var(--olive-deep);font-weight:700}
+  .filter-row-label{display:flex;align-items:center;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .filter-row .count{font-size:.72rem;color:var(--ink);opacity:.45;font-variant-numeric:tabular-nums;flex-shrink:0}
+  .filter-row .swatch{width:9px;height:9px;border-radius:50%;border:1.5px solid var(--olive);margin-inline-end:.55rem;flex-shrink:0}
+  .filter-row[aria-pressed="true"] .swatch{background:var(--olive)}
+
+  .select-clearable{position:relative;margin-top:.7rem}
+  .store-select{width:100%;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:.5rem 1rem;font-family:inherit;font-size:.85rem;cursor:pointer;transition:border-color .15s}
+  .store-select:hover{border-color:var(--olive)}
+  .store-select:focus-visible{outline:3px solid var(--brass);outline-offset:2px}
+  .select-clearable:has(.select-clear:not([hidden])) .store-select{padding-inline-end:2.1rem}
+  .select-clear{position:absolute;top:50%;inset-inline-end:.55rem;transform:translateY(-50%);background:none;border:none;color:var(--red);font-size:1.05rem;line-height:1;cursor:pointer;padding:.15rem;border-radius:50%}
+  .select-clear:hover{background:color-mix(in srgb, var(--red) 15%, transparent)}
+  .select-clear:focus-visible{outline:2px solid var(--brass);outline-offset:1px}
+
+  .view-toggle{display:flex;gap:2px;background:var(--bg);border:1.5px solid var(--line);border-radius:999px;padding:3px;margin-top:.7rem}
+  .view-btn{flex:1;border:none;background:transparent;color:var(--ink);cursor:pointer;font-family:inherit;font-size:.78rem;font-weight:700;padding:.4rem .5rem;border-radius:999px;transition:background .15s,color .15s;line-height:1}
+  .view-btn:hover{color:var(--olive-deep)}
+  .view-btn[aria-pressed="true"]{background:var(--olive);color:#12140D}
+  .view-btn:focus-visible{outline:3px solid var(--brass);outline-offset:1px}
+
+  .sidebar-overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:60;opacity:0;pointer-events:none;transition:opacity .2s}
+  .sidebar-overlay.open{opacity:1;pointer-events:auto}
+  @media (max-width:860px){
+    .shell{grid-template-columns:minmax(0,1fr)}
+    .sidebar{position:fixed;top:0;bottom:0;inset-inline-start:0;width:min(320px,86vw);height:auto;z-index:70;
+      transform:translateX(-100%);transition:transform .25s ease;box-shadow:8px 0 30px rgba(0,0,0,.3)}
+    [dir="rtl"] .sidebar{transform:translateX(100%)}
+    .sidebar.open{transform:translateX(0)}
+  }
+
+  /* ---------- topbar (main column) ---------- */
+  .topbar{display:flex;align-items:center;gap:.7rem;padding:1rem 1.3rem;border-bottom:1px solid var(--line);background:var(--card);position:sticky;top:0;z-index:40}
+  .filters-toggle{display:none;align-items:center;gap:.4rem;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:.55rem .8rem;font-family:inherit;font-size:.85rem;font-weight:600;cursor:pointer;flex-shrink:0}
+  .filters-toggle:hover{border-color:var(--olive)}
+  .filter-badge{background:var(--brass);color:#12140D;border-radius:999px;min-width:1.2rem;height:1.2rem;display:inline-flex;align-items:center;justify-content:center;font-size:.68rem;font-weight:700;padding:0 .3rem}
+  .filter-badge[hidden]{display:none}
+  .search-wrap{position:relative;flex:1;min-width:160px;max-width:420px}
+  .search-icon{position:absolute;inset-inline-start:.85rem;top:50%;transform:translateY(-50%);font-size:.85rem;opacity:.6;pointer-events:none}
+  .search{width:100%;box-sizing:border-box;border:1.5px solid var(--line);border-radius:999px;background:var(--bg);padding:.6rem 1rem .6rem 2.35rem;font-family:inherit;font-size:.92rem;color:var(--ink);transition:border-color .15s, box-shadow .15s}
+  [dir="rtl"] .search{padding:.6rem 2.35rem .6rem 1rem}
+  .search:focus{outline:none;border-color:var(--olive);box-shadow:0 0 0 3px color-mix(in srgb, var(--olive) 22%, transparent)}
+  .topbar-spacer{flex:1}
   .icon-btn{background:transparent;border:1.5px solid var(--line);color:var(--ink);cursor:pointer;font-family:inherit;font-size:.85rem;font-weight:600;padding:.5rem .8rem;border-radius:999px;transition:border-color .15s ease, background .15s ease, transform .15s ease}
   .icon-btn:hover{border-color:var(--olive);transform:translateY(-1px)}
   .icon-btn[aria-pressed="true"]{background:var(--olive);border-color:var(--olive);color:#12140D}
@@ -53,56 +106,14 @@
   .cart-btn:hover{transform:translateY(-1px);box-shadow:0 6px 16px color-mix(in srgb, var(--brass) 45%, transparent)}
   .cart-btn:focus-visible{outline:3px solid var(--olive);outline-offset:2px}
   .cart-count{background:#1a1a12;color:var(--brass);border-radius:999px;min-width:1.4rem;height:1.4rem;display:inline-flex;align-items:center;justify-content:center;font-size:.8rem;font-weight:700}
-
-  .toolbar{max-width:1080px;margin:1.4rem auto .6rem;padding:1rem 1.1rem;box-sizing:border-box;display:flex;flex-direction:column;gap:.85rem;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
-  .tb-row{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center}
-  .tb-search-row{gap:.7rem}
-  .search-wrap{position:relative;flex:1;min-width:200px}
-  .search-icon{position:absolute;inset-inline-start:.85rem;top:50%;transform:translateY(-50%);font-size:.85rem;opacity:.6;pointer-events:none}
-  .search{width:100%;box-sizing:border-box;border:1.5px solid var(--line);border-radius:999px;background:var(--bg);padding:.6rem 1rem .6rem 2.35rem;font-family:inherit;font-size:.95rem;color:var(--ink);transition:border-color .15s, box-shadow .15s}
-  [dir="rtl"] .search{padding:.6rem 2.35rem .6rem 1rem}
-  .search:focus{outline:none;border-color:var(--olive);box-shadow:0 0 0 3px color-mix(in srgb, var(--olive) 22%, transparent)}
-  .filters-toggle{display:none;align-items:center;gap:.4rem;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:.55rem 1rem;font-family:inherit;font-size:.85rem;font-weight:600;cursor:pointer;flex-shrink:0;transition:border-color .15s}
-  .filters-toggle:hover{border-color:var(--olive)}
-  .filters-toggle[aria-expanded="true"] .filters-chevron{transform:rotate(180deg)}
-  .filters-chevron{display:inline-block;transition:transform .2s ease;font-size:.85rem}
-  .filter-badge{background:var(--brass);color:#12140D;border-radius:999px;min-width:1.2rem;height:1.2rem;display:inline-flex;align-items:center;justify-content:center;font-size:.68rem;font-weight:700;padding:0 .3rem}
-  .filter-badge[hidden]{display:none}
-  .tb-kind{gap:.5rem}
-  .chip{border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:.4rem 1rem;font-family:inherit;font-size:.88rem;cursor:pointer;transition:border-color .15s, background .15s, transform .15s}
-  .chip:hover{border-color:var(--olive);transform:translateY(-1px)}
-  .chip[aria-pressed="true"]{background:var(--olive);border-color:var(--olive);color:#12140D}
-  .chip:focus-visible{outline:3px solid var(--brass);outline-offset:2px}
-  .tb-more{display:flex;flex-wrap:wrap;gap:.9rem 1.4rem;align-items:flex-end;padding-top:.85rem;border-top:1px dashed var(--line)}
-  .select-wrap{display:flex;flex-direction:column;gap:.3rem}
-  .select-label{font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#8A8D7B;padding-inline-start:.25rem;display:flex;align-items:center;gap:.3rem}
-  .store-select{border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:.45rem 1rem;font-family:inherit;font-size:.88rem;cursor:pointer;transition:border-color .15s}
-  .store-select:hover{border-color:var(--olive)}
-  .store-select:focus-visible{outline:3px solid var(--brass);outline-offset:2px}
-  .select-clearable{position:relative}
-  .select-clearable .store-select{width:100%}
-  .select-clearable:has(.select-clear:not([hidden])) .store-select{padding-inline-end:2rem}
-  .select-clear{position:absolute;top:50%;inset-inline-end:.55rem;transform:translateY(-50%);background:none;border:none;color:var(--red);font-size:1.05rem;line-height:1;cursor:pointer;padding:.15rem;border-radius:50%}
-  .select-clear:hover{background:color-mix(in srgb, var(--red) 15%, transparent)}
-  .select-clear:focus-visible{outline:2px solid var(--brass);outline-offset:1px}
-  .toolbar-view{margin-inline-start:auto}
-  .view-toggle{display:flex;gap:2px;background:var(--bg);border:1.5px solid var(--line);border-radius:999px;padding:3px}
-  .view-btn{border:none;background:transparent;color:var(--ink);cursor:pointer;font-family:inherit;font-size:.8rem;font-weight:700;padding:.4rem .75rem;border-radius:999px;transition:background .15s,color .15s;line-height:1}
-  .view-btn:hover{color:var(--olive-deep)}
-  .view-btn[aria-pressed="true"]{background:var(--olive);color:#12140D}
-  .view-btn:focus-visible{outline:3px solid var(--brass);outline-offset:1px}
-  .disclaimer{max-width:1080px;margin:0 auto;padding:0 1.2rem;font-size:.76rem;color:#8A8D7B;line-height:1.5}
   @media (max-width:640px){
-    .toolbar{padding:.9rem}
     .filters-toggle{display:flex}
-    .tb-more{display:none;width:100%}
-    .tb-more.open{display:flex}
-    .tb-more .select-wrap{width:100%}
-    .tb-more select{width:100%}
-    .toolbar-view{margin-inline-start:0}
+    .topbar{flex-wrap:wrap}
   }
 
-  .grid{max-width:1080px;margin:0 auto 4rem;padding:0 1.2rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.2rem}
+  .disclaimer{max-width:1200px;margin:0;padding:1rem 1.3rem 0;font-size:.76rem;color:#8A8D7B;line-height:1.5}
+
+  .grid{max-width:1200px;margin:0;padding:1rem 1.3rem 4rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.2rem}
   .grid[data-cols="1"]{grid-template-columns:1fr}
   .grid[data-cols="2"]{grid-template-columns:repeat(2,1fr)}
   .grid[data-cols="3"]{grid-template-columns:repeat(3,1fr)}
@@ -201,77 +212,74 @@
 </head>
 <body>
 
-<header>
-  <div class="header-row">
-    <a class="brand" id="homeLink" href="#" aria-label="Back to top, clear filters">
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+<div class="shell">
+  <aside class="sidebar" id="sidebar">
+    <a class="wordmark" id="homeLink" href="#" aria-label="Back to top, clear filters">
       <h1 id="shopName">My list</h1>
       <small id="shopTag">decants • full bottles • leftovers, price-compared</small>
     </a>
-    <div class="header-actions">
-      <button class="icon-btn" id="toggleLang">العربية</button>
-      <button class="icon-btn" id="toggleTheme">☀️</button>
-      <button class="cart-btn" id="openCart" aria-label="open cart">
-        🛒 <span id="cartLabel">List</span> <span class="cart-count" id="cartCount">0</span>
-      </button>
-    </div>
-  </div>
-</header>
 
-<div class="toolbar">
-  <div class="tb-row tb-search-row">
-    <div class="search-wrap">
-      <span class="search-icon" aria-hidden="true">🔍</span>
-      <input class="search" id="search" type="search">
-    </div>
-    <button class="filters-toggle" id="filtersToggle" aria-expanded="false" aria-controls="tbMore">
-      <span aria-hidden="true">⚙️</span> <span id="filtersToggleLabel"></span>
-      <span class="filter-badge" id="filterBadge" hidden>0</span>
-      <span class="filters-chevron" aria-hidden="true">⌄</span>
-    </button>
-  </div>
-  <div class="tb-row tb-kind" role="group">
-    <button class="chip" data-filter="all" aria-pressed="true"></button>
-    <button class="chip" data-filter="decant" aria-pressed="false"></button>
-    <button class="chip" data-filter="full" aria-pressed="false"></button>
-    <button class="chip" data-filter="leftover" aria-pressed="false"></button>
-  </div>
-  <div class="tb-more" id="tbMore">
-    <label class="select-wrap">
-      <span class="select-label"><span aria-hidden="true">🏪</span> <span id="storeFilterLabel"></span></span>
-      <div class="select-clearable">
-        <select class="store-select" id="storeFilter"></select>
-        <button class="select-clear" id="storeFilterClear" aria-label="Clear" hidden>×</button>
-      </div>
-    </label>
-    <label class="select-wrap">
-      <span class="select-label"><span aria-hidden="true">🏷️</span> <span id="brandFilterLabel"></span></span>
+    <details class="filter-section" open>
+      <summary id="kindLabel"></summary>
+      <div class="filter-list" id="kindList" role="group"></div>
+    </details>
+
+    <details class="filter-section" open>
+      <summary id="storeFilterLabel"></summary>
+      <div class="filter-list" id="storeList" role="group"></div>
+    </details>
+
+    <details class="filter-section">
+      <summary id="brandFilterLabel"></summary>
       <div class="select-clearable">
         <select class="store-select" id="brandFilter"></select>
         <button class="select-clear" id="brandFilterClear" aria-label="Clear" hidden>×</button>
       </div>
-    </label>
-    <label class="select-wrap">
-      <span class="select-label"><span aria-hidden="true">⇅</span> <span id="sortOrderLabel"></span></span>
-      <select class="store-select" id="sortOrder"></select>
-    </label>
-    <div class="select-wrap toolbar-view">
-      <span class="select-label"><span aria-hidden="true">⊞</span> <span id="viewLabel"></span></span>
+    </details>
+
+    <details class="filter-section">
+      <summary id="sortOrderLabel"></summary>
+      <div class="filter-list" id="sortList" role="group"></div>
+    </details>
+
+    <details class="filter-section">
+      <summary id="viewLabel"></summary>
       <div class="view-toggle" id="viewToggle" role="group">
         <button class="view-btn" data-cols="auto" aria-pressed="true" id="viewAutoBtn"></button>
         <button class="view-btn" data-cols="1">1</button>
         <button class="view-btn" data-cols="2">2</button>
         <button class="view-btn" data-cols="3">3</button>
       </div>
+    </details>
+  </aside>
+
+  <div class="main">
+    <div class="topbar">
+      <button class="filters-toggle" id="filtersToggle" aria-expanded="false" aria-controls="sidebar">
+        <span aria-hidden="true">⚙️</span> <span id="filtersToggleLabel"></span>
+        <span class="filter-badge" id="filterBadge" hidden>0</span>
+      </button>
+      <div class="search-wrap">
+        <span class="search-icon" aria-hidden="true">🔍</span>
+        <input class="search" id="search" type="search">
+      </div>
+      <div class="topbar-spacer"></div>
+      <button class="icon-btn" id="toggleLang">العربية</button>
+      <button class="icon-btn" id="toggleTheme">☀️</button>
+      <button class="cart-btn" id="openCart" aria-label="open cart">
+        🛒 <span id="cartLabel">List</span> <span class="cart-count" id="cartCount">0</span>
+      </button>
     </div>
+    <p class="disclaimer" id="disclaimer"></p>
+
+    <main class="grid" id="grid">
+      <div class="skel"></div><div class="skel"></div><div class="skel"></div>
+      <div class="skel"></div><div class="skel"></div><div class="skel"></div>
+    </main>
+    <div id="loadSentinel" hidden></div>
   </div>
 </div>
-<p class="disclaimer" id="disclaimer"></p>
-
-<main class="grid" id="grid">
-  <div class="skel"></div><div class="skel"></div><div class="skel"></div>
-  <div class="skel"></div><div class="skel"></div><div class="skel"></div>
-</main>
-<div id="loadSentinel" hidden></div>
 
 <div class="overlay" id="overlay"></div>
 <aside class="drawer" id="drawer" aria-label="cart">
@@ -311,6 +319,7 @@ const I18N = {
     cart_label:"List", drawer_title:"Your list", empty:"Your list is empty — add a size from any fragrance.",
     no_results:"No results — try another search.", loading:"Loading products…",
     load_failed:"Couldn't load products. If opening this file locally, run a simple server: python -m http.server",
+    label_kind:"Type",
     total:"total", store_total:"total", copy_btn:"Copy list", copy_store_btn:"Copy", copied:"Copied ✓", copy_failed:"Couldn't copy — try another browser",
     clear_all_btn:"Clear all", clear_store_btn:"Clear", cleared:"Cleared ✓",
     added:"Added ✓", remove:"Remove", dupe_of:"Dupe of", duped_by:"Duped by",
@@ -333,6 +342,7 @@ const I18N = {
     cart_label:"القائمة", drawer_title:"قائمتك", empty:"القائمة فارغة — أضف حجمًا من أي عطر.",
     no_results:"لا توجد نتائج — جرّب كلمة بحث أخرى.", loading:"جارٍ تحميل المنتجات…",
     load_failed:"تعذّر تحميل المنتجات. لو بتفتح الملف محليًا استخدم خادمًا بسيطًا: python -m http.server",
+    label_kind:"النوع",
     total:"الإجمالي", store_total:"إجمالي", copy_btn:"نسخ القائمة", copy_store_btn:"نسخ", copied:"تم النسخ ✓", copy_failed:"تعذّر النسخ — جرّب متصفحًا آخر",
     clear_all_btn:"مسح الكل", clear_store_btn:"مسح", cleared:"تم المسح ✓",
     added:"تمت الإضافة ✓", remove:"إزالة", dupe_of:"مستوحى من", duped_by:"مصدر إلهام لـ",
@@ -478,14 +488,55 @@ function productHasStore(p, storeName){
   return (p.stores||[]).some(s => s.name===storeName);
 }
 
+/* Kind/Store/Sort all render as clickable rows in the sidebar (rather than
+   native <select>s) now that they live in a persistent panel instead of a
+   toolbar dropdown — Brand stays a <select> since it can run to hundreds
+   of entries, where a native picker's typeahead/scroll beats a bespoke list. */
+function buildFilterRows(container, entries, activeValue, onPick){
+  container.innerHTML = entries.map(e => `
+    <button class="filter-row" type="button" data-value="${e.value}" aria-pressed="${String(e.value===activeValue)}">
+      <span class="filter-row-label">${e.swatch ? '<span class="swatch"></span>' : ''}${e.label}</span>
+      ${e.count!=null ? `<span class="count">${e.count}</span>` : ""}
+    </button>`).join("");
+  container.querySelectorAll(".filter-row").forEach(row => {
+    row.addEventListener("click", () => onPick(row.dataset.value));
+  });
+}
+
+function populateKindFilter(){
+  const counts = { all: PRODUCTS.length, decant: 0, full: 0, leftover: 0 };
+  PRODUCTS.forEach(p => {
+    ["decant","full","leftover"].forEach(k => { if(productHasKind(p, k)) counts[k]++; });
+  });
+  const entries = [
+    { value:"all", label:t().filter_all, count:counts.all, swatch:true },
+    { value:"decant", label:t().filter_decant, count:counts.decant, swatch:true },
+    { value:"full", label:t().filter_full, count:counts.full, swatch:true },
+    { value:"leftover", label:t().filter_leftover, count:counts.leftover, swatch:true },
+  ];
+  buildFilterRows(document.getElementById("kindList"), entries, filter, value => {
+    filter = value;
+    populateKindFilter();
+    updateFilterBadge();
+    render();
+  });
+}
+
 function populateStoreFilter(){
-  const names = [...new Set(PRODUCTS.flatMap(p => (p.stores||[]).map(s => s.name)))].sort();
-  const sel = document.getElementById("storeFilter");
-  const prev = sel.value || "all";
-  sel.innerHTML = `<option value="all">${t().store_all}</option>` +
-    names.map(n => `<option value="${n}">${n}</option>`).join("");
-  sel.value = names.includes(prev) ? prev : "all";
-  storeFilter = sel.value;
+  const counts = {};
+  PRODUCTS.forEach(p => (p.stores||[]).forEach(s => { counts[s.name] = (counts[s.name]||0) + 1; }));
+  const names = Object.keys(counts).sort();
+  if(storeFilter!=="all" && !names.includes(storeFilter)) storeFilter = "all";
+  const entries = [
+    { value:"all", label:t().store_all },
+    ...names.map(n => ({ value:n, label:n, count:counts[n] })),
+  ];
+  buildFilterRows(document.getElementById("storeList"), entries, storeFilter, value => {
+    storeFilter = value;
+    populateStoreFilter();
+    updateFilterBadge();
+    render();
+  });
 }
 
 /* Brand values in the data aren't perfectly case-normalized (e.g. "French
@@ -514,15 +565,18 @@ function populateBrandFilter(){
 }
 
 function populateSortOrder(){
-  const sel = document.getElementById("sortOrder");
-  const prev = sel.value || "newest";
-  sel.innerHTML = `
-    <option value="newest">${t().sort_newest}</option>
-    <option value="oldest">${t().sort_oldest}</option>
-    <option value="cheapest">${t().sort_cheapest}</option>
-    <option value="default">${t().sort_default}</option>`;
-  sel.value = prev;
-  sortOrder = sel.value;
+  const entries = [
+    { value:"newest", label:t().sort_newest },
+    { value:"oldest", label:t().sort_oldest },
+    { value:"cheapest", label:t().sort_cheapest },
+    { value:"default", label:t().sort_default },
+  ];
+  buildFilterRows(document.getElementById("sortList"), entries, sortOrder, value => {
+    sortOrder = value;
+    populateSortOrder();
+    updateFilterBadge();
+    render();
+  });
 }
 
 function productCheapestPrice(p){
@@ -562,10 +616,6 @@ function applyI18n(){
   document.getElementById("shopName").textContent = lang==="ar" ? (SETTINGS.site_name_ar||t().site_name) : (SETTINGS.site_name_en||t().site_name);
   document.getElementById("shopTag").textContent = t().tag;
   document.getElementById("search").placeholder = t().search_ph;
-  document.querySelector('[data-filter="all"]').textContent = t().filter_all;
-  document.querySelector('[data-filter="decant"]').textContent = t().filter_decant;
-  document.querySelector('[data-filter="full"]').textContent = t().filter_full;
-  document.querySelector('[data-filter="leftover"]').textContent = t().filter_leftover;
   document.getElementById("cartLabel").textContent = t().cart_label;
   document.getElementById("drawerTitle").textContent = t().drawer_title;
   document.getElementById("totalLabel").textContent = t().total;
@@ -575,12 +625,14 @@ function applyI18n(){
   document.getElementById("toggleTheme").textContent = theme==="dark" ? t().theme_to_light : t().theme_to_dark;
   document.getElementById("disclaimer").textContent = t().disclaimer;
   document.getElementById("cartDisclaimer").textContent = t().disclaimer;
+  document.getElementById("kindLabel").textContent = t().label_kind;
   document.getElementById("storeFilterLabel").textContent = t().label_store;
   document.getElementById("brandFilterLabel").textContent = t().label_brand;
   document.getElementById("sortOrderLabel").textContent = t().label_sort;
   document.getElementById("viewLabel").textContent = t().label_view;
   document.getElementById("viewAutoBtn").textContent = t().view_auto;
   document.getElementById("filtersToggleLabel").textContent = t().filters_label;
+  populateKindFilter();
   populateStoreFilter();
   populateBrandFilter();
   populateSortOrder();
@@ -768,9 +820,9 @@ document.addEventListener("keydown", e => { if(e.key === "Escape") closeLightbox
 function resetFilters(){
   filter = "all"; query = ""; storeFilter = "all"; brandFilter = "all";
   document.getElementById("search").value = "";
-  document.getElementById("storeFilter").value = "all";
   document.getElementById("brandFilter").value = "all";
-  document.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed", String(c.dataset.filter==="all")));
+  populateKindFilter();
+  populateStoreFilter();
   updateFilterBadge();
 }
 
@@ -800,16 +852,8 @@ document.getElementById("homeLink").addEventListener("click", e=>{
   window.scrollTo({top: 0, behavior: "smooth"});
 });
 
-document.querySelectorAll(".chip").forEach(ch => ch.addEventListener("click", ()=>{
-  document.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed","false"));
-  ch.setAttribute("aria-pressed","true");
-  filter = ch.dataset.filter;
-  render();
-}));
 document.getElementById("search").addEventListener("input", e=>{ query=e.target.value; render(); });
-document.getElementById("storeFilter").addEventListener("change", e=>{ storeFilter=e.target.value; updateFilterBadge(); render(); });
 document.getElementById("brandFilter").addEventListener("change", e=>{ brandFilter=e.target.value; updateFilterBadge(); render(); });
-document.getElementById("sortOrder").addEventListener("change", e=>{ sortOrder=e.target.value; updateFilterBadge(); render(); });
 
 function applyGridCols(){
   if(gridCols === "auto") grid.removeAttribute("data-cols");
@@ -824,31 +868,31 @@ document.querySelectorAll(".view-btn").forEach(b => b.addEventListener("click", 
 }));
 applyGridCols();
 
-/* "More filters" (store/brand/sort/view) collapses behind a toggle button
-   only on narrow screens (see .filters-toggle{display:none} above that
-   width) — the badge shows how many of those are set away from their
-   default, so it's obvious at a glance whether anything's hidden behind
-   the toggle worth expanding. */
-const tbMore = document.getElementById("tbMore");
+/* The sidebar (all filters) is persistent on wide screens; on narrow ones
+   it becomes a slide-in panel toggled by this button — same drawer
+   pattern as the cart. The badge shows how many filters are set away from
+   their default, so it's obvious at a glance whether it's worth opening. */
+const sidebar = document.getElementById("sidebar");
+const sidebarOverlay = document.getElementById("sidebarOverlay");
 const filtersToggle = document.getElementById("filtersToggle");
+const closeSidebar = ()=>{
+  sidebar.classList.remove("open");
+  sidebarOverlay.classList.remove("open");
+  filtersToggle.setAttribute("aria-expanded", "false");
+};
 filtersToggle.onclick = ()=>{
-  const open = tbMore.classList.toggle("open");
+  const open = sidebar.classList.toggle("open");
+  sidebarOverlay.classList.toggle("open", open);
   filtersToggle.setAttribute("aria-expanded", String(open));
 };
+sidebarOverlay.onclick = closeSidebar;
 function updateFilterBadge(){
-  const n = [storeFilter!=="all", brandFilter!=="all", sortOrder!=="newest", gridCols!=="auto"].filter(Boolean).length;
+  const n = [filter!=="all", storeFilter!=="all", brandFilter!=="all", sortOrder!=="newest", gridCols!=="auto"].filter(Boolean).length;
   const badge = document.getElementById("filterBadge");
   badge.textContent = n;
   badge.hidden = n === 0;
-  document.getElementById("storeFilterClear").hidden = storeFilter==="all";
   document.getElementById("brandFilterClear").hidden = brandFilter==="all";
 }
-document.getElementById("storeFilterClear").onclick = ()=>{
-  storeFilter = "all";
-  document.getElementById("storeFilter").value = "all";
-  updateFilterBadge();
-  render();
-};
 document.getElementById("brandFilterClear").onclick = ()=>{
   brandFilter = "all";
   document.getElementById("brandFilter").value = "all";
