@@ -560,9 +560,24 @@
           ],
           "image": "images/pecan-butter-cookie-arabiyat-sugar--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/copy-french-vanilla-latte"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 965,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/pecan-butter-cookie--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/pecan-butter-cookie"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": []
     },
     {
       "id": "charisma-atyab-al-sheekh",
@@ -1300,126 +1315,6 @@
       "_hero_source": "sniffz"
     },
     {
-      "id": "x-aromatix-forbidden-fruit",
-      "name_ar": "",
-      "name_en": "X Aromatix Forbidden Fruit",
-      "brand": "French Avenue",
-      "dupe_of": [],
-      "image": "images/x-aromatix-forbidden-fruit.jpg",
-      "accords": [
-        {
-          "label_en": "Blood Orange",
-          "label_ar": "",
-          "color": "#F9FF52",
-          "w": 100
-        },
-        {
-          "label_en": "Bergamot",
-          "label_ar": "",
-          "color": "#F9FF52",
-          "w": 90
-        },
-        {
-          "label_en": "Cardamom",
-          "label_ar": "",
-          "color": "#CC3300",
-          "w": 80
-        },
-        {
-          "label_en": "Red Apple",
-          "label_ar": "",
-          "color": "#FC4B29",
-          "w": 70
-        },
-        {
-          "label_en": "Margarita",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 60
-        },
-        {
-          "label_en": "Peach",
-          "label_ar": "",
-          "color": "#FC4B29",
-          "w": 50
-        },
-        {
-          "label_en": "Rose",
-          "label_ar": "",
-          "color": "#FE016B",
-          "w": 40
-        },
-        {
-          "label_en": "Amber",
-          "label_ar": "",
-          "color": "#bc4d10",
-          "w": 40
-        },
-        {
-          "label_en": "Vanilla Absolute",
-          "label_ar": "",
-          "color": "#FFFEC0",
-          "w": 40
-        },
-        {
-          "label_en": "Benzoin",
-          "label_ar": "",
-          "color": "#ad8359",
-          "w": 40
-        },
-        {
-          "label_en": "Cedarwood",
-          "label_ar": "",
-          "color": "#774414",
-          "w": 40
-        },
-        {
-          "label_en": "Musk",
-          "label_ar": "",
-          "color": "#E7D8EA",
-          "w": 40
-        },
-        {
-          "label_en": "Sandalwood",
-          "label_ar": "",
-          "color": "#774414",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 180,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 230,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 350,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/x-aromatix-forbidden-fruit--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/french-avenue-x-aromatix-forbidden-fruit"
-        }
-      ],
-      "_hero_source": "sniffz"
-    },
-    {
       "id": "berries-cream-macaron",
       "name_ar": "Berries Cream Macaron",
       "name_en": "Berries Cream Macaron",
@@ -1532,32 +1427,6 @@
       ],
       "_hero_source": "eldesoki-fragrances",
       "aliases": []
-    },
-    {
-      "id": "pecan-butter-cookie",
-      "name_ar": "Pecan Butter Cookie",
-      "name_en": "Pecan Butter Cookie",
-      "brand": "Arabiyat Prestige",
-      "dupe_of": [],
-      "image": "images/pecan-butter-cookie.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 965,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/pecan-butter-cookie--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/pecan-butter-cookie"
-        }
-      ],
-      "_hero_source": "emaratiscents"
     },
     {
       "id": "muscat-dkhoon-emirates",
@@ -1925,38 +1794,6 @@
         }
       ],
       "_hero_source": "MO Shawky"
-    },
-    {
-      "id": "urban-le-parfum",
-      "name_ar": "اربان لو باررفم بديل لومال لو بارفم ١٠ملي",
-      "name_en": "Urban Le Parfum",
-      "brand": "Fragrance World",
-      "dupe_of": [],
-      "image": "images/urban-le-parfum.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 120,
-              "first_seen": "2026-07-18"
-            },
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 525,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/urban-le-parfum--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/urban-le-parfum-50ml%d8%a7%d8%b1%d8%a8%d8%a7%d9%86-%d9%84%d9%88-%d8%a8%d8%a7%d8%b1%d9%81%d9%85-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "dior-homme-parfum",
@@ -2332,99 +2169,6 @@
       ]
     },
     {
-      "id": "absolu-aventus-2025",
-      "name_ar": "",
-      "name_en": "Absolu Aventus 2025",
-      "brand": "Creed",
-      "dupe_of": [],
-      "image": "images/absolu-aventus-2025.jpg",
-      "accords": [
-        {
-          "label_en": "Pineapple",
-          "label_ar": "",
-          "color": "#FC4B29",
-          "w": 100
-        },
-        {
-          "label_en": "Black Currant",
-          "label_ar": "",
-          "color": "#FC4B29",
-          "w": 90
-        },
-        {
-          "label_en": "Grapefruit",
-          "label_ar": "",
-          "color": "#F9FF52",
-          "w": 80
-        },
-        {
-          "label_en": "Bergamot",
-          "label_ar": "",
-          "color": "#F9FF52",
-          "w": 70
-        },
-        {
-          "label_en": "Lemon",
-          "label_ar": "",
-          "color": "#F9FF52",
-          "w": 60
-        },
-        {
-          "label_en": "Pink Pepper",
-          "label_ar": "",
-          "color": "#83C928",
-          "w": 50
-        },
-        {
-          "label_en": "Cardamom",
-          "label_ar": "",
-          "color": "#CC3300",
-          "w": 40
-        },
-        {
-          "label_en": "Ginger",
-          "label_ar": "",
-          "color": "#83C928",
-          "w": 40
-        },
-        {
-          "label_en": "Cinnamon",
-          "label_ar": "",
-          "color": "#CC3300",
-          "w": 40
-        },
-        {
-          "label_en": "Patchouli",
-          "label_ar": "",
-          "color": "#63652e",
-          "w": 40
-        },
-        {
-          "label_en": "Vetiver",
-          "label_ar": "",
-          "color": "#544838",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 23000,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/absolu-aventus-2025--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/creed-absolu-aventus-2025-full-sealed"
-        }
-      ],
-      "_hero_source": "sniffz"
-    },
-    {
       "id": "al-nashama",
       "name_ar": "النشامة جولد ١٠٠ملي",
       "name_en": "Al Nashama",
@@ -2501,44 +2245,6 @@
         }
       ],
       "_hero_source": "perfuzone"
-    },
-    {
-      "id": "odyssey-spectra-rainbow-edition",
-      "name_ar": "Odyssey Spectra Rainbow Edition",
-      "name_en": "Odyssey Spectra Rainbow Edition",
-      "brand": "Armaf",
-      "dupe_of": [],
-      "image": "images/odyssey-spectra-rainbow-edition.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 165,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 450,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1375,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/odyssey-spectra-rainbow-edition--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/odyssey-spectra-rainbow-edition"
-        }
-      ],
-      "_hero_source": "og-perfume"
     },
     {
       "id": "musk-and-roses-ahmed",
@@ -8388,9 +8094,26 @@
           ],
           "image": "images/fakhar-black--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/fakhar-black-lattafa-perfumes"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1180,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/fakhar-lattafa-men--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/fakhar-lattafa-men-by-lattafa"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Fakhar Lattafa Men"
+      ]
     },
     {
       "id": "nuha-bon-bon",
@@ -9074,8 +8797,13 @@
               "price": 23000,
               "first_seen": "2026-01-01"
             }
-          ]
+          ],
+          "image": "images/absolu-aventus-2025--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/creed-absolu-aventus-2025-full-sealed"
         }
+      ],
+      "aliases": [
+        "Absolu Aventus 2025"
       ]
     },
     {
@@ -19136,32 +18864,6 @@
       "_hero_source": "emaratiscents"
     },
     {
-      "id": "fakhar-lattafa-men",
-      "name_ar": "Fakhar Lattafa Men",
-      "name_en": "Fakhar Lattafa Men",
-      "brand": "Lattafa",
-      "dupe_of": [],
-      "image": "images/fakhar-lattafa-men.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1180,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/fakhar-lattafa-men--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/fakhar-lattafa-men-by-lattafa"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
       "id": "oud-zuhal-limited-edition",
       "name_ar": "Oud Zuhal Limited Edition",
       "name_en": "Oud Zuhal Limited Edition",
@@ -23641,6 +23343,18 @@
               "ml": 100,
               "price": 950,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 120,
+              "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 525,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/urban-man-le-parfum--eldesoki-fragrances.jpg",
@@ -23667,7 +23381,10 @@
           "product_url": "https://og-perfume.com/products/urban-man-le-parfum"
         }
       ],
-      "_hero_source": "roseperfume"
+      "_hero_source": "roseperfume",
+      "aliases": [
+        "Urban Le Parfum"
+      ]
     },
     {
       "id": "aura",
@@ -30834,9 +30551,38 @@
           ],
           "image": "images/odyssey-spectra-rainbow--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/odyssey-spectra-rainbow-100ml%d8%a7%d9%88%d8%af%d9%8a%d8%b3%d9%8a-%d8%b3%d8%a8%d9%8a%d9%83%d8%aa%d8%b1%d8%a7-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d8%b1%d9%85%d8%a7%d9%81/"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 165,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 450,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1375,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/odyssey-spectra-rainbow-edition--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/odyssey-spectra-rainbow-edition"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Odyssey Spectra Rainbow Edition"
+      ]
     },
     {
       "id": "pesca",
@@ -71700,9 +71446,41 @@
           ],
           "image": "images/aromatix-forbidden-fruit--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/aromatix-forbidden-fruit"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 180,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 230,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 350,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/x-aromatix-forbidden-fruit--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/french-avenue-x-aromatix-forbidden-fruit"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "X Aromatix Forbidden Fruit"
+      ]
     },
     {
       "id": "anfas-oud",
