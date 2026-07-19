@@ -28887,9 +28887,32 @@
           ],
           "image": "images/marwa--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/marwa-arabiyat-prestige-100ml%d9%85%d8%b1%d9%88%d8%a9-%d9%85%d9%86-%d8%b9%d8%b1%d8%a8%d9%8a%d8%a7%d8%aa-%d8%a8%d8%b1%d9%8a%d8%b3%d8%aa%d9%8a%da%86-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 210,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 270,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/arbiyat-prestige-marwa--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/arbiyat-prestige-marwa"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Arbiyat Prestige Marwa"
+      ]
     },
     {
       "id": "y-eau-de-parfum",
@@ -76964,38 +76987,6 @@
           ],
           "image": "images/vanilla-voyage-maison-asrar--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/maison-asrar-vanilla-voyage-1"
-        }
-      ],
-      "_hero_source": "perfuzone"
-    },
-    {
-      "id": "arbiyat-prestige-marwa",
-      "name_ar": "Arbiyat Prestige Marwa",
-      "name_en": "Arbiyat Prestige Marwa",
-      "brand": "Arabiyat Prestige",
-      "dupe_of": [],
-      "image": "images/arbiyat-prestige-marwa.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 210,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 270,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/arbiyat-prestige-marwa--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/arbiyat-prestige-marwa"
         }
       ],
       "_hero_source": "perfuzone"
