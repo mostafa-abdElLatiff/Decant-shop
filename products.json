@@ -25889,7 +25889,7 @@
               "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/ricci-ricci-nina-ricci-1784420657--mo-shawky.jpg",
+          "image": "images/ricci-ricci-nina-ricci--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ricci-ricci-nina-ricci-5ml-348"
         }
       ],
@@ -27946,7 +27946,7 @@
               "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/spicebomb-extreme-viktor-rolf-1784420749--mo-shawky.jpg",
+          "image": "images/spicebomb-extreme-viktor-rolf--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/spicebomb-extreme-viktor-rolf-5-ml-55"
         },
         {
@@ -79079,6 +79079,102 @@
         }
       ],
       "_hero_source": "roseperfume"
+    },
+    {
+      "id": "nice-bergamote",
+      "name_ar": "",
+      "name_en": "Nice Bergamote",
+      "brand": "Essential Parfums",
+      "dupe_of": [],
+      "image": "images/nice-bergamote.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 200,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 300,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 500,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/nice-bergamote--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-nice-bergamote-3ml-485"
+        }
+      ],
+      "_hero_source": "MO Shawky"
+    },
+    {
+      "id": "212-vip-ros-love-ny-women-ch",
+      "name_ar": "",
+      "name_en": "212 VIP Rosé Love NY women",
+      "brand": "CH",
+      "dupe_of": [],
+      "image": "images/212-vip-ros-love-ny-women-ch.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 285,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 500,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/212-vip-ros-love-ny-women-ch--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ch-212-vip-rose-love-ny-women-5ml-377"
+        }
+      ],
+      "_hero_source": "MO Shawky"
+    },
+    {
+      "id": "legacy-cristiano-ronaldo-1784488753",
+      "name_ar": "",
+      "name_en": "Legacy Cristiano Ronaldo",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/legacy-cristiano-ronaldo-1784488753.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 325,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/legacy-cristiano-ronaldo-1784488753--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/legacy-cristiano-ronaldo-10ml-256"
+        }
+      ],
+      "_hero_source": "MO Shawky"
     }
   ]
 }
