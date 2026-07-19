@@ -29,11 +29,13 @@ Run whenever you want to refresh this store's listings:
 Commits locally if anything changed — never pushes. Review with
 `git log` / `git diff` and push yourself when ready.
 """
+import concurrent.futures
 import html
 import json
 import re
 import subprocess
 import sys
+import time
 import urllib.request
 from pathlib import Path
 
@@ -48,11 +50,27 @@ STORE_URL = "https://www.facebook.com/mo.freeto.play/"
 STORE_SLUG = slugify(STORE_NAME)
 IMAGES_DIR = CATALOG.parent / "images"
 
+# The sibling-size crawl alone hits ~250-300 individual detail pages on this
+# store's free/shared Odoo instance, which is often slow to respond — done
+# one at a time (as this used to) that's 5-8 minutes of serial round trips
+# and any single slow/dropped request had no retry, so it could hard-fail
+# the whole script. Fetches now retry with backoff, and the crawl runs with
+# bounded concurrency instead of strictly sequentially.
+DETAIL_CRAWL_WORKERS = 8
 
-def fetch(path: str) -> str:
+
+def fetch(path: str, attempts: int = 4) -> str:
     req = urllib.request.Request(f"{BASE_URL}{path}", headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return resp.read().decode("utf-8", errors="ignore")
+    for attempt in range(attempts):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return resp.read().decode("utf-8", errors="ignore")
+        except Exception as e:
+            if attempt == attempts - 1:
+                raise
+            wait = 5 * (attempt + 1)
+            print(f"  fetch failed for {path} ({e}), retrying in {wait}s ({attempt + 1}/{attempts})...")
+            time.sleep(wait)
 
 
 def total_pages(html: str) -> int:
@@ -112,10 +130,63 @@ def split_brand(name_and_size: str):
     return {"name_en": name_en, "brand": brand, "ml": ml}
 
 
-def download_image(url, dest_path):
+def download_image(url, dest_path, attempts: int = 4):
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        dest_path.write_bytes(resp.read())
+    for attempt in range(attempts):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                dest_path.write_bytes(resp.read())
+            return
+        except Exception as e:
+            if attempt == attempts - 1:
+                raise
+            wait = 5 * (attempt + 1)
+            print(f"  image fetch failed for {url} ({e}), retrying in {wait}s ({attempt + 1}/{attempts})...")
+            time.sleep(wait)
+
+
+def fetch_detail(url: str):
+    """Fetch+parse one listing's detail page. Returns None on a page that
+    doesn't parse (not on a network error — those propagate so the crawl
+    loop can log and skip just that one URL)."""
+    detail_html = fetch(url[len(BASE_URL):])
+    return parse_detail_page(detail_html)
+
+
+def crawl_sibling_sizes(cards: list) -> int:
+    """Follow every listing's sibling-size buttons, breadth-first, with
+    bounded concurrency instead of one request at a time."""
+    url_to_card = {c["product_url"]: c for c in cards if c.get("product_url")}
+    seen = set(url_to_card.keys())
+    extra = 0
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=DETAIL_CRAWL_WORKERS) as pool:
+        pending = {pool.submit(fetch_detail, url): url for url in seen}
+        while pending:
+            done, _ = concurrent.futures.wait(pending, return_when=concurrent.futures.FIRST_COMPLETED)
+            for fut in done:
+                url = pending.pop(fut)
+                try:
+                    detail = fut.result()
+                except Exception as e:
+                    print(f"  ✗ couldn't fetch {url}: {e}")
+                    continue
+                if not detail:
+                    continue
+                if url not in url_to_card:
+                    card = {
+                        "title": detail["title"], "price": detail["price"],
+                        "image": detail["image"], "product_url": url,
+                    }
+                    cards.append(card)
+                    url_to_card[url] = card
+                    extra += 1
+                for sib in detail["siblings"]:
+                    sib_url = f"{BASE_URL}{sib}"
+                    if sib_url not in seen:
+                        seen.add(sib_url)
+                        pending[pool.submit(fetch_detail, sib_url)] = sib_url
+    return extra
 
 
 def main():
@@ -130,36 +201,8 @@ def main():
         cards.extend(parse_cards(html))
     print(f"  {len(cards)} listings")
 
-    print("  checking each listing's detail page for sibling sizes...")
-    url_to_card = {c["product_url"]: c for c in cards if c.get("product_url")}
-    queue = list(url_to_card.keys())
-    seen = set(queue)
-    extra = 0
-    qi = 0
-    while qi < len(queue):
-        url = queue[qi]
-        qi += 1
-        try:
-            detail_html = fetch(url[len(BASE_URL):])
-        except Exception as e:
-            print(f"  ✗ couldn't fetch {url}: {e}")
-            continue
-        detail = parse_detail_page(detail_html)
-        if not detail:
-            continue
-        if url not in url_to_card:
-            card = {
-                "title": detail["title"], "price": detail["price"],
-                "image": detail["image"], "product_url": url,
-            }
-            cards.append(card)
-            url_to_card[url] = card
-            extra += 1
-        for sib in detail["siblings"]:
-            sib_url = f"{BASE_URL}{sib}"
-            if sib_url not in seen:
-                seen.add(sib_url)
-                queue.append(sib_url)
+    print(f"  checking each listing's detail page for sibling sizes ({DETAIL_CRAWL_WORKERS} at a time)...")
+    extra = crawl_sibling_sizes(cards)
     print(f"  +{extra} sibling size(s) found via detail pages")
 
     parsed = []
