@@ -2651,32 +2651,6 @@
       "_hero_source": "og-perfume"
     },
     {
-      "id": "texas-tobacco-almas",
-      "name_ar": "تيكساس توباكو الماس ١٠٠ملي",
-      "name_en": "Texas Tobacco Almas",
-      "brand": "Almas",
-      "dupe_of": [],
-      "image": "images/texas-tobacco-almas.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 875,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/texas-tobacco-almas--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/texas-tobacco-almas-100ml%d8%aa%d9%8a%d9%83%d8%b3%d8%a7%d8%b3-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d8%a7%d9%84%d9%85%d8%a7%d8%b3-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "the-one-for-men-eau-de-parfum",
       "name_ar": "",
       "name_en": "The One for Men Eau de Parfum",
@@ -4656,9 +4630,37 @@
           ],
           "image": "images/nice-bergamote--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-nice-bergamote-5ml-486"
+        },
+        {
+          "name": "Hossam ElDeen Gamal",
+          "url": "https://www.facebook.com/hossameldeien/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 275,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 400,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 750,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/nice-bergamote-by-antoine-maisondieu--hossam-eldeen-gamal.jpg"
         }
       ],
-      "_hero_source": "MO Shawky"
+      "_hero_source": "MO Shawky",
+      "aliases": [
+        "Nice Bergamote by Antoine Maisondieu"
+      ]
     },
     {
       "id": "bleu-glac",
@@ -4882,32 +4884,6 @@
           ],
           "image": "images/qamarain-for-him--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/qamarain-for-him"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "klikat-jassas",
-      "name_ar": "Klikat Jassas",
-      "name_en": "Klikat Jassas",
-      "brand": "Al Ezz Lel Oud",
-      "dupe_of": [],
-      "image": "images/klikat-jassas.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 2200,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/klikat-jassas--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/klikat-jassas-200-ml"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -6963,33 +6939,6 @@
       "_hero_source": "emaratiscents"
     },
     {
-      "id": "drakkar-noir-gl",
-      "name_ar": "دراكار نوار جاي لاروش ٢٠٠ملي",
-      "name_en": "DRAKKAR NOIR GL",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/drakkar-noir-gl.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 2200,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/drakkar-noir-gl--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/drakkar-noir-guy-lariche-edt-200ml/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "thunder",
       "name_ar": "ثاندر ١٠٠ملي من فرينش افينو",
       "name_en": "Thunder",
@@ -7708,7 +7657,7 @@
       "id": "orchid-valley",
       "name_ar": "Orchid Valley",
       "name_en": "Orchid Valley",
-      "brand": "",
+      "brand": "Laverne",
       "dupe_of": [],
       "image": "images/orchid-valley.jpg",
       "accords": [],
@@ -7766,9 +7715,27 @@
           ],
           "image": "images/orchid-valley--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/orchid-valley-laverne"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 1950,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/orchid-valley-laverne--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/orchid-valley-200ml-laverne%d8%a7%d9%88%d8%b1%d9%83%d9%8a%d8%af-%d9%81%d8%a7%d9%84%d9%8a-%d9%85%d9%86-%d9%84%d8%a7%d9%81%d9%8a%d8%b1%d9%86-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Orchid Valley Laverne"
+      ]
     },
     {
       "id": "club-de-nuit-intense-edt",
@@ -8498,45 +8465,6 @@
       ]
     },
     {
-      "id": "equestrian-pierce",
-      "name_ar": "Equestrian Pierce",
-      "name_en": "Equestrian Pierce",
-      "brand": "French Avenue",
-      "dupe_of": [],
-      "image": "images/equestrian-pierce.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 195,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1650,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/equestrian-pierce--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/equestrian-pierce-french-avenue"
-        }
-      ],
-      "_hero_source": "og-perfume"
-    },
-    {
       "id": "flower-women-edp",
       "name_ar": "",
       "name_en": "Flower Women EDP",
@@ -8599,32 +8527,6 @@
           ],
           "image": "images/salvo-intense--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/salvo-intense-maison-alhambra"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "joop-pour-homme-edt",
-      "name_ar": "چوب بور اوم او دو تواليت ١٠ملي",
-      "name_en": "Joop Pour Homme EDT",
-      "brand": "JOOP!",
-      "dupe_of": [],
-      "image": "images/joop-pour-homme-edt.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 150,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/joop-pour-homme-edt--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/joop-pour-homme-edt-10ml%da%86%d9%88%d8%a8-%d8%a8%d9%88%d8%b1-%d8%a7%d9%88%d9%85-%d8%a7%d9%88-%d8%af%d9%88-%d8%aa%d9%88%d8%a7%d9%84%d9%8a%d8%aa-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "eldesoki-fragrances"
@@ -9076,38 +8978,6 @@
         }
       ],
       "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "212-vip-ros-love-ny-women-ch",
-      "name_ar": "",
-      "name_en": "212 VIP Rosé Love NY women",
-      "brand": "CH",
-      "dupe_of": [],
-      "image": "images/212-vip-ros-love-ny-women-ch.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "MO Shawky",
-          "url": "https://www.facebook.com/mo.freeto.play/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 285,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 500,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/212-vip-ros-love-ny-women-ch--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ch-212-vip-rose-love-ny-women-5ml-377"
-        }
-      ],
-      "_hero_source": "MO Shawky"
     },
     {
       "id": "jean-lowe-summer-vibes",
@@ -9868,32 +9738,6 @@
       "_hero_source": "emaratiscents"
     },
     {
-      "id": "black-star",
-      "name_ar": "Black Star",
-      "name_en": "Black Star",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/black-star.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "dar.elarabia",
-          "url": "https://darelarabia.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 3500,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/black-star--dar-elarabia.jpg",
-          "product_url": "https://darelarabia.com/products/black-star"
-        }
-      ],
-      "_hero_source": "dar.elarabia"
-    },
-    {
       "id": "so2-spicy-oud",
       "name_ar": "سبايسي عود جرعة فخر (٧٥ ملي )",
       "name_en": "SO2 Spicy Oud",
@@ -10130,32 +9974,6 @@
           ],
           "image": "images/sugar-musk-ibraq--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/sugar-musk-ibraq-75ml%d9%85%d8%b3%d9%83-%d8%b3%d9%83%d8%b1-%d9%85%d9%86-%d8%a7%d8%a8%d8%b1%d8%a7%d9%82-%d9%a7%d9%a5%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "balas-rose-ibraq",
-      "name_ar": "بالاس روز من القرشي ١٥٠ملي",
-      "name_en": "Balas Rose Ibraq",
-      "brand": "Ibrahim Al Qurashi",
-      "dupe_of": [],
-      "image": "images/balas-rose-ibraq.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 1675,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/balas-rose-ibraq--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/balas-rose-ibraq-150ml%d8%a8%d8%a7%d9%84%d8%a7%d8%b3-%d8%b1%d9%88%d8%b2-%d9%85%d9%86-%d8%a7%d9%84%d9%82%d8%b1%d8%b4%d9%8a-%d9%a1%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "eldesoki-fragrances"
@@ -12050,32 +11868,6 @@
           ],
           "image": "images/scopio-jean-antoine--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/scopio-jean-antoine-200ml%d8%b3%d9%83%d9%88%d8%a8%d9%8a%d9%88-%d9%85%d9%86-%da%86%d9%8a%d9%86-%d8%a7%d9%86%d8%b7%d9%88%d8%a7%d9%86-%d8%a7%d9%84%d9%85%d8%a7%d8%b3-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "legend-collection-laverne-100ml-perfume-body-mist",
-      "name_ar": "Legend Collection Laverne ( 100ml Perfume + 50ml Body Mist )",
-      "name_en": "Legend Collection Laverne 100ml Perfume + Body Mist",
-      "brand": "Laverne",
-      "dupe_of": [],
-      "image": "images/legend-collection-laverne-100ml-perfume-body-mist.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 50,
-              "price": 2250,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/legend-collection-laverne-100ml-perfume-body-mist--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/legend-collection-laverne-100ml-perfume-50ml-body-mist/"
         }
       ],
       "_hero_source": "eldesoki-fragrances"
@@ -14828,38 +14620,6 @@
       "_hero_source": "emaratiscents"
     },
     {
-      "id": "pour-homme-edt",
-      "name_ar": "Pour Homme EDT",
-      "name_en": "Pour Homme EDT",
-      "brand": "Versace",
-      "dupe_of": [],
-      "image": "images/pour-homme-edt.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 300,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 500,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/pour-homme-edt--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/versace-pour-homme-edt"
-        }
-      ],
-      "_hero_source": "perfuzone"
-    },
-    {
       "id": "urban-man-ultra",
       "name_ar": "Urban Man Ultra",
       "name_en": "Urban Man Ultra",
@@ -15877,33 +15637,6 @@
       "_hero_source": "eldesoki-fragrances"
     },
     {
-      "id": "night-saphire-laverne",
-      "name_ar": "نايت سفاير من لافيرن ٢٠٠ملي",
-      "name_en": "Night Saphire Laverne",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/night-saphire-laverne.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 1950,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/night-saphire-laverne--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/night-saphire-laverne-200ml%d9%86%d8%a7%d9%8a%d8%aa-%d8%b3%d9%81%d8%a7%d9%8a%d8%b1-%d9%85%d9%86-%d9%84%d8%a7%d9%81%d9%8a%d8%b1%d9%86-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "tobacco-collection-box-9",
       "name_ar": "ابراق بوكس التوباكو كوليكشن ٩ عطور",
       "name_en": "Tobacco Collection Box 9*",
@@ -16462,30 +16195,6 @@
       "_hero_source": "og-perfume"
     },
     {
-      "id": "gentleman-society-eau-de-parfum-ambr-e",
-      "name_ar": "Gentleman Society Eau de Parfum Ambrée",
-      "name_en": "Gentleman Society Eau de Parfum Ambrée",
-      "brand": "Givenchy",
-      "dupe_of": [],
-      "image": "images/gentleman-society-eau-de-parfum-ambr-e.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Mostafa Mohamed",
-          "url": "https://www.facebook.com/mostafa.mohamed.390048/",
-          "offers": [
-            {
-              "kind": "leftover",
-              "ml": "as-shown",
-              "price": 4650,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/gentleman-society-eau-de-parfum-ambr-e.jpg"
-        }
-      ]
-    },
-    {
       "id": "ardent",
       "name_ar": "Ardent",
       "name_en": "Ardent",
@@ -16607,33 +16316,6 @@
         }
       ],
       "_hero_source": "sniffz"
-    },
-    {
-      "id": "experimentum-crucis-etat-libre-d-orange-tester-box",
-      "name_ar": "اكسبرمنتم سركس تستر بوكس ١٠٠ملي",
-      "name_en": "Experimentum Crucis Etat Libre d’Orange Tester Box",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/experimentum-crucis-etat-libre-d-orange-tester-box.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 6850,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/experimentum-crucis-etat-libre-d-orange-tester-box--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/experimentum-crucis-etat-libre-dorange-tester-box%d8%a7%d9%83%d8%b3%d8%a8%d8%b1%d9%85%d9%86%d8%aa%d9%85-%d8%b3%d8%b1%d9%83%d8%b3-%d8%aa%d8%b3%d8%aa%d8%b1-%d8%a8%d9%88%d9%83%d8%b3/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "gris-eric-intense-assaf",
@@ -16991,32 +16673,6 @@
         }
       ],
       "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "musk-khas-elmas",
-      "name_ar": "مسك الماس الخاص ١٠٠ملي",
-      "name_en": "Musk Khas Elmas",
-      "brand": "Almas",
-      "dupe_of": [],
-      "image": "images/musk-khas-elmas.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1125,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/musk-khas-elmas--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/musk-khas-elmas%d9%85%d8%b3%d9%83-%d8%a7%d9%84%d9%85%d8%a7%d8%b3-%d8%a7%d9%84%d8%ae%d8%a7%d8%b5/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "red-coral-ibraq",
@@ -19578,33 +19234,6 @@
       "_hero_source": "roseperfume"
     },
     {
-      "id": "9pm-night-out-tester-box",
-      "name_ar": "ناين بي ام نايت اوت ١٠٠ملي تستر بوكس",
-      "name_en": "9PM Night Out Tester Box",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/9pm-night-out-tester-box.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1600,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/9pm-night-out-tester-box--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/9pm-night-out-tester-box-100ml%d9%86%d8%a7%d9%8a%d9%86-%d8%a8%d9%8a-%d8%a7%d9%85-%d9%86%d8%a7%d9%8a%d8%aa-%d8%a7%d9%88%d8%aa-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d8%aa%d8%b3%d8%aa%d8%b1-%d8%a8%d9%88/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "homme-eau-de-toilette-intense",
       "name_ar": "",
       "name_en": "Homme Eau de Toilette Intense",
@@ -19762,6 +19391,18 @@
               "ml": 10,
               "price": 175,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 675,
+              "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1125,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/khas-musk--eldesoki-fragrances.jpg",
@@ -19783,7 +19424,11 @@
           "product_url": "https://emaratiscents.com/products/musk-khas"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Khas Musk Almas",
+        "Musk Khas Elmas"
+      ]
     },
     {
       "id": "raed-luxe",
@@ -20377,9 +20022,26 @@
           ],
           "image": "images/balas-rose--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/balas-rose-150ml"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 1675,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/balas-rose-ibraq--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/balas-rose-ibraq-150ml%d8%a8%d8%a7%d9%84%d8%a7%d8%b3-%d8%b1%d9%88%d8%b2-%d9%85%d9%86-%d8%a7%d9%84%d9%82%d8%b1%d8%b4%d9%8a-%d9%a1%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": [
+        "Balas Rose Ibraq"
+      ]
     },
     {
       "id": "qurashi-blend",
@@ -20467,9 +20129,31 @@
           ],
           "image": "images/guidance-46--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/guidance-46"
+        },
+        {
+          "name": "Mostafa Mohamed",
+          "url": "https://www.facebook.com/mostafa.mohamed.390048/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 1250,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 2400,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/guidance-46-woman.jpg"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Guidance 46 Woman"
+      ]
     },
     {
       "id": "nostalgia-5-pour-homme-extrait-de-parfum",
@@ -20922,10 +20606,19 @@
               "ml": 10,
               "price": 600,
               "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "leftover",
+              "ml": "as-shown",
+              "price": 4650,
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/gentleman-society-ambr-e.jpg"
         }
+      ],
+      "aliases": [
+        "Gentleman Society Eau de Parfum Ambrée"
       ]
     },
     {
@@ -21813,53 +21506,22 @@
               "ml": 125,
               "price": 1650,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 150,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/joop-homme-edt--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/joop-homme-edt-125ml%da%86%d9%88%d8%a8-%d8%a7%d9%88%d9%85-%d8%a7%d9%88-%d8%af%d9%88-%d8%aa%d9%88%d8%a7%d9%84%d9%8a%d8%aa-%d9%a1%d9%a2%d9%a5%d9%85%d9%84%d9%8a/"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "al-fajr-musk-ibraq",
-      "name_ar": "مسك الفجر من ابراق ٧٥ملي",
-      "name_en": "Al fajr Musk",
-      "brand": "Ibraq",
-      "dupe_of": [],
-      "image": "images/al-fajr-musk-ibraq.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 75,
-              "price": 1175,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/al-fajr-musk-ibraq--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/al-fajr-musk-ibraq-75ml%d9%85%d8%b3%d9%83-%d8%a7%d9%84%d9%81%d8%ac%d8%b1-%d9%85%d9%86-%d8%a7%d8%a8%d8%b1%d8%a7%d9%82-%d9%a7%d9%a5%d9%85%d9%84%d9%8a/"
-        },
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 75,
-              "price": 1700,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/al-fajr-musk-ibraq--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/al-fajr-musk"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Joop Pour Homme EDT"
+      ]
     },
     {
       "id": "smart-collection-521",
@@ -23296,11 +22958,26 @@
           ],
           "image": "images/chelsea-al-rehab-al-rehab--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/chelsea-al-rehab"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 225,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/chelsea-man-al-rehab--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/chelsea-man-al-rehab-50ml%d8%aa%d8%b4%d9%8a%d9%84%d8%b3%d9%8a-%d9%85%d8%a7%d9%86-%d9%85%d9%86-%d8%a7%d9%84%d8%b1%d8%ad%d8%a7%d8%a8-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "roseperfume",
       "aliases": [
-        "Chelsea Al-Rehab"
+        "Chelsea Al-Rehab",
+        "Chelsea Man Al Rehab"
       ]
     },
     {
@@ -23455,33 +23132,6 @@
         }
       ],
       "_hero_source": "roseperfume"
-    },
-    {
-      "id": "y-edp-yves-saint-laurent-tester-box-authentic",
-      "name_ar": "واي من ايف سان لوران تستر بوكس ١٠٠ملي",
-      "name_en": "Y EDP Yves Saint Laurent Tester Box Authentic",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/y-edp-yves-saint-laurent-tester-box-authentic.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 4875,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/y-edp-yves-saint-laurent-tester-box-authentic--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/y-edp-yves-saint-laurent-tester-box-100ml-authentic-%d9%88%d8%a7%d9%8a-%d9%85%d9%86-%d8%a7%d9%8a%d9%81-%d8%b3%d8%a7%d9%86-%d9%84%d9%88%d8%b1%d8%a7%d9%86-%d8%a7%d9%88-%d8%af%d9%88-%d8%a8%d8%a7%d8%b1/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "fondue-lava-lush",
@@ -24331,9 +23981,27 @@
           ],
           "image": "images/experimentum-crucis--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/etat-libre-dorange-experimentum-crucis"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 6850,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/experimentum-crucis-etat-libre-d-orange-tester-box--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/experimentum-crucis-etat-libre-dorange-tester-box%d8%a7%d9%83%d8%b3%d8%a8%d8%b1%d9%85%d9%86%d8%aa%d9%85-%d8%b3%d8%b1%d9%83%d8%b3-%d8%aa%d8%b3%d8%aa%d8%b1-%d8%a8%d9%88%d9%83%d8%b3/"
         }
       ],
-      "_hero_source": "perfuzone"
+      "_hero_source": "perfuzone",
+      "aliases": [
+        "Experimentum Crucis Etat Libre d’Orange Tester Box"
+      ]
     },
     {
       "id": "freeze-peach-me-cherry-you",
@@ -24917,33 +24585,6 @@
           "image": "images/optimystic.jpg"
         }
       ]
-    },
-    {
-      "id": "aura-edp-jean-antoine",
-      "name_ar": "اورا چين انطوان الماس ١٠٠ملي",
-      "name_en": "Aura EDP Jean Antoine",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/aura-edp-jean-antoine.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 900,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/aura-edp-jean-antoine--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/aura-edp-jean-antoine-100ml%d8%a7%d9%88%d8%b1%d8%a7-%da%86%d9%8a%d9%86-%d8%a7%d9%86%d8%b7%d9%88%d8%a7%d9%86-%d8%a7%d9%84%d9%85%d8%a7%d8%b3-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "artisan-pure",
@@ -26867,100 +26508,6 @@
         }
       ],
       "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "al-haramain-amber-oud-aqua-dubai",
-      "name_ar": "",
-      "name_en": "Al Haramain Amber Oud Aqua Dubai",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/al-haramain-amber-oud-aqua-dubai.jpg",
-      "accords": [
-        {
-          "label_en": "Bergamot",
-          "label_ar": "",
-          "color": "#F9FF52",
-          "w": 100
-        },
-        {
-          "label_en": "Green Notes",
-          "label_ar": "",
-          "color": "#0E8C1D",
-          "w": 90
-        },
-        {
-          "label_en": "Mandarin Orange",
-          "label_ar": "",
-          "color": "#F9FF52",
-          "w": 80
-        },
-        {
-          "label_en": "Amber",
-          "label_ar": "",
-          "color": "#bc4d10",
-          "w": 70
-        },
-        {
-          "label_en": "Melon",
-          "label_ar": "",
-          "color": "#FC4B29",
-          "w": 60
-        },
-        {
-          "label_en": "Black Currant",
-          "label_ar": "",
-          "color": "#FC4B29",
-          "w": 50
-        },
-        {
-          "label_en": "Pineapple",
-          "label_ar": "",
-          "color": "#FC4B29",
-          "w": 40
-        },
-        {
-          "label_en": "Musk",
-          "label_ar": "",
-          "color": "#E7D8EA",
-          "w": 40
-        },
-        {
-          "label_en": "Petitgrain",
-          "label_ar": "",
-          "color": "#F9FF52",
-          "w": 40
-        },
-        {
-          "label_en": "Galbanum",
-          "label_ar": "",
-          "color": "#0E8C1D",
-          "w": 40
-        },
-        {
-          "label_en": "Vanilla",
-          "label_ar": "",
-          "color": "#FFFEC0",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 4000,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/al-haramain-amber-oud-aqua-dubai--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/al-haramain-amber-oud-aqua-dubai-full-sealed"
-        }
-      ],
-      "_hero_source": "sniffz"
     },
     {
       "id": "vanilla-28",
@@ -29479,9 +29026,32 @@
           ],
           "image": "images/vulcan-feu--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/vulcan-feu-french-avenue"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 220,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 300,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/vulcan-feu-by-french-avenue--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/vulcan-feu-by-french-avenue"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Vulcan Feu By French Avenue"
+      ]
     },
     {
       "id": "akhumar-luban",
@@ -29789,9 +29359,26 @@
           ],
           "image": "images/for-men-intense--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/bentley-for-men-intense"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1875,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/bentley-for-men-intense--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/bentley-intense%d8%a8%d9%86%d8%aa%d9%84%d9%8a-%d8%a5%d9%86%d8%aa%d9%86%d8%b3/"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Bentley For Men Intense"
+      ]
     },
     {
       "id": "replica-by-the-fireplace",
@@ -30309,32 +29896,6 @@
       "_hero_source": "og-perfume"
     },
     {
-      "id": "red-tobacco-intense-mancera-extrait-de-parfum",
-      "name_ar": "مانسيرا ريد توباكو انتنس اكستريت دو بارفم ١٢٠ملي",
-      "name_en": "Red Tobacco Intense Mancera Extrait De Parfum",
-      "brand": "Mancera",
-      "dupe_of": [],
-      "image": "images/red-tobacco-intense-mancera-extrait-de-parfum.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 120,
-              "price": 5250,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/red-tobacco-intense-mancera-extrait-de-parfum--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/red-tobacco-intense-mancera-120ml-extrait-de-parfum%d9%85%d8%a7%d9%86%d8%b3%d9%8a%d8%b1%d8%a7-%d8%b1%d9%8a%d8%af-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d8%a7%d9%86%d8%aa%d9%86%d8%b3-%d8%a7%d9%83%d8%b3/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "le-male-le-parfum",
       "name_ar": "",
       "name_en": "Le Male Le Parfum",
@@ -30402,9 +29963,27 @@
           ],
           "image": "images/le-male-le-parfum--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/jean-paul-gaultier-le-male-le-parfum"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 5950,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/le-male-le-parfum-jpg--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/le-male-le-parfum-jpg-125ml%d9%84%d9%88%d9%85%d8%a7%d9%84-%d9%84%d9%88-%d8%a8%d8%a7%d8%b1%d9%81%d9%85-%d9%85%d9%86-%d8%ac%d9%8a%d9%86-%d8%a8%d9%88%d9%84-%d8%ac%d9%88%d8%aa%d9%8a%d9%87-%d9%a1%d9%a2/"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Le Male Le Parfum JPG"
+      ]
     },
     {
       "id": "magnetiq",
@@ -31356,9 +30935,26 @@
           ],
           "image": "images/red-tobacco-intense--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/red-tobacco-intense-mancera-120ml"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 120,
+              "price": 5250,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/red-tobacco-intense-mancera-extrait-de-parfum--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/red-tobacco-intense-mancera-120ml-extrait-de-parfum%d9%85%d8%a7%d9%86%d8%b3%d9%8a%d8%b1%d8%a7-%d8%b1%d9%8a%d8%af-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d8%a7%d9%86%d8%aa%d9%86%d8%b3-%d8%a7%d9%83%d8%b3/"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": [
+        "Red Tobacco Intense Mancera Extrait De Parfum"
+      ]
     },
     {
       "id": "hawas-exotic",
@@ -32548,6 +32144,13 @@
               "price": 1750,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1600,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
             }
           ],
           "image": "images/9pm-night-out--eldesoki-fragrances.jpg",
@@ -32618,7 +32221,10 @@
           "product_url": "https://og-perfume.com/products/9pm-night-out"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "9PM Night Out Tester Box"
+      ]
     },
     {
       "id": "minya-caramel-dulce",
@@ -34341,33 +33947,6 @@
       "_hero_source": "sniffz"
     },
     {
-      "id": "couture-dkhoon-emirates",
-      "name_ar": "كوتور من دخون الايماراتية ١٠٠ملي",
-      "name_en": "Couture Dkhoon Emirates",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/couture-dkhoon-emirates.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/couture-dkhoon-emirates--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/couture-dokhoon-emirates-%d9%83%d9%88%d8%aa%d9%88%d8%b1-%d9%85%d9%86-%d8%af%d8%ae%d9%88%d9%86-%d8%a7%d9%84%d8%a7%d9%8a%d9%85%d8%a7%d8%b1%d8%a7%d8%aa%d9%8a%d8%a9/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "irth-collection",
       "name_ar": "Irth Collection",
       "name_en": "Irth Collection",
@@ -35483,33 +35062,6 @@
       "aliases": [
         "Maitre De Blue By Maison Alhambra"
       ]
-    },
-    {
-      "id": "le-male-le-parfum-jpg",
-      "name_ar": "لومال لو بارفم من جين بول جوتيه ١٢٥ملي",
-      "name_en": "Le Male Le Parfum JPG",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/le-male-le-parfum-jpg.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 125,
-              "price": 5950,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/le-male-le-parfum-jpg--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/le-male-le-parfum-jpg-125ml%d9%84%d9%88%d9%85%d8%a7%d9%84-%d9%84%d9%88-%d8%a8%d8%a7%d8%b1%d9%81%d9%85-%d9%85%d9%86-%d8%ac%d9%8a%d9%86-%d8%a8%d9%88%d9%84-%d8%ac%d9%88%d8%aa%d9%8a%d9%87-%d9%a1%d9%a2/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "lip-stick",
@@ -36721,38 +36273,6 @@
       "_hero_source": "og-perfume"
     },
     {
-      "id": "ana-al-abiyedh-coral",
-      "name_ar": "Ana Al Abiyedh Coral",
-      "name_en": "Ana Al Abiyedh Coral",
-      "brand": "Lattafa",
-      "dupe_of": [],
-      "image": "images/ana-al-abiyedh-coral.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 150,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 250,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/ana-al-abiyedh-coral--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/ana-el-abiyedh-coral"
-        }
-      ],
-      "_hero_source": "perfuzone"
-    },
-    {
       "id": "lady-reef",
       "name_ar": "Lady Reef",
       "name_en": "Lady Reef",
@@ -37036,9 +36556,26 @@
           ],
           "image": "images/legend-collection--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/legend-collection"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 2250,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/legend-collection-laverne-100ml-perfume-body-mist--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/legend-collection-laverne-100ml-perfume-50ml-body-mist/"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Legend Collection Laverne 100ml Perfume + Body Mist"
+      ]
     },
     {
       "id": "hersh-x",
@@ -37664,9 +37201,45 @@
           ],
           "image": "images/fakhar-platin--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/fakhar-platin-lattafa-perfumes"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 130,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 350,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 500,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1000,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/fakhar-platine--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/fakhar-platine"
         }
       ],
-      "_hero_source": "roseperfume"
+      "_hero_source": "roseperfume",
+      "aliases": [
+        "Fakhar Platine"
+      ]
     },
     {
       "id": "opus-v-woods-symphony",
@@ -38745,9 +38318,27 @@
           ],
           "image": "images/french-riviera--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/french-riviera-mancera-120ml"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 120,
+              "price": 5300,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/french-riviera-mancera--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/french-riviera-mancera-120ml%d9%81%d8%b1%d9%8a%d9%86%d8%b4-%d8%b1%d9%8a%d9%81%d9%8a%d8%b1%d8%a7-%d9%85%d9%86-%d9%85%d8%a7%d9%86%d8%b3%d9%8a%d8%b1%d8%a7-%d9%a1%d9%a2%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": [
+        "French Riviera Mancera"
+      ]
     },
     {
       "id": "external-club-mpf",
@@ -38913,68 +38504,6 @@
         }
       ],
       "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "bois-imperial-unisex",
-      "name_ar": "Bois Imperial Unisex",
-      "name_en": "Bois Imperial Unisex",
-      "brand": "Essential Parfums",
-      "dupe_of": [],
-      "image": "images/bois-imperial-unisex.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 255,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 425,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 850,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/bois-imperial-unisex--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/essential-parfums-bois-imperial-unisex"
-        }
-      ],
-      "_hero_source": "perfuzone"
-    },
-    {
-      "id": "ana-abiyedh-i-am-white",
-      "name_ar": "أنا الأبيض",
-      "name_en": "Ana Abiyedh (I Am White)",
-      "brand": "Lattafa",
-      "dupe_of": [],
-      "image": "images/ana-abiyedh-i-am-white.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "EsLam Nasser",
-          "url": "https://www.facebook.com/eslam.nasser.10/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": "as-shown",
-              "price": 725,
-              "first_seen": "2026-07-17"
-            }
-          ],
-          "image": "images/ana-abiyedh-i-am-white--eslam-nasser.jpg"
-        }
-      ]
     },
     {
       "id": "dorado",
@@ -40707,6 +40236,13 @@
               "ml": 10,
               "price": 175,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1450,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
             }
           ],
           "image": "images/9am-dive--eldesoki-fragrances.jpg",
@@ -40727,7 +40263,10 @@
           "product_url": "https://emaratiscents.com/products/9-am-by-afnan"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "9AM Dive Tester B.2024"
+      ]
     },
     {
       "id": "stronger-with-you-sandalwood",
@@ -40924,32 +40463,6 @@
         }
       ],
       "_hero_source": "og-perfume"
-    },
-    {
-      "id": "chelsea-man-al-rehab",
-      "name_ar": "تشيلسي مان من الرحاب ٥٠ملي",
-      "name_en": "Chelsea Man Al Rehab",
-      "brand": "Al Rehab",
-      "dupe_of": [],
-      "image": "images/chelsea-man-al-rehab.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 50,
-              "price": 225,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/chelsea-man-al-rehab--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/chelsea-man-al-rehab-50ml%d8%aa%d8%b4%d9%8a%d9%84%d8%b3%d9%8a-%d9%85%d8%a7%d9%86-%d9%85%d9%86-%d8%a7%d9%84%d8%b1%d8%ad%d8%a7%d8%a8-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "cerulean-blue",
@@ -41861,78 +41374,6 @@
       "_hero_source": "emaratiscents"
     },
     {
-      "id": "al-wataniah-kayaan-classic",
-      "name_ar": "",
-      "name_en": "Al Wataniah Kayaan Classic",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/al-wataniah-kayaan-classic.jpg",
-      "accords": [
-        {
-          "label_en": "Orange",
-          "label_ar": "",
-          "color": "#F9FF52",
-          "w": 100
-        },
-        {
-          "label_en": "Bergamot",
-          "label_ar": "",
-          "color": "#F9FF52",
-          "w": 90
-        },
-        {
-          "label_en": "Jasmine",
-          "label_ar": "",
-          "color": "#FF5F8D",
-          "w": 80
-        },
-        {
-          "label_en": "Rose",
-          "label_ar": "",
-          "color": "#FE016B",
-          "w": 70
-        },
-        {
-          "label_en": "Vanilla",
-          "label_ar": "",
-          "color": "#FFFEC0",
-          "w": 60
-        }
-      ],
-      "stores": [
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 120,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 260,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/al-wataniah-kayaan-classic--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/al-wataniah-kayaan-classic"
-        }
-      ],
-      "_hero_source": "sniffz"
-    },
-    {
       "id": "musk-collection-3-75ml-3",
       "name_ar": "شمس وفجر وقمر وعيناتهم",
       "name_en": "Musk Collection 3*75ml / 3*",
@@ -42287,7 +41728,8 @@
       "aliases": [
         "X Scandal",
         "X Scandal Aromatix",
-        "x Xandal Aromatix"
+        "x Xandal Aromatix",
+        "X Aromatix X Xandal"
       ]
     },
     {
@@ -42963,33 +42405,6 @@
         }
       ],
       "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "powder-musk-ibraq",
-      "name_ar": "مسك بودر من ٧٥ملي من ابراق",
-      "name_en": "Powder Musk Ibraq",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/powder-musk-ibraq.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 75,
-              "price": 1150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/powder-musk-ibraq--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/poweder-musk-75ml%d9%85%d8%b3%d9%83-%d8%a8%d8%a7%d9%88%d8%af%d8%b1-%d9%85%d9%86-%d8%a5%d8%a8%d8%b1%d8%a7%d9%87%d9%8a%d9%85-%d8%a7%d9%84%d9%82%d8%b1%d8%b4%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "nocturno-elixir",
@@ -43698,7 +43113,25 @@
             }
           ],
           "image": "images/toy-boy.jpg"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2950,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/moschino-toy-boy-edp--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/moschino-toy-boy-edp-100mltester-box-%d8%aa%d9%88%d9%8a-%d8%a8%d9%88%d9%8a-%d8%aa%d8%b3%d8%aa%d8%b1-%d8%a8%d9%88%d9%83%d8%b3-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         }
+      ],
+      "aliases": [
+        "Moschino Toy Boy EDP"
       ]
     },
     {
@@ -44694,9 +44127,26 @@
           ],
           "image": "images/al-fajr-musk--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/al-fajr-musk"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 1175,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/al-fajr-musk-ibraq--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/al-fajr-musk-ibraq-75ml%d9%85%d8%b3%d9%83-%d8%a7%d9%84%d9%81%d8%ac%d8%b1-%d9%85%d9%86-%d8%a7%d8%a8%d8%b1%d8%a7%d9%82-%d9%a7%d9%a5%d9%85%d9%84%d9%8a/"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Al fajr Musk"
+      ]
     },
     {
       "id": "cocoa-morado",
@@ -45862,32 +45312,6 @@
         }
       ],
       "_hero_source": "MO Shawky"
-    },
-    {
-      "id": "gucci-intense-oud",
-      "name_ar": "جوتشي انتنس عود ٩٠ملي",
-      "name_en": "Gucci Intense Oud",
-      "brand": "Gucci",
-      "dupe_of": [],
-      "image": "images/gucci-intense-oud.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 90,
-              "price": 5950,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/gucci-intense-oud--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/gucci-intense-oud-90ml%d8%ac%d9%88%d8%aa%d8%b4%d9%8a-%d8%a7%d9%86%d8%aa%d9%86%d8%b3-%d8%b9%d9%88%d8%af-%d9%a9%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "doha-skyline",
@@ -47542,38 +46966,6 @@
       "_hero_source": "Mohamed Mohie"
     },
     {
-      "id": "wanted-by-night-edp",
-      "name_ar": "Wanted By Night EDP",
-      "name_en": "Wanted By Night EDP",
-      "brand": "Azzaro",
-      "dupe_of": [],
-      "image": "images/wanted-by-night-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 350,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 550,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/wanted-by-night-edp--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/azzaro-wanted-by-night-edp-1"
-        }
-      ],
-      "_hero_source": "perfuzone"
-    },
-    {
       "id": "acqua-di-gi-elixir",
       "name_ar": "Acqua Di Giò Elixir",
       "name_en": "Acqua Di Giò Elixir",
@@ -48355,9 +47747,38 @@
             }
           ],
           "image": "images/bois-imp-rial--hossam-eldeen-gamal.jpg"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 255,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 425,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 850,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/bois-imperial-unisex--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/essential-parfums-bois-imperial-unisex"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Bois Imperial Unisex"
+      ]
     },
     {
       "id": "arrogate-girl",
@@ -48513,33 +47934,6 @@
       "_hero_source": "sniffz"
     },
     {
-      "id": "9am-dive-tester-b-2024",
-      "name_ar": "ناين دايف تستر بوكس ١٠٠ملي",
-      "name_en": "9AM Dive Tester B.2024",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/9am-dive-tester-b-2024.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1450,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/9am-dive-tester-b-2024--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/9am-dive-tester-batch-2024%d9%86%d8%a7%d9%8a%d9%86-%d8%af%d8%a7%d9%8a%d9%81-%d8%aa%d8%b3%d8%aa%d8%b1-%d8%a8%d9%88%d9%83%d8%b3-%d8%b9%d9%84%d8%a7%d9%85%d8%a9-%d9%85%d8%a7%d8%a6%d9%8a%d8%a9-%d9%82/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "armani-code-absolu-parfum",
       "name_ar": "Armani Code Absolu Parfum",
       "name_en": "Armani Code Absolu Parfum",
@@ -48573,7 +47967,7 @@
       "id": "night-saphire",
       "name_ar": "Night Saphire",
       "name_en": "Night Saphire",
-      "brand": "",
+      "brand": "Laverne",
       "dupe_of": [],
       "image": "images/night-saphire.jpg",
       "accords": [],
@@ -48591,9 +47985,27 @@
           ],
           "image": "images/night-saphire--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/night-saphire"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 1950,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/night-saphire-laverne--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/night-saphire-laverne-200ml%d9%86%d8%a7%d9%8a%d8%aa-%d8%b3%d9%81%d8%a7%d9%8a%d8%b1-%d9%85%d9%86-%d9%84%d8%a7%d9%81%d9%8a%d8%b1%d9%86-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Night Saphire Laverne"
+      ]
     },
     {
       "id": "y-edp-refill",
@@ -49659,13 +49071,22 @@
               "ml": 10,
               "price": 140,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1200,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/sun-pearl--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/sun-pearl-10ml%d8%b5%d9%86-%d8%a8%d9%8a%d8%b1%d9%84-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d8%ab%d9%8a%d9%86%d8%a7/"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Sun Pearl Athena"
+      ]
     },
     {
       "id": "winsome",
@@ -50377,7 +49798,30 @@
             }
           ],
           "image": "images/wanted-by-night--hossam-eldeen-gamal.jpg"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 350,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 550,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/wanted-by-night-edp--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/azzaro-wanted-by-night-edp-1"
         }
+      ],
+      "aliases": [
+        "Wanted By Night EDP"
       ]
     },
     {
@@ -52116,13 +51560,28 @@
               "ml": 50,
               "price": 850,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 155,
+              "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1350,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/oud-touch--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/oud-touch-50ml%d8%b9%d9%88%d8%af-%d8%aa%d8%a7%d8%aa%d8%b4-%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%81%d8%b1%d8%a7%d9%86%d9%83-%d8%a7%d9%88%d9%84%d9%8a%d9%81%d9%8a%d8%b1/"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Oud Touch Frank Oliver"
+      ]
     },
     {
       "id": "aura-c35",
@@ -52316,9 +51775,26 @@
           ],
           "image": "images/l-homme-id-al-eau-de-parfum--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/guerlain-l-homme-ideal-eau-de-parfum"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4450,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/l-homme-id-al-eau-de-parfum-guerlain-tester-box--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/lhomme-ideal-eau-de-parfum-guerlain-tester-box-100ml%d8%ac%d9%8a%d8%b1%d9%84%d8%a7%d9%86-%d9%84%d9%88%d9%85-%d8%a7%d9%88-%d8%af%d9%88-%d8%a8%d8%a7%d8%b1%d9%81%d9%85-%d8%aa%d8%b3%d8%aa%d8%b1/"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "L’Homme Idéal Eau de Parfum Guerlain Tester Box"
+      ]
     },
     {
       "id": "encode",
@@ -54834,13 +54310,22 @@
               "ml": 10,
               "price": 115,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 875,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/texas-tobacco--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/texas-tobacco-10ml%d8%aa%d9%83%d8%b3%d8%a7%d8%b3-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Texas Tobacco Almas"
+      ]
     },
     {
       "id": "alien-hypersense-women",
@@ -56035,13 +55520,23 @@
               "ml": 100,
               "price": 3650,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2950,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
             }
           ],
           "image": "images/amber-oud-tobacco-edition-extrait-de-parfum--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/amber-oud-tobacco-edition-100ml-extrait-de-parfum/"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Al Haramain Amber Oud Tobacco Edition Tester Box Authentic"
+      ]
     },
     {
       "id": "masa",
@@ -57030,7 +56525,37 @@
             }
           ],
           "image": "images/pierce-an-equestrian-series.jpg"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 195,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 750,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1650,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/equestrian-pierce--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/equestrian-pierce-french-avenue"
         }
+      ],
+      "aliases": [
+        "Equestrian Pierce"
       ]
     },
     {
@@ -57183,51 +56708,6 @@
         }
       ],
       "_hero_source": "Mohamed Mohie"
-    },
-    {
-      "id": "fakhar-platine",
-      "name_ar": "Fakhar Platine",
-      "name_en": "Fakhar Platine",
-      "brand": "Lattafa",
-      "dupe_of": [],
-      "image": "images/fakhar-platine.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 130,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 350,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 500,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1000,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/fakhar-platine--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/fakhar-platine"
-        }
-      ],
-      "_hero_source": "og-perfume"
     },
     {
       "id": "renaissance",
@@ -58228,40 +57708,6 @@
       ]
     },
     {
-      "id": "badee-al-oud-honor-and-glory",
-      "name_ar": "Badee Al Oud Honor and Glory",
-      "name_en": "Badee Al Oud Honor and Glory",
-      "brand": "Lattafa",
-      "dupe_of": [],
-      "image": "images/badee-al-oud-honor-and-glory.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 130,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1100,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/badee-al-oud-honor-and-glory--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/badee-al-oud-honor-and-glory"
-        }
-      ],
-      "_hero_source": "og-perfume"
-    },
-    {
       "id": "new-bond-st",
       "name_ar": "",
       "name_en": "New Bond St.",
@@ -58726,9 +58172,34 @@
           ],
           "image": "images/badee-al-oud-honor-glory--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/lattafa-badee-al-oud-honor-glory"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 130,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1100,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/badee-al-oud-honor-and-glory--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/badee-al-oud-honor-and-glory"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Badee Al Oud Honor and Glory"
+      ]
     },
     {
       "id": "gardenia",
@@ -61124,47 +60595,6 @@
       "_hero_source": "roseperfume"
     },
     {
-      "id": "homme-edp-for-men",
-      "name_ar": "Homme EDP For Men",
-      "name_en": "Homme EDP For Men",
-      "brand": "Kenzo",
-      "dupe_of": [],
-      "image": "images/homme-edp-for-men.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 350,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 1000,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 3250,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/homme-edp-for-men--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/kenzo-homme-edp-for-men"
-        }
-      ],
-      "_hero_source": "og-perfume"
-    },
-    {
       "id": "odyssey-tyrant",
       "name_ar": "اوديسي تايرنت ١٠٠ملي من ارماف",
       "name_en": "Odyssey Tyrant",
@@ -62006,32 +61436,6 @@
       "_hero_source": "og-perfume"
     },
     {
-      "id": "kaaf-extrait-de-parfum",
-      "name_ar": "كاف ١٠٠ملي اكتسريت من احمد المغربي",
-      "name_en": "Kaaf Extrait De Parfum",
-      "brand": "Ahmed Al Maghribi",
-      "dupe_of": [],
-      "image": "images/kaaf-extrait-de-parfum.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1775,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/kaaf-extrait-de-parfum--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/kaaf-extrait-de-parfum-100ml%d9%83%d8%a7%d9%81-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d8%a7%d9%83%d8%aa%d8%b3%d8%b1%d9%8a%d8%aa-%d9%85%d9%86-%d8%a7%d8%ad%d9%85%d8%af-%d8%a7%d9%84%d9%85%d8%ba%d8%b1/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "smart-collection-671",
       "name_ar": "671",
       "name_en": "671",
@@ -62389,32 +61793,6 @@
         }
       ],
       "_hero_source": "sniffz"
-    },
-    {
-      "id": "shaghaf-oud-tonka-edp",
-      "name_ar": "Shaghaf Oud Tonka Edp",
-      "name_en": "Shaghaf Oud Tonka Edp",
-      "brand": "Swiss Arabian",
-      "dupe_of": [],
-      "image": "images/shaghaf-oud-tonka-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 75,
-              "price": 2800,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/shaghaf-oud-tonka-edp--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/shaghaf-oud-tonka-edp"
-        }
-      ],
-      "_hero_source": "emaratiscents"
     },
     {
       "id": "ana-abyadeh-rouge",
@@ -63581,13 +62959,23 @@
               "price": 5950,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4875,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
             }
           ],
           "image": "images/y-edp-yves-saint-laurent--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/y-edp-yves-saint-laurent-100ml%d9%88%d8%a7%d9%8a-%d9%85%d9%86-%d8%a7%d9%8a%d9%81-%d8%b3%d8%a7%d9%86-%d9%84%d9%88%d8%b1%d8%a7%d9%86-%d8%a7%d9%88-%d8%af%d9%88-%d8%a8%d8%a7%d8%b1%d9%81%d9%85-%d9%a1/"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Y EDP Yves Saint Laurent Tester Box Authentic"
+      ]
     },
     {
       "id": "aqriz",
@@ -63727,6 +63115,18 @@
               "ml": 50,
               "price": 1250,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 250,
+              "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/carnal-desire--eldesoki-fragrances.jpg",
@@ -63758,9 +63158,27 @@
           ],
           "image": "images/carnal-desire--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/aromatix-carnal-desire"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/carnal-desire-aromatix--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/aromatix-carnal-desire"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Carnal Desire Aromatix",
+        "Aromatix Carnal Desire"
+      ]
     },
     {
       "id": "al-noor",
@@ -65016,6 +64434,12 @@
               "ml": 10,
               "price": 180,
               "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "full",
+              "ml": "as-shown",
+              "price": 725,
+              "first_seen": "2026-07-17"
             }
           ],
           "image": "images/ana-abiyedh.jpg"
@@ -65050,7 +64474,10 @@
           "product_url": "https://eldesoki-fragrances.com/product/ana-abiyedh-60ml%d8%a3%d9%86%d8%a7-%d8%a7%d9%84%d8%a3%d8%a8%d9%8a%d8%b6-%d9%a6%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Ana Abiyedh (I Am White)"
+      ]
     },
     {
       "id": "powder-musk-75ml",
@@ -65775,9 +65202,26 @@
           ],
           "image": "images/black-star-him--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/black-star"
+        },
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3500,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/black-star--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/black-star"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": [
+        "Black Star"
+      ]
     },
     {
       "id": "gentle-fluidity-silver",
@@ -66001,33 +65445,6 @@
       "_hero_source": "MO Shawky"
     },
     {
-      "id": "moschino-toy-boy-edp",
-      "name_ar": "Tester Box توي بوي تستر بوكس ١٠٠ملي",
-      "name_en": "Moschino Toy Boy EDP",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/moschino-toy-boy-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2950,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/moschino-toy-boy-edp--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/moschino-toy-boy-edp-100mltester-box-%d8%aa%d9%88%d9%8a-%d8%a8%d9%88%d9%8a-%d8%aa%d8%b3%d8%aa%d8%b1-%d8%a8%d9%88%d9%83%d8%b3-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "unspoken-musk",
       "name_ar": "Unspoken Musk",
       "name_en": "Unspoken Musk",
@@ -66106,9 +65523,26 @@
           ],
           "image": "images/shaghaf-oud-tonka--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/swiss-arabian-shaghaf-oud-tonka"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 2800,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/shaghaf-oud-tonka-edp--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/shaghaf-oud-tonka-edp"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Shaghaf Oud Tonka Edp"
+      ]
     },
     {
       "id": "crush-on-me",
@@ -66822,32 +66256,6 @@
       "_hero_source": "MO Shawky"
     },
     {
-      "id": "prime-26-le-bonheur",
-      "name_ar": "برايم ٢٦ من لابونير الماس ١٠٠ملي",
-      "name_en": "Prime 26 Le Bonheur",
-      "brand": "Le Bonheur",
-      "dupe_of": [],
-      "image": "images/prime-26-le-bonheur.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1700,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/prime-26-le-bonheur--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/prime-26-le-bonheur-100ml%d8%a8%d8%b1%d8%a7%d9%8a%d9%85-%d9%a2%d9%a6-%d9%85%d9%86-%d9%84%d8%a7%d8%a8%d9%88%d9%86%d9%8a%d8%b1-%d8%a7%d9%84%d9%85%d8%a7%d8%b3-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "erba-pura",
       "name_ar": "Erba Pura",
       "name_en": "Erba Pura",
@@ -66905,7 +66313,36 @@
             }
           ],
           "image": "images/erba-pura--hossam-eldeen-gamal.jpg"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 390,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 830,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 1300,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/erba-pura-edp--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/xerjoff-erba-pura-edp"
         }
+      ],
+      "aliases": [
+        "Erba Pura EDP"
       ]
     },
     {
@@ -67134,9 +66571,26 @@
           ],
           "image": "images/musk-07--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/swiss-arabian-musk-07"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 3600,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/musk-07-edp--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/musk-74-poudre-edp"
         }
       ],
-      "_hero_source": "perfuzone"
+      "_hero_source": "perfuzone",
+      "aliases": [
+        "Musk 07 Edp"
+      ]
     },
     {
       "id": "wanderlust",
@@ -68118,32 +67572,6 @@
       "_hero_source": "roseperfume"
     },
     {
-      "id": "kilkat-times-ezz-oud",
-      "name_ar": "كلكات تايمز ٢٠٠ملي من العز للعود",
-      "name_en": "Kilkat Times Ezz Oud",
-      "brand": "Al Ezz Lel Oud",
-      "dupe_of": [],
-      "image": "images/kilkat-times-ezz-oud.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 1600,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/kilkat-times-ezz-oud--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/kilkat-times-200ml-ezz-oud%d9%83%d9%84%d9%83%d8%a7%d8%aa-%d8%aa%d8%a7%d9%8a%d9%85%d8%b2-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d9%84%d8%b9%d8%b2-%d9%84%d9%84%d8%b9%d9%88%d8%af/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "cedrat-boise-edp",
       "name_ar": "Cedrat Boise EDP",
       "name_en": "Cedrat Boise EDP",
@@ -68997,9 +68425,27 @@
           ],
           "image": "images/drakkar-noir--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/guy-laroche-drakkar-noir-10ml-71"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2200,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/drakkar-noir-gl--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/drakkar-noir-guy-lariche-edt-200ml/"
         }
       ],
-      "_hero_source": "MO Shawky"
+      "_hero_source": "MO Shawky",
+      "aliases": [
+        "DRAKKAR NOIR GL"
+      ]
     },
     {
       "id": "ricci-ricci-nina-ricci",
@@ -69457,9 +68903,41 @@
           ],
           "image": "images/kenzo-homme-eau-de-parfum--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/kenzo-homme-edp-110ml%d9%83%d9%8a%d9%86%d8%b2%d9%88-%d8%a7%d9%88%d9%85-%d8%a7%d9%88-%d8%af%d9%88-%d8%a8%d8%a7%d8%b1%d9%81%d9%85-%d9%a1%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 350,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 1000,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3250,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/homme-edp-for-men--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/kenzo-homme-edp-for-men"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Homme EDP For Men"
+      ]
     },
     {
       "id": "hawas-chrome",
@@ -73369,9 +72847,26 @@
           ],
           "image": "images/jassas-ezz-oud--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/jassas-200ml-ezz-oud%d8%ac%d8%b3%d8%a7%d8%b3-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d9%84%d8%b9%d8%b2-%d9%84%d9%84%d8%b9%d9%88%d8%af/"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2200,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/klikat-jassas--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/klikat-jassas-200-ml"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Klikat Jassas"
+      ]
     },
     {
       "id": "aqriz-l-absolu",
@@ -73969,44 +73464,6 @@
         }
       ],
       "_hero_source": "sniffz"
-    },
-    {
-      "id": "erba-pura-edp",
-      "name_ar": "Erba Pura EDP",
-      "name_en": "Erba Pura EDP",
-      "brand": "Xerjoff",
-      "dupe_of": [],
-      "image": "images/erba-pura-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 390,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 830,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 1300,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/erba-pura-edp--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/xerjoff-erba-pura-edp"
-        }
-      ],
-      "_hero_source": "perfuzone"
     },
     {
       "id": "shem",
@@ -75364,7 +74821,10 @@
           "product_url": "https://roseperfume.online/products/al-faris-arabiyat-prestige"
         }
       ],
-      "_hero_source": "roseperfume"
+      "_hero_source": "roseperfume",
+      "aliases": [
+        "Al Faris Arabiyat"
+      ]
     },
     {
       "id": "grey-pearl-diamond-ibrahim-al-qurashi",
@@ -76526,32 +75986,6 @@
       "_hero_source": "eldesoki-fragrances"
     },
     {
-      "id": "musk-07-edp",
-      "name_ar": "Musk 07 Edp",
-      "name_en": "Musk 07 Edp",
-      "brand": "Swiss Arabian",
-      "dupe_of": [],
-      "image": "images/musk-07-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 50,
-              "price": 3600,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/musk-07-edp--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/musk-74-poudre-edp"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
       "id": "blueberry-musk",
       "name_ar": "Blueberry Musk",
       "name_en": "Blueberry Musk",
@@ -76759,13 +76193,22 @@
               "ml": 100,
               "price": 900,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 1600,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/kilkat-times--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/kilkat-times-100ml%d9%83%d9%84%d9%83%d8%a7%d8%aa-%d8%aa%d8%a7%d9%8a%d9%85%d8%b2-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Kilkat Times Ezz Oud"
+      ]
     },
     {
       "id": "reverie-aqua",
@@ -78486,9 +77929,32 @@
           ],
           "image": "images/pour-homme--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/versace-pour-homme"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 300,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 500,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/pour-homme-edt--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/versace-pour-homme-edt"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Pour Homme EDT"
+      ]
     },
     {
       "id": "ramz-lattafa-silver",
@@ -79891,13 +79357,23 @@
               "ml": 50,
               "price": 2475,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4200,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
             }
           ],
           "image": "images/most-wanted-edp-intense--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/most-wanted-edp-intense-50ml%d9%85%d9%88%d8%b3%d8%aa-%d9%88%d9%86%d8%aa%d8%af-%d8%a7%d8%b2%d8%a7%d8%b1%d9%88-%d8%a7%d9%88-%d8%af%d9%88-%d8%a8%d8%a7%d8%b1%d9%81%d9%85-%d8%a7%d9%86%d8%aa%d9%86%d8%b3/"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Azzaro The Most Wanted EDP Intense"
+      ]
     },
     {
       "id": "royal-blend-vintage",
@@ -81916,32 +81392,6 @@
         }
       ],
       "_hero_source": "sniffz"
-    },
-    {
-      "id": "bentley-for-men-intense",
-      "name_ar": "بنتلي فور من انتنس ١٠٠ملي",
-      "name_en": "Bentley For Men Intense",
-      "brand": "Bentley",
-      "dupe_of": [],
-      "image": "images/bentley-for-men-intense.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1875,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/bentley-for-men-intense--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/bentley-intense%d8%a8%d9%86%d8%aa%d9%84%d9%8a-%d8%a5%d9%86%d8%aa%d9%86%d8%b3/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "musk-pistachio-ithra-dubai",
@@ -85097,33 +84547,6 @@
       "_hero_source": "MO Shawky"
     },
     {
-      "id": "lord-blue-alrehab",
-      "name_ar": "لورد بلو من الرحاب ٥٠ملي",
-      "name_en": "Lord Blue ALREHAB",
-      "brand": "Al Rehab",
-      "dupe_of": [],
-      "image": "images/lord-blue-alrehab.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 50,
-              "price": 200,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/lord-blue-alrehab--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/lord-blue-alrehab-50ml%d9%84%d9%88%d8%b1%d8%af-%d8%a8%d9%84%d9%88-%d9%85%d9%86-%d8%a7%d9%84%d8%b1%d8%ad%d8%a7%d8%a8-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "cookie-dough",
       "name_ar": "Cookie Dough",
       "name_en": "Cookie Dough",
@@ -85449,9 +84872,26 @@
             }
           ],
           "image": "images/intense-oud--hossam-eldeen-gamal.jpg"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 5950,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/gucci-intense-oud--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/gucci-intense-oud-90ml%d8%ac%d9%88%d8%aa%d8%b4%d9%8a-%d8%a7%d9%86%d8%aa%d9%86%d8%b3-%d8%b9%d9%88%d8%af-%d9%a9%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Gucci Intense Oud"
+      ]
     },
     {
       "id": "fondue-velvet-dip",
@@ -85940,6 +85380,13 @@
               "ml": 100,
               "price": 1675,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1450,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
             }
           ],
           "image": "images/9pm-elixir--eldesoki-fragrances.jpg",
@@ -85981,7 +85428,10 @@
           "product_url": "https://og-perfume.com/products/9pm-elixir-afnan"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "9PM Elixir Tester Box"
+      ]
     },
     {
       "id": "cardamon-musk",
@@ -87114,38 +86564,6 @@
       "_hero_source": "emaratiscents"
     },
     {
-      "id": "lataffa-asad-elixir",
-      "name_ar": "Lataffa Asad Elixir",
-      "name_en": "Lataffa Asad Elixir",
-      "brand": "Lattafa",
-      "dupe_of": [],
-      "image": "images/lataffa-asad-elixir.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 150,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 200,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/lataffa-asad-elixir--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/lataffa-asad-elixir"
-        }
-      ],
-      "_hero_source": "perfuzone"
-    },
-    {
       "id": "le-sel-d-issey",
       "name_ar": "",
       "name_en": "Le Sel d'Issey",
@@ -87334,65 +86752,6 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "amber-royal-laverne",
-      "name_ar": "عنبر رويال من لافيرن ٢٠٠ملي",
-      "name_en": "Amber Royal Laverne",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/amber-royal-laverne.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 1550,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/amber-royal-laverne--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/amber-royal-200ml-laverne%d8%b9%d9%86%d8%a8%d8%b1-%d8%b1%d9%88%d9%8a%d8%a7%d9%84-%d9%85%d9%86-%d9%84%d8%a7%d9%81%d9%8a%d8%b1%d9%86-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "vulcan-feu-by-french-avenue",
-      "name_ar": "Vulcan Feu By French Avenue",
-      "name_en": "Vulcan Feu By French Avenue",
-      "brand": "French Avenue",
-      "dupe_of": [],
-      "image": "images/vulcan-feu-by-french-avenue.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 220,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 300,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/vulcan-feu-by-french-avenue--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/vulcan-feu-by-french-avenue"
-        }
-      ],
-      "_hero_source": "perfuzone"
     },
     {
       "id": "discovery-diamond-set",
@@ -88236,7 +87595,7 @@
       "id": "amber-royal",
       "name_ar": "عنبر رويال من لافيرن (١٠ملي)",
       "name_en": "Amber Royal",
-      "brand": "",
+      "brand": "Laverne",
       "dupe_of": [],
       "image": "images/amber-royal.jpg",
       "accords": [],
@@ -88250,13 +87609,23 @@
               "ml": 10,
               "price": 150,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 1550,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
             }
           ],
           "image": "images/amber-royal--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/amber-royal-10ml%d8%b9%d9%86%d8%a8%d8%b1-%d8%b1%d9%88%d9%8a%d8%a7%d9%84-%d9%85%d9%86-%d9%84%d8%a7%d9%81%d9%8a%d8%b1%d9%86-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Amber Royal Laverne"
+      ]
     },
     {
       "id": "shahama",
@@ -88616,9 +87985,39 @@
           ],
           "image": "images/haydan-an-equestrian-series--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/an-equestrian-series-haydan-french-avenue"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 175,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 800,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1550,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/equestrian-haydan--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/equestrian-haydan-french-avenue"
         }
       ],
-      "_hero_source": "roseperfume"
+      "_hero_source": "roseperfume",
+      "aliases": [
+        "Equestrian Haydan"
+      ]
     },
     {
       "id": "y-edp-intense",
@@ -88773,9 +88172,27 @@
           ],
           "image": "images/lord-blue-al-rehab--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/lord-blue-al-rehab"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 200,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/lord-blue-alrehab--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/lord-blue-alrehab-50ml%d9%84%d9%88%d8%b1%d8%af-%d8%a8%d9%84%d9%88-%d9%85%d9%86-%d8%a7%d9%84%d8%b1%d8%ad%d8%a7%d8%a8-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
-      "_hero_source": "roseperfume"
+      "_hero_source": "roseperfume",
+      "aliases": [
+        "Lord Blue ALREHAB"
+      ]
     },
     {
       "id": "art-of-universe",
@@ -88824,32 +88241,6 @@
         }
       ],
       "_hero_source": "og-perfume"
-    },
-    {
-      "id": "sun-pearl-athena",
-      "name_ar": "صن بيرل ١٠٠ملي من اثينا",
-      "name_en": "Sun Pearl Athena",
-      "brand": "Athena",
-      "dupe_of": [],
-      "image": "images/sun-pearl-athena.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1200,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/sun-pearl-athena--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/sun-pearl-athena-100ml%d8%b5%d9%86-%d8%a8%d9%8a%d8%b1%d9%84-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d8%ab%d9%8a%d9%86%d8%a7/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "black-horse-al-rehab-perfumes",
@@ -88932,13 +88323,22 @@
               "ml": 80,
               "price": 1400,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1700,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/prime-26--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/prime-26-80ml%d8%a8%d8%b1%d8%a7%d9%8a%d9%85-%d9%a2%d9%a6-%d9%a8%d9%a0%d9%85%d9%84%d9%8a-%d8%b5%d8%a7%d8%b9%d8%a8%d8%a9-%d9%81%d9%8a-%d8%a7%d9%84%d8%aa%d9%82%d8%b3%d9%8a%d9%85/"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Prime 26 Le Bonheur"
+      ]
     },
     {
       "id": "shaghaf-amber-infusion",
@@ -88989,32 +88389,6 @@
           ],
           "image": "images/solo-musk-vanilla--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/solo-musk-vanilla-100ml%d8%b3%d9%88%d9%84%d9%88-%d9%85%d8%b3%d9%83-%d9%81%d8%a7%d9%86%d9%8a%d9%84%d8%a7-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "soul-bruno-jean-antoine",
-      "name_ar": "سول برونو من جين انطوان ١٠٠ملي",
-      "name_en": "Soul Bruno Jean Antoine",
-      "brand": "Jean Antoine",
-      "dupe_of": [],
-      "image": "images/soul-bruno-jean-antoine.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 825,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/soul-bruno-jean-antoine--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/soul-bruno-jean-antoine%d8%b3%d9%88%d9%84-%d8%a8%d8%b1%d9%88%d9%86%d9%88-%d9%85%d9%86-%d8%ac%d9%8a%d9%86-%d8%a7%d9%86%d8%b7%d9%88%d8%a7%d9%86-%d8%a7%d9%84%d9%85%d8%a7%d8%b3/"
         }
       ],
       "_hero_source": "eldesoki-fragrances"
@@ -89883,123 +89257,6 @@
       "_hero_source": "eldesoki-fragrances"
     },
     {
-      "id": "al-faris-arabiyat-prestige",
-      "name_ar": "الفارس عربيات",
-      "name_en": "Al Faris Arabiyat",
-      "brand": "MY PERFUMES",
-      "dupe_of": [],
-      "image": "images/al-faris-arabiyat-prestige.jpg",
-      "accords": [
-        {
-          "label_en": "Driftwood",
-          "label_ar": "الأخشاب الطافية",
-          "color": "#774414",
-          "w": 100
-        },
-        {
-          "label_en": "Ivy",
-          "label_ar": "اللبلاب",
-          "color": "#0E8C1D",
-          "w": 90
-        },
-        {
-          "label_en": "Geranium",
-          "label_ar": "إبرة الراعي",
-          "color": "#0E8C1D",
-          "w": 80
-        },
-        {
-          "label_en": "Coconut",
-          "label_ar": "جوز الهند",
-          "color": "#FC4B29",
-          "w": 70
-        },
-        {
-          "label_en": "Plum",
-          "label_ar": "البرقوق",
-          "color": "#FC4B29",
-          "w": 60
-        },
-        {
-          "label_en": "Lily of the Valley",
-          "label_ar": "زنبق الوادي",
-          "color": "#FF5F8D",
-          "w": 50
-        },
-        {
-          "label_en": "Orange",
-          "label_ar": "البرتقال",
-          "color": "#F9FF52",
-          "w": 40
-        },
-        {
-          "label_en": "Orange Blossom",
-          "label_ar": "الزهر",
-          "color": "#edf2fb",
-          "w": 40
-        },
-        {
-          "label_en": "Jasmine",
-          "label_ar": "الياسمين",
-          "color": "#FF5F8D",
-          "w": 40
-        },
-        {
-          "label_en": "Violet",
-          "label_ar": "البنفسج",
-          "color": "#EEDDCC",
-          "w": 40
-        },
-        {
-          "label_en": "Cedarwood",
-          "label_ar": "خشب الأرز",
-          "color": "#774414",
-          "w": 40
-        },
-        {
-          "label_en": "Amberwood",
-          "label_ar": "خشب العنبر",
-          "color": "#bc4d10",
-          "w": 40
-        },
-        {
-          "label_en": "Cashmere Wood",
-          "label_ar": "خشب الكشمير",
-          "color": "#774414",
-          "w": 40
-        },
-        {
-          "label_en": "Vanilla",
-          "label_ar": "الفانيليا",
-          "color": "#FFFEC0",
-          "w": 40
-        },
-        {
-          "label_en": "Musk",
-          "label_ar": "المسك",
-          "color": "#E7D8EA",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 550,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/al-faris-arabiyat-prestige--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/al-faris-arabiyat-prestige"
-        }
-      ],
-      "_hero_source": "roseperfume"
-    },
-    {
       "id": "dulzura-vanilla-envie",
       "name_ar": "Dulzura Vanilla Envie",
       "name_en": "Dulzura Vanilla Envie",
@@ -90236,33 +89493,6 @@
         }
       ],
       "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "marcedes-benz-club-black-edt-tester-box",
-      "name_ar": "Marcedes Benz Club Black EDT Tester Box 100ml",
-      "name_en": "Marcedes Benz Club Black EDT Tester Box",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/marcedes-benz-club-black-edt-tester-box.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2450,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/marcedes-benz-club-black-edt-tester-box--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/marcedes-benz-club-black-edt-tester-box-100ml/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "eternal-oud",
@@ -91580,9 +90810,27 @@
           ],
           "image": "images/club-black-edt--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/mercedes-benz-club-black-edt-1"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2450,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/marcedes-benz-club-black-edt-tester-box--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/marcedes-benz-club-black-edt-tester-box-100ml/"
         }
       ],
-      "_hero_source": "perfuzone"
+      "_hero_source": "perfuzone",
+      "aliases": [
+        "Marcedes Benz Club Black EDT Tester Box"
+      ]
     },
     {
       "id": "pour-homme-wild-mint",
@@ -91698,9 +90946,26 @@
           ],
           "image": "images/blue-star-him--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/blue-star-him"
+        },
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3500,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/blue-star--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/blue-star"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": [
+        "Blue Star"
+      ]
     },
     {
       "id": "khamrah",
@@ -92070,9 +91335,27 @@
           ],
           "image": "images/dkhoon-couture--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/dkhoon-couture"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1750,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/couture-dkhoon-emirates--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/couture-dokhoon-emirates-%d9%83%d9%88%d8%aa%d9%88%d8%b1-%d9%85%d9%86-%d8%af%d8%ae%d9%88%d9%86-%d8%a7%d9%84%d8%a7%d9%8a%d9%85%d8%a7%d8%b1%d8%a7%d8%aa%d9%8a%d8%a9/"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": [
+        "Couture Dkhoon Emirates"
+      ]
     },
     {
       "id": "vip-blend-amber",
@@ -93669,42 +92952,6 @@
       ]
     },
     {
-      "id": "penhaligon-s-halfeti-leather-eau-de-parfum",
-      "name_ar": "Penhaligon's Halfeti Leather Eau De Parfum",
-      "name_en": "Penhaligon's Halfeti Leather Eau De Parfum",
-      "brand": "Penhaligon's",
-      "dupe_of": [],
-      "image": "images/penhaligon-s-halfeti-leather-eau-de-parfum.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Hossam ElDeen Gamal",
-          "url": "https://www.facebook.com/hossameldeien/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 350,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 550,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 1000,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/penhaligon-s-halfeti-leather-eau-de-parfum--hossam-eldeen-gamal.jpg"
-        }
-      ]
-    },
-    {
       "id": "terre-d-hermes-parfum",
       "name_ar": "",
       "name_en": "Terre d'Hermes Parfum",
@@ -94052,7 +93299,7 @@
       "id": "powder-musk",
       "name_ar": "Powder Musk",
       "name_en": "Powder Musk",
-      "brand": "",
+      "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/powder-musk.jpg",
       "accords": [],
@@ -94090,9 +93337,27 @@
           ],
           "image": "images/powder-musk--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/ibraq-powder-musk"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 1150,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/powder-musk-ibraq--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/poweder-musk-75ml%d9%85%d8%b3%d9%83-%d8%a8%d8%a7%d9%88%d8%af%d8%b1-%d9%85%d9%86-%d8%a5%d8%a8%d8%b1%d8%a7%d9%87%d9%8a%d9%85-%d8%a7%d9%84%d9%82%d8%b1%d8%b4%d9%8a/"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Powder Musk Ibraq"
+      ]
     },
     {
       "id": "blue-laverne-sport",
@@ -94322,13 +93587,22 @@
               "ml": 50,
               "price": 1050,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1775,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/kaaf-extrait--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/kaaf-extrait-50ml%d9%83%d8%a7%d9%81-%d8%a7%d9%83%d8%b3%d8%aa%d8%b1%d9%8a%d8%aa-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Kaaf Extrait De Parfum"
+      ]
     },
     {
       "id": "silver-lake",
@@ -94367,32 +93641,6 @@
         }
       ],
       "_hero_source": "og-perfume"
-    },
-    {
-      "id": "aromatix-carnal-desire",
-      "name_ar": "Aromatix Carnal Desire",
-      "name_en": "Aromatix Carnal Desire",
-      "brand": "French Avenue",
-      "dupe_of": [],
-      "image": "images/aromatix-carnal-desire.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2250,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/aromatix-carnal-desire--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/aromatix-carnal-desire"
-        }
-      ],
-      "_hero_source": "emaratiscents"
     },
     {
       "id": "fahad-regal",
@@ -94760,33 +94008,6 @@
         }
       ],
       "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "9pm-elixir-tester-box",
-      "name_ar": "ناين بي ام اليكزير تستر بوكس ١٠٠ملي",
-      "name_en": "9PM Elixir Tester Box",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/9pm-elixir-tester-box.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1450,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/9pm-elixir-tester-box--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/9pm-elixir-tester-box-100ml%d9%86%d8%a7%d9%8a%d9%86-%d8%a8%d9%8a-%d8%a7%d9%85-%d8%a7%d9%84%d9%8a%d9%83%d8%b2%d9%8a%d8%b1-%d8%aa%d8%b3%d8%aa%d8%b1-%d8%a8%d9%88%d9%83%d8%b3-%d9%a1%d9%a0%d9%a0%d9%85/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "a-chaos-in-the-ocean",
@@ -95521,55 +94742,32 @@
           ],
           "image": "images/ana-abiyedh-coral--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/ana-abiyedh-coral-60ml%d8%a7%d9%86%d8%a7-%d8%a7%d9%84%d8%a7%d8%a8%d9%8a%d8%b6-%d9%83%d9%88%d8%b1%d8%a7%d9%84-%d9%a6%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "carnal-desire-aromatix",
-      "name_ar": "كارنال ديزاير ١٠٠ملي اروماتكس",
-      "name_en": "Carnal Desire Aromatix",
-      "brand": "Aromatix X French Avenue",
-      "dupe_of": [],
-      "image": "images/carnal-desire-aromatix.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
           "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 150,
+              "first_seen": "2026-07-19"
+            },
             {
               "kind": "decant",
               "ml": 10,
               "price": 250,
-              "first_seen": "2026-07-18"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-19"
             }
           ],
-          "image": "images/carnal-desire-aromatix--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/carnal-desire-aromatix-10ml%d9%83%d8%a7%d8%b1%d9%86%d8%a7%d9%84-%d8%af%d9%8a%d8%b2%d8%a7%d9%8a%d8%b1-%d8%a7%d8%b1%d9%88%d9%85%d8%a7%d8%aa%d9%83%d8%b3-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84/"
-        },
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2250,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/carnal-desire-aromatix--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/aromatix-carnal-desire"
+          "image": "images/ana-al-abiyedh-coral--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/ana-el-abiyedh-coral"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Ana Al Abiyedh Coral"
+      ]
     },
     {
       "id": "eau-d-ombre-leather",
@@ -95961,33 +95159,6 @@
         }
       ],
       "_hero_source": "perfuzone"
-    },
-    {
-      "id": "gentleman-edp-reserve-privee-givenchy",
-      "name_ar": "چينتل مان ريسيرف بريفيه من چيفانشي ١٠٠ملي او دو بارفم",
-      "name_en": "Gentleman EDP Reserve Privee Givenchy",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/gentleman-edp-reserve-privee-givenchy.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 4850,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/gentleman-edp-reserve-privee-givenchy--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/gentleman-edp-reserve-privee-givenchy-100ml%da%86%d9%8a%d9%86%d8%aa%d9%84-%d9%85%d8%a7%d9%86-%d8%b1%d9%8a%d8%b3%d9%8a%d8%b1%d9%81-%d8%a8%d8%b1%d9%8a%d9%81%d9%8a%d9%87-%d9%85%d9%86-%da%86%d9%8a%d9%81/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "khumar-absolute-by-wadi-al-khaleej",
@@ -96671,36 +95842,6 @@
       "_hero_source": "perfuzone"
     },
     {
-      "id": "guidance-46-woman",
-      "name_ar": "Guidance 46 Woman",
-      "name_en": "Guidance 46 Woman",
-      "brand": "Amouage",
-      "dupe_of": [],
-      "image": "images/guidance-46-woman.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Mostafa Mohamed",
-          "url": "https://www.facebook.com/mostafa.mohamed.390048/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 1250,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 2400,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/guidance-46-woman.jpg"
-        }
-      ]
-    },
-    {
       "id": "gentleman-r-serve-priv-e",
       "name_ar": "Gentleman Réserve Privée",
       "name_en": "Gentleman Réserve Privée",
@@ -96761,11 +95902,27 @@
           ],
           "image": "images/gentleman-r-serve-priv-e--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/gentleman-reserve-privee-givenchy-1"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4850,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/gentleman-edp-reserve-privee-givenchy--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/gentleman-edp-reserve-privee-givenchy-100ml%da%86%d9%8a%d9%86%d8%aa%d9%84-%d9%85%d8%a7%d9%86-%d8%b1%d9%8a%d8%b3%d9%8a%d8%b1%d9%81-%d8%a8%d8%b1%d9%8a%d9%81%d9%8a%d9%87-%d9%85%d9%86-%da%86%d9%8a%d9%81/"
         }
       ],
       "_hero_source": "MO Shawky",
       "aliases": [
-        "Gentleman Reserve Privée Givenchy"
+        "Gentleman Reserve Privée Givenchy",
+        "Gentleman EDP Reserve Privee Givenchy"
       ]
     },
     {
@@ -97417,9 +96574,26 @@
           ],
           "image": "images/soul-bruno--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/soul-bruno"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 825,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/soul-bruno-jean-antoine--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/soul-bruno-jean-antoine%d8%b3%d9%88%d9%84-%d8%a8%d8%b1%d9%88%d9%86%d9%88-%d9%85%d9%86-%d8%ac%d9%8a%d9%86-%d8%a7%d9%86%d8%b7%d9%88%d8%a7%d9%86-%d8%a7%d9%84%d9%85%d8%a7%d8%b3/"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Soul Bruno Jean Antoine"
+      ]
     },
     {
       "id": "boisee",
@@ -97727,45 +96901,6 @@
       ]
     },
     {
-      "id": "odyssey-go-mango",
-      "name_ar": "Odyssey Go Mango",
-      "name_en": "Odyssey Go Mango",
-      "brand": "Armaf",
-      "dupe_of": [],
-      "image": "images/odyssey-go-mango.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 165,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 450,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1375,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/odyssey-go-mango--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/odyssey-go-mango"
-        }
-      ],
-      "_hero_source": "og-perfume"
-    },
-    {
       "id": "dominican-tobacco",
       "name_ar": "دومينيكان توباكو من بوكس ابراق (٢٠ملي)",
       "name_en": "Dominican Tobacco",
@@ -97980,9 +97115,32 @@
           ],
           "image": "images/asad-elixir-lattafa-perfumes--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/asad-elixir"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 150,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/lataffa-asad-elixir--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/lataffa-asad-elixir"
         }
       ],
-      "_hero_source": "roseperfume"
+      "_hero_source": "roseperfume",
+      "aliases": [
+        "Lataffa Asad Elixir"
+      ]
     },
     {
       "id": "couture",
@@ -98265,33 +97423,6 @@
         }
       ],
       "_hero_source": "sniffz"
-    },
-    {
-      "id": "al-haramain-amber-oud-tobacco-edition-tester-box-authentic",
-      "name_ar": "الحرمين عنبر عود توباكو اديشن ١٠٠ملي تستر بوكس",
-      "name_en": "Al Haramain Amber Oud Tobacco Edition Tester Box Authentic",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/al-haramain-amber-oud-tobacco-edition-tester-box-authentic.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2950,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/al-haramain-amber-oud-tobacco-edition-tester-box-authentic--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/al-haramain-amber-oud-tobacco-edition-100ml-tester-box-authentic%d8%a7%d9%84%d8%ad%d8%b1%d9%85%d9%8a%d9%86-%d8%b9%d9%86%d8%a8%d8%b1-%d8%b9%d9%88%d8%af-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d8%a7/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "code-eau-de-parfum",
@@ -99733,7 +98864,37 @@
             }
           ],
           "image": "images/go-mango.jpg"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 165,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 450,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1375,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/odyssey-go-mango--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/odyssey-go-mango"
         }
+      ],
+      "aliases": [
+        "Odyssey Go Mango"
       ]
     },
     {
@@ -100990,13 +100151,23 @@
               "ml": 50,
               "price": 500,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 900,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
             }
           ],
           "image": "images/aura-jean-antoine--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/aura-jean-antoine-60ml%d8%a7%d9%88%d8%b1%d8%a7-%da%86%d9%8a%d9%86-%d8%a7%d9%86%d8%b7%d9%88%d8%a7%d9%86-%d9%a6%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Aura EDP Jean Antoine"
+      ]
     },
     {
       "id": "sweet-diamond-pink-pepper",
@@ -101035,32 +100206,6 @@
         }
       ],
       "_hero_source": "perfuzone"
-    },
-    {
-      "id": "khas-musk-almas",
-      "name_ar": "Khas Musk Almas 50ml",
-      "name_en": "Khas Musk Almas",
-      "brand": "Almas",
-      "dupe_of": [],
-      "image": "images/khas-musk-almas.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 675,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/khas-musk-almas--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/khas-musk-almas-50ml/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "essence-de-blanc",
@@ -102245,60 +101390,6 @@
       "_hero_source": "emaratiscents"
     },
     {
-      "id": "azzaro-the-most-wanted-edp-intense",
-      "name_ar": "ازارو ذا موست ونتد او دو بارفم انتنس",
-      "name_en": "Azzaro The Most Wanted EDP Intense",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/azzaro-the-most-wanted-edp-intense.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 4200,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/azzaro-the-most-wanted-edp-intense--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/azzaro-the-most-wanted-edp-intense%d8%a7%d8%b2%d8%a7%d8%b1%d9%88-%d8%b0%d8%a7-%d9%85%d9%88%d8%b3%d8%aa-%d9%88%d9%86%d8%aa%d8%af-%d8%a7%d9%88-%d8%af%d9%88-%d8%a8%d8%a7%d8%b1%d9%81%d9%85-%d8%a7%d9%86/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "orchid-valley-laverne",
-      "name_ar": "اوركيد فالي من لافيرن ٢٠٠ملي",
-      "name_en": "Orchid Valley Laverne",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/orchid-valley-laverne.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 1950,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/orchid-valley-laverne--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/orchid-valley-200ml-laverne%d8%a7%d9%88%d8%b1%d9%83%d9%8a%d8%af-%d9%81%d8%a7%d9%84%d9%8a-%d9%85%d9%86-%d9%84%d8%a7%d9%81%d9%8a%d8%b1%d9%86-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "francique-63-55",
       "name_ar": "Francique 63.55",
       "name_en": "Francique 63.55",
@@ -102437,42 +101528,6 @@
         }
       ],
       "_hero_source": "og-perfume"
-    },
-    {
-      "id": "nice-bergamote-by-antoine-maisondieu",
-      "name_ar": "Nice Bergamote by Antoine Maisondieu",
-      "name_en": "Nice Bergamote by Antoine Maisondieu",
-      "brand": "Essential Parfums",
-      "dupe_of": [],
-      "image": "images/nice-bergamote-by-antoine-maisondieu.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Hossam ElDeen Gamal",
-          "url": "https://www.facebook.com/hossameldeien/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 275,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 400,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 750,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/nice-bergamote-by-antoine-maisondieu--hossam-eldeen-gamal.jpg"
-        }
-      ]
     },
     {
       "id": "la-sera-solara-tigris",
@@ -102839,38 +101894,6 @@
         }
       ],
       "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "x-aromatix-x-xandal",
-      "name_ar": "X Aromatix X Xandal",
-      "name_en": "X Aromatix X Xandal",
-      "brand": "French Avenue",
-      "dupe_of": [],
-      "image": "images/x-aromatix-x-xandal.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 200,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 300,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/x-aromatix-x-xandal--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/french-avenue-x-aromatix-x-xandal"
-        }
-      ],
-      "_hero_source": "perfuzone"
     },
     {
       "id": "vanilla",
@@ -103275,32 +102298,6 @@
         }
       ],
       "_hero_source": "sniffz"
-    },
-    {
-      "id": "l-homme-id-al-eau-de-parfum-guerlain-tester-box",
-      "name_ar": "جيرلان لوم او دو بارفم تستر بوكس ١٠٠ملي",
-      "name_en": "L’Homme Idéal Eau de Parfum Guerlain Tester Box",
-      "brand": "Guerlain",
-      "dupe_of": [],
-      "image": "images/l-homme-id-al-eau-de-parfum-guerlain-tester-box.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 4450,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/l-homme-id-al-eau-de-parfum-guerlain-tester-box--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/lhomme-ideal-eau-de-parfum-guerlain-tester-box-100ml%d8%ac%d9%8a%d8%b1%d9%84%d8%a7%d9%86-%d9%84%d9%88%d9%85-%d8%a7%d9%88-%d8%af%d9%88-%d8%a8%d8%a7%d8%b1%d9%81%d9%85-%d8%aa%d8%b3%d8%aa%d8%b1/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "roshn",
@@ -103783,9 +102780,27 @@
           ],
           "image": "images/amber-oud-aqua-dubai-extrait-de-parfum--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/amber-oud-aqua-dubai-100ml-extrait-de-parfum/"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4000,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/al-haramain-amber-oud-aqua-dubai--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/al-haramain-amber-oud-aqua-dubai-full-sealed"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Al Haramain Amber Oud Aqua Dubai"
+      ]
     },
     {
       "id": "ameer-al-oudh-intense-oud",
@@ -104750,38 +103765,6 @@
           "image": "images/n-roli-plein-sud.jpg"
         }
       ]
-    },
-    {
-      "id": "oud-touch-frank-oliver",
-      "name_ar": "عود تاتش من فرانك اوليفير فرنسي ١٠٠ملي",
-      "name_en": "Oud Touch Frank Oliver",
-      "brand": "Franck Olivier",
-      "dupe_of": [],
-      "image": "images/oud-touch-frank-oliver.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 155,
-              "first_seen": "2026-07-18"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1350,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/oud-touch-frank-oliver--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/frank-oliver-oud-touch-10ml%d8%b9%d9%88%d8%af-%d8%aa%d8%a7%d8%aa%d8%b4-%d9%85%d9%86-%d9%81%d8%b1%d8%a7%d9%86%d9%83-%d8%a7%d9%88%d9%84%d9%8a%d9%81%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "la-sera-valorus-victory",
@@ -105948,9 +104931,41 @@
           ],
           "image": "images/kayaan-classic--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/kayaan-classic"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 120,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 150,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 260,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/al-wataniah-kayaan-classic--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/al-wataniah-kayaan-classic"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": [
+        "Al Wataniah Kayaan Classic"
+      ]
     },
     {
       "id": "odyssey-toffee-coffee",
@@ -106661,9 +105676,37 @@
           ],
           "image": "images/halfeti-leather--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/penhaligons-halfeti-leather"
+        },
+        {
+          "name": "Hossam ElDeen Gamal",
+          "url": "https://www.facebook.com/hossameldeien/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 350,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 550,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 1000,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/penhaligon-s-halfeti-leather-eau-de-parfum--hossam-eldeen-gamal.jpg"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Penhaligon's Halfeti Leather Eau De Parfum"
+      ]
     },
     {
       "id": "the-dandy",
@@ -107004,33 +106047,6 @@
       "_hero_source": "emaratiscents"
     },
     {
-      "id": "french-riviera-mancera",
-      "name_ar": "فرينش ريفيرا من مانسيرا ١٢٠ملي",
-      "name_en": "French Riviera Mancera",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/french-riviera-mancera.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 120,
-              "price": 5300,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/french-riviera-mancera--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/french-riviera-mancera-120ml%d9%81%d8%b1%d9%8a%d9%86%d8%b4-%d8%b1%d9%8a%d9%81%d9%8a%d8%b1%d8%a7-%d9%85%d9%86-%d9%85%d8%a7%d9%86%d8%b3%d9%8a%d8%b1%d8%a7-%d9%a1%d9%a2%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "25-trust",
       "name_ar": "25 Trust",
       "name_en": "25 Trust",
@@ -107308,32 +106324,6 @@
       "aliases": [
         "Khumar Zanzibar By Wadi Al khaleej"
       ]
-    },
-    {
-      "id": "blue-star",
-      "name_ar": "Blue Star",
-      "name_en": "Blue Star",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/blue-star.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "dar.elarabia",
-          "url": "https://darelarabia.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 3500,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/blue-star--dar-elarabia.jpg",
-          "product_url": "https://darelarabia.com/products/blue-star"
-        }
-      ],
-      "_hero_source": "dar.elarabia"
     },
     {
       "id": "zayed",
@@ -109187,45 +108177,6 @@
       "aliases": [
         "Pure Musk By Al Majed Oud"
       ]
-    },
-    {
-      "id": "equestrian-haydan",
-      "name_ar": "Equestrian Haydan",
-      "name_en": "Equestrian Haydan",
-      "brand": "French Avenue",
-      "dupe_of": [],
-      "image": "images/equestrian-haydan.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 175,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 800,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1550,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/equestrian-haydan--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/equestrian-haydan-french-avenue"
-        }
-      ],
-      "_hero_source": "og-perfume"
     },
     {
       "id": "guerlain-lhomme-ideal-extreme-edp",
