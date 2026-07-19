@@ -1518,7 +1518,7 @@
       "id": "white-regent-diamond",
       "name_ar": "وايت ريجينت دايموند ١٥٠ملي من ابراق",
       "name_en": "White Regent Diamond",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/white-regent-diamond.jpg",
       "accords": [],
@@ -1556,9 +1556,45 @@
           ],
           "image": "images/white-regent-diamond--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/white-regent-diamond-200ml-by-ibrahim-al-qurashi"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 145,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 385,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 70,
+              "price": 770,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 1650,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/white-regent-diamond-ibrahim-al-qurashi--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/white-regent-diamond-150ml"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": []
     },
     {
       "id": "pecan-butter-cookie",
@@ -3705,58 +3741,6 @@
       "_hero_source": "og-perfume"
     },
     {
-      "id": "brazillian-tobacco",
-      "name_ar": "Brazillian Tobacco",
-      "name_en": "Brazillian Tobacco",
-      "brand": "Ibrahim Al Qurashi",
-      "dupe_of": [],
-      "image": "images/brazillian-tobacco.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 195,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 525,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1550,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 100,
-              "price": 1150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 2250,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/brazillian-tobacco--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/brazillian-tobacco-100ml"
-        }
-      ],
-      "_hero_source": "og-perfume"
-    },
-    {
       "id": "donna-born-in-roma-ivory-women",
       "name_ar": "",
       "name_en": "Donna Born in Roma Ivory women",
@@ -4777,53 +4761,6 @@
         }
       ],
       "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "white-regent-diamond-ibrahim-al-qurashi",
-      "name_ar": "White Regent Diamond",
-      "name_en": "White Regent Diamond",
-      "brand": "Ibrahim Al Qurashi",
-      "dupe_of": [],
-      "image": "images/white-regent-diamond-ibrahim-al-qurashi.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 145,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 385,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 70,
-              "price": 770,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 1650,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/white-regent-diamond-ibrahim-al-qurashi--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/white-regent-diamond-150ml"
-        }
-      ],
-      "_hero_source": "og-perfume"
     },
     {
       "id": "sweet-paradise",
@@ -6734,7 +6671,7 @@
       "id": "black-diamond-incense",
       "name_ar": "بلاك دايموند انسنس ١٥٠ملي من ابراق",
       "name_en": "Black Diamond Incense",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/black-diamond-incense.jpg",
       "accords": [],
@@ -6772,9 +6709,43 @@
           ],
           "image": "images/black-diamond-incense--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/black-diamond-200-ml-by-ibrahim-al-qurashi"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 150,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 425,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 70,
+              "price": 770,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 1650,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/black-diamond-incense-ibrahim-al-qurashi--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/black-diamond-incense-150ml"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": []
     },
     {
       "id": "cant-forget-me",
@@ -7343,7 +7314,7 @@
       "id": "al-qamar-musk-bundle-75ml-6gm",
       "name_ar": "Al Qamar Musk Bundle ( 75ml + 10ml + 6gm )",
       "name_en": "Al Qamar Musk Bundle 75ml + 10ml + 6gm",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/al-qamar-musk-bundle-75ml-6gm.jpg",
       "accords": [],
@@ -8829,7 +8800,7 @@
       "id": "grey-pearl",
       "name_ar": "جراي بيرل تستر ١٠ملي",
       "name_en": "Grey Pearl",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/grey-pearl.jpg",
       "accords": [],
@@ -9860,9 +9831,26 @@
           ],
           "image": "images/sapphire-leather-ibrahim-al-qurashi--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/sapphire-leather-150-ml"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 2250,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/sapphire-leather--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/sapphire-leather"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": [
+        "Sapphire Leather"
+      ]
     },
     {
       "id": "mystique-bouquet",
@@ -10014,7 +10002,7 @@
       "id": "sugar-musk-ibraq",
       "name_ar": "مسك سكر من ابراق (٧٥ملي)",
       "name_en": "Sugar Musk IBRAQ",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/sugar-musk-ibraq.jpg",
       "accords": [],
@@ -14931,7 +14919,7 @@
       "id": "mini-diamond-6",
       "name_ar": "ميني دايموند ٦ عطور *١٠ملي من ابراق",
       "name_en": "Mini Diamond 6*",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/mini-diamond-6.jpg",
       "accords": [],
@@ -15083,7 +15071,7 @@
       "id": "musk-al-shams-ibraq",
       "name_ar": "مسك الشمس من ابراق ٧٥ملي",
       "name_en": "Musk Al Shams",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/musk-al-shams-ibraq.jpg",
       "accords": [],
@@ -15699,7 +15687,7 @@
       "id": "tobacco-collection-box-9",
       "name_ar": "ابراق بوكس التوباكو كوليكشن ٩ عطور",
       "name_en": "Tobacco Collection Box 9*",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/tobacco-collection-box-9.jpg",
       "accords": [],
@@ -15757,7 +15745,7 @@
       "id": "mini-diamond-collection",
       "name_ar": "Mini Diamond Collection",
       "name_en": "Mini Diamond Collection",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/mini-diamond-collection.jpg",
       "accords": [],
@@ -15942,7 +15930,7 @@
       "id": "brazilian-tobacco",
       "name_ar": "برازيليان توباكو من بوكس ابراق (٢٠ملي)",
       "name_en": "Brazilian Tobacco",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/brazilian-tobacco.jpg",
       "accords": [],
@@ -15982,9 +15970,52 @@
           ],
           "image": "images/brazilian-tobacco--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/brazilian-tobacco-200-ml-by-ibrahim-al-qurashi"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 195,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 525,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1550,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 100,
+              "price": 1150,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2250,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/brazillian-tobacco--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/brazillian-tobacco-100ml"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Brazillian Tobacco"
+      ]
     },
     {
       "id": "impulse-oud",
@@ -19000,7 +19031,7 @@
       "id": "musk-al-qamar-ibraq",
       "name_ar": "مسك القمر من ابراق ٧٥ملي",
       "name_en": "Musk Al Qamar",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/musk-al-qamar-ibraq.jpg",
       "accords": [],
@@ -20091,10 +20122,30 @@
               "ml": 150,
               "price": 1675,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 1200,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/balas-rose-ibraq--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/balas-rose-ibraq-150ml%d8%a8%d8%a7%d9%84%d8%a7%d8%b3-%d8%b1%d9%88%d8%b2-%d9%85%d9%86-%d8%a7%d9%84%d9%82%d8%b1%d8%b4%d9%8a-%d9%a1%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 2250,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/balas-rose-ibraq-ibraq--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/balas-rose"
         }
       ],
       "_hero_source": "og-perfume",
@@ -30181,7 +30232,7 @@
       "id": "pomegranate-musk-ibraq",
       "name_ar": "مسك الرمان ٧٥ملي من ابراق",
       "name_en": "Pomegranate Musk",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/pomegranate-musk-ibraq.jpg",
       "accords": [],
@@ -31653,40 +31704,6 @@
       "_hero_source": "sniffz"
     },
     {
-      "id": "greek-tobacco-ibrahim-al-qurashi",
-      "name_ar": "Greek Tobacco",
-      "name_en": "Greek Tobacco",
-      "brand": "Ibrahim Al Qurashi",
-      "dupe_of": [],
-      "image": "images/greek-tobacco-ibrahim-al-qurashi.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 200,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/greek-tobacco-ibrahim-al-qurashi--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/greek-tobacco"
-        }
-      ],
-      "_hero_source": "og-perfume"
-    },
-    {
       "id": "nebras-elixir",
       "name_ar": "Nebras Elixir",
       "name_en": "Nebras Elixir",
@@ -32253,66 +32270,6 @@
       "_hero_source": "emaratiscents"
     },
     {
-      "id": "nude-coral-diamond-ibrahim-al-qurashi",
-      "name_ar": "Nude Coral Diamond",
-      "name_en": "Nude Coral Diamond",
-      "brand": "Ibrahim Al Qurashi",
-      "dupe_of": [],
-      "image": "images/nude-coral-diamond-ibrahim-al-qurashi.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 385,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 40,
-              "price": 450,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 60,
-              "price": 660,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 70,
-              "price": 825,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 1650,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/nude-coral-diamond-ibrahim-al-qurashi--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/nude-coral-diamond-150ml"
-        }
-      ],
-      "_hero_source": "og-perfume"
-    },
-    {
       "id": "habik-for-men",
       "name_ar": "Habik For Men",
       "name_en": "Habik For Men",
@@ -32423,7 +32380,7 @@
       "id": "emerald-soul-diamond",
       "name_ar": "",
       "name_en": "Emerald Soul Diamond",
-      "brand": "Ibraheem AlQurashi",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/emerald-soul-diamond.jpg",
       "accords": [
@@ -32518,9 +32475,53 @@
           ],
           "image": "images/emerald-soul-diamond--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/emerald-soul-diamond-200ml-by-ibrahim-al-qurashi"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 150,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 400,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 70,
+              "price": 775,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 120,
+              "price": 1320,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 1650,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/emerald-soul-diamond-ibrahim-al-qurashi--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/emerald-soul-diamond"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": []
     },
     {
       "id": "ganymede",
@@ -32837,7 +32838,7 @@
       "id": "honey-musk-confidence-dose",
       "name_ar": "Honey Musk (Confidence Dose)",
       "name_en": "Honey Musk (Confidence Dose)",
-      "brand": "Ibraheem AlQurashi",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/honey-musk-confidence-dose.jpg",
       "accords": [],
@@ -33381,7 +33382,7 @@
       "id": "blue-aqua-diamond",
       "name_ar": "بلو اكوا دايموند ١٥٠ملي من ابراق",
       "name_en": "Blue Aqua Diamond",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/blue-aqua-diamond.jpg",
       "accords": [],
@@ -33834,7 +33835,7 @@
       "id": "irth-collection",
       "name_ar": "Irth Collection",
       "name_en": "Irth Collection",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/irth-collection.jpg",
       "accords": [],
@@ -33918,7 +33919,7 @@
       "id": "luban-musk-ibraq",
       "name_ar": "مسك اللبان من ابراق ٧٥ملي",
       "name_en": "Luban Musk Ibraq",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/luban-musk-ibraq.jpg",
       "accords": [],
@@ -34152,45 +34153,6 @@
       "aliases": [
         "The Collector Collection  By Ateej"
       ]
-    },
-    {
-      "id": "dominican-tobacco-ibrahim-al-qurashi",
-      "name_ar": "Dominican Tobacco",
-      "name_en": "Dominican Tobacco",
-      "brand": "Ibrahim Al Qurashi",
-      "dupe_of": [],
-      "image": "images/dominican-tobacco-ibrahim-al-qurashi.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 185,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 45,
-              "price": 825,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1650,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/dominican-tobacco-ibrahim-al-qurashi--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/dominican-tobacco-ibrahim-al-qurashi"
-        }
-      ],
-      "_hero_source": "og-perfume"
     },
     {
       "id": "neroli-outrenoir",
@@ -35148,7 +35110,7 @@
       "id": "vintage-tobacco",
       "name_ar": "Vintage Tobacco",
       "name_en": "Vintage Tobacco",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/vintage-tobacco.jpg",
       "accords": [],
@@ -35166,9 +35128,31 @@
           ],
           "image": "images/vintage-tobacco--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/vintage-tobacco"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 260,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 1000,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/vintage-tobacco-ibrahim-al-qurashi--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/vintage-tobacco"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": []
     },
     {
       "id": "d-claration-edp",
@@ -35320,7 +35304,7 @@
       "id": "musk-al-lail-ibraq",
       "name_ar": "مسك الليل من ابراق ٧٥ملي",
       "name_en": "Musk Al Lail Ibraq",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/musk-al-lail-ibraq.jpg",
       "accords": [],
@@ -35532,51 +35516,6 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "black-diamond-incense-ibrahim-al-qurashi",
-      "name_ar": "Black Diamond Incense",
-      "name_en": "Black Diamond Incense",
-      "brand": "Ibrahim Al Qurashi",
-      "dupe_of": [],
-      "image": "images/black-diamond-incense-ibrahim-al-qurashi.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 150,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 425,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 70,
-              "price": 770,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 1650,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/black-diamond-incense-ibrahim-al-qurashi--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/black-diamond-incense-150ml"
-        }
-      ],
-      "_hero_source": "og-perfume"
     },
     {
       "id": "harrier",
@@ -37336,102 +37275,6 @@
         }
       ],
       "_hero_source": "og-perfume"
-    },
-    {
-      "id": "jamaican-tobacco-ibrahim-al-qurashi",
-      "name_ar": "Jamaican Tobacco",
-      "name_en": "Jamaican Tobacco",
-      "brand": "Ibrahim Al Qurashi",
-      "dupe_of": [],
-      "image": "images/jamaican-tobacco-ibrahim-al-qurashi.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 195,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 60,
-              "price": 1000,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/jamaican-tobacco-ibrahim-al-qurashi--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/jamaican-tobacco"
-        }
-      ],
-      "_hero_source": "og-perfume"
-    },
-    {
-      "id": "mexican-tobacco-ibrahim-al-qurashi",
-      "name_ar": "ميكسيكان توباكو من القرشي ١٠٠ملي",
-      "name_en": "Mexican Tobacco",
-      "brand": "Ibrahim Al Qurashi",
-      "dupe_of": [],
-      "image": "images/mexican-tobacco-ibrahim-al-qurashi.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1675,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/mexican-tobacco-ibrahim-al-qurashi--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/mexican-tobacco-100ml%d9%85%d9%8a%d9%83%d8%b3%d9%8a%d9%83%d8%a7%d9%86-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%85%d9%86-%d8%a7%d9%84%d9%82%d8%b1%d8%b4%d9%8a/"
-        },
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 200,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 43,
-              "price": 850,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/mexican-tobacco-ibrahim-al-qurashi--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/mexican-tobacco-ibrahim-al-qurashi"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "hugo-boss-bottled-infinite-tester-edp",
@@ -41080,38 +40923,6 @@
       ]
     },
     {
-      "id": "mexican-tobacco-ibraq",
-      "name_ar": "Mexican Tobacco",
-      "name_en": "Mexican Tobacco",
-      "brand": "Ibraq",
-      "dupe_of": [],
-      "image": "images/mexican-tobacco-ibraq.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 210,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 350,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/mexican-tobacco-ibraq--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/ibraq-mexican-tobacco"
-        }
-      ],
-      "_hero_source": "perfuzone"
-    },
-    {
       "id": "i-m-here",
       "name_ar": "I'm Here",
       "name_en": "I'm Here",
@@ -43318,7 +43129,7 @@
       "id": "grey-diamond-collection",
       "name_ar": "Grey Diamond Collection",
       "name_en": "Grey Diamond Collection",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/grey-diamond-collection.jpg",
       "accords": [],
@@ -43765,58 +43576,6 @@
       "_hero_source": "emaratiscents"
     },
     {
-      "id": "arabian-tobacco-ibrahim-al-qurashi",
-      "name_ar": "Arabian Tobacco",
-      "name_en": "Arabian Tobacco",
-      "brand": "Ibrahim Al Qurashi",
-      "dupe_of": [],
-      "image": "images/arabian-tobacco-ibrahim-al-qurashi.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 195,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 525,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1550,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 100,
-              "price": 1200,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 2250,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/arabian-tobacco-ibrahim-al-qurashi--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/copy-arabian-tobacco-ibrahim-al-qurashi"
-        }
-      ],
-      "_hero_source": "og-perfume"
-    },
-    {
       "id": "kiss",
       "name_ar": "Kiss",
       "name_en": "Kiss",
@@ -43993,7 +43752,7 @@
       "id": "al-fajr-musk",
       "name_ar": "Al Fajr Musk",
       "name_en": "Al Fajr Musk",
-      "brand": "Ibraheem Al",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/al-fajr-musk.jpg",
       "accords": [],
@@ -44763,7 +44522,7 @@
       "id": "pistachio-musk",
       "name_ar": "Pistachio Musk",
       "name_en": "Pistachio Musk",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/pistachio-musk.jpg",
       "accords": [],
@@ -44877,7 +44636,7 @@
       "id": "vintage-tobacco-100ml",
       "name_ar": "فينتاچ توباكو من ابراق ( عطر وريفل )",
       "name_en": "Vintage Tobacco 100ml +",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/vintage-tobacco-100ml.jpg",
       "accords": [],
@@ -46441,47 +46200,6 @@
       "_hero_source": "og-perfume"
     },
     {
-      "id": "cuban-tobacco-ibrahim-al-qurashi",
-      "name_ar": "Cuban Tobacco",
-      "name_en": "Cuban Tobacco",
-      "brand": "Ibrahim Al Qurashi",
-      "dupe_of": [],
-      "image": "images/cuban-tobacco-ibrahim-al-qurashi.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 200,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 925,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1950,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/cuban-tobacco-ibrahim-al-qurashi--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/cuban-tobacco-100ml"
-        }
-      ],
-      "_hero_source": "og-perfume"
-    },
-    {
       "id": "error-404",
       "name_ar": "Error 404",
       "name_en": "Error 404",
@@ -46801,9 +46519,23 @@
           ],
           "image": "images/pink-diamond-sakura-ibrahim-al-qurashi--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/pink-diamond-sakura-ibrahim-al-qurashi-150ml"
+        },
+        {
+          "name": "EsLam Nasser",
+          "url": "https://www.facebook.com/eslam.nasser.10/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 1150,
+              "first_seen": "2026-07-17"
+            }
+          ],
+          "image": "images/pink-diamond-sakura--eslam-nasser.jpg"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": []
     },
     {
       "id": "neroli-boheme",
@@ -47966,7 +47698,7 @@
       "id": "citrus-amber-ibraq",
       "name_ar": "سترس عنبر ابراق فوق ال ٧٠",
       "name_en": "Citrus amber Ibraq",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/citrus-amber-ibraq.jpg",
       "accords": [],
@@ -48498,7 +48230,7 @@
       "id": "mexican-tobacco",
       "name_ar": "",
       "name_en": "Mexican Tobacco",
-      "brand": "Ibraheem AlQurashi",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/mexican-tobacco.jpg",
       "accords": [
@@ -48619,9 +48351,59 @@
           ],
           "image": "images/mexican-tobacco--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/mexican-tobacco"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 43,
+              "price": 850,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1750,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/mexican-tobacco-ibrahim-al-qurashi--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/mexican-tobacco-ibrahim-al-qurashi"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 210,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 350,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/mexican-tobacco-ibraq--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/ibraq-mexican-tobacco"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": []
     },
     {
       "id": "al-ghazal",
@@ -49094,68 +48876,6 @@
         }
       ],
       "_hero_source": "sniffz"
-    },
-    {
-      "id": "spanish-tobacco-ibrahim-al-qurashi",
-      "name_ar": "سبانش توباكو من القرشي ١٠٠ملي",
-      "name_en": "Spanish Tobacco",
-      "brand": "Ibrahim Al Qurashi",
-      "dupe_of": [],
-      "image": "images/spanish-tobacco-ibrahim-al-qurashi.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1675,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/spanish-tobacco-ibrahim-al-qurashi--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/spanish-tobacco-100ml%d8%b3%d8%a8%d8%a7%d9%86%d8%b4-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%85%d9%86-%d8%a7%d9%84%d9%82%d8%b1%d8%b4%d9%8a-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        },
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 200,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 550,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 900,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1650,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/spanish-tobacco-ibrahim-al-qurashi--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/spanish-tobacco-ibrahim-al-qurashi"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "marwa",
@@ -50509,7 +50229,7 @@
       "id": "cardamom-musk-ibraq",
       "name_ar": "مسك الهيل من ابراق (٧٥ملي)",
       "name_en": "Cardamom Musk",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/cardamom-musk-ibraq.jpg",
       "accords": [],
@@ -51404,7 +51124,7 @@
       "id": "purple-heart-diamond",
       "name_ar": "Purple Heart Diamond",
       "name_en": "Purple Heart Diamond",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/purple-heart-diamond.jpg",
       "accords": [],
@@ -51422,9 +51142,65 @@
           ],
           "image": "images/purple-heart-diamond--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/purple-heart-diamond-200ml"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 150,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 450,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 450,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 60,
+              "price": 660,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 70,
+              "price": 825,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 140,
+              "price": 1540,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 1650,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/purple-heart-diamond-ibrahim-al-qurashi--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/purple-heart-diamond-1"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": []
     },
     {
       "id": "oud-touch",
@@ -52373,30 +52149,6 @@
       "_hero_source": "og-perfume"
     },
     {
-      "id": "pink-diamond-sakura",
-      "name_ar": "بينك دايموند ساكورا",
-      "name_en": "Pink Diamond Sakura",
-      "brand": "Ibraq",
-      "dupe_of": [],
-      "image": "images/pink-diamond-sakura.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "EsLam Nasser",
-          "url": "https://www.facebook.com/eslam.nasser.10/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 1150,
-              "first_seen": "2026-07-17"
-            }
-          ],
-          "image": "images/pink-diamond-sakura--eslam-nasser.jpg"
-        }
-      ]
-    },
-    {
       "id": "island-breeze",
       "name_ar": "Island Breeze",
       "name_en": "Island Breeze",
@@ -52555,7 +52307,7 @@
       "id": "nude-coral",
       "name_ar": "نود كورال ابراق تستر (١٠ملي)",
       "name_en": "Nude Coral",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/nude-coral.jpg",
       "accords": [],
@@ -53232,7 +52984,7 @@
       "id": "honey-musk-confidence-dose-ibraq",
       "name_ar": "Honey Musk Confidence Dose",
       "name_en": "Honey Musk Confidence Dose",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/honey-musk-confidence-dose-ibraq.jpg",
       "accords": [],
@@ -60558,126 +60310,6 @@
       "_hero_source": "emaratiscents"
     },
     {
-      "id": "french-tobacco-ibraheem-alqurashi",
-      "name_ar": "",
-      "name_en": "French Tobacco",
-      "brand": "Ibraheem AlQurashi",
-      "dupe_of": [],
-      "image": "images/french-tobacco-ibraheem-alqurashi.jpg",
-      "accords": [
-        {
-          "label_en": "Blood Orange",
-          "label_ar": "",
-          "color": "#F9FF52",
-          "w": 100
-        },
-        {
-          "label_en": "Mandarin",
-          "label_ar": "",
-          "color": "#F9FF52",
-          "w": 90
-        },
-        {
-          "label_en": "Green Apple",
-          "label_ar": "",
-          "color": "#0E8C1D",
-          "w": 80
-        },
-        {
-          "label_en": "Ginger",
-          "label_ar": "",
-          "color": "#83C928",
-          "w": 70
-        },
-        {
-          "label_en": "Neroli",
-          "label_ar": "",
-          "color": "#edf2fb",
-          "w": 60
-        },
-        {
-          "label_en": "Cinnamon",
-          "label_ar": "",
-          "color": "#CC3300",
-          "w": 50
-        },
-        {
-          "label_en": "Tobacco",
-          "label_ar": "",
-          "color": "#ad7727",
-          "w": 40
-        },
-        {
-          "label_en": "Lemongrass",
-          "label_ar": "",
-          "color": "#0E8C1D",
-          "w": 40
-        },
-        {
-          "label_en": "Frankincense",
-          "label_ar": "",
-          "color": "#ad8359",
-          "w": 40
-        },
-        {
-          "label_en": "Guaiac Wood",
-          "label_ar": "",
-          "color": "#774414",
-          "w": 40
-        },
-        {
-          "label_en": "Iris",
-          "label_ar": "",
-          "color": "#b7a7d7",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 155,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 195,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 300,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/french-tobacco-ibraheem-alqurashi--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/french-tobacco-ibraheem-alqurashi"
-        },
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2350,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/french-tobacco-ibraheem-alqurashi--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/french-tobacco-200-ml-by-ibrahim-al-qurashi"
-        }
-      ],
-      "_hero_source": "sniffz"
-    },
-    {
       "id": "princess-reef",
       "name_ar": "Princess Reef",
       "name_en": "Princess Reef",
@@ -61315,9 +60947,72 @@
           ],
           "image": "images/french-tobacco--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/french-tobacco-ibrahim-al-qurashi-200ml"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 155,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 195,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 300,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/french-tobacco-ibraheem-alqurashi--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/french-tobacco-ibraheem-alqurashi"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2350,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/french-tobacco-ibraheem-alqurashi--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/french-tobacco-200-ml-by-ibrahim-al-qurashi"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 20,
+              "price": 450,
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1650,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/french-tobacco-ibraq--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/french-tobacco-ibraq-100ml%d9%81%d8%b1%d9%8a%d9%86%d8%b4-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%85%d9%86-%d8%a7%d8%a8%d8%b1%d8%a7%d9%82-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": []
     },
     {
       "id": "smart-collection-671",
@@ -61383,7 +61078,7 @@
       "id": "jamaican-tobacco",
       "name_ar": "جاميكان توباكو من بوكس ابراق (٢٠ملي)",
       "name_en": "Jamaican Tobacco",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/jamaican-tobacco.jpg",
       "accords": [],
@@ -61435,9 +61130,39 @@
           ],
           "image": "images/jamaican-tobacco--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/jamaican-tobacco"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 195,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 60,
+              "price": 1000,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1750,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/jamaican-tobacco-ibrahim-al-qurashi--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/jamaican-tobacco"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": []
     },
     {
       "id": "the-kingdom-men",
@@ -61907,7 +61632,7 @@
       "id": "mini-musk-collection-3",
       "name_ar": "مجموعة مسك (شمس/فجر/قمر) ٣*١٠ملي",
       "name_en": "Mini Musk Collection 3*",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/mini-musk-collection-3.jpg",
       "accords": [],
@@ -62022,39 +61747,6 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "vintage-tobacco-ibrahim-al-qurashi",
-      "name_ar": "Vintage Tobacco",
-      "name_en": "Vintage Tobacco",
-      "brand": "Ibrahim Al Qurashi",
-      "dupe_of": [],
-      "image": "images/vintage-tobacco-ibrahim-al-qurashi.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 260,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 1000,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/vintage-tobacco-ibrahim-al-qurashi--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/vintage-tobacco"
-        }
-      ],
-      "_hero_source": "og-perfume"
     },
     {
       "id": "suave-proud",
@@ -63364,7 +63056,7 @@
       "id": "nude-coral-diamond",
       "name_ar": "نود كورال دايموند ١٥٠ملي من ابراق",
       "name_en": "Nude Coral Diamond",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/nude-coral-diamond.jpg",
       "accords": [],
@@ -63402,9 +63094,58 @@
           ],
           "image": "images/nude-coral-diamond--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/nude-coral-200ml-by-ibrahim-al-qurashi"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 150,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 385,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 40,
+              "price": 450,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 60,
+              "price": 660,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 70,
+              "price": 825,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 1650,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/nude-coral-diamond-ibrahim-al-qurashi--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/nude-coral-diamond-150ml"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": []
     },
     {
       "id": "extradose-homme-arabiyat-prestige",
@@ -67522,32 +67263,6 @@
       "_hero_source": "eldesoki-fragrances"
     },
     {
-      "id": "sapphire-leather",
-      "name_ar": "Sapphire Leather",
-      "name_en": "Sapphire Leather",
-      "brand": "Ibraq",
-      "dupe_of": [],
-      "image": "images/sapphire-leather.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 2250,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/sapphire-leather--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/sapphire-leather"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
       "id": "marj",
       "name_ar": "Marj",
       "name_en": "Marj",
@@ -68925,7 +68640,7 @@
       "id": "black-carbon",
       "name_ar": "بلاك كاربون تستر ١٠ملي",
       "name_en": "Black Carbon",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/black-carbon.jpg",
       "accords": [],
@@ -70159,7 +69874,7 @@
       "id": "amethyst-khozam",
       "name_ar": "Amethyst Khozam",
       "name_en": "Amethyst Khozam",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/amethyst-khozam.jpg",
       "accords": [],
@@ -70404,7 +70119,7 @@
       "id": "greek-tobacco",
       "name_ar": "جريك توباكو من بوكس ابراق (٢٠ملي)",
       "name_en": "Greek Tobacco",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/greek-tobacco.jpg",
       "accords": [],
@@ -70457,9 +70172,32 @@
           ],
           "image": "images/greek-tobacco--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/ibraq-greek-tobacco"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1750,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/greek-tobacco-ibrahim-al-qurashi--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/greek-tobacco"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": []
     },
     {
       "id": "morning-girl",
@@ -70506,7 +70244,7 @@
       "id": "special-musk",
       "name_ar": "Special Musk",
       "name_en": "Special Musk",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/special-musk.jpg",
       "accords": [],
@@ -70781,7 +70519,7 @@
       "id": "saphire-leather",
       "name_ar": "سفاير ليذر تستر ١٠ملي",
       "name_en": "Saphire Leather",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/saphire-leather.jpg",
       "accords": [],
@@ -72928,46 +72666,6 @@
       "_hero_source": "emaratiscents"
     },
     {
-      "id": "balas-rose-ibraq-ibraq",
-      "name_ar": "بالاس روز من ابراق ٧٥ملي",
-      "name_en": "Balas Rose",
-      "brand": "Ibraq",
-      "dupe_of": [],
-      "image": "images/balas-rose-ibraq-ibraq.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 75,
-              "price": 1200,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/balas-rose-ibraq-ibraq--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/balas-rose-ibraq-75ml%d8%a8%d8%a7%d9%84%d8%a7%d8%b3-%d8%b1%d9%88%d8%b2-%d9%a1%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d8%a8%d8%b1%d8%a7%d9%82/"
-        },
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 2250,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/balas-rose-ibraq-ibraq--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/balas-rose"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "maahir-legacy",
       "name_ar": "ماهر ليجاسي لطافة ١٠٠ملي",
       "name_en": "Maahir Legacy",
@@ -73851,61 +73549,6 @@
       "_hero_source": "eldesoki-fragrances"
     },
     {
-      "id": "emerald-soul-diamond-ibrahim-al-qurashi",
-      "name_ar": "Emerald Soul Diamond",
-      "name_en": "Emerald Soul Diamond",
-      "brand": "Ibrahim Al Qurashi",
-      "dupe_of": [],
-      "image": "images/emerald-soul-diamond-ibrahim-al-qurashi.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 400,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 70,
-              "price": 775,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 120,
-              "price": 1320,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 1650,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/emerald-soul-diamond-ibrahim-al-qurashi--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/emerald-soul-diamond"
-        }
-      ],
-      "_hero_source": "og-perfume"
-    },
-    {
       "id": "al-malik",
       "name_ar": "الملك",
       "name_en": "Al Malik",
@@ -74094,7 +73737,7 @@
       "id": "arabian-tobacco",
       "name_ar": "اربيان توباكو",
       "name_en": "Arabian Tobacco",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/arabian-tobacco.jpg",
       "accords": [],
@@ -74147,9 +73790,50 @@
           ],
           "image": "images/arabian-tobacco--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/arabian-tobacco-by-ibrahim-al-qurashi"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 195,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 525,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1550,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 100,
+              "price": 1200,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2250,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/arabian-tobacco-ibrahim-al-qurashi--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/copy-arabian-tobacco-ibrahim-al-qurashi"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": []
     },
     {
       "id": "satin-body-oud",
@@ -74709,45 +74393,6 @@
       "aliases": [
         "Al Faris Arabiyat"
       ]
-    },
-    {
-      "id": "grey-pearl-diamond-ibrahim-al-qurashi",
-      "name_ar": "Grey Pearl Diamond",
-      "name_en": "Grey Pearl Diamond",
-      "brand": "Ibrahim Al Qurashi",
-      "dupe_of": [],
-      "image": "images/grey-pearl-diamond-ibrahim-al-qurashi.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 150,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 450,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 1650,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/grey-pearl-diamond-ibrahim-al-qurashi--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/grey-pearl-diamond"
-        }
-      ],
-      "_hero_source": "og-perfume"
     },
     {
       "id": "blue-laverne-bakhur-for-him",
@@ -75873,7 +75518,7 @@
       "id": "blueberry-musk",
       "name_ar": "Blueberry Musk",
       "name_en": "Blueberry Musk",
-      "brand": "Ibraheem AlQurashi",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/blueberry-musk.jpg",
       "accords": [],
@@ -77504,9 +77149,24 @@
           ],
           "image": "images/cullinan-diamond-ibrahim-al-qurashi--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/cullinan-diamond-ibrahim-al-qurashi"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 2250,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/cullinan-diamond--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/cullinan-diamond-iris-200-ml"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": []
     },
     {
       "id": "nuit-d-issey-polaris",
@@ -78115,9 +77775,24 @@
           ],
           "image": "images/abaq-pomegranate-musk-ibrahim-al-qurashi--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/abaq-pomegranate-musk-75ml"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 1700,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/abaq-pomegranate-musk--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/abaq-pomegranate-musk"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": []
     },
     {
       "id": "al-noble-safeer",
@@ -79103,7 +78778,7 @@
       "id": "blue-oud",
       "name_ar": "Blue Oud",
       "name_en": "Blue Oud",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/blue-oud.jpg",
       "accords": [],
@@ -79484,50 +79159,6 @@
         }
       ],
       "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "black-carbon-diamond-ibrahim-al-qurashi",
-      "name_ar": "Black Carbon Diamond",
-      "name_en": "Black Carbon Diamond",
-      "brand": "Ibrahim Al Qurashi",
-      "dupe_of": [],
-      "image": "images/black-carbon-diamond-ibrahim-al-qurashi.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 150,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 450,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 70,
-              "price": 770,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 1650,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/black-carbon-diamond-ibrahim-al-qurashi--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/black-carbon-diamond"
-        }
-      ],
-      "_hero_source": "og-perfume"
     },
     {
       "id": "teriaq",
@@ -80360,32 +79991,6 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "abaq-pomegranate-musk",
-      "name_ar": "Abaq Pomegranate Musk",
-      "name_en": "Abaq Pomegranate Musk",
-      "brand": "Ibraq",
-      "dupe_of": [],
-      "image": "images/abaq-pomegranate-musk.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 75,
-              "price": 1700,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/abaq-pomegranate-musk--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/abaq-pomegranate-musk"
-        }
-      ],
-      "_hero_source": "emaratiscents"
     },
     {
       "id": "prime-25-n",
@@ -81640,7 +81245,7 @@
       "id": "cuban-tobacco",
       "name_ar": "كوبان توباكو من بوكس ابراق (٢٠ملي)",
       "name_en": "Cuban Tobacco",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/cuban-tobacco.jpg",
       "accords": [],
@@ -81685,9 +81290,39 @@
           ],
           "image": "images/cuban-tobacco--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/cuban-tobacco-200-ml"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 925,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1950,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/cuban-tobacco-ibrahim-al-qurashi--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/cuban-tobacco-100ml"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": []
     },
     {
       "id": "legend-edt",
@@ -85295,7 +84930,7 @@
       "id": "cardamon-musk",
       "name_ar": "Cardamon Musk",
       "name_en": "Cardamon Musk",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/cardamon-musk.jpg",
       "accords": [],
@@ -85676,7 +85311,7 @@
       "id": "al-lail-musk",
       "name_ar": "Al Lail Musk",
       "name_en": "Al Lail Musk",
-      "brand": "Ibraheem AlQurashi",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/al-lail-musk.jpg",
       "accords": [],
@@ -86615,7 +86250,7 @@
       "id": "discovery-diamond-set",
       "name_ar": "Discovery Diamond Set",
       "name_en": "Discovery Diamond Set",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/discovery-diamond-set.jpg",
       "accords": [],
@@ -88513,7 +88148,7 @@
       "id": "cullinan-diamond-iris",
       "name_ar": "كولينان دايموند ايرس من ابراق ١٥٠ملي",
       "name_en": "Cullinan Diamond Iris",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/cullinan-diamond-iris.jpg",
       "accords": [],
@@ -91598,7 +91233,7 @@
       "id": "blue-wish-collection",
       "name_ar": "Blue Wish Collection",
       "name_en": "Blue Wish Collection",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/blue-wish-collection.jpg",
       "accords": [],
@@ -91814,39 +91449,6 @@
           "image": "images/le-gemme-tygar.jpg"
         }
       ]
-    },
-    {
-      "id": "french-tobacco-ibraq",
-      "name_ar": "فرينش توباكو من ابراق ١٠٠ملي",
-      "name_en": "French Tobacco",
-      "brand": "Ibraq",
-      "dupe_of": [],
-      "image": "images/french-tobacco-ibraq.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 20,
-              "price": 450,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1650,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/french-tobacco-ibraq--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/french-tobacco-ibraq-100ml%d9%81%d8%b1%d9%8a%d9%86%d8%b4-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%85%d9%86-%d8%a7%d8%a8%d8%b1%d8%a7%d9%82-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "qumra",
@@ -92117,73 +91719,6 @@
         }
       ],
       "_hero_source": "perfuzone"
-    },
-    {
-      "id": "purple-heart-diamond-ibrahim-al-qurashi",
-      "name_ar": "Purple Heart Diamond",
-      "name_en": "Purple Heart Diamond",
-      "brand": "Ibrahim Al Qurashi",
-      "dupe_of": [],
-      "image": "images/purple-heart-diamond-ibrahim-al-qurashi.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 450,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 60,
-              "price": 450,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 60,
-              "price": 660,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 70,
-              "price": 825,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 140,
-              "price": 1540,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 1650,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/purple-heart-diamond-ibrahim-al-qurashi--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/purple-heart-diamond-1"
-        }
-      ],
-      "_hero_source": "og-perfume"
     },
     {
       "id": "dkhoon-oud-blue-oud",
@@ -92500,7 +92035,7 @@
       "id": "black-carbon-diamond",
       "name_ar": "بلاك كاربون دايموند ١٥٠ملي من ابراق",
       "name_en": "Black Carbon Diamond",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/black-carbon-diamond.jpg",
       "accords": [],
@@ -92532,9 +92067,42 @@
           ],
           "image": "images/black-carbon-diamond--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/black-carbon-diamond-200ml-by-ibrahim-al-qurashi"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 150,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 450,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 70,
+              "price": 770,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 1650,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/black-carbon-diamond-ibrahim-al-qurashi--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/black-carbon-diamond"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": []
     },
     {
       "id": "musk-collection-ibraq-3-75ml-6",
@@ -93120,7 +92688,7 @@
       "id": "grey-pearl-diamond",
       "name_ar": "جراي بيرل",
       "name_en": "Grey Pearl Diamond",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/grey-pearl-diamond.jpg",
       "accords": [],
@@ -93166,15 +92734,43 @@
           ],
           "image": "images/grey-pearl-diamond--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/grey-pearl-150ml-ibraq%d8%ac%d8%b1%d8%a7%d9%8a-%d8%a8%d9%8a%d8%b1%d9%84-%d8%af%d8%a7%d9%8a%d9%85%d9%88%d9%86%d8%af-%d9%a1%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 150,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 450,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 1650,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/grey-pearl-diamond-ibrahim-al-qurashi--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/grey-pearl-diamond"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": []
     },
     {
       "id": "powder-musk",
       "name_ar": "Powder Musk",
       "name_en": "Powder Musk",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/powder-musk.jpg",
       "accords": [],
@@ -95367,7 +94963,7 @@
       "id": "spanish-tobacco",
       "name_ar": "Spanish Tobacco",
       "name_en": "Spanish Tobacco",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/spanish-tobacco.jpg",
       "accords": [],
@@ -95401,6 +94997,12 @@
               "price": 500,
               "first_seen": "2026-07-18",
               "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1675,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/spanish-tobacco--eldesoki-fragrances.jpg",
@@ -95439,9 +95041,46 @@
           ],
           "image": "images/spanish-tobacco--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/ibraq-spanish-tobacco"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 550,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 900,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1650,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/spanish-tobacco-ibrahim-al-qurashi--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/spanish-tobacco-ibrahim-al-qurashi"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": []
     },
     {
       "id": "black-cavalier-vi",
@@ -96779,7 +96418,7 @@
       "id": "dominican-tobacco",
       "name_ar": "دومينيكان توباكو من بوكس ابراق (٢٠ملي)",
       "name_en": "Dominican Tobacco",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/dominican-tobacco.jpg",
       "accords": [],
@@ -96819,9 +96458,37 @@
           ],
           "image": "images/dominican-tobacco--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/dominican-tobacco"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 185,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 45,
+              "price": 825,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1650,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/dominican-tobacco-ibrahim-al-qurashi--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/dominican-tobacco-ibrahim-al-qurashi"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": []
     },
     {
       "id": "asad-elixir-lattafa-perfumes",
@@ -98621,7 +98288,7 @@
       "id": "elite-musk-bundle",
       "name_ar": "Elite Musk Bundle",
       "name_en": "Elite Musk Bundle",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/elite-musk-bundle.jpg",
       "accords": [],
@@ -102221,7 +101888,7 @@
       "id": "summer-musk-bundle",
       "name_ar": "Summer Musk Bundle",
       "name_en": "Summer Musk Bundle",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/summer-musk-bundle.jpg",
       "accords": [],
@@ -105648,7 +105315,7 @@
       "id": "musk-kashmir",
       "name_ar": "Musk Kashmir",
       "name_en": "Musk Kashmir",
-      "brand": "Ibraq",
+      "brand": "Ibrahim Al Qurashi",
       "dupe_of": [],
       "image": "images/musk-kashmir.jpg",
       "accords": [],
@@ -106239,32 +105906,6 @@
           ],
           "image": "images/zayed--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/zayed"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "cullinan-diamond",
-      "name_ar": "Cullinan Diamond",
-      "name_en": "Cullinan Diamond",
-      "brand": "Ibraq",
-      "dupe_of": [],
-      "image": "images/cullinan-diamond.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 2250,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/cullinan-diamond--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/cullinan-diamond-iris-200-ml"
         }
       ],
       "_hero_source": "emaratiscents"
