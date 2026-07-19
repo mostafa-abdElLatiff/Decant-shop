@@ -1,0 +1,66 @@
+name: Sync stores
+
+# Runs the 5 fully-automated sync scripts (no AI/vision needed — pure
+# scraping/parsing of each store's own product API) on a schedule, so the
+# catalog refreshes itself instead of needing a manual `python sync_*.py`
+# run. The Facebook-post stores (EsLam Nasser, Mostafa Mohamed, Hossam
+# ElDeen Gamal, Mohamed Mohie) are NOT included here — those need a
+# specific new post URL and a vision model each time, so they stay manual.
+#
+# Setup (one-time):
+#   1. Push this file to the repo (Settings > Actions doesn't need to be
+#      touched for the workflow to appear, but the next step does).
+#   2. Settings > Actions > General > Workflow permissions > select
+#      "Read and write permissions" and save. Without this the final
+#      `git push` step fails with a 403.
+#   3. That's it — it'll run on the schedule below, and you can also
+#      trigger it manually any time from the Actions tab ("Run workflow").
+
+on:
+  schedule:
+    - cron: "0 3 * * *"  # 03:00 UTC daily — adjust as you like
+  workflow_dispatch: {}   # lets you click "Run workflow" in the Actions tab on demand
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      # Each script commits locally on its own (matches how these are run
+      # manually) — continue-on-error so one store having a bad day (site
+      # redesign, timeout) doesn't block the others from still syncing.
+      - name: Sync roseperfume
+        continue-on-error: true
+        run: python sync_roseperfume.py
+
+      - name: Sync sniffz
+        continue-on-error: true
+        run: python sync_sniffz.py
+
+      - name: Sync MO Shawky
+        continue-on-error: true
+        run: python sync_mo_shawky.py
+
+      - name: Sync eldesoki-fragrances
+        continue-on-error: true
+        run: python sync_eldesoki.py
+
+      - name: Sync emaratiscents
+        continue-on-error: true
+        run: python sync_emaratiscents.py
+
+      - name: Push commits
+        run: git push

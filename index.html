@@ -107,9 +107,12 @@
   .card.flash{outline:3px solid var(--brass);outline-offset:2px}
   @keyframes card-in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
   @media (prefers-reduced-motion:reduce){.card{animation:none}}
-  .card-img{height:190px;display:flex;align-items:center;justify-content:center;background:linear-gradient(160deg,var(--line),var(--bg));font-size:3.4rem;overflow:hidden}
+  .card-img{position:relative;height:190px;display:flex;align-items:center;justify-content:center;background:linear-gradient(160deg,var(--line),var(--bg));font-size:3.4rem;overflow:hidden}
   .card-img img{width:100%;height:100%;object-fit:cover;cursor:zoom-in;transition:transform .4s ease}
   .card:hover .card-img img{transform:scale(1.05)}
+  .card-share{position:absolute;top:.55rem;inset-inline-end:.55rem;background:rgba(0,0,0,.55);color:#fff;border:none;border-radius:50%;width:2.1rem;height:2.1rem;font-size:1rem;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .15s, transform .15s;z-index:2}
+  .card-share:hover{background:rgba(0,0,0,.75);transform:scale(1.08)}
+  .card-share:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
   .lightbox{position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:100;display:flex;align-items:center;justify-content:center;padding:2rem;opacity:0;pointer-events:none;transition:opacity .2s}
   .lightbox.open{opacity:1;pointer-events:auto}
   .lightbox img{max-width:100%;max-height:100%;border-radius:8px;box-shadow:0 10px 40px rgba(0,0,0,.5)}
@@ -298,6 +301,7 @@ const I18N = {
     sort_default:"Catalog order", sort_newest:"Newest first", sort_oldest:"Oldest first", sort_cheapest:"Cheapest first",
     show_more_notes:"+{n} more notes", show_less_notes:"Show less",
     show_more_stores:"+{n} more stores", show_less_stores:"Show less",
+    share_link:"Copy link to this fragrance", link_copied:"Link copied ✓",
   },
   ar: {
     site_name:"ليسته", tag:"تقسيمات • زجاجات كاملة • بواقي تقسيم، مقارنة أسعار",
@@ -318,6 +322,7 @@ const I18N = {
     sort_default:"ترتيب الكتالوج", sort_newest:"الأحدث أولاً", sort_oldest:"الأقدم أولاً", sort_cheapest:"الأرخص أولاً",
     show_more_notes:"+{n} مكونات أخرى", show_less_notes:"عرض أقل",
     show_more_stores:"+{n} متاجر أخرى", show_less_stores:"عرض أقل",
+    share_link:"نسخ رابط هذا العطر", link_copied:"تم نسخ الرابط ✓",
   }
 };
 
@@ -431,7 +436,7 @@ function offerLabel(o){
   return size;
 }
 
-const NEW_BADGE_DAYS = 14;
+const NEW_BADGE_DAYS = 5;
 // Paused on 2026-07-17 (large backfill made "New" fire on lots of old
 // offers at once) — only offers first seen after this date show the badge.
 // To fully re-enable, delete the o.first_seen <= NEW_BADGE_SINCE check below.
@@ -520,6 +525,11 @@ async function load(){
     applyI18n();
     render();
     syncCart(); // re-resolve any cart restored from localStorage now that PRODUCTS is populated
+    // a shared link (#product-id) should land directly on that card, same
+    // as clicking a dupe_of/duped_by jump — reuse that logic so it also
+    // gets the "extend rendered window to include it" handling for free
+    const sharedId = location.hash.slice(1);
+    if(sharedId && PRODUCTS.some(p => p.id === sharedId)) focusProduct(sharedId);
   }catch(e){
     grid.innerHTML = `<p class="empty">${t().load_failed}</p>`;
   }
@@ -592,6 +602,7 @@ function buildCardEl(p, byId){
   card.innerHTML = `
     <div class="card-img">
       ${p.image ? `<img src="${p.image}" alt="${pname(p)}" loading="lazy">` : "🧴"}
+      <button class="card-share" data-share="${p.id}" aria-label="${t().share_link}" title="${t().share_link}">🔗</button>
     </div>
     <div class="card-body">
       ${p.brand ? `<button class="card-brand" data-brand-jump="${p.brand}">${p.brand}</button>` : ""}
@@ -679,9 +690,20 @@ function filterByBrand(brand){
   window.scrollTo({top: 0, behavior: "smooth"});
 }
 
-grid.addEventListener("click", e => {
+grid.addEventListener("click", async e => {
   const img = e.target.closest(".card-img img, .store-thumb");
   if (img){ openLightbox(img.src, img.alt); return; }
+  const shareBtn = e.target.closest("[data-share]");
+  if (shareBtn){
+    const url = `${location.origin}${location.pathname}#${shareBtn.dataset.share}`;
+    try{
+      await navigator.clipboard.writeText(url);
+      toast(t().link_copied);
+    }catch{
+      toast(t().copy_failed);
+    }
+    return;
+  }
   const brandBtn = e.target.closest("[data-brand-jump]");
   if (brandBtn){ filterByBrand(brandBtn.dataset.brandJump); return; }
   const jumpBtn = e.target.closest("[data-jump]");
