@@ -2893,6 +2893,21 @@
           ],
           "image": "images/safari-breeze--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/safari-breeze"
+        },
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1800,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/safari-breeze--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/safari-breeze"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -30420,6 +30435,21 @@
           ],
           "image": "images/strike-black--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/strike-black"
+        },
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 1900,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/strike-black--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/strike-black"
         }
       ],
       "_hero_source": "sniffz"
@@ -66172,7 +66202,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2400,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
             }
           ],
           "image": "images/varna--dar-elarabia.jpg",
@@ -68798,6 +68829,222 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "arabian-knight",
+      "name_ar": "Arabian Knight",
+      "name_en": "Arabian Knight",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/arabian-knight.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2850,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/arabian-knight--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/arabian-knight"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "laathani",
+      "name_ar": "Laathani",
+      "name_en": "Laathani",
+      "brand": "Ahmed Al Maghribi",
+      "dupe_of": [],
+      "image": "images/laathani.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 80,
+              "price": 3300,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/laathani--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/laathani"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "satin-body-oud",
+      "name_ar": "Satin Body Oud",
+      "name_en": "Satin Body Oud",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/satin-body-oud.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3750,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/satin-body-oud--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/satin-body-oud"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "aromatix-sun-kissed",
+      "name_ar": "Aromatix Sun Kissed",
+      "name_en": "Aromatix Sun Kissed",
+      "brand": "French Avenue",
+      "dupe_of": [],
+      "image": "images/aromatix-sun-kissed.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1950,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/aromatix-sun-kissed--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/aromatix-sun-kissed"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "supermacy-not-only-intense-extrait",
+      "name_ar": "Supermacy Not Only Intense Extrait",
+      "name_en": "Supermacy Not Only Intense Extrait",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/supermacy-not-only-intense-extrait.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 2850,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/supermacy-not-only-intense-extrait--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/supermacy-not-only-intense-extrait"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "king-tobaaco",
+      "name_ar": "King Tobaaco",
+      "name_en": "King Tobaaco",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/king-tobaaco.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2950,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/king-tobaaco--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/king-tobaaco"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "woody-intense",
+      "name_ar": "Woody Intense",
+      "name_en": "Woody Intense",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/woody-intense.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3800,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/woody-intense--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/woody-intense"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "tarteel-silver",
+      "name_ar": "Tarteel Silver",
+      "name_en": "Tarteel Silver",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/tarteel-silver.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 4350,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/tarteel-silver--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/tarteel-silver"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
     }
   ]
 }
