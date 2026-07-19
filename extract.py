@@ -90,7 +90,7 @@ AS_SHOWN = "as-shown"
 # Stores with their own product-page photos (vs. a Facebook seller's phone
 # photo with a price overlay) — preferred as the product's default/hero
 # image whenever one is available. See is_web_sourced_hero().
-WEB_STORE_NAMES = {"roseperfume", "sniffz", "MO Shawky", "eldesoki-fragrances", "emaratiscents", "dar.elarabia"}
+WEB_STORE_NAMES = {"roseperfume", "sniffz", "MO Shawky", "eldesoki-fragrances", "emaratiscents", "dar.elarabia", "perfuzone", "og-perfume"}
 
 
 def is_web_sourced_hero(product: dict, web_store_names: set = WEB_STORE_NAMES) -> bool:

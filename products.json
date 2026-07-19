@@ -15967,8 +15967,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -15981,15 +15980,17 @@
               "kind": "full",
               "ml": 100,
               "price": 1250,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
-          "image": "images/d-tour-noir--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/detour-noir"
+          "image": "images/detour-noir-intense--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/detour-noir-intense"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": [
+        "Detour noir intense"
+      ]
     },
     {
       "id": "ani-extrait-de-parfum",
@@ -27092,7 +27093,7 @@
               "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/aura-c35--mo-shawky.jpg",
+          "image": "images/aura-c35-assaf--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/assaf-aura-35-10ml-461"
         },
         {
@@ -27137,7 +27138,10 @@
           "product_url": "https://og-perfume.com/products/aura-assaf"
         }
       ],
-      "_hero_source": "MO Shawky"
+      "_hero_source": "MO Shawky",
+      "aliases": [
+        "Aura (C35)"
+      ]
     },
     {
       "id": "frankel-black-elixir",
@@ -48758,32 +48762,6 @@
       "_hero_source": "eldesoki-fragrances"
     },
     {
-      "id": "arrogate-blue-de-assaf",
-      "name_ar": "اروجيت بلو",
-      "name_en": "Arrogate Blue",
-      "brand": "Assaf",
-      "dupe_of": [],
-      "image": "images/arrogate-blue-de-assaf.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 2025,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/arrogate-blue-de-assaf-1784441256--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/arrogate-blue-de-assaf-200ml%d8%a7%d8%b1%d9%88%d8%ac%d9%8a%d8%aa-%d8%a8%d9%84%d9%88-%d8%af%d9%8a-%d8%b9%d8%b3%d8%a7%d9%81-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "kaaf-extrait-de-parfum",
       "name_ar": "كاف ١٠٠ملي اكتسريت من احمد المغربي",
       "name_en": "Kaaf Extrait De Parfum",
@@ -56974,11 +56952,12 @@
               "kind": "full",
               "ml": 100,
               "price": 1065,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/khair-pistachio--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/khair-pistachio"
+          "image": "images/khair--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/khair"
         },
         {
           "name": "og-perfume",
@@ -57007,7 +56986,10 @@
           "product_url": "https://og-perfume.com/products/khair-pistachio"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Khair"
+      ]
     },
     {
       "id": "tiramisu-speculoos",
@@ -57753,8 +57735,8 @@
               "first_seen": "2026-07-19"
             }
           ],
-          "image": "images/arrogate-blue-de--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/arrogate-blue-de-100ml%d8%a7%d8%b1%d9%88%d8%ac%d9%8a%d8%aa-%d8%a8%d9%84%d9%88-%d8%af%d9%8a-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+          "image": "images/arrogate-blue-de-assaf-1784441256--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/arrogate-blue-de-assaf-200ml%d8%a7%d8%b1%d9%88%d8%ac%d9%8a%d8%aa-%d8%a8%d9%84%d9%88-%d8%af%d9%8a-%d8%b9%d8%b3%d8%a7%d9%81-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "og-perfume",
@@ -57791,7 +57773,10 @@
           "product_url": "https://og-perfume.com/products/arrogate-blue-exclusive-assaf-200ml"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Arrogate Blue"
+      ]
     },
     {
       "id": "assaf-bakhur-70ml-wild-bakhur-arrogate-comete",
@@ -69274,7 +69259,7 @@
       "id": "private-velvet-rose",
       "name_ar": "Private Velvet & Rose",
       "name_en": "Private Velvet & Rose",
-      "brand": "",
+      "brand": "Dkhoon Emirates",
       "dupe_of": [],
       "image": "images/private-velvet-rose.jpg",
       "accords": [],
@@ -76112,38 +76097,6 @@
       "_hero_source": "sniffz"
     },
     {
-      "id": "aura-c35-assaf",
-      "name_ar": "",
-      "name_en": "Aura (C35)",
-      "brand": "Assaf",
-      "dupe_of": [],
-      "image": "images/aura-c35-assaf.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "MO Shawky",
-          "url": "https://www.facebook.com/mo.freeto.play/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 150,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 235,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/aura-c35-assaf--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/assaf-aura-35-10ml-461"
-        }
-      ],
-      "_hero_source": "MO Shawky"
-    },
-    {
       "id": "eros-flame-edp",
       "name_ar": "",
       "name_en": "Eros Flame EDP",
@@ -79278,33 +79231,6 @@
       "_hero_source": "emaratiscents"
     },
     {
-      "id": "khair",
-      "name_ar": "Khair",
-      "name_en": "Khair",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/khair.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1065,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/khair--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/khair"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
       "id": "raa-d",
       "name_ar": "Raa'D",
       "name_en": "Raa'D",
@@ -80188,8 +80114,8 @@
     {
       "id": "rayhaan-nuctorno-elixir",
       "name_ar": "ريحان نكتورنو اليكزير ١٠٠ملي",
-      "name_en": "Rayhaan Nuctorno Elixir",
-      "brand": "",
+      "name_en": "Rayhaan Nocturno Elixir",
+      "brand": "Rayhaan",
       "dupe_of": [],
       "image": "images/rayhaan-nuctorno-elixir.jpg",
       "accords": [],
@@ -102827,38 +102753,6 @@
           ],
           "image": "images/divin-asylum--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/divin-asylum"
-        }
-      ],
-      "_hero_source": "og-perfume"
-    },
-    {
-      "id": "detour-noir-intense",
-      "name_ar": "Detour noir intense",
-      "name_en": "Detour noir intense",
-      "brand": "Al Haramain",
-      "dupe_of": [],
-      "image": "images/detour-noir-intense.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 150,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1250,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/detour-noir-intense--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/detour-noir-intense"
         }
       ],
       "_hero_source": "og-perfume"

@@ -18,11 +18,20 @@ name: Sync stores
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # every 6 hours (00:00, 06:00, 12:00, 18:00 UTC) — adjust as you like
+    - cron: "0 */2 * * *"  # every 2 hours — adjust as you like
   workflow_dispatch: {}   # lets you click "Run workflow" in the Actions tab on demand
 
 permissions:
   contents: write
+
+# A run can take a while (image downloads across ~7 stores) — if one is
+# still going when the next 2-hour trigger fires, this cancels the
+# earlier, still-running one rather than letting both try to commit/push
+# at once (which would just make the second one's push fail on a
+# non-fast-forward and waste the whole run).
+concurrency:
+  group: sync-stores
+  cancel-in-progress: true
 
 jobs:
   sync:
@@ -65,6 +74,14 @@ jobs:
       - name: Sync dar.elarabia
         continue-on-error: true
         run: python sync_darelarabia.py
+
+      - name: Sync perfuzone
+        continue-on-error: true
+        run: python sync_perfuzone.py
+
+      - name: Sync og-perfume
+        continue-on-error: true
+        run: python sync_og_perfume.py
 
       - name: Push commits
         run: git push

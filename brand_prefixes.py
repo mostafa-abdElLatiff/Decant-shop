@@ -34,7 +34,8 @@ BRAND_PREFIXES = [
     "Maison Martin Margiela", "Maison Margiela", "Stéphane Humbert Lucas 777",
     "Stephane Humbert Lucas 777", "Stéphane Humbert Lucas",
     "Stephane Humbert Lucas", "Room 1015", "Kayali", "Goldfield & Banks",
-    "Nikos", "Ibraheem AlQurashi", "Ibraheem Al Qurashi", "Al-Ezz",
+    "Nikos", "Ibraheem AlQurashi", "Ibraheem Al Qurashi", "Ibrahim Al Qurashi",
+    "Ibrahim AL Qurashi", "Al-Ezz",
     "Al-Ezz for Oud", "Gissah", "Aromatix", "Giardini Di Toscana",
     "Bond No 9", "Bond No. 9", "Maison Asrar", "SpongeBob", "Spongebob",
     "Riffs", "Riiffs", "Iven", "Vitality", "Troove", "BORNTOSTANDOUT",
@@ -51,6 +52,8 @@ ABBREVIATIONS = {
     "Mercedes-Benz": "Mercedes Benz",
     "Riiffs": "Riffs", "Le Falcone": "Le Falconé Perfumes",
     "Le Falconé": "Le Falconé Perfumes",
+    "Ibraheem AlQurashi": "Ibrahim Al Qurashi", "Ibraheem Al Qurashi": "Ibrahim Al Qurashi",
+    "Ibrahim AL Qurashi": "Ibrahim Al Qurashi",
 }
 
 
