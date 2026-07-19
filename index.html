@@ -79,6 +79,12 @@
   .store-select{border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:.45rem 1rem;font-family:inherit;font-size:.88rem;cursor:pointer;transition:border-color .15s}
   .store-select:hover{border-color:var(--olive)}
   .store-select:focus-visible{outline:3px solid var(--brass);outline-offset:2px}
+  .select-clearable{position:relative}
+  .select-clearable .store-select{width:100%}
+  .select-clearable:has(.select-clear:not([hidden])) .store-select{padding-inline-end:2rem}
+  .select-clear{position:absolute;top:50%;inset-inline-end:.55rem;transform:translateY(-50%);background:none;border:none;color:var(--red);font-size:1.05rem;line-height:1;cursor:pointer;padding:.15rem;border-radius:50%}
+  .select-clear:hover{background:color-mix(in srgb, var(--red) 15%, transparent)}
+  .select-clear:focus-visible{outline:2px solid var(--brass);outline-offset:1px}
   .toolbar-view{margin-inline-start:auto}
   .view-toggle{display:flex;gap:2px;background:var(--bg);border:1.5px solid var(--line);border-radius:999px;padding:3px}
   .view-btn{border:none;background:transparent;color:var(--ink);cursor:pointer;font-family:inherit;font-size:.8rem;font-weight:700;padding:.4rem .75rem;border-radius:999px;transition:background .15s,color .15s;line-height:1}
@@ -232,11 +238,17 @@
   <div class="tb-more" id="tbMore">
     <label class="select-wrap">
       <span class="select-label"><span aria-hidden="true">🏪</span> <span id="storeFilterLabel"></span></span>
-      <select class="store-select" id="storeFilter"></select>
+      <div class="select-clearable">
+        <select class="store-select" id="storeFilter"></select>
+        <button class="select-clear" id="storeFilterClear" aria-label="Clear" hidden>×</button>
+      </div>
     </label>
     <label class="select-wrap">
       <span class="select-label"><span aria-hidden="true">🏷️</span> <span id="brandFilterLabel"></span></span>
-      <select class="store-select" id="brandFilter"></select>
+      <div class="select-clearable">
+        <select class="store-select" id="brandFilter"></select>
+        <button class="select-clear" id="brandFilterClear" aria-label="Clear" hidden>×</button>
+      </div>
     </label>
     <label class="select-wrap">
       <span class="select-label"><span aria-hidden="true">⇅</span> <span id="sortOrderLabel"></span></span>
@@ -828,7 +840,21 @@ function updateFilterBadge(){
   const badge = document.getElementById("filterBadge");
   badge.textContent = n;
   badge.hidden = n === 0;
+  document.getElementById("storeFilterClear").hidden = storeFilter==="all";
+  document.getElementById("brandFilterClear").hidden = brandFilter==="all";
 }
+document.getElementById("storeFilterClear").onclick = ()=>{
+  storeFilter = "all";
+  document.getElementById("storeFilter").value = "all";
+  updateFilterBadge();
+  render();
+};
+document.getElementById("brandFilterClear").onclick = ()=>{
+  brandFilter = "all";
+  document.getElementById("brandFilter").value = "all";
+  updateFilterBadge();
+  render();
+};
 
 document.getElementById("toggleLang").onclick = ()=>{
   lang = lang === "en" ? "ar" : "en";
