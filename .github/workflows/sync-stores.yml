@@ -1,6 +1,6 @@
 name: Sync stores
 
-# Runs the 5 fully-automated sync scripts (no AI/vision needed — pure
+# Runs the fully-automated sync scripts (no AI/vision needed — pure
 # scraping/parsing of each store's own product API) on a schedule, so the
 # catalog refreshes itself instead of needing a manual `python sync_*.py`
 # run. The Facebook-post stores (EsLam Nasser, Mostafa Mohamed, Hossam
@@ -62,5 +62,21 @@ jobs:
         continue-on-error: true
         run: python sync_emaratiscents.py
 
+      - name: Sync dar.elarabia
+        continue-on-error: true
+        run: python sync_darelarabia.py
+
       - name: Push commits
         run: git push
+
+      # find_duplicates.py never changes anything — it only flags near-
+      # duplicate candidates worth a manual look (a brand-suffix/naming
+      # difference that legitimately didn't auto-merge). Shown right in
+      # the run summary so a check-in doesn't require reading raw logs.
+      - name: Report possible duplicates
+        if: always()
+        run: |
+          echo "## Possible duplicate products" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          python find_duplicates.py >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"

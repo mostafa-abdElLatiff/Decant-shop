@@ -1,21 +1,24 @@
 #!/usr/bin/env python3
-"""sync_emaratiscents.py — periodic, fully-automatic sync of
-emaratiscents.com's men's collection into products.json. Shopify store,
-uses the standard public products.json API. Only sells full bottles (no
-decant/leftover options), confirmed by the user.
+"""sync_darelarabia.py — periodic, fully-automatic sync of darelarabia.com's
+men's collection into products.json. Shopify store, uses the standard
+public products.json API — same shape as sync_emaratiscents.py. Only sells
+full bottles (no decant/leftover options), confirmed by the user.
 
-Brand and size aren't in a single structured field — body_html mixes two
-different description templates across products, so both are parsed with
-a couple of fallback patterns:
-  - brand: a "By <Brand>" line, or "<Name> by <Brand> is a ..." prose, or
-    (Lattafa only) a lattafa.com/barcode/ link in the body with no other
-    brand text — about half the catalog doesn't state a brand anywhere
-    findable, left blank rather than guessed.
-  - size: "<n> ML" in the title, else "SIZE : <n> ML" in the body, else
-    any "<n> ML" mention in the body; skipped (not synced) if none found,
-    same as every other store's "don't guess a size" rule.
+Brand and size aren't in a single structured field:
+  - vendor is always the retailer's own name in inconsistent casing ("Dar
+    El Arabia" / "dar-al-arabia"), never the actual fragrance house — same
+    situation as emaratiscents, so it's ignored entirely.
+  - brand: body_html almost always opens with "<Title> by <Brand>" (often
+    inside a <strong> tag, sometimes preceded by "Discover ") — parsed with
+    a title-anchored pattern, same approach as sync_emaratiscents.py's
+    extract_brand(). Left blank (not guessed) when absent.
+  - size: unlike emaratiscents (regex over the title text), this store puts
+    it directly in the variant's own option ("100ML", "125ML", "80ML",
+    sometimes "150 ML" with a space) — parsed straight from there. A
+    "Default Title" variant means the store genuinely never states a size
+    anywhere; skipped rather than guessed, same as every other store.
 
-Run manually any time with:  python3 sync_emaratiscents.py
+Run manually any time with:  python3 sync_darelarabia.py
 """
 import json
 import re
@@ -29,31 +32,29 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from extract import slugify, find_existing_product, unique_id_for, reconcile_offers, is_web_sourced_hero, strip_redundant_brand_suffix, CATALOG  # noqa: E402
 
-STORE_NAME = "emaratiscents"
-STORE_URL = "https://emaratiscents.com/"
+STORE_NAME = "dar.elarabia"
+STORE_URL = "https://darelarabia.com/"
 STORE_SLUG = slugify(STORE_NAME)
 IMAGES_DIR = CATALOG.parent / "images"
-COLLECTION_URL = "https://emaratiscents.com/collections/men/products.json"
+COLLECTION_URL = "https://darelarabia.com/collections/men/products.json"
 
 NON_PERFUME_KW = [
     "deodrant", "deodorant", "hair serum", "musk oil", "oudi oil",
     "oil box", "scented soap", "candle", "diffuser", "air freshener",
-    "incense stick",
+    "incense stick", "body spray",
 ]
 
-# "by" alone is far too common in ordinary description prose ("inspired
-# BY the energy...", "crafted BY a Gen Z perfumer...") to search for
-# anywhere in the text — only trust it in two specific, anchored shapes:
-# a standalone "By <Brand>" sentence (nothing else in it), or "<Brand>"
-# immediately following the product's own title text ("Khamrah Waha BY
-# Lattafa is..."), never a generic mid-paragraph mention.
+# Same anchoring rationale as sync_emaratiscents.py's STANDALONE_BY_RE: "by"
+# alone is too common in ordinary description prose to search for anywhere
+# — only trust a standalone "By <Brand>" sentence, or "<Brand>" immediately
+# following the product's own title text.
 STANDALONE_BY_RE = re.compile(r"(?:^|\.\s+)By\s+([A-Z][A-Za-z&.' ]{2,25}?)\s*(?:\.|$)")
 BRAND_STOPWORDS = {
     "the", "a", "an", "and", "for", "with", "both", "of", "is", "as",
-    "description", "men", "women", "unisex",
+    "description", "men", "women", "unisex", "discover",
 }
-TITLE_ML_RE = re.compile(r"(\d{2,4})\s*ML\b", re.I)
-BODY_SIZE_RE = re.compile(r"SIZE\s*:\s*(\d{2,4})\s*ML", re.I)
+BRAND_ALIASES = {"rasasi": "Rasasi", "al rasasi": "Rasasi", "ibraq": "Ibraq", "lattafa perfumes": "Lattafa"}
+ML_RE = re.compile(r"(\d+)\s*ML", re.I)
 
 
 def fetch_url(url: str, attempts: int = 5) -> bytes:
@@ -66,7 +67,7 @@ def fetch_url(url: str, attempts: int = 5) -> bytes:
             if e.code not in (503, 429) or attempt == attempts - 1:
                 raise
             wait = 30 * (attempt + 1)
-            print(f"  {e.code} from emaratiscents.com, waiting {wait}s and retrying "
+            print(f"  {e.code} from darelarabia.com, waiting {wait}s and retrying "
                   f"({attempt + 1}/{attempts})...")
             time.sleep(wait)
 
@@ -84,21 +85,9 @@ def fetch_all_products() -> list:
 
 
 def strip_html(html: str) -> str:
-    # turn paragraph/line breaks into a sentence boundary BEFORE collapsing
-    # tags to spaces, so e.g. "By Lattafa</p><p>Khamrah Waha is..." doesn't
-    # read as one run-on sentence "by Lattafa Khamrah Waha is..." that
-    # swallows the next paragraph's product-name mention into the brand
-    # regex match.
     text = re.sub(r"</p>|<br\s*/?>|</div>", ". ", html or "", flags=re.I)
     text = re.sub(r"<[^>]+>", " ", text)
     return re.sub(r"\s+", " ", text).strip()
-
-
-# the site's own copy sometimes spells a brand differently than this
-# catalog's already-established convention (e.g. "Al Rasasi" here vs
-# "Rasasi" on every other store) — reconcile the couple of known ones
-# rather than let a new spelling variant slip in.
-BRAND_ALIASES = {"rasasi": "Rasasi", "al rasasi": "Rasasi", "ibraq": "Ibraq", "lattafa perfumes": "Lattafa"}
 
 
 def _is_plausible_brand(candidate: str) -> bool:
@@ -112,36 +101,28 @@ def extract_brand(title: str, body_html: str) -> str:
     text = strip_html(body_html)
     brand = ""
 
-    m = STANDALONE_BY_RE.search(text)
-    if m and _is_plausible_brand(m.group(1)):
-        brand = m.group(1).strip()
-
-    if not brand and title:
-        # "<Title> by <Brand> is/,." — anchored to the product's own
-        # title so it can't latch onto an unrelated "by" elsewhere in the
-        # description prose.
+    if title:
+        # "<Title> by <Brand> is/,." — anchored to the product's own title
+        # so it can't latch onto an unrelated "by" elsewhere in the prose.
         anchored_re = re.compile(re.escape(title) + r"\s+by\s+([A-Z][A-Za-z&.' ]{2,25}?)(?:\s+is\b|[.,]|$)", re.I)
         m = anchored_re.search(text)
         if m and _is_plausible_brand(m.group(1)):
             brand = m.group(1).strip()
 
-    if not brand and "lattafa.com/barcode" in (body_html or ""):
-        brand = "Lattafa"
+    if not brand:
+        m = STANDALONE_BY_RE.search(text)
+        if m and _is_plausible_brand(m.group(1)):
+            brand = m.group(1).strip()
 
     return BRAND_ALIASES.get(brand.lower(), brand)
 
 
-def extract_ml(title: str, body_html: str):
-    m = TITLE_ML_RE.search(title)
-    if m:
-        return int(m.group(1))
-    text = strip_html(body_html)
-    m = BODY_SIZE_RE.search(text)
-    if m:
-        return int(m.group(1))
-    m = TITLE_ML_RE.search(text)
-    if m:
-        return int(m.group(1))
+def extract_ml(variants: list):
+    for v in variants:
+        opt = (v.get("option1") or v.get("title") or "")
+        m = ML_RE.search(opt)
+        if m:
+            return int(m.group(1))
     return None
 
 
@@ -164,31 +145,14 @@ def parse_product(p: dict):
     if price <= 0:
         return None
 
-    body_html = p.get("body_html") or ""
-    ml = extract_ml(title, body_html)
+    ml = extract_ml(variants)
     if not ml:
         return None
 
+    body_html = p.get("body_html") or ""
     brand = extract_brand(title, body_html)
-    # title itself is ALL CAPS store-wide convention — normalize to title
-    # case for display, then let strip_redundant_brand_suffix drop the
-    # brand if it's redundantly baked onto the end (matches this
-    # catalog's existing naming convention for every other store).
-    name_en = title.title()
-    name_en = re.sub(rf"\b{re.escape(str(ml))}\s*ML\b", "", name_en, flags=re.I).strip()
+    name_en = title
     if brand:
-        # this store's own titles restate the brand as a literal "... By
-        # <Brand>" suffix even when already declared via extract_brand()
-        # ("Al Fareed By Arabian Oud", brand "Arabian Oud") — left in,
-        # that extra "by" token beats find_existing_product's matching
-        # against the already-split sibling ("Al Fareed") and silently
-        # duplicates it on every re-sync. strip_redundant_brand_suffix()
-        # alone won't touch this (it deliberately preserves a "By <Brand>"
-        # suffix — could be a real designer collab name), but on this
-        # store's own title convention "By X" always just means
-        # attribution, so strip it outright first.
-        if name_en.lower().endswith(f"by {brand.lower()}"):
-            name_en = name_en[: -(len(brand) + 3)].rstrip(" -—–|,").strip()
         name_en = strip_redundant_brand_suffix(name_en, brand)
 
     images = p.get("images") or []
@@ -223,10 +187,6 @@ def main():
     IMAGES_DIR.mkdir(exist_ok=True)
     added, synced = 0, 0
 
-    # Each fragrance can appear as more than one `info` entry (different
-    # categories/sizes) — collect everything seen this run per product
-    # first, then reconcile once at the end, so a size that's genuinely
-    # gone gets marked sold instead of just sitting there stale forever.
     touched = {}  # product id -> {"product": dict, "offers": [...], "store_image": str|None, "product_url": str|None}
 
     for info in parsed:
@@ -300,7 +260,7 @@ def main():
     subprocess.run(["git", "add", "products.json", "images/"], cwd=CATALOG.parent, check=True)
     subprocess.run(
         ["git", "commit", "-m",
-         f"sync_emaratiscents.py: {added} added, {synced} synced"],
+         f"sync_darelarabia.py: {added} added, {synced} synced"],
         cwd=CATALOG.parent, check=True,
     )
     print("Committed locally (not pushed). Review with `git log`/`git diff`, then `git push` when ready.")
