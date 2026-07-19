@@ -37,6 +37,8 @@ BRAND_PREFIXES = [
     "Nikos", "Ibraheem AlQurashi", "Ibraheem Al Qurashi", "Al-Ezz",
     "Al-Ezz for Oud", "Gissah", "Aromatix", "Giardini Di Toscana",
     "Bond No 9", "Bond No. 9", "Maison Asrar", "SpongeBob", "Spongebob",
+    "Riffs", "Riiffs", "Iven", "Vitality", "Troove", "BORNTOSTANDOUT",
+    "MPF", "Le Falconé", "Le Falcone", "Nina Ricci",
 ]
 
 # Some titles use an abbreviation or alt spelling — normalize to the same
@@ -47,6 +49,8 @@ ABBREVIATIONS = {
     "Dunhill": "Alfred Dunhill", "Montblanc": "Mont Blanc",
     "Lancome": "Lancôme", "Hermes": "Hermès",
     "Mercedes-Benz": "Mercedes Benz",
+    "Riiffs": "Riffs", "Le Falcone": "Le Falconé Perfumes",
+    "Le Falconé": "Le Falconé Perfumes",
 }
 
 

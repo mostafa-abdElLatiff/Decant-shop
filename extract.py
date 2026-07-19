@@ -557,26 +557,53 @@ def find_existing_product(catalog: dict, name_en: str, brand: str = ""):
     too generic to trust, but it's safe here specifically because a real,
     matching brand on *both* sides is required too (two unrelated products
     that happen to share one generic word, with no brand to cross-check,
-    still won't match)."""
+    still won't match).
+
+    When the INCOMING brand is blank, the real brand is sometimes baked
+    into name_en instead of split out at all (a source with no structured
+    brand field, or a brand missing from that source's known-brands list —
+    e.g. sniffz/eldesoki producing "Riffs Freeze"/brand="" instead of
+    name="Freeze"/brand="Riffs"). A blank incoming brand strips nothing of
+    its own, so it'd never token-match the existing "Freeze"/brand="Riffs"
+    entry and would silently duplicate it. So for each candidate, if the
+    incoming brand is blank, ALSO try stripping *that candidate's own*
+    brand tokens out of the incoming name before comparing — this bit us
+    for real across a scheduled sync run: "Riffs Freeze"/"Iven Peace" (both
+    blank brand) each duplicated their already-correctly-split sibling
+    ("Freeze"/Riffs, "Peace"/Iven).
+
+    A product's "aliases" list (raw name strings it's also known by) is
+    checked alongside its current name_en — needed for a different failure
+    mode than the two above: when a source's OWN listing text is simply
+    wrong (a mistranscribed "X Scandal" that's really "X Xandal", a
+    word-order-swapped "Odyssey Dubai Chocolat") and got corrected by hand
+    in the catalog, that source keeps re-scraping the same wrong text on
+    every future sync — which no longer resembles the corrected name_en
+    closely enough for the fuzzy pass to reconnect (real, different
+    dictionary words, not a token/spelling variant). Recording the old raw
+    text as an alias when doing that kind of correction is what keeps a
+    scheduled re-sync from recreating it as a new product."""
     exact_id = slugify(name_en)
     name_key = re.sub(r"\s+", " ", (name_en or "").strip().lower())
     for p in catalog["products"]:
         p_name_key = re.sub(r"\s+", " ", (p.get("name_en") or "").strip().lower())
+        alias_keys = {re.sub(r"\s+", " ", a.strip().lower()) for a in p.get("aliases", [])}
         id_still_current = p["id"] == exact_id and slugify(p.get("name_en") or "") == p["id"]
-        if (id_still_current or (name_key and p_name_key == name_key)) \
+        if (id_still_current or (name_key and (p_name_key == name_key or name_key in alias_keys))) \
                 and _brands_match(p.get("brand", ""), brand):
             return p
 
     search_brand_tokens = _brand_tokens(brand)
-    core = _tokens(name_en) - search_brand_tokens
-    if not core:
+    base_core = _tokens(name_en) - search_brand_tokens
+    if not base_core:
         return None
     for p in catalog["products"]:
         p_brand_tokens = _brand_tokens(p.get("brand", ""))
         p_core = _tokens(p["name_en"]) - p_brand_tokens
+        core = base_core - p_brand_tokens if not search_brand_tokens else base_core
         if p_core != core:
             continue
-        if len(core) < 2 and not (search_brand_tokens and p_brand_tokens):
+        if len(core) < 2 and not p_brand_tokens:
             continue
         if _brands_match(p.get("brand", ""), brand):
             return p
@@ -647,11 +674,18 @@ def reconcile_offers(old_offers: list, fresh_offers: list, today: date = None) -
     catalog every run (roseperfume/sniffz/MO Shawky/eldesoki/
     emaratiscents) — a one-off Facebook post extraction never sees "the
     whole picture" for a store, so merge_store()'s plain upsert (never
-    remove) is deliberately the only thing used there."""
+    remove) is deliberately the only thing used there.
+
+    fresh_offers is deduplicated by (kind, ml) first — a source listing
+    the same size twice in one run (pagination overlap, the same product
+    reachable via two categories) would otherwise sail straight through
+    as two literal duplicate offers in the same store block, since
+    nothing else here checks fresh_offers against itself."""
     today = today or date.today()
-    fresh_keys = {(o["kind"], o["ml"]) for o in fresh_offers}
+    deduped_fresh = list({(o["kind"], o["ml"]): o for o in fresh_offers}.values())
+    fresh_keys = {(o["kind"], o["ml"]) for o in deduped_fresh}
     result = []
-    for o in fresh_offers:
+    for o in deduped_fresh:
         old = next((x for x in old_offers if x["kind"] == o["kind"] and x["ml"] == o["ml"]), None)
         merged = track_offer(old, o)
         merged.pop("sold_since", None)

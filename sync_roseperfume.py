@@ -34,7 +34,7 @@ import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from extract import slugify, accord_color, find_existing_product, unique_id_for, reconcile_offers, is_web_sourced_hero, CATALOG  # noqa: E402
+from extract import slugify, accord_color, find_existing_product, unique_id_for, reconcile_offers, is_web_sourced_hero, strip_redundant_brand_suffix, CATALOG  # noqa: E402
 from rp_notes import translate_note, split_dupe  # noqa: E402
 
 COLLECTION_URL = "https://roseperfume.online/collections/men-fragrances/products.json"
@@ -56,10 +56,18 @@ GENERIC_TAGS = {
 }
 
 
+# A brand tag spelled with no internal spaces ("ALREHAB") tokenizes as one
+# solid word and can't token-match the catalog's existing spaced spelling
+# ("Al Rehab") from other stores — _brands_match() then treats them as two
+# different houses and silently creates a duplicate product. Normalize the
+# ones actually seen rather than relying on token-matching to bridge it.
+BRAND_ALIASES = {"alrehab": "Al Rehab", "al-rehab": "Al Rehab"}
+
+
 def pick_brand_tag(tags: list) -> str:
     for t in tags or []:
         if t.strip().lower() not in GENERIC_TAGS:
-            return t
+            return BRAND_ALIASES.get(t.strip().lower(), t)
     return ""
 
 
@@ -170,10 +178,25 @@ def parse_product(p):
         extract_field(body, ":المكونات الأساسية"),
     )
     dupe_raw = extract_dupe(body)
+    brand = pick_brand_tag(p["tags"])
+    # the title sometimes redundantly restates the brand as a "... By
+    # <Brand>" suffix even though it's already in its own tag ("Khumar
+    # Zanzibar By Wadi Al khaleej", brand tag "Wadi Al Khaleej") — left
+    # in, that beats find_existing_product's matching (an extra "by"
+    # token in the name that the already-split sibling doesn't have) and
+    # silently duplicates the product on every re-sync. Unlike
+    # strip_redundant_brand_suffix() elsewhere (which deliberately leaves
+    # a "By <Brand>" suffix alone — could be a real designer collab name),
+    # on this store's own title convention "By X" always just means
+    # attribution, so strip it outright before the general pass.
+    name_en = p["title"].strip()
+    if brand and name_en.lower().endswith(f"by {brand.lower()}"):
+        name_en = name_en[: -(len(brand) + 3)].rstrip(" -—–|,").strip()
+    name_en = strip_redundant_brand_suffix(name_en, brand) if brand else name_en
 
     return {
-        "name_en": p["title"].strip(),
-        "brand": pick_brand_tag(p["tags"]),
+        "name_en": name_en,
+        "brand": brand,
         "dupe_of": split_dupe(dupe_raw) if dupe_raw else None,
         "notes": notes,
         "image": p["images"][0]["src"] if p["images"] else "",
