@@ -358,9 +358,38 @@
           ],
           "image": "images/khamrah-dukhan--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/khamrah-dukhan-lattafa"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 175,
+              "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 925,
+              "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1425,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/khamra-dukhan--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/khamra-dukhan-50ml%d8%ae%d9%85%d8%b1%d8%a9-%d8%af%d8%ae%d8%a7%d9%86-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Khamra Dukhan"
+      ]
     },
     {
       "id": "jad-rustic",
@@ -2754,9 +2783,44 @@
           ],
           "image": "images/the-one-for-men-eau-de-parfum--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/dolce-gabbana-the-one-for-men-eau-de-parfum"
+        },
+        {
+          "name": "Mohamed Mohie",
+          "url": "https://www.facebook.com/mohammett.mohie/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 300,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 500,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 20,
+              "price": 900,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 1300,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/the-one-edp--mohamed-mohie.jpg",
+          "product_url": "https://www.facebook.com/groups/1321209448577265/posts/1951252878906249"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "The One Edp"
+      ]
     },
     {
       "id": "freeze-by-riiffs",
@@ -5171,9 +5235,68 @@
           ],
           "image": "images/hawas--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/hawas-rasasi"
+        },
+        {
+          "name": "EsLam Nasser",
+          "url": "https://www.facebook.com/eslam.nasser.10/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 100,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 140,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-01-01"
+            }
+          ]
+        },
+        {
+          "name": "Mostafa Mohamed",
+          "url": "https://www.facebook.com/mostafa.mohamed.390048/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 250,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 20,
+              "price": 450,
+              "first_seen": "2026-01-01"
+            }
+          ]
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1575,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/hawas-for-him--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/hawas-for-him-uae-100ml%d9%87%d9%88%d8%b3-%d9%81%d9%88%d8%b1-%d9%87%d9%8a%d9%85-%d9%85%d9%86-%d8%a7%d9%84%d8%b1%d8%b5%d8%a7%d8%b5%d9%8a-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Hawas for Him"
+      ]
     },
     {
       "id": "hacivat-x",
@@ -9394,70 +9517,6 @@
         }
       ],
       "_hero_source": "MO Shawky"
-    },
-    {
-      "id": "khamra-qahwa",
-      "name_ar": "خمرة قهوة",
-      "name_en": "Khamra Qahwa",
-      "brand": "Lattafa",
-      "dupe_of": [],
-      "image": "images/khamra-qahwa.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1475,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/khamra-qahwa--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/khamra-qahwa-100ml%d8%ae%d9%85%d8%b1%d8%a9-%d9%82%d9%87%d9%88%d8%a9-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "khamra-dukhan",
-      "name_ar": "خمره دخان ١٠٠ملي",
-      "name_en": "Khamra Dukhan",
-      "brand": "Lattafa",
-      "dupe_of": [],
-      "image": "images/khamra-dukhan.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 175,
-              "first_seen": "2026-07-18"
-            },
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 925,
-              "first_seen": "2026-07-18"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1425,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/khamra-dukhan--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/khamra-dukhan-50ml%d8%ae%d9%85%d8%b1%d8%a9-%d8%af%d8%ae%d8%a7%d9%86-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "riyadh-dkhoon-emirates",
@@ -30761,137 +30820,6 @@
       "_hero_source": "emaratiscents"
     },
     {
-      "id": "hawas-for-him",
-      "name_ar": "هوس فور هيم",
-      "name_en": "Hawas for Him",
-      "brand": "Rasasi",
-      "dupe_of": [
-        "Invictus — Rabanne"
-      ],
-      "image": "images/hawas-for-him.jpg",
-      "accords": [
-        {
-          "label_en": "Citrus",
-          "label_ar": "الحمضيات",
-          "color": "#F9FF52",
-          "w": 100
-        },
-        {
-          "label_en": "Marine",
-          "label_ar": "بحري",
-          "color": "#0E529B",
-          "w": 86
-        },
-        {
-          "label_en": "Aromatic",
-          "label_ar": "أروماتك",
-          "color": "#37a089",
-          "w": 72
-        },
-        {
-          "label_en": "Fresh Spicy",
-          "label_ar": "تابلي منعش",
-          "color": "#83C928",
-          "w": 58
-        },
-        {
-          "label_en": "Woody",
-          "label_ar": "خشبي",
-          "color": "#774414",
-          "w": 44
-        },
-        {
-          "label_en": "Salty",
-          "label_ar": "مالح",
-          "color": "#B7D8DC",
-          "w": 40
-        },
-        {
-          "label_en": "Amber",
-          "label_ar": "العنبر",
-          "color": "#bc4d10",
-          "w": 40
-        },
-        {
-          "label_en": "White Flowers",
-          "label_ar": "الزهور البيضاء",
-          "color": "#edf2fb",
-          "w": 40
-        },
-        {
-          "label_en": "Aquatic",
-          "label_ar": "مائي",
-          "color": "#0E529B",
-          "w": 40
-        },
-        {
-          "label_en": "Animalic",
-          "label_ar": "حيواني",
-          "color": "#8E4B13",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "EsLam Nasser",
-          "url": "https://www.facebook.com/eslam.nasser.10/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 100,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 140,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 200,
-              "first_seen": "2026-01-01"
-            }
-          ]
-        },
-        {
-          "name": "Mostafa Mohamed",
-          "url": "https://www.facebook.com/mostafa.mohamed.390048/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 250,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 20,
-              "price": 450,
-              "first_seen": "2026-01-01"
-            }
-          ]
-        },
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1575,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/hawas-for-him--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/hawas-for-him-uae-100ml%d9%87%d9%88%d8%b3-%d9%81%d9%88%d8%b1-%d9%87%d9%8a%d9%85-%d9%85%d9%86-%d8%a7%d9%84%d8%b1%d8%b5%d8%a7%d8%b5%d9%8a-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "red-tobacco-intense",
       "name_ar": "Red Tobacco Intense",
       "name_en": "Red Tobacco Intense",
@@ -31757,50 +31685,6 @@
         }
       ],
       "_hero_source": "og-perfume"
-    },
-    {
-      "id": "the-one-edp",
-      "name_ar": "The One Edp",
-      "name_en": "The One Edp",
-      "brand": "Dolce & Gabbana",
-      "dupe_of": [],
-      "image": "images/the-one-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Mohamed Mohie",
-          "url": "https://www.facebook.com/mohammett.mohie/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 300,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 500,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 20,
-              "price": 900,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 1300,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/the-one-edp--mohamed-mohie.jpg",
-          "product_url": "https://www.facebook.com/groups/1321209448577265/posts/1951252878906249"
-        }
-      ],
-      "_hero_source": "Mohamed Mohie"
     },
     {
       "id": "nebras-elixir",
@@ -76599,32 +76483,6 @@
       "_hero_source": "Mohamed Mohie"
     },
     {
-      "id": "khamra",
-      "name_ar": "خمره من لطافة ١٠٠ملي",
-      "name_en": "KHAMRA",
-      "brand": "Lattafa",
-      "dupe_of": [],
-      "image": "images/khamra.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1450,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/khamra--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/khamra%d8%ae%d9%85%d8%b1%d9%87-%d9%85%d9%86-%d9%84%d8%b7%d8%a7%d9%81%d8%a9/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "la-capitale",
       "name_ar": "",
       "name_en": "La Capitale",
@@ -91065,9 +90923,26 @@
           ],
           "image": "images/khamrah--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/khamrah-lattafa"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1450,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/khamra--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/khamra%d8%ae%d9%85%d8%b1%d9%87-%d9%85%d9%86-%d9%84%d8%b7%d8%a7%d9%81%d8%a9/"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "KHAMRA"
+      ]
     },
     {
       "id": "mariya",
@@ -99377,9 +99252,26 @@
           ],
           "image": "images/khamrah-qahwa--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/khamrah-qahwa-lattafa"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1475,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/khamra-qahwa--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/khamra-qahwa-100ml%d8%ae%d9%85%d8%b1%d8%a9-%d9%82%d9%87%d9%88%d8%a9-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Khamra Qahwa"
+      ]
     },
     {
       "id": "tharwah-silver",
