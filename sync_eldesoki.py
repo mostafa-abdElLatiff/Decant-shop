@@ -201,7 +201,7 @@ def main():
             info = parse_product(p, kind)
             if info:
                 parsed.append(info)
-    print(f"{len(parsed)} in-stock listing(s) with a readable size")
+    print(f"{len(parsed)} listing(s) with a readable size and price")
 
     catalog = json.loads(CATALOG.read_text(encoding="utf-8")) if CATALOG.exists() \
         else {"settings": {}, "products": []}

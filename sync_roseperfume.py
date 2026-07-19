@@ -253,7 +253,7 @@ def main():
         info = parse_product(p)
         if info:
             parsed[info["name_en"]] = info
-    print(f"  {len(parsed)} qualify (in-stock fragrance listings with readable sizes)")
+    print(f"  {len(parsed)} qualify (fragrance listings with a readable size and price)")
 
     catalog = json.loads(CATALOG.read_text(encoding="utf-8")) if CATALOG.exists() \
         else {"settings": {}, "products": []}

@@ -184,7 +184,7 @@ def main():
             else:
                 parsed_by_name[key] = info
 
-    print(f"Total qualifying (in-stock) products: {len(parsed_by_name)}")
+    print(f"Total qualifying products: {len(parsed_by_name)}")
 
     catalog = json.loads(CATALOG.read_text(encoding="utf-8")) if CATALOG.exists() \
         else {"settings": {}, "products": []}
