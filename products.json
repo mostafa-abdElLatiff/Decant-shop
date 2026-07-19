@@ -68376,6 +68376,26 @@
           ],
           "image": "images/x-xandal--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/x-scandal-50ml%d8%a7%d9%83%d8%b3-%d8%b3%d9%83%d8%a7%d9%86%d8%af%d8%a7%d9%84-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 200,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 300,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/x-xandal--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/french-avenue-x-aromatix-x-xandal"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -81416,6 +81436,72 @@
           ],
           "image": "images/enclave--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/amouage-enclave"
+        }
+      ],
+      "_hero_source": "perfuzone"
+    },
+    {
+      "id": "platine-blanc",
+      "name_ar": "Platine Blanc",
+      "name_en": "Platine Blanc",
+      "brand": "Aromatix X French Avenue",
+      "dupe_of": [],
+      "image": "images/platine-blanc.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 6,
+              "price": 200,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 300,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/platine-blanc--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/french-avenue-x-aromatix-platine-blanc"
+        }
+      ],
+      "_hero_source": "perfuzone"
+    },
+    {
+      "id": "sun-kissed",
+      "name_ar": "Sun Kissed",
+      "name_en": "Sun Kissed",
+      "brand": "Aromatix X French Avenue",
+      "dupe_of": [],
+      "image": "images/sun-kissed.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 200,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 300,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/sun-kissed--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/french-avenue-x-aromatix-sun-kissed"
         }
       ],
       "_hero_source": "perfuzone"
