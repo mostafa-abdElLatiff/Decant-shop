@@ -11419,7 +11419,8 @@
               "kind": "decant",
               "ml": 20,
               "price": 500,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-19"
             }
           ],
           "image": "images/spanish-tobacco--eldesoki-fragrances.jpg",
@@ -22660,10 +22661,11 @@
               "first_seen": "2026-07-18"
             }
           ],
-          "image": "images/zenith-vanilla--eldesoki-fragrances.jpg",
+          "image": "images/vanilla--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/zenith-vanilla-100ml%d8%b2%d9%8a%d9%86%d8%b3-%d9%81%d8%a7%d9%86%d9%8a%d9%84%d8%a7-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         }
-      ]
+      ],
+      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "nafas-blaze",
@@ -31305,7 +31307,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-19"
             },
             {
               "kind": "full",
@@ -31426,7 +31429,8 @@
               "kind": "decant",
               "ml": 20,
               "price": 500,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -31438,7 +31442,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1675,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-19"
             }
           ],
           "image": "images/mexican-tobacco--eldesoki-fragrances.jpg",
@@ -42744,6 +42749,12 @@
               "ml": 100,
               "price": 650,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 650,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/contra-not-only-intense--eldesoki-fragrances.jpg",
@@ -42847,7 +42858,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 175,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-19"
             },
             {
               "kind": "full",
@@ -42857,7 +42869,7 @@
             }
           ],
           "image": "images/rayhaan-nuctorno-elixir--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/nuctorno-elixir-10ml-rayhaan%d9%86%d9%88%d9%83%d8%aa%d9%88%d8%b1%d9%86%d9%88-%d8%a7%d9%84%d9%8a%d9%83%d8%b2%d9%8a%d8%b1-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a-%d8%b1%d9%8a%d8%ad/"
+          "product_url": "https://eldesoki-fragrances.com/product/rayhaan-nuctorno-elixir-100ml%d8%b1%d9%8a%d8%ad%d8%a7%d9%86-%d9%86%d9%83%d8%aa%d9%88%d8%b1%d9%86%d9%88-%d8%a7%d9%84%d9%8a%d9%83%d8%b2%d9%8a%d8%b1-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "eldesoki-fragrances"
@@ -43744,8 +43756,9 @@
             {
               "kind": "full",
               "ml": 20,
-              "price": 4250,
-              "first_seen": "2026-07-18"
+              "price": 3950,
+              "first_seen": "2026-07-18",
+              "prev_price": 4250
             }
           ],
           "image": "images/musk-collection-12--eldesoki-fragrances.jpg",
@@ -45837,7 +45850,8 @@
               "kind": "decant",
               "ml": 20,
               "price": 450,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-19"
             },
             {
               "kind": "full",
@@ -45847,7 +45861,7 @@
             }
           ],
           "image": "images/french-tobacco-ibraq--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/french-tobacco-20ml%d9%81%d8%b1%d9%8a%d9%86%d8%b4-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%85%d9%86-%d8%a8%d9%88%d9%83%d8%b3-%d8%a7%d8%a8%d8%b1%d8%a7%d9%82-%d9%a2%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/french-tobacco-ibraq-100ml%d9%81%d8%b1%d9%8a%d9%86%d8%b4-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%85%d9%86-%d8%a7%d8%a8%d8%b1%d8%a7%d9%82-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "eldesoki-fragrances"
@@ -45972,7 +45986,7 @@
             {
               "kind": "full",
               "ml": 20,
-              "price": 2900,
+              "price": 2950,
               "first_seen": "2026-07-18"
             }
           ],
@@ -47341,7 +47355,7 @@
             }
           ],
           "image": "images/emeer-lattafa--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/emeer%d8%a7%d9%8a%d9%85%d9%8a%d8%b1-%d9%85%d9%86-%d9%84%d8%b7%d8%a7%d9%81%d8%a9/"
+          "product_url": "https://eldesoki-fragrances.com/product/emeer-10ml%d8%a7%d9%8a%d9%85%d9%8a%d8%b1-%d9%84%d8%b7%d8%a7%d9%81%d8%a9-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "emaratiscents",
@@ -48087,7 +48101,8 @@
               "kind": "decant",
               "ml": 20,
               "price": 450,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -48139,7 +48154,8 @@
               "kind": "decant",
               "ml": 20,
               "price": 450,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -49815,7 +49831,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 7750,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-19"
             }
           ],
           "image": "images/toni-iommi-monkey-special--eldesoki-fragrances.jpg",
@@ -50055,11 +50072,12 @@
               "kind": "leftover",
               "ml": 100,
               "price": 975,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-19"
             }
           ],
           "image": "images/troove-assaf--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/troove-100ml/"
+          "product_url": "https://eldesoki-fragrances.com/product/troove-assaf-10ml%d8%aa%d8%b1%d9%88%d9%81-%d9%85%d9%86-%d8%b9%d8%b3%d8%a7%d9%81-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "eldesoki-fragrances"
@@ -67897,6 +67915,20 @@
           ],
           "image": "images/khadlaj-island-dreams--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/island-dreams"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1475,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/khadlaj-island-dreams--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/khadlaj-island-dreams-100ml%d8%ae%d8%a7%d8%af%d9%84%d8%a7%da%86-%d8%a2%d9%8a%d9%84%d8%a7%d9%86%d8%af-%d8%af%d8%b1%d9%8a%d9%85%d8%b2-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -68186,6 +68218,668 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "external-club-mpf-1784441247",
+      "name_ar": "اكستيرنال كلوب ٢٠٠ملي من عطوري",
+      "name_en": "External Club MPF",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/external-club-mpf-1784441247.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 825,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/external-club-mpf-1784441247--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/external-club-200ml-mpf%d8%a7%d9%83%d8%b3%d8%aa%d9%8a%d8%b1%d9%86%d8%a7%d9%84-%d9%83%d9%84%d9%88%d8%a8-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b9%d8%b7%d9%88%d8%b1%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "vitality-cherry-musk-1784441248",
+      "name_ar": "فيتاليتي مسك الكرز ١٠٠ملي",
+      "name_en": "Vitality Cherry Musk",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/vitality-cherry-musk-1784441248.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 475,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/vitality-cherry-musk-1784441248--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/vitality-cherry-musk-100ml%d9%81%d9%8a%d8%aa%d8%a7%d9%84%d9%8a%d8%aa%d9%8a-%d9%85%d8%b3%d9%83-%d8%a7%d9%84%d9%83%d8%b1%d8%b2-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "vitality-pistachio-musk-1784441249",
+      "name_ar": "فيتاليتي مسك الفسدق ١٠٠ملي",
+      "name_en": "Vitality Pistachio Musk",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/vitality-pistachio-musk-1784441249.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 475,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/vitality-pistachio-musk-1784441249--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/vitality-pistachio-musk-100ml%d9%81%d9%8a%d8%aa%d8%a7%d9%84%d9%8a%d8%aa%d9%8a-%d9%85%d8%b3%d9%83-%d8%a7%d9%84%d9%81%d8%b3%d8%af%d9%82-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "king-tobacco-laverne-1784441251",
+      "name_ar": "كينج توباكو ٢٠٠ملي من لافيرن",
+      "name_en": "King Tobacco Laverne",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/king-tobacco-laverne-1784441251.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2550,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/king-tobacco-laverne-1784441251--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/king-tobacco-200ml-laverne%d9%83%d9%8a%d9%86%d8%ac-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%84%d8%a7%d9%81%d9%8a%d8%b1%d9%86/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "vip-blend-oud-al-rehab",
+      "name_ar": "في اي بي بليند عود ١٠٠ملي من الرحاب",
+      "name_en": "Vip Blend Oud",
+      "brand": "Al Rehab",
+      "dupe_of": [],
+      "image": "images/vip-blend-oud-al-rehab.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 975,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/vip-blend-oud-al-rehab--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/vip-blend-oud-100ml%d9%81%d9%8a-%d8%a7%d9%8a-%d8%a8%d9%8a-%d8%a8%d9%84%d9%8a%d9%86%d8%af-%d8%b9%d9%88%d8%af-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d9%84%d8%b1%d8%ad%d8%a7%d8%a8/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "al-qamar-musk-bundle-75ml-6gm-1784441253",
+      "name_ar": "Al Qamar Musk Bundle ( 75ml + 10ml + 6gm )",
+      "name_en": "Al Qamar Musk Bundle 75ml + + 6gm",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/al-qamar-musk-bundle-75ml-6gm-1784441253.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 10,
+              "price": 1500,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/al-qamar-musk-bundle-75ml-6gm-1784441253--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/al-qamar-musk-bundle-75ml-10ml-6gm/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "assaf-day-night-bundle-perfumes-1784441254",
+      "name_ar": "Assaf Day & Night Bundle ( 350ML Perfumes)",
+      "name_en": "Assaf Day & Night Bundle Perfumes",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/assaf-day-night-bundle-perfumes-1784441254.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 350,
+              "price": 3400,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/assaf-day-night-bundle-perfumes-1784441254--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/assaf-day-night-bundle-350ml-perfumes/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "oros-edp-milestone-1784441255",
+      "name_ar": "اوروس ١٠٠ملي من مايلستون",
+      "name_en": "Oros Edp MileStone",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/oros-edp-milestone-1784441255.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 700,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/oros-edp-milestone-1784441255--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/oros-edp-milestone-100ml%d8%a7%d9%88%d8%b1%d9%88%d8%b3-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%85%d8%a7%d9%8a%d9%84%d8%b3%d8%aa%d9%88%d9%86/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "arrogate-blue-de-assaf-1784441256",
+      "name_ar": "اروجيت بلو دي عساف ٢٠٠ملي",
+      "name_en": "Arrogate Blue De Assaf",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/arrogate-blue-de-assaf-1784441256.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2025,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/arrogate-blue-de-assaf-1784441256--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/arrogate-blue-de-assaf-200ml%d8%a7%d8%b1%d9%88%d8%ac%d9%8a%d8%aa-%d8%a8%d9%84%d9%88-%d8%af%d9%8a-%d8%b9%d8%b3%d8%a7%d9%81-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "rayhaan-tonquin-giza",
+      "name_ar": "ريحان تونكن جيزه ١٠٠ملي",
+      "name_en": "Rayhaan Tonquin Giza",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/rayhaan-tonquin-giza.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1550,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/rayhaan-tonquin-giza--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/rayhaan-tonquin-giza-100ml%d8%b1%d9%8a%d8%ad%d8%a7%d9%86-%d8%aa%d9%88%d9%86%d9%83%d9%86-%d8%ac%d9%8a%d8%b2%d9%87-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "rayhaan-lion",
+      "name_ar": "ريحان لايون ١٠٠ملي",
+      "name_en": "Rayhaan Lion",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/rayhaan-lion.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1450,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1450,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/rayhaan-lion--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/lion-rayhaan%d9%84%d8%a7%d9%8a%d9%88%d9%86-%d8%b1%d9%8a%d8%ad%d8%a7%d9%86/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "club-de-nuit-intense-man-parfum-limited-edition",
+      "name_ar": "Club De Nuit Intense Man Parfum Limited Edition 105ml",
+      "name_en": "Club De Nuit Intense Man Parfum Limited Edition",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/club-de-nuit-intense-man-parfum-limited-edition.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 105,
+              "price": 3650,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/club-de-nuit-intense-man-parfum-limited-edition--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/club-de-nuit-intense-man-parfum-limited-edition-105ml/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "assaf-eid-bakhur-set",
+      "name_ar": "بوكس عيد بخور من عساف ٣٤٠ملي عطور",
+      "name_en": "Assaf Eid Bakhur Set",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/assaf-eid-bakhur-set.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 340,
+              "price": 3525,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/assaf-eid-bakhur-set--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/assaf-bakhur-collection-box%d8%a8%d9%88%d9%83%d8%b3-%d9%85%d8%ac%d9%85%d9%88%d8%b9%d8%a9-%d8%a8%d8%ae%d9%88%d8%b1-%d9%85%d9%86-%d8%b9%d8%b3%d8%a7%d9%81/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "khadlaj-vanilla-dunes",
+      "name_ar": "خادلاچ آيلاند فانيلا دونز ١٠٠ملي",
+      "name_en": "Khadlaj Vanilla Dunes",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/khadlaj-vanilla-dunes.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1475,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/khadlaj-vanilla-dunes--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/khadlaj-vanilla-dunes-100ml%d8%ae%d8%a7%d8%af%d9%84%d8%a7%da%86-%d8%a2%d9%8a%d9%84%d8%a7%d9%86%d8%af-%d9%81%d8%a7%d9%86%d9%8a%d9%84%d8%a7-%d8%af%d9%88%d9%86%d8%b2-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "x-scandal-aromatix",
+      "name_ar": "اكس سكاندال ١٠٠ملي اروماتكس",
+      "name_en": "X Scandal Aromatix",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/x-scandal-aromatix.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/x-scandal-aromatix--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/x-scandal-aromatix-100ml%d8%a7%d9%83%d8%b3-%d8%b3%d9%83%d8%a7%d9%86%d8%af%d8%a7%d9%84-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d8%a7%d8%b1%d9%88%d9%85%d8%a7%d8%aa%d9%83%d8%b3/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "chelsea-man-al-rehab-al-rehab",
+      "name_ar": "تشيلسي مان من الرحاب ٥٠ملي",
+      "name_en": "Chelsea Man Al Rehab",
+      "brand": "Al Rehab",
+      "dupe_of": [],
+      "image": "images/chelsea-man-al-rehab-al-rehab.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 225,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/chelsea-man-al-rehab-al-rehab--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/chelsea-man-al-rehab-50ml%d8%aa%d8%b4%d9%8a%d9%84%d8%b3%d9%8a-%d9%85%d8%a7%d9%86-%d9%85%d9%86-%d8%a7%d9%84%d8%b1%d8%ad%d8%a7%d8%a8-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "ameer-al-oudh-intense",
+      "name_ar": "امير العود انتنس ١٠٠ملي",
+      "name_en": "Ameer Al Oudh Intense",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/ameer-al-oudh-intense.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 975,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/ameer-al-oudh-intense--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/ameer-al-oudh-intense-100ml%d8%a7%d9%85%d9%8a%d8%b1-%d8%a7%d9%84%d8%b9%d9%88%d8%af-%d8%a7%d9%86%d8%aa%d9%86%d8%b3-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "mexican-tobacco-ibrahim-al-qurashi",
+      "name_ar": "ميكسيكان توباكو من القرشي ١٠٠ملي",
+      "name_en": "Mexican Tobacco",
+      "brand": "Ibrahim Al Qurashi",
+      "dupe_of": [],
+      "image": "images/mexican-tobacco-ibrahim-al-qurashi.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1675,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/mexican-tobacco-ibrahim-al-qurashi--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/mexican-tobacco-100ml%d9%85%d9%8a%d9%83%d8%b3%d9%8a%d9%83%d8%a7%d9%86-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%85%d9%86-%d8%a7%d9%84%d9%82%d8%b1%d8%b4%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "liquid-brun-limited",
+      "name_ar": "ليكويد برون ليميتد اديشن تستر ١٠ملي",
+      "name_en": "Liquid Brun Limited",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/liquid-brun-limited.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/liquid-brun-limited--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/liquid-brun-limited-10ml%d9%84%d9%8a%d9%83%d9%88%d9%8a%d8%af-%d8%a8%d8%b1%d9%88%d9%86-%d9%84%d9%8a%d9%85%d9%8a%d8%aa%d8%af-%d8%a7%d8%af%d9%8a%d8%b4%d9%86-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "nuctorno-elixir-rayhaan",
+      "name_ar": "نوكتورنو اليكزير تستر ١٠ملي ريحان",
+      "name_en": "Nuctorno Elixir Rayhaan",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/nuctorno-elixir-rayhaan.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 175,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/nuctorno-elixir-rayhaan--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/nuctorno-elixir-10ml-rayhaan%d9%86%d9%88%d9%83%d8%aa%d9%88%d8%b1%d9%86%d9%88-%d8%a7%d9%84%d9%8a%d9%83%d8%b2%d9%8a%d8%b1-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a-%d8%b1%d9%8a%d8%ad/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "ameer-oud-intense",
+      "name_ar": "امير العود انتنس تستر ١٠ملي",
+      "name_en": "Ameer Oud Intense",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/ameer-oud-intense.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 125,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 600,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/ameer-oud-intense--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/ameer-oud-intense-50ml%d8%a7%d9%85%d9%8a%d8%b1-%d8%a7%d9%84%d8%b9%d9%88%d8%af-%d8%a7%d9%86%d8%aa%d9%86%d8%b3-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "chocolate-dubai",
+      "name_ar": "شوكولا دبي (١٠ملي)",
+      "name_en": "Chocolate Dubai",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/chocolate-dubai.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 150,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/chocolate-dubai--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/odyssey-chocolate-10ml%d8%b4%d9%88%d9%83%d9%88%d9%84%d8%a7-%d8%af%d8%a8%d9%8a-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "x-scandal",
+      "name_ar": "اكس سكاندال ٥٠ملي",
+      "name_en": "X Scandal",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/x-scandal.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 1250,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/x-scandal--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/x-scandal-50ml%d8%a7%d9%83%d8%b3-%d8%b3%d9%83%d8%a7%d9%86%d8%af%d8%a7%d9%84-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "toni-iommi-monkey",
+      "name_ar": "توني ايومي من زيرچوف ٥٠ملي نسخة مونكي",
+      "name_en": "Toni Iommi monkey",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/toni-iommi-monkey.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 7750,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/toni-iommi-monkey--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/toni-iommi-monkey-50ml%d8%aa%d9%88%d9%86%d9%8a-%d8%a7%d9%8a%d9%88%d9%85%d9%8a-%d9%85%d9%86-%d8%b2%d9%8a%d8%b1%da%86%d9%88%d9%81-%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d9%86%d8%b3%d8%ae%d8%a9-%d9%85%d9%88/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "troove-assaf-1784441390",
+      "name_ar": "تروڤ عساف ١٠٠ملي",
+      "name_en": "Troove Assaf",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/troove-assaf-1784441390.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "leftover",
+              "ml": 100,
+              "price": 975,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/troove-assaf-1784441390--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/troove-100ml/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
