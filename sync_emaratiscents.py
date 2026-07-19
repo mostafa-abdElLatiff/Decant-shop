@@ -15,6 +15,10 @@ a couple of fallback patterns:
     any "<n> ML" mention in the body; skipped (not synced) if none found,
     same as every other store's "don't guess a size" rule.
 
+A listing with no price is skipped (nothing to show), but a sold-out one
+WITH a price is still synced and marked "sold" right away — an
+out-of-stock price is still useful, it's what to watch for a restock at.
+
 Run manually any time with:  python3 sync_emaratiscents.py
 """
 import json
@@ -155,8 +159,13 @@ def parse_product(p: dict):
     if not title or is_non_perfume(title):
         return None
     variants = p.get("variants") or []
-    if not variants or not variants[0].get("available"):
+    if not variants:
         return None
+    # sold out still gets synced (with its price) rather than skipped —
+    # reconcile_offers() marks it "sold" immediately instead of dropping it,
+    # so an out-of-stock listing still tells you what this store charges
+    # and is worth waiting for a restock at, instead of vanishing outright.
+    available = bool(variants[0].get("available"))
     price_str = variants[0].get("price")
     if not price_str:
         return None
@@ -197,7 +206,7 @@ def parse_product(p: dict):
         "brand": brand,
         "image": images[0]["src"] if images else "",
         "product_url": f"{STORE_URL.rstrip('/')}/products/{p['handle']}" if p.get("handle") else None,
-        "offer": {"kind": "full", "ml": ml, "price": price},
+        "offer": {"kind": "full", "ml": ml, "price": price, "available": available},
     }
 
 

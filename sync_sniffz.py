@@ -9,10 +9,10 @@ translation needed).
 
 Covers three collections: summer-samples and winter-samples (decants) and
 pre-order-full-bottles (full, sealed bottles — the collection's own name is
-the explicit "sealed/new" evidence extract.py's rules ask for). Only
-variants marked available on Shopify are included; a product with zero
-available variants is skipped entirely — this is the "check availability
-before adding" step.
+the explicit "sealed/new" evidence extract.py's rules ask for). A sold-out
+variant is still synced (marked "sold" right away by reconcile_offers()
+rather than dropped) as long as it has a price — an out-of-stock size
+still tells you what this store charges, worth waiting for a restock at.
 
 Run whenever you want to refresh this store's listings:
 
@@ -133,20 +133,24 @@ def download_image(url, dest_path):
 
 
 def parse_product(p, kind: str):
-    available_variants = [v for v in p["variants"] if v["available"]]
-    if not available_variants:
+    if not p["variants"]:
         return None
 
     title = p["title"].strip()
     title = re.sub(r"\s*Full\s*&\s*Sealed\s*$", "", title, flags=re.I).strip()
     name_en, brand = split_brand_prefix(title)
 
+    # a sold-out variant still gets synced (with its price) rather than
+    # skipped — reconcile_offers() marks it "sold" immediately instead of
+    # dropping it, so an out-of-stock size still tells you what this store
+    # charges and is worth waiting for a restock at, instead of vanishing.
     offers = []
-    for v in available_variants:
+    for v in p["variants"]:
         m = re.search(r"(\d+)\s*ml", v["title"], re.I)
         if not m:
             continue
-        offers.append({"kind": kind, "ml": int(m.group(1)), "price": int(float(v["price"]))})
+        offers.append({"kind": kind, "ml": int(m.group(1)), "price": int(float(v["price"])),
+                        "available": bool(v["available"])})
     if not offers:
         return None
 

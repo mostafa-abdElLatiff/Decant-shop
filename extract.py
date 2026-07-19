@@ -158,20 +158,127 @@ ACCORD_ALIASES = {
     "virginia cedarwood": "woody", "walnut flavor": "nutty",
     "white flowers": "white floral", "white musk": "musky",
     "yellow flowers": "yellow floral", "yuzu": "citrus",
+
+    # citrus
+    "lemon": "citrus", "lemon zest": "citrus", "lime": "citrus",
+    "citron": "citrus", "orange": "citrus", "tangerine": "citrus",
+    "mandarin orange": "citrus", "sicilian orange": "citrus",
+    "sicilian lemon": "citrus", "sicilian bergamot": "citrus",
+    "calabrian bergamot": "citrus", "blood orange": "citrus",
+    "brazilian orange": "citrus",
+
+    # woody
+    "cedar": "woody", "agarwood": "oud", "cashmere wood": "woody",
+    "guaiac wood": "woody", "driftwood": "woody", "oak": "woody",
+    "cypress": "aromatic", "birch": "woody", "palo santo": "woody",
+    "dry wood": "woody", "white wood": "woody", "woods": "woody",
+    "woodsy notes": "woody", "sycamore": "woody",
+
+    # spicy
+    "pepper": "warm spicy", "black pepper": "warm spicy",
+    "pink pepper": "fresh spicy", "sichuan pepper": "warm spicy",
+    "timur pepper": "warm spicy", "clove": "warm spicy",
+    "cloves": "warm spicy", "coriander": "warm spicy", "cumin": "warm spicy",
+    "caraway": "warm spicy", "paprika": "warm spicy", "pimento": "warm spicy",
+    "star anise": "aromatic", "davana": "aromatic",
+
+    # aromatic / herbal
+    "mint": "aromatic", "spearmint": "aromatic", "peppermint": "aromatic",
+    "mint tea": "aromatic", "basil": "aromatic", "thyme": "aromatic",
+    "tarragon": "aromatic", "clary sage": "herbal", "chamomile": "aromatic",
+    "artemisia": "aromatic", "wormwood": "aromatic", "galbanum": "green",
+    "juniper berries": "aromatic", "juniper berry": "aromatic",
+
+    # floral
+    "jasmine": "floral", "jasmine sambac": "floral", "lily": "floral",
+    "lily of the valley": "floral", "lily-of-the-valley": "floral",
+    "lilac": "floral", "magnolia": "floral", "gardenia": "floral",
+    "hyacinth": "floral", "osmanthus": "floral", "ylang-ylang": "floral",
+    "frangipani": "floral", "blue lotus": "floral", "orchid": "floral",
+    "orange blossom": "white floral", "tunisian neroli": "white floral",
+    "grapefruit blossom": "citrus", "lemon blossom": "citrus",
+
+    # resinous / balsamic / incense
+    "benzoin": "balsamic", "labdanum": "balsamic", "myrrh": "balsamic",
+    "elemi": "balsamic", "frankincense": "balsamic", "olibanum": "balsamic",
+    "incense": "smoky", "styrax": "balsamic", "tolu balsam": "balsamic",
+    "peru balsam": "balsamic", "gurjan balsam": "balsamic",
+    "cypriol": "smoky", "cypriol oil (nagarmotha)": "smoky", "smoke": "smoky",
+    "coumarin": "vanilla",
+
+    # fruity
+    "pineapple": "fruity", "pear": "fruity", "peach": "fruity",
+    "white peach": "fruity", "plum": "fruity", "raspberry": "fruity",
+    "black currant": "fruity", "blackcurrant": "fruity", "melon": "fruity",
+    "watermelon": "fruity", "mango": "fruity", "apricot": "fruity",
+    "strawberry": "fruity", "pomegranate": "fruity", "rhubarb": "fruity",
+    "litchi": "fruity", "passionfruit": "fruity", "carambola (star fruit)": "fruity",
+    "mirabelle": "fruity", "sapodilla": "fruity", "durian": "fruity",
+    "candy apple": "fruity", "dried fruits": "fruity", "forest fruits": "fruity",
+
+    # musky / animalic
+    "ambrette": "musky", "ambrette (musk mallow)": "musky",
+    "ambrettolide": "musky", "cashmeran": "musky", "animal notes": "animalic",
+
+    # amber / woody-amber
+    "ambrofix": "amber", "ambrox super": "amber",
+
+    # nutty / gourmand
+    "hazelnut": "nutty", "candied almond": "nutty", "sesame": "nutty",
+    "sugar": "vanilla", "brown sugar": "vanilla", "praline": "caramel",
+    "milk": "vanilla", "cappuccino": "coffee", "amaretto": "balsamic",
+    "speculoos": "caramel",
+
+    # marine / fresh
+    "sea notes": "marine", "seaweed": "marine", "water notes": "marine",
+    "aquazone": "marine", "aquozone": "marine", "calone": "marine",
+    "solar notes": "fresh", "ice": "fresh", "snow": "fresh",
+
+    # earthy / green / misc
+    "carrot": "earthy", "carrot seeds": "earthy", "lemongrass": "green",
+    "flowers": "floral", "suede": "leather", "black tea": "green",
+    "chinese black tea": "green", "cinnamon leaf": "warm spicy",
+    "ceylon cinnamon": "warm spicy", "guatemalan cardamom": "warm spicy",
+    "nigerian ginger": "fresh spicy", "ginger flower": "fresh spicy",
+    "violet leaf": "powdery", "heliotrope": "powdery", "iso e super": "woody",
+    "hedione": "floral", "chestnut": "nutty", "oak moss": "mossy",
+    "virginia cedar": "woody", "virginian cedar": "woody",
+    "atlas cedar": "woody", "white cedar extract": "woody",
+    "cedar leaves": "woody", "mastic": "balsamic",
+    "mastic (lentisque)": "balsamic", "petitgrain": "citrus",
+    "papyrus": "woody", "spices": "warm spicy", "spicy notes": "warm spicy",
+    "tonka": "vanilla", "oriental": "balsamic", "oriental notes": "balsamic",
+    "balsam fir": "conifer", "orris": "powdery",
+    "saffron": "warm spicy", "ivy": "green", "cannabis": "green",
+    "dates": "fruity", "whiskey": "balsamic", "liquor": "balsamic",
+    "resins": "balsamic", "mineral notes": "earthy", "hawthorn": "floral",
+    "immortelle": "balsamic", "litsea cubeba": "citrus", "maltol": "vanilla",
 }
 
 FALLBACK_COLOR = "#9C9C9C"
 
 
 def accord_color(label: str) -> str:
-    key = (label or "").strip().lower()
+    key = (label or "").strip().lower().replace("™", "").replace("®", "").strip()
     if key in ACCORD_COLORS:
         return ACCORD_COLORS[key]
     if key in ACCORD_ALIASES:
         return ACCORD_COLORS[ACCORD_ALIASES[key]]
-    for name, color in ACCORD_COLORS.items():
+    # substring fallback (for compound labels like "Calabrian Bergamot" or
+    # "Sicilian Lemon") — longest name first, so a short generic family
+    # word ("oud") can't shadow a more specific alias match ("guaiac wood")
+    # sitting inside the same label. Checked against ACCORD_ALIASES (the
+    # specific-ingredient table) too, not just ACCORD_COLORS' broad family
+    # names — without this, any note whose exact/aliased name wasn't a
+    # verbatim match (which is most compound/varietal note names) silently
+    # fell all the way through to FALLBACK_COLOR instead of resolving via
+    # its base ingredient.
+    for name, color in sorted(ACCORD_COLORS.items(), key=lambda kv: -len(kv[0])):
         if name in key or key in name:
             return color
+    for name, family in sorted(ACCORD_ALIASES.items(), key=lambda kv: -len(kv[0])):
+        if name in key or key in name:
+            return ACCORD_COLORS[family]
     return FALLBACK_COLOR
 
 PROMPT_CONTEXT_DEFAULT = """You are extracting a perfume listing from a social media post image
@@ -680,15 +787,33 @@ def reconcile_offers(old_offers: list, fresh_offers: list, today: date = None) -
     the same size twice in one run (pagination overlap, the same product
     reachable via two categories) would otherwise sail straight through
     as two literal duplicate offers in the same store block, since
-    nothing else here checks fresh_offers against itself."""
+    nothing else here checks fresh_offers against itself.
+
+    A fresh offer may carry "available": False (a source that still shows
+    a listed-but-out-of-stock item's price, e.g. Shopify's own
+    variant.available flag) — kept and marked sold immediately rather
+    than the usual "missing entirely from this run" path below, since the
+    seller told us directly it's out of stock right now, no need to wait
+    and see if it reappears next run first. The point (per the user):
+    an out-of-stock price is still a real data point — it tells you what
+    this store charges, so you know whether it's worth waiting for a
+    restock. Only meaningfully different from the "went missing" path in
+    that it doesn't need SOLD_GRACE_DAYS to elapse before applying — the
+    source already confirmed it's sold, right now, first sync or not.
+    Missing the "available" key at all (every caller that predates this)
+    defaults to True, unchanged from before."""
     today = today or date.today()
     deduped_fresh = list({(o["kind"], o["ml"]): o for o in fresh_offers}.values())
     fresh_keys = {(o["kind"], o["ml"]) for o in deduped_fresh}
     result = []
     for o in deduped_fresh:
         old = next((x for x in old_offers if x["kind"] == o["kind"] and x["ml"] == o["ml"]), None)
+        available = o.pop("available", True)
         merged = track_offer(old, o)
-        merged.pop("sold_since", None)
+        if available:
+            merged.pop("sold_since", None)
+        else:
+            merged["sold_since"] = (old or {}).get("sold_since") or today.isoformat()
         result.append(merged)
     for o in old_offers:
         if (o["kind"], o["ml"]) in fresh_keys:

@@ -12,6 +12,10 @@ embedded in the English line (e.g. "Strike Black Assaf 125ML") — parsed
 from there rather than trusted from the category label, since actual sizes
 vary within a category.
 
+A listing with no price is skipped (nothing to show), but a sold-out one
+WITH a price is still synced and marked "sold" right away — an
+out-of-stock price is still useful, it's what to watch for a restock at.
+
 Run manually any time with:  python3 sync_eldesoki.py
 """
 import html
@@ -111,9 +115,14 @@ def clean_brand_suffix(raw: str) -> str:
 
 
 def parse_product(p: dict, kind: str):
-    """Return a normalized dict, or None if unavailable / size unreadable."""
-    if not p.get("is_in_stock", True) or not p.get("is_purchasable", True):
-        return None
+    """Return a normalized dict, or None if the size is unreadable (a sold-
+    out listing is NOT skipped — see the "available" note on the returned
+    offer below)."""
+    # sold out still gets synced (with its price) rather than skipped —
+    # reconcile_offers() marks it "sold" immediately instead of dropping it,
+    # so an out-of-stock listing still tells you what this store charges
+    # and is worth waiting for a restock at, instead of vanishing outright.
+    available = bool(p.get("is_in_stock", True)) and bool(p.get("is_purchasable", True))
     raw_name = html.unescape((p.get("name") or "").strip())
     lines = raw_name.split("\n")
     if len(lines) > 1:
@@ -174,7 +183,7 @@ def parse_product(p: dict, kind: str):
         "brand": brand,
         "image": images[0]["src"] if images else "",
         "product_url": p.get("permalink"),
-        "offer": {"kind": kind, "ml": ml, "price": price},
+        "offer": {"kind": kind, "ml": ml, "price": price, "available": available},
     }
 
 

@@ -9,17 +9,18 @@ and the Arabic description's dupe-reference / notes-pyramid sections).
 Run manually whenever you want to refresh this store's listings. Each run:
   1. Fetches the full men's-fragrances product list.
   2. Skips non-fragrance items (deodorants, body splashes, gift sets) and
-     anything with no in-stock variant.
-  3. Only includes variants that are actually purchasable right now — a
-     product with some sizes in stock and others sold out only gets the
-     in-stock ones.
+     any variant with no price at all.
+  3. A sold-out variant is still included (marked "sold" right away by
+     reconcile_offers() rather than dropped) — a product with some sizes
+     in stock and others sold out keeps all of them, the out-of-stock ones
+     just show as sold. Still useful: it's the price to watch for a
+     restock at.
   4. For each product it can confidently re-identify (exact ID, or an exact
-     normalized-name match), fully replaces roseperfume's offers with the
-     current state, so a decant size that's gone out of stock is dropped.
-     Deliberately never removes a roseperfume listing it can't re-match —
-     see the comment on replace_store_offers() for why. Run
-     find_duplicates.py periodically to catch near-duplicates and stale
-     listings for manual cleanup instead.
+     normalized-name match), reconciles roseperfume's offers against the
+     current run's results — a decant size genuinely gone (not just sold
+     out, actually removed/renamed on the site) gets marked sold and later
+     dropped after SOLD_GRACE_DAYS. Run find_duplicates.py periodically to
+     catch near-duplicates and stale listings for manual cleanup instead.
   5. Commits locally if anything changed — never pushes. Review with
      `git log` / `git diff` and push yourself when ready.
 
@@ -148,26 +149,28 @@ def parse_product(p):
     if is_non_perfume(p["title"]):
         return None
 
+    # a sold-out variant still gets synced (with its price) rather than
+    # skipped — reconcile_offers() marks it "sold" immediately instead of
+    # dropping it, so an out-of-stock size still tells you what this store
+    # charges and is worth waiting for a restock at, instead of vanishing.
     variants = p["variants"]
     if len(variants) == 1:
         v = variants[0]
-        if not v["available"]:
-            return None
         size_m = re.search(r"(\d{2,3})\s*ML", p["body_html"], re.I)
         if not size_m:
             return None
-        offers = [{"kind": "full", "ml": int(size_m.group(1)), "price": int(float(v["price"]))}]
+        offers = [{"kind": "full", "ml": int(size_m.group(1)), "price": int(float(v["price"])),
+                   "available": bool(v["available"])}]
     else:
         offers = []
         for v in variants:
-            if not v["available"]:
-                continue
             t = v["title"].lower()
             m = re.search(r"(\d+)\s*ml", t)
             ml = int(m.group(1)) if m else None
             if ml:
                 kind = "full" if "full" in t else "decant"
-                offers.append({"kind": kind, "ml": ml, "price": int(float(v["price"]))})
+                offers.append({"kind": kind, "ml": ml, "price": int(float(v["price"])),
+                                "available": bool(v["available"])})
         if not offers:
             return None
 
