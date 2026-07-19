@@ -1110,35 +1110,6 @@
       ]
     },
     {
-      "id": "azul",
-      "name_ar": "Azul",
-      "name_en": "Azul",
-      "brand": "Rayhaan",
-      "dupe_of": [],
-      "image": "images/azul-by-rayhaan.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1550,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/azul-by-rayhaan--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/azul-by-rayhaan"
-        }
-      ],
-      "_hero_source": "emaratiscents",
-      "aliases": [
-        "Azul By Rayhaan"
-      ]
-    },
-    {
       "id": "uqab-rihla",
       "name_ar": "Uqab Rihla",
       "name_en": "Uqab Rihla",
@@ -1163,40 +1134,6 @@
         }
       ],
       "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "tobacco-body-oud-abdulsamad-alqurashi",
-      "name_ar": "Tobacco Body Oud",
-      "name_en": "Tobacco Body Oud",
-      "brand": "Abdulsamad AlQurashi",
-      "dupe_of": [],
-      "image": "images/tobacco-body-oud-abdulsamad-alqurashi.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 370,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 3500,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/tobacco-body-oud-abdulsamad-alqurashi--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/tobacco-body-oud"
-        }
-      ],
-      "_hero_source": "og-perfume"
     },
     {
       "id": "zenith-santal",
@@ -6346,7 +6283,7 @@
       "id": "klikat-times",
       "name_ar": "Klikat Times",
       "name_en": "Klikat Times",
-      "brand": "AlEzzOud",
+      "brand": "Al Ezz Lel Oud",
       "dupe_of": [],
       "image": "images/klikat-times.jpg",
       "accords": [],
@@ -8056,7 +7993,7 @@
       "id": "oceanic-fresh",
       "name_ar": "Oceanic Fresh",
       "name_en": "Oceanic Fresh",
-      "brand": "Abdulsamad AlQurashi",
+      "brand": "Abdul Samad Al Qurashi",
       "dupe_of": [],
       "image": "images/oceanic-fresh.jpg",
       "accords": [],
@@ -21991,46 +21928,6 @@
       "_hero_source": "sniffz"
     },
     {
-      "id": "klikat-blue-alezzoud",
-      "name_ar": "Klikat Blue",
-      "name_en": "Klikat Blue",
-      "brand": "AlEzzOud",
-      "dupe_of": [],
-      "image": "images/klikat-blue-alezzoud.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 110,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 300,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 1600,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/klikat-blue-alezzoud--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/klikat-blue"
-        }
-      ],
-      "_hero_source": "og-perfume"
-    },
-    {
       "id": "afeef",
       "name_ar": "Afeef",
       "name_en": "Afeef",
@@ -22874,7 +22771,7 @@
       "id": "hersh-lahab-hersh",
       "name_ar": "Hersh Lahab",
       "name_en": "Hersh Lahab",
-      "brand": "Hersh",
+      "brand": "Al Ezz Lel Oud",
       "dupe_of": [],
       "image": "images/hersh-lahab-hersh.jpg",
       "accords": [],
@@ -22919,9 +22816,78 @@
           ],
           "image": "images/hersh-lahab-hersh--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/hersh-lahab"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 200,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 260,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 400,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2200,
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/hersh-lahab--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/al-ezz-for-oud-hersh-lahab"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2975,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/hersh-lahab--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/hersh-lahab-ezz-oud%d9%87%d8%b1%d8%b4-%d9%84%d9%87%d8%a8-%d9%85%d9%86-%d8%a7%d9%84%d8%b9%d8%b2-%d9%84%d9%84%d8%b9%d9%88%d8%af/"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 270,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 400,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/hersh-lahab--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/hersh-lahab-al-ezz-oud"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": []
     },
     {
       "id": "eshal-vanilla",
@@ -25353,9 +25319,37 @@
           ],
           "image": "images/klikat-monaya--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/klikat-monaya-200-ml"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 125,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 325,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 1850,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/klikat-monaya-alezzoud--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/klikat-monaya"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": []
     },
     {
       "id": "private-2december",
@@ -37942,7 +37936,8 @@
           "product_url": "https://og-perfume.com/products/rayhaan-azul"
         }
       ],
-      "_hero_source": "roseperfume"
+      "_hero_source": "roseperfume",
+      "aliases": []
     },
     {
       "id": "dkhoon-oud",
@@ -49962,105 +49957,6 @@
       "_hero_source": "eldesoki-fragrances"
     },
     {
-      "id": "hersh-lahab",
-      "name_ar": "",
-      "name_en": "Hersh Lahab",
-      "brand": "Al-Ezz for Oud",
-      "dupe_of": [],
-      "image": "images/hersh-lahab.jpg",
-      "accords": [
-        {
-          "label_en": "Basil",
-          "label_ar": "",
-          "color": "#37a089",
-          "w": 100
-        },
-        {
-          "label_en": "Vetiver",
-          "label_ar": "",
-          "color": "#544838",
-          "w": 90
-        },
-        {
-          "label_en": "Black Pepper",
-          "label_ar": "",
-          "color": "#CC3300",
-          "w": 80
-        }
-      ],
-      "stores": [
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 200,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 260,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 400,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2200,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/hersh-lahab--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/al-ezz-for-oud-hersh-lahab"
-        },
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2975,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/hersh-lahab--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/hersh-lahab-ezz-oud%d9%87%d8%b1%d8%b4-%d9%84%d9%87%d8%a8-%d9%85%d9%86-%d8%a7%d9%84%d8%b9%d8%b2-%d9%84%d9%84%d8%b9%d9%88%d8%af/"
-        },
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 270,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 400,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/hersh-lahab--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/hersh-lahab-al-ezz-oud"
-        }
-      ],
-      "_hero_source": "sniffz"
-    },
-    {
       "id": "goodness-oud-riffs",
       "name_ar": "جودنس عود بلانش من ريفس ١٠٠ملي",
       "name_en": "Goodness Oud Riffs",
@@ -50250,35 +50146,6 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "obsidian",
-      "name_ar": "Obsidian",
-      "name_en": "Obsidian",
-      "brand": "Rayhaan",
-      "dupe_of": [],
-      "image": "images/obsidian-by-rayhaan.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1550,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/obsidian-by-rayhaan--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/obsidian-1"
-        }
-      ],
-      "_hero_source": "emaratiscents",
-      "aliases": [
-        "Obsidian By Rayhaan"
-      ]
     },
     {
       "id": "sunset-u-collection",
@@ -50521,7 +50388,8 @@
           "product_url": "https://og-perfume.com/products/rayhaan-obsidian"
         }
       ],
-      "_hero_source": "roseperfume"
+      "_hero_source": "roseperfume",
+      "aliases": []
     },
     {
       "id": "mango-affogato",
@@ -54038,45 +53906,6 @@
         }
       ],
       "_hero_source": "perfuzone"
-    },
-    {
-      "id": "klikat-monaya-alezzoud",
-      "name_ar": "Klikat Monaya",
-      "name_en": "Klikat Monaya",
-      "brand": "AlEzzOud",
-      "dupe_of": [],
-      "image": "images/klikat-monaya-alezzoud.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 125,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 325,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 1850,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/klikat-monaya-alezzoud--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/klikat-monaya"
-        }
-      ],
-      "_hero_source": "og-perfume"
     },
     {
       "id": "1-million-elixir",
@@ -61232,7 +61061,7 @@
       "id": "klikat-jassas-alezzoud",
       "name_ar": "Klikat Jassas",
       "name_en": "Klikat Jassas",
-      "brand": "AlEzzOud",
+      "brand": "Al Ezz Lel Oud",
       "dupe_of": [],
       "image": "images/klikat-jassas-alezzoud.jpg",
       "accords": [],
@@ -62669,9 +62498,38 @@
           ],
           "image": "images/klikat-blue--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/klikat-blue-200-ml"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 110,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 300,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 1600,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/klikat-blue-alezzoud--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/klikat-blue"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": []
     },
     {
       "id": "carnal-desire",
@@ -64802,7 +64660,7 @@
       "id": "black-star-him",
       "name_ar": "Black Star - Him",
       "name_en": "Black Star - Him",
-      "brand": "Abdulsamad AlQurashi",
+      "brand": "Abdul Samad Al Qurashi",
       "dupe_of": [],
       "image": "images/black-star-him.jpg",
       "accords": [],
@@ -75110,50 +74968,6 @@
       "_hero_source": "sniffz"
     },
     {
-      "id": "hersh-2",
-      "name_ar": "",
-      "name_en": "Hersh 2",
-      "brand": "Al-Ezz for Oud",
-      "dupe_of": [],
-      "image": "images/hersh-2.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 170,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 230,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 350,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2450,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/hersh-2--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/hersh-2"
-        }
-      ],
-      "_hero_source": "sniffz"
-    },
-    {
       "id": "al-wisam-absolute",
       "name_ar": "",
       "name_en": "Al Wisam Absolute",
@@ -81865,7 +81679,7 @@
       "id": "hersh-2-hersh",
       "name_ar": "Hersh 2",
       "name_en": "Hersh 2",
-      "brand": "Hersh",
+      "brand": "Al Ezz Lel Oud",
       "dupe_of": [],
       "image": "images/hersh-2-hersh.jpg",
       "accords": [],
@@ -81903,9 +81717,42 @@
           ],
           "image": "images/hersh-2-hersh--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/hersh-2"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 170,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 230,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 350,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2450,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/hersh-2--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/hersh-2"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": []
     },
     {
       "id": "ameer-alrehab-perfumes-al-rehab",
@@ -90406,7 +90253,7 @@
       "id": "blue-star-him",
       "name_ar": "Blue Star - Him",
       "name_en": "Blue Star - Him",
-      "brand": "Abdulsamad AlQurashi",
+      "brand": "Abdul Samad Al Qurashi",
       "dupe_of": [],
       "image": "images/blue-star-him.jpg",
       "accords": [],
@@ -95913,8 +95760,31 @@
             }
           ],
           "image": "images/tobacco-body-oud.jpg"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 370,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3500,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/tobacco-body-oud-abdulsamad-alqurashi--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/tobacco-body-oud"
         }
-      ]
+      ],
+      "aliases": []
     },
     {
       "id": "clive-christian-x",
@@ -96915,10 +96785,84 @@
               "ml": 20,
               "price": 450,
               "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "leftover",
+              "ml": "as-shown",
+              "price": 1800,
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/ghost-spectre.jpg"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 150,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 190,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 320,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/spectre-ghost--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/french-avenue-spectre-ghost"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 220,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 30,
+              "price": 600,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 40,
+              "price": 775,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 80,
+              "price": 1550,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/spectre-ghost--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/spectre-ghost"
         }
+      ],
+      "aliases": [
+        "Spectre Ghost"
       ]
     },
     {
@@ -101051,7 +100995,7 @@
       "id": "hersh-bukhori",
       "name_ar": "Hersh Bukhori",
       "name_en": "Hersh Bukhori",
-      "brand": "AlEzzOud",
+      "brand": "Al Ezz Lel Oud",
       "dupe_of": [],
       "image": "images/hersh-bukhori.jpg",
       "accords": [],
@@ -101199,98 +101143,6 @@
         }
       ],
       "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "spectre-ghost",
-      "name_ar": "Spectre Ghost",
-      "name_en": "Spectre Ghost",
-      "brand": "French Avenue",
-      "dupe_of": [
-        "Nishane Ani"
-      ],
-      "image": "images/spectre-ghost.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Mostafa Mohamed",
-          "url": "https://www.facebook.com/mostafa.mohamed.390048/",
-          "offers": [
-            {
-              "kind": "leftover",
-              "ml": "as-shown",
-              "price": 1800,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/spectre-ghost.jpg"
-        },
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 190,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 320,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/spectre-ghost--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/french-avenue-spectre-ghost"
-        },
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 220,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 30,
-              "price": 600,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 40,
-              "price": 775,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 80,
-              "price": 1550,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/spectre-ghost--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/spectre-ghost"
-        }
-      ],
-      "_hero_source": "sniffz"
     },
     {
       "id": "l-12-12-yellow",
