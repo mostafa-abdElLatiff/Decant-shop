@@ -22203,6 +22203,24 @@
           "url": "https://roseperfume.online/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 5,
+              "price": 110,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 550,
+              "first_seen": "2026-07-19"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1550,
@@ -65208,6 +65226,1326 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "black-horse-al-rehab-perfumes-al-rehab",
+      "name_ar": "",
+      "name_en": "Black Horse AL-REHAB PERFUMES",
+      "brand": "Al-Rehab",
+      "dupe_of": [],
+      "image": "images/black-horse-al-rehab-perfumes-al-rehab.jpg",
+      "accords": [
+        {
+          "label_en": "Tangerine",
+          "label_ar": "تانجرين (اليوسفي)",
+          "color": "#9C9C9C",
+          "w": 100
+        },
+        {
+          "label_en": "Orange",
+          "label_ar": "البرتقال",
+          "color": "#9C9C9C",
+          "w": 90
+        },
+        {
+          "label_en": "Green Notes",
+          "label_ar": "النوتات الخضراء",
+          "color": "#0E8C1D",
+          "w": 80
+        },
+        {
+          "label_en": "Lemongrass",
+          "label_ar": "عشب الليمون",
+          "color": "#9C9C9C",
+          "w": 70
+        },
+        {
+          "label_en": "Cedarwood",
+          "label_ar": "تتكون من خشب الأرز",
+          "color": "#774414",
+          "w": 60
+        },
+        {
+          "label_en": "Patchouli",
+          "label_ar": "الباتشولي",
+          "color": "#63652e",
+          "w": 50
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 150,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/black-horse-al-rehab-perfumes-al-rehab--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/black-horse-al-rehab-perfumes"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "limonar-alrehab-perfumes-al-rehab",
+      "name_ar": "",
+      "name_en": "Limonar ALREHAB PERFUMES",
+      "brand": "Al-Rehab",
+      "dupe_of": [
+        "Castley — Parfums de Marly"
+      ],
+      "image": "images/limonar-alrehab-perfumes-al-rehab.jpg",
+      "accords": [
+        {
+          "label_en": "Timur Pepper",
+          "label_ar": "فلفل تايمور",
+          "color": "#9C9C9C",
+          "w": 100
+        },
+        {
+          "label_en": "Grapefruit",
+          "label_ar": "الجريب فروت",
+          "color": "#F9FF52",
+          "w": 90
+        },
+        {
+          "label_en": "Bergamot",
+          "label_ar": "البرغموت",
+          "color": "#F9FF52",
+          "w": 80
+        },
+        {
+          "label_en": "Pear",
+          "label_ar": "الكمثرى",
+          "color": "#9C9C9C",
+          "w": 70
+        },
+        {
+          "label_en": "Pink Pepper",
+          "label_ar": "الفلفل الوردي",
+          "color": "#9C9C9C",
+          "w": 60
+        },
+        {
+          "label_en": "Petitgrain",
+          "label_ar": "البيتيتغرين",
+          "color": "#9C9C9C",
+          "w": 50
+        },
+        {
+          "label_en": "Pepper",
+          "label_ar": "الفلفل",
+          "color": "#9C9C9C",
+          "w": 40
+        },
+        {
+          "label_en": "Ginger",
+          "label_ar": "الزنجبيل",
+          "color": "#83C928",
+          "w": 40
+        },
+        {
+          "label_en": "Orange Blossom",
+          "label_ar": "زهر البرتقال",
+          "color": "#9C9C9C",
+          "w": 40
+        },
+        {
+          "label_en": "Jasmine",
+          "label_ar": "الياسمين",
+          "color": "#9C9C9C",
+          "w": 40
+        },
+        {
+          "label_en": "Juniper",
+          "label_ar": "العرعر",
+          "color": "#37a089",
+          "w": 40
+        },
+        {
+          "label_en": "Labdanum",
+          "label_ar": "اللابدانوم",
+          "color": "#9C9C9C",
+          "w": 40
+        },
+        {
+          "label_en": "Musk",
+          "label_ar": "المسك",
+          "color": "#E7D8EA",
+          "w": 40
+        },
+        {
+          "label_en": "Ambroxan",
+          "label_ar": "الأمبروكسان",
+          "color": "#bc4d10",
+          "w": 40
+        },
+        {
+          "label_en": "Cedarwood",
+          "label_ar": "خشب الأرز",
+          "color": "#774414",
+          "w": 40
+        },
+        {
+          "label_en": "Oakmoss",
+          "label_ar": "طحلب السنديان",
+          "color": "#5B6B32",
+          "w": 40
+        },
+        {
+          "label_en": "Patchouli",
+          "label_ar": "الباتشولي",
+          "color": "#63652e",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 150,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/limonar-alrehab-perfumes-al-rehab--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/limonar-alrehab-perfumes"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "of-course-alrehab-perfumes-al-rehab",
+      "name_ar": "",
+      "name_en": "Of Course ALREHAB PERFUMES",
+      "brand": "Al-Rehab",
+      "dupe_of": [
+        "Le Male — Jean Paul Gaultier"
+      ],
+      "image": "images/of-course-alrehab-perfumes-al-rehab.jpg",
+      "accords": [
+        {
+          "label_en": "Mint",
+          "label_ar": "النعناع",
+          "color": "#9C9C9C",
+          "w": 100
+        },
+        {
+          "label_en": "Aquatic Notes",
+          "label_ar": "رائحه الماء",
+          "color": "#0E529B",
+          "w": 90
+        },
+        {
+          "label_en": "Bergamot",
+          "label_ar": "البرغموت",
+          "color": "#F9FF52",
+          "w": 80
+        },
+        {
+          "label_en": "Rose",
+          "label_ar": "الورد",
+          "color": "#FE016B",
+          "w": 70
+        },
+        {
+          "label_en": "Lily",
+          "label_ar": "الزنبق نجيل الهند",
+          "color": "#9C9C9C",
+          "w": 60
+        },
+        {
+          "label_en": "Amber",
+          "label_ar": "تتكون من العنبر المسك",
+          "color": "#bc4d10",
+          "w": 50
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 150,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/of-course-alrehab-perfumes-al-rehab--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/of-course-alrehab-perfumes"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "emper-the-immencity-milestone",
+      "name_ar": "",
+      "name_en": "Emper The Immencity",
+      "brand": "Milestone",
+      "dupe_of": [
+        "L’Immensité — Louis Vuitton"
+      ],
+      "image": "images/emper-the-immencity-milestone.jpg",
+      "accords": [
+        {
+          "label_en": "Ginger",
+          "label_ar": "الزنجبيل",
+          "color": "#83C928",
+          "w": 100
+        },
+        {
+          "label_en": "Grapefruit",
+          "label_ar": "الجريب فروت",
+          "color": "#F9FF52",
+          "w": 90
+        },
+        {
+          "label_en": "Bergamot",
+          "label_ar": "البرغموت",
+          "color": "#F9FF52",
+          "w": 80
+        },
+        {
+          "label_en": "Aquatic Notes",
+          "label_ar": "ملاحظات مائية",
+          "color": "#0E529B",
+          "w": 70
+        },
+        {
+          "label_en": "Rosemary",
+          "label_ar": "إكليل الجبل",
+          "color": "#FE016B",
+          "w": 60
+        },
+        {
+          "label_en": "Sage",
+          "label_ar": "المريمية",
+          "color": "#6CA47F",
+          "w": 50
+        },
+        {
+          "label_en": "Geranium",
+          "label_ar": "إبره الراعي",
+          "color": "#0E8C1D",
+          "w": 40
+        },
+        {
+          "label_en": "Ambroxan",
+          "label_ar": "تتكون من الأمبروكسان",
+          "color": "#bc4d10",
+          "w": 40
+        },
+        {
+          "label_en": "Labdanum",
+          "label_ar": "اللابدانوم",
+          "color": "#9C9C9C",
+          "w": 40
+        },
+        {
+          "label_en": "Amber",
+          "label_ar": "العنبر",
+          "color": "#bc4d10",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 600,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/emper-the-immencity-milestone--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/emper-the-immencity"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "blue-night-al-rehab-al-rehab",
+      "name_ar": "",
+      "name_en": "Blue Night Al-Rehab",
+      "brand": "Al Rehab",
+      "dupe_of": [],
+      "image": "images/blue-night-al-rehab-al-rehab.jpg",
+      "accords": [
+        {
+          "label_en": "Citrus",
+          "label_ar": "الحمضيات",
+          "color": "#F9FF52",
+          "w": 100
+        },
+        {
+          "label_en": "Lavender",
+          "label_ar": "الخزامى",
+          "color": "#9B7DB8",
+          "w": 90
+        },
+        {
+          "label_en": "Anise",
+          "label_ar": "الينسون",
+          "color": "#37a089",
+          "w": 80
+        },
+        {
+          "label_en": "Patchouli",
+          "label_ar": "الباتشولي",
+          "color": "#63652e",
+          "w": 70
+        },
+        {
+          "label_en": "Cedarwood",
+          "label_ar": "خشب الأرز",
+          "color": "#774414",
+          "w": 60
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 150,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/blue-night-al-rehab-al-rehab--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/blue-night-al-rehab"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "le-chameau-save-elixir-le-chameau",
+      "name_ar": "",
+      "name_en": "Le Chameau Save Elixir",
+      "brand": "Le Chameau",
+      "dupe_of": [
+        "Sauvage Elixir — Dior"
+      ],
+      "image": "images/le-chameau-save-elixir-le-chameau.jpg",
+      "accords": [
+        {
+          "label_en": "Grapefruit",
+          "label_ar": "جريب فروت",
+          "color": "#F9FF52",
+          "w": 100
+        },
+        {
+          "label_en": "Orange",
+          "label_ar": "البرتقال",
+          "color": "#9C9C9C",
+          "w": 90
+        },
+        {
+          "label_en": "Pineapple",
+          "label_ar": "الأناناس",
+          "color": "#9C9C9C",
+          "w": 80
+        },
+        {
+          "label_en": "Sandalwood",
+          "label_ar": "خشب الصندل",
+          "color": "#774414",
+          "w": 70
+        },
+        {
+          "label_en": "Flowers",
+          "label_ar": "الأزهار",
+          "color": "#9C9C9C",
+          "w": 60
+        },
+        {
+          "label_en": "Patchouli",
+          "label_ar": "الباتشولي",
+          "color": "#63652e",
+          "w": 50
+        },
+        {
+          "label_en": "Forest Fruits",
+          "label_ar": "ثمار الغابات",
+          "color": "#9C9C9C",
+          "w": 40
+        },
+        {
+          "label_en": "Musk",
+          "label_ar": "المسك",
+          "color": "#E7D8EA",
+          "w": 40
+        },
+        {
+          "label_en": "Amber",
+          "label_ar": "العنبر",
+          "color": "#bc4d10",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 85,
+              "price": 600,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/le-chameau-save-elixir-le-chameau--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/le-chameau-save-elixir"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "al-faris-arabiyat-prestige-arabiyat-prestige",
+      "name_ar": "",
+      "name_en": "Al Faris Arabiyat Prestige",
+      "brand": "Arabiyat Prestige",
+      "dupe_of": [],
+      "image": "images/al-faris-arabiyat-prestige-arabiyat-prestige.jpg",
+      "accords": [
+        {
+          "label_en": "Driftwood",
+          "label_ar": "الأخشاب الطافية",
+          "color": "#9C9C9C",
+          "w": 100
+        },
+        {
+          "label_en": "Ivy",
+          "label_ar": "اللبلاب",
+          "color": "#9C9C9C",
+          "w": 90
+        },
+        {
+          "label_en": "Geranium",
+          "label_ar": "إبرة الراعي",
+          "color": "#0E8C1D",
+          "w": 80
+        },
+        {
+          "label_en": "Coconut",
+          "label_ar": "جوز الهند",
+          "color": "#FC4B29",
+          "w": 70
+        },
+        {
+          "label_en": "Plum",
+          "label_ar": "البرقوق",
+          "color": "#9C9C9C",
+          "w": 60
+        },
+        {
+          "label_en": "Lily of the Valley",
+          "label_ar": "زنبق الوادي",
+          "color": "#9C9C9C",
+          "w": 50
+        },
+        {
+          "label_en": "Orange",
+          "label_ar": "البرتقال",
+          "color": "#9C9C9C",
+          "w": 40
+        },
+        {
+          "label_en": "Orange Blossom",
+          "label_ar": "الزهر",
+          "color": "#9C9C9C",
+          "w": 40
+        },
+        {
+          "label_en": "Jasmine",
+          "label_ar": "الياسمين",
+          "color": "#9C9C9C",
+          "w": 40
+        },
+        {
+          "label_en": "Violet",
+          "label_ar": "البنفسج",
+          "color": "#EEDDCC",
+          "w": 40
+        },
+        {
+          "label_en": "Cedarwood",
+          "label_ar": "خشب الأرز",
+          "color": "#774414",
+          "w": 40
+        },
+        {
+          "label_en": "Amberwood",
+          "label_ar": "خشب العنبر",
+          "color": "#bc4d10",
+          "w": 40
+        },
+        {
+          "label_en": "Cashmere Wood",
+          "label_ar": "خشب الكشمير",
+          "color": "#9C9C9C",
+          "w": 40
+        },
+        {
+          "label_en": "Vanilla",
+          "label_ar": "الفانيليا",
+          "color": "#FFFEC0",
+          "w": 40
+        },
+        {
+          "label_en": "Musk",
+          "label_ar": "المسك",
+          "color": "#E7D8EA",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 550,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/al-faris-arabiyat-prestige-arabiyat-prestige--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/al-faris-arabiyat-prestige"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "chelsea-al-rehab-al-rehab",
+      "name_ar": "",
+      "name_en": "Chelsea Al-Rehab",
+      "brand": "Al Rehab",
+      "dupe_of": [],
+      "image": "images/chelsea-al-rehab-al-rehab.jpg",
+      "accords": [
+        {
+          "label_en": "Jasmine",
+          "label_ar": "الياسمين",
+          "color": "#9C9C9C",
+          "w": 100
+        },
+        {
+          "label_en": "Rose",
+          "label_ar": "الورد",
+          "color": "#FE016B",
+          "w": 90
+        },
+        {
+          "label_en": "Saffron",
+          "label_ar": "الزعفران",
+          "color": "#9C9C9C",
+          "w": 80
+        },
+        {
+          "label_en": "Agarwood",
+          "label_ar": "شجرة أجار",
+          "color": "#9C9C9C",
+          "w": 70
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 150,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/chelsea-al-rehab-al-rehab--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/chelsea-al-rehab"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "lord-blue-al-rehab-al-rehab",
+      "name_ar": "",
+      "name_en": "Lord Blue Al-Rehab",
+      "brand": "Al Rehab",
+      "dupe_of": [],
+      "image": "images/lord-blue-al-rehab-al-rehab.jpg",
+      "accords": [
+        {
+          "label_en": "Cardamom",
+          "label_ar": "العطر الهيل",
+          "color": "#CC3300",
+          "w": 100
+        },
+        {
+          "label_en": "Grapefruit",
+          "label_ar": "الجريب فروت",
+          "color": "#F9FF52",
+          "w": 90
+        },
+        {
+          "label_en": "Cinnamon",
+          "label_ar": "القرفة",
+          "color": "#CC3300",
+          "w": 80
+        },
+        {
+          "label_en": "Nutmeg",
+          "label_ar": "جوزه الطيب",
+          "color": "#CC3300",
+          "w": 70
+        },
+        {
+          "label_en": "Lavender",
+          "label_ar": "الخزامي",
+          "color": "#9B7DB8",
+          "w": 60
+        },
+        {
+          "label_en": "Lemongrass",
+          "label_ar": "تتكون من نجيل الهند",
+          "color": "#9C9C9C",
+          "w": 50
+        },
+        {
+          "label_en": "Amber",
+          "label_ar": "العنبر",
+          "color": "#bc4d10",
+          "w": 40
+        },
+        {
+          "label_en": "Licorice",
+          "label_ar": "العرقسوس",
+          "color": "#9C9C9C",
+          "w": 40
+        },
+        {
+          "label_en": "Patchouli",
+          "label_ar": "الباتشولي",
+          "color": "#63652e",
+          "w": 40
+        },
+        {
+          "label_en": "Sandalwood",
+          "label_ar": "خشب الصندل",
+          "color": "#774414",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 150,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/lord-blue-al-rehab-al-rehab--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/lord-blue-al-rehab"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "lord-alrehab-perfumes-al-rehab",
+      "name_ar": "",
+      "name_en": "Lord ALREHAB PERFUMES",
+      "brand": "Al-Rehab",
+      "dupe_of": [
+        "Lapidus Pour Homme Ted Lapidus"
+      ],
+      "image": "images/lord-alrehab-perfumes-al-rehab.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 150,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/lord-alrehab-perfumes-al-rehab--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/lord-alrehab-perfumes"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "rawdat-taibah-alrehab-perfumes-al-rehab",
+      "name_ar": "",
+      "name_en": "Rawdat Taibah ALREHAB PERFUMES",
+      "brand": "Al-Rehab",
+      "dupe_of": [
+        "Eau d'Ombré Leather — Tom Ford"
+      ],
+      "image": "images/rawdat-taibah-alrehab-perfumes-al-rehab.jpg",
+      "accords": [
+        {
+          "label_en": "Cardamom",
+          "label_ar": "الهيل",
+          "color": "#CC3300",
+          "w": 100
+        },
+        {
+          "label_en": "Ginger",
+          "label_ar": "الزنجبيل",
+          "color": "#83C928",
+          "w": 90
+        },
+        {
+          "label_en": "Leather",
+          "label_ar": "الجلود",
+          "color": "#78483A",
+          "w": 80
+        },
+        {
+          "label_en": "Vanilla",
+          "label_ar": "من الفانيليا",
+          "color": "#FFFEC0",
+          "w": 70
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 150,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/rawdat-taibah-alrehab-perfumes-al-rehab--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/rawdat-taibah-alrehab-perfumes"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "khumar-zanzibar-by-wadi-al-khaleej-wadi-al-khaleej",
+      "name_ar": "",
+      "name_en": "Khumar Zanzibar By Wadi Al khaleej",
+      "brand": "wadi Al Khaleej",
+      "dupe_of": [
+        "Ultra Male — Jean Paul Gaultier"
+      ],
+      "image": "images/khumar-zanzibar-by-wadi-al-khaleej-wadi-al-khaleej.jpg",
+      "accords": [
+        {
+          "label_en": "Lavender",
+          "label_ar": "الخزامى",
+          "color": "#9B7DB8",
+          "w": 100
+        },
+        {
+          "label_en": "Clove",
+          "label_ar": "القرنفل",
+          "color": "#9C9C9C",
+          "w": 90
+        },
+        {
+          "label_en": "Coconut Water",
+          "label_ar": "ماء جوز الهند",
+          "color": "#9C9C9C",
+          "w": 80
+        },
+        {
+          "label_en": "Iris",
+          "label_ar": "السوسن",
+          "color": "#b7a7d7",
+          "w": 70
+        },
+        {
+          "label_en": "Cinnamon",
+          "label_ar": "القرفه",
+          "color": "#CC3300",
+          "w": 60
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 65,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 110,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 300,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 625,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/khumar-zanzibar-by-wadi-al-khaleej-wadi-al-khaleej--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/khumar-zanzibar-by-wadi-al-khaleej"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "chief-elixir-al-rehab-perfumes-al-rehab",
+      "name_ar": "",
+      "name_en": "Chief Elixir Al Rehab Perfumes",
+      "brand": "Al-Rehab",
+      "dupe_of": [
+        "Sauvage Elixir — Dior"
+      ],
+      "image": "images/chief-elixir-al-rehab-perfumes-al-rehab.jpg",
+      "accords": [
+        {
+          "label_en": "Frankincense",
+          "label_ar": "اللبان",
+          "color": "#9C9C9C",
+          "w": 100
+        },
+        {
+          "label_en": "Cardamom",
+          "label_ar": "الهيل",
+          "color": "#CC3300",
+          "w": 90
+        },
+        {
+          "label_en": "Elemi",
+          "label_ar": "الإيليمي",
+          "color": "#9C9C9C",
+          "w": 80
+        },
+        {
+          "label_en": "Patchouli",
+          "label_ar": "الباتشولي",
+          "color": "#63652e",
+          "w": 70
+        },
+        {
+          "label_en": "Lemongrass",
+          "label_ar": "نجيل الهند",
+          "color": "#9C9C9C",
+          "w": 60
+        },
+        {
+          "label_en": "Amber",
+          "label_ar": "العنبر",
+          "color": "#bc4d10",
+          "w": 50
+        },
+        {
+          "label_en": "Lavender",
+          "label_ar": "اللافندر",
+          "color": "#9B7DB8",
+          "w": 40
+        },
+        {
+          "label_en": "Labdanum",
+          "label_ar": "اللابدانوم",
+          "color": "#9C9C9C",
+          "w": 40
+        },
+        {
+          "label_en": "Cedarwood",
+          "label_ar": "خشب الأرز",
+          "color": "#774414",
+          "w": 40
+        },
+        {
+          "label_en": "Vanilla",
+          "label_ar": "الفانيليا",
+          "color": "#FFFEC0",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 150,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/chief-elixir-al-rehab-perfumes-al-rehab--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/chief-elixir-al-rehab-perfumes"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "ameer-alrehab-perfumes-al-rehab",
+      "name_ar": "",
+      "name_en": "Ameer ALREHAB PERFUMES",
+      "brand": "Al-Rehab",
+      "dupe_of": [],
+      "image": "images/ameer-alrehab-perfumes-al-rehab.jpg",
+      "accords": [
+        {
+          "label_en": "Orange Blossom",
+          "label_ar": "زهر البرتقال",
+          "color": "#9C9C9C",
+          "w": 100
+        },
+        {
+          "label_en": "Ginger",
+          "label_ar": "الزنجبيل",
+          "color": "#83C928",
+          "w": 90
+        },
+        {
+          "label_en": "Bergamot",
+          "label_ar": "البرغموت",
+          "color": "#F9FF52",
+          "w": 80
+        },
+        {
+          "label_en": "Juniper",
+          "label_ar": "العرعر",
+          "color": "#37a089",
+          "w": 70
+        },
+        {
+          "label_en": "Sage",
+          "label_ar": "المريمية",
+          "color": "#6CA47F",
+          "w": 60
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 35,
+              "price": 150,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/ameer-alrehab-perfumes-al-rehab--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/ameer-alrehab-perfumes"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "khumar-absolute-by-wadi-al-khaleej-wadi-al-khaleej",
+      "name_ar": "",
+      "name_en": "Khumar Absolute By wadi Al Khaleej",
+      "brand": "wadi Al Khaleej",
+      "dupe_of": [
+        "Absolu Aventus 2023 — Creed"
+      ],
+      "image": "images/khumar-absolute-by-wadi-al-khaleej-wadi-al-khaleej.jpg",
+      "accords": [
+        {
+          "label_en": "Bergamot",
+          "label_ar": "البرغموت",
+          "color": "#F9FF52",
+          "w": 100
+        },
+        {
+          "label_en": "Lemon",
+          "label_ar": "الليمون",
+          "color": "#9C9C9C",
+          "w": 90
+        },
+        {
+          "label_en": "Pear",
+          "label_ar": "الكمثرى",
+          "color": "#9C9C9C",
+          "w": 80
+        },
+        {
+          "label_en": "Caramel",
+          "label_ar": "حلوى الكراميل",
+          "color": "#DDA356",
+          "w": 70
+        },
+        {
+          "label_en": "Star Anise",
+          "label_ar": "اليانسون النجمي",
+          "color": "#9C9C9C",
+          "w": 60
+        },
+        {
+          "label_en": "Jasmine",
+          "label_ar": "الياسمين",
+          "color": "#9C9C9C",
+          "w": 50
+        },
+        {
+          "label_en": "Moss",
+          "label_ar": "الطحلب",
+          "color": "#5B6B32",
+          "w": 40
+        },
+        {
+          "label_en": "White Wood",
+          "label_ar": "الخشب الأبيض",
+          "color": "#9C9C9C",
+          "w": 40
+        },
+        {
+          "label_en": "Woody Notes",
+          "label_ar": "النفحات الخشبية",
+          "color": "#774414",
+          "w": 40
+        },
+        {
+          "label_en": "Amber",
+          "label_ar": "العنبر",
+          "color": "#bc4d10",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 65,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 110,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 300,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 625,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/khumar-absolute-by-wadi-al-khaleej-wadi-al-khaleej--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/khumar-absolute-by-wadi-al-khaleej"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "jean-antoine-elviera-imperio-samples-240-ml-jean-antoine",
+      "name_ar": "",
+      "name_en": "Jean Antoine | Elviera Imperio + Samples (240 ML",
+      "brand": "Jean Antoine",
+      "dupe_of": [
+        "Black XS — Rabanne"
+      ],
+      "image": "images/jean-antoine-elviera-imperio-samples-240-ml-jean-antoine.jpg",
+      "accords": [
+        {
+          "label_en": "Bergamot",
+          "label_ar": "البرغموت",
+          "color": "#F9FF52",
+          "w": 100
+        },
+        {
+          "label_en": "Lemon",
+          "label_ar": "الليمون",
+          "color": "#9C9C9C",
+          "w": 90
+        },
+        {
+          "label_en": "Pineapple",
+          "label_ar": "الأناناس",
+          "color": "#9C9C9C",
+          "w": 80
+        },
+        {
+          "label_en": "Cardamom",
+          "label_ar": "الهيل",
+          "color": "#CC3300",
+          "w": 70
+        },
+        {
+          "label_en": "Sandalwood",
+          "label_ar": "خشب الصندل",
+          "color": "#774414",
+          "w": 60
+        },
+        {
+          "label_en": "Vanilla",
+          "label_ar": "الفانيليا",
+          "color": "#FFFEC0",
+          "w": 50
+        },
+        {
+          "label_en": "Amber",
+          "label_ar": "العنبر",
+          "color": "#bc4d10",
+          "w": 40
+        },
+        {
+          "label_en": "Musk",
+          "label_ar": "المسك",
+          "color": "#E7D8EA",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2200,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/jean-antoine-elviera-imperio-samples-240-ml-jean-antoine--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/jean-antoine-elviera-imperio-samples-240-ml"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "jean-antoine-elviera-vivace-samples-240-ml-jean-antoine",
+      "name_ar": "",
+      "name_en": "Jean Antoine | Elviera Vivace + Samples (240 ML)",
+      "brand": "Jean Antoine",
+      "dupe_of": [
+        "Imagination — Louis Vuitton"
+      ],
+      "image": "images/jean-antoine-elviera-vivace-samples-240-ml-jean-antoine.jpg",
+      "accords": [
+        {
+          "label_en": "Citron",
+          "label_ar": "الأترج",
+          "color": "#9C9C9C",
+          "w": 100
+        },
+        {
+          "label_en": "Bergamot",
+          "label_ar": "برغموت كالابريا",
+          "color": "#F9FF52",
+          "w": 90
+        },
+        {
+          "label_en": "Sicilian Orange",
+          "label_ar": "البرتقال الصقلي",
+          "color": "#9C9C9C",
+          "w": 80
+        },
+        {
+          "label_en": "Orange Blossom",
+          "label_ar": "زهر البرتقال التونسي",
+          "color": "#9C9C9C",
+          "w": 70
+        },
+        {
+          "label_en": "Ginger",
+          "label_ar": "الزنجبيل النيجيري",
+          "color": "#83C928",
+          "w": 60
+        },
+        {
+          "label_en": "Cinnamon",
+          "label_ar": "قرفة سيلان",
+          "color": "#CC3300",
+          "w": 50
+        },
+        {
+          "label_en": "Black Tea",
+          "label_ar": "تتكون من الشاي الصيني الأسود",
+          "color": "#9C9C9C",
+          "w": 40
+        },
+        {
+          "label_en": "Ambroxan",
+          "label_ar": "الأمبروكسان",
+          "color": "#bc4d10",
+          "w": 40
+        },
+        {
+          "label_en": "Guaiac Wood",
+          "label_ar": "أخشاب الغاياك",
+          "color": "#9C9C9C",
+          "w": 40
+        },
+        {
+          "label_en": "Frankincense",
+          "label_ar": "اللبان",
+          "color": "#9C9C9C",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2200,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/jean-antoine-elviera-vivace-samples-240-ml-jean-antoine--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/jean-antoine-elviera-vivace-samples-240-ml"
+        }
+      ],
+      "_hero_source": "roseperfume"
     }
   ]
 }
