@@ -2188,20 +2188,23 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 155,
-              "first_seen": "2026-01-01"
+              "price": 125,
+              "first_seen": "2026-01-01",
+              "prev_price": 155
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 195,
-              "first_seen": "2026-01-01"
+              "price": 165,
+              "first_seen": "2026-01-01",
+              "prev_price": 195
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 300,
-              "first_seen": "2026-01-01"
+              "price": 250,
+              "first_seen": "2026-01-01",
+              "prev_price": 300
             },
             {
               "kind": "full",
@@ -10782,10 +10785,11 @@
               "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/n-5--sniffz.jpg",
+          "image": "images/no-5-floral-amber-sensual-musk--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/rosendo-mateu-nº-5"
         }
-      ]
+      ],
+      "_hero_source": "sniffz"
     },
     {
       "id": "reflection-45-man",
@@ -12201,6 +12205,32 @@
           ],
           "image": "images/kenzo-homme-indigo--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/kenzo-homme-indigo-10ml-356"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 160,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 220,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 350,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/kenzo-homme-indigo--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/kenzo-homme-indigo"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -12673,7 +12703,8 @@
               "kind": "full",
               "ml": 100,
               "price": 8000,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-19"
             }
           ],
           "image": "images/eau-d-ombre-leather--sniffz.jpg",
@@ -14355,7 +14386,7 @@
               "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/lion--sniffz.jpg",
+          "image": "images/lion-rayhaan--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/rayhaan-lion"
         }
       ],
@@ -15226,6 +15257,18 @@
               "ml": 3,
               "price": 155,
               "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 195,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 300,
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/hawas-kobra-rasasi--sniffz.jpg",
@@ -25123,7 +25166,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-19"
             }
           ],
           "image": "images/hawas-tropical--sniffz.jpg",
@@ -26975,7 +27019,7 @@
               "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/spicebomb-extreme--sniffz.jpg",
+          "image": "images/spicebomb-extreme-viktor-rolf--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/viktor-rolf-spicebomb-extreme"
         }
       ],
@@ -27431,20 +27475,23 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 280,
-              "first_seen": "2026-01-01"
+              "price": 270,
+              "first_seen": "2026-01-01",
+              "prev_price": 280
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 390,
-              "first_seen": "2026-01-01"
+              "price": 375,
+              "first_seen": "2026-01-01",
+              "prev_price": 390
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 620,
-              "first_seen": "2026-01-01"
+              "price": 590,
+              "first_seen": "2026-01-01",
+              "prev_price": 620
             },
             {
               "kind": "full",
@@ -28906,7 +28953,8 @@
               "kind": "decant",
               "ml": 3,
               "price": 385,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-19"
             },
             {
               "kind": "full",
@@ -29357,20 +29405,23 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 305,
-              "first_seen": "2026-01-01"
+              "price": 270,
+              "first_seen": "2026-01-01",
+              "prev_price": 305
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 425,
-              "first_seen": "2026-01-01"
+              "price": 375,
+              "first_seen": "2026-01-01",
+              "prev_price": 425
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 670,
-              "first_seen": "2026-01-01"
+              "price": 590,
+              "first_seen": "2026-01-01",
+              "prev_price": 670
             }
           ],
           "image": "images/y-iced-cologne--sniffz.jpg",
@@ -30931,7 +30982,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1200,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-19"
             }
           ],
           "image": "images/elixir--sniffz.jpg",
@@ -36845,6 +36897,24 @@
           "url": "https://sniffz-eg.com/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 3,
+              "price": 970,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 1380,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 2300,
+              "first_seen": "2026-07-19"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 24000,
@@ -36852,7 +36922,7 @@
             }
           ],
           "image": "images/purpose-50--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/amouage-purpose-50-full-sealed"
+          "product_url": "https://sniffz-eg.com/products/amouage-purpose-50"
         },
         {
           "name": "Hossam ElDeen Gamal",
@@ -66546,6 +66616,863 @@
         }
       ],
       "_hero_source": "roseperfume"
+    },
+    {
+      "id": "riffs-freeze-1784420285",
+      "name_ar": "",
+      "name_en": "Riffs Freeze",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/riffs-freeze-1784420285.jpg",
+      "accords": [
+        {
+          "label_en": "Lemon Zest",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 100
+        },
+        {
+          "label_en": "Spearmint",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 90
+        },
+        {
+          "label_en": "Calabrian Bergamot",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 80
+        },
+        {
+          "label_en": "Grapefruit",
+          "label_ar": "",
+          "color": "#F9FF52",
+          "w": 70
+        },
+        {
+          "label_en": "Snow",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 60
+        },
+        {
+          "label_en": "Ice",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 50
+        },
+        {
+          "label_en": "Ginger",
+          "label_ar": "",
+          "color": "#83C928",
+          "w": 40
+        },
+        {
+          "label_en": "Tea",
+          "label_ar": "",
+          "color": "#0E8C1D",
+          "w": 40
+        },
+        {
+          "label_en": "Sage",
+          "label_ar": "",
+          "color": "#6CA47F",
+          "w": 40
+        },
+        {
+          "label_en": "Ambermax™",
+          "label_ar": "",
+          "color": "#bc4d10",
+          "w": 40
+        },
+        {
+          "label_en": "Peony",
+          "label_ar": "",
+          "color": "#FF5F8D",
+          "w": 40
+        },
+        {
+          "label_en": "Cedar",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 150,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 195,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 300,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1800,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/riffs-freeze-1784420285--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/riffs-freeze"
+        }
+      ],
+      "_hero_source": "sniffz"
+    },
+    {
+      "id": "french-tobacco-ibraheem-alqurashi-1784420287",
+      "name_ar": "",
+      "name_en": "French Tobacco Ibraheem AlQurashi",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/french-tobacco-ibraheem-alqurashi-1784420287.jpg",
+      "accords": [
+        {
+          "label_en": "Blood Orange",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 100
+        },
+        {
+          "label_en": "Mandarin",
+          "label_ar": "",
+          "color": "#F9FF52",
+          "w": 90
+        },
+        {
+          "label_en": "Green Apple",
+          "label_ar": "",
+          "color": "#0E8C1D",
+          "w": 80
+        },
+        {
+          "label_en": "Ginger",
+          "label_ar": "",
+          "color": "#83C928",
+          "w": 70
+        },
+        {
+          "label_en": "Neroli",
+          "label_ar": "",
+          "color": "#edf2fb",
+          "w": 60
+        },
+        {
+          "label_en": "Cinnamon",
+          "label_ar": "",
+          "color": "#CC3300",
+          "w": 50
+        },
+        {
+          "label_en": "Tobacco",
+          "label_ar": "",
+          "color": "#ad7727",
+          "w": 40
+        },
+        {
+          "label_en": "Lemongrass",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 40
+        },
+        {
+          "label_en": "Frankincense",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 40
+        },
+        {
+          "label_en": "Guaiac Wood",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 40
+        },
+        {
+          "label_en": "Iris",
+          "label_ar": "",
+          "color": "#b7a7d7",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 155,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 195,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/french-tobacco-ibraheem-alqurashi-1784420287--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/french-tobacco-ibraheem-alqurashi"
+        }
+      ],
+      "_hero_source": "sniffz"
+    },
+    {
+      "id": "borntostandout-gold-juice-1784420288",
+      "name_ar": "",
+      "name_en": "BORNTOSTANDOUT® Gold Juice",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/borntostandout-gold-juice-1784420288.jpg",
+      "accords": [
+        {
+          "label_en": "Mango",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 100
+        },
+        {
+          "label_en": "Durian",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 90
+        },
+        {
+          "label_en": "Rhubarb",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 80
+        },
+        {
+          "label_en": "White Flowers",
+          "label_ar": "",
+          "color": "#edf2fb",
+          "w": 70
+        },
+        {
+          "label_en": "Osmanthus",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 60
+        },
+        {
+          "label_en": "Solar Notes",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 50
+        },
+        {
+          "label_en": "Caramel",
+          "label_ar": "",
+          "color": "#DDA356",
+          "w": 40
+        },
+        {
+          "label_en": "Guaiac Wood",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 40
+        },
+        {
+          "label_en": "Almond",
+          "label_ar": "",
+          "color": "#C68E5A",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 380,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 540,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 900,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/borntostandout-gold-juice-1784420288--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/borntostandout®-gold-juice"
+        }
+      ],
+      "_hero_source": "sniffz"
+    },
+    {
+      "id": "homme-marine",
+      "name_ar": "",
+      "name_en": "Homme Marine",
+      "brand": "Kenzo",
+      "dupe_of": [],
+      "image": "images/homme-marine.jpg",
+      "accords": [
+        {
+          "label_en": "Sandalwood",
+          "label_ar": "",
+          "color": "#774414",
+          "w": 100
+        },
+        {
+          "label_en": "Musk",
+          "label_ar": "",
+          "color": "#E7D8EA",
+          "w": 90
+        }
+      ],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 185,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 255,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 400,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/homme-marine--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/kenzo-homme-marine"
+        }
+      ],
+      "_hero_source": "sniffz"
+    },
+    {
+      "id": "iven-peace-1784420289",
+      "name_ar": "",
+      "name_en": "Iven Peace",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/iven-peace-1784420289.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 205,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 205,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 260,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 260,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 400,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 400,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3450,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/iven-peace-1784420289--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/iven-peace"
+        }
+      ],
+      "_hero_source": "sniffz"
+    },
+    {
+      "id": "homme-eau-de-parfum",
+      "name_ar": "",
+      "name_en": "Homme Eau de Parfum",
+      "brand": "Kenzo",
+      "dupe_of": [],
+      "image": "images/homme-eau-de-parfum.jpg",
+      "accords": [
+        {
+          "label_en": "Sea Notes",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 100
+        },
+        {
+          "label_en": "Leather",
+          "label_ar": "",
+          "color": "#78483A",
+          "w": 90
+        },
+        {
+          "label_en": "Patchouli",
+          "label_ar": "",
+          "color": "#63652e",
+          "w": 80
+        }
+      ],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 275,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 380,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 600,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 110,
+              "price": 4650,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/homme-eau-de-parfum--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/kenzo-homme-eau-de-parfum-1"
+        }
+      ],
+      "_hero_source": "sniffz"
+    },
+    {
+      "id": "x-aromatix-teas-me-french-avenue",
+      "name_ar": "",
+      "name_en": "X Aromatix Teas Me",
+      "brand": "French Avenue",
+      "dupe_of": [],
+      "image": "images/x-aromatix-teas-me-french-avenue.jpg",
+      "accords": [
+        {
+          "label_en": "Ginger",
+          "label_ar": "",
+          "color": "#83C928",
+          "w": 100
+        },
+        {
+          "label_en": "Lime",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 90
+        },
+        {
+          "label_en": "Black Tea",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 80
+        },
+        {
+          "label_en": "Hedione",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 70
+        },
+        {
+          "label_en": "Cardamom",
+          "label_ar": "",
+          "color": "#CC3300",
+          "w": 60
+        },
+        {
+          "label_en": "Geranium",
+          "label_ar": "",
+          "color": "#0E8C1D",
+          "w": 50
+        },
+        {
+          "label_en": "Olibanum",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 40
+        },
+        {
+          "label_en": "Patchouli",
+          "label_ar": "",
+          "color": "#63652e",
+          "w": 40
+        },
+        {
+          "label_en": "Tonka Bean",
+          "label_ar": "",
+          "color": "#FFFEC0",
+          "w": 40
+        },
+        {
+          "label_en": "Amber",
+          "label_ar": "",
+          "color": "#bc4d10",
+          "w": 40
+        },
+        {
+          "label_en": "Vanilla",
+          "label_ar": "",
+          "color": "#FFFEC0",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 180,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 230,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 350,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/x-aromatix-teas-me-french-avenue--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/french-avenue-x-aromatix-team-me"
+        }
+      ],
+      "_hero_source": "sniffz"
+    },
+    {
+      "id": "homme-eau-de-toilette-intense",
+      "name_ar": "",
+      "name_en": "Homme Eau de Toilette Intense",
+      "brand": "Kenzo",
+      "dupe_of": [],
+      "image": "images/homme-eau-de-toilette-intense.jpg",
+      "accords": [
+        {
+          "label_en": "Sea Notes",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 100
+        },
+        {
+          "label_en": "Calypsone",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 90
+        },
+        {
+          "label_en": "Pink Pepper",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 80
+        },
+        {
+          "label_en": "Spices",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 70
+        },
+        {
+          "label_en": "Fig",
+          "label_ar": "",
+          "color": "#0E8C1D",
+          "w": 60
+        },
+        {
+          "label_en": "Fig Tree",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 50
+        },
+        {
+          "label_en": "Vetiver",
+          "label_ar": "",
+          "color": "#544838",
+          "w": 40
+        },
+        {
+          "label_en": "Sandalwood",
+          "label_ar": "",
+          "color": "#774414",
+          "w": 40
+        },
+        {
+          "label_en": "Akigalawood",
+          "label_ar": "",
+          "color": "#774414",
+          "w": 40
+        },
+        {
+          "label_en": "Patchouli",
+          "label_ar": "",
+          "color": "#63652e",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 185,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 255,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 400,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/homme-eau-de-toilette-intense--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/kenzo-homme-eau-de-toilette-intense"
+        }
+      ],
+      "_hero_source": "sniffz"
+    },
+    {
+      "id": "x-french-avenue-royal-taboo-aromatix",
+      "name_ar": "",
+      "name_en": "X French Avenue Royal Taboo",
+      "brand": "Aromatix",
+      "dupe_of": [],
+      "image": "images/x-french-avenue-royal-taboo-aromatix.jpg",
+      "accords": [
+        {
+          "label_en": "Cardamom",
+          "label_ar": "",
+          "color": "#CC3300",
+          "w": 100
+        },
+        {
+          "label_en": "Cinnamon",
+          "label_ar": "",
+          "color": "#CC3300",
+          "w": 90
+        },
+        {
+          "label_en": "Benzoin",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 80
+        },
+        {
+          "label_en": "Amber",
+          "label_ar": "",
+          "color": "#bc4d10",
+          "w": 70
+        },
+        {
+          "label_en": "Tobacco",
+          "label_ar": "",
+          "color": "#ad7727",
+          "w": 60
+        },
+        {
+          "label_en": "Cashmere Wood",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 50
+        },
+        {
+          "label_en": "Heliotrope",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 40
+        },
+        {
+          "label_en": "Jasmine",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 40
+        },
+        {
+          "label_en": "Tonka Bean",
+          "label_ar": "",
+          "color": "#FFFEC0",
+          "w": 40
+        },
+        {
+          "label_en": "Vanilla",
+          "label_ar": "",
+          "color": "#FFFEC0",
+          "w": 40
+        },
+        {
+          "label_en": "Patchouli",
+          "label_ar": "",
+          "color": "#63652e",
+          "w": 40
+        },
+        {
+          "label_en": "Dry Wood",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 155,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 195,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 320,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/x-french-avenue-royal-taboo-aromatix--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/aromatix-x-french-avenue-royal-taboo"
+        }
+      ],
+      "_hero_source": "sniffz"
+    },
+    {
+      "id": "gentleman-reserve-priv-e-givenchy",
+      "name_ar": "",
+      "name_en": "Gentleman Reserve Privée Givenchy",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/gentleman-reserve-priv-e-givenchy.jpg",
+      "accords": [
+        {
+          "label_en": "Iris",
+          "label_ar": "",
+          "color": "#b7a7d7",
+          "w": 100
+        },
+        {
+          "label_en": "Chestnut",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 90
+        },
+        {
+          "label_en": "Whiskey",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 80
+        },
+        {
+          "label_en": "Woodsy Notes",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 70
+        },
+        {
+          "label_en": "Amber",
+          "label_ar": "",
+          "color": "#bc4d10",
+          "w": 60
+        }
+      ],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 5000,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/gentleman-reserve-priv-e-givenchy--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/gentleman-reserve-privee-givenchy-1"
+        }
+      ],
+      "_hero_source": "sniffz"
     }
   ]
 }
