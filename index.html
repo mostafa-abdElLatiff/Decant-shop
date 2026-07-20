@@ -4,6 +4,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>My List</title>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YDY3QRHRZQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag("js", new Date());
+  gtag("config", "G-YDY3QRHRZQ");
+  /* fires GA4 custom events; no-ops silently if gtag didn't load (ad blockers etc.) */
+  function gaEvent(name, params){
+    if (typeof gtag === "function") gtag("event", name, params || {});
+  }
+</script>
 <script>
   /* apply saved theme before first paint to avoid a flash */
   document.documentElement.setAttribute("data-theme", localStorage.getItem("theme") || "dark");
@@ -543,6 +555,7 @@ function populateKindFilter(){
     populateKindFilter();
     updateFilterBadge();
     render();
+    gaEvent("filter_kind", { value });
   });
 }
 
@@ -560,6 +573,7 @@ function populateStoreFilter(){
     populateStoreFilter();
     updateFilterBadge();
     render();
+    gaEvent("filter_store", { value });
   });
 }
 
@@ -600,6 +614,7 @@ function populateSortOrder(){
     populateSortOrder();
     updateFilterBadge();
     render();
+    gaEvent("filter_sort", { value });
   });
 }
 
@@ -702,7 +717,7 @@ function buildCardEl(p, byId){
   card.id = "card-" + p.id;
   card.innerHTML = `
     <div class="card-img">
-      ${p.image ? `<img src="${p.image}" alt="${pname(p)}" loading="lazy">` : "🧴"}
+      ${p.image ? `<img src="${p.image}" alt="${pname(p)}" loading="lazy" data-pid="${p.id}">` : "🧴"}
       <button class="card-share" data-share="${p.id}" aria-label="${t().share_link}" title="${t().share_link}">🔗</button>
     </div>
     <div class="card-body">
@@ -731,12 +746,12 @@ function buildCardEl(p, byId){
           return `
           <div class="store-block">
             <div class="store-name">
-              ${s.url ? `<a href="${s.url}" target="_blank" rel="noopener">${s.name}</a>` : s.name}
-              ${s.product_url ? `<a class="store-link" href="${s.product_url}" target="_blank" rel="noopener">🔗 ${t().view_listing}</a>` : ""}
+              ${s.url ? `<a href="${s.url}" target="_blank" rel="noopener" data-store-click="${s.name}" data-pid="${p.id}">${s.name}</a>` : s.name}
+              ${s.product_url ? `<a class="store-link" href="${s.product_url}" target="_blank" rel="noopener" data-listing-click="${s.name}" data-pid="${p.id}">🔗 ${t().view_listing}</a>` : ""}
             </div>
             ${groups.map(img => `
               <div class="offer-group">
-                ${img ? `<img class="store-thumb" src="${img}" alt="${s.name}" loading="lazy">` : ""}
+                ${img ? `<img class="store-thumb" src="${img}" alt="${s.name}" loading="lazy" data-pid="${p.id}">` : ""}
                 <div class="offers">
                   ${byImage.get(img).map(oi => { const o = s.offers[oi]; return `
                     <button class="offer-btn${o.sold_since ? " sold" : ""}" data-pid="${p.id}" data-si="${si}" data-oi="${oi}"${o.sold_since ? ` disabled aria-disabled="true"` : ""}>
@@ -793,10 +808,11 @@ function filterByBrand(brand){
 
 grid.addEventListener("click", async e => {
   const img = e.target.closest(".card-img img, .store-thumb");
-  if (img){ openLightbox(img.src, img.alt); return; }
+  if (img){ openLightbox(img.src, img.alt); gaEvent("product_image_view", { item_id: img.dataset.pid || "" }); return; }
   const shareBtn = e.target.closest("[data-share]");
   if (shareBtn){
     const url = `${location.origin}${location.pathname}#${shareBtn.dataset.share}`;
+    gaEvent("share_link_click", { item_id: shareBtn.dataset.share });
     try{
       await navigator.clipboard.writeText(url);
       toast(t().link_copied);
@@ -805,15 +821,20 @@ grid.addEventListener("click", async e => {
     }
     return;
   }
+  const listingBtn = e.target.closest("[data-listing-click]");
+  if (listingBtn){ gaEvent("store_listing_click", { store: listingBtn.dataset.listingClick, item_id: listingBtn.dataset.pid || "" }); }
+  const storeBtn = e.target.closest("[data-store-click]");
+  if (storeBtn && !listingBtn){ gaEvent("store_home_click", { store: storeBtn.dataset.storeClick, item_id: storeBtn.dataset.pid || "" }); }
   const brandBtn = e.target.closest("[data-brand-jump]");
-  if (brandBtn){ filterByBrand(brandBtn.dataset.brandJump); return; }
+  if (brandBtn){ gaEvent("brand_jump_click", { brand: brandBtn.dataset.brandJump }); filterByBrand(brandBtn.dataset.brandJump); return; }
   const jumpBtn = e.target.closest("[data-jump]");
-  if (jumpBtn){ focusProduct(jumpBtn.dataset.jump); return; }
+  if (jumpBtn){ gaEvent("dupe_jump_click", { item_id: jumpBtn.dataset.jump }); focusProduct(jumpBtn.dataset.jump); return; }
   const accordsToggle = e.target.closest(".accords-toggle");
   if (accordsToggle){
     const target = document.getElementById(accordsToggle.dataset.target);
     const expanded = target.classList.toggle("expanded");
     accordsToggle.textContent = expanded ? t().show_less_notes : t().show_more_notes.replace("{n}", accordsToggle.dataset.more);
+    if (expanded) gaEvent("accords_expand_click", { item_id: accordsToggle.dataset.target });
     return;
   }
   const storesToggle = e.target.closest(".stores-toggle");
@@ -821,6 +842,7 @@ grid.addEventListener("click", async e => {
     const target = document.getElementById(storesToggle.dataset.target);
     const expanded = target.classList.toggle("expanded");
     storesToggle.textContent = expanded ? t().show_less_stores : t().show_more_stores.replace("{n}", storesToggle.dataset.more);
+    if (expanded) gaEvent("stores_expand_click", { item_id: storesToggle.dataset.target });
     return;
   }
   const offerBtn = e.target.closest(".offer-btn");
@@ -878,10 +900,19 @@ document.getElementById("homeLink").addEventListener("click", e=>{
   resetFilters();
   render();
   window.scrollTo({top: 0, behavior: "smooth"});
+  gaEvent("reset_filters", { source: "home_link" });
 });
 
-document.getElementById("search").addEventListener("input", e=>{ query=e.target.value; render(); });
-document.getElementById("brandFilter").addEventListener("change", e=>{ brandFilter=e.target.value; updateFilterBadge(); render(); });
+let searchGaDebounce;
+document.getElementById("search").addEventListener("input", e=>{
+  query=e.target.value;
+  render();
+  clearTimeout(searchGaDebounce);
+  searchGaDebounce = setTimeout(()=>{
+    if(query.trim()) gaEvent("search", { search_term: query.trim() });
+  }, 800);
+});
+document.getElementById("brandFilter").addEventListener("change", e=>{ brandFilter=e.target.value; updateFilterBadge(); render(); gaEvent("filter_brand", { value: brandFilter }); });
 
 function applyGridCols(){
   if(gridCols === "auto") grid.removeAttribute("data-cols");
@@ -893,6 +924,7 @@ document.querySelectorAll(".view-btn").forEach(b => b.addEventListener("click", 
   localStorage.setItem("gridCols", gridCols);
   applyGridCols();
   updateFilterBadge();
+  gaEvent("grid_view_change", { cols: gridCols });
 }));
 applyGridCols();
 
@@ -912,6 +944,7 @@ filtersToggle.onclick = ()=>{
   const open = sidebar.classList.toggle("open");
   sidebarOverlay.classList.toggle("open", open);
   filtersToggle.setAttribute("aria-expanded", String(open));
+  if(open) gaEvent("filters_panel_open", {});
 };
 sidebarOverlay.onclick = closeSidebar;
 function updateFilterBadge(){
@@ -925,12 +958,14 @@ document.getElementById("inStockOnly").addEventListener("change", e => {
   inStockOnly = e.target.checked;
   updateFilterBadge();
   render();
+  gaEvent("filter_in_stock_only", { enabled: inStockOnly });
 });
 document.getElementById("brandFilterClear").onclick = ()=>{
   brandFilter = "all";
   document.getElementById("brandFilter").value = "all";
   updateFilterBadge();
   render();
+  gaEvent("filter_brand_clear", {});
 };
 
 document.getElementById("toggleLang").onclick = ()=>{
@@ -939,12 +974,14 @@ document.getElementById("toggleLang").onclick = ()=>{
   applyI18n();
   render();
   syncCart();
+  gaEvent("language_toggle", { language: lang });
 };
 document.getElementById("toggleTheme").onclick = ()=>{
   theme = theme === "dark" ? "light" : "dark";
   localStorage.setItem("theme", theme);
   document.documentElement.setAttribute("data-theme", theme);
   document.getElementById("toggleTheme").textContent = theme==="dark" ? t().theme_to_light : t().theme_to_dark;
+  gaEvent("theme_toggle", { theme });
 };
 
 const drawer = document.getElementById("drawer");
@@ -958,6 +995,17 @@ function addToCart(productId, storeIdx, offerIdx){
   else cart.push({key, productId, storeIdx, offerIdx, qty:1});
   toast(t().added);
   syncCart();
+
+  const p = PRODUCTS.find(x=>x.id===productId);
+  const s = p && (p.stores||[])[storeIdx];
+  const o = s && (s.offers||[])[offerIdx];
+  if(p && s && o){
+    gaEvent("add_to_cart", {
+      currency: "EGP",
+      value: o.price,
+      items: [{ item_id: p.id, item_name: p.name_en || p.id, item_brand: p.brand || "", item_variant: `${s.name} / ${offerLabel(o)}`, price: o.price, quantity: 1 }],
+    });
+  }
 }
 
 /* Simple "best value" check: among all this product's offers of the same
@@ -1079,14 +1127,15 @@ function syncCart(){
 cartBody.addEventListener("click", async e=>{
   const inc=e.target.dataset.inc, dec=e.target.dataset.dec, rm=e.target.dataset.rm;
   if(inc!=null || dec!=null || rm!=null){
-    if(inc!=null) cart[inc].qty++;
-    if(dec!=null){ cart[dec].qty--; if(cart[dec].qty<1) cart.splice(dec,1); }
-    if(rm!=null) cart.splice(rm,1);
+    if(inc!=null){ cart[inc].qty++; gaEvent("cart_qty_increase", { item_id: cart[inc].productId }); }
+    if(dec!=null){ const pid=cart[dec].productId; cart[dec].qty--; if(cart[dec].qty<1) cart.splice(dec,1); gaEvent("cart_qty_decrease", { item_id: pid }); }
+    if(rm!=null){ gaEvent("remove_from_cart", { item_id: cart[rm].productId }); cart.splice(rm,1); }
     syncCart();
     return;
   }
   const storeCopyBtn = e.target.closest(".cart-store-copy");
   if(storeCopyBtn){
+    gaEvent("copy_store_message", { store: storeCopyBtn.dataset.store });
     try{
       await navigator.clipboard.writeText(buildMessage(storeCopyBtn.dataset.store));
       toast(t().copied);
@@ -1098,6 +1147,7 @@ cartBody.addEventListener("click", async e=>{
   const storeClearBtn = e.target.closest(".cart-store-clear");
   if(storeClearBtn){
     const target = storeClearBtn.dataset.clearStore;
+    gaEvent("cart_store_clear", { store: target });
     cart = cart.filter(c => {
       const line = resolveCartLine(c);
       return line ? line.s.name !== target : true;
@@ -1107,13 +1157,14 @@ cartBody.addEventListener("click", async e=>{
   }
 });
 
-document.getElementById("openCart").onclick = ()=>{ drawer.classList.add("open"); overlay.classList.add("open"); };
+document.getElementById("openCart").onclick = ()=>{ drawer.classList.add("open"); overlay.classList.add("open"); gaEvent("view_cart", { item_count: cart.length }); };
 const closeDrawer = ()=>{ drawer.classList.remove("open"); overlay.classList.remove("open"); };
 document.getElementById("closeCart").onclick = closeDrawer;
 overlay.onclick = closeDrawer;
 
 document.getElementById("clearCart").onclick = ()=>{
   if(!cart.length) return;
+  gaEvent("cart_clear_all", { item_count: cart.length });
   cart = [];
   syncCart();
   toast(t().cleared);
@@ -1144,6 +1195,7 @@ function buildMessage(filterStoreName){
 
 document.getElementById("copyMsg").onclick = async ()=>{
   if(!cart.length){ toast(t().empty); return; }
+  gaEvent("begin_checkout", { currency: "EGP", item_count: cart.length });
   try{
     await navigator.clipboard.writeText(buildMessage());
     toast(t().copied);
