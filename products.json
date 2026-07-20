@@ -8525,7 +8525,8 @@
               "kind": "full",
               "ml": 100,
               "price": 830,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-20"
             }
           ],
           "image": "images/dark-door-sport--emaratiscents.jpg",
@@ -108368,8 +108369,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1950,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/rare-reef--emaratiscents.jpg",
@@ -114076,7 +114076,14 @@
               "kind": "full",
               "ml": 100,
               "price": 3450,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-20"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 3450,
+              "first_seen": "2026-07-20"
             }
           ],
           "image": "images/king-s-signature-bundle--emaratiscents.jpg",
