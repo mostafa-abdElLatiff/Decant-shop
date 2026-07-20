@@ -8294,13 +8294,20 @@
           "offers": [
             {
               "kind": "decant",
+              "ml": 5,
+              "price": 225,
+              "first_seen": "2026-07-20"
+            },
+            {
+              "kind": "decant",
               "ml": 10,
               "price": 375,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-20"
             }
           ],
           "image": "images/flower-women-edp--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/kenzo-flower-women-edp-10ml-226"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/kenzo-flower-women-edp-5ml-227"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -10787,7 +10794,7 @@
               "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/for-men-intense--mo-shawky.jpg",
+          "image": "images/intense--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/bentley-for-men-intense-10-ml-23"
         },
         {
@@ -53521,7 +53528,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 535,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-20"
             }
           ],
           "image": "images/acqua-di-gi-profondo--mo-shawky.jpg",
@@ -91034,7 +91042,7 @@
             }
           ],
           "image": "images/man-wood-neroli--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/bvlgari-man-wood-neroli-5ml-471"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/bvlgari-man-wood-neroli-3ml-472"
         }
       ],
       "_hero_source": "MO Shawky"
