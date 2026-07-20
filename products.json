@@ -5972,9 +5972,46 @@
           ],
           "image": "images/myslf-eau-de-parfum--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/yves-saint-laurent-myslf-eau-de-parfum"
+        },
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 300,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/myslf-edp--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ysl-myslf-edp-5ml-211"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 400,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 600,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/myslf-edp--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/ysl-myslf-edp"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "MYSLF EDP"
+      ]
     },
     {
       "id": "integrity-25",
@@ -9286,9 +9323,32 @@
           ],
           "image": "images/tropical-vibe--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/rayhaan-tropical-vibe"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 180,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 250,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/tropical-vibes--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/rayhaan-tropical-vibes"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": [
+        "Tropical Vibes"
+      ]
     },
     {
       "id": "baron",
@@ -13813,52 +13873,6 @@
       "_hero_source": "dar.elarabia"
     },
     {
-      "id": "myslf-edp",
-      "name_ar": "",
-      "name_en": "MYSLF EDP",
-      "brand": "Yves Saint Laurent",
-      "dupe_of": [],
-      "image": "images/myslf-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "MO Shawky",
-          "url": "https://www.facebook.com/mo.freeto.play/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 300,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/myslf-edp--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ysl-myslf-edp-5ml-211"
-        },
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 400,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 600,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/myslf-edp--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/ysl-myslf-edp"
-        }
-      ],
-      "_hero_source": "MO Shawky"
-    },
-    {
       "id": "velvet-iris",
       "name_ar": "",
       "name_en": "Velvet Iris",
@@ -17322,38 +17336,6 @@
         }
       ],
       "_hero_source": "sniffz"
-    },
-    {
-      "id": "tropical-vibes",
-      "name_ar": "Tropical Vibes",
-      "name_en": "Tropical Vibes",
-      "brand": "Rayhaan",
-      "dupe_of": [],
-      "image": "images/tropical-vibes.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 180,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 250,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/tropical-vibes--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/rayhaan-tropical-vibes"
-        }
-      ],
-      "_hero_source": "perfuzone"
     },
     {
       "id": "iven-peace",
@@ -34305,9 +34287,48 @@
           ],
           "image": "images/odyssey-bahamas--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/odyssey-bahamas-10ml%d8%a7%d9%88%d8%af%d9%8a%d8%b3%d9%8a-%d8%a8%d9%87%d8%a7%d9%85%d8%a7%d8%b2-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 90,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 150,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 400,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1250,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/odyssey-ba-ha-mas--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/odyssey-ba-ha-mas-armaf"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Odyssey BA HA MAS"
+      ]
     },
     {
       "id": "blue-by",
@@ -59299,9 +59320,28 @@
           ],
           "image": "images/y-eau-de-parfum--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/yves-saint-laurent-y-eau-de-parfum"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4875,
+              "first_seen": "2026-07-19",
+              "prev_price": 5950,
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/y-edp-yves-saint-laurent--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/y-edp-yves-saint-laurent-tester-box-100ml-authentic-%d9%88%d8%a7%d9%8a-%d9%85%d9%86-%d8%a7%d9%8a%d9%81-%d8%b3%d8%a7%d9%86-%d9%84%d9%88%d8%b1%d8%a7%d9%86-%d8%a7%d9%88-%d8%af%d9%88-%d8%a8%d8%a7%d8%b1/"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Y EDP Yves Saint Laurent"
+      ]
     },
     {
       "id": "y-iced-cologne",
@@ -61523,47 +61563,6 @@
       "_hero_source": "eldesoki-fragrances"
     },
     {
-      "id": "al-haramain-aqua-dubai",
-      "name_ar": "Al Haramain Aqua Dubai",
-      "name_en": "Al Haramain Aqua Dubai",
-      "brand": "Al Haramain",
-      "dupe_of": [],
-      "image": "images/al-haramain-aqua-dubai.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 320,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 1400,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/al-haramain-aqua-dubai--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/al-haramain-aqua-dubai-100ml"
-        }
-      ],
-      "_hero_source": "og-perfume"
-    },
-    {
       "id": "gentleman-eau-de-parfum-bois-e",
       "name_ar": "Gentleman Eau de Parfum Boisée",
       "name_en": "Gentleman Eau de Parfum Boisée",
@@ -62236,37 +62235,6 @@
         }
       ],
       "_hero_source": "og-perfume"
-    },
-    {
-      "id": "y-edp-yves-saint-laurent",
-      "name_ar": "واي من ايف سان لوران او دو بارفم ١٠٠ملي",
-      "name_en": "Y EDP Yves Saint Laurent",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/y-edp-yves-saint-laurent.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 4875,
-              "first_seen": "2026-07-19",
-              "prev_price": 5950,
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/y-edp-yves-saint-laurent--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/y-edp-yves-saint-laurent-tester-box-100ml-authentic-%d9%88%d8%a7%d9%8a-%d9%85%d9%86-%d8%a7%d9%8a%d9%81-%d8%b3%d8%a7%d9%86-%d9%84%d9%88%d8%b1%d8%a7%d9%86-%d8%a7%d9%88-%d8%af%d9%88-%d8%a8%d8%a7%d8%b1/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances",
-      "aliases": [
-        "Y EDP Yves Saint Laurent Tester Box Authentic"
-      ]
     },
     {
       "id": "aqriz",
@@ -66966,46 +66934,6 @@
         }
       ],
       "_hero_source": "roseperfume"
-    },
-    {
-      "id": "cedrat-boise-edp",
-      "name_ar": "Cedrat Boise EDP",
-      "name_en": "Cedrat Boise EDP",
-      "brand": "Mancera",
-      "dupe_of": [],
-      "image": "images/cedrat-boise-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 300,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 450,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 700,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/cedrat-boise-edp--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/mancera-cedrat-boise-edp-1"
-        }
-      ],
-      "_hero_source": "perfuzone"
     },
     {
       "id": "arrogate-blue-d",
@@ -79755,9 +79683,40 @@
           ],
           "image": "images/cedrat-boisee--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/cedrat-boise-mancera-120ml-1"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 300,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 450,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 700,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/cedrat-boise-edp--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/mancera-cedrat-boise-edp-1"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": [
+        "Cedrat Boise EDP"
+      ]
     },
     {
       "id": "sehr-kalemat",
@@ -101928,11 +101887,41 @@
           ],
           "image": "images/amber-oud-aqua-dubai-extrait-de-parfum--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/al-haramain-amber-oud-aqua-dubai-full-sealed"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 320,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 1400,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2750,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/al-haramain-aqua-dubai--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/al-haramain-aqua-dubai-100ml"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
       "aliases": [
-        "Al Haramain Amber Oud Aqua Dubai"
+        "Al Haramain Amber Oud Aqua Dubai",
+        "Al Haramain Aqua Dubai"
       ]
     },
     {
@@ -102290,129 +102279,6 @@
         }
       ],
       "_hero_source": "sniffz"
-    },
-    {
-      "id": "odyssey-ba-ha-mas",
-      "name_ar": "",
-      "name_en": "Odyssey BA HA MAS",
-      "brand": "Armaf",
-      "dupe_of": [
-        "Le Sel d’Issey — Issey Miyake"
-      ],
-      "image": "images/odyssey-ba-ha-mas.jpg",
-      "accords": [
-        {
-          "label_en": "Melon",
-          "label_ar": "شمام",
-          "color": "#FC4B29",
-          "w": 100
-        },
-        {
-          "label_en": "Moss",
-          "label_ar": "الطحالب",
-          "color": "#5B6B32",
-          "w": 90
-        },
-        {
-          "label_en": "Salt",
-          "label_ar": "الملح",
-          "color": "#B7D8DC",
-          "w": 80
-        },
-        {
-          "label_en": "Pear",
-          "label_ar": "الكمثري",
-          "color": "#FC4B29",
-          "w": 70
-        },
-        {
-          "label_en": "Plum",
-          "label_ar": "البرقوق",
-          "color": "#FC4B29",
-          "w": 60
-        },
-        {
-          "label_en": "Aquatic Notes",
-          "label_ar": "ملاحظات مائية",
-          "color": "#0E529B",
-          "w": 50
-        },
-        {
-          "label_en": "Oakmoss",
-          "label_ar": "طحلب البلوط (طحلب السنديان)",
-          "color": "#5B6B32",
-          "w": 40
-        },
-        {
-          "label_en": "Frankincense",
-          "label_ar": "اللبان",
-          "color": "#ad8359",
-          "w": 40
-        },
-        {
-          "label_en": "Musk",
-          "label_ar": "تتكون من المسك",
-          "color": "#E7D8EA",
-          "w": 40
-        },
-        {
-          "label_en": "Amber",
-          "label_ar": "العنبر",
-          "color": "#bc4d10",
-          "w": 40
-        },
-        {
-          "label_en": "Sugar",
-          "label_ar": "السكر",
-          "color": "#FFFEC0",
-          "w": 40
-        },
-        {
-          "label_en": "Cedarwood",
-          "label_ar": "خشب الأرز",
-          "color": "#774414",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 90,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 400,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1250,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/odyssey-ba-ha-mas--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/odyssey-ba-ha-mas-armaf"
-        }
-      ],
-      "_hero_source": "roseperfume"
     },
     {
       "id": "bleu-de-chanel-parfum",
