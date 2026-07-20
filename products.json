@@ -4894,11 +4894,32 @@
           ],
           "image": "images/hawas--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/hawas-for-him-uae-100ml%d9%87%d9%88%d8%b3-%d9%81%d9%88%d8%b1-%d9%87%d9%8a%d9%85-%d9%85%d9%86-%d8%a7%d9%84%d8%b1%d8%b5%d8%a7%d8%b5%d9%8a-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 150,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 250,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/hawas-edp--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/rasasi-hawas-edp"
         }
       ],
       "_hero_source": "emaratiscents",
       "aliases": [
-        "Hawas for Him"
+        "Hawas for Him",
+        "Hawas EDP"
       ]
     },
     {
@@ -5323,9 +5344,26 @@
           ],
           "image": "images/nocturno--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/nocturno-rayhaan"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1550,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/nocturno-pour-homme--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/nocturno"
         }
       ],
-      "_hero_source": "roseperfume"
+      "_hero_source": "roseperfume",
+      "aliases": [
+        "Nocturno Pour Homme"
+      ]
     },
     {
       "id": "his-confession",
@@ -10736,9 +10774,74 @@
           ],
           "image": "images/intense--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/bentley-intense"
+        },
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 225,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/for-men-intense--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/bentley-for-men-intense-10-ml-23"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2200,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/for-men-intense--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/bentley-for-men-intense-full-sealed"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 190,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 300,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/for-men-intense--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/bentley-for-men-intense"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1875,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/for-men-intense--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/bentley-intense%d8%a8%d9%86%d8%aa%d9%84%d9%8a-%d8%a5%d9%86%d8%aa%d9%86%d8%b3/"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": [
+        "for men intense"
+      ]
     },
     {
       "id": "al-haramain-dubai-night",
@@ -20533,9 +20636,27 @@
           ],
           "image": "images/daarej-extrait--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/daarej-extrait-rasasi"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 900,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/daarej-extrait-pour-homme--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/daarej-extrait-pour-homme-rasasi"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Daarej Extrait Pour Homme"
+      ]
     },
     {
       "id": "dubai-dkhoon-emirates",
@@ -24458,7 +24579,24 @@
             }
           ],
           "image": "images/optimystic.jpg"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1050,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/optimystic-for-him--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/optimystic"
         }
+      ],
+      "aliases": [
+        "Optimystic For Him"
       ]
     },
     {
@@ -26990,9 +27128,26 @@
           ],
           "image": "images/tobacco-01-swiss-arabian--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/tobacco-01-50ml-swiss-arabian%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%a0%d9%a1-%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b3%d9%88%d9%8a%d8%b3-%d8%a7%d8%b1%d9%8a%d8%a8%d9%8a%d8%a7%d9%86/"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 3600,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/tobacco-01-edp--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/tobacco-01-edp"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Tobacco 01 Edp"
+      ]
     },
     {
       "id": "the-story-sport-le-bonheur",
@@ -29240,83 +29395,6 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "for-men-intense",
-      "name_ar": "",
-      "name_en": "for men intense",
-      "brand": "Bentley",
-      "dupe_of": [],
-      "image": "images/for-men-intense.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "MO Shawky",
-          "url": "https://www.facebook.com/mo.freeto.play/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 225,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/for-men-intense--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/bentley-for-men-intense-10-ml-23"
-        },
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2200,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/for-men-intense--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/bentley-for-men-intense-full-sealed"
-        },
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 190,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 300,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/for-men-intense--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/bentley-for-men-intense"
-        },
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1875,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/for-men-intense--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/bentley-intense%d8%a8%d9%86%d8%aa%d9%84%d9%8a-%d8%a5%d9%86%d8%aa%d9%86%d8%b3/"
-        }
-      ],
-      "_hero_source": "sniffz",
-      "aliases": [
-        "Bentley For Men Intense"
-      ]
     },
     {
       "id": "replica-by-the-fireplace",
@@ -32116,32 +32194,6 @@
           ],
           "image": "images/amouage-opus-xvi-timber--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/opus-xvi-timber"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "habik-for-men",
-      "name_ar": "Habik For Men",
-      "name_en": "Habik For Men",
-      "brand": "Lattafa",
-      "dupe_of": [],
-      "image": "images/habik-for-men.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1130,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/habik-for-men--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/habik-for-men"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -35097,42 +35149,6 @@
         }
       ],
       "_hero_source": "MO Shawky"
-    },
-    {
-      "id": "la-nuit-de-l-homme-edt",
-      "name_ar": "La Nuit de l'Homme EDT",
-      "name_en": "La Nuit de l'Homme EDT",
-      "brand": "Yves Saint Laurent",
-      "dupe_of": [],
-      "image": "images/la-nuit-de-l-homme-edt.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Hossam ElDeen Gamal",
-          "url": "https://www.facebook.com/hossameldeien/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 190,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 300,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 575,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/la-nuit-de-l-homme-edt--hossam-eldeen-gamal.jpg"
-        }
-      ]
     },
     {
       "id": "player",
@@ -38927,99 +38943,6 @@
       "_hero_source": "og-perfume"
     },
     {
-      "id": "pacific-pour-homme",
-      "name_ar": "Pacific Pour Homme",
-      "name_en": "Pacific Pour Homme",
-      "brand": "Rayhaan",
-      "dupe_of": [
-        "Legend Spirit — Montblanc"
-      ],
-      "image": "images/pacific-pour-homme.jpg",
-      "accords": [
-        {
-          "label_en": "Citrus",
-          "label_ar": "الحمضيات",
-          "color": "#F9FF52",
-          "w": 100
-        },
-        {
-          "label_en": "Aquatic",
-          "label_ar": "مائي",
-          "color": "#0E529B",
-          "w": 86
-        },
-        {
-          "label_en": "Musky",
-          "label_ar": "مسكي",
-          "color": "#E7D8EA",
-          "w": 72
-        },
-        {
-          "label_en": "Fresh Spicy",
-          "label_ar": "تابلي منعش",
-          "color": "#83C928",
-          "w": 58
-        },
-        {
-          "label_en": "Aromatic",
-          "label_ar": "أروماتك",
-          "color": "#37a089",
-          "w": 44
-        },
-        {
-          "label_en": "Woody",
-          "label_ar": "خشبي",
-          "color": "#774414",
-          "w": 40
-        },
-        {
-          "label_en": "Lavender",
-          "label_ar": "الخزامي",
-          "color": "#9B7DB8",
-          "w": 40
-        },
-        {
-          "label_en": "Fresh",
-          "label_ar": "منعش",
-          "color": "#9be5ed",
-          "w": 40
-        },
-        {
-          "label_en": "Soft",
-          "label_ar": "ناعم",
-          "color": "#EEDDCC",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "EsLam Nasser",
-          "url": "https://www.facebook.com/eslam.nasser.10/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 100,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 140,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 200,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/pacific-pour-homme.jpg"
-        }
-      ]
-    },
-    {
       "id": "oud-mood",
       "name_ar": "عود مود من لطافة (١٠ملي)",
       "name_en": "Oud Mood",
@@ -41446,9 +41369,37 @@
           ],
           "image": "images/la-nuit-de-l-homme--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/yves-saint-laurent-la-nuit-de-lhomme-full-sealed"
+        },
+        {
+          "name": "Hossam ElDeen Gamal",
+          "url": "https://www.facebook.com/hossameldeien/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 190,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 300,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 575,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/la-nuit-de-l-homme-edt--hossam-eldeen-gamal.jpg"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "La Nuit de l'Homme EDT"
+      ]
     },
     {
       "id": "lalique-pour-homme",
@@ -42120,9 +42071,58 @@
           ],
           "image": "images/nocturno-elixir--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/nocturno-elixir-rayhaan"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 175,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1550,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/rayhaan-nuctorno-elixir--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/nuctorno-elixir-10ml-rayhaan%d9%86%d9%88%d9%83%d8%aa%d9%88%d8%b1%d9%86%d9%88-%d8%a7%d9%84%d9%8a%d9%83%d8%b2%d9%8a%d8%b1-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a-%d8%b1%d9%8a%d8%ad/"
+        },
+        {
+          "name": "EsLam Nasser",
+          "url": "https://www.facebook.com/eslam.nasser.10/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 100,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 130,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/rayhaan-nocturno-pour-homme-elixir.jpg"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Rayhaan Nocturno Elixir",
+        "Rayhaan Nocturno Pour Homme Elixir"
+      ]
     },
     {
       "id": "dalal",
@@ -43817,32 +43817,6 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "tobacco-01-edp",
-      "name_ar": "Tobacco 01 Edp",
-      "name_en": "Tobacco 01 Edp",
-      "brand": "Swiss Arabian",
-      "dupe_of": [],
-      "image": "images/tobacco-01-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 50,
-              "price": 3600,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/tobacco-01-edp--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/tobacco-01-edp"
-        }
-      ],
-      "_hero_source": "emaratiscents"
     },
     {
       "id": "la-luna",
@@ -61516,32 +61490,6 @@
       "_hero_source": "MO Shawky"
     },
     {
-      "id": "mazaaj-edp-zimaya",
-      "name_ar": "مزاج او دو بارفم ١٠٠ملي من زمايا",
-      "name_en": "Mazaaj Edp",
-      "brand": "Zimaya",
-      "dupe_of": [],
-      "image": "images/mazaaj-edp-zimaya.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1075,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/mazaaj-edp-zimaya--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/mazaaj-edp-zimaya-100ml%d9%85%d8%b2%d8%a7%d8%ac-%d8%a7%d9%88-%d8%af%d9%88-%d8%a8%d8%a7%d8%b1%d9%81%d9%85-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b2%d9%85%d8%a7%d9%8a%d8%a7/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "suave-proud",
       "name_ar": "سويڤ براود من درعه ( ٢٠٠ملي )",
       "name_en": "SUAVE PROUD",
@@ -64024,9 +63972,41 @@
           ],
           "image": "images/tonka-cola--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/tonka-cola-mancera-120ml"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 300,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 450,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 700,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/tonka-cola-edp--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/mancera-tonka-cola-edp-1"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": [
+        "Tonka Cola EDP"
+      ]
     },
     {
       "id": "pendora-scents-megaron",
@@ -74266,32 +74246,6 @@
       ]
     },
     {
-      "id": "blue-laverne-bakhur-for-him",
-      "name_ar": "Blue Laverne Bakhur For Him",
-      "name_en": "Blue Laverne Bakhur For Him",
-      "brand": "Laverne",
-      "dupe_of": [],
-      "image": "images/blue-laverne-bakhur-for-him.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 2800,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/blue-laverne-bakhur-for-him--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/blue-laverne-bakhur-200-ml"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
       "id": "heavenly-lychee-gulf-orchid",
       "name_ar": "Heavenly Lychee Gulf Orchid",
       "name_en": "Heavenly Lychee Gulf Orchid",
@@ -75711,38 +75665,6 @@
       ]
     },
     {
-      "id": "rayhaan-nuctorno-elixir",
-      "name_ar": "ريحان نكتورنو اليكزير ١٠٠ملي",
-      "name_en": "Rayhaan Nocturno Elixir",
-      "brand": "Rayhaan",
-      "dupe_of": [],
-      "image": "images/rayhaan-nuctorno-elixir.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 175,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1550,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/rayhaan-nuctorno-elixir--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/nuctorno-elixir-10ml-rayhaan%d9%86%d9%88%d9%83%d8%aa%d9%88%d8%b1%d9%86%d9%88-%d8%a7%d9%84%d9%8a%d9%83%d8%b2%d9%8a%d8%b1-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a-%d8%b1%d9%8a%d8%ad/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "roses-vanille",
       "name_ar": "",
       "name_en": "Roses Vanille",
@@ -76501,42 +76423,6 @@
         }
       ],
       "_hero_source": "perfuzone"
-    },
-    {
-      "id": "le-sel-d-issey-edp",
-      "name_ar": "Le Sel d'Issey EDP",
-      "name_en": "Le Sel d'Issey EDP",
-      "brand": "Issey Miyake",
-      "dupe_of": [],
-      "image": "images/le-sel-d-issey-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Hossam ElDeen Gamal",
-          "url": "https://www.facebook.com/hossameldeien/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 175,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 275,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 500,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/le-sel-d-issey-edp--hossam-eldeen-gamal.jpg"
-        }
-      ]
     },
     {
       "id": "kouros-ysl-cologne",
@@ -80017,32 +79903,6 @@
       "_hero_source": "og-perfume"
     },
     {
-      "id": "nocturno-pour-homme",
-      "name_ar": "Nocturno Pour Homme",
-      "name_en": "Nocturno Pour Homme",
-      "brand": "Rayhaan",
-      "dupe_of": [],
-      "image": "images/nocturno-pour-homme.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1550,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/nocturno-pour-homme--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/nocturno"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
       "id": "the-kingdom-men-gift-set",
       "name_ar": "The Kingdom Men Gift Set",
       "name_en": "The Kingdom Men Gift Set",
@@ -81383,9 +81243,26 @@
           ],
           "image": "images/blue-laverne-bakhur--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/blue-laverne-bakhur-200ml"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2800,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/blue-laverne-bakhur-for-him--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/blue-laverne-bakhur-200-ml"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Blue Laverne Bakhur For Him"
+      ]
     },
     {
       "id": "proud-of-you-intense-fragrance-world",
@@ -85201,32 +85078,6 @@
       "_hero_source": "emaratiscents"
     },
     {
-      "id": "optimystic-for-him",
-      "name_ar": "Optimystic For Him",
-      "name_en": "Optimystic For Him",
-      "brand": "Fragrance World",
-      "dupe_of": [],
-      "image": "images/optimystic-for-him.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1050,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/optimystic-for-him--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/optimystic"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
       "id": "dkhoon-solo",
       "name_ar": "Dkhoon Solo",
       "name_en": "Dkhoon Solo",
@@ -85722,35 +85573,6 @@
       "_hero_source": "MO Shawky"
     },
     {
-      "id": "daarej-extrait-pour-homme",
-      "name_ar": "",
-      "name_en": "Daarej Extrait Pour Homme",
-      "brand": "Rasasi",
-      "dupe_of": [
-        "V pour Homme — Valentino"
-      ],
-      "image": "images/daarej-extrait-pour-homme.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 900,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/daarej-extrait-pour-homme--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/daarej-extrait-pour-homme-rasasi"
-        }
-      ],
-      "_hero_source": "roseperfume"
-    },
-    {
       "id": "zukhruf-homme",
       "name_ar": "Zukhruf Homme",
       "name_en": "Zukhruf Homme",
@@ -85989,9 +85811,37 @@
           ],
           "image": "images/le-sel-d-issey--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/issey-miyake-le-sel-d-issey-copy"
+        },
+        {
+          "name": "Hossam ElDeen Gamal",
+          "url": "https://www.facebook.com/hossameldeien/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 175,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 275,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 500,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/le-sel-d-issey-edp--hossam-eldeen-gamal.jpg"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Le Sel d'Issey EDP"
+      ]
     },
     {
       "id": "osma-noir",
@@ -88304,9 +88154,26 @@
           ],
           "image": "images/habik--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/lattafa-habik"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1130,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/habik-for-men--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/habik-for-men"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Habik For Men"
+      ]
     },
     {
       "id": "old-money-sedra",
@@ -92548,9 +92415,37 @@
           ],
           "image": "images/pacific--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/pacific-rayhaan"
+        },
+        {
+          "name": "EsLam Nasser",
+          "url": "https://www.facebook.com/eslam.nasser.10/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 100,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 140,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/pacific-pour-homme.jpg"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Pacific Pour Homme"
+      ]
     },
     {
       "id": "grey-pearl-diamond",
@@ -94278,38 +94173,6 @@
         }
       ],
       "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "hawas-edp",
-      "name_ar": "Hawas EDP",
-      "name_en": "Hawas EDP",
-      "brand": "Rasasi",
-      "dupe_of": [],
-      "image": "images/hawas-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 150,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 250,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/hawas-edp--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/rasasi-hawas-edp"
-        }
-      ],
-      "_hero_source": "perfuzone"
     },
     {
       "id": "spartacus",
@@ -104053,7 +103916,24 @@
           ],
           "image": "images/mazaaj-emaratiscents--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/mazaaj"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1075,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/mazaaj-edp-zimaya--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/mazaaj-edp-zimaya-100ml%d9%85%d8%b2%d8%a7%d8%ac-%d8%a7%d9%88-%d8%af%d9%88-%d8%a8%d8%a7%d8%b1%d9%81%d9%85-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b2%d9%85%d8%a7%d9%8a%d8%a7/"
         }
+      ],
+      "aliases": [
+        "Mazaaj Edp"
       ]
     },
     {
@@ -105792,95 +105672,6 @@
       "_hero_source": "emaratiscents"
     },
     {
-      "id": "rayhaan-nocturno-pour-homme-elixir",
-      "name_en": "Rayhaan Nocturno Pour Homme Elixir",
-      "name_ar": "نوكتورنو بور هوم إليكسير — ريحان",
-      "brand": "Rayhaan",
-      "dupe_of": [
-        "Bleu de Chanel L'Exclusif — Chanel"
-      ],
-      "image": "images/rayhaan-nocturno-pour-homme-elixir.jpg",
-      "accords": [
-        {
-          "label_en": "Woody",
-          "label_ar": "خشبي",
-          "color": "#774414",
-          "w": 100
-        },
-        {
-          "label_en": "Amber",
-          "label_ar": "العنبر",
-          "color": "#bc4d10",
-          "w": 86
-        },
-        {
-          "label_en": "Soft",
-          "label_ar": "ناعم",
-          "color": "#EEDDCC",
-          "w": 72
-        },
-        {
-          "label_en": "Musky",
-          "label_ar": "مسكي",
-          "color": "#E7D8EA",
-          "w": 58
-        },
-        {
-          "label_en": "Balsamic",
-          "label_ar": "بلسمي",
-          "color": "#ad8359",
-          "w": 44
-        }
-      ],
-      "stores": [
-        {
-          "name": "EsLam Nasser",
-          "url": "https://www.facebook.com/eslam.nasser.10/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 100,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 130,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 200,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/rayhaan-nocturno-pour-homme-elixir.jpg"
-        },
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 175,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1550,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/nuctorno-elixir-rayhaan--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/nuctorno-elixir-10ml-rayhaan%d9%86%d9%88%d9%83%d8%aa%d9%88%d8%b1%d9%86%d9%88-%d8%a7%d9%84%d9%8a%d9%83%d8%b2%d9%8a%d8%b1-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a-%d8%b1%d9%8a%d8%ad/"
-        }
-      ]
-    },
-    {
       "id": "frankel-aventus-intense",
       "name_ar": "فرانكل افينتوس انتينس عساف (١٠٠ملي)",
       "name_en": "Frankel Aventus Intense",
@@ -106233,47 +106024,6 @@
         }
       ],
       "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "tonka-cola-edp",
-      "name_ar": "Tonka Cola EDP",
-      "name_en": "Tonka Cola EDP",
-      "brand": "Mancera",
-      "dupe_of": [],
-      "image": "images/tonka-cola-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 300,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 450,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 700,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/tonka-cola-edp--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/mancera-tonka-cola-edp-1"
-        }
-      ],
-      "_hero_source": "perfuzone"
     },
     {
       "id": "genesis-gemini",
