@@ -208,6 +208,17 @@ def parse_product(p):
         name_en = name_en[: -(len(brand) + 3)].rstrip(" -—–|,").strip()
     name_en = strip_redundant_brand_suffix(name_en, brand) if brand else name_en
 
+    # "<Name> Aromatix X French Avenue" — tag is "French avenue" alone, so
+    # the generic brand-suffix strip above only removes the trailing brand
+    # name, leaving "<Name> Aromatix X" behind. The rest of the catalog
+    # already uses "Aromatix X French Avenue" as one brand string for this
+    # collab line (synced from other stores); landing here instead of on
+    # a fresh "... Aromatix X" duplicate is what needs this same fixup
+    # every other Aromatix-selling store's sync script already has.
+    if brand.lower() == "french avenue" and name_en.lower().endswith("aromatix x"):
+        brand = "Aromatix X French Avenue"
+        name_en = name_en[: -len("aromatix x")].strip()
+
     return {
         "name_en": name_en,
         "brand": brand,
