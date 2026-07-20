@@ -46528,9 +46528,27 @@
           ],
           "image": "images/fig-hug--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/fig-hug"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1100,
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20"
+            }
+          ],
+          "image": "images/perseviron-fig-hug--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/perseviron-fig-hug-paris-corner"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": [
+        "Perseviron Fig Hug"
+      ]
     },
     {
       "id": "power-of-you-women",
@@ -49411,9 +49429,28 @@
           ],
           "image": "images/al-haramain-amber-oud-tobacco--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/al-haramain-amber-oud-tobacco"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2950,
+              "first_seen": "2026-07-18",
+              "prev_price": 3650,
+              "sold_since": "2026-07-20"
+            }
+          ],
+          "image": "images/amber-oud-tobacco-edition-extrait-de-parfum--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/al-haramain-amber-oud-tobacco-edition-100ml-tester-box-authentic%d8%a7%d9%84%d8%ad%d8%b1%d9%85%d9%8a%d9%86-%d8%b9%d9%86%d8%a8%d8%b1-%d8%b9%d9%88%d8%af-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d8%a7/"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": [
+        "Amber Oud Tobacco Edition Extrait De Parfum"
+      ]
     },
     {
       "id": "l-eau-d-issey-pour-homme-intense",
@@ -52080,9 +52117,27 @@
           ],
           "image": "images/mango-affogato--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/mango-affogato"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 850,
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20"
+            }
+          ],
+          "image": "images/mango-affogato-arabiyat-sugar-arabiyat-prestige--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/mango-affogato-arabiyat-sugar"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Mango Affogato Arabiyat Sugar"
+      ]
     },
     {
       "id": "bleu-noir-edt",
@@ -54210,90 +54265,6 @@
       "_hero_source": "emaratiscents"
     },
     {
-      "id": "the-kingdom-for-men",
-      "name_ar": "",
-      "name_en": "The Kingdom For Men",
-      "brand": "Lattafa",
-      "dupe_of": [
-        "Le Male Elixir — Jean Paul Gaultier"
-      ],
-      "image": "images/the-kingdom-for-men.jpg",
-      "accords": [
-        {
-          "label_en": "Lavender",
-          "label_ar": "الخزامي",
-          "color": "#9B7DB8",
-          "w": 100
-        },
-        {
-          "label_en": "Mint",
-          "label_ar": "النعناع",
-          "color": "#37a089",
-          "w": 90
-        },
-        {
-          "label_en": "Sage",
-          "label_ar": "المريمية",
-          "color": "#6CA47F",
-          "w": 80
-        },
-        {
-          "label_en": "Vanilla",
-          "label_ar": "الفانيليا",
-          "color": "#FFFEC0",
-          "w": 70
-        },
-        {
-          "label_en": "Tobacco",
-          "label_ar": "التبغ",
-          "color": "#ad7727",
-          "w": 60
-        },
-        {
-          "label_en": "Orange Blossom",
-          "label_ar": "زهر البرتقال",
-          "color": "#edf2fb",
-          "w": 50
-        },
-        {
-          "label_en": "Tonka Bean",
-          "label_ar": "حبوب التونكا",
-          "color": "#FFFEC0",
-          "w": 40
-        },
-        {
-          "label_en": "Benzoin",
-          "label_ar": "البنزوين - الجاوي",
-          "color": "#ad8359",
-          "w": 40
-        },
-        {
-          "label_en": "Labdanum",
-          "label_ar": "اللابدانوم",
-          "color": "#ad8359",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1175,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/the-kingdom-for-men--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/the-kingdom-for-men-lattafa-perfumes"
-        }
-      ],
-      "_hero_source": "roseperfume"
-    },
-    {
       "id": "miss-laverne-rose",
       "name_ar": "Miss Laverne Rose",
       "name_en": "Miss Laverne Rose",
@@ -54371,32 +54342,6 @@
         }
       ],
       "_hero_source": "og-perfume"
-    },
-    {
-      "id": "prime-26-n",
-      "name_ar": "Prime 26 N",
-      "name_en": "Prime 26 N",
-      "brand": "Le Bonheur",
-      "dupe_of": [],
-      "image": "images/prime-26-n.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1800,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/prime-26-n--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/prime-26-n"
-        }
-      ],
-      "_hero_source": "emaratiscents"
     },
     {
       "id": "dubai-bahar",
@@ -56745,37 +56690,6 @@
       "_hero_source": "eldesoki-fragrances"
     },
     {
-      "id": "amber-oud-tobacco-edition-extrait-de-parfum",
-      "name_ar": "Amber Oud Tobacco Edition 100ML Extrait De Parfum",
-      "name_en": "Amber Oud Tobacco Edition Extrait De Parfum",
-      "brand": "Al Haramain",
-      "dupe_of": [],
-      "image": "images/amber-oud-tobacco-edition-extrait-de-parfum.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2950,
-              "first_seen": "2026-07-18",
-              "prev_price": 3650,
-              "sold_since": "2026-07-20"
-            }
-          ],
-          "image": "images/amber-oud-tobacco-edition-extrait-de-parfum--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/al-haramain-amber-oud-tobacco-edition-100ml-tester-box-authentic%d8%a7%d9%84%d8%ad%d8%b1%d9%85%d9%8a%d9%86-%d8%b9%d9%86%d8%a8%d8%b1-%d8%b9%d9%88%d8%af-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d8%a7/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances",
-      "aliases": [
-        "Al Haramain Amber Oud Tobacco Edition Tester Box Authentic"
-      ]
-    },
-    {
       "id": "masa",
       "name_ar": "Masa",
       "name_en": "Masa",
@@ -57890,11 +57804,27 @@
           ],
           "image": "images/blueberry-musk-by-arabiyat-prestige--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/blueberry-musk-by-arabiyat-prestige"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 20,
+              "price": 175,
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20"
+            }
+          ],
+          "image": "images/arabiyat-blueberry-musk-concentrated-perfume-oil--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/arabiyat-blueberry-musk-concentrated-perfume-oil"
         }
       ],
       "_hero_source": "emaratiscents",
       "aliases": [
-        "Blueberry Musk By Arabiyat Prestige"
+        "Blueberry Musk By Arabiyat Prestige",
+        "Arabiyat Blueberry Musk Concentrated Perfume Oil"
       ]
     },
     {
@@ -62864,9 +62794,27 @@
           ],
           "image": "images/the-kingdom-men--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/the-kingdom-men"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1175,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/the-kingdom-for-men--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/the-kingdom-for-men-lattafa-perfumes"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "The Kingdom For Men"
+      ]
     },
     {
       "id": "azure-royal",
@@ -65635,40 +65583,6 @@
       ]
     },
     {
-      "id": "powder-musk-75ml",
-      "name_ar": "Powder Musk 75ml",
-      "name_en": "Powder Musk 75ml",
-      "brand": "Ibrahim Al Qurashi",
-      "dupe_of": [],
-      "image": "images/powder-musk-75ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 185,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 75,
-              "price": 1150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/powder-musk-75ml--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/powder-musk-75ml-ibrahim-al-qurashi"
-        }
-      ],
-      "_hero_source": "og-perfume"
-    },
-    {
       "id": "rosendo-mateu-n-5",
       "name_ar": "روسيندو ماتيو نوم فايف ١٠٠ملي",
       "name_en": "Rosendo Mateu N 5",
@@ -65940,7 +65854,8 @@
           "product_url": "https://roseperfume.online/products/divin-asylum-french-avenue"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": []
     },
     {
       "id": "musk-garden",
@@ -67202,33 +67117,6 @@
         }
       ],
       "_hero_source": "MO Shawky"
-    },
-    {
-      "id": "hersh-bukhori-ezz-oud",
-      "name_ar": "هيرش بخوري ١٠٠ملي من العز للعود",
-      "name_en": "Hersh Bukhori Ezz Oud",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/hersh-bukhori-ezz-oud.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2900,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/hersh-bukhori-ezz-oud--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/hersh-bukhori-100ml-ezz-oud%d9%87%d9%8a%d8%b1%d8%b4-%d8%a8%d8%ae%d9%88%d8%b1%d9%8a-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d9%84%d8%b9%d8%b2-%d9%84%d9%84%d8%b9%d9%88%d8%af/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "reflection-man",
@@ -76056,6 +75944,12 @@
               "ml": 100,
               "price": 550,
               "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 15,
+              "price": 225,
+              "first_seen": "2026-07-20"
             }
           ],
           "image": "images/al-faris-arabiyat-prestige-arabiyat-prestige--roseperfume.jpg",
@@ -76064,7 +75958,8 @@
       ],
       "_hero_source": "roseperfume",
       "aliases": [
-        "Al Faris Arabiyat"
+        "Al Faris Arabiyat",
+        "Arabiyat Al Faris Concentrated Perfume Oil"
       ]
     },
     {
@@ -76302,11 +76197,27 @@
           ],
           "image": "images/ishatar-roses-vanilla--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/copy-mahd-al-dhahab"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 110,
+              "price": 1150,
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20"
+            }
+          ],
+          "image": "images/ishtar-roses-vanilla-by-arabiat-prestige--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/ishtar-roses-vanilla-by-arabiat-prestige"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
       "aliases": [
-        "Ishatar Roses Vanilla"
+        "Ishatar Roses Vanilla",
+        "Ishtar Roses Vanilla by Arabiat Prestige"
       ]
     },
     {
@@ -76943,9 +76854,34 @@
           ],
           "image": "images/kenzo-homme-eau-de-toilette-intense--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/kenzo-homme-edt-intense"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 2750,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 110,
+              "price": 3750,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/kenzo-edt-intense--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/kenzo-edt-intense-110ml%d9%83%d9%8a%d9%86%d8%b2%d9%88-%d8%a7%d9%8a-%d8%af%d9%8a-%d8%aa%d9%8a-%d8%a7%d9%86%d8%aa%d9%86%d8%b3-%d9%a1%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
-      "_hero_source": "perfuzone"
+      "_hero_source": "perfuzone",
+      "aliases": [
+        "KENZO EDT Intense"
+      ]
     },
     {
       "id": "aura-pegasus",
@@ -76981,9 +76917,27 @@
           ],
           "image": "images/aura-pegasus--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/assaf-aura-pegasus"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 3000,
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20"
+            }
+          ],
+          "image": "images/aura-pegasus-collection--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/aura-pegasus-collection"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Aura Pegasus Collection"
+      ]
     },
     {
       "id": "l-12-12-silver-rose",
@@ -77200,9 +77154,32 @@
           ],
           "image": "images/blueberry-musk--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/bluberry-musk"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 190,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 1250,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/blueberry-musk-75ml--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/blueberry-musk-75ml-ibrahim-al-qurashi"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Blueberry Musk 75ml"
+      ]
     },
     {
       "id": "ani-x-extrait-de-parfum",
@@ -77887,7 +77864,8 @@
           "product_url": "https://emaratiscents.com/products/siena-valley-200-ml"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": []
     },
     {
       "id": "badee-al-oud-sublime-body-spray",
@@ -79612,69 +79590,6 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "light-blue-eau-intense-pour-homme",
-      "name_ar": "",
-      "name_en": "Light Blue Eau Intense Pour Homme",
-      "brand": "Dolce & Gabbana",
-      "dupe_of": [],
-      "image": "images/light-blue-eau-intense-pour-homme.jpg",
-      "accords": [
-        {
-          "label_en": "Grapefruit",
-          "label_ar": "",
-          "color": "#F9FF52",
-          "w": 100
-        },
-        {
-          "label_en": "Mandarin Orange",
-          "label_ar": "",
-          "color": "#F9FF52",
-          "w": 90
-        },
-        {
-          "label_en": "Sea Water",
-          "label_ar": "",
-          "color": "#0E529B",
-          "w": 80
-        },
-        {
-          "label_en": "Juniper",
-          "label_ar": "",
-          "color": "#37a089",
-          "w": 70
-        },
-        {
-          "label_en": "Musk",
-          "label_ar": "",
-          "color": "#E7D8EA",
-          "w": 60
-        },
-        {
-          "label_en": "Amberwood",
-          "label_ar": "",
-          "color": "#bc4d10",
-          "w": 50
-        }
-      ],
-      "stores": [
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 4300,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/light-blue-eau-intense-pour-homme--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/dolce-gabbana-light-blue-eau-intense-pour-homme-full-sealed"
-        }
-      ],
-      "_hero_source": "sniffz"
     },
     {
       "id": "emeer-lattafa",
@@ -82231,9 +82146,37 @@
           ],
           "image": "images/noir-extreme--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/tom-ford-noir-extrem"
+        },
+        {
+          "name": "Hossam ElDeen Gamal",
+          "url": "https://www.facebook.com/hossameldeien/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 325,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 500,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 950,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/noir-extreme-parfum--hossam-eldeen-gamal.jpg"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Noir Extreme Parfum"
+      ]
     },
     {
       "id": "golden-sand-collection",
@@ -89720,11 +89663,26 @@
           ],
           "image": "images/prime-26--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/prime-26-80ml%d8%a8%d8%b1%d8%a7%d9%8a%d9%85-%d9%a2%d9%a6-%d9%a8%d9%a0%d9%85%d9%84%d9%8a-%d8%b5%d8%a7%d8%b9%d8%a8%d8%a9-%d9%81%d9%8a-%d8%a7%d9%84%d8%aa%d9%82%d8%b3%d9%8a%d9%85/"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1800,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/prime-26-n--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/prime-26-n"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
       "aliases": [
-        "Prime 26 Le Bonheur"
+        "Prime 26 Le Bonheur",
+        "Prime 26 N"
       ]
     },
     {
@@ -93309,9 +93267,44 @@
           ],
           "image": "images/voux-alma-verde--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/voux-alma-verde"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 90,
+              "first_seen": "2026-07-20"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 150,
+              "first_seen": "2026-07-20"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 400,
+              "first_seen": "2026-07-20"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1100,
+              "first_seen": "2026-07-20"
+            }
+          ],
+          "image": "images/emir-voux-alma-verde--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/emir-voux-alma-verde-paris-corner"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": [
+        "Emir Voux Alma Verde"
+      ]
     },
     {
       "id": "blue-wish-collection",
@@ -94904,11 +94897,34 @@
           ],
           "image": "images/powder-musk--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/poweder-musk-75ml%d9%85%d8%b3%d9%83-%d8%a8%d8%a7%d9%88%d8%af%d8%b1-%d9%85%d9%86-%d8%a5%d8%a8%d8%b1%d8%a7%d9%87%d9%8a%d9%85-%d8%a7%d9%84%d9%82%d8%b1%d8%b4%d9%8a/"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 185,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 1150,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/powder-musk-75ml--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/powder-musk-75ml-ibrahim-al-qurashi"
         }
       ],
       "_hero_source": "emaratiscents",
       "aliases": [
-        "Powder Musk Ibraq"
+        "Powder Musk Ibraq",
+        "Powder Musk 75ml"
       ]
     },
     {
@@ -98098,9 +98114,27 @@
           ],
           "image": "images/hibiscus-magic--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/hibiscus-magic-fragrance-world"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 80,
+              "price": 900,
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20"
+            }
+          ],
+          "image": "images/hibiscus-magic-artisan-perfumery--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/hibiscus-magic-artisan-perfumery-fragrance-world"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": [
+        "Hibiscus Magic Artisan Perfumery"
+      ]
     },
     {
       "id": "freeze-caramel-me-crazy",
@@ -101395,32 +101429,6 @@
       "_hero_source": "sniffz"
     },
     {
-      "id": "siena-valley",
-      "name_ar": "Siena Valley",
-      "name_en": "Siena Valley",
-      "brand": "time",
-      "dupe_of": [],
-      "image": "images/siena-valley.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 5750,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/siena-valley--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/siena-valley-200-ml"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
       "id": "coffee-blend",
       "name_ar": "Coffee Blend",
       "name_en": "Coffee Blend",
@@ -101775,42 +101783,6 @@
         }
       ],
       "_hero_source": "og-perfume"
-    },
-    {
-      "id": "noir-extreme-parfum",
-      "name_ar": "Noir Extreme Parfum",
-      "name_en": "Noir Extreme Parfum",
-      "brand": "Tom Ford",
-      "dupe_of": [],
-      "image": "images/noir-extreme-parfum.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Hossam ElDeen Gamal",
-          "url": "https://www.facebook.com/hossameldeien/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 325,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 500,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 950,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/noir-extreme-parfum--hossam-eldeen-gamal.jpg"
-        }
-      ]
     },
     {
       "id": "club-de-nuit-lion-heart",
@@ -102964,9 +102936,26 @@
           ],
           "image": "images/light-blue-eau-intense--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/dolce-gabbana-light-blue-eau-intense"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4300,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/light-blue-eau-intense-pour-homme--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/dolce-gabbana-light-blue-eau-intense-pour-homme-full-sealed"
         }
       ],
-      "_hero_source": "perfuzone"
+      "_hero_source": "perfuzone",
+      "aliases": [
+        "Light Blue Eau Intense Pour Homme"
+      ]
     },
     {
       "id": "nasmaat",
@@ -103341,9 +103330,27 @@
           ],
           "image": "images/hersh-bukhori--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/hersh-bukhori"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2900,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/hersh-bukhori-ezz-oud--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/hersh-bukhori-100ml-ezz-oud%d9%87%d9%8a%d8%b1%d8%b4-%d8%a8%d8%ae%d9%88%d8%b1%d9%8a-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d9%84%d8%b9%d8%b2-%d9%84%d9%84%d8%b9%d9%88%d8%af/"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": [
+        "Hersh Bukhori Ezz Oud"
+      ]
     },
     {
       "id": "la-sera-solara-tigris",
@@ -104651,40 +104658,6 @@
         "Ameer Al Oud Intense"
       ],
       "_hero_source": "sniffz"
-    },
-    {
-      "id": "kenzo-edt-intense",
-      "name_ar": "كينزو اي دي تي انتنس ٦٠ملي",
-      "name_en": "KENZO EDT Intense",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/kenzo-edt-intense.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 60,
-              "price": 2750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 110,
-              "price": 3750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/kenzo-edt-intense--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/kenzo-edt-intense-110ml%d9%83%d9%8a%d9%86%d8%b2%d9%88-%d8%a7%d9%8a-%d8%af%d9%8a-%d8%aa%d9%8a-%d8%a7%d9%86%d8%aa%d9%86%d8%b3-%d9%a1%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "oud-mood-reminiscence",
@@ -109307,38 +109280,6 @@
       "_hero_source": "sniffz"
     },
     {
-      "id": "blueberry-musk-75ml",
-      "name_ar": "Blueberry Musk 75ml",
-      "name_en": "Blueberry Musk 75ml",
-      "brand": "Ibrahim Al Qurashi",
-      "dupe_of": [],
-      "image": "images/blueberry-musk-75ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 190,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 75,
-              "price": 1250,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/blueberry-musk-75ml--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/blueberry-musk-75ml-ibrahim-al-qurashi"
-        }
-      ],
-      "_hero_source": "og-perfume"
-    },
-    {
       "id": "grecia-rosa",
       "name_ar": "Grecia Rosa",
       "name_en": "Grecia Rosa",
@@ -109863,138 +109804,6 @@
       "_hero_source": "emaratiscents"
     },
     {
-      "id": "divin-asylum-french-avenue",
-      "name_ar": "",
-      "name_en": "Divin Asylum",
-      "brand": "French avenue",
-      "dupe_of": [
-        "Elysium Pour Homme Parfum Cologne — Roja Dove"
-      ],
-      "image": "images/divin-asylum-french-avenue.jpg",
-      "accords": [
-        {
-          "label_en": "Grapefruit",
-          "label_ar": "الجريب فروت",
-          "color": "#F9FF52",
-          "w": 100
-        },
-        {
-          "label_en": "Lemon",
-          "label_ar": "الليمون",
-          "color": "#F9FF52",
-          "w": 90
-        },
-        {
-          "label_en": "Lime",
-          "label_ar": "الليم",
-          "color": "#F9FF52",
-          "w": 80
-        },
-        {
-          "label_en": "Wormwood",
-          "label_ar": "الشيح",
-          "color": "#37a089",
-          "w": 70
-        },
-        {
-          "label_en": "Bergamot",
-          "label_ar": "البرغموت",
-          "color": "#F9FF52",
-          "w": 60
-        },
-        {
-          "label_en": "Lemongrass",
-          "label_ar": "نجيل الهند",
-          "color": "#0E8C1D",
-          "w": 50
-        },
-        {
-          "label_en": "Apple",
-          "label_ar": "التفاح",
-          "color": "#FC4B29",
-          "w": 40
-        },
-        {
-          "label_en": "Cedarwood",
-          "label_ar": "خشب الأرز",
-          "color": "#774414",
-          "w": 40
-        },
-        {
-          "label_en": "Blackcurrant",
-          "label_ar": "الكشمش الأسود",
-          "color": "#FC4B29",
-          "w": 40
-        },
-        {
-          "label_en": "Pink Pepper",
-          "label_ar": "الفلفل الوردي",
-          "color": "#83C928",
-          "w": 40
-        },
-        {
-          "label_en": "Lily of the Valley",
-          "label_ar": "زنابق الوادي",
-          "color": "#FF5F8D",
-          "w": 40
-        },
-        {
-          "label_en": "Jasmine",
-          "label_ar": "الياسمين",
-          "color": "#FF5F8D",
-          "w": 40
-        },
-        {
-          "label_en": "Rose",
-          "label_ar": "الورد",
-          "color": "#FE016B",
-          "w": 40
-        },
-        {
-          "label_en": "Benzoin",
-          "label_ar": "البنزوين - الجاوي",
-          "color": "#ad8359",
-          "w": 40
-        },
-        {
-          "label_en": "Leather",
-          "label_ar": "الجلود",
-          "color": "#78483A",
-          "w": 40
-        },
-        {
-          "label_en": "Labdanum",
-          "label_ar": "اللابدانوم",
-          "color": "#ad8359",
-          "w": 40
-        },
-        {
-          "label_en": "Vanilla",
-          "label_ar": "الفانيليا",
-          "color": "#FFFEC0",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1600,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
-            }
-          ],
-          "image": "images/divin-asylum-french-avenue--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/divin-asylum-french-avenue"
-        }
-      ],
-      "_hero_source": "roseperfume"
-    },
-    {
       "id": "spectre-ghost",
       "name_ar": "",
       "name_en": "Spectre Ghost",
@@ -110147,38 +109956,6 @@
       "aliases": [
         "Ghost Spectre"
       ]
-    },
-    {
-      "id": "212-vip-ros-love-ny-women-ch",
-      "name_ar": "",
-      "name_en": "212 VIP Rosé Love NY women",
-      "brand": "CH",
-      "dupe_of": [],
-      "image": "images/212-vip-ros-love-ny-women-ch.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "MO Shawky",
-          "url": "https://www.facebook.com/mo.freeto.play/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 285,
-              "first_seen": "2026-07-20"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 500,
-              "first_seen": "2026-07-20"
-            }
-          ],
-          "image": "images/212-vip-ros-love-ny-women-ch--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ch-212-vip-rose-love-ny-women-5ml-377"
-        }
-      ],
-      "_hero_source": "MO Shawky"
     },
     {
       "id": "acqua-di-gio-profondo",
@@ -110915,101 +110692,6 @@
           ],
           "image": "images/jad-fleur--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/jad-fleur"
-        }
-      ],
-      "_hero_source": "roseperfume"
-    },
-    {
-      "id": "emir-voux-alma-verde",
-      "name_ar": "",
-      "name_en": "Emir Voux Alma Verde",
-      "brand": "Paris Corner",
-      "dupe_of": [
-        "Vibrato Sospiro Perfumes"
-      ],
-      "image": "images/emir-voux-alma-verde.jpg",
-      "accords": [
-        {
-          "label_en": "Bergamot",
-          "label_ar": "البرغموت",
-          "color": "#F9FF52",
-          "w": 100
-        },
-        {
-          "label_en": "Tangerine",
-          "label_ar": "اليوسفي",
-          "color": "#F9FF52",
-          "w": 90
-        },
-        {
-          "label_en": "Aldehydes",
-          "label_ar": "الألدهيدات",
-          "color": "#d8e9f6",
-          "w": 80
-        },
-        {
-          "label_en": "Ginger",
-          "label_ar": "الزنجبيل",
-          "color": "#83C928",
-          "w": 70
-        },
-        {
-          "label_en": "Sandalwood",
-          "label_ar": "خشب الصندل",
-          "color": "#774414",
-          "w": 60
-        },
-        {
-          "label_en": "Amber",
-          "label_ar": "العنبر",
-          "color": "#bc4d10",
-          "w": 50
-        },
-        {
-          "label_en": "Musk",
-          "label_ar": "المسك",
-          "color": "#E7D8EA",
-          "w": 40
-        },
-        {
-          "label_en": "Lemongrass",
-          "label_ar": "نجيل الهند",
-          "color": "#0E8C1D",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 90,
-              "first_seen": "2026-07-20"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 150,
-              "first_seen": "2026-07-20"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 400,
-              "first_seen": "2026-07-20"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1100,
-              "first_seen": "2026-07-20"
-            }
-          ],
-          "image": "images/emir-voux-alma-verde--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/emir-voux-alma-verde-paris-corner"
         }
       ],
       "_hero_source": "roseperfume"
@@ -112709,78 +112391,6 @@
       "_hero_source": "roseperfume"
     },
     {
-      "id": "perseviron-fig-hug",
-      "name_ar": "",
-      "name_en": "Perseviron Fig Hug",
-      "brand": "Paris Corner",
-      "dupe_of": [
-        "perfume Acqua di Parma Blu Mediterraneo - Fico di Amalfi Acqua di Parma"
-      ],
-      "image": "images/perseviron-fig-hug.jpg",
-      "accords": [
-        {
-          "label_en": "Lemon",
-          "label_ar": "الليمون",
-          "color": "#F9FF52",
-          "w": 100
-        },
-        {
-          "label_en": "Fig",
-          "label_ar": "ثمار التين",
-          "color": "#0E8C1D",
-          "w": 90
-        },
-        {
-          "label_en": "Pink Pepper",
-          "label_ar": "الفلفل الوردي",
-          "color": "#83C928",
-          "w": 80
-        },
-        {
-          "label_en": "Rose",
-          "label_ar": "الورد",
-          "color": "#FE016B",
-          "w": 70
-        },
-        {
-          "label_en": "Jasmine",
-          "label_ar": "الياسمين",
-          "color": "#FF5F8D",
-          "w": 60
-        },
-        {
-          "label_en": "White Musk",
-          "label_ar": "المسك الأبيض",
-          "color": "#E7D8EA",
-          "w": 50
-        },
-        {
-          "label_en": "Cedarwood",
-          "label_ar": "خشب الأرز",
-          "color": "#774414",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1100,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
-            }
-          ],
-          "image": "images/perseviron-fig-hug--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/perseviron-fig-hug-paris-corner"
-        }
-      ],
-      "_hero_source": "roseperfume"
-    },
-    {
       "id": "factory-edition-camp-fire",
       "name_ar": "",
       "name_en": "Factory Edition: Camp Fire",
@@ -112893,52 +112503,6 @@
           ],
           "image": "images/arabiyat-musk-tahara-concentrated-perfume-oil--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/arabiyat-musk-tahara-concentrated-perfume-oil"
-        }
-      ],
-      "_hero_source": "roseperfume"
-    },
-    {
-      "id": "arabiyat-blueberry-musk-concentrated-perfume-oil",
-      "name_ar": "",
-      "name_en": "Arabiyat Blueberry Musk Concentrated Perfume Oil",
-      "brand": "Arabiyat Prestige",
-      "dupe_of": [],
-      "image": "images/arabiyat-blueberry-musk-concentrated-perfume-oil.jpg",
-      "accords": [
-        {
-          "label_en": "Musk",
-          "label_ar": "المسك",
-          "color": "#E7D8EA",
-          "w": 100
-        },
-        {
-          "label_en": "Amber",
-          "label_ar": "العنبر",
-          "color": "#bc4d10",
-          "w": 90
-        },
-        {
-          "label_en": "Sandalwood",
-          "label_ar": "خشب الصندل",
-          "color": "#774414",
-          "w": 80
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 20,
-              "price": 175,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
-            }
-          ],
-          "image": "images/arabiyat-blueberry-musk-concentrated-perfume-oil--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/arabiyat-blueberry-musk-concentrated-perfume-oil"
         }
       ],
       "_hero_source": "roseperfume"
@@ -114715,42 +114279,6 @@
       "_hero_source": "roseperfume"
     },
     {
-      "id": "ishtar-roses-vanilla-by-arabiat-prestige",
-      "name_ar": "",
-      "name_en": "Ishtar Roses Vanilla by Arabiat Prestige",
-      "brand": "Arabiyat Prestige",
-      "dupe_of": [
-        "Roses Vanille — Mancera"
-      ],
-      "image": "images/ishtar-roses-vanilla-by-arabiat-prestige.jpg",
-      "accords": [
-        {
-          "label_en": "Saffron",
-          "label_ar": "الزعفران",
-          "color": "#CC3300",
-          "w": 100
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 110,
-              "price": 1150,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
-            }
-          ],
-          "image": "images/ishtar-roses-vanilla-by-arabiat-prestige--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/ishtar-roses-vanilla-by-arabiat-prestige"
-        }
-      ],
-      "_hero_source": "roseperfume"
-    },
-    {
       "id": "exelof-nexon",
       "name_ar": "",
       "name_en": "Exelof Nexon",
@@ -115571,63 +115099,6 @@
       "_hero_source": "roseperfume"
     },
     {
-      "id": "arabiyat-al-faris-concentrated-perfume-oil",
-      "name_ar": "",
-      "name_en": "Arabiyat Al Faris Concentrated Perfume Oil",
-      "brand": "Arabiyat Prestige",
-      "dupe_of": [],
-      "image": "images/arabiyat-al-faris-concentrated-perfume-oil.jpg",
-      "accords": [
-        {
-          "label_en": "Musk",
-          "label_ar": "المسك",
-          "color": "#E7D8EA",
-          "w": 100
-        },
-        {
-          "label_en": "Oud",
-          "label_ar": "العود",
-          "color": "#544136",
-          "w": 90
-        },
-        {
-          "label_en": "Woody Notes",
-          "label_ar": "النفحات الخشبية",
-          "color": "#774414",
-          "w": 80
-        },
-        {
-          "label_en": "Pepper",
-          "label_ar": "الفلفل",
-          "color": "#CC3300",
-          "w": 70
-        },
-        {
-          "label_en": "Flowers",
-          "label_ar": "الأزهار",
-          "color": "#FF5F8D",
-          "w": 60
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 15,
-              "price": 225,
-              "first_seen": "2026-07-20"
-            }
-          ],
-          "image": "images/arabiyat-al-faris-concentrated-perfume-oil--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/arabiyat-al-faris-concentrated-perfume-oil"
-        }
-      ],
-      "_hero_source": "roseperfume"
-    },
-    {
       "id": "arabiyat-oud-al-faris-concentrated-perfume-oil",
       "name_ar": "",
       "name_en": "Arabiyat Oud Al Faris Concentrated Perfume Oil",
@@ -116066,90 +115537,6 @@
           ],
           "image": "images/crown-black--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/crown-black-dkhoon-emirates"
-        }
-      ],
-      "_hero_source": "roseperfume"
-    },
-    {
-      "id": "aura-pegasus-collection",
-      "name_ar": "",
-      "name_en": "Aura Pegasus Collection",
-      "brand": "Assaf",
-      "dupe_of": [
-        "Hacivat — Nishane"
-      ],
-      "image": "images/aura-pegasus-collection.jpg",
-      "accords": [
-        {
-          "label_en": "Grapefruit",
-          "label_ar": "الجريب فروت",
-          "color": "#F9FF52",
-          "w": 100
-        },
-        {
-          "label_en": "Bergamot",
-          "label_ar": "البرغموت",
-          "color": "#F9FF52",
-          "w": 90
-        },
-        {
-          "label_en": "Pineapple",
-          "label_ar": "الأناناس",
-          "color": "#FC4B29",
-          "w": 80
-        },
-        {
-          "label_en": "Pink Pepper",
-          "label_ar": "الفلفل الوردي",
-          "color": "#83C928",
-          "w": 70
-        },
-        {
-          "label_en": "Jasmine",
-          "label_ar": "الياسمين",
-          "color": "#FF5F8D",
-          "w": 60
-        },
-        {
-          "label_en": "Blackcurrant",
-          "label_ar": "الكشمش الأسود",
-          "color": "#FC4B29",
-          "w": 50
-        },
-        {
-          "label_en": "Amber",
-          "label_ar": "العنبر",
-          "color": "#bc4d10",
-          "w": 40
-        },
-        {
-          "label_en": "Patchouli",
-          "label_ar": "الباتشولي",
-          "color": "#63652e",
-          "w": 40
-        },
-        {
-          "label_en": "Oakmoss",
-          "label_ar": "طحلب البلوط",
-          "color": "#5B6B32",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 3000,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
-            }
-          ],
-          "image": "images/aura-pegasus-collection--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/aura-pegasus-collection"
         }
       ],
       "_hero_source": "roseperfume"
@@ -116817,160 +116204,6 @@
           ],
           "image": "images/chocolate-ganache-arabiyat-sugar-arabiyat-prestige--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/chocolate-ganache-arabiyat-sugar"
-        }
-      ],
-      "_hero_source": "roseperfume"
-    },
-    {
-      "id": "mango-affogato-arabiyat-sugar-arabiyat-prestige",
-      "name_ar": "",
-      "name_en": "Mango Affogato Arabiyat Sugar",
-      "brand": "Arabiyat Prestige",
-      "dupe_of": [],
-      "image": "images/mango-affogato-arabiyat-sugar-arabiyat-prestige.jpg",
-      "accords": [
-        {
-          "label_en": "Nutmeg",
-          "label_ar": "جوزه الطيب",
-          "color": "#CC3300",
-          "w": 100
-        },
-        {
-          "label_en": "Clove",
-          "label_ar": "القرنفل",
-          "color": "#CC3300",
-          "w": 90
-        },
-        {
-          "label_en": "Leather",
-          "label_ar": "الجلود",
-          "color": "#78483A",
-          "w": 80
-        },
-        {
-          "label_en": "Saffron",
-          "label_ar": "الزعفران",
-          "color": "#CC3300",
-          "w": 70
-        },
-        {
-          "label_en": "Amber",
-          "label_ar": "العنبر",
-          "color": "#bc4d10",
-          "w": 60
-        },
-        {
-          "label_en": "Moss",
-          "label_ar": "الطحالب",
-          "color": "#5B6B32",
-          "w": 50
-        },
-        {
-          "label_en": "Patchouli",
-          "label_ar": "الباتشولي",
-          "color": "#63652e",
-          "w": 40
-        },
-        {
-          "label_en": "Lemongrass",
-          "label_ar": "نجيل الهند",
-          "color": "#0E8C1D",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 850,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
-            }
-          ],
-          "image": "images/mango-affogato-arabiyat-sugar-arabiyat-prestige--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/mango-affogato-arabiyat-sugar"
-        }
-      ],
-      "_hero_source": "roseperfume"
-    },
-    {
-      "id": "hibiscus-magic-artisan-perfumery",
-      "name_ar": "",
-      "name_en": "Hibiscus Magic Artisan Perfumery",
-      "brand": "Fragrance World",
-      "dupe_of": [
-        "Hibiscus Mahajád Maison Crivelli"
-      ],
-      "image": "images/hibiscus-magic-artisan-perfumery.jpg",
-      "accords": [
-        {
-          "label_en": "Rose",
-          "label_ar": "الورد",
-          "color": "#FE016B",
-          "w": 100
-        },
-        {
-          "label_en": "Cinnamon",
-          "label_ar": "القرفة",
-          "color": "#CC3300",
-          "w": 90
-        },
-        {
-          "label_en": "Vanilla",
-          "label_ar": "تتكون من الفانيليا",
-          "color": "#FFFEC0",
-          "w": 80
-        },
-        {
-          "label_en": "Leather",
-          "label_ar": "الجلود",
-          "color": "#78483A",
-          "w": 70
-        },
-        {
-          "label_en": "Amber",
-          "label_ar": "العنبر",
-          "color": "#bc4d10",
-          "w": 60
-        },
-        {
-          "label_en": "Benzoin",
-          "label_ar": "البنزوين - الجاوي",
-          "color": "#ad8359",
-          "w": 50
-        },
-        {
-          "label_en": "Ambrette",
-          "label_ar": "الأمبريت",
-          "color": "#E7D8EA",
-          "w": 40
-        },
-        {
-          "label_en": "Cedarwood",
-          "label_ar": "خشب الأرز",
-          "color": "#774414",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 80,
-              "price": 900,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
-            }
-          ],
-          "image": "images/hibiscus-magic-artisan-perfumery--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/hibiscus-magic-artisan-perfumery-fragrance-world"
         }
       ],
       "_hero_source": "roseperfume"
