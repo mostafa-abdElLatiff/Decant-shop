@@ -104,6 +104,18 @@ def strip_html(html: str) -> str:
 # rather than let a new spelling variant slip in.
 BRAND_ALIASES = {"rasasi": "Rasasi", "al rasasi": "Rasasi", "ibraq": "Ibraq", "lattafa perfumes": "Lattafa"}
 
+# extract_brand() reads free-text description prose (no structured vendor
+# field on this store), which occasionally latches onto the wrong brand
+# entirely — a stray "by <other brand>" comparison in the copy, or a
+# boilerplate barcode-checker link reused across listings regardless of
+# actual brand. Caught by hand (confirmed via the product's own bottle
+# photo); a per-product override since it's a wrong-text problem, not a
+# spelling variant BRAND_ALIASES could catch.
+PRODUCT_BRAND_OVERRIDES = {
+    "kahilan": "Dkhoon Emirates",
+    "tiramisu coco": "Zimaya",
+}
+
 
 def _is_plausible_brand(candidate: str) -> bool:
     words = candidate.split()
@@ -199,6 +211,10 @@ def parse_product(p: dict):
         if name_en.lower().endswith(f"by {brand.lower()}"):
             name_en = name_en[: -(len(brand) + 3)].rstrip(" -—–|,").strip()
         name_en = strip_redundant_brand_suffix(name_en, brand)
+
+    override = PRODUCT_BRAND_OVERRIDES.get(name_en.strip().lower())
+    if override:
+        brand = override
 
     images = p.get("images") or []
     return {

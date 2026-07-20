@@ -162,6 +162,14 @@ def parse_product(p: dict):
         brand = "Aromatix X French Avenue"
         name_en = AROMATIX_LEAD_RE.sub("", name_en).strip()
 
+    # This store's own vendor tag is simply wrong for this one listing (says
+    # "RABANNE" -> "Paco Rabanne", but the bottle itself is printed "RAYHAAN
+    # x LEGION VALHALLA" — confirmed by hand). Not a spelling variant
+    # BRAND_ALIASES can catch; a per-product override is the only fix, or
+    # every sync keeps recreating it under the wrong brand.
+    if name_en.strip().lower() == "valhalla":
+        brand = "Rayhaan"
+
     if title.isupper():
         name_en = smart_title(name_en)
     if not name_en:
