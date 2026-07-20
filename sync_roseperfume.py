@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 """
 sync_roseperfume.py — periodic, fully-automatic sync of roseperfume.online's
-men's fragrances collection into products.json. No AI/vision involved: the
-store runs on Shopify, which exposes a public JSON product API, so this is
-plain structured-data parsing (product title, tags, variant prices/stock,
-and the Arabic description's dupe-reference / notes-pyramid sections).
+men's + unisex fragrances collections into products.json. No AI/vision
+involved: the store runs on Shopify, which exposes a public JSON product
+API, so this is plain structured-data parsing (product title, tags, variant
+prices/stock, and the Arabic description's dupe-reference / notes-pyramid
+sections). Women-fragrances is deliberately left out — out of scope for
+this catalog.
 
 Run manually whenever you want to refresh this store's listings. Each run:
-  1. Fetches the full men's-fragrances product list.
+  1. Fetches the full men's + unisex fragrances product list.
   2. Skips non-fragrance items (deodorants, body splashes, gift sets) and
      any variant with no price at all.
   3. A sold-out variant is still included (marked "sold" right away by
@@ -38,7 +40,14 @@ sys.path.insert(0, str(Path(__file__).parent))
 from extract import slugify, accord_color, find_existing_product, unique_id_for, reconcile_offers, is_web_sourced_hero, strip_redundant_brand_suffix, CATALOG  # noqa: E402
 from rp_notes import translate_note, split_dupe  # noqa: E402
 
-COLLECTION_URL = "https://roseperfume.online/collections/men-fragrances/products.json"
+COLLECTION_URLS = [
+    "https://roseperfume.online/collections/men-fragrances/products.json",
+    # The store keeps unisex listings in a separate collection entirely —
+    # missed for a long time (e.g. "Strike Black Assaf", tagged Unisex,
+    # never appeared in men-fragrances at all). Women-fragrances is
+    # deliberately NOT included — out of scope for this catalog.
+    "https://roseperfume.online/collections/unisex-fragrances/products.json",
+]
 STORE_NAME = "roseperfume"
 STORE_URL = "https://roseperfume.online/"
 STORE_SLUG = slugify(STORE_NAME)
@@ -91,16 +100,18 @@ def fetch_url(url: str, attempts: int = 5) -> bytes:
 
 
 def fetch_all_products() -> list:
-    products = []
-    page = 1
-    while True:
-        data = json.loads(fetch_url(f"{COLLECTION_URL}?limit=250&page={page}"))
-        batch = data.get("products", [])
-        if not batch:
-            break
-        products.extend(batch)
-        page += 1
-    return products
+    by_id = {}
+    for collection_url in COLLECTION_URLS:
+        page = 1
+        while True:
+            data = json.loads(fetch_url(f"{collection_url}?limit=250&page={page}"))
+            batch = data.get("products", [])
+            if not batch:
+                break
+            for p in batch:
+                by_id[p["id"]] = p  # a product listed in both collections should only be parsed once
+            page += 1
+    return list(by_id.values())
 
 
 def is_non_perfume(title: str) -> bool:
@@ -244,9 +255,9 @@ def replace_store_offers(product: dict, offers: list, image_rel: str = None, pro
 
 
 def main():
-    print(f"Fetching {COLLECTION_URL} ...")
+    print(f"Fetching {', '.join(COLLECTION_URLS)} ...")
     raw_products = fetch_all_products()
-    print(f"  {len(raw_products)} products in collection")
+    print(f"  {len(raw_products)} products across collections")
 
     parsed = {}
     for p in raw_products:
