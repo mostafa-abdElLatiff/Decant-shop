@@ -54,6 +54,8 @@
   .filter-section summary::after{content:"+";color:var(--olive);font-size:1.15rem;font-weight:400;line-height:1}
   .filter-section[open] summary::after{content:"–"}
   .filter-list{display:flex;flex-direction:column;gap:.1rem;margin-top:.7rem;max-height:230px;overflow-y:auto}
+  .stock-toggle{display:flex;align-items:center;gap:.55rem;font-size:.85rem;font-weight:600;color:var(--ink);cursor:pointer;user-select:none}
+  .stock-toggle input{width:16px;height:16px;accent-color:var(--olive);cursor:pointer;flex:none}
   .filter-row{display:flex;align-items:center;justify-content:space-between;gap:.6rem;padding:.42rem .35rem;font-size:.85rem;font-weight:500;color:var(--ink);cursor:pointer;border-radius:6px;background:none;border:none;font-family:inherit;width:100%;text-align:start}
   .filter-row:hover{color:var(--olive-deep)}
   .filter-row[aria-pressed="true"]{color:var(--olive-deep);font-weight:700}
@@ -220,6 +222,11 @@
       <small id="shopTag">decants • full bottles • leftovers, price-compared</small>
     </a>
 
+    <label class="stock-toggle">
+      <input type="checkbox" id="inStockOnly">
+      <span id="inStockOnlyLabel"></span>
+    </label>
+
     <details class="filter-section" open>
       <summary id="kindLabel"></summary>
       <div class="filter-list" id="kindList" role="group"></div>
@@ -315,6 +322,7 @@ const I18N = {
     filter_all:"All", filter_decant:"Decants", filter_full:"Full bottles", filter_leftover:"Leftovers",
     store_all:"All stores", brand_all:"All brands",
     label_store:"Store", label_brand:"Brand", label_sort:"Sort by", label_view:"Per row", filters_label:"Filters",
+    in_stock_only:"In stock only",
     view_auto:"Auto",
     cart_label:"List", drawer_title:"Your list", empty:"Your list is empty — add a size from any fragrance.",
     no_results:"No results — try another search.", loading:"Loading products…",
@@ -338,6 +346,7 @@ const I18N = {
     filter_all:"الكل", filter_decant:"تقسيمات", filter_full:"زجاجات كاملة", filter_leftover:"بواقي تقسيم",
     store_all:"كل المتاجر", brand_all:"كل البراندات",
     label_store:"المتجر", label_brand:"البراند", label_sort:"ترتيب حسب", label_view:"في الصف", filters_label:"الفلاتر",
+    in_stock_only:"المتوفر فقط",
     view_auto:"تلقائي",
     cart_label:"القائمة", drawer_title:"قائمتك", empty:"القائمة فارغة — أضف حجمًا من أي عطر.",
     no_results:"لا توجد نتائج — جرّب كلمة بحث أخرى.", loading:"جارٍ تحميل المنتجات…",
@@ -367,6 +376,7 @@ let storeFilter = "all";
 let brandFilter = "all";
 let sortOrder = "newest";
 let query = "";
+let inStockOnly = false;
 let lang = localStorage.getItem("lang") || "en";
 let theme = localStorage.getItem("theme") || "dark";
 let gridCols = localStorage.getItem("gridCols") || "auto";
@@ -486,6 +496,14 @@ function productHasKind(p, kind){
 
 function productHasStore(p, storeName){
   return (p.stores||[]).some(s => s.name===storeName);
+}
+
+// A product with every offer, at every store, sold out is a "false
+// positive" in search/browse — it matches the query but there's nowhere
+// to actually buy it right now. One available offer anywhere is enough
+// to keep the product in view.
+function productHasAvailableOffer(p){
+  return (p.stores||[]).some(s => (s.offers||[]).some(o => !o.sold_since));
 }
 
 /* Kind/Store/Sort all render as clickable rows in the sidebar (rather than
@@ -626,6 +644,7 @@ function applyI18n(){
   document.getElementById("disclaimer").textContent = t().disclaimer;
   document.getElementById("cartDisclaimer").textContent = t().disclaimer;
   document.getElementById("kindLabel").textContent = t().label_kind;
+  document.getElementById("inStockOnlyLabel").textContent = t().in_stock_only;
   document.getElementById("storeFilterLabel").textContent = t().label_store;
   document.getElementById("brandFilterLabel").textContent = t().label_brand;
   document.getElementById("sortOrderLabel").textContent = t().label_sort;
@@ -645,6 +664,7 @@ function computeItems(){
     (filter==="all" || productHasKind(p, filter)) &&
     (storeFilter==="all" || productHasStore(p, storeFilter)) &&
     (brandFilter==="all" || (p.brand||"").trim().toLowerCase()===brandFilter) &&
+    (!inStockOnly || productHasAvailableOffer(p)) &&
     productMatchesQuery(p, qTokens)
   );
   if(sortOrder==="newest") items.sort((a,b) => productNewestDate(b).localeCompare(productNewestDate(a)));
@@ -818,9 +838,10 @@ document.getElementById("lightboxClose").addEventListener("click", closeLightbox
 document.addEventListener("keydown", e => { if(e.key === "Escape") closeLightbox(); });
 
 function resetFilters(){
-  filter = "all"; query = ""; storeFilter = "all"; brandFilter = "all";
+  filter = "all"; query = ""; storeFilter = "all"; brandFilter = "all"; inStockOnly = false;
   document.getElementById("search").value = "";
   document.getElementById("brandFilter").value = "all";
+  document.getElementById("inStockOnly").checked = false;
   populateKindFilter();
   populateStoreFilter();
   updateFilterBadge();
@@ -887,12 +908,17 @@ filtersToggle.onclick = ()=>{
 };
 sidebarOverlay.onclick = closeSidebar;
 function updateFilterBadge(){
-  const n = [filter!=="all", storeFilter!=="all", brandFilter!=="all", sortOrder!=="newest", gridCols!=="auto"].filter(Boolean).length;
+  const n = [filter!=="all", storeFilter!=="all", brandFilter!=="all", sortOrder!=="newest", gridCols!=="auto", inStockOnly].filter(Boolean).length;
   const badge = document.getElementById("filterBadge");
   badge.textContent = n;
   badge.hidden = n === 0;
   document.getElementById("brandFilterClear").hidden = brandFilter==="all";
 }
+document.getElementById("inStockOnly").addEventListener("change", e => {
+  inStockOnly = e.target.checked;
+  updateFilterBadge();
+  render();
+});
 document.getElementById("brandFilterClear").onclick = ()=>{
   brandFilter = "all";
   document.getElementById("brandFilter").value = "all";
