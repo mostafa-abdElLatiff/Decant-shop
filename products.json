@@ -2834,19 +2834,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 200,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-20"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 250,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-20"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 450,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-20"
             },
             {
               "kind": "full",
@@ -2856,7 +2859,7 @@
             }
           ],
           "image": "images/eros-flame--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/versace-eros-flame"
+          "product_url": "https://sniffz-eg.com/products/versace-eros-flame-full-sealed-1"
         },
         {
           "name": "eldesoki-fragrances",
@@ -6623,7 +6626,7 @@
               "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/roses-vanille--sniffz.jpg",
+          "image": "images/roses-vanilla--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/mancera-roses-vanille-full-sealed"
         }
       ],
@@ -28926,13 +28929,7 @@
               "ml": 100,
               "price": 15000,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 21500,
-              "first_seen": "2026-07-19",
+              "prev_price": 21500,
               "sold_since": "2026-07-19"
             }
           ],
@@ -36065,6 +36062,32 @@
           ],
           "image": "images/azul-rayhaan--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/rayhaan-azul"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 125,
+              "first_seen": "2026-07-20"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 165,
+              "first_seen": "2026-07-20"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 250,
+              "first_seen": "2026-07-20"
+            }
+          ],
+          "image": "images/azul-rayhaan--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/rayhaan-azul"
         }
       ],
       "_hero_source": "roseperfume",
@@ -64082,8 +64105,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1200,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/elixir--sniffz.jpg",
@@ -80583,7 +80605,7 @@
               "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/paciifc-aura--sniffz.jpg",
+          "image": "images/pacific-aura--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/rayhaan-paciifc-aura"
         }
       ],
@@ -93651,7 +93673,7 @@
               "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/french-tobacco-ibraheem-alqurashi--sniffz.jpg",
+          "image": "images/french-tobacco--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/french-tobacco-ibraheem-alqurashi"
         },
         {
@@ -97459,8 +97481,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2200,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/hersh-lahab-hersh--sniffz.jpg",
@@ -102051,8 +102072,7 @@
               "kind": "full",
               "ml": 100,
               "price": 3150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/supremacy-collector-s-edition--sniffz.jpg",
@@ -102333,7 +102353,7 @@
               "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/light-blue-eau-intense-pour-homme--sniffz.jpg",
+          "image": "images/light-blue-eau-intense--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/dolce-gabbana-light-blue-eau-intense-pour-homme-full-sealed"
         }
       ],
