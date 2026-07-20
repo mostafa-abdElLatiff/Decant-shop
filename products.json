@@ -2032,19 +2032,22 @@
               "kind": "decant",
               "ml": 5,
               "price": 160,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 300,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 850,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20"
             }
           ],
           "image": "images/frostbite-aromatix-x--roseperfume.jpg",
@@ -2935,7 +2938,7 @@
               "first_seen": "2026-07-20"
             }
           ],
-          "image": "images/emir-voux-alma-verde--roseperfume.jpg",
+          "image": "images/voux-alma-verde--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/emir-voux-alma-verde-paris-corner"
         }
       ],
@@ -3975,6 +3978,38 @@
           ],
           "image": "images/veneno-bianco--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/veneno-bianco-french-avenue"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 120,
+              "first_seen": "2026-07-20"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 210,
+              "first_seen": "2026-07-20"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 600,
+              "first_seen": "2026-07-20"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1800,
+              "first_seen": "2026-07-20"
+            }
+          ],
+          "image": "images/veneno-bianco--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/veneno-bianco-french-avenue"
         }
       ],
       "_hero_source": "og-perfume"
@@ -25879,7 +25914,7 @@
               "sold_since": "2026-07-20"
             }
           ],
-          "image": "images/arrogate-bakhoor--roseperfume.jpg",
+          "image": "images/arrogate-bakhur--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/arrogate-bakhoor-assaf"
         }
       ],
@@ -29342,7 +29377,7 @@
               "sold_since": "2026-07-20"
             }
           ],
-          "image": "images/hibiscus-magic-artisan-perfumery--roseperfume.jpg",
+          "image": "images/hibiscus-magic--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/hibiscus-magic-artisan-perfumery-fragrance-world"
         }
       ],
@@ -30925,7 +30960,7 @@
               "sold_since": "2026-07-20"
             }
           ],
-          "image": "images/mango-affogato-arabiyat-sugar-arabiyat-prestige--roseperfume.jpg",
+          "image": "images/mango-affogato--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/mango-affogato-arabiyat-sugar"
         }
       ],
@@ -39014,7 +39049,7 @@
               "sold_since": "2026-07-20"
             }
           ],
-          "image": "images/charuto-tobacco-vanille--roseperfume.jpg",
+          "image": "images/charuto-tobacco-vanilla--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/charuto-tobacco-vanille-pendora-scents"
         }
       ],
@@ -42572,7 +42607,7 @@
               "sold_since": "2026-07-20"
             }
           ],
-          "image": "images/french-vanilla-latte-arabiyat-sugar-arabiyat-prestige--roseperfume.jpg",
+          "image": "images/french-vanilla-latte--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/french-vanilla-latte-arabiyat-sugar"
         }
       ],
@@ -50370,7 +50405,7 @@
               "first_seen": "2026-07-20"
             }
           ],
-          "image": "images/dkhoon-amber-perfume--roseperfume.jpg",
+          "image": "images/dkhoon-amber--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/dkhoon-amber-perfume"
         }
       ],
@@ -51526,13 +51561,14 @@
               "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/urban-man-amaze--roseperfume.jpg",
+          "image": "images/urban-amaze--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/urban-man-amaze-fragrance-world"
         }
       ],
       "aliases": [
         "Urban Man Amaze"
-      ]
+      ],
+      "_hero_source": "roseperfume"
     },
     {
       "id": "tom-ford-beau-de-jour-eau-de-parfum",
@@ -54957,7 +54993,7 @@
               "sold_since": "2026-07-20"
             }
           ],
-          "image": "images/aura-pegasus-collection--roseperfume.jpg",
+          "image": "images/aura-pegasus--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/aura-pegasus-collection"
         }
       ],
@@ -61767,7 +61803,7 @@
               "sold_since": "2026-07-20"
             }
           ],
-          "image": "images/coconut-chiffon-arabiyat-sugar--roseperfume.jpg",
+          "image": "images/coconut-chiffon--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/coconut-chiffon-arabiyat-sugar"
         }
       ],
@@ -63653,7 +63689,7 @@
               "sold_since": "2026-07-20"
             }
           ],
-          "image": "images/perseviron-fig-hug--roseperfume.jpg",
+          "image": "images/fig-hug--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/perseviron-fig-hug-paris-corner"
         }
       ],
@@ -65477,7 +65513,7 @@
               "sold_since": "2026-07-20"
             }
           ],
-          "image": "images/ishtar-roses-vanilla-by-arabiat-prestige--roseperfume.jpg",
+          "image": "images/ishtar-roses-vanilla--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/ishtar-roses-vanilla-by-arabiat-prestige"
         }
       ],
@@ -66069,7 +66105,7 @@
               "sold_since": "2026-07-20"
             }
           ],
-          "image": "images/toffee-ganache-arabiyat-sugar--roseperfume.jpg",
+          "image": "images/toffee-ganache--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/toffee-ganache-arabiyat-sugar"
         }
       ],
@@ -67085,8 +67121,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2100,
-              "first_seen": "2026-07-20"
+              "price": 1950,
+              "first_seen": "2026-07-20",
+              "prev_price": 2100
             }
           ],
           "image": "images/jasmere--roseperfume.jpg",
@@ -77531,7 +77568,7 @@
               "sold_since": "2026-07-20"
             }
           ],
-          "image": "images/arabiyat-blueberry-musk-concentrated-perfume-oil--roseperfume.jpg",
+          "image": "images/blueberry-musk-by-arabiyat-prestige--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/arabiyat-blueberry-musk-concentrated-perfume-oil"
         }
       ],
@@ -86712,7 +86749,7 @@
               "first_seen": "2026-07-20"
             }
           ],
-          "image": "images/vanilla-cream-macaron-arabiyat-sugar--roseperfume.jpg",
+          "image": "images/vanilla-cream-macaron--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/vanilla-cream-macaron-arabiyat-sugar"
         }
       ],
@@ -109887,7 +109924,7 @@
               "sold_since": "2026-07-20"
             }
           ],
-          "image": "images/lemon-sorbet-arabiyat-sugar-arabiyat-prestige--roseperfume.jpg",
+          "image": "images/lemon-sorbet--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/lemon-sorbet-arabiyat-sugar"
         }
       ],
@@ -113101,7 +113138,7 @@
               "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/the-kingdom-for-men--roseperfume.jpg",
+          "image": "images/the-kingdom-men--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/the-kingdom-for-men-lattafa-perfumes"
         }
       ],
@@ -113640,19 +113677,20 @@
           "offers": [
             {
               "kind": "full",
-              "ml": 100,
-              "price": 550,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "full",
               "ml": 15,
               "price": 225,
               "first_seen": "2026-07-20"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 550,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-20"
             }
           ],
           "image": "images/al-faris-arabiyat-prestige-arabiyat-prestige--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/al-faris-arabiyat-prestige"
+          "product_url": "https://roseperfume.online/products/arabiyat-al-faris-concentrated-perfume-oil"
         }
       ],
       "_hero_source": "roseperfume",
@@ -117444,6 +117482,215 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "divin-asylum-french-avenue",
+      "name_ar": "",
+      "name_en": "Divin Asylum",
+      "brand": "French avenue",
+      "dupe_of": [
+        "Elysium Pour Homme Parfum Cologne — Roja Dove"
+      ],
+      "image": "images/divin-asylum-french-avenue.jpg",
+      "accords": [
+        {
+          "label_en": "Grapefruit",
+          "label_ar": "الجريب فروت",
+          "color": "#F9FF52",
+          "w": 100
+        },
+        {
+          "label_en": "Lemon",
+          "label_ar": "الليمون",
+          "color": "#F9FF52",
+          "w": 90
+        },
+        {
+          "label_en": "Lime",
+          "label_ar": "الليم",
+          "color": "#F9FF52",
+          "w": 80
+        },
+        {
+          "label_en": "Wormwood",
+          "label_ar": "الشيح",
+          "color": "#37a089",
+          "w": 70
+        },
+        {
+          "label_en": "Bergamot",
+          "label_ar": "البرغموت",
+          "color": "#F9FF52",
+          "w": 60
+        },
+        {
+          "label_en": "Lemongrass",
+          "label_ar": "نجيل الهند",
+          "color": "#0E8C1D",
+          "w": 50
+        },
+        {
+          "label_en": "Apple",
+          "label_ar": "التفاح",
+          "color": "#FC4B29",
+          "w": 40
+        },
+        {
+          "label_en": "Cedarwood",
+          "label_ar": "خشب الأرز",
+          "color": "#774414",
+          "w": 40
+        },
+        {
+          "label_en": "Blackcurrant",
+          "label_ar": "الكشمش الأسود",
+          "color": "#FC4B29",
+          "w": 40
+        },
+        {
+          "label_en": "Pink Pepper",
+          "label_ar": "الفلفل الوردي",
+          "color": "#83C928",
+          "w": 40
+        },
+        {
+          "label_en": "Lily of the Valley",
+          "label_ar": "زنابق الوادي",
+          "color": "#FF5F8D",
+          "w": 40
+        },
+        {
+          "label_en": "Jasmine",
+          "label_ar": "الياسمين",
+          "color": "#FF5F8D",
+          "w": 40
+        },
+        {
+          "label_en": "Rose",
+          "label_ar": "الورد",
+          "color": "#FE016B",
+          "w": 40
+        },
+        {
+          "label_en": "Benzoin",
+          "label_ar": "البنزوين - الجاوي",
+          "color": "#ad8359",
+          "w": 40
+        },
+        {
+          "label_en": "Leather",
+          "label_ar": "الجلود",
+          "color": "#78483A",
+          "w": 40
+        },
+        {
+          "label_en": "Labdanum",
+          "label_ar": "اللابدانوم",
+          "color": "#ad8359",
+          "w": 40
+        },
+        {
+          "label_en": "Vanilla",
+          "label_ar": "الفانيليا",
+          "color": "#FFFEC0",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1600,
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20"
+            }
+          ],
+          "image": "images/divin-asylum-french-avenue--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/divin-asylum-french-avenue"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "clair-affair",
+      "name_ar": "",
+      "name_en": "Éclair Affair",
+      "brand": "French avenue",
+      "dupe_of": [
+        "Bianco Latte Giardini Di Toscana"
+      ],
+      "image": "images/clair-affair.jpg",
+      "accords": [
+        {
+          "label_en": "Vanilla",
+          "label_ar": "الفانيليا",
+          "color": "#FFFEC0",
+          "w": 100
+        },
+        {
+          "label_en": "Jasmine",
+          "label_ar": "الياسمين",
+          "color": "#FF5F8D",
+          "w": 90
+        },
+        {
+          "label_en": "Amber",
+          "label_ar": "العنبر",
+          "color": "#bc4d10",
+          "w": 80
+        },
+        {
+          "label_en": "Tonka Bean",
+          "label_ar": "حبوب التونكا",
+          "color": "#FFFEC0",
+          "w": 70
+        },
+        {
+          "label_en": "Musk",
+          "label_ar": "المسك",
+          "color": "#E7D8EA",
+          "w": 60
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 110,
+              "first_seen": "2026-07-20"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-07-20"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 550,
+              "first_seen": "2026-07-20"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1600,
+              "first_seen": "2026-07-20"
+            }
+          ],
+          "image": "images/clair-affair--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/eclair-affair-french-avenue"
+        }
+      ],
+      "_hero_source": "roseperfume"
     }
   ]
 }
