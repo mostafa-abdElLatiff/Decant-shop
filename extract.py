@@ -623,6 +623,8 @@ BRAND_CANONICAL = {
     "alezzoud": "Al Ezz Lel Oud",
     "hersh": "Al Ezz Lel Oud",  # Hersh is that brand's sub-line name, not a separate house
     "abdulsamad alqurashi": "Abdul Samad Al Qurashi",  # NOT the same house as Ibrahim Al Qurashi
+    "riiffs": "Riffs",
+    "riiffs perfumes": "Riffs",
 }
 
 

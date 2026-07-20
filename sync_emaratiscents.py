@@ -208,8 +208,20 @@ def parse_product(p: dict):
         # suffix — could be a real designer collab name), but on this
         # store's own title convention "By X" always just means
         # attribution, so strip it outright first.
-        if name_en.lower().endswith(f"by {brand.lower()}"):
-            name_en = name_en[: -(len(brand) + 3)].rstrip(" -—–|,").strip()
+        #
+        # A plain f"by {brand}" string match misses it when the raw title
+        # hyphenates the brand differently than the canonical spelling
+        # does ("Tuwaiq By Al-Mas" vs brand "Almas") — bit us for real,
+        # this exact product sat undetected as a duplicate for a while.
+        # Letting whitespace/hyphens vary between each letter of the
+        # brand (only ever matched right after "by", so it can't misfire
+        # on an unrelated word) catches that without needing every
+        # hyphenation variant spelled out by hand.
+        brand_flex = r"[\s-]*".join(re.escape(ch) for ch in brand)
+        by_brand_re = re.compile(r"\bby[\s-]*" + brand_flex + r"\s*$", re.I)
+        m = by_brand_re.search(name_en)
+        if m:
+            name_en = name_en[: m.start()].rstrip(" -—–|,").strip()
         name_en = strip_redundant_brand_suffix(name_en, brand)
 
     override = PRODUCT_BRAND_OVERRIDES.get(name_en.strip().lower())

@@ -28,6 +28,18 @@ def main():
     for i, a in enumerate(products):
         for b in products[i + 1:]:
             core_a, core_b = _tokens(a["name_en"]), _tokens(b["name_en"])
+            # A single-word core is skipped even when both sides share a
+            # brand — tried that once (to catch "Tuwaiq" vs "Tuwaiq By
+            # Al-Mas"), and tested it against the real catalog before
+            # trusting it: it surfaced 174 "candidates", and nearly all of
+            # them were real flanker families sharing a brand and a base
+            # word (Rasasi's Hawas alone vs Hawas Fire/Diva/Pink/Chrome/...,
+            # Swiss Arabian's Shaghaf alone vs Shaghaf Oud Aswad/Royale/
+            # Tonka/...) — genuinely different fragrances, not duplicates.
+            # Same brand isn't enough signal for a single shared word; the
+            # Tuwaiq-shaped case (a "By <Brand>" suffix, not a flanker
+            # word) needs fixing at the source instead — see
+            # strip_redundant_brand_suffix() in extract.py.
             if len(core_a) < 2 or len(core_b) < 2:
                 continue
             full_a = _tokens(f"{a['name_en']} {a.get('brand', '')}")
