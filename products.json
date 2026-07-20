@@ -11312,8 +11312,7 @@
               "kind": "full",
               "ml": 75,
               "price": 800,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-20"
+              "first_seen": "2026-07-18"
             },
             {
               "kind": "full",
@@ -24077,8 +24076,7 @@
               "kind": "full",
               "ml": 75,
               "price": 1700,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
+              "first_seen": "2026-07-20"
             },
             {
               "kind": "full",
@@ -36751,8 +36749,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1950,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/hawas-tropical--emaratiscents.jpg",
@@ -39425,7 +39422,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-20"
             }
           ],
           "image": "images/safari-breeze--emaratiscents.jpg",
@@ -56826,7 +56824,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-20"
             }
           ],
           "image": "images/sun-kissed--emaratiscents.jpg",
@@ -62951,6 +62950,20 @@
           ],
           "image": "images/french-vanilla-latte-arabiyat-sugar--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/copy-lemon-sorbet"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 965,
+              "first_seen": "2026-07-20"
+            }
+          ],
+          "image": "images/french-vanilla-latte-arabiyat-sugar--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/french-vanilla-latte"
         }
       ],
       "_hero_source": "og-perfume"
@@ -73252,8 +73265,7 @@
               "kind": "full",
               "ml": 125,
               "price": 2350,
-              "first_seen": "2026-07-18",
-              "prev_price": 2750
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/strike-black--emaratiscents.jpg",
@@ -113865,7 +113877,8 @@
               "kind": "full",
               "ml": 75,
               "price": 800,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20"
             },
             {
               "kind": "full",
