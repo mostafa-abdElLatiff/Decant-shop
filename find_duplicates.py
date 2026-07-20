@@ -14,7 +14,7 @@ worth merging by hand — it only prints candidates, it changes nothing.
 import json
 from pathlib import Path
 
-from extract import _tokens, CATALOG
+from extract import _tokens, find_typo_candidates, CATALOG
 
 STOP_BRAND_ONLY = {"perfumes", "perfume", "men", "women", "fragrances", "fragrance"}
 
@@ -40,15 +40,35 @@ def main():
 
     if not pairs:
         print("No candidate duplicates found.")
-        return
+    else:
+        print(f"{len(pairs)} candidate pair(s) — review before merging, some are legitimately distinct products:\n")
+        for a, b in pairs:
+            stores_a = ", ".join(s["name"] for s in a.get("stores", []))
+            stores_b = ", ".join(s["name"] for s in b.get("stores", []))
+            print(f"  {a['id']!r} ({a['name_en']!r}, {a.get('brand','')!r}) [{stores_a}]")
+            print(f"  {b['id']!r} ({b['name_en']!r}, {b.get('brand','')!r}) [{stores_b}]")
+            print()
 
-    print(f"{len(pairs)} candidate pair(s) — review before merging, some are legitimately distinct products:\n")
-    for a, b in pairs:
-        stores_a = ", ".join(s["name"] for s in a.get("stores", []))
-        stores_b = ", ".join(s["name"] for s in b.get("stores", []))
-        print(f"  {a['id']!r} ({a['name_en']!r}, {a.get('brand','')!r}) [{stores_a}]")
-        print(f"  {b['id']!r} ({b['name_en']!r}, {b.get('brand','')!r}) [{stores_b}]")
-        print()
+    # A different, narrower signal from the word-overlap scan above: two
+    # products whose names are identical but for ONE word that's spelled
+    # almost the same ("Nuctorno" vs "Nocturno") — a transcription typo on
+    # one store's own listing, not a naming/brand-suffix difference. Never
+    # auto-merged (see find_existing_product's docstring for why the
+    # signal isn't reliable enough for that), so it's easy for one of
+    # these to sit unnoticed for a while — surfaced here explicitly on
+    # every run instead of only being caught by chance during a manual
+    # scan like the "Nuctorno" one originally was.
+    typo_pairs = find_typo_candidates(catalog)
+    if typo_pairs:
+        print(f"\n{len(typo_pairs)} possible spelling-typo pair(s) — same brand, one word barely differs "
+              f"(verify it's really a typo before merging, e.g. via product images — some of these ARE "
+              f"genuinely different products, like \"Cranberry Musk\" vs \"Raspberry Musk\"):\n")
+        for a, b in typo_pairs:
+            stores_a = ", ".join(s["name"] for s in a.get("stores", []))
+            stores_b = ", ".join(s["name"] for s in b.get("stores", []))
+            print(f"  {a['id']!r} ({a['name_en']!r}, {a.get('brand','')!r}) [{stores_a}]")
+            print(f"  {b['id']!r} ({b['name_en']!r}, {b.get('brand','')!r}) [{stores_b}]")
+            print()
 
 
 if __name__ == "__main__":

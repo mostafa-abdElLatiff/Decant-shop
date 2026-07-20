@@ -59,6 +59,7 @@ you're happy with what landed.
 """
 
 import argparse
+import difflib
 import json
 import os
 import re
@@ -657,6 +658,26 @@ def _brands_match(b1: str, b2: str) -> bool:
     return overlap / smaller >= 0.6
 
 
+def _single_word_typo(core_a: set, core_b: set) -> bool:
+    """True when two same-size core-token sets differ by exactly one word
+    on each side, and that pair is almost certainly the same word
+    misspelled — not two different real words. Deliberately narrow: this
+    exists for the "Nuctorno"/"Nocturno" class of bug (a store's own
+    transcription typo, letters swapped/dropped within one word), not as
+    a general fuzzy matcher. A real flanker distinction ("Black" vs
+    "Blue", "Aswad" vs "Azraq") always scores far below the threshold, so
+    it's left alone — only genuinely near-identical spellings collapse."""
+    if len(core_a) != len(core_b) or not core_a:
+        return False
+    diff_a, diff_b = core_a - core_b, core_b - core_a
+    if len(diff_a) != 1 or len(diff_b) != 1:
+        return False
+    word_a, word_b = diff_a.pop(), diff_b.pop()
+    if min(len(word_a), len(word_b)) < 5:
+        return False  # short words ("al" vs "el") are too easy to false-match
+    return difflib.SequenceMatcher(None, word_a, word_b).ratio() >= 0.7
+
+
 def find_existing_product(catalog: dict, name_en: str, brand: str = ""):
     """Exact slug match first, then a *conservative* fuzzy match: only when
     the normalized core-name token sets are exactly equal (catches accent/
@@ -723,7 +744,27 @@ def find_existing_product(catalog: dict, name_en: str, brand: str = ""):
     closely enough for the fuzzy pass to reconnect (real, different
     dictionary words, not a token/spelling variant). Recording the old raw
     text as an alias when doing that kind of correction is what keeps a
-    scheduled re-sync from recreating it as a new product."""
+    scheduled re-sync from recreating it as a new product — but only
+    against the EXACT text seen so far; a source that mistypes the same
+    word a third, different way still slips past it (bit us for real:
+    eldesoki's own listing text for Rayhaan's Nocturno Elixir said
+    "Nuctorno", already corrected once by hand elsewhere, but that exact
+    scrape reran days later and recreated it anyway since this
+    misspelling wasn't identical to the one already on file as an alias).
+
+    _single_word_typo() exists to catch that class of near-miss (a
+    same-size core-token set differing by exactly one near-identical
+    word) but is deliberately NOT wired in here as an auto-match: tested
+    against this catalog's own real data, no string-similarity threshold
+    reliably tells "Nuctorno"/"Nocturno" (same word, typo'd) apart from
+    "Sculpture"/"Couture" or "Cranberry"/"Raspberry" (different real
+    words that happen to share letters) — both kinds of pair score
+    identically under SequenceMatcher ratio AND normalized edit distance.
+    Silently auto-merging on that signal would eventually fuse two
+    genuinely different fragrances' offers together with no visible
+    trace, which is worse than the duplicate it would occasionally fix.
+    Surfaced instead via find_duplicates.py's report for a human to
+    confirm — see find_typo_candidates() below."""
     exact_id = slugify(name_en)
     name_key = re.sub(r"\s+", " ", (name_en or "").strip().lower())
     for p in catalog["products"]:
@@ -749,6 +790,25 @@ def find_existing_product(catalog: dict, name_en: str, brand: str = ""):
         if _brands_match(p.get("brand", ""), brand):
             return p
     return None
+
+
+def find_typo_candidates(catalog: dict) -> list:
+    """Report-only pass for find_duplicates.py: every pair of products
+    with compatible brands whose core-name tokens differ by exactly one
+    near-identical word (see _single_word_typo). Never called from any
+    sync script — human review only, since the signal isn't reliable
+    enough to auto-merge on (see find_existing_product's docstring)."""
+    products = catalog["products"]
+    pairs = []
+    for i, a in enumerate(products):
+        core_a = _tokens(a["name_en"]) - _brand_tokens(a.get("brand", ""))
+        for b in products[i + 1:]:
+            if not _brands_match(a.get("brand", ""), b.get("brand", "")):
+                continue
+            core_b = _tokens(b["name_en"]) - _brand_tokens(b.get("brand", ""))
+            if _single_word_typo(core_a, core_b):
+                pairs.append((a, b))
+    return pairs
 
 
 def unique_id_for(catalog: dict, name_en: str, brand: str = "") -> str:
