@@ -4321,7 +4321,7 @@
             }
           ],
           "image": "images/nice-bergamote--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-nice-bergamote-5ml-486"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-nice-bergamote-3ml-485"
         },
         {
           "name": "Hossam ElDeen Gamal",
@@ -22257,7 +22257,7 @@
             }
           ],
           "image": "images/million-gold-for-her-edp--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/rabanne-million-gold-for-her-edp-5ml-388"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/rabanne-million-gold-for-her-edp-3ml-448"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -53353,12 +53353,6 @@
           "offers": [
             {
               "kind": "decant",
-              "ml": 10,
-              "price": 535,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
               "ml": 3,
               "price": 200,
               "first_seen": "2026-07-17"
@@ -53368,9 +53362,15 @@
               "ml": 5,
               "price": 300,
               "first_seen": "2026-07-17"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 535,
+              "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/acqua-di-gi-profondo-edp--mo-shawky.jpg",
+          "image": "images/acqua-di-gi-profondo--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/giorgio-armani-acqua-di-gio-profondo-edp-3ml-432"
         },
         {
@@ -53400,7 +53400,8 @@
       ],
       "aliases": [
         "Acqua di Giò Profondo EDP"
-      ]
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "musk-rose",
@@ -71767,7 +71768,7 @@
               "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/legacy-cristiano-ronaldo-1784420707--mo-shawky.jpg",
+          "image": "images/legacy-cristiano-ronaldo--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/legacy-cristiano-ronaldo-10ml-256"
         }
       ],
@@ -73608,8 +73609,8 @@
               "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/uomo-born-in-roma-edp-intense-men--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/valentino-uomo-born-in-roma-edp-intense-men-5ml-317"
+          "image": "images/uomo-born-in-roma-intense--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/valentino-uomo-born-in-roma-intense-10ml-316"
         }
       ],
       "_hero_source": "sniffz",
@@ -83221,7 +83222,7 @@
             }
           ],
           "image": "images/la-femme-absolu--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/prada-la-femme-absolu-5ml-400"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/prada-la-femme-absolu-3ml-445"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -91001,7 +91002,7 @@
             }
           ],
           "image": "images/man-wood-neroli--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/bvlgari-man-wood-neroli-3ml-472"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/bvlgari-man-wood-neroli-5ml-471"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -108152,6 +108153,38 @@
         }
       ],
       "_hero_source": "sniffz"
+    },
+    {
+      "id": "212-vip-ros-love-ny-women-ch",
+      "name_ar": "",
+      "name_en": "212 VIP Rosé Love NY women",
+      "brand": "CH",
+      "dupe_of": [],
+      "image": "images/212-vip-ros-love-ny-women-ch.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 285,
+              "first_seen": "2026-07-20"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 500,
+              "first_seen": "2026-07-20"
+            }
+          ],
+          "image": "images/212-vip-ros-love-ny-women-ch--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ch-212-vip-rose-love-ny-women-5ml-377"
+        }
+      ],
+      "_hero_source": "MO Shawky"
     }
   ]
 }
