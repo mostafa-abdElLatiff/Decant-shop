@@ -3720,7 +3720,7 @@
               "first_seen": "2026-07-19"
             }
           ],
-          "image": "images/chocolate-lassi--og-perfume.jpg",
+          "image": "images/cocolatte-lassi--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/chocolate-lassi"
         }
       ],
@@ -6194,7 +6194,7 @@
               "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/powder-musk-75ml--og-perfume.jpg",
+          "image": "images/powder-musk--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/powder-musk-75ml-ibrahim-al-qurashi"
         }
       ],
@@ -16606,7 +16606,7 @@
               "first_seen": "2026-07-19"
             }
           ],
-          "image": "images/blueberry-musk-75ml--og-perfume.jpg",
+          "image": "images/blueberry-musk--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/blueberry-musk-75ml-ibrahim-al-qurashi"
         }
       ],
@@ -27550,7 +27550,7 @@
               "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/al-haramain-aqua-dubai--og-perfume.jpg",
+          "image": "images/amber-oud-aqua-dubai-extrait-de-parfum--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/al-haramain-aqua-dubai-100ml"
         }
       ],
@@ -43602,7 +43602,7 @@
               "first_seen": "2026-07-19"
             }
           ],
-          "image": "images/musk-special--og-perfume.jpg",
+          "image": "images/special-musk--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/musk-special-75ml"
         }
       ],
@@ -45111,7 +45111,7 @@
               "first_seen": "2026-07-19"
             }
           ],
-          "image": "images/klikat-times--og-perfume.jpg",
+          "image": "images/kilkat-times--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/klikat-times"
         }
       ],
@@ -51585,7 +51585,7 @@
               "first_seen": "2026-07-19"
             }
           ],
-          "image": "images/urban-man-amaze--og-perfume.jpg",
+          "image": "images/urban-amaze--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/urban-man-amaze"
         },
         {
@@ -61785,7 +61785,7 @@
               "first_seen": "2026-07-19"
             }
           ],
-          "image": "images/lador-bakhur-valley--og-perfume.jpg",
+          "image": "images/la-dor-bakhur-white--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/lador-bakhur-valley"
         }
       ],
@@ -65552,7 +65552,7 @@
               "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/ishatar-roses-vanilla--og-perfume.jpg",
+          "image": "images/ishtar-roses-vanilla--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/copy-mahd-al-dhahab"
         },
         {
@@ -85807,7 +85807,7 @@
               "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/nabtieh--og-perfume.jpg",
+          "image": "images/nabatieh--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/nabtieh-french-avenue"
         }
       ],
@@ -86315,6 +86315,13 @@
               "sold_since": "2026-07-19"
             },
             {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 950,
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1900,
@@ -86426,7 +86433,7 @@
               "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/eclair-affair--og-perfume.jpg",
+          "image": "images/eclaire-affair--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/eclair-affair-french-avenue"
         },
         {
@@ -109932,7 +109939,7 @@
               "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/musammam-black-intense--og-perfume.jpg",
+          "image": "images/musamam-black-intense--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/musammam-black-intense"
         }
       ],
@@ -110647,7 +110654,7 @@
               "first_seen": "2026-07-19"
             }
           ],
-          "image": "images/al-wissam-absolute--og-perfume.jpg",
+          "image": "images/al-wisam-absolute--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/al-wissam-absolute"
         }
       ],
@@ -110801,7 +110808,7 @@
               "first_seen": "2026-07-19"
             }
           ],
-          "image": "images/klikat-jassas-alezzoud--og-perfume.jpg",
+          "image": "images/jassas-ezz-oud--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/klikat-jassas"
         }
       ],
@@ -117936,6 +117943,61 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "tobacco-jam",
+      "name_ar": "Tobacco Jam",
+      "name_en": "Tobacco Jam",
+      "brand": "Assaf",
+      "dupe_of": [],
+      "image": "images/tobacco-jam.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 210,
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 625,
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20"
+            },
+            {
+              "kind": "leftover",
+              "ml": 40,
+              "price": 860,
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 1100,
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1800,
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20"
+            }
+          ],
+          "image": "images/tobacco-jam--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/tobacco-jam"
+        }
+      ],
+      "_hero_source": "og-perfume"
     }
   ]
 }
