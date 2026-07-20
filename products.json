@@ -34194,7 +34194,11 @@
           "product_url": "https://og-perfume.com/products/honey-musk-75ml"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Honey Musk - Confidence Dose",
+        "Honey Musk Confidence Dose"
+      ]
     },
     {
       "id": "imperia",
@@ -36642,45 +36646,6 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "honey-musk-confidence-dose-ibrahim-al-qurashi",
-      "name_ar": "Honey Musk - Confidence Dose",
-      "name_en": "Honey Musk - Confidence Dose",
-      "brand": "Ibrahim Al Qurashi",
-      "dupe_of": [],
-      "image": "images/honey-musk-confidence-dose-ibrahim-al-qurashi.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 230,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 35,
-              "price": 725,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 75,
-              "price": 1500,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/honey-musk-confidence-dose-ibrahim-al-qurashi--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/honey-musk-75ml"
-        }
-      ],
-      "_hero_source": "og-perfume"
     },
     {
       "id": "miss-armaf-catwalk",
@@ -52846,7 +52811,8 @@
       ],
       "_hero_source": "eldesoki-fragrances",
       "aliases": [
-        "Oud Touch Frank Oliver"
+        "Oud Touch Frank Oliver",
+        "Frank Oliver Oud Touch"
       ]
     },
     {
@@ -54696,38 +54662,6 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "honey-musk-confidence-dose-ibraq",
-      "name_ar": "Honey Musk Confidence Dose",
-      "name_en": "Honey Musk Confidence Dose",
-      "brand": "Ibrahim Al Qurashi",
-      "dupe_of": [],
-      "image": "images/honey-musk-confidence-dose-ibraq.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 400,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 600,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/honey-musk-confidence-dose-ibraq--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/ibraq-honey-musk-confidence-dose"
-        }
-      ],
-      "_hero_source": "perfuzone"
     },
     {
       "id": "minya-paris-corner",
@@ -62858,7 +62792,9 @@
         }
       ],
       "_hero_source": "og-perfume",
-      "aliases": []
+      "aliases": [
+        "French Tobacco Ibraheem AlQurashi"
+      ]
     },
     {
       "id": "smart-collection-671",
@@ -63070,58 +63006,6 @@
           ],
           "image": "images/azure-royal--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/azure-royal-ahmed-al-maghribi"
-        }
-      ],
-      "_hero_source": "og-perfume"
-    },
-    {
-      "id": "klikat-jassas-alezzoud",
-      "name_ar": "Klikat Jassas",
-      "name_en": "Klikat Jassas",
-      "brand": "Al Ezz Lel Oud",
-      "dupe_of": [],
-      "image": "images/klikat-jassas-alezzoud.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 125,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 325,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 1850,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/klikat-jassas-alezzoud--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/klikat-jassas"
-        },
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 2200,
-              "first_seen": "2026-07-20"
-            }
-          ],
-          "image": "images/klikat-jassas-alezzoud--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/klikat-jassas-200-ml"
         }
       ],
       "_hero_source": "og-perfume"
@@ -72440,9 +72324,39 @@
           ],
           "image": "images/special-musk--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/private-musk-75ml%d9%85%d8%b3%d9%83-%d8%ae%d8%a7%d8%b5-%d9%85%d9%86-%d8%a5%d8%a8%d8%b1%d8%a7%d9%87%d9%8a%d9%85-%d8%a7%d9%84%d9%82%d8%b1%d8%b4%d9%8a/"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 165,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 35,
+              "price": 470,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 1000,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/musk-special--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/musk-special-75ml"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Musk Special"
+      ]
     },
     {
       "id": "grecia",
@@ -74742,6 +74656,32 @@
           ],
           "image": "images/klikat-jassas--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/klikat-jassas-200-ml"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 125,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 325,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 1850,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/klikat-jassas-alezzoud--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/klikat-jassas"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -76092,7 +76032,9 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances",
-      "aliases": []
+      "aliases": [
+        "Arabian Tobacco Ibraq"
+      ]
     },
     {
       "id": "satin-body-oud",
@@ -87970,7 +87912,8 @@
       ],
       "_hero_source": "roseperfume",
       "aliases": [
-        "Club de Nuit Intense Man edt"
+        "Club de Nuit Intense Man edt",
+        "Club De Nuit Intense Man EDT Armaf"
       ]
     },
     {
@@ -88626,7 +88569,10 @@
           "product_url": "https://og-perfume.com/products/silk-musk-wadi-al-khaleej"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Silk Musk Wadi Al Khaleej"
+      ]
     },
     {
       "id": "discovery-diamond-set",
@@ -90127,7 +90073,8 @@
       ],
       "_hero_source": "roseperfume",
       "aliases": [
-        "Lord Blue ALREHAB"
+        "Lord Blue ALREHAB",
+        "Lord Blue Al-Rehab"
       ]
     },
     {
@@ -90275,7 +90222,10 @@
           "product_url": "https://roseperfume.online/products/black-horse-al-rehab-perfumes"
         }
       ],
-      "_hero_source": "roseperfume"
+      "_hero_source": "roseperfume",
+      "aliases": [
+        "Black Horse AL-REHAB PERFUMES"
+      ]
     },
     {
       "id": "prime-26",
@@ -93590,7 +93540,10 @@
           "product_url": "https://roseperfume.online/products/blue-night-al-rehab"
         }
       ],
-      "_hero_source": "roseperfume"
+      "_hero_source": "roseperfume",
+      "aliases": [
+        "Blue Night Al-Rehab"
+      ]
     },
     {
       "id": "hawas-pink",
@@ -96851,45 +96804,6 @@
       "_hero_source": "eldesoki-fragrances"
     },
     {
-      "id": "musk-special",
-      "name_ar": "Musk Special",
-      "name_en": "Musk Special",
-      "brand": "Ibrahim Al Qurashi",
-      "dupe_of": [],
-      "image": "images/musk-special.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 165,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 35,
-              "price": 470,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 75,
-              "price": 1000,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/musk-special--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/musk-special-75ml"
-        }
-      ],
-      "_hero_source": "og-perfume"
-    },
-    {
       "id": "ana-abiyedh-coral",
       "name_ar": "انا الابيض كورال ٦٠ملي",
       "name_en": "Ana Abiyedh Coral",
@@ -97013,7 +96927,8 @@
       "_hero_source": "sniffz",
       "aliases": [
         "Tom Ford Ombré Leather",
-        "Eau D'Ombre Leather"
+        "Eau D'Ombre Leather",
+        "Eau d' Ombré Leather"
       ]
     },
     {
@@ -100458,7 +100373,7 @@
       "id": "dkhoon-amber",
       "name_ar": "دخون عنبر ١٠٠ملي",
       "name_en": "Dkhoon Amber",
-      "brand": "",
+      "brand": "Dkhoon Emirates",
       "dupe_of": [],
       "image": "images/dkhoon-amber.jpg",
       "accords": [],
@@ -100511,9 +100426,38 @@
           ],
           "image": "images/dkhoon-amber--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/dkhoon-amber"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 110,
+              "first_seen": "2026-07-20"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-07-20"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 575,
+              "first_seen": "2026-07-20"
+            }
+          ],
+          "image": "images/dkhoon-amber-perfume--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/dkhoon-amber-perfume"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Dkhoon Amber Perfume"
+      ]
     },
     {
       "id": "reverie-petals",
@@ -110608,213 +110552,6 @@
       "_hero_source": "emaratiscents"
     },
     {
-      "id": "black-horse-al-rehab-perfumes-al-rehab",
-      "name_ar": "",
-      "name_en": "Black Horse AL-REHAB PERFUMES",
-      "brand": "Al Rehab",
-      "dupe_of": [],
-      "image": "images/black-horse-al-rehab-perfumes-al-rehab.jpg",
-      "accords": [
-        {
-          "label_en": "Tangerine",
-          "label_ar": "تانجرين (اليوسفي)",
-          "color": "#F9FF52",
-          "w": 100
-        },
-        {
-          "label_en": "Orange",
-          "label_ar": "البرتقال",
-          "color": "#F9FF52",
-          "w": 90
-        },
-        {
-          "label_en": "Green Notes",
-          "label_ar": "النوتات الخضراء",
-          "color": "#0E8C1D",
-          "w": 80
-        },
-        {
-          "label_en": "Lemongrass",
-          "label_ar": "عشب الليمون",
-          "color": "#0E8C1D",
-          "w": 70
-        },
-        {
-          "label_en": "Cedarwood",
-          "label_ar": "تتكون من خشب الأرز",
-          "color": "#774414",
-          "w": 60
-        },
-        {
-          "label_en": "Patchouli",
-          "label_ar": "الباتشولي",
-          "color": "#63652e",
-          "w": 50
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 50,
-              "price": 150,
-              "first_seen": "2026-07-20"
-            }
-          ],
-          "image": "images/black-horse-al-rehab-perfumes-al-rehab--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/black-horse-al-rehab-perfumes"
-        }
-      ],
-      "_hero_source": "roseperfume"
-    },
-    {
-      "id": "blue-night-al-rehab-al-rehab",
-      "name_ar": "",
-      "name_en": "Blue Night Al-Rehab",
-      "brand": "Al Rehab",
-      "dupe_of": [],
-      "image": "images/blue-night-al-rehab-al-rehab.jpg",
-      "accords": [
-        {
-          "label_en": "Citrus",
-          "label_ar": "الحمضيات",
-          "color": "#F9FF52",
-          "w": 100
-        },
-        {
-          "label_en": "Lavender",
-          "label_ar": "الخزامى",
-          "color": "#9B7DB8",
-          "w": 90
-        },
-        {
-          "label_en": "Anise",
-          "label_ar": "الينسون",
-          "color": "#37a089",
-          "w": 80
-        },
-        {
-          "label_en": "Patchouli",
-          "label_ar": "الباتشولي",
-          "color": "#63652e",
-          "w": 70
-        },
-        {
-          "label_en": "Cedarwood",
-          "label_ar": "خشب الأرز",
-          "color": "#774414",
-          "w": 60
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 50,
-              "price": 150,
-              "first_seen": "2026-07-20"
-            }
-          ],
-          "image": "images/blue-night-al-rehab-al-rehab--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/blue-night-al-rehab"
-        }
-      ],
-      "_hero_source": "roseperfume"
-    },
-    {
-      "id": "lord-blue-al-rehab-al-rehab",
-      "name_ar": "",
-      "name_en": "Lord Blue Al-Rehab",
-      "brand": "Al Rehab",
-      "dupe_of": [],
-      "image": "images/lord-blue-al-rehab-al-rehab.jpg",
-      "accords": [
-        {
-          "label_en": "Cardamom",
-          "label_ar": "العطر الهيل",
-          "color": "#CC3300",
-          "w": 100
-        },
-        {
-          "label_en": "Grapefruit",
-          "label_ar": "الجريب فروت",
-          "color": "#F9FF52",
-          "w": 90
-        },
-        {
-          "label_en": "Cinnamon",
-          "label_ar": "القرفة",
-          "color": "#CC3300",
-          "w": 80
-        },
-        {
-          "label_en": "Nutmeg",
-          "label_ar": "جوزه الطيب",
-          "color": "#CC3300",
-          "w": 70
-        },
-        {
-          "label_en": "Lavender",
-          "label_ar": "الخزامي",
-          "color": "#9B7DB8",
-          "w": 60
-        },
-        {
-          "label_en": "Lemongrass",
-          "label_ar": "تتكون من نجيل الهند",
-          "color": "#0E8C1D",
-          "w": 50
-        },
-        {
-          "label_en": "Amber",
-          "label_ar": "العنبر",
-          "color": "#bc4d10",
-          "w": 40
-        },
-        {
-          "label_en": "Licorice",
-          "label_ar": "العرقسوس",
-          "color": "#9be5ed",
-          "w": 40
-        },
-        {
-          "label_en": "Patchouli",
-          "label_ar": "الباتشولي",
-          "color": "#63652e",
-          "w": 40
-        },
-        {
-          "label_en": "Sandalwood",
-          "label_ar": "خشب الصندل",
-          "color": "#774414",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 50,
-              "price": 150,
-              "first_seen": "2026-07-20"
-            }
-          ],
-          "image": "images/lord-blue-al-rehab-al-rehab--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/lord-blue-al-rehab"
-        }
-      ],
-      "_hero_source": "roseperfume"
-    },
-    {
       "id": "divin-asylum-french-avenue",
       "name_ar": "",
       "name_en": "Divin Asylum",
@@ -110945,112 +110682,6 @@
         }
       ],
       "_hero_source": "roseperfume"
-    },
-    {
-      "id": "french-tobacco-ibraheem-alqurashi",
-      "name_ar": "",
-      "name_en": "French Tobacco Ibraheem AlQurashi",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/french-tobacco-ibraheem-alqurashi.jpg",
-      "accords": [
-        {
-          "label_en": "Blood Orange",
-          "label_ar": "",
-          "color": "#F9FF52",
-          "w": 100
-        },
-        {
-          "label_en": "Mandarin",
-          "label_ar": "",
-          "color": "#F9FF52",
-          "w": 90
-        },
-        {
-          "label_en": "Green Apple",
-          "label_ar": "",
-          "color": "#0E8C1D",
-          "w": 80
-        },
-        {
-          "label_en": "Ginger",
-          "label_ar": "",
-          "color": "#83C928",
-          "w": 70
-        },
-        {
-          "label_en": "Neroli",
-          "label_ar": "",
-          "color": "#edf2fb",
-          "w": 60
-        },
-        {
-          "label_en": "Cinnamon",
-          "label_ar": "",
-          "color": "#CC3300",
-          "w": 50
-        },
-        {
-          "label_en": "Tobacco",
-          "label_ar": "",
-          "color": "#ad7727",
-          "w": 40
-        },
-        {
-          "label_en": "Lemongrass",
-          "label_ar": "",
-          "color": "#0E8C1D",
-          "w": 40
-        },
-        {
-          "label_en": "Frankincense",
-          "label_ar": "",
-          "color": "#ad8359",
-          "w": 40
-        },
-        {
-          "label_en": "Guaiac Wood",
-          "label_ar": "",
-          "color": "#774414",
-          "w": 40
-        },
-        {
-          "label_en": "Iris",
-          "label_ar": "",
-          "color": "#b7a7d7",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 155,
-              "first_seen": "2026-07-20"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 195,
-              "first_seen": "2026-07-20"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 300,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
-            }
-          ],
-          "image": "images/french-tobacco-ibraheem-alqurashi--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/french-tobacco-ibraheem-alqurashi"
-        }
-      ],
-      "_hero_source": "sniffz"
     },
     {
       "id": "spectre-ghost",
@@ -111207,81 +110838,6 @@
       ]
     },
     {
-      "id": "eau-d-ombr-leather",
-      "name_ar": "",
-      "name_en": "Eau d' Ombré Leather",
-      "brand": "Tom Ford",
-      "dupe_of": [],
-      "image": "images/eau-d-ombr-leather.jpg",
-      "accords": [
-        {
-          "label_en": "Cardamom",
-          "label_ar": "",
-          "color": "#CC3300",
-          "w": 100
-        },
-        {
-          "label_en": "Ginger",
-          "label_ar": "",
-          "color": "#83C928",
-          "w": 90
-        },
-        {
-          "label_en": "Coriander",
-          "label_ar": "",
-          "color": "#CC3300",
-          "w": 80
-        },
-        {
-          "label_en": "Vanilla",
-          "label_ar": "",
-          "color": "#FFFEC0",
-          "w": 70
-        },
-        {
-          "label_en": "Leather",
-          "label_ar": "",
-          "color": "#78483A",
-          "w": 60
-        },
-        {
-          "label_en": "Ambrofix",
-          "label_ar": "",
-          "color": "#bc4d10",
-          "w": 50
-        }
-      ],
-      "stores": [
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 300,
-              "first_seen": "2026-07-20"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 410,
-              "first_seen": "2026-07-20"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 650,
-              "first_seen": "2026-07-20"
-            }
-          ],
-          "image": "images/eau-d-ombr-leather--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/tom-ford-eau-dombre-leather"
-        }
-      ],
-      "_hero_source": "sniffz"
-    },
-    {
       "id": "212-vip-ros-love-ny-women-ch",
       "name_ar": "",
       "name_en": "212 VIP Rosé Love NY women",
@@ -111312,112 +110868,6 @@
         }
       ],
       "_hero_source": "MO Shawky"
-    },
-    {
-      "id": "silk-musk-wadi-al-khaleej",
-      "name_ar": "مسك سلك ١٠٠ملي من وادي الخليج",
-      "name_en": "Silk Musk Wadi Al Khaleej",
-      "brand": "Wadi Al Khaleej",
-      "dupe_of": [],
-      "image": "images/silk-musk-wadi-al-khaleej.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 875,
-              "first_seen": "2026-07-20"
-            }
-          ],
-          "image": "images/silk-musk-wadi-al-khaleej--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/silk-musk-wadi-al-khaleej-100ml%d9%85%d8%b3%d9%83-%d8%b3%d9%84%d9%83-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%88%d8%a7%d8%af%d9%8a-%d8%a7%d9%84%d8%ae%d9%84%d9%8a%d8%ac/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "club-de-nuit-intense-man-edt-armaf",
-      "name_ar": "كلوب دي نوي انتنس او دو تواليت ١٠٥ملي",
-      "name_en": "Club De Nuit Intense Man EDT Armaf",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/club-de-nuit-intense-man-edt-armaf.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 105,
-              "price": 1675,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
-            }
-          ],
-          "image": "images/club-de-nuit-intense-man-edt-armaf--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/club-de-nuit-intense-man-edt-105ml-armaf%d9%83%d9%84%d9%88%d8%a8-%d8%af%d9%8a-%d9%86%d9%88%d9%8a-%d8%a7%d9%86%d8%aa%d9%86%d8%b3-%d8%a7%d9%88-%d8%af%d9%88-%d8%aa%d9%88%d8%a7%d9%84%d9%8a%d8%aa-%d9%a1-2/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "arabian-tobacco-ibraq",
-      "name_ar": "ارابيان توباكو ابراق ١٠٠ملي",
-      "name_en": "Arabian Tobacco Ibraq",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/arabian-tobacco-ibraq.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1650,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
-            }
-          ],
-          "image": "images/arabian-tobacco-ibraq--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/arabian-tobacco-100ml%d8%a7%d8%b1%d8%a7%d8%a8%d9%8a%d8%a7%d9%86-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%85%d9%86-%d8%a7%d9%84%d9%82%d8%b1%d8%b4%d9%8a-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "frank-oliver-oud-touch",
-      "name_ar": "عود تاتش من فرانك اوليفر ١٠ملي",
-      "name_en": "Frank Oliver Oud Touch",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/frank-oliver-oud-touch.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 155,
-              "first_seen": "2026-07-20"
-            }
-          ],
-          "image": "images/frank-oliver-oud-touch--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/frank-oliver-oud-touch-10ml%d8%b9%d9%88%d8%af-%d8%aa%d8%a7%d8%aa%d8%b4-%d9%85%d9%86-%d9%81%d8%b1%d8%a7%d9%86%d9%83-%d8%a7%d9%88%d9%84%d9%8a%d9%81%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "acqua-di-gio-profondo",
@@ -113691,44 +113141,6 @@
           ],
           "image": "images/lost-city--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/lost-city-gissah"
-        }
-      ],
-      "_hero_source": "roseperfume"
-    },
-    {
-      "id": "dkhoon-amber-perfume",
-      "name_ar": "",
-      "name_en": "Dkhoon Amber Perfume",
-      "brand": "Dkhoon Emirates",
-      "dupe_of": [],
-      "image": "images/dkhoon-amber-perfume.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 110,
-              "first_seen": "2026-07-20"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 200,
-              "first_seen": "2026-07-20"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 575,
-              "first_seen": "2026-07-20"
-            }
-          ],
-          "image": "images/dkhoon-amber-perfume--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/dkhoon-amber-perfume"
         }
       ],
       "_hero_source": "roseperfume"
