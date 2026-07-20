@@ -111338,7 +111338,7 @@
               "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/myslf-edp--mo-shawky.jpg",
+          "image": "images/myslf-eau-de-parfum--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ysl-myslf-edp-5ml-211"
         },
         {
@@ -117711,6 +117711,38 @@
         }
       ],
       "_hero_source": "roseperfume"
+    },
+    {
+      "id": "212-vip-ros-love-ny-women-ch",
+      "name_ar": "",
+      "name_en": "212 VIP Rosé Love NY women",
+      "brand": "CH",
+      "dupe_of": [],
+      "image": "images/212-vip-ros-love-ny-women-ch.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 285,
+              "first_seen": "2026-07-20"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 500,
+              "first_seen": "2026-07-20"
+            }
+          ],
+          "image": "images/212-vip-ros-love-ny-women-ch--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ch-212-vip-rose-love-ny-women-5ml-377"
+        }
+      ],
+      "_hero_source": "MO Shawky"
     }
   ]
 }
