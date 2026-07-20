@@ -5128,8 +5128,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1600,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-20"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/khamrah-qahwa--emaratiscents.jpg",
@@ -5357,6 +5356,20 @@
           ],
           "image": "images/lemon-sorbet-arabiyat-sugar--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/copy-toffee-ganache"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 965,
+              "first_seen": "2026-07-20"
+            }
+          ],
+          "image": "images/lemon-sorbet-arabiyat-sugar--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/lemon-sorbet"
         }
       ],
       "_hero_source": "og-perfume"
@@ -8078,7 +8091,7 @@
               "first_seen": "2026-07-18"
             }
           ],
-          "image": "images/prime-26-n--emaratiscents.jpg",
+          "image": "images/prime-26--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/prime-26-n"
         }
       ],
@@ -20699,7 +20712,7 @@
               "first_seen": "2026-07-18"
             }
           ],
-          "image": "images/shiyaaka-shadow-special-edition--emaratiscents.jpg",
+          "image": "images/shiyaaka-shadow--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/shiyaka-shadow-special-edition"
         }
       ],
@@ -21439,6 +21452,12 @@
           "name": "emaratiscents",
           "url": "https://emaratiscents.com/",
           "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 800,
+              "first_seen": "2026-07-20"
+            },
             {
               "kind": "full",
               "ml": 85,
@@ -30866,7 +30885,7 @@
               "first_seen": "2026-07-18"
             }
           ],
-          "image": "images/asheq-al-oud--emaratiscents.jpg",
+          "image": "images/ashek-al-oud--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/asheq-al-oud"
         }
       ],
@@ -30910,7 +30929,7 @@
               "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/club-de-nuit-lion-heart-man--emaratiscents.jpg",
+          "image": "images/club-de-nuit-lion-heart--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/club-de-nuit-lion-heart-man"
         }
       ],
@@ -39760,7 +39779,7 @@
               "first_seen": "2026-07-18"
             }
           ],
-          "image": "images/la-dor-bakhur-classic--emaratiscents.jpg",
+          "image": "images/la-dor-bakhur--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/lador-bkhur-classic-200-ml-by-laverne"
         },
         {
@@ -42042,7 +42061,7 @@
               "first_seen": "2026-07-18"
             }
           ],
-          "image": "images/frankel-aventus-black-elixir--emaratiscents.jpg",
+          "image": "images/frankel-black-elixir--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/frankel-aventus-200ml-by-assaf"
         }
       ],
@@ -52944,8 +52963,9 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 2750,
-              "first_seen": "2026-07-18"
+              "price": 2350,
+              "first_seen": "2026-07-18",
+              "prev_price": 2750
             }
           ],
           "image": "images/strike-black--emaratiscents.jpg",
@@ -53775,6 +53795,20 @@
           ],
           "image": "images/tiramisu-caramel-zimaya--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/tiramisu-caramel"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1450,
+              "first_seen": "2026-07-20"
+            }
+          ],
+          "image": "images/tiramisu-caramel-zimaya--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/tiramisu-caramel"
         }
       ],
       "_hero_source": "og-perfume"
@@ -55961,7 +55995,7 @@
               "first_seen": "2026-07-18"
             }
           ],
-          "image": "images/rose-01-edp--emaratiscents.jpg",
+          "image": "images/rose-01--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/rose-01-edp"
         }
       ],
@@ -58170,7 +58204,7 @@
               "first_seen": "2026-07-18"
             }
           ],
-          "image": "images/sapphire--emaratiscents.jpg",
+          "image": "images/dkhoon-sapphire--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/sapphire"
         }
       ],
@@ -58991,7 +59025,7 @@
               "first_seen": "2026-07-18"
             }
           ],
-          "image": "images/shiyaaka-snow-special-edition--emaratiscents.jpg",
+          "image": "images/shiyaaka-snow--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/shiyaaka-snow-special-edition"
         }
       ],
@@ -60381,7 +60415,8 @@
               "kind": "full",
               "ml": 90,
               "price": 2250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-20"
             }
           ],
           "image": "images/turathi-blue-afnan--emaratiscents.jpg",
@@ -67638,8 +67673,7 @@
               "kind": "full",
               "ml": 12,
               "price": 28500,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/attar-luban-al-akhdar--emaratiscents.jpg",
@@ -69877,8 +69911,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2750,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/reef-33-white--emaratiscents.jpg",
@@ -77563,7 +77596,8 @@
               "kind": "full",
               "ml": 75,
               "price": 1700,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20"
             },
             {
               "kind": "full",
@@ -79389,7 +79423,8 @@
               "kind": "full",
               "ml": 75,
               "price": 800,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-20"
             },
             {
               "kind": "full",
@@ -86362,7 +86397,7 @@
               "first_seen": "2026-07-18"
             }
           ],
-          "image": "images/eclair-affair--emaratiscents.jpg",
+          "image": "images/eclaire-affair--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/eclair-affair"
         },
         {
@@ -91593,7 +91628,8 @@
               "kind": "full",
               "ml": 100,
               "price": 3200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-20"
             }
           ],
           "image": "images/hersh-x--emaratiscents.jpg",
@@ -94493,7 +94529,7 @@
               "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/incense-01-edp--emaratiscents.jpg",
+          "image": "images/incense-01--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/incense-01"
         }
       ],
@@ -100684,7 +100720,7 @@
               "first_seen": "2026-07-18"
             }
           ],
-          "image": "images/cardamon-musk--emaratiscents.jpg",
+          "image": "images/cardamom-musk-ibraq--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/cardamon-musk"
         }
       ],
@@ -109992,7 +110028,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-20"
             }
           ],
           "image": "images/rose--emaratiscents.jpg",
@@ -110738,7 +110775,7 @@
               "first_seen": "2026-07-18"
             }
           ],
-          "image": "images/klikat-jassas--emaratiscents.jpg",
+          "image": "images/jassas-ezz-oud--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/klikat-jassas-200-ml"
         },
         {
