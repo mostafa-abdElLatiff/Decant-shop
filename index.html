@@ -114,6 +114,8 @@
   }
 
   .disclaimer{max-width:1200px;margin:0;padding:1rem 1.3rem 0;font-size:.76rem;color:#8A8D7B;line-height:1.5}
+  .site-footer{margin-top:auto;padding-top:1.05rem;border-top:1px solid var(--line);font-size:.72rem;color:#8A8D7B;line-height:1.55}
+  .site-footer a{color:var(--olive-deep)}
 
   .grid{max-width:1200px;margin:0;padding:1rem 1.3rem 4rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.2rem}
   .grid[data-cols="1"]{grid-template-columns:1fr}
@@ -259,6 +261,8 @@
         <button class="view-btn" data-cols="3">3</button>
       </div>
     </details>
+
+    <footer class="site-footer" id="siteFooter"></footer>
   </aside>
 
   <div class="main">
@@ -339,6 +343,7 @@ const I18N = {
     show_more_notes:"+{n} more notes", show_less_notes:"Show less",
     show_more_stores:"+{n} more stores", show_less_stores:"Show less",
     share_link:"Copy link to this fragrance", link_copied:"Link copied ✓",
+    footer_note:'Made just to compare decant prices across the stores I actually buy from — not affiliated with, or endorsed by, any of them. If you own one of these stores and would like your listings taken down, email me at <a href="mailto:mostafa.m.a.abdellatif@gmail.com">mostafa.m.a.abdellatif@gmail.com</a>.',
   },
   ar: {
     site_name:"ليسته", tag:"تقسيمات • زجاجات كاملة • بواقي تقسيم، مقارنة أسعار",
@@ -363,6 +368,7 @@ const I18N = {
     show_more_notes:"+{n} مكونات أخرى", show_less_notes:"عرض أقل",
     show_more_stores:"+{n} متاجر أخرى", show_less_stores:"عرض أقل",
     share_link:"نسخ رابط هذا العطر", link_copied:"تم نسخ الرابط ✓",
+    footer_note:'صنعت هذا الموقع فقط لمقارنة أسعار التقسيمات بين المتاجر اللي فعلاً بشتري منها — مالوش أي علاقة رسمية بأي متجر منهم. لو حضرتك صاحب أحد المتاجر دي وعايز أشيل منتجاتك من هنا، راسلني على <a href="mailto:mostafa.m.a.abdellatif@gmail.com">mostafa.m.a.abdellatif@gmail.com</a>.',
   }
 };
 
@@ -643,6 +649,7 @@ function applyI18n(){
   document.getElementById("toggleTheme").textContent = theme==="dark" ? t().theme_to_light : t().theme_to_dark;
   document.getElementById("disclaimer").textContent = t().disclaimer;
   document.getElementById("cartDisclaimer").textContent = t().disclaimer;
+  document.getElementById("siteFooter").innerHTML = t().footer_note;
   document.getElementById("kindLabel").textContent = t().label_kind;
   document.getElementById("inStockOnlyLabel").textContent = t().in_stock_only;
   document.getElementById("storeFilterLabel").textContent = t().label_store;
