@@ -11094,8 +11094,7 @@
               "kind": "leftover",
               "ml": 80,
               "price": 1200,
-              "first_seen": "2026-07-18",
-              "prev_price": 1225
+              "first_seen": "2026-07-18"
             },
             {
               "kind": "full",
@@ -11577,7 +11576,7 @@
               "first_seen": "2026-07-18"
             }
           ],
-          "image": "images/blue-aqua-diamond--eldesoki-fragrances.jpg",
+          "image": "images/blue-diamond-aqua--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/blue-aqua-diamond-80ml/"
         }
       ],
@@ -17410,13 +17409,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3150,
+              "price": 3050,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 3150
             }
           ],
           "image": "images/iven-peace--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/peace-iven-100ml%d8%a8%d9%8a%d8%b3-%d8%a7%d9%8a%d9%81%d9%8a%d9%86-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/peace-iven-100ml%d8%a8%d9%8a%d8%b3-%d8%a7%d9%8a%d9%81%d9%86-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b5%d9%85%d8%a7%d9%85/"
         },
         {
           "name": "og-perfume",
@@ -42066,7 +42065,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 175,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-20"
             },
             {
               "kind": "full",
@@ -42075,8 +42075,8 @@
               "first_seen": "2026-07-19"
             }
           ],
-          "image": "images/rayhaan-nuctorno-elixir--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/nuctorno-elixir-10ml-rayhaan%d9%86%d9%88%d9%83%d8%aa%d9%88%d8%b1%d9%86%d9%88-%d8%a7%d9%84%d9%8a%d9%83%d8%b2%d9%8a%d8%b1-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a-%d8%b1%d9%8a%d8%ad/"
+          "image": "images/nocturno-elixir--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/rayhaan-nuctorno-elixir-100ml%d8%b1%d9%8a%d8%ad%d8%a7%d9%86-%d9%86%d9%83%d8%aa%d9%88%d8%b1%d9%86%d9%88-%d8%a7%d9%84%d9%8a%d9%83%d8%b2%d9%8a%d8%b1-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "EsLam Nasser",
@@ -54896,7 +54896,6 @@
               "ml": 100,
               "price": 2950,
               "first_seen": "2026-07-18",
-              "prev_price": 3650,
               "sold_since": "2026-07-20"
             }
           ],
@@ -62263,7 +62262,6 @@
               "ml": 100,
               "price": 4875,
               "first_seen": "2026-07-19",
-              "prev_price": 5950,
               "sold_since": "2026-07-19"
             }
           ],
@@ -91979,7 +91977,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1200,
+              "price": 1375,
               "first_seen": "2026-07-18"
             }
           ],
@@ -108285,6 +108283,110 @@
         }
       ],
       "_hero_source": "og-perfume"
+    },
+    {
+      "id": "bois-de-nuit-intense",
+      "name_ar": "بوا دي نوي انتنس مان ١٠٠ملي من لابونير",
+      "name_en": "Bois De Nuit Intense",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/bois-de-nuit-intense.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1375,
+              "first_seen": "2026-07-20"
+            }
+          ],
+          "image": "images/bois-de-nuit-intense--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/bois-de-nuit-intense-100ml%d8%a8%d9%88%d8%a7-%d8%af%d9%8a-%d9%86%d9%88%d9%8a-%d8%a7%d9%86%d8%aa%d9%86%d8%b3-%d9%85%d8%a7%d9%86-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%84%d8%a7%d8%a8/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "mazaaj-edp-zimaya",
+      "name_ar": "مزاج او دو بارفم ١٠٠ملي من زمايا",
+      "name_en": "Mazaaj Edp Zimaya",
+      "brand": "Zimaya",
+      "dupe_of": [],
+      "image": "images/mazaaj-edp-zimaya.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1075,
+              "first_seen": "2026-07-20"
+            }
+          ],
+          "image": "images/mazaaj-edp-zimaya--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/mazaaj-edp-zimaya-100ml%d9%85%d8%b2%d8%a7%d8%ac-%d8%a7%d9%88-%d8%af%d9%88-%d8%a8%d8%a7%d8%b1%d9%81%d9%85-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b2%d9%85%d8%a7%d9%8a%d8%a7/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "bentley-for-men-intense",
+      "name_ar": "بنتلي فور من انتنس ١٠٠ملي",
+      "name_en": "Bentley For Men Intense",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/bentley-for-men-intense.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1875,
+              "first_seen": "2026-07-20"
+            }
+          ],
+          "image": "images/bentley-for-men-intense--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/bentley-intense%d8%a8%d9%86%d8%aa%d9%84%d9%8a-%d8%a5%d9%86%d8%aa%d9%86%d8%b3/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "nuctorno-elixir-rayhaan",
+      "name_ar": "نوكتورنو اليكزير تستر ١٠ملي ريحان",
+      "name_en": "Nuctorno Elixir Rayhaan",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/nuctorno-elixir-rayhaan.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 175,
+              "first_seen": "2026-07-20"
+            }
+          ],
+          "image": "images/nuctorno-elixir-rayhaan--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/nuctorno-elixir-10ml-rayhaan%d9%86%d9%88%d9%83%d8%aa%d9%88%d8%b1%d9%86%d9%88-%d8%a7%d9%84%d9%8a%d9%83%d8%b2%d9%8a%d8%b1-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a-%d8%b1%d9%8a%d8%ad/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
