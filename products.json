@@ -6018,9 +6018,27 @@
           ],
           "image": "images/french-vanilla-latte--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/french-vanilla-latte"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 850,
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20"
+            }
+          ],
+          "image": "images/french-vanilla-latte-arabiyat-sugar-arabiyat-prestige--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/french-vanilla-latte-arabiyat-sugar"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "French Vanilla Latte Arabiyat Sugar"
+      ]
     },
     {
       "id": "daiman",
@@ -7923,7 +7941,7 @@
       "id": "musk-rose-arabian-oud",
       "name_ar": "مسك روز من العربية للعود ١٠٠ملي",
       "name_en": "Musk Rose Arabian Oud",
-      "brand": "",
+      "brand": "Arabian Oud",
       "dupe_of": [],
       "image": "images/musk-rose-arabian-oud.jpg",
       "accords": [],
@@ -11349,9 +11367,44 @@
           ],
           "image": "images/vanilla-cream-macaron--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/copy-dulce-de-leche"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 75,
+              "first_seen": "2026-07-20"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 125,
+              "first_seen": "2026-07-20"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 325,
+              "first_seen": "2026-07-20"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 850,
+              "first_seen": "2026-07-20"
+            }
+          ],
+          "image": "images/vanilla-cream-macaron-arabiyat-sugar--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/vanilla-cream-macaron-arabiyat-sugar"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Vanilla Cream Macaron Arabiyat Sugar"
+      ]
     },
     {
       "id": "noir-de-noir",
@@ -11437,7 +11490,7 @@
       "id": "royal-blend",
       "name_ar": "Royal Blend",
       "name_en": "Royal Blend",
-      "brand": "",
+      "brand": "French Avenue",
       "dupe_of": [],
       "image": "images/royal-blend.jpg",
       "accords": [],
@@ -13860,32 +13913,6 @@
       "_hero_source": "dar.elarabia"
     },
     {
-      "id": "rose-01-edp",
-      "name_ar": "Rose 01 Edp",
-      "name_en": "Rose 01 Edp",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/rose-01-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 50,
-              "price": 3600,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/rose-01-edp--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/rose-01-edp"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
       "id": "epic-56-woman",
       "name_ar": "Epic 56 Woman",
       "name_en": "Epic 56 Woman",
@@ -14417,9 +14444,27 @@
           ],
           "image": "images/toffee-ganache--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/copy-cookie-dough"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 850,
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20"
+            }
+          ],
+          "image": "images/toffee-ganache-arabiyat-sugar--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/toffee-ganache-arabiyat-sugar"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Toffee Ganache Arabiyat Sugar"
+      ]
     },
     {
       "id": "wayfarer-infusion",
@@ -17372,9 +17417,27 @@
           ],
           "image": "images/coconut-chiffon--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/copy-berries-cream-macaron"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 850,
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20"
+            }
+          ],
+          "image": "images/coconut-chiffon-arabiyat-sugar--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/coconut-chiffon-arabiyat-sugar"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Coconut Chiffon Arabiyat Sugar"
+      ]
     },
     {
       "id": "red-coral-ibraq",
@@ -23689,7 +23752,9 @@
         }
       ],
       "_hero_source": "og-perfume",
-      "aliases": []
+      "aliases": [
+        "Hersh Lahab Al Ezz Oud"
+      ]
     },
     {
       "id": "eshal-vanilla",
@@ -24978,10 +25043,19 @@
               "ml": 10,
               "price": 850,
               "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "leftover",
+              "ml": "as-shown",
+              "price": 6200,
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/falcon-leather.jpg"
         }
+      ],
+      "aliases": [
+        "Falcon Leather (Tester)"
       ]
     },
     {
@@ -27002,33 +27076,6 @@
         }
       ],
       "_hero_source": "sniffz"
-    },
-    {
-      "id": "bois-imperial-edp-master-sealed",
-      "name_ar": "BOIS IMPERIAL EDP 100ML MASTER SEALED",
-      "name_en": "BOIS IMPERIAL EDP MASTER SEALED",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/bois-imperial-edp-master-sealed.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 6250,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/bois-imperial-edp-master-sealed--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/bois-imperial-edp-100ml-master-sealed/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "rebel-enable-assaf",
@@ -29975,9 +30022,27 @@
           ],
           "image": "images/lemon-sorbet--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/lemon-sorbet"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 850,
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20"
+            }
+          ],
+          "image": "images/lemon-sorbet-arabiyat-sugar-arabiyat-prestige--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/lemon-sorbet-arabiyat-sugar"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Lemon Sorbet Arabiyat Sugar"
+      ]
     },
     {
       "id": "uhud",
@@ -31721,32 +31786,6 @@
         }
       ],
       "_hero_source": "dar.elarabia"
-    },
-    {
-      "id": "signature-white-dokhoon",
-      "name_ar": "سجنتشر وايت من دخون (١٠ملي)",
-      "name_en": "Signature White Dokhoon",
-      "brand": "Dkhoon Emirates",
-      "dupe_of": [],
-      "image": "images/signature-white-dokhoon.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 200,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/signature-white-dokhoon--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/signature-white-dokhoon-10ml%d8%b3%d8%ac%d9%86%d8%aa%d8%b4%d8%b1-%d9%88%d8%a7%d9%8a%d8%aa-%d9%85%d9%86-%d8%af%d8%ae%d9%88%d9%86-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "deep-amber",
@@ -34547,9 +34586,27 @@
           ],
           "image": "images/incense-01--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/incense-01-swiss-arabian"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 3600,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/incense-01-edp--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/incense-01"
         }
       ],
-      "_hero_source": "perfuzone"
+      "_hero_source": "perfuzone",
+      "aliases": [
+        "Incense 01 Edp"
+      ]
     },
     {
       "id": "hawas-for-him-malibu",
@@ -34868,13 +34925,23 @@
               "price": 15000,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 21500,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
             }
           ],
           "image": "images/ex-nihilo-blue-talisman--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/ex-nihilo-blue-talisman-full-sealed"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Ex Nihilo Blue Talisman Extrait de Parfum"
+      ]
     },
     {
       "id": "la-dor-bakhur",
@@ -36621,33 +36688,6 @@
       "_hero_source": "emaratiscents"
     },
     {
-      "id": "musk-al-lail-ibraq",
-      "name_ar": "مسك الليل من ابراق ٧٥ملي",
-      "name_en": "Musk Al Lail Ibraq",
-      "brand": "Ibrahim Al Qurashi",
-      "dupe_of": [],
-      "image": "images/musk-al-lail-ibraq.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 75,
-              "price": 1150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/musk-al-lail-ibraq--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/musk-al-lail-ibraq-75ml%d9%85%d8%b3%d9%83-%d8%a7%d9%84%d9%84%d9%8a%d9%84-%d9%85%d9%86-%d8%a7%d8%a8%d8%b1%d8%a7%d9%82-%d9%a7%d9%a5%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "miss-armaf-catwalk",
       "name_ar": "Miss Armaf Catwalk",
       "name_en": "Miss Armaf Catwalk",
@@ -37235,9 +37275,26 @@
           ],
           "image": "images/pure-musk--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/pure-musk-150-ml"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 2250,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/reef-pure-musk--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/reef-pure-musk-150ml%d8%b1%d9%8a%d9%81-%d8%a8%d9%8a%d9%88%d8%b1-%d9%85%d8%b3%d9%83-%d9%a1%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "REEF Pure Musk"
+      ]
     },
     {
       "id": "odyssey-homme-armaf",
@@ -37945,13 +38002,22 @@
               "ml": 100,
               "price": 4750,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 550,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/l-homme-id-al-extr-me-guerlain--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/lhomme-ideal-extreme-guerlain-100ml%d8%ac%d9%8a%d8%b1%d9%84%d8%a7%d9%86-%d9%84%d9%88%d9%85-%d8%a7%d9%8a%d8%af%d9%8a%d8%a7%d9%84-%d8%a7%d9%83%d8%b3%d8%aa%d8%b1%d9%8a%d9%85-%d9%a1%d9%a0%d9%a0%d9%85/"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Guerlain Lhomme Ideal Extreme EDP"
+      ]
     },
     {
       "id": "exotic-rose",
@@ -38917,38 +38983,6 @@
         }
       ],
       "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "pour-homme-dylan-blue-versace",
-      "name_ar": "Pour Homme Dylan Blue Versace",
-      "name_en": "Pour Homme Dylan Blue Versace",
-      "brand": "Versace",
-      "dupe_of": [],
-      "image": "images/pour-homme-dylan-blue-versace.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 350,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 550,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/pour-homme-dylan-blue-versace--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/versace-pour-homme-dylan-blue-versace"
-        }
-      ],
-      "_hero_source": "perfuzone"
     },
     {
       "id": "nouf",
@@ -47687,30 +47721,6 @@
       ]
     },
     {
-      "id": "falcon-leather-tester",
-      "name_ar": "Falcon Leather (Tester)",
-      "name_en": "Falcon Leather (Tester)",
-      "brand": "Matiere Premiere",
-      "dupe_of": [],
-      "image": "images/falcon-leather-tester.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Mostafa Mohamed",
-          "url": "https://www.facebook.com/mostafa.mohamed.390048/",
-          "offers": [
-            {
-              "kind": "leftover",
-              "ml": "as-shown",
-              "price": 6200,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/falcon-leather-tester.jpg"
-        }
-      ]
-    },
-    {
       "id": "daiman-eden",
       "name_ar": "Daiman Eden",
       "name_en": "Daiman Eden",
@@ -48947,11 +48957,27 @@
           ],
           "image": "images/bois-imp-rial--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/essential-parfums-bois-imperial-unisex"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 6250,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/bois-imperial-edp-master-sealed--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/bois-imperial-edp-100ml-master-sealed/"
         }
       ],
       "_hero_source": "sniffz",
       "aliases": [
-        "Bois Imperial Unisex"
+        "Bois Imperial Unisex",
+        "BOIS IMPERIAL EDP MASTER SEALED"
       ]
     },
     {
@@ -57465,9 +57491,32 @@
           ],
           "image": "images/dylan-blue--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/versace-dylan-blue-200ml%d9%81%d9%8a%d8%b1%d8%b3%d8%a7%d8%aa%d8%b4%d9%8a-%d8%af%d9%8a%d9%84%d8%a7%d9%86-%d8%a8%d9%84%d9%88-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d8%a7%d8%b3%d8%aa%d8%b1/"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 350,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 550,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/pour-homme-dylan-blue-versace--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/versace-pour-homme-dylan-blue-versace"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Pour Homme Dylan Blue Versace"
+      ]
     },
     {
       "id": "golden-hour",
@@ -58139,33 +58188,6 @@
         }
       ],
       "_hero_source": "og-perfume"
-    },
-    {
-      "id": "incense-01-edp",
-      "name_ar": "Incense 01 Edp",
-      "name_en": "Incense 01 Edp",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/incense-01-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 50,
-              "price": 3600,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/incense-01-edp--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/incense-01"
-        }
-      ],
-      "_hero_source": "emaratiscents"
     },
     {
       "id": "explorer",
@@ -61657,88 +61679,6 @@
           "product_url": "https://www.facebook.com/groups/1321209448577265/posts/1951252878906249"
         }
       ]
-    },
-    {
-      "id": "ex-nihilo-blue-talisman-extrait-de-parfum",
-      "name_ar": "",
-      "name_en": "Ex Nihilo Blue Talisman Extrait de Parfum",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/ex-nihilo-blue-talisman-extrait-de-parfum.jpg",
-      "accords": [
-        {
-          "label_en": "Pear",
-          "label_ar": "",
-          "color": "#FC4B29",
-          "w": 100
-        },
-        {
-          "label_en": "Bergamot",
-          "label_ar": "",
-          "color": "#F9FF52",
-          "w": 90
-        },
-        {
-          "label_en": "Orange Blossom",
-          "label_ar": "",
-          "color": "#edf2fb",
-          "w": 80
-        },
-        {
-          "label_en": "Jasmine Sambac",
-          "label_ar": "",
-          "color": "#FF5F8D",
-          "w": 70
-        },
-        {
-          "label_en": "Amberwood",
-          "label_ar": "",
-          "color": "#bc4d10",
-          "w": 60
-        },
-        {
-          "label_en": "Ambrofix™",
-          "label_ar": "",
-          "color": "#bc4d10",
-          "w": 50
-        },
-        {
-          "label_en": "Sandalwood",
-          "label_ar": "",
-          "color": "#774414",
-          "w": 40
-        },
-        {
-          "label_en": "Musk",
-          "label_ar": "",
-          "color": "#E7D8EA",
-          "w": 40
-        },
-        {
-          "label_en": "Vanilla",
-          "label_ar": "",
-          "color": "#FFFEC0",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 21500,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/ex-nihilo-blue-talisman-extrait-de-parfum--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/ex-nihilo-blue-talisman-extrait-de-parfum-full-sealed"
-        }
-      ],
-      "_hero_source": "sniffz"
     },
     {
       "id": "double-espresso",
@@ -68556,32 +68496,6 @@
         }
       ],
       "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "reef-pure-musk",
-      "name_ar": "ريف بيور مسك ١٥٠ملي",
-      "name_en": "REEF Pure Musk",
-      "brand": "Reef",
-      "dupe_of": [],
-      "image": "images/reef-pure-musk.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 2250,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/reef-pure-musk--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/reef-pure-musk-150ml%d8%b1%d9%8a%d9%81-%d8%a8%d9%8a%d9%88%d8%b1-%d9%85%d8%b3%d9%83-%d9%a1%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "aoud-lemon-mint",
@@ -87680,9 +87594,27 @@
           ],
           "image": "images/al-lail-musk--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/al-lail-musk"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 1150,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/musk-al-lail-ibraq--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/musk-al-lail-ibraq-75ml%d9%85%d8%b3%d9%83-%d8%a7%d9%84%d9%84%d9%8a%d9%84-%d9%85%d9%86-%d8%a7%d8%a8%d8%b1%d8%a7%d9%82-%d9%a7%d9%a5%d9%85%d9%84%d9%8a/"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Musk Al Lail Ibraq"
+      ]
     },
     {
       "id": "dkhoon-solo",
@@ -92546,9 +92478,26 @@
           ],
           "image": "images/signature-white--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/signature-white"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/signature-white-dokhoon--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/signature-white-dokhoon-10ml%d8%b3%d8%ac%d9%86%d8%aa%d8%b4%d8%b1-%d9%88%d8%a7%d9%8a%d8%aa-%d9%85%d9%86-%d8%af%d8%ae%d9%88%d9%86-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Signature White Dokhoon"
+      ]
     },
     {
       "id": "musamam-white-intense-edp",
@@ -110362,32 +110311,6 @@
       ]
     },
     {
-      "id": "guerlain-lhomme-ideal-extreme-edp",
-      "name_ar": "جيرلان لوم اديال اكستريم تستر ١٠ملي",
-      "name_en": "Guerlain Lhomme Ideal Extreme EDP",
-      "brand": "Guerlain",
-      "dupe_of": [],
-      "image": "images/guerlain-lhomme-ideal-extreme-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 550,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/guerlain-lhomme-ideal-extreme-edp--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/guerlain-lhomme-ideal-extreme-edp-tester-10ml/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "energy",
       "name_ar": "Energy",
       "name_en": "Energy",
@@ -110898,38 +110821,6 @@
           ],
           "image": "images/acqua-di-gio-profondo--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/armani-acqua-di-gio-profondo"
-        }
-      ],
-      "_hero_source": "perfuzone"
-    },
-    {
-      "id": "hersh-lahab-al-ezz-oud",
-      "name_ar": "Hersh Lahab Al Ezz Oud",
-      "name_en": "Hersh Lahab Al Ezz Oud",
-      "brand": "Al-Ezz for Oud",
-      "dupe_of": [],
-      "image": "images/hersh-lahab-al-ezz-oud.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 270,
-              "first_seen": "2026-07-20"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 400,
-              "first_seen": "2026-07-20"
-            }
-          ],
-          "image": "images/hersh-lahab-al-ezz-oud--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/hersh-lahab-al-ezz-oud"
         }
       ],
       "_hero_source": "perfuzone"
@@ -113484,50 +113375,6 @@
       "_hero_source": "roseperfume"
     },
     {
-      "id": "vanilla-cream-macaron-arabiyat-sugar",
-      "name_ar": "",
-      "name_en": "Vanilla Cream Macaron Arabiyat Sugar",
-      "brand": "Arabiyat Prestige",
-      "dupe_of": [],
-      "image": "images/vanilla-cream-macaron-arabiyat-sugar.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 75,
-              "first_seen": "2026-07-20"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 125,
-              "first_seen": "2026-07-20"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 325,
-              "first_seen": "2026-07-20"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 850,
-              "first_seen": "2026-07-20"
-            }
-          ],
-          "image": "images/vanilla-cream-macaron-arabiyat-sugar--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/vanilla-cream-macaron-arabiyat-sugar"
-        }
-      ],
-      "_hero_source": "roseperfume"
-    },
-    {
       "id": "factory-edition-camp-fire",
       "name_ar": "",
       "name_en": "Factory Edition: Camp Fire",
@@ -114377,9 +114224,26 @@
           ],
           "image": "images/rose-01--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/rose-01-swiss-arabian"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 3600,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/rose-01-edp--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/rose-01-edp"
         }
       ],
-      "_hero_source": "roseperfume"
+      "_hero_source": "roseperfume",
+      "aliases": [
+        "Rose 01 Edp"
+      ]
     },
     {
       "id": "silk-musk-wardi-2025",
@@ -117586,64 +117450,6 @@
       "_hero_source": "roseperfume"
     },
     {
-      "id": "coconut-chiffon-arabiyat-sugar",
-      "name_ar": "",
-      "name_en": "Coconut Chiffon Arabiyat Sugar",
-      "brand": "Arabiyat Prestige",
-      "dupe_of": [],
-      "image": "images/coconut-chiffon-arabiyat-sugar.jpg",
-      "accords": [
-        {
-          "label_en": "Coconut",
-          "label_ar": "جوز الهند",
-          "color": "#FC4B29",
-          "w": 100
-        },
-        {
-          "label_en": "Jasmine",
-          "label_ar": "الياسمين",
-          "color": "#FF5F8D",
-          "w": 90
-        },
-        {
-          "label_en": "Musk",
-          "label_ar": "المسك",
-          "color": "#E7D8EA",
-          "w": 80
-        },
-        {
-          "label_en": "Sugar",
-          "label_ar": "السكر",
-          "color": "#FFFEC0",
-          "w": 70
-        },
-        {
-          "label_en": "Vanilla",
-          "label_ar": "الفانيليا",
-          "color": "#FFFEC0",
-          "w": 60
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 850,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
-            }
-          ],
-          "image": "images/coconut-chiffon-arabiyat-sugar--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/coconut-chiffon-arabiyat-sugar"
-        }
-      ],
-      "_hero_source": "roseperfume"
-    },
-    {
       "id": "pecan-butter-cookie-arabiyat-sugar-arabiyat-prestige",
       "name_ar": "",
       "name_en": "Pecan Butter Cookie Arabiyat Sugar",
@@ -117679,52 +117485,6 @@
           ],
           "image": "images/pecan-butter-cookie-arabiyat-sugar-arabiyat-prestige--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/pecan-butter-cookie-arabiyat-sugar"
-        }
-      ],
-      "_hero_source": "roseperfume"
-    },
-    {
-      "id": "toffee-ganache-arabiyat-sugar",
-      "name_ar": "",
-      "name_en": "Toffee Ganache Arabiyat Sugar",
-      "brand": "Arabiyat Prestige",
-      "dupe_of": [],
-      "image": "images/toffee-ganache-arabiyat-sugar.jpg",
-      "accords": [
-        {
-          "label_en": "Cinnamon",
-          "label_ar": "القرفة",
-          "color": "#CC3300",
-          "w": 100
-        },
-        {
-          "label_en": "Clove",
-          "label_ar": "القرنفل",
-          "color": "#CC3300",
-          "w": 90
-        },
-        {
-          "label_en": "Vanilla",
-          "label_ar": "الفانيليا",
-          "color": "#FFFEC0",
-          "w": 80
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 850,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
-            }
-          ],
-          "image": "images/toffee-ganache-arabiyat-sugar--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/toffee-ganache-arabiyat-sugar"
         }
       ],
       "_hero_source": "roseperfume"
@@ -117783,64 +117543,6 @@
           ],
           "image": "images/chocolate-ganache-arabiyat-sugar-arabiyat-prestige--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/chocolate-ganache-arabiyat-sugar"
-        }
-      ],
-      "_hero_source": "roseperfume"
-    },
-    {
-      "id": "french-vanilla-latte-arabiyat-sugar-arabiyat-prestige",
-      "name_ar": "",
-      "name_en": "French Vanilla Latte Arabiyat Sugar",
-      "brand": "Arabiyat Prestige",
-      "dupe_of": [],
-      "image": "images/french-vanilla-latte-arabiyat-sugar-arabiyat-prestige.jpg",
-      "accords": [
-        {
-          "label_en": "Cardamom",
-          "label_ar": "الهيل",
-          "color": "#CC3300",
-          "w": 100
-        },
-        {
-          "label_en": "Coconut",
-          "label_ar": "جوز الهند",
-          "color": "#FC4B29",
-          "w": 90
-        },
-        {
-          "label_en": "Lily of the Valley",
-          "label_ar": "زنابق الوادي",
-          "color": "#FF5F8D",
-          "w": 80
-        },
-        {
-          "label_en": "Ambergris",
-          "label_ar": "الآمبرغريس",
-          "color": "#bc4d10",
-          "w": 70
-        },
-        {
-          "label_en": "Musk",
-          "label_ar": "المسك",
-          "color": "#E7D8EA",
-          "w": 60
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 850,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
-            }
-          ],
-          "image": "images/french-vanilla-latte-arabiyat-sugar-arabiyat-prestige--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/french-vanilla-latte-arabiyat-sugar"
         }
       ],
       "_hero_source": "roseperfume"
@@ -117917,46 +117619,6 @@
           ],
           "image": "images/mango-affogato-arabiyat-sugar-arabiyat-prestige--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/mango-affogato-arabiyat-sugar"
-        }
-      ],
-      "_hero_source": "roseperfume"
-    },
-    {
-      "id": "lemon-sorbet-arabiyat-sugar-arabiyat-prestige",
-      "name_ar": "",
-      "name_en": "Lemon Sorbet Arabiyat Sugar",
-      "brand": "Arabiyat Prestige",
-      "dupe_of": [],
-      "image": "images/lemon-sorbet-arabiyat-sugar-arabiyat-prestige.jpg",
-      "accords": [
-        {
-          "label_en": "Lemon",
-          "label_ar": "الليمون",
-          "color": "#F9FF52",
-          "w": 100
-        },
-        {
-          "label_en": "Vanilla",
-          "label_ar": "من الفانيليا",
-          "color": "#FFFEC0",
-          "w": 90
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 850,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
-            }
-          ],
-          "image": "images/lemon-sorbet-arabiyat-sugar-arabiyat-prestige--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/lemon-sorbet-arabiyat-sugar"
         }
       ],
       "_hero_source": "roseperfume"
