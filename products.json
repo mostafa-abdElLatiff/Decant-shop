@@ -3238,9 +3238,26 @@
           ],
           "image": "images/shiyaaka-snow--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/shiyaaka-snow-khadlaj-perfumes"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1550,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/shiyaaka-snow-special-edition--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/shiyaaka-snow-special-edition"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Shiyaaka Snow Special Edition"
+      ]
     },
     {
       "id": "mavro",
@@ -4479,32 +4496,6 @@
         }
       ],
       "_hero_source": "perfuzone"
-    },
-    {
-      "id": "shiyaaka-shadow-special-edition",
-      "name_ar": "Shiyaaka Shadow  Special Edition",
-      "name_en": "Shiyaaka Shadow  Special Edition",
-      "brand": "Khadlaj",
-      "dupe_of": [],
-      "image": "images/shiyaaka-shadow-special-edition.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1550,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/shiyaaka-shadow-special-edition--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/shiyaka-shadow-special-edition"
-        }
-      ],
-      "_hero_source": "emaratiscents"
     },
     {
       "id": "sugar-me-pistachio-chocolate",
@@ -8939,7 +8930,45 @@
             }
           ],
           "image": "images/urban-amaze--eslam-nasser.jpg"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 125,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 900,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/urban-man-amaze--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/urban-man-amaze"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 850,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/urban-man-amaze--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/urban-man-amaze-fragrance-world"
         }
+      ],
+      "aliases": [
+        "Urban Man Amaze"
       ]
     },
     {
@@ -13594,32 +13623,6 @@
         }
       ],
       "_hero_source": "og-perfume"
-    },
-    {
-      "id": "lador-bakhur-laverne",
-      "name_ar": "لادور بخور لافيرن ٢٠٠ملي",
-      "name_en": "Lador Bakhur Laverne",
-      "brand": "Laverne",
-      "dupe_of": [],
-      "image": "images/lador-bakhur-laverne.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 1975,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/lador-bakhur-laverne--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/lador-bakhur-laverne-200ml%d9%84%d8%a7%d8%af%d9%88%d8%b1-%d8%a8%d8%ae%d9%88%d8%b1-%d9%84%d8%a7%d9%81%d9%8a%d8%b1%d9%86-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "al-wissam-absolute",
@@ -23829,32 +23832,6 @@
       ]
     },
     {
-      "id": "la-dor-bakhur-classic",
-      "name_ar": "La'Dor Bakhur Classic",
-      "name_en": "La'Dor Bakhur Classic",
-      "brand": "Laverne",
-      "dupe_of": [],
-      "image": "images/la-dor-bakhur-classic.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 2800,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/la-dor-bakhur-classic--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/lador-bkhur-classic-200-ml-by-laverne"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
       "id": "chelsea-al-rehab",
       "name_ar": "Chelsea Man",
       "name_en": "Chelsea Man",
@@ -24334,33 +24311,6 @@
       "_hero_source": "og-perfume"
     },
     {
-      "id": "club-de-nuit-lion-heart-man",
-      "name_ar": "Club De Nuit Lion Heart Man",
-      "name_en": "Club De Nuit Lion Heart Man",
-      "brand": "Armaf",
-      "dupe_of": [],
-      "image": "images/club-de-nuit-lion-heart-man.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2300,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/club-de-nuit-lion-heart-man--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/club-de-nuit-lion-heart-man"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
       "id": "desert-rose",
       "name_ar": "Desert Rose",
       "name_en": "Desert Rose",
@@ -24791,9 +24741,26 @@
           ],
           "image": "images/shiyaaka-shadow--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/shiyaaka-shadow-khadlaj"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1550,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/shiyaaka-shadow-special-edition--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/shiyaka-shadow-special-edition"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Shiyaaka Shadow  Special Edition"
+      ]
     },
     {
       "id": "la-sera-valero-uomo",
@@ -26261,33 +26228,6 @@
         }
       ],
       "_hero_source": "MO Shawky"
-    },
-    {
-      "id": "oud-al-layl-outory",
-      "name_ar": "عود الليل من عطوري ١٠٠ملي",
-      "name_en": "Oud Al Layl Outory",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/oud-al-layl-outory.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 675,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/oud-al-layl-outory--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/oud-elleil%d8%b9%d9%88%d8%af-%d8%a7%d9%84%d9%84%d9%8a%d9%84-%d9%85%d9%86-%d8%b9%d8%b7%d9%88%d8%b1%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "klikat-monaya",
@@ -28103,6 +28043,12 @@
               "price": 2150,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 250,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/tobacco-jam-50--eldesoki-fragrances.jpg",
@@ -28144,9 +28090,55 @@
           ],
           "image": "images/tobacco-jam-50--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/tobacco-jam-50-assaf"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 210,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 625,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 40,
+              "price": 860,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 1100,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1800,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/tobacco-jam-assaf--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/tobacco-jam"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Tobacco Jam Assaf"
+      ]
     },
     {
       "id": "vanilla-voyage-maison-asrar",
@@ -31445,52 +31437,6 @@
       ]
     },
     {
-      "id": "pomegranate-musk-ibraq",
-      "name_ar": "مسك الرمان ٧٥ملي من ابراق",
-      "name_en": "Pomegranate Musk",
-      "brand": "Ibrahim Al Qurashi",
-      "dupe_of": [],
-      "image": "images/pomegranate-musk-ibraq.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 75,
-              "price": 1175,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/pomegranate-musk-ibraq--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/%d9%85%d8%b3%d9%83-%d8%b9%d8%a8%d9%82-%d8%a7%d9%84%d8%b1%d9%85%d8%a7%d9%86-%d9%a7%d9%a5%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a5%d8%a8%d8%b1%d8%a7%d9%82/"
-        },
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 200,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 300,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/pomegranate-musk-ibraq--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/ibraq-pomegranate-musk"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "1-million-parfum",
       "name_ar": "",
       "name_en": "1 Million Parfum",
@@ -33102,9 +33048,26 @@
           ],
           "image": "images/frankel-black-elixir--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/frankel-black-elixir"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2450,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/frankel-aventus-black-elixir--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/frankel-aventus-200ml-by-assaf"
         }
       ],
-      "_hero_source": "MO Shawky"
+      "_hero_source": "MO Shawky",
+      "aliases": [
+        "Frankel Aventus Black Elixir"
+      ]
     },
     {
       "id": "jean-lowe-maitre-by-maison-al-hambra",
@@ -34970,7 +34933,39 @@
             }
           ],
           "image": "images/la-dor-bakhur.jpg"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2800,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/la-dor-bakhur-classic--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/lador-bkhur-classic-200-ml-by-laverne"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 1975,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/lador-bakhur-laverne--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/lador-bakhur-laverne-200ml%d9%84%d8%a7%d8%af%d9%88%d8%b1-%d8%a8%d8%ae%d9%88%d8%b1-%d9%84%d8%a7%d9%81%d9%8a%d8%b1%d9%86-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         }
+      ],
+      "aliases": [
+        "La'Dor Bakhur Classic",
+        "Lador Bakhur Laverne"
       ]
     },
     {
@@ -38514,9 +38509,38 @@
           ],
           "image": "images/opus-v-woods-symphony--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/opus-v-woods-symphony"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 540,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 1080,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 1800,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/woods-symphony--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/amouage-woods-symphony"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Woods Symphony"
+      ]
     },
     {
       "id": "sherlock",
@@ -41701,32 +41725,6 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "shiyaaka-snow-special-edition",
-      "name_ar": "Shiyaaka Snow Special Edition",
-      "name_en": "Shiyaaka Snow Special Edition",
-      "brand": "Khadlaj",
-      "dupe_of": [],
-      "image": "images/shiyaaka-snow-special-edition.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1550,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/shiyaaka-snow-special-edition--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/shiyaaka-snow-special-edition"
-        }
-      ],
-      "_hero_source": "emaratiscents"
     },
     {
       "id": "squidward",
@@ -45243,32 +45241,6 @@
           "image": "images/dejan.jpg"
         }
       ]
-    },
-    {
-      "id": "frankel-aventus-black-elixir",
-      "name_ar": "Frankel Aventus Black Elixir",
-      "name_en": "Frankel Aventus Black Elixir",
-      "brand": "Assaf",
-      "dupe_of": [],
-      "image": "images/frankel-aventus-black-elixir.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 2450,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/frankel-aventus-black-elixir--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/frankel-aventus-200ml-by-assaf"
-        }
-      ],
-      "_hero_source": "emaratiscents"
     },
     {
       "id": "caramel-latte",
@@ -67965,53 +67937,6 @@
       "_hero_source": "MO Shawky"
     },
     {
-      "id": "urban-man-amaze",
-      "name_ar": "Urban Man Amaze",
-      "name_en": "Urban Man Amaze",
-      "brand": "Fragrance World",
-      "dupe_of": [],
-      "image": "images/urban-man-amaze.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 125,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 90,
-              "price": 900,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/urban-man-amaze--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/urban-man-amaze"
-        },
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 90,
-              "price": 850,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/urban-man-amaze--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/urban-man-amaze-fragrance-world"
-        }
-      ],
-      "_hero_source": "og-perfume"
-    },
-    {
       "id": "musk-07",
       "name_ar": "Musk 07",
       "name_en": "Musk 07",
@@ -68284,9 +68209,46 @@
           ],
           "image": "images/la-dor-bakhur-white--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/lador-bakhur-valley"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 150,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 425,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 100,
+              "price": 1200,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2400,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/lador-bakhur-valley--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/lador-bakhur-valley"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "LADOR Bakhur Valley"
+      ]
     },
     {
       "id": "bouquet-red",
@@ -70785,75 +70747,6 @@
         }
       ],
       "_hero_source": "Mohamed Mohie"
-    },
-    {
-      "id": "tobacco-jam-assaf",
-      "name_ar": "توباكو چام ٥٠ من عساف تستر ١٠ملي",
-      "name_en": "Tobacco Jam Assaf",
-      "brand": "Assaf",
-      "dupe_of": [],
-      "image": "images/tobacco-jam-assaf.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 250,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/tobacco-jam-assaf--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/tobacco-jam-assaf-10ml%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%da%86%d8%a7%d9%85-%d9%a5%d9%a0-%d9%85%d9%86-%d8%b9%d8%b3%d8%a7%d9%81-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
-        },
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 210,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 625,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 40,
-              "price": 860,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 1100,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1800,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/tobacco-jam-assaf--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/tobacco-jam"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "gentleman-edt-intense",
@@ -79841,10 +79734,46 @@
           ],
           "image": "images/abaq-pomegranate-musk-ibrahim-al-qurashi--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/abaq-pomegranate-musk"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 1175,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/pomegranate-musk-ibraq--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/%d9%85%d8%b3%d9%83-%d8%b9%d8%a8%d9%82-%d8%a7%d9%84%d8%b1%d9%85%d8%a7%d9%86-%d9%a7%d9%a5%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a5%d8%a8%d8%b1%d8%a7%d9%82/"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 200,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 300,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/pomegranate-musk-ibraq--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/ibraq-pomegranate-musk"
         }
       ],
       "_hero_source": "og-perfume",
-      "aliases": []
+      "aliases": [
+        "Pomegranate Musk"
+      ]
     },
     {
       "id": "al-noble-safeer",
@@ -94867,44 +94796,6 @@
       "_hero_source": "eldesoki-fragrances"
     },
     {
-      "id": "woods-symphony",
-      "name_ar": "Woods Symphony",
-      "name_en": "Woods Symphony",
-      "brand": "Amouage",
-      "dupe_of": [],
-      "image": "images/woods-symphony.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 540,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 1080,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 1800,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/woods-symphony--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/amouage-woods-symphony"
-        }
-      ],
-      "_hero_source": "perfuzone"
-    },
-    {
       "id": "l-eau-d-issey-pour-homme-wood-wood",
       "name_ar": "L'Eau D'Issey Pour Homme Wood&Wood",
       "name_en": "L'Eau D'Issey Pour Homme Wood&Wood",
@@ -95438,52 +95329,6 @@
           ],
           "image": "images/blue-laverne-sport--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/blue-laverne-sport-200ml"
-        }
-      ],
-      "_hero_source": "og-perfume"
-    },
-    {
-      "id": "lador-bakhur-valley",
-      "name_ar": "LADOR Bakhur Valley",
-      "name_en": "LADOR Bakhur Valley",
-      "brand": "Laverne",
-      "dupe_of": [],
-      "image": "images/lador-bakhur-valley.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 425,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 100,
-              "price": 1200,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 2400,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/lador-bakhur-valley--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/lador-bakhur-valley"
         }
       ],
       "_hero_source": "og-perfume"
@@ -102390,9 +102235,27 @@
           ],
           "image": "images/club-de-nuit-lion-heart--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/club-de-nuit-lion-heart-10ml%d9%83%d9%84%d9%88%d8%a8-%d8%af%d9%8a-%d9%86%d9%88%d9%8a-%d9%84%d8%a7%d9%8a%d9%88%d9%86-%d9%87%d8%a7%d8%b1%d8%aa-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2300,
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/club-de-nuit-lion-heart-man--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/club-de-nuit-lion-heart-man"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Club De Nuit Lion Heart Man"
+      ]
     },
     {
       "id": "aura-jean-antoine",
@@ -112452,9 +112315,27 @@
           ],
           "image": "images/oud-al-layl--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/oud-al-layl-arabiyat-prestige"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 675,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/oud-al-layl-outory--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/oud-elleil%d8%b9%d9%88%d8%af-%d8%a7%d9%84%d9%84%d9%8a%d9%84-%d9%85%d9%86-%d8%b9%d8%b7%d9%88%d8%b1%d9%8a/"
         }
       ],
-      "_hero_source": "roseperfume"
+      "_hero_source": "roseperfume",
+      "aliases": [
+        "Oud Al Layl Outory"
+      ]
     },
     {
       "id": "amber-grand-pendora-scents",
