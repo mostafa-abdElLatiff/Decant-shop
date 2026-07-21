@@ -118819,6 +118819,44 @@
         }
       ],
       "_hero_source": "og-perfume"
+    },
+    {
+      "id": "invite-only-amber",
+      "name_ar": "Invite Only Amber",
+      "name_en": "Invite Only Amber",
+      "brand": "Kayali",
+      "dupe_of": [],
+      "image": "images/invite-only-amber.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 360,
+              "first_seen": "2026-07-21"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 680,
+              "first_seen": "2026-07-21"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 1100,
+              "first_seen": "2026-07-21"
+            }
+          ],
+          "image": "images/invite-only-amber--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/kayali-invite-only-amber"
+        }
+      ],
+      "_hero_source": "perfuzone"
     }
   ]
 }
