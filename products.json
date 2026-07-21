@@ -43338,8 +43338,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-20"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/rose--emaratiscents.jpg",
@@ -54712,8 +54711,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1450,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/modhesh-noble--emaratiscents.jpg",
@@ -57871,6 +57869,12 @@
               "price": 3200,
               "first_seen": "2026-07-18",
               "sold_since": "2026-07-20"
+            },
+            {
+              "kind": "full",
+              "ml": 255,
+              "price": 3200,
+              "first_seen": "2026-07-21"
             }
           ],
           "image": "images/elite-musk-bundle--emaratiscents.jpg",
@@ -83210,8 +83214,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1650,
-              "first_seen": "2026-07-18"
+              "price": 1450,
+              "first_seen": "2026-07-18",
+              "prev_price": 1650
             }
           ],
           "image": "images/al-nashama-caprice--emaratiscents.jpg",
@@ -111367,8 +111372,7 @@
               "kind": "full",
               "ml": 150,
               "price": 2750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/supremacy-in-oud-luxury-collection--emaratiscents.jpg",
@@ -117904,8 +117908,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1270,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/asad-elixir-limited-edition--emaratiscents.jpg",
@@ -118641,6 +118644,84 @@
         }
       ],
       "_hero_source": "roseperfume"
+    },
+    {
+      "id": "atlas-lattafa",
+      "name_ar": "Atlas",
+      "name_en": "Atlas",
+      "brand": "Lattafa",
+      "dupe_of": [],
+      "image": "images/atlas-lattafa.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 55,
+              "price": 1550,
+              "first_seen": "2026-07-21"
+            }
+          ],
+          "image": "images/atlas-lattafa--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/atlas"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "ameer-al-arab-imperium",
+      "name_ar": "Ameer Al Arab Imperium",
+      "name_en": "Ameer Al Arab Imperium",
+      "brand": "Lattafa",
+      "dupe_of": [],
+      "image": "images/ameer-al-arab-imperium.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 900,
+              "first_seen": "2026-07-21"
+            }
+          ],
+          "image": "images/ameer-al-arab-imperium--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/ameer-al-arab-imperium"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "the-alpha-bundle",
+      "name_ar": "The Alpha Bundle",
+      "name_en": "The Alpha Bundle",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/the-alpha-bundle.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 205,
+              "price": 4200,
+              "first_seen": "2026-07-21"
+            }
+          ],
+          "image": "images/the-alpha-bundle--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/the-alpha-bundle"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
