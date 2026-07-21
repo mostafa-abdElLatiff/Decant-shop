@@ -31340,7 +31340,7 @@
             }
           ],
           "image": "images/code-eau-de-parfum--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/armani-code-eau-de-parfum"
+          "product_url": "https://sniffz-eg.com/products/armani-code-eau-de-parfum-full-sealed"
         }
       ],
       "_hero_source": "sniffz"
@@ -118916,6 +118916,44 @@
         }
       ],
       "_hero_source": "perfuzone"
+    },
+    {
+      "id": "followed-by-kerosene",
+      "name_ar": "",
+      "name_en": "Followed by Kerosene",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/followed-by-kerosene.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 380,
+              "first_seen": "2026-07-21"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 540,
+              "first_seen": "2026-07-21"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 900,
+              "first_seen": "2026-07-21"
+            }
+          ],
+          "image": "images/followed-by-kerosene--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/followed-by-kerosene"
+        }
+      ],
+      "_hero_source": "sniffz"
     }
   ]
 }
