@@ -598,8 +598,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
@@ -52907,7 +52906,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 850,
-              "first_seen": "2026-07-21"
+              "first_seen": "2026-07-21",
+              "sold_since": "2026-07-21"
             },
             {
               "kind": "full",
@@ -79062,14 +79062,14 @@
               "kind": "decant",
               "ml": 10,
               "price": 150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 425,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-21"
             },
             {
               "kind": "leftover",
@@ -82211,8 +82211,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
@@ -113329,6 +113328,33 @@
           ],
           "image": "images/vibrato--mohamed-mohie.jpg",
           "product_url": "https://www.facebook.com/groups/1321209448577265/posts/1951252878906249"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 980,
+              "first_seen": "2026-07-21"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 2800,
+              "first_seen": "2026-07-21",
+              "sold_since": "2026-07-21"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 9500,
+              "first_seen": "2026-07-21"
+            }
+          ],
+          "image": "images/vibrato--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/sospiro-vibrato"
         }
       ],
       "_hero_source": "sniffz"
