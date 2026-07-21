@@ -52874,6 +52874,32 @@
           ],
           "image": "images/eau-de-vintage--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/eau-de-vintage-by-ghalati"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 300,
+              "first_seen": "2026-07-21"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 850,
+              "first_seen": "2026-07-21"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2700,
+              "first_seen": "2026-07-21"
+            }
+          ],
+          "image": "images/eau-de-vintage--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/eau-de-vintage-ghalati"
         }
       ],
       "_hero_source": "MO Shawky",
@@ -62553,14 +62579,14 @@
               "kind": "decant",
               "ml": 10,
               "price": 300,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 850,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-21"
             },
             {
               "kind": "leftover",
@@ -69775,6 +69801,13 @@
               "ml": 30,
               "price": 625,
               "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 40,
+              "price": 760,
+              "first_seen": "2026-07-21",
+              "sold_since": "2026-07-21"
             },
             {
               "kind": "leftover",
@@ -96660,7 +96693,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-21"
             }
           ],
           "image": "images/hawas-for-him-ice--og-perfume.jpg",
@@ -118725,6 +118759,45 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "arrogate-pink-diva",
+      "name_ar": "Arrogate Pink Diva",
+      "name_en": "Arrogate Pink Diva",
+      "brand": "Assaf",
+      "dupe_of": [],
+      "image": "images/arrogate-pink-diva.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 160,
+              "first_seen": "2026-07-21"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 425,
+              "first_seen": "2026-07-21",
+              "sold_since": "2026-07-21"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2600,
+              "first_seen": "2026-07-21"
+            }
+          ],
+          "image": "images/arrogate-pink-diva--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/arrogate-pink-diva"
+        }
+      ],
+      "_hero_source": "og-perfume"
     }
   ]
 }
