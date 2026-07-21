@@ -11642,6 +11642,38 @@
           ],
           "image": "images/vulcan-feu--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/vulcan-feu-by-french-avenue"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 120,
+              "first_seen": "2026-07-21"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 210,
+              "first_seen": "2026-07-21"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 600,
+              "first_seen": "2026-07-21"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1650,
+              "first_seen": "2026-07-21"
+            }
+          ],
+          "image": "images/vulcan-feu--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/vulcan-feu-french-avenue"
         }
       ],
       "_hero_source": "sniffz",
@@ -17702,7 +17734,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2000,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-21"
             }
           ],
           "image": "images/obsidian-french-avenue--roseperfume.jpg",
