@@ -42951,8 +42951,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2750,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-21"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/summer-yellow--emaratiscents.jpg",
@@ -43364,7 +43363,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-22"
             }
           ],
           "image": "images/rose--emaratiscents.jpg",
@@ -84346,7 +84346,8 @@
               "kind": "full",
               "ml": 75,
               "price": 1750,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-22"
             }
           ],
           "image": "images/vanilla-freak--emaratiscents.jpg",
@@ -87624,6 +87625,20 @@
           ],
           "image": "images/pacific-aloha--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/pacific-aloha-rayhaan"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1550,
+              "first_seen": "2026-07-22"
+            }
+          ],
+          "image": "images/pacific-aloha--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/pacific-aloha"
         }
       ],
       "_hero_source": "og-perfume"
@@ -118921,6 +118936,110 @@
         }
       ],
       "_hero_source": "sniffz"
+    },
+    {
+      "id": "muharib-alpha",
+      "name_ar": "Muharib Alpha",
+      "name_en": "Muharib Alpha",
+      "brand": "Le Falcone",
+      "dupe_of": [],
+      "image": "images/muharib-alpha.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 85,
+              "price": 1250,
+              "first_seen": "2026-07-22"
+            }
+          ],
+          "image": "images/muharib-alpha--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/muharib-alpha"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "momento-by-riiffs",
+      "name_ar": "Momento By Riiffs",
+      "name_en": "Momento By Riiffs",
+      "brand": "Riiffs Perfumes",
+      "dupe_of": [],
+      "image": "images/momento-by-riiffs.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2100,
+              "first_seen": "2026-07-22"
+            }
+          ],
+          "image": "images/momento-by-riiffs--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/momento-by-riiffs"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "elyssia-aura",
+      "name_ar": "Elyssia Aura",
+      "name_en": "Elyssia Aura",
+      "brand": "Riiffs Perfumes",
+      "dupe_of": [],
+      "image": "images/elyssia-aura.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1950,
+              "first_seen": "2026-07-22"
+            }
+          ],
+          "image": "images/elyssia-aura--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/elyssia-aura"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "r-spectra-r-surge",
+      "name_ar": "R Spectra & R Surge",
+      "name_en": "R Spectra & R Surge",
+      "brand": "Riiffs",
+      "dupe_of": [],
+      "image": "images/r-spectra-r-surge.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1850,
+              "first_seen": "2026-07-22"
+            }
+          ],
+          "image": "images/r-spectra-r-surge--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/r-spectra-r-surge"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
