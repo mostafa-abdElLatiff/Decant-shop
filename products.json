@@ -116529,7 +116529,7 @@
             }
           ],
           "image": "images/stronger-with-you-parfum--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/emporio-armani-stronger-with-you-parfum-5ml-332"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/emporio-armani-stronger-with-you-parfum-3ml-431"
         },
         {
           "name": "sniffz",
@@ -119127,6 +119127,32 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "pure-musc",
+      "name_ar": "",
+      "name_en": "Pure Musc",
+      "brand": "Narciso Rodriguez",
+      "dupe_of": [],
+      "image": "images/pure-musc.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 185,
+              "first_seen": "2026-07-22"
+            }
+          ],
+          "image": "images/pure-musc--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/narciso-rodriguez-pure-musc-3ml-263"
+        }
+      ],
+      "_hero_source": "MO Shawky"
     }
   ]
 }
