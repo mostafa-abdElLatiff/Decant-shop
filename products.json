@@ -59546,8 +59546,23 @@
             }
           ],
           "image": "images/spartacus.jpg"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1850,
+              "first_seen": "2026-07-22"
+            }
+          ],
+          "image": "images/spartacus--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/spartacus"
         }
-      ]
+      ],
+      "_hero_source": "emaratiscents"
     },
     {
       "id": "ateej",
@@ -72623,8 +72638,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2100,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/shahama--emaratiscents.jpg",
@@ -73697,8 +73711,9 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 2350,
-              "first_seen": "2026-07-18"
+              "price": 2250,
+              "first_seen": "2026-07-18",
+              "prev_price": 2350
             }
           ],
           "image": "images/strike-black--emaratiscents.jpg",
@@ -97702,8 +97717,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2300,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/club-de-nuit-lion-heart--emaratiscents.jpg",
@@ -111477,8 +111491,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-20"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/odyssey-mandarin-sky-elixir--emaratiscents.jpg",
@@ -119042,6 +119055,32 @@
           ],
           "image": "images/r-spectra-r-surge--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/r-spectra-r-surge"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "santorini",
+      "name_ar": "Santorini",
+      "name_en": "Santorini",
+      "brand": "Matin Martin",
+      "dupe_of": [],
+      "image": "images/santorini.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2450,
+              "first_seen": "2026-07-22"
+            }
+          ],
+          "image": "images/santorini--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/santorini"
         }
       ],
       "_hero_source": "emaratiscents"
