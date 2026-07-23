@@ -83,6 +83,14 @@ jobs:
         continue-on-error: true
         run: python sync_og_perfume.py
 
+      - name: Sync feel22
+        continue-on-error: true
+        run: python sync_feel22.py
+
+      - name: Sync mazaya
+        continue-on-error: true
+        run: python sync_mazaya.py
+
       - name: Push commits
         run: git push
 
