@@ -39,6 +39,17 @@ STORE_URL = "https://sniffz-eg.com/"
 STORE_SLUG = slugify(STORE_NAME)
 IMAGES_DIR = CATALOG.parent / "images"
 
+# sniffz's own vendor text is simply wrong for these specific listings —
+# the vendor-derived brand from split_brand_prefix collides with a
+# different, unrelated real brand's name, which breaks find_existing_
+# product's brand-match gate and recreates a duplicate product on every
+# sync. "Aether" has done this twice now (confirmed via bottle photo it's
+# French Avenue's "Aether Extrait", not "Fragrance World" — sniffz's own
+# listing title is literally "Fragrance World Aether").
+PRODUCT_BRAND_OVERRIDES = {
+    "aether": "French Avenue",
+}
+
 # (collection handle, offer kind)
 COLLECTIONS = [
     ("summer-samples", "decant"),
@@ -139,6 +150,7 @@ def parse_product(p, kind: str):
     title = p["title"].strip()
     title = re.sub(r"\s*Full\s*&\s*Sealed\s*$", "", title, flags=re.I).strip()
     name_en, brand = split_brand_prefix(title)
+    brand = PRODUCT_BRAND_OVERRIDES.get(name_en.strip().lower(), brand)
 
     # a sold-out variant still gets synced (with its price) rather than
     # skipped — reconcile_offers() marks it "sold" immediately instead of
