@@ -597,6 +597,18 @@ BRAND_GENERIC_WORDS = {"men", "women", "unisex", "fragrance", "fragrances", "per
 # 0.6 overlap threshold and risking a false merge between them.
 
 
+# Deliberately separate from STOPWORDS (which _tokens() strips
+# unconditionally for every comparison, including the strict second pass
+# in find_existing_product) — concentration words are NOT safe to strip
+# unconditionally, since sometimes they're the actual distinguishing
+# feature between two real, separately-sold products (e.g. "Legend EDT"
+# vs "Legend EDP", or Bleu de Chanel's three genuinely different EDT/EDP/
+# Parfum releases). Only used by find_existing_product's third, most
+# cautious pass — see there for why it's safe in that narrower context.
+GENERIC_CONCENTRATION_WORDS = {"eau", "de", "du", "des", "la", "le", "parfum", "perfum",
+                                "toilette", "edp", "edt", "perfume", "cologne", "spray"}
+
+
 def _tokens(text: str) -> set:
     text = unicodedata.normalize("NFKD", text or "").encode("ascii", "ignore").decode()
     return set(re.sub(r"[^a-z0-9]+", " ", text.lower()).split()) - STOPWORDS
@@ -766,7 +778,25 @@ def find_existing_product(catalog: dict, name_en: str, brand: str = ""):
     genuinely different fragrances' offers together with no visible
     trace, which is worse than the duplicate it would occasionally fix.
     Surfaced instead via find_duplicates.py's report for a human to
-    confirm — see find_typo_candidates() below."""
+    confirm — see find_typo_candidates() below.
+
+    A third, most-cautious pass handles a name like "Asad" vs "Asad Eau de
+    Parfum" — the same product, one side just stating the concentration
+    and the other not — which the strict second pass above deliberately
+    does NOT match (core token sets aren't equal). Stripping concentration
+    words (GENERIC_CONCENTRATION_WORDS) and retrying is NOT safe in
+    general: tested against this catalog's real data, it also collapses
+    "Legend EDT" into "Legend EDP" and Bleu de Chanel's three genuinely
+    different EDT/EDP/Parfum releases into one — real, separately-sold
+    products this catalog already tracks apart. The difference between
+    that failure and the "Asad" success: whether the catalog already has
+    MULTIPLE existing products at that same stripped identity. If it does,
+    concentration demonstrably matters for this fragrance and the pass
+    abstains; if there's exactly one, there's nothing to disambiguate
+    against and it's safe to treat the concentration-suffixed name as the
+    same product. (Confirmed on the real catalog before wiring this in:
+    97 correct matches — e.g. "Qaed Al Fursan", "Al Wisam", "Oud Mood" —
+    against 25 correctly-abstained families like the two above.)"""
     exact_id = slugify(name_en)
     name_key = re.sub(r"\s+", " ", (name_en or "").strip().lower())
     for p in catalog["products"]:
@@ -791,6 +821,22 @@ def find_existing_product(catalog: dict, name_en: str, brand: str = ""):
             continue
         if _brands_match(p.get("brand", ""), brand):
             return p
+
+    stripped_incoming = base_core - GENERIC_CONCENTRATION_WORDS
+    if not stripped_incoming:
+        return None
+    candidates = []
+    for p in catalog["products"]:
+        p_brand_tokens = _brand_tokens(p.get("brand", ""))
+        p_stripped = _tokens(p["name_en"]) - p_brand_tokens - GENERIC_CONCENTRATION_WORDS
+        if p_stripped != stripped_incoming:
+            continue
+        if len(p_stripped) < 2 and not p_brand_tokens:
+            continue
+        if _brands_match(p.get("brand", ""), brand):
+            candidates.append(p)
+    if len(candidates) == 1:
+        return candidates[0]
     return None
 
 
