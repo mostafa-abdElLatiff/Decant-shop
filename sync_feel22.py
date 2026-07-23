@@ -79,6 +79,17 @@ ML_TRAILING_RE = re.compile(r"[\s\-]*\(?\s*(\d+)\s*ml\)?\s*$", re.I)
 ML_VARIANT_RE = re.compile(r"(\d+)\s*ml", re.I)
 NON_PERFUME_KW = ["deodorant", "deodrant", "body spray", "candle", "diffuser", "air freshener", "gift set", "set of"]
 
+# feel22 appends "For Men"/"For Him"/"For Her"/"For Women" to nearly every
+# title as a collection tag, not as part of the actual product name — same
+# generic-marketing-boilerplate situation as "Pour Homme" elsewhere in this
+# catalog, and it shows up ANYWHERE in the string ("CK IN2U For Men Eau De
+# Toilette", "1981 For Men Eau De Toilette"), not just at the end, so this
+# strips it wherever it appears rather than only trailing. Deliberately
+# leaves bare "Man"/"Woman" (no "For") alone — those are sometimes a real
+# part of the official product name (e.g. a "<Line> Man" flanker), unlike
+# "For Men" which no real fragrance is actually titled.
+GENDER_MARKETING_RE = re.compile(r"\s*\bfor\s+(?:men|him|her|women)\b\s*", re.I)
+
 
 def fetch_url(url: str, attempts: int = 5) -> bytes:
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
@@ -120,6 +131,13 @@ def parse_product(p: dict):
     variants = p.get("variants") or []
     if not variants:
         return None
+
+    # strip early so it can't strand a dangling "For Him" after the size
+    # (e.g. "...100ml For Him"), which would otherwise defeat the
+    # trailing-ml stripping below, and so it doesn't get in the way of the
+    # brand-prefix checks either.
+    title = GENDER_MARKETING_RE.sub(" ", title).strip()
+    title = re.sub(r"\s+", " ", title)
 
     brand = normalize_brand(p.get("vendor") or "")
     name_en = title

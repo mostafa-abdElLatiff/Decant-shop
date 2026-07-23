@@ -102,6 +102,11 @@ def smart_title(text: str) -> str:
 ML_ANY_RE = re.compile(r"(\d+)\s*m[li]\b", re.I)
 ML_LABEL_RE = re.compile(r"(\d+)\s*m[li]", re.I)
 
+# same generic-marketing-boilerplate situation as sync_feel22.py's
+# GENDER_MARKETING_RE — this store tags a chunk of listings "FOR MEN"/"FOR
+# WOMEN" too, not as part of the real product name.
+GENDER_MARKETING_RE = re.compile(r"\s*\bfor\s+(?:men|him|her|women)\b\s*", re.I)
+
 
 def fetch_page(uid: str, page: int, attempts: int = 5) -> dict:
     payload = json.dumps({"query": QUERY, "variables": {"uid": uid, "page": page, "size": PAGE_SIZE}}).encode()
@@ -159,6 +164,12 @@ def parse_product(p: dict):
     raw_name = (p.get("name") or "").strip()
     if not raw_name:
         return None
+    # strip early, same rationale as sync_feel22.py: it can otherwise
+    # strand itself after a size mention and get in the way of the
+    # size/brand parsing below.
+    raw_name = GENDER_MARKETING_RE.sub(" ", raw_name).strip()
+    raw_name = re.sub(r"\s+", " ", raw_name)
+
     brand_raw = ((p.get("brand") or {}).get("name") or "").strip()
     brand = smart_title(brand_raw) if brand_raw.isupper() else brand_raw
 
