@@ -20342,8 +20342,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 500,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -20356,8 +20355,7 @@
               "kind": "full",
               "ml": 60,
               "price": 2850,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/marj--og-perfume.jpg",
@@ -33303,8 +33301,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/kaaf--og-perfume.jpg",
@@ -42189,15 +42186,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 205,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 575,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -42210,8 +42205,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/panache-angel-dust--og-perfume.jpg",
@@ -60233,7 +60227,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 145,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-24"
             },
             {
               "kind": "decant",
@@ -73281,7 +73276,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2800,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-24"
             }
           ],
           "image": "images/illusion-matin-martin--og-perfume.jpg",
@@ -151199,6 +151195,82 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "ria",
+      "name_ar": "Ria",
+      "name_en": "Ria",
+      "brand": "Khadlaj",
+      "dupe_of": [],
+      "image": "images/ria.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 175,
+              "first_seen": "2026-07-24"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 475,
+              "first_seen": "2026-07-24"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1450,
+              "first_seen": "2026-07-24"
+            }
+          ],
+          "image": "images/ria--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/ria-khadlaj"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "hawas-reina",
+      "name_ar": "Hawas Reina",
+      "name_en": "Hawas Reina",
+      "brand": "Rasasi",
+      "dupe_of": [],
+      "image": "images/hawas-reina.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 225,
+              "first_seen": "2026-07-24"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 650,
+              "first_seen": "2026-07-24"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1950,
+              "first_seen": "2026-07-24"
+            }
+          ],
+          "image": "images/hawas-reina--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/hawas-reina"
+        }
+      ],
+      "_hero_source": "og-perfume"
     }
   ]
 }
