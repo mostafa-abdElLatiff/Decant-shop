@@ -1336,8 +1336,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1950,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-20"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/magnetiq--dar-elarabia.jpg",
@@ -17997,7 +17996,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2200,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-25"
             }
           ],
           "image": "images/obsidian-french-avenue--dar-elarabia.jpg",
@@ -33236,6 +33236,20 @@
           ],
           "image": "images/nabatieh--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/nabtieh-french-avenue"
+        },
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1900,
+              "first_seen": "2026-07-25"
+            }
+          ],
+          "image": "images/nabatieh--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/nabatieh"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -40762,8 +40776,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1850,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-24"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/safari-breeze--dar-elarabia.jpg",
@@ -52763,6 +52776,20 @@
             }
           ],
           "image": "images/hersh-lahab-hersh.jpg"
+        },
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2700,
+              "first_seen": "2026-07-25"
+            }
+          ],
+          "image": "images/hersh-lahab-hersh--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/hersh-lahab"
         }
       ],
       "_hero_source": "og-perfume",
@@ -57565,6 +57592,20 @@
           ],
           "image": "images/fierte-luna--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/fierte-luna-french-avenue"
+        },
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2200,
+              "first_seen": "2026-07-25"
+            }
+          ],
+          "image": "images/fierte-luna--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/fierte-luna"
         }
       ],
       "_hero_source": "og-perfume"
@@ -104675,6 +104716,20 @@
           ],
           "image": "images/marmara--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/marmara-french-avenue"
+        },
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1950,
+              "first_seen": "2026-07-25"
+            }
+          ],
+          "image": "images/marmara--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/marmara"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -151598,6 +151653,58 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "fierte",
+      "name_ar": "Fierte",
+      "name_en": "Fierte",
+      "brand": "French Avenue",
+      "dupe_of": [],
+      "image": "images/fierte.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2200,
+              "first_seen": "2026-07-25"
+            }
+          ],
+          "image": "images/fierte--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/fierte"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "hersh-mahwar",
+      "name_ar": "Hersh Mahwar",
+      "name_en": "Hersh Mahwar",
+      "brand": "Al Ezz Oud",
+      "dupe_of": [],
+      "image": "images/hersh-mahwar.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2900,
+              "first_seen": "2026-07-25"
+            }
+          ],
+          "image": "images/hersh-mahwar--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/hersh-mahwar"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
     }
   ]
 }
