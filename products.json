@@ -15714,7 +15714,8 @@
               "kind": "full",
               "ml": 90,
               "price": 1750,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-25"
             }
           ],
           "image": "images/shuhrah-elixir--emaratiscents.jpg",
@@ -17402,7 +17403,8 @@
               "kind": "full",
               "ml": 80,
               "price": 1250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-25"
             }
           ],
           "image": "images/exotic-neroli--emaratiscents.jpg",
@@ -21739,7 +21741,8 @@
               "kind": "full",
               "ml": 80,
               "price": 1260,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-25"
             }
           ],
           "image": "images/fusion-intense--emaratiscents.jpg",
@@ -23638,8 +23641,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/shouq--emaratiscents.jpg",
@@ -34349,7 +34351,8 @@
               "kind": "full",
               "ml": 200,
               "price": 2200,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-25"
             }
           ],
           "image": "images/klikat-monaya--emaratiscents.jpg",
@@ -37949,7 +37952,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-25"
             }
           ],
           "image": "images/maahir-honor--emaratiscents.jpg",
@@ -46357,7 +46361,8 @@
               "kind": "full",
               "ml": 100,
               "price": 7850,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-25"
             }
           ],
           "image": "images/al-fareed--emaratiscents.jpg",
@@ -66045,7 +66050,8 @@
               "kind": "full",
               "ml": 100,
               "price": 880,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-25"
             }
           ],
           "image": "images/santorini-beaches--emaratiscents.jpg",
@@ -68977,7 +68983,8 @@
               "kind": "full",
               "ml": 75,
               "price": 3700,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-25"
             }
           ],
           "image": "images/grey-diamond-collection--emaratiscents.jpg",
@@ -73749,7 +73756,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-25"
             }
           ],
           "image": "images/frankel-elysium--emaratiscents.jpg",
@@ -92164,7 +92172,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-25"
             }
           ],
           "image": "images/eclaire-affair--emaratiscents.jpg",
@@ -95149,8 +95158,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1370,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-22"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/shuhrah--emaratiscents.jpg",
@@ -118244,7 +118252,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-25"
             }
           ],
           "image": "images/veneno-black--emaratiscents.jpg",
@@ -119431,7 +119440,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1480,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-25"
             }
           ],
           "image": "images/dynasty--emaratiscents.jpg",
@@ -121898,6 +121908,20 @@
           ],
           "image": "images/ra-ed-absolu--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/raed-absolu-lattafa-perfumes"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1150,
+              "first_seen": "2026-07-25"
+            }
+          ],
+          "image": "images/ra-ed-absolu--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/raed-absolu"
         }
       ],
       "_hero_source": "roseperfume"
@@ -151444,6 +151468,136 @@
         }
       ],
       "_hero_source": "og-perfume"
+    },
+    {
+      "id": "ra-ed-intensly",
+      "name_ar": "Ra'Ed Intensly",
+      "name_en": "Ra'Ed Intensly",
+      "brand": "Lattafa",
+      "dupe_of": [],
+      "image": "images/ra-ed-intensly.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1150,
+              "first_seen": "2026-07-25"
+            }
+          ],
+          "image": "images/ra-ed-intensly--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/raed-intensly"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "entebaa-for-men",
+      "name_ar": "Entebaa For Men",
+      "name_en": "Entebaa For Men",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/entebaa-for-men.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1390,
+              "first_seen": "2026-07-25"
+            }
+          ],
+          "image": "images/entebaa-for-men--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/entebaa-for-men"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "qannas",
+      "name_ar": "Qannas",
+      "name_en": "Qannas",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/qannas.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 1250,
+              "first_seen": "2026-07-25"
+            }
+          ],
+          "image": "images/qannas--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/qannas"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "sherif",
+      "name_ar": "Sherif",
+      "name_en": "Sherif",
+      "brand": "Lattafa",
+      "dupe_of": [],
+      "image": "images/sherif.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1350,
+              "first_seen": "2026-07-25"
+            }
+          ],
+          "image": "images/sherif--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/sherif"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "affection",
+      "name_ar": "Affection",
+      "name_en": "Affection",
+      "brand": "Lattafa",
+      "dupe_of": [],
+      "image": "images/affection.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1600,
+              "first_seen": "2026-07-25"
+            }
+          ],
+          "image": "images/affection--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/affection"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
