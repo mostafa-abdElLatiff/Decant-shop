@@ -4761,21 +4761,21 @@
               "ml": 3,
               "price": 300,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-07-24"
+              "sold_since": "2026-07-25"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 410,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-07-24"
+              "sold_since": "2026-07-25"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 650,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-07-24"
+              "sold_since": "2026-07-25"
             },
             {
               "kind": "full",
@@ -22628,9 +22628,35 @@
           ],
           "image": "images/le-male-in-blue--mohamed-mohie.jpg",
           "product_url": "https://www.facebook.com/groups/1321209448577265/posts/1951252878906249"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 275,
+              "first_seen": "2026-07-25"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 380,
+              "first_seen": "2026-07-25"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 600,
+              "first_seen": "2026-07-25"
+            }
+          ],
+          "image": "images/le-male-in-blue--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/jean-paul-gaultier-le-male-in-blue"
         }
       ],
-      "_hero_source": "Mohamed Mohie"
+      "_hero_source": "sniffz"
     },
     {
       "id": "amber-oud-aqua-dubai-extrait-de-parfum",
@@ -22966,6 +22992,32 @@
           ],
           "image": "images/aristo--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/aristo-arabiyat-prestige"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 115,
+              "first_seen": "2026-07-25"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 150,
+              "first_seen": "2026-07-25"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 230,
+              "first_seen": "2026-07-25"
+            }
+          ],
+          "image": "images/aristo--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/arabiyat-prestige-aristo"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -24923,7 +24975,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1500,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-25"
             }
           ],
           "image": "images/marwa--sniffz.jpg",
@@ -34955,9 +35008,35 @@
           ],
           "image": "images/myslf-edt-intense--mohamed-mohie.jpg",
           "product_url": "https://www.facebook.com/groups/1321209448577265/posts/1951252878906249"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 275,
+              "first_seen": "2026-07-25"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 380,
+              "first_seen": "2026-07-25"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 600,
+              "first_seen": "2026-07-25"
+            }
+          ],
+          "image": "images/myslf-edt-intense--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/yves-saint-laurent-myslf-eau-de-toilette-intense"
         }
       ],
-      "_hero_source": "Mohamed Mohie"
+      "_hero_source": "sniffz"
     },
     {
       "id": "fleur-majesty-rose-royale",
