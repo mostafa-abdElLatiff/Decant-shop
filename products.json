@@ -33707,6 +33707,26 @@
           ],
           "image": "images/9am-dive--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/9-am-by-afnan"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 150,
+              "first_seen": "2026-07-25"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 250,
+              "first_seen": "2026-07-25"
+            }
+          ],
+          "image": "images/9am-dive--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/afnan-9am-dive"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -51303,7 +51323,8 @@
               "kind": "decant",
               "ml": 5,
               "price": 1900,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-25"
             },
             {
               "kind": "decant",
