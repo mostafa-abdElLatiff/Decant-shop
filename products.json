@@ -123491,6 +123491,20 @@
           ],
           "image": "images/man-in-black-eau-de-parfum--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/bvlgari-man-in-black-eau-de-parfum-for-men"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 9900,
+              "first_seen": "2026-07-26"
+            }
+          ],
+          "image": "images/man-in-black-eau-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/bvlgari-man-in-black123455-html123"
         }
       ],
       "_hero_source": "feel22"
@@ -126756,6 +126770,21 @@
           ],
           "image": "images/viktor-rolf-spicebomb-eau-de-toilette--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/copy-of-viktor-rolf-spicebomb-extreme-eau-de-parfum-for-men"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 7590,
+              "first_seen": "2026-07-26",
+              "sold_since": "2026-07-26"
+            }
+          ],
+          "image": "images/viktor-rolf-spicebomb-eau-de-toilette--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/spicebomb-by-viktor-rolf-for-men-eau-de-toilette123455-html"
         }
       ],
       "_hero_source": "feel22"
@@ -141123,7 +141152,8 @@
               "kind": "full",
               "ml": 100,
               "price": 5280,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-26"
             }
           ],
           "image": "images/mercedes-benz-eau-de-parfum--mazaya.jpg",
@@ -143067,6 +143097,20 @@
               "price": 5560,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 8215,
+              "first_seen": "2026-07-26",
+              "sold_since": "2026-07-26"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 9845,
+              "first_seen": "2026-07-26",
+              "sold_since": "2026-07-26"
             }
           ],
           "image": "images/pasha-de-cartier-parfum--mazaya.jpg",
@@ -151448,6 +151492,13 @@
               "ml": 100,
               "price": 5740,
               "first_seen": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 6710,
+              "first_seen": "2026-07-26",
+              "sold_since": "2026-07-26"
             }
           ],
           "image": "images/ck-defy-edp--mazaya.jpg",
@@ -152403,6 +152454,33 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "givenchy-men-s-gentleman-intense-edt",
+      "name_ar": "Givenchy Men's Gentleman Intense EDT",
+      "name_en": "Givenchy Men's Gentleman Intense EDT",
+      "brand": "Givenchy",
+      "dupe_of": [],
+      "image": "images/givenchy-men-s-gentleman-intense-edt.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 6945,
+              "first_seen": "2026-07-26",
+              "sold_since": "2026-07-26"
+            }
+          ],
+          "image": "images/givenchy-men-s-gentleman-intense-edt--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/givenchy-men-s-gentleman-intense-edt"
+        }
+      ],
+      "_hero_source": "mazaya"
     }
   ]
 }
