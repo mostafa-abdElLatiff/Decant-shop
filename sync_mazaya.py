@@ -215,6 +215,17 @@ def parse_product(p: dict):
     if not offers:
         return None
 
+    # unlike a Shopify vendor field, this store's `name` routinely repeats
+    # the brand as a leading word too (e.g. brand "Marly", name "MARLY
+    # LAYTON EXCLUSIF") — strip_redundant_brand_suffix only handles a
+    # trailing restatement, so a leading one was passing straight through
+    # into the catalog as "Marly Layton Exclusif" instead of "Layton
+    # Exclusif", which also meant a from-scratch product got created
+    # instead of matching the "Layton Exclusif" already scraped from other
+    # stores under the bare name.
+    if brand and name_en.lower().startswith(brand.lower() + " "):
+        name_en = name_en[len(brand):].strip()
+
     if is_all_upper:
         name_en = smart_title(name_en)
     if brand:
