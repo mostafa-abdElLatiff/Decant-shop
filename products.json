@@ -4758,21 +4758,21 @@
               "ml": 3,
               "price": 300,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-07-25"
+              "sold_since": "2026-07-26"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 410,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-07-25"
+              "sold_since": "2026-07-26"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 650,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-07-25"
+              "sold_since": "2026-07-26"
             },
             {
               "kind": "full",
@@ -24920,8 +24920,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1500,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-07-25"
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/marwa--sniffz.jpg",
@@ -32034,27 +32033,6 @@
           "url": "https://sniffz-eg.com/",
           "offers": [
             {
-              "kind": "decant",
-              "ml": 3,
-              "price": 290,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 370,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 570,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
               "kind": "full",
               "ml": 100,
               "price": 5500,
@@ -36136,7 +36114,7 @@
               "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/x-french-avenue-x-xandal--sniffz.jpg",
+          "image": "images/x-xandal--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/aromatix-x-french-avenue-x-xandal"
         }
       ],
@@ -64334,7 +64312,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2450,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-26"
             }
           ],
           "image": "images/hersh-2-hersh--sniffz.jpg",
@@ -113239,19 +113218,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 550,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-26"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 780,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-26"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 1300,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-26"
             },
             {
               "kind": "full",
@@ -121168,19 +121150,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 120,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-26"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 150,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-26"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 250,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-26"
             },
             {
               "kind": "full",
@@ -121189,8 +121174,8 @@
               "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/elixir--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/rayhaan-elixir"
+          "image": "images/rayhaan-elixir--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/rayhaan-elixir-full-sealed"
         },
         {
           "name": "perfuzone",
