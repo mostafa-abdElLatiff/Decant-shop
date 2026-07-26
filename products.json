@@ -18192,7 +18192,7 @@
               "first_seen": "2026-07-23"
             }
           ],
-          "image": "images/giorgio-armani-acqua-di-gio-parfum--feel22.jpg",
+          "image": "images/acqua-di-gi-parfum--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/giorgio-armani-acqua-di-gio-parfum-for-men-75ml"
         }
       ],
@@ -52044,7 +52044,7 @@
               "first_seen": "2026-07-26"
             }
           ],
-          "image": "images/eau-fraiche-eau-de-toilette--feel22.jpg",
+          "image": "images/man-eau-fraiche--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/versace-eau-fraiche-eau-de-toilette-for-men"
         }
       ],
@@ -89586,7 +89586,7 @@
               "first_seen": "2026-07-23"
             }
           ],
-          "image": "images/club-de-nuit-intense-perfume--feel22.jpg",
+          "image": "images/club-de-nuit-intense-man--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/copy-of-armaf-club-de-nuit-intense-eau-de-perfume-for-men"
         },
         {
@@ -152194,6 +152194,64 @@
         }
       ],
       "_hero_source": "mazaya"
+    },
+    {
+      "id": "club-de-nuit-intense-eau-de-toilette",
+      "name_ar": "Club De Nuit Intense Eau de Toilette",
+      "name_en": "Club De Nuit Intense Eau de Toilette",
+      "brand": "Armaf",
+      "dupe_of": [],
+      "image": "images/club-de-nuit-intense-eau-de-toilette.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 105,
+              "price": 2396,
+              "first_seen": "2026-07-26"
+            }
+          ],
+          "image": "images/club-de-nuit-intense-eau-de-toilette--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/armaf-club-de-nuit-intense-eau-de-toilette-for-men-105ml"
+        }
+      ],
+      "_hero_source": "feel22"
+    },
+    {
+      "id": "club-de-nuit-blue-iconic-eau-de-parfum",
+      "name_ar": "Club de Nuit Blue Iconic Eau de Parfum",
+      "name_en": "Club de Nuit Blue Iconic Eau de Parfum",
+      "brand": "Armaf",
+      "dupe_of": [],
+      "image": "images/club-de-nuit-blue-iconic-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 105,
+              "price": 2679,
+              "first_seen": "2026-07-26"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 4888,
+              "first_seen": "2026-07-26"
+            }
+          ],
+          "image": "images/club-de-nuit-blue-iconic-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/armaf-club-de-nuit-blue-iconic-eau-de-parfum-for-men"
+        }
+      ],
+      "_hero_source": "feel22"
     }
   ]
 }
