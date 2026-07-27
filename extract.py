@@ -797,20 +797,40 @@ def find_existing_product(catalog: dict, name_en: str, brand: str = ""):
     same product. (Confirmed on the real catalog before wiring this in:
     97 correct matches — e.g. "Qaed Al Fursan", "Al Wisam", "Oud Mood" —
     against 25 correctly-abstained families like the two above.)"""
+    # When the incoming brand is blank, _brands_match auto-passes against
+    # ANY candidate's brand — fine when there's only one product with this
+    # name, but when the same generic name genuinely exists under two
+    # different real brands (e.g. "Leather" by Ahmed Al Maghribi AND by
+    # Dkhoon Emirates — both real, both already in this catalog), picking
+    # the first match found would silently attach this run's price/offer
+    # data to whichever one happens to be wrong. Confirmed this is a live
+    # risk, not hypothetical: auditing emaratiscents' current listings
+    # against extract_brand() found 6 such same-name-different-brand
+    # pairs where a blank-brand re-scrape would land ambiguously. So a
+    # blank incoming brand requires the match to be UNIQUE; a non-blank
+    # brand keeps the original first-match behavior (brand mismatches are
+    # already filtered out by _brands_match by that point).
     exact_id = slugify(name_en)
     name_key = re.sub(r"\s+", " ", (name_en or "").strip().lower())
+    exact_matches = []
     for p in catalog["products"]:
         p_name_key = re.sub(r"\s+", " ", (p.get("name_en") or "").strip().lower())
         alias_keys = {re.sub(r"\s+", " ", a.strip().lower()) for a in p.get("aliases", [])}
         id_still_current = p["id"] == exact_id and slugify(p.get("name_en") or "") == p["id"]
         if (id_still_current or (name_key and (p_name_key == name_key or name_key in alias_keys))) \
                 and _brands_match(p.get("brand", ""), brand):
-            return p
+            if not brand:
+                exact_matches.append(p)
+            else:
+                return p
+    if len(exact_matches) == 1:
+        return exact_matches[0]
 
     search_brand_tokens = _brand_tokens(brand)
     base_core = _tokens(name_en) - search_brand_tokens
     if not base_core:
         return None
+    fuzzy_matches = []
     for p in catalog["products"]:
         p_brand_tokens = _brand_tokens(p.get("brand", ""))
         p_core = _tokens(p["name_en"]) - p_brand_tokens
@@ -820,7 +840,12 @@ def find_existing_product(catalog: dict, name_en: str, brand: str = ""):
         if len(core) < 2 and not p_brand_tokens:
             continue
         if _brands_match(p.get("brand", ""), brand):
-            return p
+            if not brand:
+                fuzzy_matches.append(p)
+            else:
+                return p
+    if len(fuzzy_matches) == 1:
+        return fuzzy_matches[0]
 
     stripped_incoming = base_core - GENERIC_CONCENTRATION_WORDS
     if not stripped_incoming:
