@@ -14563,11 +14563,63 @@
           ],
           "image": "images/fakhar-black--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/fakhar-lattafa-men-by-lattafa"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 700,
+              "first_seen": "2026-07-27",
+              "sold_since": "2026-07-27"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1175,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/fakhar-lattafa-silver--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/fakhar-silver-50ml%d9%81%d8%ae%d8%b1-%d8%b3%d9%8a%d9%84%d9%81%d8%b1-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1390,
+              "first_seen": "2026-07-23"
+            }
+          ],
+          "image": "images/fakhar-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/lattafa-fakhar-eau-de-parfum-for-men-100ml"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1290,
+              "first_seen": "2026-07-23"
+            }
+          ],
+          "image": "images/spray-fakhar-lattafa-man--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/spray-fakhar-lattafa-man-100-ml"
         }
       ],
       "_hero_source": "sniffz",
       "aliases": [
-        "Fakhar Lattafa Men"
+        "Fakhar Lattafa Men",
+        "Fakhar Lattafa Silver",
+        "Fakhar Eau de Parfum",
+        "Spray Fakhar Lattafa Man"
       ]
     },
     {
@@ -36448,32 +36500,6 @@
       "_hero_source": "emaratiscents"
     },
     {
-      "id": "fakhar-lattafa-extrait-eau-de-parfum",
-      "name_ar": "Fakhar Lattafa Extrait Eau de Parfum",
-      "name_en": "Fakhar Lattafa Extrait Eau de Parfum",
-      "brand": "Lattafa",
-      "dupe_of": [],
-      "image": "images/fakhar-lattafa-extrait-eau-de-parfum.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "feel22",
-          "url": "https://eg.feel22.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1555,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/fakhar-lattafa-extrait-eau-de-parfum--feel22.jpg",
-          "product_url": "https://eg.feel22.com/products/lattafa-fakhar-lattafa-extrait-eau-de-parfum-100ml"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
       "id": "brit-eau-de-toilette",
       "name_ar": "Brit Eau De Toilette",
       "name_en": "Brit Eau De Toilette",
@@ -37647,38 +37673,6 @@
         }
       ],
       "_hero_source": "mazaya"
-    },
-    {
-      "id": "club-de-nuit-blue-iconic-eau-de-parfum",
-      "name_ar": "Club de Nuit Blue Iconic Eau de Parfum",
-      "name_en": "Club de Nuit Blue Iconic Eau de Parfum",
-      "brand": "Armaf",
-      "dupe_of": [],
-      "image": "images/club-de-nuit-blue-iconic-eau-de-parfum.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "feel22",
-          "url": "https://eg.feel22.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 105,
-              "price": 2679,
-              "first_seen": "2026-07-26"
-            },
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 4888,
-              "first_seen": "2026-07-26"
-            }
-          ],
-          "image": "images/club-de-nuit-blue-iconic-eau-de-parfum--feel22.jpg",
-          "product_url": "https://eg.feel22.com/products/armaf-club-de-nuit-blue-iconic-eau-de-parfum-for-men"
-        }
-      ],
-      "_hero_source": "feel22"
     },
     {
       "id": "ansaam-silver",
@@ -53141,33 +53135,6 @@
       "aliases": [
         "Musk 07 Edp"
       ]
-    },
-    {
-      "id": "spray-fakhar-lattafa-extrait",
-      "name_ar": "Spray Fakhar Lattafa Extrait",
-      "name_en": "Spray Fakhar Lattafa Extrait",
-      "brand": "Lattafa",
-      "dupe_of": [],
-      "image": "images/spray-fakhar-lattafa-extrait.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1290,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
-            }
-          ],
-          "image": "images/spray-fakhar-lattafa-extrait--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/spray-fakhar-lattafa-extrait-100ml"
-        }
-      ],
-      "_hero_source": "mazaya"
     },
     {
       "id": "shalimar-l-essence",
@@ -80953,32 +80920,6 @@
       "_hero_source": "sniffz"
     },
     {
-      "id": "fakhar-eau-de-parfum",
-      "name_ar": "Fakhar Eau de Parfum",
-      "name_en": "Fakhar Eau de Parfum",
-      "brand": "Lattafa",
-      "dupe_of": [],
-      "image": "images/fakhar-eau-de-parfum.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "feel22",
-          "url": "https://eg.feel22.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1390,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/fakhar-eau-de-parfum--feel22.jpg",
-          "product_url": "https://eg.feel22.com/products/lattafa-fakhar-eau-de-parfum-for-men-100ml"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
       "id": "khanjar",
       "name_ar": "Khanjar",
       "name_en": "Khanjar",
@@ -84958,9 +84899,42 @@
           ],
           "image": "images/fakhar-extrait-lattafa-perfumes--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/fakhar-lattafa-extrait"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1555,
+              "first_seen": "2026-07-23"
+            }
+          ],
+          "image": "images/fakhar-lattafa-extrait-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/lattafa-fakhar-lattafa-extrait-eau-de-parfum-100ml"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1290,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-23"
+            }
+          ],
+          "image": "images/spray-fakhar-lattafa-extrait--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/spray-fakhar-lattafa-extrait-100ml"
         }
       ],
-      "_hero_source": "roseperfume"
+      "_hero_source": "roseperfume",
+      "aliases": [
+        "Fakhar Lattafa Extrait Eau de Parfum",
+        "Spray Fakhar Lattafa Extrait"
+      ]
     },
     {
       "id": "match-point-eau-de-parfum",
@@ -109887,39 +109861,6 @@
         }
       ],
       "_hero_source": "og-perfume"
-    },
-    {
-      "id": "fakhar-lattafa-silver",
-      "name_ar": "فخر لطافة سيلفر ١٠٠ملي",
-      "name_en": "Fakhar Lattafa Silver",
-      "brand": "Lattafa",
-      "dupe_of": [],
-      "image": "images/fakhar-lattafa-silver.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 700,
-              "first_seen": "2026-07-27",
-              "sold_since": "2026-07-27"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1175,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/fakhar-lattafa-silver--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/fakhar-silver-50ml%d9%81%d8%ae%d8%b1-%d8%b3%d9%8a%d9%84%d9%81%d8%b1-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "plum-liquor",
@@ -141741,7 +141682,8 @@
       ],
       "_hero_source": "eldesoki-fragrances",
       "aliases": [
-        "Club De Nuit Blue Iconic"
+        "Club De Nuit Blue Iconic",
+        "Club de Nuit Blue Iconic Eau de Parfum"
       ]
     },
     {
@@ -150976,32 +150918,6 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "spray-fakhar-lattafa-man",
-      "name_ar": "Spray Fakhar Lattafa Man",
-      "name_en": "Spray Fakhar Lattafa Man",
-      "brand": "Lattafa",
-      "dupe_of": [],
-      "image": "images/spray-fakhar-lattafa-man.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1290,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/spray-fakhar-lattafa-man--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/spray-fakhar-lattafa-man-100-ml"
-        }
-      ],
-      "_hero_source": "mazaya"
     },
     {
       "id": "arabiyat-khashab-oud-white",
