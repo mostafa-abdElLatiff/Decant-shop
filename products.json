@@ -7940,19 +7940,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 100,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 130,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             }
           ]
         },
@@ -9938,19 +9941,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 85,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 125,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             }
           ],
           "image": "images/haydan-an-equestrian-series.jpg"
@@ -11898,13 +11904,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 100,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 65,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-27"
             }
           ],
           "image": "images/pendora-scents-classico-de-profumo.jpg"
@@ -12625,13 +12631,15 @@
               "kind": "decant",
               "ml": 10,
               "price": 90,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 60,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-27"
             }
           ],
           "image": "images/why-milestone.jpg"
@@ -18936,19 +18944,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 100,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 150,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 250,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             }
           ],
           "image": "images/black-cavalier-vi.jpg"
@@ -20039,19 +20050,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 90,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 130,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "leftover",
@@ -23622,13 +23636,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 80,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 50,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-27"
             }
           ],
           "image": "images/l-immensit-nuit-de-noir-milestone-perfumes.jpg"
@@ -24969,6 +24983,30 @@
           ],
           "image": "images/marwa--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/marwa-arabiyat-prestige"
+        },
+        {
+          "name": "EsLam Nasser",
+          "url": "https://www.facebook.com/eslam.nasser.10/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-07-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 130,
+              "first_seen": "2026-07-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 100,
+              "first_seen": "2026-07-27"
+            }
+          ]
         }
       ],
       "_hero_source": "sniffz",
@@ -28536,6 +28574,30 @@
           ],
           "image": "images/club-de-nuit-oud--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/club-de-nuit-oud-armaf"
+        },
+        {
+          "name": "EsLam Nasser",
+          "url": "https://www.facebook.com/eslam.nasser.10/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 320,
+              "first_seen": "2026-07-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 200,
+              "first_seen": "2026-07-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 130,
+              "first_seen": "2026-07-27"
+            }
+          ]
         }
       ],
       "_hero_source": "emaratiscents"
@@ -29214,21 +29276,21 @@
           "offers": [
             {
               "kind": "decant",
-              "ml": 3,
-              "price": 100,
-              "first_seen": "2026-01-01"
+              "ml": 10,
+              "price": 250,
+              "first_seen": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 150,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-07-27"
             },
             {
               "kind": "decant",
-              "ml": 10,
-              "price": 250,
-              "first_seen": "2026-01-01"
+              "ml": 3,
+              "price": 100,
+              "first_seen": "2026-07-27"
             }
           ],
           "image": "images/french-avenue-jasmere.jpg"
@@ -31834,19 +31896,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 50,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 80,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 120,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "full",
@@ -34221,6 +34286,30 @@
           ],
           "image": "images/meringue--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/meringue-french-avenue"
+        },
+        {
+          "name": "EsLam Nasser",
+          "url": "https://www.facebook.com/eslam.nasser.10/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-07-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 140,
+              "first_seen": "2026-07-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 100,
+              "first_seen": "2026-07-27"
+            }
+          ]
         }
       ],
       "_hero_source": "og-perfume"
@@ -41923,19 +42012,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 100,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 130,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             }
           ],
           "image": "images/matcha-magix.jpg"
@@ -43450,19 +43542,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 100,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 140,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             }
           ],
           "image": "images/the-story.jpg"
@@ -45953,19 +46048,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 70,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 100,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 160,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "full",
@@ -48747,19 +48845,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 70,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 100,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 170,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             }
           ],
           "image": "images/go-mango.jpg"
@@ -51843,6 +51944,24 @@
           ],
           "image": "images/noir-d-arabie--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/noir-darabie-paris-corner"
+        },
+        {
+          "name": "EsLam Nasser",
+          "url": "https://www.facebook.com/eslam.nasser.10/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 80,
+              "first_seen": "2026-07-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 50,
+              "first_seen": "2026-07-27"
+            }
+          ]
         }
       ],
       "_hero_source": "roseperfume"
@@ -52761,19 +52880,22 @@
               "kind": "decant",
               "ml": 10,
               "price": 160,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 100,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 3,
               "price": 70,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-27"
             }
           ],
           "image": "images/hersh-lahab-hersh.jpg"
@@ -53150,19 +53272,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 70,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 100,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 150,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "full",
@@ -53489,19 +53614,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 90,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 120,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 180,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             }
           ],
           "image": "images/divine.jpg"
@@ -55241,19 +55369,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 70,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 100,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 150,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             }
           ],
           "image": "images/al-malik.jpg"
@@ -56140,19 +56271,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 100,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 140,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 220,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             }
           ],
           "image": "images/moohesh-noble.jpg"
@@ -56696,19 +56830,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 70,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 100,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 150,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             }
           ],
           "image": "images/vigour.jpg"
@@ -57775,6 +57912,30 @@
           ],
           "image": "images/king-tobacco-laverne--dar-elarabia.jpg",
           "product_url": "https://darelarabia.com/products/king-tobaaco"
+        },
+        {
+          "name": "EsLam Nasser",
+          "url": "https://www.facebook.com/eslam.nasser.10/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 180,
+              "first_seen": "2026-07-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 120,
+              "first_seen": "2026-07-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 80,
+              "first_seen": "2026-07-27"
+            }
+          ]
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -59783,19 +59944,22 @@
               "kind": "decant",
               "ml": 10,
               "price": 150,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 100,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 3,
               "price": 70,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-27"
             }
           ],
           "image": "images/mazaaj-infused.jpg"
@@ -74005,19 +74169,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 85,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 125,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "full",
@@ -75035,21 +75202,21 @@
           "offers": [
             {
               "kind": "decant",
-              "ml": 3,
-              "price": 90,
-              "first_seen": "2026-01-01"
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 130,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-07-27"
             },
             {
               "kind": "decant",
-              "ml": 10,
-              "price": 200,
-              "first_seen": "2026-01-01"
+              "ml": 3,
+              "price": 90,
+              "first_seen": "2026-07-27"
             }
           ],
           "image": "images/aariz-l-absolu.jpg"
@@ -75926,19 +76093,22 @@
               "kind": "decant",
               "ml": 10,
               "price": 220,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 150,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 3,
               "price": 100,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-27"
             }
           ],
           "image": "images/strike-black.jpg"
@@ -80648,6 +80818,24 @@
           ],
           "image": "images/cerulean-blue--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/cerulean-blue"
+        },
+        {
+          "name": "EsLam Nasser",
+          "url": "https://www.facebook.com/eslam.nasser.10/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 100,
+              "first_seen": "2026-07-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 70,
+              "first_seen": "2026-07-27"
+            }
+          ]
         }
       ],
       "_hero_source": "eldesoki-fragrances"
@@ -83259,13 +83447,15 @@
               "kind": "decant",
               "ml": 10,
               "price": 130,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 80,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-27"
             }
           ],
           "image": "images/charuto-tobacco-vanilla.jpg"
@@ -83917,19 +84107,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 110,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 160,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 260,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "leftover",
@@ -88358,19 +88551,22 @@
               "kind": "decant",
               "ml": 10,
               "price": 300,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 200,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 3,
               "price": 130,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-27"
             }
           ],
           "image": "images/supremacy-collector-s-edition.jpg"
@@ -98464,6 +98660,24 @@
           ],
           "image": "images/jacques-yves-imaginari--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/jacques-yves-imaginari-fragrance-world"
+        },
+        {
+          "name": "EsLam Nasser",
+          "url": "https://www.facebook.com/eslam.nasser.10/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 100,
+              "first_seen": "2026-07-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 70,
+              "first_seen": "2026-07-27"
+            }
+          ]
         }
       ],
       "_hero_source": "roseperfume"
@@ -101597,19 +101811,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 90,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 130,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "leftover",
@@ -103681,19 +103898,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 70,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 100,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 150,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             }
           ],
           "image": "images/la-dor-bakhur-white.jpg"
@@ -105405,19 +105625,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 100,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 140,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             }
           ],
           "image": "images/pharaoh.jpg"
@@ -109074,19 +109297,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 100,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 150,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 250,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "leftover",
@@ -121772,13 +121998,15 @@
               "kind": "decant",
               "ml": 10,
               "price": 120,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 80,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-27"
             }
           ],
           "image": "images/legacy-victorioso.jpg"
@@ -121840,13 +122068,15 @@
               "kind": "decant",
               "ml": 10,
               "price": 100,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 65,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-27"
             }
           ],
           "image": "images/aventus-venti.jpg"
@@ -152666,6 +152896,174 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "pure-white-asdaaf",
+      "name_ar": "Pure White",
+      "name_en": "Pure White",
+      "brand": "Asdaaf",
+      "dupe_of": [],
+      "image": "images/pure-white-asdaaf.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "EsLam Nasser",
+          "url": "https://www.facebook.com/eslam.nasser.10/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 120,
+              "first_seen": "2026-07-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 80,
+              "first_seen": "2026-07-27"
+            }
+          ]
+        }
+      ],
+      "_hero_source": "EsLam Nasser"
+    },
+    {
+      "id": "space-age-armaf",
+      "name_ar": "Space Age",
+      "name_en": "Space Age",
+      "brand": "Armaf",
+      "dupe_of": [],
+      "image": "images/space-age-armaf.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "EsLam Nasser",
+          "url": "https://www.facebook.com/eslam.nasser.10/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-07-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 140,
+              "first_seen": "2026-07-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 100,
+              "first_seen": "2026-07-27"
+            }
+          ]
+        }
+      ],
+      "_hero_source": "EsLam Nasser"
+    },
+    {
+      "id": "desert-angel-true-night",
+      "name_ar": "Desert Angel True Night",
+      "name_en": "Desert Angel True Night",
+      "brand": "Le Chameau",
+      "dupe_of": [],
+      "image": "images/desert-angel-true-night.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "EsLam Nasser",
+          "url": "https://www.facebook.com/eslam.nasser.10/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 170,
+              "first_seen": "2026-07-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 120,
+              "first_seen": "2026-07-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 90,
+              "first_seen": "2026-07-27"
+            }
+          ]
+        }
+      ],
+      "_hero_source": "EsLam Nasser"
+    },
+    {
+      "id": "crispy-white-milestone",
+      "name_ar": "Crispy White",
+      "name_en": "Crispy White",
+      "brand": "Milestone",
+      "dupe_of": [],
+      "image": "images/crispy-white-milestone.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "EsLam Nasser",
+          "url": "https://www.facebook.com/eslam.nasser.10/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 80,
+              "first_seen": "2026-07-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 50,
+              "first_seen": "2026-07-27"
+            }
+          ]
+        }
+      ],
+      "_hero_source": "EsLam Nasser"
+    },
+    {
+      "id": "muhareb-night",
+      "name_ar": "Muhareb Night",
+      "name_en": "Muhareb Night",
+      "brand": "Elite Risala",
+      "dupe_of": [],
+      "image": "images/muhareb-night.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "EsLam Nasser",
+          "url": "https://www.facebook.com/eslam.nasser.10/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 160,
+              "first_seen": "2026-07-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 100,
+              "first_seen": "2026-07-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 70,
+              "first_seen": "2026-07-27"
+            }
+          ]
+        }
+      ],
+      "_hero_source": "EsLam Nasser"
     }
   ]
 }
