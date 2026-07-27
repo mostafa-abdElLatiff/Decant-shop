@@ -1528,10 +1528,24 @@
               "sold_since": "2026-07-19"
             },
             {
+              "kind": "leftover",
+              "ml": 70,
+              "price": 910,
+              "first_seen": "2026-07-27",
+              "sold_since": "2026-07-27"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 2100,
               "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 1950,
+              "first_seen": "2026-07-27",
+              "sold_since": "2026-07-27"
             }
           ],
           "image": "images/blue-laverne-bakhur--og-perfume.jpg",
@@ -5773,7 +5787,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 160,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
@@ -5800,7 +5815,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1350,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-27"
             }
           ],
           "image": "images/island-dreams--og-perfume.jpg",
@@ -19396,6 +19412,13 @@
               "first_seen": "2026-07-19"
             },
             {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 625,
+              "first_seen": "2026-07-27",
+              "sold_since": "2026-07-27"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1250,
@@ -29840,7 +29863,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 750,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "full",
@@ -42354,8 +42378,7 @@
               "kind": "decant",
               "ml": 30,
               "price": 575,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-26"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -74246,7 +74269,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 850,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "full",
@@ -82105,8 +82129,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1215,
-              "first_seen": "2026-07-19",
-              "prev_price": 1350
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/onyx-silver--og-perfume.jpg",
@@ -85706,7 +85729,6 @@
               "ml": 30,
               "price": 405,
               "first_seen": "2026-07-19",
-              "prev_price": 1225,
               "sold_since": "2026-07-26"
             },
             {
@@ -87328,6 +87350,20 @@
               "ml": 100,
               "price": 1550,
               "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 100,
+              "price": 1150,
+              "first_seen": "2026-07-27",
+              "sold_since": "2026-07-27"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2250,
+              "first_seen": "2026-07-27",
+              "sold_since": "2026-07-27"
             }
           ],
           "image": "images/brazilian-tobacco--og-perfume.jpg",
@@ -89868,7 +89904,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 900,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "full",
@@ -90254,14 +90291,14 @@
               "price": 140,
               "first_seen": "2026-07-19",
               "prev_price": 195,
-              "sold_since": "2026-07-26"
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 525,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-26"
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "leftover",
@@ -90275,7 +90312,7 @@
               "ml": 100,
               "price": 1550,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-26"
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "full",
@@ -106477,6 +106514,20 @@
               "ml": 100,
               "price": 1550,
               "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 100,
+              "price": 1200,
+              "first_seen": "2026-07-27",
+              "sold_since": "2026-07-27"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2250,
+              "first_seen": "2026-07-27",
+              "sold_since": "2026-07-27"
             }
           ],
           "image": "images/arabian-tobacco--og-perfume.jpg",
@@ -109738,7 +109789,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 725,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "full",
@@ -111740,11 +111792,18 @@
               "first_seen": "2026-07-19"
             },
             {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 600,
+              "first_seen": "2026-07-27",
+              "sold_since": "2026-07-27"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1200,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-26"
+              "sold_since": "2026-07-27"
             }
           ],
           "image": "images/kingdom-men--og-perfume.jpg",
@@ -116589,6 +116648,13 @@
               "price": 2800,
               "first_seen": "2026-07-21",
               "sold_since": "2026-07-21"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 4750,
+              "first_seen": "2026-07-27",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "full",
@@ -151803,7 +151869,8 @@
               "kind": "full",
               "ml": 100,
               "price": 750,
-              "first_seen": "2026-07-25"
+              "first_seen": "2026-07-25",
+              "sold_since": "2026-07-27"
             }
           ],
           "image": "images/qissa-delicious--og-perfume.jpg",
@@ -151990,6 +152057,13 @@
               "price": 575,
               "first_seen": "2026-07-25",
               "sold_since": "2026-07-26"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 850,
+              "first_seen": "2026-07-27",
+              "sold_since": "2026-07-27"
             },
             {
               "kind": "full",
