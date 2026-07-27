@@ -639,7 +639,12 @@ function productNewestDate(p){
 
 async function load(){
   try{
-    const res = await fetch("products.json?v=" + Date.now());
+    // No cache-busting here on purpose: products.json only changes every
+    // ~2h (sync cron), so letting the browser/CDN cache it (with a normal
+    // conditional revalidation) avoids re-downloading the full ~4MB
+    // catalog on every single page open, which was the main cause of the
+    // "freezes on first load" complaint, especially on mobile networks.
+    const res = await fetch("products.json");
     const data = await res.json();
     SETTINGS = data.settings || {};
     PRODUCTS = data.products || [];
