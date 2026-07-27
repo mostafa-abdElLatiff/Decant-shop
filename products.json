@@ -2783,11 +2783,27 @@
           ],
           "image": "images/kayaan-classic--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/al-wataniah-kayaan-classic"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 825,
+              "first_seen": "2026-07-27",
+              "sold_since": "2026-07-27"
+            }
+          ],
+          "image": "images/kayan-classic--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/kayan-classic-50ml%d9%83%d9%8a%d8%a7%d9%86-%d9%83%d9%84%d8%a7%d8%b3%d9%8a%d9%83-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "og-perfume",
       "aliases": [
-        "Al Wataniah Kayaan Classic"
+        "Al Wataniah Kayaan Classic",
+        "Kayan Classic"
       ]
     },
     {
@@ -6792,33 +6808,6 @@
         }
       ],
       "_hero_source": "Mohamed Mohie"
-    },
-    {
-      "id": "kayan-classic",
-      "name_ar": "كيان كلاسيك ٥٠ملي",
-      "name_en": "Kayan Classic",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/kayan-classic.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 825,
-              "first_seen": "2026-07-27",
-              "sold_since": "2026-07-27"
-            }
-          ],
-          "image": "images/kayan-classic--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/kayan-classic-50ml%d9%83%d9%8a%d8%a7%d9%86-%d9%83%d9%84%d8%a7%d8%b3%d9%8a%d9%83-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "liquid-brun",
