@@ -114,6 +114,13 @@ BRAND_ALIASES = {"rasasi": "Rasasi", "al rasasi": "Rasasi", "ibraq": "Ibraq", "l
 PRODUCT_BRAND_OVERRIDES = {
     "kahilan": "Dkhoon Emirates",
     "tiramisu coco": "Zimaya",
+    # body_html literally says "BY LE FALCONE" but as a separate <strong>
+    # paragraph disconnected from the title text, which extract_brand()'s
+    # title-anchored pattern doesn't reach — comes back blank, and a blank
+    # incoming brand auto-passes _brands_match against anything, which is
+    # exactly how this landed on the wrong existing "Muharib" (Maison
+    # Asrar, an unrelated product that happens to share the bare name).
+    "muharib": "Le Falconé Perfumes",
 }
 
 

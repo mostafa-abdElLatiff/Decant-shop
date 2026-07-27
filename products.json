@@ -6404,20 +6404,6 @@
           ],
           "image": "images/muharib--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/muharib-maison-asrar"
-        },
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 85,
-              "price": 1250,
-              "first_seen": "2026-07-20"
-            }
-          ],
-          "image": "images/muharib--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/muharib"
         }
       ],
       "_hero_source": "og-perfume"
@@ -99729,9 +99715,26 @@
           ],
           "image": "images/muharib-alpha-le-falcon--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/muharib-alpha-le-falcon%d9%85%d8%ad%d8%a7%d8%b1%d8%a8-%d8%a7%d9%84%d9%81%d8%a7-%d9%85%d9%86-%d9%84%d9%88-%d9%81%d8%a7%d9%84%d9%83%d9%88%d9%86/"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 85,
+              "price": 1250,
+              "first_seen": "2026-07-22"
+            }
+          ],
+          "image": "images/muharib-alpha--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/muharib-alpha"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Muharib Alpha"
+      ]
     },
     {
       "id": "zen-gi",
@@ -122161,32 +122164,6 @@
         }
       ],
       "_hero_source": "sniffz"
-    },
-    {
-      "id": "muharib-alpha",
-      "name_ar": "Muharib Alpha",
-      "name_en": "Muharib Alpha",
-      "brand": "Le Falcone",
-      "dupe_of": [],
-      "image": "images/muharib-alpha.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 85,
-              "price": 1250,
-              "first_seen": "2026-07-22"
-            }
-          ],
-          "image": "images/muharib-alpha--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/muharib-alpha"
-        }
-      ],
-      "_hero_source": "emaratiscents"
     },
     {
       "id": "momento-by-riiffs",
