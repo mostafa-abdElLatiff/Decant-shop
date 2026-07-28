@@ -13608,7 +13608,8 @@
               "kind": "full",
               "ml": 200,
               "price": 5750,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-28"
             }
           ],
           "image": "images/imperial-valley--emaratiscents.jpg",
@@ -18434,8 +18435,9 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 1050,
-              "first_seen": "2026-07-18"
+              "price": 950,
+              "first_seen": "2026-07-18",
+              "prev_price": 1050
             }
           ],
           "image": "images/ana-abiyedh-passion--emaratiscents.jpg",
@@ -49835,8 +49837,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1600,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-26"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/emeer-lattafa--emaratiscents.jpg",
@@ -64664,7 +64665,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1050,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-28"
             }
           ],
           "image": "images/ashek-al-oud--emaratiscents.jpg",
@@ -76787,8 +76789,7 @@
               "kind": "full",
               "ml": 80,
               "price": 1260,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-25"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/fusion-intense--emaratiscents.jpg",
@@ -78023,7 +78024,8 @@
               "kind": "full",
               "ml": 75,
               "price": 3700,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-28"
             }
           ],
           "image": "images/grey-diamond-collection--emaratiscents.jpg",
@@ -88383,7 +88385,8 @@
               "kind": "full",
               "ml": 10,
               "price": 1400,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-28"
             }
           ],
           "image": "images/mini-diamond-collection--emaratiscents.jpg",
@@ -102501,8 +102504,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1850,
-              "first_seen": "2026-07-18"
+              "price": 1750,
+              "first_seen": "2026-07-18",
+              "prev_price": 1850
             }
           ],
           "image": "images/9pm-rebel--emaratiscents.jpg",
@@ -105618,7 +105622,8 @@
               "kind": "full",
               "ml": 150,
               "price": 2750,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-28"
             }
           ],
           "image": "images/supremacy-in-oud-luxury-collection--emaratiscents.jpg",
@@ -122517,8 +122522,7 @@
               "kind": "full",
               "ml": 90,
               "price": 1180,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-20"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/winsome--emaratiscents.jpg",
@@ -138726,6 +138730,20 @@
           ],
           "image": "images/reasons--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/amouage-reasons"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 21000,
+              "first_seen": "2026-07-28"
+            }
+          ],
+          "image": "images/reasons--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/reasons"
         }
       ],
       "_hero_source": "sniffz"
@@ -153703,6 +153721,318 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "tiramisu-caramel-1785220402",
+      "name_ar": "Tiramisu Caramel",
+      "name_en": "Tiramisu Caramel",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/tiramisu-caramel-1785220402.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1450,
+              "first_seen": "2026-07-28"
+            }
+          ],
+          "image": "images/tiramisu-caramel-1785220402--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/tiramisu-caramel"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "blueberry-musk-1785220403",
+      "name_ar": "Blueberry Musk",
+      "name_en": "Blueberry Musk",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/blueberry-musk-1785220403.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 1700,
+              "first_seen": "2026-07-28"
+            }
+          ],
+          "image": "images/blueberry-musk-1785220403--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/bluberry-musk"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "leather-1785220404",
+      "name_ar": "Leather",
+      "name_en": "Leather",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/leather-1785220404.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-07-28"
+            }
+          ],
+          "image": "images/leather-1785220404--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/leather"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "khanjar-1785220405",
+      "name_ar": "Khanjar",
+      "name_en": "Khanjar",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/khanjar-1785220405.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 800,
+              "first_seen": "2026-07-28"
+            }
+          ],
+          "image": "images/khanjar-1785220405--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/khanjar-by-otoori"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "cuban-tobacco-1785220406",
+      "name_ar": "Cuban Tobacco",
+      "name_en": "Cuban Tobacco",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/cuban-tobacco-1785220406.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2300,
+              "first_seen": "2026-07-28"
+            }
+          ],
+          "image": "images/cuban-tobacco-1785220406--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/cuban-tobacco-200-ml"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "mango-affogato-1785220407",
+      "name_ar": "Mango Affogato",
+      "name_en": "Mango Affogato",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/mango-affogato-1785220407.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 965,
+              "first_seen": "2026-07-28"
+            }
+          ],
+          "image": "images/mango-affogato-1785220407--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/mango-affogato"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "lemon-sorbet-1785220407",
+      "name_ar": "Lemon Sorbet",
+      "name_en": "Lemon Sorbet",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/lemon-sorbet-1785220407.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 965,
+              "first_seen": "2026-07-28"
+            }
+          ],
+          "image": "images/lemon-sorbet-1785220407--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/lemon-sorbet"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "french-vanilla-latte-1785220408",
+      "name_ar": "French Vanilla Latte",
+      "name_en": "French Vanilla Latte",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/french-vanilla-latte-1785220408.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 965,
+              "first_seen": "2026-07-28"
+            }
+          ],
+          "image": "images/french-vanilla-latte-1785220408--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/french-vanilla-latte"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "al-noble-ameer",
+      "name_ar": "Al Noble Ameer",
+      "name_en": "Al Noble Ameer",
+      "brand": "Lattafa",
+      "dupe_of": [],
+      "image": "images/al-noble-ameer.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1100,
+              "first_seen": "2026-07-28"
+            }
+          ],
+          "image": "images/al-noble-ameer--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/al-noble-ameer"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "pure-musk-1785220412",
+      "name_ar": "Pure Musk",
+      "name_en": "Pure Musk",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/pure-musk-1785220412.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 2950,
+              "first_seen": "2026-07-28"
+            }
+          ],
+          "image": "images/pure-musk-1785220412--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/pure-musk-150-ml"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "lustre",
+      "name_ar": "Lustre",
+      "name_en": "Lustre",
+      "brand": "Amouage",
+      "dupe_of": [],
+      "image": "images/lustre.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 21000,
+              "first_seen": "2026-07-28"
+            }
+          ],
+          "image": "images/lustre--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/lustre"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "royal-sapphire-1785220421",
+      "name_ar": "Royal Sapphire",
+      "name_en": "Royal Sapphire",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/royal-sapphire-1785220421.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1650,
+              "first_seen": "2026-07-28"
+            }
+          ],
+          "image": "images/royal-sapphire-1785220421--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/royal-sapphire"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
