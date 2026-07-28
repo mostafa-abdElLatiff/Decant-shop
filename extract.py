@@ -628,13 +628,15 @@ def _brand_tokens(brand: str) -> set:
 #
 # IMPORTANT: "ibraq" is deliberately NOT mapped to "Ibrahim Al Qurashi"
 # here even though it looks like an abbreviation of it. They're two
-# distinct real houses (confirmed via bottle photos: IBRAQ's own "Cuban
-# Tobacco"/"Jamaican Tobacco"/etc. tobacco line and its diamond-shaped
-# "Sapphire Leather" bottle are branded "IBRAQ" in print, not "Ibrahim Al
-# Qurashi" — and the two houses even co-release some fragrances in both
-# labelings, e.g. "Sapphire Leather" and "Musk Al Qamar" each exist as
-# genuinely separate IBRAQ-branded and Ibrahim-Al-Qurashi-branded SKUs).
-# A prior version of this mapping conflated them, which silently
+# distinct real house NAMES (confirmed via bottle photos: IBRAQ's own
+# "Cuban Tobacco"/"Diamond Collection"/etc. lines are branded "IBRAQ" in
+# print) that happen to co-release a large chunk of the same fragrances
+# under an "Ibrahim Al Qurashi" box/label too (Sapphire Leather, Musk Al
+# Qamar, Black Carbon Diamond, the whole crystal-cut Diamond line, ...).
+# Rather than force one spelling here (which would misrepresent whichever
+# specific box a given store photographed), that equivalence is handled
+# by _brands_match() below instead — see BRAND_COMPATIBLE_PAIRS. A prior
+# version of THIS mapping collapsed them outright, which silently
 # mislabeled ~23 real IBRAQ products as "Ibrahim Al Qurashi" catalog-wide.
 BRAND_CANONICAL = {
     "ibraheem alqurashi": "Ibrahim Al Qurashi",
@@ -654,6 +656,23 @@ def canonicalize_brand(brand: str) -> str:
     return BRAND_CANONICAL.get(key, brand)
 
 
+# Houses that are textually/legally distinct (so canonicalize_brand must
+# NOT merge them into one spelling) but that a sync should still treat as
+# the same catalog product when they land on the same fragrance name --
+# confirmed via bottle/box photos that these specific two co-release
+# identical bottles under both labels, and per explicit user decision one
+# card per fragrance is preferred over splitting by which box a given
+# store happened to photograph. Without this, eldesoki-fragrances (which
+# lists every size as its own page, each independently brand-labeled)
+# recreated a fresh duplicate on every sync for whichever brand text
+# hadn't been seen on THIS product yet.
+BRAND_COMPATIBLE_PAIRS = {frozenset({"ibraq", "ibrahim al qurashi"})}
+
+
+def _brand_key(brand: str) -> str:
+    return re.sub(r"\s+", " ", canonicalize_brand(brand).strip().lower())
+
+
 def _brands_match(b1: str, b2: str) -> bool:
     """True unless the two brand strings clearly name different fragrance
     houses. An empty/generic brand on either side (unknown, or a junk value
@@ -668,6 +687,8 @@ def _brands_match(b1: str, b2: str) -> bool:
     Each side is first run through canonicalize_brand() — token overlap
     alone can't catch a real abbreviation or sub-line name (see
     BRAND_CANONICAL) since there's no shared text to overlap on."""
+    if frozenset({_brand_key(b1), _brand_key(b2)}) in BRAND_COMPATIBLE_PAIRS:
+        return True
     t1, t2 = _brand_tokens(canonicalize_brand(b1)), _brand_tokens(canonicalize_brand(b2))
     if not t1 or not t2:
         return True
