@@ -31529,13 +31529,6 @@
               "price": 2250,
               "first_seen": "2026-07-27",
               "sold_since": "2026-07-27"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 130,
-              "first_seen": "2026-07-28",
-              "sold_since": "2026-07-28"
             }
           ],
           "image": "images/brazilian-tobacco--og-perfume.jpg",
@@ -86346,6 +86339,7 @@
               "ml": 10,
               "price": 140,
               "first_seen": "2026-07-19",
+              "prev_price": 195,
               "sold_since": "2026-07-28"
             },
             {
@@ -86375,12 +86369,6 @@
               "price": 2250,
               "first_seen": "2026-07-26",
               "sold_since": "2026-07-26"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 195,
-              "first_seen": "2026-07-28"
             }
           ],
           "image": "images/french-tobacco--og-perfume.jpg",
@@ -126128,20 +126116,6 @@
               "price": 2250,
               "first_seen": "2026-07-27",
               "sold_since": "2026-07-27"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 150,
-              "first_seen": "2026-07-28",
-              "sold_since": "2026-07-28"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 425,
-              "first_seen": "2026-07-28",
-              "sold_since": "2026-07-28"
             }
           ],
           "image": "images/arabian-tobacco--og-perfume.jpg",
@@ -134611,7 +134585,8 @@
               "kind": "leftover",
               "ml": 100,
               "price": 2700,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-28"
             },
             {
               "kind": "full",
