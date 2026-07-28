@@ -107,6 +107,11 @@ ML_LABEL_RE = re.compile(r"(\d+)\s*m[li]", re.I)
 # WOMEN" too, not as part of the real product name.
 GENDER_MARKETING_RE = re.compile(r"\s*\bfor\s+(?:men|him|her|women)\b\s*", re.I)
 
+PRODUCT_BRAND_OVERRIDES = {
+    "stronger with you parfum": "Emporio Armani",
+    "stronger with you powerfully": "Emporio Armani",
+}
+
 
 def fetch_page(uid: str, page: int, attempts: int = 5) -> dict:
     payload = json.dumps({"query": QUERY, "variables": {"uid": uid, "page": page, "size": PAGE_SIZE}}).encode()
@@ -232,6 +237,12 @@ def parse_product(p: dict):
         name_en = strip_redundant_brand_suffix(name_en, brand)
     if not name_en:
         return None
+
+    # this store's own structured brand field says "Giorgio Armani" for
+    # these two, but the bottle/box photo for both reads "EMPORIO ARMANI"
+    # -- a separate named sub-line/house, not interchangeable with the
+    # parent "Giorgio Armani" label. Confirmed via photo before adding.
+    brand = PRODUCT_BRAND_OVERRIDES.get(name_en.strip().lower(), brand)
 
     image = ((p.get("small_image") or {}).get("url") or "").split("?")[0]
     return {

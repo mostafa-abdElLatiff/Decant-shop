@@ -2993,7 +2993,7 @@
       "id": "tobacco-collection-box-9",
       "name_ar": "ابراق بوكس التوباكو كوليكشن ٩ عطور",
       "name_en": "Tobacco Collection Box 9*",
-      "brand": "Ibrahim Al Qurashi",
+      "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/tobacco-collection-box-9.jpg",
       "accords": [],
@@ -3800,7 +3800,7 @@
       "id": "vintage-tobacco",
       "name_ar": "Vintage Tobacco",
       "name_en": "Vintage Tobacco",
-      "brand": "Ibrahim Al Qurashi",
+      "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/vintage-tobacco.jpg",
       "accords": [],
@@ -9034,7 +9034,7 @@
       "id": "jamaican-tobacco",
       "name_ar": "جاميكان توباكو من بوكس ابراق (٢٠ملي)",
       "name_en": "Jamaican Tobacco",
-      "brand": "Ibrahim Al Qurashi",
+      "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/jamaican-tobacco.jpg",
       "accords": [],
@@ -14818,6 +14818,27 @@
           ],
           "image": "images/stronger-with-you-parfum--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/emporio-armani-stronger-with-you-parfum"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 6100,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 8300,
+              "first_seen": "2026-07-23"
+            }
+          ],
+          "image": "images/stronger-with-you-parfum-giorgio-armani--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/stronger-with-you-parfum"
         }
       ],
       "_hero_source": "sniffz",
@@ -16234,6 +16255,12 @@
               "ml": 85,
               "price": 2900,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 800,
+              "first_seen": "2026-07-27"
             }
           ],
           "image": "images/khanjar-lattafa--emaratiscents.jpg",
@@ -18973,6 +19000,35 @@
           ],
           "image": "images/mango-affogato-arabiyat-sugar--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/copy-coconut-chiffon"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 965,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/mango-affogato--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/mango-affogato"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 850,
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20"
+            }
+          ],
+          "image": "images/mango-affogato--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/mango-affogato-arabiyat-sugar"
         }
       ],
       "_hero_source": "og-perfume"
@@ -20571,7 +20627,7 @@
       "id": "musk-al-shams-ibraq",
       "name_ar": "مسك الشمس من ابراق ٧٥ملي",
       "name_en": "Musk Al Shams",
-      "brand": "Ibrahim Al Qurashi",
+      "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/musk-al-shams-ibraq.jpg",
       "accords": [],
@@ -28312,7 +28368,7 @@
       "id": "cardamom-musk-ibraq",
       "name_ar": "مسك الهيل من ابراق (٧٥ملي)",
       "name_en": "Cardamom Musk",
-      "brand": "Ibrahim Al Qurashi",
+      "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/cardamom-musk-ibraq.jpg",
       "accords": [],
@@ -31489,7 +31545,7 @@
       "id": "brazilian-tobacco",
       "name_ar": "برازيليان توباكو من بوكس ابراق (٢٠ملي)",
       "name_en": "Brazilian Tobacco",
-      "brand": "Ibrahim Al Qurashi",
+      "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/brazilian-tobacco.jpg",
       "accords": [],
@@ -39268,7 +39324,7 @@
       "id": "spanish-tobacco",
       "name_ar": "Spanish Tobacco",
       "name_en": "Spanish Tobacco",
-      "brand": "Ibrahim Al Qurashi",
+      "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/spanish-tobacco.jpg",
       "accords": [],
@@ -40310,6 +40366,21 @@
           ],
           "image": "images/lemon-sorbet-arabiyat-sugar--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/lemon-sorbet"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 850,
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20"
+            }
+          ],
+          "image": "images/lemon-sorbet--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/lemon-sorbet-arabiyat-sugar"
         }
       ],
       "_hero_source": "og-perfume"
@@ -43746,32 +43817,6 @@
       "_hero_source": "mazaya"
     },
     {
-      "id": "chocolate-ganache",
-      "name_ar": "Chocolate Ganache",
-      "name_en": "Chocolate Ganache",
-      "brand": "Arabiyat Prestige",
-      "dupe_of": [],
-      "image": "images/chocolate-ganache.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 965,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/chocolate-ganache--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/chocolate-ganache"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
       "id": "imagination",
       "name_ar": "",
       "name_en": "Imagination",
@@ -44036,50 +44081,6 @@
         }
       ],
       "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "french-vanilla-latte",
-      "name_ar": "French Vanilla Latte",
-      "name_en": "French Vanilla Latte",
-      "brand": "Arabiyat Prestige",
-      "dupe_of": [],
-      "image": "images/french-vanilla-latte.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 965,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/french-vanilla-latte--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/french-vanilla-latte"
-        },
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 850,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
-            }
-          ],
-          "image": "images/french-vanilla-latte--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/french-vanilla-latte-arabiyat-sugar"
-        }
-      ],
-      "_hero_source": "emaratiscents",
-      "aliases": [
-        "French Vanilla Latte Arabiyat Sugar"
-      ]
     },
     {
       "id": "shaghaf-oud-azraq-985",
@@ -47685,7 +47686,7 @@
       "id": "sugar-musk-ibraq",
       "name_ar": "مسك سكر من ابراق (٧٥ملي)",
       "name_en": "Sugar Musk IBRAQ",
-      "brand": "Ibrahim Al Qurashi",
+      "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/sugar-musk-ibraq.jpg",
       "accords": [],
@@ -51225,7 +51226,7 @@
       "id": "dominican-tobacco",
       "name_ar": "دومينيكان توباكو من بوكس ابراق (٢٠ملي)",
       "name_en": "Dominican Tobacco",
-      "brand": "Ibrahim Al Qurashi",
+      "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/dominican-tobacco.jpg",
       "accords": [],
@@ -59945,50 +59946,6 @@
       "_hero_source": "eldesoki-fragrances"
     },
     {
-      "id": "mango-affogato",
-      "name_ar": "Mango Affogato",
-      "name_en": "Mango Affogato",
-      "brand": "Arabiyat Prestige",
-      "dupe_of": [],
-      "image": "images/mango-affogato.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 965,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/mango-affogato--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/mango-affogato"
-        },
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 850,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
-            }
-          ],
-          "image": "images/mango-affogato--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/mango-affogato-arabiyat-sugar"
-        }
-      ],
-      "_hero_source": "emaratiscents",
-      "aliases": [
-        "Mango Affogato Arabiyat Sugar"
-      ]
-    },
-    {
       "id": "pure-blue",
       "name_ar": "",
       "name_en": "Pure Blue",
@@ -68191,7 +68148,7 @@
       "id": "greek-tobacco",
       "name_ar": "جريك توباكو من بوكس ابراق (٢٠ملي)",
       "name_en": "Greek Tobacco",
-      "brand": "Ibrahim Al Qurashi",
+      "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/greek-tobacco.jpg",
       "accords": [],
@@ -69627,6 +69584,27 @@
           ],
           "image": "images/stronger-with-you-powerfully--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/emporio-armani-stronger-with-you-powerfully"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 5600,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 7200,
+              "first_seen": "2026-07-23"
+            }
+          ],
+          "image": "images/stronger-with-you-powerfully-giorgio-armani--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/stronger-with-you-powerfully"
         }
       ],
       "_hero_source": "eldesoki-fragrances"
@@ -72828,39 +72806,6 @@
       "aliases": []
     },
     {
-      "id": "stronger-with-you-parfum-giorgio-armani",
-      "name_ar": "Stronger With You Parfum",
-      "name_en": "Stronger With You Parfum",
-      "brand": "Giorgio Armani",
-      "dupe_of": [],
-      "image": "images/stronger-with-you-parfum-giorgio-armani.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 50,
-              "price": 6100,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 8300,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/stronger-with-you-parfum-giorgio-armani--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/stronger-with-you-parfum"
-        }
-      ],
-      "_hero_source": "mazaya"
-    },
-    {
       "id": "niche-platinum-eau-de-parfum",
       "name_ar": "Niche Platinum Eau De Parfum",
       "name_en": "Niche Platinum Eau De Parfum",
@@ -73547,50 +73492,6 @@
         }
       ],
       "_hero_source": "mazaya"
-    },
-    {
-      "id": "lemon-sorbet",
-      "name_ar": "Lemon Sorbet",
-      "name_en": "Lemon Sorbet",
-      "brand": "Arabiyat Prestige",
-      "dupe_of": [],
-      "image": "images/lemon-sorbet.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 965,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/lemon-sorbet--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/lemon-sorbet"
-        },
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 850,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
-            }
-          ],
-          "image": "images/lemon-sorbet--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/lemon-sorbet-arabiyat-sugar"
-        }
-      ],
-      "_hero_source": "emaratiscents",
-      "aliases": [
-        "Lemon Sorbet Arabiyat Sugar"
-      ]
     },
     {
       "id": "man-rain-essence-edp",
@@ -78785,7 +78686,7 @@
       "id": "nawa-ibraq",
       "name_ar": "Nawa Ibraq",
       "name_en": "Nawa Ibraq",
-      "brand": "Ibrahim Al Qurashi",
+      "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/nawa-ibraq.jpg",
       "accords": [],
@@ -81921,7 +81822,7 @@
       "id": "citrus-amber-ibraq",
       "name_ar": "سترس عنبر ابراق فوق ال ٧٠",
       "name_en": "Citrus amber Ibraq",
-      "brand": "Ibrahim Al Qurashi",
+      "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/citrus-amber-ibraq.jpg",
       "accords": [],
@@ -85228,7 +85129,7 @@
       "id": "r2t-rose-tobacco",
       "name_ar": "جرعة سعادة من القرشي ٧٥ملي",
       "name_en": "R2T ROSE TOBACCO",
-      "brand": "Ibrahim Al Qurashi",
+      "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/r2t-rose-tobacco.jpg",
       "accords": [],
@@ -86511,7 +86412,7 @@
       "id": "french-tobacco",
       "name_ar": "French Tobacco",
       "name_en": "French Tobacco",
-      "brand": "Ibrahim Al Qurashi",
+      "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/french-tobacco.jpg",
       "accords": [],
@@ -87415,7 +87316,7 @@
       "id": "jareed-ibraq",
       "name_ar": "Jareed Ibraq",
       "name_en": "Jareed Ibraq",
-      "brand": "Ibrahim Al Qurashi",
+      "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/jareed-ibraq.jpg",
       "accords": [],
@@ -102230,7 +102131,7 @@
       "id": "luban-musk-ibraq",
       "name_ar": "مسك اللبان من ابراق ٧٥ملي",
       "name_en": "Luban Musk Ibraq",
-      "brand": "Ibrahim Al Qurashi",
+      "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/luban-musk-ibraq.jpg",
       "accords": [],
@@ -105148,7 +105049,7 @@
       "id": "athq-ibraq",
       "name_ar": "Athq Ibraq",
       "name_en": "Athq Ibraq",
-      "brand": "Ibrahim Al Qurashi",
+      "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/athq-ibraq.jpg",
       "accords": [],
@@ -122288,7 +122189,7 @@
       "id": "musk-al-qamar-ibraq",
       "name_ar": "مسك القمر من ابراق ٧٥ملي",
       "name_en": "Musk Al Qamar",
-      "brand": "Ibrahim Al Qurashi",
+      "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/musk-al-qamar-ibraq.jpg",
       "accords": [],
@@ -123712,6 +123613,20 @@
           ],
           "image": "images/chocolate-ganache-arabiyat-sugar--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/copy-pecan-butter-cookie"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 965,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/chocolate-ganache--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/chocolate-ganache"
         }
       ],
       "_hero_source": "og-perfume"
@@ -126168,7 +126083,7 @@
       "id": "arabian-tobacco",
       "name_ar": "اربيان توباكو",
       "name_en": "Arabian Tobacco",
-      "brand": "Ibrahim Al Qurashi",
+      "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/arabian-tobacco.jpg",
       "accords": [],
@@ -128765,7 +128680,7 @@
       "id": "vintage-tobacco-100ml",
       "name_ar": "فينتاچ توباكو من ابراق ( عطر وريفل )",
       "name_en": "Vintage Tobacco 100ml +",
-      "brand": "Ibrahim Al Qurashi",
+      "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/vintage-tobacco-100ml.jpg",
       "accords": [],
@@ -132084,7 +131999,7 @@
       "id": "red-coral-ibraq",
       "name_ar": "Red Coral Ibraq",
       "name_en": "Red Coral Ibraq",
-      "brand": "Ibrahim Al Qurashi",
+      "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/red-coral-ibraq.jpg",
       "accords": [],
@@ -135893,39 +135808,6 @@
       "_hero_source": "og-perfume"
     },
     {
-      "id": "stronger-with-you-powerfully-giorgio-armani",
-      "name_ar": "Stronger With You Powerfully",
-      "name_en": "Stronger With You Powerfully",
-      "brand": "Giorgio Armani",
-      "dupe_of": [],
-      "image": "images/stronger-with-you-powerfully-giorgio-armani.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 50,
-              "price": 5600,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 7200,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/stronger-with-you-powerfully-giorgio-armani--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/stronger-with-you-powerfully"
-        }
-      ],
-      "_hero_source": "mazaya"
-    },
-    {
       "id": "oravea",
       "name_ar": "Oravea",
       "name_en": "Oravea",
@@ -137632,7 +137514,7 @@
       "id": "mexican-tobacco",
       "name_ar": "",
       "name_en": "Mexican Tobacco",
-      "brand": "Ibrahim Al Qurashi",
+      "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/mexican-tobacco.jpg",
       "accords": [
@@ -140433,6 +140315,21 @@
           ],
           "image": "images/french-vanilla-latte-arabiyat-sugar--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/french-vanilla-latte"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 850,
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20"
+            }
+          ],
+          "image": "images/french-vanilla-latte--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/french-vanilla-latte-arabiyat-sugar"
         }
       ],
       "_hero_source": "og-perfume"
@@ -152253,7 +152150,7 @@
       "id": "cuban-tobacco",
       "name_ar": "كوبان توباكو من بوكس ابراق (٢٠ملي)",
       "name_en": "Cuban Tobacco",
-      "brand": "Ibrahim Al Qurashi",
+      "brand": "Ibraq",
       "dupe_of": [],
       "image": "images/cuban-tobacco.jpg",
       "accords": [],
@@ -152280,6 +152177,12 @@
               "ml": 50,
               "price": 925,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 950,
+              "first_seen": "2026-07-27"
             }
           ],
           "image": "images/cuban-tobacco--eldesoki-fragrances.jpg",
@@ -153184,112 +153087,6 @@
       "aliases": []
     },
     {
-      "id": "stronger-with-you-powerfully-1785180632",
-      "name_ar": "باورفولي ١٠٠ملي",
-      "name_en": "Stronger With You Powerfully",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/stronger-with-you-powerfully-1785180632.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 5900,
-              "first_seen": "2026-07-27",
-              "sold_since": "2026-07-27"
-            }
-          ],
-          "image": "images/stronger-with-you-powerfully-1785180632--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/stronger-with-you-powerfully-100ml-%d8%a8%d8%a7%d9%88%d8%b1%d9%81%d9%88%d9%84%d9%8a-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "stronger-with-you-parfum-1785180655",
-      "name_ar": "سترونجر وذ يو بارفم ١٠٠ملي",
-      "name_en": "Stronger With You Parfum",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/stronger-with-you-parfum-1785180655.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 5950,
-              "first_seen": "2026-07-27",
-              "sold_since": "2026-07-27"
-            }
-          ],
-          "image": "images/stronger-with-you-parfum-1785180655--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/stronger-with-you-parfum-100ml%d8%b3%d8%aa%d8%b1%d9%88%d9%86%d8%ac%d8%b1-%d9%88%d8%b0-%d9%8a%d9%88-%d8%a8%d8%a7%d8%b1%d9%81%d9%85-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "cuban-tobacco-1785180771",
-      "name_ar": "كوبيان توباكو ١٠ملي تستر",
-      "name_en": "Cuban Tobacco",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/cuban-tobacco-1785180771.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 200,
-              "first_seen": "2026-07-27"
-            }
-          ],
-          "image": "images/cuban-tobacco-1785180771--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/cuban-tobacco-10ml%d9%83%d9%88%d8%a8%d9%8a%d8%a7%d9%86-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%a1%d9%a0%d9%85%d9%84%d9%8a-%d8%aa%d8%b3%d8%aa%d8%b1/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "cuban-tobacco-1785180817",
-      "name_ar": "كوبيان توباكو ٥٠ملي",
-      "name_en": "Cuban Tobacco",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/cuban-tobacco-1785180817.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 950,
-              "first_seen": "2026-07-27"
-            }
-          ],
-          "image": "images/cuban-tobacco-1785180817--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/cuban-tobacco-50ml%d9%83%d9%88%d8%a8%d9%8a%d8%a7%d9%86-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "fakhar-silver",
       "name_ar": "فخر سيلفر ٥٠ملي",
       "name_en": "Fakhar Silver",
@@ -153317,451 +153114,6 @@
       "_hero_source": "eldesoki-fragrances"
     },
     {
-      "id": "khanjar-1785180867",
-      "name_ar": "Khanjar",
-      "name_en": "Khanjar",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/khanjar-1785180867.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 75,
-              "price": 800,
-              "first_seen": "2026-07-27"
-            }
-          ],
-          "image": "images/khanjar-1785180867--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/khanjar-by-otoori"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "cuban-tobacco-1785180872",
-      "name_ar": "Cuban Tobacco",
-      "name_en": "Cuban Tobacco",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/cuban-tobacco-1785180872.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2300,
-              "first_seen": "2026-07-27"
-            }
-          ],
-          "image": "images/cuban-tobacco-1785180872--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/cuban-tobacco-200-ml"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "mango-affogato-1785180883",
-      "name_ar": "Mango Affogato",
-      "name_en": "Mango Affogato",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/mango-affogato-1785180883.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 965,
-              "first_seen": "2026-07-27"
-            }
-          ],
-          "image": "images/mango-affogato-1785180883--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/mango-affogato"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "lemon-sorbet-1785180883",
-      "name_ar": "Lemon Sorbet",
-      "name_en": "Lemon Sorbet",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/lemon-sorbet-1785180883.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 965,
-              "first_seen": "2026-07-27"
-            }
-          ],
-          "image": "images/lemon-sorbet-1785180883--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/lemon-sorbet"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "french-vanilla-latte-1785180889",
-      "name_ar": "French Vanilla Latte",
-      "name_en": "French Vanilla Latte",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/french-vanilla-latte-1785180889.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 965,
-              "first_seen": "2026-07-27"
-            }
-          ],
-          "image": "images/french-vanilla-latte-1785180889--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/french-vanilla-latte"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "pure-musk-1785180910",
-      "name_ar": "Pure Musk",
-      "name_en": "Pure Musk",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/pure-musk-1785180910.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 2950,
-              "first_seen": "2026-07-27"
-            }
-          ],
-          "image": "images/pure-musk-1785180910--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/pure-musk-150-ml"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "royal-sapphire-1785180968",
-      "name_ar": "Royal Sapphire",
-      "name_en": "Royal Sapphire",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/royal-sapphire-1785180968.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1650,
-              "first_seen": "2026-07-27"
-            }
-          ],
-          "image": "images/royal-sapphire-1785180968--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/royal-sapphire"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "obsidian",
-      "name_ar": "Obsidian",
-      "name_en": "Obsidian",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/obsidian.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "dar.elarabia",
-          "url": "https://darelarabia.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2200,
-              "first_seen": "2026-07-27",
-              "sold_since": "2026-07-27"
-            }
-          ],
-          "image": "images/obsidian--dar-elarabia.jpg",
-          "product_url": "https://darelarabia.com/products/obsidian"
-        }
-      ],
-      "_hero_source": "dar.elarabia"
-    },
-    {
-      "id": "stronger-with-you-powerfully-1785193558",
-      "name_ar": "باورفولي ١٠٠ملي",
-      "name_en": "Stronger With You Powerfully",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/stronger-with-you-powerfully-1785193558.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 5900,
-              "first_seen": "2026-07-27",
-              "sold_since": "2026-07-27"
-            }
-          ],
-          "image": "images/stronger-with-you-powerfully-1785193558--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/stronger-with-you-powerfully-100ml-%d8%a8%d8%a7%d9%88%d8%b1%d9%81%d9%88%d9%84%d9%8a-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "stronger-with-you-parfum-1785193593",
-      "name_ar": "سترونجر وذ يو بارفم ١٠٠ملي",
-      "name_en": "Stronger With You Parfum",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/stronger-with-you-parfum-1785193593.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 5950,
-              "first_seen": "2026-07-27",
-              "sold_since": "2026-07-27"
-            }
-          ],
-          "image": "images/stronger-with-you-parfum-1785193593--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/stronger-with-you-parfum-100ml%d8%b3%d8%aa%d8%b1%d9%88%d9%86%d8%ac%d8%b1-%d9%88%d8%b0-%d9%8a%d9%88-%d8%a8%d8%a7%d8%b1%d9%81%d9%85-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "cuban-tobacco-1785193734",
-      "name_ar": "كوبيان توباكو ١٠ملي تستر",
-      "name_en": "Cuban Tobacco",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/cuban-tobacco-1785193734.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 200,
-              "first_seen": "2026-07-27"
-            }
-          ],
-          "image": "images/cuban-tobacco-1785193734--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/cuban-tobacco-10ml%d9%83%d9%88%d8%a8%d9%8a%d8%a7%d9%86-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%a1%d9%a0%d9%85%d9%84%d9%8a-%d8%aa%d8%b3%d8%aa%d8%b1/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "cuban-tobacco-1785193781",
-      "name_ar": "كوبيان توباكو ٥٠ملي",
-      "name_en": "Cuban Tobacco",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/cuban-tobacco-1785193781.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 950,
-              "first_seen": "2026-07-27"
-            }
-          ],
-          "image": "images/cuban-tobacco-1785193781--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/cuban-tobacco-50ml%d9%83%d9%88%d8%a8%d9%8a%d8%a7%d9%86-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "khanjar-1785220405",
-      "name_ar": "Khanjar",
-      "name_en": "Khanjar",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/khanjar-1785220405.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 75,
-              "price": 800,
-              "first_seen": "2026-07-28"
-            }
-          ],
-          "image": "images/khanjar-1785220405--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/khanjar-by-otoori"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "cuban-tobacco-1785220406",
-      "name_ar": "Cuban Tobacco",
-      "name_en": "Cuban Tobacco",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/cuban-tobacco-1785220406.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2300,
-              "first_seen": "2026-07-28"
-            }
-          ],
-          "image": "images/cuban-tobacco-1785220406--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/cuban-tobacco-200-ml"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "mango-affogato-1785220407",
-      "name_ar": "Mango Affogato",
-      "name_en": "Mango Affogato",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/mango-affogato-1785220407.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 965,
-              "first_seen": "2026-07-28"
-            }
-          ],
-          "image": "images/mango-affogato-1785220407--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/mango-affogato"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "lemon-sorbet-1785220407",
-      "name_ar": "Lemon Sorbet",
-      "name_en": "Lemon Sorbet",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/lemon-sorbet-1785220407.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 965,
-              "first_seen": "2026-07-28"
-            }
-          ],
-          "image": "images/lemon-sorbet-1785220407--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/lemon-sorbet"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "french-vanilla-latte-1785220408",
-      "name_ar": "French Vanilla Latte",
-      "name_en": "French Vanilla Latte",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/french-vanilla-latte-1785220408.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 965,
-              "first_seen": "2026-07-28"
-            }
-          ],
-          "image": "images/french-vanilla-latte-1785220408--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/french-vanilla-latte"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
       "id": "al-noble-ameer",
       "name_ar": "Al Noble Ameer",
       "name_en": "Al Noble Ameer",
@@ -153783,32 +153135,6 @@
           ],
           "image": "images/al-noble-ameer--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/al-noble-ameer"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "pure-musk-1785220412",
-      "name_ar": "Pure Musk",
-      "name_en": "Pure Musk",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/pure-musk-1785220412.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 2950,
-              "first_seen": "2026-07-28"
-            }
-          ],
-          "image": "images/pure-musk-1785220412--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/pure-musk-150-ml"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -153838,480 +153164,6 @@
         }
       ],
       "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "royal-sapphire-1785220421",
-      "name_ar": "Royal Sapphire",
-      "name_en": "Royal Sapphire",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/royal-sapphire-1785220421.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1650,
-              "first_seen": "2026-07-28"
-            }
-          ],
-          "image": "images/royal-sapphire-1785220421--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/royal-sapphire"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "obsidian-1785220455",
-      "name_ar": "Obsidian",
-      "name_en": "Obsidian",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/obsidian-1785220455.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "dar.elarabia",
-          "url": "https://darelarabia.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2200,
-              "first_seen": "2026-07-28",
-              "sold_since": "2026-07-28"
-            }
-          ],
-          "image": "images/obsidian-1785220455--dar-elarabia.jpg",
-          "product_url": "https://darelarabia.com/products/obsidian"
-        }
-      ],
-      "_hero_source": "dar.elarabia"
-    },
-    {
-      "id": "stronger-with-you-powerfully-1785235166",
-      "name_ar": "باورفولي ١٠٠ملي",
-      "name_en": "Stronger With You Powerfully",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/stronger-with-you-powerfully-1785235166.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 5900,
-              "first_seen": "2026-07-28",
-              "sold_since": "2026-07-28"
-            }
-          ],
-          "image": "images/stronger-with-you-powerfully-1785235166--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/stronger-with-you-powerfully-100ml-%d8%a8%d8%a7%d9%88%d8%b1%d9%81%d9%88%d9%84%d9%8a-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "stronger-with-you-parfum-1785235185",
-      "name_ar": "سترونجر وذ يو بارفم ١٠٠ملي",
-      "name_en": "Stronger With You Parfum",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/stronger-with-you-parfum-1785235185.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 5950,
-              "first_seen": "2026-07-28",
-              "sold_since": "2026-07-28"
-            }
-          ],
-          "image": "images/stronger-with-you-parfum-1785235185--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/stronger-with-you-parfum-100ml%d8%b3%d8%aa%d8%b1%d9%88%d9%86%d8%ac%d8%b1-%d9%88%d8%b0-%d9%8a%d9%88-%d8%a8%d8%a7%d8%b1%d9%81%d9%85-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "cuban-tobacco-1785235287",
-      "name_ar": "كوبيان توباكو ١٠ملي تستر",
-      "name_en": "Cuban Tobacco",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/cuban-tobacco-1785235287.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 200,
-              "first_seen": "2026-07-28"
-            }
-          ],
-          "image": "images/cuban-tobacco-1785235287--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/cuban-tobacco-10ml%d9%83%d9%88%d8%a8%d9%8a%d8%a7%d9%86-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%a1%d9%a0%d9%85%d9%84%d9%8a-%d8%aa%d8%b3%d8%aa%d8%b1/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "cuban-tobacco-1785235323",
-      "name_ar": "كوبيان توباكو ٥٠ملي",
-      "name_en": "Cuban Tobacco",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/cuban-tobacco-1785235323.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 950,
-              "first_seen": "2026-07-28"
-            }
-          ],
-          "image": "images/cuban-tobacco-1785235323--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/cuban-tobacco-50ml%d9%83%d9%88%d8%a8%d9%8a%d8%a7%d9%86-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "khanjar-1785235342",
-      "name_ar": "Khanjar",
-      "name_en": "Khanjar",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/khanjar-1785235342.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 75,
-              "price": 800,
-              "first_seen": "2026-07-28"
-            }
-          ],
-          "image": "images/khanjar-1785235342--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/khanjar-by-otoori"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "cuban-tobacco-1785235343",
-      "name_ar": "Cuban Tobacco",
-      "name_en": "Cuban Tobacco",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/cuban-tobacco-1785235343.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2300,
-              "first_seen": "2026-07-28"
-            }
-          ],
-          "image": "images/cuban-tobacco-1785235343--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/cuban-tobacco-200-ml"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "mango-affogato-1785235344",
-      "name_ar": "Mango Affogato",
-      "name_en": "Mango Affogato",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/mango-affogato-1785235344.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 965,
-              "first_seen": "2026-07-28"
-            }
-          ],
-          "image": "images/mango-affogato-1785235344--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/mango-affogato"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "lemon-sorbet-1785235344",
-      "name_ar": "Lemon Sorbet",
-      "name_en": "Lemon Sorbet",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/lemon-sorbet-1785235344.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 965,
-              "first_seen": "2026-07-28"
-            }
-          ],
-          "image": "images/lemon-sorbet-1785235344--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/lemon-sorbet"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "french-vanilla-latte-1785235345",
-      "name_ar": "French Vanilla Latte",
-      "name_en": "French Vanilla Latte",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/french-vanilla-latte-1785235345.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 965,
-              "first_seen": "2026-07-28"
-            }
-          ],
-          "image": "images/french-vanilla-latte-1785235345--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/french-vanilla-latte"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "pure-musk-1785235348",
-      "name_ar": "Pure Musk",
-      "name_en": "Pure Musk",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/pure-musk-1785235348.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 2950,
-              "first_seen": "2026-07-28"
-            }
-          ],
-          "image": "images/pure-musk-1785235348--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/pure-musk-150-ml"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "royal-sapphire-1785235357",
-      "name_ar": "Royal Sapphire",
-      "name_en": "Royal Sapphire",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/royal-sapphire-1785235357.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1650,
-              "first_seen": "2026-07-28"
-            }
-          ],
-          "image": "images/royal-sapphire-1785235357--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/royal-sapphire"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "obsidian-1785235361",
-      "name_ar": "Obsidian",
-      "name_en": "Obsidian",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/obsidian-1785235361.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "dar.elarabia",
-          "url": "https://darelarabia.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2200,
-              "first_seen": "2026-07-28",
-              "sold_since": "2026-07-28"
-            }
-          ],
-          "image": "images/obsidian-1785235361--dar-elarabia.jpg",
-          "product_url": "https://darelarabia.com/products/obsidian"
-        }
-      ],
-      "_hero_source": "dar.elarabia"
-    },
-    {
-      "id": "stronger-with-you-powerfully-1785247794",
-      "name_ar": "باورفولي ١٠٠ملي",
-      "name_en": "Stronger With You Powerfully",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/stronger-with-you-powerfully-1785247794.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 5900,
-              "first_seen": "2026-07-28",
-              "sold_since": "2026-07-28"
-            }
-          ],
-          "image": "images/stronger-with-you-powerfully-1785247794--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/stronger-with-you-powerfully-100ml-%d8%a8%d8%a7%d9%88%d8%b1%d9%81%d9%88%d9%84%d9%8a-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "stronger-with-you-parfum-1785247807",
-      "name_ar": "سترونجر وذ يو بارفم ١٠٠ملي",
-      "name_en": "Stronger With You Parfum",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/stronger-with-you-parfum-1785247807.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 5950,
-              "first_seen": "2026-07-28",
-              "sold_since": "2026-07-28"
-            }
-          ],
-          "image": "images/stronger-with-you-parfum-1785247807--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/stronger-with-you-parfum-100ml%d8%b3%d8%aa%d8%b1%d9%88%d9%86%d8%ac%d8%b1-%d9%88%d8%b0-%d9%8a%d9%88-%d8%a8%d8%a7%d8%b1%d9%81%d9%85-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "cuban-tobacco-1785247876",
-      "name_ar": "كوبيان توباكو ١٠ملي تستر",
-      "name_en": "Cuban Tobacco",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/cuban-tobacco-1785247876.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 200,
-              "first_seen": "2026-07-28"
-            }
-          ],
-          "image": "images/cuban-tobacco-1785247876--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/cuban-tobacco-10ml%d9%83%d9%88%d8%a8%d9%8a%d8%a7%d9%86-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%a1%d9%a0%d9%85%d9%84%d9%8a-%d8%aa%d8%b3%d8%aa%d8%b1/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "cuban-tobacco-1785247898",
-      "name_ar": "كوبيان توباكو ٥٠ملي",
-      "name_en": "Cuban Tobacco",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/cuban-tobacco-1785247898.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 950,
-              "first_seen": "2026-07-28"
-            }
-          ],
-          "image": "images/cuban-tobacco-1785247898--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/cuban-tobacco-50ml%d9%83%d9%88%d8%a8%d9%8a%d8%a7%d9%86-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }

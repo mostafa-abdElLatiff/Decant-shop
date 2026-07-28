@@ -121,6 +121,16 @@ PRODUCT_BRAND_OVERRIDES = {
     # exactly how this landed on the wrong existing "Muharib" (Maison
     # Asrar, an unrelated product that happens to share the bare name).
     "muharib": "Le Falconé Perfumes",
+    # This store's own copy says "Arabiyat Prestige" for these (the
+    # umbrella house name), but the actual bottle/box photo for every one
+    # of these specific desserts-line items reads "Arabiyat Sugar" — a
+    # separate named sub-line, not the same as Arabiyat Prestige's other
+    # (correctly-labeled) products elsewhere in the catalog. Confirmed via
+    # photo for all four before adding.
+    "mango affogato": "Arabiyat Sugar",
+    "lemon sorbet": "Arabiyat Sugar",
+    "french vanilla latte": "Arabiyat Sugar",
+    "chocolate ganache": "Arabiyat Sugar",
 }
 
 

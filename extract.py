@@ -622,12 +622,21 @@ def _brand_tokens(brand: str) -> set:
 # completely different word/abbreviation/sub-line name — not a spelling
 # variant of the same tokens (which _brands_match's token-overlap check
 # already handles), but a genuinely different string for the same brand.
-# Token overlap can never bridge these (e.g. "ibraq" and "ibrahim al
-# qurashi" share zero tokens), so each one silently created a fresh
-# duplicate product on every sync until caught by hand and added here.
-# Keyed lowercase; values are the catalog's canonical spelling.
+# Token overlap can never bridge these, so each one silently created a
+# fresh duplicate product on every sync until caught by hand and added
+# here.
+#
+# IMPORTANT: "ibraq" is deliberately NOT mapped to "Ibrahim Al Qurashi"
+# here even though it looks like an abbreviation of it. They're two
+# distinct real houses (confirmed via bottle photos: IBRAQ's own "Cuban
+# Tobacco"/"Jamaican Tobacco"/etc. tobacco line and its diamond-shaped
+# "Sapphire Leather" bottle are branded "IBRAQ" in print, not "Ibrahim Al
+# Qurashi" — and the two houses even co-release some fragrances in both
+# labelings, e.g. "Sapphire Leather" and "Musk Al Qamar" each exist as
+# genuinely separate IBRAQ-branded and Ibrahim-Al-Qurashi-branded SKUs).
+# A prior version of this mapping conflated them, which silently
+# mislabeled ~23 real IBRAQ products as "Ibrahim Al Qurashi" catalog-wide.
 BRAND_CANONICAL = {
-    "ibraq": "Ibrahim Al Qurashi",
     "ibraheem alqurashi": "Ibrahim Al Qurashi",
     "ibraheem al qurashi": "Ibrahim Al Qurashi",
     "ibrahim al  qurashi": "Ibrahim Al Qurashi",

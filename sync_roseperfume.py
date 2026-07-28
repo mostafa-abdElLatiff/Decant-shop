@@ -73,6 +73,17 @@ GENERIC_TAGS = {
 # ones actually seen rather than relying on token-matching to bridge it.
 BRAND_ALIASES = {"alrehab": "Al Rehab", "al-rehab": "Al Rehab"}
 
+# This store's own product tag is wrong for these — tagged "Arabiyat
+# Prestige" (the umbrella house), but the bottle/box photo for each of
+# these desserts-line items reads "Arabiyat Sugar", a separate named
+# sub-line. Confirmed via photo before adding (same mislabel independently
+# found on emaratiscents' scrape of the same products).
+PRODUCT_BRAND_OVERRIDES = {
+    "mango affogato": "Arabiyat Sugar",
+    "lemon sorbet": "Arabiyat Sugar",
+    "french vanilla latte": "Arabiyat Sugar",
+}
+
 
 def pick_brand_tag(tags: list) -> str:
     for t in tags or []:
@@ -193,6 +204,7 @@ def parse_product(p):
     )
     dupe_raw = extract_dupe(body)
     brand = pick_brand_tag(p["tags"])
+    brand = PRODUCT_BRAND_OVERRIDES.get(p["title"].strip().lower(), brand)
     # the title sometimes redundantly restates the brand as a "... By
     # <Brand>" suffix even though it's already in its own tag ("Khumar
     # Zanzibar By Wadi Al khaleej", brand tag "Wadi Al Khaleej") — left
