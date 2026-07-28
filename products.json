@@ -153145,6 +153145,32 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "khanjar-1785280294",
+      "name_ar": "Khanjar",
+      "name_en": "Khanjar",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/khanjar-1785280294.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 800,
+              "first_seen": "2026-07-28"
+            }
+          ],
+          "image": "images/khanjar-1785280294--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/khanjar-by-otoori"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
