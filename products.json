@@ -10847,8 +10847,7 @@
               "kind": "full",
               "ml": 200,
               "price": 1975,
-              "first_seen": "2026-07-19",
-              "prev_price": 2025
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/arrogate-blue-de--eldesoki-fragrances.jpg",
@@ -34427,7 +34426,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 525,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-28"
             },
             {
               "kind": "full",
@@ -38328,7 +38328,8 @@
               "kind": "full",
               "ml": 150,
               "price": 1650,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-28"
             }
           ],
           "image": "images/white-regent-diamond--eldesoki-fragrances.jpg",
@@ -39354,7 +39355,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1675,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-28"
             }
           ],
           "image": "images/spanish-tobacco--eldesoki-fragrances.jpg",
@@ -52889,7 +52891,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-28"
             },
             {
               "kind": "leftover",
@@ -61865,7 +61868,8 @@
               "kind": "leftover",
               "ml": 100,
               "price": 1500,
-              "first_seen": "2026-07-26"
+              "first_seen": "2026-07-26",
+              "sold_since": "2026-07-28"
             },
             {
               "kind": "full",
@@ -78112,7 +78116,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 150,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-28"
             },
             {
               "kind": "leftover",
@@ -78124,7 +78129,8 @@
               "kind": "full",
               "ml": 150,
               "price": 1500,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-28"
             }
           ],
           "image": "images/blue-diamond-aqua--eldesoki-fragrances.jpg",
@@ -99836,7 +99842,8 @@
               "kind": "full",
               "ml": 150,
               "price": 1500,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-28"
             }
           ],
           "image": "images/nude-coral-diamond--eldesoki-fragrances.jpg",
@@ -108278,7 +108285,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 150,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-28"
             },
             {
               "kind": "leftover",
@@ -108291,7 +108299,8 @@
               "kind": "full",
               "ml": 150,
               "price": 1650,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-28"
             }
           ],
           "image": "images/black-diamond-incense--eldesoki-fragrances.jpg",
@@ -131754,11 +131763,12 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1425,
-              "first_seen": "2026-07-18"
+              "price": 1375,
+              "first_seen": "2026-07-18",
+              "prev_price": 1425
             }
           ],
-          "image": "images/cafee-latte-khadlaj--eldesoki-fragrances.jpg",
+          "image": "images/caffe-latte--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/cafee-latte-khadlaj%d9%83%d8%a7%d9%81%d9%8a%d9%87-%d9%84%d8%a7%d8%aa%d9%8a%d9%87-%d9%85%d9%86-%d8%ae%d8%a7%d8%af%d9%84%d8%a7%da%86/"
         }
       ],
@@ -137607,7 +137617,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1500,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-28"
             }
           ],
           "image": "images/mexican-tobacco--eldesoki-fragrances.jpg",
@@ -138887,7 +138898,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-28"
             },
             {
               "kind": "full",
@@ -153163,6 +153175,241 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "nude-coral-diamond-ibraq",
+      "name_ar": "نود كورال دايموند ١٥٠ملي من ابراق",
+      "name_en": "Nude Coral Diamond",
+      "brand": "Ibraq",
+      "dupe_of": [],
+      "image": "images/nude-coral-diamond-ibraq.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 1500,
+              "first_seen": "2026-07-28"
+            }
+          ],
+          "image": "images/nude-coral-diamond-ibraq--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/nude-coral-diamond-150ml%d9%86%d9%88%d8%af-%d9%83%d9%88%d8%b1%d8%a7%d9%84-%d8%af%d8%a7%d9%8a%d9%85%d9%88%d9%86%d8%af-%d9%a1%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d8%a8%d8%b1%d8%a7%d9%82-2/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "blue-aqua-diamond",
+      "name_ar": "بلو اكوا دايموند ١٥٠ملي من ابراق",
+      "name_en": "Blue Aqua Diamond",
+      "brand": "Ibraq",
+      "dupe_of": [],
+      "image": "images/blue-aqua-diamond.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 1500,
+              "first_seen": "2026-07-28"
+            }
+          ],
+          "image": "images/blue-aqua-diamond--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/blue-aqua-diamond-150ml%d8%a8%d9%84%d9%88-%d8%a7%d9%83%d9%88%d8%a7-%d8%af%d8%a7%d9%8a%d9%85%d9%88%d9%86%d8%af-%d9%a1%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d8%a8%d8%b1%d8%a7%d9%82/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "black-diamond-incense-ibraq",
+      "name_ar": "بلاك دايموند انسنس ١٥٠ملي من ابراق",
+      "name_en": "Black Diamond Incense",
+      "brand": "Ibraq",
+      "dupe_of": [],
+      "image": "images/black-diamond-incense-ibraq.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 1650,
+              "first_seen": "2026-07-28"
+            }
+          ],
+          "image": "images/black-diamond-incense-ibraq--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/black-diamond-incense-150ml%d8%a8%d9%84%d8%a7%d9%83-%d8%af%d8%a7%d9%8a%d9%85%d9%88%d9%86%d8%af-%d8%a7%d9%86%d8%b3%d9%86%d8%b3-%d9%a1%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d8%a8%d8%b1/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "spanish-tobacco-ibrahim-al-qurashi",
+      "name_ar": "سبانش توباكو من القرشي ١٠٠ملي",
+      "name_en": "Spanish Tobacco",
+      "brand": "Ibrahim Al Qurashi",
+      "dupe_of": [],
+      "image": "images/spanish-tobacco-ibrahim-al-qurashi.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1675,
+              "first_seen": "2026-07-28"
+            }
+          ],
+          "image": "images/spanish-tobacco-ibrahim-al-qurashi--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/spanish-tobacco-100ml%d8%b3%d8%a8%d8%a7%d9%86%d8%b4-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%85%d9%86-%d8%a7%d9%84%d9%82%d8%b1%d8%b4%d9%8a-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "white-regent-diamond-ibraq",
+      "name_ar": "وايت ريجينت دايموند ١٥٠ملي من ابراق",
+      "name_en": "White Regent Diamond",
+      "brand": "Ibraq",
+      "dupe_of": [],
+      "image": "images/white-regent-diamond-ibraq.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 1650,
+              "first_seen": "2026-07-28"
+            }
+          ],
+          "image": "images/white-regent-diamond-ibraq--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/white-regent-diamond-150ml%d9%88%d8%a7%d9%8a%d8%aa-%d8%b1%d9%8a%d8%ac%d9%8a%d9%86%d8%aa-%d8%af%d8%a7%d9%8a%d9%85%d9%88%d9%86%d8%af-%d9%a1%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d8%a8%d8%b1/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "mexican-tobacco-ibrahim-al-qurashi",
+      "name_ar": "ميكسيكان توباكو من القرشي ١٠٠ملي",
+      "name_en": "Mexican Tobacco",
+      "brand": "Ibrahim Al Qurashi",
+      "dupe_of": [],
+      "image": "images/mexican-tobacco-ibrahim-al-qurashi.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1500,
+              "first_seen": "2026-07-28"
+            }
+          ],
+          "image": "images/mexican-tobacco-ibrahim-al-qurashi--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/mexican-tobacco-100ml%d9%85%d9%8a%d9%83%d8%b3%d9%8a%d9%83%d8%a7%d9%86-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%85%d9%86-%d8%a7%d9%84%d9%82%d8%b1%d8%b4%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "cuban-tobacco-1785255537",
+      "name_ar": "كوبيان توباكو ١٠ملي تستر",
+      "name_en": "Cuban Tobacco",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/cuban-tobacco-1785255537.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-07-28"
+            }
+          ],
+          "image": "images/cuban-tobacco-1785255537--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/cuban-tobacco-10ml%d9%83%d9%88%d8%a8%d9%8a%d8%a7%d9%86-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%a1%d9%a0%d9%85%d9%84%d9%8a-%d8%aa%d8%b3%d8%aa%d8%b1/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "black-diamond-incense-1785255538",
+      "name_ar": "بلاك دايموند انسنس ١٠ملي",
+      "name_en": "Black Diamond Incense",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/black-diamond-incense-1785255538.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 150,
+              "first_seen": "2026-07-28",
+              "sold_since": "2026-07-28"
+            }
+          ],
+          "image": "images/black-diamond-incense-1785255538--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/black-diamond-incense-10ml%d8%a8%d9%84%d8%a7%d9%83-%d8%af%d8%a7%d9%8a%d9%85%d9%88%d9%86%d8%af-%d8%a7%d9%86%d8%b3%d9%86%d8%b3-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "blue-aqua-diamond-1785255543",
+      "name_ar": "بلو اكوا دايموند ١٠ملي",
+      "name_en": "Blue Aqua Diamond",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/blue-aqua-diamond-1785255543.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 150,
+              "first_seen": "2026-07-28"
+            }
+          ],
+          "image": "images/blue-aqua-diamond-1785255543--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/blue-aqua-diamond-10ml%d8%a8%d9%84%d9%88-%d8%a7%d9%83%d9%88%d8%a7-%d8%af%d8%a7%d9%8a%d9%85%d9%88%d9%86%d8%af-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
