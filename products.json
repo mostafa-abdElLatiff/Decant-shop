@@ -73786,7 +73786,7 @@
               "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/tobacco-jam-assaf--og-perfume.jpg",
+          "image": "images/tobacco-jam-50--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/tobacco-jam"
         }
       ],
@@ -86432,7 +86432,6 @@
               "ml": 10,
               "price": 140,
               "first_seen": "2026-07-19",
-              "prev_price": 195,
               "sold_since": "2026-07-28"
             },
             {
@@ -107218,7 +107217,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 525,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-28"
             },
             {
               "kind": "leftover",
@@ -128997,7 +128997,7 @@
               "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/club-de-nuit-intense-perfume--og-perfume.jpg",
+          "image": "images/club-de-nuit-intense-man--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/club-de-nuit-edt"
         }
       ],
@@ -151489,7 +151489,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 250,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-28"
             },
             {
               "kind": "decant",
@@ -153438,6 +153439,133 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "arabian-tobacco-ibrahim-al-qurashi",
+      "name_ar": "Arabian Tobacco",
+      "name_en": "Arabian Tobacco",
+      "brand": "Ibrahim Al Qurashi",
+      "dupe_of": [],
+      "image": "images/arabian-tobacco-ibrahim-al-qurashi.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 150,
+              "first_seen": "2026-07-28",
+              "sold_since": "2026-07-28"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 425,
+              "first_seen": "2026-07-28",
+              "sold_since": "2026-07-28"
+            },
+            {
+              "kind": "leftover",
+              "ml": 100,
+              "price": 1200,
+              "first_seen": "2026-07-28",
+              "sold_since": "2026-07-28"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2250,
+              "first_seen": "2026-07-28",
+              "sold_since": "2026-07-28"
+            }
+          ],
+          "image": "images/arabian-tobacco-ibrahim-al-qurashi--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/arabian-tobacco-ibrahim-al-qurashi"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "french-tobacco-ibrahim-al-qurashi",
+      "name_ar": "French Tobacco",
+      "name_en": "French Tobacco",
+      "brand": "Ibrahim Al Qurashi",
+      "dupe_of": [],
+      "image": "images/french-tobacco-ibrahim-al-qurashi.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 195,
+              "first_seen": "2026-07-28"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 525,
+              "first_seen": "2026-07-28"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1550,
+              "first_seen": "2026-07-28"
+            }
+          ],
+          "image": "images/french-tobacco-ibrahim-al-qurashi--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/french-tobacco-100ml"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "brazillian-tobacco",
+      "name_ar": "Brazillian Tobacco",
+      "name_en": "Brazillian Tobacco",
+      "brand": "Ibrahim Al Qurashi",
+      "dupe_of": [],
+      "image": "images/brazillian-tobacco.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 130,
+              "first_seen": "2026-07-28",
+              "sold_since": "2026-07-28"
+            },
+            {
+              "kind": "leftover",
+              "ml": 100,
+              "price": 1150,
+              "first_seen": "2026-07-28",
+              "sold_since": "2026-07-28"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2250,
+              "first_seen": "2026-07-28",
+              "sold_since": "2026-07-28"
+            }
+          ],
+          "image": "images/brazillian-tobacco--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/brazillian-tobacco-ibrahim-al-qurashi"
+        }
+      ],
+      "_hero_source": "og-perfume"
     }
   ]
 }
