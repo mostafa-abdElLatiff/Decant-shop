@@ -13608,8 +13608,7 @@
               "kind": "full",
               "ml": 200,
               "price": 5750,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-28"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/imperial-valley--emaratiscents.jpg",
@@ -16250,15 +16249,16 @@
           "offers": [
             {
               "kind": "full",
-              "ml": 85,
-              "price": 2900,
-              "first_seen": "2026-07-18"
+              "ml": 75,
+              "price": 800,
+              "first_seen": "2026-07-27",
+              "sold_since": "2026-07-28"
             },
             {
               "kind": "full",
-              "ml": 75,
-              "price": 800,
-              "first_seen": "2026-07-27"
+              "ml": 85,
+              "price": 2900,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/khanjar-lattafa--emaratiscents.jpg",
@@ -19010,7 +19010,7 @@
               "first_seen": "2026-07-18"
             }
           ],
-          "image": "images/mango-affogato--emaratiscents.jpg",
+          "image": "images/mango-affogato-arabiyat-sugar--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/mango-affogato"
         },
         {
@@ -22051,7 +22051,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-28"
             }
           ],
           "image": "images/amber--emaratiscents.jpg",
@@ -83327,8 +83328,7 @@
               "kind": "full",
               "ml": 100,
               "price": 12200,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/wanderlust--emaratiscents.jpg",
@@ -89036,7 +89036,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2750,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-28"
             }
           ],
           "image": "images/summer-yellow--emaratiscents.jpg",
@@ -94884,8 +94885,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1150,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-20"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/fursan-white--emaratiscents.jpg",
@@ -99857,7 +99857,8 @@
               "kind": "full",
               "ml": 150,
               "price": 2250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-28"
             }
           ],
           "image": "images/nude-coral-diamond--emaratiscents.jpg",
@@ -123634,7 +123635,7 @@
               "first_seen": "2026-07-18"
             }
           ],
-          "image": "images/chocolate-ganache--emaratiscents.jpg",
+          "image": "images/chocolate-ganache-arabiyat-sugar--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/chocolate-ganache"
         }
       ],
@@ -129730,7 +129731,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2350,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-28"
             }
           ],
           "image": "images/no-comment-higher-concentration--emaratiscents.jpg",
@@ -153410,6 +153412,32 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "khanjar-1785255582",
+      "name_ar": "Khanjar",
+      "name_en": "Khanjar",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/khanjar-1785255582.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 800,
+              "first_seen": "2026-07-28"
+            }
+          ],
+          "image": "images/khanjar-1785255582--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/khanjar-by-otoori"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
