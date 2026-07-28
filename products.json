@@ -15060,7 +15060,8 @@
               "kind": "full",
               "ml": 15,
               "price": 2100,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-28"
             }
           ],
           "image": "images/elviera-edition-solmere-set-jean-antoine-200ml-4--eldesoki-fragrances.jpg",
@@ -78221,8 +78222,9 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 1675,
-              "first_seen": "2026-07-18"
+              "price": 1500,
+              "first_seen": "2026-07-18",
+              "prev_price": 1675
             }
           ],
           "image": "images/blue-diamond-aqua--eldesoki-fragrances.jpg",
@@ -86630,8 +86632,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1650,
-              "first_seen": "2026-07-18"
+              "price": 1500,
+              "first_seen": "2026-07-18",
+              "prev_price": 1650
             }
           ],
           "image": "images/french-tobacco--eldesoki-fragrances.jpg",
@@ -91159,8 +91162,9 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 1650,
-              "first_seen": "2026-07-18"
+              "price": 1500,
+              "first_seen": "2026-07-18",
+              "prev_price": 1650
             }
           ],
           "image": "images/black-carbon-diamond--eldesoki-fragrances.jpg",
@@ -99956,8 +99960,9 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 1675,
-              "first_seen": "2026-07-18"
+              "price": 1500,
+              "first_seen": "2026-07-18",
+              "prev_price": 1675
             }
           ],
           "image": "images/nude-coral-diamond--eldesoki-fragrances.jpg",
@@ -124540,13 +124545,15 @@
               "kind": "decant",
               "ml": 10,
               "price": 215,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-28"
             },
             {
               "kind": "leftover",
               "ml": 30,
               "price": 700,
-              "first_seen": "2026-07-26"
+              "first_seen": "2026-07-26",
+              "sold_since": "2026-07-28"
             },
             {
               "kind": "leftover",
@@ -137745,8 +137752,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1675,
-              "first_seen": "2026-07-18"
+              "price": 1500,
+              "first_seen": "2026-07-18",
+              "prev_price": 1675
             }
           ],
           "image": "images/mexican-tobacco--eldesoki-fragrances.jpg",
@@ -154066,6 +154074,112 @@
         }
       ],
       "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "stronger-with-you-powerfully-1785235166",
+      "name_ar": "باورفولي ١٠٠ملي",
+      "name_en": "Stronger With You Powerfully",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/stronger-with-you-powerfully-1785235166.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 5900,
+              "first_seen": "2026-07-28",
+              "sold_since": "2026-07-28"
+            }
+          ],
+          "image": "images/stronger-with-you-powerfully-1785235166--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/stronger-with-you-powerfully-100ml-%d8%a8%d8%a7%d9%88%d8%b1%d9%81%d9%88%d9%84%d9%8a-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "stronger-with-you-parfum-1785235185",
+      "name_ar": "سترونجر وذ يو بارفم ١٠٠ملي",
+      "name_en": "Stronger With You Parfum",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/stronger-with-you-parfum-1785235185.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 5950,
+              "first_seen": "2026-07-28",
+              "sold_since": "2026-07-28"
+            }
+          ],
+          "image": "images/stronger-with-you-parfum-1785235185--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/stronger-with-you-parfum-100ml%d8%b3%d8%aa%d8%b1%d9%88%d9%86%d8%ac%d8%b1-%d9%88%d8%b0-%d9%8a%d9%88-%d8%a8%d8%a7%d8%b1%d9%81%d9%85-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "cuban-tobacco-1785235287",
+      "name_ar": "كوبيان توباكو ١٠ملي تستر",
+      "name_en": "Cuban Tobacco",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/cuban-tobacco-1785235287.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-07-28"
+            }
+          ],
+          "image": "images/cuban-tobacco-1785235287--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/cuban-tobacco-10ml%d9%83%d9%88%d8%a8%d9%8a%d8%a7%d9%86-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%a1%d9%a0%d9%85%d9%84%d9%8a-%d8%aa%d8%b3%d8%aa%d8%b1/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "cuban-tobacco-1785235323",
+      "name_ar": "كوبيان توباكو ٥٠ملي",
+      "name_en": "Cuban Tobacco",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/cuban-tobacco-1785235323.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 950,
+              "first_seen": "2026-07-28"
+            }
+          ],
+          "image": "images/cuban-tobacco-1785235323--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/cuban-tobacco-50ml%d9%83%d9%88%d8%a8%d9%8a%d8%a7%d9%86-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
