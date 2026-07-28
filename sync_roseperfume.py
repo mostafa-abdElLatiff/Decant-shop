@@ -37,7 +37,7 @@ import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from extract import slugify, accord_color, find_existing_product, unique_id_for, reconcile_offers, is_web_sourced_hero, strip_redundant_brand_suffix, CATALOG  # noqa: E402
+from extract import slugify, accord_color, find_by_store_url, find_existing_product, unique_id_for, reconcile_offers, is_web_sourced_hero, strip_redundant_brand_suffix, CATALOG  # noqa: E402
 from rp_notes import translate_note, split_dupe  # noqa: E402
 
 COLLECTION_URLS = [
@@ -285,7 +285,8 @@ def main():
     matched_ids = set()
 
     for name_en, info in parsed.items():
-        product = find_existing_product(catalog, name_en, info["brand"])
+        product = find_by_store_url(catalog, STORE_NAME, info.get("product_url")) \
+            or find_existing_product(catalog, name_en, info["brand"])
         if product is None:
             product = {
                 "id": unique_id_for(catalog, name_en, info["brand"]),

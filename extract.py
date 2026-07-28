@@ -692,6 +692,35 @@ def _single_word_typo(core_a: set, core_b: set) -> bool:
     return difflib.SequenceMatcher(None, word_a, word_b).ratio() >= 0.7
 
 
+def find_by_store_url(catalog: dict, store_name: str, product_url):
+    """Find a product this exact store listing was already synced onto
+    before, by matching store_name+product_url on one of its store blocks.
+
+    This must run BEFORE find_existing_product on every sync script's
+    per-listing loop, not as a fallback. A listing URL is a stable
+    identity regardless of what name/brand text the store shows this run
+    -- name/brand fuzzy matching can only ever be a best-effort guess.
+
+    This became a real, repeating bug: when a listing's parsed brand is
+    blank and its name is genuinely ambiguous (multiple existing products
+    share that name under different real brands, e.g. "Tiramisu Caramel"
+    under both Zimaya and Paris Corner), find_existing_product correctly
+    refuses to guess and returns None -- but with no URL check ahead of
+    it, THAT SAME listing then creates a brand-new duplicate product on
+    every single subsequent sync run forever (each run's fresh candidate
+    pool is even more ambiguous than the last, since the previous run's
+    orphan is now in it too). Checking the URL first means the second
+    run finds the exact same product the first run created and updates
+    it in place instead."""
+    if not product_url:
+        return None
+    for p in catalog["products"]:
+        for s in p.get("stores", []):
+            if s.get("name") == store_name and s.get("product_url") == product_url:
+                return p
+    return None
+
+
 def find_existing_product(catalog: dict, name_en: str, brand: str = ""):
     """Exact slug match first, then a *conservative* fuzzy match: only when
     the normalized core-name token sets are exactly equal (catches accent/

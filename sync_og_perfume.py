@@ -34,7 +34,7 @@ import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from extract import slugify, find_existing_product, unique_id_for, reconcile_offers, is_web_sourced_hero, CATALOG  # noqa: E402
+from extract import slugify, find_by_store_url, find_existing_product, unique_id_for, reconcile_offers, is_web_sourced_hero, CATALOG  # noqa: E402
 from brand_prefixes import split_brand_prefix, split_brand_suffix  # noqa: E402
 
 STORE_NAME = "og-perfume"
@@ -206,7 +206,8 @@ def main():
     added, synced = 0, 0
 
     for info in parsed:
-        product = find_existing_product(catalog, info["name_en"], info["brand"])
+        product = find_by_store_url(catalog, STORE_NAME, info.get("product_url")) \
+            or find_existing_product(catalog, info["name_en"], info["brand"])
         if product is None:
             product = {
                 "id": unique_id_for(catalog, info["name_en"], info["brand"]),

@@ -30,7 +30,7 @@ import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from extract import slugify, accord_color, find_existing_product, unique_id_for, reconcile_offers, is_web_sourced_hero, CATALOG  # noqa: E402
+from extract import slugify, accord_color, find_by_store_url, find_existing_product, unique_id_for, reconcile_offers, is_web_sourced_hero, CATALOG  # noqa: E402
 from brand_prefixes import split_brand_prefix, split_brand_suffix  # noqa: E402
 
 BASE_URL = "https://sniffz-eg.com"
@@ -204,7 +204,8 @@ def main():
     added, synced = 0, 0
 
     for name_en, info in parsed_by_name.items():
-        product = find_existing_product(catalog, name_en, info["brand"])
+        product = find_by_store_url(catalog, STORE_NAME, info.get("product_url")) \
+            or find_existing_product(catalog, name_en, info["brand"])
         if product is None:
             accords = [
                 {"label_en": n, "label_ar": "", "color": accord_color(n), "w": max(40, 100 - i * 10)}
