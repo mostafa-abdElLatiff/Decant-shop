@@ -5337,8 +5337,7 @@
               "kind": "full",
               "ml": 200,
               "price": 2200,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-25"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/klikat-monaya--emaratiscents.jpg",
@@ -23261,7 +23260,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2750,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-29"
             }
           ],
           "image": "images/reef-33--emaratiscents.jpg",
@@ -65744,7 +65744,8 @@
               "kind": "full",
               "ml": 200,
               "price": 2200,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-29"
             }
           ],
           "image": "images/jassas-ezz-oud--emaratiscents.jpg",
@@ -88191,8 +88192,7 @@
               "kind": "full",
               "ml": 10,
               "price": 1400,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-28"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/mini-diamond-collection--emaratiscents.jpg",
@@ -88678,7 +88678,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1380,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-29"
             }
           ],
           "image": "images/kafu--emaratiscents.jpg",
@@ -88956,8 +88957,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2750,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-28"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/summer-yellow--emaratiscents.jpg",
@@ -94019,8 +94019,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-20"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/safari-breeze--emaratiscents.jpg",
@@ -111634,7 +111633,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1290,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-29"
             }
           ],
           "image": "images/mazaaj--emaratiscents.jpg",
@@ -127502,7 +127502,8 @@
               "kind": "full",
               "ml": 150,
               "price": 2100,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-29"
             }
           ],
           "image": "images/attacks--emaratiscents.jpg",
@@ -153184,6 +153185,58 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "yelloneo-summer-edition-set",
+      "name_ar": "Yelloneo Summer Edition Set",
+      "name_en": "Yelloneo Summer Edition Set",
+      "brand": "Gissah",
+      "dupe_of": [],
+      "image": "images/yelloneo-summer-edition-set.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 5750,
+              "first_seen": "2026-07-29"
+            }
+          ],
+          "image": "images/yelloneo-summer-edition-set--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/yelloneo-summer-edition-set"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "oraneo-summer-edition-set",
+      "name_ar": "Oraneo Summer Edition Set",
+      "name_en": "Oraneo Summer Edition Set",
+      "brand": "Gissah",
+      "dupe_of": [],
+      "image": "images/oraneo-summer-edition-set.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 5750,
+              "first_seen": "2026-07-29"
+            }
+          ],
+          "image": "images/oraneo-summer-edition-set--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/oraneo-summer-edition-set"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
