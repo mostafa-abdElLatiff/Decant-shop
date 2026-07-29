@@ -1869,7 +1869,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 20350,
+              "price": 21250,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -10924,7 +10924,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 20200,
+              "price": 21250,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -37121,7 +37121,7 @@
             }
           ],
           "image": "images/le-beau-le-parfum--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/jpg-le-beau-le-parfum-3ml-438"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/jpg-le-beau-le-parfum-5ml-418"
         },
         {
           "name": "sniffz",
@@ -38647,7 +38647,8 @@
               "kind": "full",
               "ml": 90,
               "price": 20900,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-29"
             }
           ],
           "image": "images/paragon-extrait-de-parfum--mazaya.jpg",
@@ -41168,6 +41169,20 @@
           ],
           "image": "images/art-of-arabia-i--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/art-of-arabia-i"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2899,
+              "first_seen": "2026-07-29"
+            }
+          ],
+          "image": "images/art-of-arabia-i--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/lattafa-art-of-arabia-i-eau-de-parfum-100ml"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -45557,7 +45572,7 @@
             }
           ],
           "image": "images/power-of-you-women--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/giorgio-armani-power-of-you-women-5ml-398"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/giorgio-armani-power-of-you-women-3ml-433"
         },
         {
           "name": "sniffz",
@@ -45925,8 +45940,7 @@
               "kind": "full",
               "ml": 100,
               "price": 23100,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/existence--mazaya.jpg",
@@ -50553,7 +50567,7 @@
             }
           ],
           "image": "images/la-vie-est-belle-iris-absolu-women--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lancome-la-vie-est-belle-iris-absolu-women-5ml-421"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lancome-la-vie-est-belle-iris-absolu-women-3ml-440"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -69205,6 +69219,34 @@
           ],
           "image": "images/eros-eau-de-toilette--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/versace-eros-eau-de-toilette-full-sealed"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 3449,
+              "first_seen": "2026-07-29",
+              "sold_since": "2026-07-29"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4013,
+              "first_seen": "2026-07-29"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 4599,
+              "first_seen": "2026-07-29",
+              "sold_since": "2026-07-29"
+            }
+          ],
+          "image": "images/eros-eau-de-toilette--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/versace-eros-eau-de-toilette-for-men"
         }
       ],
       "_hero_source": "sniffz"
@@ -72124,7 +72166,7 @@
             }
           ],
           "image": "images/la-femme-absolu--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/prada-la-femme-absolu-3ml-445"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/prada-la-femme-absolu-5ml-400"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -79157,7 +79199,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 17550,
+              "price": 18200,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -83650,7 +83692,7 @@
             }
           ],
           "image": "images/fig-infusion--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-fig-infusion-3ml-475"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-fig-infusion-5ml-474"
         },
         {
           "name": "Hossam ElDeen Gamal",
@@ -91738,6 +91780,20 @@
           ],
           "image": "images/embrace--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/embrace"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1449,
+              "first_seen": "2026-07-29"
+            }
+          ],
+          "image": "images/embrace--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/lattafa-embrace-eau-de-parfum-100ml"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -108068,7 +108124,7 @@
             }
           ],
           "image": "images/velvet-iris--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-velvet-iris-3ml-481"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-velvet-iris-5ml-480"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -117156,7 +117212,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7634,
+              "price": 7804,
               "first_seen": "2026-07-23"
             },
             {
@@ -117533,7 +117589,7 @@
             {
               "kind": "full",
               "ml": 30,
-              "price": 9100,
+              "price": 9400,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -119578,7 +119634,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 17550,
+              "price": 18200,
               "first_seen": "2026-07-23"
             }
           ],
@@ -123397,8 +123453,7 @@
               "kind": "full",
               "ml": 100,
               "price": 5451,
-              "first_seen": "2026-07-23",
-              "prev_price": 6999
+              "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
@@ -125980,9 +126035,8 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 7200,
+              "price": 8800,
               "first_seen": "2026-07-23",
-              "prev_price": 8800,
               "sold_since": "2026-07-29"
             },
             {
@@ -125995,9 +126049,8 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 8800,
+              "price": 9800,
               "first_seen": "2026-07-23",
-              "prev_price": 9800,
               "sold_since": "2026-07-29"
             }
           ],
@@ -128232,6 +128285,20 @@
           ],
           "image": "images/cedrat-boise-intense--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/mancera-cedrat-boise-intense-120ml-master%d9%85%d8%a7%d9%86%d8%b3%d9%8a%d8%b1%d8%a7-%d8%b3%d9%8a%d8%af%d8%b1%d8%a7-%d8%a8%d9%88%d8%a7%d8%b2%d9%8a-%d8%a7%d9%86%d8%aa%d9%86%d8%b3-%d9%a1%d9%a2%d9%a0/"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 120,
+              "price": 12925,
+              "first_seen": "2026-07-29"
+            }
+          ],
+          "image": "images/cedrat-boise-intense--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/cedrat-boise-intense-120-ml"
         }
       ],
       "_hero_source": "eldesoki-fragrances"
@@ -131152,8 +131219,7 @@
               "kind": "full",
               "ml": 60,
               "price": 8200,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
@@ -131331,8 +131397,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2395,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/musamam-white-intense-edp--mazaya.jpg",
@@ -135153,7 +135218,7 @@
             }
           ],
           "image": "images/eau-de-vintage--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ghalati-eau-de-vintage-3ml-469"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ghalati-eau-de-vintage-5ml-458"
         },
         {
           "name": "dar.elarabia",
@@ -153260,12 +153325,117 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 26150,
+              "price": 27300,
               "first_seen": "2026-07-29"
             }
           ],
           "image": "images/outlands-essence-de-parfum--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/outlands-essence-de-parfum-100-ml"
+          "product_url": "https://mazaya.eg/en/outlands-essence-100-ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "bad-boy-cobalt-absolute-edp",
+      "name_ar": "Bad Boy Cobalt Absolute EDP",
+      "name_en": "Bad Boy Cobalt Absolute EDP",
+      "brand": "Carolina Herrera",
+      "dupe_of": [],
+      "image": "images/bad-boy-cobalt-absolute-edp.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 9300,
+              "first_seen": "2026-07-29"
+            }
+          ],
+          "image": "images/bad-boy-cobalt-absolute-edp--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/bad-boy-cobalt-absolute-edp-100-ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "meant-to-be-seen",
+      "name_ar": "Meant To Be Seen",
+      "name_en": "Meant To Be Seen",
+      "brand": "Nishane",
+      "dupe_of": [],
+      "image": "images/meant-to-be-seen.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 21600,
+              "first_seen": "2026-07-29"
+            }
+          ],
+          "image": "images/meant-to-be-seen--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/meant-to-be-seen-100-ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "blue-talisman-extrait-de-parfum",
+      "name_ar": "Blue Talisman Extrait De Parfum",
+      "name_en": "Blue Talisman Extrait De Parfum",
+      "brand": "ExNihilo",
+      "dupe_of": [],
+      "image": "images/blue-talisman-extrait-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 25750,
+              "first_seen": "2026-07-29"
+            }
+          ],
+          "image": "images/blue-talisman-extrait-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/blue-talisman-extrait-de-parfum-100-ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "oud-zarian-eau-de-parfum",
+      "name_ar": "Oud Zarian Eau de Parfum",
+      "name_en": "Oud Zarian Eau de Parfum",
+      "brand": "Creed",
+      "dupe_of": [],
+      "image": "images/oud-zarian-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 36250,
+              "first_seen": "2026-07-29",
+              "sold_since": "2026-07-29"
+            }
+          ],
+          "image": "images/oud-zarian-eau-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/oud-zarian-eau-de-parfum-100-ml"
         }
       ],
       "_hero_source": "mazaya"
