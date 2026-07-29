@@ -27402,8 +27402,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 200,
-              "first_seen": "2026-07-18"
+              "price": 175,
+              "first_seen": "2026-07-18",
+              "prev_price": 200
             },
             {
               "kind": "leftover",
@@ -81945,8 +81946,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 950,
-              "first_seen": "2026-07-18"
+              "price": 925,
+              "first_seen": "2026-07-18",
+              "prev_price": 950
             }
           ],
           "image": "images/tuwaiq-almas--eldesoki-fragrances.jpg",
@@ -86036,8 +86038,9 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 2025,
-              "first_seen": "2026-07-18"
+              "price": 1975,
+              "first_seen": "2026-07-18",
+              "prev_price": 2025
             }
           ],
           "image": "images/aura-35-assaf--eldesoki-fragrances.jpg",
@@ -133955,6 +133958,21 @@
           ],
           "image": "images/club-de-nuit-intense-eau-de-toilette--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/club-de-nuit-edt"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 975,
+              "first_seen": "2026-07-29",
+              "sold_since": "2026-07-29"
+            }
+          ],
+          "image": "images/club-de-nuit-intense-eau-de-toilette--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/club-de-nuit-intense-men-50ml/"
         }
       ],
       "_hero_source": "feel22"
@@ -139401,8 +139419,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1825,
-              "first_seen": "2026-07-18"
+              "price": 1750,
+              "first_seen": "2026-07-18",
+              "prev_price": 1825
             }
           ],
           "image": "images/black-cavalier-vi--eldesoki-fragrances.jpg",
@@ -141423,8 +141442,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 240,
-              "first_seen": "2026-07-26"
+              "price": 230,
+              "first_seen": "2026-07-26",
+              "prev_price": 240
             },
             {
               "kind": "leftover",
