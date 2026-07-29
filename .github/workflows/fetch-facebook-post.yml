@@ -74,7 +74,14 @@ jobs:
           mkdir -p "$dir"
           # --cookies <file>, NOT --cookies-from-browser like extract.py
           # uses locally -- there's no live logged-in browser in CI.
-          gallery-dl --cookies cookies.txt --directory "$dir" "$POST_URL"
+          # --write-metadata mirrors extract.py's download_facebook_post()
+          # (see its write_metadata param) -- writes a <image>.json sidecar
+          # per photo with Facebook's own caption text, for sellers who
+          # write prices/sizes in the post caption rather than on a price
+          # card in the photo itself. Processing this batch later just
+          # means also reading each sidecar's "caption" field alongside
+          # its image.
+          gallery-dl --cookies cookies.txt --write-metadata --directory "$dir" "$POST_URL"
           json_str() { python3 -c 'import json,sys; print(json.dumps(sys.argv[1]))' "$1"; }
           printf '{\n  "store_name": %s,\n  "post_url": %s,\n  "fetched_at": %s\n}\n' \
             "$(json_str "$STORE_NAME")" \

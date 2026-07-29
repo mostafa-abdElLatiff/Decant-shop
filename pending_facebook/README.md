@@ -5,8 +5,11 @@ Staging area for images fetched from a Facebook group post via
 or the Actions tab — see the README's "Workflow D" section).
 
 Each run creates its own subfolder here: `<store-slug>-<timestamp>/`,
-containing the downloaded photos plus a `meta.json` (`store_name`,
-`post_url`, `fetched_at`).
+containing the downloaded photos, a `<photo>.json` sidecar per photo with
+Facebook's own caption text for it (some sellers write prices/sizes in
+the post's caption rather than on a price card in the photo — check
+these if a photo alone doesn't show a price), and a `meta.json`
+(`store_name`, `post_url`, `fetched_at`).
 
 **This is a staging area only — nothing here has been read or added to
 `products.json` yet.** No AI processing happens automatically (that step
