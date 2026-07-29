@@ -17780,33 +17780,6 @@
       "_hero_source": "og-perfume"
     },
     {
-      "id": "nuctorno-elixir",
-      "name_ar": "نوكتورنو اليكزير ٥٠ملي",
-      "name_en": "Nuctorno Elixir",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/nuctorno-elixir.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 950,
-              "first_seen": "2026-07-27",
-              "sold_since": "2026-07-27"
-            }
-          ],
-          "image": "images/nuctorno-elixir--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/nuctorno-elixir-50ml%d9%86%d9%88%d9%83%d8%aa%d9%88%d8%b1%d9%86%d9%88-%d8%a7%d9%84%d9%8a%d9%83%d8%b2%d9%8a%d8%b1-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "veneno",
       "name_ar": "Veneno",
       "name_en": "Veneno",
@@ -124123,6 +124096,19 @@
               "ml": 100,
               "price": 1550,
               "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 950,
+              "first_seen": "2026-07-27",
+              "sold_since": "2026-07-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 175,
+              "first_seen": "2026-07-20"
             }
           ],
           "image": "images/nocturno-elixir--eldesoki-fragrances.jpg",
@@ -124158,7 +124144,9 @@
       "aliases": [
         "Rayhaan Nocturno Elixir",
         "Rayhaan Nocturno Pour Homme Elixir",
-        "Rayhaan Nuctorno Elixir"
+        "Rayhaan Nuctorno Elixir",
+        "Nuctorno Elixir",
+        "Nuctorno Elixir Rayhaan"
       ]
     },
     {
@@ -127438,32 +127426,6 @@
           "image": "images/zefiro.jpg"
         }
       ]
-    },
-    {
-      "id": "nuctorno-elixir-rayhaan",
-      "name_ar": "نوكتورنو اليكزير تستر ١٠ملي ريحان",
-      "name_en": "Nuctorno Elixir Rayhaan",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/nuctorno-elixir-rayhaan.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 175,
-              "first_seen": "2026-07-20"
-            }
-          ],
-          "image": "images/nuctorno-elixir-rayhaan--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/nuctorno-elixir-10ml-rayhaan%d9%86%d9%88%d9%83%d8%aa%d9%88%d8%b1%d9%86%d9%88-%d8%a7%d9%84%d9%8a%d9%83%d8%b2%d9%8a%d8%b1-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a-%d8%b1%d9%8a%d8%ad/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "whispers-in-oud",

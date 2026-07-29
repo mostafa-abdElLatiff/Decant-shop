@@ -67,6 +67,20 @@ BRAND_MAP = {
     "فرانك اوليفير": "Franck Olivier",
     "الرحاب": "Al Rehab",
     "الماس": "Almas",
+    "ريحان": "Rayhaan",
+}
+
+# This store's own listing title spells this fragrance "Nuctorno Elixir"
+# (baked into their English text AND the Arabic URL slug, not just an
+# OCR/scrape artifact on our end) -- the correct spelling, "Nocturno
+# Elixir", is already in the catalog under brand Rayhaan from other
+# stores. Recreated a fresh orphan on every sync since core-token
+# matching correctly won't bridge "Nuctorno"/"Nocturno" (that's not a
+# safe general typo to auto-merge on, see find_duplicates.py's docstring)
+# -- caught and merged by hand twice now, so fixing at the source instead.
+NAME_TYPO_FIXES = {
+    "nuctorno elixir": "Nocturno Elixir",
+    "nuctorno elixir rayhaan": "Nocturno Elixir",
 }
 
 ML_RE = re.compile(r"(\d+)\s*ML", re.I)
@@ -152,6 +166,7 @@ def parse_product(p: dict, kind: str):
     name_en = re.sub(r"\s+", " ", name_en).strip()
     if not name_en:
         return None
+    name_en = NAME_TYPO_FIXES.get(name_en.strip().lower(), name_en)
 
     tag_brand = ""
     tm = TRAILING_TAG_RE.search(name_en)
