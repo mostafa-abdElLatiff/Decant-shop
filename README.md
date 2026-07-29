@@ -34,7 +34,7 @@ point so you're not building from scratch.
 
 | File | What it is |
 |---|---|
-| `index.html` | The catalogue. Filter by decant/full/leftover and by store, sort by newest/oldest/cheapest, search (🔍 icon in the header opens it from anywhere on the page without scrolling up), click a fragrance's or a store's photo to zoom, cart shows a thumbnail + a "better value elsewhere" tip per line when one exists. |
+| `index.html` | The catalogue. Filter by decant/full/leftover and by store, sort by newest/oldest/cheapest, search (🔍 icon in the header opens it from anywhere on the page without scrolling up), click a fragrance's or a store's photo to zoom, click its name to open a shareable/deep-linkable detail card, cart shows a thumbnail + a "better value elsewhere" tip per line when one exists. |
 | `products.json` | Fragrances, their Fragrantica-style notes, what they're a dupe of (if any), and every store offering them. |
 | `admin.html` | Manual editor: add a fragrance, add/update a store's offers, or **edit an existing fragrance's name/brand/notes in place** (search the product list at the bottom, click تعديل/Edit). Commits directly to this repo via the GitHub API. |
 | `extract.py` | The underlying batch tool for *any* Facebook seller's post — the two `update_*.py` scripts below are just this pre-filled with a store's name/link. Claude (default) reads each post image and extracts name, dupe info, notes, and sizes/prices; `--gemini` or `--local` (Ollama) are available as alternate backends. |
@@ -45,6 +45,9 @@ point so you're not building from scratch.
 | `rp_notes.py` | Arabic→English note-name translation table used by `sync_roseperfume.py`. |
 | `find_duplicates.py` | Read-only report of likely duplicate products worth merging by hand — run occasionally (see Maintenance below). |
 | `images/` | Fragrance photos referenced by the catalogue. |
+| `generate_product_pages.py` | Writes `products/<id>.html` — a thin per-product redirect page with Open Graph/Twitter meta tags, so sharing a product's link (or its own URL) gets a real preview card and a real crawlable URL, then redirects into `index.html#<id>` where the product's detail modal opens automatically. Runs automatically (see Workflow D) — you don't normally run this by hand. |
+| `trigger.html` | Phone-friendly page that fires `fetch-facebook-post.yml` from anywhere, without your laptop — see Workflow D. Not linked from the site's nav; bookmark it or add it to your phone's Home Screen. |
+| `pending_facebook/` | Staging area for images `fetch-facebook-post.yml` downloads — see Workflow D and `pending_facebook/README.md`. |
 
 ## Data model
 
@@ -246,6 +249,55 @@ from the wrong product) is worse than an occasional stale/duplicate entry.
 They also all check availability/stock before including an offer — an item
 with nothing currently purchasable is skipped rather than added with a
 guess. They commit locally, never push.
+
+## Workflow D — a Facebook post, hands-off from your phone (free)
+
+Workflow A above needs a laptop with a logged-in browser (`gallery-dl
+--cookies-from-browser`). This workflow moves the *download* step to GitHub
+Actions so you can trigger it from your phone instead — but the actual
+photo-reading step stays a normal, free, interactive Claude Code session
+(same as Workflow A), because that step needs an AI vision call, and this
+whole setup is designed to run **at zero API cost**. Nothing here ever
+calls the Anthropic API.
+
+**One-time setup:**
+
+1. **Export your Facebook cookies.** While logged into Facebook (and a
+   member of the target group) in your browser, use a cookie-export
+   extension (e.g. "Get cookies.txt LOCALLY") to save a Netscape-format
+   `cookies.txt`. Facebook sessions expire — when the workflow starts
+   failing at the `gallery-dl` step, just redo this step and update the
+   secret below.
+2. **Add the secret.** Repo → Settings → Secrets and variables → Actions →
+   New repository secret → name it `FB_COOKIES_TXT`, paste the full file
+   contents.
+3. **Create/update your Personal Access Token.** If you already made one for
+   `admin.html`, edit its permissions to also include **Actions: Read and
+   write** (in addition to Contents: Read and write) — GitHub → Settings →
+   Developer settings → Fine-grained tokens. `trigger.html` reuses the same
+   token/localStorage as `admin.html`, so this is the only token you need.
+4. **Bookmark `trigger.html`.** Open it once on your phone, fill in the
+   setup box (same GitHub username/repo/branch/token fields as
+   `admin.html`), then add the page to your Home Screen for one-tap access
+   next time.
+
+**Using it:** open `trigger.html`, type the store name and paste the post
+URL, tap "ابدأ الجلب". This fires `fetch-facebook-post.yml`, which downloads
+every image from that post into a new folder under `pending_facebook/` and
+commits it — no AI, no cost. GitHub's dispatch API doesn't report live
+progress, so just check `pending_facebook/` (or the repo's Actions tab)
+after a minute or two.
+
+**Processing what's staged:** open a normal Claude Code session and ask it
+to process a `pending_facebook/` folder, or run `extract.py` yourself — it
+already accepts a local image directory with no code changes needed:
+
+```bash
+python extract.py --store "<store name>" --url "<store url>" pending_facebook/<folder>/
+```
+
+See `pending_facebook/README.md` for details. Once merged into
+`products.json`, delete the processed folder in the same commit.
 
 ## Maintenance — catching duplicates
 

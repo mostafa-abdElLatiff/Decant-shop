@@ -1,0 +1,99 @@
+name: Fetch Facebook post
+
+# Downloads every image from a single Facebook post (a group listing
+# post from one of the phone-only stores) and stages them in
+# pending_facebook/ -- nothing here reads the images or touches
+# products.json. That step needs an AI vision call, which costs real
+# money, so it deliberately stays a manual/interactive Claude Code
+# session (see pending_facebook/README.md) rather than running here.
+# This workflow's only job is the free, mechanical part: the download.
+#
+# Trigger it from your phone via trigger.html (see the README's
+# "Workflow D" section), or manually from the Actions tab.
+#
+# One-time setup:
+#   1. Export your Facebook session cookies to Netscape cookies.txt
+#      format (e.g. the "Get cookies.txt LOCALLY" browser extension)
+#      while logged into Facebook and a member of the target group.
+#   2. Settings > Secrets and variables > Actions > New repository
+#      secret, name FB_COOKIES_TXT, paste the full file contents.
+#   3. Facebook sessions expire -- when this workflow starts failing at
+#      the gallery-dl step, redo steps 1-2.
+
+on:
+  workflow_dispatch:
+    inputs:
+      post_url:
+        description: "Facebook post URL"
+        required: true
+      store_name:
+        description: "Store name (used for the staging folder name)"
+        required: true
+
+permissions:
+  contents: write
+
+# Serializes runs (so two overlapping fetches can't race on the same
+# commit/push) without cancelling one in favor of another -- unlike
+# sync-stores.yml, a still-running fetch for a DIFFERENT post shouldn't
+# be thrown away just because a new one was triggered.
+concurrency:
+  group: fetch-facebook
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Install gallery-dl
+        run: pip install gallery-dl
+
+      - name: Write cookies file
+        env:
+          FB_COOKIES_TXT: ${{ secrets.FB_COOKIES_TXT }}
+        run: printf '%s\n' "$FB_COOKIES_TXT" > cookies.txt
+
+      - name: Fetch post images
+        env:
+          POST_URL: ${{ github.event.inputs.post_url }}
+          STORE_NAME: ${{ github.event.inputs.store_name }}
+        run: |
+          set -e
+          slug=$(echo "$STORE_NAME" | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z0-9]+/-/g; s/^-+|-+$//g')
+          dir="pending_facebook/${slug}-$(date +%s)"
+          mkdir -p "$dir"
+          # --cookies <file>, NOT --cookies-from-browser like extract.py
+          # uses locally -- there's no live logged-in browser in CI.
+          gallery-dl --cookies cookies.txt --directory "$dir" "$POST_URL"
+          json_str() { python3 -c 'import json,sys; print(json.dumps(sys.argv[1]))' "$1"; }
+          printf '{\n  "store_name": %s,\n  "post_url": %s,\n  "fetched_at": %s\n}\n' \
+            "$(json_str "$STORE_NAME")" \
+            "$(json_str "$POST_URL")" \
+            "$(json_str "$(date -u +%Y-%m-%dT%H:%M:%SZ)")" \
+            > "$dir/meta.json"
+          echo "STAGED_DIR=$dir" >> "$GITHUB_ENV"
+
+      - name: Remove cookies file
+        if: always()
+        run: rm -f cookies.txt
+
+      - name: Commit and push
+        run: |
+          git add pending_facebook/
+          git commit -m "fetch-facebook-post: ${{ github.event.inputs.store_name }} -> ${{ env.STAGED_DIR }}"
+          git push
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "Staged at \`${{ env.STAGED_DIR }}\` -- process it in a Claude Code session, see pending_facebook/README.md" >> "$GITHUB_STEP_SUMMARY"
