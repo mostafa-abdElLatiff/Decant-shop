@@ -6019,8 +6019,7 @@
               "kind": "decant",
               "ml": 30,
               "price": 475,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-29"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -7101,6 +7100,13 @@
               "price": 575,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 40,
+              "price": 720,
+              "first_seen": "2026-07-29",
+              "sold_since": "2026-07-29"
             },
             {
               "kind": "leftover",
@@ -22383,6 +22389,26 @@
           ],
           "image": "images/al-fareed--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/al-fareed-by-arabian-oud"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 880,
+              "first_seen": "2026-07-29"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 8500,
+              "first_seen": "2026-07-29"
+            }
+          ],
+          "image": "images/al-fareed--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/al-fareed"
         }
       ],
       "_hero_source": "dar.elarabia",
@@ -25153,14 +25179,22 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-29"
             },
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 800,
+              "price": 875,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 80,
+              "price": 1400,
+              "first_seen": "2026-07-29",
+              "sold_since": "2026-07-29"
             },
             {
               "kind": "full",
@@ -52133,8 +52167,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2250,
-              "first_seen": "2026-07-19"
+              "price": 2150,
+              "first_seen": "2026-07-19",
+              "prev_price": 2250
             }
           ],
           "image": "images/frankel-black-elixir--og-perfume.jpg",
