@@ -25756,6 +25756,13 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "leftover",
+              "ml": 100,
+              "price": 1300,
+              "first_seen": "2026-07-29",
+              "sold_since": "2026-07-29"
+            },
+            {
               "kind": "full",
               "ml": 200,
               "price": 2150,
@@ -25764,7 +25771,7 @@
             }
           ],
           "image": "images/lador-bakhur-classic--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/lador-bakhur-classic%d9%84%d8%a7%d8%af%d9%88%d8%b1-%d8%a8%d8%ae%d9%88%d8%b1-%d9%83%d9%84%d8%a7%d8%b3%d9%8a%d9%83-%d9%85%d9%86-%d9%84%d8%a7%d9%81%d9%8a%d8%b1%d9%86/"
+          "product_url": "https://eldesoki-fragrances.com/product/lador-bakhur-classic-100ml%d9%84%d8%a7%d8%af%d9%88%d8%b1-%d8%a8%d8%ae%d9%88%d8%b1-%d9%83%d9%84%d8%a7%d8%b3%d9%8a%d9%83-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "perfuzone",
@@ -27405,8 +27412,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 175,
-              "first_seen": "2026-07-18",
-              "prev_price": 200
+              "first_seen": "2026-07-18"
             },
             {
               "kind": "leftover",
@@ -63583,8 +63589,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2395,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/musamam-black-intense--mazaya.jpg",
@@ -74567,7 +74572,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 775,
-              "first_seen": "2026-07-24"
+              "first_seen": "2026-07-24",
+              "sold_since": "2026-07-29"
             },
             {
               "kind": "full",
@@ -81949,8 +81955,7 @@
               "kind": "full",
               "ml": 100,
               "price": 925,
-              "first_seen": "2026-07-18",
-              "prev_price": 950
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/tuwaiq-almas--eldesoki-fragrances.jpg",
@@ -86041,8 +86046,7 @@
               "kind": "full",
               "ml": 150,
               "price": 1975,
-              "first_seen": "2026-07-18",
-              "prev_price": 2025
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/aura-35-assaf--eldesoki-fragrances.jpg",
@@ -94672,7 +94676,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 1750,
-              "first_seen": "2026-07-24"
+              "first_seen": "2026-07-24",
+              "sold_since": "2026-07-29"
             },
             {
               "kind": "full",
@@ -121971,7 +121976,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 2299,
+              "price": 2999,
               "first_seen": "2026-07-23"
             },
             {
@@ -133003,7 +133008,7 @@
             }
           ],
           "image": "images/donna-born-in-roma-ivory-women--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/valentino-donna-born-in-roma-ivory-women-3ml-452"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/valentino-donna-born-in-roma-ivory-women-5ml-394"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -139422,8 +139427,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-07-18",
-              "prev_price": 1825
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/black-cavalier-vi--eldesoki-fragrances.jpg",
@@ -141445,8 +141449,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 230,
-              "first_seen": "2026-07-26",
-              "prev_price": 240
+              "first_seen": "2026-07-26"
             },
             {
               "kind": "leftover",
@@ -150074,8 +150077,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1401,
-              "first_seen": "2026-07-23"
+              "price": 1299,
+              "first_seen": "2026-07-23",
+              "prev_price": 1401
             }
           ],
           "image": "images/asad--feel22.jpg",
