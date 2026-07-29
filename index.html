@@ -73,9 +73,9 @@
   .filter-section summary::after{content:"+";color:var(--olive);font-size:1.15rem;font-weight:400;line-height:1}
   .filter-section[open] summary::after{content:"–"}
   .filter-list{display:flex;flex-direction:column;gap:.1rem;margin-top:.7rem;max-height:230px;overflow-y:auto}
-  .stock-toggle{display:flex;align-items:center;gap:.55rem;font-size:.85rem;font-weight:600;color:var(--ink);cursor:pointer;user-select:none}
+  .stock-toggle{display:flex;align-items:center;gap:.55rem;font-size:.85rem;font-weight:600;color:var(--ink);cursor:pointer;user-select:none;padding:.4rem 0}
   .stock-toggle input{width:16px;height:16px;accent-color:var(--olive);cursor:pointer;flex:none}
-  .filter-row{display:flex;align-items:center;justify-content:space-between;gap:.6rem;padding:.42rem .35rem;font-size:.85rem;font-weight:500;color:var(--ink);cursor:pointer;border-radius:6px;background:none;border:none;font-family:inherit;width:100%;text-align:start}
+  .filter-row{display:flex;align-items:center;justify-content:space-between;gap:.6rem;padding:.6rem .5rem;font-size:.85rem;font-weight:500;color:var(--ink);cursor:pointer;border-radius:6px;background:none;border:none;font-family:inherit;width:100%;text-align:start}
   .filter-row:hover{color:var(--olive-deep)}
   .filter-row[aria-pressed="true"]{color:var(--olive-deep);font-weight:700}
   .filter-row-label{display:flex;align-items:center;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -87,13 +87,13 @@
   .store-select{width:100%;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:.5rem 1rem;font-family:inherit;font-size:.85rem;cursor:pointer;transition:border-color .15s}
   .store-select:hover{border-color:var(--olive)}
   .store-select:focus-visible{outline:3px solid var(--brass);outline-offset:2px}
-  .select-clearable:has(.select-clear:not([hidden])) .store-select{padding-inline-end:2.1rem}
-  .select-clear{position:absolute;top:50%;inset-inline-end:.55rem;transform:translateY(-50%);background:none;border:none;color:var(--red);font-size:1.05rem;line-height:1;cursor:pointer;padding:.15rem;border-radius:50%}
+  .select-clearable:has(.select-clear:not([hidden])) .store-select{padding-inline-end:2.6rem}
+  .select-clear{position:absolute;top:50%;inset-inline-end:.4rem;transform:translateY(-50%);background:none;border:none;color:var(--red);font-size:1.05rem;line-height:1;cursor:pointer;width:2rem;height:2rem;display:flex;align-items:center;justify-content:center;border-radius:50%}
   .select-clear:hover{background:color-mix(in srgb, var(--red) 15%, transparent)}
   .select-clear:focus-visible{outline:2px solid var(--brass);outline-offset:1px}
 
   .view-toggle{display:flex;gap:2px;background:var(--bg);border:1.5px solid var(--line);border-radius:999px;padding:3px;margin-top:.7rem}
-  .view-btn{flex:1;border:none;background:transparent;color:var(--ink);cursor:pointer;font-family:inherit;font-size:.78rem;font-weight:700;padding:.4rem .5rem;border-radius:999px;transition:background .15s,color .15s;line-height:1}
+  .view-btn{flex:1;border:none;background:transparent;color:var(--ink);cursor:pointer;font-family:inherit;font-size:.78rem;font-weight:700;padding:.6rem .7rem;border-radius:999px;transition:background .15s,color .15s;line-height:1}
   .view-btn:hover{color:var(--olive-deep)}
   .view-btn[aria-pressed="true"]{background:var(--olive);color:#12140D}
   .view-btn:focus-visible{outline:3px solid var(--brass);outline-offset:1px}
@@ -150,26 +150,34 @@
   .card-img{position:relative;height:190px;display:flex;align-items:center;justify-content:center;background:linear-gradient(160deg,var(--line),var(--bg));font-size:3.4rem;overflow:hidden}
   .card-img img{width:100%;height:100%;object-fit:cover;cursor:zoom-in;transition:transform .4s ease}
   .card:hover .card-img img{transform:scale(1.05)}
-  .card-share{position:absolute;top:.55rem;inset-inline-end:.55rem;background:rgba(0,0,0,.55);color:#fff;border:none;border-radius:50%;width:2.1rem;height:2.1rem;font-size:1rem;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .15s, transform .15s;z-index:2}
+  .card-share{position:absolute;top:.55rem;inset-inline-end:.55rem;background:rgba(0,0,0,.55);color:#fff;border:none;border-radius:50%;width:2.75rem;height:2.75rem;font-size:1rem;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .15s, transform .15s;z-index:2}
   .card-share:hover{background:rgba(0,0,0,.75);transform:scale(1.08)}
   .card-share:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
   .lightbox{position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:100;display:flex;align-items:center;justify-content:center;padding:2rem;opacity:0;pointer-events:none;transition:opacity .2s}
   .lightbox.open{opacity:1;pointer-events:auto}
   .lightbox img{max-width:100%;max-height:100%;border-radius:8px;box-shadow:0 10px 40px rgba(0,0,0,.5)}
-  .lightbox-close{position:fixed;top:1.1rem;inset-inline-end:1.2rem;background:rgba(0,0,0,.5);color:#fff;border:none;font-size:1.6rem;line-height:1;width:2.4rem;height:2.4rem;border-radius:50%;cursor:pointer}
+  .lightbox-close{position:fixed;top:1.1rem;inset-inline-end:1.2rem;background:rgba(0,0,0,.5);color:#fff;border:none;font-size:1.6rem;line-height:1;width:2.75rem;height:2.75rem;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center}
+  .product-modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:110;opacity:0;pointer-events:none;transition:opacity .2s}
+  .product-modal-overlay.open{opacity:1;pointer-events:auto}
+  .product-modal{position:fixed;inset:0;z-index:111;display:flex;align-items:center;justify-content:center;padding:1.2rem;opacity:0;pointer-events:none;transition:opacity .2s}
+  .product-modal.open{opacity:1;pointer-events:auto}
+  .product-modal-panel{position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);max-width:480px;width:100%;max-height:90vh;overflow-y:auto}
+  .product-modal-panel .card{border:none;border-radius:0;box-shadow:none;animation:none}
+  .product-modal-close{position:absolute;top:.6rem;inset-inline-end:.6rem;background:rgba(0,0,0,.55);color:#fff;border:none;border-radius:50%;width:2.75rem;height:2.75rem;font-size:1.6rem;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:2}
+  .product-modal-close:hover{background:rgba(0,0,0,.75)}
   .card-body{padding:1rem 1.1rem 1.2rem;display:flex;flex-direction:column;gap:.6rem;flex:1}
   .card-body h3{font-size:1.08rem;line-height:1.35}
-  .card-brand{align-self:flex-start;background:none;border:none;color:var(--olive);font-family:inherit;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;cursor:pointer;padding:0;margin-bottom:-.3rem;direction:ltr}
+  .card-title-btn{background:none;border:none;padding:.25rem 0;margin:-.25rem 0;font:inherit;color:inherit;text-align:start;cursor:pointer;display:block}
+  .card-title-btn:hover{text-decoration:underline}
+  .card-brand{align-self:flex-start;background:none;border:none;color:var(--olive);font-family:inherit;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;cursor:pointer;padding:.45rem .2rem;margin:-.45rem -.2rem -.75rem;direction:ltr}
   .card-brand:hover{text-decoration:underline}
   .name-alt{font-size:.8rem;color:#8A8D7B;direction:ltr;text-align:start}
   .dupe-of,.duped-by{font-size:.78rem;color:var(--brass);font-weight:600}
-  .dupe-of a,.duped-by a{color:var(--brass);text-decoration:underline;cursor:pointer;background:none;border:none;font:inherit;padding:0}
+  .dupe-of a,.duped-by a{color:var(--brass);text-decoration:underline;cursor:pointer;background:none;border:none;font:inherit;padding:.4rem .2rem;margin:-.4rem -.2rem}
   .accords{display:flex;flex-direction:column;gap:3px;margin-top:.1rem}
-  .accords:not(.expanded) .accord:nth-child(n+6){display:none}
-  .accords-toggle{align-self:flex-start;background:none;border:none;color:var(--olive-deep);font-size:.76rem;font-weight:600;cursor:pointer;padding:0;text-decoration:underline;margin-top:-2px}
+  .accords-toggle{align-self:flex-start;background:none;border:none;color:var(--olive-deep);font-size:.76rem;font-weight:600;cursor:pointer;padding:.45rem .2rem;margin:-.4rem -.2rem}
   .accord{height:1.3rem;border-radius:5px;display:flex;align-items:center;padding:0 .6rem;font-size:.7rem;font-weight:600;color:rgba(0,0,0,.68);box-shadow:inset 0 1px 0 rgba(255,255,255,.25), inset 0 -1px 2px rgba(0,0,0,.12)}
-  .stores-list:not(.expanded) .store-block:nth-child(n+2){display:none}
-  .stores-toggle{align-self:flex-start;background:none;border:none;color:var(--olive-deep);font-size:.76rem;font-weight:600;cursor:pointer;padding:0;text-decoration:underline;margin-top:-.15rem}
+  .stores-toggle{align-self:flex-start;background:none;border:none;color:var(--olive-deep);font-size:.76rem;font-weight:600;cursor:pointer;padding:.45rem .2rem;margin:-.3rem -.2rem}
   .store-block{border-top:1px dashed var(--line);padding-top:.55rem;margin-top:.15rem}
   .store-name{font-size:.85rem;font-weight:700;margin-bottom:.35rem;display:flex;align-items:center;gap:.4rem;flex-wrap:wrap}
   .store-name a{color:var(--olive-deep);text-decoration:none;border-bottom:1px solid currentColor}
@@ -179,8 +187,8 @@
   .offer-group{display:flex;align-items:center;gap:.5rem;margin-top:.35rem}
   .offer-group:first-of-type{margin-top:0}
   .offer-group .store-thumb{width:30px;height:30px}
-  .offers{display:flex;flex-wrap:wrap;gap:.4rem}
-  .offer-btn{position:relative;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:10px;padding:.4rem .7rem;cursor:pointer;font-family:inherit;font-size:.82rem;text-align:center;transition:border-color .15s, background .15s, transform .1s}
+  .offers{display:flex;flex-wrap:wrap;gap:.55rem}
+  .offer-btn{position:relative;min-height:2.75rem;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:10px;padding:.4rem .7rem;cursor:pointer;font-family:inherit;font-size:.82rem;text-align:center;transition:border-color .15s, background .15s, transform .1s}
   .offer-btn b{display:block;font-size:.9rem;color:var(--olive-deep)}
   .offer-btn:hover{border-color:var(--olive);background:color-mix(in srgb, var(--olive) 8%, var(--bg))}
   .offer-btn:active{transform:scale(.97)}
@@ -200,7 +208,7 @@
   .drawer-head h2{font-size:1.15rem}
   .drawer-head-actions{display:flex;align-items:center;gap:.9rem}
   .clear-cart-btn{background:none;border:none;color:var(--red);font-family:inherit;font-size:.8rem;font-weight:600;cursor:pointer;padding:0;text-decoration:underline}
-  .close-x{background:none;border:none;color:var(--ink);font-size:1.5rem;cursor:pointer;line-height:1}
+  .close-x{background:none;border:none;color:var(--ink);font-size:1.5rem;cursor:pointer;line-height:1;width:2.75rem;height:2.75rem;display:flex;align-items:center;justify-content:center;flex-shrink:0}
   .drawer-body{flex:1;overflow-y:auto;padding:1rem 1.2rem;display:flex;flex-direction:column;gap:.6rem}
   .cart-store-head{display:flex;align-items:center;gap:.5rem;padding:.15rem .1rem .4rem;margin-top:.5rem;border-bottom:1.5px solid var(--line)}
   .cart-store-head:first-child{margin-top:0}
@@ -217,8 +225,8 @@
   .cart-item .store{color:#8A8D7B;font-size:.76rem}
   .cart-tip{color:var(--olive-deep);font-size:.74rem;font-weight:600;margin-top:.25rem}
   .cart-disclaimer{color:#8A8D7B;font-size:.74rem;text-align:center;line-height:1.5}
-  .qty{display:flex;align-items:center;gap:.45rem}
-  .qty button{width:1.7rem;height:1.7rem;border-radius:8px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer;font-size:1rem}
+  .qty{display:flex;align-items:center;gap:.65rem}
+  .qty button{width:2.75rem;height:2.75rem;border-radius:8px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer;font-size:1.1rem}
   .remove{background:none;border:none;color:var(--red);cursor:pointer;font-size:.78rem;font-family:inherit;padding:0;margin-top:2px}
   .empty{color:#8A8D7B;text-align:center;margin-top:2rem;font-size:.95rem}
   .skel{height:340px;border-radius:var(--radius);background:linear-gradient(100deg, var(--card) 30%, var(--line) 50%, var(--card) 70%);background-size:200% 100%;animation:skel-shine 1.3s ease-in-out infinite}
@@ -335,6 +343,14 @@
   <img id="lightboxImg" src="" alt="">
 </div>
 
+<div class="product-modal-overlay" id="productModalOverlay"></div>
+<div class="product-modal" id="productModal" role="dialog" aria-modal="true">
+  <div class="product-modal-panel">
+    <button class="product-modal-close" id="productModalClose" aria-label="close">×</button>
+    <div id="productModalBody"></div>
+  </div>
+</div>
+
 <script>
 /* All data lives in products.json — edit that file (or use admin.html / extract.py), never this one. */
 
@@ -393,6 +409,7 @@ const I18N = {
 
 let SETTINGS = {};
 let PRODUCTS = [];
+let byId = {}; // built once by buildLookups() after PRODUCTS loads, not per-card
 let cart = []; // {key, productId, storeIdx, offerIdx, qty}
 try{ cart = JSON.parse(localStorage.getItem("cart") || "[]"); }catch{ cart = []; }
 const saveCart = () => localStorage.setItem("cart", JSON.stringify(cart));
@@ -480,10 +497,27 @@ function productMatchesQuery(p, qTokens){
   return qTokens.every(tok => tokenMatchesHaystack(tok, p._searchHaystack));
 }
 const slugify = s => (s||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
-/* dupe_of entries are stored "Name — Brand" for display, but product ids are
-   slugified from name_en alone (no brand suffix) — strip the "— Brand" part
-   before slugifying so the cross-link lookup actually matches. */
-const dupeSlug = s => slugify((s||"").split(/\s+—\s+/)[0]);
+/* dupe_of entries are stored "Name — Brand" (free text, AI-vision-extracted
+   from a bottle photo — never validated/normalized in extract.py or
+   admin.html). Matching used to slugify the "Name" part and look it up as
+   if it equalled a product's id, but a product's id is NOT reliably
+   slugify(name_en) -- unique_id_for() disambiguates collisions with a
+   brand/timestamp suffix, and ids go stale after a rename or merge (the
+   OLD name stays only in name_en's replacement or in aliases[]). Matching
+   by normalized NAME text instead -- checking both name_en and aliases --
+   survives all of that, since dupe_of references a name, not an id. */
+const dupeName = s => normalizeText((s||"").split(/\s+—\s+/)[0]);
+let byNormName = {};
+function buildLookups(){
+  byId = Object.fromEntries(PRODUCTS.map(p=>[p.id,p]));
+  byNormName = {};
+  PRODUCTS.forEach(p => {
+    [p.name_en, ...(p.aliases||[])].filter(Boolean).forEach(name => {
+      const k = normalizeText(name);
+      if(!byNormName[k]) byNormName[k] = p; // first-match-wins on a rare exact-name collision
+    });
+  });
+}
 const pname = p => lang==="ar" ? (p.name_ar||p.name_en) : (p.name_en||p.name_ar);
 /* The alt-name line under the title is only useful when it actually adds
    information — skip it if there's no Arabic/English name on file, or if
@@ -648,14 +682,17 @@ async function load(){
     const data = await res.json();
     SETTINGS = data.settings || {};
     PRODUCTS = data.products || [];
+    buildLookups();
     applyI18n();
     render();
     syncCart(); // re-resolve any cart restored from localStorage now that PRODUCTS is populated
-    // a shared link (#product-id) should land directly on that card, same
-    // as clicking a dupe_of/duped_by jump — reuse that logic so it also
-    // gets the "extend rendered window to include it" handling for free
+    // a shared link (#product-id) should land directly on that product's
+    // modal, same as clicking a dupe_of/duped_by jump or a card title —
+    // all three now go through openProductModal, which renders straight
+    // from byId/PRODUCTS rather than needing the grid pre-paginated far
+    // enough for the target card to already exist in the DOM.
     const sharedId = location.hash.slice(1);
-    if(sharedId && PRODUCTS.some(p => p.id === sharedId)) focusProduct(sharedId);
+    if(sharedId && byId[sharedId]) openProductModal(sharedId, {fromHistory:true});
   }catch(e){
     grid.innerHTML = `<p class="empty">${t().load_failed}</p>`;
   }
@@ -713,9 +750,61 @@ function storeCheapestPrice(s){
   return min;
 }
 
-function buildCardEl(p, byId){
-  const dupeMatches = (p.dupe_of||[]).map(name => ({ name, match: byId[dupeSlug(name)] || null }));
-  const dupedBy = PRODUCTS.filter(o => o.id!==p.id && (o.dupe_of||[]).some(d => dupeSlug(d)===p.id));
+// Accord chips and store blocks are factored out of buildCardEl so both
+// variants (the grid card's lazy/collapsed rendering and the modal's
+// eager/fully-expanded one) call the same markup generator instead of
+// maintaining two copies.
+function renderAccordsHTML(p){
+  return (p.accords||[]).map(a=>`<div class="accord" style="background:${a.color};width:${a.w}%">${nlabel(a)}</div>`).join("");
+}
+
+function renderStoresHTML(p, stores){
+  return stores.map(({s,si})=>{
+    // Offers with their own photo (e.g. a full-bottle listing) get their
+    // own thumb+group instead of sharing the store's general one — a
+    // single store.image can't represent both a decant vial and a
+    // sealed full bottle.
+    const groups = [];
+    const byImage = new Map();
+    (s.offers||[]).forEach((o,oi) => {
+      const img = o.image || s.image || "";
+      if (!byImage.has(img)) { byImage.set(img, []); groups.push(img); }
+      byImage.get(img).push(oi);
+    });
+    return `
+    <div class="store-block">
+      <div class="store-name">
+        ${s.url ? `<a href="${s.url}" target="_blank" rel="noopener" data-store-click="${s.name}" data-pid="${p.id}">${s.name}</a>` : s.name}
+        ${s.product_url ? `<a class="store-link" href="${s.product_url}" target="_blank" rel="noopener" data-listing-click="${s.name}" data-pid="${p.id}">🔗 ${t().view_listing}</a>` : ""}
+      </div>
+      ${groups.map(img => `
+        <div class="offer-group">
+          ${img ? `<img class="store-thumb" src="${img}" alt="${s.name}" loading="lazy" data-pid="${p.id}">` : ""}
+          <div class="offers">
+            ${byImage.get(img).map(oi => { const o = s.offers[oi]; return `
+              <button class="offer-btn${o.sold_since ? " sold" : ""}" data-pid="${p.id}" data-si="${si}" data-oi="${oi}"${o.sold_since ? ` disabled aria-disabled="true"` : ""}>
+                ${o.sold_since ? `<span class="sold-badge">${t().sold_badge}</span>` : isNewOffer(o) ? `<span class="new-badge">${t().new_badge}</span>` : ""}
+                ${offerLabel(o)} <b>${o.prev_price ? `<span class="prev-price">${o.prev_price}</span>` : ""}${o.price}</b>
+              </button>`; }).join("")}
+          </div>
+        </div>`).join("")}
+    </div>`;
+  }).join("");
+}
+
+// expanded:false (default) is the compact grid card — a fast scannable
+// summary, cheapest store only, notes/extra stores collapsed behind a
+// toggle whose content isn't even injected into the DOM until first
+// clicked (see the lazy-injection in the delegated click handler below —
+// with thousands of products paginated in, always rendering-but-hiding
+// every extra store/note for every card cost real DOM/parse time for
+// content most visits never expand). expanded:true is the modal's "see
+// everything" view — notes/stores render fully, no toggles, no per-card
+// ids (it renders on top of a grid that may already contain the same
+// product's own card, so it must never collide with that card's ids).
+function buildCardEl(p, {expanded=false}={}){
+  const dupeMatches = (p.dupe_of||[]).map(name => ({ name, match: byNormName[dupeName(name)] || null }));
+  const dupedBy = PRODUCTS.filter(o => o.id!==p.id && (o.dupe_of||[]).some(d => byNormName[dupeName(d)]?.id === p.id));
 
   // With more stores added over time a card listing every one in full got
   // unreadably long — show only the cheapest store's offers by default
@@ -726,7 +815,7 @@ function buildCardEl(p, byId){
 
   const card = document.createElement("article");
   card.className = "card";
-  card.id = "card-" + p.id;
+  if(!expanded) card.id = "card-" + p.id;
   card.innerHTML = `
     <div class="card-img">
       ${p.image ? `<img src="${p.image}" alt="${pname(p)}" loading="lazy" data-pid="${p.id}">` : "🧴"}
@@ -734,55 +823,25 @@ function buildCardEl(p, byId){
     </div>
     <div class="card-body">
       ${p.brand ? `<button class="card-brand" data-brand-jump="${p.brand}">${p.brand}</button>` : ""}
-      <h3>${pname(p)}</h3>
+      ${expanded ? `<h3>${pname(p)}</h3>` : `<h3><button class="card-title-btn" data-open-modal="${p.id}">${pname(p)}</button></h3>`}
       ${pname_alt(p) ? `<div class="name-alt">${pname_alt(p)}</div>` : ""}
       ${dupeMatches.length ? `<div class="dupe-of">${t().dupe_of}: ${dupeMatches.map(d => d.match ? `<button data-jump="${d.match.id}">${d.name}</button>` : d.name).join(", ")}</div>` : ""}
       ${dupedBy.length ? `<div class="duped-by">${t().duped_by}: ${dupedBy.map(o => `<button data-jump="${o.id}">${pname(o)}</button>`).join(", ")}</div>` : ""}
-      ${p.accords && p.accords.length ? `
-        <div class="accords" id="accords-${p.id}">${p.accords.map(a=>`<div class="accord" style="background:${a.color};width:${a.w}%">${nlabel(a)}</div>`).join("")}</div>
-        ${p.accords.length>5 ? `<button class="accords-toggle" data-target="accords-${p.id}" data-more="${p.accords.length-5}">${t().show_more_notes.replace("{n}", p.accords.length-5)}</button>` : ""}
-      ` : ""}
-      <div class="stores-list" id="stores-${p.id}">
-        ${sortedStores.map(({s,si})=>{
-          // Offers with their own photo (e.g. a full-bottle listing) get their
-          // own thumb+group instead of sharing the store's general one — a
-          // single store.image can't represent both a decant vial and a
-          // sealed full bottle.
-          const groups = [];
-          const byImage = new Map();
-          (s.offers||[]).forEach((o,oi) => {
-            const img = o.image || s.image || "";
-            if (!byImage.has(img)) { byImage.set(img, []); groups.push(img); }
-            byImage.get(img).push(oi);
-          });
-          return `
-          <div class="store-block">
-            <div class="store-name">
-              ${s.url ? `<a href="${s.url}" target="_blank" rel="noopener" data-store-click="${s.name}" data-pid="${p.id}">${s.name}</a>` : s.name}
-              ${s.product_url ? `<a class="store-link" href="${s.product_url}" target="_blank" rel="noopener" data-listing-click="${s.name}" data-pid="${p.id}">🔗 ${t().view_listing}</a>` : ""}
-            </div>
-            ${groups.map(img => `
-              <div class="offer-group">
-                ${img ? `<img class="store-thumb" src="${img}" alt="${s.name}" loading="lazy" data-pid="${p.id}">` : ""}
-                <div class="offers">
-                  ${byImage.get(img).map(oi => { const o = s.offers[oi]; return `
-                    <button class="offer-btn${o.sold_since ? " sold" : ""}" data-pid="${p.id}" data-si="${si}" data-oi="${oi}"${o.sold_since ? ` disabled aria-disabled="true"` : ""}>
-                      ${o.sold_since ? `<span class="sold-badge">${t().sold_badge}</span>` : isNewOffer(o) ? `<span class="new-badge">${t().new_badge}</span>` : ""}
-                      ${offerLabel(o)} <b>${o.prev_price ? `<span class="prev-price">${o.prev_price}</span>` : ""}${o.price}</b>
-                    </button>`; }).join("")}
-                </div>
-              </div>`).join("")}
-          </div>`;
-        }).join("")}
+      ${p.accords && p.accords.length ? (expanded
+        ? `<div class="accords expanded">${renderAccordsHTML(p)}</div>`
+        : `<div class="accords" id="accords-${p.id}" data-pid="${p.id}"></div>
+           <button class="accords-toggle" data-target="accords-${p.id}" data-pid="${p.id}" data-more="${p.accords.length}">${t().show_more_notes.replace("{n}", p.accords.length)}</button>`
+      ) : ""}
+      <div class="stores-list${expanded ? " expanded" : ""}"${expanded ? "" : ` id="stores-${p.id}" data-pid="${p.id}"`}>
+        ${renderStoresHTML(p, expanded ? sortedStores : sortedStores.slice(0,1))}
       </div>
-      ${sortedStores.length>1 ? `<button class="stores-toggle" data-target="stores-${p.id}" data-more="${sortedStores.length-1}">${t().show_more_stores.replace("{n}", sortedStores.length-1)}</button>` : ""}
+      ${!expanded && sortedStores.length>1 ? `<button class="stores-toggle" data-target="stores-${p.id}" data-pid="${p.id}" data-more="${sortedStores.length-1}">${t().show_more_stores.replace("{n}", sortedStores.length-1)}</button>` : ""}
     </div>`;
   return card;
 }
 
 function appendCards(items){
-  const byId = Object.fromEntries(PRODUCTS.map(p=>[p.id,p]));
-  items.forEach(p => grid.appendChild(buildCardEl(p, byId)));
+  items.forEach(p => grid.appendChild(buildCardEl(p)));
 }
 
 function updateLoadSentinel(){
@@ -818,7 +877,11 @@ function filterByBrand(brand){
   window.scrollTo({top: 0, behavior: "smooth"});
 }
 
-grid.addEventListener("click", async e => {
+// Shared by the grid (#grid) and the product detail modal (#productModal)
+// so every interactive bit inside a card — image zoom, share, store-link
+// tracking, brand filter, dupe/title jumps, note/store expand — behaves
+// identically no matter which of the two it's rendered into.
+async function handleCardAreaClick(e){
   const img = e.target.closest(".card-img img, .store-thumb");
   if (img){ openLightbox(img.src, img.alt); trackEvent("product_image_view", { item_id: img.dataset.pid || "" }); return; }
   const shareBtn = e.target.closest("[data-share]");
@@ -838,13 +901,20 @@ grid.addEventListener("click", async e => {
   const storeBtn = e.target.closest("[data-store-click]");
   if (storeBtn && !listingBtn){ trackEvent("store_home_click", { store: storeBtn.dataset.storeClick, item_id: storeBtn.dataset.pid || "" }); }
   const brandBtn = e.target.closest("[data-brand-jump]");
-  if (brandBtn){ trackEvent("brand_jump_click", { brand: brandBtn.dataset.brandJump }); filterByBrand(brandBtn.dataset.brandJump); return; }
+  if (brandBtn){ trackEvent("brand_jump_click", { brand: brandBtn.dataset.brandJump }); closeProductModal(); filterByBrand(brandBtn.dataset.brandJump); return; }
+  const openBtn = e.target.closest("[data-open-modal]");
+  if (openBtn){ trackEvent("product_title_click", { item_id: openBtn.dataset.openModal }); openProductModal(openBtn.dataset.openModal); return; }
   const jumpBtn = e.target.closest("[data-jump]");
-  if (jumpBtn){ trackEvent("dupe_jump_click", { item_id: jumpBtn.dataset.jump }); focusProduct(jumpBtn.dataset.jump); return; }
+  if (jumpBtn){ trackEvent("dupe_jump_click", { item_id: jumpBtn.dataset.jump }); openProductModal(jumpBtn.dataset.jump); return; }
   const accordsToggle = e.target.closest(".accords-toggle");
   if (accordsToggle){
     const target = document.getElementById(accordsToggle.dataset.target);
     const expanded = target.classList.toggle("expanded");
+    // content isn't rendered until the first expand — see buildCardEl
+    if (expanded && !target.dataset.loaded){
+      target.innerHTML = renderAccordsHTML(byId[accordsToggle.dataset.pid]);
+      target.dataset.loaded = "1";
+    }
     accordsToggle.textContent = expanded ? t().show_less_notes : t().show_more_notes.replace("{n}", accordsToggle.dataset.more);
     if (expanded) trackEvent("accords_expand_click", { item_id: accordsToggle.dataset.target });
     return;
@@ -853,6 +923,15 @@ grid.addEventListener("click", async e => {
   if (storesToggle){
     const target = document.getElementById(storesToggle.dataset.target);
     const expanded = target.classList.toggle("expanded");
+    // only the cheapest store is rendered up front — the rest gets
+    // appended (not replacing what's already shown) on first expand
+    if (expanded && !target.dataset.loaded){
+      const p = byId[storesToggle.dataset.pid];
+      const sortedStores = (p.stores||[]).map((s, si) => ({ s, si }))
+        .sort((a,b) => storeCheapestPrice(a.s) - storeCheapestPrice(b.s));
+      target.insertAdjacentHTML("beforeend", renderStoresHTML(p, sortedStores.slice(1)));
+      target.dataset.loaded = "1";
+    }
     storesToggle.textContent = expanded ? t().show_less_stores : t().show_more_stores.replace("{n}", storesToggle.dataset.more);
     if (expanded) trackEvent("stores_expand_click", { item_id: storesToggle.dataset.target });
     return;
@@ -861,7 +940,8 @@ grid.addEventListener("click", async e => {
   if (offerBtn){
     addToCart(offerBtn.dataset.pid, +offerBtn.dataset.si, +offerBtn.dataset.oi);
   }
-});
+}
+grid.addEventListener("click", handleCardAreaClick);
 
 const lightbox = document.getElementById("lightbox");
 const lightboxImg = document.getElementById("lightboxImg");
@@ -876,7 +956,48 @@ function closeLightbox(){
 }
 lightbox.addEventListener("click", e => { if(e.target === lightbox) closeLightbox(); });
 document.getElementById("lightboxClose").addEventListener("click", closeLightbox);
-document.addEventListener("keydown", e => { if(e.key === "Escape") closeLightbox(); });
+
+const productModalOverlay = document.getElementById("productModalOverlay");
+const productModal = document.getElementById("productModal");
+const productModalBody = document.getElementById("productModalBody");
+productModal.addEventListener("click", handleCardAreaClick);
+
+function openProductModal(id, {fromHistory=false}={}){
+  const p = byId[id];
+  if (!p) return;
+  productModalBody.replaceChildren(buildCardEl(p, {expanded:true}));
+  productModalOverlay.classList.add("open");
+  productModal.classList.add("open");
+  document.body.style.overflow = "hidden";
+  trackEvent("product_modal_open", { item_id: id });
+  if (!fromHistory) history.pushState(null, "", "#"+id);
+}
+function closeProductModal({skipHistory=false}={}){
+  if (!productModal.classList.contains("open")) return;
+  productModalOverlay.classList.remove("open");
+  productModal.classList.remove("open");
+  document.body.style.overflow = "";
+  if (!skipHistory) history.pushState(null, "", location.pathname + location.search);
+}
+productModalOverlay.addEventListener("click", () => closeProductModal());
+document.getElementById("productModalClose").addEventListener("click", () => closeProductModal());
+// keeps browser back/forward in sync with the modal — including walking
+// back through a chain of dupe_of/duped_by jumps one product at a time,
+// since each jump pushes its own history entry (see openProductModal)
+window.addEventListener("popstate", () => {
+  const id = location.hash.slice(1);
+  if (id && byId[id]) openProductModal(id, {fromHistory:true});
+  else closeProductModal({skipHistory:true});
+});
+
+// Escape closes whichever of {lightbox, modal} is topmost — a photo
+// zoomed from inside the modal closes on its own Escape press before a
+// second press closes the modal itself.
+document.addEventListener("keydown", e => {
+  if (e.key !== "Escape") return;
+  if (lightbox.classList.contains("open")) { closeLightbox(); return; }
+  closeProductModal();
+});
 
 function resetFilters(){
   filter = "all"; query = ""; storeFilter = "all"; brandFilter = "all"; inStockOnly = false;
@@ -888,27 +1009,9 @@ function resetFilters(){
   updateFilterBadge();
 }
 
-function focusProduct(id){
-  resetFilters();
-  // a dupe_of/duped_by jump target can sit far past the first page under
-  // the current sort order — extend how much is rendered up front so its
-  // card actually exists in the DOM to scroll to, instead of only being
-  // reachable by scrolling/load-more first.
-  const items = computeItems();
-  const idx = items.findIndex(p => p.id === id);
-  renderItems(items, idx >= 0 ? idx + 1 : PAGE_SIZE);
-  requestAnimationFrame(()=>{
-    const el = document.getElementById("card-"+id);
-    if(el){
-      el.scrollIntoView({behavior:"smooth", block:"center"});
-      el.classList.add("flash");
-      setTimeout(()=>el.classList.remove("flash"), 1500);
-    }
-  });
-}
-
 document.getElementById("homeLink").addEventListener("click", e=>{
   e.preventDefault();
+  closeProductModal();
   resetFilters();
   render();
   window.scrollTo({top: 0, behavior: "smooth"});

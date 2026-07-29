@@ -91,6 +91,19 @@ jobs:
         continue-on-error: true
         run: python sync_mazaya.py
 
+      # Regenerate per-product share/SEO pages here too, not just in the
+      # separate generate-product-pages.yml workflow — a push made with
+      # this job's own GITHUB_TOKEN (which `git push` below uses via
+      # actions/checkout's persisted credentials) does NOT trigger other
+      # workflows' `push` events, by GitHub's own loop-prevention design.
+      # generate-product-pages.yml's push trigger still covers the other
+      # products.json update paths (admin.html commits straight via the
+      # GitHub API with a real PAT, manual pushes) — this step exists
+      # specifically so the scheduled path isn't silently skipped.
+      - name: Regenerate product pages
+        continue-on-error: true
+        run: python generate_product_pages.py
+
       - name: Push commits
         run: git push
 

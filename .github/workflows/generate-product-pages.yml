@@ -1,0 +1,50 @@
+name: Generate product pages
+
+# Regenerates products/<id>.html (thin share-preview/SEO redirect shims,
+# see generate_product_pages.py's own docstring) whenever products.json
+# changes via a path that ISN'T the scheduled sync-stores.yml run:
+#   - admin.html edits (commits straight to the repo via the GitHub
+#     Contents API with your own PAT — never runs a local script)
+#   - a manual `git push` from your own machine
+#   - a manual extract.py/merge-script run you push yourself
+#
+# The scheduled-sync path is handled separately, by a step inside
+# sync-stores.yml itself — a push made with that job's own GITHUB_TOKEN
+# does not trigger this workflow's `push` event, by GitHub's own
+# loop-prevention design (intentional, to stop workflows retriggering
+# each other forever). This workflow is the backstop for every other way
+# products.json can change.
+
+on:
+  push:
+    paths:
+      - "products.json"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-product-pages
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Generate product pages
+        run: python generate_product_pages.py
+
+      - name: Push commits
+        run: git push
