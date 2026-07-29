@@ -50852,7 +50852,8 @@
               "kind": "full",
               "ml": 100,
               "price": 4620,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-29"
             }
           ],
           "image": "images/mercedes-benz-man-eau-de-toilette--mazaya.jpg",
@@ -101611,7 +101612,7 @@
               "ml": 100,
               "price": 30750,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "sold_since": "2026-07-29"
             }
           ],
           "image": "images/creed--mazaya.jpg",
@@ -102435,8 +102436,7 @@
               "kind": "full",
               "ml": 100,
               "price": 33550,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/millesime-absolu-aventus--mazaya.jpg",
@@ -125980,8 +125980,9 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 8800,
+              "price": 7200,
               "first_seen": "2026-07-23",
+              "prev_price": 8800,
               "sold_since": "2026-07-29"
             },
             {
@@ -125994,8 +125995,9 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 9800,
+              "price": 8800,
               "first_seen": "2026-07-23",
+              "prev_price": 9800,
               "sold_since": "2026-07-29"
             }
           ],
@@ -153241,6 +153243,32 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "outlands-essence-de-parfum",
+      "name_ar": "Outlands Essence De Parfum",
+      "name_en": "Outlands Essence De Parfum",
+      "brand": "Amouage",
+      "dupe_of": [],
+      "image": "images/outlands-essence-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 26150,
+              "first_seen": "2026-07-29"
+            }
+          ],
+          "image": "images/outlands-essence-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/outlands-essence-de-parfum-100-ml"
+        }
+      ],
+      "_hero_source": "mazaya"
     }
   ]
 }
