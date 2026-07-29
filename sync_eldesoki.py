@@ -81,6 +81,26 @@ BRAND_MAP = {
 NAME_TYPO_FIXES = {
     "nuctorno elixir": "Nocturno Elixir",
     "nuctorno elixir rayhaan": "Nocturno Elixir",
+    # this store's own title spells it "Reviera" -- correct is "Riviera"
+    # (Mancera, already in the catalog from other stores).
+    "french reviera": "French Riviera",
+    # this store's own title drops the "9pm" collection prefix that every
+    # other store (and the catalog's existing product) keeps -- without
+    # it, "Night Out" alone doesn't core-token-match "9pm Night Out" at
+    # all, let alone land on the right one by blank-brand name matching.
+    "night out": "9pm Night Out",
+}
+
+# This store's own listing carries no parseable brand for these (blank
+# name_ar "من <brand>" suffix), and the plain name is genuinely ambiguous
+# against the catalog -- "Cuban Tobacco" already exists under BOTH Ibraq
+# and Laverne, so a blank incoming brand matches either candidate and
+# find_existing_product correctly abstains rather than guess, which
+# recreated a fresh orphan every sync instead of ever landing on either.
+# Confirmed via bottle photo which one this store's listing actually is
+# before adding.
+PRODUCT_BRAND_OVERRIDES = {
+    "cuban tobacco": "Ibraq",
 }
 
 ML_RE = re.compile(r"(\d+)\s*ML", re.I)
@@ -190,6 +210,9 @@ def parse_product(p: dict, kind: str):
         bm = BRAND_SUFFIX_RE.search(name_ar)
         if bm:
             brand = BRAND_MAP.get(clean_brand_suffix(bm.group(1)), "")
+    override = PRODUCT_BRAND_OVERRIDES.get(name_en.strip().lower())
+    if override:
+        brand = override
 
     images = p.get("images") or []
     return {

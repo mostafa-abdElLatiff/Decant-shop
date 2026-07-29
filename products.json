@@ -84441,6 +84441,13 @@
               "price": 1750,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 1000,
+              "first_seen": "2026-07-27",
+              "sold_since": "2026-07-27"
             }
           ],
           "image": "images/9pm-night-out--eldesoki-fragrances.jpg",
@@ -84549,7 +84556,8 @@
       ],
       "_hero_source": "sniffz",
       "aliases": [
-        "9PM Night Out Tester Box"
+        "9PM Night Out Tester Box",
+        "Night Out"
       ]
     },
     {
@@ -98199,33 +98207,6 @@
       "_hero_source": "mazaya"
     },
     {
-      "id": "night-out",
-      "name_ar": "نايت اوت ٥٠ملي",
-      "name_en": "Night Out",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/night-out.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 1000,
-              "first_seen": "2026-07-27",
-              "sold_since": "2026-07-27"
-            }
-          ],
-          "image": "images/night-out--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/night-out-50ml%d9%86%d8%a7%d9%8a%d8%aa-%d8%a7%d9%88%d8%aa-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "contra-not-only-intense",
       "name_ar": "كونترا نوت اونلي انتنس",
       "name_en": "Contra Not Only Intense",
@@ -104739,33 +104720,6 @@
         }
       ],
       "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "french-reviera",
-      "name_ar": "فرينش ريڤيرا من مانسيرا ٦٠ملي",
-      "name_en": "French Reviera",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/french-reviera.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "leftover",
-              "ml": 60,
-              "price": 2900,
-              "first_seen": "2026-07-27",
-              "sold_since": "2026-07-27"
-            }
-          ],
-          "image": "images/french-reviera--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/french-reviera-60ml%d9%81%d8%b1%d9%8a%d9%86%d8%b4-%d8%b1%d9%8a%da%a4%d9%8a%d8%b1%d8%a7-%d9%85%d9%86-%d9%85%d8%a7%d9%86%d8%b3%d9%8a%d8%b1%d8%a7-%d9%a6%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "empire-victor",
@@ -132495,6 +132449,13 @@
               "price": 5300,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 60,
+              "price": 2900,
+              "first_seen": "2026-07-27",
+              "sold_since": "2026-07-27"
             }
           ],
           "image": "images/french-riviera--eldesoki-fragrances.jpg",
@@ -132504,7 +132465,8 @@
       "_hero_source": "og-perfume",
       "aliases": [
         "French Riviera Mancera",
-        "Mancera French Reviera"
+        "Mancera French Reviera",
+        "French Reviera"
       ]
     },
     {
@@ -153906,32 +153868,6 @@
         }
       ],
       "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "cuban-tobacco-1785334342",
-      "name_ar": "كوبيان توباكو ١٠ملي تستر",
-      "name_en": "Cuban Tobacco",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/cuban-tobacco-1785334342.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 200,
-              "first_seen": "2026-07-29"
-            }
-          ],
-          "image": "images/cuban-tobacco-1785334342--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/cuban-tobacco-10ml%d9%83%d9%88%d8%a8%d9%8a%d8%a7%d9%86-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%a1%d9%a0%d9%85%d9%84%d9%8a-%d8%aa%d8%b3%d8%aa%d8%b1/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "yelloneo-summer-edition-set",
