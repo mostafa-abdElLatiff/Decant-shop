@@ -1869,7 +1869,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 20350,
+              "price": 21250,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -10924,7 +10924,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 20200,
+              "price": 21250,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -38647,7 +38647,8 @@
               "kind": "full",
               "ml": 90,
               "price": 20900,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-29"
             }
           ],
           "image": "images/paragon-extrait-de-parfum--mazaya.jpg",
@@ -45939,8 +45940,7 @@
               "kind": "full",
               "ml": 100,
               "price": 23100,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/existence--mazaya.jpg",
@@ -79199,7 +79199,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 17550,
+              "price": 18200,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -117589,7 +117589,7 @@
             {
               "kind": "full",
               "ml": 30,
-              "price": 9100,
+              "price": 9400,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -119634,7 +119634,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 17550,
+              "price": 18200,
               "first_seen": "2026-07-23"
             }
           ],
@@ -126035,9 +126035,8 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 7200,
+              "price": 8800,
               "first_seen": "2026-07-23",
-              "prev_price": 8800,
               "sold_since": "2026-07-29"
             },
             {
@@ -126050,9 +126049,8 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 8800,
+              "price": 9800,
               "first_seen": "2026-07-23",
-              "prev_price": 9800,
               "sold_since": "2026-07-29"
             }
           ],
@@ -128287,6 +128285,20 @@
           ],
           "image": "images/cedrat-boise-intense--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/mancera-cedrat-boise-intense-120ml-master%d9%85%d8%a7%d9%86%d8%b3%d9%8a%d8%b1%d8%a7-%d8%b3%d9%8a%d8%af%d8%b1%d8%a7-%d8%a8%d9%88%d8%a7%d8%b2%d9%8a-%d8%a7%d9%86%d8%aa%d9%86%d8%b3-%d9%a1%d9%a2%d9%a0/"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 120,
+              "price": 12925,
+              "first_seen": "2026-07-29"
+            }
+          ],
+          "image": "images/cedrat-boise-intense--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/cedrat-boise-intense-120-ml"
         }
       ],
       "_hero_source": "eldesoki-fragrances"
@@ -131207,8 +131219,7 @@
               "kind": "full",
               "ml": 60,
               "price": 8200,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
@@ -131386,8 +131397,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2395,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/musamam-white-intense-edp--mazaya.jpg",
@@ -153315,12 +153325,117 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 26150,
+              "price": 27300,
               "first_seen": "2026-07-29"
             }
           ],
           "image": "images/outlands-essence-de-parfum--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/outlands-essence-de-parfum-100-ml"
+          "product_url": "https://mazaya.eg/en/outlands-essence-100-ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "bad-boy-cobalt-absolute-edp",
+      "name_ar": "Bad Boy Cobalt Absolute EDP",
+      "name_en": "Bad Boy Cobalt Absolute EDP",
+      "brand": "Carolina Herrera",
+      "dupe_of": [],
+      "image": "images/bad-boy-cobalt-absolute-edp.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 9300,
+              "first_seen": "2026-07-29"
+            }
+          ],
+          "image": "images/bad-boy-cobalt-absolute-edp--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/bad-boy-cobalt-absolute-edp-100-ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "meant-to-be-seen",
+      "name_ar": "Meant To Be Seen",
+      "name_en": "Meant To Be Seen",
+      "brand": "Nishane",
+      "dupe_of": [],
+      "image": "images/meant-to-be-seen.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 21600,
+              "first_seen": "2026-07-29"
+            }
+          ],
+          "image": "images/meant-to-be-seen--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/meant-to-be-seen-100-ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "blue-talisman-extrait-de-parfum",
+      "name_ar": "Blue Talisman Extrait De Parfum",
+      "name_en": "Blue Talisman Extrait De Parfum",
+      "brand": "ExNihilo",
+      "dupe_of": [],
+      "image": "images/blue-talisman-extrait-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 25750,
+              "first_seen": "2026-07-29"
+            }
+          ],
+          "image": "images/blue-talisman-extrait-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/blue-talisman-extrait-de-parfum-100-ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "oud-zarian-eau-de-parfum",
+      "name_ar": "Oud Zarian Eau de Parfum",
+      "name_en": "Oud Zarian Eau de Parfum",
+      "brand": "Creed",
+      "dupe_of": [],
+      "image": "images/oud-zarian-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 36250,
+              "first_seen": "2026-07-29",
+              "sold_since": "2026-07-29"
+            }
+          ],
+          "image": "images/oud-zarian-eau-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/oud-zarian-eau-de-parfum-100-ml"
         }
       ],
       "_hero_source": "mazaya"
