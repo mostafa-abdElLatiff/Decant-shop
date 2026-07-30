@@ -10519,7 +10519,8 @@
               "kind": "full",
               "ml": 100,
               "price": 3800,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-30"
             }
           ],
           "image": "images/oud-khas--dar-elarabia.jpg",
@@ -17337,7 +17338,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1900,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-30"
             }
           ],
           "image": "images/arsh--dar-elarabia.jpg",
@@ -19096,7 +19098,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1950,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-30"
             }
           ],
           "image": "images/aromatix-forbidden-fruit--dar-elarabia.jpg",
@@ -103034,7 +103037,8 @@
               "kind": "full",
               "ml": 75,
               "price": 3700,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-30"
             }
           ],
           "image": "images/tarteel-gold--dar-elarabia.jpg",
@@ -136454,6 +136458,20 @@
           ],
           "image": "images/marj--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/marj"
+        },
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 2750,
+              "first_seen": "2026-07-30"
+            }
+          ],
+          "image": "images/marj--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/marj"
         }
       ],
       "_hero_source": "og-perfume"
@@ -155648,6 +155666,58 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "glorious-oud",
+      "name_ar": "Glorious Oud",
+      "name_en": "Glorious Oud",
+      "brand": "French Avenue",
+      "dupe_of": [],
+      "image": "images/glorious-oud.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 80,
+              "price": 1600,
+              "first_seen": "2026-07-30"
+            }
+          ],
+          "image": "images/glorious-oud--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/glorious-oud"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "paradigm",
+      "name_ar": "Paradigm",
+      "name_en": "Paradigm",
+      "brand": "French Avenue",
+      "dupe_of": [],
+      "image": "images/paradigm.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 80,
+              "price": 1600,
+              "first_seen": "2026-07-30"
+            }
+          ],
+          "image": "images/paradigm--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/paradigm"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
     }
   ]
 }
