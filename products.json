@@ -2459,8 +2459,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 5805,
-              "first_seen": "2026-07-26"
+              "price": 5799,
+              "first_seen": "2026-07-26",
+              "prev_price": 5805
             }
           ],
           "image": "images/dolce-gabbana-light-blue-eau-de-toilette--feel22.jpg",
@@ -7324,7 +7325,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2615,
+              "price": 2644,
               "first_seen": "2026-07-23"
             }
           ],
@@ -8459,6 +8460,20 @@
           ],
           "image": "images/turathi-blue-afnan--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/turathi-blue-afnan"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 2199,
+              "first_seen": "2026-07-30"
+            }
+          ],
+          "image": "images/turathi-blue-afnan--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/afnan-turathi-blue-eau-de-parfum-for-men-90ml"
         }
       ],
       "_hero_source": "sniffz"
@@ -28664,6 +28679,27 @@
           ],
           "image": "images/man-wood-neroli--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/bvlgari-man-wood-neroli-3ml-472"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 3400,
+              "first_seen": "2026-07-30",
+              "sold_since": "2026-07-30"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 5149,
+              "first_seen": "2026-07-30"
+            }
+          ],
+          "image": "images/man-wood-neroli--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/bvlgari-man-wood-neroli-eau-de-parfum"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -63169,7 +63205,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2598,
+              "price": 2649,
               "first_seen": "2026-07-23"
             }
           ],
@@ -147003,6 +147039,27 @@
           ],
           "image": "images/eros-parfum--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/versace-eros-parfum"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 5120,
+              "first_seen": "2026-07-30",
+              "sold_since": "2026-07-30"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 6675,
+              "first_seen": "2026-07-30"
+            }
+          ],
+          "image": "images/eros-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/versace-eros-parfum-for-men"
         }
       ],
       "_hero_source": "sniffz"
@@ -155753,6 +155810,65 @@
         }
       ],
       "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "dolce-gabbana-k-eau-de-parfum",
+      "name_ar": "Dolce & Gabbana K Eau de Parfum",
+      "name_en": "Dolce & Gabbana K Eau de Parfum",
+      "brand": "Dolce and Gabbana",
+      "dupe_of": [],
+      "image": "images/dolce-gabbana-k-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 5750,
+              "first_seen": "2026-07-30"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 7200,
+              "first_seen": "2026-07-30",
+              "sold_since": "2026-07-30"
+            }
+          ],
+          "image": "images/dolce-gabbana-k-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/dolce-gabbana-k-eau-de-parfum-for-men-100ml"
+        }
+      ],
+      "_hero_source": "feel22"
+    },
+    {
+      "id": "passion-eau-de-parfum-otoori",
+      "name_ar": "Passion Eau de Parfum",
+      "name_en": "Passion Eau de Parfum",
+      "brand": "Otoori",
+      "dupe_of": [],
+      "image": "images/passion-eau-de-parfum-otoori.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 799,
+              "first_seen": "2026-07-30"
+            }
+          ],
+          "image": "images/passion-eau-de-parfum-otoori--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/otoori-passion-eau-de-parfum-100ml"
+        }
+      ],
+      "_hero_source": "feel22"
     }
   ]
 }
