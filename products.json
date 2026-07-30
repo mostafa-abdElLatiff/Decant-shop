@@ -7292,10 +7292,24 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 4015,
+              "first_seen": "2026-07-30",
+              "sold_since": "2026-07-30"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 4850,
               "first_seen": "2026-07-23",
               "prev_price": 5850
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 7355,
+              "first_seen": "2026-07-30",
+              "sold_since": "2026-07-30"
             }
           ],
           "image": "images/defy-parfum--mazaya.jpg",
@@ -19801,7 +19815,7 @@
             }
           ],
           "image": "images/blu--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/ajmal-blu-for-men123455-html12"
+          "product_url": "https://mazaya.eg/en/ajmal-blu-for-men-90-ml"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -40632,6 +40646,13 @@
               "price": 12850,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-24"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 18500,
+              "first_seen": "2026-07-30",
+              "sold_since": "2026-07-30"
             }
           ],
           "image": "images/the-hedonist--mazaya.jpg",
@@ -50618,6 +50639,13 @@
           "name": "mazaya",
           "url": "https://mazaya.eg/",
           "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 12750,
+              "first_seen": "2026-07-30",
+              "sold_since": "2026-07-30"
+            },
             {
               "kind": "full",
               "ml": 100,
@@ -66597,6 +66625,13 @@
               "kind": "full",
               "ml": 50,
               "price": 6200,
+              "first_seen": "2026-07-30",
+              "sold_since": "2026-07-30"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 8700,
               "first_seen": "2026-07-30",
               "sold_since": "2026-07-30"
             }
@@ -82618,6 +82653,13 @@
           "name": "mazaya",
           "url": "https://mazaya.eg/",
           "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 13650,
+              "first_seen": "2026-07-30",
+              "sold_since": "2026-07-30"
+            },
             {
               "kind": "full",
               "ml": 100,
@@ -149766,6 +149808,13 @@
               "kind": "full",
               "ml": 75,
               "price": 4785,
+              "first_seen": "2026-07-30",
+              "sold_since": "2026-07-30"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 5900,
               "first_seen": "2026-07-30",
               "sold_since": "2026-07-30"
             }
