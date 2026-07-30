@@ -153,7 +153,11 @@
   .card-share{position:absolute;top:.55rem;inset-inline-end:.55rem;background:rgba(0,0,0,.55);color:#fff;border:none;border-radius:50%;width:2.75rem;height:2.75rem;font-size:1rem;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .15s, transform .15s;z-index:2}
   .card-share:hover{background:rgba(0,0,0,.75);transform:scale(1.08)}
   .card-share:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
-  .lightbox{position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:100;display:flex;align-items:center;justify-content:center;padding:2rem;opacity:0;pointer-events:none;transition:opacity .2s}
+  /* Higher than .product-modal (111) -- a photo zoomed from inside the
+     product modal must render on top of it, not behind. Still below
+     .toast (120) so an "Added" confirmation stays visible over a
+     zoomed photo too. */
+  .lightbox{position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:115;display:flex;align-items:center;justify-content:center;padding:2rem;opacity:0;pointer-events:none;transition:opacity .2s}
   .lightbox.open{opacity:1;pointer-events:auto}
   .lightbox img{max-width:100%;max-height:100%;border-radius:8px;box-shadow:0 10px 40px rgba(0,0,0,.5)}
   .lightbox-close{position:fixed;top:1.1rem;inset-inline-end:1.2rem;background:rgba(0,0,0,.5);color:#fff;border:none;font-size:1.6rem;line-height:1;width:2.75rem;height:2.75rem;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center}
