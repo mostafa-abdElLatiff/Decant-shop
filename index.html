@@ -66,6 +66,9 @@
   .wordmark h1{font-size:1.5rem;line-height:1.05;letter-spacing:.005em;background:linear-gradient(100deg, var(--ink) 40%, var(--olive-deep));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
   .wordmark small{color:var(--olive);font-size:.74rem;letter-spacing:.02em}
 
+  .clear-filters-btn{align-self:flex-start;background:none;border:1.5px solid var(--red);color:var(--red);font-family:inherit;font-size:.8rem;font-weight:600;cursor:pointer;padding:.5rem .9rem;border-radius:999px;min-height:2.75rem;transition:background .15s}
+  .clear-filters-btn:hover{background:color-mix(in srgb, var(--red) 12%, transparent)}
+
   .filter-section{border-top:1px solid var(--line);padding-top:1.05rem}
   .filter-section:first-of-type{border-top:none;padding-top:0}
   .filter-section summary{display:flex;align-items:center;justify-content:space-between;font-weight:700;font-size:.78rem;letter-spacing:.07em;text-transform:uppercase;color:var(--ink);cursor:pointer;list-style:none}
@@ -82,6 +85,11 @@
   .filter-row .count{font-size:.72rem;color:var(--ink);opacity:.45;font-variant-numeric:tabular-nums;flex-shrink:0}
   .filter-row .swatch{width:9px;height:9px;border-radius:50%;border:1.5px solid var(--olive);margin-inline-end:.55rem;flex-shrink:0}
   .filter-row[aria-pressed="true"] .swatch{background:var(--olive)}
+
+  .price-range{display:flex;align-items:center;gap:.5rem;margin-top:.7rem}
+  .price-range input{width:0;flex:1;border:1.5px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);padding:.5rem .6rem;font-family:inherit;font-size:.88rem;min-height:2.75rem;transition:border-color .15s}
+  .price-range input:focus{outline:none;border-color:var(--olive);box-shadow:0 0 0 3px color-mix(in srgb, var(--olive) 22%, transparent)}
+  .price-range-sep{color:#8A8D7B;font-size:.85rem;flex-shrink:0}
 
   .select-clearable{position:relative;margin-top:.7rem}
   .store-select{width:100%;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:.5rem 1rem;font-family:inherit;font-size:.85rem;cursor:pointer;transition:border-color .15s}
@@ -260,6 +268,8 @@
       <small id="shopTag">decants • full bottles • leftovers, price-compared</small>
     </a>
 
+    <button class="clear-filters-btn" id="clearFiltersBtn" hidden></button>
+
     <label class="stock-toggle">
       <input type="checkbox" id="inStockOnly">
       <span id="inStockOnlyLabel"></span>
@@ -273,6 +283,15 @@
     <details class="filter-section" open>
       <summary id="storeFilterLabel"></summary>
       <div class="filter-list" id="storeList" role="group"></div>
+    </details>
+
+    <details class="filter-section">
+      <summary id="priceFilterLabel"></summary>
+      <div class="price-range">
+        <input type="number" inputmode="numeric" min="0" id="priceMin" placeholder="0">
+        <span class="price-range-sep">–</span>
+        <input type="number" inputmode="numeric" min="0" id="priceMax" placeholder="∞">
+      </div>
     </details>
 
     <details class="filter-section">
@@ -370,6 +389,7 @@ const I18N = {
     filter_all:"All", filter_decant:"Decants", filter_full:"Full bottles", filter_leftover:"Leftovers",
     store_all:"All stores", brand_all:"All brands",
     label_store:"Store", label_brand:"Brand", label_sort:"Sort by", label_view:"Per row", filters_label:"Filters",
+    label_price:"Price", clear_filters_btn:"✕ Clear all filters",
     in_stock_only:"In stock only",
     view_auto:"Auto",
     cart_label:"List", drawer_title:"Your list", empty:"Your list is empty — add a size from any fragrance.",
@@ -395,6 +415,7 @@ const I18N = {
     filter_all:"الكل", filter_decant:"تقسيمات", filter_full:"زجاجات كاملة", filter_leftover:"بواقي تقسيم",
     store_all:"كل المتاجر", brand_all:"كل البراندات",
     label_store:"المتجر", label_brand:"البراند", label_sort:"ترتيب حسب", label_view:"في الصف", filters_label:"الفلاتر",
+    label_price:"السعر", clear_filters_btn:"✕ مسح كل الفلاتر",
     in_stock_only:"المتوفر فقط",
     view_auto:"تلقائي",
     cart_label:"القائمة", drawer_title:"قائمتك", empty:"القائمة فارغة — أضف حجمًا من أي عطر.",
@@ -428,6 +449,8 @@ let brandFilter = "all";
 let sortOrder = "newest";
 let query = "";
 let inStockOnly = false;
+let priceMin = null;
+let priceMax = null;
 let lang = localStorage.getItem("lang") || "en";
 let theme = localStorage.getItem("theme") || "dark";
 let gridCols = localStorage.getItem("gridCols") || "auto";
@@ -570,12 +593,14 @@ function productHasKind(p, kind){
 // sold out at that exact store but happens to still be in stock
 // elsewhere. Each of kind/storeName/inStockOnly is optional (pass
 // "all"/false to skip that check).
-function productHasMatchingOffer(p, {kind="all", storeName="all", inStockOnly=false}={}){
+function productHasMatchingOffer(p, {kind="all", storeName="all", inStockOnly=false, minPrice=null, maxPrice=null}={}){
   return (p.stores||[]).some(s =>
     (storeName==="all" || s.name===storeName) &&
     (s.offers||[]).some(o =>
       (kind==="all" || o.kind===kind) &&
-      (!inStockOnly || !o.sold_since)
+      (!inStockOnly || !o.sold_since) &&
+      (minPrice==null || o.price >= minPrice) &&
+      (maxPrice==null || o.price <= maxPrice)
     )
   );
 }
@@ -732,6 +757,8 @@ function applyI18n(){
   document.getElementById("kindLabel").textContent = t().label_kind;
   document.getElementById("inStockOnlyLabel").textContent = t().in_stock_only;
   document.getElementById("storeFilterLabel").textContent = t().label_store;
+  document.getElementById("priceFilterLabel").textContent = t().label_price;
+  document.getElementById("clearFiltersBtn").textContent = t().clear_filters_btn;
   document.getElementById("brandFilterLabel").textContent = t().label_brand;
   document.getElementById("sortOrderLabel").textContent = t().label_sort;
   document.getElementById("viewLabel").textContent = t().label_view;
@@ -747,7 +774,7 @@ function applyI18n(){
 function computeItems(){
   const qTokens = normalizeText(query).split(/\s+/).filter(Boolean);
   const items = PRODUCTS.filter(p =>
-    productHasMatchingOffer(p, {kind: filter, storeName: storeFilter, inStockOnly}) &&
+    productHasMatchingOffer(p, {kind: filter, storeName: storeFilter, inStockOnly, minPrice: priceMin, maxPrice: priceMax}) &&
     (brandFilter==="all" || (p.brand||"").trim().toLowerCase()===brandFilter) &&
     productMatchesQuery(p, qTokens)
   );
@@ -1021,10 +1048,12 @@ document.addEventListener("keydown", e => {
 });
 
 function resetFilters(){
-  filter = "all"; query = ""; storeFilter = "all"; brandFilter = "all"; inStockOnly = false;
+  filter = "all"; query = ""; storeFilter = "all"; brandFilter = "all"; inStockOnly = false; priceMin = null; priceMax = null;
   document.getElementById("search").value = "";
   document.getElementById("brandFilter").value = "all";
   document.getElementById("inStockOnly").checked = false;
+  document.getElementById("priceMin").value = "";
+  document.getElementById("priceMax").value = "";
   populateKindFilter();
   populateStoreFilter();
   updateFilterBadge();
@@ -1049,6 +1078,28 @@ document.getElementById("search").addEventListener("input", e=>{
   }, 800);
 });
 document.getElementById("brandFilter").addEventListener("change", e=>{ brandFilter=e.target.value; updateFilterBadge(); render(); trackEvent("filter_brand", { value: brandFilter }); });
+
+const parsePriceInput = v => { const n = parseInt(v, 10); return Number.isFinite(n) && n >= 0 ? n : null; };
+let priceGaDebounce;
+document.getElementById("priceMin").addEventListener("input", e=>{
+  priceMin = parsePriceInput(e.target.value);
+  updateFilterBadge();
+  render();
+  clearTimeout(priceGaDebounce);
+  priceGaDebounce = setTimeout(()=>trackEvent("filter_price", { min: priceMin, max: priceMax }), 800);
+});
+document.getElementById("priceMax").addEventListener("input", e=>{
+  priceMax = parsePriceInput(e.target.value);
+  updateFilterBadge();
+  render();
+  clearTimeout(priceGaDebounce);
+  priceGaDebounce = setTimeout(()=>trackEvent("filter_price", { min: priceMin, max: priceMax }), 800);
+});
+document.getElementById("clearFiltersBtn").addEventListener("click", ()=>{
+  resetFilters();
+  render();
+  trackEvent("clear_all_filters", {});
+});
 
 function applyGridCols(){
   if(gridCols === "auto") grid.removeAttribute("data-cols");
@@ -1084,11 +1135,17 @@ filtersToggle.onclick = ()=>{
 };
 sidebarOverlay.onclick = closeSidebar;
 function updateFilterBadge(){
-  const n = [filter!=="all", storeFilter!=="all", brandFilter!=="all", sortOrder!=="newest", gridCols!=="auto", inStockOnly].filter(Boolean).length;
+  const n = [filter!=="all", storeFilter!=="all", brandFilter!=="all", sortOrder!=="newest", gridCols!=="auto", inStockOnly, priceMin!=null, priceMax!=null].filter(Boolean).length;
   const badge = document.getElementById("filterBadge");
   badge.textContent = n;
   badge.hidden = n === 0;
   document.getElementById("brandFilterClear").hidden = brandFilter==="all";
+  // tied to exactly what resetFilters() clears (not sortOrder/gridCols,
+  // which are view preferences it deliberately leaves alone, and not the
+  // search box, which already shows its own state) — so the button
+  // reliably disappears once there's nothing left for it to do
+  const filtersActive = filter!=="all" || storeFilter!=="all" || brandFilter!=="all" || inStockOnly || priceMin!=null || priceMax!=null;
+  document.getElementById("clearFiltersBtn").hidden = !filtersActive;
 }
 document.getElementById("inStockOnly").addEventListener("change", e => {
   inStockOnly = e.target.checked;
