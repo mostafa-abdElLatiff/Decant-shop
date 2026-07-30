@@ -76,6 +76,9 @@
   .filter-section summary::after{content:"+";color:var(--olive);font-size:1.15rem;font-weight:400;line-height:1}
   .filter-section[open] summary::after{content:"–"}
   .filter-list{display:flex;flex-direction:column;gap:.1rem;margin-top:.7rem;max-height:230px;overflow-y:auto}
+  .size-subfilter{margin-top:.5rem;margin-inline-start:.9rem;padding-inline-start:.8rem;border-inline-start:2px solid var(--line)}
+  .size-subfilter-label{font-size:.7rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--olive);margin-top:.6rem}
+  .size-subfilter .filter-list{max-height:180px}
   .stock-toggle{display:flex;align-items:center;gap:.55rem;font-size:.85rem;font-weight:600;color:var(--ink);cursor:pointer;user-select:none;padding:.4rem 0}
   .stock-toggle input{width:16px;height:16px;accent-color:var(--olive);cursor:pointer;flex:none}
   .filter-row{display:flex;align-items:center;justify-content:space-between;gap:.6rem;padding:.6rem .5rem;font-size:.85rem;font-weight:500;color:var(--ink);cursor:pointer;border-radius:6px;background:none;border:none;font-family:inherit;width:100%;text-align:start}
@@ -278,6 +281,10 @@
     <details class="filter-section" open>
       <summary id="kindLabel"></summary>
       <div class="filter-list" id="kindList" role="group"></div>
+      <div class="size-subfilter" id="sizeSubfilter" hidden>
+        <div class="size-subfilter-label" id="sizeFilterLabel"></div>
+        <div class="filter-list" id="sizeList" role="group"></div>
+      </div>
     </details>
 
     <details class="filter-section" open>
@@ -389,7 +396,7 @@ const I18N = {
     filter_all:"All", filter_decant:"Decants", filter_full:"Full bottles", filter_leftover:"Leftovers",
     store_all:"All stores", brand_all:"All brands",
     label_store:"Store", label_brand:"Brand", label_sort:"Sort by", label_view:"Per row", filters_label:"Filters",
-    label_price:"Price", clear_filters_btn:"✕ Clear all filters",
+    label_price:"Price", label_size:"Size", clear_filters_btn:"✕ Clear all filters",
     in_stock_only:"In stock only",
     view_auto:"Auto",
     cart_label:"List", drawer_title:"Your list", empty:"Your list is empty — add a size from any fragrance.",
@@ -415,7 +422,7 @@ const I18N = {
     filter_all:"الكل", filter_decant:"تقسيمات", filter_full:"زجاجات كاملة", filter_leftover:"بواقي تقسيم",
     store_all:"كل المتاجر", brand_all:"كل البراندات",
     label_store:"المتجر", label_brand:"البراند", label_sort:"ترتيب حسب", label_view:"في الصف", filters_label:"الفلاتر",
-    label_price:"السعر", clear_filters_btn:"✕ مسح كل الفلاتر",
+    label_price:"السعر", label_size:"الحجم", clear_filters_btn:"✕ مسح كل الفلاتر",
     in_stock_only:"المتوفر فقط",
     view_auto:"تلقائي",
     cart_label:"القائمة", drawer_title:"قائمتك", empty:"القائمة فارغة — أضف حجمًا من أي عطر.",
@@ -451,6 +458,7 @@ let query = "";
 let inStockOnly = false;
 let priceMin = null;
 let priceMax = null;
+let sizeFilter = "all"; // only meaningful when filter==="decant" — see the Size sub-filter
 let lang = localStorage.getItem("lang") || "en";
 let theme = localStorage.getItem("theme") || "dark";
 let gridCols = localStorage.getItem("gridCols") || "auto";
@@ -593,14 +601,15 @@ function productHasKind(p, kind){
 // sold out at that exact store but happens to still be in stock
 // elsewhere. Each of kind/storeName/inStockOnly is optional (pass
 // "all"/false to skip that check).
-function productHasMatchingOffer(p, {kind="all", storeName="all", inStockOnly=false, minPrice=null, maxPrice=null}={}){
+function productHasMatchingOffer(p, {kind="all", storeName="all", inStockOnly=false, minPrice=null, maxPrice=null, ml=null}={}){
   return (p.stores||[]).some(s =>
     (storeName==="all" || s.name===storeName) &&
     (s.offers||[]).some(o =>
       (kind==="all" || o.kind===kind) &&
       (!inStockOnly || !o.sold_since) &&
       (minPrice==null || o.price >= minPrice) &&
-      (maxPrice==null || o.price <= maxPrice)
+      (maxPrice==null || o.price <= maxPrice) &&
+      (ml==null || o.ml === ml)
     )
   );
 }
@@ -633,10 +642,43 @@ function populateKindFilter(){
   ];
   buildFilterRows(document.getElementById("kindList"), entries, filter, value => {
     filter = value;
+    if(filter !== "decant") sizeFilter = "all"; // the sub-filter only means anything under Decants
     populateKindFilter();
+    populateSizeFilter();
     updateFilterBadge();
     render();
     trackEvent("filter_kind", { value });
+  });
+}
+
+// Sizes only apply to decant offers — a "50ml" full bottle and a "50ml"
+// decant aren't the same shopping decision, and leftover offers are
+// almost always "as shown" (no fixed size) in this catalog, so mixing
+// either into one flat size list would be misleading. Shown as a
+// sub-filter under Type > Decants instead of its own top-level filter.
+function populateSizeFilter(){
+  document.getElementById("sizeSubfilter").hidden = filter !== "decant";
+  if(filter !== "decant") return;
+  const counts = {};
+  PRODUCTS.forEach(p => {
+    const mls = new Set();
+    (p.stores||[]).forEach(s => (s.offers||[]).forEach(o => {
+      if(o.kind === "decant" && typeof o.ml === "number") mls.add(o.ml);
+    }));
+    mls.forEach(ml => { counts[ml] = (counts[ml]||0) + 1; });
+  });
+  const sizes = Object.keys(counts).map(Number).sort((a,b) => a-b);
+  if(sizeFilter !== "all" && !sizes.includes(+sizeFilter)) sizeFilter = "all";
+  const entries = [
+    { value:"all", label:t().filter_all },
+    ...sizes.map(ml => ({ value:String(ml), label:`${ml}ml`, count:counts[ml] })),
+  ];
+  buildFilterRows(document.getElementById("sizeList"), entries, sizeFilter, value => {
+    sizeFilter = value;
+    populateSizeFilter();
+    updateFilterBadge();
+    render();
+    trackEvent("filter_size", { value });
   });
 }
 
@@ -758,6 +800,7 @@ function applyI18n(){
   document.getElementById("inStockOnlyLabel").textContent = t().in_stock_only;
   document.getElementById("storeFilterLabel").textContent = t().label_store;
   document.getElementById("priceFilterLabel").textContent = t().label_price;
+  document.getElementById("sizeFilterLabel").textContent = t().label_size;
   document.getElementById("clearFiltersBtn").textContent = t().clear_filters_btn;
   document.getElementById("brandFilterLabel").textContent = t().label_brand;
   document.getElementById("sortOrderLabel").textContent = t().label_sort;
@@ -765,6 +808,7 @@ function applyI18n(){
   document.getElementById("viewAutoBtn").textContent = t().view_auto;
   document.getElementById("filtersToggleLabel").textContent = t().filters_label;
   populateKindFilter();
+  populateSizeFilter();
   populateStoreFilter();
   populateBrandFilter();
   populateSortOrder();
@@ -774,7 +818,7 @@ function applyI18n(){
 function computeItems(){
   const qTokens = normalizeText(query).split(/\s+/).filter(Boolean);
   const items = PRODUCTS.filter(p =>
-    productHasMatchingOffer(p, {kind: filter, storeName: storeFilter, inStockOnly, minPrice: priceMin, maxPrice: priceMax}) &&
+    productHasMatchingOffer(p, {kind: filter, storeName: storeFilter, inStockOnly, minPrice: priceMin, maxPrice: priceMax, ml: sizeFilter==="all" ? null : Number(sizeFilter)}) &&
     (brandFilter==="all" || (p.brand||"").trim().toLowerCase()===brandFilter) &&
     productMatchesQuery(p, qTokens)
   );
@@ -1048,13 +1092,14 @@ document.addEventListener("keydown", e => {
 });
 
 function resetFilters(){
-  filter = "all"; query = ""; storeFilter = "all"; brandFilter = "all"; inStockOnly = false; priceMin = null; priceMax = null;
+  filter = "all"; query = ""; storeFilter = "all"; brandFilter = "all"; inStockOnly = false; priceMin = null; priceMax = null; sizeFilter = "all";
   document.getElementById("search").value = "";
   document.getElementById("brandFilter").value = "all";
   document.getElementById("inStockOnly").checked = false;
   document.getElementById("priceMin").value = "";
   document.getElementById("priceMax").value = "";
   populateKindFilter();
+  populateSizeFilter();
   populateStoreFilter();
   updateFilterBadge();
 }
@@ -1135,7 +1180,7 @@ filtersToggle.onclick = ()=>{
 };
 sidebarOverlay.onclick = closeSidebar;
 function updateFilterBadge(){
-  const n = [filter!=="all", storeFilter!=="all", brandFilter!=="all", sortOrder!=="newest", gridCols!=="auto", inStockOnly, priceMin!=null, priceMax!=null].filter(Boolean).length;
+  const n = [filter!=="all", sizeFilter!=="all", storeFilter!=="all", brandFilter!=="all", sortOrder!=="newest", gridCols!=="auto", inStockOnly, priceMin!=null, priceMax!=null].filter(Boolean).length;
   const badge = document.getElementById("filterBadge");
   badge.textContent = n;
   badge.hidden = n === 0;
@@ -1144,7 +1189,7 @@ function updateFilterBadge(){
   // which are view preferences it deliberately leaves alone, and not the
   // search box, which already shows its own state) — so the button
   // reliably disappears once there's nothing left for it to do
-  const filtersActive = filter!=="all" || storeFilter!=="all" || brandFilter!=="all" || inStockOnly || priceMin!=null || priceMax!=null;
+  const filtersActive = filter!=="all" || sizeFilter!=="all" || storeFilter!=="all" || brandFilter!=="all" || inStockOnly || priceMin!=null || priceMax!=null;
   document.getElementById("clearFiltersBtn").hidden = !filtersActive;
 }
 document.getElementById("inStockOnly").addEventListener("change", e => {
