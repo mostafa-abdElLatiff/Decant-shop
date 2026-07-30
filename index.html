@@ -230,6 +230,8 @@
   .cart-disclaimer{color:#8A8D7B;font-size:.74rem;text-align:center;line-height:1.5}
   .qty{display:flex;align-items:center;gap:.65rem}
   .qty button{width:2.75rem;height:2.75rem;border-radius:8px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer;font-size:1.1rem}
+  .qty button:disabled{opacity:.4;cursor:not-allowed}
+  .cart-item .sold-badge{display:inline-block;background:var(--red);color:#fff;font-size:.62rem;font-weight:700;padding:.05rem .4rem;border-radius:6px;line-height:1.4;margin-inline-end:.35rem}
   .remove{background:none;border:none;color:var(--red);cursor:pointer;font-size:.78rem;font-family:inherit;padding:0;margin-top:2px}
   .empty{color:#8A8D7B;text-align:center;margin-top:2rem;font-size:.95rem}
   .skel{height:340px;border-radius:var(--radius);background:linear-gradient(100deg, var(--card) 30%, var(--line) 50%, var(--card) 70%);background-size:200% 100%;animation:skel-shine 1.3s ease-in-out infinite}
@@ -556,16 +558,22 @@ function productHasKind(p, kind){
   return (p.stores||[]).some(s => (s.offers||[]).some(o => o.kind===kind));
 }
 
-function productHasStore(p, storeName){
-  return (p.stores||[]).some(s => s.name===storeName);
-}
-
-// A product with every offer, at every store, sold out is a "false
-// positive" in search/browse — it matches the query but there's nowhere
-// to actually buy it right now. One available offer anywhere is enough
-// to keep the product in view.
-function productHasAvailableOffer(p){
-  return (p.stores||[]).some(s => (s.offers||[]).some(o => !o.sold_since));
+// The kind/store/in-stock filters must all be satisfied by the SAME
+// offer, not independently anywhere on the product — otherwise
+// selecting "Decants" + a specific store shows a product whose decant
+// is at a DIFFERENT store and whose offer at the selected store is a
+// full bottle, or "In stock only" + a store shows a product that's
+// sold out at that exact store but happens to still be in stock
+// elsewhere. Each of kind/storeName/inStockOnly is optional (pass
+// "all"/false to skip that check).
+function productHasMatchingOffer(p, {kind="all", storeName="all", inStockOnly=false}={}){
+  return (p.stores||[]).some(s =>
+    (storeName==="all" || s.name===storeName) &&
+    (s.offers||[]).some(o =>
+      (kind==="all" || o.kind===kind) &&
+      (!inStockOnly || !o.sold_since)
+    )
+  );
 }
 
 /* Kind/Store/Sort all render as clickable rows in the sidebar (rather than
@@ -735,10 +743,8 @@ function applyI18n(){
 function computeItems(){
   const qTokens = normalizeText(query).split(/\s+/).filter(Boolean);
   const items = PRODUCTS.filter(p =>
-    (filter==="all" || productHasKind(p, filter)) &&
-    (storeFilter==="all" || productHasStore(p, storeFilter)) &&
+    productHasMatchingOffer(p, {kind: filter, storeName: storeFilter, inStockOnly}) &&
     (brandFilter==="all" || (p.brand||"").trim().toLowerCase()===brandFilter) &&
-    (!inStockOnly || productHasAvailableOffer(p)) &&
     productMatchesQuery(p, qTokens)
   );
   if(sortOrder==="newest") items.sort((a,b) => productNewestDate(b).localeCompare(productNewestDate(a)));
@@ -1145,6 +1151,7 @@ function findBestDeal(product, kind, ml){
   (product.stores||[]).forEach(s => {
     (s.offers||[]).forEach(o => {
       if(o.kind !== kind) return;
+      if(o.sold_since) return; // never suggest switching to an offer that's itself sold out
       if(kind === "leftover"){
         // a leftover's ml is whatever happened to remain in an opened
         // bottle, not a chosen size — different stores' leftovers are
@@ -1201,7 +1208,10 @@ function syncCart(){
     cartBody.innerHTML = `<p class="empty">${t().empty}</p>`;
   }
   groups.forEach(g => {
-    const storeTotal = g.entries.reduce((a,{c,line})=>a + line.o.price*c.qty, 0);
+    // sold-out lines stay visible (with a Sold badge, see below) so the
+    // cart doesn't just silently lose an item, but they're worth 0 in
+    // every total/message — you can't actually buy them anymore.
+    const storeTotal = g.entries.reduce((a,{c,line})=>a + (line.o.sold_since ? 0 : line.o.price*c.qty), 0);
     if(groups.length > 1){
       const head = document.createElement("div");
       head.className = "cart-store-head";
@@ -1215,15 +1225,20 @@ function syncCart(){
     g.entries.forEach(({c,i,line}) => {
       const { p, s, o } = line;
       let tip = "";
-      const best = findBestDeal(p, o.kind, o.ml);
-      const isBetter = best && (o.kind === "leftover" ? offerPerMl(best.offer) < offerPerMl(o) : best.offer.price < o.price);
-      if(isBetter){
-        // the store name is always Latin-script (English seller names), so in
-        // an Arabic (RTL) line it needs a bidi isolate around it — otherwise
-        // the browser's bidi algorithm can pull neighboring dashes/numbers
-        // out of their intended order. "من" ("from") also reads naturally in
-        // Arabic where English just uses the store name directly.
-        tip = `<div class="cart-tip">💡 ${t().better_deal} ${t().from_store}<bdi>${best.store.name}</bdi> - ${offerLabel(best.offer)} - ${best.offer.price}</div>`;
+      // never suggest a "better deal" for a sold-out line, and never
+      // let findBestDeal (which already skips sold offers) surface one
+      // that's actually the same sold-out offer being compared to itself
+      if(!o.sold_since){
+        const best = findBestDeal(p, o.kind, o.ml);
+        const isBetter = best && (o.kind === "leftover" ? offerPerMl(best.offer) < offerPerMl(o) : best.offer.price < o.price);
+        if(isBetter){
+          // the store name is always Latin-script (English seller names), so in
+          // an Arabic (RTL) line it needs a bidi isolate around it — otherwise
+          // the browser's bidi algorithm can pull neighboring dashes/numbers
+          // out of their intended order. "من" ("from") also reads naturally in
+          // Arabic where English just uses the store name directly.
+          tip = `<div class="cart-tip">💡 ${t().better_deal} ${t().from_store}<bdi>${best.store.name}</bdi> - ${offerLabel(best.offer)} - ${best.offer.price}</div>`;
+        }
       }
       const row = document.createElement("div");
       row.className = "cart-item";
@@ -1231,6 +1246,7 @@ function syncCart(){
         ${p.image ? `<img class="cart-thumb" src="${p.image}" alt="">` : ""}
         <div class="info">
           <b>${pname(p)}</b>
+          ${o.sold_since ? `<span class="sold-badge">${t().sold_badge}</span>` : ""}
           ${offerLabel(o)} × ${o.price}
           <div class="store">${s.name}</div>
           ${tip}
@@ -1239,14 +1255,14 @@ function syncCart(){
         <div class="qty">
           <button data-dec="${i}" aria-label="decrease">−</button>
           <span>${c.qty}</span>
-          <button data-inc="${i}" aria-label="increase">+</button>
+          <button data-inc="${i}" aria-label="increase"${o.sold_since ? ` disabled aria-disabled="true"` : ""}>+</button>
         </div>`;
       cartBody.appendChild(row);
     });
   });
   document.getElementById("total").textContent = cart.reduce((a,c)=>{
     const line = resolveCartLine(c);
-    return a + (line ? line.o.price*c.qty : 0);
+    return a + (line && !line.o.sold_since ? line.o.price*c.qty : 0);
   }, 0);
 }
 
@@ -1305,8 +1321,13 @@ function buildMessage(filterStoreName){
   let msg = "";
   let grand = 0;
   groups.forEach(g=>{
-    const total = g.entries.reduce((a,{c,line})=>a + line.o.price*c.qty, 0);
-    const lines = g.entries.map(({c,line}) => {
+    // never send a seller a line for something that's since sold out —
+    // it's still shown on-screen (with a Sold badge) so it doesn't just
+    // vanish from the cart, but it has no business in the order message
+    const purchasable = g.entries.filter(({line}) => !line.o.sold_since);
+    if(!purchasable.length) return;
+    const total = purchasable.reduce((a,{c,line})=>a + line.o.price*c.qty, 0);
+    const lines = purchasable.map(({c,line}) => {
       const { p, o } = line;
       const lineTotal = o.price * c.qty;
       const qtyTag = c.qty > 1 ? ` × ${c.qty}` : "";
