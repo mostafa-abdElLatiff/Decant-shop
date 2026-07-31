@@ -584,8 +584,7 @@
               "kind": "full",
               "ml": 150,
               "price": 2050,
-              "first_seen": "2026-07-19",
-              "prev_price": 2200
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/miss-gris-dance--og-perfume.jpg",
@@ -136787,6 +136786,20 @@
               "first_seen": "2026-07-31"
             },
             {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 975,
+              "first_seen": "2026-07-31",
+              "sold_since": "2026-07-31"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2200,
+              "first_seen": "2026-07-31",
+              "sold_since": "2026-07-31"
+            },
+            {
               "kind": "full",
               "ml": 150,
               "price": 2900,
@@ -138667,14 +138680,14 @@
               "kind": "leftover",
               "ml": 50,
               "price": 950,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-31"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 1875,
-              "first_seen": "2026-07-19",
-              "prev_price": 1900
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/rare-reef--og-perfume.jpg",
