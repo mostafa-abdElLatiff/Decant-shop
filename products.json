@@ -18275,8 +18275,9 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 1950,
-              "first_seen": "2026-07-18"
+              "price": 1800,
+              "first_seen": "2026-07-18",
+              "prev_price": 1950
             },
             {
               "kind": "full",
@@ -23339,7 +23340,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1950,
+              "price": 2275,
               "first_seen": "2026-07-18"
             }
           ],
@@ -78556,7 +78557,8 @@
               "kind": "leftover",
               "ml": 70,
               "price": 975,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-31"
             },
             {
               "kind": "full",
@@ -84589,9 +84591,8 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1700,
-              "first_seen": "2026-07-19",
-              "prev_price": 1750
+              "price": 1750,
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/9pm-night-out--eldesoki-fragrances.jpg",
@@ -155843,7 +155844,7 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 2575,
+              "price": 2775,
               "first_seen": "2026-07-30"
             }
           ],
