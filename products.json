@@ -60628,8 +60628,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3150,
-              "first_seen": "2026-07-19"
+              "price": 2750,
+              "first_seen": "2026-07-19",
+              "prev_price": 3150
             }
           ],
           "image": "images/supremacy-collector-s-edition--sniffz.jpg",
@@ -142032,23 +142033,23 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 280,
+              "price": 275,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 280
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 385,
+              "price": 380,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 385
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 610,
+              "price": 600,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 610
             },
             {
               "kind": "full",
