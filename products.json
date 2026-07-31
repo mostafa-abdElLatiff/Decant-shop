@@ -46828,7 +46828,7 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 240,
+              "price": 250,
               "first_seen": "2026-07-24"
             },
             {
@@ -46841,7 +46841,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 2200,
+              "price": 2250,
               "first_seen": "2026-07-18"
             }
           ],
@@ -52475,7 +52475,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 1975,
+              "price": 2050,
               "first_seen": "2026-07-26"
             }
           ],
@@ -84575,8 +84575,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1750,
-              "first_seen": "2026-07-19"
+              "price": 1700,
+              "first_seen": "2026-07-19",
+              "prev_price": 1750
             }
           ],
           "image": "images/9pm-night-out--eldesoki-fragrances.jpg",
