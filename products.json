@@ -3797,8 +3797,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2500,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-31"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/vintage-tobacco--emaratiscents.jpg",
@@ -25015,8 +25014,7 @@
               "kind": "full",
               "ml": 75,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-31"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/spicy-oud-proud-dose--emaratiscents.jpg",
@@ -30729,6 +30727,20 @@
           ],
           "image": "images/sweet-oud--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/%d8%a7%d9%84%d9%85%d9%86%d8%aa%d8%ac/"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 850,
+              "first_seen": "2026-07-31"
+            }
+          ],
+          "image": "images/sweet-oud--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/sweet-oud"
         }
       ],
       "_hero_source": "eldesoki-fragrances"
@@ -31000,8 +31012,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1900,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-23"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/black-cavalier-xi--emaratiscents.jpg",
@@ -31629,8 +31640,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2350,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-28"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/brazilian-tobacco--emaratiscents.jpg",
@@ -33221,8 +33231,7 @@
               "kind": "full",
               "ml": 200,
               "price": 5750,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/akoya--emaratiscents.jpg",
@@ -53388,8 +53397,7 @@
               "kind": "full",
               "ml": 50,
               "price": 3600,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-27"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/musk-07--emaratiscents.jpg",
@@ -71422,7 +71430,8 @@
               "kind": "full",
               "ml": 150,
               "price": 2250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-07-31"
             }
           ],
           "image": "images/sapphire-leather-ibrahim-al-qurashi--emaratiscents.jpg",
@@ -75250,8 +75259,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-31"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/qumra--emaratiscents.jpg",
@@ -85740,8 +85748,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-21"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/signature-gold--emaratiscents.jpg",
@@ -94614,8 +94621,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-30"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/safari-breeze--emaratiscents.jpg",
@@ -105094,8 +105100,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1100,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/khas-musk--emaratiscents.jpg",
@@ -140302,8 +140307,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1900,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-30"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/black-cavalier-vi--emaratiscents.jpg",
@@ -156151,6 +156155,58 @@
           ],
           "image": "images/wild-colt-boss--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/wild-colt-boss-200-ml"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "egraa-for-men",
+      "name_ar": "Egraa For Men",
+      "name_en": "Egraa For Men",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/egraa-for-men.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1060,
+              "first_seen": "2026-07-31"
+            }
+          ],
+          "image": "images/egraa-for-men--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/egraa-for-men"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "white-heart",
+      "name_ar": "White Heart",
+      "name_en": "White Heart",
+      "brand": "Almas Perfumes",
+      "dupe_of": [],
+      "image": "images/white-heart.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 750,
+              "first_seen": "2026-07-31"
+            }
+          ],
+          "image": "images/white-heart--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/white-heart"
         }
       ],
       "_hero_source": "emaratiscents"
