@@ -39601,6 +39601,24 @@
           "url": "https://roseperfume.online/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 5,
+              "price": 100,
+              "first_seen": "2026-07-31"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 175,
+              "first_seen": "2026-07-31"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 500,
+              "first_seen": "2026-07-31"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1500,
@@ -46891,8 +46909,9 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 2100,
-              "first_seen": "2026-07-20"
+              "price": 1950,
+              "first_seen": "2026-07-20",
+              "prev_price": 2100
             }
           ],
           "image": "images/strike-black--roseperfume.jpg",
@@ -121359,6 +121378,38 @@
           ],
           "image": "images/dxb--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/dxb-maison-asrar"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 125,
+              "first_seen": "2026-07-31"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 225,
+              "first_seen": "2026-07-31"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 625,
+              "first_seen": "2026-07-31"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1900,
+              "first_seen": "2026-07-31"
+            }
+          ],
+          "image": "images/dxb--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/dxb-maison-asrar"
         }
       ],
       "_hero_source": "og-perfume"
@@ -139760,7 +139811,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-21"
+              "first_seen": "2026-07-21",
+              "sold_since": "2026-07-31"
             }
           ],
           "image": "images/vulcan-feu--roseperfume.jpg",
@@ -140081,7 +140133,7 @@
               "ml": 100,
               "price": 550,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-30"
+              "sold_since": "2026-07-31"
             }
           ],
           "image": "images/al-faris-arabiyat-prestige-arabiyat-prestige--roseperfume.jpg",
@@ -155986,6 +156038,75 @@
         }
       ],
       "_hero_source": "og-perfume"
+    },
+    {
+      "id": "the-eternal-club",
+      "name_ar": "",
+      "name_en": "The Eternal Club",
+      "brand": "MPF",
+      "dupe_of": [],
+      "image": "images/the-eternal-club.jpg",
+      "accords": [
+        {
+          "label_en": "Jasmine",
+          "label_ar": "الياسمين",
+          "color": "#FF5F8D",
+          "w": 100
+        },
+        {
+          "label_en": "Nutmeg",
+          "label_ar": "جوزه الطيب",
+          "color": "#CC3300",
+          "w": 90
+        },
+        {
+          "label_en": "Ginger",
+          "label_ar": "الزنجبيل",
+          "color": "#83C928",
+          "w": 80
+        },
+        {
+          "label_en": "Pink Pepper",
+          "label_ar": "الفلفل الوردي",
+          "color": "#83C928",
+          "w": 70
+        },
+        {
+          "label_en": "Grapefruit",
+          "label_ar": "الجريب فروت",
+          "color": "#F9FF52",
+          "w": 60
+        },
+        {
+          "label_en": "Lemon",
+          "label_ar": "الليمون",
+          "color": "#F9FF52",
+          "w": 50
+        },
+        {
+          "label_en": "Mint",
+          "label_ar": "النعناع",
+          "color": "#37a089",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 650,
+              "first_seen": "2026-07-31"
+            }
+          ],
+          "image": "images/the-eternal-club--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/eternal-club-mpf"
+        }
+      ],
+      "_hero_source": "roseperfume"
     }
   ]
 }
