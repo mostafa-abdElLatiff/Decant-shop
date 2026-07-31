@@ -3797,8 +3797,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2500,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-30"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/vintage-tobacco--emaratiscents.jpg",
@@ -28270,8 +28269,7 @@
               "kind": "full",
               "ml": 200,
               "price": 3450,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-30"
+              "first_seen": "2026-07-20"
             }
           ],
           "image": "images/king-s-signature-bundle--emaratiscents.jpg",
@@ -46860,8 +46858,7 @@
               "kind": "full",
               "ml": 125,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-30"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/strike-black--emaratiscents.jpg",
@@ -71424,8 +71421,7 @@
               "kind": "full",
               "ml": 150,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-29"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/sapphire-leather-ibrahim-al-qurashi--emaratiscents.jpg",
@@ -92738,8 +92734,7 @@
               "kind": "full",
               "ml": 100,
               "price": 17000,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-29"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/guidance--emaratiscents.jpg",
@@ -156120,6 +156115,32 @@
         }
       ],
       "_hero_source": "roseperfume"
+    },
+    {
+      "id": "wild-colt-boss",
+      "name_ar": "Wild Colt Boss",
+      "name_en": "Wild Colt Boss",
+      "brand": "Assaf",
+      "dupe_of": [],
+      "image": "images/wild-colt-boss.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2450,
+              "first_seen": "2026-07-31"
+            }
+          ],
+          "image": "images/wild-colt-boss--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/wild-colt-boss-200-ml"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
