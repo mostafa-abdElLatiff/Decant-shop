@@ -570,9 +570,8 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "price": 165,
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -584,9 +583,9 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 2200,
+              "price": 2050,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 2200
             }
           ],
           "image": "images/miss-gris-dance--og-perfume.jpg",
@@ -22474,15 +22473,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 780,
-              "first_seen": "2026-07-29",
-              "prev_price": 880
+              "first_seen": "2026-07-29"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 7500,
-              "first_seen": "2026-07-29",
-              "prev_price": 8500
+              "first_seen": "2026-07-29"
             }
           ],
           "image": "images/al-fareed--og-perfume.jpg",
@@ -23173,15 +23170,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 330,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 925,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -23194,8 +23189,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2950,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/hersh-mehwar--og-perfume.jpg",
@@ -25815,8 +25809,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-25"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/intoxicate-mystique--og-perfume.jpg",
@@ -31964,6 +31957,32 @@
           ],
           "image": "images/9am-dive--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/afnan-9am-dive"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 195,
+              "first_seen": "2026-07-31"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 550,
+              "first_seen": "2026-07-31"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1650,
+              "first_seen": "2026-07-31"
+            }
+          ],
+          "image": "images/9am-dive--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/9am-dive"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -39354,15 +39373,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 185,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 525,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-29"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -39375,8 +39392,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/9pm-elixir--og-perfume.jpg",
@@ -51843,8 +51859,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2950,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/hersh-al-asof--og-perfume.jpg",
@@ -60661,16 +60676,14 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 270,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "price": 300,
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
-              "price": 850,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "price": 875,
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -60690,8 +60703,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/supremacy-collector-s-edition--og-perfume.jpg",
@@ -83238,7 +83250,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 490,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-31"
             },
             {
               "kind": "full",
@@ -84594,8 +84607,7 @@
               "kind": "decant",
               "ml": 30,
               "price": 550,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -84615,8 +84627,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-28"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/9pm-night-out--og-perfume.jpg",
@@ -86857,14 +86868,14 @@
               "price": 140,
               "first_seen": "2026-07-19",
               "prev_price": 195,
-              "sold_since": "2026-07-30"
+              "sold_since": "2026-07-31"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 525,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-30"
+              "sold_since": "2026-07-31"
             },
             {
               "kind": "leftover",
@@ -86878,7 +86889,7 @@
               "ml": 100,
               "price": 1550,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-30"
+              "sold_since": "2026-07-31"
             },
             {
               "kind": "full",
@@ -92562,9 +92573,8 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 270,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "price": 285,
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -92576,9 +92586,8 @@
             {
               "kind": "full",
               "ml": 80,
-              "price": 1950,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "price": 2050,
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/mystique-bouquet--og-perfume.jpg",
@@ -102998,8 +103007,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 190,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -103019,8 +103027,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/9pm-rebel--og-perfume.jpg",
@@ -108386,7 +108393,7 @@
               "ml": 100,
               "price": 1200,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-30"
+              "sold_since": "2026-07-31"
             }
           ],
           "image": "images/kingdom-men--og-perfume.jpg",
@@ -126831,7 +126838,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 525,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-31"
             },
             {
               "kind": "full",
@@ -134774,7 +134782,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-31"
             },
             {
               "kind": "decant",
@@ -136716,27 +136725,24 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 220,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "price": 225,
+              "first_seen": "2026-07-19"
             },
             {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 975,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "kind": "decant",
+              "ml": 30,
+              "price": 625,
+              "first_seen": "2026-07-31"
             },
             {
               "kind": "full",
-              "ml": 100,
-              "price": 2200,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "ml": 150,
+              "price": 2900,
+              "first_seen": "2026-07-31"
             }
           ],
           "image": "images/supremacy-not-only-intense--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/afnan-supremacy-not-only-intense"
+          "product_url": "https://og-perfume.com/products/supremacy-not-only-intense"
         }
       ],
       "_hero_source": "sniffz"
@@ -138614,9 +138620,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1900,
+              "price": 1875,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-30"
+              "prev_price": 1900
             }
           ],
           "image": "images/rare-reef--og-perfume.jpg",
@@ -142348,7 +142354,8 @@
               "kind": "full",
               "ml": 200,
               "price": 4850,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-31"
             }
           ],
           "image": "images/martinique-osmanthus--og-perfume.jpg",
@@ -155871,6 +155878,114 @@
         }
       ],
       "_hero_source": "feel22"
+    },
+    {
+      "id": "cashmere-sunshine-musk",
+      "name_ar": "Cashmere Sunshine Musk",
+      "name_en": "Cashmere Sunshine Musk",
+      "brand": "Khadlaj",
+      "dupe_of": [],
+      "image": "images/cashmere-sunshine-musk.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 165,
+              "first_seen": "2026-07-31"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 450,
+              "first_seen": "2026-07-31"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1350,
+              "first_seen": "2026-07-31"
+            }
+          ],
+          "image": "images/cashmere-sunshine-musk--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/cashmere-sunshine-musk"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "wanted-lady",
+      "name_ar": "Wanted Lady",
+      "name_en": "Wanted Lady",
+      "brand": "Assaf",
+      "dupe_of": [],
+      "image": "images/wanted-lady.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 120,
+              "first_seen": "2026-07-31"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 350,
+              "first_seen": "2026-07-31"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 1800,
+              "first_seen": "2026-07-31"
+            }
+          ],
+          "image": "images/wanted-lady--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/wanted-lady"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "delicious-bouquet",
+      "name_ar": "Delicious Bouquet",
+      "name_en": "Delicious Bouquet",
+      "brand": "Afnan",
+      "dupe_of": [],
+      "image": "images/delicious-bouquet.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 285,
+              "first_seen": "2026-07-31"
+            },
+            {
+              "kind": "full",
+              "ml": 80,
+              "price": 2050,
+              "first_seen": "2026-07-31"
+            }
+          ],
+          "image": "images/delicious-bouquet--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/delicious-bouquet"
+        }
+      ],
+      "_hero_source": "og-perfume"
     }
   ]
 }
