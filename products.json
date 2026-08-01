@@ -5,32 +5,6 @@
   },
   "products": [
     {
-      "id": "1-million-eau-de-toilette",
-      "name_ar": "1 Million Eau De Toilette",
-      "name_en": "1 Million Eau De Toilette",
-      "brand": "Paco Rabanne",
-      "dupe_of": [],
-      "image": "images/1-million-eau-de-toilette.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "feel22",
-          "url": "https://eg.feel22.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 4898,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/1-million-eau-de-toilette--feel22.jpg",
-          "product_url": "https://eg.feel22.com/products/paco-rabanne-1-million-for-men-eau-de-toilette-100ml"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
       "id": "1-million-edt",
       "name_ar": "",
       "name_en": "1 Million EDT",
@@ -66,9 +40,26 @@
           ],
           "image": "images/1-million-edt--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/1-million-edt-100ml-set"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4898,
+              "first_seen": "2026-07-23"
+            }
+          ],
+          "image": "images/1-million-eau-de-toilette--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/paco-rabanne-1-million-for-men-eau-de-toilette-100ml"
         }
       ],
-      "_hero_source": "MO Shawky"
+      "_hero_source": "MO Shawky",
+      "aliases": [
+        "1 Million Eau De Toilette"
+      ]
     },
     {
       "id": "1-million-elixir",
@@ -155,22 +146,7 @@
           ],
           "image": "images/1-million-golden-oud-parfum-intense--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/paco-rabanne-1-million-golden-oud-parfum-intense-for-men-100ml"
-        }
-      ],
-      "aliases": [
-        "1 Million Golden Oud"
-      ],
-      "_hero_source": "feel22"
-    },
-    {
-      "id": "1-million-golden-oud-parfum-intense-100ml",
-      "name_ar": "",
-      "name_en": "1 Million Golden Oud Parfum Intense",
-      "brand": "Rabanne",
-      "dupe_of": [],
-      "image": "images/1-million-golden-oud-parfum-intense-100ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -186,10 +162,11 @@
           "product_url": "https://www.faces.eg/en/p/rabanne-1-million-golden-oud-parfum-oud-025416524166.html"
         }
       ],
-      "_hero_source": "faces",
       "aliases": [
+        "1 Million Golden Oud",
         "1 Million Golden Oud Parfum Intense - 100ml"
-      ]
+      ],
+      "_hero_source": "feel22"
     },
     {
       "id": "1-million-night-elixir-parfum-elixir",
@@ -1380,22 +1357,7 @@
           ],
           "image": "images/9am-dive--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/9am-dive"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances",
-      "aliases": [
-        "9AM Dive Tester B.2024"
-      ]
-    },
-    {
-      "id": "9am-dive-edp-100-ml",
-      "name_ar": "",
-      "name_en": "9AM DIVE EDP",
-      "brand": "Afnan",
-      "dupe_of": [],
-      "image": "images/9am-dive-edp-100-ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -1411,36 +1373,11 @@
           "product_url": "https://www.faces.eg/en/p/afnan-9am-dive-edp-100-ml-eau-de-parfum-578117105426.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "eldesoki-fragrances",
       "aliases": [
-        "9AM DIVE EDP 100 ML"
-      ]
-    },
-    {
-      "id": "9am-dive-perfume-spray-250-ml",
-      "name_ar": "",
-      "name_en": "9AM DIVE Perfume SPRAY",
-      "brand": "Afnan",
-      "dupe_of": [],
-      "image": "",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 250,
-              "price": 320,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "product_url": "https://www.faces.eg/en/p/afnan-9am-dive-perfume-spray-250-ml-578117504648.html"
-        }
-      ],
-      "aliases": [
-        "9AM DIVE Perfume SPRAY 250 ML"
+        "9AM DIVE EDP",
+        "9AM DIVE EDP 100 ML",
+        "9AM Dive Tester B.2024"
       ]
     },
     {
@@ -1472,10 +1409,25 @@
           ],
           "image": "images/9am-dive-perfume-spray-unisex--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/afnan-9am-dive-perfume-spray-unisex-250ml"
+        },
+        {
+          "name": "faces",
+          "url": "https://www.faces.eg/en/perfume-for-men",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 250,
+              "price": 320,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "product_url": "https://www.faces.eg/en/p/afnan-9am-dive-perfume-spray-250-ml-578117504648.html"
         }
       ],
       "_hero_source": "feel22",
       "aliases": [
+        "9AM DIVE Perfume SPRAY",
+        "9AM DIVE Perfume SPRAY 250 ML",
         "9Am Dive Eau De Parfum Unisex"
       ]
     },
@@ -1952,22 +1904,7 @@
           ],
           "image": "images/9pm-elixir--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/9pm-elixir-afnan"
-        }
-      ],
-      "_hero_source": "sniffz",
-      "aliases": [
-        "9PM Elixir Tester Box"
-      ]
-    },
-    {
-      "id": "9pm-elixir-edp-100-ml",
-      "name_ar": "",
-      "name_en": "9Pm Elixir EDP",
-      "brand": "Afnan",
-      "dupe_of": [],
-      "image": "images/9pm-elixir-edp-100-ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -1983,8 +1920,10 @@
           "product_url": "https://www.faces.eg/en/p/afnan-9pm-elixir-edp-100-ml-eaudeparfum-578117504626.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "sniffz",
       "aliases": [
+        "9PM Elixir Tester Box",
+        "9Pm Elixir EDP",
         "9Pm Elixir EDP 100 ML"
       ]
     },
@@ -2310,23 +2249,7 @@
           ],
           "image": "images/9pm-night-out--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/9-pm-night-out-afnan"
-        }
-      ],
-      "_hero_source": "sniffz",
-      "aliases": [
-        "9PM Night Out Tester Box",
-        "Night Out"
-      ]
-    },
-    {
-      "id": "9pm-night-out-edp-100-ml",
-      "name_ar": "",
-      "name_en": "9PM NIGHT OUT EDP",
-      "brand": "Afnan",
-      "dupe_of": [],
-      "image": "images/9pm-night-out-edp-100-ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -2342,9 +2265,12 @@
           "product_url": "https://www.faces.eg/en/p/afnan-9pm-night-out-edp-100-ml-578118042678.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "sniffz",
       "aliases": [
-        "9PM NIGHT OUT EDP 100 ML"
+        "9PM NIGHT OUT EDP",
+        "9PM NIGHT OUT EDP 100 ML",
+        "9PM Night Out Tester Box",
+        "Night Out"
       ]
     },
     {
@@ -2640,19 +2566,7 @@
           ],
           "image": "images/9pm-rebel-eau-de-parfum-unisex--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/afnan-9pm-rebel-eau-de-parfum-unisex-100ml"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
-      "id": "9pm-rebel-edp-100-ml",
-      "name_ar": "",
-      "name_en": "9PM REBEL EDP",
-      "brand": "Afnan",
-      "dupe_of": [],
-      "image": "images/9pm-rebel-edp-100-ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -2668,8 +2582,9 @@
           "product_url": "https://www.faces.eg/en/p/afnan-9pm-rebel-edp-100-ml-eaudeparfum-578117504628.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "feel22",
       "aliases": [
+        "9PM REBEL EDP",
         "9PM REBEL EDP 100 ML"
       ]
     },
@@ -6879,19 +6794,7 @@
           ],
           "image": "images/alex-enable--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/alex-enable-100-ml"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "alex-enable-100-ml",
-      "name_ar": "",
-      "name_en": "Alex Enable",
-      "brand": "assaf",
-      "dupe_of": [],
-      "image": "images/alex-enable-100-ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -6907,7 +6810,7 @@
           "product_url": "https://www.faces.eg/en/p/assaf-alex-enable--100-ml-635918028121.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "emaratiscents",
       "aliases": [
         "Alex Enable 100 ML"
       ]
@@ -13011,9 +12914,33 @@
           ],
           "image": "images/aramis-edt--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/aramis-edt-10ml%d8%a7%d8%b1%d8%a7%d9%85%d9%8a%d8%b3-%d8%a7%d9%88-%d8%af%d9%88-%d8%aa%d9%88%d8%a7%d9%84%d9%8a%d8%aa-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 110,
+              "price": 1806,
+              "first_seen": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 240,
+              "price": 2390,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-23"
+            }
+          ],
+          "image": "images/eau-de-toilette--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/aramis-eau-de-toilette-for-men"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Eau de Toilette"
+      ]
     },
     {
       "id": "arancia-di-capri-eau-de-toilette",
@@ -14190,19 +14117,7 @@
           ],
           "image": "images/arrogate-comete--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/arrogate-comete-assaf"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "arrogate-comete-200-ml",
-      "name_ar": "",
-      "name_en": "Arrogate Comete",
-      "brand": "assaf",
-      "dupe_of": [],
-      "image": "images/arrogate-comete-200-ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -14218,7 +14133,7 @@
           "product_url": "https://www.faces.eg/en/p/assaf-arrogate-comete-200-ml-635918028112.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "eldesoki-fragrances",
       "aliases": [
         "Arrogate Comete 200 ML"
       ]
@@ -16997,19 +16912,7 @@
           ],
           "image": "images/attacks--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/attacks-assaf"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "attacks-150-ml",
-      "name_ar": "",
-      "name_en": "Attacks",
-      "brand": "assaf",
-      "dupe_of": [],
-      "image": "images/attacks-150-ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -17025,7 +16928,7 @@
           "product_url": "https://www.faces.eg/en/p/assaf-attacks-150-ml-635918028119.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "emaratiscents",
       "aliases": [
         "Attacks 150 Ml"
       ]
@@ -18661,22 +18564,7 @@
           ],
           "image": "images/bad-boy-cobalt-elixir--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/carolina-herrera-bad-boy-cobalt-elixir-eau-de-parfum-for-men-100ml"
-        }
-      ],
-      "_hero_source": "mazaya",
-      "aliases": [
-        "Bad Boy Cobalt Elixir Eau de Parfum"
-      ]
-    },
-    {
-      "id": "bad-boy-cobalt-elixir-100ml",
-      "name_ar": "",
-      "name_en": "Bad Boy Cobalt Elixir",
-      "brand": "Carolina Herrera",
-      "dupe_of": [],
-      "image": "images/bad-boy-cobalt-elixir-100ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -18692,9 +18580,10 @@
           "product_url": "https://www.faces.eg/en/p/carolina-herrera-bad-boy-cobalt-elixir-100ml-eau_de_parfum-005716742394.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "mazaya",
       "aliases": [
-        "Bad Boy Cobalt Elixir 100Ml"
+        "Bad Boy Cobalt Elixir 100Ml",
+        "Bad Boy Cobalt Elixir Eau de Parfum"
       ]
     },
     {
@@ -22357,19 +22246,7 @@
           ],
           "image": "images/black-incense-malaki-eau-de-parfum--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/chopard-black-incense-malaki-eau-de-parfum-for-men-80ml"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
-      "id": "black-incense-malaki-eau-de-parfum-80ml",
-      "name_ar": "",
-      "name_en": "Black Incense Malaki Eau De Parfum",
-      "brand": "Chopard",
-      "dupe_of": [],
-      "image": "images/black-incense-malaki-eau-de-parfum-80ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -22385,8 +22262,9 @@
           "product_url": "https://www.faces.eg/en/p/chopard-black-incense-malaki-eau-de-parfum-006915062960.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "feel22",
       "aliases": [
+        "Black Incense Malaki Eau De Parfum",
         "Black Incense Malaki Eau De Parfum 80ml"
       ]
     },
@@ -23478,19 +23356,7 @@
           ],
           "image": "images/bleu-noir-eau-de-parfum--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/narciso-rodriguez-for-him-bleu-noir-eau-de-parfum-for-men-150ml"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
-      "id": "bleu-noir-edp",
-      "name_ar": "Bleu Noir EDP",
-      "name_en": "Bleu Noir EDP",
-      "brand": "Narciso Rodriguez",
-      "dupe_of": [],
-      "image": "images/bleu-noir-edp.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "mazaya",
           "url": "https://mazaya.eg/",
@@ -23507,7 +23373,10 @@
           "product_url": "https://mazaya.eg/en/narciso-rodriguez-for-him-eau-de-parfum-bleu-noir"
         }
       ],
-      "_hero_source": "mazaya"
+      "_hero_source": "feel22",
+      "aliases": [
+        "Bleu Noir EDP"
+      ]
     },
     {
       "id": "bleu-noir-edt",
@@ -26278,35 +26147,6 @@
       "_hero_source": "sniffz"
     },
     {
-      "id": "boss-bottled-eau-de-toilette-men-perfume-200ml",
-      "name_ar": "",
-      "name_en": "Boss Bottled Eau De Toilette Men Perfume",
-      "brand": "Hugo Boss",
-      "dupe_of": [],
-      "image": "images/boss-bottled-eau-de-toilette-men-perfume-200ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 8300,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/boss-bottled-eau-de-toilette-men-perfume-200ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/hugo-boss-boss-bottled-eau-de-toilette%C2%A0men-perfume%C2%A0%28200ml%29-014810037790.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
-        "Boss Bottled Eau De Toilette Men Perfume (200ml)"
-      ]
-    },
-    {
       "id": "boss-bottled-elixir",
       "name_ar": "Boss Bottled Elixir",
       "name_en": "Boss Bottled Elixir",
@@ -26372,6 +26212,12 @@
               "ml": 100,
               "price": 6300,
               "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 8600,
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/boss-bottled-infinite-eau-de-parfum-50ml--faces.jpg",
@@ -26380,36 +26226,9 @@
       ],
       "_hero_source": "faces",
       "aliases": [
-        "Boss Bottled Infinite Eau de Parfum 50ml"
-      ]
-    },
-    {
-      "id": "boss-bottled-unlimited-eau-de-toilette-100ml",
-      "name_ar": "",
-      "name_en": "Boss Bottled Unlimited Eau de Toilette",
-      "brand": "Hugo Boss",
-      "dupe_of": [],
-      "image": "images/boss-bottled-unlimited-eau-de-toilette-100ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 5000,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/boss-bottled-unlimited-eau-de-toilette-100ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/hugo-boss-boss-bottled-united-eau-de-toilette-014811664842.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
-        "Boss Bottled Unlimited Eau de Toilette 100ml"
+        "Boss Bottled Infinite Eau de Parfum 50ml",
+        "Bottled Infinite Eau de Parfum",
+        "Bottled Infinite Eau de Parfum 200ml"
       ]
     },
     {
@@ -26460,9 +26279,27 @@
           ],
           "image": "images/boss-in-motion-eau-de-toilette--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/hugo-boss-boss-in-motion-eau-de-toilette-for-men-100ml"
+        },
+        {
+          "name": "faces",
+          "url": "https://www.faces.eg/en/perfume-for-men",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3500,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/in-motion-eau-de-toilette-100ml--faces.jpg",
+          "product_url": "https://www.faces.eg/en/p/hugo-boss-in-motion-eau-de-toilette-100ml-eaudetoilette-014815594356.html"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "feel22",
+      "aliases": [
+        "In Motion Eau de Toilette",
+        "In Motion Eau de Toilette 100ml"
+      ]
     },
     {
       "id": "boss-the-scent-intense",
@@ -26600,6 +26437,12 @@
               "ml": 200,
               "price": 9500,
               "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 8300,
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/bottled-eau-de-toilette--faces.jpg",
@@ -26608,6 +26451,8 @@
       ],
       "_hero_source": "feel22",
       "aliases": [
+        "Boss Bottled Eau De Toilette Men Perfume",
+        "Boss Bottled Eau De Toilette Men Perfume (200ml)",
         "Bottled Eau De Parfum"
       ]
     },
@@ -26636,35 +26481,6 @@
         }
       ],
       "_hero_source": "mazaya"
-    },
-    {
-      "id": "bottled-infinite-eau-de-parfum-200ml",
-      "name_ar": "",
-      "name_en": "Bottled Infinite Eau de Parfum",
-      "brand": "Hugo Boss",
-      "dupe_of": [],
-      "image": "images/bottled-infinite-eau-de-parfum-200ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 8600,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/bottled-infinite-eau-de-parfum-200ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/hugo-boss-bottled-infinite-eau-de-parfum-200ml-eaudeparfum-014814568029.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
-        "Bottled Infinite Eau de Parfum 200ml"
-      ]
     },
     {
       "id": "bottled-night-eau-de-toilette",
@@ -26717,6 +26533,12 @@
               "ml": 100,
               "price": 5000,
               "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 7400,
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/bottled-night-eau-de-toilette--faces.jpg",
@@ -26735,7 +26557,11 @@
           ]
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "feel22",
+      "aliases": [
+        "Hugo Boss Bottled Night",
+        "Hugo Boss Bottled Night 200ml"
+      ]
     },
     {
       "id": "bottled-tonic-eau-de-toilette",
@@ -26866,9 +26692,27 @@
           ],
           "image": "images/bottled-unlimited-eau-de-toilette--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/hugo-boss-bottled-unlimited-eau-de-toilette-for-men"
+        },
+        {
+          "name": "faces",
+          "url": "https://www.faces.eg/en/perfume-for-men",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 5000,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/boss-bottled-unlimited-eau-de-toilette-100ml--faces.jpg",
+          "product_url": "https://www.faces.eg/en/p/hugo-boss-boss-bottled-united-eau-de-toilette-014811664842.html"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "feel22",
+      "aliases": [
+        "Boss Bottled Unlimited Eau de Toilette",
+        "Boss Bottled Unlimited Eau de Toilette 100ml"
+      ]
     },
     {
       "id": "boucheron-collection-neroli-edp-125ml",
@@ -32157,22 +32001,7 @@
           ],
           "image": "images/club-black-edt--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/marcedes-benz-club-black-edt-tester-box-100ml/"
-        }
-      ],
-      "_hero_source": "perfuzone",
-      "aliases": [
-        "Marcedes Benz Club Black EDT Tester Box"
-      ]
-    },
-    {
-      "id": "club-black-men-eau-de-toilette",
-      "name_ar": "Club Black Men Eau de Toilette",
-      "name_en": "Club Black Men Eau de Toilette",
-      "brand": "Mercedes Benz",
-      "dupe_of": [],
-      "image": "images/club-black-men-eau-de-toilette.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "mazaya",
           "url": "https://mazaya.eg/",
@@ -32189,7 +32018,11 @@
           "product_url": "https://mazaya.eg/en/mercedes-benz-club-black-men-edt123455-html"
         }
       ],
-      "_hero_source": "mazaya"
+      "_hero_source": "perfuzone",
+      "aliases": [
+        "Club Black Men Eau de Toilette",
+        "Marcedes Benz Club Black EDT Tester Box"
+      ]
     },
     {
       "id": "club-de-nuit-bling",
@@ -33238,32 +33071,6 @@
       "_hero_source": "emaratiscents"
     },
     {
-      "id": "club-de-nuit-precieux-i",
-      "name_ar": "Club De Nuit Precieux I",
-      "name_en": "Club De Nuit Precieux I",
-      "brand": "Armaf",
-      "dupe_of": [],
-      "image": "images/club-de-nuit-precieux-i.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 55,
-              "price": 2950,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/club-de-nuit-precieux-i--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/club-de-nuit-precieux-i"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
       "id": "club-de-nuit-precieux-i-unisex",
       "name_ar": "Club De Nuit Precieux I Unisex",
       "name_en": "Club De Nuit Precieux I Unisex",
@@ -33285,9 +33092,26 @@
           ],
           "image": "images/club-de-nuit-precieux-i-unisex--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/club-de-nuit-precieux-i-unisex-55ml-edp"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 55,
+              "price": 2950,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/club-de-nuit-precieux-i--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/club-de-nuit-precieux-i"
         }
       ],
-      "_hero_source": "mazaya"
+      "_hero_source": "mazaya",
+      "aliases": [
+        "Club De Nuit Precieux I"
+      ]
     },
     {
       "id": "club-de-nuit-red-untold",
@@ -33428,6 +33252,12 @@
               "ml": 105,
               "price": 1975,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "full",
+              "ml": 5,
+              "price": 3750,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/club-de-nuit-sillage--eldesoki-fragrances.jpg",
@@ -33520,34 +33350,9 @@
       ],
       "_hero_source": "eldesoki-fragrances",
       "aliases": [
+        "Club De Nuit Sillage 250ml",
         "Club De Nuit Sillage Eau de Parfum"
       ]
-    },
-    {
-      "id": "club-de-nuit-sillage-250ml",
-      "name_ar": "كلوب دي نوي سياچ ٢٥٠ملي + ٥ملي",
-      "name_en": "Club De Nuit Sillage 250ml",
-      "brand": "Armaf",
-      "dupe_of": [],
-      "image": "images/club-de-nuit-sillage-250ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 5,
-              "price": 3750,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/club-de-nuit-sillage-250ml--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/club-de-nuit-sillage-250ml-5ml%d9%83%d9%84%d9%88%d8%a8-%d8%af%d9%8a-%d9%86%d9%88%d9%8a-%d8%b3%d9%8a%d8%a7%da%86-%d9%a2%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d9%a5%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "club-de-nuit-untold-eau-de-parfum-unisex",
@@ -35427,19 +35232,7 @@
           ],
           "image": "images/cool-water-man-eau-de-toilette--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/davidoff-cool-water-man-eau-de-toilette-125ml"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
-      "id": "cool-water-man-edt-125ml",
-      "name_ar": "",
-      "name_en": "Cool Water Man EDT",
-      "brand": "Davidoff",
-      "dupe_of": [],
-      "image": "images/cool-water-man-edt-125ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -35455,8 +35248,9 @@
           "product_url": "https://www.faces.eg/en/p/davidoff-cool-water-man-edt-125ml-eaudetoilette-008510033238.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "feel22",
       "aliases": [
+        "Cool Water Man EDT",
         "Cool Water Man EDT 125ml"
       ]
     },
@@ -37990,19 +37784,7 @@
           ],
           "image": "images/dangerous-arrogate--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/dangerous-arrogate"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "dangerous-arrogate-200-ml",
-      "name_ar": "",
-      "name_en": "Dangerous Arrogate",
-      "brand": "assaf",
-      "dupe_of": [],
-      "image": "images/dangerous-arrogate-200-ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -38018,7 +37800,7 @@
           "product_url": "https://www.faces.eg/en/p/assaf-dangerous-arrogate-200-ml-635918028111.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "emaratiscents",
       "aliases": [
         "Dangerous Arrogate 200 ML"
       ]
@@ -38824,32 +38606,6 @@
       "_hero_source": "mazaya"
     },
     {
-      "id": "declaration-eau-de-toilette",
-      "name_ar": "Declaration Eau de Toilette",
-      "name_en": "Declaration Eau de Toilette",
-      "brand": "Cartier",
-      "dupe_of": [],
-      "image": "images/declaration-eau-de-toilette.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "feel22",
-          "url": "https://eg.feel22.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 5900,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/declaration-eau-de-toilette--feel22.jpg",
-          "product_url": "https://eg.feel22.com/products/cartier-declaration-eau-de-toilette-for-men-100ml"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
       "id": "declaration-eau-de-toilette-set",
       "name_ar": "",
       "name_en": "Declaration Eau De Toilette Set",
@@ -38912,9 +38668,26 @@
           ],
           "image": "images/declaration-edt--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/declaration-edt-100ml"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 5900,
+              "first_seen": "2026-07-23"
+            }
+          ],
+          "image": "images/declaration-eau-de-toilette--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/cartier-declaration-eau-de-toilette-for-men-100ml"
         }
       ],
-      "_hero_source": "MO Shawky"
+      "_hero_source": "MO Shawky",
+      "aliases": [
+        "Declaration Eau de Toilette"
+      ]
     },
     {
       "id": "declaration-parfum",
@@ -44464,39 +44237,6 @@
       "_hero_source": "feel22"
     },
     {
-      "id": "eau-de-toilette",
-      "name_ar": "Eau de Toilette",
-      "name_en": "Eau de Toilette",
-      "brand": "Aramis",
-      "dupe_of": [],
-      "image": "images/eau-de-toilette.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "feel22",
-          "url": "https://eg.feel22.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 110,
-              "price": 1806,
-              "first_seen": "2026-07-23"
-            },
-            {
-              "kind": "full",
-              "ml": 240,
-              "price": 2390,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
-            }
-          ],
-          "image": "images/eau-de-toilette--feel22.jpg",
-          "product_url": "https://eg.feel22.com/products/aramis-eau-de-toilette-for-men"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
       "id": "eau-de-toilette-bentley",
       "name_ar": "Eau de Toilette",
       "name_en": "Eau de Toilette",
@@ -44633,9 +44373,27 @@
           ],
           "image": "images/eau-de-toilette-mercedes-benz--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/mercedes-benz-eau-de-toilette-for-men-200ml"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 120,
+              "price": 4840,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-23"
+            }
+          ],
+          "image": "images/mercedes-benz-edt--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/mercedes-benz-for-men-edt"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "feel22",
+      "aliases": [
+        "MERCEDES-BENZ EDT"
+      ]
     },
     {
       "id": "eau-de-toilette-rochas",
@@ -44711,32 +44469,6 @@
           ],
           "image": "images/eau-de-toilette-ted-lapidus--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/ted-lapidus-eau-de-toilette-for-men-100ml"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
-      "id": "eau-de-toilette-tommy-hilfiger",
-      "name_ar": "Eau De Toilette",
-      "name_en": "Eau De Toilette",
-      "brand": "Tommy Hilfiger",
-      "dupe_of": [],
-      "image": "images/eau-de-toilette-tommy-hilfiger.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "feel22",
-          "url": "https://eg.feel22.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 3672,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/eau-de-toilette-tommy-hilfiger--feel22.jpg",
-          "product_url": "https://eg.feel22.com/products/tommy-hilfiger-eau-de-toilette-for-men-100ml"
         }
       ],
       "_hero_source": "feel22"
@@ -49495,27 +49227,7 @@
               "ml": 200,
               "price": 9800,
               "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/eros-eau-de-parfum-natural-spray--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/versace-eros-natural-spray-eau-de-parfum-PM_VERSACE_Eros_EDP.html"
-        }
-      ],
-      "_hero_source": "faces"
-    },
-    {
-      "id": "eros-eau-de-parfum-natural-spray-100ml",
-      "name_ar": "",
-      "name_en": "Eros Eau de Parfum Natural Spray",
-      "brand": "Versace",
-      "dupe_of": [],
-      "image": "images/eros-eau-de-parfum-natural-spray-100ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
+            },
             {
               "kind": "full",
               "ml": 100,
@@ -49523,8 +49235,8 @@
               "first_seen": "2026-08-01"
             }
           ],
-          "image": "images/eros-eau-de-parfum-natural-spray-100ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/versace-eros-natural-spray-eau-de-parfum-033315598852.html"
+          "image": "images/eros-eau-de-parfum-natural-spray--faces.jpg",
+          "product_url": "https://www.faces.eg/en/p/versace-eros-natural-spray-eau-de-parfum-PM_VERSACE_Eros_EDP.html"
         }
       ],
       "_hero_source": "faces",
@@ -49674,19 +49386,7 @@
           ],
           "image": "images/eros-eau-de-toilette--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/versace-eros-eau-de-toilette-PM_VERSACE_Eros_EDT.html"
-        }
-      ],
-      "_hero_source": "sniffz"
-    },
-    {
-      "id": "eros-edt",
-      "name_ar": "",
-      "name_en": "Eros EDT",
-      "brand": "Versace",
-      "dupe_of": [],
-      "image": "images/eros-edt.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "MO Shawky",
           "url": "https://www.facebook.com/mo.freeto.play/",
@@ -49717,7 +49417,10 @@
           "product_url": "https://eldesoki-fragrances.com/product/versace-eros-edt-100mltester-box/"
         }
       ],
-      "_hero_source": "MO Shawky"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Eros EDT"
+      ]
     },
     {
       "id": "eros-energy-eau-de-parfum",
@@ -51182,22 +50885,7 @@
           ],
           "image": "images/euphoria-eau-de-toilette--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/calvin-klein-euphoria-intense-for-men-eau-de-toilette123455-html11"
-        }
-      ],
-      "_hero_source": "feel22",
-      "aliases": [
-        "Euphoria Eau de Toilette Spray"
-      ]
-    },
-    {
-      "id": "euphoria-men-eau-de-toilette-100ml",
-      "name_ar": "",
-      "name_en": "Euphoria Men Eau de Toilette",
-      "brand": "Calvin Klein",
-      "dupe_of": [],
-      "image": "images/euphoria-men-eau-de-toilette-100ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -51213,8 +50901,10 @@
           "product_url": "https://www.faces.eg/en/p/calvin-klein-euphoria-for-men-eaudetoilette-005611569286.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "feel22",
       "aliases": [
+        "Euphoria Eau de Toilette Spray",
+        "Euphoria Men Eau de Toilette",
         "Euphoria Men Eau de Toilette 100ml"
       ]
     },
@@ -58417,9 +58107,27 @@
           ],
           "image": "images/gentleman-eau-de-parfum--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/givenchy-gentleman-eau-de-parfum-spray-100ml"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 12070,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-23"
+            }
+          ],
+          "image": "images/gentleman-edp--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/gentleman-edp-200ml"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "feel22",
+      "aliases": [
+        "Gentleman EDP"
+      ]
     },
     {
       "id": "gentleman-eau-de-toilette",
@@ -58475,36 +58183,26 @@
           ],
           "image": "images/gentleman-eau-de-toilette--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/givenchy-gentleman-givenchy-eau-de-toilette-PM_GIVENCHY_Gentlemen_EDT.html"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
-      "id": "gentleman-edp",
-      "name_ar": "Gentleman EDP",
-      "name_en": "Gentleman EDP",
-      "brand": "Givenchy",
-      "dupe_of": [],
-      "image": "images/gentleman-edp.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "mazaya",
           "url": "https://mazaya.eg/",
           "offers": [
             {
               "kind": "full",
-              "ml": 200,
-              "price": 12070,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "ml": 100,
+              "price": 6615,
+              "first_seen": "2026-07-23"
             }
           ],
-          "image": "images/gentleman-edp--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/gentleman-edp-200ml"
+          "image": "images/gentleman-edt--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/gentleman-edt-100ml"
         }
       ],
-      "_hero_source": "mazaya"
+      "_hero_source": "feel22",
+      "aliases": [
+        "Gentleman EDT"
+      ]
     },
     {
       "id": "gentleman-edp-boise",
@@ -58528,32 +58226,6 @@
           ],
           "image": "images/gentleman-edp-boise--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/gentleman-edp-boise-100-ml"
-        }
-      ],
-      "_hero_source": "mazaya"
-    },
-    {
-      "id": "gentleman-edt",
-      "name_ar": "Gentleman EDT",
-      "name_en": "Gentleman EDT",
-      "brand": "Givenchy",
-      "dupe_of": [],
-      "image": "images/gentleman-edt.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 6615,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/gentleman-edt--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/gentleman-edt-100ml"
         }
       ],
       "_hero_source": "mazaya"
@@ -61819,35 +61491,6 @@
       "_hero_source": "faces"
     },
     {
-      "id": "gucci-oud-intense-eau-de-parfum-90ml",
-      "name_ar": "",
-      "name_en": "Gucci Oud Intense Eau De Parfum",
-      "brand": "Gucci",
-      "dupe_of": [],
-      "image": "images/gucci-oud-intense-eau-de-parfum-90ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 90,
-              "price": 11800,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/gucci-oud-intense-eau-de-parfum-90ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/gucci-oud-intense-eau-de-parfum-013412637048.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
-        "Gucci Oud Intense Eau De Parfum 90ml"
-      ]
-    },
-    {
       "id": "guerlain-homme-eau-de-parfum",
       "name_ar": "Guerlain Homme Eau de Parfum",
       "name_en": "Guerlain Homme Eau de Parfum",
@@ -64112,19 +63755,7 @@
           ],
           "image": "images/hawas-elixir--dar-elarabia.jpg",
           "product_url": "https://darelarabia.com/products/hawas-elixir"
-        }
-      ],
-      "_hero_source": "sniffz"
-    },
-    {
-      "id": "hawas-elixir-eau-de-parfum-unisex-perfume",
-      "name_ar": "Hawas Elixir Eau de Parfum Unisex Perfume",
-      "name_en": "Hawas Elixir Eau de Parfum Unisex Perfume",
-      "brand": "Rasasi",
-      "dupe_of": [],
-      "image": "images/hawas-elixir-eau-de-parfum-unisex-perfume.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "feel22",
           "url": "https://eg.feel22.com/",
@@ -64140,7 +63771,10 @@
           "product_url": "https://eg.feel22.com/products/rasasi-hawas-elixir-eau-de-parfum-unisex-perfume-100ml"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Hawas Elixir Eau de Parfum Unisex Perfume"
+      ]
     },
     {
       "id": "hawas-exotic",
@@ -68033,19 +67667,7 @@
           ],
           "image": "images/historic-doria-eau-de-parfum--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/afnan-historic-doria-eau-de-parfum-100ml"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
-      "id": "historic-doria-edp-100-ml",
-      "name_ar": "",
-      "name_en": "HISTORIC DORIA EDP",
-      "brand": "Afnan",
-      "dupe_of": [],
-      "image": "images/historic-doria-edp-100-ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -68061,8 +67683,9 @@
           "product_url": "https://www.faces.eg/en/p/afnan-historic-doria-edp-100-ml-eau-de-parfum-578117105430.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "feel22",
       "aliases": [
+        "HISTORIC DORIA EDP",
         "HISTORIC DORIA EDP 100 ML"
       ]
     },
@@ -68417,9 +68040,85 @@
             }
           ],
           "image": "images/homme-eau-de-toilette-intense--abo-anas-sayed.jpg"
+        },
+        {
+          "name": "Mostafa Mohamed",
+          "url": "https://www.facebook.com/mostafa.mohamed.390048/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 450,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/kenzo-homme-eau-de-toilette-intense.jpg"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 270,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 450,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/kenzo-homme-eau-de-toilette-intense--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/kenzo-homme-edt-intense"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 2750,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 110,
+              "price": 3750,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/kenzo-homme-eau-de-toilette-intense--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/kenzo-edt-intense-110ml%d9%83%d9%8a%d9%86%d8%b2%d9%88-%d8%a7%d9%8a-%d8%af%d9%8a-%d8%aa%d9%8a-%d8%a7%d9%86%d8%aa%d9%86%d8%b3-%d9%a1%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        },
+        {
+          "name": "faces",
+          "url": "https://www.faces.eg/en/perfume-for-men",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 110,
+              "price": 6700,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/kenzo-homme-intense-edt-110-ml--faces.jpg",
+          "product_url": "https://www.faces.eg/en/p/kenzo-kenzo-homme-intense-edt-110-ml-edt-017915550570.html"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "KENZO EDT Intense",
+        "KENZO HOMME INTENSE EDT",
+        "KENZO HOMME INTENSE EDT 110 ML",
+        "Kenzo Homme EDT Intense"
+      ]
     },
     {
       "id": "homme-intense",
@@ -68678,9 +68377,27 @@
           ],
           "image": "images/homme-marine--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/kenzo-homme-marine"
+        },
+        {
+          "name": "faces",
+          "url": "https://www.faces.eg/en/perfume-for-men",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 4800,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/kenzo-homme-marine-edt-60-ml--faces.jpg",
+          "product_url": "https://www.faces.eg/en/p/kenzo-kenzo-homme-marine-edt-60-ml-edt-017916293172.html"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "KENZO HOMME MARINE EDT",
+        "KENZO HOMME MARINE EDT 60 ML"
+      ]
     },
     {
       "id": "homme-parfum",
@@ -68755,9 +68472,27 @@
               "first_seen": "2026-08-01"
             }
           ]
+        },
+        {
+          "name": "faces",
+          "url": "https://www.faces.eg/en/perfume-for-men",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 110,
+              "price": 6900,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/kenzo-homme-santal-marin-le-edt-110ml--faces.jpg",
+          "product_url": "https://www.faces.eg/en/p/kenzo-kenzo-homme-santal-marin-le-edt-110ml-edt-017916349734.html"
         }
       ],
-      "_hero_source": "perfuzone"
+      "_hero_source": "perfuzone",
+      "aliases": [
+        "KENZO HOMME SANTAL MARIN LE EDT",
+        "KENZO HOMME SANTAL MARIN LE EDT 110ML"
+      ]
     },
     {
       "id": "homme-tester",
@@ -69297,35 +69032,6 @@
       "_hero_source": "faces",
       "aliases": [
         "Hugo Boss Bottled NC20 eau de parfum 200ml"
-      ]
-    },
-    {
-      "id": "hugo-boss-bottled-night-200ml",
-      "name_ar": "",
-      "name_en": "Hugo Boss Bottled Night",
-      "brand": "Hugo Boss",
-      "dupe_of": [],
-      "image": "images/hugo-boss-bottled-night-200ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 7400,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/hugo-boss-bottled-night-200ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/hugo-boss-bottled-night-014811623624.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
-        "Hugo Boss Bottled Night 200ml"
       ]
     },
     {
@@ -70930,30 +70636,7 @@
               "price": 5900,
               "first_seen": "2026-08-01",
               "sold_since": "2026-08-01"
-            }
-          ],
-          "image": "images/impact-edt-100ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/tommy-hilfiger-impact-parfum-eaudeparfum-031517433304.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
-        "Impact edt 100ml"
-      ]
-    },
-    {
-      "id": "impact-edt-50ml",
-      "name_ar": "",
-      "name_en": "Impact edt",
-      "brand": "Tommy Hilfiger",
-      "dupe_of": [],
-      "image": "images/impact-edt-50ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
+            },
             {
               "kind": "full",
               "ml": 50,
@@ -70962,12 +70645,13 @@
               "sold_since": "2026-08-01"
             }
           ],
-          "image": "images/impact-edt-50ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/tommy-hilfiger-impact-edt-eaudetoilette-031517461346.html"
+          "image": "images/impact-edt-100ml--faces.jpg",
+          "product_url": "https://www.faces.eg/en/p/tommy-hilfiger-impact-parfum-eaudeparfum-031517433304.html"
         }
       ],
       "_hero_source": "faces",
       "aliases": [
+        "Impact edt 100ml",
         "Impact edt 50ml"
       ]
     },
@@ -70990,30 +70674,7 @@
               "price": 5900,
               "first_seen": "2026-08-01",
               "sold_since": "2026-08-01"
-            }
-          ],
-          "image": "images/impact-intense-edp-100ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/tommy-hilfiger-impact-intense-edp-eaudeparfum-031517461347.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
-        "Impact intense edp 100ml"
-      ]
-    },
-    {
-      "id": "impact-intense-edp-50ml",
-      "name_ar": "",
-      "name_en": "Impact intense edp",
-      "brand": "Tommy Hilfiger",
-      "dupe_of": [],
-      "image": "images/impact-intense-edp-50ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
+            },
             {
               "kind": "full",
               "ml": 50,
@@ -71022,12 +70683,13 @@
               "sold_since": "2026-08-01"
             }
           ],
-          "image": "images/impact-intense-edp-50ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/tommy-hilfiger-impact-intense-edp-eaudeparfum-031517461348.html"
+          "image": "images/impact-intense-edp-100ml--faces.jpg",
+          "product_url": "https://www.faces.eg/en/p/tommy-hilfiger-impact-intense-edp-eaudeparfum-031517461347.html"
         }
       ],
       "_hero_source": "faces",
       "aliases": [
+        "Impact intense edp 100ml",
         "Impact intense edp 50ml"
       ]
     },
@@ -71050,30 +70712,7 @@
               "price": 5500,
               "first_seen": "2026-08-01",
               "sold_since": "2026-08-01"
-            }
-          ],
-          "image": "images/impact-together-edt-100ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/tommy-hilfiger-impact-together-edt-eaudetoilette-031517433307.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
-        "Impact together edt 100ml"
-      ]
-    },
-    {
-      "id": "impact-together-edt-50ml",
-      "name_ar": "",
-      "name_en": "Impact together edt",
-      "brand": "Tommy Hilfiger",
-      "dupe_of": [],
-      "image": "images/impact-together-edt-50ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
+            },
             {
               "kind": "full",
               "ml": 50,
@@ -71082,12 +70721,13 @@
               "sold_since": "2026-08-01"
             }
           ],
-          "image": "images/impact-together-edt-50ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/tommy-hilfiger-impact-together-edt-eaudetoilette-031517461349.html"
+          "image": "images/impact-together-edt-100ml--faces.jpg",
+          "product_url": "https://www.faces.eg/en/p/tommy-hilfiger-impact-together-edt-eaudetoilette-031517433307.html"
         }
       ],
       "_hero_source": "faces",
       "aliases": [
+        "Impact together edt 100ml",
         "Impact together edt 50ml"
       ]
     },
@@ -71506,35 +71146,6 @@
       "_hero_source": "mazaya"
     },
     {
-      "id": "in-motion-eau-de-toilette-100ml",
-      "name_ar": "",
-      "name_en": "In Motion Eau de Toilette",
-      "brand": "Hugo Boss",
-      "dupe_of": [],
-      "image": "images/in-motion-eau-de-toilette-100ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 3500,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/in-motion-eau-de-toilette-100ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/hugo-boss-in-motion-eau-de-toilette-100ml-eaudetoilette-014815594356.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
-        "In Motion Eau de Toilette 100ml"
-      ]
-    },
-    {
       "id": "in-the-mood-for-oud",
       "name_ar": "In The Mood For Oud",
       "name_en": "In The Mood For Oud",
@@ -71615,19 +71226,7 @@
           ],
           "image": "images/inara-black-eau-de-parfum--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/afnan-inara-black-eau-de-parfum-100ml"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
-      "id": "inara-black-edp-100-ml",
-      "name_ar": "",
-      "name_en": "INARA BLACK EDP",
-      "brand": "Afnan",
-      "dupe_of": [],
-      "image": "images/inara-black-edp-100-ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -71643,8 +71242,9 @@
           "product_url": "https://www.faces.eg/en/p/afnan-inara-black-edp-100-ml-eau-de-parfum-578117105432.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "feel22",
       "aliases": [
+        "INARA BLACK EDP",
         "INARA BLACK EDP 100 ML"
       ]
     },
@@ -71670,19 +71270,7 @@
           ],
           "image": "images/inara-white-eau-de-parfum--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/afnan-inara-white-eau-de-parfum-100ml"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
-      "id": "inara-white-edp-100-ml",
-      "name_ar": "",
-      "name_en": "INARA WHITE EDP",
-      "brand": "Afnan",
-      "dupe_of": [],
-      "image": "images/inara-white-edp-100-ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -71698,8 +71286,9 @@
           "product_url": "https://www.faces.eg/en/p/afnan-inara-white-edp-100-ml-eau-de-parfum-578117105433.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "feel22",
       "aliases": [
+        "INARA WHITE EDP",
         "INARA WHITE EDP 100 ML"
       ]
     },
@@ -71959,32 +71548,6 @@
       "_hero_source": "feel22"
     },
     {
-      "id": "infinite-intense-eau-de-parfum",
-      "name_ar": "Infinite Intense Eau de Parfum",
-      "name_en": "Infinite Intense Eau de Parfum",
-      "brand": "Bentley",
-      "dupe_of": [],
-      "image": "images/infinite-intense-eau-de-parfum.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "feel22",
-          "url": "https://eg.feel22.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2519,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/infinite-intense-eau-de-parfum--feel22.jpg",
-          "product_url": "https://eg.feel22.com/products/bentley-infinite-intense-eau-de-parfum-for-men-100ml"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
       "id": "infinite-intense-men-eau-de-parfum-100ml",
       "name_ar": "",
       "name_en": "Infinite Intense Men Eau de Parfum",
@@ -72006,10 +71569,25 @@
           ],
           "image": "images/infinite-intense-men-eau-de-parfum-100ml--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/bentley-infinite-intense-men-eau-de-parfum-100ml-eaudeparfum-094512693145.html"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2519,
+              "first_seen": "2026-07-23"
+            }
+          ],
+          "image": "images/infinite-intense-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/bentley-infinite-intense-eau-de-parfum-for-men-100ml"
         }
       ],
       "_hero_source": "faces",
       "aliases": [
+        "Infinite Intense Eau de Parfum",
         "Infinite Intense Men Eau de Parfum 100ml"
       ]
     },
@@ -72827,11 +72405,27 @@
           ],
           "image": "images/intense-oud--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/gucci-intense-oud-eau-de-parfum-for-men-90ml"
+        },
+        {
+          "name": "faces",
+          "url": "https://www.faces.eg/en/perfume-for-men",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 11800,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/gucci-oud-intense-eau-de-parfum-90ml--faces.jpg",
+          "product_url": "https://www.faces.eg/en/p/gucci-oud-intense-eau-de-parfum-013412637048.html"
         }
       ],
       "_hero_source": "sniffz",
       "aliases": [
-        "Gucci Intense Oud"
+        "Gucci Intense Oud",
+        "Gucci Oud Intense Eau De Parfum",
+        "Gucci Oud Intense Eau De Parfum 90ml"
       ]
     },
     {
@@ -73254,19 +72848,7 @@
           ],
           "image": "images/invictus-eau-de-toilette--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/copy-of-paco-rabanne-invictus-onyx-collector-eau-de-toilette-100ml"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
-      "id": "invictus-edt",
-      "name_ar": "Invictus EDT",
-      "name_en": "Invictus EDT",
-      "brand": "Paco Rabanne",
-      "dupe_of": [],
-      "image": "images/invictus-edt.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "mazaya",
           "url": "https://mazaya.eg/",
@@ -73283,7 +72865,10 @@
           "product_url": "https://mazaya.eg/en/pr-invictus-edt"
         }
       ],
-      "_hero_source": "mazaya"
+      "_hero_source": "feel22",
+      "aliases": [
+        "Invictus EDT"
+      ]
     },
     {
       "id": "invictus-elixir",
@@ -78641,6 +78226,12 @@
               "ml": 100,
               "price": 4750,
               "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 3600,
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/karl-ikonik-man-edp-100ml--faces.jpg",
@@ -78649,35 +78240,7 @@
       ],
       "_hero_source": "faces",
       "aliases": [
-        "Karl Ikonik Man EDP 100ML"
-      ]
-    },
-    {
-      "id": "karl-ikonik-man-edp-60ml",
-      "name_ar": "",
-      "name_en": "Karl Ikonik Man EDP",
-      "brand": "Karl Lagerfeld",
-      "dupe_of": [],
-      "image": "images/karl-ikonik-man-edp-60ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 60,
-              "price": 3600,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/karl-ikonik-man-edp-60ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/karl-lagerfeld-karl-ikonik-man-edp-60ml-eaudeparfum-104217027475.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
+        "Karl Ikonik Man EDP 100ML",
         "Karl Ikonik Man EDP 60ML"
       ]
     },
@@ -79241,6 +78804,12 @@
               "ml": 110,
               "price": 7000,
               "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 5400,
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/kenzo-homme-22-edp-110ml--faces.jpg",
@@ -79249,35 +78818,7 @@
       ],
       "_hero_source": "faces",
       "aliases": [
-        "KENZO HOMME 22 EDP 110ML"
-      ]
-    },
-    {
-      "id": "kenzo-homme-22-edp-60ml",
-      "name_ar": "",
-      "name_en": "KENZO HOMME 22 EDP",
-      "brand": "Kenzo",
-      "dupe_of": [],
-      "image": "images/kenzo-homme-22-edp-60ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 60,
-              "price": 5400,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/kenzo-homme-22-edp-60ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/kenzo-kenzo-homme-22-edp-60ml-edp-017914955812.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
+        "KENZO HOMME 22 EDP 110ML",
         "KENZO HOMME 22 EDP 60ML"
       ]
     },
@@ -79442,77 +78983,6 @@
       ]
     },
     {
-      "id": "kenzo-homme-eau-de-toilette-intense",
-      "name_ar": "Kenzo Homme EDT Intense",
-      "name_en": "Kenzo Homme EDT Intense",
-      "brand": "Kenzo",
-      "dupe_of": [],
-      "image": "images/kenzo-homme-eau-de-toilette-intense.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Mostafa Mohamed",
-          "url": "https://www.facebook.com/mostafa.mohamed.390048/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 450,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/kenzo-homme-eau-de-toilette-intense.jpg"
-        },
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 270,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 450,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/kenzo-homme-eau-de-toilette-intense--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/kenzo-homme-edt-intense"
-        },
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 60,
-              "price": 2750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 110,
-              "price": 3750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/kenzo-homme-eau-de-toilette-intense--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/kenzo-edt-intense-110ml%d9%83%d9%8a%d9%86%d8%b2%d9%88-%d8%a7%d9%8a-%d8%af%d9%8a-%d8%aa%d9%8a-%d8%a7%d9%86%d8%aa%d9%86%d8%b3-%d9%a1%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "perfuzone",
-      "aliases": [
-        "KENZO EDT Intense"
-      ]
-    },
-    {
       "id": "kenzo-homme-edt-110-ml-relift",
       "name_ar": "",
       "name_en": "KENZO HOMME EDT RELIFT",
@@ -79636,93 +79106,6 @@
         }
       ],
       "_hero_source": "MO Shawky"
-    },
-    {
-      "id": "kenzo-homme-intense-edt-110-ml",
-      "name_ar": "",
-      "name_en": "KENZO HOMME INTENSE EDT",
-      "brand": "Kenzo",
-      "dupe_of": [],
-      "image": "images/kenzo-homme-intense-edt-110-ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 110,
-              "price": 6700,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/kenzo-homme-intense-edt-110-ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/kenzo-kenzo-homme-intense-edt-110-ml-edt-017915550570.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
-        "KENZO HOMME INTENSE EDT 110 ML"
-      ]
-    },
-    {
-      "id": "kenzo-homme-marine-edt-60-ml",
-      "name_ar": "",
-      "name_en": "KENZO HOMME MARINE EDT",
-      "brand": "Kenzo",
-      "dupe_of": [],
-      "image": "images/kenzo-homme-marine-edt-60-ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 60,
-              "price": 4800,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/kenzo-homme-marine-edt-60-ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/kenzo-kenzo-homme-marine-edt-60-ml-edt-017916293172.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
-        "KENZO HOMME MARINE EDT 60 ML"
-      ]
-    },
-    {
-      "id": "kenzo-homme-santal-marin-le-edt-110ml",
-      "name_ar": "",
-      "name_en": "KENZO HOMME SANTAL MARIN LE EDT",
-      "brand": "Kenzo",
-      "dupe_of": [],
-      "image": "images/kenzo-homme-santal-marin-le-edt-110ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 110,
-              "price": 6900,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/kenzo-homme-santal-marin-le-edt-110ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/kenzo-kenzo-homme-santal-marin-le-edt-110ml-edt-017916349734.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
-        "KENZO HOMME SANTAL MARIN LE EDT 110ML"
-      ]
     },
     {
       "id": "kenzo-homme-tester",
@@ -80447,23 +79830,7 @@
           ],
           "image": "images/khamrah-dukhan--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/spray-khamrah-dukhan-100ml"
-        }
-      ],
-      "_hero_source": "emaratiscents",
-      "aliases": [
-        "Khamra Dukhan",
-        "Spray Khamrah DUKHAN"
-      ]
-    },
-    {
-      "id": "khamrah-dukhan-eau-de-parfum-unisex",
-      "name_ar": "Khamrah Dukhan Eau de Parfum Unisex",
-      "name_en": "Khamrah Dukhan Eau de Parfum Unisex",
-      "brand": "Lattafa",
-      "dupe_of": [],
-      "image": "images/khamrah-dukhan-eau-de-parfum-unisex.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "feel22",
           "url": "https://eg.feel22.com/",
@@ -80479,7 +79846,12 @@
           "product_url": "https://eg.feel22.com/products/lattafa-khamrah-dukhan-eau-de-parfum-unisex-100ml"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Khamra Dukhan",
+        "Khamrah Dukhan Eau de Parfum Unisex",
+        "Spray Khamrah DUKHAN"
+      ]
     },
     {
       "id": "khamrah-gift-set",
@@ -89687,10 +89059,26 @@
           ],
           "image": "images/le-male-elixir--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/jean-paul-gaultier-le-male-elixir-eau-de-parfum-for-men-125ml"
+        },
+        {
+          "name": "faces",
+          "url": "https://www.faces.eg/en/perfume-for-men",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 9200,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/le-male-elixir-eau-de-parfum-125ml--faces.jpg",
+          "product_url": "https://www.faces.eg/en/p/jean-paul-gaultier-le-male-elixir-eau-de-parfum-017216524165.html"
         }
       ],
       "_hero_source": "sniffz",
       "aliases": [
+        "Le Male Elixir - Eau de Parfum",
+        "Le Male Elixir - Eau de Parfum - 125ml",
         "Le Male Elixir Eau de Parfum"
       ]
     },
@@ -89892,35 +89280,6 @@
       "_hero_source": "mazaya",
       "aliases": [
         "Le Male Elixir Absolu Parfum Intense"
-      ]
-    },
-    {
-      "id": "le-male-elixir-eau-de-parfum-125ml",
-      "name_ar": "",
-      "name_en": "Le Male Elixir - Eau de Parfum",
-      "brand": "Jean Paul Gaultier",
-      "dupe_of": [],
-      "image": "images/le-male-elixir-eau-de-parfum-125ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 125,
-              "price": 9200,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/le-male-elixir-eau-de-parfum-125ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/jean-paul-gaultier-le-male-elixir-eau-de-parfum-017216524165.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
-        "Le Male Elixir - Eau de Parfum - 125ml"
       ]
     },
     {
@@ -90148,35 +89507,6 @@
       ]
     },
     {
-      "id": "le-male-le-parfum-eau-de-parfum-intense-125ml",
-      "name_ar": "",
-      "name_en": "Le Male Le Parfum Eau de Parfum Intense",
-      "brand": "Jean Paul Gaultier",
-      "dupe_of": [],
-      "image": "images/le-male-le-parfum-eau-de-parfum-intense-125ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 125,
-              "price": 8600,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/le-male-le-parfum-eau-de-parfum-intense-125ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/jean-paul-gaultier-le-male-le-parfum-intense-eau-de-parfum-017215066337.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
-        "Le Male Le Parfum Eau de Parfum Intense 125ml"
-      ]
-    },
-    {
       "id": "le-male-le-parfum-edp-intense",
       "name_ar": "Le Male Le Parfum EDP Intense",
       "name_en": "Le Male Le Parfum EDP Intense",
@@ -90220,11 +89550,27 @@
           ],
           "image": "images/le-male-le-parfum-edp-intense--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/jean-paul-gaultier-le-male-le-parfum-eau-de-perfum-intense-for-men-200ml"
+        },
+        {
+          "name": "faces",
+          "url": "https://www.faces.eg/en/perfume-for-men",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 8600,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/le-male-le-parfum-eau-de-parfum-intense-125ml--faces.jpg",
+          "product_url": "https://www.faces.eg/en/p/jean-paul-gaultier-le-male-le-parfum-intense-eau-de-parfum-017215066337.html"
         }
       ],
       "_hero_source": "mazaya",
       "aliases": [
-        "Le Male Le Parfum Eau De Perfum Intense"
+        "Le Male Le Parfum Eau De Perfum Intense",
+        "Le Male Le Parfum Eau de Parfum Intense",
+        "Le Male Le Parfum Eau de Parfum Intense 125ml"
       ]
     },
     {
@@ -91108,9 +90454,26 @@
           ],
           "image": "images/legend-eau-de-toilette--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/montblanc-legend-eau-de-toilette-PM_MONTBLANC_Legend_EDT.html"
+        },
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 235,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/legend-edt--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/mont-blanc-legend-edt-10ml-270"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "feel22",
+      "aliases": [
+        "Legend EDT"
+      ]
     },
     {
       "id": "legend-edp",
@@ -91140,35 +90503,27 @@
           ],
           "image": "images/legend-edp--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/montblanc-legend-edp-5ml-416"
-        }
-      ],
-      "_hero_source": "MO Shawky"
-    },
-    {
-      "id": "legend-edt",
-      "name_ar": "",
-      "name_en": "Legend EDT",
-      "brand": "Mont Blanc",
-      "dupe_of": [],
-      "image": "images/legend-edt.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
-          "name": "MO Shawky",
-          "url": "https://www.facebook.com/mo.freeto.play/",
+          "name": "faces",
+          "url": "https://www.faces.eg/en/perfume-for-men",
           "offers": [
             {
-              "kind": "decant",
-              "ml": 10,
-              "price": 235,
-              "first_seen": "2026-01-01"
+              "kind": "full",
+              "ml": 100,
+              "price": 6590,
+              "first_seen": "2026-08-01"
             }
           ],
-          "image": "images/legend-edt--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/mont-blanc-legend-edt-10ml-270"
+          "image": "images/mont-blanc-legend-eau-de-parfum-100ml--faces.jpg",
+          "product_url": "https://www.faces.eg/en/p/montblanc-legend-eau-de-parfum-023815158842.html"
         }
       ],
-      "_hero_source": "MO Shawky"
+      "_hero_source": "MO Shawky",
+      "aliases": [
+        "Mont Blanc Legend Eau De Parfum",
+        "Mont Blanc Legend Eau De Parfum 100ml"
+      ]
     },
     {
       "id": "legend-h-edp-50ml",
@@ -93642,19 +92997,7 @@
           ],
           "image": "images/luna-rossa-black-eau-de-parfum--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/luna-rossa-black-eau-de-parfum"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
-      "id": "luna-rossa-black-eau-de-parfum-100ml",
-      "name_ar": "",
-      "name_en": "Luna Rossa Black Eau De Parfum",
-      "brand": "Prada",
-      "dupe_of": [],
-      "image": "images/luna-rossa-black-eau-de-parfum-100ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -93670,8 +93013,9 @@
           "product_url": "https://www.faces.eg/en/p/prada-luna-rossa-black-eau-de-parfum-027014038456.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "feel22",
       "aliases": [
+        "Luna Rossa Black Eau De Parfum",
         "Luna Rossa Black Eau De Parfum 100ml"
       ]
     },
@@ -99119,33 +98463,6 @@
       "_hero_source": "mazaya"
     },
     {
-      "id": "mercedes-benz-edt",
-      "name_ar": "MERCEDES-BENZ EDT",
-      "name_en": "MERCEDES-BENZ EDT",
-      "brand": "Mercedes Benz",
-      "dupe_of": [],
-      "image": "images/mercedes-benz-edt.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 120,
-              "price": 4840,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
-            }
-          ],
-          "image": "images/mercedes-benz-edt--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/mercedes-benz-for-men-edt"
-        }
-      ],
-      "_hero_source": "mazaya"
-    },
-    {
       "id": "mercedes-benz-man-eau-de-toilette",
       "name_ar": "Mercedes-Benz Man Eau de Toilette",
       "name_en": "Mercedes-Benz Man Eau de Toilette",
@@ -102133,35 +101450,6 @@
       "_hero_source": "mazaya"
     },
     {
-      "id": "mont-blanc-legend-eau-de-parfum-100ml",
-      "name_ar": "",
-      "name_en": "Mont Blanc Legend Eau De Parfum",
-      "brand": "Mont Blanc",
-      "dupe_of": [],
-      "image": "images/mont-blanc-legend-eau-de-parfum-100ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 6590,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/mont-blanc-legend-eau-de-parfum-100ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/montblanc-legend-eau-de-parfum-023815158842.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
-        "Mont Blanc Legend Eau De Parfum 100ml"
-      ]
-    },
-    {
       "id": "mont-blanc-legend-edt-spray-retail-boxed-sealed",
       "name_ar": "Mont Blanc Legend EDT Spray Retail Boxed Sealed",
       "name_en": "Mont Blanc Legend EDT Spray Retail Boxed Sealed",
@@ -102673,13 +101961,23 @@
               "price": 5795,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 4490,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-23"
             }
           ],
           "image": "images/mr-burberry-eau-de-parfum--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/burberry-mr-burberry-by-burberry-edp123455-html12"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "feel22",
+      "aliases": [
+        "Mr. Burberry EDP"
+      ]
     },
     {
       "id": "mr-burberry-eau-de-toilette",
@@ -102709,46 +102007,7 @@
           ],
           "image": "images/mr-burberry-eau-de-toilette--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/burberry-mr-burberry-eau-de-toilette-for-men"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
-      "id": "mr-burberry-edp",
-      "name_ar": "Mr. Burberry EDP",
-      "name_en": "Mr. Burberry EDP",
-      "brand": "Burberry",
-      "dupe_of": [],
-      "image": "images/mr-burberry-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 50,
-              "price": 4490,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
-            }
-          ],
-          "image": "images/mr-burberry-edp--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/mr-burberry-edp-50ml"
-        }
-      ],
-      "_hero_source": "mazaya"
-    },
-    {
-      "id": "mr-burberry-edt",
-      "name_ar": "Mr. Burberry EDT",
-      "name_en": "Mr. Burberry EDT",
-      "brand": "Burberry",
-      "dupe_of": [],
-      "image": "images/mr-burberry-edt.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "mazaya",
           "url": "https://mazaya.eg/",
@@ -102765,7 +102024,10 @@
           "product_url": "https://mazaya.eg/en/mr-burberry-edt-100-ml"
         }
       ],
-      "_hero_source": "mazaya"
+      "_hero_source": "feel22",
+      "aliases": [
+        "Mr. Burberry EDT"
+      ]
     },
     {
       "id": "mr-burberry-indigo-eau-de-toilette",
@@ -105517,19 +104779,7 @@
           ],
           "image": "images/mystique-bouquet--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/mystique-bouquet"
-        }
-      ],
-      "_hero_source": "og-perfume"
-    },
-    {
-      "id": "mystique-bouquet-edp-80-ml",
-      "name_ar": "",
-      "name_en": "MYSTIQUE BOUQUET EDP",
-      "brand": "Afnan",
-      "dupe_of": [],
-      "image": "images/mystique-bouquet-edp-80-ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -105545,8 +104795,9 @@
           "product_url": "https://www.faces.eg/en/p/afnan-mystique-bouquet--edp-80-ml-eau-de-parfum-578117105438.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "og-perfume",
       "aliases": [
+        "MYSTIQUE BOUQUET EDP",
         "MYSTIQUE BOUQUET EDP 80 ML"
       ]
     },
@@ -108179,18 +107430,7 @@
             }
           ],
           "image": "images/no-4-apr-s-l-amour--hossam-eldeen-gamal.jpg"
-        }
-      ]
-    },
-    {
-      "id": "no-4-apres-l-amour-eau-de-parfum-unisex-perfume",
-      "name_ar": "No.4 Apres L'Amour Eau De Parfum Unisex Perfume",
-      "name_en": "No.4 Apres L'Amour Eau De Parfum Unisex Perfume",
-      "brand": "Thomas Kosmala",
-      "dupe_of": [],
-      "image": "images/no-4-apres-l-amour-eau-de-parfum-unisex-perfume.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "feel22",
           "url": "https://eg.feel22.com/",
@@ -108213,7 +107453,9 @@
           "product_url": "https://eg.feel22.com/products/thomas-kosmala-no-4-apres-lamour-eau-de-parfum-unisex-perfume"
         }
       ],
-      "_hero_source": "feel22"
+      "aliases": [
+        "No.4 Apres L'Amour Eau De Parfum Unisex Perfume"
+      ]
     },
     {
       "id": "no-4-apres-l-amour-thomas-kosmala",
@@ -108504,30 +107746,7 @@
               "price": 5300,
               "first_seen": "2026-08-01",
               "sold_since": "2026-08-01"
-            }
-          ],
-          "image": "images/no-limits-edp-50ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/philip-plein-no-limits-edp-eaudeparfum-053417461357.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
-        "No limits edp 50ml"
-      ]
-    },
-    {
-      "id": "no-limits-edp-90ml",
-      "name_ar": "",
-      "name_en": "No limits edp",
-      "brand": "philip plein",
-      "dupe_of": [],
-      "image": "images/no-limits-edp-90ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
+            },
             {
               "kind": "full",
               "ml": 90,
@@ -108536,12 +107755,13 @@
               "sold_since": "2026-08-01"
             }
           ],
-          "image": "images/no-limits-edp-90ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/philip-plein-no-limits-edp-eaudeparfum-053417461358.html"
+          "image": "images/no-limits-edp-50ml--faces.jpg",
+          "product_url": "https://www.faces.eg/en/p/philip-plein-no-limits-edp-eaudeparfum-053417461357.html"
         }
       ],
       "_hero_source": "faces",
       "aliases": [
+        "No limits edp 50ml",
         "No limits edp 90ml"
       ]
     },
@@ -108564,30 +107784,7 @@
               "price": 5300,
               "first_seen": "2026-08-01",
               "sold_since": "2026-08-01"
-            }
-          ],
-          "image": "images/no-limits-gold-edp-50ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/philip-plein-no-limits-gold-edp-eaudeparfum-053417461355.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
-        "No limits gold edp 50ml"
-      ]
-    },
-    {
-      "id": "no-limits-gold-edp-90ml",
-      "name_ar": "",
-      "name_en": "No limits gold edp",
-      "brand": "philip plein",
-      "dupe_of": [],
-      "image": "images/no-limits-gold-edp-90ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
+            },
             {
               "kind": "full",
               "ml": 90,
@@ -108596,12 +107793,13 @@
               "sold_since": "2026-08-01"
             }
           ],
-          "image": "images/no-limits-gold-edp-90ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/philip-plein-no-limits-gold-edp-eaudeparfum-053417461356.html"
+          "image": "images/no-limits-gold-edp-50ml--faces.jpg",
+          "product_url": "https://www.faces.eg/en/p/philip-plein-no-limits-gold-edp-eaudeparfum-053417461355.html"
         }
       ],
       "_hero_source": "faces",
       "aliases": [
+        "No limits gold edp 50ml",
         "No limits gold edp 90ml"
       ]
     },
@@ -115671,6 +114869,12 @@
               "ml": 125,
               "price": 2200,
               "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 1700,
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/original-black-uomo-eau-de-parfum-125ml--faces.jpg",
@@ -115679,35 +114883,7 @@
       ],
       "_hero_source": "faces",
       "aliases": [
-        "Original Black Uomo Eau de Parfum 125ml"
-      ]
-    },
-    {
-      "id": "original-black-uomo-eau-de-parfum-75ml",
-      "name_ar": "",
-      "name_en": "Original Black Uomo Eau de Parfum",
-      "brand": "Carrera",
-      "dupe_of": [],
-      "image": "images/original-black-uomo-eau-de-parfum-75ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 75,
-              "price": 1700,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/original-black-uomo-eau-de-parfum-75ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/carrera-original-black-uomo-eau-de-parfum-75ml-eaudeparfum-180517411383.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
+        "Original Black Uomo Eau de Parfum 125ml",
         "Original Black Uomo Eau de Parfum 75ml"
       ]
     },
@@ -115781,6 +114957,12 @@
               "ml": 125,
               "price": 1700,
               "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 2200,
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/original-uomo-eau-de-toilette-125ml--faces.jpg",
@@ -115789,35 +114971,7 @@
       ],
       "_hero_source": "faces",
       "aliases": [
-        "Original Uomo Eau de Toilette 125ml"
-      ]
-    },
-    {
-      "id": "original-uomo-eau-de-toilette-75ml",
-      "name_ar": "",
-      "name_en": "Original Uomo Eau de Toilette",
-      "brand": "Carrera",
-      "dupe_of": [],
-      "image": "images/original-uomo-eau-de-toilette-75ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 75,
-              "price": 2200,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/original-uomo-eau-de-toilette-75ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/carrera-original-uomo-eau-de-toilette-75ml-eaudetoilette-180517411378.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
+        "Original Uomo Eau de Toilette 125ml",
         "Original Uomo Eau de Toilette 75ml"
       ]
     },
@@ -117885,19 +117039,7 @@
           ],
           "image": "images/oud-save-the-king-eau-de-parfum--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/atkinsons-oud-save-the-king-unisex-perfume-100ml"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
-      "id": "oud-save-the-king-eau-de-parfum-100ml",
-      "name_ar": "",
-      "name_en": "Oud Save The King Eau de Parfum",
-      "brand": "Atkinsons",
-      "dupe_of": [],
-      "image": "images/oud-save-the-king-eau-de-parfum-100ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -117913,7 +117055,7 @@
           "product_url": "https://www.faces.eg/en/p/atkinsons-oud-save-the-king-eau-de-parfum-193215733149.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "feel22",
       "aliases": [
         "Oud Save The King Eau de Parfum 100ml"
       ]
@@ -122125,19 +121267,7 @@
           ],
           "image": "images/pi-eau-de-toilette--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/givenchy-pi-eau-de-toilette-for-men-100ml"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
-      "id": "pi-edt-100ml",
-      "name_ar": "",
-      "name_en": "PI EDT",
-      "brand": "Givenchy",
-      "dupe_of": [],
-      "image": "images/pi-edt-100ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -122153,8 +121283,9 @@
           "product_url": "https://www.faces.eg/en/p/givenchy-pi-edp-013117290772.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "feel22",
       "aliases": [
+        "PI EDT",
         "PI EDT 100ML"
       ]
     },
@@ -123816,19 +122947,7 @@
           ],
           "image": "images/portrait-abstract-eau-de-parfum-unisex--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/afnan-portrait-abstract-eau-de-parfum-unisex-100ml"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
-      "id": "portrait-abstract-edp-100-ml",
-      "name_ar": "",
-      "name_en": "PORTRAIT ABSTRACT EDP",
-      "brand": "Afnan",
-      "dupe_of": [],
-      "image": "images/portrait-abstract-edp-100-ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -123844,8 +122963,9 @@
           "product_url": "https://www.faces.eg/en/p/afnan-portrait-abstract-edp-100-ml-eau-de-parfum-578117105439.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "feel22",
       "aliases": [
+        "PORTRAIT ABSTRACT EDP",
         "PORTRAIT ABSTRACT EDP 100 ML"
       ]
     },
@@ -123911,19 +123031,7 @@
           ],
           "image": "images/portrait-revival-eau-de-parfum-unisex--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/afnan-portrait-revival-eau-de-parfum-unisex-100ml"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
-      "id": "portrait-revival-edp-100-ml",
-      "name_ar": "",
-      "name_en": "PORTRAIT REVIVAL EDP",
-      "brand": "Afnan",
-      "dupe_of": [],
-      "image": "images/portrait-revival-edp-100-ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -123939,8 +123047,9 @@
           "product_url": "https://www.faces.eg/en/p/afnan-portrait-revival-edp-100-ml-eau-de-parfum-578117105440.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "feel22",
       "aliases": [
+        "PORTRAIT REVIVAL EDP",
         "PORTRAIT REVIVAL EDP 100 ML"
       ]
     },
@@ -123976,162 +123085,6 @@
         }
       ],
       "_hero_source": "mazaya"
-    },
-    {
-      "id": "pour-homme",
-      "name_ar": "",
-      "name_en": "Pour Homme",
-      "brand": "Versace",
-      "dupe_of": [],
-      "image": "images/pour-homme.jpg",
-      "accords": [
-        {
-          "label_en": "Lemon",
-          "label_ar": "",
-          "color": "#F9FF52",
-          "w": 100
-        },
-        {
-          "label_en": "Bergamot",
-          "label_ar": "",
-          "color": "#F9FF52",
-          "w": 90
-        },
-        {
-          "label_en": "Neroli",
-          "label_ar": "",
-          "color": "#edf2fb",
-          "w": 80
-        },
-        {
-          "label_en": "Rose de Mai",
-          "label_ar": "",
-          "color": "#FE016B",
-          "w": 70
-        },
-        {
-          "label_en": "Hyacinth",
-          "label_ar": "",
-          "color": "#FF5F8D",
-          "w": 60
-        },
-        {
-          "label_en": "Cedar",
-          "label_ar": "",
-          "color": "#774414",
-          "w": 50
-        },
-        {
-          "label_en": "Clary Sage",
-          "label_ar": "",
-          "color": "#6CA47F",
-          "w": 40
-        },
-        {
-          "label_en": "Geranium",
-          "label_ar": "",
-          "color": "#0E8C1D",
-          "w": 40
-        },
-        {
-          "label_en": "Tonka Bean",
-          "label_ar": "",
-          "color": "#FFFEC0",
-          "w": 40
-        },
-        {
-          "label_en": "Musk",
-          "label_ar": "",
-          "color": "#E7D8EA",
-          "w": 40
-        },
-        {
-          "label_en": "Amber",
-          "label_ar": "",
-          "color": "#bc4d10",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 170,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 245,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 360,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 3500,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 4500,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/pour-homme--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/versace-pour-homme"
-        },
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 300,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 500,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/pour-homme--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/versace-pour-homme-edt"
-        },
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 3000,
-              "first_seen": "2026-08-01"
-            }
-          ]
-        }
-      ],
-      "_hero_source": "sniffz",
-      "aliases": [
-        "Pour Homme EDT"
-      ]
     },
     {
       "id": "pour-homme-blue-label",
@@ -124394,9 +123347,87 @@
           ],
           "image": "images/pour-homme-eau-de-toilette-versace--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/versace-pour-homme-eau-de-toilette-PM_VERSACE_Pour_Homme_EDT.html"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 170,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 245,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 360,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3500,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 4500,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/pour-homme--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/versace-pour-homme"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 300,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 500,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/pour-homme--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/versace-pour-homme-edt"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3000,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "feel22",
+      "aliases": [
+        "Pour Homme",
+        "Pour Homme EDT"
+      ]
     },
     {
       "id": "pour-homme-edp",
@@ -132956,19 +131987,7 @@
           ],
           "image": "images/risk-comete--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/risk-comete-assaf"
-        }
-      ],
-      "_hero_source": "og-perfume"
-    },
-    {
-      "id": "risk-comete-150-ml",
-      "name_ar": "",
-      "name_en": "Risk Comete",
-      "brand": "assaf",
-      "dupe_of": [],
-      "image": "images/risk-comete-150-ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -132984,7 +132003,7 @@
           "product_url": "https://www.faces.eg/en/p/assaf-risk-comete-150-ml-635918028117.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "og-perfume",
       "aliases": [
         "Risk Comete 150 Ml"
       ]
@@ -143168,6 +142187,12 @@
               "ml": 10,
               "price": 225,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "leftover",
+              "ml": 2,
+              "price": 775,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/soir-laverne--eldesoki-fragrances.jpg",
@@ -143189,33 +142214,10 @@
           "product_url": "https://roseperfume.online/products/soir-laverne"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "soir-laverne-20ml-10ml",
-      "name_ar": "سوار لافيرن ٢٠ملي و ١٠ملي و٢ ملي زجاجه صغيره",
-      "name_en": "Soir Laverne 20ml+10ml",
-      "brand": "Laverne",
-      "dupe_of": [],
-      "image": "images/soir-laverne-20ml-10ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "leftover",
-              "ml": 2,
-              "price": 775,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/soir-laverne-20ml-10ml--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/soir-laverne-20ml10ml%d8%b3%d9%88%d8%a7%d8%b1-%d9%84%d8%a7%d9%81%d9%8a%d8%b1%d9%86-%d9%a2%d9%a0%d9%85%d9%84%d9%8a-%d9%88-%d9%a1%d9%a0%d9%85%d9%84%d9%8a-%d8%b2%d8%ac%d8%a7%d8%ac%d9%87-%d8%b5%d8%ba/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Soir Laverne 20ml+10ml"
+      ]
     },
     {
       "id": "soir-laverne-set-100ml",
@@ -145649,33 +144651,6 @@
           ],
           "image": "images/spray-the-kingdom-man--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/spray-the-kingdom-man-100ml"
-        }
-      ],
-      "_hero_source": "mazaya"
-    },
-    {
-      "id": "spray-velvet-rose",
-      "name_ar": "Spray Velvet Rose",
-      "name_en": "Spray Velvet Rose",
-      "brand": "Lattafa",
-      "dupe_of": [],
-      "image": "images/spray-velvet-rose.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1100,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
-            }
-          ],
-          "image": "images/spray-velvet-rose--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/spray-velvet-rose-100-ml"
         }
       ],
       "_hero_source": "mazaya"
@@ -148325,19 +147300,7 @@
           ],
           "image": "images/supremacy-incense-eau-de-parfum-unisex--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/afnan-supremacy-incense-eau-de-parfum-unisex-100ml"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
-      "id": "supremacy-incense-edp-100-ml",
-      "name_ar": "",
-      "name_en": "SUPREMACY INCENSE EDP",
-      "brand": "Afnan",
-      "dupe_of": [],
-      "image": "images/supremacy-incense-edp-100-ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -148353,8 +147316,9 @@
           "product_url": "https://www.faces.eg/en/p/afnan-tribute-blue-100ml-edp-eaudeparfum-578117504643.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "feel22",
       "aliases": [
+        "SUPREMACY INCENSE EDP",
         "SUPREMACY INCENSE EDP 100 ML"
       ]
     },
@@ -148380,19 +147344,7 @@
           ],
           "image": "images/supremacy-noir-eau-de-parfum--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/afnan-supremacy-noir-eau-de-parfum-for-men-100ml"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
-      "id": "supremacy-noir-edp-100-ml",
-      "name_ar": "",
-      "name_en": "SUPREMACY NOIR EDP",
-      "brand": "Afnan",
-      "dupe_of": [],
-      "image": "images/supremacy-noir-edp-100-ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -148408,8 +147360,9 @@
           "product_url": "https://www.faces.eg/en/p/afnan-turathi-homme-brown-edp-90-ml-eaudeparfum-578117504644.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "feel22",
       "aliases": [
+        "SUPREMACY NOIR EDP",
         "SUPREMACY NOIR EDP 100 ML"
       ]
     },
@@ -148603,19 +147556,7 @@
           ],
           "image": "images/supremacy-silver-eau-de-parfum--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/afnan-supremacy-silver-eau-de-parfum-for-men"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
-      "id": "supremacy-silver-edp-100-ml",
-      "name_ar": "",
-      "name_en": "SUPREMACY SILVER EDP",
-      "brand": "Afnan",
-      "dupe_of": [],
-      "image": "images/supremacy-silver-edp-100-ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -148625,30 +147566,7 @@
               "ml": 100,
               "price": 2150,
               "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/supremacy-silver-edp-100-ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/afnan-supremacy-femme-purple-edp-100-ml-eau-de-parfum-578117105449.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
-        "SUPREMACY SILVER EDP 100 ML"
-      ]
-    },
-    {
-      "id": "supremacy-silver-edp-150-ml",
-      "name_ar": "",
-      "name_en": "SUPREMACY SILVER EDP",
-      "brand": "Afnan",
-      "dupe_of": [],
-      "image": "images/supremacy-silver-edp-150-ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
+            },
             {
               "kind": "full",
               "ml": 150,
@@ -148656,12 +147574,14 @@
               "first_seen": "2026-08-01"
             }
           ],
-          "image": "images/supremacy-silver-edp-150-ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/afnan-supremacy-femme-pink--edp-100-ml-eau-de-parfum-578117105450.html"
+          "image": "images/supremacy-silver-edp-100-ml--faces.jpg",
+          "product_url": "https://www.faces.eg/en/p/afnan-supremacy-femme-purple-edp-100-ml-eau-de-parfum-578117105449.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "feel22",
       "aliases": [
+        "SUPREMACY SILVER EDP",
+        "SUPREMACY SILVER EDP 100 ML",
         "SUPREMACY SILVER EDP 150 ML"
       ]
     },
@@ -151057,19 +149977,7 @@
           ],
           "image": "images/the-big-bad-cedar-eau-de-parfum--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/atkinsons-the-big-bad-cedar-eau-de-parfum-100ml"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
-      "id": "the-big-bad-cedar-eau-de-parfum-100ml",
-      "name_ar": "",
-      "name_en": "The Big Bad Cedar Eau de Parfum",
-      "brand": "Atkinsons",
-      "dupe_of": [],
-      "image": "images/the-big-bad-cedar-eau-de-parfum-100ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -151085,8 +149993,9 @@
           "product_url": "https://www.faces.eg/en/p/atkinsons-the-big-bad-cedar-eau-de-parfum-193216127802.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "feel22",
       "aliases": [
+        "The Big Bad Cedar Eau de Parfum",
         "The Big Bad Cedar Eau de Parfum 100ml"
       ]
     },
@@ -154601,30 +153510,7 @@
               "price": 5900,
               "first_seen": "2026-08-01",
               "sold_since": "2026-08-01"
-            }
-          ],
-          "image": "images/tommy-edt-100ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/tommy-hilfiger-tommy-edt-eaudetoilette-031516630378.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
-        "Tommy edt 100ml"
-      ]
-    },
-    {
-      "id": "tommy-edt-50ml",
-      "name_ar": "",
-      "name_en": "Tommy edt",
-      "brand": "Tommy Hilfiger",
-      "dupe_of": [],
-      "image": "images/tommy-edt-50ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
+            },
             {
               "kind": "full",
               "ml": 50,
@@ -154633,12 +153519,28 @@
               "sold_since": "2026-08-01"
             }
           ],
-          "image": "images/tommy-edt-50ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/tommy-hilfiger-tommy-edt-eaudetoilette-031517461350.html"
+          "image": "images/tommy-edt-100ml--faces.jpg",
+          "product_url": "https://www.faces.eg/en/p/tommy-hilfiger-tommy-edt-eaudetoilette-031516630378.html"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3672,
+              "first_seen": "2026-07-23"
+            }
+          ],
+          "image": "images/eau-de-toilette-tommy-hilfiger--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/tommy-hilfiger-eau-de-toilette-for-men-100ml"
         }
       ],
       "_hero_source": "faces",
       "aliases": [
+        "Eau De Toilette",
+        "Tommy edt 100ml",
         "Tommy edt 50ml"
       ]
     },
@@ -154661,30 +153563,7 @@
               "price": 5900,
               "first_seen": "2026-08-01",
               "sold_since": "2026-08-01"
-            }
-          ],
-          "image": "images/tommy-forever-edt-100ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/tommy-hilfiger-tommy-forever-edt-eaudetoilette-031517096634.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
-        "Tommy forever edt 100ml"
-      ]
-    },
-    {
-      "id": "tommy-forever-edt-50ml",
-      "name_ar": "",
-      "name_en": "Tommy forever edt",
-      "brand": "Tommy Hilfiger",
-      "dupe_of": [],
-      "image": "images/tommy-forever-edt-50ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
+            },
             {
               "kind": "full",
               "ml": 50,
@@ -154693,12 +153572,13 @@
               "sold_since": "2026-08-01"
             }
           ],
-          "image": "images/tommy-forever-edt-50ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/tommy-hilfiger-tommy-forever-edt-eaudetoilette-031517461341.html"
+          "image": "images/tommy-forever-edt-100ml--faces.jpg",
+          "product_url": "https://www.faces.eg/en/p/tommy-hilfiger-tommy-forever-edt-eaudetoilette-031517096634.html"
         }
       ],
       "_hero_source": "faces",
       "aliases": [
+        "Tommy forever edt 100ml",
         "Tommy forever edt 50ml"
       ]
     },
@@ -155777,35 +154657,6 @@
       "_hero_source": "feel22"
     },
     {
-      "id": "tribute-blue-100ml-edp",
-      "name_ar": "",
-      "name_en": "TRIBUTE BLUE EDP",
-      "brand": "Afnan",
-      "dupe_of": [],
-      "image": "images/tribute-blue-100ml-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 4455,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/tribute-blue-100ml-edp--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/afnan-9am-dive-perfume-spray-250-ml-eaudeparfum-578117504645.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
-        "TRIBUTE BLUE 100ML EDP"
-      ]
-    },
-    {
       "id": "tribute-blue-eau-de-parfum",
       "name_ar": "Tribute Blue Eau De Parfum",
       "name_en": "Tribute Blue Eau De Parfum",
@@ -155827,9 +154678,27 @@
           ],
           "image": "images/tribute-blue-eau-de-parfum--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/afnan-tribute-blue-eau-de-parfum-for-men-100ml"
+        },
+        {
+          "name": "faces",
+          "url": "https://www.faces.eg/en/perfume-for-men",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4455,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/tribute-blue-100ml-edp--faces.jpg",
+          "product_url": "https://www.faces.eg/en/p/afnan-9am-dive-perfume-spray-250-ml-eaudeparfum-578117504645.html"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "feel22",
+      "aliases": [
+        "TRIBUTE BLUE 100ML EDP",
+        "TRIBUTE BLUE EDP"
+      ]
     },
     {
       "id": "troove-assaf",
@@ -155991,19 +154860,7 @@
           ],
           "image": "images/troy-enable--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/troy-enable-100-ml"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "troy-enable-100-ml",
-      "name_ar": "",
-      "name_en": "Troy Enable",
-      "brand": "assaf",
-      "dupe_of": [],
-      "image": "images/troy-enable-100-ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -156019,7 +154876,7 @@
           "product_url": "https://www.faces.eg/en/p/assaf-troy-enable--100-ml-635918028122.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "emaratiscents",
       "aliases": [
         "Troy Enable 100 Ml"
       ]
@@ -156395,19 +155252,7 @@
           ],
           "image": "images/turathi-electric--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/turathi-electric-afnan"
-        }
-      ],
-      "_hero_source": "og-perfume"
-    },
-    {
-      "id": "turathi-electric-eau-de-parfum-unisex",
-      "name_ar": "Turathi Electric Eau De Parfum Unisex",
-      "name_en": "Turathi Electric Eau De Parfum Unisex",
-      "brand": "Afnan",
-      "dupe_of": [],
-      "image": "images/turathi-electric-eau-de-parfum-unisex.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "feel22",
           "url": "https://eg.feel22.com/",
@@ -156423,7 +155268,10 @@
           "product_url": "https://eg.feel22.com/products/afnan-turathi-electric-eau-de-parfum-unisex-90ml"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "og-perfume",
+      "aliases": [
+        "Turathi Electric Eau De Parfum Unisex"
+      ]
     },
     {
       "id": "tuwaiq-almas",
@@ -157774,27 +156622,7 @@
               "price": 7000,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
-            }
-          ],
-          "image": "images/uomo-intense-eau-de-parfum--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/valentino-uomo-intense-eau-de-parfum"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
-      "id": "uomo-intense-edp",
-      "name_ar": "Uomo Intense EDP",
-      "name_en": "Uomo Intense EDP",
-      "brand": "Valentino",
-      "dupe_of": [],
-      "image": "images/uomo-intense-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
+            },
             {
               "kind": "full",
               "ml": 100,
@@ -157803,11 +156631,14 @@
               "sold_since": "2026-07-23"
             }
           ],
-          "image": "images/uomo-intense-edp--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/uomo-intense-edp-100ml"
+          "image": "images/uomo-intense-eau-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/valentino-uomo-intense-eau-de-parfum"
         }
       ],
-      "_hero_source": "mazaya"
+      "_hero_source": "feel22",
+      "aliases": [
+        "Uomo Intense EDP"
+      ]
     },
     {
       "id": "uomo-intenso-edp",
@@ -160570,9 +159401,27 @@
           ],
           "image": "images/velvet-rose-eau-de-parfum-unisex--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/lattafa-velvet-rose-eau-de-parfum-unisex-100ml"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1100,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-23"
+            }
+          ],
+          "image": "images/spray-velvet-rose--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/spray-velvet-rose-100-ml"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "feel22",
+      "aliases": [
+        "Spray Velvet Rose"
+      ]
     },
     {
       "id": "vemont-gota-leather",
@@ -162419,20 +161268,7 @@
           ],
           "image": "images/vintage-tobacco--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/vintage-tobacco"
-        }
-      ],
-      "_hero_source": "emaratiscents",
-      "aliases": []
-    },
-    {
-      "id": "vintage-tobacco-100ml",
-      "name_ar": "فينتاچ توباكو من ابراق ( عطر وريفل )",
-      "name_en": "Vintage Tobacco 100ml",
-      "brand": "Ibraq",
-      "dupe_of": [],
-      "image": "images/vintage-tobacco-100ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "eldesoki-fragrances",
           "url": "https://eldesoki-fragrances.com/",
@@ -162448,7 +161284,10 @@
           "product_url": "https://eldesoki-fragrances.com/product/vintage-tobacco-100ml-10ml%d9%81%d9%8a%d9%86%d8%aa%d8%a7%da%86-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%85%d9%86-%d8%a7%d8%a8%d8%b1%d8%a7%d9%82-%d8%b9%d8%b7%d8%b1-%d9%88%d8%b1%d9%8a%d9%81%d9%84/"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Vintage Tobacco 100ml"
+      ]
     },
     {
       "id": "violet-musc-eau-de-parfum",
@@ -165532,19 +164371,7 @@
           ],
           "image": "images/wild-colt-bakhur--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/wild-colt-bakhur"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "wild-colt-bakhur-150-ml",
-      "name_ar": "",
-      "name_en": "Wild Colt Bakhur",
-      "brand": "assaf",
-      "dupe_of": [],
-      "image": "images/wild-colt-bakhur-150-ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -165560,7 +164387,7 @@
           "product_url": "https://www.faces.eg/en/p/assaf-wild-colt-bakhur-150-ml-635918028120.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "eldesoki-fragrances",
       "aliases": [
         "Wild Colt Bakhur 150 Ml"
       ]
