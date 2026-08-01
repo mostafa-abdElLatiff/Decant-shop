@@ -3816,23 +3816,7 @@
             }
           ],
           "image": "images/acqua-di-gi-profondo--abo-anas-sayed.jpg"
-        }
-      ],
-      "aliases": [
-        "Acqua di Giò Profondo EDP",
-        "Acqua Di Gio Profondo Eau de Parfum"
-      ],
-      "_hero_source": "MO Shawky"
-    },
-    {
-      "id": "acqua-di-gi-profondo-eau-de-parfum",
-      "name_ar": "",
-      "name_en": "Acqua di Giò Profondo Eau de Parfum",
-      "brand": "Armani Beauty",
-      "dupe_of": [],
-      "image": "images/acqua-di-gi-profondo-eau-de-parfum.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -3870,9 +3854,64 @@
           ],
           "image": "images/acqua-di-gi-profondo-eau-de-parfum--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/armani-acqua-di-gio-profondo-pm001716814446.html"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 320,
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 500,
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-26"
+            }
+          ],
+          "image": "images/acqua-di-gio-profondo--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/armani-acqua-di-gio-profondo"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 6287,
+              "first_seen": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 6728,
+              "first_seen": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 7399,
+              "first_seen": "2026-07-23"
+            }
+          ],
+          "image": "images/giorgio-armani-acqua-di-gi-profondo-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/giorgio-armani-acqua-di-gio-profondo-eau-de-parfum-for-men-125ml"
         }
       ],
-      "_hero_source": "faces"
+      "aliases": [
+        "Acqua Di Gio Profondo",
+        "Acqua Di Gio Profondo Eau de Parfum",
+        "Acqua di Giò Profondo EDP",
+        "Acqua di Giò Profondo Eau de Parfum",
+        "Giorgio Armani Acqua di Giò Profondo Eau de Parfum"
+      ],
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "acqua-di-gi-profondo-old-batch",
@@ -4011,40 +4050,6 @@
         }
       ],
       "_hero_source": "mazaya"
-    },
-    {
-      "id": "acqua-di-gio-profondo",
-      "name_ar": "Acqua Di Gio Profondo",
-      "name_en": "Acqua Di Gio Profondo",
-      "brand": "Emporio Armani",
-      "dupe_of": [],
-      "image": "images/acqua-di-gio-profondo.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 320,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 500,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-26"
-            }
-          ],
-          "image": "images/acqua-di-gio-profondo--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/armani-acqua-di-gio-profondo"
-        }
-      ],
-      "_hero_source": "perfuzone"
     },
     {
       "id": "acqua-essenziale-blu",
@@ -26182,6 +26187,20 @@
           ],
           "image": "images/boss-bottled-infinite-eau-de-parfum-50ml--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/hugo-boss-boss-bottled-infinite-eau-de-parfum-PM_HUGO_BOSS_Boss_Bottled_Infinite_EDP.html"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 6300,
+              "first_seen": "2026-07-23"
+            }
+          ],
+          "image": "images/bottled-infinite-eau-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/boss-bottled-infinite-eau-de-parfum123455-html"
         }
       ],
       "_hero_source": "faces",
@@ -26415,32 +26434,6 @@
         "Boss Bottled Eau De Toilette Men Perfume (200ml)",
         "Bottled Eau De Parfum"
       ]
-    },
-    {
-      "id": "bottled-infinite-eau-de-parfum",
-      "name_ar": "Bottled Infinite Eau de Parfum",
-      "name_en": "Bottled Infinite Eau de Parfum",
-      "brand": "Boss",
-      "dupe_of": [],
-      "image": "images/bottled-infinite-eau-de-parfum.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 6300,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/bottled-infinite-eau-de-parfum--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/boss-bottled-infinite-eau-de-parfum123455-html"
-        }
-      ],
-      "_hero_source": "mazaya"
     },
     {
       "id": "bottled-night-eau-de-toilette",
@@ -41644,39 +41637,6 @@
           ],
           "image": "images/dolce-gabbana-intenso-eau-de-parfum--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/dolce-gabbana-intenso-eau-de-parfum-for-men-40ml"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
-      "id": "dolce-gabbana-k-eau-de-parfum",
-      "name_ar": "Dolce & Gabbana K Eau de Parfum",
-      "name_en": "Dolce & Gabbana K Eau de Parfum",
-      "brand": "Dolce and Gabbana",
-      "dupe_of": [],
-      "image": "images/dolce-gabbana-k-eau-de-parfum.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "feel22",
-          "url": "https://eg.feel22.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 5750,
-              "first_seen": "2026-07-30"
-            },
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 7200,
-              "first_seen": "2026-07-30",
-              "sold_since": "2026-07-30"
-            }
-          ],
-          "image": "images/dolce-gabbana-k-eau-de-parfum--feel22.jpg",
-          "product_url": "https://eg.feel22.com/products/dolce-gabbana-k-eau-de-parfum-for-men-100ml"
         }
       ],
       "_hero_source": "feel22"
@@ -58981,44 +58941,6 @@
           "image": "images/ghyoom.jpg"
         }
       ]
-    },
-    {
-      "id": "giorgio-armani-acqua-di-gi-profondo-eau-de-parfum",
-      "name_ar": "Giorgio Armani Acqua di Giò Profondo Eau de Parfum",
-      "name_en": "Giorgio Armani Acqua di Giò Profondo Eau de Parfum",
-      "brand": "Armani",
-      "dupe_of": [],
-      "image": "images/giorgio-armani-acqua-di-gi-profondo-eau-de-parfum.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "feel22",
-          "url": "https://eg.feel22.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 75,
-              "price": 6287,
-              "first_seen": "2026-07-23"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 6728,
-              "first_seen": "2026-07-23"
-            },
-            {
-              "kind": "full",
-              "ml": 125,
-              "price": 7399,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/giorgio-armani-acqua-di-gi-profondo-eau-de-parfum--feel22.jpg",
-          "product_url": "https://eg.feel22.com/products/giorgio-armani-acqua-di-gio-profondo-eau-de-parfum-for-men-125ml"
-        }
-      ],
-      "_hero_source": "feel22"
     },
     {
       "id": "giorgio-armani-acqua-di-gio-eau-de-parfum",
@@ -77653,10 +77575,32 @@
           ],
           "image": "images/k-edp--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/k-edp"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 5750,
+              "first_seen": "2026-07-30"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 7200,
+              "first_seen": "2026-07-30",
+              "sold_since": "2026-07-30"
+            }
+          ],
+          "image": "images/dolce-gabbana-k-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/dolce-gabbana-k-eau-de-parfum-for-men-100ml"
         }
       ],
       "_hero_source": "faces",
       "aliases": [
+        "Dolce & Gabbana K Eau de Parfum",
         "K EDP 50ML"
       ]
     },
@@ -146001,19 +145945,7 @@
           ],
           "image": "images/sugar-musk-75ml--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/sugar-musk-75ml-ibrahim-al-qurashi"
-        }
-      ],
-      "_hero_source": "og-perfume"
-    },
-    {
-      "id": "sugar-musk-ibraq",
-      "name_ar": "مسك سكر من ابراق (٧٥ملي)",
-      "name_en": "Sugar Musk IBRAQ",
-      "brand": "Ibraq",
-      "dupe_of": [],
-      "image": "images/sugar-musk-ibraq.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "eldesoki-fragrances",
           "url": "https://eldesoki-fragrances.com/",
@@ -146030,7 +145962,10 @@
           "product_url": "https://eldesoki-fragrances.com/product/sugar-musk-ibraq-75ml%d9%85%d8%b3%d9%83-%d8%b3%d9%83%d8%b1-%d9%85%d9%86-%d8%a7%d8%a8%d8%b1%d8%a7%d9%82-%d9%a7%d9%a5%d9%85%d9%84%d9%8a/"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "og-perfume",
+      "aliases": [
+        "Sugar Musk IBRAQ"
+      ]
     },
     {
       "id": "sugarcane-vanilla",
@@ -166980,14 +166915,28 @@
       "_hero_source": "EsLam Nasser"
     },
     {
-      "id": "zayed",
-      "name_ar": "Zayed",
-      "name_en": "Zayed",
-      "brand": "",
+      "id": "zayed-dkhoon-emirates",
+      "name_ar": "زايد من دخون الايماريتيه ١٠٠ملي",
+      "name_en": "ZAYED Dkhoon Emirates",
+      "brand": "Dkhoon Emirates",
       "dupe_of": [],
-      "image": "images/zayed.jpg",
+      "image": "images/zayed-dkhoon-emirates.jpg",
       "accords": [],
       "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1575,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/zayed-dkhoon-emirates--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/zayed-dokhoon-emirates-%d8%b2%d8%a7%d9%8a%d8%af-%d9%85%d9%86-%d8%af%d8%ae%d9%88%d9%86-%d8%a7%d9%84%d8%a7%d9%8a%d9%85%d8%a7%d8%b1%d9%8a%d8%aa%d9%8a%d9%87/"
+        },
         {
           "name": "emaratiscents",
           "url": "https://emaratiscents.com/",
@@ -167018,33 +166967,10 @@
           "product_url": "https://roseperfume.online/products/zayed-dkhoon-emirates"
         }
       ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "zayed-dkhoon-emirates",
-      "name_ar": "زايد من دخون الايماريتيه ١٠٠ملي",
-      "name_en": "ZAYED Dkhoon Emirates",
-      "brand": "Dkhoon Emirates",
-      "dupe_of": [],
-      "image": "images/zayed-dkhoon-emirates.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1575,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/zayed-dkhoon-emirates--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/zayed-dokhoon-emirates-%d8%b2%d8%a7%d9%8a%d8%af-%d9%85%d9%86-%d8%af%d8%ae%d9%88%d9%86-%d8%a7%d9%84%d8%a7%d9%8a%d9%85%d8%a7%d8%b1%d9%8a%d8%aa%d9%8a%d9%87/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Zayed"
+      ]
     },
     {
       "id": "zefiro",
