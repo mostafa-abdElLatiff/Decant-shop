@@ -4964,8 +4964,8 @@
     },
     {
       "id": "akdeniz-tester",
-      "name_ar": "Akdeniz Tester",
-      "name_en": "Akdeniz Tester",
+      "name_ar": "Akdeniz",
+      "name_en": "Akdeniz",
       "brand": "Unique'e Luxury",
       "dupe_of": [],
       "image": "images/akdeniz-tester.jpg",
@@ -4979,13 +4979,17 @@
               "kind": "full",
               "ml": 100,
               "price": 5700,
-              "first_seen": "2026-08-01"
+              "first_seen": "2026-08-01",
+              "tester": true
             }
           ],
           "image": "images/akdeniz-tester--ahmed-abdel-kareem.jpg"
         }
       ],
-      "_hero_source": "Ahmed Abdel Kareem"
+      "_hero_source": "Ahmed Abdel Kareem",
+      "aliases": [
+        "Akdeniz Tester"
+      ]
     },
     {
       "id": "akhumar-luban",
@@ -5649,6 +5653,14 @@
               "ml": 100,
               "price": 3650,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2950,
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20",
+              "tester": true
             }
           ],
           "image": "images/al-haramain-amber-oud-tobacco--eldesoki-fragrances.jpg",
@@ -5663,6 +5675,13 @@
               "ml": 100,
               "price": 2750,
               "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2450,
+              "first_seen": "2026-08-01",
+              "tester": true
             }
           ],
           "image": "images/al-haramain-amber-oud-tobacco--abo-anas-sayed.jpg"
@@ -5670,50 +5689,9 @@
       ],
       "_hero_source": "og-perfume",
       "aliases": [
+        "Al Haramain Amber Oud Tobacco Edition Tester Box Authentic",
         "Amber Oud Tobacco Edition",
-        "Amber Oud Tobacco Edition Extrait De Parfum"
-      ]
-    },
-    {
-      "id": "al-haramain-amber-oud-tobacco-edition-tester-box-authentic",
-      "name_ar": "الحرمين عنبر عود توباكو اديشن ١٠٠ملي تستر بوكس",
-      "name_en": "Al Haramain Amber Oud Tobacco Edition Tester Box Authentic",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/al-haramain-amber-oud-tobacco-edition-tester-box-authentic.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2950,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
-            }
-          ],
-          "image": "images/al-haramain-amber-oud-tobacco-edition-tester-box-authentic--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/al-haramain-amber-oud-tobacco-edition-100ml-tester-box-authentic%d8%a7%d9%84%d8%ad%d8%b1%d9%85%d9%8a%d9%86-%d8%b9%d9%86%d8%a8%d8%b1-%d8%b9%d9%88%d8%af-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d8%a7/"
-        },
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2450,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/al-haramain-amber-oud-tobacco-edition-tester-box-authentic--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances",
-      "aliases": [
+        "Amber Oud Tobacco Edition Extrait De Parfum",
         "Amber Oud Tobacco Edition Tester"
       ]
     },
@@ -10612,9 +10590,26 @@
           ],
           "image": "images/ani--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/ani"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 6500,
+              "first_seen": "2026-08-01",
+              "tester": true
+            }
+          ],
+          "image": "images/ani-tester--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Ani Tester"
+      ]
     },
     {
       "id": "ani-extrait-de-parfum",
@@ -10639,31 +10634,6 @@
           "image": "images/ani-extrait-de-parfum.jpg"
         }
       ]
-    },
-    {
-      "id": "ani-tester",
-      "name_ar": "Ani Tester",
-      "name_en": "Ani Tester",
-      "brand": "Nishane",
-      "dupe_of": [],
-      "image": "images/ani-tester.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 6500,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/ani-tester--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "Abo Anas Sayed"
     },
     {
       "id": "ani-x",
@@ -16180,11 +16150,26 @@
           ],
           "image": "images/atelier-versace-tabac-imperial-eau-de-parfum-100ml--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/versace-atelier-versace-tabac-imperial-eau-de-parfum-033315585758.html"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4800,
+              "first_seen": "2026-07-30",
+              "tester": true
+            }
+          ],
+          "image": "images/tabac-imp-rial-tester--abo-anas-sayed.jpg"
         }
       ],
       "_hero_source": "faces",
       "aliases": [
-        "Atelier Versace Tabac Imperial Eau de Parfum 100ml"
+        "Atelier Versace Tabac Imperial Eau de Parfum 100ml",
+        "Tabac Impérial Tester"
       ]
     },
     {
@@ -18389,8 +18374,8 @@
     },
     {
       "id": "back-to-black-tester",
-      "name_ar": "Back to Black Tester",
-      "name_en": "Back to Black Tester",
+      "name_ar": "Back to Black",
+      "name_en": "Back to Black",
       "brand": "Kilian",
       "dupe_of": [],
       "image": "images/back-to-black-tester.jpg",
@@ -18404,13 +18389,17 @@
               "kind": "full",
               "ml": 100,
               "price": 7500,
-              "first_seen": "2026-07-30"
+              "first_seen": "2026-07-30",
+              "tester": true
             }
           ],
           "image": "images/back-to-black-tester--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "Abo Anas Sayed"
+      "_hero_source": "Abo Anas Sayed",
+      "aliases": [
+        "Back to Black Tester"
+      ]
     },
     {
       "id": "bad-boy-cobalt-absolute-edp",
@@ -18571,23 +18560,7 @@
           ],
           "image": "images/bad-boy-cobalt-elixir-100ml--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/carolina-herrera-bad-boy-cobalt-elixir-100ml-eau_de_parfum-005716742394.html"
-        }
-      ],
-      "_hero_source": "mazaya",
-      "aliases": [
-        "Bad Boy Cobalt Elixir 100Ml",
-        "Bad Boy Cobalt Elixir Eau de Parfum"
-      ]
-    },
-    {
-      "id": "bad-boy-cobalt-elixir-tester",
-      "name_ar": "Bad Boy Cobalt Elixir Tester",
-      "name_en": "Bad Boy Cobalt Elixir Tester",
-      "brand": "Carolina Herrera",
-      "dupe_of": [],
-      "image": "images/bad-boy-cobalt-elixir-tester.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "Ahmed Abdel Kareem",
           "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
@@ -18596,13 +18569,19 @@
               "kind": "full",
               "ml": 100,
               "price": 3700,
-              "first_seen": "2026-08-01"
+              "first_seen": "2026-08-01",
+              "tester": true
             }
           ],
           "image": "images/bad-boy-cobalt-elixir-tester--ahmed-abdel-kareem.jpg"
         }
       ],
-      "_hero_source": "Ahmed Abdel Kareem"
+      "_hero_source": "mazaya",
+      "aliases": [
+        "Bad Boy Cobalt Elixir 100Ml",
+        "Bad Boy Cobalt Elixir Eau de Parfum",
+        "Bad Boy Cobalt Elixir Tester"
+      ]
     },
     {
       "id": "bad-boy-eau-de-toillete",
@@ -21578,9 +21557,26 @@
           ],
           "image": "images/black-aoud--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/black-aoud-100-ml"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2700,
+              "first_seen": "2026-07-30",
+              "tester": true
+            }
+          ],
+          "image": "images/black-aoud-tester--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "perfuzone"
+      "_hero_source": "perfuzone",
+      "aliases": [
+        "Black Aoud Tester"
+      ]
     },
     {
       "id": "black-aoud-by-eau-de-parfum",
@@ -21608,31 +21604,6 @@
         }
       ],
       "_hero_source": "mazaya"
-    },
-    {
-      "id": "black-aoud-tester",
-      "name_ar": "Black Aoud Tester",
-      "name_en": "Black Aoud Tester",
-      "brand": "Montale",
-      "dupe_of": [],
-      "image": "images/black-aoud-tester.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2700,
-              "first_seen": "2026-07-30"
-            }
-          ],
-          "image": "images/black-aoud-tester--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "Abo Anas Sayed"
     },
     {
       "id": "black-bisht",
@@ -24702,59 +24673,6 @@
       ]
     },
     {
-      "id": "blue-talisman",
-      "name_ar": "Blue Talisman",
-      "name_en": "Blue Talisman",
-      "brand": "ExNihilo",
-      "dupe_of": [],
-      "image": "images/blue-talisman.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 18500,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-29"
-            }
-          ],
-          "image": "images/blue-talisman--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/blue-talisman"
-        }
-      ],
-      "_hero_source": "mazaya"
-    },
-    {
-      "id": "blue-talisman-extrait-de-parfum",
-      "name_ar": "Blue Talisman Extrait De Parfum",
-      "name_en": "Blue Talisman Extrait De Parfum",
-      "brand": "ExNihilo",
-      "dupe_of": [],
-      "image": "images/blue-talisman-extrait-de-parfum.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 25750,
-              "first_seen": "2026-07-29"
-            }
-          ],
-          "image": "images/blue-talisman-extrait-de-parfum--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/blue-talisman-extrait-de-parfum-100-ml"
-        }
-      ],
-      "_hero_source": "mazaya"
-    },
-    {
       "id": "blue-talisman-extrait-de-parfum-ex-nihilo",
       "name_ar": "Blue Talisman Extrait de Parfum",
       "name_en": "Blue Talisman Extrait de Parfum",
@@ -24775,9 +24693,52 @@
             }
           ],
           "image": "images/blue-talisman-extrait-de-parfum-ex-nihilo--ahmed-abdel-kareem.jpg"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 18500,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-29"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 25750,
+              "first_seen": "2026-07-29"
+            }
+          ],
+          "image": "images/blue-talisman--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/blue-talisman"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 15000,
+              "first_seen": "2026-07-19",
+              "prev_price": 21500,
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/ex-nihilo-blue-talisman--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/ex-nihilo-blue-talisman-full-sealed"
         }
       ],
-      "_hero_source": "Ahmed Abdel Kareem"
+      "_hero_source": "Ahmed Abdel Kareem",
+      "aliases": [
+        "Blue Talisman",
+        "Blue Talisman Extrait De Parfum",
+        "Ex Nihilo Blue Talisman",
+        "Ex Nihilo Blue Talisman Extrait de Parfum"
+      ]
     },
     {
       "id": "blue-wish-collection",
@@ -25589,23 +25550,7 @@
           ],
           "image": "images/bois-imp-rial--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/bois-imperial-edp-100ml-master-sealed/"
-        }
-      ],
-      "_hero_source": "sniffz",
-      "aliases": [
-        "Bois Imperial Unisex",
-        "BOIS IMPERIAL EDP MASTER SEALED"
-      ]
-    },
-    {
-      "id": "bois-imp-rial-tester",
-      "name_ar": "Bois Impérial Tester",
-      "name_en": "Bois Impérial Tester",
-      "brand": "Essential Parfums",
-      "dupe_of": [],
-      "image": "images/bois-imp-rial-tester.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "Abo Anas Sayed",
           "url": "https://www.facebook.com/100057793202294",
@@ -25614,13 +25559,19 @@
               "kind": "full",
               "ml": 30,
               "price": 5800,
-              "first_seen": "2026-08-01"
+              "first_seen": "2026-08-01",
+              "tester": true
             }
           ],
           "image": "images/bois-imp-rial-tester--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "Abo Anas Sayed"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "BOIS IMPERIAL EDP MASTER SEALED",
+        "Bois Imperial Unisex",
+        "Bois Impérial Tester"
+      ]
     },
     {
       "id": "bois-pacifique",
@@ -43657,8 +43608,8 @@
     },
     {
       "id": "dylan-blue-pour-homme-tester",
-      "name_ar": "Dylan Blue pour Homme Tester",
-      "name_en": "Dylan Blue pour Homme Tester",
+      "name_ar": "Dylan Blue pour Homme",
+      "name_en": "Dylan Blue pour Homme",
       "brand": "Versace",
       "dupe_of": [],
       "image": "images/dylan-blue-pour-homme-tester.jpg",
@@ -43672,13 +43623,17 @@
               "kind": "full",
               "ml": 100,
               "price": 2700,
-              "first_seen": "2026-07-30"
+              "first_seen": "2026-07-30",
+              "tester": true
             }
           ],
           "image": "images/dylan-blue-pour-homme-tester--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "Abo Anas Sayed"
+      "_hero_source": "Abo Anas Sayed",
+      "aliases": [
+        "Dylan Blue pour Homme Tester"
+      ]
     },
     {
       "id": "dynasty",
@@ -48992,66 +48947,18 @@
               "kind": "full",
               "ml": 100,
               "price": 6400,
-              "first_seen": "2026-08-01"
+              "first_seen": "2026-08-01",
+              "tester": true
             }
           ],
           "image": "images/erba-pura--abo-anas-sayed.jpg"
         }
       ],
       "aliases": [
-        "Erba Pura EDP"
+        "Erba Pura EDP",
+        "Erba Pura Tester"
       ],
       "_hero_source": "perfuzone"
-    },
-    {
-      "id": "erba-pura-tester",
-      "name_ar": "Erba Pura Tester",
-      "name_en": "Erba Pura Tester",
-      "brand": "Xerjoff",
-      "dupe_of": [],
-      "image": "images/erba-pura-tester.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 6400,
-              "first_seen": "2026-07-30"
-            }
-          ],
-          "image": "images/erba-pura-tester--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "Abo Anas Sayed"
-    },
-    {
-      "id": "eros",
-      "name_ar": "Eros",
-      "name_en": "Eros",
-      "brand": "Versace",
-      "dupe_of": [],
-      "image": "images/eros.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Ahmed Abdel Kareem",
-          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2999,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/eros--ahmed-abdel-kareem.jpg"
-        }
-      ],
-      "_hero_source": "Ahmed Abdel Kareem"
     },
     {
       "id": "eros-eau-de-parfum",
@@ -49182,19 +49089,20 @@
           ],
           "image": "images/eros-eau-de-parfum--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/versace-eros-eau-de-parfum-for-men"
-        }
-      ],
-      "_hero_source": "sniffz"
-    },
-    {
-      "id": "eros-eau-de-parfum-natural-spray",
-      "name_ar": "",
-      "name_en": "Eros Eau de Parfum Natural Spray",
-      "brand": "Versace",
-      "dupe_of": [],
-      "image": "images/eros-eau-de-parfum-natural-spray.jpg",
-      "accords": [],
-      "stores": [
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2999,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/eros--ahmed-abdel-kareem.jpg"
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -49226,11 +49134,28 @@
           ],
           "image": "images/eros-eau-de-parfum-natural-spray--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/versace-eros-natural-spray-eau-de-parfum-PM_VERSACE_Eros_EDP.html"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 7400,
+              "first_seen": "2026-07-23"
+            }
+          ],
+          "image": "images/versace-eros-pour-homme-edp--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/versace-eros-pour-homme-edp"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "sniffz",
       "aliases": [
-        "Eros Eau de Parfum Natural Spray 100ml"
+        "Eros",
+        "Eros Eau de Parfum Natural Spray",
+        "Eros Eau de Parfum Natural Spray 100ml",
+        "Versace Eros Pour Homme EDP"
       ]
     },
     {
@@ -49404,11 +49329,41 @@
           ],
           "image": "images/eros-eau-de-toilette--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/versace-eros-edt-100mltester-box/"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 5100,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 6700,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 8800,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-23"
+            }
+          ],
+          "image": "images/versace-eros-man-edt--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/versace-eros-man-edt"
         }
       ],
       "_hero_source": "sniffz",
       "aliases": [
-        "Eros EDT"
+        "Eros EDT",
+        "Versace Eros Man EDT"
       ]
     },
     {
@@ -49616,6 +49571,13 @@
               "ml": 100,
               "price": 3300,
               "first_seen": "2026-07-30"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2650,
+              "first_seen": "2026-08-01",
+              "tester": true
             }
           ],
           "image": "images/eros-flame--abo-anas-sayed.jpg"
@@ -49623,35 +49585,12 @@
       ],
       "_hero_source": "sniffz",
       "aliases": [
-        "Eros Flame EDP",
         "EROS FLAME EDP.",
-        "Eros Flame Eau de Parfum Spray"
+        "Eros Flame EDP",
+        "Eros Flame Eau de Parfum Spray",
+        "Eros Flame pour homme",
+        "Eros Flame pour homme Tester"
       ]
-    },
-    {
-      "id": "eros-flame-pour-homme-tester",
-      "name_ar": "Eros Flame pour homme Tester",
-      "name_en": "Eros Flame pour homme Tester",
-      "brand": "Versace",
-      "dupe_of": [],
-      "image": "images/eros-flame-pour-homme-tester.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2650,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/eros-flame-pour-homme-tester--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "Abo Anas Sayed"
     },
     {
       "id": "eros-najim",
@@ -51073,98 +51012,6 @@
         }
       ],
       "_hero_source": "mazaya"
-    },
-    {
-      "id": "ex-nihilo-blue-talisman",
-      "name_ar": "",
-      "name_en": "Ex Nihilo Blue Talisman",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/ex-nihilo-blue-talisman.jpg",
-      "accords": [
-        {
-          "label_en": "Pear",
-          "label_ar": "",
-          "color": "#FC4B29",
-          "w": 100
-        },
-        {
-          "label_en": "Bergamot",
-          "label_ar": "",
-          "color": "#F9FF52",
-          "w": 90
-        },
-        {
-          "label_en": "Mandarin Orange",
-          "label_ar": "",
-          "color": "#F9FF52",
-          "w": 80
-        },
-        {
-          "label_en": "Ginger",
-          "label_ar": "",
-          "color": "#83C928",
-          "w": 70
-        },
-        {
-          "label_en": "Orange Blossom",
-          "label_ar": "",
-          "color": "#edf2fb",
-          "w": 60
-        },
-        {
-          "label_en": "Georgywood",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 50
-        },
-        {
-          "label_en": "Musk",
-          "label_ar": "",
-          "color": "#E7D8EA",
-          "w": 40
-        },
-        {
-          "label_en": "Ambrofix™",
-          "label_ar": "",
-          "color": "#bc4d10",
-          "w": 40
-        },
-        {
-          "label_en": "Akigalawood",
-          "label_ar": "",
-          "color": "#774414",
-          "w": 40
-        },
-        {
-          "label_en": "Cedar",
-          "label_ar": "",
-          "color": "#774414",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 15000,
-              "first_seen": "2026-07-19",
-              "prev_price": 21500,
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/ex-nihilo-blue-talisman--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/ex-nihilo-blue-talisman-full-sealed"
-        }
-      ],
-      "_hero_source": "sniffz",
-      "aliases": [
-        "Ex Nihilo Blue Talisman Extrait de Parfum"
-      ]
     },
     {
       "id": "excellus-eau-de-parfum",
@@ -57992,9 +57839,26 @@
           ],
           "image": "images/gentleman--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/givenchy-gentleman-eaudeparfum-013115345367.html"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3300,
+              "first_seen": "2026-07-30",
+              "tester": true
+            }
+          ],
+          "image": "images/gentleman-tester--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "faces"
+      "_hero_source": "faces",
+      "aliases": [
+        "Gentleman Tester"
+      ]
     },
     {
       "id": "gentleman-boisee",
@@ -58696,22 +58560,7 @@
           ],
           "image": "images/gentleman-society-edp--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/givenchy-gentleman-society-eau-de-parfum-for-men"
-        }
-      ],
-      "_hero_source": "mazaya",
-      "aliases": [
-        "Gentleman Society Eau de Parfum"
-      ]
-    },
-    {
-      "id": "gentleman-society-tester",
-      "name_ar": "Gentleman Society Tester",
-      "name_en": "Gentleman Society Tester",
-      "brand": "Givenchy",
-      "dupe_of": [],
-      "image": "images/gentleman-society-tester.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "Abo Anas Sayed",
           "url": "https://www.facebook.com/100057793202294",
@@ -58720,13 +58569,18 @@
               "kind": "full",
               "ml": 100,
               "price": 3750,
-              "first_seen": "2026-07-30"
+              "first_seen": "2026-07-30",
+              "tester": true
             }
           ],
           "image": "images/gentleman-society-tester--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "Abo Anas Sayed"
+      "_hero_source": "mazaya",
+      "aliases": [
+        "Gentleman Society Eau de Parfum",
+        "Gentleman Society Tester"
+      ]
     },
     {
       "id": "gentleman-sosiety-extreme",
@@ -58759,31 +58613,6 @@
         }
       ],
       "_hero_source": "mazaya"
-    },
-    {
-      "id": "gentleman-tester",
-      "name_ar": "Gentleman Tester",
-      "name_en": "Gentleman Tester",
-      "brand": "Givenchy",
-      "dupe_of": [],
-      "image": "images/gentleman-tester.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 3300,
-              "first_seen": "2026-07-30"
-            }
-          ],
-          "image": "images/gentleman-tester--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "Abo Anas Sayed"
     },
     {
       "id": "genuine-man-giovany-reserve",
@@ -60043,8 +59872,8 @@
     },
     {
       "id": "gold-tester",
-      "name_ar": "Gold Tester",
-      "name_en": "Gold Tester",
+      "name_ar": "Gold",
+      "name_en": "Gold",
       "brand": "Burberry",
       "dupe_of": [],
       "image": "images/gold-tester.jpg",
@@ -60058,13 +59887,17 @@
               "kind": "full",
               "ml": 100,
               "price": 3600,
-              "first_seen": "2026-08-01"
+              "first_seen": "2026-08-01",
+              "tester": true
             }
           ],
           "image": "images/gold-tester--ahmed-abdel-kareem.jpg"
         }
       ],
-      "_hero_source": "Ahmed Abdel Kareem"
+      "_hero_source": "Ahmed Abdel Kareem",
+      "aliases": [
+        "Gold Tester"
+      ]
     },
     {
       "id": "gold-velour-saffron",
@@ -60800,22 +60633,7 @@
           ],
           "image": "images/green-irish-tweed--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/creed-green-irish-tweed-eau-de-perfume-for-men-100ml"
-        }
-      ],
-      "_hero_source": "feel22",
-      "aliases": [
-        "Green Irish Tweed Eau De Perfume"
-      ]
-    },
-    {
-      "id": "green-irish-tweed-tester",
-      "name_ar": "Green Irish Tweed Tester",
-      "name_en": "Green Irish Tweed Tester",
-      "brand": "Creed",
-      "dupe_of": [],
-      "image": "images/green-irish-tweed-tester.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "Ahmed Abdel Kareem",
           "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
@@ -60824,13 +60642,18 @@
               "kind": "full",
               "ml": 100,
               "price": 10700,
-              "first_seen": "2026-08-01"
+              "first_seen": "2026-08-01",
+              "tester": true
             }
           ],
           "image": "images/green-irish-tweed-tester--ahmed-abdel-kareem.jpg"
         }
       ],
-      "_hero_source": "Ahmed Abdel Kareem"
+      "_hero_source": "feel22",
+      "aliases": [
+        "Green Irish Tweed Eau De Perfume",
+        "Green Irish Tweed Tester"
+      ]
     },
     {
       "id": "green-pearl",
@@ -61546,10 +61369,20 @@
               "ml": null,
               "price": 3800,
               "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 3200,
+              "first_seen": "2026-07-30",
+              "tester": true
             }
           ],
           "image": "images/guerlain-homme-eau-de-parfum--abo-anas-sayed.jpg"
         }
+      ],
+      "aliases": [
+        "Homme Tester"
       ]
     },
     {
@@ -62465,9 +62298,26 @@
           ],
           "image": "images/hacivat--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/hacivat"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 6900,
+              "first_seen": "2026-08-01",
+              "tester": true
+            }
+          ],
+          "image": "images/hacivat-tester--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Hacivat Tester"
+      ]
     },
     {
       "id": "hacivat-extrait-eau-de-parfum",
@@ -62521,31 +62371,6 @@
         }
       ],
       "_hero_source": "mazaya"
-    },
-    {
-      "id": "hacivat-tester",
-      "name_ar": "Hacivat Tester",
-      "name_en": "Hacivat Tester",
-      "brand": "Nishane",
-      "dupe_of": [],
-      "image": "images/hacivat-tester.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 6900,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/hacivat-tester--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "Abo Anas Sayed"
     },
     {
       "id": "hacivat-x",
@@ -68514,31 +68339,6 @@
       ]
     },
     {
-      "id": "homme-tester",
-      "name_ar": "Homme Tester",
-      "name_en": "Homme Tester",
-      "brand": "Guerlain",
-      "dupe_of": [],
-      "image": "images/homme-tester.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": null,
-              "price": 3200,
-              "first_seen": "2026-07-30"
-            }
-          ],
-          "image": "images/homme-tester--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "Abo Anas Sayed"
-    },
-    {
       "id": "honey-musk-confidence-dose",
       "name_ar": "Honey Musk (Confidence Dose)",
       "name_en": "Honey Musk (Confidence Dose)",
@@ -69000,7 +68800,7 @@
     {
       "id": "hugo-boss-bottled-infinite-tester-edp",
       "name_ar": "هوجو بوس بوتلد انفينيت تستر بوكس ١٠٠ملي",
-      "name_en": "Hugo Boss Bottled Infinite Tester EDP",
+      "name_en": "Hugo Boss Bottled Infinite",
       "brand": "",
       "dupe_of": [],
       "image": "images/hugo-boss-bottled-infinite-tester-edp.jpg",
@@ -69015,14 +68815,18 @@
               "ml": 100,
               "price": 2750,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "sold_since": "2026-07-19",
+              "tester": true
             }
           ],
           "image": "images/hugo-boss-bottled-infinite-tester-edp--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/hugo-boss-bottled-infinite-tester-box-edp%d9%87%d9%88%d8%ac%d9%88-%d8%a8%d9%88%d8%b5-%d8%a8%d9%88%d8%aa%d9%84%d8%af-%d8%a7%d9%86%d9%81%d9%8a%d9%86%d9%8a%d8%aa-%d8%aa%d8%b3%d8%aa%d8%b1-%d8%a8%d9%88/"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Hugo Boss Bottled Infinite Tester EDP"
+      ]
     },
     {
       "id": "hugo-boss-bottled-nc20-eau-de-parfum-200ml",
@@ -69441,19 +69245,7 @@
           ],
           "image": "images/hundred-silent-ways--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/hundred-silent-ways"
-        }
-      ],
-      "_hero_source": "sniffz"
-    },
-    {
-      "id": "hundred-silent-ways-tester",
-      "name_ar": "Hundred Silent Ways Tester",
-      "name_en": "Hundred Silent Ways Tester",
-      "brand": "Nishane",
-      "dupe_of": [],
-      "image": "images/hundred-silent-ways-tester.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "Abo Anas Sayed",
           "url": "https://www.facebook.com/100057793202294",
@@ -69462,13 +69254,17 @@
               "kind": "full",
               "ml": 100,
               "price": 6900,
-              "first_seen": "2026-07-30"
+              "first_seen": "2026-07-30",
+              "tester": true
             }
           ],
           "image": "images/hundred-silent-ways-tester--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "Abo Anas Sayed"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Hundred Silent Ways Tester"
+      ]
     },
     {
       "id": "hundred-silent-ways-x",
@@ -76966,8 +76762,8 @@
     },
     {
       "id": "joy-tester",
-      "name_ar": "Joy Tester",
-      "name_en": "Joy Tester",
+      "name_ar": "Joy",
+      "name_en": "Joy",
       "brand": "Dior",
       "dupe_of": [],
       "image": "images/joy-tester.jpg",
@@ -76981,13 +76777,17 @@
               "kind": "full",
               "ml": 90,
               "price": 3900,
-              "first_seen": "2026-08-01"
+              "first_seen": "2026-08-01",
+              "tester": true
             }
           ],
           "image": "images/joy-tester--ahmed-abdel-kareem.jpg"
         }
       ],
-      "_hero_source": "Ahmed Abdel Kareem"
+      "_hero_source": "Ahmed Abdel Kareem",
+      "aliases": [
+        "Joy Tester"
+      ]
     },
     {
       "id": "jtc-join-the-club-400-edp",
@@ -78999,6 +78799,13 @@
               "ml": 110,
               "price": 3200,
               "first_seen": "2026-07-30"
+            },
+            {
+              "kind": "full",
+              "ml": 110,
+              "price": 3900,
+              "first_seen": "2026-08-01",
+              "tester": true
             }
           ],
           "image": "images/kenzo-homme-eau-de-parfum--abo-anas-sayed.jpg"
@@ -79007,7 +78814,8 @@
       "_hero_source": "sniffz",
       "aliases": [
         "Homme EDP For Men",
-        "Homme Eau de Parfum"
+        "Homme Eau de Parfum",
+        "Kenzo Homme Tester"
       ]
     },
     {
@@ -79134,31 +78942,6 @@
         }
       ],
       "_hero_source": "MO Shawky"
-    },
-    {
-      "id": "kenzo-homme-tester",
-      "name_ar": "Kenzo Homme Tester",
-      "name_en": "Kenzo Homme Tester",
-      "brand": "Kenzo",
-      "dupe_of": [],
-      "image": "images/kenzo-homme-tester.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 110,
-              "price": 3900,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/kenzo-homme-tester--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "Abo Anas Sayed"
     },
     {
       "id": "khadlaj-25-loyalty",
@@ -88446,9 +88229,26 @@
           ],
           "image": "images/le-beau-le-parfum--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/copy-of-jean-paul-gaultier-le-male-le-parfum-eau-de-perfum-for-men-125ml-1"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 4200,
+              "first_seen": "2026-08-01",
+              "tester": true
+            }
+          ],
+          "image": "images/le-beau-tester--ahmed-abdel-kareem.jpg"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Le Beau Tester"
+      ]
     },
     {
       "id": "le-beau-narcisse",
@@ -88681,31 +88481,6 @@
         }
       ],
       "_hero_source": "perfuzone"
-    },
-    {
-      "id": "le-beau-tester",
-      "name_ar": "Le Beau Tester",
-      "name_en": "Le Beau Tester",
-      "brand": "Jean Paul Gaultier",
-      "dupe_of": [],
-      "image": "images/le-beau-tester.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Ahmed Abdel Kareem",
-          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 125,
-              "price": 4200,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/le-beau-tester--ahmed-abdel-kareem.jpg"
-        }
-      ],
-      "_hero_source": "Ahmed Abdel Kareem"
     },
     {
       "id": "le-chameau-save-elixir",
@@ -89539,6 +89314,13 @@
               "ml": 125,
               "price": 5200,
               "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 4700,
+              "first_seen": "2026-07-30",
+              "tester": true
             }
           ],
           "image": "images/le-male-le-parfum--abo-anas-sayed.jpg"
@@ -89546,8 +89328,9 @@
       ],
       "_hero_source": "sniffz",
       "aliases": [
+        "Le Male Eau De Toilette",
         "Le Male Le Parfum JPG",
-        "Le Male Eau De Toilette"
+        "Le Male Le Parfum Tester"
       ]
     },
     {
@@ -89616,31 +89399,6 @@
         "Le Male Le Parfum Eau de Parfum Intense",
         "Le Male Le Parfum Eau de Parfum Intense 125ml"
       ]
-    },
-    {
-      "id": "le-male-le-parfum-tester",
-      "name_ar": "Le Male Le Parfum Tester",
-      "name_en": "Le Male Le Parfum Tester",
-      "brand": "Jean Paul Gaultier",
-      "dupe_of": [],
-      "image": "images/le-male-le-parfum-tester.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 125,
-              "price": 4700,
-              "first_seen": "2026-07-30"
-            }
-          ],
-          "image": "images/le-male-le-parfum-tester--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "Abo Anas Sayed"
     },
     {
       "id": "le-male-lover-eau-de-perfum",
@@ -89842,8 +89600,8 @@
     },
     {
       "id": "le-parfum-tester",
-      "name_ar": "Le Parfum Tester",
-      "name_en": "Le Parfum Tester",
+      "name_ar": "Le Parfum",
+      "name_en": "Le Parfum",
       "brand": "Mercedes-Benz",
       "dupe_of": [],
       "image": "images/le-parfum-tester.jpg",
@@ -89857,13 +89615,17 @@
               "kind": "full",
               "ml": 120,
               "price": 1550,
-              "first_seen": "2026-08-01"
+              "first_seen": "2026-08-01",
+              "tester": true
             }
           ],
           "image": "images/le-parfum-tester--ahmed-abdel-kareem.jpg"
         }
       ],
-      "_hero_source": "Ahmed Abdel Kareem"
+      "_hero_source": "Ahmed Abdel Kareem",
+      "aliases": [
+        "Le Parfum Tester"
+      ]
     },
     {
       "id": "le-sel-d-iisey-edt",
@@ -93186,9 +92948,26 @@
           ],
           "image": "images/luna-rossa-ocean-eau-de-parfum--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/prada-luna-rossa-ocean-pm027016874984.html"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3700,
+              "first_seen": "2026-07-30",
+              "tester": true
+            }
+          ],
+          "image": "images/ocean-luna-rossa-tester--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "mazaya"
+      "_hero_source": "mazaya",
+      "aliases": [
+        "Ocean Luna Rossa Tester"
+      ]
     },
     {
       "id": "lune-amal",
@@ -95535,19 +95314,7 @@
           ],
           "image": "images/man-terrae-essence-eau-de-parfum--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/bvlgari-man-terrae-essence-eau-de-parfum-PM_BVLGARI_Man_Terrae_Essence_EDP.html"
-        }
-      ],
-      "_hero_source": "mazaya"
-    },
-    {
-      "id": "man-terrae-essence-tester",
-      "name_ar": "Man Terrae Essence Tester",
-      "name_en": "Man Terrae Essence Tester",
-      "brand": "Bvlgari",
-      "dupe_of": [],
-      "image": "images/man-terrae-essence-tester.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "Abo Anas Sayed",
           "url": "https://www.facebook.com/100057793202294",
@@ -95556,13 +95323,17 @@
               "kind": "full",
               "ml": 100,
               "price": 2650,
-              "first_seen": "2026-07-30"
+              "first_seen": "2026-07-30",
+              "tester": true
             }
           ],
           "image": "images/man-terrae-essence-tester--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "Abo Anas Sayed"
+      "_hero_source": "mazaya",
+      "aliases": [
+        "Man Terrae Essence Tester"
+      ]
     },
     {
       "id": "man-wood-essence",
@@ -95739,33 +95510,6 @@
       "aliases": [
         "Instant Crush Eau de Parfum"
       ]
-    },
-    {
-      "id": "mancera-rose-vanilla-tester-box",
-      "name_ar": "مانسيرا روز فانيلا ١٢٠ملي تستر بوكس",
-      "name_en": "MANCERA ROSE VANILLA TESTER BOX",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/mancera-rose-vanilla-tester-box.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 120,
-              "price": 3300,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/mancera-rose-vanilla-tester-box--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/mancera-rose-vanilla-tester-box-120ml%d9%85%d8%a7%d9%86%d8%b3%d9%8a%d8%b1%d8%a7-%d8%b1%d9%88%d8%b2-%d9%81%d8%a7%d9%86%d9%8a%d9%84%d8%a7-%d9%a1%d9%a2%d9%a0%d9%85%d9%84%d9%8a-%d8%aa%d8%b3%d8%aa%d8%b1/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "mandorlo-di-sicilia-eau-de-toilette",
@@ -97912,19 +97656,7 @@
           ],
           "image": "images/meant-to-be-seen--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/meant-to-be-seen-100-ml"
-        }
-      ],
-      "_hero_source": "mazaya"
-    },
-    {
-      "id": "meant-to-be-seen-tester",
-      "name_ar": "Meant To Be Seen Tester",
-      "name_en": "Meant To Be Seen Tester",
-      "brand": "Nishane",
-      "dupe_of": [],
-      "image": "images/meant-to-be-seen-tester.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "Abo Anas Sayed",
           "url": "https://www.facebook.com/100057793202294",
@@ -97933,13 +97665,17 @@
               "kind": "full",
               "ml": 100,
               "price": 10500,
-              "first_seen": "2026-08-01"
+              "first_seen": "2026-08-01",
+              "tester": true
             }
           ],
           "image": "images/meant-to-be-seen-tester--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "Abo Anas Sayed"
+      "_hero_source": "mazaya",
+      "aliases": [
+        "Meant To Be Seen Tester"
+      ]
     },
     {
       "id": "mefisto",
@@ -101325,9 +101061,26 @@
           ],
           "image": "images/momentum-eau-de-toilette--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/bentley-momentum-eau-de-toilette-for-men-100ml"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1400,
+              "first_seen": "2026-08-01",
+              "tester": true
+            }
+          ],
+          "image": "images/momentum-tester--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "feel22",
+      "aliases": [
+        "Momentum Tester"
+      ]
     },
     {
       "id": "momentum-intense-eau-de-parfum",
@@ -101354,31 +101107,6 @@
         }
       ],
       "_hero_source": "feel22"
-    },
-    {
-      "id": "momentum-tester",
-      "name_ar": "Momentum Tester",
-      "name_en": "Momentum Tester",
-      "brand": "Bentley",
-      "dupe_of": [],
-      "image": "images/momentum-tester.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1400,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/momentum-tester--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "Abo Anas Sayed"
     },
     {
       "id": "mon-guerlain",
@@ -101728,8 +101456,8 @@
     },
     {
       "id": "more-than-words-tester",
-      "name_ar": "More Than Words Tester",
-      "name_en": "More Than Words Tester",
+      "name_ar": "More Than Words",
+      "name_en": "More Than Words",
       "brand": "Xerjoff",
       "dupe_of": [],
       "image": "images/more-than-words-tester.jpg",
@@ -101743,13 +101471,17 @@
               "kind": "full",
               "ml": 100,
               "price": 7400,
-              "first_seen": "2026-07-30"
+              "first_seen": "2026-07-30",
+              "tester": true
             }
           ],
           "image": "images/more-than-words-tester--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "Abo Anas Sayed"
+      "_hero_source": "Abo Anas Sayed",
+      "aliases": [
+        "More Than Words Tester"
+      ]
     },
     {
       "id": "morning-girl",
@@ -103782,8 +103514,8 @@
     },
     {
       "id": "my-burberry-black-tester",
-      "name_ar": "My Burberry Black Tester",
-      "name_en": "My Burberry Black Tester",
+      "name_ar": "My Burberry Black",
+      "name_en": "My Burberry Black",
       "brand": "Burberry",
       "dupe_of": [],
       "image": "images/my-burberry-black-tester.jpg",
@@ -103797,18 +103529,22 @@
               "kind": "full",
               "ml": 90,
               "price": 3200,
-              "first_seen": "2026-08-01"
+              "first_seen": "2026-08-01",
+              "tester": true
             }
           ],
           "image": "images/my-burberry-black-tester--ahmed-abdel-kareem.jpg"
         }
       ],
-      "_hero_source": "Ahmed Abdel Kareem"
+      "_hero_source": "Ahmed Abdel Kareem",
+      "aliases": [
+        "My Burberry Black Tester"
+      ]
     },
     {
       "id": "my-euphoria-tester",
-      "name_ar": "My Euphoria Tester",
-      "name_en": "My Euphoria Tester",
+      "name_ar": "My Euphoria",
+      "name_en": "My Euphoria",
       "brand": "Calvin Klein",
       "dupe_of": [],
       "image": "images/my-euphoria-tester.jpg",
@@ -103822,13 +103558,17 @@
               "kind": "full",
               "ml": 100,
               "price": 1800,
-              "first_seen": "2026-08-01"
+              "first_seen": "2026-08-01",
+              "tester": true
             }
           ],
           "image": "images/my-euphoria-tester--ahmed-abdel-kareem.jpg"
         }
       ],
-      "_hero_source": "Ahmed Abdel Kareem"
+      "_hero_source": "Ahmed Abdel Kareem",
+      "aliases": [
+        "My Euphoria Tester"
+      ]
     },
     {
       "id": "my-perfumes-bizarre-eau-de-parfum",
@@ -109292,8 +109032,8 @@
     },
     {
       "id": "nostos-tester",
-      "name_ar": "Nostos Tester",
-      "name_en": "Nostos Tester",
+      "name_ar": "Nostos",
+      "name_en": "Nostos",
       "brand": "Etat Libre d'Orange",
       "dupe_of": [],
       "image": "images/nostos-tester.jpg",
@@ -109307,13 +109047,17 @@
               "kind": "full",
               "ml": 100,
               "price": 6600,
-              "first_seen": "2026-08-01"
+              "first_seen": "2026-08-01",
+              "tester": true
             }
           ],
           "image": "images/nostos-tester--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "Abo Anas Sayed"
+      "_hero_source": "Abo Anas Sayed",
+      "aliases": [
+        "Nostos Tester"
+      ]
     },
     {
       "id": "notes-jazz",
@@ -110902,31 +110646,6 @@
         }
       ],
       "_hero_source": "roseperfume"
-    },
-    {
-      "id": "ocean-luna-rossa-tester",
-      "name_ar": "Ocean Luna Rossa Tester",
-      "name_en": "Ocean Luna Rossa Tester",
-      "brand": "Prada",
-      "dupe_of": [],
-      "image": "images/ocean-luna-rossa-tester.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 3700,
-              "first_seen": "2026-07-30"
-            }
-          ],
-          "image": "images/ocean-luna-rossa-tester--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "Abo Anas Sayed"
     },
     {
       "id": "ocean-the-rive",
@@ -123419,6 +123138,13 @@
               "ml": 100,
               "price": 3000,
               "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2450,
+              "first_seen": "2026-07-30",
+              "tester": true
             }
           ],
           "image": "images/pour-homme-eau-de-toilette-versace--abo-anas-sayed.jpg"
@@ -123427,7 +123153,8 @@
       "_hero_source": "feel22",
       "aliases": [
         "Pour Homme",
-        "Pour Homme EDT"
+        "Pour Homme EDT",
+        "Pour Homme Tester"
       ]
     },
     {
@@ -123542,31 +123269,6 @@
         }
       ],
       "_hero_source": "mazaya"
-    },
-    {
-      "id": "pour-homme-tester",
-      "name_ar": "Pour Homme Tester",
-      "name_en": "Pour Homme Tester",
-      "brand": "Versace",
-      "dupe_of": [],
-      "image": "images/pour-homme-tester.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2450,
-              "first_seen": "2026-07-30"
-            }
-          ],
-          "image": "images/pour-homme-tester--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "Abo Anas Sayed"
     },
     {
       "id": "pour-homme-wild-mint",
@@ -132851,41 +132553,35 @@
               "kind": "full",
               "ml": 120,
               "price": 2750,
-              "first_seen": "2026-08-01"
+              "first_seen": "2026-08-01",
+              "tester": true
             }
           ],
           "image": "images/roses-vanilla--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "og-perfume",
-      "aliases": [
-        "Roses Vanille"
-      ]
-    },
-    {
-      "id": "roses-vanille-tester",
-      "name_ar": "Roses Vanille Tester",
-      "name_en": "Roses Vanille Tester",
-      "brand": "Mancera",
-      "dupe_of": [],
-      "image": "images/roses-vanille-tester.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
               "kind": "full",
               "ml": 120,
-              "price": 2750,
-              "first_seen": "2026-07-30"
+              "price": 3300,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19",
+              "tester": true
             }
           ],
-          "image": "images/roses-vanille-tester--abo-anas-sayed.jpg"
+          "image": "images/mancera-rose-vanilla-tester-box--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/mancera-rose-vanilla-tester-box-120ml%d9%85%d8%a7%d9%86%d8%b3%d9%8a%d8%b1%d8%a7-%d8%b1%d9%88%d8%b2-%d9%81%d8%a7%d9%86%d9%8a%d9%84%d8%a7-%d9%a1%d9%a2%d9%a0%d9%85%d9%84%d9%8a-%d8%aa%d8%b3%d8%aa%d8%b1/"
         }
       ],
-      "_hero_source": "Abo Anas Sayed"
+      "_hero_source": "og-perfume",
+      "aliases": [
+        "MANCERA ROSE VANILLA TESTER BOX",
+        "Roses Vanille",
+        "Roses Vanille Tester"
+      ]
     },
     {
       "id": "roshn",
@@ -135458,19 +135154,7 @@
           ],
           "image": "images/scandal-absolu--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/jean-paul-gaultier-scandal-absolu-parfum-extrait-pm017216775418.html"
-        }
-      ],
-      "_hero_source": "MO Shawky"
-    },
-    {
-      "id": "scandal-absolu-tester",
-      "name_ar": "Scandal Absolu Tester",
-      "name_en": "Scandal Absolu Tester",
-      "brand": "Jean Paul Gaultier",
-      "dupe_of": [],
-      "image": "images/scandal-absolu-tester.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "Abo Anas Sayed",
           "url": "https://www.facebook.com/100057793202294",
@@ -135479,13 +135163,17 @@
               "kind": "full",
               "ml": 100,
               "price": 4200,
-              "first_seen": "2026-07-30"
+              "first_seen": "2026-07-30",
+              "tester": true
             }
           ],
           "image": "images/scandal-absolu-tester--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "Abo Anas Sayed"
+      "_hero_source": "MO Shawky",
+      "aliases": [
+        "Scandal Absolu Tester"
+      ]
     },
     {
       "id": "scandal-eau-de-toilette",
@@ -138626,6 +138314,13 @@
               "ml": 10,
               "price": 2100,
               "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "leftover",
+              "ml": "as-shown",
+              "price": 5950,
+              "first_seen": "2026-01-01",
+              "tester": true
             }
           ],
           "image": "images/shem.jpg"
@@ -138655,30 +138350,9 @@
           ],
           "image": "images/shem--hossam-eldeen-gamal.jpg"
         }
-      ]
-    },
-    {
-      "id": "shem-extrait-de-parfum-tester",
-      "name_ar": "Shem Extrait de Parfum (Tester)",
-      "name_en": "Shem Extrait de Parfum (Tester)",
-      "brand": "Nishane",
-      "dupe_of": [],
-      "image": "images/shem-extrait-de-parfum-tester.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Mostafa Mohamed",
-          "url": "https://www.facebook.com/mostafa.mohamed.390048/",
-          "offers": [
-            {
-              "kind": "leftover",
-              "ml": "as-shown",
-              "price": 5950,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/shem-extrait-de-parfum-tester.jpg"
-        }
+      ],
+      "aliases": [
+        "Shem Extrait de Parfum (Tester)"
       ]
     },
     {
@@ -145649,9 +145323,26 @@
           ],
           "image": "images/stronger-with-you-intensely--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/emporio-armani-stronger-with-you-intensely"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3950,
+              "first_seen": "2026-07-30",
+              "tester": true
+            }
+          ],
+          "image": "images/stronger-with-you-intensely-tester--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Stronger With You Intensely Tester"
+      ]
     },
     {
       "id": "stronger-with-you-intensely-eau-de-parfum",
@@ -145723,31 +145414,6 @@
         }
       ],
       "_hero_source": "faces"
-    },
-    {
-      "id": "stronger-with-you-intensely-tester",
-      "name_ar": "Stronger With You Intensely Tester",
-      "name_en": "Stronger With You Intensely Tester",
-      "brand": "Emporio Armani",
-      "dupe_of": [],
-      "image": "images/stronger-with-you-intensely-tester.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 3950,
-              "first_seen": "2026-07-30"
-            }
-          ],
-          "image": "images/stronger-with-you-intensely-tester--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "Abo Anas Sayed"
     },
     {
       "id": "stronger-with-you-parfum",
@@ -148099,8 +147765,8 @@
     },
     {
       "id": "symphonium-stone-label-tester",
-      "name_ar": "Symphonium Stone Label Tester",
-      "name_en": "Symphonium Stone Label Tester",
+      "name_ar": "Symphonium Stone Label",
+      "name_en": "Symphonium Stone Label",
       "brand": "Xerjoff",
       "dupe_of": [],
       "image": "images/symphonium-stone-label-tester.jpg",
@@ -148114,13 +147780,17 @@
               "kind": "full",
               "ml": 100,
               "price": 12000,
-              "first_seen": "2026-08-01"
+              "first_seen": "2026-08-01",
+              "tester": true
             }
           ],
           "image": "images/symphonium-stone-label-tester--ahmed-abdel-kareem.jpg"
         }
       ],
-      "_hero_source": "Ahmed Abdel Kareem"
+      "_hero_source": "Ahmed Abdel Kareem",
+      "aliases": [
+        "Symphonium Stone Label Tester"
+      ]
     },
     {
       "id": "symphony",
@@ -148217,31 +147887,6 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "tabac-imp-rial-tester",
-      "name_ar": "Tabac Impérial Tester",
-      "name_en": "Tabac Impérial Tester",
-      "brand": "Atelier Versace",
-      "dupe_of": [],
-      "image": "images/tabac-imp-rial-tester.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 4800,
-              "first_seen": "2026-07-30"
-            }
-          ],
-          "image": "images/tabac-imp-rial-tester--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "Abo Anas Sayed"
     },
     {
       "id": "taboo-thnyan-riyadh",
@@ -150895,8 +150540,8 @@
     },
     {
       "id": "the-musc-tester",
-      "name_ar": "The Musc Tester",
-      "name_en": "The Musc Tester",
+      "name_ar": "The Musc",
+      "name_en": "The Musc",
       "brand": "Essential Parfums",
       "dupe_of": [],
       "image": "images/the-musc-tester.jpg",
@@ -150910,13 +150555,17 @@
               "kind": "full",
               "ml": 30,
               "price": 5700,
-              "first_seen": "2026-08-01"
+              "first_seen": "2026-08-01",
+              "tester": true
             }
           ],
           "image": "images/the-musc-tester--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "Abo Anas Sayed"
+      "_hero_source": "Abo Anas Sayed",
+      "aliases": [
+        "The Musc Tester"
+      ]
     },
     {
       "id": "the-one",
@@ -152317,8 +151966,8 @@
     },
     {
       "id": "tilia-tester",
-      "name_ar": "Tilia Tester",
-      "name_en": "Tilia Tester",
+      "name_ar": "Tilia",
+      "name_en": "Tilia",
       "brand": "Atelier des Ors",
       "dupe_of": [],
       "image": "images/tilia-tester.jpg",
@@ -152332,13 +151981,17 @@
               "kind": "full",
               "ml": 100,
               "price": 9600,
-              "first_seen": "2026-07-30"
+              "first_seen": "2026-07-30",
+              "tester": true
             }
           ],
           "image": "images/tilia-tester--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "Abo Anas Sayed"
+      "_hero_source": "Abo Anas Sayed",
+      "aliases": [
+        "Tilia Tester"
+      ]
     },
     {
       "id": "tiramisu-caramel-zimaya",
@@ -154421,9 +154074,26 @@
           ],
           "image": "images/torino-23--mohamed-mohie.jpg",
           "product_url": "https://www.facebook.com/groups/1321209448577265/posts/1951252878906249"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 6800,
+              "first_seen": "2026-08-01",
+              "tester": true
+            }
+          ],
+          "image": "images/torino23-tester--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "Mohamed Mohie"
+      "_hero_source": "Mohamed Mohie",
+      "aliases": [
+        "Torino23 Tester"
+      ]
     },
     {
       "id": "torino-24",
@@ -154492,31 +154162,6 @@
           "product_url": "https://www.facebook.com/groups/1321209448577265/posts/1951252878906249"
         }
       ]
-    },
-    {
-      "id": "torino23-tester",
-      "name_ar": "Torino23 Tester",
-      "name_en": "Torino23 Tester",
-      "brand": "Xerjoff",
-      "dupe_of": [],
-      "image": "images/torino23-tester.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 50,
-              "price": 6800,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/torino23-tester--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "Abo Anas Sayed"
     },
     {
       "id": "touch-eau-de-toilette",
@@ -160320,73 +159965,6 @@
       "_hero_source": "mazaya"
     },
     {
-      "id": "versace-eros-man-edt",
-      "name_ar": "Versace Eros Man EDT",
-      "name_en": "Versace Eros Man EDT",
-      "brand": "Versace",
-      "dupe_of": [],
-      "image": "images/versace-eros-man-edt.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 50,
-              "price": 5100,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 6700,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
-            },
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 8800,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
-            }
-          ],
-          "image": "images/versace-eros-man-edt--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/versace-eros-man-edt"
-        }
-      ],
-      "_hero_source": "mazaya"
-    },
-    {
-      "id": "versace-eros-pour-homme-edp",
-      "name_ar": "Versace Eros Pour Homme EDP",
-      "name_en": "Versace Eros Pour Homme EDP",
-      "brand": "Versace",
-      "dupe_of": [],
-      "image": "images/versace-eros-pour-homme-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 7400,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/versace-eros-pour-homme-edp--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/versace-eros-pour-homme-edp"
-        }
-      ],
-      "_hero_source": "mazaya"
-    },
-    {
       "id": "versencia-rouge",
       "name_ar": "فيرسينشا روچ ١٠٠ملي من الهامبرا",
       "name_en": "Versencia Rouge",
@@ -160864,19 +160442,7 @@
             }
           ],
           "image": "images/vibrato--ahmed-abdel-kareem.jpg"
-        }
-      ],
-      "_hero_source": "sniffz"
-    },
-    {
-      "id": "vibrato-tester",
-      "name_ar": "Vibrato Tester",
-      "name_en": "Vibrato Tester",
-      "brand": "Sospiro",
-      "dupe_of": [],
-      "image": "images/vibrato-tester.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "Abo Anas Sayed",
           "url": "https://www.facebook.com/100057793202294",
@@ -160885,13 +160451,17 @@
               "kind": "full",
               "ml": 100,
               "price": 8000,
-              "first_seen": "2026-08-01"
+              "first_seen": "2026-08-01",
+              "tester": true
             }
           ],
           "image": "images/vibrato-tester--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "Abo Anas Sayed"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Vibrato Tester"
+      ]
     },
     {
       "id": "victoria",
@@ -166137,6 +165707,14 @@
               "price": 5950,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4875,
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20",
+              "tester": true
             }
           ],
           "image": "images/y-eau-de-parfum--eldesoki-fragrances.jpg",
@@ -166220,7 +165798,8 @@
       ],
       "_hero_source": "sniffz",
       "aliases": [
-        "Y EDP Yves Saint Laurent"
+        "Y EDP Yves Saint Laurent",
+        "Y EDP Yves Saint Laurent Tester Box Authentic"
       ]
     },
     {
@@ -166434,33 +166013,6 @@
           ],
           "image": "images/y-edp-refill--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/y-edp-refill-150ml"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "y-edp-yves-saint-laurent-tester-box-authentic",
-      "name_ar": "واي من ايف سان لوران تستر بوكس ١٠٠ملي",
-      "name_en": "Y EDP Yves Saint Laurent Tester Box Authentic",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/y-edp-yves-saint-laurent-tester-box-authentic.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 4875,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
-            }
-          ],
-          "image": "images/y-edp-yves-saint-laurent-tester-box-authentic--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/y-edp-yves-saint-laurent-tester-box-100ml-authentic-%d9%88%d8%a7%d9%8a-%d9%85%d9%86-%d8%a7%d9%8a%d9%81-%d8%b3%d8%a7%d9%86-%d9%84%d9%88%d8%b1%d8%a7%d9%86-%d8%a7%d9%88-%d8%af%d9%88-%d8%a8%d8%a7%d8%b1/"
         }
       ],
       "_hero_source": "eldesoki-fragrances"
@@ -167347,8 +166899,8 @@
     },
     {
       "id": "zen-gi-tester",
-      "name_ar": "Zen'Gi Tester",
-      "name_en": "Zen'Gi Tester",
+      "name_ar": "Zen'Gi",
+      "name_en": "Zen'Gi",
       "brand": "Unique'e Luxury",
       "dupe_of": [],
       "image": "images/zen-gi-tester.jpg",
@@ -167362,13 +166914,17 @@
               "kind": "full",
               "ml": 100,
               "price": 11200,
-              "first_seen": "2026-07-30"
+              "first_seen": "2026-07-30",
+              "tester": true
             }
           ],
           "image": "images/zen-gi-tester--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "Abo Anas Sayed"
+      "_hero_source": "Abo Anas Sayed",
+      "aliases": [
+        "Zen'Gi Tester"
+      ]
     },
     {
       "id": "zenith",

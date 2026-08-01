@@ -406,7 +406,7 @@ const I18N = {
     total:"total", store_total:"total", copy_btn:"Copy list", copy_store_btn:"Copy", copied:"Copied ✓", copy_failed:"Couldn't copy — try another browser",
     clear_all_btn:"Clear all", clear_store_btn:"Clear", cleared:"Cleared ✓",
     added:"Added ✓", remove:"Remove", dupe_of:"Dupe of", duped_by:"Duped by",
-    full_tag:"full bottle", leftover_tag:"with bottle", as_shown:"as shown",
+    full_tag:"full bottle", leftover_tag:"with bottle", as_shown:"as shown", tester_tag:"tester",
     toggle_lang:"العربية", theme_to_light:"☀️", theme_to_dark:"🌙", zoom_close:"Close",
     disclaimer:"Prices shown do not include shipping — each store/seller charges their own delivery fee.",
     better_deal:"Better value:", from_store:"", view_listing:"View listing", new_badge:"New", sold_badge:"Sold",
@@ -432,7 +432,7 @@ const I18N = {
     total:"الإجمالي", store_total:"إجمالي", copy_btn:"نسخ القائمة", copy_store_btn:"نسخ", copied:"تم النسخ ✓", copy_failed:"تعذّر النسخ — جرّب متصفحًا آخر",
     clear_all_btn:"مسح الكل", clear_store_btn:"مسح", cleared:"تم المسح ✓",
     added:"تمت الإضافة ✓", remove:"إزالة", dupe_of:"مستوحى من", duped_by:"مصدر إلهام لـ",
-    full_tag:"زجاجة كاملة", leftover_tag:"باقي تقسيم", as_shown:"كما بالصورة",
+    full_tag:"زجاجة كاملة", leftover_tag:"باقي تقسيم", as_shown:"كما بالصورة", tester_tag:"تستر",
     toggle_lang:"English", theme_to_light:"☀️", theme_to_dark:"🌙", zoom_close:"إغلاق",
     disclaimer:"الأسعار الموضحة لا تشمل الشحن — كل متجر/بائع له مصاريف شحن مختلفة.",
     better_deal:"سعر أفضل:", from_store:"من ", view_listing:"عرض المنتج", new_badge:"جديد", sold_badge:"تم البيع",
@@ -571,9 +571,11 @@ const nlabel = n => lang==="ar" ? (n.label_ar||n.label_en) : (n.label_en||n.labe
 
 function offerLabel(o){
   const size = o.ml==="as-shown" ? t().as_shown : (lang==="ar" ? `${o.ml} مل` : `${o.ml}ml`);
-  if(o.kind==="full") return `${size} "${t().full_tag}"`;
-  if(o.kind==="leftover") return `${size} "${t().leftover_tag}"`;
-  return size;
+  const tags = [];
+  if(o.kind==="full") tags.push(t().full_tag);
+  else if(o.kind==="leftover") tags.push(t().leftover_tag);
+  if(o.tester) tags.push(t().tester_tag);
+  return tags.length ? `${size} "${tags.join(" — ")}"` : size;
 }
 
 const NEW_BADGE_DAYS = 5;

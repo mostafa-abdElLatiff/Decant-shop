@@ -338,7 +338,7 @@ Return ONLY valid JSON, no markdown fences, matching exactly this schema:
   "brand": "brand name in English, empty string if not visible",
   "dupe_of": ["name of the original fragrance(s) this is a dupe/clone of, empty list if none stated"],
   "type": "decant" or "full" or "leftover",
-  "sizes": [{"ml": 3, "price": 100}],
+  "sizes": [{"ml": 3, "price": 100, "tester": false}],
   "notes": [{"label_en": "English note name", "label_ar": "Arabic note label if shown, else empty string"}]
 }
 
@@ -354,6 +354,13 @@ Rules:
   price has no quantity attached at all (e.g. just a price, or text like "as
   shown" / "كما بالصوره" / "Old batch"), set "ml" to the literal string
   "as-shown" instead of guessing a number from the box's printed capacity.
+- "tester": true if the post/box/label calls this specific bottle a
+  "Tester" (تستر), otherwise false. A tester is the SAME fragrance as the
+  regular bottle, just a demo/no-box unit usually sold cheaper — it is NOT
+  a different product. Never put the word "Tester" into "name_en" (or
+  "name_ar"); the tester flag on the size entry is what records this, so
+  this listing merges into the same catalog card as the regular bottle
+  instead of creating a duplicate "X Tester" product.
 - Include every size/price pair you can read. Prices are integers in EGP.
 - "dupe_of" only if the post explicitly says this is inspired by / a dupe of
   another named fragrance — do not guess.
@@ -537,6 +544,18 @@ def strip_redundant_brand_suffix(name: str, brand: str) -> str:
     return stripped
 
 
+_TESTER_SUFFIX_RE = re.compile(r"\s*[-—–]?\s*tester\b\s*$", re.I)
+
+
+def strip_tester_suffix(name: str) -> str:
+    """A tester bottle is the same product as the regular one, just a
+    demo/no-box unit (usually cheaper) -- it must never become its own
+    catalog card. The "tester" flag on the offer is what records this;
+    this is a defensive strip so a stray "Tester" the model still put in
+    name_en (despite the prompt rule) doesn't create a duplicate anyway."""
+    return _TESTER_SUFFIX_RE.sub("", name or "").strip()
+
+
 def to_product(raw: dict, image_rel: str) -> dict:
     notes = [
         {
@@ -548,8 +567,8 @@ def to_product(raw: dict, image_rel: str) -> dict:
         for i, n in enumerate(dedupe_notes(raw.get("notes") or []))
     ]
     brand = raw.get("brand") or ""
-    name_en = strip_redundant_brand_suffix(raw.get("name_en") or "", brand)
-    name_ar = strip_redundant_brand_suffix(raw.get("name_ar") or name_en, brand)
+    name_en = strip_tester_suffix(strip_redundant_brand_suffix(raw.get("name_en") or "", brand))
+    name_ar = strip_tester_suffix(strip_redundant_brand_suffix(raw.get("name_ar") or name_en, brand))
     return {
         "id": slugify(name_en or raw.get("name_ar") or ""),
         "name_ar": name_ar or name_en,
@@ -574,11 +593,16 @@ def to_offers(raw: dict) -> list:
     for s in raw.get("sizes", []):
         if not s.get("price"):
             continue
+        offer = {"kind": kind, "price": int(s["price"])}
+        if s.get("tester"):
+            offer["tester"] = True
         ml = s.get("ml")
         if ml == AS_SHOWN or (isinstance(ml, str) and ml.strip().lower() in ("as shown", "as-shown")):
-            offers.append({"kind": kind, "ml": AS_SHOWN, "price": int(s["price"])})
+            offer["ml"] = AS_SHOWN
+            offers.append(offer)
         elif ml:
-            offers.append({"kind": kind, "ml": int(ml), "price": int(s["price"])})
+            offer["ml"] = int(ml)
+            offers.append(offer)
     return sorted(offers, key=offer_sort_key)
 
 
