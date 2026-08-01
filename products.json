@@ -13656,8 +13656,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2450,
-              "first_seen": "2026-07-18"
+              "price": 2350,
+              "first_seen": "2026-07-18",
+              "prev_price": 2450
             }
           ],
           "image": "images/arrogate-addict--emaratiscents.jpg",
@@ -13860,6 +13861,20 @@
           ],
           "image": "images/arrogate-bakhur--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/arrogate-bakhoor-assaf"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2450,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/arrogate-bakhur--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/arrogate-bakhur-200-ml"
         }
       ],
       "_hero_source": "og-perfume",
@@ -33054,7 +33069,7 @@
               "first_seen": "2026-07-18"
             }
           ],
-          "image": "images/club-de-nuit-precieux-i--emaratiscents.jpg",
+          "image": "images/club-de-nuit-precieux-i-unisex--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/club-de-nuit-precieux-i"
         }
       ],
@@ -50081,7 +50096,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1300,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/essence-de-blanc--emaratiscents.jpg",
@@ -60972,8 +60988,7 @@
               "kind": "full",
               "ml": 75,
               "price": 3700,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-28"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/grey-diamond-collection--emaratiscents.jpg",
@@ -76080,8 +76095,7 @@
               "kind": "full",
               "ml": 200,
               "price": 2200,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-29"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/jassas-ezz-oud--emaratiscents.jpg",
@@ -81731,8 +81745,7 @@
               "kind": "full",
               "ml": 200,
               "price": 2200,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-31"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/klikat-monaya--emaratiscents.jpg",
@@ -91465,7 +91478,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/lion-rayhaan--emaratiscents.jpg",
@@ -119996,6 +120010,20 @@
           ],
           "image": "images/pegasus-bakhur--dar-elarabia.jpg",
           "product_url": "https://darelarabia.com/products/pegasus-bakhur-by-assaf-200-ml"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 2100,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/pegasus-bakhur--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/bakhur-pegasus-100-ml"
         }
       ],
       "_hero_source": "dar.elarabia"
@@ -160201,7 +160229,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1350,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/verus-hot--emaratiscents.jpg",
@@ -164000,8 +164029,7 @@
               "kind": "full",
               "ml": 200,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-01"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/wild-colt--emaratiscents.jpg",
@@ -164210,7 +164238,8 @@
               "kind": "full",
               "ml": 200,
               "price": 2450,
-              "first_seen": "2026-07-31"
+              "first_seen": "2026-07-31",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/wild-colt-boss--emaratiscents.jpg",
@@ -166965,7 +166994,7 @@
               "first_seen": "2026-07-18"
             }
           ],
-          "image": "images/zayed--emaratiscents.jpg",
+          "image": "images/zayed-dkhoon-emirates--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/zayed"
         },
         {
@@ -167770,6 +167799,241 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "oud-bakhur-arrogate",
+      "name_ar": "Oud Bakhur Arrogate",
+      "name_en": "Oud Bakhur Arrogate",
+      "brand": "Assaf",
+      "dupe_of": [],
+      "image": "images/oud-bakhur-arrogate.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 2650,
+              "first_seen": "2026-08-01",
+              "sold_since": "2026-08-01"
+            }
+          ],
+          "image": "images/oud-bakhur-arrogate--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/oud-bakhur-arrogate-150-ml"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "first-night",
+      "name_ar": "First Night",
+      "name_en": "First Night",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/first-night.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 2250,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/first-night--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/first-night-150-ml"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "nomade",
+      "name_ar": "Nomade",
+      "name_en": "Nomade",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/nomade.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2250,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/nomade--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/nomade-200-ml"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "elbrince",
+      "name_ar": "Elbrince",
+      "name_en": "Elbrince",
+      "brand": "Al Majed Oud",
+      "dupe_of": [],
+      "image": "images/elbrince.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 2650,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/elbrince--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/elbrince"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "amber-cashmer",
+      "name_ar": "Amber Cashmer",
+      "name_en": "Amber Cashmer",
+      "brand": "Ghalati",
+      "dupe_of": [],
+      "image": "images/amber-cashmer.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1850,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/amber-cashmer--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/amber-cashmer"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "mont-d-or",
+      "name_ar": "Mont D'Or",
+      "name_en": "Mont D'Or",
+      "brand": "Ghalati",
+      "dupe_of": [],
+      "image": "images/mont-d-or.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2750,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/mont-d-or--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/mont-dor"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "golden-amber",
+      "name_ar": "Golden Amber",
+      "name_en": "Golden Amber",
+      "brand": "Ibraq",
+      "dupe_of": [],
+      "image": "images/golden-amber.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2550,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/golden-amber--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/golden-amber"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "citrine-amber",
+      "name_ar": "Citrine Amber",
+      "name_en": "Citrine Amber",
+      "brand": "Ibraq",
+      "dupe_of": [],
+      "image": "images/citrine-amber.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 1750,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/citrine-amber--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/citrine-amber"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "al-wafia-sandalwood",
+      "name_ar": "Al Wafia Sandalwood",
+      "name_en": "Al Wafia Sandalwood",
+      "brand": "Ibraq",
+      "dupe_of": [],
+      "image": "images/al-wafia-sandalwood.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2550,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/al-wafia-sandalwood--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/al-wafia-sandalwood"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
