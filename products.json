@@ -24116,7 +24116,9 @@
       "name_ar": "ارز",
       "name_en": "Aariz",
       "brand": "Arabiyat Prestige",
-      "dupe_of": [],
+      "dupe_of": [
+        "Vibrato — Sospiro"
+      ],
       "image": "images/aariz.jpg",
       "accords": [],
       "stores": [
@@ -24200,11 +24202,25 @@
             }
           ],
           "image": "images/aqriz.jpg"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1500,
+              "first_seen": "2026-07-30"
+            }
+          ],
+          "image": "images/vibrato-tester--abo-anas-sayed.jpg"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
       "aliases": [
-        "Aqriz"
+        "Aqriz",
+        "Vibrato Tester"
       ]
     },
     {
@@ -32157,9 +32173,25 @@
           ],
           "image": "images/hawas-fire--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/hawas-fire-50ml%d9%87%d9%88%d8%b3-%d9%81%d8%a7%d9%8a%d8%b1-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1800,
+              "first_seen": "2026-07-30"
+            }
+          ],
+          "image": "images/hawas-fire-for-him--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": [
+        "Hawas Fire For Him"
+      ]
     },
     {
       "id": "eau-de-toilette-mercedes-benz",
@@ -55143,9 +55175,25 @@
           ],
           "image": "images/hawas-for-him-malibu--dar-elarabia.jpg",
           "product_url": "https://darelarabia.com/products/hawas-malibu"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1600,
+              "first_seen": "2026-07-30"
+            }
+          ],
+          "image": "images/hawas-malibu-for-him--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Hawas Malibu For Him"
+      ]
     },
     {
       "id": "spray-sakeena",
@@ -86113,9 +86161,25 @@
           ],
           "image": "images/hawas-viper--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/hawas-viper"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1900,
+              "first_seen": "2026-07-30"
+            }
+          ],
+          "image": "images/hawas-viper-for-him--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Hawas Viper For Him"
+      ]
     },
     {
       "id": "black-star-him",
@@ -126156,9 +126220,25 @@
           ],
           "image": "images/hawas-tropical--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/hawas-tropical"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1750,
+              "first_seen": "2026-07-30"
+            }
+          ],
+          "image": "images/hawas-tropical-for-him--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Hawas Tropical For Him"
+      ]
     },
     {
       "id": "the-one-collector",
@@ -140292,9 +140372,25 @@
           ],
           "image": "images/hawas-atlantis--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/hawas-atlantis-rasasi"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1900,
+              "first_seen": "2026-07-30"
+            }
+          ],
+          "image": "images/hawas-atlantis-for-him--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": [
+        "Hawas Atlantis For Him"
+      ]
     },
     {
       "id": "basso",
@@ -154280,31 +154376,6 @@
       "_hero_source": "Abo Anas Sayed"
     },
     {
-      "id": "vibrato-tester",
-      "name_ar": "Vibrato Tester",
-      "name_en": "Vibrato Tester",
-      "brand": "Aariz",
-      "dupe_of": [],
-      "image": "images/vibrato-tester.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1500,
-              "first_seen": "2026-07-30"
-            }
-          ],
-          "image": "images/vibrato-tester--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "Abo Anas Sayed"
-    },
-    {
       "id": "ocean-luna-rossa-tester",
       "name_ar": "Ocean Luna Rossa Tester",
       "name_en": "Ocean Luna Rossa Tester",
@@ -154800,131 +154871,6 @@
             }
           ],
           "image": "images/spicebomb-infrared--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "Abo Anas Sayed"
-    },
-    {
-      "id": "hawas-malibu-for-him",
-      "name_ar": "Hawas Malibu For Him",
-      "name_en": "Hawas Malibu For Him",
-      "brand": "Rasasi",
-      "dupe_of": [],
-      "image": "images/hawas-malibu-for-him.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1600,
-              "first_seen": "2026-07-30"
-            }
-          ],
-          "image": "images/hawas-malibu-for-him--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "Abo Anas Sayed"
-    },
-    {
-      "id": "hawas-viper-for-him",
-      "name_ar": "Hawas Viper For Him",
-      "name_en": "Hawas Viper For Him",
-      "brand": "Rasasi",
-      "dupe_of": [],
-      "image": "images/hawas-viper-for-him.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1900,
-              "first_seen": "2026-07-30"
-            }
-          ],
-          "image": "images/hawas-viper-for-him--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "Abo Anas Sayed"
-    },
-    {
-      "id": "hawas-atlantis-for-him",
-      "name_ar": "Hawas Atlantis For Him",
-      "name_en": "Hawas Atlantis For Him",
-      "brand": "Rasasi",
-      "dupe_of": [],
-      "image": "images/hawas-atlantis-for-him.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1900,
-              "first_seen": "2026-07-30"
-            }
-          ],
-          "image": "images/hawas-atlantis-for-him--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "Abo Anas Sayed"
-    },
-    {
-      "id": "hawas-fire-for-him",
-      "name_ar": "Hawas Fire For Him",
-      "name_en": "Hawas Fire For Him",
-      "brand": "Rasasi",
-      "dupe_of": [],
-      "image": "images/hawas-fire-for-him.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1800,
-              "first_seen": "2026-07-30"
-            }
-          ],
-          "image": "images/hawas-fire-for-him--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "Abo Anas Sayed"
-    },
-    {
-      "id": "hawas-tropical-for-him",
-      "name_ar": "Hawas Tropical For Him",
-      "name_en": "Hawas Tropical For Him",
-      "brand": "Rasasi",
-      "dupe_of": [],
-      "image": "images/hawas-tropical-for-him.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1750,
-              "first_seen": "2026-07-30"
-            }
-          ],
-          "image": "images/hawas-tropical-for-him--abo-anas-sayed.jpg"
         }
       ],
       "_hero_source": "Abo Anas Sayed"
