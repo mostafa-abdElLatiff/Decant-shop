@@ -985,44 +985,6 @@
       "_hero_source": "sniffz"
     },
     {
-      "id": "5-floral-amber-sensual-musk",
-      "name_ar": "5 - Floral Amber Sensual Musk",
-      "name_en": "5 - Floral Amber Sensual Musk",
-      "brand": "Rosendo Mateu",
-      "dupe_of": [],
-      "image": "images/5-floral-amber-sensual-musk.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": null,
-              "price": 3900,
-              "first_seen": "2026-07-30"
-            }
-          ],
-          "image": "images/5-floral-amber-sensual-musk--abo-anas-sayed.jpg"
-        },
-        {
-          "name": "Ahmed Abdel Kareem",
-          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 4200,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/5-floral-amber-sensual-musk--ahmed-abdel-kareem.jpg"
-        }
-      ],
-      "_hero_source": "Abo Anas Sayed"
-    },
-    {
       "id": "51-3-n-eau-de-toilette",
       "name_ar": "51.3 N Eau De Toilette",
       "name_en": "51.3 N Eau De Toilette",
@@ -106429,12 +106391,50 @@
               "ml": 100,
               "price": 4700,
               "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 3900,
+              "first_seen": "2026-07-30"
             }
           ],
           "image": "images/no-5-floral-amber-sensual-musk--abo-anas-sayed.jpg"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4200,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/5-floral-amber-sensual-musk--ahmed-abdel-kareem.jpg"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 5350,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/rosendo-mateu-n-5--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/rosendo-mateu-n-5-100ml%d8%b1%d9%88%d8%b3%d9%8a%d9%86%d8%af%d9%88-%d9%85%d8%a7%d8%aa%d9%8a%d9%88-%d9%86%d9%88%d9%85-%d9%81%d8%a7%d9%8a%d9%81-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "5 - Floral Amber Sensual Musk",
+        "Rosendo Mateu N 5"
+      ]
     },
     {
       "id": "no-6-boss-bottle-eau-de-toilette",
@@ -131559,33 +131559,6 @@
         }
       ],
       "_hero_source": "mazaya"
-    },
-    {
-      "id": "rosendo-mateu-n-5",
-      "name_ar": "روسيندو ماتيو نوم فايف ١٠٠ملي",
-      "name_en": "Rosendo Mateu N 5",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/rosendo-mateu-n-5.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 5350,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/rosendo-mateu-n-5--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/rosendo-mateu-n-5-100ml%d8%b1%d9%88%d8%b3%d9%8a%d9%86%d8%af%d9%88-%d9%85%d8%a7%d8%aa%d9%8a%d9%88-%d9%86%d9%88%d9%85-%d9%81%d8%a7%d9%8a%d9%81-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "roses-vanilla",
