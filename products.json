@@ -43781,6 +43781,12 @@
           "offers": [
             {
               "kind": "decant",
+              "ml": 3,
+              "price": 135,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
               "ml": 5,
               "price": 170,
               "first_seen": "2026-01-01"
@@ -43789,12 +43795,6 @@
               "kind": "decant",
               "ml": 10,
               "price": 250,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 135,
               "first_seen": "2026-01-01"
             }
           ],
@@ -59453,7 +59453,7 @@
               "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/mykonos-glitch--sniffz.jpg",
+          "image": "images/glitch-mykonos--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/mykonos-glitch"
         }
       ],
@@ -123180,7 +123180,7 @@
               "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/pour-homme--sniffz.jpg",
+          "image": "images/pour-homme-eau-de-toilette-versace--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/versace-pour-homme"
         },
         {
