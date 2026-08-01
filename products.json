@@ -52,7 +52,7 @@
               "first_seen": "2026-07-23"
             }
           ],
-          "image": "images/1-million-eau-de-toilette--feel22.jpg",
+          "image": "images/1-million-edt--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/paco-rabanne-1-million-for-men-eau-de-toilette-100ml"
         }
       ],
@@ -3876,7 +3876,7 @@
               "sold_since": "2026-07-26"
             }
           ],
-          "image": "images/acqua-di-gio-profondo--perfuzone.jpg",
+          "image": "images/acqua-di-gi-profondo--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/armani-acqua-di-gio-profondo"
         },
         {
@@ -3902,7 +3902,7 @@
               "first_seen": "2026-07-23"
             }
           ],
-          "image": "images/giorgio-armani-acqua-di-gi-profondo-eau-de-parfum--feel22.jpg",
+          "image": "images/acqua-di-gi-profondo--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/giorgio-armani-acqua-di-gio-profondo-eau-de-parfum-for-men-125ml"
         }
       ],
@@ -9103,8 +9103,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 550,
-              "first_seen": "2026-07-18",
-              "prev_price": 575
+              "first_seen": "2026-07-18"
             },
             {
               "kind": "full",
@@ -9240,7 +9239,7 @@
               "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/ameer-alrehab-perfumes-al-rehab--roseperfume.jpg",
+          "image": "images/ameer-alrehab-perfumes--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/ameer-alrehab-perfumes"
         }
       ],
@@ -12912,7 +12911,7 @@
               "sold_since": "2026-07-23"
             }
           ],
-          "image": "images/eau-de-toilette--feel22.jpg",
+          "image": "images/aramis-edt--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/aramis-eau-de-toilette-for-men"
         }
       ],
@@ -13673,8 +13672,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2450,
-              "first_seen": "2026-07-18"
+              "price": 2350,
+              "first_seen": "2026-07-18",
+              "prev_price": 2450
             }
           ],
           "image": "images/arrogate-addict--emaratiscents.jpg",
@@ -13877,6 +13877,20 @@
           ],
           "image": "images/arrogate-bakhur--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/arrogate-bakhoor-assaf"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2450,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/arrogate-bakhur--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/arrogate-bakhur-200-ml"
         }
       ],
       "_hero_source": "og-perfume",
@@ -13932,7 +13946,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 1975,
+              "price": 2050,
               "first_seen": "2026-07-19"
             }
           ],
@@ -15209,8 +15223,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1100,
-              "first_seen": "2026-07-18",
-              "prev_price": 1125
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/asad-bourbon--eldesoki-fragrances.jpg",
@@ -15420,8 +15433,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1100,
-              "first_seen": "2026-07-18",
-              "prev_price": 1125
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/asad-elixir-lattafa-perfumes--eldesoki-fragrances.jpg",
@@ -23356,7 +23368,7 @@
               "sold_since": "2026-07-23"
             }
           ],
-          "image": "images/bleu-noir-edp--mazaya.jpg",
+          "image": "images/bleu-noir-eau-de-parfum--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/narciso-rodriguez-for-him-eau-de-parfum-bleu-noir"
         }
       ],
@@ -26231,11 +26243,11 @@
               "first_seen": "2026-07-23"
             }
           ],
-          "image": "images/bottled-infinite-eau-de-parfum--mazaya.jpg",
+          "image": "images/boss-bottled-infinite-eau-de-parfum-50ml--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/boss-bottled-infinite-eau-de-parfum123455-html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "mazaya",
       "aliases": [
         "Boss Bottled Infinite Eau de Parfum 50ml",
         "Bottled Infinite Eau de Parfum",
@@ -32011,7 +32023,7 @@
               "sold_since": "2026-07-23"
             }
           ],
-          "image": "images/club-black-men-eau-de-toilette--mazaya.jpg",
+          "image": "images/club-black-edt--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/mercedes-benz-club-black-men-edt123455-html"
         }
       ],
@@ -32316,7 +32328,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 190,
-              "first_seen": "2026-07-26"
+              "first_seen": "2026-07-26",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "full",
@@ -33103,7 +33116,7 @@
               "first_seen": "2026-07-18"
             }
           ],
-          "image": "images/club-de-nuit-precieux-i--emaratiscents.jpg",
+          "image": "images/club-de-nuit-precieux-i-unisex--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/club-de-nuit-precieux-i"
         }
       ],
@@ -33248,14 +33261,14 @@
           "offers": [
             {
               "kind": "full",
-              "ml": 105,
-              "price": 1975,
+              "ml": 5,
+              "price": 3750,
               "first_seen": "2026-07-18"
             },
             {
               "kind": "full",
-              "ml": 5,
-              "price": 3750,
+              "ml": 105,
+              "price": 1975,
               "first_seen": "2026-07-18"
             }
           ],
@@ -38682,7 +38695,7 @@
               "first_seen": "2026-07-23"
             }
           ],
-          "image": "images/declaration-eau-de-toilette--feel22.jpg",
+          "image": "images/declaration-edt--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/cartier-declaration-eau-de-toilette-for-men-100ml"
         }
       ],
@@ -39440,7 +39453,7 @@
               "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/dunhill-desire-blue-edt--eldesoki-fragrances.jpg",
+          "image": "images/desire-blue-eau-de-toilette--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/dunhill-desire-blue-edt-150ml%d8%af%d8%a7%d9%86%d9%87%d9%84-%d8%af%d9%8a%d8%b2%d8%a7%d9%8a%d8%b1-%d8%a8%d9%84%d9%88-%d9%a1%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
@@ -41031,8 +41044,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1750,
-              "first_seen": "2026-07-19"
+              "price": 1650,
+              "first_seen": "2026-07-19",
+              "prev_price": 1750
             }
           ],
           "image": "images/dkhoon-couture--eldesoki-fragrances.jpg",
@@ -42777,9 +42791,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1650,
+              "price": 1550,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 1650
             }
           ],
           "image": "images/dubai-dkhoon-emirates--eldesoki-fragrances.jpg",
@@ -43738,24 +43752,17 @@
           "offers": [
             {
               "kind": "decant",
-              "ml": 30,
-              "price": 400,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-25"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1175,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-25"
-            },
-            {
-              "kind": "decant",
               "ml": 10,
               "price": 150,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-28"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 400,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-25"
             },
             {
               "kind": "leftover",
@@ -43763,6 +43770,13 @@
               "price": 600,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1175,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-25"
             }
           ],
           "image": "images/dynasty--og-perfume.jpg",
@@ -43794,19 +43808,12 @@
             }
           ],
           "image": "images/dynasty--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/dynasty-50ml%d8%af%d9%8a%d9%86%d8%a7%d8%b3%d8%aa%d9%8a-%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d8%b9%d9%84%d8%a8%d8%a9-%d9%85%d8%b7%d8%a8%d9%82%d8%a9-%d8%af%d9%8a%da%a4%d9%88/"
+          "product_url": "https://eldesoki-fragrances.com/product/dynasty-10ml%d8%af%d9%8a%d9%86%d8%a7%d8%b3%d8%aa%d9%8a-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "roseperfume",
           "url": "https://roseperfume.online/",
           "offers": [
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 400,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
-            },
             {
               "kind": "decant",
               "ml": 5,
@@ -43815,18 +43822,25 @@
               "sold_since": "2026-07-22"
             },
             {
-              "kind": "full",
-              "ml": 100,
-              "price": 1200,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-23"
-            },
-            {
               "kind": "decant",
               "ml": 10,
               "price": 150,
               "first_seen": "2026-07-20",
               "sold_since": "2026-07-22"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 400,
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-20"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1200,
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-07-23"
             }
           ],
           "image": "images/dynasty--roseperfume.jpg",
@@ -43838,6 +43852,12 @@
           "offers": [
             {
               "kind": "decant",
+              "ml": 3,
+              "price": 135,
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "decant",
               "ml": 5,
               "price": 170,
               "first_seen": "2026-01-01"
@@ -43846,12 +43866,6 @@
               "kind": "decant",
               "ml": 10,
               "price": 250,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 135,
               "first_seen": "2026-01-01"
             }
           ],
@@ -49373,7 +49387,7 @@
               "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/eros-edt--mo-shawky.jpg",
+          "image": "images/eros-eau-de-toilette--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/versace-eros-edt-10ml-283"
         },
         {
@@ -49388,7 +49402,7 @@
               "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/eros-edt--eldesoki-fragrances.jpg",
+          "image": "images/eros-eau-de-toilette--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/versace-eros-edt-100mltester-box/"
         }
       ],
@@ -50149,7 +50163,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1300,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/essence-de-blanc--emaratiscents.jpg",
@@ -56304,6 +56319,20 @@
           ],
           "image": "images/frankel-storm--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/copy-frankel-aventus-100ml"
+        },
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/frankel-storm--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/assaf-frankel-storm-10ml-168"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -58105,7 +58134,7 @@
               "sold_since": "2026-07-23"
             }
           ],
-          "image": "images/gentleman-edp--mazaya.jpg",
+          "image": "images/gentleman-eau-de-parfum--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/gentleman-edp-200ml"
         }
       ],
@@ -58180,7 +58209,7 @@
               "first_seen": "2026-07-23"
             }
           ],
-          "image": "images/gentleman-edt--mazaya.jpg",
+          "image": "images/gentleman-eau-de-toilette--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/gentleman-edt-100ml"
         }
       ],
@@ -58390,7 +58419,7 @@
             }
           ],
           "image": "images/gentleman-r-serve-priv-e--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/givenchy-gentleman-reserve-privee-3ml-435"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/givenchy-gentleman-reserve-privee-5ml-414"
         },
         {
           "name": "sniffz",
@@ -59527,7 +59556,7 @@
               "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/mykonos-glitch--sniffz.jpg",
+          "image": "images/glitch-mykonos--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/mykonos-glitch"
         }
       ],
@@ -61040,8 +61069,7 @@
               "kind": "full",
               "ml": 75,
               "price": 3700,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-28"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/grey-diamond-collection--emaratiscents.jpg",
@@ -63756,7 +63784,7 @@
               "first_seen": "2026-07-23"
             }
           ],
-          "image": "images/hawas-elixir-eau-de-parfum-unisex-perfume--feel22.jpg",
+          "image": "images/hawas-elixir--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/rasasi-hawas-elixir-eau-de-parfum-unisex-perfume-100ml"
         }
       ],
@@ -68062,7 +68090,7 @@
               "first_seen": "2026-07-19"
             }
           ],
-          "image": "images/kenzo-homme-eau-de-toilette-intense--perfuzone.jpg",
+          "image": "images/homme-eau-de-toilette-intense--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/kenzo-homme-edt-intense"
         },
         {
@@ -68084,7 +68112,7 @@
               "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/kenzo-homme-eau-de-toilette-intense--eldesoki-fragrances.jpg",
+          "image": "images/homme-eau-de-toilette-intense--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/kenzo-edt-intense-110ml%d9%83%d9%8a%d9%86%d8%b2%d9%88-%d8%a7%d9%8a-%d8%af%d9%8a-%d8%aa%d9%8a-%d8%a7%d9%86%d8%aa%d9%86%d8%b3-%d9%a1%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
@@ -71551,11 +71579,11 @@
               "first_seen": "2026-07-23"
             }
           ],
-          "image": "images/infinite-intense-eau-de-parfum--feel22.jpg",
+          "image": "images/infinite-intense-men-eau-de-parfum-100ml--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/bentley-infinite-intense-eau-de-parfum-for-men-100ml"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "feel22",
       "aliases": [
         "Infinite Intense Eau de Parfum",
         "Infinite Intense Men Eau de Parfum 100ml"
@@ -72835,7 +72863,7 @@
               "sold_since": "2026-07-23"
             }
           ],
-          "image": "images/invictus-edt--mazaya.jpg",
+          "image": "images/invictus-eau-de-toilette--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/pr-invictus-edt"
         }
       ],
@@ -76092,11 +76120,18 @@
               "kind": "decant",
               "ml": 5,
               "price": 125,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/jasmin-noir--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/assaf-jasmin-noir-5ml-99"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/assaf-jasmin-noir-10ml-40"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -76158,8 +76193,7 @@
               "kind": "full",
               "ml": 200,
               "price": 2200,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-29"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/jassas-ezz-oud--emaratiscents.jpg",
@@ -76811,7 +76845,7 @@
               "first_seen": "2026-07-23"
             }
           ],
-          "image": "images/joop-homme-eau-de-toilette--feel22.jpg",
+          "image": "images/joop-homme-edt--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/joop-homme-eau-de-toilette-for-men"
         }
       ],
@@ -77497,7 +77531,7 @@
               "sold_since": "2026-07-23"
             }
           ],
-          "image": "images/hugo-just-different-edt--mazaya.jpg",
+          "image": "images/just-different-eau-de-toilette--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/hugo-just-different-edt-125ml"
         }
       ],
@@ -77672,7 +77706,7 @@
               "sold_since": "2026-07-23"
             }
           ],
-          "image": "images/k-edp--mazaya.jpg",
+          "image": "images/k-edp-50ml--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/k-edp"
         },
         {
@@ -77693,11 +77727,11 @@
               "sold_since": "2026-07-30"
             }
           ],
-          "image": "images/dolce-gabbana-k-eau-de-parfum--feel22.jpg",
+          "image": "images/k-edp-50ml--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/dolce-gabbana-k-eau-de-parfum-for-men-100ml"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "feel22",
       "aliases": [
         "Dolce & Gabbana K Eau de Parfum",
         "K EDP 50ML"
@@ -79838,7 +79872,7 @@
               "first_seen": "2026-07-23"
             }
           ],
-          "image": "images/khamrah-dukhan-eau-de-parfum-unisex--feel22.jpg",
+          "image": "images/khamrah-dukhan--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/lattafa-khamrah-dukhan-eau-de-parfum-unisex-100ml"
         }
       ],
@@ -81813,8 +81847,7 @@
               "kind": "full",
               "ml": 200,
               "price": 2200,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-31"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/klikat-monaya--emaratiscents.jpg",
@@ -86933,19 +86966,19 @@
             },
             {
               "kind": "decant",
-              "ml": 10,
-              "price": 720,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
               "ml": 5,
               "price": 395,
               "first_seen": "2026-07-17"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 720,
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/la-vie-est-belle-vanille-nude-women--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lancome-la-vie-est-belle-vanille-nude-women-3ml-442"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lancome-la-vie-est-belle-vanille-nude-women-5ml-383"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -88351,7 +88384,7 @@
             }
           ],
           "image": "images/le-beau-le-parfum--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/jpg-le-beau-le-parfum-3ml-438"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/jpg-le-beau-le-parfum-5ml-418"
         },
         {
           "name": "sniffz",
@@ -90479,7 +90512,7 @@
               "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/legend-edt--mo-shawky.jpg",
+          "image": "images/legend-eau-de-toilette--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/mont-blanc-legend-edt-10ml-270"
         }
       ],
@@ -91568,7 +91601,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/lion-rayhaan--emaratiscents.jpg",
@@ -92402,7 +92436,7 @@
               "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/lord-alrehab-perfumes-al-rehab--roseperfume.jpg",
+          "image": "images/lord-alrehab-perfumes--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/lord-alrehab-perfumes"
         }
       ],
@@ -93429,7 +93463,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 265,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
@@ -95575,19 +95610,19 @@
             },
             {
               "kind": "decant",
-              "ml": 10,
-              "price": 430,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
               "ml": 5,
               "price": 250,
               "first_seen": "2026-07-17"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 430,
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/man-wood-neroli--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/bvlgari-man-wood-neroli-3ml-472"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/bvlgari-man-wood-neroli-5ml-471"
         },
         {
           "name": "faces",
@@ -95615,16 +95650,16 @@
           "offers": [
             {
               "kind": "full",
-              "ml": 100,
-              "price": 5149,
-              "first_seen": "2026-07-30"
-            },
-            {
-              "kind": "full",
               "ml": 60,
               "price": 3400,
               "first_seen": "2026-07-30",
               "sold_since": "2026-07-30"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 5149,
+              "first_seen": "2026-07-30"
             }
           ],
           "image": "images/man-wood-neroli--feel22.jpg",
@@ -101994,15 +102029,8 @@
               "kind": "full",
               "ml": 100,
               "price": 5795,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
-            },
-            {
-              "kind": "full",
-              "ml": 50,
-              "price": 4490,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "first_seen": "2026-08-01",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/mr-burberry-eau-de-parfum--mazaya.jpg",
@@ -102055,7 +102083,7 @@
               "sold_since": "2026-07-23"
             }
           ],
-          "image": "images/mr-burberry-edt--mazaya.jpg",
+          "image": "images/mr-burberry-eau-de-toilette--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/mr-burberry-edt-100-ml"
         }
       ],
@@ -104874,9 +104902,9 @@
           "offers": [
             {
               "kind": "decant",
-              "ml": 10,
-              "price": 485,
-              "first_seen": "2026-01-01"
+              "ml": 3,
+              "price": 185,
+              "first_seen": "2026-07-17"
             },
             {
               "kind": "decant",
@@ -104886,9 +104914,9 @@
             },
             {
               "kind": "decant",
-              "ml": 3,
-              "price": 185,
-              "first_seen": "2026-07-17"
+              "ml": 10,
+              "price": 485,
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/n-roli-botanica--mo-shawky.jpg",
@@ -107395,13 +107423,14 @@
               "sold_since": "2026-07-26"
             }
           ],
-          "image": "images/no-4-apres-l-amour-eau-de-parfum-unisex-perfume--feel22.jpg",
+          "image": "images/no-4-apr-s-l-amour--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/thomas-kosmala-no-4-apres-lamour-eau-de-parfum-unisex-perfume"
         }
       ],
       "aliases": [
         "No.4 Apres L'Amour Eau De Parfum Unisex Perfume"
-      ]
+      ],
+      "_hero_source": "feel22"
     },
     {
       "id": "no-4-apres-l-amour-thomas-kosmala",
@@ -120139,6 +120168,20 @@
           ],
           "image": "images/pegasus-bakhur--dar-elarabia.jpg",
           "product_url": "https://darelarabia.com/products/pegasus-bakhur-by-assaf-200-ml"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 2100,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/pegasus-bakhur--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/bakhur-pegasus-100-ml"
         }
       ],
       "_hero_source": "dar.elarabia"
@@ -123344,7 +123387,7 @@
               "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/pour-homme--sniffz.jpg",
+          "image": "images/pour-homme-eau-de-toilette-versace--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/versace-pour-homme"
         },
         {
@@ -123364,7 +123407,7 @@
               "first_seen": "2026-07-19"
             }
           ],
-          "image": "images/pour-homme--perfuzone.jpg",
+          "image": "images/pour-homme-eau-de-toilette-versace--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/versace-pour-homme-edt"
         },
         {
@@ -123710,7 +123753,7 @@
             }
           ],
           "image": "images/power-of-you-women--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/giorgio-armani-power-of-you-women-3ml-433"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/giorgio-armani-power-of-you-women-5ml-398"
         },
         {
           "name": "sniffz",
@@ -141039,7 +141082,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2018,
+              "price": 2165,
               "first_seen": "2026-07-23"
             }
           ],
@@ -142157,20 +142200,20 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
-              "kind": "decant",
-              "ml": 10,
-              "price": 225,
-              "first_seen": "2026-07-18"
-            },
-            {
               "kind": "leftover",
               "ml": 2,
               "price": 775,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 225,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/soir-laverne--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/soir-laverne-10ml%d8%b3%d9%88%d8%a7%d8%b1-%d9%84%d8%a7%d9%81%d9%8a%d8%b1%d9%86-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/soir-laverne-20ml10ml%d8%b3%d9%88%d8%a7%d8%b1-%d9%84%d8%a7%d9%81%d9%8a%d8%b1%d9%86-%d9%a2%d9%a0%d9%85%d9%84%d9%8a-%d9%88-%d9%a1%d9%a0%d9%85%d9%84%d9%8a-%d8%b2%d8%ac%d8%a7%d8%ac%d9%87-%d8%b5%d8%ba/"
         },
         {
           "name": "roseperfume",
@@ -142340,7 +142383,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 3500,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/soleil-blanc-edp--perfuzone.jpg",
@@ -143300,8 +143344,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1400,
-              "first_seen": "2026-07-20",
-              "prev_price": 1500
+              "first_seen": "2026-07-20"
             }
           ],
           "image": "images/spanish-tobacco--roseperfume.jpg",
@@ -145286,6 +145329,32 @@
             }
           ],
           "image": "images/strike-black.jpg"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 210,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 585,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 2150,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/strike-black--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/strike-black"
         }
       ],
       "_hero_source": "sniffz"
@@ -146143,7 +146212,7 @@
               "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/sugar-musk-ibraq--eldesoki-fragrances.jpg",
+          "image": "images/sugar-musk-75ml--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/sugar-musk-ibraq-75ml%d9%85%d8%b3%d9%83-%d8%b3%d9%83%d8%b1-%d9%85%d9%86-%d8%a7%d8%a8%d8%b1%d8%a7%d9%82-%d9%a7%d9%a5%d9%85%d9%84%d9%8a/"
         }
       ],
@@ -153516,11 +153585,11 @@
               "first_seen": "2026-07-23"
             }
           ],
-          "image": "images/eau-de-toilette-tommy-hilfiger--feel22.jpg",
+          "image": "images/tommy-edt-100ml--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/tommy-hilfiger-eau-de-toilette-for-men-100ml"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "feel22",
       "aliases": [
         "Eau De Toilette",
         "Tommy edt 100ml",
@@ -155249,7 +155318,7 @@
               "first_seen": "2026-07-23"
             }
           ],
-          "image": "images/turathi-electric-eau-de-parfum-unisex--feel22.jpg",
+          "image": "images/turathi-electric--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/afnan-turathi-electric-eau-de-parfum-unisex-90ml"
         }
       ],
@@ -155502,7 +155571,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 220,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/uhud--perfuzone.jpg",
@@ -156607,15 +156677,8 @@
               "kind": "full",
               "ml": 50,
               "price": 7000,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 8000,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "first_seen": "2026-08-01",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/uomo-intense-eau-de-parfum--mazaya.jpg",
@@ -159404,7 +159467,7 @@
               "sold_since": "2026-07-23"
             }
           ],
-          "image": "images/spray-velvet-rose--mazaya.jpg",
+          "image": "images/velvet-rose-eau-de-parfum-unisex--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/spray-velvet-rose-100-ml"
         }
       ],
@@ -160088,8 +160151,7 @@
               "kind": "full",
               "ml": 100,
               "price": 450,
-              "first_seen": "2026-07-18",
-              "prev_price": 500
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/verato-for-men--eldesoki-fragrances.jpg",
@@ -160391,7 +160453,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1350,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/verus-hot--emaratiscents.jpg",
@@ -161274,7 +161337,7 @@
               "first_seen": "2026-07-18"
             }
           ],
-          "image": "images/vintage-tobacco-100ml--eldesoki-fragrances.jpg",
+          "image": "images/vintage-tobacco--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/vintage-tobacco-100ml-10ml%d9%81%d9%8a%d9%86%d8%aa%d8%a7%da%86-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%85%d9%86-%d8%a7%d8%a8%d8%b1%d8%a7%d9%82-%d8%b9%d8%b7%d8%b1-%d9%88%d8%b1%d9%8a%d9%81%d9%84/"
         }
       ],
@@ -162584,7 +162647,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/vulcan-feu--og-perfume.jpg",
@@ -164196,8 +164260,7 @@
               "kind": "full",
               "ml": 200,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-01"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/wild-colt--emaratiscents.jpg",
@@ -164406,7 +164469,8 @@
               "kind": "full",
               "ml": 200,
               "price": 2450,
-              "first_seen": "2026-07-31"
+              "first_seen": "2026-07-31",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/wild-colt-boss--emaratiscents.jpg",
@@ -167165,7 +167229,7 @@
               "first_seen": "2026-07-18"
             }
           ],
-          "image": "images/zayed--emaratiscents.jpg",
+          "image": "images/zayed-dkhoon-emirates--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/zayed"
         },
         {
@@ -167180,7 +167244,7 @@
               "sold_since": "2026-07-20"
             }
           ],
-          "image": "images/zayed--roseperfume.jpg",
+          "image": "images/zayed-dkhoon-emirates--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/zayed-dkhoon-emirates"
         }
       ],
@@ -167944,6 +168008,267 @@
           "image": "images/zumorod--hossam-eldeen-gamal.jpg"
         }
       ]
+    },
+    {
+      "id": "balqees-dakhoon",
+      "name_ar": "بلقيس ١٠٠ملي من دخون",
+      "name_en": "Balqees Dakhoon",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/balqees-dakhoon.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1450,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/balqees-dakhoon--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/balqees-100ml-dakhoon%d8%a8%d9%84%d9%82%d9%8a%d8%b3-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%af%d8%ae%d9%88%d9%86/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "oud-bakhur-arrogate",
+      "name_ar": "Oud Bakhur Arrogate",
+      "name_en": "Oud Bakhur Arrogate",
+      "brand": "Assaf",
+      "dupe_of": [],
+      "image": "images/oud-bakhur-arrogate.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 2650,
+              "first_seen": "2026-08-01",
+              "sold_since": "2026-08-01"
+            }
+          ],
+          "image": "images/oud-bakhur-arrogate--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/oud-bakhur-arrogate-150-ml"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "first-night",
+      "name_ar": "First Night",
+      "name_en": "First Night",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/first-night.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 2250,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/first-night--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/first-night-150-ml"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "nomade",
+      "name_ar": "Nomade",
+      "name_en": "Nomade",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/nomade.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2250,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/nomade--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/nomade-200-ml"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "elbrince",
+      "name_ar": "Elbrince",
+      "name_en": "Elbrince",
+      "brand": "Al Majed Oud",
+      "dupe_of": [],
+      "image": "images/elbrince.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 2650,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/elbrince--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/elbrince"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "amber-cashmer",
+      "name_ar": "Amber Cashmer",
+      "name_en": "Amber Cashmer",
+      "brand": "Ghalati",
+      "dupe_of": [],
+      "image": "images/amber-cashmer.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1850,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/amber-cashmer--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/amber-cashmer"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "mont-d-or",
+      "name_ar": "Mont D'Or",
+      "name_en": "Mont D'Or",
+      "brand": "Ghalati",
+      "dupe_of": [],
+      "image": "images/mont-d-or.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2750,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/mont-d-or--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/mont-dor"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "golden-amber",
+      "name_ar": "Golden Amber",
+      "name_en": "Golden Amber",
+      "brand": "Ibraq",
+      "dupe_of": [],
+      "image": "images/golden-amber.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2550,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/golden-amber--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/golden-amber"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "citrine-amber",
+      "name_ar": "Citrine Amber",
+      "name_en": "Citrine Amber",
+      "brand": "Ibraq",
+      "dupe_of": [],
+      "image": "images/citrine-amber.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 1750,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/citrine-amber--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/citrine-amber"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "al-wafia-sandalwood",
+      "name_ar": "Al Wafia Sandalwood",
+      "name_en": "Al Wafia Sandalwood",
+      "brand": "Ibraq",
+      "dupe_of": [],
+      "image": "images/al-wafia-sandalwood.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2550,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/al-wafia-sandalwood--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/al-wafia-sandalwood"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
