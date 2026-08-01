@@ -2905,6 +2905,18 @@
           ],
           "image": "images/homme-santal-marin--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/kenzo-homme-santal-marin"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 110,
+              "price": 2800,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "perfuzone"
@@ -9349,6 +9361,18 @@
             }
           ],
           "image": "images/ani-x.jpg"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 7500,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ]
     },
@@ -9560,6 +9584,18 @@
           ],
           "image": "images/l-interdit-edp-women--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/givenchy-linterdit-edp-women-5ml-320"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 3200,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "MO Shawky"
@@ -10254,6 +10290,48 @@
           ],
           "image": "images/le-beau-narcisse--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/jean-paul-gaultier-le-beau-narcisse"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 5700,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        },
+        {
+          "name": "Mohamed Mohie",
+          "url": "https://www.facebook.com/mohammett.mohie/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 350,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 650,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 20,
+              "price": 1200,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 1750,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "sniffz"
@@ -10773,6 +10851,18 @@
           ],
           "image": "images/noir-extreme--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/tom-ford-noir-extreme-eau-de-parfum-for-men-100ml"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 6300,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "sniffz",
@@ -13284,6 +13374,18 @@
           ],
           "image": "images/le-male-elixir-absolu--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/jean-paul-gaultier-le-male-elixir-absolu-eau-de-parfum-017217163924.html"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 5700,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "sniffz"
@@ -16666,25 +16768,29 @@
               "kind": "decant",
               "ml": 5,
               "price": 800,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 1500,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 2900,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 4300,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/shalimar-l-essence--mohamed-mohie.jpg",
@@ -16897,25 +17003,29 @@
               "kind": "decant",
               "ml": 5,
               "price": 650,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 1200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 2300,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 3400,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/ganymede--mohamed-mohie.jpg",
@@ -17199,6 +17309,18 @@
           ],
           "image": "images/interlude-black-iris-man--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/interlude-black-iris-man-100ml"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 13900,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "emaratiscents"
@@ -17503,25 +17625,29 @@
               "kind": "decant",
               "ml": 5,
               "price": 400,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 700,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 1300,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 1900,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/cherry-punk--mohamed-mohie.jpg",
@@ -18920,29 +19046,45 @@
               "kind": "decant",
               "ml": 5,
               "price": 300,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 500,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 900,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 1300,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/blu-mediterraneo-mandarino-di-sicilia--mohamed-mohie.jpg",
           "product_url": "https://www.facebook.com/groups/1321209448577265/posts/1951252878906249"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 3900,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "Mohamed Mohie"
@@ -18990,25 +19132,29 @@
               "kind": "decant",
               "ml": 5,
               "price": 750,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 1400,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 2700,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 4000,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/oud-khol-first-batch--mohamed-mohie.jpg",
@@ -19698,25 +19844,29 @@
               "kind": "decant",
               "ml": 5,
               "price": 350,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 650,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 1200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 1650,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/spicebomb-extreme-batch-2020--mohamed-mohie.jpg",
@@ -20553,6 +20703,18 @@
           ],
           "image": "images/terre-d-hermes-parfum--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/hermes-terre-d%E2%80%99hermes-pure-eau-de-parfum-014515559791.html"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 3700,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "MO Shawky",
@@ -21583,25 +21745,29 @@
               "kind": "decant",
               "ml": 5,
               "price": 400,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 700,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 1300,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 1900,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/habit-rouge-parfum--mohamed-mohie.jpg",
@@ -22022,25 +22188,29 @@
               "kind": "decant",
               "ml": 5,
               "price": 500,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 900,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 1700,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 2500,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/musc-k--mohamed-mohie.jpg",
@@ -22803,6 +22973,18 @@
           ],
           "image": "images/n-roli-botanica--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-neroli-botanica-3ml-478"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3900,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "MO Shawky"
@@ -24022,6 +24204,18 @@
           ],
           "image": "images/spicebomb-metallic-musk--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/spicebomb-metallic-musk"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 4200,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "perfuzone"
@@ -28225,6 +28419,18 @@
           ],
           "image": "images/narcotic-delight-eau-de-parfum--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/narcotic-delight-eau-de-parfum-90ml"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 7700,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "mazaya"
@@ -29050,6 +29256,18 @@
           ],
           "image": "images/no-5-floral-amber-sensual-musk--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/rosendo-mateu-nº-5"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4700,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "sniffz"
@@ -31901,25 +32119,29 @@
               "kind": "decant",
               "ml": 5,
               "price": 600,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 1100,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 2100,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 3200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/vibrato--mohamed-mohie.jpg",
@@ -31960,6 +32182,18 @@
           ],
           "image": "images/vibrato--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/sospiro-vibrato"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 4400,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "sniffz"
@@ -32882,6 +33116,18 @@
           ],
           "image": "images/velvet-iris--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-velvet-iris-3ml-481"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3950,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "MO Shawky"
@@ -34682,6 +34928,18 @@
           ],
           "image": "images/amber-empire--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/amber-empire-french-avenue"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 1650,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "sniffz"
@@ -36377,6 +36635,18 @@
           ],
           "image": "images/pour-homme--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/versace-pour-homme-edt"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3000,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "sniffz",
@@ -39111,6 +39381,18 @@
           ],
           "image": "images/bad-boy-le-parfum-edp--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/bad-boy-le-parfum-edp-100ml"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4250,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "feel22",
@@ -40119,6 +40401,12 @@
               "ml": null,
               "price": 4400,
               "first_seen": "2026-07-30"
+            },
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 4300,
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/colognis--abo-anas-sayed.jpg"
@@ -40908,6 +41196,12 @@
               "ml": 100,
               "price": 5200,
               "first_seen": "2026-07-30"
+            },
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 5200,
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/oud-acqua-di-parma--abo-anas-sayed.jpg"
@@ -41968,25 +42262,29 @@
               "kind": "decant",
               "ml": 5,
               "price": 350,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 650,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 1200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 1750,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/myslf-edt-intense--mohamed-mohie.jpg",
@@ -43235,6 +43533,18 @@
             }
           ],
           "image": "images/falcon-leather.jpg"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 9900,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "aliases": [
@@ -43409,6 +43719,48 @@
           ],
           "image": "images/spicebomb-extreme-viktor-rolf--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/viktor-rolf-spicebomb-extreme"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 3750,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        },
+        {
+          "name": "Mohamed Mohie",
+          "url": "https://www.facebook.com/mohammett.mohie/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 350,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 650,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 20,
+              "price": 1200,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 1650,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "MO Shawky"
@@ -44046,25 +44398,29 @@
               "kind": "decant",
               "ml": 5,
               "price": 950,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 1800,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 3500,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 5200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/risvelium--mohamed-mohie.jpg",
@@ -44179,6 +44535,18 @@
           ],
           "image": "images/shaghaf-oud-azraq--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/shaghaf-oud-azraq-swiss-arabian"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 2200,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "eldesoki-fragrances"
@@ -44761,6 +45129,18 @@
           ],
           "image": "images/kutay--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/uniquee-luxury-kutay-100ml"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 5950,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "perfuzone"
@@ -45375,6 +45755,18 @@
           ],
           "image": "images/l-homme-id-al-l-intense--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/guerlain-lhomme-ideal-lintense-eau-de-parfum-for-men-100-ml"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 3000,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "MO Shawky",
@@ -49089,6 +49481,30 @@
           ],
           "image": "images/le-male-le-parfum--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/copy-of-jean-paul-gaultier-le-male-le-parfum-eau-de-perfum-for-men-125ml"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 4400,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 5200,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "sniffz",
@@ -50533,6 +50949,18 @@
           ],
           "image": "images/hersh-2-hersh--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/hersh-2"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2550,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "og-perfume",
@@ -50700,6 +51128,18 @@
           ],
           "image": "images/myslf-le-parfum--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/myslf-le-parfum"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 7200,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "sniffz"
@@ -52357,6 +52797,12 @@
               "ml": 90,
               "price": 3200,
               "first_seen": "2026-07-30"
+            },
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 3900,
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/spicebomb-infrared--abo-anas-sayed.jpg"
@@ -52517,6 +52963,18 @@
           ],
           "image": "images/myslf-l-absolu--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/ysl-myslf-labsolu-eau-de-parfum-pm034817355113.html"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 5999,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "sniffz"
@@ -57237,6 +57695,18 @@
           ],
           "image": "images/cedrat-boise-intense--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/cedrat-boise-intense-120-ml"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 120,
+              "price": 3900,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "eldesoki-fragrances"
@@ -57766,6 +58236,18 @@
           ],
           "image": "images/acqua-di-gi-parfum--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/giorgio-armani-acqua-di-gio-parfum-for-men-75ml"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3700,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "sniffz",
@@ -57795,6 +58277,18 @@
           ],
           "image": "images/white-musk--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/white-musk-100-ml"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2500,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "mazaya"
@@ -60507,25 +61001,29 @@
               "kind": "decant",
               "ml": 5,
               "price": 350,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 600,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 1100,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 1600,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/patchouli-intense--mohamed-mohie.jpg",
@@ -60571,6 +61069,12 @@
               "ml": null,
               "price": 3900,
               "first_seen": "2026-07-30"
+            },
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 3800,
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/guerlain-homme-eau-de-parfum--abo-anas-sayed.jpg"
@@ -62307,6 +62811,36 @@
             }
           ],
           "image": "images/ombre-noire.jpg"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1950,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 1800,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2100,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ]
     },
@@ -64350,6 +64884,18 @@
             }
           ],
           "image": "images/5-floral-amber-sensual-musk--abo-anas-sayed.jpg"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4200,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "Abo Anas Sayed"
@@ -67504,6 +68050,18 @@
           ],
           "image": "images/stronger-with-you-absolutely--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/armani-stronger-with-you-absolutely-copy"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3900,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "sniffz"
@@ -68421,6 +68979,18 @@
           ],
           "image": "images/sauvage-parfum--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/dior-sauvage-parfum-PM_DIOR_Sauvage_Parfum.html"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 65,
+              "price": 3200,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "feel22"
@@ -69198,6 +69768,18 @@
           ],
           "image": "images/interlude-man--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/interlude-man-edp-100ml"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 14200,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "emaratiscents",
@@ -71503,25 +72085,29 @@
               "kind": "decant",
               "ml": 5,
               "price": 300,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 550,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 1000,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 1450,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/stronger-with-you-powerfully--mohamed-mohie.jpg",
@@ -76227,6 +76813,18 @@
             }
           ],
           "image": "images/psych-d-lique.jpg"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 7850,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ]
     },
@@ -79043,9 +79641,33 @@
               "ml": null,
               "price": 5400,
               "first_seen": "2026-07-30"
+            },
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 3950,
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/l-homme-id-al--abo-anas-sayed.jpg"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 70,
+              "price": 2700,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3400,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "Abo Anas Sayed"
@@ -80425,6 +81047,18 @@
             }
           ],
           "image": "images/orange-x-santal--hossam-eldeen-gamal.jpg"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4100,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ]
     },
@@ -84758,6 +85392,18 @@
           ],
           "image": "images/la-vie-est-belle-l-elixir-women--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lancome-la-vie-est-belle-lelixir-women-10ml-384"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 5500,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "MO Shawky"
@@ -89161,6 +89807,18 @@
           ],
           "image": "images/jaguar-classic-black--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/jaguar-classic-black-100ml%d8%ac%d8%a7%d9%83%d9%88%d8%a7%d8%b1-%d9%83%d9%84%d8%a7%d8%b3%d9%8a%d9%83-%d8%a8%d9%84%d8%a7%d9%83-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 900,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "eldesoki-fragrances"
@@ -89483,6 +90141,18 @@
           ],
           "image": "images/le-beau-paradise-garden-edp--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/jean-paul-gaultier-le-beau-paradise-garden-eau-de-parfum-017216988291.html"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 5200,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "perfuzone"
@@ -90666,25 +91336,29 @@
               "kind": "decant",
               "ml": 5,
               "price": 350,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 650,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 1200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 1750,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/replica-neverending-summer--mohamed-mohie.jpg",
@@ -93749,25 +94423,29 @@
               "kind": "decant",
               "ml": 5,
               "price": 350,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 650,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 1200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 1750,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/le-beau-narcisse-new-2026--mohamed-mohie.jpg",
@@ -94062,25 +94740,29 @@
               "kind": "decant",
               "ml": 5,
               "price": 350,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 650,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 1200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 1750,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/platinum-egoiste--mohamed-mohie.jpg",
@@ -94241,29 +94923,45 @@
               "kind": "decant",
               "ml": 5,
               "price": 650,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 1200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 2300,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 3400,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/tilia--mohamed-mohie.jpg",
           "product_url": "https://www.facebook.com/groups/1321209448577265/posts/1951252878906249"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 70,
+              "price": 6800,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ]
     },
@@ -94339,6 +95037,18 @@
           ],
           "image": "images/goddess-parfum--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/burberry-goddess-parfum-3ml-428"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4400,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "MO Shawky"
@@ -95271,25 +95981,29 @@
               "kind": "decant",
               "ml": 5,
               "price": 350,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 650,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 1200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 1750,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/replica-lazy-sunday-morning--mohamed-mohie.jpg",
@@ -95413,25 +96127,29 @@
               "kind": "decant",
               "ml": 5,
               "price": 600,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 1100,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 2100,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 3100,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/basso--mohamed-mohie.jpg",
@@ -97031,25 +97749,29 @@
               "kind": "decant",
               "ml": 5,
               "price": 300,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 500,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 900,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 1300,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/nuit-d-issey-polaris--mohamed-mohie.jpg",
@@ -97237,6 +97959,18 @@
           ],
           "image": "images/la-vie-est-belle-vanille-nude-women--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lancome-la-vie-est-belle-vanille-nude-women-3ml-442"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 5750,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "MO Shawky"
@@ -105217,6 +105951,18 @@
           ],
           "image": "images/l-eau-d-issey-pour-homme-intense--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/issey-miyake-leau-dissey-pour-homme-intense"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 1900,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "perfuzone"
@@ -113915,6 +114661,30 @@
           ],
           "image": "images/man-rain-essence-edp--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/man-rain-essence-edp-100ml"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3850,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3600,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "mazaya"
@@ -114649,6 +115419,12 @@
               "ml": 100,
               "price": 8000,
               "first_seen": "2026-07-30"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 6400,
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/erba-pura--abo-anas-sayed.jpg"
@@ -114830,6 +115606,36 @@
           ],
           "image": "images/greenley--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/parfums-de-marly-greenley"
+        },
+        {
+          "name": "Mohamed Mohie",
+          "url": "https://www.facebook.com/mohammett.mohie/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 500,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 950,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 20,
+              "price": 1800,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 2650,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "sniffz"
@@ -117723,6 +118529,18 @@
           ],
           "image": "images/colonia-pura--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/acqua-di-parma-colonia-pura-eau-de-cologne-PM_ACQUA_DI_PARMA_Colonia_Pura_EDC.html"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 4100,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "faces"
@@ -124765,6 +125583,36 @@
           ],
           "image": "images/verano-edp--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/verano-edp-88ml"
+        },
+        {
+          "name": "Mohamed Mohie",
+          "url": "https://www.facebook.com/mohammett.mohie/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 700,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 1300,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 20,
+              "price": 2500,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 3700,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "mazaya"
@@ -125644,25 +126492,29 @@
               "kind": "decant",
               "ml": 5,
               "price": 400,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 750,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 1400,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 2050,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/pure-musc-blanc--mohamed-mohie.jpg",
@@ -126501,6 +127353,12 @@
               "ml": 120,
               "price": 3500,
               "first_seen": "2026-07-30"
+            },
+            {
+              "kind": "full",
+              "ml": 120,
+              "price": 2750,
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/roses-vanilla--abo-anas-sayed.jpg"
@@ -127758,6 +128616,18 @@
               "ml": 200,
               "price": 2950,
               "first_seen": "2026-07-30"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2900,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "full",
+              "ml": 105,
+              "price": 1650,
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/club-de-nuit-intense-man--abo-anas-sayed.jpg"
@@ -128027,25 +128897,29 @@
               "kind": "decant",
               "ml": 5,
               "price": 350,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 600,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 1100,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 1600,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/l-eau-d-issey-pour-homme-oceanic-expedition--mohamed-mohie.jpg",
@@ -129007,6 +129881,18 @@
           ],
           "image": "images/reflection-man--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/reflection-man-100ml-edp"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 14900,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "emaratiscents"
@@ -129997,6 +130883,18 @@
           ],
           "image": "images/dynasty--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/dynasty-lattafa-perfumes"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1250,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "sniffz"
@@ -133226,6 +134124,18 @@
           ],
           "image": "images/amore-caff--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/mancera-amore-caffe-1"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 3800,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "sniffz"
@@ -134115,25 +135025,29 @@
               "kind": "decant",
               "ml": 5,
               "price": 350,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 650,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 1200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 1750,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/le-male-in-blue--mohamed-mohie.jpg",
@@ -138671,25 +139585,29 @@
               "kind": "decant",
               "ml": 5,
               "price": 350,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 600,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 1100,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 1600,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/vetiver-parfum--mohamed-mohie.jpg",
@@ -139576,6 +140494,18 @@
             }
           ],
           "image": "images/l-homme-id-al-parfum.jpg"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 5300,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ]
     },
@@ -139622,6 +140552,12 @@
               "ml": 125,
               "price": 2700,
               "first_seen": "2026-07-30"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 2750,
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/l-eau-d-issey-pour-homme-eau-de-parfum--abo-anas-sayed.jpg"
@@ -140284,6 +141220,36 @@
             }
           ],
           "image": "images/naxos--abo-anas-sayed.jpg"
+        },
+        {
+          "name": "Mohamed Mohie",
+          "url": "https://www.facebook.com/mohammett.mohie/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 500,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 900,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 20,
+              "price": 1700,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 2500,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ]
     },
@@ -140763,29 +141729,51 @@
               "kind": "decant",
               "ml": 5,
               "price": 300,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 500,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 900,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 1300,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/blu-mediterraneo-mirto-di-panarea--mohamed-mohie.jpg",
           "product_url": "https://www.facebook.com/groups/1321209448577265/posts/1951252878906249"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 6300,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 4600,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "Mohamed Mohie"
@@ -140957,6 +141945,18 @@
           ],
           "image": "images/bottled-night-eau-de-toilette--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/hugo-boss-boss-bottled-night-eau-de-toilette-PM_HUGO_BOSS_Boss_Bottled_Night_EDT.html"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2700,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "feel22"
@@ -144269,6 +145269,12 @@
               "ml": 100,
               "price": 5000,
               "first_seen": "2026-07-30"
+            },
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 5000,
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/ambra-edp--abo-anas-sayed.jpg"
@@ -144534,25 +145540,29 @@
               "kind": "decant",
               "ml": 5,
               "price": 700,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 1300,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 2500,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 3700,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/acqua-di-gi-elixir--mohamed-mohie.jpg",
@@ -146227,25 +147237,29 @@
               "kind": "decant",
               "ml": 5,
               "price": 300,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 550,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 1000,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 1450,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/y-iced-cologne-26--mohamed-mohie.jpg",
@@ -147320,6 +148334,36 @@
           ],
           "image": "images/fan-your-flames--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/fan-your-flames"
+        },
+        {
+          "name": "Mohamed Mohie",
+          "url": "https://www.facebook.com/mohammett.mohie/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 450,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 850,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 20,
+              "price": 1600,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 2350,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "mazaya"
@@ -147609,6 +148653,18 @@
           ],
           "image": "images/chergui--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/serge-lutens-chergui"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4800,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "perfuzone"
@@ -147938,25 +148994,29 @@
               "kind": "decant",
               "ml": 5,
               "price": 300,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 500,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 900,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 1300,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-01"
             }
           ],
           "image": "images/blu-mediterraneo-bergamotto-di-calabria--mohamed-mohie.jpg",
@@ -150737,6 +151797,24 @@
           ],
           "image": "images/sauvage-elixir--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/dior-sauvage-elixir-pm009117422119.html"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 80,
+              "price": 7600,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 5700,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "feel22"
@@ -151036,6 +152114,18 @@
           ],
           "image": "images/bleu-de-chanel-l-exclusif--mohamed-mohie.jpg",
           "product_url": "https://www.facebook.com/groups/1321209448577265/posts/1951252878906249"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 9500,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "sniffz"
@@ -156912,6 +158002,18 @@
           ],
           "image": "images/ambre-sultan--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/serge-lutens"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4400,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "perfuzone"
@@ -159242,6 +160344,18 @@
           ],
           "image": "images/bottled-beyond--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/hugo-boss-bottled-beyond-eau-de-parfum-pm014817369826.html"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3900,
+              "first_seen": "2026-08-01"
+            }
+          ]
         }
       ],
       "_hero_source": "faces"
@@ -165450,6 +166564,1981 @@
         }
       ],
       "_hero_source": "faces"
+    },
+    {
+      "id": "teint-de-neige",
+      "name_ar": "Teint de Neige",
+      "name_en": "Teint de Neige",
+      "brand": "Lorenzo Villoresi Firenze",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 3000,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cloud",
+      "name_ar": "Cloud",
+      "name_en": "Cloud",
+      "brand": "Ariana Grande",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4000,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arden-beauty",
+      "name_ar": "Arden Beauty",
+      "name_en": "Arden Beauty",
+      "brand": "Elizabeth Arden",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1100,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "moustache",
+      "name_ar": "Moustache",
+      "name_en": "Moustache",
+      "brand": "Rochas",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 1999,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gold-tester",
+      "name_ar": "Gold Tester",
+      "name_en": "Gold Tester",
+      "brand": "Burberry",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3600,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "joy-tester",
+      "name_ar": "Joy Tester",
+      "name_en": "Joy Tester",
+      "brand": "Dior",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 3900,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "le-parfum-tester",
+      "name_ar": "Le Parfum Tester",
+      "name_en": "Le Parfum Tester",
+      "brand": "Mercedes-Benz",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 120,
+              "price": 1550,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "my-euphoria-tester",
+      "name_ar": "My Euphoria Tester",
+      "name_en": "My Euphoria Tester",
+      "brand": "Calvin Klein",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1800,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "le-beau-tester",
+      "name_ar": "Le Beau Tester",
+      "name_en": "Le Beau Tester",
+      "brand": "Jean Paul Gaultier",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 4200,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "green-irish-tweed-tester",
+      "name_ar": "Green Irish Tweed Tester",
+      "name_en": "Green Irish Tweed Tester",
+      "brand": "Creed",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 10700,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "akdeniz-tester",
+      "name_ar": "Akdeniz Tester",
+      "name_en": "Akdeniz Tester",
+      "brand": "Unique'e Luxury",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 5700,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tommy",
+      "name_ar": "Tommy",
+      "name_en": "Tommy",
+      "brand": "Tommy Hilfiger",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1700,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "symphonium-stone-label-tester",
+      "name_ar": "Symphonium Stone Label Tester",
+      "name_en": "Symphonium Stone Label Tester",
+      "brand": "Xerjoff",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 12000,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "incident-diplomatique",
+      "name_ar": "Incident Diplomatique",
+      "name_en": "Incident Diplomatique",
+      "brand": "Parfetique",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 6300,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bois-fruit",
+      "name_ar": "Boisé Fruité",
+      "name_en": "Boisé Fruité",
+      "brand": "Montale",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2500,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "petit-matin",
+      "name_ar": "Petit Matin",
+      "name_en": "Petit Matin",
+      "brand": "Maison Francis Kurkdjian",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 5999,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "impadia",
+      "name_ar": "Impadia",
+      "name_en": "Impadia",
+      "brand": "BDK Parfums",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 9900,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "club-black",
+      "name_ar": "Club Black",
+      "name_en": "Club Black",
+      "brand": "Mercedes-Benz",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1750,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2100,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eros",
+      "name_ar": "Eros",
+      "name_en": "Eros",
+      "brand": "Versace",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2999,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "because-it-s-you",
+      "name_ar": "Because It's You",
+      "name_en": "Because It's You",
+      "brand": "Emporio Armani",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4250,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lift-me-up-extrait-de-parfum",
+      "name_ar": "Lift Me Up Extrait de Parfum",
+      "name_en": "Lift Me Up Extrait de Parfum",
+      "brand": "Initio Parfums Prives",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 8800,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sir-ne",
+      "name_ar": "Sirène",
+      "name_en": "Sirène",
+      "brand": "Fragrance Du Bois",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 11400,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        },
+        {
+          "name": "Mohamed Mohie",
+          "url": "https://www.facebook.com/mohammett.mohie/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 900,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 1700,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 20,
+              "price": 3300,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 4900,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bad-boy-cobalt-elixir-tester",
+      "name_ar": "Bad Boy Cobalt Elixir Tester",
+      "name_en": "Bad Boy Cobalt Elixir Tester",
+      "brand": "Carolina Herrera",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3700,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-black",
+      "name_ar": "F Black",
+      "name_en": "F Black",
+      "brand": "Salvatore Ferragamo",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1950,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-scent-elixir",
+      "name_ar": "The Scent Elixir",
+      "name_en": "The Scent Elixir",
+      "brand": "Boss",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4500,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vanilla-kayali",
+      "name_ar": "Vanilla",
+      "name_en": "Vanilla",
+      "brand": "Kayali",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 8500,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "my-burberry-black-tester",
+      "name_ar": "My Burberry Black Tester",
+      "name_en": "My Burberry Black Tester",
+      "brand": "Burberry",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 3200,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caden-armaf",
+      "name_ar": "Caden",
+      "name_en": "Caden",
+      "brand": "Armaf",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 8600,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "second-song",
+      "name_ar": "Second Song",
+      "name_en": "Second Song",
+      "brand": "Lattafa",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1150,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mon-guerlain",
+      "name_ar": "Mon Guerlain",
+      "name_en": "Mon Guerlain",
+      "brand": "Guerlain",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4700,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s-eau-de-parfum-intense-recharge-refill",
+      "name_ar": "Sì Eau de Parfum Intense Recharge Refill",
+      "name_en": "Sì Eau de Parfum Intense Recharge Refill",
+      "brand": "Giorgio Armani",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2800,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "blue-talisman-extrait-de-parfum-ex-nihilo",
+      "name_ar": "Blue Talisman Extrait de Parfum",
+      "name_en": "Blue Talisman Extrait de Parfum",
+      "brand": "Ex Nihilo",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 18999,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shalimar-l-essence-eau-de-parfum-intense",
+      "name_ar": "Shalimar L'Essence Eau de Parfum Intense",
+      "name_en": "Shalimar L'Essence Eau de Parfum Intense",
+      "brand": "Guerlain",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 9500,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lovefest-burning-cherry",
+      "name_ar": "Lovefest Burning Cherry",
+      "name_en": "Lovefest Burning Cherry",
+      "brand": "Kayali",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 8500,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amberful",
+      "name_ar": "Amberful",
+      "name_en": "Amberful",
+      "brand": "Mancera",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 120,
+              "price": 4900,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "donna-born-in-roma",
+      "name_ar": "Donna Born in Roma",
+      "name_en": "Donna Born in Roma",
+      "brand": "Valentino",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 5750,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "id-le-peach-n-roses",
+      "name_ar": "Idôle Peach 'n Roses",
+      "name_en": "Idôle Peach 'n Roses",
+      "brand": "Lancôme",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 5250,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dolce-melodia",
+      "name_ar": "Dolce Melodia",
+      "name_en": "Dolce Melodia",
+      "brand": "Sospiro",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 7500,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mangonifiscent",
+      "name_ar": "Mangonifiscent",
+      "name_en": "Mangonifiscent",
+      "brand": "Unique'e Luxury",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 9999,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-only-one",
+      "name_ar": "The Only One",
+      "name_en": "The Only One",
+      "brand": "Dolce & Gabbana",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 3800,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nawab-of-oudh-intensivo",
+      "name_ar": "Nawab of Oudh Intensivo",
+      "name_en": "Nawab of Oudh Intensivo",
+      "brand": "Ormonde Jayne London",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 88,
+              "price": 8500,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explorer-testeur",
+      "name_ar": "Explorer Testeur",
+      "name_en": "Explorer Testeur",
+      "brand": "Montblanc",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2500,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amber-oud-tobacco-edition",
+      "name_ar": "Amber Oud Tobacco Edition",
+      "name_en": "Amber Oud Tobacco Edition",
+      "brand": "Al Haramain",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2750,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-musc-tester",
+      "name_ar": "The Musc Tester",
+      "name_en": "The Musc Tester",
+      "brand": "Essential Parfums",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 30,
+              "price": 5700,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bois-imp-rial-tester",
+      "name_ar": "Bois Impérial Tester",
+      "name_en": "Bois Impérial Tester",
+      "brand": "Essential Parfums",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 30,
+              "price": 5800,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meant-to-be-seen-tester",
+      "name_ar": "Meant To Be Seen Tester",
+      "name_en": "Meant To Be Seen Tester",
+      "brand": "Nishane",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 10500,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ani-tester",
+      "name_ar": "Ani Tester",
+      "name_en": "Ani Tester",
+      "brand": "Nishane",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 6500,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hacivat-tester",
+      "name_ar": "Hacivat Tester",
+      "name_en": "Hacivat Tester",
+      "brand": "Nishane",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 6900,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eros-flame-pour-homme-tester",
+      "name_ar": "Eros Flame pour homme Tester",
+      "name_en": "Eros Flame pour homme Tester",
+      "brand": "Versace",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2650,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amber-oud-tobacco-edition-tester",
+      "name_ar": "Amber Oud Tobacco Edition Tester",
+      "name_en": "Amber Oud Tobacco Edition Tester",
+      "brand": "Al Haramain",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2450,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "encre-indigo",
+      "name_ar": "Encre Indigo",
+      "name_en": "Encre Indigo",
+      "brand": "Lalique",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 2250,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2600,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nostos-tester",
+      "name_ar": "Nostos Tester",
+      "name_en": "Nostos Tester",
+      "brand": "Etat Libre d'Orange",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 6600,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mon-vetiver",
+      "name_ar": "Mon Vetiver",
+      "name_en": "Mon Vetiver",
+      "brand": "Essential Parfums",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3700,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kenzo-homme-tester",
+      "name_ar": "Kenzo Homme Tester",
+      "name_en": "Kenzo Homme Tester",
+      "brand": "Kenzo",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 110,
+              "price": 3900,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "momentum-tester",
+      "name_ar": "Momentum Tester",
+      "name_en": "Momentum Tester",
+      "brand": "Bentley",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1400,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "white-in-black",
+      "name_ar": "White in Black",
+      "name_en": "White in Black",
+      "brand": "Lalique",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 1750,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vibrato-tester",
+      "name_ar": "Vibrato Tester",
+      "name_en": "Vibrato Tester",
+      "brand": "Sospiro",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 8000,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "under-my-skin",
+      "name_ar": "Under My Skin",
+      "name_en": "Under My Skin",
+      "brand": "Francesca Bianchi",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 6000,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "etruscan-water",
+      "name_ar": "Etruscan Water",
+      "name_en": "Etruscan Water",
+      "brand": "Francesca Bianchi",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 6100,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parfum-pour-homme",
+      "name_ar": "Parfum Pour Homme",
+      "name_en": "Parfum Pour Homme",
+      "brand": "Missoni",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "club-de-nuit-intense-man-pure-perfume",
+      "name_ar": "Club de Nuit Intense Man Pure Perfume",
+      "name_en": "Club de Nuit Intense Man Pure Perfume",
+      "brand": "",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 2700,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "blu-mediterraneo-mandorlo-di-sicilia",
+      "name_ar": "Blu Mediterraneo Mandorlo di Sicilia",
+      "name_en": "Blu Mediterraneo Mandorlo di Sicilia",
+      "brand": "Acqua di Parma",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 5900,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "torino23-tester",
+      "name_ar": "Torino23 Tester",
+      "name_en": "Torino23 Tester",
+      "brand": "Xerjoff",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 6800,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "colonia-c-l-u-b",
+      "name_ar": "Colonia C.L.U.B.",
+      "name_en": "Colonia C.L.U.B.",
+      "brand": "Acqua di Parma",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 4900,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interlude-53-man",
+      "name_ar": "Interlude 53 Man",
+      "name_en": "Interlude 53 Man",
+      "brand": "Amouage",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": null,
+              "price": 18500,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aariz-tester",
+      "name_ar": "Aariz Tester",
+      "name_en": "Aariz Tester",
+      "brand": "Aariz",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1500,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "man-wood-essence",
+      "name_ar": "Man Wood Essence",
+      "name_en": "Man Wood Essence",
+      "brand": "Bvlgari",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3900,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shooting-stars-cruz-del-sur-ii",
+      "name_ar": "Shooting Stars Cruz del Sur II",
+      "name_en": "Shooting Stars Cruz del Sur II",
+      "brand": "Xerjoff",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 8400,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "xerjoff-p-33-blank-page-edition",
+      "name_ar": "Xerjoff P.33 Blank Page Edition",
+      "name_en": "Xerjoff P.33 Blank Page Edition",
+      "brand": "Xerjoff",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Mohamed Mohie",
+          "url": "https://www.facebook.com/mohammett.mohie/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 750,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 1400,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 20,
+              "price": 2700,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 4000,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "casamorati-fiore-d-ulivo",
+      "name_ar": "Casamorati Fiore D'ulivo",
+      "name_en": "Casamorati Fiore D'ulivo",
+      "brand": "Casamorati",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Mohamed Mohie",
+          "url": "https://www.facebook.com/mohammett.mohie/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 450,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 800,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 20,
+              "price": 1500,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 3000,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dior-ambre-nuit",
+      "name_ar": "Dior Ambre Nuit",
+      "name_en": "Dior Ambre Nuit",
+      "brand": "Christian Dior",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Mohamed Mohie",
+          "url": "https://www.facebook.com/mohammett.mohie/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 500,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 900,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 20,
+              "price": 1700,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 2500,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ysl-babycat-raw-bourbon",
+      "name_ar": "YSL Babycat Raw Bourbon",
+      "name_en": "YSL Babycat Raw Bourbon",
+      "brand": "YSL",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Mohamed Mohie",
+          "url": "https://www.facebook.com/mohammett.mohie/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 600,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 1200,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 20,
+              "price": 2100,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 3200,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lift-me-up",
+      "name_ar": "Lift Me Up",
+      "name_en": "Lift Me Up",
+      "brand": "Initio",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Mohamed Mohie",
+          "url": "https://www.facebook.com/mohammett.mohie/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 700,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 1300,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 20,
+              "price": 2500,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 3700,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "habit-rouge-de-cuir-2011-limited-edition",
+      "name_ar": "Habit Rouge de Cuir (2011 Limited Edition)",
+      "name_en": "Habit Rouge de Cuir (2011 Limited Edition)",
+      "brand": "Guerlain",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Mohamed Mohie",
+          "url": "https://www.facebook.com/mohammett.mohie/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 550,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 1000,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 20,
+              "price": 1900,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 2800,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "desert-rosewood",
+      "name_ar": "Desert Rosewood",
+      "name_en": "Desert Rosewood",
+      "brand": "Goldfield & Banks",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Mohamed Mohie",
+          "url": "https://www.facebook.com/mohammett.mohie/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 400,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 750,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 20,
+              "price": 1400,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 2050,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ebano-cologne-concentree",
+      "name_ar": "Ebano Cologne Concentree",
+      "name_en": "Ebano Cologne Concentree",
+      "brand": "Acqua di Parma",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Mohamed Mohie",
+          "url": "https://www.facebook.com/mohammett.mohie/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 600,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 700,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 20,
+              "price": 2100,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 3200,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "myself-le-parfum",
+      "name_ar": "Myself Le Parfum",
+      "name_en": "Myself Le Parfum",
+      "brand": "YSL",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Mohamed Mohie",
+          "url": "https://www.facebook.com/mohammett.mohie/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 350,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 600,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 20,
+              "price": 1100,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 1600,
+              "first_seen": "2026-08-01"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
