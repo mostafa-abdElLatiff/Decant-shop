@@ -633,9 +633,34 @@
           ],
           "image": "images/212-vip-black-elixir-eau-de-parfum--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/carolina-herrera-212-vip-black-elixir-eau-de-parfum-pm005717133161.html"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 5900,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 7800,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-23"
+            }
+          ],
+          "image": "images/212-vip-men-black-edp--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/212-vip-men-black-edp"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "feel22",
+      "aliases": [
+        "212 VIP Men Black EDP"
+      ]
     },
     {
       "id": "212-vip-black-i-love-ny-eau-de-parfum",
@@ -756,40 +781,6 @@
       "_hero_source": "mazaya"
     },
     {
-      "id": "212-vip-men-black-edp",
-      "name_ar": "212 VIP Men Black EDP",
-      "name_en": "212 VIP Men Black EDP",
-      "brand": "Carolina Herrera",
-      "dupe_of": [],
-      "image": "images/212-vip-men-black-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 50,
-              "price": 5900,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 7800,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
-            }
-          ],
-          "image": "images/212-vip-men-black-edp--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/212-vip-men-black-edp"
-        }
-      ],
-      "_hero_source": "mazaya"
-    },
-    {
       "id": "212-vip-men-edt",
       "name_ar": "212 VIP Men EDT",
       "name_en": "212 VIP Men EDT",
@@ -851,39 +842,6 @@
       "aliases": [
         "212 VIP Rosé Love NY women (CH)"
       ]
-    },
-    {
-      "id": "212-vip-ros-love-ny-women-ch",
-      "name_ar": "",
-      "name_en": "212 VIP Rosé Love NY women",
-      "brand": "CH",
-      "dupe_of": [],
-      "image": "images/212-vip-ros-love-ny-women-ch.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "MO Shawky",
-          "url": "https://www.facebook.com/mo.freeto.play/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 285,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-08-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 500,
-              "first_seen": "2026-07-20"
-            }
-          ],
-          "image": "images/212-vip-ros-love-ny-women-ch--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ch-212-vip-rose-love-ny-women-10ml-376"
-        }
-      ],
-      "_hero_source": "MO Shawky"
     },
     {
       "id": "25-experience",
@@ -1919,24 +1877,7 @@
           ],
           "image": "images/9pm-elixir-edp-100-ml--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/afnan-9pm-elixir-edp-100-ml-eaudeparfum-578117504626.html"
-        }
-      ],
-      "_hero_source": "sniffz",
-      "aliases": [
-        "9PM Elixir Tester Box",
-        "9Pm Elixir EDP",
-        "9Pm Elixir EDP 100 ML"
-      ]
-    },
-    {
-      "id": "9pm-elixir-extrait-de-parfum-unisex",
-      "name_ar": "9Pm Elixir Extrait De Parfum Unisex",
-      "name_en": "9Pm Elixir Extrait De Parfum Unisex",
-      "brand": "Afnan",
-      "dupe_of": [],
-      "image": "images/9pm-elixir-extrait-de-parfum-unisex.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "feel22",
           "url": "https://eg.feel22.com/",
@@ -1952,7 +1893,13 @@
           "product_url": "https://eg.feel22.com/products/afnan-9pm-elixir-extrait-de-parfum-unisex-100ml"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "9PM Elixir Tester Box",
+        "9Pm Elixir EDP",
+        "9Pm Elixir EDP 100 ML",
+        "9Pm Elixir Extrait De Parfum Unisex"
+      ]
     },
     {
       "id": "9pm-night-out",
@@ -2541,19 +2488,7 @@
           ],
           "image": "images/9pm-rebel--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/9-pm-rebel-afnan"
-        }
-      ],
-      "_hero_source": "sniffz"
-    },
-    {
-      "id": "9pm-rebel-eau-de-parfum-unisex",
-      "name_ar": "9Pm Rebel Eau de Parfum Unisex",
-      "name_en": "9Pm Rebel Eau de Parfum Unisex",
-      "brand": "Afnan",
-      "dupe_of": [],
-      "image": "images/9pm-rebel-eau-de-parfum-unisex.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "feel22",
           "url": "https://eg.feel22.com/",
@@ -2583,71 +2518,12 @@
           "product_url": "https://www.faces.eg/en/p/afnan-9pm-rebel-edp-100-ml-eaudeparfum-578117504628.html"
         }
       ],
-      "_hero_source": "feel22",
+      "_hero_source": "sniffz",
       "aliases": [
         "9PM REBEL EDP",
-        "9PM REBEL EDP 100 ML"
+        "9PM REBEL EDP 100 ML",
+        "9Pm Rebel Eau de Parfum Unisex"
       ]
-    },
-    {
-      "id": "a-chaos-in-the-ocean",
-      "name_ar": "",
-      "name_en": "A Chaos In The Ocean",
-      "brand": "Paris Corner",
-      "dupe_of": [
-        "Megamare Orto Parisi"
-      ],
-      "image": "images/a-chaos-in-the-ocean.jpg",
-      "accords": [
-        {
-          "label_en": "Bergamot",
-          "label_ar": "البرغموت",
-          "color": "#F9FF52",
-          "w": 100
-        },
-        {
-          "label_en": "Lemon",
-          "label_ar": "الليمون",
-          "color": "#F9FF52",
-          "w": 90
-        },
-        {
-          "label_en": "Ambroxan",
-          "label_ar": "تتكون من الأمبروكسان",
-          "color": "#bc4d10",
-          "w": 80
-        },
-        {
-          "label_en": "Musk",
-          "label_ar": "المسك",
-          "color": "#E7D8EA",
-          "w": 70
-        },
-        {
-          "label_en": "Cedarwood",
-          "label_ar": "خشب الأرز",
-          "color": "#774414",
-          "w": 60
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 925,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/a-chaos-in-the-ocean--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/a-chaos-in-the-ocean-paris-corner"
-        }
-      ],
-      "_hero_source": "roseperfume"
     },
     {
       "id": "aariz",
@@ -2784,9 +2660,26 @@
           ],
           "image": "images/aariz-intense--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/aariz-intense"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1284,
+              "first_seen": "2026-07-23"
+            }
+          ],
+          "image": "images/prestige-aariz-intense-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/arabiyat-prestige-aariz-intense-eau-de-parfum-100ml"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Prestige Aariz Intense Eau De Parfum"
+      ]
     },
     {
       "id": "abaan",
@@ -3088,10 +2981,25 @@
           ],
           "image": "images/absolu-aventus--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/creed-absolu-aventus-2025-full-sealed"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 33550,
+              "first_seen": "2026-07-23"
+            }
+          ],
+          "image": "images/millesime-absolu-aventus--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/millesime-absolu-aventus-100-ml"
         }
       ],
       "aliases": [
-        "Absolu Aventus 2025"
+        "Absolu Aventus 2025",
+        "Millesime Absolu Aventus"
       ],
       "_hero_source": "sniffz"
     },
@@ -3687,38 +3595,6 @@
       ]
     },
     {
-      "id": "acqua-di-gi-parfum-armani-beauty",
-      "name_ar": "",
-      "name_en": "Acqua Di Giò Parfum",
-      "brand": "Armani Beauty",
-      "dupe_of": [],
-      "image": "images/acqua-di-gi-parfum-armani-beauty.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 75,
-              "price": 6300,
-              "first_seen": "2026-08-01"
-            },
-            {
-              "kind": "full",
-              "ml": 125,
-              "price": 7900,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/acqua-di-gi-parfum-armani-beauty--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/armani-acqua-di-gio-eau-de-parfum-PM_GIORGIO_ARMANI_Aqua_Di_Gio_EDP_New.html"
-        }
-      ],
-      "_hero_source": "faces"
-    },
-    {
       "id": "acqua-di-gi-profondo",
       "name_ar": "Acqua Di Giò Profondo",
       "name_en": "Acqua Di Giò Profondo",
@@ -3768,19 +3644,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 275,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "note": "old batch"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 380,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "note": "old batch"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 600,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "note": "old batch"
             }
           ]
         },
@@ -3909,122 +3788,12 @@
       "aliases": [
         "Acqua Di Gio Profondo",
         "Acqua Di Gio Profondo Eau de Parfum",
+        "Acqua di Giò Profondo (Old batch)",
         "Acqua di Giò Profondo EDP",
         "Acqua di Giò Profondo Eau de Parfum",
         "Giorgio Armani Acqua di Giò Profondo Eau de Parfum"
       ],
       "_hero_source": "MO Shawky"
-    },
-    {
-      "id": "acqua-di-gi-profondo-old-batch",
-      "name_ar": "",
-      "name_en": "Acqua di Giò Profondo (Old batch)",
-      "brand": "Giorgio Armani",
-      "dupe_of": [],
-      "image": "images/acqua-di-gi-profondo-old-batch.jpg",
-      "accords": [
-        {
-          "label_en": "Sea Notes",
-          "label_ar": "",
-          "color": "#0E529B",
-          "w": 100
-        },
-        {
-          "label_en": "Aquozone",
-          "label_ar": "",
-          "color": "#0E529B",
-          "w": 90
-        },
-        {
-          "label_en": "Bergamot",
-          "label_ar": "",
-          "color": "#F9FF52",
-          "w": 80
-        },
-        {
-          "label_en": "Green Mandarin",
-          "label_ar": "",
-          "color": "#0E8C1D",
-          "w": 70
-        },
-        {
-          "label_en": "Rosemary",
-          "label_ar": "",
-          "color": "#FE016B",
-          "w": 60
-        },
-        {
-          "label_en": "Lavender",
-          "label_ar": "",
-          "color": "#9B7DB8",
-          "w": 50
-        },
-        {
-          "label_en": "Cypress",
-          "label_ar": "",
-          "color": "#37a089",
-          "w": 40
-        },
-        {
-          "label_en": "Mastic (Lentisque)",
-          "label_ar": "",
-          "color": "#ad8359",
-          "w": 40
-        },
-        {
-          "label_en": "Mineral Notes",
-          "label_ar": "",
-          "color": "#544838",
-          "w": 40
-        },
-        {
-          "label_en": "Musk",
-          "label_ar": "",
-          "color": "#E7D8EA",
-          "w": 40
-        },
-        {
-          "label_en": "Patchouli",
-          "label_ar": "",
-          "color": "#63652e",
-          "w": 40
-        },
-        {
-          "label_en": "Amber",
-          "label_ar": "",
-          "color": "#bc4d10",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 275,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 380,
-              "first_seen": "2026-01-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 600,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/acqua-di-gi-profondo-old-batch--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/armani-acqua-di-gio-profondo"
-        }
-      ],
-      "_hero_source": "sniffz"
     },
     {
       "id": "acqua-di-gio-edp-refill",
@@ -4807,35 +4576,6 @@
       "_hero_source": "emaratiscents",
       "aliases": [
         "Ajayeb Dubai Eau de Parfum"
-      ]
-    },
-    {
-      "id": "ajmal-carbon-edp",
-      "name_ar": "Ajmal Carbon EDP",
-      "name_en": "Ajmal Carbon EDP",
-      "brand": "Ajmal",
-      "dupe_of": [],
-      "image": "images/ajmal-carbon-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1320,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/ajmal-carbon-edp--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/ajmal-carbon-edp-100-ml"
-        }
-      ],
-      "_hero_source": "mazaya",
-      "aliases": [
-        "Carbon Eau de Parfum"
       ]
     },
     {
@@ -6563,6 +6303,12 @@
               "ml": 10,
               "price": 200,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1650,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/al-wisam--eldesoki-fragrances.jpg",
@@ -6599,6 +6345,7 @@
       ],
       "_hero_source": "eldesoki-fragrances",
       "aliases": [
+        "Al Wisam Day",
         "Al Wisam Eau de Parfum"
       ]
     },
@@ -6714,32 +6461,6 @@
       "aliases": [
         "Al Wissam Absolute"
       ]
-    },
-    {
-      "id": "al-wisam-day-rasasi",
-      "name_ar": "الوسام الأبيض من الرصاصي ١٠٠ملي",
-      "name_en": "Al Wisam Day",
-      "brand": "Rasasi",
-      "dupe_of": [],
-      "image": "images/al-wisam-day-rasasi.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1650,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/al-wisam-day-rasasi--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/al-wisam-day-rasasi%d8%a7%d9%84%d9%88%d8%b3%d8%a7%d9%85-%d8%a7%d9%84%d8%a3%d8%a8%d9%8a%d8%b6-%d9%85%d9%86-%d8%a7%d9%84%d8%b1%d8%b5%d8%a7%d8%b5%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "albi",
@@ -6948,19 +6669,7 @@
             }
           ],
           "image": "images/alexandria-ii--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "sniffz"
-    },
-    {
-      "id": "alexandria-ii-batch-2019",
-      "name_ar": "Alexandria II (Batch 2019)",
-      "name_en": "Alexandria II (Batch 2019)",
-      "brand": "Xerjoff",
-      "dupe_of": [],
-      "image": "images/alexandria-ii-batch-2019.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "Mohamed Mohie",
           "url": "https://www.facebook.com/mohammett.mohie/",
@@ -6969,32 +6678,39 @@
               "kind": "decant",
               "ml": 5,
               "price": 1050,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "note": "batch 2019"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 2000,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "note": "batch 2019"
             },
             {
               "kind": "decant",
               "ml": 20,
               "price": 3900,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "note": "batch 2019"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 5800,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "note": "batch 2019"
             }
           ],
           "image": "images/alexandria-ii-batch-2019--mohamed-mohie.jpg",
           "product_url": "https://www.facebook.com/groups/1321209448577265/posts/1951252878906249"
         }
       ],
-      "_hero_source": "Mohamed Mohie"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Alexandria II (Batch 2019)"
+      ]
     },
     {
       "id": "alfares-arabiyat-outory",
@@ -8500,19 +8216,7 @@
           ],
           "image": "images/amber-saffron--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/amber-saffron-french-avenue"
-        }
-      ],
-      "_hero_source": "og-perfume"
-    },
-    {
-      "id": "amber-saffron-extrait",
-      "name_ar": "Amber Saffron Extrait",
-      "name_en": "Amber Saffron Extrait",
-      "brand": "French Avenue",
-      "dupe_of": [],
-      "image": "images/amber-saffron-extrait.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "emaratiscents",
           "url": "https://emaratiscents.com/",
@@ -8521,14 +8225,18 @@
               "kind": "full",
               "ml": 80,
               "price": 2750,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "note": "extrait"
             }
           ],
           "image": "images/amber-saffron-extrait--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/amber-saffron-extrait"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "og-perfume",
+      "aliases": [
+        "Amber Saffron Extrait"
+      ]
     },
     {
       "id": "amber-sky",
@@ -10038,32 +9746,6 @@
       "_hero_source": "mazaya"
     },
     {
-      "id": "anfas-oud",
-      "name_ar": "Anfas Oud",
-      "name_en": "Anfas Oud",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/anfas-oud.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 900,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/anfas-oud--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/anfas-oud"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
       "id": "anfas-oud-eau-de-parfum",
       "name_ar": "Anfas Oud Eau de Parfum",
       "name_en": "Anfas Oud Eau de Parfum",
@@ -10085,9 +9767,26 @@
           ],
           "image": "images/anfas-oud-eau-de-parfum--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/lattafa-anfas-oud-eau-de-parfum-100ml"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 900,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/anfas-oud--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/anfas-oud"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "feel22",
+      "aliases": [
+        "Anfas Oud"
+      ]
     },
     {
       "id": "angel-s-share-by-kilian",
@@ -10128,63 +9827,27 @@
       "_hero_source": "perfuzone"
     },
     {
-      "id": "angels-share",
-      "name_ar": "",
+      "id": "angels-share-kilian",
+      "name_ar": "Angels' Share",
       "name_en": "Angels' Share",
-      "brand": "Killian",
+      "brand": "Kilian",
       "dupe_of": [],
-      "image": "images/angels-share.jpg",
-      "accords": [
-        {
-          "label_en": "Cinnamon",
-          "label_ar": "",
-          "color": "#CC3300",
-          "w": 100
-        },
-        {
-          "label_en": "Tonka Bean",
-          "label_ar": "",
-          "color": "#FFFEC0",
-          "w": 90
-        },
-        {
-          "label_en": "Oak",
-          "label_ar": "",
-          "color": "#774414",
-          "w": 80
-        },
-        {
-          "label_en": "Hedione",
-          "label_ar": "",
-          "color": "#FF5F8D",
-          "w": 70
-        },
-        {
-          "label_en": "Vanilla",
-          "label_ar": "",
-          "color": "#FFFEC0",
-          "w": 60
-        },
-        {
-          "label_en": "Praline",
-          "label_ar": "",
-          "color": "#DDA356",
-          "w": 50
-        },
-        {
-          "label_en": "Sandalwood",
-          "label_ar": "",
-          "color": "#774414",
-          "w": 40
-        },
-        {
-          "label_en": "Candied Almond",
-          "label_ar": "",
-          "color": "#C68E5A",
-          "w": 40
-        }
-      ],
+      "image": "images/angels-share-kilian.jpg",
+      "accords": [],
       "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 13800,
+              "first_seen": "2026-07-30"
+            }
+          ],
+          "image": "images/angels-share-kilian--abo-anas-sayed.jpg"
+        },
         {
           "name": "sniffz",
           "url": "https://sniffz-eg.com/",
@@ -10210,31 +9873,6 @@
           ],
           "image": "images/angels-share--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/killian-angels-share"
-        }
-      ],
-      "_hero_source": "sniffz"
-    },
-    {
-      "id": "angels-share-kilian",
-      "name_ar": "Angels' Share",
-      "name_en": "Angels' Share",
-      "brand": "Kilian",
-      "dupe_of": [],
-      "image": "images/angels-share-kilian.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 13800,
-              "first_seen": "2026-07-30"
-            }
-          ],
-          "image": "images/angels-share-kilian--abo-anas-sayed.jpg"
         }
       ],
       "_hero_source": "Abo Anas Sayed"
@@ -10458,60 +10096,6 @@
       "aliases": [
         "Angham By Oman Luxury"
       ]
-    },
-    {
-      "id": "angham-second-song",
-      "name_ar": "انغام سكند سونج",
-      "name_en": "Angham Second Song",
-      "brand": "Lattafa",
-      "dupe_of": [],
-      "image": "images/angham-second-song.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "EsLam Nasser",
-          "url": "https://www.facebook.com/eslam.nasser.10/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1150,
-              "first_seen": "2026-07-17"
-            }
-          ],
-          "image": "images/angham-second-song--eslam-nasser.jpg"
-        },
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 160,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 675,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1350,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/angham-second-song--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/angham-second-song"
-        }
-      ],
-      "_hero_source": "og-perfume"
     },
     {
       "id": "ani",
@@ -11620,22 +11204,7 @@
           ],
           "image": "images/arabian-tobacco--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/copy-arabian-tobacco-ibrahim-al-qurashi"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances",
-      "aliases": [
-        "Arabian Tobacco Ibraq"
-      ]
-    },
-    {
-      "id": "arabian-tobacco-extrait-de-parfume-unisex",
-      "name_ar": "Arabian Tobacco Extrait De Parfume Unisex",
-      "name_en": "Arabian Tobacco Extrait De Parfume Unisex",
-      "brand": "Ibrahim Al qurashi",
-      "dupe_of": [],
-      "image": "images/arabian-tobacco-extrait-de-parfume-unisex.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "feel22",
           "url": "https://eg.feel22.com/",
@@ -11658,7 +11227,11 @@
           "product_url": "https://eg.feel22.com/products/ibrahim-al-qurashi-arabian-tobacco-extrait-de-parfume-unisex"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Arabian Tobacco Extrait De Parfume Unisex",
+        "Arabian Tobacco Ibraq"
+      ]
     },
     {
       "id": "arabians-tonka",
@@ -13127,38 +12700,6 @@
       "_hero_source": "emaratiscents"
     },
     {
-      "id": "armani-code",
-      "name_ar": "",
-      "name_en": "Armani Code",
-      "brand": "Armani Beauty",
-      "dupe_of": [],
-      "image": "images/armani-code.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 75,
-              "price": 7200,
-              "first_seen": "2026-08-01"
-            },
-            {
-              "kind": "full",
-              "ml": 125,
-              "price": 7800,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/armani-code--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/armani-code-eau-de-parfum-eau-de-parfum-001716814450.html"
-        }
-      ],
-      "_hero_source": "faces"
-    },
-    {
       "id": "armani-code-absolu-parfum",
       "name_ar": "Armani Code Absolu Parfum",
       "name_en": "Armani Code Absolu Parfum",
@@ -13192,7 +12733,7 @@
       "id": "armani-code-parfum",
       "name_ar": "أرماني كود بارفوم (١٢٥ملي)",
       "name_en": "ARMANI CODE Parfum",
-      "brand": "",
+      "brand": "Giorgio Armani",
       "dupe_of": [],
       "image": "images/armani-code-parfum.jpg",
       "accords": [],
@@ -13227,23 +12768,45 @@
               "ml": 125,
               "price": 9800,
               "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 8800,
+              "first_seen": "2026-08-01",
+              "note": "refill"
             }
           ],
           "image": "images/armani-code-parfum--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/armani-code-parfum-extrait-PM_GIORGIO_ARMANI_Armani_Code_Parfum.html"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "armani-code-parfum-refill",
-      "name_ar": "Armani Code Parfum Refill",
-      "name_en": "Armani Code Parfum Refill",
-      "brand": "Giorgio Armani",
-      "dupe_of": [],
-      "image": "images/armani-code-parfum-refill.jpg",
-      "accords": [],
-      "stores": [
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 6400,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 7355,
+              "first_seen": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 8522,
+              "first_seen": "2026-07-23"
+            }
+          ],
+          "image": "images/giorgio-armani-code-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/giorgio-armani-code-parfum-for-men"
+        },
         {
           "name": "mazaya",
           "url": "https://mazaya.eg/",
@@ -13253,40 +12816,19 @@
               "ml": 150,
               "price": 8800,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "sold_since": "2026-07-23",
+              "note": "refill"
             }
           ],
           "image": "images/armani-code-parfum-refill--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/armani-code-parfum-refill-150ml"
         }
       ],
-      "_hero_source": "mazaya"
-    },
-    {
-      "id": "armani-code-parfum-refill-armani-beauty",
-      "name_ar": "",
-      "name_en": "Armani Code Parfum Refill",
-      "brand": "Armani Beauty",
-      "dupe_of": [],
-      "image": "images/armani-code-parfum-refill-armani-beauty.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 8800,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/armani-code-parfum-refill-armani-beauty--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/armani-code-refill-parfum-extrait-001716173537.html"
-        }
-      ],
-      "_hero_source": "faces"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Armani Code Parfum Refill",
+        "Giorgio Armani Code Parfum"
+      ]
     },
     {
       "id": "aromatix",
@@ -14096,22 +13638,7 @@
           ],
           "image": "images/arrogate-comete-200-ml--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/assaf-arrogate-comete-200-ml-635918028112.html"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances",
-      "aliases": [
-        "Arrogate Comete 200 ML"
-      ]
-    },
-    {
-      "id": "arrogate-comete-eau-de-parfum-unisex",
-      "name_ar": "Arrogate Comete Eau de Parfum Unisex",
-      "name_en": "Arrogate Comete Eau de Parfum Unisex",
-      "brand": "Assaf",
-      "dupe_of": [],
-      "image": "images/arrogate-comete-eau-de-parfum-unisex.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "feel22",
           "url": "https://eg.feel22.com/",
@@ -14127,7 +13654,11 @@
           "product_url": "https://eg.feel22.com/products/assaf-arrogate-comete-eau-de-parfum-unisex-200ml"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Arrogate Comete 200 ML",
+        "Arrogate Comete Eau de Parfum Unisex"
+      ]
     },
     {
       "id": "arrogate-euphoria",
@@ -15492,23 +15023,7 @@
           ],
           "image": "images/asad-elixir-lattafa-perfumes--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/spray-asad-elixir-100-ml"
-        }
-      ],
-      "_hero_source": "roseperfume",
-      "aliases": [
-        "Lataffa Asad Elixir",
-        "Spray Asad Elixir"
-      ]
-    },
-    {
-      "id": "asad-elixir-limited-edition",
-      "name_ar": "Asad Elixir (Limited Edition)",
-      "name_en": "Asad Elixir (Limited Edition)",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/asad-elixir-limited-edition.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "emaratiscents",
           "url": "https://emaratiscents.com/",
@@ -15517,14 +15032,20 @@
               "kind": "full",
               "ml": 100,
               "price": 1270,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "note": "limited edition"
             }
           ],
           "image": "images/asad-elixir-limited-edition--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/asad-elixir"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "roseperfume",
+      "aliases": [
+        "Asad Elixir (Limited Edition)",
+        "Lataffa Asad Elixir",
+        "Spray Asad Elixir"
+      ]
     },
     {
       "id": "asad-zanzibar",
@@ -18521,6 +18042,20 @@
               "price": 9300,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 6200,
+              "first_seen": "2026-07-30",
+              "sold_since": "2026-07-30"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 8700,
+              "first_seen": "2026-07-30",
+              "sold_since": "2026-07-30"
             }
           ],
           "image": "images/bad-boy-cobalt-elixir--mazaya.jpg",
@@ -18542,6 +18077,18 @@
               "ml": 100,
               "price": 5910,
               "first_seen": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 5733,
+              "first_seen": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 7804,
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/bad-boy-cobalt-elixir--feel22.jpg",
@@ -18555,6 +18102,12 @@
               "kind": "full",
               "ml": 100,
               "price": 9300,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 8700,
               "first_seen": "2026-08-01"
             }
           ],
@@ -18580,7 +18133,9 @@
       "aliases": [
         "Bad Boy Cobalt Elixir 100Ml",
         "Bad Boy Cobalt Elixir Eau de Parfum",
-        "Bad Boy Cobalt Elixir Tester"
+        "Bad Boy Cobalt Elixir Tester",
+        "Bad Boy Elixir",
+        "Bad Boy Elixir Eau de Parfum"
       ]
     },
     {
@@ -18614,77 +18169,6 @@
         }
       ],
       "_hero_source": "feel22"
-    },
-    {
-      "id": "bad-boy-elixir",
-      "name_ar": "Bad Boy Elixir",
-      "name_en": "Bad Boy Elixir",
-      "brand": "Carolina Herrera",
-      "dupe_of": [],
-      "image": "images/bad-boy-elixir.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 50,
-              "price": 6200,
-              "first_seen": "2026-07-30",
-              "sold_since": "2026-07-30"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 8700,
-              "first_seen": "2026-07-30",
-              "sold_since": "2026-07-30"
-            }
-          ],
-          "image": "images/bad-boy-elixir--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/bad-boy-elixir-50-ml"
-        },
-        {
-          "name": "feel22",
-          "url": "https://eg.feel22.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 50,
-              "price": 5733,
-              "first_seen": "2026-07-23"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 7804,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/bad-boy-elixir--feel22.jpg",
-          "product_url": "https://eg.feel22.com/products/carolina-herrera-bad-boy-elixir-eau-de-parfum-for-men"
-        },
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 8700,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/bad-boy-elixir--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/carolina-herrera-bad-boy-elixir-eau-de-parfum-pm005717150502.html"
-        }
-      ],
-      "_hero_source": "mazaya",
-      "aliases": [
-        "Bad Boy Elixir Eau de Parfum"
-      ]
     },
     {
       "id": "bad-boy-extreme-eau-de-parfum",
@@ -20165,64 +19649,6 @@
       "_hero_source": "emaratiscents"
     },
     {
-      "id": "bby-hero-edp",
-      "name_ar": "BBY Hero EDP",
-      "name_en": "BBY Hero EDP",
-      "brand": "Burberry",
-      "dupe_of": [],
-      "image": "images/bby-hero-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 8420,
-              "first_seen": "2026-07-23"
-            },
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 10120,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/bby-hero-edp--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/bby-hero-edp"
-        }
-      ],
-      "_hero_source": "mazaya"
-    },
-    {
-      "id": "bby-hero-elixr-perfum",
-      "name_ar": "Bby Hero Elixr Perfum",
-      "name_en": "Bby Hero Elixr Perfum",
-      "brand": "Burberry",
-      "dupe_of": [],
-      "image": "images/bby-hero-elixr-perfum.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 60,
-              "price": 8500,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/bby-hero-elixr-perfum--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/bby-hero-elixr-perfum-60ml"
-        }
-      ],
-      "_hero_source": "mazaya"
-    },
-    {
       "id": "be-your-own-ikon-eau-de-parfum",
       "name_ar": "Be Your Own Ikon Eau de Parfum",
       "name_en": "Be Your Own Ikon Eau de Parfum",
@@ -20632,32 +20058,6 @@
         }
       ],
       "_hero_source": "mazaya"
-    },
-    {
-      "id": "bentley-for-men-intense",
-      "name_ar": "بنتلي فور من انتنس ١٠٠ملي",
-      "name_en": "Bentley For Men Intense",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/bentley-for-men-intense.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1875,
-              "first_seen": "2026-07-20"
-            }
-          ],
-          "image": "images/bentley-for-men-intense--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/bentley-intense%d8%a8%d9%86%d8%aa%d9%84%d9%8a-%d8%a5%d9%86%d8%aa%d9%86%d8%b3/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "bergamask",
@@ -21479,19 +20879,7 @@
           ],
           "image": "images/black-afgano--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/black-afgano-30-ml"
-        }
-      ],
-      "_hero_source": "sniffz"
-    },
-    {
-      "id": "black-afgano-extrait-de-parfum",
-      "name_ar": "Black Afgano Extrait de Parfum",
-      "name_en": "Black Afgano Extrait de Parfum",
-      "brand": "Nasomatto",
-      "dupe_of": [],
-      "image": "images/black-afgano-extrait-de-parfum.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "feel22",
           "url": "https://eg.feel22.com/",
@@ -21507,7 +20895,10 @@
           "product_url": "https://eg.feel22.com/products/nasomatto-black-afgano-extrait-de-parfum-for-men-30ml"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Black Afgano Extrait de Parfum"
+      ]
     },
     {
       "id": "black-aoud",
@@ -21553,6 +20944,13 @@
               "ml": 100,
               "price": 10120,
               "first_seen": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 9200,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-23"
             }
           ],
           "image": "images/black-aoud--mazaya.jpg",
@@ -21575,35 +20973,9 @@
       ],
       "_hero_source": "perfuzone",
       "aliases": [
+        "Black Aoud By Eau de Parfum",
         "Black Aoud Tester"
       ]
-    },
-    {
-      "id": "black-aoud-by-eau-de-parfum",
-      "name_ar": "Black Aoud By Eau de Parfum",
-      "name_en": "Black Aoud By Eau de Parfum",
-      "brand": "Montale",
-      "dupe_of": [],
-      "image": "images/black-aoud-by-eau-de-parfum.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 9200,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
-            }
-          ],
-          "image": "images/black-aoud-by-eau-de-parfum--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/montale-black-aoud-by-montale-for-men-eau-de-parfum123455-html"
-        }
-      ],
-      "_hero_source": "mazaya"
     },
     {
       "id": "black-bisht",
@@ -25342,32 +24714,6 @@
       "_hero_source": "eldesoki-fragrances"
     },
     {
-      "id": "bois-de-nuit-intense",
-      "name_ar": "بوا دي نوي انتنس مان ١٠٠ملي من لابونير",
-      "name_en": "Bois De Nuit Intense",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/bois-de-nuit-intense.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1375,
-              "first_seen": "2026-07-20"
-            }
-          ],
-          "image": "images/bois-de-nuit-intense--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/bois-de-nuit-intense-100ml%d8%a8%d9%88%d8%a7-%d8%af%d9%8a-%d9%86%d9%88%d9%8a-%d8%a7%d9%86%d8%aa%d9%86%d8%b3-%d9%85%d8%a7%d9%86-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%84%d8%a7%d8%a8/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "bois-de-nuit-intense-man",
       "name_ar": "Bois De Nuit Intense Man",
       "name_en": "Bois De Nuit Intense Man",
@@ -25389,9 +24735,26 @@
           ],
           "image": "images/bois-de-nuit-intense-man--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/bois-de-nuit-intense-man"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1375,
+              "first_seen": "2026-07-20"
+            }
+          ],
+          "image": "images/bois-de-nuit-intense--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/bois-de-nuit-intense-100ml%d8%a8%d9%88%d8%a7-%d8%af%d9%8a-%d9%86%d9%88%d9%8a-%d8%a7%d9%86%d8%aa%d9%86%d8%b3-%d9%85%d8%a7%d9%86-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%84%d8%a7%d8%a8/"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Bois De Nuit Intense"
+      ]
     },
     {
       "id": "bois-fruit",
@@ -25791,31 +25154,6 @@
         }
       ],
       "_hero_source": "feel22"
-    },
-    {
-      "id": "born-in-roma-intense",
-      "name_ar": "Born In Roma Intense",
-      "name_en": "Born In Roma Intense",
-      "brand": "Valentino",
-      "dupe_of": [],
-      "image": "images/born-in-roma-intense.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 5400,
-              "first_seen": "2026-07-30"
-            }
-          ],
-          "image": "images/born-in-roma-intense--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "Abo Anas Sayed"
     },
     {
       "id": "born-in-roma-ivory-uomo",
@@ -27673,32 +27011,6 @@
       "_hero_source": "og-perfume"
     },
     {
-      "id": "cafee-latte-khadlaj",
-      "name_ar": "كافيه لاتيه من خادلاچ ١٠٠ملي",
-      "name_en": "Cafee Latte Khadlaj",
-      "brand": "Khadlaj",
-      "dupe_of": [],
-      "image": "images/cafee-latte-khadlaj.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1375,
-              "first_seen": "2026-07-20"
-            }
-          ],
-          "image": "images/cafee-latte-khadlaj--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/cafee-latte-khadlaj%d9%83%d8%a7%d9%81%d9%8a%d9%87-%d9%84%d8%a7%d8%aa%d9%8a%d9%87-%d9%85%d9%86-%d8%ae%d8%a7%d8%af%d9%84%d8%a7%da%86/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "caffe-latte",
       "name_ar": "Caffe Latte",
       "name_en": "Caffe Latte",
@@ -27771,7 +27083,8 @@
       ],
       "_hero_source": "emaratiscents",
       "aliases": [
-        "Cafee Latte"
+        "Cafee Latte",
+        "Cafee Latte Khadlaj"
       ]
     },
     {
@@ -28087,7 +27400,7 @@
       "id": "caramel-chocolate-macaron",
       "name_ar": "Caramel Chocolate Macaron",
       "name_en": "Caramel Chocolate Macaron",
-      "brand": "",
+      "brand": "Arabiyat Prestige",
       "dupe_of": [],
       "image": "images/caramel-chocolate-macaron.jpg",
       "accords": [],
@@ -28125,19 +27438,7 @@
           ],
           "image": "images/caramel-chocolate-macaron--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/copy-mango-affogato"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "caramel-chocolate-macaron-arabiyat-sugar",
-      "name_ar": "",
-      "name_en": "Caramel Chocolate Macaron Arabiyat Sugar",
-      "brand": "Arabiyat Prestige",
-      "dupe_of": [],
-      "image": "images/caramel-chocolate-macaron-arabiyat-sugar.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "roseperfume",
           "url": "https://roseperfume.online/",
@@ -28165,7 +27466,10 @@
           "product_url": "https://roseperfume.online/products/caramel-chocolate-macaron-arabiyat-sugar"
         }
       ],
-      "_hero_source": "roseperfume"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Caramel Chocolate Macaron Arabiyat Sugar"
+      ]
     },
     {
       "id": "caramel-latte",
@@ -28329,9 +27633,27 @@
           ],
           "image": "images/carbon-man-eau-de-parfum--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/ajmal-carbon-man-eau-de-parfum-100ml"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1320,
+              "first_seen": "2026-07-23"
+            }
+          ],
+          "image": "images/ajmal-carbon-edp--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/ajmal-carbon-edp-100-ml"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "feel22",
+      "aliases": [
+        "Ajmal Carbon EDP",
+        "Carbon Eau de Parfum"
+      ]
     },
     {
       "id": "cardamom-body-oud",
@@ -28941,31 +28263,6 @@
       "_hero_source": "perfuzone"
     },
     {
-      "id": "cedrat-bois-intense-extrait-de-parfum",
-      "name_ar": "Cedrat Boisé Intense Extrait de Parfum",
-      "name_en": "Cedrat Boisé Intense Extrait de Parfum",
-      "brand": "Mancera",
-      "dupe_of": [],
-      "image": "images/cedrat-bois-intense-extrait-de-parfum.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 120,
-              "price": 3900,
-              "first_seen": "2026-07-30"
-            }
-          ],
-          "image": "images/cedrat-bois-intense-extrait-de-parfum--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "Abo Anas Sayed"
-    },
-    {
       "id": "cedrat-boise-intense",
       "name_ar": "Cedrat Boise Intense",
       "name_en": "Cedrat Boise Intense",
@@ -29075,7 +28372,10 @@
           "image": "images/cedrat-boise-intense--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Cedrat Boisé Intense Extrait de Parfum"
+      ]
     },
     {
       "id": "cedrat-boisee",
@@ -29733,9 +29033,27 @@
           ],
           "image": "images/chaos-in-the-ocean--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/chaos-in-the-ocean"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 925,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/a-chaos-in-the-ocean--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/a-chaos-in-the-ocean-paris-corner"
         }
       ],
-      "_hero_source": "og-perfume"
+      "_hero_source": "og-perfume",
+      "aliases": [
+        "A Chaos In The Ocean"
+      ]
     },
     {
       "id": "charisma-atyab-al-sheekh",
@@ -30602,7 +29920,7 @@
       "id": "chocolate-ganache-arabiyat-sugar",
       "name_ar": "Chocolate Ganache",
       "name_en": "Chocolate Ganache",
-      "brand": "Arabiyat Sugar",
+      "brand": "Arabiyat Prestige",
       "dupe_of": [],
       "image": "images/chocolate-ganache-arabiyat-sugar.jpg",
       "accords": [],
@@ -30640,50 +29958,7 @@
           ],
           "image": "images/chocolate-ganache-arabiyat-sugar--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/chocolate-ganache"
-        }
-      ],
-      "_hero_source": "og-perfume"
-    },
-    {
-      "id": "chocolate-ganache-arabiyat-sugar-arabiyat-prestige",
-      "name_ar": "",
-      "name_en": "Chocolate Ganache Arabiyat Sugar",
-      "brand": "Arabiyat Prestige",
-      "dupe_of": [],
-      "image": "images/chocolate-ganache-arabiyat-sugar-arabiyat-prestige.jpg",
-      "accords": [
-        {
-          "label_en": "Mandarin",
-          "label_ar": "الماندرين (اليوسفي)",
-          "color": "#F9FF52",
-          "w": 100
         },
-        {
-          "label_en": "Cedarwood",
-          "label_ar": "خشب الأرز",
-          "color": "#774414",
-          "w": 90
-        },
-        {
-          "label_en": "Tonka Bean",
-          "label_ar": "تتكون من حبوب التونكا",
-          "color": "#FFFEC0",
-          "w": 80
-        },
-        {
-          "label_en": "Vanilla",
-          "label_ar": "الفانيليا",
-          "color": "#FFFEC0",
-          "w": 70
-        },
-        {
-          "label_en": "Musk",
-          "label_ar": "المسك",
-          "color": "#E7D8EA",
-          "w": 60
-        }
-      ],
-      "stores": [
         {
           "name": "roseperfume",
           "url": "https://roseperfume.online/",
@@ -30700,7 +29975,10 @@
           "product_url": "https://roseperfume.online/products/chocolate-ganache-arabiyat-sugar"
         }
       ],
-      "_hero_source": "roseperfume"
+      "_hero_source": "og-perfume",
+      "aliases": [
+        "Chocolate Ganache Arabiyat Sugar"
+      ]
     },
     {
       "id": "chords",
@@ -31273,83 +30551,6 @@
         }
       ],
       "_hero_source": "feel22"
-    },
-    {
-      "id": "clair-affair",
-      "name_ar": "",
-      "name_en": "Éclair Affair",
-      "brand": "French avenue",
-      "dupe_of": [
-        "Bianco Latte Giardini Di Toscana"
-      ],
-      "image": "images/clair-affair.jpg",
-      "accords": [
-        {
-          "label_en": "Vanilla",
-          "label_ar": "الفانيليا",
-          "color": "#FFFEC0",
-          "w": 100
-        },
-        {
-          "label_en": "Jasmine",
-          "label_ar": "الياسمين",
-          "color": "#FF5F8D",
-          "w": 90
-        },
-        {
-          "label_en": "Amber",
-          "label_ar": "العنبر",
-          "color": "#bc4d10",
-          "w": 80
-        },
-        {
-          "label_en": "Tonka Bean",
-          "label_ar": "حبوب التونكا",
-          "color": "#FFFEC0",
-          "w": 70
-        },
-        {
-          "label_en": "Musk",
-          "label_ar": "المسك",
-          "color": "#E7D8EA",
-          "w": 60
-        }
-      ],
-      "stores": [
-        {
-          "name": "roseperfume",
-          "url": "https://roseperfume.online/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 110,
-              "first_seen": "2026-07-20"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 200,
-              "first_seen": "2026-07-20"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 550,
-              "first_seen": "2026-07-20"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1600,
-              "first_seen": "2026-07-20"
-            }
-          ],
-          "image": "images/clair-affair--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/eclair-affair-french-avenue"
-        }
-      ],
-      "_hero_source": "roseperfume"
     },
     {
       "id": "classic-blue-edt-100ml",
@@ -33811,10 +33012,31 @@
           ],
           "image": "images/code-eau-de-parfum--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/armani-code-edp-23123455-html12"
+        },
+        {
+          "name": "faces",
+          "url": "https://www.faces.eg/en/perfume-for-men",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 7200,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 7800,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/armani-code--faces.jpg",
+          "product_url": "https://www.faces.eg/en/p/armani-code-eau-de-parfum-eau-de-parfum-001716814450.html"
         }
       ],
       "_hero_source": "sniffz",
       "aliases": [
+        "Armani Code",
         "Armani Code Le Parfum"
       ]
     },
@@ -44970,7 +44192,8 @@
       ],
       "_hero_source": "eldesoki-fragrances",
       "aliases": [
-        "Eclair Affair"
+        "Eclair Affair",
+        "Éclair Affair"
       ]
     },
     {
@@ -55691,35 +54914,6 @@
       ]
     },
     {
-      "id": "frankel-blue-elixer-200ml",
-      "name_ar": "",
-      "name_en": "Frankel Blue Elixer",
-      "brand": "assaf",
-      "dupe_of": [],
-      "image": "images/frankel-blue-elixer-200ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 3900,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/frankel-blue-elixer-200ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/assaf-frankel-blue-elixer-200ml-635918028108.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
-        "Frankel Blue Elixer 200ML"
-      ]
-    },
-    {
       "id": "frankel-blue-elixir",
       "name_ar": "",
       "name_en": "Frankel Blue Elixir",
@@ -55773,9 +54967,27 @@
           ],
           "image": "images/frankel-blue-elixir--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/frankel-blue-elixir-200-ml"
+        },
+        {
+          "name": "faces",
+          "url": "https://www.faces.eg/en/perfume-for-men",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 3900,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/frankel-blue-elixer-200ml--faces.jpg",
+          "product_url": "https://www.faces.eg/en/p/assaf-frankel-blue-elixer-200ml-635918028108.html"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Frankel Blue Elixer",
+        "Frankel Blue Elixer 200ML"
+      ]
     },
     {
       "id": "frankel-box-imagination-aventus-silver-each",
@@ -58898,6 +58110,13 @@
               "ml": 125,
               "price": 7035,
               "first_seen": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 5778,
+              "first_seen": "2026-07-23",
+              "note": "refill"
             }
           ],
           "image": "images/giorgio-armani-acqua-di-gio-eau-de-parfum--feel22.jpg",
@@ -58922,11 +58141,33 @@
           ],
           "image": "images/giorgio-armani-acqua-di-gio-eau-de-parfum--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/acqua-di-gio-eau-de-parfum-men-perfume"
+        },
+        {
+          "name": "faces",
+          "url": "https://www.faces.eg/en/perfume-for-men",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 6300,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 7900,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/acqua-di-gi-parfum-armani-beauty--faces.jpg",
+          "product_url": "https://www.faces.eg/en/p/armani-acqua-di-gio-eau-de-parfum-PM_GIORGIO_ARMANI_Aqua_Di_Gio_EDP_New.html"
         }
       ],
       "_hero_source": "feel22",
       "aliases": [
-        "Acqua Di Gio Eau de Parfum Men Perfume"
+        "Acqua Di Gio Eau de Parfum Men Perfume",
+        "Acqua Di Giò Parfum",
+        "Giorgio Armani Acqua Di Gio Parfum Recharge Refill"
       ]
     },
     {
@@ -58981,32 +58222,6 @@
       ]
     },
     {
-      "id": "giorgio-armani-acqua-di-gio-parfum-recharge-refill",
-      "name_ar": "Giorgio Armani Acqua Di Gio Parfum Recharge Refill",
-      "name_en": "Giorgio Armani Acqua Di Gio Parfum Recharge Refill",
-      "brand": "Armani",
-      "dupe_of": [],
-      "image": "images/giorgio-armani-acqua-di-gio-parfum-recharge-refill.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "feel22",
-          "url": "https://eg.feel22.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 5778,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/giorgio-armani-acqua-di-gio-parfum-recharge-refill--feel22.jpg",
-          "product_url": "https://eg.feel22.com/products/giorgio-armani-acqua-di-gio-parfum-recharge-refill-for-men-150ml"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
       "id": "giorgio-armani-code-eau-de-toilette-refillable",
       "name_ar": "Giorgio Armani Code Eau de Toilette - Refillable",
       "name_en": "Giorgio Armani Code Eau de Toilette - Refillable",
@@ -59040,45 +58255,6 @@
       "aliases": [
         "Giorgio Armani Armani Code Eau de Parfum - Refillable"
       ]
-    },
-    {
-      "id": "giorgio-armani-code-parfum",
-      "name_ar": "Giorgio Armani Code Parfum",
-      "name_en": "Giorgio Armani Code Parfum",
-      "brand": "Armani",
-      "dupe_of": [],
-      "image": "images/giorgio-armani-code-parfum.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "feel22",
-          "url": "https://eg.feel22.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 60,
-              "price": 6400,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
-            },
-            {
-              "kind": "full",
-              "ml": 75,
-              "price": 7355,
-              "first_seen": "2026-07-23"
-            },
-            {
-              "kind": "full",
-              "ml": 125,
-              "price": 8522,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/giorgio-armani-code-parfum--feel22.jpg",
-          "product_url": "https://eg.feel22.com/products/giorgio-armani-code-parfum-for-men"
-        }
-      ],
-      "_hero_source": "feel22"
     },
     {
       "id": "girl-of-now-edp",
@@ -66270,9 +65446,32 @@
           ],
           "image": "images/hero-eau-de-parfum--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/burberry-hero-eau-de-parfum-PM_BURBERRY_Hero_Eau_De_Parfum.html"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 8420,
+              "first_seen": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 10120,
+              "first_seen": "2026-07-23"
+            }
+          ],
+          "image": "images/bby-hero-edp--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/bby-hero-edp"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "feel22",
+      "aliases": [
+        "BBY Hero EDP"
+      ]
     },
     {
       "id": "hero-eau-de-toilette",
@@ -66382,10 +65581,25 @@
           ],
           "image": "images/hero-elixr-perfum-60ml--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/burberry-hero-elixr-perfum-60ml-parfum-extrait-005217610759.html"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 8500,
+              "first_seen": "2026-07-23"
+            }
+          ],
+          "image": "images/bby-hero-elixr-perfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/bby-hero-elixr-perfum-60ml"
         }
       ],
       "_hero_source": "faces",
       "aliases": [
+        "Bby Hero Elixr Perfum",
         "Hero Elixr Perfum 60Ml"
       ]
     },
@@ -66796,19 +66010,7 @@
           ],
           "image": "images/hersh-mahwar--dar-elarabia.jpg",
           "product_url": "https://darelarabia.com/products/hersh-mahwar"
-        }
-      ],
-      "_hero_source": "dar.elarabia"
-    },
-    {
-      "id": "hersh-mehwar",
-      "name_ar": "",
-      "name_en": "Hersh Mehwar",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/hersh-mehwar.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "sniffz",
           "url": "https://sniffz-eg.com/",
@@ -66869,7 +66071,10 @@
           "product_url": "https://og-perfume.com/products/hersh-mehwar"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "dar.elarabia",
+      "aliases": [
+        "Hersh Mehwar"
+      ]
     },
     {
       "id": "hersh-mehwar-old-batch",
@@ -72060,10 +71265,25 @@
           ],
           "image": "images/intense-for-men-edp-100ml--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/bentley-intense-for-men-edp-100ml-eaudeparfum-094511746408.html"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1875,
+              "first_seen": "2026-07-20"
+            }
+          ],
+          "image": "images/bentley-for-men-intense--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/bentley-intense%d8%a8%d9%86%d8%aa%d9%84%d9%8a-%d8%a5%d9%86%d8%aa%d9%86%d8%b3/"
         }
       ],
       "_hero_source": "faces",
       "aliases": [
+        "Bentley For Men Intense",
         "Intense For Men EDP 100ML"
       ]
     },
@@ -72221,32 +71441,6 @@
         "Gucci Oud Intense Eau De Parfum",
         "Gucci Oud Intense Eau De Parfum 90ml"
       ]
-    },
-    {
-      "id": "intense-red-tabacco",
-      "name_ar": "",
-      "name_en": "Intense Red Tabacco",
-      "brand": "Mancera",
-      "dupe_of": [],
-      "image": "images/intense-red-tabacco.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 120,
-              "price": 14925,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/intense-red-tabacco--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/mancera-intense-red-tabacco-eau-de-parfum-058516677212.html"
-        }
-      ],
-      "_hero_source": "faces"
     },
     {
       "id": "intense-sapil",
@@ -91162,33 +90356,6 @@
       "_hero_source": "roseperfume"
     },
     {
-      "id": "limoni",
-      "name_ar": "ليموني ٣٠ملي",
-      "name_en": "Limoni",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/limoni.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "leftover",
-              "ml": 30,
-              "price": 500,
-              "first_seen": "2026-07-27",
-              "sold_since": "2026-07-27"
-            }
-          ],
-          "image": "images/limoni--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/limoni-30ml%d9%84%d9%8a%d9%85%d9%88%d9%86%d9%8a-%d9%a3%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "lion-rayhaan",
       "name_ar": "Lion",
       "name_en": "Lion",
@@ -99246,32 +98413,6 @@
         }
       ],
       "_hero_source": "og-perfume"
-    },
-    {
-      "id": "millesime-absolu-aventus",
-      "name_ar": "Millesime Absolu Aventus",
-      "name_en": "Millesime Absolu Aventus",
-      "brand": "Creed",
-      "dupe_of": [],
-      "image": "images/millesime-absolu-aventus.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 33550,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/millesime-absolu-aventus--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/millesime-absolu-aventus-100-ml"
-        }
-      ],
-      "_hero_source": "mazaya"
     },
     {
       "id": "million-gold-edp-intense",
@@ -111379,6 +110520,19 @@
               "ml": 10,
               "price": 150,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "leftover",
+              "ml": 30,
+              "price": 500,
+              "first_seen": "2026-07-27",
+              "sold_since": "2026-07-27"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1275,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/odyssey-limoni--eldesoki-fragrances.jpg",
@@ -111410,32 +110564,6 @@
           ],
           "image": "images/odyssey-limoni--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/odyssey-limoni"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "odyssey-limoni-fresh",
-      "name_ar": "اوديسي ليموني فريش من ارماف ١٠٠ملي",
-      "name_en": "Odyssey Limoni Fresh",
-      "brand": "Armaf",
-      "dupe_of": [],
-      "image": "images/odyssey-limoni-fresh.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1275,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/odyssey-limoni-fresh--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/odyssey-limoni-fresh-100ml%d8%a7%d9%88%d8%af%d9%8a%d8%b3%d9%8a-%d9%84%d9%8a%d9%85%d9%88%d9%86%d9%8a-%d9%81%d8%b1%d9%8a%d8%b4-%d9%85%d9%86-%d8%a7%d8%b1%d9%85%d8%a7%d9%81-%d9%a1%d9%a0%d9%a0%d9%85%d9%84/"
         },
         {
           "name": "emaratiscents",
@@ -111452,7 +110580,11 @@
           "product_url": "https://emaratiscents.com/products/odyssey-limoni-fresh"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Limoni",
+        "Odyssey Limoni Fresh"
+      ]
     },
     {
       "id": "odyssey-mandarin-sky",
@@ -120434,18 +119566,7 @@
             }
           ],
           "image": "images/perseus.jpg"
-        }
-      ]
-    },
-    {
-      "id": "perseus-edp",
-      "name_ar": "PERSEUS EDP",
-      "name_en": "PERSEUS EDP",
-      "brand": "Marly",
-      "dupe_of": [],
-      "image": "images/perseus-edp.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "mazaya",
           "url": "https://mazaya.eg/",
@@ -120462,7 +119583,9 @@
           "product_url": "https://mazaya.eg/en/perseus-edp-125ml"
         }
       ],
-      "_hero_source": "mazaya"
+      "aliases": [
+        "PERSEUS EDP"
+      ]
     },
     {
       "id": "perseus-maison-alhambra",
@@ -123619,32 +122742,6 @@
           ],
           "image": "images/presence-eau-de-toilette--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/mont-blanc-presence-eau-de-toilette-for-men"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
-      "id": "prestige-aariz-intense-eau-de-parfum",
-      "name_ar": "Prestige Aariz Intense Eau De Parfum",
-      "name_en": "Prestige Aariz Intense Eau De Parfum",
-      "brand": "Arabiyat",
-      "dupe_of": [],
-      "image": "images/prestige-aariz-intense-eau-de-parfum.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "feel22",
-          "url": "https://eg.feel22.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1284,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/prestige-aariz-intense-eau-de-parfum--feel22.jpg",
-          "product_url": "https://eg.feel22.com/products/arabiyat-prestige-aariz-intense-eau-de-parfum-100ml"
         }
       ],
       "_hero_source": "feel22"
@@ -129513,10 +128610,25 @@
           ],
           "image": "images/red-tobacco-intense--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/intense-red-tobacco-120ml"
+        },
+        {
+          "name": "faces",
+          "url": "https://www.faces.eg/en/perfume-for-men",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 120,
+              "price": 14925,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/intense-red-tabacco--faces.jpg",
+          "product_url": "https://www.faces.eg/en/p/mancera-intense-red-tabacco-eau-de-parfum-058516677212.html"
         }
       ],
       "_hero_source": "og-perfume",
       "aliases": [
+        "Intense Red Tabacco",
         "Red Tobacco Intense Mancera Extrait De Parfum"
       ]
     },
@@ -136193,9 +135305,54 @@
             }
           ],
           "image": "images/second-song--ahmed-abdel-kareem.jpg"
+        },
+        {
+          "name": "EsLam Nasser",
+          "url": "https://www.facebook.com/eslam.nasser.10/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1150,
+              "first_seen": "2026-07-17"
+            }
+          ],
+          "image": "images/angham-second-song--eslam-nasser.jpg"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 160,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 675,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1350,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/angham-second-song--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/angham-second-song"
         }
       ],
-      "_hero_source": "Ahmed Abdel Kareem"
+      "_hero_source": "Ahmed Abdel Kareem",
+      "aliases": [
+        "Angham Second Song"
+      ]
     },
     {
       "id": "secret-garden",
@@ -146573,59 +145730,6 @@
       ]
     },
     {
-      "id": "supermacy-not-only-intense",
-      "name_ar": "سوبرماسي نوت اونلي انتنس ١٥٠ملي",
-      "name_en": "Supermacy Not Only Intense",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/supermacy-not-only-intense.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 2775,
-              "first_seen": "2026-07-30"
-            }
-          ],
-          "image": "images/supermacy-not-only-intense--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/supermacy-not-only-intense-150ml%d8%b3%d9%88%d8%a8%d8%b1%d9%85%d8%a7%d8%b3%d9%8a-%d9%86%d9%88%d8%aa-%d8%a7%d9%88%d9%86%d9%84%d9%8a-%d8%a7%d9%86%d8%aa%d9%86%d8%b3-%d9%a1%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "supermacy-not-only-intense-extrait",
-      "name_ar": "Supermacy Not Only Intense Extrait",
-      "name_en": "Supermacy Not Only Intense Extrait",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/supermacy-not-only-intense-extrait.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "dar.elarabia",
-          "url": "https://darelarabia.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 2850,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/supermacy-not-only-intense-extrait--dar-elarabia.jpg",
-          "product_url": "https://darelarabia.com/products/supermacy-not-only-intense-extrait"
-        }
-      ],
-      "_hero_source": "dar.elarabia"
-    },
-    {
       "id": "supremacy-collector-s-edition",
       "name_ar": "Supremacy Collector's Edition",
       "name_en": "Supremacy Collector's Edition",
@@ -147228,9 +146332,43 @@
           ],
           "image": "images/supremacy-not-only-intense--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/supremacy-not-only-intense"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 2775,
+              "first_seen": "2026-07-30"
+            }
+          ],
+          "image": "images/supermacy-not-only-intense--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/supermacy-not-only-intense-150ml%d8%b3%d9%88%d8%a8%d8%b1%d9%85%d8%a7%d8%b3%d9%8a-%d9%86%d9%88%d8%aa-%d8%a7%d9%88%d9%86%d9%84%d9%8a-%d8%a7%d9%86%d8%aa%d9%86%d8%b3-%d9%a1%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
+        },
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 2850,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19",
+              "note": "extrait"
+            }
+          ],
+          "image": "images/supermacy-not-only-intense-extrait--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/supermacy-not-only-intense-extrait"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Supermacy Not Only Intense",
+        "Supermacy Not Only Intense Extrait"
+      ]
     },
     {
       "id": "supremacy-silver-eau-de-parfum",
@@ -155892,10 +155030,24 @@
           ],
           "image": "images/uomo-born-in-roma-intense--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/valentino-uomo-born-in-roma-intense-eau-de-parfum-for-men-100ml"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 5400,
+              "first_seen": "2026-07-30"
+            }
+          ],
+          "image": "images/born-in-roma-intense--abo-anas-sayed.jpg"
         }
       ],
       "_hero_source": "sniffz",
       "aliases": [
+        "Born In Roma Intense",
         "Uomo Born In Roma EDP Intense MEN",
         "Uomo Born In Roma Intense Eau de Parfum"
       ]

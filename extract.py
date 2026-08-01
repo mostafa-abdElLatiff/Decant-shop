@@ -630,7 +630,7 @@ BRAND_GENERIC_WORDS = {"men", "women", "unisex", "fragrance", "fragrances", "per
 # Parfum releases). Only used by find_existing_product's third, most
 # cautious pass — see there for why it's safe in that narrower context.
 GENERIC_CONCENTRATION_WORDS = {"eau", "de", "du", "des", "la", "le", "parfum", "perfum",
-                                "toilette", "edp", "edt", "perfume", "cologne", "spray"}
+                                "toilette", "edp", "edt", "perfume", "cologne", "spray", "extrait"}
 
 # Spelled-out concentration phrases mapped to their standard abbreviation
 # BEFORE tokenizing — unlike GENERIC_CONCENTRATION_WORDS (which discards the

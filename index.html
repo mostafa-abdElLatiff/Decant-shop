@@ -575,6 +575,7 @@ function offerLabel(o){
   if(o.kind==="full") tags.push(t().full_tag);
   else if(o.kind==="leftover") tags.push(t().leftover_tag);
   if(o.tester) tags.push(t().tester_tag);
+  if(o.note) tags.push(o.note);
   return tags.length ? `${size} "${tags.join(" — ")}"` : size;
 }
 
