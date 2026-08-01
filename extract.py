@@ -582,7 +582,7 @@ def to_offers(raw: dict) -> list:
     return sorted(offers, key=offer_sort_key)
 
 
-STOPWORDS = {"perfumes", "perfume", "men", "women", "fragrances", "fragrance"}
+STOPWORDS = {"perfumes", "perfume", "men", "women", "unisex", "fragrances", "fragrance"}
 # NOTE: deliberately does NOT include "edp"/"edt" — tried that, but several
 # houses (Mont Blanc Legend, Cartier Déclaration, Davidoff Cool Water) sell
 # genuinely different EDP/EDT concentrations at different prices, so
@@ -608,10 +608,42 @@ BRAND_GENERIC_WORDS = {"men", "women", "unisex", "fragrance", "fragrances", "per
 GENERIC_CONCENTRATION_WORDS = {"eau", "de", "du", "des", "la", "le", "parfum", "perfum",
                                 "toilette", "edp", "edt", "perfume", "cologne", "spray"}
 
+# Spelled-out concentration phrases mapped to their standard abbreviation
+# BEFORE tokenizing — unlike GENERIC_CONCENTRATION_WORDS (which discards the
+# concentration entirely), this preserves it but normalizes the spelling, so
+# "Eau De Toilette" and "EDT" compare as identical tokens while still
+# staying distinct from "EDP"/"Parfum". Safe in the strict second pass too
+# (no information is lost, only spelling variance), unlike blanket EDP/EDT
+# stripping which the note above already ruled out for good reason. Caught
+# real duplicates this way: "1 Million Eau De Toilette" vs "1 Million EDT"
+# (two different stores' sync scripts, same product, sitting as separate
+# catalog entries because the strict pass never even got a chance to see
+# them as equal).
+_CONCENTRATION_CANON = [
+    (re.compile(r"\beau\s+de\s+toilette\b", re.I), "edt"),
+    (re.compile(r"\beau\s+de\s+parfum\b", re.I), "edp"),
+    (re.compile(r"\beau\s+de\s+cologne\b", re.I), "edc"),
+]
+# Single-token abbreviation variants seen in the wild for the same word.
+_TOKEN_SYNONYMS = {"parf": "parfum"}
+
+# Size text (redundant with the offer's own `ml` field) sometimes ends up
+# baked into a store's own product-name text (e.g. faces.eg: "9pm Elixir
+# EDP 100 ML") -- strip it before comparing so it doesn't defeat matching
+# against a plain "9pm Elixir" from another store. Only matches a number
+# directly followed by "ml"/"gr"/"oz" (a unit), never a bare number, so
+# genuinely name-integral digits ("212", "9pm", "1 Million") are untouched.
+_SIZE_UNIT_RE = re.compile(r"\b\d+\s?(?:ml|gr|oz)\b", re.I)
+
 
 def _tokens(text: str) -> set:
     text = unicodedata.normalize("NFKD", text or "").encode("ascii", "ignore").decode()
-    return set(re.sub(r"[^a-z0-9]+", " ", text.lower()).split()) - STOPWORDS
+    text = _SIZE_UNIT_RE.sub(" ", text)
+    for pattern, repl in _CONCENTRATION_CANON:
+        text = pattern.sub(repl, text)
+    words = re.sub(r"[^a-z0-9]+", " ", text.lower()).split()
+    words = [_TOKEN_SYNONYMS.get(w, w) for w in words]
+    return set(words) - STOPWORDS
 
 
 def _brand_tokens(brand: str) -> set:

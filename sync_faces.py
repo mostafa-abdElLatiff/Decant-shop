@@ -184,6 +184,32 @@ SIZE_BUTTON_RE = re.compile(
 )
 
 
+# This store's own product-name text bakes the size into the name itself
+# (e.g. "9pm Elixir EDP 100 ML") -- redundant with the offer's own `ml`
+# field, and it silently defeated cross-store duplicate matching (a plain
+# "9pm Elixir" from another store never matched this store's "...100 ML"
+# text). Strip only the size+unit; concentration words (EDP/EDT/Tester/
+# etc.) are left alone since those ARE meaningful, real distinguishing
+# information this catalog already tracks as separate products elsewhere.
+_SIZE_UNIT_RE = re.compile(r"[\s\-]*\b\d+\s?(?:ml|gr|oz)\b", re.I)
+
+
+def clean_name(name: str) -> str:
+    cleaned = _SIZE_UNIT_RE.sub("", name)
+    cleaned = re.sub(r"\s+", " ", cleaned).strip(" -+")
+    words = cleaned.split(" ")
+    deduped = []
+    i = 0
+    while i < len(words):
+        if i + 3 < len(words) and words[i].lower() == words[i + 2].lower() and words[i + 1].lower() == words[i + 3].lower():
+            deduped.extend(words[i:i + 2])
+            i += 4
+        else:
+            deduped.append(words[i])
+            i += 1
+    return " ".join(deduped).strip()
+
+
 def fetch_detail_sizes(url: str, referer: str) -> list:
     page_html = fetch(url, referer=referer)
     sizes = []
@@ -216,7 +242,7 @@ def main():
 
     parsed = []
     for t in tiles:
-        name_en = re.sub(r"\s+", " ", html.unescape(t["name"])).strip()
+        name_en = clean_name(re.sub(r"\s+", " ", html.unescape(t["name"])).strip())
         brand = html.unescape(t["brand"]).strip()
         if not name_en:
             continue
