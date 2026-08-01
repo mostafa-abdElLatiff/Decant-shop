@@ -39423,9 +39423,27 @@
           ],
           "image": "images/desire-blue-eau-de-toilette--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/dunhill-desire-blue-eau-de-toilette-for-men"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 2250,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/dunhill-desire-blue-edt--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/dunhill-desire-blue-edt-150ml%d8%af%d8%a7%d9%86%d9%87%d9%84-%d8%af%d9%8a%d8%b2%d8%a7%d9%8a%d8%b1-%d8%a8%d9%84%d9%88-%d9%a1%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "feel22",
+      "aliases": [
+        "Dunhill Desire Blue EDT"
+      ]
     },
     {
       "id": "desire-bronze-eau-de-toilette",
@@ -43301,33 +43319,6 @@
         }
       ],
       "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "dunhill-desire-blue-edt",
-      "name_ar": "دانهل ديزاير بلو (١٥٠ملي)",
-      "name_en": "Dunhill Desire Blue EDT",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/dunhill-desire-blue-edt.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 2250,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/dunhill-desire-blue-edt--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/dunhill-desire-blue-edt-150ml%d8%af%d8%a7%d9%86%d9%87%d9%84-%d8%af%d9%8a%d8%b2%d8%a7%d9%8a%d8%b1-%d8%a8%d9%84%d9%88-%d9%a1%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "duro",
@@ -59553,9 +59544,41 @@
           ],
           "image": "images/glitch-mykonos--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/glitch-by-mykonos"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 120,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 160,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 250,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            }
+          ],
+          "image": "images/mykonos-glitch--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/mykonos-glitch"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Mykonos Glitch"
+      ]
     },
     {
       "id": "glorious-oud",
@@ -69220,33 +69243,6 @@
       "_hero_source": "feel22"
     },
     {
-      "id": "hugo-just-different-edt",
-      "name_ar": "Hugo Just Different EDT",
-      "name_en": "Hugo Just Different EDT",
-      "brand": "Boss",
-      "dupe_of": [],
-      "image": "images/hugo-just-different-edt.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 125,
-              "price": 4800,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
-            }
-          ],
-          "image": "images/hugo-just-different-edt--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/hugo-just-different-edt-125ml"
-        }
-      ],
-      "_hero_source": "mazaya"
-    },
-    {
       "id": "hugo-man-edt",
       "name_ar": "هوجو مان او دو تواليت ١٢٥ملي",
       "name_en": "HUGO Man EDT",
@@ -76791,38 +76787,6 @@
       ]
     },
     {
-      "id": "joop-homme-eau-de-toilette",
-      "name_ar": "Joop! Homme Eau de Toilette",
-      "name_en": "Joop! Homme Eau de Toilette",
-      "brand": "Joop",
-      "dupe_of": [],
-      "image": "images/joop-homme-eau-de-toilette.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "feel22",
-          "url": "https://eg.feel22.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 125,
-              "price": 1585,
-              "first_seen": "2026-07-23"
-            },
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 2415,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/joop-homme-eau-de-toilette--feel22.jpg",
-          "product_url": "https://eg.feel22.com/products/joop-homme-eau-de-toilette-for-men"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
       "id": "joop-homme-edt",
       "name_ar": "چوب اوم او دو تواليت ١٢٥ملي",
       "name_en": "Joop Homme EDT",
@@ -76850,11 +76814,32 @@
           ],
           "image": "images/joop-homme-edt--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/joop-pour-homme-edt-10ml%da%86%d9%88%d8%a8-%d8%a8%d9%88%d8%b1-%d8%a7%d9%88%d9%85-%d8%a7%d9%88-%d8%af%d9%88-%d8%aa%d9%88%d8%a7%d9%84%d9%8a%d8%aa-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 1585,
+              "first_seen": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2415,
+              "first_seen": "2026-07-23"
+            }
+          ],
+          "image": "images/joop-homme-eau-de-toilette--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/joop-homme-eau-de-toilette-for-men"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
       "aliases": [
-        "Joop Pour Homme EDT"
+        "Joop Pour Homme EDT",
+        "Joop! Homme Eau de Toilette"
       ]
     },
     {
@@ -77518,9 +77503,27 @@
           ],
           "image": "images/just-different-eau-de-toilette--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/hugo-boss-just-different-eau-de-toilette-for-men"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 4800,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-23"
+            }
+          ],
+          "image": "images/hugo-just-different-edt--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/hugo-just-different-edt-125ml"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "feel22",
+      "aliases": [
+        "Hugo Just Different EDT"
+      ]
     },
     {
       "id": "k",
@@ -77647,40 +77650,6 @@
       "_hero_source": "faces"
     },
     {
-      "id": "k-edp",
-      "name_ar": "K EDP",
-      "name_en": "K EDP",
-      "brand": "Dolce&Gabbana",
-      "dupe_of": [],
-      "image": "images/k-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 50,
-              "price": 5500,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 8900,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
-            }
-          ],
-          "image": "images/k-edp--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/k-edp"
-        }
-      ],
-      "_hero_source": "mazaya"
-    },
-    {
       "id": "k-edp-50ml",
       "name_ar": "",
       "name_en": "K EDP",
@@ -77702,6 +77671,28 @@
           ],
           "image": "images/k-edp-50ml--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/dolce-gabbana-k-edp-50ml-eau-de-parfum-009417244289.html"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 5500,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 8900,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-23"
+            }
+          ],
+          "image": "images/k-edp--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/k-edp"
         }
       ],
       "_hero_source": "faces",
@@ -103859,108 +103850,6 @@
           ],
           "image": "images/mykonos-conquer--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/mykonos-conquer"
-        }
-      ],
-      "_hero_source": "sniffz"
-    },
-    {
-      "id": "mykonos-glitch",
-      "name_ar": "",
-      "name_en": "Mykonos Glitch",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/mykonos-glitch.jpg",
-      "accords": [
-        {
-          "label_en": "Red Pepper",
-          "label_ar": "",
-          "color": "#CC3300",
-          "w": 100
-        },
-        {
-          "label_en": "Ginger",
-          "label_ar": "",
-          "color": "#83C928",
-          "w": 90
-        },
-        {
-          "label_en": "Ozonic Notes",
-          "label_ar": "",
-          "color": "#9be5ed",
-          "w": 80
-        },
-        {
-          "label_en": "Watery Notes",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 70
-        },
-        {
-          "label_en": "Cedarwood",
-          "label_ar": "",
-          "color": "#774414",
-          "w": 60
-        },
-        {
-          "label_en": "Lily of the Valley",
-          "label_ar": "",
-          "color": "#FF5F8D",
-          "w": 50
-        },
-        {
-          "label_en": "Ylang Ylang",
-          "label_ar": "",
-          "color": "#9C9C9C",
-          "w": 40
-        },
-        {
-          "label_en": "Woody Notes",
-          "label_ar": "",
-          "color": "#774414",
-          "w": 40
-        },
-        {
-          "label_en": "Musk",
-          "label_ar": "",
-          "color": "#E7D8EA",
-          "w": 40
-        },
-        {
-          "label_en": "Vanilla",
-          "label_ar": "",
-          "color": "#FFFEC0",
-          "w": 40
-        }
-      ],
-      "stores": [
-        {
-          "name": "sniffz",
-          "url": "https://sniffz-eg.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 120,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 160,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 250,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/mykonos-glitch--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/mykonos-glitch"
         }
       ],
       "_hero_source": "sniffz"
