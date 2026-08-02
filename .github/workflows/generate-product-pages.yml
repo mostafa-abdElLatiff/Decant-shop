@@ -46,5 +46,28 @@ jobs:
       - name: Generate product pages
         run: python generate_product_pages.py
 
+      # See sync-stores.yml's own "Push commits" step for why this isn't
+      # a bare `git push` -- same non-fast-forward race, just a shorter
+      # window here since this job only runs generate_product_pages.py.
       - name: Push commits
-        run: git push
+        run: |
+          set +e
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            git rebase origin/main
+            if [ $? -ne 0 ]; then
+              git rebase --abort
+              echo "Rebase failed on attempt $i, retrying..."
+              sleep $((RANDOM % 10 + 5))
+              continue
+            fi
+            git push origin main
+            if [ $? -eq 0 ]; then
+              echo "Pushed successfully on attempt $i."
+              exit 0
+            fi
+            echo "Push attempt $i failed (remote moved), retrying..."
+            sleep $((RANDOM % 10 + 5))
+          done
+          echo "::error::Failed to push after 5 attempts -- remote kept moving."
+          exit 1

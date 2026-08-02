@@ -104,8 +104,39 @@ jobs:
         continue-on-error: true
         run: python generate_product_pages.py
 
+      # A plain `git push` here would fail outright on a non-fast-forward
+      # if ANYTHING else landed on main during this run's ~15-20 minutes
+      # of sequential syncing (a manual push from an interactive session,
+      # admin.html's direct-API commits, generate-product-pages.yml) --
+      # confirmed happening in practice, losing that whole run's synced
+      # work since the job just ends after the rejected push. Rebase onto
+      # whatever's on origin and retry a few times instead; a real content
+      # conflict (rare -- this job only ever touches products.json/
+      # images/products/, which nothing else edits at the same structural
+      # spot in the normal course of things) aborts the rebase and moves
+      # on to the next attempt rather than leaving the runner mid-rebase.
       - name: Push commits
-        run: git push
+        run: |
+          set +e
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            git rebase origin/main
+            if [ $? -ne 0 ]; then
+              git rebase --abort
+              echo "Rebase failed on attempt $i, retrying..."
+              sleep $((RANDOM % 10 + 5))
+              continue
+            fi
+            git push origin main
+            if [ $? -eq 0 ]; then
+              echo "Pushed successfully on attempt $i."
+              exit 0
+            fi
+            echo "Push attempt $i failed (remote moved), retrying..."
+            sleep $((RANDOM % 10 + 5))
+          done
+          echo "::error::Failed to push after 5 attempts -- remote kept moving."
+          exit 1
 
       # find_duplicates.py never changes anything — it only flags near-
       # duplicate candidates worth a manual look (a brand-suffix/naming
