@@ -42916,32 +42916,6 @@
       "_hero_source": "sniffz"
     },
     {
-      "id": "ea-stronger-with-you-eau-de-toilette",
-      "name_ar": "Ea Stronger With You Eau de Toilette",
-      "name_en": "Ea Stronger With You Eau de Toilette",
-      "brand": "Giorgio Armani",
-      "dupe_of": [],
-      "image": "images/ea-stronger-with-you-eau-de-toilette.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 6200,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/ea-stronger-with-you-eau-de-toilette--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/ea-stronger-with-you-edt123455-html12"
-        }
-      ],
-      "_hero_source": "mazaya"
-    },
-    {
       "id": "eager",
       "name_ar": "ايجر ٢٠٠ملي من چين انطوان الماس",
       "name_en": "EAGER",
@@ -46816,7 +46790,7 @@
       "id": "emporio-armani-stronger-with-you-eau-de-toilette",
       "name_ar": "Emporio Armani Stronger With You Eau de Toilette",
       "name_en": "Emporio Armani Stronger With You Eau de Toilette",
-      "brand": "Armani",
+      "brand": "Emporio Armani",
       "dupe_of": [],
       "image": "images/emporio-armani-stronger-with-you-eau-de-toilette.jpg",
       "accords": [],
@@ -46846,9 +46820,26 @@
           ],
           "image": "images/emporio-armani-stronger-with-you-eau-de-toilette--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/emporio-armani-stronger-with-you-eau-de-toilette-for-men"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 6200,
+              "first_seen": "2026-07-23"
+            }
+          ],
+          "image": "images/ea-stronger-with-you-eau-de-toilette--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/ea-stronger-with-you-edt123455-html12"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "feel22",
+      "aliases": [
+        "Ea Stronger With You Eau de Toilette"
+      ]
     },
     {
       "id": "enclave",
@@ -96569,35 +96560,6 @@
       "_hero_source": "feel22"
     },
     {
-      "id": "men-s-stronger-with-you-amber-100ml",
-      "name_ar": "",
-      "name_en": "Men's Stronger With You Amber",
-      "brand": "Armani Beauty",
-      "dupe_of": [],
-      "image": "images/men-s-stronger-with-you-amber-100ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 8000,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/men-s-stronger-with-you-amber-100ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/armani-men%27s-stronger-with-you-amber-001717428946.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
-        "Men's Stronger With You Amber 100ml"
-      ]
-    },
-    {
       "id": "men-swing-limited-edition-eau-de-parfum",
       "name_ar": "",
       "name_en": "Men Swing Limited Edition Eau de Parfum",
@@ -143002,7 +142964,7 @@
       "id": "stronger-with-you-eau-de-parfum-amber",
       "name_ar": "Stronger With You Eau De Parfum Amber",
       "name_en": "Stronger With You Eau De Parfum Amber",
-      "brand": "Giorgio Armani",
+      "brand": "Emporio Armani",
       "dupe_of": [],
       "image": "images/stronger-with-you-eau-de-parfum-amber.jpg",
       "accords": [],
@@ -143020,9 +142982,27 @@
           ],
           "image": "images/stronger-with-you-eau-de-parfum-amber--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/stronger-with-you-eau-de-parfum-amber-100ml"
+        },
+        {
+          "name": "faces",
+          "url": "https://www.faces.eg/en/perfume-for-men",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 8000,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/men-s-stronger-with-you-amber-100ml--faces.jpg",
+          "product_url": "https://www.faces.eg/en/p/armani-men%27s-stronger-with-you-amber-001717428946.html"
         }
       ],
-      "_hero_source": "mazaya"
+      "_hero_source": "mazaya",
+      "aliases": [
+        "Men's Stronger With You Amber",
+        "Men's Stronger With You Amber 100ml"
+      ]
     },
     {
       "id": "stronger-with-you-intensely",
