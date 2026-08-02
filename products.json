@@ -742,6 +742,13 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 100,
+              "price": 5300,
+              "first_seen": "2026-08-02",
+              "sold_since": "2026-08-02"
+            },
+            {
+              "kind": "full",
               "ml": 200,
               "price": 6000,
               "first_seen": "2026-08-02",
@@ -143183,6 +143190,13 @@
               "kind": "full",
               "ml": 30,
               "price": 3700,
+              "first_seen": "2026-08-02",
+              "sold_since": "2026-08-02"
+            },
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 5600,
               "first_seen": "2026-08-02",
               "sold_since": "2026-08-02"
             },
