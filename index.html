@@ -709,6 +709,23 @@ function productMatchesBrand(p){
   return brandFilter==="all" || (p.brand||"").trim().toLowerCase()===brandFilter;
 }
 
+// Kind, Size, and Store's own counts (and, for Kind/Size, which options
+// even show up at all) each depend on EVERY other active filter --
+// brand/in-stock/price included, not just kind vs. store. Any handler
+// that changes ANY filter must call all three populate*Filter()s or
+// whichever panels it skips go stale and can get stuck showing options
+// that no longer apply (or hiding ones that do) until their own row
+// happens to be clicked directly. Centralized here after this bug
+// turned up independently in three separate call sites (the sidebar's
+// own row handlers, the active-filters bar's chip removal, and -- next
+// -- brand/price/stock, which have the exact same dependency and would
+// otherwise repeat it a fourth time).
+function refreshFilterPanels(){
+  populateKindFilter();
+  populateSizeFilter();
+  populateStoreFilter();
+}
+
 function populateKindFilter(){
   const counts = { all: 0, decant: 0, full: 0, leftover: 0 };
   PRODUCTS.forEach(p => {
@@ -731,9 +748,7 @@ function populateKindFilter(){
     else if(kindFilter.has(value)) kindFilter.delete(value);
     else kindFilter.add(value);
     if(!kindFilter.has("decant")) sizeFilter = "all"; // the sub-filter only means anything under Decants
-    populateKindFilter();
-    populateSizeFilter();
-    populateStoreFilter();
+    refreshFilterPanels();
     updateFilterBadge();
     render();
     syncURLState();
@@ -784,7 +799,7 @@ function populateSizeFilter(){
   buildFilterRows(document.getElementById("sizeList"), entries, value => {
     captureScrollState();
     sizeFilter = value;
-    populateSizeFilter();
+    refreshFilterPanels();
     updateFilterBadge();
     render();
     syncURLState();
@@ -817,17 +832,7 @@ function populateStoreFilter(){
     if(value==="all") storeFilters.clear();
     else if(storeFilters.has(value)) storeFilters.delete(value);
     else storeFilters.add(value);
-    populateStoreFilter();
-    // Kind's own counts (and which kind options are even listed/hidden)
-    // depend on storeFilters too -- without this, changing the store here
-    // left the Type panel showing options computed against the OLD store
-    // selection, which could get stuck hiding an option indefinitely
-    // (it's only recomputed when Type itself is clicked, so e.g. picking
-    // a store with no leftover offers while "Full bottle" is active hides
-    // "Decants"/"Leftover" and they silently stay hidden even after
-    // switching to a store that does carry them).
-    populateKindFilter();
-    populateSizeFilter();
+    refreshFilterPanels();
     updateFilterBadge();
     render();
     syncURLState();
@@ -952,9 +957,7 @@ function applyI18n(){
   document.getElementById("viewLabel").textContent = t().label_view;
   document.getElementById("viewAutoBtn").textContent = t().view_auto;
   document.getElementById("filtersToggleLabel").textContent = t().filters_label;
-  populateKindFilter();
-  populateSizeFilter();
-  populateStoreFilter();
+  refreshFilterPanels();
   populateBrandFilter();
   populateSortOrder();
   updateFilterBadge();
@@ -1130,6 +1133,10 @@ function filterByBrand(brand){
   resetFilters();
   brandFilter = brand.trim().toLowerCase();
   document.getElementById("brandFilter").value = brandFilter;
+  // resetFilters() already refreshed the panels, but against
+  // brandFilter="all" -- it runs before the real brand is set two lines
+  // up, so it needs to happen again now the actual filter is in place.
+  refreshFilterPanels();
   updateFilterBadge();
   render();
   syncURLState();
@@ -1268,9 +1275,7 @@ function syncControlsFromState(){
   document.getElementById("priceMin").value = priceMin ?? "";
   document.getElementById("priceMax").value = priceMax ?? "";
   document.getElementById("inStockOnly").checked = inStockOnly;
-  populateKindFilter();
-  populateSizeFilter();
-  populateStoreFilter();
+  refreshFilterPanels();
   // populateBrandFilter() has a side effect: it reads the <select>'s
   // CURRENT (still-stale) DOM value and writes it back into brandFilter,
   // which would silently undo whatever applyParamsToState() just set --
@@ -1373,9 +1378,7 @@ function resetFilters(){
   document.getElementById("inStockOnly").checked = false;
   document.getElementById("priceMin").value = "";
   document.getElementById("priceMax").value = "";
-  populateKindFilter();
-  populateSizeFilter();
-  populateStoreFilter();
+  refreshFilterPanels();
   updateFilterBadge();
 }
 
@@ -1401,13 +1404,14 @@ document.getElementById("search").addEventListener("input", e=>{
     if(query.trim()) trackEvent("search", { search_term: query.trim() });
   }, 800);
 });
-document.getElementById("brandFilter").addEventListener("change", e=>{ captureScrollState(); brandFilter=e.target.value; updateFilterBadge(); render(); syncURLState(); trackEvent("filter_brand", { value: brandFilter }); });
+document.getElementById("brandFilter").addEventListener("change", e=>{ captureScrollState(); brandFilter=e.target.value; refreshFilterPanels(); updateFilterBadge(); render(); syncURLState(); trackEvent("filter_brand", { value: brandFilter }); });
 
 const parsePriceInput = v => { const n = parseInt(v, 10); return Number.isFinite(n) && n >= 0 ? n : null; };
 let priceGaDebounce;
 document.getElementById("priceMin").addEventListener("input", e=>{
   captureScrollState();
   priceMin = parsePriceInput(e.target.value);
+  refreshFilterPanels();
   updateFilterBadge();
   render();
   clearTimeout(priceGaDebounce);
@@ -1419,6 +1423,7 @@ document.getElementById("priceMin").addEventListener("input", e=>{
 document.getElementById("priceMax").addEventListener("input", e=>{
   captureScrollState();
   priceMax = parsePriceInput(e.target.value);
+  refreshFilterPanels();
   updateFilterBadge();
   render();
   clearTimeout(priceGaDebounce);
@@ -1528,14 +1533,10 @@ document.getElementById("activeFiltersBar").addEventListener("click", e => {
   if(chipType==="kind"){
     kindFilter.delete(chipValue);
     if(!kindFilter.has("decant")) sizeFilter = "all";
-    populateKindFilter();
-    populateSizeFilter();
   }else if(chipType==="store"){
     storeFilters.delete(chipValue);
-    populateStoreFilter();
   }else if(chipType==="size"){
     sizeFilter = "all";
-    populateSizeFilter();
   }else if(chipType==="brand"){
     brandFilter = "all";
     document.getElementById("brandFilter").value = "all";
@@ -1547,6 +1548,13 @@ document.getElementById("activeFiltersBar").addEventListener("click", e => {
     document.getElementById("priceMin").value = "";
     document.getElementById("priceMax").value = "";
   }
+  // Every facet's own counts depend on every OTHER active filter (brand/
+  // stock/price included -- not just kind vs. store), so removing any one
+  // chip always refreshes all three panels rather than only the one the
+  // chip belonged to. This was the same staleness bug fixed in the
+  // sidebar's own row handlers, just missed here since this is a second,
+  // separate code path that can trigger the exact same removal.
+  refreshFilterPanels();
   updateFilterBadge();
   render();
   syncURLState();
@@ -1555,6 +1563,7 @@ document.getElementById("activeFiltersBar").addEventListener("click", e => {
 document.getElementById("inStockOnly").addEventListener("change", e => {
   captureScrollState();
   inStockOnly = e.target.checked;
+  refreshFilterPanels();
   updateFilterBadge();
   render();
   syncURLState();
@@ -1564,6 +1573,7 @@ document.getElementById("brandFilterClear").onclick = ()=>{
   captureScrollState();
   brandFilter = "all";
   document.getElementById("brandFilter").value = "all";
+  refreshFilterPanels();
   updateFilterBadge();
   render();
   syncURLState();
