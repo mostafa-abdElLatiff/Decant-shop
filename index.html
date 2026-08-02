@@ -444,6 +444,13 @@ const I18N = {
   }
 };
 
+// Filter/search/pagination state gets restored manually on popstate (see
+// syncURLState/applyParamsToState below) since it depends on renderedCount
+// being caught up before scrolling makes sense — letting the browser's
+// own automatic restoration fire first would scroll against a grid that's
+// still only page 1 tall.
+if("scrollRestoration" in history) history.scrollRestoration = "manual";
+
 let SETTINGS = {};
 let PRODUCTS = [];
 let byId = {}; // built once by buildLookups() after PRODUCTS loads, not per-card
@@ -644,12 +651,14 @@ function populateKindFilter(){
     { value:"leftover", label:t().filter_leftover, count:counts.leftover, swatch:true },
   ];
   buildFilterRows(document.getElementById("kindList"), entries, filter, value => {
+    captureScrollState();
     filter = value;
     if(filter !== "decant") sizeFilter = "all"; // the sub-filter only means anything under Decants
     populateKindFilter();
     populateSizeFilter();
     updateFilterBadge();
     render();
+    syncURLState();
     trackEvent("filter_kind", { value });
   });
 }
@@ -677,10 +686,12 @@ function populateSizeFilter(){
     ...sizes.map(ml => ({ value:String(ml), label:`${ml}ml`, count:counts[ml] })),
   ];
   buildFilterRows(document.getElementById("sizeList"), entries, sizeFilter, value => {
+    captureScrollState();
     sizeFilter = value;
     populateSizeFilter();
     updateFilterBadge();
     render();
+    syncURLState();
     trackEvent("filter_size", { value });
   });
 }
@@ -695,10 +706,12 @@ function populateStoreFilter(){
     ...names.map(n => ({ value:n, label:n, count:counts[n] })),
   ];
   buildFilterRows(document.getElementById("storeList"), entries, storeFilter, value => {
+    captureScrollState();
     storeFilter = value;
     populateStoreFilter();
     updateFilterBadge();
     render();
+    syncURLState();
     trackEvent("filter_store", { value });
   });
 }
@@ -736,10 +749,12 @@ function populateSortOrder(){
     { value:"default", label:t().sort_default },
   ];
   buildFilterRows(document.getElementById("sortList"), entries, sortOrder, value => {
+    captureScrollState();
     sortOrder = value;
     populateSortOrder();
     updateFilterBadge();
     render();
+    syncURLState();
     trackEvent("filter_sort", { value });
   });
 }
@@ -768,6 +783,14 @@ async function load(){
     SETTINGS = data.settings || {};
     PRODUCTS = data.products || [];
     buildLookups();
+    // restore filter/search/sort state from the URL (a shared filtered
+    // link, or a page reload after the back-button routing below updated
+    // it) before the filter UI/grid render off of it
+    applyParamsToState(new URLSearchParams(location.search));
+    document.getElementById("search").value = query;
+    document.getElementById("priceMin").value = priceMin ?? "";
+    document.getElementById("priceMax").value = priceMax ?? "";
+    document.getElementById("inStockOnly").checked = inStockOnly;
     applyI18n();
     render();
     syncCart(); // re-resolve any cart restored from localStorage now that PRODUCTS is populated
@@ -956,11 +979,13 @@ function render(){
 }
 
 function filterByBrand(brand){
+  captureScrollState();
   resetFilters();
   brandFilter = brand.trim().toLowerCase();
   document.getElementById("brandFilter").value = brandFilter;
   updateFilterBadge();
   render();
+  syncURLState();
   window.scrollTo({top: 0, behavior: "smooth"});
 }
 
@@ -1058,6 +1083,98 @@ productModal.addEventListener("click", e => {
   handleCardAreaClick(e);
 });
 
+// --- filter/search/pagination state <-> URL, so the back button undoes a
+// filter/search/brand-jump change instead of landing on whatever the last
+// modal open/close happened to be (the bug: filter changes used to never
+// touch history at all, so "back" always fell through to the nearest
+// actual pushState, which was almost always a stale product modal). Query
+// params carry the shareable/restorable part of the state; history.state
+// (not the URL) carries the ephemeral scroll/pagination depth, restored
+// manually since scrollRestoration is "manual" (see top of script).
+function paramsFromState(){
+  const p = new URLSearchParams();
+  if(filter !== "all") p.set("kind", filter);
+  if(sizeFilter !== "all") p.set("size", sizeFilter);
+  if(storeFilter !== "all") p.set("store", storeFilter);
+  if(brandFilter !== "all") p.set("brand", brandFilter);
+  if(sortOrder !== "newest") p.set("sort", sortOrder);
+  if(query.trim()) p.set("q", query.trim());
+  if(inStockOnly) p.set("stock", "1");
+  if(priceMin != null) p.set("min", priceMin);
+  if(priceMax != null) p.set("max", priceMax);
+  return p;
+}
+function applyParamsToState(params){
+  filter = params.get("kind") || "all";
+  sizeFilter = params.get("size") || "all";
+  storeFilter = params.get("store") || "all";
+  brandFilter = params.get("brand") || "all";
+  sortOrder = params.get("sort") || "newest";
+  query = params.get("q") || "";
+  inStockOnly = params.get("stock") === "1";
+  priceMin = parsePriceInput(params.get("min"));
+  priceMax = parsePriceInput(params.get("max"));
+}
+// reflect state variables (already set, e.g. by applyParamsToState) back
+// onto the actual form controls + the button-list filters' active state
+function syncControlsFromState(){
+  document.getElementById("search").value = query;
+  document.getElementById("priceMin").value = priceMin ?? "";
+  document.getElementById("priceMax").value = priceMax ?? "";
+  document.getElementById("inStockOnly").checked = inStockOnly;
+  populateKindFilter();
+  populateSizeFilter();
+  populateStoreFilter();
+  // populateBrandFilter() has a side effect: it reads the <select>'s
+  // CURRENT (still-stale) DOM value and writes it back into brandFilter,
+  // which would silently undo whatever applyParamsToState() just set --
+  // save the wanted value first, then re-assert both the DOM and the
+  // variable afterward so that side effect can't win.
+  const wantedBrand = brandFilter;
+  populateBrandFilter();
+  document.getElementById("brandFilter").value = wantedBrand;
+  brandFilter = wantedBrand;
+  populateSortOrder();
+  updateFilterBadge();
+}
+// stamps the CURRENT history entry with where the user actually is right
+// now (how many pages loaded, current scroll position) — kept fresh
+// continuously via the debounced scroll listener below, PLUS called
+// explicitly at the very top of every filter-changing handler (before
+// that handler's own render() call, which resets renderedCount for the
+// new filter) since a click can land within the scroll listener's own
+// debounce window, before it's had a chance to fire on its own. Capturing
+// only from inside syncURLState() (called after render()) was tried first
+// and was wrong: by then renderedCount already reflected the NEW filter,
+// not the state actually being left behind.
+function captureScrollState(){
+  history.replaceState({ renderedCount, scrollY: window.scrollY }, "", location.href);
+}
+let scrollCaptureDebounce;
+window.addEventListener("scroll", () => {
+  clearTimeout(scrollCaptureDebounce);
+  scrollCaptureDebounce = setTimeout(captureScrollState, 300);
+}, { passive: true });
+
+function syncURLState({push=true}={}){
+  const qs = paramsFromState().toString();
+  const url = location.pathname + (qs ? "?"+qs : "") + location.hash;
+  if(push){
+    history.pushState({ renderedCount, scrollY: 0 }, "", url);
+  }else{
+    history.replaceState({ renderedCount, scrollY: window.scrollY }, "", url);
+  }
+}
+// restores however many pages were loaded, then the scroll position --
+// order matters, since scrolling to a Y position only makes sense once
+// the grid is already tall enough to contain it
+function restorePaginationAndScroll(state){
+  const savedCount = (state && state.renderedCount) || PAGE_SIZE;
+  while(renderedCount < savedCount && renderedCount < currentItems.length) loadMore();
+  const savedScrollY = (state && state.scrollY) || 0;
+  requestAnimationFrame(() => window.scrollTo(0, savedScrollY));
+}
+
 function openProductModal(id, {fromHistory=false}={}){
   const p = byId[id];
   if (!p) return;
@@ -1066,20 +1183,29 @@ function openProductModal(id, {fromHistory=false}={}){
   productModal.classList.add("open");
   document.body.style.overflow = "hidden";
   trackEvent("product_modal_open", { item_id: id });
-  if (!fromHistory) history.pushState(null, "", "#"+id);
+  if (!fromHistory) {
+    captureScrollState(); // remember the grid state we're leaving behind
+    history.pushState({ renderedCount, scrollY: window.scrollY }, "", location.pathname + location.search + "#" + id);
+  }
 }
 function closeProductModal({skipHistory=false}={}){
   if (!productModal.classList.contains("open")) return;
   productModalOverlay.classList.remove("open");
   productModal.classList.remove("open");
   document.body.style.overflow = "";
-  if (!skipHistory) history.pushState(null, "", location.pathname + location.search);
+  if (!skipHistory) history.pushState({ renderedCount, scrollY: window.scrollY }, "", location.pathname + location.search);
 }
 document.getElementById("productModalClose").addEventListener("click", () => closeProductModal());
-// keeps browser back/forward in sync with the modal — including walking
-// back through a chain of dupe_of/duped_by jumps one product at a time,
-// since each jump pushes its own history entry (see openProductModal)
-window.addEventListener("popstate", () => {
+// keeps browser back/forward in sync with the modal AND with filter/search/
+// sort/pagination state — including walking back through a chain of
+// dupe_of/duped_by jumps one product at a time, since each jump pushes its
+// own history entry (see openProductModal)
+window.addEventListener("popstate", (e) => {
+  applyParamsToState(new URLSearchParams(location.search));
+  syncControlsFromState();
+  render();
+  restorePaginationAndScroll(e.state);
+
   const id = location.hash.slice(1);
   if (id && byId[id]) openProductModal(id, {fromHistory:true});
   else closeProductModal({skipHistory:true});
@@ -1109,43 +1235,57 @@ function resetFilters(){
 
 document.getElementById("homeLink").addEventListener("click", e=>{
   e.preventDefault();
+  captureScrollState();
   closeProductModal();
   resetFilters();
   render();
+  syncURLState();
   window.scrollTo({top: 0, behavior: "smooth"});
   trackEvent("reset_filters", { source: "home_link" });
 });
 
 let searchGaDebounce;
 document.getElementById("search").addEventListener("input", e=>{
+  if(!query) captureScrollState(); // only the first keystroke of a burst is "leaving" a state
   query=e.target.value;
   render();
   clearTimeout(searchGaDebounce);
   searchGaDebounce = setTimeout(()=>{
+    syncURLState();
     if(query.trim()) trackEvent("search", { search_term: query.trim() });
   }, 800);
 });
-document.getElementById("brandFilter").addEventListener("change", e=>{ brandFilter=e.target.value; updateFilterBadge(); render(); trackEvent("filter_brand", { value: brandFilter }); });
+document.getElementById("brandFilter").addEventListener("change", e=>{ captureScrollState(); brandFilter=e.target.value; updateFilterBadge(); render(); syncURLState(); trackEvent("filter_brand", { value: brandFilter }); });
 
 const parsePriceInput = v => { const n = parseInt(v, 10); return Number.isFinite(n) && n >= 0 ? n : null; };
 let priceGaDebounce;
 document.getElementById("priceMin").addEventListener("input", e=>{
+  captureScrollState();
   priceMin = parsePriceInput(e.target.value);
   updateFilterBadge();
   render();
   clearTimeout(priceGaDebounce);
-  priceGaDebounce = setTimeout(()=>trackEvent("filter_price", { min: priceMin, max: priceMax }), 800);
+  priceGaDebounce = setTimeout(()=>{
+    syncURLState();
+    trackEvent("filter_price", { min: priceMin, max: priceMax });
+  }, 800);
 });
 document.getElementById("priceMax").addEventListener("input", e=>{
+  captureScrollState();
   priceMax = parsePriceInput(e.target.value);
   updateFilterBadge();
   render();
   clearTimeout(priceGaDebounce);
-  priceGaDebounce = setTimeout(()=>trackEvent("filter_price", { min: priceMin, max: priceMax }), 800);
+  priceGaDebounce = setTimeout(()=>{
+    syncURLState();
+    trackEvent("filter_price", { min: priceMin, max: priceMax });
+  }, 800);
 });
 document.getElementById("clearFiltersBtn").addEventListener("click", ()=>{
+  captureScrollState();
   resetFilters();
   render();
+  syncURLState();
   trackEvent("clear_all_filters", {});
 });
 
@@ -1196,16 +1336,20 @@ function updateFilterBadge(){
   document.getElementById("clearFiltersBtn").hidden = !filtersActive;
 }
 document.getElementById("inStockOnly").addEventListener("change", e => {
+  captureScrollState();
   inStockOnly = e.target.checked;
   updateFilterBadge();
   render();
+  syncURLState();
   trackEvent("filter_in_stock_only", { enabled: inStockOnly });
 });
 document.getElementById("brandFilterClear").onclick = ()=>{
+  captureScrollState();
   brandFilter = "all";
   document.getElementById("brandFilter").value = "all";
   updateFilterBadge();
   render();
+  syncURLState();
   trackEvent("filter_brand_clear", {});
 };
 
