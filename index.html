@@ -160,6 +160,17 @@
   }
 
   .disclaimer{max-width:1200px;margin:0;padding:1rem 1.3rem 0;font-size:.76rem;color:#8A8D7B;line-height:1.5}
+  /* Sits right above the results grid (not tucked away in the sidebar,
+     which can be scrolled past or, on narrow screens, closed entirely)
+     so it's never a mystery why the list looks the way it does when more
+     than one facet (kind, store, ...) is filtering it at once. */
+  .active-filters{max-width:1200px;margin:0;padding:.7rem 1.3rem 0;display:flex;flex-wrap:wrap;gap:.4rem}
+  .active-filters[hidden]{display:none}
+  .active-filter-chip{display:inline-flex;align-items:center;gap:.35rem;background:var(--card);border:1.5px solid var(--olive);border-radius:999px;padding:.3rem .4rem .3rem .75rem;font-size:.78rem;font-weight:600;color:var(--olive-deep);cursor:pointer;font-family:inherit}
+  .active-filter-chip:hover{border-color:var(--red)}
+  .active-filter-chip .x{display:inline-flex;align-items:center;justify-content:center;width:1.15rem;height:1.15rem;border-radius:50%;background:var(--line);font-size:.7rem;line-height:1}
+  .active-filter-chip:hover .x{background:var(--red);color:#fff}
+  .active-filters-clear{background:none;border:none;color:var(--red);font-size:.78rem;font-weight:600;cursor:pointer;font-family:inherit;padding:.3rem .2rem;text-decoration:underline}
   .site-footer{margin-top:auto;padding-top:1.05rem;border-top:1px solid var(--line);font-size:.72rem;color:#8A8D7B;line-height:1.55}
   .site-footer a{color:var(--olive-deep)}
 
@@ -367,6 +378,7 @@
       </button>
     </div>
     <p class="disclaimer" id="disclaimer"></p>
+    <div class="active-filters" id="activeFiltersBar" hidden></div>
 
     <main class="grid" id="grid">
       <div class="skel"></div><div class="skel"></div><div class="skel"></div>
@@ -1438,7 +1450,78 @@ function updateFilterBadge(){
   // reliably disappears once there's nothing left for it to do
   const filtersActive = kindFilter.size>0 || sizeFilter!=="all" || storeFilters.size>0 || brandFilter!=="all" || inStockOnly || priceMin!=null || priceMax!=null;
   document.getElementById("clearFiltersBtn").hidden = !filtersActive;
+  renderActiveFiltersBar();
 }
+
+const kindLabel = k => k==="decant" ? t().filter_decant : k==="full" ? t().filter_full : t().filter_leftover;
+
+// A persistent summary of every active filter, shown right above the
+// results grid rather than only inside the (scrollable, and on narrow
+// screens closed-by-default) sidebar. Kind and Store are now
+// independent multi-select facets that keep filtering the list even
+// after you change some OTHER facet — without this, picking "Full
+// bottle" and then switching stores silently keeps the kind
+// restriction in place with no visible reminder why the list looks the
+// way it does. Called from updateFilterBadge(), which already runs
+// after every single filter-changing action in the app.
+function renderActiveFiltersBar(){
+  const bar = document.getElementById("activeFiltersBar");
+  const chips = [];
+  [...kindFilter].forEach(k => chips.push({type:"kind", value:k, label:`${t().label_kind}: ${kindLabel(k)}`}));
+  if(sizeFilter!=="all") chips.push({type:"size", value:sizeFilter, label:`${t().label_size}: ${sizeFilter}ml`});
+  [...storeFilters].forEach(s => chips.push({type:"store", value:s, label:`${t().label_store}: ${s}`}));
+  if(brandFilter!=="all"){
+    const opt = document.querySelector(`#brandFilter option[value="${CSS.escape(brandFilter)}"]`);
+    chips.push({type:"brand", value:brandFilter, label:`${t().label_brand}: ${opt ? opt.textContent : brandFilter}`});
+  }
+  if(inStockOnly) chips.push({type:"stock", value:"1", label:t().in_stock_only});
+  if(priceMin!=null || priceMax!=null) chips.push({type:"price", value:"price", label:`${t().label_price}: ${priceMin ?? "0"}–${priceMax ?? "∞"}`});
+
+  bar.hidden = chips.length===0;
+  bar.innerHTML = !chips.length ? "" : chips.map(c => `
+    <button type="button" class="active-filter-chip" data-chip-type="${c.type}" data-chip-value="${c.value}">${c.label} <span class="x" aria-hidden="true">✕</span></button>
+  `).join("") + `<button type="button" class="active-filters-clear" id="activeFiltersClearAll">${t().clear_filters_btn}</button>`;
+}
+document.getElementById("activeFiltersBar").addEventListener("click", e => {
+  if(e.target.closest("#activeFiltersClearAll")){
+    captureScrollState();
+    resetFilters();
+    render();
+    syncURLState();
+    trackEvent("clear_all_filters", { source:"active_filters_bar" });
+    return;
+  }
+  const chip = e.target.closest(".active-filter-chip");
+  if(!chip) return;
+  captureScrollState();
+  const { chipType, chipValue } = chip.dataset;
+  if(chipType==="kind"){
+    kindFilter.delete(chipValue);
+    if(!kindFilter.has("decant")) sizeFilter = "all";
+    populateKindFilter();
+    populateSizeFilter();
+  }else if(chipType==="store"){
+    storeFilters.delete(chipValue);
+    populateStoreFilter();
+  }else if(chipType==="size"){
+    sizeFilter = "all";
+    populateSizeFilter();
+  }else if(chipType==="brand"){
+    brandFilter = "all";
+    document.getElementById("brandFilter").value = "all";
+  }else if(chipType==="stock"){
+    inStockOnly = false;
+    document.getElementById("inStockOnly").checked = false;
+  }else if(chipType==="price"){
+    priceMin = null; priceMax = null;
+    document.getElementById("priceMin").value = "";
+    document.getElementById("priceMax").value = "";
+  }
+  updateFilterBadge();
+  render();
+  syncURLState();
+  trackEvent("active_filter_chip_remove", { type: chipType, value: chipValue });
+});
 document.getElementById("inStockOnly").addEventListener("change", e => {
   captureScrollState();
   inStockOnly = e.target.checked;
