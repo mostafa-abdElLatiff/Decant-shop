@@ -113303,6 +113303,20 @@
           ],
           "image": "images/osma-amber-s--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/osma-amber-s"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 2250,
+              "first_seen": "2026-08-02"
+            }
+          ],
+          "image": "images/osma-amber-s--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/amber-s"
         }
       ],
       "_hero_source": "og-perfume"
@@ -113433,6 +113447,20 @@
           ],
           "image": "images/osma-rouge--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/osma-rouge"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2450,
+              "first_seen": "2026-08-02"
+            }
+          ],
+          "image": "images/osma-rouge--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/osma-rouge"
         }
       ],
       "_hero_source": "og-perfume"
@@ -113498,6 +113526,20 @@
           ],
           "image": "images/osma-white-f--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/osma-white-f"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 2250,
+              "first_seen": "2026-08-02"
+            }
+          ],
+          "image": "images/osma-white-f--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/white-f"
         }
       ],
       "_hero_source": "og-perfume"
@@ -146495,7 +146537,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2700,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-02"
             }
           ],
           "image": "images/teriaq-gift-set--emaratiscents.jpg",
@@ -165437,6 +165480,84 @@
         }
       ],
       "_hero_source": "mazaya"
+    },
+    {
+      "id": "flowery-musk",
+      "name_ar": "Flowery Musk",
+      "name_en": "Flowery Musk",
+      "brand": "Osma Perfumes",
+      "dupe_of": [],
+      "image": "images/flowery-musk.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 2250,
+              "first_seen": "2026-08-02"
+            }
+          ],
+          "image": "images/flowery-musk--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/flowery-musk"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "cotton-c",
+      "name_ar": "Cotton' C",
+      "name_en": "Cotton' C",
+      "brand": "Osma Perfumes",
+      "dupe_of": [],
+      "image": "images/cotton-c.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 2250,
+              "first_seen": "2026-08-02"
+            }
+          ],
+          "image": "images/cotton-c--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/cotton-c"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "paudree-f",
+      "name_ar": "Paudree' F",
+      "name_en": "Paudree' F",
+      "brand": "Osma Perfumes",
+      "dupe_of": [],
+      "image": "images/paudree-f.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 2250,
+              "first_seen": "2026-08-02"
+            }
+          ],
+          "image": "images/paudree-f--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/paudree-f"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
