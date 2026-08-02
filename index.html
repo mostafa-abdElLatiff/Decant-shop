@@ -523,6 +523,14 @@ let renderedCount = 0;
 const grid = document.getElementById("grid");
 const t = () => I18N[lang];
 
+// The Size sub-filter is one shared DOM node re-parented on every
+// populateKindFilter() call (see there) rather than a fixed sibling
+// after the whole kind list -- cached once so a rebuild of #kindList's
+// innerHTML never destroys it (it just gets detached, then re-attached
+// by the code that moves it).
+const kindSizeSubfilter = document.getElementById("sizeSubfilter");
+const kindFilterSection = kindSizeSubfilter.parentElement;
+
 /* --- Smart search ---------------------------------------------------
    Goals: doesn't need an exact substring match (typo-tolerant), works
    regardless of whether the query is Arabic or English, matches on
@@ -725,11 +733,23 @@ function populateKindFilter(){
     if(!kindFilter.has("decant")) sizeFilter = "all"; // the sub-filter only means anything under Decants
     populateKindFilter();
     populateSizeFilter();
+    populateStoreFilter();
     updateFilterBadge();
     render();
     syncURLState();
     trackEvent("filter_kind", { value: [...kindFilter].join(",") || "all" });
   });
+  // Re-nest the size sub-filter directly under whichever row is Decant's
+  // right now, instead of leaving it a fixed sibling after the WHOLE
+  // kind list -- that fixed position put it under Full or Leftover
+  // whenever either of THOSE happened to render as the last visible row
+  // (e.g. a store with no full-bottle offers leaves [All, Decant,
+  // Leftover], and the old fixed position landed the sub-filter under
+  // Leftover instead of Decant). Falls back to appending it at the end
+  // of the section on the rare case Decant itself is hidden entirely.
+  const decantRow = document.querySelector('#kindList .filter-row[data-value="decant"]');
+  if(decantRow) decantRow.insertAdjacentElement("afterend", kindSizeSubfilter);
+  else kindFilterSection.appendChild(kindSizeSubfilter);
 }
 
 // Sizes only apply to decant offers — a "50ml" full bottle and a "50ml"
@@ -798,6 +818,16 @@ function populateStoreFilter(){
     else if(storeFilters.has(value)) storeFilters.delete(value);
     else storeFilters.add(value);
     populateStoreFilter();
+    // Kind's own counts (and which kind options are even listed/hidden)
+    // depend on storeFilters too -- without this, changing the store here
+    // left the Type panel showing options computed against the OLD store
+    // selection, which could get stuck hiding an option indefinitely
+    // (it's only recomputed when Type itself is clicked, so e.g. picking
+    // a store with no leftover offers while "Full bottle" is active hides
+    // "Decants"/"Leftover" and they silently stay hidden even after
+    // switching to a store that does carry them).
+    populateKindFilter();
+    populateSizeFilter();
     updateFilterBadge();
     render();
     syncURLState();
