@@ -655,17 +655,34 @@ function buildFilterRows(container, entries, activeValue, onPick){
   });
 }
 
+// A brand match is the one filter check that lives outside
+// productHasMatchingOffer (it's a per-PRODUCT field, not a per-offer
+// one) — every populate*Filter() below needs it alongside that helper to
+// build counts that reflect ALL the other currently-active filters, not
+// just the one facet being listed. Without this, e.g. picking a store
+// and then "Decants" left the size sub-filter showing every size that
+// exists ANYWHERE in the whole catalog, most of which that store doesn't
+// even carry — the counts were real, just for the wrong (unfiltered) set.
+function productMatchesBrand(p){
+  return brandFilter==="all" || (p.brand||"").trim().toLowerCase()===brandFilter;
+}
+
 function populateKindFilter(){
-  const counts = { all: PRODUCTS.length, decant: 0, full: 0, leftover: 0 };
+  const counts = { all: 0, decant: 0, full: 0, leftover: 0 };
   PRODUCTS.forEach(p => {
-    ["decant","full","leftover"].forEach(k => { if(productHasKind(p, k)) counts[k]++; });
+    if(!productMatchesBrand(p)) return;
+    const opts = { storeName: storeFilter, inStockOnly, minPrice: priceMin, maxPrice: priceMax };
+    if(productHasMatchingOffer(p, { ...opts, kind:"all" })) counts.all++;
+    ["decant","full","leftover"].forEach(k => {
+      if(productHasMatchingOffer(p, { ...opts, kind:k })) counts[k]++;
+    });
   });
   const entries = [
     { value:"all", label:t().filter_all, count:counts.all, swatch:true },
     { value:"decant", label:t().filter_decant, count:counts.decant, swatch:true },
     { value:"full", label:t().filter_full, count:counts.full, swatch:true },
     { value:"leftover", label:t().filter_leftover, count:counts.leftover, swatch:true },
-  ];
+  ].filter(e => e.value==="all" || e.value===filter || e.count>0);
   buildFilterRows(document.getElementById("kindList"), entries, filter, value => {
     captureScrollState();
     filter = value;
@@ -689,10 +706,17 @@ function populateSizeFilter(){
   if(filter !== "decant") return;
   const counts = {};
   PRODUCTS.forEach(p => {
+    if(!productMatchesBrand(p)) return;
     const mls = new Set();
-    (p.stores||[]).forEach(s => (s.offers||[]).forEach(o => {
-      if(o.kind === "decant" && typeof o.ml === "number") mls.add(o.ml);
-    }));
+    (p.stores||[]).forEach(s => {
+      if(storeFilter!=="all" && s.name!==storeFilter) return;
+      (s.offers||[]).forEach(o => {
+        if(o.kind === "decant" && typeof o.ml === "number" &&
+           (!inStockOnly || !o.sold_since) &&
+           (priceMin==null || o.price >= priceMin) &&
+           (priceMax==null || o.price <= priceMax)) mls.add(o.ml);
+      });
+    });
     mls.forEach(ml => { counts[ml] = (counts[ml]||0) + 1; });
   });
   const sizes = Object.keys(counts).map(Number).sort((a,b) => a-b);
@@ -713,8 +737,16 @@ function populateSizeFilter(){
 }
 
 function populateStoreFilter(){
+  const allNames = new Set();
+  PRODUCTS.forEach(p => (p.stores||[]).forEach(s => allNames.add(s.name)));
   const counts = {};
-  PRODUCTS.forEach(p => (p.stores||[]).forEach(s => { counts[s.name] = (counts[s.name]||0) + 1; }));
+  const opts = { kind: filter, inStockOnly, minPrice: priceMin, maxPrice: priceMax, ml: sizeFilter==="all" ? null : Number(sizeFilter) };
+  PRODUCTS.forEach(p => {
+    if(!productMatchesBrand(p)) return;
+    allNames.forEach(name => {
+      if(productHasMatchingOffer(p, { ...opts, storeName:name })) counts[name] = (counts[name]||0) + 1;
+    });
+  });
   const names = Object.keys(counts).sort();
   if(storeFilter!=="all" && !names.includes(storeFilter)) storeFilter = "all";
   const entries = [
