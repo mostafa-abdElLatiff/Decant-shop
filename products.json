@@ -3606,24 +3606,23 @@
               "kind": "decant",
               "ml": 3,
               "price": 275,
-              "first_seen": "2026-01-01",
-              "note": "old batch"
+              "first_seen": "2026-01-01"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 380,
-              "first_seen": "2026-01-01",
-              "note": "old batch"
+              "first_seen": "2026-01-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 600,
-              "first_seen": "2026-01-01",
-              "note": "old batch"
+              "first_seen": "2026-01-01"
             }
-          ]
+          ],
+          "image": "images/acqua-di-gi-profondo--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/armani-acqua-di-gio-profondo"
         },
         {
           "name": "mazaya",
@@ -9833,11 +9832,11 @@
               "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/angels-share--sniffz.jpg",
+          "image": "images/angels-share-kilian--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/killian-angels-share"
         }
       ],
-      "_hero_source": "Abo Anas Sayed"
+      "_hero_source": "sniffz"
     },
     {
       "id": "angels-share-paradis",
@@ -24062,11 +24061,11 @@
               "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/ex-nihilo-blue-talisman--sniffz.jpg",
+          "image": "images/blue-talisman-extrait-de-parfum-ex-nihilo--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/ex-nihilo-blue-talisman-full-sealed"
         }
       ],
-      "_hero_source": "Ahmed Abdel Kareem",
+      "_hero_source": "sniffz",
       "aliases": [
         "Blue Talisman",
         "Blue Talisman Extrait De Parfum",
@@ -43211,21 +43210,21 @@
               "ml": 3,
               "price": 300,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-08-01"
+              "sold_since": "2026-08-02"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 410,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-08-01"
+              "sold_since": "2026-08-02"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 650,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-08-01"
+              "sold_since": "2026-08-02"
             },
             {
               "kind": "full",
@@ -65870,7 +65869,7 @@
               "first_seen": "2026-07-19"
             }
           ],
-          "image": "images/hersh-mehwar--sniffz.jpg",
+          "image": "images/hersh-mahwar--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/hersh-mehwar"
         },
         {
@@ -71111,19 +71110,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 275,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-02"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 380,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-02"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 600,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-02"
             },
             {
               "kind": "full",
@@ -71133,7 +71135,7 @@
             }
           ],
           "image": "images/intense-oud--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/gucci-intense-oud"
+          "product_url": "https://sniffz-eg.com/products/gucci-intense-oud-full-sealed"
         },
         {
           "name": "Hossam ElDeen Gamal",
@@ -127394,27 +127396,6 @@
           "url": "https://sniffz-eg.com/",
           "offers": [
             {
-              "kind": "decant",
-              "ml": 3,
-              "price": 120,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-07-26"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 150,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-07-26"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 250,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-07-26"
-            },
-            {
               "kind": "full",
               "ml": 100,
               "price": 1200,
@@ -149091,7 +149072,7 @@
               "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/the-one-for-men-eau-de-parfum--sniffz.jpg",
+          "image": "images/the-one--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/dolce-gabbana-the-one-for-men-eau-de-parfum"
         },
         {
@@ -149156,7 +149137,7 @@
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/d-g-the-one-edp-2025-10ml-422"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "sniffz",
       "aliases": [
         "The One EDP (NEW 2025)",
         "The One EDP 2025",
