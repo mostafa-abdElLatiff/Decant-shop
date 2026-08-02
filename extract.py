@@ -606,7 +606,13 @@ def to_offers(raw: dict) -> list:
     return sorted(offers, key=offer_sort_key)
 
 
-STOPWORDS = {"perfumes", "perfume", "men", "women", "unisex", "fragrances", "fragrance"}
+STOPWORDS = {"perfumes", "perfume", "men", "women", "man", "woman", "unisex", "fragrances", "fragrance"}
+# "man"/"woman" (singular) sit alongside the existing "men"/"women" plural
+# strip -- a lone gender descriptor appended to an otherwise-identical name
+# ("Jubilation 40" vs "Jubilation 40 Man", "Icon Eau de Parfum" vs "Icon Man
+# Eau de Parfum") is never the actual distinguishing feature of a real
+# separate fragrance in this catalog's data so far; it was just a store's
+# own naming convention creating an avoidable duplicate.
 # NOTE: deliberately does NOT include "edp"/"edt" — tried that, but several
 # houses (Mont Blanc Legend, Cartier Déclaration, Davidoff Cool Water) sell
 # genuinely different EDP/EDT concentrations at different prices, so
@@ -629,8 +635,13 @@ BRAND_GENERIC_WORDS = {"men", "women", "unisex", "fragrance", "fragrances", "per
 # vs "Legend EDP", or Bleu de Chanel's three genuinely different EDT/EDP/
 # Parfum releases). Only used by find_existing_product's third, most
 # cautious pass — see there for why it's safe in that narrower context.
+# Also doubles as the "safe to strip only when there's a unique candidate"
+# set for non-concentration marketing words with the exact same risk
+# profile — "new" being the one real example so far (faces.eg's own tiles
+# literally prefix a reformulation/restock as "New Frankel Silver" etc,
+# recreating a duplicate of the plain "Frankel Silver" already on file).
 GENERIC_CONCENTRATION_WORDS = {"eau", "de", "du", "des", "la", "le", "parfum", "perfum",
-                                "toilette", "edp", "edt", "perfume", "cologne", "spray", "extrait"}
+                                "toilette", "edp", "edt", "perfume", "cologne", "spray", "extrait", "new"}
 
 # Spelled-out concentration phrases mapped to their standard abbreviation
 # BEFORE tokenizing — unlike GENERIC_CONCENTRATION_WORDS (which discards the
@@ -963,20 +974,41 @@ def find_existing_product(catalog: dict, name_en: str, brand: str = ""):
         return fuzzy_matches[0]
 
     stripped_incoming = base_core - GENERIC_CONCENTRATION_WORDS
-    if not stripped_incoming:
-        return None
-    candidates = []
-    for p in catalog["products"]:
-        p_brand_tokens = _brand_tokens(p.get("brand", ""))
-        p_stripped = _tokens(p["name_en"]) - p_brand_tokens - GENERIC_CONCENTRATION_WORDS
-        if p_stripped != stripped_incoming:
-            continue
-        if len(p_stripped) < 2 and not p_brand_tokens:
-            continue
-        if _brands_match(p.get("brand", ""), brand):
-            candidates.append(p)
-    if len(candidates) == 1:
-        return candidates[0]
+    if stripped_incoming:
+        candidates = []
+        for p in catalog["products"]:
+            p_brand_tokens = _brand_tokens(p.get("brand", ""))
+            p_stripped = _tokens(p["name_en"]) - p_brand_tokens - GENERIC_CONCENTRATION_WORDS
+            if p_stripped != stripped_incoming:
+                continue
+            if len(p_stripped) < 2 and not p_brand_tokens:
+                continue
+            if _brands_match(p.get("brand", ""), brand):
+                candidates.append(p)
+        if len(candidates) == 1:
+            return candidates[0]
+
+    # Fourth, still-cautious pass: some sources split "brand" vs "name_en"
+    # text differently for the exact same real product ("K by Dolce &
+    # Gabbana" / brand blank, vs name "K EDP" / brand "Dolce & Gabbana";
+    # "Signature Rose Gold" / brand "Dkhooni", vs name "Signature Rose Gold
+    # Dkhoon Emirates" / brand "Dkhoon Emirates") — comparing name tokens
+    # alone (pass 2/3) or brand-stripped-name tokens alone never lines
+    # these up, because the very thing that differs is WHICH field the
+    # brand words live in. Union name+brand tokens on both sides instead
+    # and require an EXACT match (not just _brands_match compatibility,
+    # since brand text may be missing/blank on one side entirely) — still
+    # gated on a unique candidate, same safety net as pass 3.
+    combined_incoming = _tokens(name_en) | search_brand_tokens
+    if len(combined_incoming) >= 2:
+        combined_candidates = []
+        for p in catalog["products"]:
+            p_combined = _tokens(p["name_en"]) | _brand_tokens(p.get("brand", ""))
+            if p_combined == combined_incoming:
+                combined_candidates.append(p)
+        if len(combined_candidates) == 1:
+            return combined_candidates[0]
+
     return None
 
 
