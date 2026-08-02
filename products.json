@@ -533,32 +533,6 @@
       "_hero_source": "feel22"
     },
     {
-      "id": "212-vip-are-you-on-the-list-eau-de-toilette",
-      "name_ar": "212 VIP Are You On The List Eau De Toilette",
-      "name_en": "212 VIP Are You On The List Eau De Toilette",
-      "brand": "Carolina Herrera",
-      "dupe_of": [],
-      "image": "images/212-vip-are-you-on-the-list-eau-de-toilette.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "feel22",
-          "url": "https://eg.feel22.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 3657,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/212-vip-are-you-on-the-list-eau-de-toilette--feel22.jpg",
-          "product_url": "https://eg.feel22.com/products/carolina-herrera-212-vip-are-you-on-the-list-eau-de-toilette-for-men-100ml"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
       "id": "212-vip-black-edp-le-24",
       "name_ar": "212 VIP Black EDP Le 24",
       "name_en": "212 VIP Black EDP Le 24",
@@ -754,33 +728,6 @@
       "_hero_source": "feel22"
     },
     {
-      "id": "212-vip-man",
-      "name_ar": "212 VIP Man",
-      "name_en": "212 VIP Man",
-      "brand": "Carolina Herrera",
-      "dupe_of": [],
-      "image": "images/212-vip-man.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 6000,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
-            }
-          ],
-          "image": "images/212-vip-man--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/212-vip-man-200ml-edt"
-        }
-      ],
-      "_hero_source": "mazaya"
-    },
-    {
       "id": "212-vip-men-edt",
       "name_ar": "212 VIP Men EDT",
       "name_en": "212 VIP Men EDT",
@@ -799,13 +746,38 @@
               "price": 5300,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 6000,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-23"
             }
           ],
-          "image": "images/212-vip-men-edt--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/212-vip-men-edt-100ml-repack"
+          "image": "images/212-vip-man--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/212-vip-man-200ml-edt"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3657,
+              "first_seen": "2026-07-23"
+            }
+          ],
+          "image": "images/212-vip-are-you-on-the-list-eau-de-toilette--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/carolina-herrera-212-vip-are-you-on-the-list-eau-de-toilette-for-men-100ml"
         }
       ],
-      "_hero_source": "mazaya"
+      "_hero_source": "mazaya",
+      "aliases": [
+        "212 VIP Are You On The List Eau De Toilette",
+        "212 VIP Man"
+      ]
     },
     {
       "id": "212-vip-ros-love-ny-women",
@@ -3548,6 +3520,34 @@
             }
           ],
           "image": "images/acqua-di-gi-parfum--ahmed-abdel-kareem.jpg"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 7800,
+              "first_seen": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 9000,
+              "first_seen": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 5600,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-23",
+              "note": "refill"
+            }
+          ],
+          "image": "images/acqua-di-gio-edp-refill--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/acqua-di-gio-eau-de-parfum-refill-150-ml"
         }
       ],
       "_hero_source": "sniffz",
@@ -3754,33 +3754,6 @@
         "Giorgio Armani Acqua di Giò Profondo Eau de Parfum"
       ],
       "_hero_source": "MO Shawky"
-    },
-    {
-      "id": "acqua-di-gio-edp-refill",
-      "name_ar": "Acqua Di Gio EDP Refill",
-      "name_en": "Acqua Di Gio EDP Refill",
-      "brand": "Giorgio Armani",
-      "dupe_of": [],
-      "image": "images/acqua-di-gio-edp-refill.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 5600,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
-            }
-          ],
-          "image": "images/acqua-di-gio-edp-refill--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/acqua-di-gio-eau-de-parfum-refill-150-ml"
-        }
-      ],
-      "_hero_source": "mazaya"
     },
     {
       "id": "acqua-essenziale-blu",
@@ -10197,9 +10170,15 @@
               "ml": 10,
               "price": 950,
               "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "leftover",
+              "ml": "as-shown",
+              "price": 4250,
+              "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/ani-x.jpg"
+          "image": "images/ani-x-extrait-de-parfum.jpg"
         },
         {
           "name": "Abo Anas Sayed",
@@ -10213,30 +10192,6 @@
             }
           ],
           "image": "images/ani-x--abo-anas-sayed.jpg"
-        }
-      ]
-    },
-    {
-      "id": "ani-x-extrait-de-parfum",
-      "name_ar": "Ani X Extrait de Parfum",
-      "name_en": "Ani X Extrait de Parfum",
-      "brand": "Nishane",
-      "dupe_of": [],
-      "image": "images/ani-x-extrait-de-parfum.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Mostafa Mohamed",
-          "url": "https://www.facebook.com/mostafa.mohamed.390048/",
-          "offers": [
-            {
-              "kind": "leftover",
-              "ml": "as-shown",
-              "price": 4250,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/ani-x-extrait-de-parfum.jpg"
         },
         {
           "name": "Hossam ElDeen Gamal",
@@ -10263,6 +10218,9 @@
           ],
           "image": "images/ani-x-extrait-de-parfum--hossam-eldeen-gamal.jpg"
         }
+      ],
+      "aliases": [
+        "Ani X Extrait de Parfum"
       ]
     },
     {
@@ -17841,7 +17799,41 @@
             }
           ],
           "image": "images/babycat-raw-bourbon--hossam-eldeen-gamal.jpg"
+        },
+        {
+          "name": "Mohamed Mohie",
+          "url": "https://www.facebook.com/mohammett.mohie/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 600,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 1200,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 20,
+              "price": 2100,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 3200,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/ysl-babycat-raw-bourbon--mohamed-mohie.jpg"
         }
+      ],
+      "aliases": [
+        "YSL Babycat Raw Bourbon"
       ]
     },
     {
@@ -18382,32 +18374,6 @@
       ]
     },
     {
-      "id": "badee-al-oud-honor-and-glory-eau-de-parfum",
-      "name_ar": "Badee Al Oud Honor and Glory Eau de Parfum",
-      "name_en": "Badee Al Oud Honor and Glory Eau de Parfum",
-      "brand": "Lattafa",
-      "dupe_of": [],
-      "image": "images/badee-al-oud-honor-and-glory-eau-de-parfum.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "feel22",
-          "url": "https://eg.feel22.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1577,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/badee-al-oud-honor-and-glory-eau-de-parfum--feel22.jpg",
-          "product_url": "https://eg.feel22.com/products/lattafa-badee-al-oud-honor-and-glory-eau-de-parfum-100ml"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
       "id": "badee-al-oud-honor-glory",
       "name_ar": "Badee Al Oud Honor & Glory",
       "name_en": "Badee Al Oud Honor & Glory",
@@ -18471,11 +18437,43 @@
           ],
           "image": "images/badee-al-oud-honor-glory--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/badee-al-oud-honor-and-glory"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1577,
+              "first_seen": "2026-07-23"
+            }
+          ],
+          "image": "images/badee-al-oud-honor-and-glory-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/lattafa-badee-al-oud-honor-and-glory-eau-de-parfum-100ml"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1590,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-23",
+              "note": "white"
+            }
+          ],
+          "image": "images/spray-badee-al-oud-honor-and-glory-white--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/spray-badee-al-oud-honor-and-glory-100-ml-white"
         }
       ],
       "_hero_source": "emaratiscents",
       "aliases": [
-        "Badee Al Oud Honor and Glory"
+        "Badee Al Oud Honor and Glory",
+        "Badee Al Oud Honor and Glory Eau de Parfum",
+        "Spray Badee Al Oud Honor and Glory white"
       ]
     },
     {
@@ -25090,9 +25088,27 @@
           ],
           "image": "images/born-in-roma-eau-de-toilette--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/valentino-born-in-roma-eau-de-toilette-PM_VALENTINO_Uomo_Born_In_Roma_EDT.html"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 6700,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-23"
+            }
+          ],
+          "image": "images/uomo-born-in-roma-eau-de-toilette--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/uomo-born-in-roma-eau-de-toilette"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "feel22",
+      "aliases": [
+        "UOMO BORN IN ROMA EAU DE TOILETTE"
+      ]
     },
     {
       "id": "born-in-roma-ivory-uomo",
@@ -25116,9 +25132,26 @@
           ],
           "image": "images/born-in-roma-ivory-uomo--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/valentino-born-in-roma-ivory-uomo-eau-de-toilette-032817438026.html"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 8800,
+              "first_seen": "2026-07-23"
+            }
+          ],
+          "image": "images/valentino-born-in-roma-uomo-rendez-vous-ivory-edt--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/valentino-born-in-roma-uomo-rendez-vous-ivory-edt-100ml"
         }
       ],
-      "_hero_source": "faces"
+      "_hero_source": "faces",
+      "aliases": [
+        "Valentino Born In Roma Uomo Rendez-Vous Ivory EDT"
+      ]
     },
     {
       "id": "born-in-roma-purple-melancholia-edt",
@@ -25424,10 +25457,26 @@
           ],
           "image": "images/boss-bottled-elixir--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/hugo-boss-boss-bottled-elixir-eau-de-parfum-for-men"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 7800,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-23"
+            }
+          ],
+          "image": "images/hugo-boss-men-s-perfume-bottled-elixir--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/hugo-boss-men-s-perfume-bottled-elixir"
         }
       ],
       "aliases": [
-        "Boss Bottled Elixir Eau de Parfum"
+        "Boss Bottled Elixir Eau de Parfum",
+        "Hugo Boss Men's Perfume Bottled Elixir"
       ],
       "_hero_source": "feel22"
     },
@@ -25473,13 +25522,31 @@
           ],
           "image": "images/boss-bottled-infinite-eau-de-parfum-50ml--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/boss-bottled-infinite-eau-de-parfum123455-html"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2750,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19",
+              "note": "tester"
+            }
+          ],
+          "image": "images/hugo-boss-bottled-infinite-tester-edp--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/hugo-boss-bottled-infinite-tester-box-edp%d9%87%d9%88%d8%ac%d9%88-%d8%a8%d9%88%d8%b5-%d8%a8%d9%88%d8%aa%d9%84%d8%af-%d8%a7%d9%86%d9%81%d9%8a%d9%86%d9%8a%d8%aa-%d8%aa%d8%b3%d8%aa%d8%b1-%d8%a8%d9%88/"
         }
       ],
       "_hero_source": "mazaya",
       "aliases": [
         "Boss Bottled Infinite Eau de Parfum 50ml",
         "Bottled Infinite Eau de Parfum",
-        "Bottled Infinite Eau de Parfum 200ml"
+        "Bottled Infinite Eau de Parfum 200ml",
+        "Hugo Boss Bottled Infinite",
+        "Hugo Boss Bottled Infinite Tester EDP"
       ]
     },
     {
@@ -25933,12 +26000,35 @@
           ],
           "image": "images/boss-bottled-unlimited-eau-de-toilette-100ml--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/hugo-boss-boss-bottled-united-eau-de-toilette-014811664842.html"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 5000,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 6300,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-23"
+            }
+          ],
+          "image": "images/hugo-boss-unlimited-man-edt--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/boss-un-limited-man-edt"
         }
       ],
       "_hero_source": "feel22",
       "aliases": [
         "Boss Bottled Unlimited Eau de Toilette",
-        "Boss Bottled Unlimited Eau de Toilette 100ml"
+        "Boss Bottled Unlimited Eau de Toilette 100ml",
+        "Hugo Boss Unlimited Man EDT"
       ]
     },
     {
@@ -26525,33 +26615,6 @@
           ],
           "image": "images/brutus--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/brutus-50-ml"
-        }
-      ],
-      "_hero_source": "mazaya"
-    },
-    {
-      "id": "burberry-hero",
-      "name_ar": "Burberry Hero",
-      "name_en": "Burberry Hero",
-      "brand": "Burberry",
-      "dupe_of": [],
-      "image": "images/burberry-hero.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 7225,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
-            }
-          ],
-          "image": "images/burberry-hero--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/burberry-hero"
         }
       ],
       "_hero_source": "mazaya"
@@ -30675,9 +30738,27 @@
           ],
           "image": "images/classic-red-eau-de-toilette--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/jaguar-classic-red-eau-de-toilette-for-men-100ml"
+        },
+        {
+          "name": "faces",
+          "url": "https://www.faces.eg/en/perfume-for-men",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2500,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/jaguar-classic-red-h-edt-100ml--faces.jpg",
+          "product_url": "https://www.faces.eg/en/p/jaguar-classic-red-edt-088711505909.html"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "feel22",
+      "aliases": [
+        "Jaguar Classic Red H EDT",
+        "Jaguar Classic Red H EDT 100ML"
+      ]
     },
     {
       "id": "clive-christian-blonde-amber",
@@ -30995,37 +31076,6 @@
       "_hero_source": "og-perfume"
     },
     {
-      "id": "club-black",
-      "name_ar": "Club Black",
-      "name_en": "Club Black",
-      "brand": "Mercedes-Benz",
-      "dupe_of": [],
-      "image": "images/club-black.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Ahmed Abdel Kareem",
-          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1750,
-              "first_seen": "2026-08-01"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2100,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/club-black--ahmed-abdel-kareem.jpg"
-        }
-      ],
-      "_hero_source": "Ahmed Abdel Kareem"
-    },
-    {
       "id": "club-black-edp",
       "name_ar": "Club Black EDP",
       "name_en": "Club Black EDP",
@@ -31116,10 +31166,30 @@
           ],
           "image": "images/club-black-edt--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/mercedes-benz-club-black-men-edt123455-html"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1750,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2100,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/club-black--ahmed-abdel-kareem.jpg"
         }
       ],
       "_hero_source": "perfuzone",
       "aliases": [
+        "Club Black",
         "Club Black Men Eau de Toilette",
         "Marcedes Benz Club Black EDT Tester Box"
       ]
@@ -31389,69 +31459,6 @@
       "_hero_source": "emaratiscents"
     },
     {
-      "id": "club-de-nuit-intense-eau-de-toilette",
-      "name_ar": "Club De Nuit Intense Eau de Toilette",
-      "name_en": "Club De Nuit Intense Eau de Toilette",
-      "brand": "Armaf",
-      "dupe_of": [],
-      "image": "images/club-de-nuit-intense-eau-de-toilette.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "feel22",
-          "url": "https://eg.feel22.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 105,
-              "price": 2447,
-              "first_seen": "2026-07-26"
-            }
-          ],
-          "image": "images/club-de-nuit-intense-eau-de-toilette--feel22.jpg",
-          "product_url": "https://eg.feel22.com/products/armaf-club-de-nuit-intense-eau-de-toilette-for-men-105ml"
-        },
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 190,
-              "first_seen": "2026-07-26",
-              "sold_since": "2026-08-01"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1600,
-              "first_seen": "2026-07-26",
-              "sold_since": "2026-07-26"
-            }
-          ],
-          "image": "images/club-de-nuit-intense-eau-de-toilette--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/club-de-nuit-edt"
-        },
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 975,
-              "first_seen": "2026-07-29",
-              "sold_since": "2026-07-29"
-            }
-          ],
-          "image": "images/club-de-nuit-intense-eau-de-toilette--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/club-de-nuit-intense-men-50ml/"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
       "id": "club-de-nuit-intense-limited-edition-pure-parfum",
       "name_ar": "Club De Nuit Intense Limited Edition Pure Parfum",
       "name_en": "Club De Nuit Intense Limited Edition Pure Parfum",
@@ -31665,10 +31672,17 @@
               "price": 1675,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 975,
+              "first_seen": "2026-07-29",
+              "sold_since": "2026-07-29"
             }
           ],
-          "image": "images/club-de-nuit-intense-man--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/club-de-nuit-intense-man-edt-105ml-armaf%d9%83%d9%84%d9%88%d8%a8-%d8%af%d9%8a-%d9%86%d9%88%d9%8a-%d8%a7%d9%86%d8%aa%d9%86%d8%b3-%d8%a7%d9%88-%d8%af%d9%88-%d8%aa%d9%88%d8%a7%d9%84%d9%8a%d8%aa-%d9%a1-2/"
+          "image": "images/club-de-nuit-intense-eau-de-toilette--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/club-de-nuit-intense-men-50ml/"
         },
         {
           "name": "mazaya",
@@ -31694,10 +31708,16 @@
               "ml": 150,
               "price": 3304,
               "first_seen": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 105,
+              "price": 2447,
+              "first_seen": "2026-07-26"
             }
           ],
-          "image": "images/club-de-nuit-intense-man--feel22.jpg",
-          "product_url": "https://eg.feel22.com/products/copy-of-armaf-club-de-nuit-intense-eau-de-perfume-for-men"
+          "image": "images/club-de-nuit-intense-eau-de-toilette--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/armaf-club-de-nuit-intense-eau-de-toilette-for-men-105ml"
         },
         {
           "name": "og-perfume",
@@ -31718,7 +31738,7 @@
               "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/club-de-nuit-intense-man--og-perfume.jpg",
+          "image": "images/club-de-nuit-intense-eau-de-toilette--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/club-de-nuit-edt"
         },
         {
@@ -31749,9 +31769,10 @@
       ],
       "_hero_source": "roseperfume",
       "aliases": [
-        "Club de Nuit Intense Man edt",
+        "Club De Nuit Intense Eau de Toilette",
         "Club De Nuit Intense Man EDT Armaf",
-        "Club De Nuit Intense Perfume"
+        "Club De Nuit Intense Perfume",
+        "Club de Nuit Intense Man edt"
       ]
     },
     {
@@ -53626,7 +53647,7 @@
     {
       "id": "for-him-bleu-noir-eau-de-parfum",
       "name_ar": "",
-      "name_en": "For him Bleu Noir Eau de Parfum",
+      "name_en": "For Him Bleu Noir Parfum",
       "brand": "Narciso Rodriguez",
       "dupe_of": [],
       "image": "images/for-him-bleu-noir-eau-de-parfum.jpg",
@@ -53653,7 +53674,10 @@
           "product_url": "https://www.faces.eg/en/p/narciso-rodriguez-for-him-bleu-noir-parfum-extrait-PM_NARCISO_RODRIGUEZ_For_Him_Bleu_Noir_Parfum.html"
         }
       ],
-      "_hero_source": "faces"
+      "_hero_source": "faces",
+      "aliases": [
+        "For him Bleu Noir Eau de Parfum"
+      ]
     },
     {
       "id": "for-him-musc-collection",
@@ -57951,26 +57975,6 @@
           "product_url": "https://eg.feel22.com/products/giorgio-armani-acqua-di-gio-parfum-recharge-refill-for-men-150ml"
         },
         {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 75,
-              "price": 7800,
-              "first_seen": "2026-07-23"
-            },
-            {
-              "kind": "full",
-              "ml": 125,
-              "price": 9000,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/giorgio-armani-acqua-di-gio-eau-de-parfum--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/acqua-di-gio-eau-de-parfum-men-perfume"
-        },
-        {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
           "offers": [
@@ -57993,6 +57997,7 @@
       ],
       "_hero_source": "feel22",
       "aliases": [
+        "Acqua Di Gio EDP Refill",
         "Acqua Di Gio Eau de Parfum Men Perfume",
         "Acqua Di Giò Parfum",
         "Giorgio Armani Acqua Di Gio Parfum Recharge Refill"
@@ -65337,9 +65342,27 @@
           ],
           "image": "images/hero-eau-de-toilette--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/burberry-hero-eau-de-toilette-PM_BURBERRY_Hero_For_Men_EDT.html"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 7225,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-23"
+            }
+          ],
+          "image": "images/burberry-hero--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/burberry-hero"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "feel22",
+      "aliases": [
+        "Burberry Hero"
+      ]
     },
     {
       "id": "hero-edp-sp26-set-edp100-ps11",
@@ -67811,36 +67834,6 @@
       "_hero_source": "emaratiscents"
     },
     {
-      "id": "hugo-boss-bottled-infinite-tester-edp",
-      "name_ar": "هوجو بوس بوتلد انفينيت تستر بوكس ١٠٠ملي",
-      "name_en": "Hugo Boss Bottled Infinite",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/hugo-boss-bottled-infinite-tester-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            }
-          ],
-          "image": "images/hugo-boss-bottled-infinite-tester-edp--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/hugo-boss-bottled-infinite-tester-box-edp%d9%87%d9%88%d8%ac%d9%88-%d8%a8%d9%88%d8%b5-%d8%a8%d9%88%d8%aa%d9%84%d8%af-%d8%a7%d9%86%d9%81%d9%8a%d9%86%d9%8a%d8%aa-%d8%aa%d8%b3%d8%aa%d8%b1-%d8%a8%d9%88/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances",
-      "aliases": [
-        "Hugo Boss Bottled Infinite Tester EDP"
-      ]
-    },
-    {
       "id": "hugo-boss-bottled-nc20-eau-de-parfum-200ml",
       "name_ar": "",
       "name_en": "Hugo Boss Bottled NC20 eau de parfum",
@@ -67921,67 +67914,6 @@
           ],
           "image": "images/hugo-boss-men-s-bottled-parfum--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/hugo-boss-men-s-bottled-parfum-100ml"
-        }
-      ],
-      "_hero_source": "mazaya"
-    },
-    {
-      "id": "hugo-boss-men-s-perfume-bottled-elixir",
-      "name_ar": "Hugo Boss Men's Perfume Bottled Elixir",
-      "name_en": "Hugo Boss Men's Perfume Bottled Elixir",
-      "brand": "Boss",
-      "dupe_of": [],
-      "image": "images/hugo-boss-men-s-perfume-bottled-elixir.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 7800,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
-            }
-          ],
-          "image": "images/hugo-boss-men-s-perfume-bottled-elixir--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/hugo-boss-men-s-perfume-bottled-elixir"
-        }
-      ],
-      "_hero_source": "mazaya"
-    },
-    {
-      "id": "hugo-boss-unlimited-man-edt",
-      "name_ar": "Hugo Boss Unlimited Man EDT",
-      "name_en": "Hugo Boss Unlimited Man EDT",
-      "brand": "Boss",
-      "dupe_of": [],
-      "image": "images/hugo-boss-unlimited-man-edt.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 5000,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
-            },
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 6300,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
-            }
-          ],
-          "image": "images/hugo-boss-unlimited-man-edt--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/boss-un-limited-man-edt"
         }
       ],
       "_hero_source": "mazaya"
@@ -74413,35 +74345,6 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "jaguar-classic-red-h-edt-100ml",
-      "name_ar": "",
-      "name_en": "Jaguar Classic Red H EDT",
-      "brand": "Jaguar",
-      "dupe_of": [],
-      "image": "images/jaguar-classic-red-h-edt-100ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2500,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/jaguar-classic-red-h-edt-100ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/jaguar-classic-red-edt-088711505909.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
-        "Jaguar Classic Red H EDT 100ML"
-      ]
     },
     {
       "id": "jaipur-homme-eau-de-parfum",
@@ -142423,33 +142326,6 @@
       ]
     },
     {
-      "id": "spray-badee-al-oud-honor-and-glory-white",
-      "name_ar": "Spray Badee Al Oud Honor and Glory white",
-      "name_en": "Spray Badee Al Oud Honor and Glory white",
-      "brand": "Lattafa",
-      "dupe_of": [],
-      "image": "images/spray-badee-al-oud-honor-and-glory-white.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1590,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
-            }
-          ],
-          "image": "images/spray-badee-al-oud-honor-and-glory-white--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/spray-badee-al-oud-honor-and-glory-100-ml-white"
-        }
-      ],
-      "_hero_source": "mazaya"
-    },
-    {
       "id": "spray-emaan",
       "name_ar": "Spray Emaan",
       "name_en": "Spray Emaan",
@@ -154070,33 +153946,6 @@
       ]
     },
     {
-      "id": "uomo-born-in-roma-eau-de-toilette",
-      "name_ar": "UOMO BORN IN ROMA EAU DE TOILETTE",
-      "name_en": "UOMO BORN IN ROMA EAU DE TOILETTE",
-      "brand": "Valentino",
-      "dupe_of": [],
-      "image": "images/uomo-born-in-roma-eau-de-toilette.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 50,
-              "price": 6700,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
-            }
-          ],
-          "image": "images/uomo-born-in-roma-eau-de-toilette--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/uomo-born-in-roma-eau-de-toilette"
-        }
-      ],
-      "_hero_source": "mazaya"
-    },
-    {
       "id": "uomo-born-in-roma-intense",
       "name_ar": "",
       "name_en": "Uomo Born In Roma Intense",
@@ -155540,32 +155389,6 @@
         }
       ],
       "_hero_source": "og-perfume"
-    },
-    {
-      "id": "valentino-born-in-roma-uomo-rendez-vous-ivory-edt",
-      "name_ar": "Valentino Born In Roma Uomo Rendez-Vous Ivory EDT",
-      "name_en": "Valentino Born In Roma Uomo Rendez-Vous Ivory EDT",
-      "brand": "Valentino",
-      "dupe_of": [],
-      "image": "images/valentino-born-in-roma-uomo-rendez-vous-ivory-edt.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 8800,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/valentino-born-in-roma-uomo-rendez-vous-ivory-edt--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/valentino-born-in-roma-uomo-rendez-vous-ivory-edt-100ml"
-        }
-      ],
-      "_hero_source": "mazaya"
     },
     {
       "id": "valhalla",
@@ -164709,49 +164532,6 @@
       "aliases": [
         "Your Touch For Men By Maison Alhambra"
       ]
-    },
-    {
-      "id": "ysl-babycat-raw-bourbon",
-      "name_ar": "YSL Babycat Raw Bourbon",
-      "name_en": "YSL Babycat Raw Bourbon",
-      "brand": "YSL",
-      "dupe_of": [],
-      "image": "images/ysl-babycat-raw-bourbon.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Mohamed Mohie",
-          "url": "https://www.facebook.com/mohammett.mohie/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 600,
-              "first_seen": "2026-08-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 1200,
-              "first_seen": "2026-08-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 20,
-              "price": 2100,
-              "first_seen": "2026-08-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 3200,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/ysl-babycat-raw-bourbon--mohamed-mohie.jpg"
-        }
-      ],
-      "_hero_source": "Mohamed Mohie"
     },
     {
       "id": "yum-yum",
