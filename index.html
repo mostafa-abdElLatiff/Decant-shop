@@ -260,6 +260,8 @@
   .cart-thumb{width:44px;height:44px;border-radius:8px;object-fit:cover;flex-shrink:0;background:var(--bg)}
   .cart-item .info{font-size:.86rem;flex:1;min-width:0}
   .cart-item .info b{display:block;font-size:.92rem}
+  .cart-item .info b a{color:inherit;text-decoration:none}
+  .cart-item .info b a:hover{text-decoration:underline}
   .cart-item .store{color:#8A8D7B;font-size:.76rem}
   .cart-tip{color:var(--olive-deep);font-size:.74rem;font-weight:600;margin-top:.25rem}
   .cart-disclaimer{color:#8A8D7B;font-size:.74rem;text-align:center;line-height:1.5}
@@ -424,7 +426,8 @@ const I18N = {
     load_failed:"Couldn't load products. If opening this file locally, run a simple server: python -m http.server",
     label_kind:"Type",
     total:"total", store_total:"total", copy_btn:"Copy list", copy_store_btn:"Copy", copied:"Copied ✓", copy_failed:"Couldn't copy — try another browser",
-    go_store_btn:"Order", go_store_website:"Go to store", go_store_facebook:"Message on Facebook",
+    go_store_btn:"Order", go_store_website:"Go to store", go_store_facebook:"Message on Facebook", go_store_btn_facebook:"Message",
+    order_hint_facebook:"List copied — paste it into the chat", order_hint_website:"List copied — paste it if you contact the store",
     clear_all_btn:"Clear all", clear_store_btn:"Clear", cleared:"Cleared ✓",
     added:"Added ✓", remove:"Remove", dupe_of:"Dupe of", duped_by:"Duped by",
     full_tag:"full bottle", leftover_tag:"with bottle", as_shown:"as shown", tester_tag:"tester",
@@ -451,7 +454,8 @@ const I18N = {
     load_failed:"تعذّر تحميل المنتجات. لو بتفتح الملف محليًا استخدم خادمًا بسيطًا: python -m http.server",
     label_kind:"النوع",
     total:"الإجمالي", store_total:"إجمالي", copy_btn:"نسخ القائمة", copy_store_btn:"نسخ", copied:"تم النسخ ✓", copy_failed:"تعذّر النسخ — جرّب متصفحًا آخر",
-    go_store_btn:"اطلب", go_store_website:"روح للمتجر", go_store_facebook:"راسل على فيسبوك",
+    go_store_btn:"اطلب", go_store_website:"روح للمتجر", go_store_facebook:"راسل على فيسبوك", go_store_btn_facebook:"راسل",
+    order_hint_facebook:"تم نسخ القائمة — الصقها في المحادثة", order_hint_website:"تم نسخ القائمة — الصقها لو هتتواصل مع المتجر",
     clear_all_btn:"مسح الكل", clear_store_btn:"مسح", cleared:"تم المسح ✓",
     added:"تمت الإضافة ✓", remove:"إزالة", dupe_of:"مستوحى من", duped_by:"مصدر إلهام لـ",
     full_tag:"زجاجة كاملة", leftover_tag:"باقي تقسيم", as_shown:"كما بالصورة", tester_tag:"تستر",
@@ -462,7 +466,7 @@ const I18N = {
     show_more_notes:"+{n} مكونات أخرى", show_less_notes:"عرض أقل",
     show_more_stores:"+{n} متاجر أخرى", show_less_stores:"عرض أقل",
     share_link:"نسخ رابط هذا العطر", link_copied:"تم نسخ الرابط ✓",
-    footer_note:' الموقع ده بس لمقارنة أسعار المتاجر اللي فعلاً بشتري منها — ماليش أي علاقة رسمية بأي متجر منهم. لو حضرتك صاحب محل منهم وعايز أشيل منتجاتك من هنا، راسلني على <a href="mailto:mostafa.m.a.abdellatif@gmail.com">mostafa.m.a.abdellatif@gmail.com</a>.',
+    footer_note:' الموقع ده بس لمقارنة أسعار المتاجر اللي فعلاً بشتري منها — ماليش أي علاقة رسمية بأي متجر منهم. لو حضرتك صاحب محل منهم وبمعجزة ما وصلك الموقع ده وعايزني أشيل منتجاتك من هنا، ابعتلي على <a href="mailto:mostafa.m.a.abdellatif@gmail.com">mostafa.m.a.abdellatif@gmail.com</a>.',
   }
 };
 
@@ -1523,12 +1527,14 @@ function syncCart(){
     const storeTotal = g.entries.reduce((a,{c,line})=>a + (line.o.sold_since ? 0 : line.o.price*c.qty), 0);
     const action = storeActionLink(g);
     const storeLink = storeBaseLink(g);
+    const actionLabel = action ? (action.kind==="facebook" ? t().go_store_btn_facebook : (action.specific ? t().go_store_btn : t().go_store_website)) : "";
+    const actionTitle = action ? (action.kind==="facebook" ? t().go_store_facebook : (action.specific ? t().go_store_btn : t().go_store_website)) : "";
     const head = document.createElement("div");
     head.className = "cart-store-head";
     head.innerHTML = `
       <bdi class="cart-store-name">${storeLink ? `<a href="${storeLink}" target="_blank" rel="noopener" data-store-name-link="${g.name}">${g.name}</a>` : g.name}</bdi>
       <span class="cart-store-total">${storeTotal}</span>
-      ${action ? `<a class="cart-store-go" href="${action.href}" target="_blank" rel="noopener" data-go-store="${g.name}" data-go-kind="${action.kind}" title="${action.kind==='facebook' ? t().go_store_facebook : t().go_store_website}">${t().go_store_btn}</a>` : ""}
+      ${action ? `<a class="cart-store-go" href="${action.href}" target="_blank" rel="noopener" data-go-store="${g.name}" data-go-kind="${action.kind}" data-go-specific="${action.specific ? 1 : 0}" title="${actionTitle}">${actionLabel}</a>` : ""}
       <button class="cart-store-copy" data-store="${g.name}">${t().copy_store_btn}</button>
       <button class="cart-store-clear" data-clear-store="${g.name}">${t().clear_store_btn}</button>`;
     cartBody.appendChild(head);
@@ -1550,12 +1556,13 @@ function syncCart(){
           tip = `<div class="cart-tip">💡 ${t().better_deal} ${t().from_store}<bdi>${best.store.name}</bdi> - ${offerLabel(best.offer)} - ${best.offer.price}</div>`;
         }
       }
+      const plink = productLineLink(s);
       const row = document.createElement("div");
       row.className = "cart-item";
       row.innerHTML = `
         ${p.image ? `<img class="cart-thumb" src="${p.image}" alt="">` : ""}
         <div class="info">
-          <b>${pname(p)}</b>
+          <b>${plink ? `<a href="${plink}" target="_blank" rel="noopener" data-listing-click="${s.name}" data-pid="${p.id}">${pname(p)}</a>` : pname(p)}</b>
           ${o.sold_since ? `<span class="sold-badge">${t().sold_badge}</span>` : ""}
           ${offerLabel(o)} × ${o.price}
           <div class="store">${s.name}</div>
@@ -1579,6 +1586,8 @@ function syncCart(){
 cartBody.addEventListener("click", async e=>{
   const nameLink = e.target.closest("[data-store-name-link]");
   if(nameLink) trackEvent("cart_store_name_click", { store: nameLink.dataset.storeNameLink });
+  const listingLink = e.target.closest("[data-listing-click]");
+  if(listingLink) trackEvent("cart_item_listing_click", { store: listingLink.dataset.listingClick, item_id: listingLink.dataset.pid || "" });
   const inc=e.target.dataset.inc, dec=e.target.dataset.dec, rm=e.target.dataset.rm;
   if(inc!=null || dec!=null || rm!=null){
     if(inc!=null){ cart[inc].qty++; trackEvent("cart_qty_increase", { item_id: cart[inc].productId }); }
@@ -1589,18 +1598,21 @@ cartBody.addEventListener("click", async e=>{
   }
   const storeGoBtn = e.target.closest(".cart-store-go");
   if(storeGoBtn){
-    trackEvent("cart_store_go", { store: storeGoBtn.dataset.goStore, kind: storeGoBtn.dataset.goKind });
-    // Facebook's own client doesn't reliably honor the m.me pre-filled
-    // text (silently dropped for some personal profiles, especially a
-    // first-contact chat pending its "secured with end-to-end encryption"
-    // step), and a real store's cart can't be pre-filled at all since we
-    // have no integration with arbitrary third-party sites -- so every
-    // Order click also copies the plain item list to the clipboard as a
-    // guaranteed fallback, whatever the link actually does.
-    try{
-      await navigator.clipboard.writeText(buildMessage(storeGoBtn.dataset.goStore, {plain:true}));
-      toast(t().copied);
-    }catch{}
+    const goKind = storeGoBtn.dataset.goKind, goSpecific = storeGoBtn.dataset.goSpecific === "1";
+    trackEvent("cart_store_go", { store: storeGoBtn.dataset.goStore, kind: goKind, specific: goSpecific });
+    // "specific" means this is a real, direct link to the exact product
+    // page -- a normal, working navigation that needs no explanation.
+    // Everything else (a Facebook chat that may or may not keep its
+    // pre-filled text, or a store's homepage with nothing pre-added) is
+    // really just "copy the list and take your best shot," so it also
+    // copies the plain item list to the clipboard and says so, instead
+    // of silently implying the click did more than it did.
+    if(!goSpecific){
+      try{
+        await navigator.clipboard.writeText(buildMessage(storeGoBtn.dataset.goStore, {plain:true}));
+        toast(goKind === "facebook" ? t().order_hint_facebook : t().order_hint_website);
+      }catch{}
+    }
     // real <a target="_blank"> link -- let it navigate natively too
   }
   const storeCopyBtn = e.target.closest(".cart-store-copy");
@@ -1652,6 +1664,15 @@ function storeBaseLink(g){
   return first.url || first.product_url || null;
 }
 
+// A cart line's product name links straight to its own listing only when
+// that listing is a real website page -- a Facebook post/profile isn't a
+// product page, so it stays plain text there instead of implying a link
+// that just goes back to the same seller's timeline.
+function productLineLink(s){
+  const url = s.product_url || s.url;
+  return url && !isFacebookUrl(url) ? url : null;
+}
+
 // A profile.php numeric id, a groups/<gid>/user/<uid> id (this does
 // carry the person's real, global Facebook user id -- it's just a
 // group-scoped view of their profile, not a scoped id), or a plain
@@ -1684,11 +1705,17 @@ function extractFacebookId(url){
 // one distinct product in the group falls back to its homepage, since
 // there's no way to deep-link "several different pre-added items" into
 // a site we don't control.
+// `specific` marks the one case that's a genuine, working "order" action --
+// a direct link to a real product page -- as opposed to every other case,
+// which is really just "copy the list and take your best shot" (a
+// Messenger chat that may or may not keep the pre-filled text, or a
+// store's homepage with nothing pre-added). The UI uses this to label
+// and explain the button honestly instead of implying it always works.
 function storeActionLink(g){
   const first = g.entries[0].line.s;
   const distinctProducts = new Set(g.entries.map(({line}) => line.p.id));
   const realProductUrl = first.product_url && !isFacebookUrl(first.product_url) ? first.product_url : null;
-  if(realProductUrl && distinctProducts.size === 1) return { href: realProductUrl, kind:"website" };
+  if(realProductUrl && distinctProducts.size === 1) return { href: realProductUrl, kind:"website", specific:true };
 
   const url = first.url || first.product_url;
   if(!url) return null;
@@ -1697,9 +1724,9 @@ function storeActionLink(g){
     const href = fbId
       ? `https://m.me/${fbId}?text=${encodeURIComponent(buildMessage(g.name, {plain:true}))}`
       : (first.url || first.product_url);
-    return { href, kind:"facebook" };
+    return { href, kind:"facebook", specific:false };
   }
-  return { href: url, kind:"website" };
+  return { href: url, kind:"website", specific:false };
 }
 
 /* With no filter, the full cart grouped by store (grand total appended,
