@@ -483,15 +483,20 @@ let byId = {}; // built once by buildLookups() after PRODUCTS loads, not per-car
 let cart = []; // {key, productId, storeIdx, offerIdx, qty}
 try{ cart = JSON.parse(localStorage.getItem("cart") || "[]"); }catch{ cart = []; }
 const saveCart = () => localStorage.setItem("cart", JSON.stringify(cart));
-let filter = "all";
-let storeFilter = "all";
+// Kind and store are multi-select (a set of values; empty = "all", no
+// filter) — a shopper comparing "full bottle OR leftover" across several
+// stores at once needs both selected at the same time, not one or the
+// other. Size/brand/sort stay single-select — there's no equivalent
+// "want either of these" case for them in how this catalog gets browsed.
+let kindFilter = new Set();
+let storeFilters = new Set();
 let brandFilter = "all";
 let sortOrder = "newest";
 let query = "";
 let inStockOnly = false;
 let priceMin = null;
 let priceMax = null;
-let sizeFilter = "all"; // only meaningful when filter==="decant" — see the Size sub-filter
+let sizeFilter = "all"; // only meaningful when kindFilter has "decant" — see the Size sub-filter
 let lang = localStorage.getItem("lang") || "en";
 let theme = localStorage.getItem("theme") || "dark";
 let gridCols = localStorage.getItem("gridCols") || "auto";
@@ -637,13 +642,14 @@ function productHasKind(p, kind){
 // is at a DIFFERENT store and whose offer at the selected store is a
 // full bottle, or "In stock only" + a store shows a product that's
 // sold out at that exact store but happens to still be in stock
-// elsewhere. Each of kind/storeName/inStockOnly is optional (pass
-// "all"/false to skip that check).
-function productHasMatchingOffer(p, {kind="all", storeName="all", inStockOnly=false, minPrice=null, maxPrice=null, ml=null}={}){
+// elsewhere. kinds/storeNames are Sets (multi-select: a product matches
+// if ANY selected value is satisfied — empty/null means unfiltered, same
+// as the old "all"); inStockOnly is a plain optional boolean.
+function productHasMatchingOffer(p, {kinds=null, storeNames=null, inStockOnly=false, minPrice=null, maxPrice=null, ml=null}={}){
   return (p.stores||[]).some(s =>
-    (storeName==="all" || s.name===storeName) &&
+    (!storeNames || storeNames.size===0 || storeNames.has(s.name)) &&
     (s.offers||[]).some(o =>
-      (kind==="all" || o.kind===kind) &&
+      (!kinds || kinds.size===0 || kinds.has(o.kind)) &&
       (!inStockOnly || !o.sold_since) &&
       (minPrice==null || o.price >= minPrice) &&
       (maxPrice==null || o.price <= maxPrice) &&
@@ -655,10 +661,14 @@ function productHasMatchingOffer(p, {kind="all", storeName="all", inStockOnly=fa
 /* Kind/Store/Sort all render as clickable rows in the sidebar (rather than
    native <select>s) now that they live in a persistent panel instead of a
    toolbar dropdown — Brand stays a <select> since it can run to hundreds
-   of entries, where a native picker's typeahead/scroll beats a bespoke list. */
-function buildFilterRows(container, entries, activeValue, onPick){
+   of entries, where a native picker's typeahead/scroll beats a bespoke list.
+   Each entry carries its own `active` flag (computed by the caller, which
+   already knows whether it's single- or multi-select) rather than this
+   function comparing against one shared "active value" — that's what lets
+   Kind/Store show more than one row pressed at once. */
+function buildFilterRows(container, entries, onPick){
   container.innerHTML = entries.map(e => `
-    <button class="filter-row" type="button" data-value="${e.value}" aria-pressed="${String(e.value===activeValue)}">
+    <button class="filter-row" type="button" data-value="${e.value}" aria-pressed="${String(!!e.active)}">
       <span class="filter-row-label">${e.swatch ? '<span class="swatch"></span>' : ''}${e.label}</span>
       ${e.count!=null ? `<span class="count">${e.count}</span>` : ""}
     </button>`).join("");
@@ -683,28 +693,30 @@ function populateKindFilter(){
   const counts = { all: 0, decant: 0, full: 0, leftover: 0 };
   PRODUCTS.forEach(p => {
     if(!productMatchesBrand(p)) return;
-    const opts = { storeName: storeFilter, inStockOnly, minPrice: priceMin, maxPrice: priceMax };
-    if(productHasMatchingOffer(p, { ...opts, kind:"all" })) counts.all++;
+    const opts = { storeNames: storeFilters, inStockOnly, minPrice: priceMin, maxPrice: priceMax };
+    if(productHasMatchingOffer(p, { ...opts, kinds:null })) counts.all++;
     ["decant","full","leftover"].forEach(k => {
-      if(productHasMatchingOffer(p, { ...opts, kind:k })) counts[k]++;
+      if(productHasMatchingOffer(p, { ...opts, kinds:new Set([k]) })) counts[k]++;
     });
   });
   const entries = [
-    { value:"all", label:t().filter_all, count:counts.all, swatch:true },
-    { value:"decant", label:t().filter_decant, count:counts.decant, swatch:true },
-    { value:"full", label:t().filter_full, count:counts.full, swatch:true },
-    { value:"leftover", label:t().filter_leftover, count:counts.leftover, swatch:true },
-  ].filter(e => e.value==="all" || e.value===filter || e.count>0);
-  buildFilterRows(document.getElementById("kindList"), entries, filter, value => {
+    { value:"all", label:t().filter_all, count:counts.all, swatch:true, active: kindFilter.size===0 },
+    { value:"decant", label:t().filter_decant, count:counts.decant, swatch:true, active: kindFilter.has("decant") },
+    { value:"full", label:t().filter_full, count:counts.full, swatch:true, active: kindFilter.has("full") },
+    { value:"leftover", label:t().filter_leftover, count:counts.leftover, swatch:true, active: kindFilter.has("leftover") },
+  ].filter(e => e.value==="all" || e.active || e.count>0);
+  buildFilterRows(document.getElementById("kindList"), entries, value => {
     captureScrollState();
-    filter = value;
-    if(filter !== "decant") sizeFilter = "all"; // the sub-filter only means anything under Decants
+    if(value==="all") kindFilter.clear();
+    else if(kindFilter.has(value)) kindFilter.delete(value);
+    else kindFilter.add(value);
+    if(!kindFilter.has("decant")) sizeFilter = "all"; // the sub-filter only means anything under Decants
     populateKindFilter();
     populateSizeFilter();
     updateFilterBadge();
     render();
     syncURLState();
-    trackEvent("filter_kind", { value });
+    trackEvent("filter_kind", { value: [...kindFilter].join(",") || "all" });
   });
 }
 
@@ -714,14 +726,14 @@ function populateKindFilter(){
 // either into one flat size list would be misleading. Shown as a
 // sub-filter under Type > Decants instead of its own top-level filter.
 function populateSizeFilter(){
-  document.getElementById("sizeSubfilter").hidden = filter !== "decant";
-  if(filter !== "decant") return;
+  document.getElementById("sizeSubfilter").hidden = !kindFilter.has("decant");
+  if(!kindFilter.has("decant")) return;
   const counts = {};
   PRODUCTS.forEach(p => {
     if(!productMatchesBrand(p)) return;
     const mls = new Set();
     (p.stores||[]).forEach(s => {
-      if(storeFilter!=="all" && s.name!==storeFilter) return;
+      if(storeFilters.size && !storeFilters.has(s.name)) return;
       (s.offers||[]).forEach(o => {
         if(o.kind === "decant" && typeof o.ml === "number" &&
            (!inStockOnly || !o.sold_since) &&
@@ -734,10 +746,10 @@ function populateSizeFilter(){
   const sizes = Object.keys(counts).map(Number).sort((a,b) => a-b);
   if(sizeFilter !== "all" && !sizes.includes(+sizeFilter)) sizeFilter = "all";
   const entries = [
-    { value:"all", label:t().filter_all },
-    ...sizes.map(ml => ({ value:String(ml), label:`${ml}ml`, count:counts[ml] })),
+    { value:"all", label:t().filter_all, active: sizeFilter==="all" },
+    ...sizes.map(ml => ({ value:String(ml), label:`${ml}ml`, count:counts[ml], active: sizeFilter===String(ml) })),
   ];
-  buildFilterRows(document.getElementById("sizeList"), entries, sizeFilter, value => {
+  buildFilterRows(document.getElementById("sizeList"), entries, value => {
     captureScrollState();
     sizeFilter = value;
     populateSizeFilter();
@@ -752,27 +764,32 @@ function populateStoreFilter(){
   const allNames = new Set();
   PRODUCTS.forEach(p => (p.stores||[]).forEach(s => allNames.add(s.name)));
   const counts = {};
-  const opts = { kind: filter, inStockOnly, minPrice: priceMin, maxPrice: priceMax, ml: sizeFilter==="all" ? null : Number(sizeFilter) };
+  const opts = { kinds: kindFilter, inStockOnly, minPrice: priceMin, maxPrice: priceMax, ml: sizeFilter==="all" ? null : Number(sizeFilter) };
   PRODUCTS.forEach(p => {
     if(!productMatchesBrand(p)) return;
     allNames.forEach(name => {
-      if(productHasMatchingOffer(p, { ...opts, storeName:name })) counts[name] = (counts[name]||0) + 1;
+      if(productHasMatchingOffer(p, { ...opts, storeNames:new Set([name]) })) counts[name] = (counts[name]||0) + 1;
     });
   });
   const names = Object.keys(counts).sort();
-  if(storeFilter!=="all" && !names.includes(storeFilter)) storeFilter = "all";
+  // drop any selected store that no longer matches anything under the
+  // current other-facet filters (e.g. left over from before switching to
+  // a kind that store doesn't carry)
+  [...storeFilters].forEach(n => { if(!names.includes(n)) storeFilters.delete(n); });
   const entries = [
-    { value:"all", label:t().store_all },
-    ...names.map(n => ({ value:n, label:n, count:counts[n] })),
+    { value:"all", label:t().store_all, active: storeFilters.size===0 },
+    ...names.map(n => ({ value:n, label:n, count:counts[n], active: storeFilters.has(n) })),
   ];
-  buildFilterRows(document.getElementById("storeList"), entries, storeFilter, value => {
+  buildFilterRows(document.getElementById("storeList"), entries, value => {
     captureScrollState();
-    storeFilter = value;
+    if(value==="all") storeFilters.clear();
+    else if(storeFilters.has(value)) storeFilters.delete(value);
+    else storeFilters.add(value);
     populateStoreFilter();
     updateFilterBadge();
     render();
     syncURLState();
-    trackEvent("filter_store", { value });
+    trackEvent("filter_store", { value: [...storeFilters].join(",") || "all" });
   });
 }
 
@@ -803,12 +820,12 @@ function populateBrandFilter(){
 
 function populateSortOrder(){
   const entries = [
-    { value:"newest", label:t().sort_newest },
-    { value:"oldest", label:t().sort_oldest },
-    { value:"cheapest", label:t().sort_cheapest },
-    { value:"default", label:t().sort_default },
+    { value:"newest", label:t().sort_newest, active: sortOrder==="newest" },
+    { value:"oldest", label:t().sort_oldest, active: sortOrder==="oldest" },
+    { value:"cheapest", label:t().sort_cheapest, active: sortOrder==="cheapest" },
+    { value:"default", label:t().sort_default, active: sortOrder==="default" },
   ];
-  buildFilterRows(document.getElementById("sortList"), entries, sortOrder, value => {
+  buildFilterRows(document.getElementById("sortList"), entries, value => {
     captureScrollState();
     sortOrder = value;
     populateSortOrder();
@@ -904,7 +921,7 @@ function applyI18n(){
 function computeItems(){
   const qTokens = normalizeText(query).split(/\s+/).filter(Boolean);
   const items = PRODUCTS.filter(p =>
-    productHasMatchingOffer(p, {kind: filter, storeName: storeFilter, inStockOnly, minPrice: priceMin, maxPrice: priceMax, ml: sizeFilter==="all" ? null : Number(sizeFilter)}) &&
+    productHasMatchingOffer(p, {kinds: kindFilter, storeNames: storeFilters, inStockOnly, minPrice: priceMin, maxPrice: priceMax, ml: sizeFilter==="all" ? null : Number(sizeFilter)}) &&
     (brandFilter==="all" || (p.brand||"").trim().toLowerCase()===brandFilter) &&
     productMatchesQuery(p, qTokens)
   );
@@ -918,6 +935,25 @@ function storeCheapestPrice(s){
   let min = Infinity;
   (s.offers||[]).forEach(o => { if(o.price < min) min = o.price; });
   return min;
+}
+
+// Cheapest-first by default, but when one or more stores are actively
+// selected in the sidebar, those win first place regardless of price —
+// picking "eldesoki-fragrances" should show THAT store's offers up front
+// (it's the one collapsed cards default to displaying), not bury it
+// behind whichever store merely happens to be cheaper. Shared by the
+// initial card render and the "show more stores" lazy-expand below so
+// both agree on the same order.
+function sortedStoresFor(p){
+  return (p.stores||[]).map((s, si) => ({ s, si }))
+    .sort((a,b) => {
+      if(storeFilters.size){
+        const aSel = storeFilters.has(a.s.name) ? 0 : 1;
+        const bSel = storeFilters.has(b.s.name) ? 0 : 1;
+        if(aSel !== bSel) return aSel - bSel;
+      }
+      return storeCheapestPrice(a.s) - storeCheapestPrice(b.s);
+    });
 }
 
 // Accord chips and store blocks are factored out of buildCardEl so both
@@ -936,7 +972,17 @@ function renderStoresHTML(p, stores){
     // sealed full bottle.
     const groups = [];
     const byImage = new Map();
-    (s.offers||[]).forEach((o,oi) => {
+    // When a kind filter is active, process offers matching it first (a
+    // stable sort, so ties keep their original order) -- this floats
+    // "Full bottle" to the front of the button row when that's what's
+    // selected, and also means the first image-group encountered (and
+    // therefore its thumbnail) belongs to a matching offer.
+    const offerOrder = (s.offers||[]).map((o,oi) => oi);
+    if(kindFilter.size){
+      offerOrder.sort((a,b) => (kindFilter.has(s.offers[a].kind)?0:1) - (kindFilter.has(s.offers[b].kind)?0:1));
+    }
+    offerOrder.forEach(oi => {
+      const o = s.offers[oi];
       const img = o.image || s.image || "";
       if (!byImage.has(img)) { byImage.set(img, []); groups.push(img); }
       byImage.get(img).push(oi);
@@ -977,11 +1023,10 @@ function buildCardEl(p, {expanded=false}={}){
   const dupedBy = PRODUCTS.filter(o => o.id!==p.id && (o.dupe_of||[]).some(d => byNormName[dupeName(d)]?.id === p.id));
 
   // With more stores added over time a card listing every one in full got
-  // unreadably long — show only the cheapest store's offers by default
-  // (the one most people actually care about), with the rest one toggle
-  // away instead of always taking up the full card height.
-  const sortedStores = (p.stores||[]).map((s, si) => ({ s, si }))
-    .sort((a,b) => storeCheapestPrice(a.s) - storeCheapestPrice(b.s));
+  // unreadably long — show only the cheapest (or, with a store filter
+  // active, the selected) store's offers by default, with the rest one
+  // toggle away instead of always taking up the full card height.
+  const sortedStores = sortedStoresFor(p);
 
   const card = document.createElement("article");
   card.className = "card";
@@ -1099,8 +1144,7 @@ async function handleCardAreaClick(e){
     // appended (not replacing what's already shown) on first expand
     if (expanded && !target.dataset.loaded){
       const p = byId[storesToggle.dataset.pid];
-      const sortedStores = (p.stores||[]).map((s, si) => ({ s, si }))
-        .sort((a,b) => storeCheapestPrice(a.s) - storeCheapestPrice(b.s));
+      const sortedStores = sortedStoresFor(p);
       target.insertAdjacentHTML("beforeend", renderStoresHTML(p, sortedStores.slice(1)));
       target.dataset.loaded = "1";
     }
@@ -1153,9 +1197,9 @@ productModal.addEventListener("click", e => {
 // manually since scrollRestoration is "manual" (see top of script).
 function paramsFromState(){
   const p = new URLSearchParams();
-  if(filter !== "all") p.set("kind", filter);
+  if(kindFilter.size) p.set("kind", [...kindFilter].join(","));
   if(sizeFilter !== "all") p.set("size", sizeFilter);
-  if(storeFilter !== "all") p.set("store", storeFilter);
+  if(storeFilters.size) p.set("store", [...storeFilters].join(","));
   if(brandFilter !== "all") p.set("brand", brandFilter);
   if(sortOrder !== "newest") p.set("sort", sortOrder);
   if(query.trim()) p.set("q", query.trim());
@@ -1165,9 +1209,9 @@ function paramsFromState(){
   return p;
 }
 function applyParamsToState(params){
-  filter = params.get("kind") || "all";
+  kindFilter = new Set((params.get("kind")||"").split(",").filter(Boolean));
   sizeFilter = params.get("size") || "all";
-  storeFilter = params.get("store") || "all";
+  storeFilters = new Set((params.get("store")||"").split(",").filter(Boolean));
   brandFilter = params.get("brand") || "all";
   sortOrder = params.get("sort") || "newest";
   query = params.get("q") || "";
@@ -1281,7 +1325,7 @@ document.addEventListener("keydown", e => {
 });
 
 function resetFilters(){
-  filter = "all"; query = ""; storeFilter = "all"; brandFilter = "all"; inStockOnly = false; priceMin = null; priceMax = null; sizeFilter = "all";
+  kindFilter = new Set(); query = ""; storeFilters = new Set(); brandFilter = "all"; inStockOnly = false; priceMin = null; priceMax = null; sizeFilter = "all";
   document.getElementById("search").value = "";
   document.getElementById("brandFilter").value = "all";
   document.getElementById("inStockOnly").checked = false;
@@ -1383,7 +1427,7 @@ filtersToggle.onclick = ()=>{
 };
 sidebarOverlay.onclick = closeSidebar;
 function updateFilterBadge(){
-  const n = [filter!=="all", sizeFilter!=="all", storeFilter!=="all", brandFilter!=="all", sortOrder!=="newest", gridCols!=="auto", inStockOnly, priceMin!=null, priceMax!=null].filter(Boolean).length;
+  const n = [kindFilter.size>0, sizeFilter!=="all", storeFilters.size>0, brandFilter!=="all", sortOrder!=="newest", gridCols!=="auto", inStockOnly, priceMin!=null, priceMax!=null].filter(Boolean).length;
   const badge = document.getElementById("filterBadge");
   badge.textContent = n;
   badge.hidden = n === 0;
@@ -1392,7 +1436,7 @@ function updateFilterBadge(){
   // which are view preferences it deliberately leaves alone, and not the
   // search box, which already shows its own state) — so the button
   // reliably disappears once there's nothing left for it to do
-  const filtersActive = filter!=="all" || sizeFilter!=="all" || storeFilter!=="all" || brandFilter!=="all" || inStockOnly || priceMin!=null || priceMax!=null;
+  const filtersActive = kindFilter.size>0 || sizeFilter!=="all" || storeFilters.size>0 || brandFilter!=="all" || inStockOnly || priceMin!=null || priceMax!=null;
   document.getElementById("clearFiltersBtn").hidden = !filtersActive;
 }
 document.getElementById("inStockOnly").addEventListener("change", e => {
