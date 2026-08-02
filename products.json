@@ -16949,6 +16949,13 @@
               "sold_since": "2026-07-25"
             },
             {
+              "kind": "leftover",
+              "ml": 80,
+              "price": 800,
+              "first_seen": "2026-08-02",
+              "sold_since": "2026-08-02"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1000,
@@ -31710,7 +31717,7 @@
               "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/club-de-nuit-intense-eau-de-toilette--og-perfume.jpg",
+          "image": "images/club-de-nuit-intense-man--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/club-de-nuit-edt"
         },
         {
@@ -40224,27 +40231,24 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-19",
-              "note": "blue oud"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
               "ml": 50,
               "price": 875,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19",
-              "note": "blue oud"
+              "sold_since": "2026-07-19"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 1800,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19",
-              "note": "blue oud"
+              "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/dkhoon-oud-blue-oud--og-perfume.jpg",
+          "image": "images/dkhoon-oud--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/dkhoon-oud-blue-oud"
         },
         {
@@ -76183,7 +76187,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-02"
             }
           ],
           "image": "images/kaaf--og-perfume.jpg",
