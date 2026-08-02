@@ -733,7 +733,28 @@ def canonicalize_brand(brand: str) -> str:
 # lists every size as its own page, each independently brand-labeled)
 # recreated a fresh duplicate on every sync for whichever brand text
 # hadn't been seen on THIS product yet.
-BRAND_COMPATIBLE_PAIRS = {frozenset({"ibraq", "ibrahim al qurashi"})}
+BRAND_COMPATIBLE_PAIRS = {
+    frozenset({"ibraq", "ibrahim al qurashi"}),
+    # Emporio Armani and Giorgio Armani are different retail sub-lines of
+    # the same parent company, with product-NAME lineups that don't
+    # overlap at all ("Stronger With You"/"Because It's You" only ever
+    # exist under Emporio; "Acqua Di Gio"/"Code" only ever exist under
+    # Giorgio) -- so unlike Khanjar (same generic name, unrelated houses),
+    # there's no real risk of conflating two different actual fragrances
+    # here. Needed because the general subset-overlap rule below already
+    # treats bare "Armani" as compatible with "Emporio Armani" (1-token
+    # brand subsetting a 2-token one), but "Giorgio Armani" (also 2 full
+    # tokens, sharing only "armani") fails that same subset check --
+    # confirmed recreating a "Stronger With You Intensely" duplicate on a
+    # live sync run because that store's own site labels it "Giorgio
+    # Armani" instead of "Emporio Armani".
+    frozenset({"emporio armani", "giorgio armani"}),
+    # "Armani Beauty" is the same company's retail/e-commerce brand label
+    # (faces.eg in particular stamps it on products from either the
+    # Emporio or Giorgio line indiscriminately) -- not a third real house.
+    frozenset({"armani beauty", "emporio armani"}),
+    frozenset({"armani beauty", "giorgio armani"}),
+}
 
 
 def _brand_key(brand: str) -> str:
@@ -1180,6 +1201,79 @@ def merge_store(product: dict, store_name: str, store_url: str, offers: list,
         else:
             store["offers"].append(track_offer(None, offer))
     store["offers"].sort(key=offer_sort_key)
+
+
+def merge_products(catalog: dict, keeper_id: str, loser_id: str,
+                    note: str = None, fix_brand: str = None) -> None:
+    """Fold `loser_id` into `keeper_id` in place (union stores/offers,
+    aliases) and drop the loser from catalog["products"]. This is the
+    "these two catalog entries are actually one real product" operation —
+    distinct from merge_store()'s job of upserting one store's current
+    listing onto a product it already belongs to.
+
+    `note`, if given, is stamped onto every offer that came from the
+    loser (including ones that already existed on a store the keeper also
+    has, e.g. "refill"/"tester"/"extrait"/"old batch" — see index.html's
+    offerLabel(), which renders it next to the kind tag).
+
+    Every ad-hoc de-duplication script written across a very long session
+    reinvented this same merge and consistently got one thing wrong: when
+    the loser's store already existed on the keeper (both listed at, say,
+    mazaya), only offers got merged — the loser's own `url`/`product_url`
+    was silently dropped. That's not cosmetic: find_by_store_url() is
+    exactly what should let a future sync re-recognize that exact listing
+    and upsert into the now-merged product instead of recreating a
+    duplicate, and it can't do that for a URL nothing in the catalog
+    remembers. Confirmed happening for real: a merged-away "Stronger With
+    You" duplicate came right back on the next scheduled mazaya sync,
+    because its product_url wasn't preserved anywhere for the store block
+    it landed in. Use this function for any future manual merge instead of
+    a one-off inline version."""
+    by_id = {p["id"]: p for p in catalog["products"]}
+    keeper = by_id[keeper_id]
+    loser = by_id[loser_id]
+
+    if note:
+        for store in loser.get("stores", []):
+            for o in store.get("offers", []):
+                o["note"] = note
+
+    aliases = set(keeper.get("aliases") or [])
+    aliases.add(loser["name_en"])
+    aliases.update(loser.get("aliases") or [])
+    aliases.discard(keeper["name_en"])
+    if aliases:
+        keeper["aliases"] = sorted(aliases)
+
+    for store in loser.get("stores", []):
+        existing = next((s for s in keeper["stores"] if s["name"] == store["name"]), None)
+        if existing is None:
+            keeper["stores"].append(store)
+            continue
+        if store.get("url"):
+            existing["url"] = store["url"]
+        if store.get("product_url"):
+            existing["product_url"] = store["product_url"]
+        if store.get("image"):
+            existing["image"] = store["image"]
+        existing_offers = {(o.get("kind"), o.get("ml"), o.get("price")): o for o in existing.get("offers", [])}
+        for o in store.get("offers", []):
+            key = (o.get("kind"), o.get("ml"), o.get("price"))
+            if key not in existing_offers:
+                existing_offers[key] = o
+                existing["offers"].append(o)
+            elif note:
+                existing_offers[key]["note"] = note
+
+    if not keeper.get("image") and loser.get("image"):
+        keeper["image"] = loser["image"]
+    for d in loser.get("dupe_of") or []:
+        if d not in (keeper.get("dupe_of") or []):
+            keeper.setdefault("dupe_of", []).append(d)
+    if fix_brand:
+        keeper["brand"] = fix_brand
+
+    catalog["products"] = [p for p in catalog["products"] if p["id"] != loser_id]
 
 
 class QuotaExhausted(Exception):
