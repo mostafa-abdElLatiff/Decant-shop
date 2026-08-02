@@ -166193,6 +166193,33 @@
         }
       ],
       "_hero_source": "mazaya"
+    },
+    {
+      "id": "serenade-al-barqa-box",
+      "name_ar": "Serenade Al Barqa Box",
+      "name_en": "Serenade Al Barqa Box",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/serenade-al-barqa-box.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 120,
+              "price": 2800,
+              "first_seen": "2026-08-02",
+              "sold_since": "2026-08-02"
+            }
+          ],
+          "image": "images/serenade-al-barqa-box--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/serenade-al-barqa-box"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
     }
   ]
 }
