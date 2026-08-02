@@ -2013,8 +2013,9 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 1100,
-              "first_seen": "2026-07-27"
+              "price": 1000,
+              "first_seen": "2026-07-27",
+              "prev_price": 1100
             },
             {
               "kind": "full",
@@ -2024,7 +2025,7 @@
             }
           ],
           "image": "images/9pm-night-out--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/9pm-night-out-50ml%d9%86%d8%a7%d9%8a%d9%86-%d8%a8%d9%8a-%d8%a7%d9%85-%d9%86%d8%a7%d9%8a%d8%aa-%d8%a7%d9%88%d8%aa-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/night-out-50ml%d9%86%d8%a7%d9%8a%d8%aa-%d8%a7%d9%88%d8%aa-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "perfuzone",
@@ -63062,7 +63063,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 1050,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-02"
             },
             {
               "kind": "full",
