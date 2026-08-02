@@ -247,6 +247,8 @@
   .cart-store-head{display:flex;align-items:center;gap:.5rem;padding:.15rem .1rem .4rem;margin-top:.5rem;border-bottom:1.5px solid var(--line)}
   .cart-store-head:first-child{margin-top:0}
   .cart-store-name{flex:1;font-weight:700;font-size:.86rem;color:var(--olive-deep)}
+  .cart-store-name a{color:inherit;text-decoration:none}
+  .cart-store-name a:hover{text-decoration:underline}
   .cart-store-total{font-weight:700;font-size:.86rem}
   .cart-store-copy{background:none;border:1.5px solid var(--line);border-radius:999px;padding:.2rem .65rem;font-size:.7rem;font-weight:600;color:var(--ink);cursor:pointer;font-family:inherit;transition:border-color .15s}
   .cart-store-copy:hover{border-color:var(--olive)}
@@ -1520,10 +1522,11 @@ function syncCart(){
     // every total/message — you can't actually buy them anymore.
     const storeTotal = g.entries.reduce((a,{c,line})=>a + (line.o.sold_since ? 0 : line.o.price*c.qty), 0);
     const action = storeActionLink(g);
+    const storeLink = storeBaseLink(g);
     const head = document.createElement("div");
     head.className = "cart-store-head";
     head.innerHTML = `
-      <bdi class="cart-store-name">${g.name}</bdi>
+      <bdi class="cart-store-name">${storeLink ? `<a href="${storeLink}" target="_blank" rel="noopener" data-store-name-link="${g.name}">${g.name}</a>` : g.name}</bdi>
       <span class="cart-store-total">${storeTotal}</span>
       ${action ? `<a class="cart-store-go" href="${action.href}" target="_blank" rel="noopener" data-go-store="${g.name}" data-go-kind="${action.kind}" title="${action.kind==='facebook' ? t().go_store_facebook : t().go_store_website}">${t().go_store_btn}</a>` : ""}
       <button class="cart-store-copy" data-store="${g.name}">${t().copy_store_btn}</button>
@@ -1555,7 +1558,7 @@ function syncCart(){
           <b>${pname(p)}</b>
           ${o.sold_since ? `<span class="sold-badge">${t().sold_badge}</span>` : ""}
           ${offerLabel(o)} × ${o.price}
-          <div class="store">${s.product_url || s.url ? `<a href="${s.product_url||s.url}" target="_blank" rel="noopener" data-listing-click="${s.name}" data-pid="${p.id}">${s.name}</a>` : s.name}</div>
+          <div class="store">${s.name}</div>
           ${tip}
           <button class="remove" data-rm="${i}">${t().remove}</button>
         </div>
@@ -1574,8 +1577,8 @@ function syncCart(){
 }
 
 cartBody.addEventListener("click", async e=>{
-  const listingLink = e.target.closest("[data-listing-click]");
-  if(listingLink) trackEvent("store_listing_click", { store: listingLink.dataset.listingClick, item_id: listingLink.dataset.pid || "" });
+  const nameLink = e.target.closest("[data-store-name-link]");
+  if(nameLink) trackEvent("cart_store_name_click", { store: nameLink.dataset.storeNameLink });
   const inc=e.target.dataset.inc, dec=e.target.dataset.dec, rm=e.target.dataset.rm;
   if(inc!=null || dec!=null || rm!=null){
     if(inc!=null){ cart[inc].qty++; trackEvent("cart_qty_increase", { item_id: cart[inc].productId }); }
@@ -1587,7 +1590,18 @@ cartBody.addEventListener("click", async e=>{
   const storeGoBtn = e.target.closest(".cart-store-go");
   if(storeGoBtn){
     trackEvent("cart_store_go", { store: storeGoBtn.dataset.goStore, kind: storeGoBtn.dataset.goKind });
-    // real <a target="_blank"> link -- let it navigate natively, just track it
+    // Facebook's own client doesn't reliably honor the m.me pre-filled
+    // text (silently dropped for some personal profiles, especially a
+    // first-contact chat pending its "secured with end-to-end encryption"
+    // step), and a real store's cart can't be pre-filled at all since we
+    // have no integration with arbitrary third-party sites -- so every
+    // Order click also copies the plain item list to the clipboard as a
+    // guaranteed fallback, whatever the link actually does.
+    try{
+      await navigator.clipboard.writeText(buildMessage(storeGoBtn.dataset.goStore, {plain:true}));
+      toast(t().copied);
+    }catch{}
+    // real <a target="_blank"> link -- let it navigate natively too
   }
   const storeCopyBtn = e.target.closest(".cart-store-copy");
   if(storeCopyBtn){
@@ -1630,52 +1644,73 @@ function isFacebookUrl(url){
   return !!url && url.includes("facebook.com");
 }
 
-// Builds a "click to chat" Messenger link (https://m.me/<id>?text=...),
-// the same unofficial-but-widely-used convention as WhatsApp's wa.me —
-// opens Messenger with the message already typed into the compose box,
-// NOT sent, same as clicking the store's profile link and typing it
-// yourself. Needs a bare user/page id or username, which a profile URL
-// gives directly but a group-scoped member URL
-// (facebook.com/groups/<gid>/user/<uid>/) buries one level deeper.
-function facebookMessengerLink(url, message){
-  let id = null;
-  let m = url.match(/facebook\.com\/groups\/\d+\/user\/(\d+)/);
-  if(m) id = m[1];
-  if(!id){ m = url.match(/facebook\.com\/profile\.php\?id=(\d+)/); if(m) id = m[1]; }
-  if(!id){
-    m = url.match(/facebook\.com\/([^\/?#]+)/);
-    if(m && !["groups","people","pages"].includes(m[1])) id = m[1];
-  }
-  if(!id) return null;
-  return `https://m.me/${id}?text=${encodeURIComponent(message)}`;
+// The store name's own link (top of each cart group) -- a plain link to
+// wherever the store lives, separate from the smarter "Order" action
+// below.
+function storeBaseLink(g){
+  const first = g.entries[0].line.s;
+  return first.url || first.product_url || null;
 }
 
-// The action a store's cart-group header link should take: a Facebook
-// seller gets a pre-filled (unsent) Messenger chat with that store's own
-// order lines; a real store gets linked straight to the specific product
-// page already on file for it -- but only when the whole group is a
-// single product, since there's no way to deep-link "these 3 different
-// products, pre-added" into a site we don't control. A multi-product
-// group for a real store falls back to that store's own homepage.
+// A profile.php numeric id, a groups/<gid>/user/<uid> id (this does
+// carry the person's real, global Facebook user id -- it's just a
+// group-scoped view of their profile, not a scoped id), or a plain
+// profile/page username all work with Messenger's m.me click-to-chat
+// links. A group POST link (facebook.com/groups/<gid>/posts/<pid>)
+// doesn't encode a person at all and is skipped. Whichever of the
+// store's two URLs (general "url" vs per-offer "product_url") actually
+// resolves to a real id wins.
+function extractFacebookId(url){
+  if(!url) return null;
+  let m = url.match(/facebook\.com\/profile\.php\?id=(\d+)/);
+  if(m) return m[1];
+  m = url.match(/facebook\.com\/groups\/\d+\/user\/(\d+)/);
+  if(m) return m[1];
+  m = url.match(/facebook\.com\/([^\/?#]+)/);
+  if(m && !["groups","people","pages"].includes(m[1])) return m[1];
+  return null;
+}
+
+// The action a store's cart-group header "Order" link should take. A
+// real, directly-shoppable product page always wins when the group is a
+// single product -- more reliable than routing through Facebook even for
+// a seller whose general profile happens to be on Facebook (some sellers
+// list on both, e.g. a Facebook-first seller who also runs a real
+// storefront). Otherwise, a Facebook seller gets a click-to-chat
+// Messenger link with that store's order lines pre-typed into the
+// compose box (unsent) -- though Facebook's own client doesn't always
+// honor the pre-filled text, so cartBody's click handler also copies the
+// same text to the clipboard as a fallback. A real store with more than
+// one distinct product in the group falls back to its homepage, since
+// there's no way to deep-link "several different pre-added items" into
+// a site we don't control.
 function storeActionLink(g){
   const first = g.entries[0].line.s;
+  const distinctProducts = new Set(g.entries.map(({line}) => line.p.id));
+  const realProductUrl = first.product_url && !isFacebookUrl(first.product_url) ? first.product_url : null;
+  if(realProductUrl && distinctProducts.size === 1) return { href: realProductUrl, kind:"website" };
+
   const url = first.url || first.product_url;
   if(!url) return null;
   if(isFacebookUrl(url) || isFacebookUrl(first.product_url||"")){
-    const href = facebookMessengerLink(first.product_url && isFacebookUrl(first.product_url) ? first.product_url : url, buildMessage(g.name));
-    return href ? { href, kind:"facebook" } : null;
+    const fbId = extractFacebookId(first.url) || extractFacebookId(first.product_url);
+    const href = fbId
+      ? `https://m.me/${fbId}?text=${encodeURIComponent(buildMessage(g.name, {plain:true}))}`
+      : (first.url || first.product_url);
+    return { href, kind:"facebook" };
   }
-  const distinctProducts = new Set(g.entries.map(({line}) => line.p.id));
-  const href = distinctProducts.size === 1
-    ? (g.entries[0].line.s.product_url || url)
-    : url;
-  return { href, kind:"website" };
+  return { href: url, kind:"website" };
 }
 
-/* With no filter, the full cart grouped by store (grand total appended).
-   With filterStoreName, just that one store's lines (no grand total —
-   it'd be identical to that store's own subtotal). */
-function buildMessage(filterStoreName){
+/* With no filter, the full cart grouped by store (grand total appended,
+   each group headed by its store name). With filterStoreName, just that
+   one store's lines. Plain mode (only meaningful together with
+   filterStoreName) drops the store-name header/footer entirely and
+   just labels the one total "total:" -- used for the per-store "Order"
+   action, since that message is already headed for one specific,
+   already-identified destination (that seller's own chat), so repeating
+   their own name back to them is redundant. */
+function buildMessage(filterStoreName, {plain=false}={}){
   // Always built in English regardless of the current UI language — a
   // message meant to be pasted into WhatsApp/Messenger/a seller's DMs
   // mixing Arabic product names/tags with Latin digits and prices came
@@ -1701,10 +1736,12 @@ function buildMessage(filterStoreName){
       const qtyTag = c.qty > 1 ? ` × ${c.qty}` : "";
       return `${pname(p, "en")} - ${offerLabel(o, "en")}${qtyTag} - ${lineTotal}`;
     });
-    msg += `${g.name}:\n${lines.join("\n")}\n${g.name} ${I18N.en.store_total}: ${total}\n\n`;
+    msg += plain
+      ? `${lines.join("\n")}\n${I18N.en.total}: ${total}\n\n`
+      : `${g.name}:\n${lines.join("\n")}\n${g.name} ${I18N.en.store_total}: ${total}\n\n`;
     grand += total;
   });
-  if(!filterStoreName) msg += `${I18N.en.total}: ${grand}`;
+  if(!plain && !filterStoreName) msg += `${I18N.en.total}: ${grand}`;
   return msg.trim();
 }
 
