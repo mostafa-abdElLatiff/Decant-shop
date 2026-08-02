@@ -72544,7 +72544,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1500,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-02"
             }
           ],
           "image": "images/island--dar-elarabia.jpg",
@@ -145634,11 +145635,10 @@
               "ml": 150,
               "price": 2850,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19",
-              "note": "extrait"
+              "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/supermacy-not-only-intense-extrait--dar-elarabia.jpg",
+          "image": "images/supremacy-not-only-intense--dar-elarabia.jpg",
           "product_url": "https://darelarabia.com/products/supermacy-not-only-intense-extrait"
         }
       ],
@@ -166114,6 +166114,60 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "first-impression-ghalati",
+      "name_ar": "First Impression Ghalati",
+      "name_en": "First Impression Ghalati",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/first-impression-ghalati.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 120,
+              "price": 2600,
+              "first_seen": "2026-08-02",
+              "sold_since": "2026-08-02"
+            }
+          ],
+          "image": "images/first-impression-ghalati--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/first-impression-ghalati"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "most-wanted-ghalati",
+      "name_ar": "Most Wanted Ghalati",
+      "name_en": "Most Wanted Ghalati",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/most-wanted-ghalati.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 120,
+              "price": 2500,
+              "first_seen": "2026-08-02",
+              "sold_since": "2026-08-02"
+            }
+          ],
+          "image": "images/most-wanted-ghalati--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/most-wanted-ghalati"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
     }
   ]
 }
