@@ -64,6 +64,8 @@ def page_html(p):
 <title>{t}</title>
 <meta name="description" content="{d}">
 <link rel="canonical" href="{html.escape(page_url)}">
+<link rel="icon" href="{BASE_URL}favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="{BASE_URL}apple-touch-icon.png">
 <meta property="og:type" content="product">
 <meta property="og:title" content="{t}">
 <meta property="og:description" content="{d}">
