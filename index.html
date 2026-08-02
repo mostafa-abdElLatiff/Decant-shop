@@ -252,6 +252,8 @@
   .cart-store-copy:hover{border-color:var(--olive)}
   .cart-store-clear{background:none;border:1.5px solid var(--line);border-radius:999px;padding:.2rem .65rem;font-size:.7rem;font-weight:600;color:var(--red);cursor:pointer;font-family:inherit;transition:border-color .15s}
   .cart-store-clear:hover{border-color:var(--red)}
+  .cart-store-go{background:var(--olive);border:1.5px solid var(--olive);border-radius:999px;padding:.2rem .7rem;font-size:.7rem;font-weight:700;color:#12140D;cursor:pointer;font-family:inherit;text-decoration:none;display:inline-flex;align-items:center;transition:filter .15s}
+  .cart-store-go:hover{filter:brightness(1.08)}
   .cart-item{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.7rem .9rem;display:flex;align-items:center;gap:.6rem}
   .cart-thumb{width:44px;height:44px;border-radius:8px;object-fit:cover;flex-shrink:0;background:var(--bg)}
   .cart-item .info{font-size:.86rem;flex:1;min-width:0}
@@ -420,6 +422,7 @@ const I18N = {
     load_failed:"Couldn't load products. If opening this file locally, run a simple server: python -m http.server",
     label_kind:"Type",
     total:"total", store_total:"total", copy_btn:"Copy list", copy_store_btn:"Copy", copied:"Copied ✓", copy_failed:"Couldn't copy — try another browser",
+    go_store_btn:"Order", go_store_website:"Go to store", go_store_facebook:"Message on Facebook",
     clear_all_btn:"Clear all", clear_store_btn:"Clear", cleared:"Cleared ✓",
     added:"Added ✓", remove:"Remove", dupe_of:"Dupe of", duped_by:"Duped by",
     full_tag:"full bottle", leftover_tag:"with bottle", as_shown:"as shown", tester_tag:"tester",
@@ -446,6 +449,7 @@ const I18N = {
     load_failed:"تعذّر تحميل المنتجات. لو بتفتح الملف محليًا استخدم خادمًا بسيطًا: python -m http.server",
     label_kind:"النوع",
     total:"الإجمالي", store_total:"إجمالي", copy_btn:"نسخ القائمة", copy_store_btn:"نسخ", copied:"تم النسخ ✓", copy_failed:"تعذّر النسخ — جرّب متصفحًا آخر",
+    go_store_btn:"اطلب", go_store_website:"روح للمتجر", go_store_facebook:"راسل على فيسبوك",
     clear_all_btn:"مسح الكل", clear_store_btn:"مسح", cleared:"تم المسح ✓",
     added:"تمت الإضافة ✓", remove:"إزالة", dupe_of:"مستوحى من", duped_by:"مصدر إلهام لـ",
     full_tag:"زجاجة كاملة", leftover_tag:"باقي تقسيم", as_shown:"كما بالصورة", tester_tag:"تستر",
@@ -581,7 +585,7 @@ function buildLookups(){
     });
   });
 }
-const pname = p => lang==="ar" ? (p.name_ar||p.name_en) : (p.name_en||p.name_ar);
+const pname = (p, forceLang) => (forceLang||lang)==="ar" ? (p.name_ar||p.name_en) : (p.name_en||p.name_ar);
 /* The alt-name line under the title is only useful when it actually adds
    information — skip it if there's no Arabic/English name on file, or if
    the two are just the same text (nothing to translate/transliterate). */
@@ -592,12 +596,14 @@ const pname_alt = p => {
 };
 const nlabel = n => lang==="ar" ? (n.label_ar||n.label_en) : (n.label_en||n.label_ar);
 
-function offerLabel(o){
-  const size = o.ml==="as-shown" ? t().as_shown : (lang==="ar" ? `${o.ml} مل` : `${o.ml}ml`);
+function offerLabel(o, forceLang){
+  const useLang = forceLang || lang;
+  const tt = I18N[useLang];
+  const size = o.ml==="as-shown" ? tt.as_shown : (useLang==="ar" ? `${o.ml} مل` : `${o.ml}ml`);
   const tags = [];
-  if(o.kind==="full") tags.push(t().full_tag);
-  else if(o.kind==="leftover") tags.push(t().leftover_tag);
-  if(o.tester) tags.push(t().tester_tag);
+  if(o.kind==="full") tags.push(tt.full_tag);
+  else if(o.kind==="leftover") tags.push(tt.leftover_tag);
+  if(o.tester) tags.push(tt.tester_tag);
   if(o.note) tags.push(o.note);
   return tags.length ? `${size} "${tags.join(" — ")}"` : size;
 }
@@ -1513,16 +1519,16 @@ function syncCart(){
     // cart doesn't just silently lose an item, but they're worth 0 in
     // every total/message — you can't actually buy them anymore.
     const storeTotal = g.entries.reduce((a,{c,line})=>a + (line.o.sold_since ? 0 : line.o.price*c.qty), 0);
-    if(groups.length > 1){
-      const head = document.createElement("div");
-      head.className = "cart-store-head";
-      head.innerHTML = `
-        <bdi class="cart-store-name">${g.name}</bdi>
-        <span class="cart-store-total">${storeTotal}</span>
-        <button class="cart-store-copy" data-store="${g.name}">${t().copy_store_btn}</button>
-        <button class="cart-store-clear" data-clear-store="${g.name}">${t().clear_store_btn}</button>`;
-      cartBody.appendChild(head);
-    }
+    const action = storeActionLink(g);
+    const head = document.createElement("div");
+    head.className = "cart-store-head";
+    head.innerHTML = `
+      <bdi class="cart-store-name">${g.name}</bdi>
+      <span class="cart-store-total">${storeTotal}</span>
+      ${action ? `<a class="cart-store-go" href="${action.href}" target="_blank" rel="noopener" data-go-store="${g.name}" data-go-kind="${action.kind}" title="${action.kind==='facebook' ? t().go_store_facebook : t().go_store_website}">${t().go_store_btn}</a>` : ""}
+      <button class="cart-store-copy" data-store="${g.name}">${t().copy_store_btn}</button>
+      <button class="cart-store-clear" data-clear-store="${g.name}">${t().clear_store_btn}</button>`;
+    cartBody.appendChild(head);
     g.entries.forEach(({c,i,line}) => {
       const { p, s, o } = line;
       let tip = "";
@@ -1549,7 +1555,7 @@ function syncCart(){
           <b>${pname(p)}</b>
           ${o.sold_since ? `<span class="sold-badge">${t().sold_badge}</span>` : ""}
           ${offerLabel(o)} × ${o.price}
-          <div class="store">${s.name}</div>
+          <div class="store">${s.product_url || s.url ? `<a href="${s.product_url||s.url}" target="_blank" rel="noopener" data-listing-click="${s.name}" data-pid="${p.id}">${s.name}</a>` : s.name}</div>
           ${tip}
           <button class="remove" data-rm="${i}">${t().remove}</button>
         </div>
@@ -1568,6 +1574,8 @@ function syncCart(){
 }
 
 cartBody.addEventListener("click", async e=>{
+  const listingLink = e.target.closest("[data-listing-click]");
+  if(listingLink) trackEvent("store_listing_click", { store: listingLink.dataset.listingClick, item_id: listingLink.dataset.pid || "" });
   const inc=e.target.dataset.inc, dec=e.target.dataset.dec, rm=e.target.dataset.rm;
   if(inc!=null || dec!=null || rm!=null){
     if(inc!=null){ cart[inc].qty++; trackEvent("cart_qty_increase", { item_id: cart[inc].productId }); }
@@ -1575,6 +1583,11 @@ cartBody.addEventListener("click", async e=>{
     if(rm!=null){ trackEvent("remove_from_cart", { item_id: cart[rm].productId }); cart.splice(rm,1); }
     syncCart();
     return;
+  }
+  const storeGoBtn = e.target.closest(".cart-store-go");
+  if(storeGoBtn){
+    trackEvent("cart_store_go", { store: storeGoBtn.dataset.goStore, kind: storeGoBtn.dataset.goKind });
+    // real <a target="_blank"> link -- let it navigate natively, just track it
   }
   const storeCopyBtn = e.target.closest(".cart-store-copy");
   if(storeCopyBtn){
@@ -1613,10 +1626,64 @@ document.getElementById("clearCart").onclick = ()=>{
   toast(t().cleared);
 };
 
+function isFacebookUrl(url){
+  return !!url && url.includes("facebook.com");
+}
+
+// Builds a "click to chat" Messenger link (https://m.me/<id>?text=...),
+// the same unofficial-but-widely-used convention as WhatsApp's wa.me —
+// opens Messenger with the message already typed into the compose box,
+// NOT sent, same as clicking the store's profile link and typing it
+// yourself. Needs a bare user/page id or username, which a profile URL
+// gives directly but a group-scoped member URL
+// (facebook.com/groups/<gid>/user/<uid>/) buries one level deeper.
+function facebookMessengerLink(url, message){
+  let id = null;
+  let m = url.match(/facebook\.com\/groups\/\d+\/user\/(\d+)/);
+  if(m) id = m[1];
+  if(!id){ m = url.match(/facebook\.com\/profile\.php\?id=(\d+)/); if(m) id = m[1]; }
+  if(!id){
+    m = url.match(/facebook\.com\/([^\/?#]+)/);
+    if(m && !["groups","people","pages"].includes(m[1])) id = m[1];
+  }
+  if(!id) return null;
+  return `https://m.me/${id}?text=${encodeURIComponent(message)}`;
+}
+
+// The action a store's cart-group header link should take: a Facebook
+// seller gets a pre-filled (unsent) Messenger chat with that store's own
+// order lines; a real store gets linked straight to the specific product
+// page already on file for it -- but only when the whole group is a
+// single product, since there's no way to deep-link "these 3 different
+// products, pre-added" into a site we don't control. A multi-product
+// group for a real store falls back to that store's own homepage.
+function storeActionLink(g){
+  const first = g.entries[0].line.s;
+  const url = first.url || first.product_url;
+  if(!url) return null;
+  if(isFacebookUrl(url) || isFacebookUrl(first.product_url||"")){
+    const href = facebookMessengerLink(first.product_url && isFacebookUrl(first.product_url) ? first.product_url : url, buildMessage(g.name));
+    return href ? { href, kind:"facebook" } : null;
+  }
+  const distinctProducts = new Set(g.entries.map(({line}) => line.p.id));
+  const href = distinctProducts.size === 1
+    ? (g.entries[0].line.s.product_url || url)
+    : url;
+  return { href, kind:"website" };
+}
+
 /* With no filter, the full cart grouped by store (grand total appended).
    With filterStoreName, just that one store's lines (no grand total —
    it'd be identical to that store's own subtotal). */
 function buildMessage(filterStoreName){
+  // Always built in English regardless of the current UI language — a
+  // message meant to be pasted into WhatsApp/Messenger/a seller's DMs
+  // mixing Arabic product names/tags with Latin digits and prices came
+  // out visually reordered once pasted somewhere that doesn't carry the
+  // same bidi context the page had, since plain-text copy/paste has no
+  // direction markup of its own. English-only text plus plain digits
+  // never has that problem, so the seller-facing message stays this way
+  // no matter which language the page itself is being browsed in.
   const groups = groupCartByStore().filter(g => !filterStoreName || g.name === filterStoreName);
 
   let msg = "";
@@ -1632,12 +1699,12 @@ function buildMessage(filterStoreName){
       const { p, o } = line;
       const lineTotal = o.price * c.qty;
       const qtyTag = c.qty > 1 ? ` × ${c.qty}` : "";
-      return `${pname(p)} - ${offerLabel(o)}${qtyTag} - ${lineTotal}`;
+      return `${pname(p, "en")} - ${offerLabel(o, "en")}${qtyTag} - ${lineTotal}`;
     });
-    msg += `${g.name}:\n${lines.join("\n")}\n${g.name} ${t().store_total}: ${total}\n\n`;
+    msg += `${g.name}:\n${lines.join("\n")}\n${g.name} ${I18N.en.store_total}: ${total}\n\n`;
     grand += total;
   });
-  if(!filterStoreName) msg += `${t().total}: ${grand}`;
+  if(!filterStoreName) msg += `${I18N.en.total}: ${grand}`;
   return msg.trim();
 }
 
