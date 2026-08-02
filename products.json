@@ -796,17 +796,17 @@
               "kind": "decant",
               "ml": 5,
               "price": 285,
-              "first_seen": "2026-07-17"
+              "first_seen": "2026-07-17",
+              "sold_since": "2026-08-02"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 500,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-08-01"
+              "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/212-vip-ros-love-ny-women-ch--mo-shawky.jpg",
+          "image": "images/212-vip-ros-love-ny-women--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ch-212-vip-rose-love-ny-women-10ml-376"
         }
       ],
@@ -24751,7 +24751,7 @@
             }
           ],
           "image": "images/bois-imp-rial--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-bois-imperial-3ml-484"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-bois-imperial-5ml-483"
         },
         {
           "name": "sniffz",
@@ -34362,7 +34362,7 @@
               "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/cool-water-edt--mo-shawky.jpg",
+          "image": "images/cool-water-man-eau-de-toilette--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/davidoff-cool-water-edt-5ml-313"
         }
       ],
@@ -85231,7 +85231,7 @@
             }
           ],
           "image": "images/la-vie-est-belle-iris-absolu-women--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lancome-la-vie-est-belle-iris-absolu-women-3ml-440"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lancome-la-vie-est-belle-iris-absolu-women-5ml-421"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -85333,7 +85333,7 @@
             }
           ],
           "image": "images/la-vie-est-belle-vanille-nude-women--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lancome-la-vie-est-belle-vanille-nude-women-3ml-442"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lancome-la-vie-est-belle-vanille-nude-women-5ml-383"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -163407,7 +163407,7 @@
             }
           ],
           "image": "images/y-edp-intense--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ysl-y-edp-intense-3ml-456"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ysl-y-edp-intense-5ml-315"
         },
         {
           "name": "feel22",
@@ -165302,6 +165302,32 @@
           "product_url": "https://eg.feel22.com/products/calvin-klein-eternity-cologne-eau-de-toilette-for-men-100ml"
         }
       ]
+    },
+    {
+      "id": "212-vip-ros-love-ny-women-ch",
+      "name_ar": "",
+      "name_en": "212 VIP Rosé Love NY women",
+      "brand": "CH",
+      "dupe_of": [],
+      "image": "images/212-vip-ros-love-ny-women-ch.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 285,
+              "first_seen": "2026-08-02"
+            }
+          ],
+          "image": "images/212-vip-ros-love-ny-women-ch--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ch-212-vip-rose-love-ny-women-5ml-377"
+        }
+      ],
+      "_hero_source": "MO Shawky"
     }
   ]
 }
