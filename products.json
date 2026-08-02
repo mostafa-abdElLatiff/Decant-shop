@@ -8180,11 +8180,10 @@
               "kind": "full",
               "ml": 80,
               "price": 2750,
-              "first_seen": "2026-07-18",
-              "note": "extrait"
+              "first_seen": "2026-07-18"
             }
           ],
-          "image": "images/amber-saffron-extrait--emaratiscents.jpg",
+          "image": "images/amber-saffron--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/amber-saffron-extrait"
         }
       ],
@@ -9734,7 +9733,7 @@
               "first_seen": "2026-07-18"
             }
           ],
-          "image": "images/anfas-oud--emaratiscents.jpg",
+          "image": "images/anfas-oud-eau-de-parfum--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/anfas-oud"
         }
       ],
@@ -13140,8 +13139,7 @@
               "kind": "full",
               "ml": 200,
               "price": 2350,
-              "first_seen": "2026-07-18",
-              "prev_price": 2450
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/arrogate-addict--emaratiscents.jpg",
@@ -14987,11 +14985,10 @@
               "kind": "full",
               "ml": 100,
               "price": 1270,
-              "first_seen": "2026-07-19",
-              "note": "limited edition"
+              "first_seen": "2026-07-19"
             }
           ],
-          "image": "images/asad-elixir-limited-edition--emaratiscents.jpg",
+          "image": "images/asad-elixir-lattafa-perfumes--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/asad-elixir"
         }
       ],
@@ -71348,7 +71345,7 @@
               "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/interlude-black-iris-man--emaratiscents.jpg",
+          "image": "images/interlude-black-iris--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/interlude-black-iris-man"
         },
         {
@@ -71366,7 +71363,7 @@
           "product_url": "https://mazaya.eg/en/interlude-black-iris-man-100ml"
         }
       ],
-      "_hero_source": "Abo Anas Sayed",
+      "_hero_source": "emaratiscents",
       "aliases": [
         "Interlude Black Iris Man"
       ]
@@ -75812,11 +75809,11 @@
               "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/jubilation-40-man--emaratiscents.jpg",
+          "image": "images/jubilation-40--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/jubilation-40-man"
         }
       ],
-      "_hero_source": "Abo Anas Sayed",
+      "_hero_source": "emaratiscents",
       "aliases": [
         "Jubilation 40 Man"
       ]
@@ -110035,7 +110032,7 @@
               "first_seen": "2026-07-18"
             }
           ],
-          "image": "images/odyssey-limoni-fresh--emaratiscents.jpg",
+          "image": "images/odyssey-limoni--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/odyssey-limoni-fresh"
         }
       ],
@@ -122579,13 +122576,14 @@
               "first_seen": "2026-07-18"
             }
           ],
-          "image": "images/prime-25-n--emaratiscents.jpg",
+          "image": "images/prime-25--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/prime-25-n"
         }
       ],
       "aliases": [
         "Prime 25 N"
-      ]
+      ],
+      "_hero_source": "emaratiscents"
     },
     {
       "id": "prime-26",
@@ -126392,11 +126390,10 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "note": "extrait"
+              "first_seen": "2026-07-18"
             }
           ],
-          "image": "images/ramad-earthy-extrait--emaratiscents.jpg",
+          "image": "images/ramad-earthy--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/ramad-earthy"
         }
       ],
@@ -138682,7 +138679,7 @@
               "first_seen": "2026-07-18"
             }
           ],
-          "image": "images/signature-rose-gold--emaratiscents.jpg",
+          "image": "images/signature-rose-gold-dkhoon-emirates--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/signature-rose-gold"
         }
       ],
@@ -157038,7 +157035,7 @@
               "first_seen": "2026-07-19"
             }
           ],
-          "image": "images/vanilla-voyage--emaratiscents.jpg",
+          "image": "images/vanilla-voyage-maison-asrar--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/vanilla-voyage"
         }
       ],
@@ -166091,6 +166088,32 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "pegasus",
+      "name_ar": "Pegasus",
+      "name_en": "Pegasus",
+      "brand": "Dkhoni",
+      "dupe_of": [],
+      "image": "images/pegasus.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-08-02"
+            }
+          ],
+          "image": "images/pegasus--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/pegasus-by-dkhoni"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
