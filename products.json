@@ -101964,74 +101964,6 @@
       ]
     },
     {
-      "id": "myself-le-parfum",
-      "name_ar": "Myself Le Parfum",
-      "name_en": "Myself Le Parfum",
-      "brand": "YSL",
-      "dupe_of": [],
-      "image": "images/myself-le-parfum.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Mohamed Mohie",
-          "url": "https://www.facebook.com/mohammett.mohie/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 350,
-              "first_seen": "2026-08-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 600,
-              "first_seen": "2026-08-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 20,
-              "price": 1100,
-              "first_seen": "2026-08-01"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 1600,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/myself-le-parfum--mohamed-mohie.jpg"
-        }
-      ],
-      "_hero_source": "Mohamed Mohie"
-    },
-    {
-      "id": "myslf",
-      "name_ar": "MYSLF",
-      "name_en": "MYSLF",
-      "brand": "Yves Saint Laurent",
-      "dupe_of": [],
-      "image": "images/myslf.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 5000,
-              "first_seen": "2026-07-30"
-            }
-          ],
-          "image": "images/myslf--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "Abo Anas Sayed"
-    },
-    {
       "id": "myslf-eau-de-parfum",
       "name_ar": "",
       "name_en": "MYSLF Eau de Parfum",
@@ -102176,10 +102108,24 @@
           ],
           "image": "images/myslf-eau-de-parfum--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/ysl-myslf-edp"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 5000,
+              "first_seen": "2026-07-30"
+            }
+          ],
+          "image": "images/myslf--abo-anas-sayed.jpg"
         }
       ],
       "_hero_source": "sniffz",
       "aliases": [
+        "MYSLF",
         "MYSLF EDP",
         "YSL Myslf EDP"
       ]
@@ -102375,19 +102321,7 @@
             }
           ],
           "image": "images/myslf-l-absolu--ahmed-abdel-kareem.jpg"
-        }
-      ],
-      "_hero_source": "sniffz"
-    },
-    {
-      "id": "myslf-labsolu",
-      "name_ar": "Myslf Labsolu",
-      "name_en": "Myslf Labsolu",
-      "brand": "Yves Saint Laurent",
-      "dupe_of": [],
-      "image": "images/myslf-labsolu.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "mazaya",
           "url": "https://mazaya.eg/",
@@ -102409,7 +102343,10 @@
           "product_url": "https://mazaya.eg/en/myslf-labsolu"
         }
       ],
-      "_hero_source": "mazaya"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Myslf Labsolu"
+      ]
     },
     {
       "id": "myslf-le-parfum",
@@ -102493,9 +102430,43 @@
             }
           ],
           "image": "images/myslf-le-parfum--abo-anas-sayed.jpg"
+        },
+        {
+          "name": "Mohamed Mohie",
+          "url": "https://www.facebook.com/mohammett.mohie/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 350,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 600,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 20,
+              "price": 1100,
+              "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 1600,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "images/myself-le-parfum--mohamed-mohie.jpg"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Myself Le Parfum"
+      ]
     },
     {
       "id": "myslf-refill-v",
@@ -116540,23 +116511,18 @@
               "ml": 100,
               "price": 8900,
               "first_seen": "2026-08-01"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 8500,
+              "first_seen": "2026-08-01",
+              "note": "refill"
             }
           ],
-          "image": "images/paradigme--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/prada-paradigme-eau-de-perfum-pm027017385793.html"
-        }
-      ],
-      "_hero_source": "sniffz"
-    },
-    {
-      "id": "paradigme-eau-de-parfum",
-      "name_ar": "Paradigme Eau de Parfum",
-      "name_en": "Paradigme Eau de Parfum",
-      "brand": "Prada",
-      "dupe_of": [],
-      "image": "images/paradigme-eau-de-parfum.jpg",
-      "accords": [],
-      "stores": [
+          "image": "images/paradigme-eau-de-parfum-refill--faces.jpg",
+          "product_url": "https://www.faces.eg/en/p/prada-paradigme-refill-eau-de-perfum-027017385796.html"
+        },
         {
           "name": "mazaya",
           "url": "https://mazaya.eg/",
@@ -116585,25 +116551,11 @@
           ],
           "image": "images/paradigme-eau-de-parfum--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/paradigme-eau-de-parfum-refill-150ml"
-        },
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 8500,
-              "first_seen": "2026-08-01",
-              "note": "refill"
-            }
-          ],
-          "image": "images/paradigme-eau-de-parfum-refill--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/prada-paradigme-refill-eau-de-perfum-027017385796.html"
         }
       ],
-      "_hero_source": "mazaya",
+      "_hero_source": "sniffz",
       "aliases": [
+        "Paradigme Eau de Parfum",
         "Paradigme Eau de Parfum Refill"
       ]
     },
@@ -144649,10 +144601,31 @@
             }
           ],
           "image": "images/supremacy-collector-s-edition.jpg"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 300,
+              "first_seen": "2026-08-02"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 1475,
+              "first_seen": "2026-08-02"
+            }
+          ],
+          "image": "images/supermacy-collector--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/supermacy-collector-50ml%d8%b3%d9%88%d8%a8%d8%b1%d9%85%d8%a7%d8%b3%d9%8a-%d9%83%d9%88%d9%84%d9%8a%d9%83%d8%aa%d9%88%d8%b1-%d8%a7%d8%af%d9%8a%d8%b4%d9%86-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "emaratiscents",
       "aliases": [
+        "Supermacy Collector",
         "Supremacy Collector's Edition Pour Homme"
       ]
     },
@@ -148780,9 +148753,26 @@
           ],
           "image": "images/the-one-parfum--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/dolce-gabbana-the-one-parfum-eau-de-parfum-pm009417582939.html"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 6900,
+              "first_seen": "2026-08-02"
+            }
+          ],
+          "image": "images/dolce-gabbana-the-one-pour-homme-parfum--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/dolce-gabbana-the-one-pour-homme-parfum/"
         }
       ],
-      "_hero_source": "faces"
+      "_hero_source": "faces",
+      "aliases": [
+        "Dolce & Gabbana The One Pour Homme Parfum"
+      ]
     },
     {
       "id": "the-one-royal-night",
@@ -165199,64 +165189,6 @@
         }
       ],
       "_hero_source": "emaratiscents"
-    },
-    {
-      "id": "dolce-gabbana-the-one-pour-homme-parfum",
-      "name_ar": "Dolce & Gabbana The One Pour Homme Parfum 100ML",
-      "name_en": "Dolce & Gabbana The One Pour Homme Parfum",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/dolce-gabbana-the-one-pour-homme-parfum.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 6900,
-              "first_seen": "2026-08-02"
-            }
-          ],
-          "image": "images/dolce-gabbana-the-one-pour-homme-parfum--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/dolce-gabbana-the-one-pour-homme-parfum/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
-      "id": "supermacy-collector",
-      "name_ar": "سوبرماسي كوليكتور تستر ١٠ملي",
-      "name_en": "Supermacy Collector",
-      "brand": "",
-      "dupe_of": [],
-      "image": "images/supermacy-collector.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 300,
-              "first_seen": "2026-08-02"
-            },
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 1475,
-              "first_seen": "2026-08-02"
-            }
-          ],
-          "image": "images/supermacy-collector--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/supermacy-collector-50ml%d8%b3%d9%88%d8%a8%d8%b1%d9%85%d8%a7%d8%b3%d9%8a-%d9%83%d9%88%d9%84%d9%8a%d9%83%d8%aa%d9%88%d8%b1-%d8%a7%d8%af%d9%8a%d8%b4%d9%86-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "pegasus",
