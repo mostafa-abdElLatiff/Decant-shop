@@ -24504,7 +24504,7 @@
             }
           ],
           "image": "images/bois-imp-rial--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-bois-imperial-5ml-483"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-bois-imperial-3ml-484"
         },
         {
           "name": "sniffz",
@@ -71690,7 +71690,7 @@
             }
           ],
           "image": "images/irresistible-edp-women--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/givenchy-irresistible-edp-women-5ml-379"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/givenchy-irresistible-edp-women-3ml-436"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -80802,9 +80802,29 @@
           ],
           "image": "images/l-eau-d-issey-pour-homme-eau-de-parfum--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/issey-miyake-leau-dissey-pour-homme-spray-eau-de-toilette-PM_ISSEY_MIYAKE_LEau_DIssey_Pour_Homme_EDT.html"
+        },
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 220,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 335,
+              "first_seen": "2026-08-03"
+            }
+          ],
+          "image": "images/l-eau-d-issey-pour-homme-eau-de-parfum--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/issey-miyake-l-eau-d-issey-pour-homme-edp-5ml-500"
         }
       ],
-      "_hero_source": "faces"
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "l-eau-d-issey-pour-homme-eau-de-toilette-200ml",
@@ -98267,11 +98287,12 @@
               "kind": "decant",
               "ml": 10,
               "price": 280,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-03"
             }
           ],
           "image": "images/miss-laverne--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/miss-laverne-10ml-41"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/laverne-miss-laverne-5ml-342"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -99152,9 +99173,35 @@
             }
           ],
           "image": "images/mon-vetiver--abo-anas-sayed.jpg"
+        },
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 215,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 295,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 490,
+              "first_seen": "2026-08-03"
+            }
+          ],
+          "image": "images/mon-vetiver--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-mon-vetiver-3ml-496"
         }
       ],
-      "_hero_source": "Abo Anas Sayed"
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "monaco-royale",
@@ -116392,9 +116439,29 @@
             }
           ],
           "image": "images/parfum-pour-homme--abo-anas-sayed.jpg"
+        },
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 225,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 350,
+              "first_seen": "2026-08-03"
+            }
+          ],
+          "image": "images/parfum-pour-homme--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/missoni-pour-homme-edp-5ml-502"
         }
       ],
-      "_hero_source": "Abo Anas Sayed"
+      "_hero_source": "MO Shawky"
     },
     {
       "id": "parfums-pour-homme",
@@ -123015,17 +123082,18 @@
               "kind": "decant",
               "ml": 5,
               "price": 125,
-              "first_seen": "2026-07-17"
+              "first_seen": "2026-07-17",
+              "sold_since": "2026-08-03"
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 200,
+              "price": 210,
               "first_seen": "2026-01-01"
             }
           ],
           "image": "images/pure-blue--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/nautica-pure-blue-5ml-406"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/nautica-pure-blue-10ml-405"
         }
       ],
       "_hero_source": "MO Shawky"
