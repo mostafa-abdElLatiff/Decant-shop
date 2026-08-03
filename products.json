@@ -1752,8 +1752,9 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 1050,
-              "first_seen": "2026-07-18"
+              "price": 1025,
+              "first_seen": "2026-07-18",
+              "prev_price": 1050
             },
             {
               "kind": "full",
@@ -8680,7 +8681,7 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 550,
+              "price": 600,
               "first_seen": "2026-07-18"
             },
             {
@@ -16679,9 +16680,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 900,
+              "price": 875,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 900
             }
           ],
           "image": "images/aura-jean-antoine--eldesoki-fragrances.jpg",
@@ -23935,7 +23936,7 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 875,
+              "price": 950,
               "first_seen": "2026-07-18"
             }
           ],
@@ -35447,7 +35448,7 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 950,
+              "price": 975,
               "first_seen": "2026-07-20"
             }
           ],
@@ -73840,7 +73841,7 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 900,
+              "price": 975,
               "first_seen": "2026-07-18"
             },
             {
@@ -92230,7 +92231,7 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 875,
+              "price": 925,
               "first_seen": "2026-07-18"
             },
             {
@@ -95375,7 +95376,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1325,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-03"
             }
           ],
           "image": "images/mazaaj--eldesoki-fragrances.jpg",
@@ -98685,8 +98687,9 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 775,
-              "first_seen": "2026-07-18"
+              "price": 750,
+              "first_seen": "2026-07-18",
+              "prev_price": 775
             }
           ],
           "image": "images/mojito-obsession--eldesoki-fragrances.jpg",
@@ -118872,7 +118875,7 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 975,
+              "price": 1050,
               "first_seen": "2026-07-18"
             }
           ],
@@ -129934,7 +129937,7 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 850,
+              "price": 925,
               "first_seen": "2026-07-18"
             },
             {
@@ -159705,12 +159708,11 @@
               "kind": "full",
               "ml": 100,
               "price": 775,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/white-heart-jean-antoine--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/white-heart-jean-antoine-100ml%d9%82%d9%84%d8%a8-%d8%a7%d8%a8%d9%8a%d8%b6-%d9%85%d9%86-%da%86%d9%8a%d9%86-%d8%a7%d9%86%d8%b7%d9%88%d8%a7%d9%86-%d8%a7%d9%84%d9%85%d8%a7%d8%b3-%d9%a1%d9%a0%d9%a0%d9%85/"
+          "product_url": "https://eldesoki-fragrances.com/product/white-heart-100ml-jean-antoine%d9%82%d9%84%d8%a8-%d8%a7%d8%a8%d9%8a%d8%b6-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%da%86%d9%8a%d9%86-%d8%a7%d9%86%d8%b7%d9%88%d8%a7%d9%86-%d8%a7%d9%84%d9%85/"
         }
       ],
       "_hero_source": "eldesoki-fragrances"
