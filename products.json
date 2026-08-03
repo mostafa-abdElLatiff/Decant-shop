@@ -31331,10 +31331,33 @@
           "url": "https://sniffz-eg.com/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 3,
+              "price": 125,
+              "first_seen": "2026-08-03",
+              "sold_since": "2026-08-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 165,
+              "first_seen": "2026-08-03",
+              "sold_since": "2026-08-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 250,
+              "first_seen": "2026-08-03",
+              "sold_since": "2026-08-03"
+            },
+            {
               "kind": "full",
               "ml": 105,
-              "price": 2250,
-              "first_seen": "2026-01-01"
+              "price": 1800,
+              "first_seen": "2026-01-01",
+              "prev_price": 2250,
+              "sold_since": "2026-08-03"
             }
           ],
           "image": "images/club-de-nuit-intense-man--sniffz.jpg",
@@ -32204,6 +32227,44 @@
             }
           ],
           "image": "images/club-de-nuit-sillage--abo-anas-sayed.jpg"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 115,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 150,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 230,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "full",
+              "ml": 105,
+              "price": 2000,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "full",
+              "ml": 250,
+              "price": 3500,
+              "first_seen": "2026-08-03"
+            }
+          ],
+          "image": "images/club-de-nuit-sillage--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/club-de-nuit-sillage"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -32325,6 +32386,38 @@
           ],
           "image": "images/club-de-nuit-urban-man-elixir--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/club-de-nuit-urban-elixir-armaf"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 125,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 165,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 255,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "full",
+              "ml": 105,
+              "price": 2000,
+              "first_seen": "2026-08-03"
+            }
+          ],
+          "image": "images/club-de-nuit-urban-man-elixir--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/club-de-nuit-urban-man-elixir"
         }
       ],
       "_hero_source": "mazaya",
@@ -108694,6 +108787,38 @@
           ],
           "image": "images/odyssey-chocolate-dubai--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/odyssey-dubai-chocolate"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 105,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 140,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 215,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1400,
+              "first_seen": "2026-08-03"
+            }
+          ],
+          "image": "images/odyssey-chocolate-dubai--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/armaf-odyssey-dubai-chocolate"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -109016,6 +109141,26 @@
           ],
           "image": "images/odyssey-limoni--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/odyssey-limoni-fresh"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1400,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2400,
+              "first_seen": "2026-08-03"
+            }
+          ],
+          "image": "images/odyssey-limoni--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/armaf-odyssey-limoni-fresh-full-sealed"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -109173,6 +109318,38 @@
           ],
           "image": "images/odyssey-mandarin-sky-vintage--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/odyssey-mandarin-sky-vintage"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 105,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 140,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 215,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1400,
+              "first_seen": "2026-08-03"
+            }
+          ],
+          "image": "images/odyssey-mandarin-sky-vintage--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/armaf-odyssey-mandarin-sky-vintage"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -109448,6 +109625,38 @@
           ],
           "image": "images/odyssey-mega--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/odessey-mega"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 105,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 140,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 215,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 100,
+              "price": 1400,
+              "first_seen": "2026-08-03"
+            }
+          ],
+          "image": "images/odyssey-mega--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/armaf-odyssey-mega-full-sealed"
         }
       ],
       "_hero_source": "og-perfume"
@@ -164800,6 +165009,94 @@
         }
       ],
       "_hero_source": "og-perfume"
+    },
+    {
+      "id": "club-de-nuit-limited-edition-parfum",
+      "name_ar": "",
+      "name_en": "Club de Nuit Limited Edition Parfum",
+      "brand": "Armaf",
+      "dupe_of": [],
+      "image": "images/club-de-nuit-limited-edition-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 180,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 255,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 420,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "full",
+              "ml": 105,
+              "price": 3350,
+              "first_seen": "2026-08-03"
+            }
+          ],
+          "image": "images/club-de-nuit-limited-edition-parfum--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/armaf-club-de-nuit-limited-edition-parfum"
+        }
+      ],
+      "_hero_source": "sniffz"
+    },
+    {
+      "id": "club-de-nuit-precieux",
+      "name_ar": "",
+      "name_en": "Club de Nuit Precieux",
+      "brand": "Armaf",
+      "dupe_of": [],
+      "image": "images/club-de-nuit-precieux.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 215,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 300,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 470,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "full",
+              "ml": 55,
+              "price": 2600,
+              "first_seen": "2026-08-03"
+            }
+          ],
+          "image": "images/club-de-nuit-precieux--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/armaf-club-de-nuit-precieux"
+        }
+      ],
+      "_hero_source": "sniffz"
     }
   ]
 }
