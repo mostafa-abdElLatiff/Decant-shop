@@ -25272,6 +25272,20 @@
           ],
           "image": "images/boss-bottled-infinite-eau-de-parfum-50ml--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/hugo-boss-bottled-infinite-tester-box-edp%d9%87%d9%88%d8%ac%d9%88-%d8%a8%d9%88%d8%b5-%d8%a8%d9%88%d8%aa%d9%84%d8%af-%d8%a7%d9%86%d9%81%d9%8a%d9%86%d9%8a%d8%aa-%d8%aa%d8%b3%d8%aa%d8%b1-%d8%a8%d9%88/"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4299,
+              "first_seen": "2026-08-03"
+            }
+          ],
+          "image": "images/boss-bottled-infinite-eau-de-parfum-50ml--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/hugo-boss-bottled-infinite-eau-de-parfum-for-men-100ml"
         }
       ],
       "_hero_source": "mazaya",
@@ -47882,8 +47896,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4745,
-              "first_seen": "2026-07-29"
+              "price": 4499,
+              "first_seen": "2026-07-29",
+              "prev_price": 4745
             },
             {
               "kind": "full",
@@ -120699,8 +120714,7 @@
               "kind": "full",
               "ml": 200,
               "price": 1836,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/power-of-seduction-eau-de-toilette--feel22.jpg",
@@ -131663,8 +131677,7 @@
               "kind": "full",
               "ml": 60,
               "price": 7054,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
@@ -131889,8 +131902,7 @@
               "kind": "full",
               "ml": 60,
               "price": 7620,
-              "first_seen": "2026-07-26",
-              "sold_since": "2026-07-26"
+              "first_seen": "2026-07-26"
             },
             {
               "kind": "full",
@@ -147946,8 +147958,7 @@
               "kind": "full",
               "ml": 100,
               "price": 4014,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
@@ -151055,8 +151066,7 @@
               "kind": "full",
               "ml": 50,
               "price": 2740,
-              "first_seen": "2026-07-26",
-              "sold_since": "2026-07-26"
+              "first_seen": "2026-07-26"
             },
             {
               "kind": "full",
@@ -164707,6 +164717,39 @@
           "product_url": "https://www.facebook.com/groups/1321209448577265/posts/1962632621101608"
         }
       ]
+    },
+    {
+      "id": "seductive-eau-de-toilette",
+      "name_ar": "Seductive Eau De Toilette",
+      "name_en": "Seductive Eau De Toilette",
+      "brand": "Guess",
+      "dupe_of": [],
+      "image": "images/seductive-eau-de-toilette.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1489,
+              "first_seen": "2026-08-03",
+              "sold_since": "2026-08-03"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 1855,
+              "first_seen": "2026-08-03"
+            }
+          ],
+          "image": "images/seductive-eau-de-toilette--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/guess-seductive-eau-de-toilette-for-men-100ml"
+        }
+      ],
+      "_hero_source": "feel22"
     }
   ]
 }
