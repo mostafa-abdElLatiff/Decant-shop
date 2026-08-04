@@ -2020,8 +2020,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 210,
-              "first_seen": "2026-08-01",
-              "prev_price": 215
+              "first_seen": "2026-08-01"
             },
             {
               "kind": "leftover",
@@ -16723,8 +16722,7 @@
               "kind": "full",
               "ml": 100,
               "price": 850,
-              "first_seen": "2026-07-19",
-              "prev_price": 875
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/aura-jean-antoine--eldesoki-fragrances.jpg",
@@ -76289,13 +76287,15 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-04"
             },
             {
               "kind": "leftover",
               "ml": 100,
               "price": 1350,
-              "first_seen": "2026-08-04"
+              "first_seen": "2026-08-04",
+              "sold_since": "2026-08-04"
             }
           ],
           "image": "images/kahilan--eldesoki-fragrances.jpg",
@@ -96505,15 +96505,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 165,
-              "first_seen": "2026-07-18",
-              "prev_price": 175
+              "first_seen": "2026-07-18"
             },
             {
               "kind": "leftover",
               "ml": 50,
               "price": 850,
-              "first_seen": "2026-07-18",
-              "prev_price": 875
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/mersal-valantine--eldesoki-fragrances.jpg",
@@ -125958,15 +125956,13 @@
               "kind": "leftover",
               "ml": 50,
               "price": 1050,
-              "first_seen": "2026-08-02",
-              "prev_price": 1075
+              "first_seen": "2026-08-02"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-07-19",
-              "prev_price": 1825
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/rare-reef--eldesoki-fragrances.jpg",
@@ -165763,6 +165759,32 @@
         }
       ],
       "_hero_source": "feel22"
+    },
+    {
+      "id": "submerge-otoori",
+      "name_ar": "سبميرچ ١٠٠ملي من عربيات عطوري",
+      "name_en": "Submerge Otoori",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/submerge-otoori.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 875,
+              "first_seen": "2026-08-04"
+            }
+          ],
+          "image": "images/submerge-otoori--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/submerge-100ml-otoori%d8%b3%d8%a8%d9%85%d9%8a%d8%b1%da%86-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b9%d8%b1%d8%a8%d9%8a%d8%a7%d8%aa-%d8%b9%d8%b7%d9%88%d8%b1%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
