@@ -165262,6 +165262,60 @@
         }
       ],
       "_hero_source": "roseperfume"
+    },
+    {
+      "id": "qasida-al-badr",
+      "name_ar": "Qasida Al Badr",
+      "name_en": "Qasida Al Badr",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/qasida-al-badr.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2150,
+              "first_seen": "2026-08-04",
+              "sold_since": "2026-08-04"
+            }
+          ],
+          "image": "images/qasida-al-badr--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/qasida-al-badr"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "qasida-signature",
+      "name_ar": "Qasida Signature",
+      "name_en": "Qasida Signature",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/qasida-signature.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2150,
+              "first_seen": "2026-08-04",
+              "sold_since": "2026-08-04"
+            }
+          ],
+          "image": "images/qasida-signature--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/qasida-signature"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
     }
   ]
 }
