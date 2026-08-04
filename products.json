@@ -8124,6 +8124,20 @@
           ],
           "image": "images/amber-saffron--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/amber-saffron-extrait"
+        },
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 80,
+              "price": 2600,
+              "first_seen": "2026-08-04"
+            }
+          ],
+          "image": "images/amber-saffron--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/amber-saffron"
         }
       ],
       "_hero_source": "og-perfume",
@@ -165327,6 +165341,59 @@
           ],
           "image": "images/qasida-signature--dar-elarabia.jpg",
           "product_url": "https://darelarabia.com/products/qasida-signature"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "8th-wonder",
+      "name_ar": "8th Wonder",
+      "name_en": "8th Wonder",
+      "brand": "French Avenue",
+      "dupe_of": [],
+      "image": "images/8th-wonder.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2000,
+              "first_seen": "2026-08-04"
+            }
+          ],
+          "image": "images/8th-wonder--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/8th-wonder"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "qasida-bakhour",
+      "name_ar": "Qasida Bakhour",
+      "name_en": "Qasida Bakhour",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/qasida-bakhour.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2150,
+              "first_seen": "2026-08-04",
+              "sold_since": "2026-08-04"
+            }
+          ],
+          "image": "images/qasida-bakhour--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/qasida-bakhour"
         }
       ],
       "_hero_source": "dar.elarabia"
