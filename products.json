@@ -63072,7 +63072,8 @@
               "kind": "decant",
               "ml": 5,
               "price": 250,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-04"
             },
             {
               "kind": "decant",
@@ -165786,6 +165787,38 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "no-7",
+      "name_ar": "NOº 7",
+      "name_en": "NOº 7",
+      "brand": "Rosendo Mateu",
+      "dupe_of": [],
+      "image": "images/no-7.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 480,
+              "first_seen": "2026-08-04"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 800,
+              "first_seen": "2026-08-04"
+            }
+          ],
+          "image": "images/no-7--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/rosendo-mateu-no-7"
+        }
+      ],
+      "_hero_source": "perfuzone"
     }
   ]
 }
