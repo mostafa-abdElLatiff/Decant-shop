@@ -90138,7 +90138,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 850,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-05"
             },
             {
               "kind": "full",
@@ -121301,6 +121302,13 @@
               "first_seen": "2026-07-19"
             },
             {
+              "kind": "leftover",
+              "ml": 35,
+              "price": 575,
+              "first_seen": "2026-08-05",
+              "sold_since": "2026-08-05"
+            },
+            {
               "kind": "full",
               "ml": 75,
               "price": 1150,
@@ -129196,8 +129204,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2000,
-              "first_seen": "2026-07-19"
+              "price": 1850,
+              "first_seen": "2026-07-19",
+              "prev_price": 2000
             }
           ],
           "image": "images/riffs-freeze--og-perfume.jpg",
@@ -135843,7 +135852,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 395,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-05"
             },
             {
               "kind": "leftover",
