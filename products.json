@@ -13176,7 +13176,8 @@
               "kind": "full",
               "ml": 150,
               "price": 2450,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-05"
             }
           ],
           "image": "images/arrogate-addict-elixir--emaratiscents.jpg",
@@ -19007,8 +19008,7 @@
               "kind": "full",
               "ml": 150,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-03"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/balas-rose--emaratiscents.jpg",
@@ -27597,8 +27597,7 @@
               "kind": "full",
               "ml": 75,
               "price": 1700,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-04"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/cardamom-musk-ibraq--emaratiscents.jpg",
@@ -34948,8 +34947,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1450,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-31"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/cream-velvet-khadlaj--emaratiscents.jpg",
@@ -38142,7 +38140,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-05"
             }
           ],
           "image": "images/desert--emaratiscents.jpg",
@@ -43448,8 +43447,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-24"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/eau-de-vintage--emaratiscents.jpg",
@@ -72549,8 +72547,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-03"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/island-dreams--emaratiscents.jpg",
@@ -129600,7 +129597,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-05"
             }
           ],
           "image": "images/rose--emaratiscents.jpg",
@@ -130880,7 +130878,8 @@
               "kind": "full",
               "ml": 100,
               "price": 12700,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-05"
             }
           ],
           "image": "images/royal-incense--emaratiscents.jpg",
@@ -156158,8 +156157,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/varna--emaratiscents.jpg",
@@ -166186,6 +166184,32 @@
         }
       ],
       "_hero_source": "sniffz"
+    },
+    {
+      "id": "prestige-pearl",
+      "name_ar": "Prestige Pearl",
+      "name_en": "Prestige Pearl",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/prestige-pearl.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2850,
+              "first_seen": "2026-08-05"
+            }
+          ],
+          "image": "images/prestige-pearl--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/prestige-pearl"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
