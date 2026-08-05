@@ -7132,7 +7132,8 @@
               "kind": "full",
               "ml": 100,
               "price": 8000,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-05"
             }
           ],
           "image": "images/allure-homme-sport-eau-extreme--sniffz.jpg",
@@ -11230,9 +11231,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5200,
+              "price": 4850,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 5200
             }
           ],
           "image": "images/arabians-tonka--sniffz.jpg",
@@ -23929,13 +23930,14 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 21500,
+              "price": 15000,
               "first_seen": "2026-07-19",
+              "prev_price": 21500,
               "sold_since": "2026-07-19"
             }
           ],
           "image": "images/blue-talisman-extrait-de-parfum-ex-nihilo--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/ex-nihilo-blue-talisman-extrait-de-parfum-full-sealed"
+          "product_url": "https://sniffz-eg.com/products/ex-nihilo-blue-talisman-full-sealed"
         }
       ],
       "_hero_source": "sniffz",
@@ -30830,13 +30832,6 @@
               "price": 3750,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 50,
-              "price": 18500,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
             }
           ],
           "image": "images/clive-christian-blonde-amber--sniffz.jpg",
@@ -31514,9 +31509,9 @@
             {
               "kind": "full",
               "ml": 105,
-              "price": 1800,
+              "price": 1750,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-08-03"
+              "prev_price": 1800
             }
           ],
           "image": "images/club-de-nuit-intense-man--sniffz.jpg",
@@ -37527,7 +37522,8 @@
               "kind": "full",
               "ml": 100,
               "price": 20000,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-05"
             }
           ],
           "image": "images/decision--sniffz.jpg",
@@ -51582,21 +51578,23 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 125,
-              "first_seen": "2026-01-01"
+              "price": 70,
+              "first_seen": "2026-01-01",
+              "prev_price": 125
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 155,
-              "first_seen": "2026-01-01"
+              "price": 95,
+              "first_seen": "2026-01-01",
+              "prev_price": 155
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 240,
+              "price": 140,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 240
             },
             {
               "kind": "full",
@@ -58617,7 +58615,8 @@
               "kind": "full",
               "ml": 50,
               "price": 13000,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-05"
             }
           ],
           "image": "images/god-of-fire--sniffz.jpg",
@@ -60478,7 +60477,8 @@
               "kind": "full",
               "ml": 100,
               "price": 15000,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-05"
             }
           ],
           "image": "images/guidance--sniffz.jpg",
@@ -78505,6 +78505,12 @@
               "price": 270,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1300,
+              "first_seen": "2026-08-05"
             }
           ],
           "image": "images/khamrah-qahwa--sniffz.jpg",
@@ -83033,7 +83039,8 @@
               "kind": "full",
               "ml": 50,
               "price": 9500,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-05"
             }
           ],
           "image": "images/la-capitale--sniffz.jpg",
@@ -96981,7 +96988,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2300,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-05"
             }
           ],
           "image": "images/mexican-tobacco--sniffz.jpg",
@@ -103561,7 +103569,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1000,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-05"
             }
           ],
           "image": "images/najdia-intense--sniffz.jpg",
@@ -107900,6 +107909,20 @@
           ],
           "image": "images/nude-coral-diamond--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/nude-coral-diamond-ibrahim-al-qurashi"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 1500,
+              "first_seen": "2026-08-05"
+            }
+          ],
+          "image": "images/nude-coral-diamond--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/ibraheem-alqurashi-nude-coral-diamond-full-sealed"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -143161,19 +143184,19 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4000,
-              "first_seen": "2026-01-01",
-              "prev_price": 5800
+              "price": 5800,
+              "first_seen": "2026-01-01"
             },
             {
               "kind": "full",
               "ml": 150,
               "price": 5000,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-05"
             }
           ],
           "image": "images/stronger-with-you-parfum--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/armani-stronger-with-you-edt-full-sealed"
+          "product_url": "https://sniffz-eg.com/products/armani-stronger-with-you-parfum-full-sealed"
         },
         {
           "name": "eldesoki-fragrances",
@@ -144316,8 +144339,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2650,
-              "first_seen": "2026-07-19",
-              "prev_price": 2700
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/supremacy-collector-s-edition--sniffz.jpg",
