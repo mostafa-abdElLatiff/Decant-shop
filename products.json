@@ -16749,7 +16749,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 850,
+              "price": 875,
               "first_seen": "2026-07-19"
             }
           ],
@@ -62935,8 +62935,9 @@
             {
               "kind": "leftover",
               "ml": 30,
-              "price": 750,
-              "first_seen": "2026-07-26"
+              "price": 700,
+              "first_seen": "2026-07-26",
+              "prev_price": 750
             },
             {
               "kind": "leftover",
@@ -63605,6 +63606,20 @@
           ],
           "image": "images/hawas-london--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/hawas-london"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1825,
+              "first_seen": "2026-08-05"
+            }
+          ],
+          "image": "images/hawas-london--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/hawas-london-100ml-rasasi%d9%87%d9%88%d8%b3-%d9%84%d9%88%d9%86%d8%af%d9%86-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d9%84%d8%b1%d8%b5%d8%a7%d8%b5%d9%8a/"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -63811,13 +63826,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1875,
+              "price": 1825,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 1875
             }
           ],
           "image": "images/hawas-tropical--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/hawas-tropical-100ml%d9%87%d9%88%d8%b3-%d8%aa%d8%b1%d9%88%d8%a8%d9%8a%d9%83%d8%a7%d9%84-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d9%84%d8%b1%d8%b5%d8%a7%d8%b5%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/hawas-tropical-100ml-rasasi%d9%87%d9%88%d8%b3-%d8%aa%d8%b1%d9%88%d8%a8%d9%8a%d9%83%d8%a7%d9%84-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d9%84%d8%b1%d8%b5%d8%a7%d8%b5%d9%8a/"
         },
         {
           "name": "perfuzone",
@@ -72798,7 +72813,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1475,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-05"
             }
           ],
           "image": "images/island-vanilla-dunes--eldesoki-fragrances.jpg",
@@ -112101,7 +112117,8 @@
               "kind": "full",
               "ml": 100,
               "price": 775,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-05"
             }
           ],
           "image": "images/opulent-dubai--eldesoki-fragrances.jpg",
