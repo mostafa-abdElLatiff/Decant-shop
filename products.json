@@ -52566,20 +52566,23 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 1515,
-              "first_seen": "2026-01-01"
+              "price": 840,
+              "first_seen": "2026-01-01",
+              "prev_price": 1515
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 2160,
-              "first_seen": "2026-01-01"
+              "price": 1200,
+              "first_seen": "2026-01-01",
+              "prev_price": 2160
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 3600,
-              "first_seen": "2026-01-01"
+              "price": 2000,
+              "first_seen": "2026-01-01",
+              "prev_price": 3600
             }
           ],
           "image": "images/fierezza--sniffz.jpg",
