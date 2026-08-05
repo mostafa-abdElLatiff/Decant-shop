@@ -51147,7 +51147,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-05"
             }
           ],
           "image": "images/fahad-gaze--emaratiscents.jpg",
@@ -123886,7 +123887,8 @@
               "kind": "full",
               "ml": 100,
               "price": 25950,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-05"
             }
           ],
           "image": "images/purpose-50--emaratiscents.jpg",
@@ -165884,6 +165886,32 @@
           ],
           "image": "images/hawas-nautilus--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/hawas-nautilus"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "atlas-glacial-valley",
+      "name_ar": "Atlas Glacial Valley",
+      "name_en": "Atlas Glacial Valley",
+      "brand": "Lattafa",
+      "dupe_of": [],
+      "image": "images/atlas-glacial-valley.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 55,
+              "price": 2550,
+              "first_seen": "2026-08-05"
+            }
+          ],
+          "image": "images/atlas-glacial-valley--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/atlas-glacial-valley"
         }
       ],
       "_hero_source": "emaratiscents"
