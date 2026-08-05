@@ -3097,6 +3097,20 @@
           ],
           "image": "images/abu-dhabi--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/abu-dhabi-dkhoon-emirates"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-08-05"
+            }
+          ],
+          "image": "images/abu-dhabi--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/abu-dhabi"
         }
       ],
       "_hero_source": "roseperfume"
@@ -35587,6 +35601,20 @@
           ],
           "image": "images/crown-black--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/crown-black-dkhoon-emirates"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-08-05"
+            }
+          ],
+          "image": "images/crown-black--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/crown-black"
         }
       ],
       "_hero_source": "roseperfume"
@@ -38263,8 +38291,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-05"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/desert--emaratiscents.jpg",
@@ -43570,7 +43597,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2750,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-05"
             }
           ],
           "image": "images/eau-de-vintage--emaratiscents.jpg",
@@ -129821,8 +129849,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-05"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/rose--emaratiscents.jpg",
@@ -138174,7 +138201,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-05"
             }
           ],
           "image": "images/signature-white--emaratiscents.jpg",
@@ -139625,7 +139653,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2350,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-05"
             }
           ],
           "image": "images/soir-10-ml-travel-size--emaratiscents.jpg",
@@ -166560,6 +166589,448 @@
         }
       ],
       "_hero_source": "sniffz"
+    },
+    {
+      "id": "signature-black",
+      "name_ar": "Signature Black",
+      "name_en": "Signature Black",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/signature-black.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-08-05"
+            }
+          ],
+          "image": "images/signature-black--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/signature-black"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "reflection-dkhoon-emirates",
+      "name_ar": "Reflection",
+      "name_en": "Reflection",
+      "brand": "Dkhoon Emirates",
+      "dupe_of": [],
+      "image": "images/reflection-dkhoon-emirates.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-08-05"
+            }
+          ],
+          "image": "images/reflection-dkhoon-emirates--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/reflection-by-dkhoon-emirates"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "balqees",
+      "name_ar": "Balqees",
+      "name_en": "Balqees",
+      "brand": "Dkhoon Emirates",
+      "dupe_of": [],
+      "image": "images/balqees.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-08-05"
+            }
+          ],
+          "image": "images/balqees--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/balqees"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "desire-collection-set",
+      "name_ar": "Desire Collection Set",
+      "name_en": "Desire Collection Set",
+      "brand": "Dkhoni",
+      "dupe_of": [],
+      "image": "images/desire-collection-set.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 320,
+              "price": 3450,
+              "first_seen": "2026-08-05"
+            }
+          ],
+          "image": "images/desire-collection-set--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/desire-collection-set"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "casa-collection-set",
+      "name_ar": "Casa Collection Set",
+      "name_en": "Casa Collection Set",
+      "brand": "Dkhoni",
+      "dupe_of": [],
+      "image": "images/casa-collection-set.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 320,
+              "price": 3450,
+              "first_seen": "2026-08-05"
+            }
+          ],
+          "image": "images/casa-collection-set--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/casa-collection-set"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "force-collection-set",
+      "name_ar": "Force Collection Set",
+      "name_en": "Force Collection Set",
+      "brand": "Dkhoni",
+      "dupe_of": [],
+      "image": "images/force-collection-set.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 320,
+              "price": 3450,
+              "first_seen": "2026-08-05"
+            }
+          ],
+          "image": "images/force-collection-set--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/force-collection-set"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "legacy-collection-set",
+      "name_ar": "Legacy Collection Set",
+      "name_en": "Legacy Collection Set",
+      "brand": "Dkhoni",
+      "dupe_of": [],
+      "image": "images/legacy-collection-set.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 320,
+              "price": 3450,
+              "first_seen": "2026-08-05"
+            }
+          ],
+          "image": "images/legacy-collection-set--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/legacy-collection-set"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "jota-collection-set",
+      "name_ar": "Jota Collection Set",
+      "name_en": "Jota Collection Set",
+      "brand": "Dkhoni",
+      "dupe_of": [],
+      "image": "images/jota-collection-set.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 320,
+              "price": 3450,
+              "first_seen": "2026-08-05"
+            }
+          ],
+          "image": "images/jota-collection-set--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/jota-collection"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "master-bundle",
+      "name_ar": "Master Bundle",
+      "name_en": "Master Bundle",
+      "brand": "Dkhoni",
+      "dupe_of": [],
+      "image": "images/master-bundle.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 3750,
+              "first_seen": "2026-08-05"
+            }
+          ],
+          "image": "images/master-bundle--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/master-bundle"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "alhilal-37",
+      "name_ar": "Alhilal 37",
+      "name_en": "Alhilal 37",
+      "brand": "Dkhoni",
+      "dupe_of": [],
+      "image": "images/alhilal-37.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-08-05"
+            }
+          ],
+          "image": "images/alhilal-37--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/alhilal-37"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "alhilal-9",
+      "name_ar": "Alhilal 9",
+      "name_en": "Alhilal 9",
+      "brand": "Dkhoni",
+      "dupe_of": [],
+      "image": "images/alhilal-9.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-08-05"
+            }
+          ],
+          "image": "images/alhilal-9--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/alhilal-9"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "riyadh",
+      "name_ar": "Riyadh",
+      "name_en": "Riyadh",
+      "brand": "Dkhoni",
+      "dupe_of": [],
+      "image": "images/riyadh.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-08-05"
+            }
+          ],
+          "image": "images/riyadh--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/riyadh"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "blue-dkhoon",
+      "name_ar": "Blue Dkhoon",
+      "name_en": "Blue Dkhoon",
+      "brand": "Dkhoni",
+      "dupe_of": [],
+      "image": "images/blue-dkhoon.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-08-05"
+            }
+          ],
+          "image": "images/blue-dkhoon--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/blue-dkhoon"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "muscat-dkhoni",
+      "name_ar": "Muscat",
+      "name_en": "Muscat",
+      "brand": "Dkhoni",
+      "dupe_of": [],
+      "image": "images/muscat-dkhoni.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-08-05"
+            }
+          ],
+          "image": "images/muscat-dkhoni--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/muscat"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "special-musk-by-dkhoon",
+      "name_ar": "Special Musk By Dkhoon",
+      "name_en": "Special Musk By Dkhoon",
+      "brand": "Dkhoni",
+      "dupe_of": [],
+      "image": "images/special-musk-by-dkhoon.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-08-05"
+            }
+          ],
+          "image": "images/special-musk-by-dkhoon--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/special-musk-by-dkhoon"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "dkhoon-velvet",
+      "name_ar": "Dkhoon Velvet",
+      "name_en": "Dkhoon Velvet",
+      "brand": "Dkhoni",
+      "dupe_of": [],
+      "image": "images/dkhoon-velvet.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-08-05"
+            }
+          ],
+          "image": "images/dkhoon-velvet--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/dkhoon-velvet"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "dubai",
+      "name_ar": "Dubai",
+      "name_en": "Dubai",
+      "brand": "Dkhoni",
+      "dupe_of": [],
+      "image": "images/dubai.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-08-05"
+            }
+          ],
+          "image": "images/dubai--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/dubai-by-dkhoni"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
