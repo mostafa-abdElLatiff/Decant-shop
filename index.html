@@ -1950,7 +1950,8 @@ function buildMessage(filterStoreName, {plain=false}={}){
       const { p, o } = line;
       const lineTotal = o.price * c.qty;
       const qtyTag = c.qty > 1 ? ` × ${c.qty}` : "";
-      return `${pname(p, "en")} - ${offerLabel(o, "en")}${qtyTag} - ${lineTotal}`;
+      const fullName = p.brand ? `${p.brand} ${pname(p, "en")}` : pname(p, "en");
+      return `${fullName} - ${offerLabel(o, "en")}${qtyTag} - ${lineTotal}`;
     });
     msg += plain
       ? `${lines.join("\n")}\n${I18N.en.total}: ${total}\n\n`

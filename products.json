@@ -13166,7 +13166,6 @@
               "kind": "decant",
               "ml": 10,
               "price": 260,
-              "note": "dupe of Ambassador Men (Gisada)",
               "first_seen": "2026-08-06"
             }
           ],
@@ -28063,9 +28062,38 @@
           ],
           "image": "images/carlisle--abo-anas-sayed.jpg",
           "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 450,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 850,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 1400,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/pdm-carlisle--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/pdm-carlisle"
         }
       ],
-      "_hero_source": "Abo Anas Sayed"
+      "_hero_source": "Abo Anas Sayed",
+      "aliases": [
+        "Pdm Carlisle"
+      ]
     },
     {
       "id": "carnal-desire",
@@ -48912,19 +48940,7 @@
           ],
           "image": "images/eros-energy-eau-de-parfum--abo-anas-sayed.jpg",
           "product_url": "https://www.facebook.com/groups/756846691875916/posts/2124739308419974"
-        }
-      ],
-      "_hero_source": "feel22"
-    },
-    {
-      "id": "eros-energy-pour-homme-natural-spray",
-      "name_ar": "",
-      "name_en": "Eros Energy Pour Homme Natural Spray",
-      "brand": "Versace",
-      "dupe_of": [],
-      "image": "images/eros-energy-pour-homme-natural-spray.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -48952,7 +48968,10 @@
           "product_url": "https://www.faces.eg/en/p/versace-eros-energy-pour-homme-natural-spray-eau-de-parfum-pm033317338370.html"
         }
       ],
-      "_hero_source": "faces"
+      "_hero_source": "feel22",
+      "aliases": [
+        "Eros Energy Pour Homme Natural Spray"
+      ]
     },
     {
       "id": "eros-energy-set",
@@ -74360,7 +74379,9 @@
       "name_ar": "",
       "name_en": "Peace",
       "brand": "Iven",
-      "dupe_of": [],
+      "dupe_of": [
+        "Decision — Amouage"
+      ],
       "image": "images/iven-peace.jpg",
       "accords": [],
       "stores": [
@@ -74494,7 +74515,6 @@
               "kind": "decant",
               "ml": 10,
               "price": 300,
-              "note": "dupe of Decision (Amouage)",
               "first_seen": "2026-08-06"
             }
           ],
@@ -90471,7 +90491,8 @@
       "name_en": "Leo",
       "brand": "French avenue",
       "dupe_of": [
-        "Opus 1144 Filippo Sorcinelli"
+        "Opus 1144 Filippo Sorcinelli",
+        "Bois d'Argent — Dior"
       ],
       "image": "images/leo.jpg",
       "accords": [
@@ -90583,7 +90604,6 @@
               "kind": "leftover",
               "ml": 40,
               "price": 850,
-              "note": "dupe of Bois d'Argent (Dior)",
               "first_seen": "2026-08-06"
             }
           ],
@@ -101140,7 +101160,9 @@
       "name_ar": "Mood",
       "name_en": "Mood",
       "brand": "Iven",
-      "dupe_of": [],
+      "dupe_of": [
+        "Vibrato — Sospiro"
+      ],
       "image": "images/mood.jpg",
       "accords": [],
       "stores": [
@@ -101186,7 +101208,6 @@
               "kind": "decant",
               "ml": 10,
               "price": 290,
-              "note": "dupe of Vibrato (Sospiro)",
               "first_seen": "2026-08-06"
             }
           ],
@@ -119269,44 +119290,6 @@
       "_hero_source": "mazaya"
     },
     {
-      "id": "pdm-carlisle",
-      "name_ar": "Pdm Carlisle",
-      "name_en": "Pdm Carlisle",
-      "brand": "Parfum De Marly",
-      "dupe_of": [],
-      "image": "images/pdm-carlisle.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 450,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 850,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 1400,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/pdm-carlisle--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/pdm-carlisle"
-        }
-      ],
-      "_hero_source": "perfuzone"
-    },
-    {
       "id": "pdm-greenley-edp",
       "name_ar": "Pdm Greenley EDP",
       "name_en": "Pdm Greenley EDP",
@@ -127010,7 +126993,9 @@
       "name_ar": "Raad Matin Martin",
       "name_en": "Raad Matin Martin",
       "brand": "Matin Martin",
-      "dupe_of": [],
+      "dupe_of": [
+        "The One Luminous Night — Dolce & Gabbana"
+      ],
       "image": "images/raad-matin-martin.jpg",
       "accords": [],
       "stores": [
@@ -127048,7 +127033,6 @@
               "kind": "decant",
               "ml": 10,
               "price": 300,
-              "note": "dupe of The One Luminous Night (Dolce & Gabbana)",
               "first_seen": "2026-08-06"
             }
           ],
@@ -131151,7 +131135,9 @@
       "name_ar": "Ripple",
       "name_en": "Ripple",
       "brand": "French Avenue",
-      "dupe_of": [],
+      "dupe_of": [
+        "Y Elixir — Yves Saint Laurent"
+      ],
       "image": "images/ripple.jpg",
       "accords": [],
       "stores": [
@@ -131242,7 +131228,6 @@
               "kind": "leftover",
               "ml": 50,
               "price": 1150,
-              "note": "dupe of Y Elixir (Yves Saint Laurent)",
               "first_seen": "2026-08-06"
             }
           ],
@@ -133307,7 +133292,6 @@
               "kind": "leftover",
               "ml": 45,
               "price": 1035,
-              "note": "dupe of Tales from Zanzibar (Memoirs of a Perfume Collector)",
               "first_seen": "2026-08-06"
             }
           ],
@@ -134178,21 +134162,6 @@
           ],
           "image": "images/sauvage--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/dior-sauvage"
-        },
-        {
-          "name": "Ahmed Abdel Kareem",
-          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 550,
-              "note": "Parfum",
-              "first_seen": "2026-08-06"
-            }
-          ],
-          "image": "images/sauvage--ahmed-abdel-kareem.jpg",
-          "product_url": "https://www.facebook.com/groups/110919302115466/posts/1148294715044581"
         }
       ],
       "_hero_source": "sniffz"
@@ -146005,7 +145974,9 @@
       "name_ar": "Sun Kissed",
       "name_en": "Sun Kissed",
       "brand": "Aromatix X French Avenue",
-      "dupe_of": [],
+      "dupe_of": [
+        "Never-ending Summer — Maison Martin Margiela"
+      ],
       "image": "images/sun-kissed.jpg",
       "accords": [],
       "stores": [
@@ -146109,7 +146080,6 @@
               "kind": "leftover",
               "ml": 45,
               "price": 1170,
-              "note": "dupe of Never-ending Summer (Maison Martin Margiela)",
               "first_seen": "2026-08-06"
             }
           ],
@@ -165387,6 +165357,21 @@
           ],
           "image": "images/y-eau-de-toilette--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/ysl-y-eau-de-toilette-PM_YVES_SAINT_LAURENT_New_Y_EDP.html"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 490,
+              "note": "new 2026 batch",
+              "first_seen": "2026-08-06"
+            }
+          ],
+          "image": "images/y-eau-de-toilette--ahmed-abdel-kareem.jpg",
+          "product_url": "https://www.facebook.com/groups/110919302115466/posts/1148294715044581"
         }
       ],
       "_hero_source": "feel22"
@@ -167210,7 +167195,10 @@
       "name_ar": "First Impression Ghalati",
       "name_en": "First Impression Ghalati",
       "brand": "",
-      "dupe_of": [],
+      "dupe_of": [
+        "Blue Talisman — Ex Nihilo",
+        "Pacific Chill — Louis Vuitton"
+      ],
       "image": "images/first-impression-ghalati.jpg",
       "accords": [],
       "stores": [
@@ -167237,7 +167225,6 @@
               "kind": "decant",
               "ml": 10,
               "price": 230,
-              "note": "dupe of Blue Talisman (Ex Nihilo) & Pacific Chill (Louis Vuitton)",
               "first_seen": "2026-08-06"
             }
           ],
@@ -169639,32 +169626,6 @@
       ]
     },
     {
-      "id": "y",
-      "name_en": "Y",
-      "name_ar": "",
-      "brand": "YSL",
-      "image": "images/y--ahmed-abdel-kareem.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Ahmed Abdel Kareem",
-          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 450,
-              "note": "Le Parfum",
-              "first_seen": "2026-08-06",
-              "prev_price": 490
-            }
-          ],
-          "image": "images/y--ahmed-abdel-kareem.jpg",
-          "product_url": "https://www.facebook.com/groups/110919302115466/posts/1148294715044581"
-        }
-      ]
-    },
-    {
       "id": "ambre-samar",
       "name_en": "Ambre Samar",
       "name_ar": "",
@@ -171066,13 +171027,15 @@
               "kind": "decant",
               "ml": 10,
               "price": 320,
-              "note": "dupe of Prada L'Homme",
               "first_seen": "2026-08-06"
             }
           ],
           "image": "images/paradox-west-world--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/978216181946409/"
         }
+      ],
+      "dupe_of": [
+        "L'Homme — Prada"
       ]
     },
     {
@@ -171091,13 +171054,15 @@
               "kind": "decant",
               "ml": 10,
               "price": 275,
-              "note": "dupe of Soie Malaquais (Dries Van Noten)",
               "first_seen": "2026-08-06"
             }
           ],
           "image": "images/hidden-answer--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/978216181946409/"
         }
+      ],
+      "dupe_of": [
+        "Soie Malaquais — Dries Van Noten"
       ]
     },
     {
@@ -171116,13 +171081,15 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "note": "dupe of XJ 1861 Naxos (Xerjoff)",
               "first_seen": "2026-08-06"
             }
           ],
           "image": "images/ateeq--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/978216181946409/"
         }
+      ],
+      "dupe_of": [
+        "XJ 1861 Naxos — Xerjoff"
       ]
     },
     {
@@ -171166,7 +171133,6 @@
               "kind": "decant",
               "ml": 10,
               "price": 260,
-              "note": "dupe of a Lorenzo Pazzaglia fragrance",
               "first_seen": "2026-08-06"
             }
           ],
@@ -171191,13 +171157,15 @@
               "kind": "decant",
               "ml": 10,
               "price": 290,
-              "note": "dupe of L'Homme Idéal Cologne (Guerlain)",
               "first_seen": "2026-08-06"
             }
           ],
           "image": "images/cool-mist--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/972012672566760/"
         }
+      ],
+      "dupe_of": [
+        "L'Homme Idéal Cologne — Guerlain"
       ]
     },
     {
@@ -171216,13 +171184,15 @@
               "kind": "decant",
               "ml": 10,
               "price": 290,
-              "note": "dupe of Reflection Man (Amouage)",
               "first_seen": "2026-08-06"
             }
           ],
           "image": "images/cnidaria-x--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/972012672566760/"
         }
+      ],
+      "dupe_of": [
+        "Reflection Man — Amouage"
       ]
     },
     {
@@ -171241,13 +171211,15 @@
               "kind": "decant",
               "ml": 10,
               "price": 320,
-              "note": "dupe of Elysium Pour Homme Parfum (Roja Dove)",
               "first_seen": "2026-08-06"
             }
           ],
           "image": "images/torando--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/972012672566760/"
         }
+      ],
+      "dupe_of": [
+        "Elysium Pour Homme Parfum — Roja Dove"
       ]
     },
     {
@@ -171266,13 +171238,15 @@
               "kind": "decant",
               "ml": 10,
               "price": 280,
-              "note": "dupe of L'Immensité (Louis Vuitton)",
               "first_seen": "2026-08-06"
             }
           ],
           "image": "images/checkmate--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/972012672566760/"
         }
+      ],
+      "dupe_of": [
+        "L'Immensité — Louis Vuitton"
       ]
     },
     {
@@ -171291,13 +171265,15 @@
               "kind": "decant",
               "ml": 10,
               "price": 280,
-              "note": "dupe of Wulong Cha (Nishane)",
               "first_seen": "2026-08-06"
             }
           ],
           "image": "images/chunmee-tea--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/972012672566760/"
         }
+      ],
+      "dupe_of": [
+        "Wulong Cha — Nishane"
       ]
     },
     {
@@ -171316,20 +171292,21 @@
               "kind": "decant",
               "ml": 10,
               "price": 280,
-              "note": "dupe of Wanderlust (Omanluxury)",
               "first_seen": "2026-08-06"
             },
             {
               "kind": "leftover",
               "ml": 55,
               "price": 1595,
-              "note": "dupe of Wanderlust (Omanluxury)",
               "first_seen": "2026-08-06"
             }
           ],
           "image": "images/kiss-sea-ficus-carica--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/976424265458934/"
         }
+      ],
+      "dupe_of": [
+        "Wanderlust — Omanluxury"
       ]
     },
     {
@@ -171348,13 +171325,15 @@
               "kind": "decant",
               "ml": 10,
               "price": 275,
-              "note": "dupe of Blue Talisman Extrait de Parfum (Ex Nihilo)",
               "first_seen": "2026-08-06"
             }
           ],
           "image": "images/canaria--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/972012672566760/"
         }
+      ],
+      "dupe_of": [
+        "Blue Talisman Extrait de Parfum — Ex Nihilo"
       ]
     },
     {
@@ -171373,13 +171352,15 @@
               "kind": "decant",
               "ml": 10,
               "price": 250,
-              "note": "dupe of Castley (Parfums de Marly)",
               "first_seen": "2026-08-06"
             }
           ],
           "image": "images/leader--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/972012672566760/"
         }
+      ],
+      "dupe_of": [
+        "Castley — Parfums de Marly"
       ]
     },
     {
@@ -171398,13 +171379,15 @@
               "kind": "decant",
               "ml": 10,
               "price": 250,
-              "note": "dupe of Torino 21 (Xerjoff)",
               "first_seen": "2026-08-06"
             }
           ],
           "image": "images/marino--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/972012672566760/"
         }
+      ],
+      "dupe_of": [
+        "Torino 21 — Xerjoff"
       ]
     },
     {
@@ -171423,13 +171406,15 @@
               "kind": "decant",
               "ml": 10,
               "price": 290,
-              "note": "dupe of Gentle Fluidity Silver (Maison Francis Kurkdjian)",
               "first_seen": "2026-08-06"
             }
           ],
           "image": "images/verno--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/972012672566760/"
         }
+      ],
+      "dupe_of": [
+        "Gentle Fluidity Silver — Maison Francis Kurkdjian"
       ]
     },
     {
@@ -171448,20 +171433,21 @@
               "kind": "decant",
               "ml": 10,
               "price": 290,
-              "note": "dupe of Guidance 46 (Amouage)",
               "first_seen": "2026-08-06"
             },
             {
               "kind": "leftover",
               "ml": 60,
               "price": 1700,
-              "note": "dupe of Guidance 46 (Amouage)",
               "first_seen": "2026-08-06"
             }
           ],
           "image": "images/storia--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/976424265458934/"
         }
+      ],
+      "dupe_of": [
+        "Guidance 46 — Amouage"
       ]
     },
     {
@@ -171480,13 +171466,15 @@
               "kind": "decant",
               "ml": 10,
               "price": 290,
-              "note": "dupe of Purpose (Amouage)",
               "first_seen": "2026-08-06"
             }
           ],
           "image": "images/sarh--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/972012672566760/"
         }
+      ],
+      "dupe_of": [
+        "Purpose — Amouage"
       ]
     },
     {
@@ -171505,13 +171493,15 @@
               "kind": "decant",
               "ml": 10,
               "price": 250,
-              "note": "dupe of Stronger With You Intensely (Emporio Armani)",
               "first_seen": "2026-08-06"
             }
           ],
           "image": "images/because-of-you--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/972012672566760/"
         }
+      ],
+      "dupe_of": [
+        "Stronger With You Intensely — Emporio Armani"
       ]
     },
     {
@@ -171578,13 +171568,15 @@
               "kind": "decant",
               "ml": 10,
               "price": 290,
-              "note": "dupe of Tilia (Marc-Antoine Barrois)",
               "first_seen": "2026-08-06"
             }
           ],
           "image": "images/pick-me--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/972012672566760/"
         }
+      ],
+      "dupe_of": [
+        "Tilia — Marc-Antoine Barrois"
       ]
     },
     {
@@ -171603,7 +171595,6 @@
               "kind": "decant",
               "ml": 10,
               "price": 290,
-              "note": "dupe of a Lorenzo Pazzaglia fragrance",
               "first_seen": "2026-08-06"
             }
           ],
@@ -171628,13 +171619,15 @@
               "kind": "decant",
               "ml": 10,
               "price": 275,
-              "note": "dupe of Flamenco (Ramon Monegal)",
               "first_seen": "2026-08-06"
             }
           ],
           "image": "images/tenderness--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/972012672566760/"
         }
+      ],
+      "dupe_of": [
+        "Flamenco — Ramon Monegal"
       ]
     },
     {
@@ -171653,13 +171646,15 @@
               "kind": "decant",
               "ml": 10,
               "price": 275,
-              "note": "dupe of Portrait of a Lady (Frederic Malle)",
               "first_seen": "2026-08-06"
             }
           ],
           "image": "images/violin--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/972012672566760/"
         }
+      ],
+      "dupe_of": [
+        "Portrait of a Lady — Frederic Malle"
       ]
     },
     {
@@ -171678,13 +171673,15 @@
               "kind": "leftover",
               "ml": 50,
               "price": 850,
-              "note": "dupe of MYSLF (YSL)",
               "first_seen": "2026-08-06"
             }
           ],
           "image": "images/champion-g-o-a-t--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/976424265458934/"
         }
+      ],
+      "dupe_of": [
+        "MYSLF — YSL"
       ]
     },
     {
@@ -171703,13 +171700,15 @@
               "kind": "leftover",
               "ml": 60,
               "price": 1350,
-              "note": "dupe of Aventus (Creed)",
               "first_seen": "2026-08-06"
             }
           ],
           "image": "images/royale--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/976424265458934/"
         }
+      ],
+      "dupe_of": [
+        "Aventus — Creed"
       ]
     },
     {
@@ -171728,13 +171727,16 @@
               "kind": "leftover",
               "ml": 40,
               "price": 700,
-              "note": "dupe of Absolu Aventus (Creed) & Eros (Versace)",
               "first_seen": "2026-08-06"
             }
           ],
           "image": "images/champion-sugar--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/976424265458934/"
         }
+      ],
+      "dupe_of": [
+        "Absolu Aventus — Creed",
+        "Eros — Versace"
       ]
     },
     {
@@ -171801,13 +171803,15 @@
               "kind": "leftover",
               "ml": 20,
               "price": 550,
-              "note": "dupe of The One (Dolce & Gabbana)",
               "first_seen": "2026-08-06"
             }
           ],
           "image": "images/the-one-battal--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/976424265458934/"
         }
+      ],
+      "dupe_of": [
+        "The One — Dolce & Gabbana"
       ]
     },
     {
@@ -171826,13 +171830,15 @@
               "kind": "leftover",
               "ml": 65,
               "price": 1300,
-              "note": "dupe of Matsukita (Clive Christian)",
               "first_seen": "2026-08-06"
             }
           ],
           "image": "images/matsukita--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/976424265458934/"
         }
+      ],
+      "dupe_of": [
+        "Matsukita — Clive Christian"
       ]
     },
     {
@@ -171851,13 +171857,15 @@
               "kind": "leftover",
               "ml": 70,
               "price": 1400,
-              "note": "dupe of L'Eau d'Issey (Issey Miyake)",
               "first_seen": "2026-08-06"
             }
           ],
           "image": "images/le-sel-d-issy-men--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/976424265458934/"
         }
+      ],
+      "dupe_of": [
+        "L'Eau d'Issey — Issey Miyake"
       ]
     },
     {
@@ -171876,13 +171884,15 @@
               "kind": "leftover",
               "ml": 20,
               "price": 550,
-              "note": "dupe of Purpose 50 (Amouage)",
               "first_seen": "2026-08-06"
             }
           ],
           "image": "images/purpose-50-battal--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/976424265458934/"
         }
+      ],
+      "dupe_of": [
+        "Purpose 50 — Amouage"
       ]
     },
     {
