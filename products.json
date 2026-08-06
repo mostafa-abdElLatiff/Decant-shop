@@ -1576,22 +1576,7 @@
           ],
           "image": "images/9pm--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/9pm-50ml-%d9%86%d8%a7%d9%8a%d9%86-%d8%a8%d9%8a-%d8%a7%d9%85-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
-        }
-      ],
-      "_hero_source": "sniffz",
-      "aliases": [
-        "9Pm Eau de Parfum"
-      ]
-    },
-    {
-      "id": "9pm-edp-100-ml",
-      "name_ar": "",
-      "name_en": "9PM EDP",
-      "brand": "Afnan",
-      "dupe_of": [],
-      "image": "images/9pm-edp-100-ml.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "faces",
           "url": "https://www.faces.eg/en/perfume-for-men",
@@ -1607,9 +1592,11 @@
           "product_url": "https://www.faces.eg/en/p/afnan-9pm-edp-100-ml-eaudeparfum-578117105427.html"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "sniffz",
       "aliases": [
-        "9PM EDP 100 ML"
+        "9PM EDP",
+        "9PM EDP 100 ML",
+        "9Pm Eau de Parfum"
       ]
     },
     {
@@ -106746,8 +106733,8 @@
               "first_seen": "2026-07-30"
             }
           ],
-          "image": "images/no-5-floral-amber-sensual-musk--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
+          "image": "images/5--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
         },
         {
           "name": "Ahmed Abdel Kareem",
@@ -106766,8 +106753,8 @@
               "first_seen": "2026-08-01"
             }
           ],
-          "image": "images/no-5-floral-amber-sensual-musk--ahmed-abdel-kareem.jpg",
-          "product_url": "https://www.facebook.com/groups/110919302115466/posts/1148294715044581"
+          "image": "images/05-floral-amber-sensual-musk--ahmed-abdel-kareem.jpg",
+          "product_url": "https://www.facebook.com/groups/original.perfume.market/posts/27802400792778912"
         },
         {
           "name": "eldesoki-fragrances",
@@ -106787,7 +106774,10 @@
       ],
       "_hero_source": "sniffz",
       "aliases": [
+        "05 - Floral Amber Sensual Musk",
+        "5",
         "5 - Floral Amber Sensual Musk",
+        "N5 Floral Amber Sensual Musk",
         "No 5 Floral Amber Sensual Musk",
         "Rosendo Mateu N 5"
       ]
@@ -129345,31 +129335,6 @@
       "_hero_source": "og-perfume"
     },
     {
-      "id": "reflection",
-      "name_ar": "Reflection",
-      "name_en": "Reflection",
-      "brand": "Amouage",
-      "dupe_of": [],
-      "image": "images/reflection.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": "as-shown",
-              "price": 14900,
-              "first_seen": "2026-07-30"
-            }
-          ],
-          "image": "images/reflection--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "Abo Anas Sayed"
-    },
-    {
       "id": "reflection-45-man",
       "name_ar": "Reflection 45 Man",
       "name_en": "Reflection 45 Man",
@@ -129554,10 +129519,13 @@
               "first_seen": "2026-08-01"
             }
           ],
-          "image": "images/reflection-man--abo-anas-sayed.jpg"
+          "image": "images/reflection--abo-anas-sayed.jpg"
         }
       ],
-      "_hero_source": "emaratiscents"
+      "_hero_source": "emaratiscents",
+      "aliases": [
+        "Reflection"
+      ]
     },
     {
       "id": "reflection-mykonos",
@@ -153307,11 +153275,13 @@
               "tester": true
             }
           ],
-          "image": "images/torino23-tester--abo-anas-sayed.jpg"
+          "image": "images/torino23--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
         }
       ],
       "_hero_source": "Mohamed Mohie",
       "aliases": [
+        "Torino23",
         "Torino23 Tester"
       ]
     },
@@ -169707,30 +169677,6 @@
       ]
     },
     {
-      "id": "n5-floral-amber-sensual-musk",
-      "name_en": "N5 Floral Amber Sensual Musk",
-      "name_ar": "",
-      "brand": "Rosendo Mateu",
-      "image": "images/n5-floral-amber-sensual-musk--ahmed-abdel-kareem.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Ahmed Abdel Kareem",
-          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 450,
-              "first_seen": "2026-08-06"
-            }
-          ],
-          "image": "images/n5-floral-amber-sensual-musk--ahmed-abdel-kareem.jpg",
-          "product_url": "https://www.facebook.com/groups/original.perfume.market/posts/27840973102255014"
-        }
-      ]
-    },
-    {
       "id": "pure-jasmine-million-gold",
       "name_en": "Pure Jasmine (Million Gold)",
       "name_ar": "",
@@ -169961,30 +169907,6 @@
             }
           ],
           "image": "images/her-parfum--ahmed-abdel-kareem.jpg",
-          "product_url": "https://www.facebook.com/groups/original.perfume.market/posts/27802400792778912"
-        }
-      ]
-    },
-    {
-      "id": "05-floral-amber-sensual-musk",
-      "name_en": "05 - Floral Amber Sensual Musk",
-      "name_ar": "",
-      "brand": "Rosendo Mateu",
-      "image": "images/05-floral-amber-sensual-musk--ahmed-abdel-kareem.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Ahmed Abdel Kareem",
-          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 450,
-              "first_seen": "2026-08-06"
-            }
-          ],
-          "image": "images/05-floral-amber-sensual-musk--ahmed-abdel-kareem.jpg",
           "product_url": "https://www.facebook.com/groups/original.perfume.market/posts/27802400792778912"
         }
       ]
@@ -170500,31 +170422,6 @@
             }
           ],
           "image": "images/cruz-del-sur-ii--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
-        }
-      ]
-    },
-    {
-      "id": "torino23",
-      "name_en": "Torino23",
-      "name_ar": "",
-      "brand": "Xerjoff",
-      "image": "images/torino23--abo-anas-sayed.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 50,
-              "price": 6800,
-              "note": "tester not for sale; ATP line",
-              "first_seen": "2026-08-06"
-            }
-          ],
-          "image": "images/torino23--abo-anas-sayed.jpg",
           "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
         }
       ]
@@ -171631,31 +171528,6 @@
             }
           ],
           "image": "images/naxos-1861--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
-        }
-      ]
-    },
-    {
-      "id": "5",
-      "name_en": "5",
-      "name_ar": "",
-      "brand": "Rosendo Mateu",
-      "image": "images/5--abo-anas-sayed.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 4700,
-              "note": "Olfactive Expressions Barcelona",
-              "first_seen": "2026-08-06"
-            }
-          ],
-          "image": "images/5--abo-anas-sayed.jpg",
           "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
         }
       ]
