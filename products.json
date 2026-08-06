@@ -37936,10 +37936,24 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 4015,
+              "first_seen": "2026-08-06",
+              "sold_since": "2026-08-06"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 4850,
               "first_seen": "2026-07-23",
               "prev_price": 5850
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 7355,
+              "first_seen": "2026-08-06",
+              "sold_since": "2026-08-06"
             }
           ],
           "image": "images/defy-parfum--mazaya.jpg",
@@ -111874,6 +111888,13 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 13650,
+              "first_seen": "2026-08-06",
+              "sold_since": "2026-08-06"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 21150,
               "first_seen": "2026-08-06",
@@ -115501,6 +115522,13 @@
           "name": "mazaya",
           "url": "https://mazaya.eg/",
           "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 12750,
+              "first_seen": "2026-08-06",
+              "sold_since": "2026-08-06"
+            },
             {
               "kind": "full",
               "ml": 100,
@@ -120539,6 +120567,13 @@
               "kind": "full",
               "ml": 75,
               "price": 4785,
+              "first_seen": "2026-08-06",
+              "sold_since": "2026-08-06"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 5900,
               "first_seen": "2026-08-06",
               "sold_since": "2026-08-06"
             }
@@ -147808,6 +147843,13 @@
               "price": 12850,
               "first_seen": "2026-07-31",
               "sold_since": "2026-07-31"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 18500,
+              "first_seen": "2026-08-06",
+              "sold_since": "2026-08-06"
             }
           ],
           "image": "images/the-hedonist--mazaya.jpg",
