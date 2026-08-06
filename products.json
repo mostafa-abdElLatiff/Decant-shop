@@ -167011,6 +167011,38 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "encre-noir-sport",
+      "name_ar": "Encre Noir Sport",
+      "name_en": "Encre Noir Sport",
+      "brand": "Lalique",
+      "dupe_of": [],
+      "image": "images/encre-noir-sport.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 150,
+              "first_seen": "2026-08-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 250,
+              "first_seen": "2026-08-06"
+            }
+          ],
+          "image": "images/encre-noir-sport--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/untitled-aug6_04-56-26"
+        }
+      ],
+      "_hero_source": "perfuzone"
     }
   ]
 }
