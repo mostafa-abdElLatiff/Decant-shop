@@ -54,10 +54,26 @@
           ],
           "image": "images/1-million-edt--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/paco-rabanne-1-million-for-men-eau-de-toilette-100ml"
+        },
+        {
+          "name": "Ahmed Abdel Kareem",
+          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 500,
+              "first_seen": "2026-08-06",
+              "note": "Original travel-size bottle (not a hand-filled decant)"
+            }
+          ],
+          "image": "images/1-million--ahmed-abdel-kareem.jpg",
+          "product_url": "https://www.facebook.com/groups/original.perfume.market/posts/27840973102255014"
         }
       ],
       "_hero_source": "MO Shawky",
       "aliases": [
+        "1 Million",
         "1 Million Eau De Toilette"
       ]
     },
@@ -824,8 +840,8 @@
               "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/212-vip-ros-love-ny-women--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ch-212-vip-rose-love-ny-women-10ml-376"
+          "image": "images/212-vip-ros-love-ny-women-ch--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ch-212-vip-rose-love-ny-women-5ml-377"
         }
       ],
       "_hero_source": "MO Shawky",
@@ -5483,38 +5499,6 @@
       "_hero_source": "og-perfume"
     },
     {
-      "id": "al-haramain-imagine-dubai",
-      "name_ar": "Al Haramain Imagine Dubai",
-      "name_en": "Al Haramain Imagine Dubai",
-      "brand": "Al Haramain",
-      "dupe_of": [],
-      "image": "images/al-haramain-imagine-dubai.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 330,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 3000,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/al-haramain-imagine-dubai--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/al-haramain-imagine-dubai"
-        }
-      ],
-      "_hero_source": "og-perfume"
-    },
-    {
       "id": "al-hilal-9",
       "name_ar": "الهلال٩ ١٠ملي",
       "name_en": "Al Hilal 9",
@@ -6799,9 +6783,26 @@
           ],
           "image": "images/alhilal-9-dkhoon--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/alhilal-9-dkhoon-emirates-%d8%a7%d9%84%d9%87%d9%84%d8%a7%d9%84-%d9%a9-%d9%85%d9%86-%d8%af%d8%ae%d9%88%d9%86-%d8%a7%d9%84%d8%a7%d9%8a%d9%85%d8%a7%d8%b1%d8%a7%d8%aa%d9%8a%d8%a9/"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-08-05"
+            }
+          ],
+          "image": "images/alhilal-9--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/alhilal-9"
         }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "eldesoki-fragrances",
+      "aliases": [
+        "Alhilal 9"
+      ]
     },
     {
       "id": "alien",
@@ -18566,10 +18567,16 @@
               "ml": 100,
               "price": 1290,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2100,
+              "first_seen": "2026-08-05"
             }
           ],
-          "image": "images/badee-al-oud-amethyst--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/badee-al-oud-amethyst-by-lattafa"
+          "image": "images/badee-al-oud-amethyst-fusion--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/badee-al-oud-amethyst-fusion"
         },
         {
           "name": "perfuzone",
@@ -18609,6 +18616,7 @@
       ],
       "_hero_source": "emaratiscents",
       "aliases": [
+        "Badee Al Oud Amethyst Fusion",
         "Spray Badee Al Oud Amethyst"
       ]
     },
@@ -29083,7 +29091,8 @@
       "name_en": "Champion G.O.A.T",
       "brand": "Fragrance World",
       "dupe_of": [
-        "MYSLF Eau de Parfum — Yves Saint Laurent"
+        "MYSLF Eau de Parfum — Yves Saint Laurent",
+        "MYSLF — YSL"
       ],
       "image": "images/champion-g-o-a-t-fragrance-world.jpg",
       "accords": [
@@ -29156,6 +29165,20 @@
           ],
           "image": "images/champion-g-o-a-t-fragrance-world--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/champion-g-o-a-t-fragrance-world"
+        },
+        {
+          "name": "Hany Diab",
+          "url": "https://www.facebook.com/hany.diab.579736/",
+          "offers": [
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 850,
+              "first_seen": "2026-08-06"
+            }
+          ],
+          "image": "images/champion-g-o-a-t--hany-diab.jpg",
+          "product_url": "https://www.facebook.com/groups/363102686791098/posts/976424265458934/"
         }
       ],
       "_hero_source": "roseperfume"
@@ -51430,35 +51453,6 @@
       "_hero_source": "mazaya"
     },
     {
-      "id": "extrait-fleur-narcotique",
-      "name_ar": "Extrait Fleur Narcotique",
-      "name_en": "Extrait Fleur Narcotique",
-      "brand": "ExNihilo",
-      "dupe_of": [],
-      "image": "images/extrait-fleur-narcotique.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 23100,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/extrait-fleur-narcotique--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/extrait-fleur-narcotique-100-ml"
-        }
-      ],
-      "_hero_source": "mazaya",
-      "aliases": [
-        "Fleur Narcotique Extrait"
-      ]
-    },
-    {
       "id": "extrait-the-hedonist",
       "name_ar": "Extrait The Hedonist",
       "name_en": "Extrait The Hedonist",
@@ -60940,33 +60934,6 @@
           ],
           "image": "images/guess-amore-portofino-edt--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/gu-guess-amore-portofino-edt-100ml"
-        }
-      ],
-      "_hero_source": "mazaya"
-    },
-    {
-      "id": "guess-seductive-homme-edt",
-      "name_ar": "Guess Seductive Homme EDT",
-      "name_en": "Guess Seductive Homme EDT",
-      "brand": "Guess",
-      "dupe_of": [],
-      "image": "images/guess-seductive-homme-edt.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 3135,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
-            }
-          ],
-          "image": "images/guess-seductive-homme-edt--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/guess-seductive-homme-edt"
         }
       ],
       "_hero_source": "mazaya"
@@ -71914,31 +71881,6 @@
       "_hero_source": "mazaya"
     },
     {
-      "id": "interlude",
-      "name_ar": "Interlude",
-      "name_en": "Interlude",
-      "brand": "Amouage",
-      "dupe_of": [],
-      "image": "images/interlude.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": "as-shown",
-              "price": 14200,
-              "first_seen": "2026-07-30"
-            }
-          ],
-          "image": "images/interlude--abo-anas-sayed.jpg"
-        }
-      ],
-      "_hero_source": "Abo Anas Sayed"
-    },
-    {
       "id": "interlude-53-man",
       "name_ar": "Interlude 53 Man",
       "name_en": "Interlude 53 Man",
@@ -72102,11 +72044,12 @@
               "first_seen": "2026-08-01"
             }
           ],
-          "image": "images/interlude-man--abo-anas-sayed.jpg"
+          "image": "images/interlude--abo-anas-sayed.jpg"
         }
       ],
       "_hero_source": "emaratiscents",
       "aliases": [
+        "Interlude",
         "Interlude Man EDP"
       ]
     },
@@ -82055,7 +81998,8 @@
               "first_seen": "2026-08-01"
             }
           ],
-          "image": "images/l-eau-d-issey-pour-homme-eau-de-parfum--abo-anas-sayed.jpg"
+          "image": "images/l-eau-d-issey-pour-homme--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
         },
         {
           "name": "faces",
@@ -82098,7 +82042,10 @@
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/issey-miyake-l-eau-d-issey-pour-homme-edp-5ml-500"
         }
       ],
-      "_hero_source": "MO Shawky"
+      "_hero_source": "MO Shawky",
+      "aliases": [
+        "L'Eau D'Issey Pour Homme"
+      ]
     },
     {
       "id": "l-eau-d-issey-pour-homme-eau-de-toilette-200ml",
@@ -100670,59 +100617,6 @@
       "_hero_source": "Ahmed Abdel Kareem"
     },
     {
-      "id": "mon-vetiver",
-      "name_ar": "Mon Vetiver",
-      "name_en": "Mon Vetiver",
-      "brand": "Essential Parfums",
-      "dupe_of": [],
-      "image": "images/mon-vetiver.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 3700,
-              "note": "by Bruno Jovanovic",
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/mon-vetiver--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
-        },
-        {
-          "name": "MO Shawky",
-          "url": "https://www.facebook.com/mo.freeto.play/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 215,
-              "first_seen": "2026-08-03"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 295,
-              "first_seen": "2026-08-03"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 490,
-              "first_seen": "2026-08-03"
-            }
-          ],
-          "image": "images/mon-vetiver--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-mon-vetiver-3ml-496"
-        }
-      ],
-      "_hero_source": "MO Shawky"
-    },
-    {
       "id": "monaco-royale",
       "name_ar": "Monaco Royale",
       "name_en": "Monaco Royale",
@@ -104050,59 +103944,6 @@
         }
       ],
       "_hero_source": "perfuzone"
-    },
-    {
-      "id": "n-roli-botanica",
-      "name_ar": "",
-      "name_en": "Néroli Botanica",
-      "brand": "Essential Parfums",
-      "dupe_of": [],
-      "image": "images/n-roli-botanica.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "MO Shawky",
-          "url": "https://www.facebook.com/mo.freeto.play/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 185,
-              "first_seen": "2026-07-17"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 275,
-              "first_seen": "2026-07-17"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 485,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/n-roli-botanica--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-neroli-botanica-3ml-478"
-        },
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 3900,
-              "note": "by Anne Flipo",
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/n-roli-botanica--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
-        }
-      ],
-      "_hero_source": "MO Shawky"
     },
     {
       "id": "n-roli-plein-sud",
@@ -112147,9 +111988,12 @@
               "first_seen": "2026-08-01"
             }
           ],
-          "image": "images/ombre-noire--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "image": "images/ombre-noire-pour-homme--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
         }
+      ],
+      "aliases": [
+        "Ombre Noire pour Homme"
       ]
     },
     {
@@ -121732,43 +121576,6 @@
       "_hero_source": "mazaya"
     },
     {
-      "id": "polo-red-man",
-      "name_ar": "Polo Red Man",
-      "name_en": "Polo Red Man",
-      "brand": "Ralph Lauren",
-      "dupe_of": [],
-      "image": "images/polo-red-man.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 75,
-              "price": 4785,
-              "first_seen": "2026-08-06",
-              "sold_since": "2026-08-06"
-            },
-            {
-              "kind": "full",
-              "ml": 125,
-              "price": 5900,
-              "first_seen": "2026-08-06",
-              "sold_since": "2026-08-06"
-            }
-          ],
-          "image": "images/polo-red-man--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/polo-red-man-75ml-fg-g"
-        }
-      ],
-      "_hero_source": "mazaya",
-      "aliases": [
-        "Polo Red Man EDP"
-      ]
-    },
-    {
       "id": "polo-red-rush-eau-de-toilette",
       "name_ar": "Polo Red Rush Eau De Toilette",
       "name_en": "Polo Red Rush Eau De Toilette",
@@ -123432,10 +123239,22 @@
               "ml": 100,
               "price": 1700,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-08-04"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 1050,
+              "first_seen": "2026-08-04"
             }
           ],
-          "image": "images/prime-26--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/prime-26-le-bonheur-100ml%d8%a8%d8%b1%d8%a7%d9%8a%d9%85-%d9%a2%d9%a6-%d9%85%d9%86-%d9%84%d8%a7%d8%a8%d9%88%d9%86%d9%8a%d8%b1-%d8%a7%d9%84%d9%85%d8%a7%d8%b3-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+          "image": "images/prime-26-almas--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/prime-26-50ml%d8%a8%d8%b1%d8%a7%d9%8a%d9%85-%d9%a2%d9%a6-%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d9%84%d9%85%d8%a7%d8%b3/"
         },
         {
           "name": "emaratiscents",
@@ -125072,35 +124891,6 @@
         }
       ],
       "_hero_source": "feel22"
-    },
-    {
-      "id": "pure-musc",
-      "name_ar": "",
-      "name_en": "Pure Musc",
-      "brand": "Narciso Rodriguez",
-      "dupe_of": [],
-      "image": "images/pure-musc.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "MO Shawky",
-          "url": "https://www.facebook.com/mo.freeto.play/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 185,
-              "first_seen": "2026-07-22"
-            }
-          ],
-          "image": "images/pure-musc--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/narciso-rodriguez-pure-musc-3ml-263"
-        }
-      ],
-      "_hero_source": "MO Shawky",
-      "aliases": [
-        "Pure Musc Blanc"
-      ]
     },
     {
       "id": "pure-musk",
@@ -132670,31 +132460,6 @@
       "_hero_source": "mazaya"
     },
     {
-      "id": "s-eau-de-parfum-intense-recharge-refill",
-      "name_ar": "Sì Eau de Parfum Intense Recharge Refill",
-      "name_en": "Sì Eau de Parfum Intense Recharge Refill",
-      "brand": "Giorgio Armani",
-      "dupe_of": [],
-      "image": "images/s-eau-de-parfum-intense-recharge-refill.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Ahmed Abdel Kareem",
-          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2800,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/s-eau-de-parfum-intense-recharge-refill--ahmed-abdel-kareem.jpg"
-        }
-      ],
-      "_hero_source": "Ahmed Abdel Kareem"
-    },
-    {
       "id": "saat-safa-al-rehab",
       "name_ar": "",
       "name_en": "Saat Safa Al-Rehab",
@@ -138409,10 +138174,14 @@
               "first_seen": "2026-08-01"
             }
           ],
-          "image": "images/shooting-stars-cruz-del-sur-ii--abo-anas-sayed.jpg"
+          "image": "images/cruz-del-sur-ii--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
         }
       ],
-      "_hero_source": "Abo Anas Sayed"
+      "_hero_source": "Abo Anas Sayed",
+      "aliases": [
+        "Cruz Del Sur II"
+      ]
     },
     {
       "id": "shooting-stars-uden",
@@ -149765,36 +149534,6 @@
       "_hero_source": "mazaya"
     },
     {
-      "id": "the-musc-tester",
-      "name_ar": "The Musc",
-      "name_en": "The Musc",
-      "brand": "Essential Parfums",
-      "dupe_of": [],
-      "image": "images/the-musc-tester.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 30,
-              "price": 5700,
-              "note": "by Calice Becker, Extrait de Parfum, tester",
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/the-musc-tester--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
-        }
-      ],
-      "_hero_source": "Abo Anas Sayed",
-      "aliases": [
-        "The Musc Tester"
-      ]
-    },
-    {
       "id": "the-one",
       "name_ar": "",
       "name_en": "The One",
@@ -157938,59 +157677,6 @@
         }
       ],
       "_hero_source": "dar.elarabia"
-    },
-    {
-      "id": "velvet-iris",
-      "name_ar": "",
-      "name_en": "Velvet Iris",
-      "brand": "Essential Parfums",
-      "dupe_of": [],
-      "image": "images/velvet-iris.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "MO Shawky",
-          "url": "https://www.facebook.com/mo.freeto.play/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 185,
-              "first_seen": "2026-07-17"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 275,
-              "first_seen": "2026-07-17"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 485,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/velvet-iris--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-velvet-iris-3ml-481"
-        },
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 3950,
-              "note": "by Dominique Ropion",
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/velvet-iris--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
-        }
-      ],
-      "_hero_source": "MO Shawky"
     },
     {
       "id": "velvet-musk",
@@ -166741,32 +166427,6 @@
       "_hero_source": "feel22"
     },
     {
-      "id": "212-vip-ros-love-ny-women-ch",
-      "name_ar": "",
-      "name_en": "212 VIP Rosé Love NY women",
-      "brand": "CH",
-      "dupe_of": [],
-      "image": "images/212-vip-ros-love-ny-women-ch.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "MO Shawky",
-          "url": "https://www.facebook.com/mo.freeto.play/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 285,
-              "first_seen": "2026-08-02"
-            }
-          ],
-          "image": "images/212-vip-ros-love-ny-women-ch--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ch-212-vip-rose-love-ny-women-5ml-377"
-        }
-      ],
-      "_hero_source": "MO Shawky"
-    },
-    {
       "id": "polo-red-eau-de-parfum",
       "name_ar": "Polo Red Eau de Parfum",
       "name_en": "Polo Red Eau de Parfum",
@@ -166794,9 +166454,35 @@
           ],
           "image": "images/polo-red-eau-de-parfum--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/polo-ralph-lauren-red-eau-de-parfum"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 4785,
+              "first_seen": "2026-08-06",
+              "sold_since": "2026-08-06"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 5900,
+              "first_seen": "2026-08-06",
+              "sold_since": "2026-08-06"
+            }
+          ],
+          "image": "images/polo-red-man--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/polo-red-man-75ml-fg-g"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "feel22",
+      "aliases": [
+        "Polo Red Man",
+        "Polo Red Man EDP"
+      ]
     },
     {
       "id": "blue-talisman",
@@ -167268,7 +166954,24 @@
           ],
           "image": "images/fleur-narcotique-extrait--mohamed-mohie.jpg",
           "product_url": "https://www.facebook.com/groups/1321209448577265/posts/1962632621101608"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 23100,
+              "first_seen": "2026-07-23"
+            }
+          ],
+          "image": "images/extrait-fleur-narcotique--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/extrait-fleur-narcotique-100-ml"
         }
+      ],
+      "aliases": [
+        "Extrait Fleur Narcotique"
       ]
     },
     {
@@ -167349,9 +167052,27 @@
           ],
           "image": "images/seductive-eau-de-toilette--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/guess-seductive-eau-de-toilette-for-men-100ml"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3135,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-07-23"
+            }
+          ],
+          "image": "images/guess-seductive-homme-edt--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/guess-seductive-homme-edt"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "feel22",
+      "aliases": [
+        "Guess Seductive Homme EDT"
+      ]
     },
     {
       "id": "velvet-rouge",
@@ -167766,38 +167487,6 @@
       "_hero_source": "eldesoki-fragrances"
     },
     {
-      "id": "prime-26-almas",
-      "name_ar": "برايم ٢٦ تستر ١٠ملي من الماس",
-      "name_en": "Prime 26",
-      "brand": "Almas",
-      "dupe_of": [],
-      "image": "images/prime-26-almas.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 200,
-              "first_seen": "2026-08-04"
-            },
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 1050,
-              "first_seen": "2026-08-04"
-            }
-          ],
-          "image": "images/prime-26-almas--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/prime-26-50ml%d8%a8%d8%b1%d8%a7%d9%8a%d9%85-%d9%a2%d9%a6-%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d9%84%d9%85%d8%a7%d8%b3/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "al-hilal-37-dkhoon",
       "name_ar": "الهلال ٣٧ كامل ١٠٠ملي بدون بوكس تماما",
       "name_en": "Al Hilal 37 Dkhoon",
@@ -168010,32 +167699,6 @@
         }
       ],
       "_hero_source": "perfuzone"
-    },
-    {
-      "id": "badee-al-oud-amethyst-fusion",
-      "name_ar": "Badee Al Oud Amethyst Fusion",
-      "name_en": "Badee Al Oud Amethyst Fusion",
-      "brand": "Lattafa",
-      "dupe_of": [],
-      "image": "images/badee-al-oud-amethyst-fusion.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2100,
-              "first_seen": "2026-08-05"
-            }
-          ],
-          "image": "images/badee-al-oud-amethyst-fusion--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/badee-al-oud-amethyst-fusion"
-        }
-      ],
-      "_hero_source": "emaratiscents"
     },
     {
       "id": "badee-al-oud-black-exposed",
@@ -168492,32 +168155,6 @@
       "_hero_source": "emaratiscents"
     },
     {
-      "id": "alhilal-9",
-      "name_ar": "Alhilal 9",
-      "name_en": "Alhilal 9",
-      "brand": "Dkhoni",
-      "dupe_of": [],
-      "image": "images/alhilal-9.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "emaratiscents",
-          "url": "https://emaratiscents.com/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2250,
-              "first_seen": "2026-08-05"
-            }
-          ],
-          "image": "images/alhilal-9--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/alhilal-9"
-        }
-      ],
-      "_hero_source": "emaratiscents"
-    },
-    {
       "id": "riyadh",
       "name_ar": "Riyadh",
       "name_en": "Riyadh",
@@ -168727,7 +168364,30 @@
           ],
           "image": "images/amber-oud-imagine-dubai--abo-anas-sayed.jpg",
           "product_url": "https://www.facebook.com/groups/756846691875916/posts/2124739308419974"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 330,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3000,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/al-haramain-imagine-dubai--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/al-haramain-imagine-dubai"
         }
+      ],
+      "aliases": [
+        "Al Haramain Imagine Dubai"
       ]
     },
     {
@@ -169197,7 +168857,25 @@
           ],
           "image": "images/pure-musc-for-her--ahmed-abdel-kareem.jpg",
           "product_url": "https://www.facebook.com/groups/110919302115466/posts/1148294715044581"
+        },
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 185,
+              "first_seen": "2026-07-22"
+            }
+          ],
+          "image": "images/pure-musc--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/narciso-rodriguez-pure-musc-3ml-263"
         }
+      ],
+      "aliases": [
+        "Pure Musc",
+        "Pure Musc Blanc"
       ]
     },
     {
@@ -169701,30 +169379,6 @@
       ]
     },
     {
-      "id": "1-million",
-      "name_en": "1 Million",
-      "name_ar": "",
-      "brand": "Paco Rabanne",
-      "image": "images/1-million--ahmed-abdel-kareem.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Ahmed Abdel Kareem",
-          "url": "https://www.facebook.com/groups/110919302115466/user/100001432124486/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 500,
-              "first_seen": "2026-08-06"
-            }
-          ],
-          "image": "images/1-million--ahmed-abdel-kareem.jpg",
-          "product_url": "https://www.facebook.com/groups/original.perfume.market/posts/27840973102255014"
-        }
-      ]
-    },
-    {
       "id": "devotion-pour-homme",
       "name_en": "Devotion Pour Homme",
       "name_ar": "",
@@ -169855,11 +169509,21 @@
               "ml": 7,
               "price": 500,
               "first_seen": "2026-08-06"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2800,
+              "first_seen": "2026-08-01",
+              "note": "Recharge/refill bottle"
             }
           ],
-          "image": "images/s-intense--ahmed-abdel-kareem.jpg",
+          "image": "images/s-eau-de-parfum-intense-recharge-refill--ahmed-abdel-kareem.jpg",
           "product_url": "https://www.facebook.com/groups/original.perfume.market/posts/27802400792778912"
         }
+      ],
+      "aliases": [
+        "Sì Eau de Parfum Intense Recharge Refill"
       ]
     },
     {
@@ -170249,30 +169913,6 @@
       ]
     },
     {
-      "id": "ombre-noire-pour-homme",
-      "name_en": "Ombre Noire pour Homme",
-      "name_ar": "",
-      "brand": "Lalique",
-      "image": "images/ombre-noire-pour-homme--abo-anas-sayed.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2100,
-              "first_seen": "2026-08-06"
-            }
-          ],
-          "image": "images/ombre-noire-pour-homme--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
-        }
-      ]
-    },
-    {
       "id": "orange-x-santal-by-natalie-gracia-cetto",
       "name_en": "Orange X Santal by Natalie Gracia-Cetto",
       "name_ar": "",
@@ -170347,9 +169987,38 @@
               "first_seen": "2026-08-06"
             }
           ],
-          "image": "images/mon-vetiver-by-bruno-jovanovic--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
+          "image": "images/mon-vetiver--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+        },
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 215,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 295,
+              "first_seen": "2026-08-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 490,
+              "first_seen": "2026-08-03"
+            }
+          ],
+          "image": "images/mon-vetiver--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-mon-vetiver-3ml-496"
         }
+      ],
+      "aliases": [
+        "Mon Vetiver"
       ]
     },
     {
@@ -170372,9 +170041,13 @@
               "first_seen": "2026-08-06"
             }
           ],
-          "image": "images/the-musc-by-calice-becker--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
+          "image": "images/the-musc-tester--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
         }
+      ],
+      "aliases": [
+        "The Musc",
+        "The Musc Tester"
       ]
     },
     {
@@ -170402,56 +170075,6 @@
       ]
     },
     {
-      "id": "cruz-del-sur-ii",
-      "name_en": "Cruz Del Sur II",
-      "name_ar": "",
-      "brand": "Xerjoff",
-      "image": "images/cruz-del-sur-ii--abo-anas-sayed.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 50,
-              "price": 8400,
-              "note": "Shooting Stars; Parfum",
-              "first_seen": "2026-08-06"
-            }
-          ],
-          "image": "images/cruz-del-sur-ii--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
-        }
-      ]
-    },
-    {
-      "id": "l-eau-d-issey-pour-homme",
-      "name_en": "L'Eau D'Issey Pour Homme",
-      "name_ar": "",
-      "brand": "Issey Miyake",
-      "image": "images/l-eau-d-issey-pour-homme--abo-anas-sayed.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 125,
-              "price": 2750,
-              "note": "EDP",
-              "first_seen": "2026-08-06"
-            }
-          ],
-          "image": "images/l-eau-d-issey-pour-homme--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
-        }
-      ]
-    },
-    {
       "id": "velvet-iris-by-dominique-ropion",
       "name_en": "Velvet Iris by Dominique Ropion",
       "name_ar": "",
@@ -170470,9 +170093,38 @@
               "first_seen": "2026-08-06"
             }
           ],
-          "image": "images/velvet-iris-by-dominique-ropion--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
+          "image": "images/velvet-iris--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+        },
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 185,
+              "first_seen": "2026-07-17"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 275,
+              "first_seen": "2026-07-17"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 485,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/velvet-iris--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-velvet-iris-3ml-481"
         }
+      ],
+      "aliases": [
+        "Velvet Iris"
       ]
     },
     {
@@ -170494,9 +170146,38 @@
               "first_seen": "2026-08-06"
             }
           ],
-          "image": "images/neroli-botanica-by-anne-flipo--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
+          "image": "images/n-roli-botanica--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+        },
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 185,
+              "first_seen": "2026-07-17"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 275,
+              "first_seen": "2026-07-17"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 485,
+              "first_seen": "2026-01-01"
+            }
+          ],
+          "image": "images/n-roli-botanica--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-neroli-botanica-3ml-478"
         }
+      ],
+      "aliases": [
+        "Néroli Botanica"
       ]
     },
     {
@@ -171143,33 +170824,6 @@
       ],
       "dupe_of": [
         "Portrait of a Lady — Frederic Malle"
-      ]
-    },
-    {
-      "id": "champion-g-o-a-t",
-      "name_en": "Champion G.O.A.T",
-      "name_ar": "",
-      "brand": "French Avenue",
-      "image": "images/champion-g-o-a-t--hany-diab.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Hany Diab",
-          "url": "https://www.facebook.com/hany.diab.579736/",
-          "offers": [
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 850,
-              "first_seen": "2026-08-06"
-            }
-          ],
-          "image": "images/champion-g-o-a-t--hany-diab.jpg",
-          "product_url": "https://www.facebook.com/groups/363102686791098/posts/976424265458934/"
-        }
-      ],
-      "dupe_of": [
-        "MYSLF — YSL"
       ]
     },
     {
