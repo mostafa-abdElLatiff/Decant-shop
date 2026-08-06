@@ -2368,8 +2368,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2100,
-              "first_seen": "2026-01-01"
+              "price": 1600,
+              "first_seen": "2026-01-01",
+              "prev_price": 2100
             }
           ],
           "image": "images/9pm-rebel--sniffz.jpg",
@@ -113476,8 +113477,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1100,
-              "first_seen": "2026-01-01"
+              "price": 800,
+              "first_seen": "2026-01-01",
+              "prev_price": 1100
             }
           ],
           "image": "images/opulent-dubai--sniffz.jpg",
@@ -145900,8 +145902,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2650,
-              "first_seen": "2026-07-19"
+              "price": 2550,
+              "first_seen": "2026-07-19",
+              "prev_price": 2650
             }
           ],
           "image": "images/supremacy-collector-s-edition--sniffz.jpg",
