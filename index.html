@@ -1326,25 +1326,47 @@ function restorePaginationAndScroll(state){
   requestAnimationFrame(() => window.scrollTo(0, savedScrollY));
 }
 
+// `body{overflow:hidden}` alone doesn't stop background touch-scroll on
+// iOS/mobile WebKit -- the panel behind the dimmed overlay keeps
+// scrolling under the user's finger even though the panel itself has
+// its own overflow-y:auto (a long-standing WebKit quirk, not a bug in
+// the panel's own scroll setup). Pinning body with position:fixed is
+// the reliable cross-browser lock; modalScrollY remembers exactly where
+// to put the page back on close, since removing position:fixed on its
+// own doesn't reliably preserve scroll position either.
+let modalScrollY = 0;
 function openProductModal(id, {fromHistory=false}={}){
   const p = byId[id];
   if (!p) return;
   productModalBody.replaceChildren(buildCardEl(p, {expanded:true}));
+  const alreadyOpen = productModal.classList.contains("open");
+  if(!alreadyOpen){
+    modalScrollY = window.scrollY;
+  }
   productModalOverlay.classList.add("open");
   productModal.classList.add("open");
-  document.body.style.overflow = "hidden";
+  if(!alreadyOpen){
+    document.body.style.position = "fixed";
+    document.body.style.top = `-${modalScrollY}px`;
+    document.body.style.left = "0";
+    document.body.style.right = "0";
+  }
   trackEvent("product_modal_open", { item_id: id });
   if (!fromHistory) {
     captureScrollState(); // remember the grid state we're leaving behind
-    history.pushState({ renderedCount, scrollY: window.scrollY }, "", location.pathname + location.search + "#" + id);
+    history.pushState({ renderedCount, scrollY: modalScrollY }, "", location.pathname + location.search + "#" + id);
   }
 }
 function closeProductModal({skipHistory=false}={}){
   if (!productModal.classList.contains("open")) return;
   productModalOverlay.classList.remove("open");
   productModal.classList.remove("open");
-  document.body.style.overflow = "";
-  if (!skipHistory) history.pushState({ renderedCount, scrollY: window.scrollY }, "", location.pathname + location.search);
+  document.body.style.position = "";
+  document.body.style.top = "";
+  document.body.style.left = "";
+  document.body.style.right = "";
+  window.scrollTo(0, modalScrollY);
+  if (!skipHistory) history.pushState({ renderedCount, scrollY: modalScrollY }, "", location.pathname + location.search);
 }
 document.getElementById("productModalClose").addEventListener("click", () => closeProductModal());
 // keeps browser back/forward in sync with the modal AND with filter/search/
