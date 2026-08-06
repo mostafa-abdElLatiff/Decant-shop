@@ -2381,8 +2381,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1600,
-              "first_seen": "2026-01-01",
-              "prev_price": 2100
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/9pm-rebel--sniffz.jpg",
@@ -88345,6 +88344,32 @@
           ],
           "image": "images/le-beau-paradise-garden-edp--abo-anas-sayed.jpg",
           "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 275,
+              "first_seen": "2026-08-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 380,
+              "first_seen": "2026-08-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 600,
+              "first_seen": "2026-08-06"
+            }
+          ],
+          "image": "images/le-beau-paradise-garden-edp--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/jean-paul-gaultier-le-beau-paradise-garden"
         }
       ],
       "_hero_source": "perfuzone"
@@ -110612,6 +110637,20 @@
           ],
           "image": "images/odyssey-artisto--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/odyssey-artisto"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1400,
+              "first_seen": "2026-08-06"
+            }
+          ],
+          "image": "images/odyssey-artisto--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/armaf-odyssey-artisto-full-sealed"
         }
       ],
       "_hero_source": "og-perfume"
@@ -111765,6 +111804,38 @@
           ],
           "image": "images/odyssey-toffee-coffee--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/odyssey-toffee-coffee"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 105,
+              "first_seen": "2026-08-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 140,
+              "first_seen": "2026-08-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 215,
+              "first_seen": "2026-08-06"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1400,
+              "first_seen": "2026-08-06"
+            }
+          ],
+          "image": "images/odyssey-toffee-coffee--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/armaf-odyssey-toffee-coffee"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -113712,8 +113783,7 @@
               "kind": "full",
               "ml": 100,
               "price": 800,
-              "first_seen": "2026-01-01",
-              "prev_price": 1100
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/opulent-dubai--sniffz.jpg",
@@ -146199,8 +146269,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2550,
-              "first_seen": "2026-07-19",
-              "prev_price": 2650
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/supremacy-collector-s-edition--sniffz.jpg",
@@ -148312,7 +148381,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1700,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-06"
             }
           ],
           "image": "images/teriaq-intense--sniffz.jpg",
@@ -171987,6 +172057,248 @@
           "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
         }
       ]
+    },
+    {
+      "id": "odyssey-set",
+      "name_ar": "",
+      "name_en": "Odyssey Set",
+      "brand": "Armaf",
+      "dupe_of": [],
+      "image": "images/odyssey-set.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 12,
+              "price": 1750,
+              "first_seen": "2026-08-06"
+            },
+            {
+              "kind": "full",
+              "ml": 12,
+              "price": 1750,
+              "first_seen": "2026-08-06"
+            }
+          ],
+          "image": "images/odyssey-set--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/armaf-odyssey-set"
+        }
+      ],
+      "_hero_source": "sniffz"
+    },
+    {
+      "id": "odyssey-black-forest",
+      "name_ar": "",
+      "name_en": "Odyssey Black Forest",
+      "brand": "Armaf",
+      "dupe_of": [],
+      "image": "images/odyssey-black-forest.jpg",
+      "accords": [
+        {
+          "label_en": "Caramel",
+          "label_ar": "",
+          "color": "#DDA356",
+          "w": 100
+        },
+        {
+          "label_en": "Cherry",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 90
+        },
+        {
+          "label_en": "Cinnamon",
+          "label_ar": "",
+          "color": "#CC3300",
+          "w": 80
+        },
+        {
+          "label_en": "Lactones",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 70
+        },
+        {
+          "label_en": "White Blossom",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 60
+        },
+        {
+          "label_en": "Dates",
+          "label_ar": "",
+          "color": "#FC4B29",
+          "w": 50
+        },
+        {
+          "label_en": "Honey",
+          "label_ar": "",
+          "color": "#FAA907",
+          "w": 40
+        },
+        {
+          "label_en": "Nutmeg",
+          "label_ar": "",
+          "color": "#CC3300",
+          "w": 40
+        },
+        {
+          "label_en": "Praline",
+          "label_ar": "",
+          "color": "#DDA356",
+          "w": 40
+        },
+        {
+          "label_en": "Vanilla",
+          "label_ar": "",
+          "color": "#FFFEC0",
+          "w": 40
+        },
+        {
+          "label_en": "Tonka Bean",
+          "label_ar": "",
+          "color": "#FFFEC0",
+          "w": 40
+        },
+        {
+          "label_en": "Woody Notes",
+          "label_ar": "",
+          "color": "#774414",
+          "w": 40
+        },
+        {
+          "label_en": "Musk",
+          "label_ar": "",
+          "color": "#E7D8EA",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 105,
+              "first_seen": "2026-08-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 140,
+              "first_seen": "2026-08-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 215,
+              "first_seen": "2026-08-06"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1400,
+              "first_seen": "2026-08-06"
+            }
+          ],
+          "image": "images/odyssey-black-forest--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/armaf-odyssey-black-forest"
+        }
+      ],
+      "_hero_source": "sniffz"
+    },
+    {
+      "id": "let-s-move-tango",
+      "name_ar": "",
+      "name_en": "Let's Move Tango",
+      "brand": "Armaf",
+      "dupe_of": [],
+      "image": "images/let-s-move-tango.jpg",
+      "accords": [
+        {
+          "label_en": "Bergamot",
+          "label_ar": "",
+          "color": "#F9FF52",
+          "w": 100
+        },
+        {
+          "label_en": "Solar Notes",
+          "label_ar": "",
+          "color": "#9be5ed",
+          "w": 90
+        },
+        {
+          "label_en": "Almond",
+          "label_ar": "",
+          "color": "#C68E5A",
+          "w": 80
+        },
+        {
+          "label_en": "Cherry",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 70
+        },
+        {
+          "label_en": "Frangipani",
+          "label_ar": "",
+          "color": "#FF5F8D",
+          "w": 60
+        },
+        {
+          "label_en": "Peony",
+          "label_ar": "",
+          "color": "#FF5F8D",
+          "w": 50
+        },
+        {
+          "label_en": "Vanilla",
+          "label_ar": "",
+          "color": "#FFFEC0",
+          "w": 40
+        },
+        {
+          "label_en": "Woody Notes",
+          "label_ar": "",
+          "color": "#774414",
+          "w": 40
+        },
+        {
+          "label_en": "Patchouli",
+          "label_ar": "",
+          "color": "#63652e",
+          "w": 40
+        },
+        {
+          "label_en": "Musk",
+          "label_ar": "",
+          "color": "#E7D8EA",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1700,
+              "first_seen": "2026-08-06"
+            }
+          ],
+          "image": "images/let-s-move-tango--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/armaf-lets-move-tango-full-sealed"
+        }
+      ],
+      "_hero_source": "sniffz"
     }
   ]
 }
