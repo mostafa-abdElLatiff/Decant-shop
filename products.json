@@ -2867,9 +2867,8 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 1175,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-01"
+              "price": 1250,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/abaq-pomegranate-musk-ibrahim-al-qurashi--eldesoki-fragrances.jpg",
@@ -5590,8 +5589,7 @@
               "kind": "full",
               "ml": 75,
               "price": 1150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/al-lail-musk--eldesoki-fragrances.jpg",
@@ -21428,8 +21426,7 @@
               "kind": "full",
               "ml": 150,
               "price": 1650,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-02"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/black-diamond-incense--eldesoki-fragrances.jpg",
@@ -108978,7 +108975,7 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 1475,
+              "price": 1650,
               "first_seen": "2026-07-18"
             }
           ],
@@ -122693,9 +122690,8 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 1150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "price": 1250,
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/powder-musk--eldesoki-fragrances.jpg",
@@ -142311,8 +142307,7 @@
               "kind": "full",
               "ml": 75,
               "price": 1150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/special-musk--eldesoki-fragrances.jpg",
@@ -172539,6 +172534,32 @@
         }
       ],
       "_hero_source": "mazaya"
+    },
+    {
+      "id": "mini-summer-collection-5-ibraq",
+      "name_ar": "Mini Summer Collection ( 5*10ml ) Ibraq",
+      "name_en": "Mini Summer Collection 5* Ibraq",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/mini-summer-collection-5-ibraq.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 10,
+              "price": 1400,
+              "first_seen": "2026-08-07"
+            }
+          ],
+          "image": "images/mini-summer-collection-5-ibraq--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/mini-summer-collection-510ml-ibraq/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
