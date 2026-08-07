@@ -27976,11 +27976,11 @@
               "first_seen": "2026-07-19"
             }
           ],
-          "image": "images/pdm-carlisle--perfuzone.jpg",
+          "image": "images/carlisle--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/pdm-carlisle"
         }
       ],
-      "_hero_source": "Abo Anas Sayed",
+      "_hero_source": "perfuzone",
       "aliases": [
         "Pdm Carlisle"
       ]
@@ -68120,14 +68120,16 @@
             {
               "kind": "decant",
               "ml": 5,
-              "price": 400,
-              "first_seen": "2026-07-20"
+              "price": 250,
+              "first_seen": "2026-07-20",
+              "prev_price": 400
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 600,
-              "first_seen": "2026-07-20"
+              "price": 400,
+              "first_seen": "2026-07-20",
+              "prev_price": 600
             }
           ],
           "image": "images/honey-musk-confidence-dose--perfuzone.jpg",
@@ -141076,8 +141078,7 @@
               "kind": "decant",
               "ml": 3,
               "price": 1300,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-04"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
@@ -141089,7 +141090,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 3500,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-07"
             }
           ],
           "image": "images/soleil-blanc-edp--perfuzone.jpg",
