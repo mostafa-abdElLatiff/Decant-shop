@@ -14880,8 +14880,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 125,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -14901,8 +14900,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1050,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/asad-bourbon--og-perfume.jpg",
@@ -40500,7 +40498,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-07"
             }
           ],
           "image": "images/dkhoon-amber--og-perfume.jpg",
@@ -161453,7 +161452,8 @@
               "kind": "full",
               "ml": 200,
               "price": 1800,
-              "first_seen": "2026-07-31"
+              "first_seen": "2026-07-31",
+              "sold_since": "2026-08-07"
             }
           ],
           "image": "images/wanted-lady--og-perfume.jpg",
@@ -165080,9 +165080,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1100,
+              "price": 1050,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-08-01"
+              "prev_price": 1100
             }
           ],
           "image": "images/yara--og-perfume.jpg",
@@ -165108,15 +165108,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 120,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-23"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 1050,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/yara-candy--og-perfume.jpg",
@@ -172783,6 +172781,196 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "queen-of-roses",
+      "name_ar": "Queen Of Roses",
+      "name_en": "Queen Of Roses",
+      "brand": "Lattafa",
+      "dupe_of": [],
+      "image": "images/queen-of-roses.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 190,
+              "first_seen": "2026-08-07"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 525,
+              "first_seen": "2026-08-07"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1600,
+              "first_seen": "2026-08-07"
+            }
+          ],
+          "image": "images/queen-of-roses--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/queen-of-roses"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "hayaatim",
+      "name_ar": "Hayaatim",
+      "name_en": "Hayaatim",
+      "brand": "Lattafa",
+      "dupe_of": [],
+      "image": "images/hayaatim.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 100,
+              "first_seen": "2026-08-07"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 250,
+              "first_seen": "2026-08-07"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 700,
+              "first_seen": "2026-08-07"
+            }
+          ],
+          "image": "images/hayaatim--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/hayaatim"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "coeur-liv",
+      "name_ar": "Coeur Liv",
+      "name_en": "Coeur Liv",
+      "brand": "Maison Alhambra",
+      "dupe_of": [],
+      "image": "images/coeur-liv.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 120,
+              "first_seen": "2026-08-07"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 325,
+              "first_seen": "2026-08-07"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 900,
+              "first_seen": "2026-08-07"
+            }
+          ],
+          "image": "images/coeur-liv--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/coeur-liv"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "coeur-sunny",
+      "name_ar": "Coeur Sunny",
+      "name_en": "Coeur Sunny",
+      "brand": "Maison Alhambra",
+      "dupe_of": [],
+      "image": "images/coeur-sunny.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 120,
+              "first_seen": "2026-08-07"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 325,
+              "first_seen": "2026-08-07"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 900,
+              "first_seen": "2026-08-07"
+            }
+          ],
+          "image": "images/coeur-sunny--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/coeur-sunny"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "coeur-blossom",
+      "name_ar": "Coeur Blossom",
+      "name_en": "Coeur Blossom",
+      "brand": "Maison Alhambra",
+      "dupe_of": [],
+      "image": "images/coeur-blossom.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 120,
+              "first_seen": "2026-08-07"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 325,
+              "first_seen": "2026-08-07"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 900,
+              "first_seen": "2026-08-07"
+            }
+          ],
+          "image": "images/coeur-blossom--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/coeur-blossom"
+        }
+      ],
+      "_hero_source": "og-perfume"
     }
   ]
 }
