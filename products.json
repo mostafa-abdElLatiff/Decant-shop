@@ -55196,8 +55196,7 @@
               "kind": "full",
               "ml": 200,
               "price": 2350,
-              "first_seen": "2026-01-01",
-              "prev_price": 2550
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/frankel-blue-elixir--sniffz.jpg",
@@ -61680,8 +61679,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1500,
-              "first_seen": "2026-01-01"
+              "price": 1200,
+              "first_seen": "2026-01-01",
+              "prev_price": 1500
             }
           ],
           "image": "images/habik--sniffz.jpg",
@@ -101876,6 +101876,12 @@
               "price": 365,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1800,
+              "first_seen": "2026-08-07"
             }
           ],
           "image": "images/musamam-black-intense--sniffz.jpg",
@@ -113455,27 +113461,6 @@
           "url": "https://sniffz-eg.com/",
           "offers": [
             {
-              "kind": "decant",
-              "ml": 3,
-              "price": 130,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 165,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 250,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
               "kind": "full",
               "ml": 100,
               "price": 800,
@@ -113483,7 +113468,7 @@
             }
           ],
           "image": "images/opulent-dubai--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/lattafa-opulent-dubai"
+          "product_url": "https://sniffz-eg.com/products/lattafa-opulent-dubai-full-sealed"
         },
         {
           "name": "eldesoki-fragrances",
@@ -172610,6 +172595,169 @@
         }
       ],
       "_hero_source": "perfuzone"
+    },
+    {
+      "id": "sama-by-nusuk",
+      "name_ar": "",
+      "name_en": "Sama by Nusuk",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/sama-by-nusuk.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 135,
+              "first_seen": "2026-08-07"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 175,
+              "first_seen": "2026-08-07"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 270,
+              "first_seen": "2026-08-07"
+            }
+          ],
+          "image": "images/sama-by-nusuk--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/sama-by-nusuk"
+        }
+      ],
+      "_hero_source": "sniffz"
+    },
+    {
+      "id": "breeze",
+      "name_ar": "",
+      "name_en": "Breeze",
+      "brand": "Lattafa",
+      "dupe_of": [],
+      "image": "images/breeze.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 105,
+              "first_seen": "2026-08-07"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 140,
+              "first_seen": "2026-08-07"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 210,
+              "first_seen": "2026-08-07"
+            }
+          ],
+          "image": "images/breeze--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/lattafa-breeze"
+        }
+      ],
+      "_hero_source": "sniffz"
+    },
+    {
+      "id": "bade-e-al-oud-honor-glory",
+      "name_ar": "",
+      "name_en": "Bade'e Al Oud Honor & Glory",
+      "brand": "Lattafa",
+      "dupe_of": [],
+      "image": "images/bade-e-al-oud-honor-glory.jpg",
+      "accords": [
+        {
+          "label_en": "Pineapple",
+          "label_ar": "",
+          "color": "#FC4B29",
+          "w": 100
+        },
+        {
+          "label_en": "Crème Brûlée",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 90
+        },
+        {
+          "label_en": "Cinnamon",
+          "label_ar": "",
+          "color": "#CC3300",
+          "w": 80
+        },
+        {
+          "label_en": "Turmeric",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 70
+        },
+        {
+          "label_en": "Black Pepper",
+          "label_ar": "",
+          "color": "#CC3300",
+          "w": 60
+        },
+        {
+          "label_en": "Benzoin",
+          "label_ar": "",
+          "color": "#ad8359",
+          "w": 50
+        },
+        {
+          "label_en": "Vanilla",
+          "label_ar": "",
+          "color": "#FFFEC0",
+          "w": 40
+        },
+        {
+          "label_en": "Sandalwood",
+          "label_ar": "",
+          "color": "#774414",
+          "w": 40
+        },
+        {
+          "label_en": "Cashmeran",
+          "label_ar": "",
+          "color": "#E7D8EA",
+          "w": 40
+        },
+        {
+          "label_en": "Moss",
+          "label_ar": "",
+          "color": "#5B6B32",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1300,
+              "first_seen": "2026-08-07"
+            }
+          ],
+          "image": "images/bade-e-al-oud-honor-glory--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/lattafa-badee-al-oud-honor-glory-full-sealed"
+        }
+      ],
+      "_hero_source": "sniffz"
     }
   ]
 }
