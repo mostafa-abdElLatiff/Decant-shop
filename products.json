@@ -79274,7 +79274,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 875,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-07"
             },
             {
               "kind": "full",
@@ -172758,6 +172759,32 @@
         }
       ],
       "_hero_source": "sniffz"
+    },
+    {
+      "id": "al-najah-arabiyat-mpf",
+      "name_ar": "النجاح ١٠٠ملي من عربيات عطوري بديل ممتاز لهيبيسكاس ماهاچاد حصري لدينا",
+      "name_en": "Al Najah Arabiyat mpf",
+      "brand": "",
+      "dupe_of": [],
+      "image": "images/al-najah-arabiyat-mpf.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 750,
+              "first_seen": "2026-08-07"
+            }
+          ],
+          "image": "images/al-najah-arabiyat-mpf--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/al-najah-arabiyat-mpf-100ml%d8%a7%d9%84%d9%86%d8%ac%d8%a7%d8%ad-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b9%d8%b1%d8%a8%d9%8a%d8%a7%d8%aa-%d8%b9%d8%b7%d9%88%d8%b1%d9%8a-%d8%a8%d8%af/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
