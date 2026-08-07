@@ -32444,6 +32444,32 @@
               "first_seen": "2026-07-27"
             }
           ]
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 170,
+              "first_seen": "2026-08-07"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 230,
+              "first_seen": "2026-08-07"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 350,
+              "first_seen": "2026-08-07"
+            }
+          ],
+          "image": "images/club-de-nuit-oud--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/armaf-club-de-nuit-oud"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -61678,8 +61704,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1200,
-              "first_seen": "2026-01-01",
-              "prev_price": 1500
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/habik--sniffz.jpg",
