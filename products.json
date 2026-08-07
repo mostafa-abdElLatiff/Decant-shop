@@ -36669,6 +36669,13 @@
             },
             {
               "kind": "leftover",
+              "ml": 30,
+              "price": 375,
+              "first_seen": "2026-08-07",
+              "sold_since": "2026-08-07"
+            },
+            {
+              "kind": "leftover",
               "ml": 50,
               "price": 625,
               "first_seen": "2026-08-03",
@@ -146298,6 +146305,20 @@
               "first_seen": "2026-07-31"
             },
             {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 975,
+              "first_seen": "2026-08-07",
+              "sold_since": "2026-08-07"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2200,
+              "first_seen": "2026-08-07",
+              "sold_since": "2026-08-07"
+            },
+            {
               "kind": "full",
               "ml": 150,
               "price": 2900,
@@ -150810,7 +150831,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2350,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-07"
             }
           ],
           "image": "images/thriller--og-perfume.jpg",
