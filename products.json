@@ -26534,20 +26534,17 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 195,
-              "first_seen": "2026-07-19"
+              "price": 130,
+              "first_seen": "2026-07-19",
+              "prev_price": 195,
+              "sold_since": "2026-08-07"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 525,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1550,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-07"
             },
             {
               "kind": "leftover",
@@ -26558,6 +26555,13 @@
             },
             {
               "kind": "full",
+              "ml": 100,
+              "price": 1550,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-07"
+            },
+            {
+              "kind": "full",
               "ml": 200,
               "price": 2250,
               "first_seen": "2026-08-03",
@@ -26565,7 +26569,7 @@
             }
           ],
           "image": "images/brazilian-tobacco--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/brazillian-tobacco-100ml"
+          "product_url": "https://og-perfume.com/products/brazillian-tobacco-ibrahim-al-qurashi"
         },
         {
           "name": "sniffz",
@@ -165301,7 +165305,15 @@
               "kind": "decant",
               "ml": 10,
               "price": 235,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-07"
+            },
+            {
+              "kind": "leftover",
+              "ml": 70,
+              "price": 2150,
+              "first_seen": "2026-08-07",
+              "sold_since": "2026-08-07"
             },
             {
               "kind": "full",
@@ -167966,7 +167978,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 625,
-              "first_seen": "2026-08-07"
+              "first_seen": "2026-08-07",
+              "sold_since": "2026-08-07"
             },
             {
               "kind": "full",
