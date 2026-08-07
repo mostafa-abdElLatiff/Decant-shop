@@ -366,7 +366,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 3680,
+              "price": 3999,
               "first_seen": "2026-07-23"
             }
           ],
@@ -1314,7 +1314,7 @@
               "ml": 100,
               "price": 2100,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-08-06"
+              "sold_since": "2026-08-07"
             },
             {
               "kind": "full",
@@ -18404,14 +18404,14 @@
               "ml": 50,
               "price": 4119,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-08-06"
+              "sold_since": "2026-08-07"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 6142,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-08-06"
+              "sold_since": "2026-08-07"
             },
             {
               "kind": "full",
@@ -25598,7 +25598,8 @@
               "kind": "full",
               "ml": 100,
               "price": 6683,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-08-07"
             }
           ],
           "image": "images/boss-bottled-elixir--feel22.jpg",
@@ -31906,7 +31907,7 @@
               "ml": 105,
               "price": 2447,
               "first_seen": "2026-07-26",
-              "sold_since": "2026-08-06"
+              "sold_since": "2026-08-07"
             },
             {
               "kind": "full",
@@ -47340,7 +47341,8 @@
               "kind": "full",
               "ml": 100,
               "price": 5355,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-08-07"
             },
             {
               "kind": "full",
@@ -58411,14 +58413,14 @@
               "ml": 75,
               "price": 5999,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-08-06"
+              "sold_since": "2026-08-07"
             },
             {
               "kind": "full",
               "ml": 125,
               "price": 7035,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-08-06"
+              "sold_since": "2026-08-07"
             },
             {
               "kind": "full",
@@ -58661,6 +58663,20 @@
           ],
           "image": "images/glacial-essence-eau-de-parfum--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/783320411946123455-html123"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 6299,
+              "first_seen": "2026-08-07"
+            }
+          ],
+          "image": "images/glacial-essence-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/bvlgari-man-glacial-essence-eau-de-parfum-for-men-100ml"
         }
       ],
       "_hero_source": "mazaya"
@@ -61299,7 +61315,7 @@
               "ml": 150,
               "price": 6472,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-08-06"
+              "sold_since": "2026-08-07"
             }
           ],
           "image": "images/guilty-eau-de-toilette--feel22.jpg",
@@ -71652,7 +71668,7 @@
             {
               "kind": "full",
               "ml": 120,
-              "price": 3318,
+              "price": 3425,
               "first_seen": "2026-07-26"
             }
           ],
@@ -83219,7 +83235,7 @@
               "ml": 60,
               "price": 5831,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-08-06"
+              "sold_since": "2026-08-07"
             },
             {
               "kind": "full",
@@ -164428,14 +164444,13 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 6199,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "price": 6299,
+              "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 7804,
+              "price": 7999,
               "first_seen": "2026-07-23"
             },
             {
@@ -172317,6 +172332,32 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "azure-eau-de-toilette",
+      "name_ar": "Azure Eau de Toilette",
+      "name_en": "Azure Eau de Toilette",
+      "brand": "Bentley",
+      "dupe_of": [],
+      "image": "images/azure-eau-de-toilette.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2599,
+              "first_seen": "2026-08-07"
+            }
+          ],
+          "image": "images/azure-eau-de-toilette--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/bentley-azure-eau-de-toilette-for-men-100ml"
+        }
+      ],
+      "_hero_source": "feel22"
     }
   ]
 }
