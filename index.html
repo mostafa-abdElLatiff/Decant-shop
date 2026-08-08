@@ -1683,7 +1683,16 @@ function resolveCartLine(c){
 
 /* Groups the flat `cart` array by store name, preserving each entry's real
    index into `cart` (needed for the inc/dec/remove buttons' data-* attrs,
-   which operate on the flat array regardless of how it's displayed). */
+   which operate on the flat array regardless of how it's displayed).
+
+   Groups are sorted alphabetically by store name rather than left in
+   "first occurrence in `cart`" order — with multiple stores in the cart,
+   removing an item can change which store's entry happens to appear
+   first in the flat array, which previously reordered every store block
+   on screen (not just removed the one row) on every single removal. An
+   alphabetical order is a pure function of the store names actually in
+   the cart, so it's stable across add/remove and only ever changes when
+   a store is added to or fully cleared from the cart. */
 function groupCartByStore(){
   const groups = [];
   const byKey = {};
@@ -1694,6 +1703,7 @@ function groupCartByStore(){
     if(!byKey[key]){ byKey[key] = { name: line.s.name, entries: [] }; groups.push(byKey[key]); }
     byKey[key].entries.push({ c, i, line });
   });
+  groups.sort((a,b) => a.name.localeCompare(b.name, undefined, {sensitivity:"base"}));
   return groups;
 }
 
