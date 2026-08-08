@@ -123459,8 +123459,8 @@
               "first_seen": "2026-07-18"
             }
           ],
-          "image": "images/prime-26--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/prime-26-50ml%d8%a8%d8%b1%d8%a7%d9%8a%d9%85-%d9%a2%d9%a6-%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d9%84%d9%85%d8%a7%d8%b3/"
+          "image": "images/prime-26-almas--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/prime-26-tester-10ml%d8%a8%d8%b1%d8%a7%d9%8a%d9%85-%d9%a2%d9%a6-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d9%84%d9%85%d8%a7%d8%b3/"
         },
         {
           "name": "emaratiscents",
@@ -145978,11 +145978,26 @@
           ],
           "image": "images/supremacy-collector-s-edition-tiziana-terenzi--hossam-eldeen-gamal.jpg",
           "product_url": "https://www.facebook.com/groups/original.perfume.market/posts/27975323832153273"
+        },
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 200,
+              "first_seen": "2026-08-08"
+            }
+          ],
+          "image": "images/supremacy-ce--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/afnan-supremacy-ce-5ml-137"
         }
       ],
       "_hero_source": "emaratiscents",
       "aliases": [
         "Supermacy Collector",
+        "Supremacy CE",
         "Supremacy Collector's Edition Pour Homme"
       ]
     },
@@ -172345,32 +172360,6 @@
       "_hero_source": "MO Shawky"
     },
     {
-      "id": "prime-26-almas",
-      "name_ar": "برايم ٢٦ تستر ١٠ملي من الماس",
-      "name_en": "Prime 26",
-      "brand": "Almas",
-      "dupe_of": [],
-      "image": "images/prime-26-almas.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 200,
-              "first_seen": "2026-08-07"
-            }
-          ],
-          "image": "images/prime-26-almas--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/prime-26-tester-10ml%d8%a8%d8%b1%d8%a7%d9%8a%d9%85-%d9%a2%d9%a6-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d9%84%d9%85%d8%a7%d8%b3/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances"
-    },
-    {
       "id": "turquoise-vetiver",
       "name_ar": "Turquoise Vetiver",
       "name_en": "Turquoise Vetiver",
@@ -173052,32 +173041,6 @@
         }
       ],
       "_hero_source": "og-perfume"
-    },
-    {
-      "id": "supremacy-ce",
-      "name_ar": "",
-      "name_en": "Supremacy CE",
-      "brand": "Afnan",
-      "dupe_of": [],
-      "image": "images/supremacy-ce.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "MO Shawky",
-          "url": "https://www.facebook.com/mo.freeto.play/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 200,
-              "first_seen": "2026-08-08"
-            }
-          ],
-          "image": "images/supremacy-ce--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/afnan-supremacy-ce-5ml-137"
-        }
-      ],
-      "_hero_source": "MO Shawky"
     }
   ]
 }
