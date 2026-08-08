@@ -191,6 +191,14 @@
   .card-share{position:absolute;top:.55rem;inset-inline-end:.55rem;background:rgba(0,0,0,.55);color:#fff;border:none;border-radius:50%;width:2.75rem;height:2.75rem;font-size:1rem;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .15s, transform .15s;z-index:2}
   .card-share:hover{background:rgba(0,0,0,.75);transform:scale(1.08)}
   .card-share:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
+  /* top-end, same corner as .card-share but inset further in so the two
+     don't overlap -- top-start is already spoken for by
+     .product-modal-close (see its own comment on why). */
+  .card-fav{position:absolute;top:.55rem;inset-inline-end:3.55rem;background:rgba(0,0,0,.55);color:#fff;border:none;border-radius:50%;width:2.75rem;height:2.75rem;font-size:1.05rem;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .15s, transform .15s;z-index:2}
+  .card-fav:hover{background:rgba(0,0,0,.75);transform:scale(1.08)}
+  .card-fav:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
+  .card-fav[aria-pressed="true"]{color:#ff6161}
+  .card-fav .fav-changed-dot{position:absolute;top:-2px;inset-inline-end:-2px;width:.65rem;height:.65rem;border-radius:50%;background:var(--brass);border:2px solid rgba(0,0,0,.55)}
   /* Higher than .product-modal (111) -- a photo zoomed from inside the
      product modal must render on top of it, not behind. Still below
      .toast (120) so an "Added" confirmation stays visible over a
@@ -232,6 +240,9 @@
   .offer-group{display:flex;align-items:center;gap:.5rem;margin-top:.35rem}
   .offer-group:first-of-type{margin-top:0}
   .offer-group .store-thumb{width:30px;height:30px}
+  .best-offer-row{flex-wrap:wrap;padding-block:.15rem}
+  .best-offer-store{font-size:.75rem;color:var(--ink);opacity:.6}
+  .best-offer-store a{color:var(--olive-deep);opacity:1;text-decoration:none;border-bottom:1px solid currentColor}
   .offers{display:flex;flex-wrap:wrap;gap:.55rem}
   .offer-btn{position:relative;min-height:2.75rem;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:10px;padding:.4rem .7rem;cursor:pointer;font-family:inherit;font-size:.82rem;text-align:center;transition:border-color .15s, background .15s, transform .1s}
   .offer-btn b{display:block;font-size:.9rem;color:var(--olive-deep)}
@@ -309,6 +320,16 @@
     <label class="stock-toggle">
       <input type="checkbox" id="inStockOnly">
       <span id="inStockOnlyLabel"></span>
+    </label>
+
+    <label class="stock-toggle">
+      <input type="checkbox" id="bestOfferOnly">
+      <span id="bestOfferOnlyLabel"></span>
+    </label>
+
+    <label class="stock-toggle">
+      <input type="checkbox" id="favoritesOnly">
+      <span id="favoritesOnlyLabel"></span>
     </label>
 
     <details class="filter-section" open>
@@ -432,6 +453,11 @@ const I18N = {
     label_store:"Store", label_brand:"Brand", label_sort:"Sort by", label_view:"Per row", filters_label:"Filters",
     label_price:"Price", label_size:"Size", clear_filters_btn:"✕ Clear all filters",
     in_stock_only:"In stock only",
+    best_offer_only:"Best offer only",
+    best_offer_from:"from",
+    favorites_only:"My favorites",
+    favorites_changed:"{n} changed",
+    add_favorite:"Add to favorites", remove_favorite:"Remove from favorites",
     view_auto:"Auto",
     cart_label:"List", drawer_title:"Your list", empty:"Your list is empty — add a size from any fragrance.",
     no_results:"No results — try another search.", loading:"Loading products…",
@@ -460,6 +486,11 @@ const I18N = {
     label_store:"المتجر", label_brand:"البراند", label_sort:"ترتيب حسب", label_view:"في الصف", filters_label:"الفلاتر",
     label_price:"السعر", label_size:"الحجم", clear_filters_btn:"✕ مسح كل الفلاتر",
     in_stock_only:"المتوفر فقط",
+    best_offer_only:"أفضل عرض فقط",
+    best_offer_from:"من",
+    favorites_only:"المفضلة",
+    favorites_changed:"{n} تغيّر",
+    add_favorite:"إضافة للمفضلة", remove_favorite:"إزالة من المفضلة",
     view_auto:"تلقائي",
     cart_label:"القائمة", drawer_title:"قائمتك", empty:"القائمة فارغة — أضف حجمًا من أي عطر.",
     no_results:"لا توجد نتائج — جرّب كلمة بحث أخرى.", loading:"جارٍ تحميل المنتجات…",
@@ -495,6 +526,40 @@ let byId = {}; // built once by buildLookups() after PRODUCTS loads, not per-car
 let cart = []; // {key, productId, storeIdx, offerIdx, qty}
 try{ cart = JSON.parse(localStorage.getItem("cart") || "[]"); }catch{ cart = []; }
 const saveCart = () => localStorage.setItem("cart", JSON.stringify(cart));
+
+// Favorites live entirely client-side (localStorage), same as the cart —
+// there's no backend/account system to attach them to server-side. Real
+// push/email notifications would need one; instead, favSnapshots records
+// a serialized summary of a favorited product's offers at the moment it
+// was favorited (or last checked via the "My favorites" toggle), and
+// hasFavChanged() compares that against the product's CURRENT offers on
+// every render — leveraging price/store history the catalog already
+// tracks (prev_price, first_seen) rather than building new
+// infrastructure for something a simple diff already answers.
+let favorites = new Set();
+try{ favorites = new Set(JSON.parse(localStorage.getItem("favorites") || "[]")); }catch{ favorites = new Set(); }
+let favSnapshots = {};
+try{ favSnapshots = JSON.parse(localStorage.getItem("favSnapshots") || "{}"); }catch{ favSnapshots = {}; }
+const saveFavorites = () => localStorage.setItem("favorites", JSON.stringify([...favorites]));
+const saveFavSnapshots = () => localStorage.setItem("favSnapshots", JSON.stringify(favSnapshots));
+function favSnapshotFor(p){
+  return (p.stores||[]).flatMap(s => (s.offers||[]).map(o => `${s.name}|${o.kind}|${o.ml}|${o.price}|${o.sold_since||""}`)).sort().join(",");
+}
+function hasFavChanged(p){
+  const snap = favSnapshots[p.id];
+  return snap != null && snap !== favSnapshotFor(p);
+}
+function countChangedFavorites(){
+  let n = 0;
+  favorites.forEach(id => { const p = byId[id]; if(p && hasFavChanged(p)) n++; });
+  return n;
+}
+function updateFavoritesLabel(){
+  const el = document.getElementById("favoritesOnlyLabel");
+  if (!el) return;
+  const changed = countChangedFavorites();
+  el.textContent = changed ? `${t().favorites_only} (${t().favorites_changed.replace("{n}", changed)})` : t().favorites_only;
+}
 // Kind and store are multi-select (a set of values; empty = "all", no
 // filter) — a shopper comparing "full bottle OR leftover" across several
 // stores at once needs both selected at the same time, not one or the
@@ -506,6 +571,19 @@ let brandFilter = "all";
 let sortOrder = "newest";
 let query = "";
 let inStockOnly = false;
+// When on, each card collapses its store/offer section down to just the
+// single cheapest offer per (kind, ml) — restricted to the selected
+// store(s) if any are active, otherwise compared across every store the
+// product has. Purely a rendering-mode toggle (unlike inStockOnly, it
+// never removes a product from the grid, only changes what's shown
+// inside its card), so it hooks into buildCardEl/renderStoresHTML
+// instead of productHasMatchingOffer.
+let bestOfferOnly = false;
+// Unlike bestOfferOnly, this DOES remove non-favorited products from the
+// grid (it's a real filter, not a rendering-mode toggle) — hooks into
+// computeItems() the same way inStockOnly hooks into
+// productHasMatchingOffer().
+let favoritesOnly = false;
 let priceMin = null;
 let priceMax = null;
 let sizeFilter = "all"; // only meaningful when kindFilter has "decant" — see the Size sub-filter
@@ -915,6 +993,8 @@ async function load(){
     document.getElementById("priceMin").value = priceMin ?? "";
     document.getElementById("priceMax").value = priceMax ?? "";
     document.getElementById("inStockOnly").checked = inStockOnly;
+    document.getElementById("bestOfferOnly").checked = bestOfferOnly;
+    document.getElementById("favoritesOnly").checked = favoritesOnly;
     applyI18n();
     render();
     syncCart(); // re-resolve any cart restored from localStorage now that PRODUCTS is populated
@@ -948,6 +1028,8 @@ function applyI18n(){
   document.getElementById("siteFooter").innerHTML = t().footer_note;
   document.getElementById("kindLabel").textContent = t().label_kind;
   document.getElementById("inStockOnlyLabel").textContent = t().in_stock_only;
+  document.getElementById("bestOfferOnlyLabel").textContent = t().best_offer_only;
+  updateFavoritesLabel();
   document.getElementById("storeFilterLabel").textContent = t().label_store;
   document.getElementById("priceFilterLabel").textContent = t().label_price;
   document.getElementById("sizeFilterLabel").textContent = t().label_size;
@@ -968,6 +1050,7 @@ function computeItems(){
   const items = PRODUCTS.filter(p =>
     productHasMatchingOffer(p, {kinds: kindFilter, storeNames: storeFilters, inStockOnly, minPrice: priceMin, maxPrice: priceMax, ml: sizeFilter==="all" ? null : Number(sizeFilter)}) &&
     (brandFilter==="all" || (p.brand||"").trim().toLowerCase()===brandFilter) &&
+    (!favoritesOnly || favorites.has(p.id)) &&
     productMatchesQuery(p, qTokens)
   );
   if(sortOrder==="newest") items.sort((a,b) => productNewestDate(b).localeCompare(productNewestDate(a)));
@@ -999,6 +1082,48 @@ function sortedStoresFor(p){
       }
       return storeCheapestPrice(a.s) - storeCheapestPrice(b.s);
     });
+}
+
+// Powers the "Best offer only" toggle: collapses a product's offers down
+// to just the single cheapest one per like-for-like group, comparing
+// across every store the product has (or only the selected store(s), if
+// any are active in the sidebar) — never across different (kind, ml)
+// combinations, since a 100ml full bottle costing less per ml than a
+// 3ml decant isn't a "deal", it's just a different format. Mirrors
+// findBestDeal()'s own leftover rule: a leftover's remaining ml is
+// whatever happened to be left in an opened bottle, not a chosen size,
+// so numeric-ml leftovers are compared by price-per-ml across the whole
+// kind rather than requiring an exact ml match. An "as-shown" leftover
+// has no comparable number at all, so each one is kept as its own
+// ungrouped entry rather than force-ranked against unrelated bottles.
+function bestOffersFor(p){
+  const candidates = (p.stores||[]).map((s, si) => ({ s, si }))
+    .filter(({s}) => !storeFilters.size || storeFilters.has(s.name));
+
+  const groups = new Map(); // key -> {s, si, oi, o}
+  candidates.forEach(({s, si}) => {
+    (s.offers||[]).forEach((o, oi) => {
+      const key = o.kind === "leftover"
+        ? (o.ml === "as-shown" || !o.ml ? `leftover-as-shown-${si}-${oi}` : "leftover-sized")
+        : `${o.kind}-${o.ml}`;
+      const entry = { s, si, oi, o };
+      const current = groups.get(key);
+      if(!current){ groups.set(key, entry); return; }
+      // prefer not-sold over sold regardless of price, then cheapest
+      // (price-per-ml for the leftover-sized group so different exact
+      // ml values still compare fairly; plain price everywhere else,
+      // since every offer in a non-leftover group already shares one ml)
+      const curSold = !!current.o.sold_since, newSold = !!o.sold_since;
+      if(curSold !== newSold){ if(!newSold) groups.set(key, entry); return; }
+      const better = key === "leftover-sized"
+        ? offerPerMl(o) < offerPerMl(current.o)
+        : o.price < current.o.price;
+      if(better) groups.set(key, entry);
+    });
+  });
+
+  const rank = o => o.ml === "as-shown" ? Infinity : o.ml;
+  return [...groups.values()].sort((a,b) => rank(a.o) - rank(b.o));
 }
 
 // Accord chips and store blocks are factored out of buildCardEl so both
@@ -1053,6 +1178,28 @@ function renderStoresHTML(p, stores){
   }).join("");
 }
 
+// Flat, one-row-per-offer rendering used instead of renderStoresHTML()
+// when "Best offer only" is on — no per-store grouping, since the whole
+// point is comparing across stores at a glance. Reuses the exact same
+// .offer-btn markup/data-* attributes as the normal store view, so the
+// existing delegated click handler (add to cart) needs no changes.
+function renderBestOffersHTML(p, entries){
+  return entries.map(({s, si, oi, o}) => {
+    const img = o.image || s.image || "";
+    return `
+    <div class="offer-group best-offer-row">
+      ${img ? `<img class="store-thumb" src="${img}" alt="${s.name}" loading="lazy" data-pid="${p.id}">` : ""}
+      <div class="offers">
+        <button class="offer-btn${o.sold_since ? " sold" : ""}" data-pid="${p.id}" data-si="${si}" data-oi="${oi}"${o.sold_since ? ` disabled aria-disabled="true"` : ""}>
+          ${o.sold_since ? `<span class="sold-badge">${t().sold_badge}</span>` : isNewOffer(o) ? `<span class="new-badge">${t().new_badge}</span>` : ""}
+          ${offerLabel(o)} <b>${o.prev_price ? `<span class="prev-price">${o.prev_price}</span>` : ""}${o.price}</b>
+        </button>
+      </div>
+      <div class="best-offer-store">${t().best_offer_from} <bdi>${s.url ? `<a href="${s.url}" target="_blank" rel="noopener" data-store-click="${s.name}" data-pid="${p.id}">${s.name}</a>` : s.name}</bdi></div>
+    </div>`;
+  }).join("");
+}
+
 // expanded:false (default) is the compact grid card — a fast scannable
 // summary, cheapest store only, notes/extra stores collapsed behind a
 // toggle whose content isn't even injected into the DOM until first
@@ -1072,6 +1219,7 @@ function buildCardEl(p, {expanded=false}={}){
   // active, the selected) store's offers by default, with the rest one
   // toggle away instead of always taking up the full card height.
   const sortedStores = sortedStoresFor(p);
+  const bestOffers = bestOfferOnly ? bestOffersFor(p) : null;
 
   const card = document.createElement("article");
   card.className = "card";
@@ -1080,6 +1228,7 @@ function buildCardEl(p, {expanded=false}={}){
     <div class="card-img">
       ${p.image ? `<img src="${p.image}" alt="${pname(p)}" loading="lazy" data-pid="${p.id}">` : "🧴"}
       <button class="card-share" data-share="${p.id}" aria-label="${t().share_link}" title="${t().share_link}">🔗</button>
+      <button class="card-fav" data-fav="${p.id}" aria-pressed="${favorites.has(p.id)}" aria-label="${favorites.has(p.id) ? t().remove_favorite : t().add_favorite}" title="${favorites.has(p.id) ? t().remove_favorite : t().add_favorite}">${favorites.has(p.id) ? "♥" : "♡"}${favorites.has(p.id) && hasFavChanged(p) ? `<span class="fav-changed-dot"></span>` : ""}</button>
     </div>
     <div class="card-body">
       ${p.brand ? `<button class="card-brand" data-brand-jump="${p.brand}">${p.brand}</button>` : ""}
@@ -1093,9 +1242,9 @@ function buildCardEl(p, {expanded=false}={}){
            <button class="accords-toggle" data-target="accords-${p.id}" data-pid="${p.id}" data-more="${p.accords.length}">${t().show_more_notes.replace("{n}", p.accords.length)}</button>`
       ) : ""}
       <div class="stores-list${expanded ? " expanded" : ""}"${expanded ? "" : ` id="stores-${p.id}" data-pid="${p.id}"`}>
-        ${renderStoresHTML(p, expanded ? sortedStores : sortedStores.slice(0,1))}
+        ${bestOffers ? renderBestOffersHTML(p, bestOffers) : renderStoresHTML(p, expanded ? sortedStores : sortedStores.slice(0,1))}
       </div>
-      ${!expanded && sortedStores.length>1 ? `<button class="stores-toggle" data-target="stores-${p.id}" data-pid="${p.id}" data-more="${sortedStores.length-1}">${t().show_more_stores.replace("{n}", sortedStores.length-1)}</button>` : ""}
+      ${!bestOfferOnly && !expanded && sortedStores.length>1 ? `<button class="stores-toggle" data-target="stores-${p.id}" data-pid="${p.id}" data-more="${sortedStores.length-1}">${t().show_more_stores.replace("{n}", sortedStores.length-1)}</button>` : ""}
     </div>`;
   return card;
 }
@@ -1159,6 +1308,30 @@ async function handleCardAreaClick(e){
       toast(t().link_copied);
     }catch{
       toast(t().copy_failed);
+    }
+    return;
+  }
+  const favBtn = e.target.closest("[data-fav]");
+  if (favBtn){
+    const id = favBtn.dataset.fav;
+    const p = byId[id];
+    if (favorites.has(id)){
+      favorites.delete(id);
+      delete favSnapshots[id];
+    } else if (p){
+      favorites.add(id);
+      favSnapshots[id] = favSnapshotFor(p);
+    }
+    saveFavorites();
+    saveFavSnapshots();
+    trackEvent("favorite_toggle", { item_id: id, favorited: favorites.has(id) });
+    updateFavoritesLabel();
+    render();
+    // favorites aren't part of PRODUCTS, so a plain render() (grid-only)
+    // leaves an already-open modal showing a stale heart/dot — refresh it
+    // in place when the toggle was clicked from inside the modal itself.
+    if (productModal.classList.contains("open") && productModalBody.querySelector("[data-fav]")?.dataset.fav === id){
+      openProductModal(id, {fromHistory:true});
     }
     return;
   }
@@ -1253,6 +1426,8 @@ function paramsFromState(){
   if(sortOrder !== "newest") p.set("sort", sortOrder);
   if(query.trim()) p.set("q", query.trim());
   if(inStockOnly) p.set("stock", "1");
+  if(bestOfferOnly) p.set("best", "1");
+  if(favoritesOnly) p.set("fav", "1");
   if(priceMin != null) p.set("min", priceMin);
   if(priceMax != null) p.set("max", priceMax);
   return p;
@@ -1265,6 +1440,8 @@ function applyParamsToState(params){
   sortOrder = params.get("sort") || "newest";
   query = params.get("q") || "";
   inStockOnly = params.get("stock") === "1";
+  bestOfferOnly = params.get("best") === "1";
+  favoritesOnly = params.get("fav") === "1";
   priceMin = parsePriceInput(params.get("min"));
   priceMax = parsePriceInput(params.get("max"));
 }
@@ -1275,6 +1452,8 @@ function syncControlsFromState(){
   document.getElementById("priceMin").value = priceMin ?? "";
   document.getElementById("priceMax").value = priceMax ?? "";
   document.getElementById("inStockOnly").checked = inStockOnly;
+  document.getElementById("bestOfferOnly").checked = bestOfferOnly;
+  document.getElementById("favoritesOnly").checked = favoritesOnly;
   refreshFilterPanels();
   // populateBrandFilter() has a side effect: it reads the <select>'s
   // CURRENT (still-stale) DOM value and writes it back into brandFilter,
@@ -1394,10 +1573,12 @@ document.addEventListener("keydown", e => {
 });
 
 function resetFilters(){
-  kindFilter = new Set(); query = ""; storeFilters = new Set(); brandFilter = "all"; inStockOnly = false; priceMin = null; priceMax = null; sizeFilter = "all";
+  kindFilter = new Set(); query = ""; storeFilters = new Set(); brandFilter = "all"; inStockOnly = false; bestOfferOnly = false; favoritesOnly = false; priceMin = null; priceMax = null; sizeFilter = "all";
   document.getElementById("search").value = "";
   document.getElementById("brandFilter").value = "all";
   document.getElementById("inStockOnly").checked = false;
+  document.getElementById("bestOfferOnly").checked = false;
+  document.getElementById("favoritesOnly").checked = false;
   document.getElementById("priceMin").value = "";
   document.getElementById("priceMax").value = "";
   refreshFilterPanels();
@@ -1496,7 +1677,8 @@ filtersToggle.onclick = ()=>{
 };
 sidebarOverlay.onclick = closeSidebar;
 function updateFilterBadge(){
-  const n = [kindFilter.size>0, sizeFilter!=="all", storeFilters.size>0, brandFilter!=="all", sortOrder!=="newest", gridCols!=="auto", inStockOnly, priceMin!=null, priceMax!=null].filter(Boolean).length;
+  updateFavoritesLabel();
+  const n = [kindFilter.size>0, sizeFilter!=="all", storeFilters.size>0, brandFilter!=="all", sortOrder!=="newest", gridCols!=="auto", inStockOnly, bestOfferOnly, favoritesOnly, priceMin!=null, priceMax!=null].filter(Boolean).length;
   const badge = document.getElementById("filterBadge");
   badge.textContent = n;
   badge.hidden = n === 0;
@@ -1505,7 +1687,7 @@ function updateFilterBadge(){
   // which are view preferences it deliberately leaves alone, and not the
   // search box, which already shows its own state) — so the button
   // reliably disappears once there's nothing left for it to do
-  const filtersActive = kindFilter.size>0 || sizeFilter!=="all" || storeFilters.size>0 || brandFilter!=="all" || inStockOnly || priceMin!=null || priceMax!=null;
+  const filtersActive = kindFilter.size>0 || sizeFilter!=="all" || storeFilters.size>0 || brandFilter!=="all" || inStockOnly || bestOfferOnly || priceMin!=null || priceMax!=null;
   document.getElementById("clearFiltersBtn").hidden = !filtersActive;
   renderActiveFiltersBar();
 }
@@ -1532,6 +1714,8 @@ function renderActiveFiltersBar(){
     chips.push({type:"brand", value:brandFilter, label:`${t().label_brand}: ${opt ? opt.textContent : brandFilter}`});
   }
   if(inStockOnly) chips.push({type:"stock", value:"1", label:t().in_stock_only});
+  if(bestOfferOnly) chips.push({type:"best", value:"1", label:t().best_offer_only});
+  if(favoritesOnly) chips.push({type:"fav", value:"1", label:t().favorites_only});
   if(priceMin!=null || priceMax!=null) chips.push({type:"price", value:"price", label:`${t().label_price}: ${priceMin ?? "0"}–${priceMax ?? "∞"}`});
 
   bar.hidden = chips.length===0;
@@ -1565,6 +1749,12 @@ document.getElementById("activeFiltersBar").addEventListener("click", e => {
   }else if(chipType==="stock"){
     inStockOnly = false;
     document.getElementById("inStockOnly").checked = false;
+  }else if(chipType==="best"){
+    bestOfferOnly = false;
+    document.getElementById("bestOfferOnly").checked = false;
+  }else if(chipType==="fav"){
+    favoritesOnly = false;
+    document.getElementById("favoritesOnly").checked = false;
   }else if(chipType==="price"){
     priceMin = null; priceMax = null;
     document.getElementById("priceMin").value = "";
@@ -1590,6 +1780,31 @@ document.getElementById("inStockOnly").addEventListener("change", e => {
   render();
   syncURLState();
   trackEvent("filter_in_stock_only", { enabled: inStockOnly });
+});
+document.getElementById("bestOfferOnly").addEventListener("change", e => {
+  captureScrollState();
+  bestOfferOnly = e.target.checked;
+  updateFilterBadge();
+  render();
+  syncURLState();
+  trackEvent("filter_best_offer_only", { enabled: bestOfferOnly });
+});
+document.getElementById("favoritesOnly").addEventListener("change", e => {
+  captureScrollState();
+  favoritesOnly = e.target.checked;
+  // Opening the favorites view is treated as "checking in" on all of
+  // them — refresh every favorited product's stored snapshot to its
+  // current state so the "changed" dot only ever flags something you
+  // haven't actually looked at since it changed, not something you're
+  // looking at right now.
+  if (favoritesOnly){
+    favorites.forEach(id => { const p = byId[id]; if(p) favSnapshots[id] = favSnapshotFor(p); });
+    saveFavSnapshots();
+  }
+  updateFilterBadge();
+  render();
+  syncURLState();
+  trackEvent("filter_favorites_only", { enabled: favoritesOnly });
 });
 document.getElementById("brandFilterClear").onclick = ()=>{
   captureScrollState();
