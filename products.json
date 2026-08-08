@@ -65142,7 +65142,7 @@
       "id": "herod-edp",
       "name_ar": "HEROD EDP",
       "name_en": "HEROD EDP",
-      "brand": "Marly",
+      "brand": "Parfums de Marly",
       "dupe_of": [],
       "image": "images/herod-edp.jpg",
       "accords": [],
@@ -116708,10 +116708,10 @@
       "_hero_source": "mazaya"
     },
     {
-      "id": "pdm-sedley-edp",
-      "name_ar": "Pdm Sedley EDP",
-      "name_en": "Pdm Sedley EDP",
-      "brand": "Parfum De Marly",
+      "id": "sedley-edp",
+      "name_ar": "Sedley EDP",
+      "name_en": "Sedley EDP",
+      "brand": "Parfums de Marly",
       "dupe_of": [],
       "image": "images/pdm-sedley-edp.jpg",
       "accords": [],
@@ -116743,7 +116743,10 @@
           "product_url": "https://perfuzone-2.myshopify.com/products/pdm-sedley-edp"
         }
       ],
-      "_hero_source": "perfuzone"
+      "_hero_source": "perfuzone",
+      "aliases": [
+        "Pdm Sedley EDP"
+      ]
     },
     {
       "id": "peach-velvet",
@@ -116986,7 +116989,7 @@
       "id": "pegasus-edp",
       "name_ar": "PEGASUS EDP",
       "name_en": "PEGASUS EDP",
-      "brand": "Marly",
+      "brand": "Parfums de Marly",
       "dupe_of": [],
       "image": "images/pegasus-edp.jpg",
       "accords": [],

@@ -37,7 +37,7 @@ import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from extract import slugify, accord_color, find_by_store_url, find_existing_product, unique_id_for, reconcile_offers, is_web_sourced_hero, strip_redundant_brand_suffix, CATALOG  # noqa: E402
+from extract import slugify, accord_color, find_by_store_url, find_existing_product, unique_id_for, reconcile_offers, is_web_sourced_hero, strip_redundant_brand_suffix, canonicalize_new_identity, CATALOG  # noqa: E402
 from rp_notes import translate_note, split_dupe  # noqa: E402
 
 COLLECTION_URLS = [
@@ -300,11 +300,12 @@ def main():
         product = find_by_store_url(catalog, STORE_NAME, info.get("product_url")) \
             or find_existing_product(catalog, name_en, info["brand"])
         if product is None:
+            new_name_en, brand = canonicalize_new_identity(name_en, info["brand"])
             product = {
-                "id": unique_id_for(catalog, name_en, info["brand"]),
+                "id": unique_id_for(catalog, new_name_en, brand),
                 "name_ar": "",
-                "name_en": name_en,
-                "brand": info["brand"],
+                "name_en": new_name_en,
+                "brand": brand,
                 "dupe_of": [info["dupe_of"]] if info["dupe_of"] else [],
                 "image": "",
                 "accords": [

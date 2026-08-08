@@ -43,7 +43,7 @@ import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from extract import slugify, find_by_store_url, find_existing_product, unique_id_for, reconcile_offers, is_web_sourced_hero, strip_redundant_brand_suffix, CATALOG  # noqa: E402
+from extract import slugify, find_by_store_url, find_existing_product, unique_id_for, reconcile_offers, is_web_sourced_hero, strip_redundant_brand_suffix, canonicalize_new_identity, CATALOG  # noqa: E402
 
 STORE_NAME = "mazaya"
 STORE_URL = "https://mazaya.eg/"
@@ -281,11 +281,12 @@ def main():
         product = find_by_store_url(catalog, STORE_NAME, info.get("product_url")) \
             or find_existing_product(catalog, info["name_en"], info["brand"])
         if product is None:
+            name_en, brand = canonicalize_new_identity(info["name_en"], info["brand"])
             product = {
-                "id": unique_id_for(catalog, info["name_en"], info["brand"]),
-                "name_ar": info["name_en"],
-                "name_en": info["name_en"],
-                "brand": info["brand"],
+                "id": unique_id_for(catalog, name_en, brand),
+                "name_ar": name_en,
+                "name_en": name_en,
+                "brand": brand,
                 "dupe_of": [],
                 "image": "",
                 "accords": [],

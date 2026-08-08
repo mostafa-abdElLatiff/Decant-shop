@@ -566,8 +566,16 @@ def to_product(raw: dict, image_rel: str) -> dict:
         }
         for i, n in enumerate(dedupe_notes(raw.get("notes") or []))
     ]
-    brand = raw.get("brand") or ""
-    name_en = strip_tester_suffix(strip_redundant_brand_suffix(raw.get("name_en") or "", brand))
+    # canonicalize_brand() previously only ever ran at MATCH time (inside
+    # find_existing_product/_brands_match) -- it never touched the value
+    # actually written into a new product, so a brand-new product created
+    # from a raw "Parfum De Marly"/"Pdm"/"Marly" spelling got that wrong
+    # spelling stored permanently, with nothing left to ever correct it.
+    # Canonicalizing here means every NEW product is created with the
+    # single canonical spelling from the start, not just matched against
+    # it after the fact.
+    brand = canonicalize_brand(raw.get("brand") or "")
+    name_en = strip_name_abbreviation(strip_tester_suffix(strip_redundant_brand_suffix(raw.get("name_en") or "", brand)), brand)
     name_ar = strip_tester_suffix(strip_redundant_brand_suffix(raw.get("name_ar") or name_en, brand))
     return {
         "id": slugify(name_en or raw.get("name_ar") or ""),
@@ -713,6 +721,46 @@ def _brand_tokens(brand: str) -> set:
 BRAND_NAME_ABBREVIATIONS = {
     "Parfums de Marly": {"pdm"},
 }
+
+
+def strip_name_abbreviation(name_en: str, brand: str) -> str:
+    """Drop a LEADING word from name_en when it's one of that (already-
+    canonicalized) brand's own known abbreviations from
+    BRAND_NAME_ABBREVIATIONS -- "Pdm Greenley EDP" -> "Greenley EDP" once
+    brand has already been canonicalized to "Parfums de Marly". Narrowly
+    scoped to known abbreviations only, unlike a general brand-prefix
+    strip: strip_redundant_brand_suffix() deliberately never strips a
+    prefix at all, because most of the time a leading brand-ish word IS
+    the real product line ("Kenzo Homme EDP" must stay intact) -- this
+    function only fires for a short, explicit whitelist of words that are
+    never a genuine product-line word for that house."""
+    words = BRAND_NAME_ABBREVIATIONS.get(brand)
+    if not words or not name_en:
+        return name_en
+    parts = name_en.split(None, 1)
+    if parts and parts[0].strip(".,-").lower() in words:
+        return parts[1].strip() if len(parts) > 1 else name_en
+    return name_en
+
+
+def canonicalize_new_identity(name_en: str, brand: str) -> tuple:
+    """(name_en, brand) canonicalized for a BRAND-NEW product about to be
+    written to the catalog for the first time.
+
+    Every sync_*.py script scrapes its own store's raw brand/name text
+    and, when find_existing_product() finds no match, writes that raw
+    text straight into a new product dict by hand -- canonicalize_brand()
+    never ran on it, so a listing whose brand read "Parfum De Marly" or
+    "Pdm" (instead of "Parfums de Marly") got that spelling stored
+    permanently the first time it synced, with nothing left to ever
+    correct it afterward (later syncs just re-match the now-existing,
+    still-misspelled product). Call this once, right where each script
+    builds its "if product is None" dict, instead of writing
+    info["name_en"]/info["brand"] directly -- see to_product() in the AI
+    vision pipeline for the equivalent fix on that path."""
+    brand = canonicalize_brand(brand or "")
+    name_en = strip_name_abbreviation(name_en or "", brand)
+    return name_en, brand
 
 
 # Real houses whose name a store's own scrape sometimes renders as a

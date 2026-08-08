@@ -30,7 +30,7 @@ import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from extract import slugify, accord_color, find_by_store_url, find_existing_product, unique_id_for, reconcile_offers, is_web_sourced_hero, CATALOG  # noqa: E402
+from extract import slugify, accord_color, find_by_store_url, find_existing_product, unique_id_for, reconcile_offers, is_web_sourced_hero, canonicalize_new_identity, CATALOG  # noqa: E402
 from brand_prefixes import split_brand_prefix, split_brand_suffix  # noqa: E402
 
 BASE_URL = "https://sniffz-eg.com"
@@ -211,11 +211,12 @@ def main():
                 {"label_en": n, "label_ar": "", "color": accord_color(n), "w": max(40, 100 - i * 10)}
                 for i, n in enumerate(info["notes"])
             ]
+            new_name_en, brand = canonicalize_new_identity(name_en, info["brand"])
             product = {
-                "id": unique_id_for(catalog, name_en, info["brand"]),
+                "id": unique_id_for(catalog, new_name_en, brand),
                 "name_ar": "",
-                "name_en": name_en,
-                "brand": info["brand"],
+                "name_en": new_name_en,
+                "brand": brand,
                 "dupe_of": [info["dupe_of"]] if info["dupe_of"] else [],
                 "image": "",
                 "accords": accords,
