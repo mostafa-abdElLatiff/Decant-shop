@@ -7397,9 +7397,26 @@
           ],
           "image": "images/altha-r--abo-anas-sayed.jpg",
           "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 21250,
+              "first_seen": "2026-07-23"
+            }
+          ],
+          "image": "images/marly-althair-edp--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/marly-althair-edp-125ml"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "MARLY ALTHAIR EDP"
+      ]
     },
     {
       "id": "amaze-him-eau-de-parfum",
@@ -9879,9 +9896,15 @@
               "ml": 10,
               "price": 900,
               "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "leftover",
+              "ml": "as-shown",
+              "price": 4450,
+              "first_seen": "2026-01-01"
             }
           ],
-          "image": "images/ani--mostafa-mohamed.jpg",
+          "image": "images/ani-extrait-de-parfum.jpg",
           "product_url": "https://www.facebook.com/groups/original.perfume.market/posts/27991384253880564/"
         },
         {
@@ -9952,31 +9975,8 @@
       ],
       "_hero_source": "sniffz",
       "aliases": [
+        "Ani Extrait de Parfum",
         "Ani Tester"
-      ]
-    },
-    {
-      "id": "ani-extrait-de-parfum",
-      "name_ar": "Ani Extrait de Parfum",
-      "name_en": "Ani Extrait de Parfum",
-      "brand": "Nishane",
-      "dupe_of": [],
-      "image": "images/ani-extrait-de-parfum.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Mostafa Mohamed",
-          "url": "https://www.facebook.com/mostafa.mohamed.390048/",
-          "offers": [
-            {
-              "kind": "leftover",
-              "ml": "as-shown",
-              "price": 4450,
-              "first_seen": "2026-01-01"
-            }
-          ],
-          "image": "images/ani-extrait-de-parfum.jpg"
-        }
       ]
     },
     {
@@ -28034,18 +28034,7 @@
             }
           ],
           "image": "images/castley--abo-anas-sayed.jpg"
-        }
-      ]
-    },
-    {
-      "id": "castley-edp",
-      "name_ar": "CASTLEY EDP",
-      "name_en": "CASTLEY EDP",
-      "brand": "Marly",
-      "dupe_of": [],
-      "image": "images/castley-edp.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "mazaya",
           "url": "https://mazaya.eg/",
@@ -28062,7 +28051,9 @@
           "product_url": "https://mazaya.eg/en/castley-edp-125ml"
         }
       ],
-      "_hero_source": "mazaya"
+      "aliases": [
+        "CASTLEY EDP"
+      ]
     },
     {
       "id": "cdn-milestone",
@@ -59593,9 +59584,38 @@
           ],
           "image": "images/greenley--eslam-nasser.jpg",
           "product_url": "https://www.facebook.com/groups/720783370622840/posts/901231999244642"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 420,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 840,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 1400,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/pdm-greenley-edp--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/pdm-greenley-edp"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Pdm Greenley EDP"
+      ]
     },
     {
       "id": "grey-diamond-collection",
@@ -94262,58 +94282,6 @@
       "_hero_source": "feel22"
     },
     {
-      "id": "marly-althair-edp",
-      "name_ar": "MARLY ALTHAIR EDP",
-      "name_en": "MARLY ALTHAIR EDP",
-      "brand": "Marly",
-      "dupe_of": [],
-      "image": "images/marly-althair-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 125,
-              "price": 21250,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/marly-althair-edp--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/marly-althair-edp-125ml"
-        }
-      ],
-      "_hero_source": "mazaya"
-    },
-    {
-      "id": "marly-pegasus-exclusif-edp",
-      "name_ar": "MARLY PEGASUS EXCLUSIF EDP",
-      "name_en": "MARLY PEGASUS EXCLUSIF EDP",
-      "brand": "Marly",
-      "dupe_of": [],
-      "image": "images/marly-pegasus-exclusif-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "mazaya",
-          "url": "https://mazaya.eg/",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 125,
-              "price": 25200,
-              "first_seen": "2026-07-23"
-            }
-          ],
-          "image": "images/marly-pegasus-exclusif-edp--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/marly-pegasus-exclusif-edp-125ml"
-        }
-      ],
-      "_hero_source": "mazaya"
-    },
-    {
       "id": "marmara",
       "name_ar": "",
       "name_en": "Marmara",
@@ -116717,82 +116685,6 @@
       "_hero_source": "mazaya"
     },
     {
-      "id": "pdm-greenley-edp",
-      "name_ar": "Pdm Greenley EDP",
-      "name_en": "Pdm Greenley EDP",
-      "brand": "Parfum De Marly",
-      "dupe_of": [],
-      "image": "images/pdm-greenley-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 420,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 840,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 1400,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/pdm-greenley-edp--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/pdm-greenley-edp"
-        }
-      ],
-      "_hero_source": "perfuzone"
-    },
-    {
-      "id": "pdm-pegasus",
-      "name_ar": "Pdm Pegasus",
-      "name_en": "Pdm Pegasus",
-      "brand": "Parfum De Marly",
-      "dupe_of": [],
-      "image": "images/pdm-pegasus.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 420,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 840,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 1400,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/pdm-pegasus--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/pdm-pegasus"
-        }
-      ],
-      "_hero_source": "perfuzone"
-    },
-    {
       "id": "pdm-sedley-edp",
       "name_ar": "Pdm Sedley EDP",
       "name_en": "Pdm Sedley EDP",
@@ -117089,9 +116981,38 @@
           ],
           "image": "images/pegasus-edp--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/pegasus-edp-125mi"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 420,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 840,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 1400,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/pdm-pegasus--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/pdm-pegasus"
         }
       ],
-      "_hero_source": "mazaya"
+      "_hero_source": "mazaya",
+      "aliases": [
+        "Pdm Pegasus"
+      ]
     },
     {
       "id": "pegasus-exclusif-parfum",
@@ -117115,9 +117036,26 @@
           ],
           "image": "images/pegasus-exclusif-parfum--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/parfums-de-marly-pegasus-exclusif-parfum-for-men125ml"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 25200,
+              "first_seen": "2026-07-23"
+            }
+          ],
+          "image": "images/marly-pegasus-exclusif-edp--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/marly-pegasus-exclusif-edp-125ml"
         }
       ],
-      "_hero_source": "feel22"
+      "_hero_source": "feel22",
+      "aliases": [
+        "MARLY PEGASUS EXCLUSIF EDP"
+      ]
     },
     {
       "id": "pendora-scents-clasico-de-profondo",
@@ -117433,18 +117371,7 @@
           ],
           "image": "images/percival--ahmed-abdel-kareem.jpg",
           "product_url": "https://www.facebook.com/groups/original.perfume.market/posts/27840973102255014"
-        }
-      ]
-    },
-    {
-      "id": "percival-edp",
-      "name_ar": "PERCIVAL EDP",
-      "name_en": "PERCIVAL EDP",
-      "brand": "Marly",
-      "dupe_of": [],
-      "image": "images/percival-edp.jpg",
-      "accords": [],
-      "stores": [
+        },
         {
           "name": "mazaya",
           "url": "https://mazaya.eg/",
@@ -117461,7 +117388,9 @@
           "product_url": "https://mazaya.eg/en/percival-edp-125ml"
         }
       ],
-      "_hero_source": "mazaya"
+      "aliases": [
+        "PERCIVAL EDP"
+      ]
     },
     {
       "id": "peregrina",
@@ -149636,41 +149565,6 @@
       ]
     },
     {
-      "id": "toni-iommi-monkey-special",
-      "name_ar": "توني ايومي مونكي سبيشيال (١٠ملي)",
-      "name_en": "Toni Iommi Monkey Special",
-      "brand": "Xerjoff",
-      "dupe_of": [],
-      "image": "images/toni-iommi-monkey-special.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 1350,
-              "first_seen": "2026-07-18"
-            },
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 7750,
-              "first_seen": "2026-07-18"
-            }
-          ],
-          "image": "images/toni-iommi-monkey-special--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/toni-iommi-monkey-50ml%d8%aa%d9%88%d9%86%d9%8a-%d8%a7%d9%8a%d9%88%d9%85%d9%8a-%d9%85%d9%86-%d8%b2%d9%8a%d8%b1%da%86%d9%88%d9%81-%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d9%86%d8%b3%d8%ae%d8%a9-%d9%85%d9%88/"
-        }
-      ],
-      "_hero_source": "eldesoki-fragrances",
-      "aliases": [
-        "Toni Iommi monkey"
-      ]
-    },
-    {
       "id": "tonka-cola",
       "name_ar": "Tonka Cola",
       "name_en": "Tonka Cola",
@@ -150186,9 +150080,33 @@
           ],
           "image": "images/tony-iommi-monkey-special--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/xerjoff-tony-iommi-monkey-special"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 1350,
+              "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 7750,
+              "first_seen": "2026-07-18"
+            }
+          ],
+          "image": "images/toni-iommi-monkey-special--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/toni-iommi-monkey-50ml%d8%aa%d9%88%d9%86%d9%8a-%d8%a7%d9%8a%d9%88%d9%85%d9%8a-%d9%85%d9%86-%d8%b2%d9%8a%d8%b1%da%86%d9%88%d9%81-%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d9%86%d8%b3%d8%ae%d8%a9-%d9%85%d9%88/"
         }
       ],
-      "_hero_source": "sniffz"
+      "_hero_source": "sniffz",
+      "aliases": [
+        "Toni Iommi Monkey Special",
+        "Toni Iommi monkey"
+      ]
     },
     {
       "id": "tooty-musk-al-rehab",

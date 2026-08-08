@@ -682,7 +682,37 @@ def _tokens(text: str) -> set:
 
 
 def _brand_tokens(brand: str) -> set:
-    return _tokens(brand) - BRAND_GENERIC_WORDS
+    """Canonicalizes first (so e.g. "Parfum De Marly" and "Pdm" both
+    reduce to the same token set as "Parfums de Marly" -- previously this
+    ran on the raw, un-canonicalized brand text, so canonicalize_brand()
+    only ever fixed a straight brand-field comparison in _brands_match(),
+    never the name-stripping step in find_existing_product() that also
+    calls this function -- a listing whose name_en carried the brand's
+    OWN abbreviation baked in (a seller's title literally reading "Pdm
+    Greenley EDP") never got that word stripped before the core-token
+    comparison, so it silently created a fresh duplicate every time.
+
+    BRAND_NAME_ABBREVIATIONS extends the resulting token set with any
+    extra abbreviation words known to leak into name_en text for that
+    house specifically (not just its brand field) -- keyed by the
+    post-canonicalization spelling so every raw variant benefits."""
+    canon = canonicalize_brand(brand)
+    tokens = _tokens(canon) - BRAND_GENERIC_WORDS
+    tokens |= BRAND_NAME_ABBREVIATIONS.get(canon, set())
+    return tokens
+
+
+# Brand abbreviations some sellers bake directly into the product NAME
+# text itself, redundant with (and never spelled the same as) the brand
+# field -- e.g. "PDM Greenley EDP" for a Parfums de Marly decant. Left
+# unstripped this is just another word in the name's core-token set,
+# so it never matches the same product listed elsewhere without the
+# prefix. Keyed by the CANONICAL brand name so it applies no matter
+# which raw spelling ("Marly", "Pdm", "Parfum De Marly", ...) the
+# source used for the brand field.
+BRAND_NAME_ABBREVIATIONS = {
+    "Parfums de Marly": {"pdm"},
+}
 
 
 # Real houses whose name a store's own scrape sometimes renders as a
@@ -715,6 +745,15 @@ BRAND_CANONICAL = {
     "abdulsamad alqurashi": "Abdul Samad Al Qurashi",  # NOT the same house as Ibrahim Al Qurashi
     "riiffs": "Riffs",
     "riiffs perfumes": "Riffs",
+    # singular "Parfum" (vs the house's actual plural "Parfums"), the bare
+    # abbreviation "Pdm", and a bare "Marly" all showed up as a listing's
+    # brand field across different stores/sellers for the exact same
+    # house -- each spelling token-mismatched the other two, so every
+    # combination silently created its own duplicate product line
+    # (Greenley, Pegasus, ... each ending up 2-3x in the catalog).
+    "parfum de marly": "Parfums de Marly",
+    "pdm": "Parfums de Marly",
+    "marly": "Parfums de Marly",
 }
 
 
