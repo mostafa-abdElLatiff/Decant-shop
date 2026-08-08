@@ -123444,14 +123444,14 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-08-04",
-              "sold_since": "2026-08-07"
+              "first_seen": "2026-08-04"
             },
             {
               "kind": "leftover",
               "ml": 50,
               "price": 1050,
-              "first_seen": "2026-08-04"
+              "first_seen": "2026-08-04",
+              "sold_since": "2026-08-08"
             },
             {
               "kind": "full",
@@ -123460,7 +123460,7 @@
               "first_seen": "2026-07-18"
             }
           ],
-          "image": "images/prime-26-almas--eldesoki-fragrances.jpg",
+          "image": "images/prime-26--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/prime-26-tester-10ml%d8%a8%d8%b1%d8%a7%d9%8a%d9%85-%d9%a2%d9%a6-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d9%84%d9%85%d8%a7%d8%b3/"
         },
         {
@@ -172620,8 +172620,7 @@
               "kind": "full",
               "ml": 10,
               "price": 1375,
-              "first_seen": "2026-08-07",
-              "prev_price": 1400
+              "first_seen": "2026-08-07"
             }
           ],
           "image": "images/mini-summer-collection-5-ibraq--eldesoki-fragrances.jpg",
@@ -173041,6 +173040,32 @@
         }
       ],
       "_hero_source": "og-perfume"
+    },
+    {
+      "id": "prime-26-almas",
+      "name_ar": "برايم ٢٦ ٥٠ملي من الماس",
+      "name_en": "Prime 26",
+      "brand": "Almas",
+      "dupe_of": [],
+      "image": "images/prime-26-almas.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 1050,
+              "first_seen": "2026-08-08"
+            }
+          ],
+          "image": "images/prime-26-almas--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/prime-26-50ml%d8%a8%d8%b1%d8%a7%d9%8a%d9%85-%d9%a2%d9%a6-%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d9%84%d9%85%d8%a7%d8%b3/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
