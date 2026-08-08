@@ -54117,13 +54117,20 @@
           "offers": [
             {
               "kind": "decant",
+              "ml": 5,
+              "price": 125,
+              "first_seen": "2026-08-08"
+            },
+            {
+              "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-08"
             }
           ],
           "image": "images/frankel-battle--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/assaf-frankel-battle-10ml-175"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/assaf-frankel-battle-5ml-174"
         },
         {
           "name": "eldesoki-fragrances",
@@ -54731,6 +54738,20 @@
           ],
           "image": "images/new-frankel-silver-200-ml--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/assaf-new-frankel-silver-200-ml-635918028105.html"
+        },
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 125,
+              "first_seen": "2026-08-08"
+            }
+          ],
+          "image": "images/frankel-silver-assaf--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/assaf-frankel-silver-5ml-173"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
