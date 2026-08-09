@@ -229,7 +229,6 @@
   .category-badge.cat-designer{background:color-mix(in srgb, #6b8cae 20%, transparent);color:#6b8cae}
   .category-badge.cat-niche{background:color-mix(in srgb, var(--brass) 22%, transparent);color:var(--brass)}
   .category-badge.cat-dupe{background:color-mix(in srgb, var(--olive) 20%, transparent);color:var(--olive-deep)}
-  .category-badge.cat-local{background:color-mix(in srgb, #b06a4f 20%, transparent);color:#b06a4f}
   .name-alt{font-size:.8rem;color:#8A8D7B;direction:ltr;text-align:start}
   .dupe-of,.duped-by{font-size:.78rem;color:var(--brass);font-weight:600}
   .dupe-of a,.duped-by a{color:var(--brass);text-decoration:underline;cursor:pointer;background:none;border:none;font:inherit;min-height:2.75rem;display:inline-flex;align-items:center;padding:0 .2rem;margin:0 -.2rem}
@@ -461,7 +460,7 @@ const I18N = {
     search_ph:"Search by name or brand…",
     filter_all:"All", filter_decant:"Decants", filter_full:"Full bottles", filter_leftover:"Leftovers",
     label_category:"Category",
-    category_designer:"Designer", category_niche:"Niche", category_dupe:"Dupe/inspired-by", category_local:"Local/heritage",
+    category_designer:"Designer", category_niche:"Niche", category_dupe:"Dupe/inspired-by",
     store_all:"All stores", brand_all:"All brands",
     label_store:"Store", label_brand:"Brand", label_sort:"Sort by", label_view:"Per row", filters_label:"Filters",
     label_price:"Price", label_size:"Size", clear_filters_btn:"✕ Clear all filters",
@@ -496,7 +495,7 @@ const I18N = {
     search_ph:"ابحث باسم العطر أو البراند…",
     filter_all:"الكل", filter_decant:"تقسيمات", filter_full:"زجاجات كاملة", filter_leftover:"بواقي تقسيم",
     label_category:"الفئة",
-    category_designer:"ماركة عالمية", category_niche:"نيش", category_dupe:"مستوحى/بديل", category_local:"محلي/تراثي",
+    category_designer:"ماركة عالمية", category_niche:"نيش", category_dupe:"مستوحى/بديل",
     store_all:"كل المتاجر", brand_all:"كل البراندات",
     label_store:"المتجر", label_brand:"البراند", label_sort:"ترتيب حسب", label_view:"في الصف", filters_label:"الفلاتر",
     label_price:"السعر", label_size:"الحجم", clear_filters_btn:"✕ مسح كل الفلاتر",
@@ -584,7 +583,7 @@ let kindFilter = new Set();
 let storeFilters = new Set();
 // Multi-select like kindFilter/storeFilters (a shopper wanting "niche OR
 // dupe" needs both selected at once), values are brand_category()'s own
-// "designer"/"niche"/"dupe"/"local" strings. A product with no category
+// "designer"/"niche"/"dupe" strings. A product with no category
 // (brand not yet classified) simply never matches any category filter.
 let categoryFilter = new Set();
 let brandFilter = "all";
@@ -829,11 +828,11 @@ function refreshFilterPanels(){
   populateCategoryFilter();
 }
 
-const CATEGORY_VALUES = ["designer","niche","dupe","local"];
-const categoryLabel = c => c==="designer" ? t().category_designer : c==="niche" ? t().category_niche : c==="dupe" ? t().category_dupe : t().category_local;
+const CATEGORY_VALUES = ["designer","niche","dupe"];
+const categoryLabel = c => c==="designer" ? t().category_designer : c==="niche" ? t().category_niche : t().category_dupe;
 
 function populateCategoryFilter(){
-  const counts = { all: 0, designer: 0, niche: 0, dupe: 0, local: 0 };
+  const counts = { all: 0, designer: 0, niche: 0, dupe: 0 };
   const opts = { kinds: kindFilter, storeNames: storeFilters, inStockOnly, minPrice: priceMin, maxPrice: priceMax, ml: sizeFilter==="all" ? null : Number(sizeFilter) };
   PRODUCTS.forEach(p => {
     if(!productMatchesBrand(p)) return;
