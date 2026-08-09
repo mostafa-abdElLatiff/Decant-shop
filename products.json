@@ -31906,21 +31906,21 @@
               "ml": 3,
               "price": 125,
               "first_seen": "2026-08-03",
-              "sold_since": "2026-08-08"
+              "sold_since": "2026-08-09"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 165,
               "first_seen": "2026-08-03",
-              "sold_since": "2026-08-08"
+              "sold_since": "2026-08-09"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 250,
               "first_seen": "2026-08-03",
-              "sold_since": "2026-08-08"
+              "sold_since": "2026-08-09"
             },
             {
               "kind": "full",
@@ -32964,8 +32964,9 @@
             {
               "kind": "full",
               "ml": 105,
-              "price": 2000,
-              "first_seen": "2026-08-03"
+              "price": 1800,
+              "first_seen": "2026-08-03",
+              "prev_price": 2000
             }
           ],
           "image": "images/club-de-nuit-urban-man-elixir--sniffz.jpg",
@@ -43631,21 +43632,21 @@
               "ml": 3,
               "price": 300,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-08-08"
+              "sold_since": "2026-08-09"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 410,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-08-08"
+              "sold_since": "2026-08-09"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 650,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-08-08"
+              "sold_since": "2026-08-09"
             },
             {
               "kind": "full",
@@ -72129,27 +72130,6 @@
           "name": "sniffz",
           "url": "https://sniffz-eg.com/",
           "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 275,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-08-02"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 380,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-08-02"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 600,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-08-02"
-            },
             {
               "kind": "full",
               "ml": 90,
@@ -145830,7 +145810,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2550,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-09"
             }
           ],
           "image": "images/supremacy-collector-s-edition--sniffz.jpg",
