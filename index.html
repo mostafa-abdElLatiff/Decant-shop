@@ -95,8 +95,20 @@
   .size-subfilter{margin-top:.5rem;margin-inline-start:.9rem;padding-inline-start:.8rem;border-inline-start:2px solid var(--line)}
   .size-subfilter-label{font-size:.7rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--olive);margin-top:.6rem}
   .size-subfilter .filter-list{max-height:180px}
-  .stock-toggle{display:flex;align-items:center;gap:.55rem;font-size:.85rem;font-weight:600;color:var(--ink);cursor:pointer;user-select:none;padding:.4rem 0}
-  .stock-toggle input{width:16px;height:16px;accent-color:var(--olive);cursor:pointer;flex:none}
+  /* Grouped as a single labeled block (border + heading) so the three
+     quick toggles read as one deliberate set instead of loose stray
+     controls, and styled as pressable chips matching .filter-row's
+     aria-pressed language instead of bare checkboxes. */
+  .quick-filters{display:flex;flex-direction:column;gap:.4rem;padding-bottom:1.05rem;border-bottom:1px solid var(--line)}
+  .quick-filters-label{font-weight:700;font-size:.78rem;letter-spacing:.07em;text-transform:uppercase;color:var(--olive)}
+  .quick-filter-chip{display:flex;align-items:center;gap:.6rem;width:100%;text-align:start;background:none;border:1.5px solid var(--line);border-radius:8px;padding:.55rem .7rem;font-family:inherit;font-size:.85rem;font-weight:600;color:var(--ink);cursor:pointer;user-select:none;transition:border-color .15s,background .15s,color .15s;min-height:2.75rem}
+  .quick-filter-chip:hover{border-color:var(--olive)}
+  .quick-filter-chip:focus-visible{outline:3px solid var(--brass);outline-offset:1px}
+  .quick-filter-chip[aria-pressed="true"]{border-color:var(--olive);background:color-mix(in srgb, var(--olive) 14%, transparent);color:var(--olive-deep)}
+  .qf-check{width:16px;height:16px;border-radius:4px;border:1.5px solid var(--olive);flex:none;display:flex;align-items:center;justify-content:center;transition:background .15s}
+  .qf-check::after{content:"✓";font-size:.65rem;line-height:1;color:#12140D;opacity:0;transition:opacity .15s}
+  .quick-filter-chip[aria-pressed="true"] .qf-check{background:var(--olive)}
+  .quick-filter-chip[aria-pressed="true"] .qf-check::after{opacity:1}
   .filter-row{display:flex;align-items:center;justify-content:space-between;gap:.6rem;padding:.6rem .5rem;font-size:.85rem;font-weight:500;color:var(--ink);cursor:pointer;border-radius:6px;background:none;border:none;font-family:inherit;width:100%;text-align:start}
   .filter-row:hover{color:var(--olive-deep)}
   .filter-row[aria-pressed="true"]{color:var(--olive-deep);font-weight:700}
@@ -323,20 +335,21 @@
 
     <button class="clear-filters-btn" id="clearFiltersBtn" hidden></button>
 
-    <label class="stock-toggle">
-      <input type="checkbox" id="inStockOnly">
-      <span id="inStockOnlyLabel"></span>
-    </label>
-
-    <label class="stock-toggle">
-      <input type="checkbox" id="bestOfferOnly">
-      <span id="bestOfferOnlyLabel"></span>
-    </label>
-
-    <label class="stock-toggle">
-      <input type="checkbox" id="favoritesOnly">
-      <span id="favoritesOnlyLabel"></span>
-    </label>
+    <div class="quick-filters">
+      <div class="quick-filters-label" id="quickFiltersLabel"></div>
+      <button type="button" class="quick-filter-chip" id="inStockOnly" aria-pressed="false">
+        <span class="qf-check" aria-hidden="true"></span>
+        <span id="inStockOnlyLabel"></span>
+      </button>
+      <button type="button" class="quick-filter-chip" id="bestOfferOnly" aria-pressed="false">
+        <span class="qf-check" aria-hidden="true"></span>
+        <span id="bestOfferOnlyLabel"></span>
+      </button>
+      <button type="button" class="quick-filter-chip" id="favoritesOnly" aria-pressed="false">
+        <span class="qf-check" aria-hidden="true"></span>
+        <span id="favoritesOnlyLabel"></span>
+      </button>
+    </div>
 
     <details class="filter-section" open>
       <summary id="kindLabel"></summary>
@@ -465,6 +478,7 @@ const I18N = {
     store_all:"All stores", brand_all:"All brands",
     label_store:"Store", label_brand:"Brand", label_sort:"Sort by", label_view:"Per row", filters_label:"Filters",
     label_price:"Price", label_size:"Size", clear_filters_btn:"✕ Clear all filters",
+    label_quick_filters:"Quick filters",
     in_stock_only:"In stock only",
     best_offer_only:"Best offer only",
     best_offer_from:"from",
@@ -500,6 +514,7 @@ const I18N = {
     store_all:"كل المتاجر", brand_all:"كل البراندات",
     label_store:"المتجر", label_brand:"البراند", label_sort:"ترتيب حسب", label_view:"في الصف", filters_label:"الفلاتر",
     label_price:"السعر", label_size:"الحجم", clear_filters_btn:"✕ مسح كل الفلاتر",
+    label_quick_filters:"فلاتر سريعة",
     in_stock_only:"المتوفر فقط",
     best_offer_only:"أفضل عرض فقط",
     best_offer_from:"من",
@@ -1046,9 +1061,9 @@ async function load(){
     document.getElementById("search").value = query;
     document.getElementById("priceMin").value = priceMin ?? "";
     document.getElementById("priceMax").value = priceMax ?? "";
-    document.getElementById("inStockOnly").checked = inStockOnly;
-    document.getElementById("bestOfferOnly").checked = bestOfferOnly;
-    document.getElementById("favoritesOnly").checked = favoritesOnly;
+    document.getElementById("inStockOnly").setAttribute("aria-pressed", inStockOnly);
+    document.getElementById("bestOfferOnly").setAttribute("aria-pressed", bestOfferOnly);
+    document.getElementById("favoritesOnly").setAttribute("aria-pressed", favoritesOnly);
     applyI18n();
     render();
     syncCart(); // re-resolve any cart restored from localStorage now that PRODUCTS is populated
@@ -1082,6 +1097,7 @@ function applyI18n(){
   document.getElementById("siteFooter").innerHTML = t().footer_note;
   document.getElementById("kindLabel").textContent = t().label_kind;
   document.getElementById("categoryFilterLabel").textContent = t().label_category;
+  document.getElementById("quickFiltersLabel").textContent = t().label_quick_filters;
   document.getElementById("inStockOnlyLabel").textContent = t().in_stock_only;
   document.getElementById("bestOfferOnlyLabel").textContent = t().best_offer_only;
   updateFavoritesLabel();
@@ -1512,9 +1528,9 @@ function syncControlsFromState(){
   document.getElementById("search").value = query;
   document.getElementById("priceMin").value = priceMin ?? "";
   document.getElementById("priceMax").value = priceMax ?? "";
-  document.getElementById("inStockOnly").checked = inStockOnly;
-  document.getElementById("bestOfferOnly").checked = bestOfferOnly;
-  document.getElementById("favoritesOnly").checked = favoritesOnly;
+  document.getElementById("inStockOnly").setAttribute("aria-pressed", inStockOnly);
+  document.getElementById("bestOfferOnly").setAttribute("aria-pressed", bestOfferOnly);
+  document.getElementById("favoritesOnly").setAttribute("aria-pressed", favoritesOnly);
   refreshFilterPanels();
   // populateBrandFilter() has a side effect: it reads the <select>'s
   // CURRENT (still-stale) DOM value and writes it back into brandFilter,
@@ -1637,9 +1653,9 @@ function resetFilters(){
   kindFilter = new Set(); query = ""; storeFilters = new Set(); categoryFilter = new Set(); brandFilter = "all"; inStockOnly = false; bestOfferOnly = false; favoritesOnly = false; priceMin = null; priceMax = null; sizeFilter = "all";
   document.getElementById("search").value = "";
   document.getElementById("brandFilter").value = "all";
-  document.getElementById("inStockOnly").checked = false;
-  document.getElementById("bestOfferOnly").checked = false;
-  document.getElementById("favoritesOnly").checked = false;
+  document.getElementById("inStockOnly").setAttribute("aria-pressed", "false");
+  document.getElementById("bestOfferOnly").setAttribute("aria-pressed", "false");
+  document.getElementById("favoritesOnly").setAttribute("aria-pressed", "false");
   document.getElementById("priceMin").value = "";
   document.getElementById("priceMax").value = "";
   refreshFilterPanels();
@@ -1812,13 +1828,13 @@ document.getElementById("activeFiltersBar").addEventListener("click", e => {
     document.getElementById("brandFilter").value = "all";
   }else if(chipType==="stock"){
     inStockOnly = false;
-    document.getElementById("inStockOnly").checked = false;
+    document.getElementById("inStockOnly").setAttribute("aria-pressed", "false");
   }else if(chipType==="best"){
     bestOfferOnly = false;
-    document.getElementById("bestOfferOnly").checked = false;
+    document.getElementById("bestOfferOnly").setAttribute("aria-pressed", "false");
   }else if(chipType==="fav"){
     favoritesOnly = false;
-    document.getElementById("favoritesOnly").checked = false;
+    document.getElementById("favoritesOnly").setAttribute("aria-pressed", "false");
   }else if(chipType==="price"){
     priceMin = null; priceMax = null;
     document.getElementById("priceMin").value = "";
@@ -1836,26 +1852,29 @@ document.getElementById("activeFiltersBar").addEventListener("click", e => {
   syncURLState();
   trackEvent("active_filter_chip_remove", { type: chipType, value: chipValue });
 });
-document.getElementById("inStockOnly").addEventListener("change", e => {
+document.getElementById("inStockOnly").addEventListener("click", e => {
   captureScrollState();
-  inStockOnly = e.target.checked;
+  inStockOnly = !inStockOnly;
+  e.currentTarget.setAttribute("aria-pressed", inStockOnly);
   refreshFilterPanels();
   updateFilterBadge();
   render();
   syncURLState();
   trackEvent("filter_in_stock_only", { enabled: inStockOnly });
 });
-document.getElementById("bestOfferOnly").addEventListener("change", e => {
+document.getElementById("bestOfferOnly").addEventListener("click", e => {
   captureScrollState();
-  bestOfferOnly = e.target.checked;
+  bestOfferOnly = !bestOfferOnly;
+  e.currentTarget.setAttribute("aria-pressed", bestOfferOnly);
   updateFilterBadge();
   render();
   syncURLState();
   trackEvent("filter_best_offer_only", { enabled: bestOfferOnly });
 });
-document.getElementById("favoritesOnly").addEventListener("change", e => {
+document.getElementById("favoritesOnly").addEventListener("click", e => {
   captureScrollState();
-  favoritesOnly = e.target.checked;
+  favoritesOnly = !favoritesOnly;
+  e.currentTarget.setAttribute("aria-pressed", favoritesOnly);
   // Opening the favorites view is treated as "checking in" on all of
   // them — refresh every favorited product's stored snapshot to its
   // current state so the "changed" dot only ever flags something you
