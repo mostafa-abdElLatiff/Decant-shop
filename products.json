@@ -30789,36 +30789,6 @@
       "category": "designer"
     },
     {
-      "id": "classic-blue-edt-100ml",
-      "name_ar": "",
-      "name_en": "Classic Blue EDT",
-      "brand": "Jaguar",
-      "dupe_of": [],
-      "image": "images/classic-blue-edt-100ml.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "faces",
-          "url": "https://www.faces.eg/en/perfume-for-men",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2500,
-              "first_seen": "2026-08-01"
-            }
-          ],
-          "image": "images/classic-blue-edt-100ml--faces.jpg",
-          "product_url": "https://www.faces.eg/en/p/jaguar-classic-blue-edt-100ml-eaudetoilette-088714430452.html"
-        }
-      ],
-      "_hero_source": "faces",
-      "aliases": [
-        "Classic Blue EDT 100ML"
-      ],
-      "category": "designer"
-    },
-    {
       "id": "classic-eau-de-toilette",
       "name_ar": "Classic Eau de Toilette",
       "name_en": "Classic Eau de Toilette",
@@ -30867,10 +30837,28 @@
           ],
           "image": "images/classic-eau-de-toilette-jaguar--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/jaguar-classic-eau-de-toilette-for-men-100ml"
+        },
+        {
+          "name": "faces",
+          "url": "https://www.faces.eg/en/perfume-for-men",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2500,
+              "first_seen": "2026-08-01"
+            }
+          ],
+          "image": "",
+          "product_url": "https://www.faces.eg/en/p/jaguar-classic-blue-edt-100ml-eaudetoilette-088714430452.html"
         }
       ],
       "_hero_source": "feel22",
-      "category": "designer"
+      "category": "designer",
+      "aliases": [
+        "Classic Blue EDT",
+        "Classic Blue EDT 100ML"
+      ]
     },
     {
       "id": "classic-elite-eau-de-parfum",
