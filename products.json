@@ -13810,7 +13810,8 @@
               "kind": "full",
               "ml": 200,
               "price": 2600,
-              "first_seen": "2026-08-03"
+              "first_seen": "2026-08-03",
+              "sold_since": "2026-08-09"
             }
           ],
           "image": "images/arrogate-pink-diva--og-perfume.jpg",
@@ -145718,14 +145719,17 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 225,
-              "first_seen": "2026-07-19"
+              "price": 220,
+              "first_seen": "2026-07-19",
+              "prev_price": 225,
+              "sold_since": "2026-08-09"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 625,
-              "first_seen": "2026-07-31"
+              "first_seen": "2026-07-31",
+              "sold_since": "2026-08-09"
             },
             {
               "kind": "leftover",
@@ -145745,11 +145749,12 @@
               "kind": "full",
               "ml": 150,
               "price": 2900,
-              "first_seen": "2026-07-31"
+              "first_seen": "2026-07-31",
+              "sold_since": "2026-08-09"
             }
           ],
           "image": "images/supremacy-not-only-intense--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/supremacy-not-only-intense"
+          "product_url": "https://og-perfume.com/products/afnan-supremacy-not-only-intense"
         },
         {
           "name": "eldesoki-fragrances",
