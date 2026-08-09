@@ -35,7 +35,7 @@ import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from extract import slugify, find_by_store_url, find_existing_product, unique_id_for, reconcile_offers, is_web_sourced_hero, strip_redundant_brand_suffix, canonicalize_new_identity, CATALOG  # noqa: E402
+from extract import slugify, find_by_store_url, find_existing_product, unique_id_for, reconcile_offers, is_web_sourced_hero, strip_redundant_brand_suffix, canonicalize_new_identity, brand_category, CATALOG  # noqa: E402
 from brand_prefixes import split_brand_prefix  # noqa: E402
 
 STORE_NAME = "feel22"
@@ -232,6 +232,7 @@ def main():
                 "name_ar": name_en,
                 "name_en": name_en,
                 "brand": brand,
+                "category": brand_category(brand),
                 "dupe_of": [],
                 "image": "",
                 "accords": [],

@@ -48,7 +48,7 @@ from http.cookiejar import CookieJar
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from extract import slugify, find_by_store_url, find_existing_product, unique_id_for, reconcile_offers, is_web_sourced_hero, canonicalize_new_identity, CATALOG  # noqa: E402
+from extract import slugify, find_by_store_url, find_existing_product, unique_id_for, reconcile_offers, is_web_sourced_hero, canonicalize_new_identity, brand_category, CATALOG  # noqa: E402
 
 BASE_URL = "https://www.faces.eg"
 CATEGORY_PATH = "/en/perfume-for-men"
@@ -284,7 +284,7 @@ def main():
             name_en, brand = canonicalize_new_identity(info["name_en"], info["brand"])
             product = {
                 "id": unique_id_for(catalog, name_en, brand),
-                "name_ar": "", "name_en": name_en, "brand": brand,
+                "name_ar": "", "name_en": name_en, "brand": brand, "category": brand_category(brand),
                 "dupe_of": [], "image": "", "accords": [], "stores": [],
             }
             catalog["products"].append(product)
