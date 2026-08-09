@@ -174,14 +174,32 @@ def parse_product(p: dict, kind: str):
     ml_matches = list(ML_RE.finditer(name_en))
     if not ml_matches:
         return None
-    last = ml_matches[-1]
+    # "Main 100ml + 10ml" bundle listings mention TWO sizes but the price
+    # is for the whole bundle -- the trailing "+Nml" is a gift/refill
+    # add-on, not the size actually being priced. Confirmed via two real
+    # listings that broke this: "Club De Nuit Sillage 250ml + 5ml" (3750
+    # EGP wrongly tagged ml=5 -> a bogus 750 EGP/ml "5ml" offer) and
+    # "Vintage Tobacco (100ml +10ml)" (2300 EGP wrongly tagged ml=10 -> a
+    # bogus 230 EGP/ml "10ml" offer) -- both flagged by a price-per-ml
+    # divergence audit against every other store's price for the same
+    # product. When a "+" sits between two size matches, use the FIRST
+    # (the size the price is actually for) instead of the last.
+    is_bundle = len(ml_matches) > 1 and "+" in name_en[ml_matches[0].end():ml_matches[1].start()]
+    if is_bundle:
+        last = ml_matches[0]
+        strip_start, strip_end = ml_matches[0].start(), ml_matches[1].end()
+    else:
+        last = ml_matches[-1]
+        strip_start, strip_end = last.start(), last.end()
     ml = int(last.group(1))
     # strip the matched size (wherever it falls — start, middle, or end) out
     # of the display name, e.g. "Mexican Tobacco (20ml)" -> "Mexican
     # Tobacco", "External Club 200ML MPF" -> "External Club MPF" — otherwise
     # the size stays baked into name_en and breaks matching against this
-    # same fragrance already in the catalog under its plain name.
-    name_en = name_en[:last.start()] + name_en[last.end():]
+    # same fragrance already in the catalog under its plain name. For a
+    # bundle, strip the WHOLE "100ml + 10ml" span, not just the first
+    # match, or the "+ 10ml" remnant stays stuck in the name.
+    name_en = name_en[:strip_start] + name_en[strip_end:]
     name_en = re.sub(r"[()]", "", name_en)
     name_en = re.sub(r"\s+", " ", name_en).strip()
     if not name_en:
