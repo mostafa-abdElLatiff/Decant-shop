@@ -223,6 +223,7 @@
   .card-title-btn{background:none;border:none;padding:.7rem 0;margin:-.7rem 0;min-height:2.75rem;display:flex;align-items:center;font:inherit;color:inherit;text-align:start;cursor:pointer}
   .card-title-btn:hover{text-decoration:underline}
   .card-brand-row{display:flex;align-items:center;gap:.4rem;margin:0 0 -.9rem;flex-wrap:wrap}
+  .card-brand-row.no-brand{margin-bottom:0}
   .card-brand{align-self:flex-start;background:none;border:none;color:var(--olive);font-family:inherit;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;cursor:pointer;min-height:2.75rem;display:flex;align-items:center;padding:0 .2rem;margin:0 -.2rem;direction:ltr}
   .card-brand:hover{text-decoration:underline}
   .category-badge{font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;padding:.2rem .5rem;border-radius:20px;line-height:1.5;white-space:nowrap}
@@ -1286,7 +1287,7 @@ function buildCardEl(p, {expanded=false}={}){
       <button class="card-fav" data-fav="${p.id}" aria-pressed="${favorites.has(p.id)}" aria-label="${favorites.has(p.id) ? t().remove_favorite : t().add_favorite}" title="${favorites.has(p.id) ? t().remove_favorite : t().add_favorite}">${favorites.has(p.id) ? "♥" : "♡"}${favorites.has(p.id) && hasFavChanged(p) ? `<span class="fav-changed-dot"></span>` : ""}</button>
     </div>
     <div class="card-body">
-      <div class="card-brand-row">
+      <div class="card-brand-row${p.brand ? "" : " no-brand"}">
         ${p.brand ? `<button class="card-brand" data-brand-jump="${p.brand}">${p.brand}</button>` : ""}
         ${p.category ? `<span class="category-badge cat-${p.category}">${categoryLabel(p.category)}</span>` : ""}
       </div>
