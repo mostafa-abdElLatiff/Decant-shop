@@ -2243,7 +2243,7 @@
             }
           ],
           "image": "images/9pm-night-out--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "sniffz",
@@ -3617,10 +3617,16 @@
               "ml": 10,
               "price": 300,
               "first_seen": "2026-08-06"
+            },
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 4100,
+              "first_seen": "2026-08-10"
             }
           ],
           "image": "images/acqua-di-gi-parfum--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2124739308419974"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "sniffz",
@@ -3732,7 +3738,7 @@
             }
           ],
           "image": "images/acqua-di-gi-profondo--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         },
         {
           "name": "faces",
@@ -6658,7 +6664,7 @@
             }
           ],
           "image": "images/alexandria-ii--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2124739308419974"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         },
         {
           "name": "Mohamed Mohie",
@@ -7639,7 +7645,7 @@
             }
           ],
           "image": "images/altha-r--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         },
         {
           "name": "mazaya",
@@ -8716,7 +8722,7 @@
             }
           ],
           "image": "images/ambre-sultan--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "perfuzone",
@@ -10350,7 +10356,8 @@
               "first_seen": "2026-08-01"
             }
           ],
-          "image": "images/ani-x--abo-anas-sayed.jpg"
+          "image": "images/ani-x--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         },
         {
           "name": "Hossam ElDeen Gamal",
@@ -14665,7 +14672,7 @@
             }
           ],
           "image": "images/artisan-pure--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         },
         {
           "name": "Ahmed Abdel Kareem",
@@ -21300,12 +21307,12 @@
               "kind": "full",
               "ml": 100,
               "price": 2700,
-              "note": "tester",
+              "tester": true,
               "first_seen": "2026-07-30"
             }
           ],
           "image": "images/black-aoud--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "perfuzone",
@@ -23292,7 +23299,22 @@
       "dupe_of": [],
       "image": "images/blu-mediterraneo-bergamotto-di-calabria.jpg",
       "accords": [],
-      "stores": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": "as-shown",
+              "price": 4200,
+              "first_seen": "2026-08-10"
+            }
+          ],
+          "image": "images/blu-mediterraneo-bergamotto-di-calabria--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
+        }
+      ],
       "_hero_source": "Mohamed Mohie",
       "category": "niche"
     },
@@ -23312,11 +23334,18 @@
             {
               "kind": "full",
               "ml": "as-shown",
+              "price": 5900,
+              "first_seen": "2026-08-10"
+            },
+            {
+              "kind": "full",
+              "ml": "as-shown",
               "price": 3900,
               "first_seen": "2026-08-01"
             }
           ],
-          "image": "images/blu-mediterraneo-mandarino-di-sicilia--abo-anas-sayed.jpg"
+          "image": "images/blu-mediterraneo-mandarino-di-sicilia--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "Mohamed Mohie",
@@ -23342,7 +23371,8 @@
               "first_seen": "2026-08-01"
             }
           ],
-          "image": "images/blu-mediterraneo-mandorlo-di-sicilia--abo-anas-sayed.jpg"
+          "image": "images/blu-mediterraneo-mandorlo-di-sicilia--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "Abo Anas Sayed",
@@ -23364,6 +23394,12 @@
             {
               "kind": "full",
               "ml": "as-shown",
+              "price": 6200,
+              "first_seen": "2026-08-10"
+            },
+            {
+              "kind": "full",
+              "ml": "as-shown",
               "price": 6300,
               "first_seen": "2026-08-01"
             },
@@ -23374,7 +23410,8 @@
               "first_seen": "2026-08-01"
             }
           ],
-          "image": "images/blu-mediterraneo-mirto-di-panarea--abo-anas-sayed.jpg"
+          "image": "images/blu-mediterraneo-mirto-di-panarea--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "Mohamed Mohie",
@@ -28359,7 +28396,7 @@
             }
           ],
           "image": "images/carlisle--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         },
         {
           "name": "perfuzone",
@@ -28829,11 +28866,12 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 9990,
+              "price": 10500,
               "first_seen": "2026-07-30"
             }
           ],
-          "image": "images/castley--abo-anas-sayed.jpg"
+          "image": "images/castley--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         },
         {
           "name": "mazaya",
@@ -29004,12 +29042,11 @@
               "kind": "full",
               "ml": 120,
               "price": 3900,
-              "note": "Extrait de Parfum",
               "first_seen": "2026-08-01"
             }
           ],
           "image": "images/cedrat-boise-intense--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -32327,32 +32364,23 @@
               "kind": "full",
               "ml": 105,
               "price": 1650,
-              "note": "Eau de Toilette",
               "first_seen": "2026-08-01"
             },
             {
               "kind": "full",
               "ml": 150,
               "price": 2700,
-              "note": "Parfum",
               "first_seen": "2026-08-06"
             },
             {
               "kind": "full",
               "ml": 200,
               "price": 2900,
-              "note": "Eau de Parfum",
               "first_seen": "2026-07-30"
-            },
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 2900,
-              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/club-de-nuit-intense-man--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         },
         {
           "name": "EsLam Nasser",
@@ -33115,7 +33143,7 @@
             }
           ],
           "image": "images/club-de-nuit-sillage--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         },
         {
           "name": "sniffz",
@@ -33890,7 +33918,7 @@
             }
           ],
           "image": "images/coffee-break-golden-moka--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "Abo Anas Sayed",
@@ -34135,12 +34163,19 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 100,
+              "price": 4900,
+              "first_seen": "2026-08-10"
+            },
+            {
+              "kind": "full",
               "ml": "as-shown",
               "price": 4900,
               "first_seen": "2026-08-01"
             }
           ],
-          "image": "images/colonia-c-l-u-b--abo-anas-sayed.jpg"
+          "image": "images/colonia-c-l-u-b--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         },
         {
           "name": "Hossam ElDeen Gamal",
@@ -34281,12 +34316,19 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 100,
+              "price": 4100,
+              "first_seen": "2026-08-10"
+            },
+            {
+              "kind": "full",
               "ml": "as-shown",
               "price": 4100,
               "first_seen": "2026-08-01"
             }
           ],
-          "image": "images/colonia-pura--abo-anas-sayed.jpg"
+          "image": "images/colonia-pura--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "faces",
@@ -38500,7 +38542,8 @@
               "first_seen": "2026-07-30"
             }
           ],
-          "image": "images/decision--abo-anas-sayed.jpg"
+          "image": "images/decision--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "sniffz",
@@ -39112,12 +39155,11 @@
               "kind": "full",
               "ml": 75,
               "price": 10600,
-              "note": "Parfum",
               "first_seen": "2026-07-30"
             }
           ],
           "image": "images/delina-exclusif--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "Abo Anas Sayed",
@@ -46173,7 +46215,8 @@
               "first_seen": "2026-07-30"
             }
           ],
-          "image": "images/elsewhere--abo-anas-sayed.jpg"
+          "image": "images/elsewhere--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "category": "niche"
@@ -48061,7 +48104,7 @@
             }
           ],
           "image": "images/encre-indigo--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "Abo Anas Sayed",
@@ -48963,7 +49006,7 @@
             }
           ],
           "image": "images/erba-pura--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "aliases": [
@@ -49616,10 +49659,8 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2650,
-              "note": "tester; pour homme",
-              "first_seen": "2026-07-30",
-              "prev_price": 3300
+              "price": 3300,
+              "first_seen": "2026-07-30"
             },
             {
               "kind": "full",
@@ -49630,7 +49671,7 @@
             }
           ],
           "image": "images/eros-flame--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "sniffz",
@@ -50743,7 +50784,7 @@
             }
           ],
           "image": "images/etruscan-water--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "Abo Anas Sayed",
@@ -59244,6 +59285,20 @@
           ],
           "image": "images/giorgio-armani-acqua-di-gio-eau-de-parfum--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/acqua-di-gio-eau-de-parfum-men-perfume"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 3900,
+              "first_seen": "2026-08-10"
+            }
+          ],
+          "image": "images/giorgio-armani-acqua-di-gio-eau-de-parfum--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "feel22",
@@ -61744,7 +61799,7 @@
             }
           ],
           "image": "images/guerlain-homme-eau-de-parfum--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "aliases": [
@@ -62056,6 +62111,20 @@
           ],
           "image": "images/guidance-46--mostafa-mohamed.jpg",
           "product_url": "https://www.facebook.com/groups/original.perfume.market/posts/27991384253880564/"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": "as-shown",
+              "price": 23500,
+              "first_seen": "2026-08-10"
+            }
+          ],
+          "image": "images/guidance-46--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -64185,13 +64254,11 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "note": "dupe of Imperial Valley Gissah",
-              "first_seen": "2026-07-30",
-              "prev_price": 1800
+              "first_seen": "2026-07-30"
             }
           ],
           "image": "images/hawas-fire--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         },
         {
           "name": "emaratiscents",
@@ -64492,12 +64559,11 @@
               "kind": "full",
               "ml": 100,
               "price": 1450,
-              "note": "dupe of Hacivat",
               "first_seen": "2026-08-06"
             }
           ],
           "image": "images/hawas-for-him-black--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -64933,12 +64999,11 @@
               "kind": "full",
               "ml": 100,
               "price": 1600,
-              "note": "dupe of Le Beau Le Parfum",
               "first_seen": "2026-07-30"
             }
           ],
           "image": "images/hawas-for-him-malibu--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         },
         {
           "name": "sniffz",
@@ -65369,12 +65434,11 @@
               "kind": "full",
               "ml": 100,
               "price": 1800,
-              "note": "dupe of Brompton Immortals Ex Nihilo",
               "first_seen": "2026-08-06"
             }
           ],
           "image": "images/hawas-london--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -65655,12 +65719,11 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "note": "dupe of Le Beau Paradise Garden",
               "first_seen": "2026-07-30"
             }
           ],
           "image": "images/hawas-tropical--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         },
         {
           "name": "dar.elarabia",
@@ -65882,12 +65945,11 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "note": "dupe of Black Afgano",
               "first_seen": "2026-07-30"
             }
           ],
           "image": "images/hawas-viper--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "sniffz",
@@ -66024,12 +66086,11 @@
               "kind": "full",
               "ml": 100,
               "price": 10300,
-              "note": "K collection",
               "first_seen": "2026-07-30"
             }
           ],
           "image": "images/hayat--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "mazaya",
@@ -72731,7 +72792,8 @@
               "first_seen": "2026-08-01"
             }
           ],
-          "image": "images/interlude-53-man--abo-anas-sayed.jpg"
+          "image": "images/interlude-53-man--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         },
         {
           "name": "mazaya",
@@ -72877,7 +72939,8 @@
               "first_seen": "2026-08-01"
             }
           ],
-          "image": "images/interlude--abo-anas-sayed.jpg"
+          "image": "images/interlude-man--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -79172,7 +79235,6 @@
               "kind": "full",
               "ml": 110,
               "price": 3200,
-              "note": "Eau de Parfum",
               "first_seen": "2026-07-30"
             },
             {
@@ -79184,7 +79246,7 @@
             }
           ],
           "image": "images/kenzo-homme-eau-de-parfum--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         },
         {
           "name": "faces",
@@ -79343,7 +79405,7 @@
             }
           ],
           "image": "images/kenzo-homme-indigo--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "MO Shawky",
@@ -83546,7 +83608,7 @@
             }
           ],
           "image": "images/l-homme-id-al--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         },
         {
           "name": "Ahmed Abdel Kareem",
@@ -87750,6 +87812,20 @@
           ],
           "image": "images/lalique-pour-homme--mostafa-mohamed.jpg",
           "product_url": "https://www.facebook.com/groups/original.perfume.market/posts/28005206722498317/"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 1600,
+              "first_seen": "2026-08-10"
+            }
+          ],
+          "image": "images/lalique-pour-homme--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "category": "niche"
@@ -88480,7 +88556,7 @@
             }
           ],
           "image": "images/layton--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "sniffz",
@@ -88554,13 +88630,12 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 10200,
-              "first_seen": "2026-07-30",
-              "prev_price": 11800
+              "price": 11800,
+              "first_seen": "2026-07-30"
             }
           ],
           "image": "images/layton-exclusif--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "aliases": [
@@ -89191,7 +89266,7 @@
             }
           ],
           "image": "images/le-gemme-yasep--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         },
         {
           "name": "Ahmed Abdel Kareem",
@@ -89828,20 +89903,14 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 5200,
-              "note": "Eau de Parfum Intense",
-              "first_seen": "2026-08-01"
-            },
-            {
-              "kind": "full",
-              "ml": 125,
               "price": 4700,
-              "first_seen": "2026-07-30",
-              "tester": true
+              "tester": true,
+              "first_seen": "2026-08-01",
+              "prev_price": 5200
             }
           ],
           "image": "images/le-male-le-parfum--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "sniffz",
@@ -90279,12 +90348,12 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3600,
+              "price": 3900,
               "first_seen": "2026-07-30"
             }
           ],
           "image": "images/le-sel-d-issey--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         },
         {
           "name": "faces",
@@ -93392,12 +93461,12 @@
               "kind": "full",
               "ml": 100,
               "price": 3700,
-              "note": "tester; Le Parfum",
+              "tester": true,
               "first_seen": "2026-07-30"
             }
           ],
           "image": "images/luna-rossa-ocean-eau-de-parfum--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "mazaya",
@@ -93589,7 +93658,8 @@
               "first_seen": "2026-07-30"
             }
           ],
-          "image": "images/lustre--abo-anas-sayed.jpg"
+          "image": "images/lustre--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -95727,13 +95797,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2650,
-              "first_seen": "2026-07-30",
-              "tester": true
+              "price": 2750,
+              "tester": true,
+              "first_seen": "2026-07-30"
             }
           ],
           "image": "images/man-terrae-essence-eau-de-parfum--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2124739308419974"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "mazaya",
@@ -97811,6 +97881,20 @@
           ],
           "image": "images/mazaaj--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/mazaaj-rhythm-zimaya"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1099,
+              "first_seen": "2026-08-10"
+            }
+          ],
+          "image": "images/mazaaj--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -97940,6 +98024,20 @@
           ],
           "image": "images/mazaaj-infused--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/mazaaj-infused-zimaya"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1099,
+              "first_seen": "2026-08-10"
+            }
+          ],
+          "image": "images/mazaaj-infused--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -98082,10 +98180,16 @@
               "ml": 10,
               "price": 700,
               "first_seen": "2026-08-06"
+            },
+            {
+              "kind": "full",
+              "ml": "as-shown",
+              "price": 6600,
+              "first_seen": "2026-08-10"
             }
           ],
           "image": "images/mefisto--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2124739308419974"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "category": "niche"
@@ -98111,7 +98215,7 @@
             }
           ],
           "image": "images/mefisto-gentiluomo--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "Abo Anas Sayed",
@@ -101366,13 +101470,14 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1400,
-              "note": "tester",
-              "first_seen": "2026-08-01"
+              "price": 1350,
+              "tester": true,
+              "first_seen": "2026-08-01",
+              "prev_price": 1400
             }
           ],
           "image": "images/momentum-eau-de-toilette--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "feel22",
@@ -104022,9 +104127,16 @@
               "ml": 100,
               "price": 5000,
               "first_seen": "2026-07-30"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 7200,
+              "first_seen": "2026-08-10"
             }
           ],
-          "image": "images/myslf--abo-anas-sayed.jpg"
+          "image": "images/myslf-eau-de-parfum--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "sniffz",
@@ -105346,7 +105458,7 @@
             }
           ],
           "image": "images/narciso-eau-de-parfum-poudree--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "Abo Anas Sayed",
@@ -105728,12 +105840,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8500,
-              "first_seen": "2026-07-30"
+              "price": 8400,
+              "first_seen": "2026-07-30",
+              "prev_price": 8500
             }
           ],
-          "image": "images/naxos-1861--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "image": "images/naxos--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         },
         {
           "name": "Mohamed Mohie",
@@ -112738,8 +112851,8 @@
               "first_seen": "2026-08-01"
             }
           ],
-          "image": "images/ombre-noire-pour-homme--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
+          "image": "images/ombre-noire--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "aliases": [
@@ -118660,6 +118773,20 @@
           ],
           "image": "images/pardon--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/pardon-30-ml"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 30,
+              "price": 6600,
+              "first_seen": "2026-08-10"
+            }
+          ],
+          "image": "images/pardon--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "mazaya",
@@ -122940,10 +123067,8 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2450,
-              "note": "tester; EDT",
-              "first_seen": "2026-08-01",
-              "prev_price": 3000
+              "price": 3000,
+              "first_seen": "2026-08-01"
             },
             {
               "kind": "full",
@@ -122954,7 +123079,7 @@
             }
           ],
           "image": "images/pour-homme-eau-de-toilette-versace--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "feel22",
@@ -129230,12 +129355,11 @@
               "kind": "full",
               "ml": 120,
               "price": 3750,
-              "note": "shared price with another item in this photo",
               "first_seen": "2026-07-30"
             }
           ],
           "image": "images/red-tobacco-edp--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "perfuzone",
@@ -130116,7 +130240,7 @@
             }
           ],
           "image": "images/rehab--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "Abo Anas Sayed",
@@ -132370,8 +132494,7 @@
               "kind": "full",
               "ml": 120,
               "price": 2750,
-              "first_seen": "2026-07-30",
-              "prev_price": 3500
+              "first_seen": "2026-07-30"
             },
             {
               "kind": "full",
@@ -132379,10 +132502,16 @@
               "price": 2750,
               "first_seen": "2026-08-01",
               "tester": true
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 275,
+              "first_seen": "2026-08-10"
             }
           ],
           "image": "images/roses-vanilla--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         },
         {
           "name": "eldesoki-fragrances",
@@ -134660,6 +134789,21 @@
             }
           ],
           "image": "images/sauvage-elixir--ahmed-abdel-kareem.jpg"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 5700,
+              "tester": true,
+              "first_seen": "2026-08-10"
+            }
+          ],
+          "image": "images/sauvage-elixir--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "feel22",
@@ -139430,12 +139574,12 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 8600,
+              "price": 9950,
               "first_seen": "2026-07-30"
             }
           ],
           "image": "images/side-effect--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "sniffz",
@@ -143440,7 +143584,7 @@
             }
           ],
           "image": "images/spicebomb-extreme-viktor-rolf--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         },
         {
           "name": "Mohamed Mohie",
@@ -143542,7 +143686,7 @@
             }
           ],
           "image": "images/spicebomb-infrared--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "Abo Anas Sayed",
@@ -143609,7 +143753,7 @@
             }
           ],
           "image": "images/spicebomb-metallic-musk--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "perfuzone",
@@ -150570,13 +150714,11 @@
               "kind": "full",
               "ml": 100,
               "price": 3350,
-              "note": "Eau de Parfum Intense",
-              "first_seen": "2026-07-30",
-              "prev_price": 3500
+              "first_seen": "2026-07-30"
             }
           ],
           "image": "images/the-most-wanted-parfum--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         },
         {
           "name": "Ahmed Abdel Kareem",
@@ -150804,10 +150946,22 @@
               "ml": 10,
               "price": 350,
               "first_seen": "2026-08-06"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3300,
+              "first_seen": "2026-08-10"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 4100,
+              "first_seen": "2026-08-10"
             }
           ],
           "image": "images/the-one--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2124739308419974"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         },
         {
           "name": "Ahmed Abdel Kareem",
@@ -153404,12 +153558,11 @@
               "kind": "full",
               "ml": 120,
               "price": 3750,
-              "note": "shared price with another item in this photo",
               "first_seen": "2026-07-30"
             }
           ],
           "image": "images/tonka-cola--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         },
         {
           "name": "feel22",
@@ -153669,6 +153822,20 @@
           ],
           "image": "images/tonquin-giza--eslam-nasser.jpg",
           "product_url": "https://www.facebook.com/groups/720783370622840/posts/901231999244642"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1350,
+              "first_seen": "2026-08-10"
+            }
+          ],
+          "image": "images/tonquin-giza--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "sniffz",
@@ -154018,7 +154185,7 @@
             }
           ],
           "image": "images/torino-21--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         },
         {
           "name": "Hossam ElDeen Gamal",
@@ -154137,12 +154304,12 @@
               "kind": "full",
               "ml": 50,
               "price": 6800,
-              "first_seen": "2026-08-01",
-              "tester": true
+              "tester": true,
+              "first_seen": "2026-08-01"
             }
           ],
-          "image": "images/torino23--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
+          "image": "images/torino-23--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "Mohamed Mohie",
@@ -155628,7 +155795,7 @@
             }
           ],
           "image": "images/under-my-skin--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "Abo Anas Sayed",
@@ -159993,7 +160160,7 @@
             }
           ],
           "image": "images/vetiver-parfum--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "Mohamed Mohie",
@@ -160153,12 +160320,12 @@
               "kind": "full",
               "ml": 100,
               "price": 8000,
-              "first_seen": "2026-08-01",
-              "tester": true
+              "tester": true,
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/vibrato--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2124739308419974"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "sniffz",
@@ -161469,7 +161636,7 @@
             }
           ],
           "image": "images/voyage--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "MO Shawky",
@@ -162387,12 +162554,11 @@
               "kind": "full",
               "ml": 100,
               "price": 2150,
-              "note": "Eau de Toilette pour Homme",
               "first_seen": "2026-07-30"
             }
           ],
           "image": "images/wave--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "MO Shawky",
@@ -165485,6 +165651,27 @@
           ],
           "image": "images/y-eau-de-parfum--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/ysl-y-men-eau-de-parfum-PM_YVES_SAINT_LAURENT_Y_EDP.html"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4500,
+              "tester": true,
+              "first_seen": "2026-08-10"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 5200,
+              "first_seen": "2026-08-10"
+            }
+          ],
+          "image": "images/y-eau-de-parfum--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "sniffz",
@@ -165693,6 +165880,20 @@
           ],
           "image": "images/y-edp-intense--mohamed-mohie.jpg",
           "product_url": "https://www.facebook.com/groups/1321209448577265/posts/1965247204173483/"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 5300,
+              "first_seen": "2026-08-10"
+            }
+          ],
+          "image": "images/y-edp-intense--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "_hero_source": "MO Shawky",
@@ -166380,12 +166581,11 @@
               "kind": "full",
               "ml": 100,
               "price": 6800,
-              "note": "1861 line",
               "first_seen": "2026-07-30"
             }
           ],
           "image": "images/zefiro--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/27952214704464186"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "category": "niche"
@@ -171329,7 +171529,7 @@
             }
           ],
           "image": "images/no-10-desir-du-coeur--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ],
       "category": "niche"
@@ -174694,6 +174894,267 @@
         }
       ],
       "_hero_source": "EsLam Nasser"
+    },
+    {
+      "id": "y-live",
+      "name_ar": "Y Live",
+      "name_en": "Y Live",
+      "brand": "Yves Saint Laurent",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4500,
+              "tester": true,
+              "first_seen": "2026-08-10"
+            }
+          ],
+          "image": "images/y-live--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
+        }
+      ]
+    },
+    {
+      "id": "black-sea-lorenzo-pazzaglia",
+      "name_ar": "Black Sea",
+      "name_en": "Black Sea",
+      "brand": "Lorenzo Pazzaglia",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": "as-shown",
+              "price": 6800,
+              "first_seen": "2026-08-10"
+            }
+          ],
+          "image": "images/black-sea-lorenzo-pazzaglia--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
+        }
+      ]
+    },
+    {
+      "id": "gran-ballo",
+      "name_ar": "Gran Ballo",
+      "name_en": "Gran Ballo",
+      "brand": "Xerjoff",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": "as-shown",
+              "price": 6300,
+              "first_seen": "2026-08-10"
+            }
+          ],
+          "image": "images/gran-ballo--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
+        }
+      ]
+    },
+    {
+      "id": "flamenco-edp-monegal",
+      "name_ar": "Flamenco",
+      "name_en": "Flamenco",
+      "brand": "Ramon Monegal",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 9900,
+              "first_seen": "2026-08-10"
+            }
+          ],
+          "image": "images/flamenco-edp-monegal--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
+        }
+      ]
+    },
+    {
+      "id": "flamenco-extrait-monegal",
+      "name_ar": "Flamenco Extrait de Parfum",
+      "name_en": "Flamenco Extrait de Parfum",
+      "brand": "Ramon Monegal",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 10500,
+              "first_seen": "2026-08-10"
+            }
+          ],
+          "image": "images/flamenco-extrait-monegal--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
+        }
+      ]
+    },
+    {
+      "id": "overdose-omanluxury",
+      "name_ar": "Overdose",
+      "name_en": "Overdose",
+      "brand": "Oman Luxury",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 8400,
+              "first_seen": "2026-08-10"
+            }
+          ],
+          "image": "images/overdose-omanluxury--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
+        }
+      ]
+    },
+    {
+      "id": "kenzo-homme-intense",
+      "name_ar": "Kenzo Homme Intense",
+      "name_en": "Kenzo Homme Intense",
+      "brand": "Kenzo",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 110,
+              "price": 3100,
+              "first_seen": "2026-08-10"
+            }
+          ],
+          "image": "images/kenzo-homme-intense--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
+        }
+      ]
+    },
+    {
+      "id": "colonia-ambra",
+      "name_ar": "Colonia Ambra",
+      "name_en": "Colonia Ambra",
+      "brand": "Acqua di Parma",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": "as-shown",
+              "price": 5000,
+              "first_seen": "2026-08-10"
+            }
+          ],
+          "image": "images/colonia-ambra--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
+        }
+      ]
+    },
+    {
+      "id": "colonia-oud",
+      "name_ar": "Colonia Oud",
+      "name_en": "Colonia Oud",
+      "brand": "Acqua di Parma",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": "as-shown",
+              "price": 5200,
+              "first_seen": "2026-08-10"
+            }
+          ],
+          "image": "images/colonia-oud--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
+        }
+      ]
+    },
+    {
+      "id": "olfactive-expressions-barcelona-no5",
+      "name_ar": "Olfactive Expressions Barcelona No.5",
+      "name_en": "Olfactive Expressions Barcelona No.5",
+      "brand": "Rosendo Mateu",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4700,
+              "first_seen": "2026-08-10"
+            }
+          ],
+          "image": "images/olfactive-expressions-barcelona-no5--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
+        }
+      ]
     }
   ]
 }
