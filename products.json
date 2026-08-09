@@ -6432,8 +6432,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-09"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/alex-enable--emaratiscents.jpg",
@@ -49944,8 +49943,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1300,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-09"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/essence-de-blanc--emaratiscents.jpg",
@@ -53215,7 +53213,8 @@
               "kind": "full",
               "ml": 50,
               "price": 1450,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-09"
             }
           ],
           "image": "images/faqat-lil-rijal--emaratiscents.jpg",
@@ -61080,8 +61079,7 @@
               "kind": "full",
               "ml": 75,
               "price": 3700,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-07"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/grey-diamond-collection--emaratiscents.jpg",
@@ -74044,8 +74042,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-07"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/island-dreams--emaratiscents.jpg",
@@ -107635,8 +107632,7 @@
               "kind": "full",
               "ml": 200,
               "price": 1950,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-07"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/noble--emaratiscents.jpg",
@@ -133747,8 +133743,7 @@
               "kind": "full",
               "ml": 100,
               "price": 880,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-09"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/santorini-beaches--emaratiscents.jpg",
@@ -142497,7 +142492,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2300,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-09"
             }
           ],
           "image": "images/spanish-tobacco--emaratiscents.jpg",
@@ -145965,7 +145961,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2750,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-09"
             }
           ],
           "image": "images/summer-yellow--emaratiscents.jpg",
@@ -159947,8 +159944,7 @@
               "kind": "full",
               "ml": 100,
               "price": 780,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-07"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/victorioso-nero--emaratiscents.jpg",
@@ -174616,6 +174612,60 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "khanjar-black",
+      "name_ar": "Khanjar Black",
+      "name_en": "Khanjar Black",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/khanjar-black.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 890,
+              "first_seen": "2026-08-09"
+            }
+          ],
+          "image": "images/khanjar-black--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/khanjar-black"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "shift",
+      "name_ar": "Shift",
+      "name_en": "Shift",
+      "brand": "Assaf",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/shift.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-08-09"
+            }
+          ],
+          "image": "images/shift--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/shift"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
