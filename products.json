@@ -104800,8 +104800,8 @@
               "first_seen": "2026-07-30"
             }
           ],
-          "image": "images/naxos--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2124739308419974"
+          "image": "images/naxos-1861--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
         },
         {
           "name": "Mohamed Mohie",
@@ -104857,7 +104857,10 @@
           "product_url": "https://www.facebook.com/groups/original.perfume.market/posts/27802400792778912"
         }
       ],
-      "category": "niche"
+      "category": "niche",
+      "aliases": [
+        "Naxos 1861"
+      ]
     },
     {
       "id": "naya-eau-de-parfum",
@@ -170916,31 +170919,6 @@
       "category": "niche"
     },
     {
-      "id": "naxos-1861",
-      "name_en": "Naxos 1861",
-      "name_ar": "",
-      "brand": "Xerjoff",
-      "image": "images/naxos-1861--abo-anas-sayed.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Abo Anas Sayed",
-          "url": "https://www.facebook.com/100057793202294",
-          "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 8500,
-              "first_seen": "2026-08-06"
-            }
-          ],
-          "image": "images/naxos-1861--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
-        }
-      ],
-      "category": "niche"
-    },
-    {
       "id": "odyssey-set",
       "name_ar": "",
       "name_en": "Odyssey Set",
@@ -173205,7 +173183,10 @@
           "product_url": "https://www.facebook.com/groups/720783370622840/posts/901231999244642"
         }
       ],
-      "category": "dupe"
+      "category": "dupe",
+      "dupe_of": [
+        "Naxos — Xerjoff"
+      ]
     },
     {
       "id": "icarus-347-patchouli-forbidden-fruit",
