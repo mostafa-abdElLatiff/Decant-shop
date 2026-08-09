@@ -379,8 +379,25 @@ visible, or infer it from the name itself), dupe_of (only if explicitly
 stated in the image), notes, and sizes/prices from the image as normal."""
 
 
-def build_prompt(dupe_pattern: bool, known_name: str = None) -> str:
+PROMPT_ALWAYS_DUPE_OVERRIDE = """
+
+IMPORTANT override for this specific seller: they are confirmed to sell
+ONLY dupes/clones/rebottled decants, never the genuine article -- even
+when a listing's photo shows nothing but a plain, unbranded glass decant
+vial with no visible manufacturer logo (i.e. what would otherwise be the
+"rare exception" of a stock photo of the genuine bottle). Do NOT take
+that exception for this seller. The left-banner/price-banner name ALWAYS
+goes into "dupe_of", every time, with no exceptions. If the actual bottle
+photographed has no legible manufacturer/house name anywhere on it (a
+plain vial, no box, no printed logo), leave "brand" empty rather than
+defaulting to the famous name from the price banner -- do not guess a
+manufacturer that isn't actually visible."""
+
+
+def build_prompt(dupe_pattern: bool, known_name: str = None, always_dupe: bool = False) -> str:
     context = PROMPT_CONTEXT_DUPE_PATTERN if dupe_pattern else PROMPT_CONTEXT_DEFAULT
+    if always_dupe:
+        context += PROMPT_ALWAYS_DUPE_OVERRIDE
     prompt = context + PROMPT_SCHEMA
     if known_name:
         prompt += PROMPT_KNOWN_NAME.format(name=known_name)
@@ -577,13 +594,14 @@ def to_product(raw: dict, image_rel: str) -> dict:
     brand = canonicalize_brand(raw.get("brand") or "")
     name_en = strip_name_abbreviation(strip_tester_suffix(strip_redundant_brand_suffix(raw.get("name_en") or "", brand)), brand)
     name_ar = strip_tester_suffix(strip_redundant_brand_suffix(raw.get("name_ar") or name_en, brand))
+    dupe_of = [d for d in (raw.get("dupe_of") or []) if d]
     return {
         "id": slugify(name_en or raw.get("name_ar") or ""),
         "name_ar": name_ar or name_en,
         "name_en": name_en,
         "brand": brand,
-        "category": brand_category(brand),
-        "dupe_of": [d for d in (raw.get("dupe_of") or []) if d],
+        "category": resolve_category(brand, dupe_of),
+        "dupe_of": dupe_of,
         "image": image_rel,
         "accords": notes,
     }
@@ -1176,6 +1194,17 @@ def brand_category(brand: str) -> str:
     rely on to mean what it says."""
     key = re.sub(r"\s+", " ", canonicalize_brand(brand or "").strip().lower())
     return BRAND_CATEGORY.get(key, "")
+
+
+def resolve_category(brand: str, dupe_of: list) -> str:
+    """Like brand_category(), but a non-empty dupe_of always wins: a
+    product that's explicitly a dupe/clone of something else is a dupe by
+    definition, regardless of what brand text got extracted for it (a
+    seller mislabeling a clone with the ORIGINAL famous brand -- e.g.
+    "Sindbad"/"Amouage" printed on a decant seller's price banner for a
+    100 EGP 3ml, next to a genuine store's 2550 EGP listing of the exact
+    same name -- must never classify as that brand's real category)."""
+    return "dupe" if dupe_of else brand_category(brand)
 
 
 # Real houses whose name a store's own scrape sometimes renders as a
@@ -1914,6 +1943,12 @@ def main():
                               "alongside a different actual local-brand bottle for sale "
                               "(see module docstring). Omit for sellers who sell the named "
                               "fragrance directly.")
+    parser.add_argument("--always-dupe", action="store_true",
+                         help="Requires --dupe-pattern. This seller is confirmed to sell "
+                              "ONLY dupes/clones, never the genuine article -- even a plain "
+                              "unbranded decant vial photo must still be recorded as a dupe "
+                              "(dupe_of set, brand left empty) instead of taking the normal "
+                              "'maybe it's genuine' exception.")
     parser.add_argument("--use-captions", action="store_true",
                          help="This seller writes each photo's fragrance name in the post's "
                               "own per-photo caption on Facebook — trust that for the name "
@@ -1924,7 +1959,9 @@ def main():
     if len(sys.argv) < 2:
         sys.exit(__doc__)
     ns = parser.parse_args()
-    base_prompt = build_prompt(ns.dupe_pattern)
+    if ns.always_dupe and not ns.dupe_pattern:
+        sys.exit("--always-dupe requires --dupe-pattern")
+    base_prompt = build_prompt(ns.dupe_pattern, always_dupe=ns.always_dupe)
 
     client = None
     if ns.local:
@@ -1972,7 +2009,7 @@ def main():
             cached_skipped += 1
             continue
         print(f"→ {label}" + (f"  (caption: {caption!r})" if caption else ""))
-        prompt = build_prompt(ns.dupe_pattern, known_name=caption) if caption else base_prompt
+        prompt = build_prompt(ns.dupe_pattern, known_name=caption, always_dupe=ns.always_dupe) if caption else base_prompt
         try:
             if ns.local:
                 text = ollama_generate(img, prompt)

@@ -37,7 +37,7 @@ import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from extract import slugify, accord_color, find_by_store_url, find_existing_product, unique_id_for, reconcile_offers, is_web_sourced_hero, strip_redundant_brand_suffix, canonicalize_new_identity, brand_category, CATALOG  # noqa: E402
+from extract import slugify, accord_color, find_by_store_url, find_existing_product, unique_id_for, reconcile_offers, is_web_sourced_hero, strip_redundant_brand_suffix, canonicalize_new_identity, resolve_category, CATALOG  # noqa: E402
 from rp_notes import translate_note, split_dupe  # noqa: E402
 
 COLLECTION_URLS = [
@@ -301,13 +301,14 @@ def main():
             or find_existing_product(catalog, name_en, info["brand"])
         if product is None:
             new_name_en, brand = canonicalize_new_identity(name_en, info["brand"])
+            dupe_of = [info["dupe_of"]] if info["dupe_of"] else []
             product = {
                 "id": unique_id_for(catalog, new_name_en, brand),
                 "name_ar": "",
                 "name_en": new_name_en,
                 "brand": brand,
-                "category": brand_category(brand),
-                "dupe_of": [info["dupe_of"]] if info["dupe_of"] else [],
+                "category": resolve_category(brand, dupe_of),
+                "dupe_of": dupe_of,
                 "image": "",
                 "accords": [
                     {"label_en": en, "label_ar": ar, "color": accord_color(en), "w": max(40, 100 - i * 10)}
