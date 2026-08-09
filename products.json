@@ -69755,39 +69755,6 @@
       "category": "designer"
     },
     {
-      "id": "iii-thriller-extrait-de-parfum",
-      "name_ar": "Iii Thriller Extrait De Parfum",
-      "name_en": "Iii Thriller Extrait De Parfum",
-      "brand": "Maison Asrar",
-      "dupe_of": [],
-      "image": "images/iii-thriller-extrait-de-parfum.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "perfuzone",
-          "url": "https://perfuzone-2.myshopify.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 200,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 300,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/iii-thriller-extrait-de-parfum--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/iii-thriller-extrait-de-parfum"
-        }
-      ],
-      "_hero_source": "perfuzone",
-      "category": "dupe"
-    },
-    {
       "id": "illusion-intense",
       "name_ar": "Illusion Intense",
       "name_en": "Illusion Intense",
@@ -150295,10 +150262,33 @@
           ],
           "image": "images/thriller--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/thriller-maison-asrar"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 200,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 300,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/iii-thriller-extrait-de-parfum--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/iii-thriller-extrait-de-parfum"
         }
       ],
       "_hero_source": "og-perfume",
-      "category": "dupe"
+      "category": "dupe",
+      "aliases": [
+        "Iii Thriller Extrait De Parfum"
+      ]
     },
     {
       "id": "thunder",
