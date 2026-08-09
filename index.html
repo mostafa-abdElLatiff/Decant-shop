@@ -222,8 +222,14 @@
   .card-body h3{font-size:1.08rem;line-height:1.35}
   .card-title-btn{background:none;border:none;padding:.7rem 0;margin:-.7rem 0;min-height:2.75rem;display:flex;align-items:center;font:inherit;color:inherit;text-align:start;cursor:pointer}
   .card-title-btn:hover{text-decoration:underline}
-  .card-brand{align-self:flex-start;background:none;border:none;color:var(--olive);font-family:inherit;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;cursor:pointer;min-height:2.75rem;display:flex;align-items:center;padding:0 .2rem;margin:0 -.2rem -.9rem;direction:ltr}
+  .card-brand-row{display:flex;align-items:center;gap:.4rem;margin:0 0 -.9rem;flex-wrap:wrap}
+  .card-brand{align-self:flex-start;background:none;border:none;color:var(--olive);font-family:inherit;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;cursor:pointer;min-height:2.75rem;display:flex;align-items:center;padding:0 .2rem;margin:0 -.2rem;direction:ltr}
   .card-brand:hover{text-decoration:underline}
+  .category-badge{font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;padding:.2rem .5rem;border-radius:20px;line-height:1.5;white-space:nowrap}
+  .category-badge.cat-designer{background:color-mix(in srgb, #6b8cae 20%, transparent);color:#6b8cae}
+  .category-badge.cat-niche{background:color-mix(in srgb, var(--brass) 22%, transparent);color:var(--brass)}
+  .category-badge.cat-dupe{background:color-mix(in srgb, var(--olive) 20%, transparent);color:var(--olive-deep)}
+  .category-badge.cat-local{background:color-mix(in srgb, #b06a4f 20%, transparent);color:#b06a4f}
   .name-alt{font-size:.8rem;color:#8A8D7B;direction:ltr;text-align:start}
   .dupe-of,.duped-by{font-size:.78rem;color:var(--brass);font-weight:600}
   .dupe-of a,.duped-by a{color:var(--brass);text-decoration:underline;cursor:pointer;background:none;border:none;font:inherit;min-height:2.75rem;display:inline-flex;align-items:center;padding:0 .2rem;margin:0 -.2rem}
@@ -356,6 +362,11 @@
     </details>
 
     <details class="filter-section">
+      <summary id="categoryFilterLabel"></summary>
+      <div class="filter-list" id="categoryList" role="group"></div>
+    </details>
+
+    <details class="filter-section">
       <summary id="brandFilterLabel"></summary>
       <div class="select-clearable">
         <select class="store-select" id="brandFilter"></select>
@@ -449,6 +460,8 @@ const I18N = {
     site_name:"Scentlist", tag:"decants • full bottles • leftovers, price-compared",
     search_ph:"Search by name or brand…",
     filter_all:"All", filter_decant:"Decants", filter_full:"Full bottles", filter_leftover:"Leftovers",
+    label_category:"Category",
+    category_designer:"Designer", category_niche:"Niche", category_dupe:"Dupe/inspired-by", category_local:"Local/heritage",
     store_all:"All stores", brand_all:"All brands",
     label_store:"Store", label_brand:"Brand", label_sort:"Sort by", label_view:"Per row", filters_label:"Filters",
     label_price:"Price", label_size:"Size", clear_filters_btn:"✕ Clear all filters",
@@ -482,6 +495,8 @@ const I18N = {
     site_name:"ليستة", tag:"تقسيمات • زجاجات كاملة • بواقي تقسيم، مقارنة أسعار",
     search_ph:"ابحث باسم العطر أو البراند…",
     filter_all:"الكل", filter_decant:"تقسيمات", filter_full:"زجاجات كاملة", filter_leftover:"بواقي تقسيم",
+    label_category:"الفئة",
+    category_designer:"ماركة عالمية", category_niche:"نيش", category_dupe:"مستوحى/بديل", category_local:"محلي/تراثي",
     store_all:"كل المتاجر", brand_all:"كل البراندات",
     label_store:"المتجر", label_brand:"البراند", label_sort:"ترتيب حسب", label_view:"في الصف", filters_label:"الفلاتر",
     label_price:"السعر", label_size:"الحجم", clear_filters_btn:"✕ مسح كل الفلاتر",
@@ -567,6 +582,11 @@ function updateFavoritesLabel(){
 // "want either of these" case for them in how this catalog gets browsed.
 let kindFilter = new Set();
 let storeFilters = new Set();
+// Multi-select like kindFilter/storeFilters (a shopper wanting "niche OR
+// dupe" needs both selected at once), values are brand_category()'s own
+// "designer"/"niche"/"dupe"/"local" strings. A product with no category
+// (brand not yet classified) simply never matches any category filter.
+let categoryFilter = new Set();
 let brandFilter = "all";
 let sortOrder = "newest";
 let query = "";
@@ -787,6 +807,10 @@ function productMatchesBrand(p){
   return brandFilter==="all" || (p.brand||"").trim().toLowerCase()===brandFilter;
 }
 
+function productMatchesCategory(p){
+  return categoryFilter.size===0 || categoryFilter.has(p.category||"");
+}
+
 // Kind, Size, and Store's own counts (and, for Kind/Size, which options
 // even show up at all) each depend on EVERY other active filter --
 // brand/in-stock/price included, not just kind vs. store. Any handler
@@ -802,6 +826,36 @@ function refreshFilterPanels(){
   populateKindFilter();
   populateSizeFilter();
   populateStoreFilter();
+  populateCategoryFilter();
+}
+
+const CATEGORY_VALUES = ["designer","niche","dupe","local"];
+const categoryLabel = c => c==="designer" ? t().category_designer : c==="niche" ? t().category_niche : c==="dupe" ? t().category_dupe : t().category_local;
+
+function populateCategoryFilter(){
+  const counts = { all: 0, designer: 0, niche: 0, dupe: 0, local: 0 };
+  const opts = { kinds: kindFilter, storeNames: storeFilters, inStockOnly, minPrice: priceMin, maxPrice: priceMax, ml: sizeFilter==="all" ? null : Number(sizeFilter) };
+  PRODUCTS.forEach(p => {
+    if(!productMatchesBrand(p)) return;
+    if(!productHasMatchingOffer(p, opts)) return;
+    counts.all++;
+    if(counts[p.category] != null) counts[p.category]++;
+  });
+  const entries = [
+    { value:"all", label:t().filter_all, count:counts.all, swatch:true, active: categoryFilter.size===0 },
+    ...CATEGORY_VALUES.map(c => ({ value:c, label:categoryLabel(c), count:counts[c], swatch:true, active: categoryFilter.has(c) })),
+  ].filter(e => e.value==="all" || e.active || e.count>0);
+  buildFilterRows(document.getElementById("categoryList"), entries, value => {
+    captureScrollState();
+    if(value==="all") categoryFilter.clear();
+    else if(categoryFilter.has(value)) categoryFilter.delete(value);
+    else categoryFilter.add(value);
+    refreshFilterPanels();
+    updateFilterBadge();
+    render();
+    syncURLState();
+    trackEvent("filter_category", { value: [...categoryFilter].join(",") || "all" });
+  });
 }
 
 function populateKindFilter(){
@@ -1027,6 +1081,7 @@ function applyI18n(){
   document.getElementById("cartDisclaimer").textContent = t().disclaimer;
   document.getElementById("siteFooter").innerHTML = t().footer_note;
   document.getElementById("kindLabel").textContent = t().label_kind;
+  document.getElementById("categoryFilterLabel").textContent = t().label_category;
   document.getElementById("inStockOnlyLabel").textContent = t().in_stock_only;
   document.getElementById("bestOfferOnlyLabel").textContent = t().best_offer_only;
   updateFavoritesLabel();
@@ -1050,6 +1105,7 @@ function computeItems(){
   const items = PRODUCTS.filter(p =>
     productHasMatchingOffer(p, {kinds: kindFilter, storeNames: storeFilters, inStockOnly, minPrice: priceMin, maxPrice: priceMax, ml: sizeFilter==="all" ? null : Number(sizeFilter)}) &&
     (brandFilter==="all" || (p.brand||"").trim().toLowerCase()===brandFilter) &&
+    productMatchesCategory(p) &&
     (!favoritesOnly || favorites.has(p.id)) &&
     productMatchesQuery(p, qTokens)
   );
@@ -1231,7 +1287,10 @@ function buildCardEl(p, {expanded=false}={}){
       <button class="card-fav" data-fav="${p.id}" aria-pressed="${favorites.has(p.id)}" aria-label="${favorites.has(p.id) ? t().remove_favorite : t().add_favorite}" title="${favorites.has(p.id) ? t().remove_favorite : t().add_favorite}">${favorites.has(p.id) ? "♥" : "♡"}${favorites.has(p.id) && hasFavChanged(p) ? `<span class="fav-changed-dot"></span>` : ""}</button>
     </div>
     <div class="card-body">
-      ${p.brand ? `<button class="card-brand" data-brand-jump="${p.brand}">${p.brand}</button>` : ""}
+      <div class="card-brand-row">
+        ${p.brand ? `<button class="card-brand" data-brand-jump="${p.brand}">${p.brand}</button>` : ""}
+        ${p.category ? `<span class="category-badge cat-${p.category}">${categoryLabel(p.category)}</span>` : ""}
+      </div>
       ${expanded ? `<h3>${pname(p)}</h3>` : `<h3><button class="card-title-btn" data-open-modal="${p.id}">${pname(p)}</button></h3>`}
       ${pname_alt(p) ? `<div class="name-alt">${pname_alt(p)}</div>` : ""}
       ${dupeMatches.length ? `<div class="dupe-of">${t().dupe_of}: ${dupeMatches.map(d => d.match ? `<button data-jump="${d.match.id}">${d.name}</button>` : d.name).join(", ")}</div>` : ""}
@@ -1422,6 +1481,7 @@ function paramsFromState(){
   if(kindFilter.size) p.set("kind", [...kindFilter].join(","));
   if(sizeFilter !== "all") p.set("size", sizeFilter);
   if(storeFilters.size) p.set("store", [...storeFilters].join(","));
+  if(categoryFilter.size) p.set("cat", [...categoryFilter].join(","));
   if(brandFilter !== "all") p.set("brand", brandFilter);
   if(sortOrder !== "newest") p.set("sort", sortOrder);
   if(query.trim()) p.set("q", query.trim());
@@ -1436,6 +1496,7 @@ function applyParamsToState(params){
   kindFilter = new Set((params.get("kind")||"").split(",").filter(Boolean));
   sizeFilter = params.get("size") || "all";
   storeFilters = new Set((params.get("store")||"").split(",").filter(Boolean));
+  categoryFilter = new Set((params.get("cat")||"").split(",").filter(Boolean));
   brandFilter = params.get("brand") || "all";
   sortOrder = params.get("sort") || "newest";
   query = params.get("q") || "";
@@ -1573,7 +1634,7 @@ document.addEventListener("keydown", e => {
 });
 
 function resetFilters(){
-  kindFilter = new Set(); query = ""; storeFilters = new Set(); brandFilter = "all"; inStockOnly = false; bestOfferOnly = false; favoritesOnly = false; priceMin = null; priceMax = null; sizeFilter = "all";
+  kindFilter = new Set(); query = ""; storeFilters = new Set(); categoryFilter = new Set(); brandFilter = "all"; inStockOnly = false; bestOfferOnly = false; favoritesOnly = false; priceMin = null; priceMax = null; sizeFilter = "all";
   document.getElementById("search").value = "";
   document.getElementById("brandFilter").value = "all";
   document.getElementById("inStockOnly").checked = false;
@@ -1678,7 +1739,7 @@ filtersToggle.onclick = ()=>{
 sidebarOverlay.onclick = closeSidebar;
 function updateFilterBadge(){
   updateFavoritesLabel();
-  const n = [kindFilter.size>0, sizeFilter!=="all", storeFilters.size>0, brandFilter!=="all", sortOrder!=="newest", gridCols!=="auto", inStockOnly, bestOfferOnly, favoritesOnly, priceMin!=null, priceMax!=null].filter(Boolean).length;
+  const n = [kindFilter.size>0, sizeFilter!=="all", storeFilters.size>0, categoryFilter.size>0, brandFilter!=="all", sortOrder!=="newest", gridCols!=="auto", inStockOnly, bestOfferOnly, favoritesOnly, priceMin!=null, priceMax!=null].filter(Boolean).length;
   const badge = document.getElementById("filterBadge");
   badge.textContent = n;
   badge.hidden = n === 0;
@@ -1687,7 +1748,7 @@ function updateFilterBadge(){
   // which are view preferences it deliberately leaves alone, and not the
   // search box, which already shows its own state) — so the button
   // reliably disappears once there's nothing left for it to do
-  const filtersActive = kindFilter.size>0 || sizeFilter!=="all" || storeFilters.size>0 || brandFilter!=="all" || inStockOnly || bestOfferOnly || priceMin!=null || priceMax!=null;
+  const filtersActive = kindFilter.size>0 || sizeFilter!=="all" || storeFilters.size>0 || categoryFilter.size>0 || brandFilter!=="all" || inStockOnly || bestOfferOnly || favoritesOnly || priceMin!=null || priceMax!=null;
   document.getElementById("clearFiltersBtn").hidden = !filtersActive;
   renderActiveFiltersBar();
 }
@@ -1709,6 +1770,7 @@ function renderActiveFiltersBar(){
   [...kindFilter].forEach(k => chips.push({type:"kind", value:k, label:`${t().label_kind}: ${kindLabel(k)}`}));
   if(sizeFilter!=="all") chips.push({type:"size", value:sizeFilter, label:`${t().label_size}: ${sizeFilter}ml`});
   [...storeFilters].forEach(s => chips.push({type:"store", value:s, label:`${t().label_store}: ${s}`}));
+  [...categoryFilter].forEach(c => chips.push({type:"category", value:c, label:`${t().label_category}: ${categoryLabel(c)}`}));
   if(brandFilter!=="all"){
     const opt = document.querySelector(`#brandFilter option[value="${CSS.escape(brandFilter)}"]`);
     chips.push({type:"brand", value:brandFilter, label:`${t().label_brand}: ${opt ? opt.textContent : brandFilter}`});
@@ -1741,6 +1803,8 @@ document.getElementById("activeFiltersBar").addEventListener("click", e => {
     if(!kindFilter.has("decant")) sizeFilter = "all";
   }else if(chipType==="store"){
     storeFilters.delete(chipValue);
+  }else if(chipType==="category"){
+    categoryFilter.delete(chipValue);
   }else if(chipType==="size"){
     sizeFilter = "all";
   }else if(chipType==="brand"){
