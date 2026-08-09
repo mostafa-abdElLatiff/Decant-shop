@@ -8247,7 +8247,8 @@
               "kind": "full",
               "ml": 100,
               "price": 9020,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-08-09"
             }
           ],
           "image": "images/amber-wood--mazaya.jpg",
@@ -17976,7 +17977,8 @@
               "kind": "full",
               "ml": 100,
               "price": 9300,
-              "first_seen": "2026-07-29"
+              "first_seen": "2026-07-29",
+              "sold_since": "2026-08-09"
             }
           ],
           "image": "images/bad-boy-cobalt-absolute-edp--mazaya.jpg",
@@ -36299,7 +36301,8 @@
               "kind": "full",
               "ml": 100,
               "price": 5900,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-08-09"
             }
           ],
           "image": "images/cuir-musc-eau-de-parfum--mazaya.jpg",
@@ -49983,12 +49986,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4675,
-              "first_seen": "2026-07-23"
+              "price": 4050,
+              "first_seen": "2026-07-23",
+              "prev_price": 4675
             }
           ],
           "image": "images/eternity-eau-de-toilette--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/eternity-man-edt-100-ml"
+          "product_url": "https://mazaya.eg/en/calvin-klein-eternity-for-men-eau-de-toilette"
         },
         {
           "name": "feel22",
@@ -57028,7 +57032,8 @@
               "kind": "full",
               "ml": 100,
               "price": 10500,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-08-09"
             }
           ],
           "image": "images/gaultier-divine-re24-edp--mazaya.jpg",
@@ -83249,7 +83254,8 @@
               "kind": "full",
               "ml": 60,
               "price": 6500,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-08-09"
             },
             {
               "kind": "full",
@@ -88558,7 +88564,8 @@
               "kind": "full",
               "ml": 125,
               "price": 9200,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-08-09"
             }
           ],
           "image": "images/le-male-elixir--mazaya.jpg",
@@ -108075,7 +108082,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2895,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-08-09"
             }
           ],
           "image": "images/noor-al-haya-eau-de-parfum--mazaya.jpg",
@@ -130955,7 +130963,8 @@
               "kind": "full",
               "ml": 100,
               "price": 8760,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-08-09"
             }
           ],
           "image": "images/rose-wood-eau-de-parfum--mazaya.jpg",
@@ -132477,7 +132486,8 @@
               "kind": "full",
               "ml": 100,
               "price": 8760,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-08-09"
             }
           ],
           "image": "images/sandal-wood-eau-de-parfum--mazaya.jpg",
@@ -159062,7 +159072,8 @@
               "kind": "full",
               "ml": 100,
               "price": 6160,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-08-09"
             }
           ],
           "image": "images/violet-musc-eau-de-parfum--mazaya.jpg",
@@ -175772,6 +175783,33 @@
         }
       ],
       "_hero_source": "EsLam Nasser"
+    },
+    {
+      "id": "ganym-de-extrait",
+      "name_ar": "Ganymède Extrait",
+      "name_en": "Ganymède Extrait",
+      "brand": "Marc Antoine Barrois",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/ganym-de-extrait.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 19700,
+              "first_seen": "2026-08-09"
+            }
+          ],
+          "image": "images/ganym-de-extrait--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/ganymede-extrait-50-ml"
+        }
+      ],
+      "_hero_source": "mazaya"
     }
   ]
 }
