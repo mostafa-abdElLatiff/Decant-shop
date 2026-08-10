@@ -14010,14 +14010,27 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 10,
+              "price": 175,
+              "first_seen": "2026-08-10"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 750,
+              "first_seen": "2026-08-10"
+            },
+            {
               "kind": "leftover",
               "ml": 200,
               "price": 1975,
-              "first_seen": "2026-08-04"
+              "first_seen": "2026-08-04",
+              "sold_since": "2026-08-10"
             }
           ],
           "image": "images/arrogate-pink--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/arrogate-pink-200ml-assaf%d8%a7%d8%b1%d9%88%d8%ac%d9%8a%d8%aa-%d8%a8%d9%8a%d9%86%d9%83-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%83%d8%a7%d9%85%d9%84%d8%a9-%d8%a8%d9%88%d9%83%d8%b3-%d8%aa%d8%a7%d9%84/"
+          "product_url": "https://eldesoki-fragrances.com/product/arrogate-pink-50ml%d8%a7%d8%b1%d9%88%d8%ac%d9%8a%d8%aa-%d8%a8%d9%8a%d9%86%d9%83-%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d8%a8%d9%88%d9%83%d8%b3-%d9%85%d9%82%d8%b7%d8%b9-%d8%af%d9%87-%d9%85%d8%b4-%d8%a8%d8%aa/"
         }
       ],
       "_hero_source": "og-perfume",
@@ -21646,7 +21659,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-10"
             }
           ],
           "image": "images/black-cavalier-vi--eldesoki-fragrances.jpg",
@@ -65406,6 +65420,18 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 10,
+              "price": 215,
+              "first_seen": "2026-08-10"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 1100,
+              "first_seen": "2026-08-10"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1825,
@@ -65413,7 +65439,7 @@
             }
           ],
           "image": "images/hawas-london--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/hawas-london-100ml-rasasi%d9%87%d9%88%d8%b3-%d9%84%d9%88%d9%86%d8%af%d9%86-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d9%84%d8%b1%d8%b5%d8%a7%d8%b5%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/hawas-london-50ml%d9%87%d9%88%d8%b3-%d9%84%d9%86%d8%af%d9%86-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "Abo Anas Sayed",
@@ -99854,7 +99880,8 @@
               "kind": "full",
               "ml": 10,
               "price": 1250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-10"
             }
           ],
           "image": "images/mini-diamond-6--eldesoki-fragrances.jpg",
@@ -175149,6 +175176,39 @@
           "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
       ]
+    },
+    {
+      "id": "kenzo-pour-homme-edp",
+      "name_ar": "كينزو او دو بارفم تستر ١٠ملي",
+      "name_en": "Kenzo Pour Homme Edp",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/kenzo-pour-homme-edp.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 475,
+              "first_seen": "2026-08-10"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 2650,
+              "first_seen": "2026-08-10"
+            }
+          ],
+          "image": "images/kenzo-pour-homme-edp--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/kenzo-pour-homme-edp-50ml%d9%83%d9%8a%d9%86%d8%b2%d9%88-%d8%a7%d9%88-%d8%af%d9%88-%d8%a8%d8%a7%d8%b1%d9%81%d9%85-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
