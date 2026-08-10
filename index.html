@@ -211,6 +211,9 @@
   .card-fav:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
   .card-fav[aria-pressed="true"]{color:#ff6161}
   .card-fav .fav-changed-dot{position:absolute;top:-2px;inset-inline-end:-2px;width:.65rem;height:.65rem;border-radius:50%;background:var(--brass);border:2px solid rgba(0,0,0,.55)}
+  /* bottom-start, not top-start -- top-start is already spoken for by
+     .product-modal-close in the modal's expanded card variant. */
+  .fav-updated-badge{position:absolute;bottom:.55rem;inset-inline-start:.55rem;background:var(--brass);color:#12140D;font-size:.68rem;font-weight:700;padding:.25rem .6rem;border-radius:999px;z-index:2;line-height:1.2}
   /* Higher than .product-modal (111) -- a photo zoomed from inside the
      product modal must render on top of it, not behind. Still below
      .toast (120) so an "Added" confirmation stays visible over a
@@ -484,6 +487,7 @@ const I18N = {
     best_offer_from:"from",
     favorites_only:"My favorites",
     favorites_changed:"{n} changed",
+    fav_updated_badge:"Updated",
     add_favorite:"Add to favorites", remove_favorite:"Remove from favorites",
     view_auto:"Auto",
     cart_label:"List", drawer_title:"Your list", empty:"Your list is empty — add a size from any fragrance.",
@@ -520,6 +524,7 @@ const I18N = {
     best_offer_from:"من",
     favorites_only:"المفضلة",
     favorites_changed:"{n} تغيّر",
+    fav_updated_badge:"تحديث",
     add_favorite:"إضافة للمفضلة", remove_favorite:"إزالة من المفضلة",
     view_auto:"تلقائي",
     cart_label:"القائمة", drawer_title:"قائمتك", empty:"القائمة فارغة — أضف حجمًا من أي عطر.",
@@ -589,6 +594,24 @@ function updateFavoritesLabel(){
   if (!el) return;
   const changed = countChangedFavorites();
   el.textContent = changed ? `${t().favorites_only} (${t().favorites_changed.replace("{n}", changed)})` : t().favorites_only;
+}
+// Which favorites changed since they were last checked-in, captured at
+// the moment "My favorites" is opened (see checkInFavorites) — NOT
+// persisted, and distinct from hasFavChanged(): checkInFavorites resets
+// every snapshot as soon as you open the view (so the "(N changed)"
+// badge doesn't keep nagging about something you've now been shown),
+// which would make hasFavChanged() go false before a single render ever
+// happened — the classic "it says 1 changed but I open it and see
+// nothing" bug. This set is what buildCardEl actually highlights/sorts
+// on while the favorites view is open; it's cleared the moment you
+// leave the view (favoritesOnly -> false) so a later, genuinely new
+// change starts from a clean slate next time you open it again.
+let recentlyChangedFavIds = new Set();
+function checkInFavorites(){
+  recentlyChangedFavIds = new Set([...favorites].filter(id => { const p = byId[id]; return p && hasFavChanged(p); }));
+  favorites.forEach(id => { const p = byId[id]; if(p) favSnapshots[id] = favSnapshotFor(p); });
+  saveFavSnapshots();
+  updateFavoritesLabel();
 }
 // Kind and store are multi-select (a set of values; empty = "all", no
 // filter) — a shopper comparing "full bottle OR leftover" across several
@@ -1064,6 +1087,10 @@ async function load(){
     document.getElementById("inStockOnly").setAttribute("aria-pressed", inStockOnly);
     document.getElementById("bestOfferOnly").setAttribute("aria-pressed", bestOfferOnly);
     document.getElementById("favoritesOnly").setAttribute("aria-pressed", favoritesOnly);
+    // Landing directly on a favorites-filtered link (bookmark/share) is
+    // still "opening" the view — check in the same as a click would, or
+    // the highlight/sort this render depends on would never get captured.
+    if (favoritesOnly) checkInFavorites();
     applyI18n();
     render();
     syncCart(); // re-resolve any cart restored from localStorage now that PRODUCTS is populated
@@ -1128,6 +1155,13 @@ function computeItems(){
   if(sortOrder==="newest") items.sort((a,b) => productNewestDate(b).localeCompare(productNewestDate(a)));
   else if(sortOrder==="oldest") items.sort((a,b) => productNewestDate(a).localeCompare(productNewestDate(b)));
   else if(sortOrder==="cheapest") items.sort((a,b) => productCheapestPrice(a) - productCheapestPrice(b));
+  // Recently-changed favorites float to the top of the favorites view
+  // (stable sort keeps each group's own order from above as a tiebreaker)
+  // so the thing that made "(N changed)" show up in the first place is
+  // the first thing you see, not buried somewhere in a long list.
+  if(favoritesOnly && recentlyChangedFavIds.size){
+    items.sort((a,b) => (recentlyChangedFavIds.has(b.id)?1:0) - (recentlyChangedFavIds.has(a.id)?1:0));
+  }
   return items;
 }
 
@@ -1292,15 +1326,25 @@ function buildCardEl(p, {expanded=false}={}){
   // toggle away instead of always taking up the full card height.
   const sortedStores = sortedStoresFor(p);
   const bestOffers = bestOfferOnly ? bestOffersFor(p) : null;
+  // hasFavChanged(p) alone goes false the instant checkInFavorites() runs
+  // (that's the point — it resets the "(N changed)" badge on open), so
+  // the favorites view's own highlight is driven by recentlyChangedFavIds
+  // instead, which still remembers what changed for the rest of this
+  // viewing. OR'd together: outside the favorites view (never checked in
+  // yet) hasFavChanged carries it; inside the view, right after opening,
+  // recentlyChangedFavIds carries it.
+  const favChanged = favorites.has(p.id) && (hasFavChanged(p) || recentlyChangedFavIds.has(p.id));
+  const favHighlight = favoritesOnly && recentlyChangedFavIds.has(p.id);
 
   const card = document.createElement("article");
-  card.className = "card";
+  card.className = "card" + (favHighlight ? " flash" : "");
   if(!expanded) card.id = "card-" + p.id;
   card.innerHTML = `
     <div class="card-img">
       ${p.image ? `<img src="${p.image}" alt="${pname(p)}" loading="lazy" data-pid="${p.id}">` : "🧴"}
+      ${favHighlight ? `<span class="fav-updated-badge">${t().fav_updated_badge}</span>` : ""}
       <button class="card-share" data-share="${p.id}" aria-label="${t().share_link}" title="${t().share_link}">🔗</button>
-      <button class="card-fav" data-fav="${p.id}" aria-pressed="${favorites.has(p.id)}" aria-label="${favorites.has(p.id) ? t().remove_favorite : t().add_favorite}" title="${favorites.has(p.id) ? t().remove_favorite : t().add_favorite}">${favorites.has(p.id) ? "♥" : "♡"}${favorites.has(p.id) && hasFavChanged(p) ? `<span class="fav-changed-dot"></span>` : ""}</button>
+      <button class="card-fav" data-fav="${p.id}" aria-pressed="${favorites.has(p.id)}" aria-label="${favorites.has(p.id) ? t().remove_favorite : t().add_favorite}" title="${favorites.has(p.id) ? t().remove_favorite : t().add_favorite}">${favorites.has(p.id) ? "♥" : "♡"}${favChanged ? `<span class="fav-changed-dot"></span>` : ""}</button>
     </div>
     <div class="card-body">
       <div class="card-brand-row${p.brand ? "" : " no-brand"}">
@@ -1875,15 +1919,12 @@ document.getElementById("favoritesOnly").addEventListener("click", e => {
   captureScrollState();
   favoritesOnly = !favoritesOnly;
   e.currentTarget.setAttribute("aria-pressed", favoritesOnly);
-  // Opening the favorites view is treated as "checking in" on all of
-  // them — refresh every favorited product's stored snapshot to its
-  // current state so the "changed" dot only ever flags something you
-  // haven't actually looked at since it changed, not something you're
-  // looking at right now.
-  if (favoritesOnly){
-    favorites.forEach(id => { const p = byId[id]; if(p) favSnapshots[id] = favSnapshotFor(p); });
-    saveFavSnapshots();
-  }
+  // Opening the favorites view captures which ones changed (so this
+  // render can sort/highlight them), THEN checks in — see
+  // checkInFavorites(). Leaving the view clears the highlight set so a
+  // later reopen starts clean instead of re-showing what you already saw.
+  if (favoritesOnly) checkInFavorites();
+  else recentlyChangedFavIds = new Set();
   updateFilterBadge();
   render();
   syncURLState();
