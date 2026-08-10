@@ -844,8 +844,7 @@ BRAND_CATEGORY = {
     'armaf': 'dupe',
     'armani': 'designer',
     'armani prive': 'designer',
-    'aromatix (french avenue)': 'dupe',
-    'aromatix x french avenue': 'dupe',
+    'aromatix x french avenue': 'dupe',  # "aromatix (french avenue)" now canonicalizes to this spelling, see BRAND_CANONICAL
     'asdaaf': 'dupe',
     'assaf': 'dupe',
     'assaf blends smoky oud': 'dupe',
@@ -1248,6 +1247,18 @@ BRAND_CANONICAL = {
     "parfum de marly": "Parfums de Marly",
     "pdm": "Parfums de Marly",
     "marly": "Parfums de Marly",
+    # "Aromatix" is French Avenue's own collab sub-brand, printed on the
+    # bottle as "AROMATIX" with "FRENCH AVENUE" underneath -- distinct
+    # from plain "French Avenue" (a real, separate house that makes many
+    # OTHER unrelated products in this catalog, e.g. Jasmere, Safari
+    # Breeze). Only canonicalize spellings that explicitly name Aromatix;
+    # never map bare "French Avenue" here, or it would wrongly rebrand
+    # every genuine French Avenue product. Confirmed recreating a
+    # duplicate for the same real "Forbidden Fruit" product because one
+    # source's raw brand text read "Aromatix (French Avenue)" instead of
+    # "Aromatix X French Avenue".
+    "aromatix (french avenue)": "Aromatix X French Avenue",
+    "aromatix french avenue": "Aromatix X French Avenue",
 }
 
 

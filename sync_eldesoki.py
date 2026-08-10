@@ -89,6 +89,14 @@ NAME_TYPO_FIXES = {
     # it, "Night Out" alone doesn't core-token-match "9pm Night Out" at
     # all, let alone land on the right one by blank-brand name matching.
     "night out": "9pm Night Out",
+    # this store's decant (cat 27) and leftover (cat 28) category pages
+    # both title this "Kenzo Pour Homme Edp", while its own full-bottle
+    # (cat 24) page for the exact same product says "Kenzo Homme EDP" --
+    # the extra "Pour" token broke core-token matching against the
+    # already-catalogued "Kenzo Homme EDP" (itself already sold by this
+    # same store under the other title), recreating a same-store duplicate
+    # every sync.
+    "kenzo pour homme edp": "Kenzo Homme EDP",
 }
 
 # This store's own listing carries no parseable brand for these (blank

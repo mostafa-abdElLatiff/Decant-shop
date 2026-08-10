@@ -13316,12 +13316,27 @@
           ],
           "image": "images/aromatix-forbidden-fruit--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/forbidden-fruit-aromatix-x-french-avenue"
+        },
+        {
+          "name": "Hany Diab",
+          "url": "https://www.facebook.com/hany.diab.579736/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 260,
+              "first_seen": "2026-08-06"
+            }
+          ],
+          "image": "images/forbidden-aromatix-french-avenue--hany-diab.jpg",
+          "product_url": "https://www.facebook.com/groups/363102686791098/posts/978216181946409/"
         }
       ],
       "_hero_source": "emaratiscents",
       "aliases": [
-        "X Aromatix Forbidden Fruit",
-        "Forbidden Fruit Aromatix X"
+        "Forbidden",
+        "Forbidden Fruit Aromatix X",
+        "X Aromatix Forbidden Fruit"
       ],
       "category": "dupe"
     },
@@ -15705,7 +15720,9 @@
       "name_ar": "Ateeq Nusuk",
       "name_en": "Ateeq Nusuk",
       "brand": "Riffs",
-      "dupe_of": [],
+      "dupe_of": [
+        "Ateeq — Nusuk"
+      ],
       "image": "images/ateeq-nusuk.jpg",
       "accords": [],
       "stores": [
@@ -23323,7 +23340,7 @@
           "offers": [
             {
               "kind": "full",
-              "ml": "as-shown",
+              "ml": 180,
               "price": 4200,
               "first_seen": "2026-08-10"
             }
@@ -23350,15 +23367,10 @@
           "offers": [
             {
               "kind": "full",
-              "ml": "as-shown",
+              "ml": 180,
               "price": 5900,
-              "first_seen": "2026-08-10"
-            },
-            {
-              "kind": "full",
-              "ml": "as-shown",
-              "price": 3900,
-              "first_seen": "2026-08-01"
+              "first_seen": "2026-08-10",
+              "prev_price": 3900
             }
           ],
           "image": "images/blu-mediterraneo-mandarino-di-sicilia--abo-anas-sayed.jpg",
@@ -23383,7 +23395,7 @@
           "offers": [
             {
               "kind": "full",
-              "ml": "as-shown",
+              "ml": 180,
               "price": 5900,
               "first_seen": "2026-08-01"
             }
@@ -23410,21 +23422,10 @@
           "offers": [
             {
               "kind": "full",
-              "ml": "as-shown",
+              "ml": 180,
               "price": 6200,
-              "first_seen": "2026-08-10"
-            },
-            {
-              "kind": "full",
-              "ml": "as-shown",
-              "price": 6300,
-              "first_seen": "2026-08-01"
-            },
-            {
-              "kind": "full",
-              "ml": "as-shown",
-              "price": 4600,
-              "first_seen": "2026-08-01"
+              "first_seen": "2026-08-10",
+              "prev_price": 6300
             }
           ],
           "image": "images/blu-mediterraneo-mirto-di-panarea--abo-anas-sayed.jpg",
@@ -24373,7 +24374,7 @@
               "first_seen": "2026-08-09"
             }
           ],
-          "image": "images/arabi-blue--eslam-nasser.jpg",
+          "image": "images/blue-sky--eslam-nasser.jpg",
           "product_url": "https://www.facebook.com/groups/720783370622840/posts/901231999244642"
         }
       ],
@@ -43041,7 +43042,7 @@
               "first_seen": "2026-08-09"
             }
           ],
-          "image": "images/golden-nights-midnight--eslam-nasser.jpg",
+          "image": "images/dubai-nights-midnight-armaf--eslam-nasser.jpg",
           "product_url": "https://www.facebook.com/groups/720783370622840/posts/901231999244642"
         }
       ],
@@ -70125,7 +70126,7 @@
               "first_seen": "2026-08-10"
             }
           ],
-          "image": "images/was-here--eslam-nasser.jpg",
+          "image": "images/i-was-here--eslam-nasser.jpg",
           "product_url": "https://www.facebook.com/groups/720783370622840/posts/901231999244642"
         }
       ],
@@ -79205,10 +79206,22 @@
               "price": 4650,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 475,
+              "first_seen": "2026-08-10"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 2650,
+              "first_seen": "2026-08-10"
             }
           ],
-          "image": "images/kenzo-homme-eau-de-parfum--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/kenzo-homme-edp-110ml%d9%83%d9%8a%d9%86%d8%b2%d9%88-%d8%a7%d9%88%d9%85-%d8%a7%d9%88-%d8%af%d9%88-%d8%a8%d8%a7%d8%b1%d9%81%d9%85-%d9%a1%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+          "image": "images/kenzo-pour-homme-edp--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/kenzo-pour-homme-edp-50ml%d9%83%d9%8a%d9%86%d8%b2%d9%88-%d8%a7%d9%88-%d8%af%d9%88-%d8%a8%d8%a7%d8%b1%d9%81%d9%85-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "og-perfume",
@@ -79290,7 +79303,8 @@
         "KENZO HOMME 22 EDP",
         "KENZO HOMME 22 EDP 110ML",
         "KENZO HOMME 22 EDP 60ML",
-        "Kenzo Homme Tester"
+        "Kenzo Homme Tester",
+        "Kenzo Pour Homme Edp"
       ],
       "category": "designer"
     },
@@ -103806,6 +103820,20 @@
           ],
           "image": "images/muzn--dar-elarabia.jpg",
           "product_url": "https://darelarabia.com/products/muzn"
+        },
+        {
+          "name": "Hany Diab",
+          "url": "https://www.facebook.com/hany.diab.579736/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 170,
+              "first_seen": "2026-08-06"
+            }
+          ],
+          "image": "images/muzn-muzn--hany-diab.jpg",
+          "product_url": "https://www.facebook.com/groups/363102686791098/posts/978216181946409/"
         }
       ],
       "_hero_source": "og-perfume",
@@ -121729,7 +121757,7 @@
               "first_seen": "2026-08-10"
             }
           ],
-          "image": "images/x-torino21--eslam-nasser.jpg",
+          "image": "images/platine-blanc--eslam-nasser.jpg",
           "product_url": "https://www.facebook.com/groups/720783370622840/posts/901231999244642"
         }
       ],
@@ -171755,57 +171783,6 @@
       "category": "dupe"
     },
     {
-      "id": "muzn-muzn",
-      "name_en": "Muzn",
-      "name_ar": "",
-      "brand": "Muzn",
-      "image": "images/muzn-muzn--hany-diab.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Hany Diab",
-          "url": "https://www.facebook.com/hany.diab.579736/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 170,
-              "note": "comparable to Ahmed Al Maghribi's line",
-              "first_seen": "2026-08-06"
-            }
-          ],
-          "image": "images/muzn-muzn--hany-diab.jpg",
-          "product_url": "https://www.facebook.com/groups/363102686791098/posts/978216181946409/"
-        }
-      ],
-      "category": "niche"
-    },
-    {
-      "id": "forbidden-aromatix-french-avenue",
-      "name_en": "Forbidden",
-      "name_ar": "",
-      "brand": "Aromatix (French Avenue)",
-      "image": "images/forbidden-aromatix-french-avenue--hany-diab.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "Hany Diab",
-          "url": "https://www.facebook.com/hany.diab.579736/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 260,
-              "first_seen": "2026-08-06"
-            }
-          ],
-          "image": "images/forbidden-aromatix-french-avenue--hany-diab.jpg",
-          "product_url": "https://www.facebook.com/groups/363102686791098/posts/978216181946409/"
-        }
-      ],
-      "category": "dupe"
-    },
-    {
       "id": "cool-mist",
       "name_en": "Cool Mist",
       "name_ar": "",
@@ -174740,7 +174717,7 @@
       "dupe_of": [
         "Bleu de Chanel L'Exclusif — Chanel"
       ],
-      "image": "",
+      "image": "images/seasons-drift.jpg",
       "accords": [],
       "stores": [
         {
@@ -174781,7 +174758,7 @@
       "dupe_of": [
         "Tilia — Marc-Antoine Barrois"
       ],
-      "image": "",
+      "image": "images/magnificent-pour-homme-satin.jpg",
       "accords": [],
       "stores": [
         {
@@ -174820,7 +174797,7 @@
       "brand": "Yves Saint Laurent",
       "category": "designer",
       "dupe_of": [],
-      "image": "",
+      "image": "images/y-live.jpg",
       "accords": [],
       "stores": [
         {
@@ -174838,7 +174815,8 @@
           "image": "images/y-live--abo-anas-sayed.jpg",
           "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
-      ]
+      ],
+      "_hero_source": "Abo Anas Sayed"
     },
     {
       "id": "black-sea-lorenzo-pazzaglia",
@@ -174847,7 +174825,7 @@
       "brand": "Lorenzo Pazzaglia",
       "category": "niche",
       "dupe_of": [],
-      "image": "",
+      "image": "images/black-sea-lorenzo-pazzaglia.jpg",
       "accords": [],
       "stores": [
         {
@@ -174864,7 +174842,8 @@
           "image": "images/black-sea-lorenzo-pazzaglia--abo-anas-sayed.jpg",
           "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
-      ]
+      ],
+      "_hero_source": "Abo Anas Sayed"
     },
     {
       "id": "gran-ballo",
@@ -174873,7 +174852,7 @@
       "brand": "Xerjoff",
       "category": "niche",
       "dupe_of": [],
-      "image": "",
+      "image": "images/gran-ballo.jpg",
       "accords": [],
       "stores": [
         {
@@ -174890,7 +174869,8 @@
           "image": "images/gran-ballo--abo-anas-sayed.jpg",
           "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
-      ]
+      ],
+      "_hero_source": "Abo Anas Sayed"
     },
     {
       "id": "flamenco-edp-monegal",
@@ -174899,7 +174879,7 @@
       "brand": "Ramon Monegal",
       "category": "niche",
       "dupe_of": [],
-      "image": "",
+      "image": "images/flamenco-edp-monegal.jpg",
       "accords": [],
       "stores": [
         {
@@ -174916,7 +174896,8 @@
           "image": "images/flamenco-edp-monegal--abo-anas-sayed.jpg",
           "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
-      ]
+      ],
+      "_hero_source": "Abo Anas Sayed"
     },
     {
       "id": "flamenco-extrait-monegal",
@@ -174925,7 +174906,7 @@
       "brand": "Ramon Monegal",
       "category": "niche",
       "dupe_of": [],
-      "image": "",
+      "image": "images/flamenco-extrait-monegal.jpg",
       "accords": [],
       "stores": [
         {
@@ -174942,7 +174923,8 @@
           "image": "images/flamenco-extrait-monegal--abo-anas-sayed.jpg",
           "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
-      ]
+      ],
+      "_hero_source": "Abo Anas Sayed"
     },
     {
       "id": "overdose-omanluxury",
@@ -174951,7 +174933,7 @@
       "brand": "Oman Luxury",
       "category": "niche",
       "dupe_of": [],
-      "image": "",
+      "image": "images/overdose-omanluxury.jpg",
       "accords": [],
       "stores": [
         {
@@ -174968,7 +174950,8 @@
           "image": "images/overdose-omanluxury--abo-anas-sayed.jpg",
           "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
-      ]
+      ],
+      "_hero_source": "Abo Anas Sayed"
     },
     {
       "id": "kenzo-homme-intense",
@@ -174977,7 +174960,7 @@
       "brand": "Kenzo",
       "category": "designer",
       "dupe_of": [],
-      "image": "",
+      "image": "images/kenzo-homme-intense.jpg",
       "accords": [],
       "stores": [
         {
@@ -174994,7 +174977,8 @@
           "image": "images/kenzo-homme-intense--abo-anas-sayed.jpg",
           "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
-      ]
+      ],
+      "_hero_source": "Abo Anas Sayed"
     },
     {
       "id": "colonia-ambra",
@@ -175003,7 +174987,7 @@
       "brand": "Acqua di Parma",
       "category": "niche",
       "dupe_of": [],
-      "image": "",
+      "image": "images/colonia-ambra.jpg",
       "accords": [],
       "stores": [
         {
@@ -175020,7 +175004,8 @@
           "image": "images/colonia-ambra--abo-anas-sayed.jpg",
           "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
-      ]
+      ],
+      "_hero_source": "Abo Anas Sayed"
     },
     {
       "id": "colonia-oud",
@@ -175029,7 +175014,7 @@
       "brand": "Acqua di Parma",
       "category": "niche",
       "dupe_of": [],
-      "image": "",
+      "image": "images/colonia-oud.jpg",
       "accords": [],
       "stores": [
         {
@@ -175046,7 +175031,8 @@
           "image": "images/colonia-oud--abo-anas-sayed.jpg",
           "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
-      ]
+      ],
+      "_hero_source": "Abo Anas Sayed"
     },
     {
       "id": "olfactive-expressions-barcelona-no5",
@@ -175055,7 +175041,7 @@
       "brand": "Rosendo Mateu",
       "category": "niche",
       "dupe_of": [],
-      "image": "",
+      "image": "images/olfactive-expressions-barcelona-no5.jpg",
       "accords": [],
       "stores": [
         {
@@ -175072,40 +175058,8 @@
           "image": "images/olfactive-expressions-barcelona-no5--abo-anas-sayed.jpg",
           "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
         }
-      ]
-    },
-    {
-      "id": "kenzo-pour-homme-edp",
-      "name_ar": "كينزو او دو بارفم تستر ١٠ملي",
-      "name_en": "Kenzo Pour Homme Edp",
-      "brand": "",
-      "category": "",
-      "dupe_of": [],
-      "image": "images/kenzo-pour-homme-edp.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "eldesoki-fragrances",
-          "url": "https://eldesoki-fragrances.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 475,
-              "first_seen": "2026-08-10"
-            },
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 2650,
-              "first_seen": "2026-08-10"
-            }
-          ],
-          "image": "images/kenzo-pour-homme-edp--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/kenzo-pour-homme-edp-50ml%d9%83%d9%8a%d9%86%d8%b2%d9%88-%d8%a7%d9%88-%d8%af%d9%88-%d8%a8%d8%a7%d8%b1%d9%81%d9%85-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
-        }
       ],
-      "_hero_source": "eldesoki-fragrances"
+      "_hero_source": "Abo Anas Sayed"
     },
     {
       "id": "your-touch-amber-by-maison-alhambra",
