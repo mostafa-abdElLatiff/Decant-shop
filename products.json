@@ -9134,8 +9134,7 @@
               "kind": "full",
               "ml": 75,
               "price": 2230,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-04"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/amethyst-khozam--emaratiscents.jpg",
@@ -126317,7 +126316,8 @@
               "kind": "full",
               "ml": 90,
               "price": 900,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-10"
             }
           ],
           "image": "images/qaed-al-fursan--emaratiscents.jpg",
@@ -158821,7 +158821,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1700,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-10"
             }
           ],
           "image": "images/vanilla-voyage-maison-asrar--emaratiscents.jpg",
@@ -175304,6 +175305,60 @@
         }
       ],
       "_hero_source": "og-perfume"
+    },
+    {
+      "id": "mini-summer-collection",
+      "name_ar": "Mini Summer Collection",
+      "name_en": "Mini Summer Collection",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/mini-summer-collection.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 10,
+              "price": 1150,
+              "first_seen": "2026-08-10"
+            }
+          ],
+          "image": "images/mini-summer-collection--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/mini-summer-collection"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "revolt-uncaged",
+      "name_ar": "Revolt Uncaged",
+      "name_en": "Revolt Uncaged",
+      "brand": "Arabiyat Prestige",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/revolt-uncaged.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-08-10"
+            }
+          ],
+          "image": "images/revolt-uncaged--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/revolt-uncaged"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
