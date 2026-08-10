@@ -26950,19 +26950,19 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 50,
-              "first_seen": "2026-08-05"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
               "price": 65,
               "first_seen": "2026-08-05"
             },
             {
               "kind": "decant",
+              "ml": 5,
+              "price": 85,
+              "first_seen": "2026-08-05"
+            },
+            {
+              "kind": "decant",
               "ml": 10,
-              "price": 100,
+              "price": 130,
               "first_seen": "2026-08-05"
             }
           ],
@@ -37747,19 +37747,19 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 60,
+              "price": 70,
               "first_seen": "2026-08-05"
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 75,
+              "price": 95,
               "first_seen": "2026-08-05"
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 110,
+              "price": 145,
               "first_seen": "2026-08-05"
             },
             {
@@ -55843,19 +55843,19 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 75,
+              "price": 80,
               "first_seen": "2026-08-05"
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 95,
+              "price": 105,
               "first_seen": "2026-08-05"
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 140,
+              "price": 160,
               "first_seen": "2026-08-05"
             },
             {
@@ -81645,20 +81645,23 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 105,
-              "first_seen": "2026-08-05"
+              "price": 90,
+              "first_seen": "2026-08-05",
+              "prev_price": 105
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 140,
-              "first_seen": "2026-08-05"
+              "price": 120,
+              "first_seen": "2026-08-05",
+              "prev_price": 140
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 210,
-              "first_seen": "2026-08-05"
+              "price": 180,
+              "first_seen": "2026-08-05",
+              "prev_price": 210
             },
             {
               "kind": "full",
@@ -111698,7 +111701,8 @@
               "kind": "full",
               "ml": 200,
               "price": 2400,
-              "first_seen": "2026-08-03"
+              "first_seen": "2026-08-03",
+              "sold_since": "2026-08-10"
             }
           ],
           "image": "images/odyssey-limoni--sniffz.jpg",
@@ -155407,19 +155411,19 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 60,
-              "first_seen": "2026-08-05"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
               "price": 80,
               "first_seen": "2026-08-05"
             },
             {
               "kind": "decant",
+              "ml": 5,
+              "price": 105,
+              "first_seen": "2026-08-05"
+            },
+            {
+              "kind": "decant",
               "ml": 10,
-              "price": 120,
+              "price": 160,
               "first_seen": "2026-08-05"
             },
             {
