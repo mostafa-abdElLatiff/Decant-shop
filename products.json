@@ -56813,8 +56813,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 975,
-              "first_seen": "2026-08-01",
-              "prev_price": 1000
+              "first_seen": "2026-08-01"
             },
             {
               "kind": "full",
@@ -79163,13 +79162,6 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
-              "kind": "full",
-              "ml": 110,
-              "price": 4650,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
               "kind": "decant",
               "ml": 10,
               "price": 475,
@@ -79180,9 +79172,16 @@
               "ml": 50,
               "price": 2650,
               "first_seen": "2026-08-10"
+            },
+            {
+              "kind": "full",
+              "ml": 110,
+              "price": 4650,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
             }
           ],
-          "image": "images/kenzo-pour-homme-edp--eldesoki-fragrances.jpg",
+          "image": "images/kenzo-homme-eau-de-parfum--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/kenzo-pour-homme-edp-50ml%d9%83%d9%8a%d9%86%d8%b2%d9%88-%d8%a7%d9%88-%d8%af%d9%88-%d8%a8%d8%a7%d8%b1%d9%81%d9%85-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
@@ -116888,8 +116887,9 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 800,
-              "first_seen": "2026-07-18"
+              "price": 775,
+              "first_seen": "2026-07-18",
+              "prev_price": 800
             },
             {
               "kind": "full",
@@ -163903,7 +163903,7 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 150,
+              "price": 175,
               "first_seen": "2026-08-04"
             },
             {
@@ -175197,6 +175197,33 @@
           ],
           "image": "images/arrogate-commet--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/arrogate-commet-70ml%d8%a7%d8%b1%d9%88%d8%ac%d9%8a%d8%aa-%d9%83%d9%88%d9%85%d9%8a%d8%aa-%d9%a7%d9%a0%d9%85%d9%84%d9%8a-%d8%a8%d8%a7%d9%84%d8%a8%d9%88%d9%83%d8%b3/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "qasida-al-badr-faan",
+      "name_ar": "قصيدة البدر ٢٠٠ملي من فان للإبداع",
+      "name_en": "Qasida Al Badr Faan",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/qasida-al-badr-faan.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 1975,
+              "first_seen": "2026-08-10"
+            }
+          ],
+          "image": "images/qasida-al-badr-faan--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/qasida-al-badr-200ml-faan%d9%82%d8%b5%d9%8a%d8%af%d8%a9-%d8%a7%d9%84%d8%a8%d8%af%d8%b1-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%81%d8%a7%d9%86-%d9%84%d9%84%d8%a5%d8%a8%d8%af%d8%a7%d8%b9/"
         }
       ],
       "_hero_source": "eldesoki-fragrances"
