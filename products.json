@@ -10911,6 +10911,13 @@
               "sold_since": "2026-08-08"
             },
             {
+              "kind": "leftover",
+              "ml": 45,
+              "price": 750,
+              "first_seen": "2026-08-10",
+              "sold_since": "2026-08-10"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1500,
@@ -93786,8 +93793,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 265,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-01"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
@@ -93814,8 +93820,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2350,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/lynked-forever--og-perfume.jpg",
@@ -93927,8 +93932,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 265,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -93948,8 +93952,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2350,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/lynked-freedom--og-perfume.jpg",
@@ -158206,6 +158209,12 @@
               "sold_since": "2026-07-21"
             },
             {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 1750,
+              "first_seen": "2026-08-10"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 3500,
@@ -161639,7 +161648,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 425,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-10"
             },
             {
               "kind": "leftover",
