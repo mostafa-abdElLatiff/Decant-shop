@@ -15716,62 +15716,6 @@
       "category": "dupe"
     },
     {
-      "id": "ateeq-nusuk",
-      "name_ar": "Ateeq Nusuk",
-      "name_en": "Ateeq Nusuk",
-      "brand": "Riffs",
-      "dupe_of": [
-        "Ateeq — Nusuk"
-      ],
-      "image": "images/ateeq-nusuk.jpg",
-      "accords": [],
-      "stores": [
-        {
-          "name": "og-perfume",
-          "url": "https://og-perfume.com/",
-          "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 210,
-              "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 600,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 40,
-              "price": 700,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 875,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1750,
-              "first_seen": "2026-07-19"
-            }
-          ],
-          "image": "images/ateeq-nusuk--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/ateeq-nusuk"
-        }
-      ],
-      "_hero_source": "og-perfume",
-      "category": "dupe"
-    },
-    {
       "id": "atelier-ambre-nectar",
       "name_ar": "",
       "name_en": "Atelier Ambre Nectar",
@@ -23424,9 +23368,8 @@
             {
               "kind": "full",
               "ml": 180,
-              "price": 6200,
-              "first_seen": "2026-08-10",
-              "prev_price": 6300
+              "price": 6300,
+              "first_seen": "2026-08-10"
             }
           ],
           "image": "images/blu-mediterraneo-mirto-di-panarea--abo-anas-sayed.jpg",
@@ -171813,12 +171756,56 @@
           ],
           "image": "images/ateeq--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/978216181946409/"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 210,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 600,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 40,
+              "price": 700,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 875,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1750,
+              "first_seen": "2026-07-19"
+            }
+          ],
+          "image": "images/ateeq-nusuk--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/ateeq-nusuk"
         }
       ],
       "dupe_of": [
         "XJ 1861 Naxos — Xerjoff"
       ],
-      "category": "dupe"
+      "category": "dupe",
+      "aliases": [
+        "Ateeq Nusuk"
+      ]
     },
     {
       "id": "cool-mist",
