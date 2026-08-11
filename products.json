@@ -175212,8 +175212,10 @@
       "id": "al-najah-arabiyat-mpf",
       "name_ar": "النجاح ١٠٠ملي من عربيات عطوري بديل ممتاز لهيبيسكاس ماهاچاد حصري لدينا",
       "name_en": "Al Najah Arabiyat mpf",
-      "brand": "",
-      "dupe_of": [],
+      "brand": "My Perfumes",
+      "dupe_of": [
+        "Hibiscus Mahajad — Maison Crivelli"
+      ],
       "image": "images/al-najah-arabiyat-mpf.jpg",
       "accords": [],
       "stores": [
@@ -175230,10 +175232,30 @@
           ],
           "image": "images/al-najah-arabiyat-mpf--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/al-najah-arabiyat-mpf-100ml%d8%a7%d9%84%d9%86%d8%ac%d8%a7%d8%ad-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b9%d8%b1%d8%a8%d9%8a%d8%a7%d8%aa-%d8%b9%d8%b7%d9%88%d8%b1%d9%8a-%d8%a8%d8%af/"
+        },
+        {
+          "name": "EsLam Nasser",
+          "url": "https://www.facebook.com/eslam.nasser.10/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 80,
+              "first_seen": "2026-08-11"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 120,
+              "first_seen": "2026-08-11"
+            }
+          ],
+          "image": "images/al-najah-arabiyat-mpf--eslam-nasser.jpg",
+          "product_url": "https://www.facebook.com/groups/720783370622840/posts/904106748957167"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
-      "category": ""
+      "category": "dupe"
     },
     {
       "id": "queen-of-roses",
