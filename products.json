@@ -37767,14 +37767,14 @@
               "kind": "decant",
               "ml": 10,
               "price": 150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-03"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 425,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-11"
             },
             {
               "kind": "leftover",
@@ -67995,8 +67995,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2950,
-              "first_seen": "2026-07-19"
+              "price": 2750,
+              "first_seen": "2026-07-19",
+              "prev_price": 2950
             }
           ],
           "image": "images/hersh-mahwar--og-perfume.jpg",
