@@ -56279,20 +56279,23 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 120,
-              "first_seen": "2026-01-01"
+              "price": 100,
+              "first_seen": "2026-01-01",
+              "prev_price": 120
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 155,
-              "first_seen": "2026-01-01"
+              "price": 130,
+              "first_seen": "2026-01-01",
+              "prev_price": 155
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 235,
-              "first_seen": "2026-01-01"
+              "price": 200,
+              "first_seen": "2026-01-01",
+              "prev_price": 235
             },
             {
               "kind": "full",
@@ -80023,8 +80026,7 @@
               "kind": "decant",
               "ml": 5,
               "price": 220,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-10"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
