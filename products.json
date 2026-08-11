@@ -977,20 +977,23 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 590,
-              "first_seen": "2026-01-01"
+              "price": 485,
+              "first_seen": "2026-01-01",
+              "prev_price": 590
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 840,
-              "first_seen": "2026-01-01"
+              "price": 690,
+              "first_seen": "2026-01-01",
+              "prev_price": 840
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 1400,
-              "first_seen": "2026-01-01"
+              "price": 1150,
+              "first_seen": "2026-01-01",
+              "prev_price": 1400
             }
           ],
           "image": "images/40-knots--sniffz.jpg",
@@ -2045,8 +2048,7 @@
               "kind": "decant",
               "ml": 3,
               "price": 125,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-08-10"
+              "first_seen": "2026-01-01"
             },
             {
               "kind": "decant",
@@ -2063,8 +2065,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1700,
-              "first_seen": "2026-01-01"
+              "price": 1600,
+              "first_seen": "2026-01-01",
+              "prev_price": 1700
             }
           ],
           "image": "images/9pm-night-out--sniffz.jpg",
@@ -7854,22 +7857,25 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 185,
+              "price": 150,
               "first_seen": "2026-07-19",
+              "prev_price": 185,
               "sold_since": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 235,
+              "price": 195,
               "first_seen": "2026-07-19",
+              "prev_price": 235,
               "sold_since": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 360,
+              "price": 300,
               "first_seen": "2026-07-19",
+              "prev_price": 360,
               "sold_since": "2026-07-19"
             },
             {
@@ -10939,20 +10945,23 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 165,
-              "first_seen": "2026-01-01"
+              "price": 140,
+              "first_seen": "2026-01-01",
+              "prev_price": 165
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 205,
-              "first_seen": "2026-01-01"
+              "price": 185,
+              "first_seen": "2026-01-01",
+              "prev_price": 205
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 320,
-              "first_seen": "2026-01-01"
+              "price": 280,
+              "first_seen": "2026-01-01",
+              "prev_price": 320
             }
           ],
           "image": "images/aquatica--sniffz.jpg",
@@ -55783,20 +55792,23 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 130,
-              "first_seen": "2026-01-01"
+              "price": 110,
+              "first_seen": "2026-01-01",
+              "prev_price": 130
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 165,
-              "first_seen": "2026-01-01"
+              "price": 145,
+              "first_seen": "2026-01-01",
+              "prev_price": 165
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 250,
-              "first_seen": "2026-01-01"
+              "price": 220,
+              "first_seen": "2026-01-01",
+              "prev_price": 250
             }
           ],
           "image": "images/frankel-afternoon--sniffz.jpg",
@@ -56280,22 +56292,19 @@
               "kind": "decant",
               "ml": 3,
               "price": 100,
-              "first_seen": "2026-01-01",
-              "prev_price": 120
+              "first_seen": "2026-01-01"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 130,
-              "first_seen": "2026-01-01",
-              "prev_price": 155
+              "first_seen": "2026-01-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-01-01",
-              "prev_price": 235
+              "first_seen": "2026-01-01"
             },
             {
               "kind": "full",
@@ -66102,19 +66111,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 150,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-11"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 195,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-11"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 360,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-11"
             },
             {
               "kind": "full",
@@ -66124,7 +66136,7 @@
             }
           ],
           "image": "images/hawas-tropical--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/rasasi-hawas-tropical"
+          "product_url": "https://sniffz-eg.com/products/rasasi-hawas-tropical-full-sealed"
         },
         {
           "name": "emaratiscents",
@@ -74897,20 +74909,23 @@
             {
               "kind": "decant",
               "ml": 5,
-              "price": 195,
-              "first_seen": "2026-01-01"
+              "price": 155,
+              "first_seen": "2026-01-01",
+              "prev_price": 195
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 300,
-              "first_seen": "2026-01-01"
+              "price": 240,
+              "first_seen": "2026-01-01",
+              "prev_price": 300
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 1900,
-              "first_seen": "2026-01-01"
+              "price": 1450,
+              "first_seen": "2026-01-01",
+              "prev_price": 1900
             }
           ],
           "image": "images/island-dreams--sniffz.jpg",
@@ -79767,23 +79782,23 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 275,
+              "price": 220,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-08-01"
+              "prev_price": 275
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 380,
+              "price": 295,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-08-01"
+              "prev_price": 380
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 600,
+              "price": 450,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-08-01"
+              "prev_price": 600
             },
             {
               "kind": "full",
@@ -89556,8 +89571,7 @@
               "kind": "decant",
               "ml": 3,
               "price": 300,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-08-10"
+              "first_seen": "2026-01-01"
             },
             {
               "kind": "decant",
@@ -103509,22 +103523,25 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 185,
+              "price": 130,
               "first_seen": "2026-07-19",
+              "prev_price": 185,
               "sold_since": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 240,
+              "price": 170,
               "first_seen": "2026-07-19",
+              "prev_price": 240,
               "sold_since": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 365,
+              "price": 260,
               "first_seen": "2026-07-19",
+              "prev_price": 365,
               "sold_since": "2026-07-19"
             },
             {
@@ -137438,8 +137455,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1800,
-              "first_seen": "2026-01-01"
+              "price": 1600,
+              "first_seen": "2026-01-01",
+              "prev_price": 1800
             }
           ],
           "image": "images/sculpture--sniffz.jpg",
