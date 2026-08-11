@@ -44244,7 +44244,8 @@
               "kind": "full",
               "ml": 200,
               "price": 1250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-11"
             }
           ],
           "image": "images/eager--emaratiscents.jpg",
@@ -161781,7 +161782,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2500,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-11"
             }
           ],
           "image": "images/vintage-tobacco--emaratiscents.jpg",
@@ -177210,6 +177212,33 @@
         }
       ],
       "_hero_source": "EsLam Nasser"
+    },
+    {
+      "id": "hook-blue",
+      "name_ar": "Hook Blue",
+      "name_en": "Hook Blue",
+      "brand": "Assaf",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/hook-blue.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2450,
+              "first_seen": "2026-08-11"
+            }
+          ],
+          "image": "images/hook-blue--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/hook-blue"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
