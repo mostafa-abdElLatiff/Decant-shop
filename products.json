@@ -16809,9 +16809,8 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-10"
+              "price": 2450,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/attacks--emaratiscents.jpg",
@@ -36153,8 +36152,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1450,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-07"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/cream-velvet-khadlaj--emaratiscents.jpg",
@@ -44947,8 +44945,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-10"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/eau-de-vintage--emaratiscents.jpg",
@@ -57591,8 +57588,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1150,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-11"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/fursan-white--emaratiscents.jpg",
@@ -74719,8 +74715,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-07"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/island--emaratiscents.jpg",
@@ -108684,8 +108679,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2350,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-11"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/no-comment--emaratiscents.jpg",
@@ -114552,8 +114546,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-09"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/onyx-gold--emaratiscents.jpg",
@@ -131051,7 +131044,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2750,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-11"
             }
           ],
           "image": "images/reef-33--emaratiscents.jpg",
@@ -139667,8 +139661,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1400,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-11"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/sharaf-divine--emaratiscents.jpg",
@@ -165790,6 +165783,20 @@
           ],
           "image": "images/wild-colt-elixir-assaf--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/wild-colt-elixir-100ml%d9%88%d8%a7%d9%8a%d9%84%d8%af-%d9%83%d9%88%d9%84%d8%aa-%d8%a7%d9%84%d9%8a%d9%83%d8%b2%d9%8a%d8%b1-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d8%b9%d9%84%d8%a8%d8%a9-%d8%af%d9%8a/"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2250,
+              "first_seen": "2026-08-11"
+            }
+          ],
+          "image": "images/wild-colt-elixir-assaf--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/wild-colt-elixir-200-ml"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -178838,6 +178845,87 @@
         }
       ],
       "_hero_source": "roseperfume"
+    },
+    {
+      "id": "wild-colt-tobacco-more-concentrated",
+      "name_ar": "Wild Colt Tobacco ( More Concentrated )",
+      "name_en": "Wild Colt Tobacco ( More Concentrated )",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/wild-colt-tobacco-more-concentrated.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1950,
+              "first_seen": "2026-08-11"
+            }
+          ],
+          "image": "images/wild-colt-tobacco-more-concentrated--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/wild-colt-tobacco-200-ml"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "oud-royal",
+      "name_ar": "Oud Royal",
+      "name_en": "Oud Royal",
+      "brand": "Assaf",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/oud-royal.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2250,
+              "first_seen": "2026-08-11"
+            }
+          ],
+          "image": "images/oud-royal--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/oud-royal-200-ml"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "private-purple",
+      "name_ar": "Private Purple",
+      "name_en": "Private Purple",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/private-purple.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2250,
+              "first_seen": "2026-08-11"
+            }
+          ],
+          "image": "images/private-purple--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/private-purple-200-ml"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
