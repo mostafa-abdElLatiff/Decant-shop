@@ -92963,7 +92963,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 220,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-12"
             },
             {
               "kind": "decant",
@@ -179345,7 +179346,7 @@
       "brand": "Al Majed Oud",
       "category": "dupe",
       "dupe_of": [],
-      "image": "",
+      "image": "images/wood-white.jpg",
       "accords": [],
       "stores": [
         {
@@ -179365,9 +179366,11 @@
               "first_seen": "2026-08-12"
             }
           ],
-          "product_url": "https://og-perfume.com/products/wood-white"
+          "product_url": "https://og-perfume.com/products/wood-white",
+          "image": "images/wood-white--og-perfume.jpg"
         }
-      ]
+      ],
+      "_hero_source": "og-perfume"
     }
   ]
 }
