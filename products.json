@@ -17511,15 +17511,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 130,
-              "first_seen": "2026-07-25",
-              "sold_since": "2026-08-06"
+              "first_seen": "2026-07-25"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 350,
-              "first_seen": "2026-07-25",
-              "sold_since": "2026-07-25"
+              "first_seen": "2026-07-25"
             },
             {
               "kind": "leftover",
@@ -27951,15 +27949,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 190,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 550,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -27972,8 +27968,7 @@
               "kind": "full",
               "ml": 150,
               "price": 2450,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/candy-musk-150ml-al-majed-oud--og-perfume.jpg",
@@ -69581,7 +69576,8 @@
               "kind": "full",
               "ml": 75,
               "price": 1500,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-08-12"
             }
           ],
           "image": "images/honey-musk-confidence-dose--og-perfume.jpg",
@@ -79223,15 +79219,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-25",
-              "sold_since": "2026-08-03"
+              "first_seen": "2026-07-25"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 575,
-              "first_seen": "2026-07-25",
-              "sold_since": "2026-07-26"
+              "first_seen": "2026-07-25"
             },
             {
               "kind": "leftover",
@@ -102715,8 +102709,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2750,
-              "first_seen": "2026-07-19",
-              "prev_price": 3000
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/morra--og-perfume.jpg",
@@ -138393,8 +138386,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 305,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -140036,8 +140028,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2750,
-              "first_seen": "2026-07-19",
-              "prev_price": 2900
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/shield--og-perfume.jpg",
@@ -179347,6 +179338,37 @@
         }
       ],
       "_hero_source": "sniffz"
+    },
+    {
+      "id": "wood-white",
+      "name_ar": "Wood White",
+      "name_en": "Wood White",
+      "brand": "Al Majed Oud",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 275,
+              "first_seen": "2026-08-12"
+            },
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 1850,
+              "first_seen": "2026-08-12"
+            }
+          ],
+          "product_url": "https://og-perfume.com/products/wood-white"
+        }
+      ]
     }
   ]
 }
