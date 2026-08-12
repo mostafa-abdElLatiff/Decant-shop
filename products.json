@@ -13234,8 +13234,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/aromatix--emaratiscents.jpg",
@@ -13348,8 +13347,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-20"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/aromatix-forbidden-fruit--emaratiscents.jpg",
@@ -44341,8 +44339,7 @@
               "kind": "full",
               "ml": 200,
               "price": 1250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-11"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/eager--emaratiscents.jpg",
@@ -76768,9 +76765,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2350,
+              "price": 2050,
               "first_seen": "2026-07-18",
-              "sold_since": "2026-07-22"
+              "prev_price": 2350
             }
           ],
           "image": "images/jasmere--emaratiscents.jpg",
@@ -95216,6 +95213,20 @@
           ],
           "image": "images/magnetiq--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/magnetiq-aromatix-x-french-avenue-1"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-08-12"
+            }
+          ],
+          "image": "images/magnetiq--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/aromatix-magnetiq"
         }
       ],
       "_hero_source": "sniffz",
@@ -106604,6 +106615,20 @@
           ],
           "image": "images/naughty-dates--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/aromatix-naughty-dates"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-08-12"
+            }
+          ],
+          "image": "images/naughty-dates--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/aromatix-naughty-dates"
         }
       ],
       "_hero_source": "og-perfume",
@@ -107181,6 +107206,20 @@
           ],
           "image": "images/nectare-extradose--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/nectare-extradose"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1950,
+              "first_seen": "2026-08-12"
+            }
+          ],
+          "image": "images/nectare-extradose--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/nectare-extradose"
         }
       ],
       "_hero_source": "og-perfume",
@@ -133004,6 +133043,20 @@
           ],
           "image": "images/ripple--eslam-nasser.jpg",
           "product_url": "https://www.facebook.com/groups/720783370622840/posts/904106748957167"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1950,
+              "first_seen": "2026-08-12"
+            }
+          ],
+          "image": "images/ripple--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/ripple"
         }
       ],
       "_hero_source": "dar.elarabia",
@@ -148107,8 +148160,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-20"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/sun-kissed--emaratiscents.jpg",
@@ -153658,6 +153710,20 @@
           ],
           "image": "images/thunder--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/thunder"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1850,
+              "first_seen": "2026-08-12"
+            }
+          ],
+          "image": "images/thunder--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/thunder"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -178971,12 +179037,40 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2250,
-              "first_seen": "2026-08-12"
+              "price": 2050,
+              "first_seen": "2026-08-12",
+              "prev_price": 2250
             }
           ],
           "image": "images/chaos--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/chaos"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "genesis-perfumes-elite-set",
+      "name_ar": "Genesis Perfumes Elite Set",
+      "name_en": "Genesis Perfumes Elite Set",
+      "brand": "French Avenue",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/genesis-perfumes-elite-set.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 30,
+              "price": 9500,
+              "first_seen": "2026-08-12"
+            }
+          ],
+          "image": "images/genesis-perfumes-elite-set--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/genesis-perfumes-elite-set"
         }
       ],
       "_hero_source": "emaratiscents"
