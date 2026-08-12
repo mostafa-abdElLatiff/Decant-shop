@@ -1755,35 +1755,15 @@
           "url": "https://sniffz-eg.com/",
           "offers": [
             {
-              "kind": "decant",
-              "ml": 3,
-              "price": 160,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 210,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 320,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
               "kind": "full",
               "ml": 100,
-              "price": 1850,
-              "first_seen": "2026-01-01"
+              "price": 1700,
+              "first_seen": "2026-01-01",
+              "prev_price": 1850
             }
           ],
           "image": "images/9pm-elixir--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/afnan-9pm-elixir"
+          "product_url": "https://sniffz-eg.com/products/afnan-9pm-elixir-full-sealed"
         },
         {
           "name": "eldesoki-fragrances",
@@ -65647,20 +65627,23 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 155,
-              "first_seen": "2026-01-01"
+              "price": 135,
+              "first_seen": "2026-01-01",
+              "prev_price": 155
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 195,
-              "first_seen": "2026-07-19"
+              "price": 175,
+              "first_seen": "2026-07-19",
+              "prev_price": 195
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 300,
-              "first_seen": "2026-07-19"
+              "price": 270,
+              "first_seen": "2026-07-19",
+              "prev_price": 300
             }
           ],
           "image": "images/hawas-kobra-rasasi--sniffz.jpg",
@@ -67832,25 +67815,28 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 200,
-              "first_seen": "2026-01-01"
+              "price": 170,
+              "first_seen": "2026-01-01",
+              "prev_price": 200
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 260,
-              "first_seen": "2026-01-01"
+              "price": 230,
+              "first_seen": "2026-01-01",
+              "prev_price": 260
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 400,
-              "first_seen": "2026-01-01"
+              "price": 350,
+              "first_seen": "2026-01-01",
+              "prev_price": 400
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 2200,
+              "price": 2500,
               "first_seen": "2026-01-01"
             }
           ],
@@ -79763,8 +79749,9 @@
             {
               "kind": "full",
               "ml": 110,
-              "price": 4650,
-              "first_seen": "2026-01-01"
+              "price": 3750,
+              "first_seen": "2026-01-01",
+              "prev_price": 4650
             }
           ],
           "image": "images/kenzo-homme-eau-de-parfum--sniffz.jpg",
@@ -90239,20 +90226,23 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 295,
-              "first_seen": "2026-01-01"
+              "price": 275,
+              "first_seen": "2026-01-01",
+              "prev_price": 295
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 410,
-              "first_seen": "2026-01-01"
+              "price": 380,
+              "first_seen": "2026-01-01",
+              "prev_price": 410
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 650,
-              "first_seen": "2026-01-01"
+              "price": 600,
+              "first_seen": "2026-01-01",
+              "prev_price": 650
             }
           ],
           "image": "images/le-male-elixir-absolu--sniffz.jpg",
@@ -97685,25 +97675,19 @@
               "kind": "decant",
               "ml": 3,
               "price": 125,
-              "first_seen": "2026-01-01",
-              "prev_price": 150,
-              "sold_since": "2026-08-09"
+              "first_seen": "2026-01-01"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 165,
-              "first_seen": "2026-01-01",
-              "prev_price": 195,
-              "sold_since": "2026-08-08"
+              "first_seen": "2026-01-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 250,
-              "first_seen": "2026-01-01",
-              "prev_price": 300,
-              "sold_since": "2026-08-08"
+              "first_seen": "2026-01-01"
             },
             {
               "kind": "full",
@@ -104006,6 +103990,20 @@
           ],
           "image": "images/musk-al-qamar-ibraq--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/al-qamar-musk"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 1000,
+              "first_seen": "2026-08-12"
+            }
+          ],
+          "image": "images/musk-al-qamar-ibraq--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/ibraq-musk-al-qamar-full-sealed"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -104033,6 +104031,20 @@
           ],
           "image": "images/musk-al-shams-ibraq--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/musk-al-shams-ibraq-75ml%d9%85%d8%b3%d9%83-%d8%a7%d9%84%d8%b4%d9%85%d8%b3-%d9%85%d9%86-%d8%a7%d8%a8%d8%b1%d8%a7%d9%82-%d9%a7%d9%a5%d9%85%d9%84%d9%8a/"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 1000,
+              "first_seen": "2026-08-12"
+            }
+          ],
+          "image": "images/musk-al-shams-ibraq--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/ibraq-musk-al-shams-full-sealed"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -129617,8 +129629,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-08-07"
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/rare-reef--sniffz.jpg",
@@ -148398,8 +148409,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2550,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-09"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/supremacy-collector-s-edition--sniffz.jpg",
@@ -150551,8 +150561,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1700,
+              "price": 1600,
               "first_seen": "2026-01-01",
+              "prev_price": 1700,
               "sold_since": "2026-08-06"
             }
           ],
@@ -152277,19 +152288,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 230,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-12"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 315,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-12"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 500,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-12"
             },
             {
               "kind": "full",
@@ -152543,23 +152557,25 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 280,
+              "price": 230,
               "first_seen": "2026-07-19",
+              "prev_price": 280,
               "sold_since": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 385,
+              "price": 315,
               "first_seen": "2026-07-19",
+              "prev_price": 385,
               "sold_since": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 600,
+              "price": 500,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 600
             },
             {
               "kind": "full",
@@ -162569,6 +162585,32 @@
           ],
           "image": "images/vintage-radio--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/vintage-radio-lattafa-perfumes"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 135,
+              "first_seen": "2026-08-12"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 180,
+              "first_seen": "2026-08-12"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 275,
+              "first_seen": "2026-08-12"
+            }
+          ],
+          "image": "images/vintage-radio--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/lattafa-vintage-radio"
         }
       ],
       "_hero_source": "og-perfume",
@@ -163844,8 +163886,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2500,
-              "first_seen": "2026-01-01"
+              "price": 2000,
+              "first_seen": "2026-01-01",
+              "prev_price": 2500
             }
           ],
           "image": "images/vulcan-feu--sniffz.jpg",
@@ -165478,6 +165521,32 @@
           ],
           "image": "images/white-regent-diamond--eslam-nasser.jpg",
           "product_url": "https://www.facebook.com/groups/720783370622840/posts/904229235611585"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 65,
+              "first_seen": "2026-08-12"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 85,
+              "first_seen": "2026-08-12"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 130,
+              "first_seen": "2026-08-12"
+            }
+          ],
+          "image": "images/white-regent-diamond--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/ibraq-white-regent-diamond"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -179073,6 +179142,197 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "hawas-sapphire",
+      "name_ar": "",
+      "name_en": "Hawas Sapphire",
+      "brand": "Rasasi",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/hawas-sapphire.jpg",
+      "accords": [
+        {
+          "label_en": "Guava",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 100
+        },
+        {
+          "label_en": "Blackcurrant",
+          "label_ar": "",
+          "color": "#FC4B29",
+          "w": 90
+        },
+        {
+          "label_en": "Bergamot",
+          "label_ar": "",
+          "color": "#F9FF52",
+          "w": 80
+        },
+        {
+          "label_en": "Orange Blossom",
+          "label_ar": "",
+          "color": "#edf2fb",
+          "w": 70
+        },
+        {
+          "label_en": "Sandalwood",
+          "label_ar": "",
+          "color": "#774414",
+          "w": 60
+        },
+        {
+          "label_en": "Musk",
+          "label_ar": "",
+          "color": "#E7D8EA",
+          "w": 50
+        },
+        {
+          "label_en": "Tonka Bean",
+          "label_ar": "",
+          "color": "#FFFEC0",
+          "w": 40
+        },
+        {
+          "label_en": "Ambergris",
+          "label_ar": "",
+          "color": "#bc4d10",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 170,
+              "first_seen": "2026-08-12"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 230,
+              "first_seen": "2026-08-12"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 350,
+              "first_seen": "2026-08-12"
+            }
+          ],
+          "image": "images/hawas-sapphire--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/rasasi-hawas-sapphire"
+        }
+      ],
+      "_hero_source": "sniffz"
+    },
+    {
+      "id": "n5-elixir",
+      "name_ar": "",
+      "name_en": "N5 Elixir",
+      "brand": "Rosendo Mateu",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/n5-elixir.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 340,
+              "first_seen": "2026-08-12"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 480,
+              "first_seen": "2026-08-12"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 800,
+              "first_seen": "2026-08-12"
+            }
+          ],
+          "image": "images/n5-elixir--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/rosendo-mateu-n5-elixir"
+        }
+      ],
+      "_hero_source": "sniffz"
+    },
+    {
+      "id": "ibraq-musk-al-lail",
+      "name_ar": "",
+      "name_en": "IBRAQ Musk Al Lail",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/ibraq-musk-al-lail.jpg",
+      "accords": [
+        {
+          "label_en": "Lavender",
+          "label_ar": "",
+          "color": "#9B7DB8",
+          "w": 100
+        },
+        {
+          "label_en": "Musk",
+          "label_ar": "",
+          "color": "#E7D8EA",
+          "w": 90
+        },
+        {
+          "label_en": "Myrrh",
+          "label_ar": "",
+          "color": "#ad8359",
+          "w": 80
+        },
+        {
+          "label_en": "Tonka Bean",
+          "label_ar": "",
+          "color": "#FFFEC0",
+          "w": 70
+        },
+        {
+          "label_en": "Vanilla",
+          "label_ar": "",
+          "color": "#FFFEC0",
+          "w": 60
+        },
+        {
+          "label_en": "Almond",
+          "label_ar": "",
+          "color": "#C68E5A",
+          "w": 50
+        }
+      ],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 1000,
+              "first_seen": "2026-08-12"
+            }
+          ],
+          "image": "images/ibraq-musk-al-lail--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/ibraq-musk-al-lail-full-sealed"
+        }
+      ],
+      "_hero_source": "sniffz"
     }
   ]
 }
