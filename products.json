@@ -33698,6 +33698,20 @@
           ],
           "image": "images/cocoa-morado--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/cocoa-morado-french-avenue"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2050,
+              "first_seen": "2026-08-12"
+            }
+          ],
+          "image": "images/cocoa-morado--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/cocoa-morado"
         }
       ],
       "_hero_source": "og-perfume",
@@ -138027,7 +138041,8 @@
               "kind": "full",
               "ml": 200,
               "price": 750,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-12"
             }
           ],
           "image": "images/sehr-lattafa-perfume-mist--emaratiscents.jpg",
@@ -161036,6 +161051,20 @@
           ],
           "image": "images/veneno-bianco--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/veneno-bianco-french-avenue"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-08-12"
+            }
+          ],
+          "image": "images/veneno-bianco--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/veneno-bianco"
         }
       ],
       "_hero_source": "og-perfume",
@@ -178942,6 +178971,33 @@
           ],
           "image": "images/private-purple--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/private-purple-200-ml"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "chaos",
+      "name_ar": "Chaos",
+      "name_en": "Chaos",
+      "brand": "French Avenue",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/chaos.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-08-12"
+            }
+          ],
+          "image": "images/chaos--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/chaos"
         }
       ],
       "_hero_source": "emaratiscents"
