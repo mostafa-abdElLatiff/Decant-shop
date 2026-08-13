@@ -39057,10 +39057,24 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 4015,
+              "first_seen": "2026-08-13",
+              "sold_since": "2026-08-13"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 4850,
               "first_seen": "2026-07-23",
               "prev_price": 5850
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 7355,
+              "first_seen": "2026-08-13",
+              "sold_since": "2026-08-13"
             }
           ],
           "image": "images/defy-parfum--mazaya.jpg",
@@ -114865,6 +114879,13 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 13650,
+              "first_seen": "2026-08-13",
+              "sold_since": "2026-08-13"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 21150,
               "first_seen": "2026-08-13",
@@ -151986,6 +152007,13 @@
               "price": 12850,
               "first_seen": "2026-08-07",
               "sold_since": "2026-08-07"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 18500,
+              "first_seen": "2026-08-13",
+              "sold_since": "2026-08-13"
             }
           ],
           "image": "images/the-hedonist--mazaya.jpg",
@@ -169874,6 +169902,13 @@
               "kind": "full",
               "ml": 75,
               "price": 4785,
+              "first_seen": "2026-08-13",
+              "sold_since": "2026-08-13"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 5900,
               "first_seen": "2026-08-13",
               "sold_since": "2026-08-13"
             }
