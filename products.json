@@ -134,8 +134,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8500,
-              "first_seen": "2026-07-23"
+              "price": 7650,
+              "first_seen": "2026-07-23",
+              "prev_price": 8500
             }
           ],
           "image": "images/1-million-elixir-parfum-intense--mazaya.jpg",
@@ -674,8 +675,9 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5900,
+              "price": 5310,
               "first_seen": "2026-07-23",
+              "prev_price": 5900,
               "sold_since": "2026-07-23"
             },
             {
@@ -8429,8 +8431,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6300,
-              "first_seen": "2026-07-23"
+              "price": 5355,
+              "first_seen": "2026-07-23",
+              "prev_price": 6300
             }
           ],
           "image": "images/amber-sky--mazaya.jpg",
@@ -18615,8 +18618,9 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 6200,
+              "price": 4960,
               "first_seen": "2026-08-13",
+              "prev_price": 6200,
               "sold_since": "2026-08-13"
             },
             {
@@ -21134,8 +21138,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5900,
+              "price": 5310,
               "first_seen": "2026-07-23",
+              "prev_price": 5900,
               "sold_since": "2026-07-23"
             }
           ],
@@ -26093,8 +26098,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7800,
+              "price": 5460,
               "first_seen": "2026-07-23",
+              "prev_price": 7800,
               "sold_since": "2026-07-23"
             }
           ],
@@ -26595,8 +26601,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6700,
+              "price": 6030,
               "first_seen": "2026-07-23",
+              "prev_price": 6700,
               "sold_since": "2026-07-23"
             }
           ],
@@ -26665,8 +26672,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5000,
-              "first_seen": "2026-07-23"
+              "price": 4250,
+              "first_seen": "2026-07-23",
+              "prev_price": 5000
             },
             {
               "kind": "full",
@@ -27388,8 +27396,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8415,
+              "price": 7574,
               "first_seen": "2026-07-23",
+              "prev_price": 8415,
               "sold_since": "2026-07-23"
             }
           ],
@@ -31328,8 +31337,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 6710,
+              "price": 6039,
               "first_seen": "2026-07-26",
+              "prev_price": 6710,
               "sold_since": "2026-07-26"
             }
           ],
@@ -39104,15 +39114,16 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4850,
+              "price": 4365,
               "first_seen": "2026-07-23",
-              "prev_price": 5850
+              "prev_price": 5265
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 7355,
+              "price": 6620,
               "first_seen": "2026-08-13",
+              "prev_price": 7355,
               "sold_since": "2026-08-13"
             }
           ],
@@ -40125,14 +40136,16 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 7300,
-              "first_seen": "2026-07-23"
+              "price": 6570,
+              "first_seen": "2026-07-23",
+              "prev_price": 7300
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 11200,
-              "first_seen": "2026-07-23"
+              "price": 10080,
+              "first_seen": "2026-07-23",
+              "prev_price": 11200
             }
           ],
           "image": "images/devotion-edp-intense-women--mazaya.jpg",
@@ -40178,8 +40191,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8200,
-              "first_seen": "2026-07-23"
+              "price": 7380,
+              "first_seen": "2026-07-23",
+              "prev_price": 8200
             }
           ],
           "image": "images/devotion-edp-men--mazaya.jpg",
@@ -44062,8 +44076,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6700,
+              "price": 6030,
               "first_seen": "2026-07-23",
+              "prev_price": 6700,
               "sold_since": "2026-07-23"
             }
           ],
@@ -49591,8 +49606,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7400,
-              "first_seen": "2026-07-23"
+              "price": 5180,
+              "first_seen": "2026-07-23",
+              "prev_price": 7400
             }
           ],
           "image": "images/eros-eau-de-parfum--mazaya.jpg",
@@ -49809,15 +49825,17 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6700,
+              "price": 6030,
               "first_seen": "2026-07-23",
+              "prev_price": 6700,
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 8800,
+              "price": 7920,
               "first_seen": "2026-07-23",
+              "prev_price": 8800,
               "sold_since": "2026-07-23"
             }
           ],
@@ -50016,7 +50034,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5700,
+              "price": 5130,
               "first_seen": "2026-08-13",
               "sold_since": "2026-08-13"
             },
@@ -50134,8 +50152,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 9200,
+              "price": 8280,
               "first_seen": "2026-07-23",
+              "prev_price": 9200,
               "sold_since": "2026-07-24"
             },
             {
@@ -51015,8 +51034,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5350,
-              "first_seen": "2026-07-23"
+              "price": 4815,
+              "first_seen": "2026-07-23",
+              "prev_price": 5350
             }
           ],
           "image": "images/eternity-amber-essence-parfum-intense--mazaya.jpg",
@@ -51078,7 +51098,7 @@
               "ml": 100,
               "price": 4050,
               "first_seen": "2026-07-23",
-              "prev_price": 4675
+              "prev_price": 4208
             }
           ],
           "image": "images/eternity-eau-de-toilette--mazaya.jpg",
@@ -51259,8 +51279,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3760,
-              "first_seen": "2026-07-23"
+              "price": 3384,
+              "first_seen": "2026-07-23",
+              "prev_price": 3760
             }
           ],
           "image": "images/euphoria-eau-de-toilette--mazaya.jpg",
@@ -58179,8 +58200,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 10500,
+              "price": 9450,
               "first_seen": "2026-07-23",
+              "prev_price": 10500,
               "sold_since": "2026-08-09"
             }
           ],
@@ -58728,8 +58750,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 12070,
+              "price": 10863,
               "first_seen": "2026-07-23",
+              "prev_price": 12070,
               "sold_since": "2026-07-23"
             }
           ],
@@ -58835,8 +58858,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7940,
-              "first_seen": "2026-07-23"
+              "price": 7146,
+              "first_seen": "2026-07-23",
+              "prev_price": 7940
             }
           ],
           "image": "images/gentleman-edp-boise--mazaya.jpg",
@@ -59064,15 +59088,17 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 5955,
+              "price": 5360,
               "first_seen": "2026-08-13",
+              "prev_price": 5955,
               "sold_since": "2026-08-13"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 7940,
+              "price": 7146,
               "first_seen": "2026-07-23",
+              "prev_price": 7940,
               "sold_since": "2026-08-13"
             }
           ],
@@ -59173,14 +59199,16 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 6615,
-              "first_seen": "2026-07-23"
+              "price": 4630,
+              "first_seen": "2026-07-23",
+              "prev_price": 6615
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 8875,
-              "first_seen": "2026-07-23"
+              "price": 7544,
+              "first_seen": "2026-07-23",
+              "prev_price": 8875
             }
           ],
           "image": "images/gentleman-society-ambr-e--mazaya.jpg",
@@ -59304,8 +59332,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8535,
+              "price": 7682,
               "first_seen": "2026-07-23",
+              "prev_price": 8535,
               "sold_since": "2026-08-13"
             },
             {
@@ -59384,14 +59413,16 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 6285,
-              "first_seen": "2026-07-23"
+              "price": 5656,
+              "first_seen": "2026-07-23",
+              "prev_price": 6285
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 8435,
-              "first_seen": "2026-07-23"
+              "price": 7592,
+              "first_seen": "2026-07-23",
+              "prev_price": 8435
             }
           ],
           "image": "images/gentleman-sosiety-extreme--mazaya.jpg",
@@ -67404,14 +67435,16 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8420,
-              "first_seen": "2026-07-23"
+              "price": 7578,
+              "first_seen": "2026-07-23",
+              "prev_price": 8420
             },
             {
               "kind": "full",
               "ml": 150,
-              "price": 10120,
-              "first_seen": "2026-07-23"
+              "price": 9108,
+              "first_seen": "2026-07-23",
+              "prev_price": 10120
             }
           ],
           "image": "images/hero-eau-de-parfum--mazaya.jpg",
@@ -67560,8 +67593,9 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 8500,
-              "first_seen": "2026-07-23"
+              "price": 7650,
+              "first_seen": "2026-07-23",
+              "prev_price": 8500
             }
           ],
           "image": "images/hero-elixr-perfum-60ml--mazaya.jpg",
@@ -68864,8 +68898,9 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 5900,
+              "price": 5310,
               "first_seen": "2026-07-23",
+              "prev_price": 5900,
               "sold_since": "2026-07-24"
             }
           ],
@@ -70130,8 +70165,9 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 6300,
+              "price": 5670,
               "first_seen": "2026-08-07",
+              "prev_price": 6300,
               "sold_since": "2026-08-07"
             }
           ],
@@ -73851,8 +73887,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7700,
+              "price": 5390,
               "first_seen": "2026-07-23",
+              "prev_price": 7700,
               "sold_since": "2026-07-23"
             }
           ],
@@ -73929,8 +73966,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8900,
+              "price": 8010,
               "first_seen": "2026-07-23",
+              "prev_price": 8900,
               "sold_since": "2026-07-23"
             }
           ],
@@ -73993,8 +74031,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7600,
-              "first_seen": "2026-07-23"
+              "price": 6460,
+              "first_seen": "2026-07-23",
+              "prev_price": 7600
             }
           ],
           "image": "images/invictus-victory-edp--mazaya.jpg",
@@ -74034,8 +74073,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8600,
-              "first_seen": "2026-07-23"
+              "price": 7740,
+              "first_seen": "2026-07-23",
+              "prev_price": 8600
             }
           ],
           "image": "images/invictus-victory-elixir--mazaya.jpg",
@@ -77602,8 +77642,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8400,
-              "first_seen": "2026-07-23"
+              "price": 7140,
+              "first_seen": "2026-07-23",
+              "prev_price": 8400
             }
           ],
           "image": "images/jean-paul-gaultier-men-s-scandal-le-parfum-edp--mazaya.jpg",
@@ -78471,8 +78512,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 9200,
+              "price": 7820,
               "first_seen": "2026-07-23",
+              "prev_price": 9200,
               "sold_since": "2026-07-23"
             }
           ],
@@ -78558,8 +78600,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8900,
+              "price": 8010,
               "first_seen": "2026-07-23",
+              "prev_price": 8900,
               "sold_since": "2026-07-23"
             }
           ],
@@ -80620,8 +80663,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1780,
-              "first_seen": "2026-07-23"
+              "price": 1602,
+              "first_seen": "2026-07-23",
+              "prev_price": 1780
             }
           ],
           "image": "images/khamrah--mazaya.jpg",
@@ -84182,8 +84226,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8580,
-              "first_seen": "2026-07-23"
+              "price": 7722,
+              "first_seen": "2026-07-23",
+              "prev_price": 8580
             }
           ],
           "image": "images/l-homme-edp--mazaya.jpg",
@@ -85173,8 +85218,9 @@
             {
               "kind": "full",
               "ml": 80,
-              "price": 10310,
-              "first_seen": "2026-07-23"
+              "price": 9279,
+              "first_seen": "2026-07-23",
+              "prev_price": 10310
             }
           ],
           "image": "images/l-interdit-absolu-edp--mazaya.jpg",
@@ -89336,8 +89382,9 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 8900,
+              "price": 8010,
               "first_seen": "2026-07-23",
+              "prev_price": 8900,
               "sold_since": "2026-07-23"
             }
           ],
@@ -90145,8 +90192,9 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 9200,
+              "price": 8280,
               "first_seen": "2026-07-23",
+              "prev_price": 9200,
               "sold_since": "2026-08-09"
             }
           ],
@@ -90372,8 +90420,9 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 9800,
-              "first_seen": "2026-07-23"
+              "price": 8820,
+              "first_seen": "2026-07-23",
+              "prev_price": 9800
             }
           ],
           "image": "images/le-male-elixir-absolu-intense--mazaya.jpg",
@@ -90612,8 +90661,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 7700,
+              "price": 6930,
               "first_seen": "2026-07-23",
+              "prev_price": 7700,
               "sold_since": "2026-07-23"
             }
           ],
@@ -99322,8 +99372,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8700,
-              "first_seen": "2026-07-23"
+              "price": 7830,
+              "first_seen": "2026-07-23",
+              "prev_price": 8700
             }
           ],
           "image": "images/men-s-bottled-absolu-parfum-intense--mazaya.jpg",
@@ -100469,15 +100520,17 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5600,
+              "price": 5040,
               "first_seen": "2026-07-23",
+              "prev_price": 5600,
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 7600,
+              "price": 6840,
               "first_seen": "2026-07-23",
+              "prev_price": 7600,
               "sold_since": "2026-07-23"
             }
           ],
@@ -100574,8 +100627,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8300,
+              "price": 7470,
               "first_seen": "2026-07-23",
+              "prev_price": 8300,
               "sold_since": "2026-07-23"
             }
           ],
@@ -105308,8 +105362,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 9700,
-              "first_seen": "2026-07-23"
+              "price": 8730,
+              "first_seen": "2026-07-23",
+              "prev_price": 9700
             }
           ],
           "image": "images/myslf-l-absolu--mazaya.jpg",
@@ -108682,21 +108737,24 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4300,
+              "price": 3010,
               "first_seen": "2026-07-23",
+              "prev_price": 4300,
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 6000,
-              "first_seen": "2026-07-23"
+              "price": 5400,
+              "first_seen": "2026-07-23",
+              "prev_price": 6000
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 8300,
-              "first_seen": "2026-07-23"
+              "price": 7470,
+              "first_seen": "2026-07-23",
+              "prev_price": 8300
             }
           ],
           "image": "images/no-6-boss-bottle-eau-de-toilette--mazaya.jpg",
@@ -114146,8 +114204,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 4750,
+              "price": 3325,
               "first_seen": "2026-07-23",
+              "prev_price": 4750,
               "sold_since": "2026-07-23"
             }
           ],
@@ -114347,14 +114406,16 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3925,
-              "first_seen": "2026-07-23"
+              "price": 2748,
+              "first_seen": "2026-07-23",
+              "prev_price": 3925
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 4500,
-              "first_seen": "2026-07-23"
+              "price": 4050,
+              "first_seen": "2026-07-23",
+              "prev_price": 4500
             }
           ],
           "image": "images/one-night-essence-perfum--mazaya.jpg",
@@ -119499,8 +119560,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8300,
-              "first_seen": "2026-07-23"
+              "price": 7470,
+              "first_seen": "2026-07-23",
+              "prev_price": 8300
             }
           ],
           "image": "images/paco-rabanne-men-s-1-million-golden-oud-edp--mazaya.jpg",
@@ -124373,8 +124435,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6700,
+              "price": 6030,
               "first_seen": "2026-07-23",
+              "prev_price": 6700,
               "sold_since": "2026-07-23"
             },
             {
@@ -136928,8 +136991,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8000,
-              "first_seen": "2026-07-23"
+              "price": 7200,
+              "first_seen": "2026-07-23",
+              "prev_price": 8000
             }
           ],
           "image": "images/scandal-intense-men--mazaya.jpg",
@@ -137009,8 +137073,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 9200,
-              "first_seen": "2026-07-23"
+              "price": 8280,
+              "first_seen": "2026-07-23",
+              "prev_price": 9200
             }
           ],
           "image": "images/scandal-re24-him-parfum--mazaya.jpg",
@@ -147223,8 +147288,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7200,
+              "price": 6480,
               "first_seen": "2026-07-23",
+              "prev_price": 7200,
               "sold_since": "2026-08-13"
             }
           ],
@@ -153243,7 +153309,6 @@
               "ml": 100,
               "price": 7400,
               "first_seen": "2026-07-23",
-              "prev_price": 8500,
               "sold_since": "2026-07-23"
             }
           ],
@@ -153270,8 +153335,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8700,
+              "price": 7830,
               "first_seen": "2026-07-23",
+              "prev_price": 8700,
               "sold_since": "2026-07-23"
             }
           ],
@@ -162149,8 +162215,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6700,
+              "price": 5360,
               "first_seen": "2026-07-23",
+              "prev_price": 6700,
               "sold_since": "2026-07-23"
             }
           ],
