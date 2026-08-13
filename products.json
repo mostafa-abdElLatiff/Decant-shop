@@ -112838,7 +112838,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-13"
             }
           ],
           "image": "images/odyssey-limoni--emaratiscents.jpg",
@@ -175891,7 +175892,8 @@
               "kind": "full",
               "ml": 75,
               "price": 1700,
-              "first_seen": "2026-08-07"
+              "first_seen": "2026-08-07",
+              "sold_since": "2026-08-13"
             }
           ],
           "image": "images/turquoise-vetiver--emaratiscents.jpg",
@@ -179429,6 +179431,20 @@
           ],
           "image": "images/hawas-sapphire--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/rasasi-hawas-sapphire"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2800,
+              "first_seen": "2026-08-13"
+            }
+          ],
+          "image": "images/hawas-sapphire--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/hawas-sapphire"
         }
       ],
       "_hero_source": "sniffz"
@@ -179628,6 +179644,33 @@
         }
       ],
       "_hero_source": "MO Shawky"
+    },
+    {
+      "id": "hawas-la-mer",
+      "name_ar": "Hawas La Mer",
+      "name_en": "Hawas La Mer",
+      "brand": "Rasasi",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/hawas-la-mer.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2450,
+              "first_seen": "2026-08-13"
+            }
+          ],
+          "image": "images/hawas-la-mer--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/hawas-la-mer"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
