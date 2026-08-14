@@ -11437,8 +11437,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-08-12",
-              "sold_since": "2026-08-12"
+              "first_seen": "2026-08-12"
             },
             {
               "kind": "leftover",
@@ -14353,14 +14352,16 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 230,
-              "first_seen": "2026-07-19"
+              "price": 220,
+              "first_seen": "2026-07-19",
+              "prev_price": 230
             },
             {
               "kind": "decant",
               "ml": 30,
-              "price": 640,
-              "first_seen": "2026-07-19"
+              "price": 625,
+              "first_seen": "2026-07-19",
+              "prev_price": 640
             },
             {
               "kind": "leftover",
@@ -14372,8 +14373,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2000,
-              "first_seen": "2026-07-19"
+              "price": 1875,
+              "first_seen": "2026-07-19",
+              "prev_price": 2000
             }
           ],
           "image": "images/arsh--og-perfume.jpg",
