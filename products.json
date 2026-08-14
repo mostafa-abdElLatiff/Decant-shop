@@ -2380,8 +2380,9 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 130,
-              "first_seen": "2026-01-01"
+              "price": 125,
+              "first_seen": "2026-01-01",
+              "prev_price": 130
             },
             {
               "kind": "decant",
@@ -2392,8 +2393,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 275,
-              "first_seen": "2026-01-01"
+              "price": 250,
+              "first_seen": "2026-01-01",
+              "prev_price": 275
             },
             {
               "kind": "full",
@@ -15178,8 +15180,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1200,
-              "first_seen": "2026-01-01"
+              "price": 1150,
+              "first_seen": "2026-01-01",
+              "prev_price": 1200
             }
           ],
           "image": "images/asad-bourbon--sniffz.jpg",
@@ -47054,22 +47057,25 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 105,
+              "price": 90,
               "first_seen": "2026-01-01",
+              "prev_price": 105,
               "sold_since": "2026-08-14"
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 135,
+              "price": 120,
               "first_seen": "2026-01-01",
+              "prev_price": 135,
               "sold_since": "2026-08-14"
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 220,
+              "price": 180,
               "first_seen": "2026-01-01",
+              "prev_price": 220,
               "sold_since": "2026-08-14"
             },
             {
@@ -61684,27 +61690,6 @@
           "url": "https://sniffz-eg.com/",
           "offers": [
             {
-              "kind": "decant",
-              "ml": 3,
-              "price": 570,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 810,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 1350,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
               "kind": "full",
               "ml": 125,
               "price": 12000,
@@ -61712,7 +61697,7 @@
             }
           ],
           "image": "images/greenley--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/parfums-de-marly-greenley"
+          "product_url": "https://sniffz-eg.com/products/parfums-de-marly-greenley-full-sealed"
         },
         {
           "name": "Mohamed Mohie",
@@ -64887,20 +64872,23 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 145,
-              "first_seen": "2026-01-01"
+              "price": 125,
+              "first_seen": "2026-01-01",
+              "prev_price": 145
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 185,
-              "first_seen": "2026-01-01"
+              "price": 165,
+              "first_seen": "2026-01-01",
+              "prev_price": 185
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 280,
-              "first_seen": "2026-01-01"
+              "price": 250,
+              "first_seen": "2026-01-01",
+              "prev_price": 280
             },
             {
               "kind": "full",
@@ -84430,22 +84418,25 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 275,
+              "price": 230,
               "first_seen": "2026-07-19",
+              "prev_price": 275,
               "sold_since": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 380,
+              "price": 315,
               "first_seen": "2026-07-19",
+              "prev_price": 380,
               "sold_since": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 600,
+              "price": 500,
               "first_seen": "2026-07-19",
+              "prev_price": 600,
               "sold_since": "2026-07-19"
             }
           ],
@@ -89736,20 +89727,23 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 275,
-              "first_seen": "2026-08-06"
+              "price": 165,
+              "first_seen": "2026-08-06",
+              "prev_price": 275
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 380,
-              "first_seen": "2026-08-06"
+              "price": 315,
+              "first_seen": "2026-08-06",
+              "prev_price": 380
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 600,
-              "first_seen": "2026-08-06"
+              "price": 500,
+              "first_seen": "2026-08-06",
+              "prev_price": 600
             }
           ],
           "image": "images/le-beau-paradise-garden-edp--sniffz.jpg",
@@ -108581,20 +108575,23 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 320,
-              "first_seen": "2026-01-01"
+              "price": 285,
+              "first_seen": "2026-01-01",
+              "prev_price": 320
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 445,
-              "first_seen": "2026-01-01"
+              "price": 380,
+              "first_seen": "2026-01-01",
+              "prev_price": 445
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 700,
-              "first_seen": "2026-01-01"
+              "price": 600,
+              "first_seen": "2026-01-01",
+              "prev_price": 700
             }
           ],
           "image": "images/no-5-floral-amber-sensual-musk--sniffz.jpg",
@@ -119439,20 +119436,23 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 1010,
-              "first_seen": "2026-01-01"
+              "price": 840,
+              "first_seen": "2026-01-01",
+              "prev_price": 1010
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 1440,
-              "first_seen": "2026-01-01"
+              "price": 1200,
+              "first_seen": "2026-01-01",
+              "prev_price": 1440
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 2400,
-              "first_seen": "2026-01-01"
+              "price": 2000,
+              "first_seen": "2026-01-01",
+              "prev_price": 2400
             },
             {
               "kind": "full",
