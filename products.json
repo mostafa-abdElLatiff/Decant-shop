@@ -14351,15 +14351,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 220,
-              "first_seen": "2026-07-19",
-              "prev_price": 230
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 625,
-              "first_seen": "2026-07-19",
-              "prev_price": 640
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -14372,8 +14370,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1875,
-              "first_seen": "2026-07-19",
-              "prev_price": 2000
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/arsh--og-perfume.jpg",
@@ -54398,8 +54395,9 @@
             {
               "kind": "full",
               "ml": 80,
-              "price": 2300,
+              "price": 2200,
               "first_seen": "2026-07-19",
+              "prev_price": 2300,
               "sold_since": "2026-07-19"
             }
           ],
@@ -76838,15 +76836,17 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 265,
+              "price": 240,
               "first_seen": "2026-07-19",
+              "prev_price": 265,
               "sold_since": "2026-08-12"
             },
             {
               "kind": "decant",
               "ml": 30,
-              "price": 750,
+              "price": 675,
               "first_seen": "2026-07-19",
+              "prev_price": 750,
               "sold_since": "2026-08-01"
             },
             {
@@ -76859,8 +76859,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2350,
+              "price": 2100,
               "first_seen": "2026-07-19",
+              "prev_price": 2350,
               "sold_since": "2026-08-08"
             }
           ],
@@ -167270,7 +167271,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2100,
+              "price": 2220,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
             }
@@ -167536,7 +167537,8 @@
               "kind": "leftover",
               "ml": 60,
               "price": 2175,
-              "first_seen": "2026-08-11"
+              "first_seen": "2026-08-11",
+              "sold_since": "2026-08-14"
             },
             {
               "kind": "full",
