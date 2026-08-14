@@ -24670,8 +24670,7 @@
               "kind": "full",
               "ml": 225,
               "price": 3700,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-11"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/blue-wish-collection--emaratiscents.jpg",
@@ -56561,8 +56560,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-25"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/frankel-elysium--emaratiscents.jpg",
@@ -66172,7 +66170,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1950,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-14"
             }
           ],
           "image": "images/hawas-tropical--emaratiscents.jpg",
@@ -179808,6 +179807,87 @@
         }
       ],
       "_hero_source": "roseperfume"
+    },
+    {
+      "id": "the-diamond-experience-set",
+      "name_ar": "The Diamond Experience Set",
+      "name_en": "The Diamond Experience Set",
+      "brand": "Ibraq",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/the-diamond-experience-set.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 10,
+              "price": 2200,
+              "first_seen": "2026-08-14"
+            }
+          ],
+          "image": "images/the-diamond-experience-set--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/the-diamond-experience-set"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "elixir-de-bronze-twilight-secrets-set",
+      "name_ar": "Elixir De Bronze | Twilight Secrets - Set",
+      "name_en": "Elixir De Bronze | Twilight Secrets - Set",
+      "brand": "Ibraq",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/elixir-de-bronze-twilight-secrets-set.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 105,
+              "price": 3750,
+              "first_seen": "2026-08-14"
+            }
+          ],
+          "image": "images/elixir-de-bronze-twilight-secrets-set--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/elixir-de-bronze-twilight-secrets-set"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "d-or-tresor-twilight-secrets-set",
+      "name_ar": "D'Or Tresor | Twilight Secrets  - Set",
+      "name_en": "D'Or Tresor | Twilight Secrets  - Set",
+      "brand": "Ibraq",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/d-or-tresor-twilight-secrets-set.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 105,
+              "price": 3750,
+              "first_seen": "2026-08-14"
+            }
+          ],
+          "image": "images/d-or-tresor-twilight-secrets-set--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/dor-tresor-twilight-secrets-set"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
