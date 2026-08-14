@@ -4048,8 +4048,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 210,
-              "first_seen": "2026-07-19",
-              "prev_price": 220
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
@@ -4082,8 +4081,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1825,
-              "first_seen": "2026-07-19",
-              "prev_price": 1900
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/aether-extrait--og-perfume.jpg",
@@ -14007,6 +14005,12 @@
               "sold_since": "2026-07-31"
             },
             {
+              "kind": "leftover",
+              "ml": 100,
+              "price": 1025,
+              "first_seen": "2026-08-14"
+            },
+            {
               "kind": "full",
               "ml": 200,
               "price": 2050,
@@ -14253,6 +14257,12 @@
               "price": 425,
               "first_seen": "2026-07-21",
               "sold_since": "2026-08-03"
+            },
+            {
+              "kind": "leftover",
+              "ml": 80,
+              "price": 1040,
+              "first_seen": "2026-08-14"
             },
             {
               "kind": "full",
@@ -17151,8 +17161,7 @@
               "kind": "leftover",
               "ml": 70,
               "price": 840,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -56831,9 +56840,9 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 1150,
+              "price": 575,
               "first_seen": "2026-08-14",
-              "sold_since": "2026-08-14"
+              "prev_price": 1150
             },
             {
               "kind": "full",
@@ -70607,6 +70616,12 @@
               "price": 425,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 60,
+              "price": 740,
+              "first_seen": "2026-08-14"
             },
             {
               "kind": "full",
@@ -105977,8 +105992,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 235,
-              "first_seen": "2026-07-19",
-              "prev_price": 250
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -107290,8 +107304,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 230,
-              "first_seen": "2026-07-19",
-              "prev_price": 250
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -107304,8 +107317,7 @@
               "kind": "full",
               "ml": 90,
               "price": 1800,
-              "first_seen": "2026-07-19",
-              "prev_price": 2000
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/nectare-extradose--og-perfume.jpg",
@@ -130128,15 +130140,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 220,
-              "first_seen": "2026-07-19",
-              "prev_price": 250
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 650,
-              "first_seen": "2026-07-19",
-              "prev_price": 700
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -130156,8 +130166,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1850,
-              "first_seen": "2026-07-19",
-              "prev_price": 2000
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/ravine-ginger--og-perfume.jpg",
@@ -133327,6 +133336,12 @@
             },
             {
               "kind": "leftover",
+              "ml": 50,
+              "price": 770,
+              "first_seen": "2026-08-14"
+            },
+            {
+              "kind": "leftover",
               "ml": 70,
               "price": 1100,
               "first_seen": "2026-07-19",
@@ -134617,15 +134632,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-19",
-              "prev_price": 220
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 575,
-              "first_seen": "2026-07-19",
-              "prev_price": 640
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -134638,8 +134651,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1600,
-              "first_seen": "2026-07-19",
-              "prev_price": 1700
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/royal-blend-sequoia--og-perfume.jpg",
@@ -146909,6 +146921,20 @@
               "price": 585,
               "first_seen": "2026-08-01",
               "sold_since": "2026-08-11"
+            },
+            {
+              "kind": "leftover",
+              "ml": 55,
+              "price": 950,
+              "first_seen": "2026-08-14",
+              "sold_since": "2026-08-14"
+            },
+            {
+              "kind": "leftover",
+              "ml": 65,
+              "price": 1120,
+              "first_seen": "2026-08-14",
+              "sold_since": "2026-08-14"
             },
             {
               "kind": "full",
@@ -179917,6 +179943,183 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "genesis-pisces",
+      "name_ar": "Genesis Pisces",
+      "name_en": "Genesis Pisces",
+      "brand": "French Avenue",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/genesis-pisces.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 250,
+              "first_seen": "2026-08-14"
+            },
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 1975,
+              "first_seen": "2026-08-14"
+            }
+          ],
+          "image": "images/genesis-pisces--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/genesis-pisces-french-avenue"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "le-falcon",
+      "name_ar": "Le Falcon",
+      "name_en": "Le Falcon",
+      "brand": "French Avenue",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/le-falcon.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 220,
+              "first_seen": "2026-08-14"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 625,
+              "first_seen": "2026-08-14"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1875,
+              "first_seen": "2026-08-14"
+            }
+          ],
+          "image": "images/le-falcon--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/le-falcon-french-avenue"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "le-falcon-dubai",
+      "name_ar": "Le Falcon Dubai",
+      "name_en": "Le Falcon Dubai",
+      "brand": "French Avenue",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/le-falcon-dubai.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 220,
+              "first_seen": "2026-08-14"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 625,
+              "first_seen": "2026-08-14"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1875,
+              "first_seen": "2026-08-14"
+            }
+          ],
+          "image": "images/le-falcon-dubai--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/le-falcon-dubai"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "genesis-cancer",
+      "name_ar": "Genesis Cancer",
+      "name_en": "Genesis Cancer",
+      "brand": "French Avenue",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/genesis-cancer.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 250,
+              "first_seen": "2026-08-14"
+            },
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 1975,
+              "first_seen": "2026-08-14"
+            }
+          ],
+          "image": "images/genesis-cancer--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/genesis-cancer-french-avenue"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "axis",
+      "name_ar": "Axis",
+      "name_en": "Axis",
+      "brand": "French Avenue",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/axis.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 210,
+              "first_seen": "2026-08-14"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1800,
+              "first_seen": "2026-08-14"
+            }
+          ],
+          "image": "images/axis--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/axis-french-avenue"
+        }
+      ],
+      "_hero_source": "og-perfume"
     }
   ]
 }
