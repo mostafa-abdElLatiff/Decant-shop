@@ -38780,7 +38780,8 @@
               "kind": "full",
               "ml": 100,
               "price": 19000,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-14"
             }
           ],
           "image": "images/decision--emaratiscents.jpg",
@@ -52730,8 +52731,9 @@
             {
               "kind": "full",
               "ml": 80,
-              "price": 2250,
-              "first_seen": "2026-07-18"
+              "price": 1850,
+              "first_seen": "2026-07-18",
+              "prev_price": 2250
             }
           ],
           "image": "images/fahad--emaratiscents.jpg",
@@ -127142,8 +127144,7 @@
               "kind": "full",
               "ml": 150,
               "price": 2950,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-10"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/pure-musk--emaratiscents.jpg",
