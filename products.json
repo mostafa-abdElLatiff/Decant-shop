@@ -4047,8 +4047,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 220,
-              "first_seen": "2026-07-19"
+              "price": 210,
+              "first_seen": "2026-07-19",
+              "prev_price": 220
             },
             {
               "kind": "decant",
@@ -4080,8 +4081,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1900,
-              "first_seen": "2026-07-19"
+              "price": 1825,
+              "first_seen": "2026-07-19",
+              "prev_price": 1900
             }
           ],
           "image": "images/aether-extrait--og-perfume.jpg",
@@ -18152,8 +18154,14 @@
             },
             {
               "kind": "leftover",
-              "ml": 50,
+              "ml": 45,
               "price": 725,
+              "first_seen": "2026-08-14"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 765,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
             },
@@ -27721,6 +27729,12 @@
               "ml": 10,
               "price": 140,
               "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 45,
+              "price": 575,
+              "first_seen": "2026-08-14"
             },
             {
               "kind": "full",
@@ -45432,8 +45446,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 185,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -45446,8 +45459,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1600,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/eclaire-affair--og-perfume.jpg",
@@ -54382,8 +54394,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 310,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -54396,9 +54407,7 @@
               "kind": "full",
               "ml": 80,
               "price": 2200,
-              "first_seen": "2026-07-19",
-              "prev_price": 2300,
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/fierte-luna--og-perfume.jpg",
@@ -56820,6 +56829,13 @@
               "ml": 30,
               "price": 350,
               "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 1150,
+              "first_seen": "2026-08-14",
+              "sold_since": "2026-08-14"
             },
             {
               "kind": "full",
@@ -64189,7 +64205,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 650,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-14"
             },
             {
               "kind": "leftover",
@@ -76837,17 +76854,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 240,
-              "first_seen": "2026-07-19",
-              "prev_price": 265,
-              "sold_since": "2026-08-12"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 675,
-              "first_seen": "2026-07-19",
-              "prev_price": 750,
-              "sold_since": "2026-08-01"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -76860,9 +76873,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2100,
-              "first_seen": "2026-07-19",
-              "prev_price": 2350,
-              "sold_since": "2026-08-08"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/jasmere--og-perfume.jpg",
@@ -78239,6 +78250,12 @@
               "price": 450,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 35,
+              "price": 475,
+              "first_seen": "2026-08-14"
             },
             {
               "kind": "leftover",
@@ -97378,8 +97395,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 230,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -97406,8 +97422,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2000,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/marmara--og-perfume.jpg",
@@ -105963,9 +105978,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 250,
+              "price": 235,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 250
             },
             {
               "kind": "leftover",
@@ -105976,10 +105991,9 @@
             },
             {
               "kind": "full",
-              "ml": 100,
-              "price": 2000,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "ml": 90,
+              "price": 1850,
+              "first_seen": "2026-08-14"
             }
           ],
           "image": "images/nabatieh--og-perfume.jpg",
@@ -107277,9 +107291,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 250,
+              "price": 230,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 250
             },
             {
               "kind": "leftover",
@@ -107291,9 +107305,9 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 2000,
+              "price": 1800,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 2000
             }
           ],
           "image": "images/nectare-extradose--og-perfume.jpg",
@@ -116510,6 +116524,12 @@
               "first_seen": "2026-07-19"
             },
             {
+              "kind": "leftover",
+              "ml": 35,
+              "price": 875,
+              "first_seen": "2026-08-14"
+            },
+            {
               "kind": "full",
               "ml": 75,
               "price": 1750,
@@ -119024,6 +119044,12 @@
               "price": 500,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 35,
+              "price": 510,
+              "first_seen": "2026-08-14"
             },
             {
               "kind": "leftover",
@@ -130103,15 +130129,16 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 250,
+              "price": 220,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-28"
+              "prev_price": 250
             },
             {
               "kind": "decant",
               "ml": 30,
-              "price": 700,
-              "first_seen": "2026-07-19"
+              "price": 650,
+              "first_seen": "2026-07-19",
+              "prev_price": 700
             },
             {
               "kind": "leftover",
@@ -130130,9 +130157,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2000,
+              "price": 1850,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-25"
+              "prev_price": 2000
             }
           ],
           "image": "images/ravine-ginger--og-perfume.jpg",
@@ -134592,16 +134619,16 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 220,
+              "price": 200,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-23"
+              "prev_price": 220
             },
             {
               "kind": "decant",
               "ml": 30,
-              "price": 640,
+              "price": 575,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 640
             },
             {
               "kind": "leftover",
@@ -134613,9 +134640,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1700,
+              "price": 1600,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 1700
             }
           ],
           "image": "images/royal-blend-sequoia--og-perfume.jpg",
@@ -145137,30 +145164,28 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 220,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
+              "price": 250,
+              "first_seen": "2026-07-20"
             },
             {
               "kind": "leftover",
               "ml": 30,
-              "price": 600,
+              "price": 750,
               "first_seen": "2026-07-20",
               "sold_since": "2026-07-20"
             },
             {
               "kind": "leftover",
               "ml": 40,
-              "price": 775,
+              "price": 875,
               "first_seen": "2026-07-20",
               "sold_since": "2026-07-20"
             },
             {
               "kind": "full",
               "ml": 80,
-              "price": 1550,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
+              "price": 1750,
+              "first_seen": "2026-07-20"
             }
           ],
           "image": "images/spectre-ghost--og-perfume.jpg",
@@ -151125,8 +151150,14 @@
             },
             {
               "kind": "leftover",
-              "ml": 50,
+              "ml": 45,
               "price": 750,
+              "first_seen": "2026-08-14"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 800,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
             },
@@ -161996,8 +162027,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 1500,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -167003,7 +167033,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2100,
+              "price": 2220,
               "first_seen": "2026-07-19"
             }
           ],
@@ -167259,8 +167289,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 250,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -167273,8 +167302,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2220,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/x-xandal--og-perfume.jpg",
