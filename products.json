@@ -175050,7 +175050,7 @@
       "name_en": "Bois Noir",
       "name_ar": "",
       "brand": "Ghalati",
-      "image": "images/bois-noir--hany-diab.jpg",
+      "image": "images/bois-noir.jpg",
       "accords": [],
       "stores": [
         {
@@ -175066,9 +175066,24 @@
           ],
           "image": "images/bois-noir--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/976424265458934/"
+        },
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1750,
+              "first_seen": "2026-08-15"
+            }
+          ],
+          "image": "images/bois-noir--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/bois-noir"
         }
       ],
-      "category": "dupe"
+      "category": "dupe",
+      "_hero_source": "dar.elarabia"
     },
     {
       "id": "gentelman-reserve",
@@ -180543,6 +180558,33 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "eloquent",
+      "name_ar": "Eloquent",
+      "name_en": "Eloquent",
+      "brand": "Ghalati",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/eloquent.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1750,
+              "first_seen": "2026-08-15"
+            }
+          ],
+          "image": "images/eloquent--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/eloquent"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
     }
   ]
 }
