@@ -76673,13 +76673,21 @@
               "kind": "decant",
               "ml": 10,
               "price": 175,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-15"
+            },
+            {
+              "kind": "leftover",
+              "ml": 35,
+              "price": 600,
+              "first_seen": "2026-08-15"
             },
             {
               "kind": "leftover",
               "ml": 45,
               "price": 825,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-15"
             }
           ],
           "image": "images/itqan-noir--eldesoki-fragrances.jpg",
