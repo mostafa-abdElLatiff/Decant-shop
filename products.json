@@ -38468,7 +38468,8 @@
               "kind": "full",
               "ml": 200,
               "price": 1800,
-              "first_seen": "2026-08-05"
+              "first_seen": "2026-08-05",
+              "sold_since": "2026-08-15"
             }
           ],
           "image": "images/dangerous-arrogate--sniffz.jpg",
@@ -134417,19 +134418,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 150,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-15"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 195,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-15"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 300,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-15"
             },
             {
               "kind": "full",
