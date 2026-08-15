@@ -112274,6 +112274,26 @@
           ],
           "image": "images/nude-coral-diamond--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/ibraheem-alqurashi-nude-coral-diamond-full-sealed"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 130,
+              "first_seen": "2026-08-15"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-08-15"
+            }
+          ],
+          "image": "images/nude-coral-diamond--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/ibraq-nude-coral-diamond"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -184347,6 +184367,39 @@
         }
       ],
       "_hero_source": "Mohamed Mohie"
+    },
+    {
+      "id": "blue-diamond-aqwa",
+      "name_ar": "Blue Diamond Aqwa",
+      "name_en": "Blue Diamond Aqwa",
+      "brand": "Ibraq",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/blue-diamond-aqwa.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 130,
+              "first_seen": "2026-08-15"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-08-15"
+            }
+          ],
+          "image": "images/blue-diamond-aqwa--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/blue-aqwa-diamond"
+        }
+      ],
+      "_hero_source": "perfuzone"
     }
   ]
 }
