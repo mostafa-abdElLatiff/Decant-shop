@@ -16873,8 +16873,9 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 2450,
-              "first_seen": "2026-07-18"
+              "price": 2250,
+              "first_seen": "2026-07-18",
+              "prev_price": 2450
             }
           ],
           "image": "images/attacks--emaratiscents.jpg",
@@ -154979,8 +154980,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2450,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-12"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/tobacco-jam-50--emaratiscents.jpg",
@@ -179793,7 +179793,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2800,
-              "first_seen": "2026-08-13"
+              "first_seen": "2026-08-13",
+              "sold_since": "2026-08-15"
             }
           ],
           "image": "images/hawas-sapphire--emaratiscents.jpg",
