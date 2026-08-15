@@ -2080,7 +2080,7 @@
             }
           ],
           "image": "images/9pm-night-out--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/night-out-50ml%d9%86%d8%a7%d9%8a%d8%aa-%d8%a7%d9%88%d8%aa-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/9pm-night-out-10ml%d9%86%d8%a7%d9%8a%d9%86-%d8%a8%d9%8a-%d8%a7%d9%85-%d9%86%d8%a7%d9%8a%d8%aa-%d8%a7%d9%88%d8%aa-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "perfuzone",
@@ -2584,7 +2584,7 @@
             }
           ],
           "image": "images/aariz--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/aariz-50ml%d8%a7%d8%b1%d8%b2-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/aariz-10ml%d8%a7%d8%b1%d8%b2-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "emaratiscents",
@@ -44747,7 +44747,7 @@
             }
           ],
           "image": "images/dynasty--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/dynasty-50ml%d8%af%d9%8a%d9%86%d8%a7%d8%b3%d8%aa%d9%8a-%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d8%b9%d9%84%d8%a8%d8%a9-%d9%85%d8%b7%d8%a8%d9%82%d8%a9-%d8%af%d9%8a%da%a4%d9%88/"
+          "product_url": "https://eldesoki-fragrances.com/product/dynasty-10ml%d8%af%d9%8a%d9%86%d8%a7%d8%b3%d8%aa%d9%8a-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "roseperfume",
@@ -128646,8 +128646,9 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 2550,
-              "first_seen": "2026-07-18"
+              "price": 2375,
+              "first_seen": "2026-07-18",
+              "prev_price": 2550
             }
           ],
           "image": "images/pure-musk--eldesoki-fragrances.jpg",
@@ -131288,7 +131289,7 @@
             }
           ],
           "image": "images/rare-reef--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/rare-reef-50ml%d8%b1%d9%8a%d8%b1-%d8%b1%d9%8a%d9%81-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/rare-reef-10ml%d8%b1%d9%8a%d8%b1-%d8%b1%d9%8a%d9%81-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "og-perfume",
@@ -132735,7 +132736,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-15"
             },
             {
               "kind": "full",
