@@ -341,6 +341,20 @@
           ],
           "image": "images/1000-miglia--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/chopard-1000-miglia-10ml-8"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 80,
+              "price": 1885,
+              "first_seen": "2026-08-15"
+            }
+          ],
+          "image": "images/1000-miglia--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/chopard-1000-miglia-eau-de-toilette-for-men-80ml"
         }
       ],
       "_hero_source": "MO Shawky",
@@ -15933,7 +15947,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1444,
+              "price": 1649,
               "first_seen": "2026-07-23"
             }
           ],
@@ -50739,6 +50753,34 @@
           ],
           "image": "images/eros-flame--abo-anas-sayed.jpg",
           "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 3299,
+              "first_seen": "2026-08-15",
+              "sold_since": "2026-08-15"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 5249,
+              "first_seen": "2026-08-15"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 6700,
+              "first_seen": "2026-08-15",
+              "sold_since": "2026-08-15"
+            }
+          ],
+          "image": "images/eros-flame--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/versace-eros-flame-eau-de-parfum-for-men"
         }
       ],
       "_hero_source": "sniffz",
@@ -63587,6 +63629,7 @@
               "ml": 50,
               "price": 2681,
               "first_seen": "2026-08-13",
+              "prev_price": 4200,
               "sold_since": "2026-08-13"
             },
             {
@@ -63601,6 +63644,7 @@
               "ml": 150,
               "price": 6660,
               "first_seen": "2026-07-23",
+              "prev_price": 8100,
               "sold_since": "2026-08-15"
             }
           ],
@@ -85112,7 +85156,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2672,
+              "price": 3499,
               "first_seen": "2026-07-26"
             }
           ],
@@ -157562,6 +157606,27 @@
           ],
           "image": "images/tobacco-vanille--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/tom-ford-tobacco-vanille-full-sealed"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 15880,
+              "first_seen": "2026-08-15",
+              "sold_since": "2026-08-15"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 23299,
+              "first_seen": "2026-08-15"
+            }
+          ],
+          "image": "images/tobacco-vanille--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/tom-ford-tobacco-vanille-eau-de-parfum-for-men-50ml"
         }
       ],
       "_hero_source": "sniffz",
@@ -157808,7 +157873,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3672,
+              "price": 3999,
               "first_seen": "2026-07-23"
             }
           ],
@@ -168398,9 +168463,23 @@
           ],
           "image": "images/white-in-black--abo-anas-sayed.jpg",
           "product_url": "https://www.facebook.com/groups/756846691875916/posts/2127367241490514"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 5299,
+              "first_seen": "2026-08-15"
+            }
+          ],
+          "image": "images/white-in-black--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/lalique-white-in-black-eau-de-parfum-for-men-125ml"
         }
       ],
-      "_hero_source": "Abo Anas Sayed",
+      "_hero_source": "feel22",
       "category": "niche"
     },
     {
@@ -186162,6 +186241,317 @@
         }
       ],
       "_hero_source": "Mohamed Mohie"
+    },
+    {
+      "id": "one-man-show-ruby-edition-eau-de-toilette",
+      "name_ar": "One Man Show Ruby Edition Eau de Toilette",
+      "name_en": "One Man Show Ruby Edition Eau de Toilette",
+      "brand": "Jacques bogart",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/one-man-show-ruby-edition-eau-de-toilette.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 899,
+              "first_seen": "2026-08-15"
+            }
+          ],
+          "image": "images/one-man-show-ruby-edition-eau-de-toilette--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/jacques-bogart-one-man-show-ruby-edition-eau-de-toilette-for-men-100ml"
+        }
+      ],
+      "_hero_source": "feel22"
+    },
+    {
+      "id": "escape",
+      "name_ar": "Escape",
+      "name_en": "Escape",
+      "brand": "Calvin Klein",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/escape.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2299,
+              "first_seen": "2026-08-15"
+            }
+          ],
+          "image": "images/escape--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/calvin-klein-escape-for-him-100ml"
+        }
+      ],
+      "_hero_source": "feel22"
+    },
+    {
+      "id": "odyssey-eau-de-parfum",
+      "name_ar": "Odyssey Eau de Parfum",
+      "name_en": "Odyssey Eau de Parfum",
+      "brand": "Armaf",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/odyssey-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1499,
+              "first_seen": "2026-08-15"
+            }
+          ],
+          "image": "images/odyssey-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/armaf-odyssey-eau-de-parfum-for-men-100ml"
+        }
+      ],
+      "_hero_source": "feel22"
+    },
+    {
+      "id": "beau-acute-perfume-oil",
+      "name_ar": "Beau Acute Perfume Oil",
+      "name_en": "Beau Acute Perfume Oil",
+      "brand": "Armaf",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/beau-acute-perfume-oil.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 20,
+              "price": 849,
+              "first_seen": "2026-08-15"
+            }
+          ],
+          "image": "images/beau-acute-perfume-oil--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/armaf-beau-acute-perfume-oil-for-men-20ml"
+        }
+      ],
+      "_hero_source": "feel22"
+    },
+    {
+      "id": "limitless-eau-de-parfum",
+      "name_ar": "Limitless Eau de Parfum",
+      "name_en": "Limitless Eau de Parfum",
+      "brand": "Matin Martin",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/limitless-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2199,
+              "first_seen": "2026-08-15"
+            }
+          ],
+          "image": "images/limitless-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/matin-martin-limitless-eau-de-parfum-for-men-100ml"
+        }
+      ],
+      "_hero_source": "feel22"
+    },
+    {
+      "id": "ventana-eau-de-parfum",
+      "name_ar": "Ventana Eau De Parfum",
+      "name_en": "Ventana Eau De Parfum",
+      "brand": "Armaf",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/ventana-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1699,
+              "first_seen": "2026-08-15"
+            }
+          ],
+          "image": "images/ventana-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/armaf-ventana-eau-de-parfum-for-men-100ml"
+        }
+      ],
+      "_hero_source": "feel22"
+    },
+    {
+      "id": "cool-force-eau-de-toilette",
+      "name_ar": "Cool Force Eau de Toilette",
+      "name_en": "Cool Force Eau de Toilette",
+      "brand": "Baldessarini",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/cool-force-eau-de-toilette.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 2770,
+              "first_seen": "2026-08-15",
+              "sold_since": "2026-08-15"
+            },
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 4199,
+              "first_seen": "2026-08-15"
+            }
+          ],
+          "image": "images/cool-force-eau-de-toilette--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/baldessarini-cool-force-eau-de-toilette-for-men"
+        }
+      ],
+      "_hero_source": "feel22"
+    },
+    {
+      "id": "eau-de-cologne-concentree",
+      "name_ar": "Eau de Cologne Concentree",
+      "name_en": "Eau de Cologne Concentree",
+      "brand": "Baldessarini",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/eau-de-cologne-concentree.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 3202,
+              "first_seen": "2026-08-15",
+              "sold_since": "2026-08-15"
+            },
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 4199,
+              "first_seen": "2026-08-15"
+            }
+          ],
+          "image": "images/eau-de-cologne-concentree--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/baldessarini-eau-de-cologne-concentree-for-men"
+        }
+      ],
+      "_hero_source": "feel22"
+    },
+    {
+      "id": "cedrat-boise-eau-de-parfum",
+      "name_ar": "Cedrat Boise Eau de Parfum",
+      "name_en": "Cedrat Boise Eau de Parfum",
+      "brand": "Mancera",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/cedrat-boise-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 120,
+              "price": 6199,
+              "first_seen": "2026-08-15"
+            }
+          ],
+          "image": "images/cedrat-boise-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/mancera-cedrat-boise-eau-de-parfum-120ml"
+        }
+      ],
+      "_hero_source": "feel22"
+    },
+    {
+      "id": "niche-bucephalus-no-xi-eau-de-parfum",
+      "name_ar": "Niche Bucephalus No.XI Eau De Parfum",
+      "name_en": "Niche Bucephalus No.XI Eau De Parfum",
+      "brand": "Armaf",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/niche-bucephalus-no-xi-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2899,
+              "first_seen": "2026-08-15"
+            }
+          ],
+          "image": "images/niche-bucephalus-no-xi-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/armaf-niche-bucephalus-no-xi-eau-de-parfum-for-men-100ml"
+        }
+      ],
+      "_hero_source": "feel22"
+    },
+    {
+      "id": "intense-tiare-eau-de-parfum",
+      "name_ar": "Intense Tiare Eau de Parfum",
+      "name_en": "Intense Tiare Eau de Parfum",
+      "brand": "Montale",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/intense-tiare-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 5299,
+              "first_seen": "2026-08-15"
+            }
+          ],
+          "image": "images/intense-tiare-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/montale-intense-tiare-eau-de-parfum-50ml"
+        }
+      ],
+      "_hero_source": "feel22"
     }
   ]
 }
