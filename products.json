@@ -34001,8 +34001,7 @@
               "kind": "full",
               "ml": 105,
               "price": 1950,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-30"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/club-de-nuit-urban-man-elixir--emaratiscents.jpg",
@@ -44320,8 +44319,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1900,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-01"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/dunescape--emaratiscents.jpg",
@@ -54147,8 +54145,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2200,
-              "first_seen": "2026-07-18"
+              "price": 1900,
+              "first_seen": "2026-07-18",
+              "prev_price": 2200
             }
           ],
           "image": "images/fakhar-lattafa-men-gift-set--emaratiscents.jpg",
@@ -82006,9 +82005,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2600,
+              "price": 2350,
               "first_seen": "2026-07-18",
-              "sold_since": "2026-07-26"
+              "prev_price": 2600
             }
           ],
           "image": "images/khamrah-gift-set--emaratiscents.jpg",
@@ -98340,8 +98339,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1450,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-15"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/mango-ice--emaratiscents.jpg",
@@ -136778,7 +136776,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-08-11"
+              "first_seen": "2026-08-11",
+              "sold_since": "2026-08-16"
             }
           ],
           "image": "images/royal-blend-sequoia--emaratiscents.jpg",
@@ -153014,9 +153013,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2700,
+              "price": 2350,
               "first_seen": "2026-07-18",
-              "sold_since": "2026-08-10"
+              "prev_price": 2700
             }
           ],
           "image": "images/teriaq-gift-set--emaratiscents.jpg",
@@ -179384,7 +179383,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2200,
-              "first_seen": "2026-08-07"
+              "first_seen": "2026-08-07",
+              "sold_since": "2026-08-16"
             }
           ],
           "image": "images/dare-afternoon--emaratiscents.jpg",
@@ -186663,6 +186663,33 @@
         }
       ],
       "_hero_source": "feel22"
+    },
+    {
+      "id": "teriaq-intense-gift-set",
+      "name_ar": "Teriaq Intense Gift Set",
+      "name_en": "Teriaq Intense Gift Set",
+      "brand": "Lattafa",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/teriaq-intense-gift-set.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 162,
+              "price": 2350,
+              "first_seen": "2026-08-16"
+            }
+          ],
+          "image": "images/teriaq-intense-gift-set--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/teriaq-intense-gift-set"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
