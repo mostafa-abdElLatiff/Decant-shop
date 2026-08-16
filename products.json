@@ -33177,8 +33177,7 @@
               "kind": "full",
               "ml": 105,
               "price": 3850,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-16"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/club-de-nuit-intense-man-limited-edition--emaratiscents.jpg",
@@ -75264,8 +75263,7 @@
               "kind": "full",
               "ml": 80,
               "price": 2450,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/iris-patchouli--emaratiscents.jpg",
@@ -98776,8 +98774,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/marmara--emaratiscents.jpg",
@@ -106121,7 +106118,8 @@
               "kind": "full",
               "ml": 12,
               "price": 1450,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-16"
             }
           ],
           "image": "images/musk-rose--emaratiscents.jpg",
@@ -128409,8 +128407,7 @@
               "kind": "full",
               "ml": 100,
               "price": 850,
-              "first_seen": "2026-08-15",
-              "sold_since": "2026-08-16"
+              "first_seen": "2026-08-15"
             }
           ],
           "image": "images/proud-of-you-intense-fragrance-world--emaratiscents.jpg",
@@ -142316,7 +142313,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1350,
-              "first_seen": "2026-07-25"
+              "first_seen": "2026-07-25",
+              "sold_since": "2026-08-16"
             }
           ],
           "image": "images/sherif--emaratiscents.jpg",
@@ -167496,6 +167494,20 @@
           ],
           "image": "images/vulcan-sable--eslam-nasser.jpg",
           "product_url": "https://www.facebook.com/groups/720783370622840/posts/907307921970383"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1850,
+              "first_seen": "2026-08-16"
+            }
+          ],
+          "image": "images/vulcan-sable--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/vulcan-sable"
         }
       ],
       "_hero_source": "sniffz",
@@ -168094,6 +168106,20 @@
           ],
           "image": "images/western-shisha--eslam-nasser.jpg",
           "product_url": "https://www.facebook.com/groups/720783370622840/posts/907937451907430"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1850,
+              "first_seen": "2026-08-16"
+            }
+          ],
+          "image": "images/western-shisha--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/western-shisha"
         }
       ],
       "_hero_source": "og-perfume",
@@ -184214,7 +184240,7 @@
       "brand": "Fragrance World",
       "category": "dupe",
       "dupe_of": [],
-      "image": "images/proud-of-you-sandalo-fragrance-world--eslam-nasser.jpg",
+      "image": "images/proud-of-you-sandalo-fragrance-world.jpg",
       "accords": [],
       "stores": [
         {
@@ -184242,9 +184268,23 @@
           ],
           "image": "images/proud-of-you-sandalo-fragrance-world--eslam-nasser.jpg",
           "product_url": "https://www.facebook.com/groups/720783370622840/posts/907937451907430"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 850,
+              "first_seen": "2026-08-16"
+            }
+          ],
+          "image": "images/proud-of-you-sandalo-fragrance-world--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/proud-of-you-sandalo"
         }
       ],
-      "_hero_source": "EsLam Nasser"
+      "_hero_source": "emaratiscents"
     },
     {
       "id": "dark-lord-kilian",
@@ -186739,6 +186779,33 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "essence-de-noir",
+      "name_ar": "Essence De Noir",
+      "name_en": "Essence De Noir",
+      "brand": "French Avenue",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/essence-de-noir.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1300,
+              "first_seen": "2026-08-16"
+            }
+          ],
+          "image": "images/essence-de-noir--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/essence-de-noir"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
