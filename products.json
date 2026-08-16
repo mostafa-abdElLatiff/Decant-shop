@@ -33184,7 +33184,8 @@
               "kind": "full",
               "ml": 105,
               "price": 3850,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-16"
             }
           ],
           "image": "images/club-de-nuit-intense-man-limited-edition--emaratiscents.jpg",
@@ -41430,8 +41431,7 @@
               "kind": "full",
               "ml": 10,
               "price": 2550,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-13"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/discovery-diamond-set--emaratiscents.jpg",
@@ -150576,8 +150576,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2750,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-14"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/summer-yellow--emaratiscents.jpg",
@@ -169173,8 +169172,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2450,
-              "first_seen": "2026-07-31"
+              "price": 2250,
+              "first_seen": "2026-07-31",
+              "prev_price": 2450
             }
           ],
           "image": "images/wild-colt-boss--emaratiscents.jpg",
@@ -180469,8 +180469,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2250,
-              "first_seen": "2026-08-09"
+              "price": 2050,
+              "first_seen": "2026-08-09",
+              "prev_price": 2250
             }
           ],
           "image": "images/shift--emaratiscents.jpg",
