@@ -847,6 +847,13 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 100,
+              "price": 5300,
+              "first_seen": "2026-08-16",
+              "sold_since": "2026-08-16"
+            },
+            {
+              "kind": "full",
               "ml": 200,
               "price": 6000,
               "first_seen": "2026-08-16",
@@ -75086,7 +75093,8 @@
               "kind": "full",
               "ml": 100,
               "price": 7740,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-08-16"
             }
           ],
           "image": "images/invictus-victory-elixir--mazaya.jpg",
@@ -104445,6 +104453,13 @@
           "name": "mazaya",
           "url": "https://mazaya.eg/",
           "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 4490,
+              "first_seen": "2026-08-16",
+              "sold_since": "2026-08-16"
+            },
             {
               "kind": "full",
               "ml": 100,
@@ -171010,6 +171025,13 @@
           "name": "mazaya",
           "url": "https://mazaya.eg/",
           "offers": [
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 7000,
+              "first_seen": "2026-08-16",
+              "sold_since": "2026-08-16"
+            },
             {
               "kind": "full",
               "ml": 100,
