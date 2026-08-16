@@ -133180,6 +133180,20 @@
           ],
           "image": "images/reef-11--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/reef-11-100ml"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2150,
+              "first_seen": "2026-08-16"
+            }
+          ],
+          "image": "images/reef-11--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/reef-11-100ml-%d8%b1%d9%8a%d9%81-%d9%a1%d9%a1-%d8%ad%d8%ac%d9%85-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -133284,8 +133298,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2275,
-              "first_seen": "2026-07-18"
+              "price": 2150,
+              "first_seen": "2026-07-18",
+              "prev_price": 2275
             }
           ],
           "image": "images/reef-33--eldesoki-fragrances.jpg",
@@ -186704,6 +186719,33 @@
         }
       ],
       "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "reef-33-white-edition",
+      "name_ar": "ريف ٣٣ وايت ١٠٠ملي",
+      "name_en": "Reef 33 White Edition",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/reef-33-white-edition.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2150,
+              "first_seen": "2026-08-16"
+            }
+          ],
+          "image": "images/reef-33-white-edition--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/reef-33-white-edition-100ml%d8%b1%d9%8a%d9%81-%d9%a3%d9%a3-%d9%88%d8%a7%d9%8a%d8%aa-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
