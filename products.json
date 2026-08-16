@@ -47755,7 +47755,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 250,
-              "first_seen": "2026-07-26"
+              "first_seen": "2026-07-26",
+              "sold_since": "2026-08-16"
             },
             {
               "kind": "full",
@@ -149065,7 +149066,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 250,
-              "first_seen": "2026-07-24"
+              "first_seen": "2026-07-24",
+              "sold_since": "2026-08-16"
             },
             {
               "kind": "leftover",
@@ -164596,8 +164598,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 700,
-              "first_seen": "2026-07-18"
+              "price": 675,
+              "first_seen": "2026-07-18",
+              "prev_price": 700
             }
           ],
           "image": "images/venti-green-tweed--eldesoki-fragrances.jpg",
