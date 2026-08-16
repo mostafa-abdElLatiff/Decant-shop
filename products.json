@@ -186532,6 +186532,39 @@
         }
       ],
       "_hero_source": "feel22"
+    },
+    {
+      "id": "candy-musk",
+      "name_ar": "Candy Musk",
+      "name_en": "Candy Musk",
+      "brand": "Al Majed For Oud",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/candy-musk.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 140,
+              "first_seen": "2026-08-16"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 220,
+              "first_seen": "2026-08-16"
+            }
+          ],
+          "image": "images/candy-musk--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/al-majed-for-oud-candy-musk"
+        }
+      ],
+      "_hero_source": "perfuzone"
     }
   ]
 }
