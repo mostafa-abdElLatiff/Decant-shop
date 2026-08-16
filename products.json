@@ -186674,6 +186674,33 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "imperial-ocean",
+      "name_ar": "Imperial Ocean",
+      "name_en": "Imperial Ocean",
+      "brand": "French Avenue",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/imperial-ocean.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2000,
+              "first_seen": "2026-08-16"
+            }
+          ],
+          "image": "images/imperial-ocean--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/imperial-ocean"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
     }
   ]
 }
