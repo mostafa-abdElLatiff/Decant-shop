@@ -2113,8 +2113,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 1000,
-              "first_seen": "2026-07-27",
-              "sold_since": "2026-08-14"
+              "first_seen": "2026-07-27"
             },
             {
               "kind": "full",
@@ -2124,7 +2123,7 @@
             }
           ],
           "image": "images/9pm-night-out--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/9pm-night-out-10ml%d9%86%d8%a7%d9%8a%d9%86-%d8%a8%d9%8a-%d8%a7%d9%85-%d9%86%d8%a7%d9%8a%d8%aa-%d8%a7%d9%88%d8%aa-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/night-out-50ml%d9%86%d8%a7%d9%8a%d8%aa-%d8%a7%d9%88%d8%aa-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "perfuzone",
@@ -113025,7 +113024,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3250,
+              "price": 3650,
               "first_seen": "2026-07-18"
             }
           ],
@@ -144392,8 +144391,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 875,
-              "first_seen": "2026-07-18"
+              "price": 775,
+              "first_seen": "2026-07-18",
+              "prev_price": 875
             }
           ],
           "image": "images/silk-musk--eldesoki-fragrances.jpg",
@@ -166222,8 +166222,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 475,
-              "first_seen": "2026-07-18"
+              "price": 425,
+              "first_seen": "2026-07-18",
+              "prev_price": 475
             }
           ],
           "image": "images/vitality-cherry-musk--eldesoki-fragrances.jpg",
@@ -166249,8 +166250,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 475,
-              "first_seen": "2026-07-18"
+              "price": 425,
+              "first_seen": "2026-07-18",
+              "prev_price": 475
             }
           ],
           "image": "images/vitality-pistachio-musk--eldesoki-fragrances.jpg",
