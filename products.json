@@ -541,8 +541,7 @@
               "kind": "full",
               "ml": 90,
               "price": 6083,
-              "first_seen": "2026-07-23",
-              "prev_price": 6286
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/212-heroes-eau-de-toilette--feel22.jpg",
@@ -6146,6 +6145,20 @@
           ],
           "image": "images/al-noble-wazeer--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/al-noble-wazeer"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1425,
+              "first_seen": "2026-08-17"
+            }
+          ],
+          "image": "images/al-noble-wazeer--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/lattafa-al-noble-wazeer-eau-de-parfum-100ml"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -6476,7 +6489,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2442,
+              "price": 2519,
               "first_seen": "2026-07-23"
             }
           ],
@@ -8451,7 +8464,7 @@
             {
               "kind": "full",
               "ml": 120,
-              "price": 2975,
+              "price": 5613,
               "first_seen": "2026-07-23"
             }
           ],
@@ -10469,8 +10482,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1829,
-              "first_seen": "2026-07-23"
+              "price": 1555,
+              "first_seen": "2026-07-23",
+              "prev_price": 1829
             }
           ],
           "image": "images/angham--feel22.jpg",
@@ -15308,8 +15322,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1475,
-              "first_seen": "2026-07-23",
-              "prev_price": 1527
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/asad--feel22.jpg",
@@ -23307,8 +23320,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 13884,
-              "first_seen": "2026-07-23"
+              "price": 11999,
+              "first_seen": "2026-07-23",
+              "prev_price": 13884
             },
             {
               "kind": "full",
@@ -43603,8 +43617,7 @@
               "kind": "full",
               "ml": 200,
               "price": 2730,
-              "first_seen": "2026-07-23",
-              "prev_price": 2769
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/drakkar-noir--feel22.jpg",
@@ -50455,8 +50468,7 @@
               "kind": "full",
               "ml": 200,
               "price": 6860,
-              "first_seen": "2026-07-29",
-              "prev_price": 7190
+              "first_seen": "2026-07-29"
             }
           ],
           "image": "images/eros-eau-de-toilette--feel22.jpg",
@@ -51867,8 +51879,7 @@
               "kind": "full",
               "ml": 200,
               "price": 3332,
-              "first_seen": "2026-08-02",
-              "prev_price": 3455
+              "first_seen": "2026-08-02"
             }
           ],
           "image": "images/eternity-eau-de-toilette--feel22.jpg",
@@ -73181,6 +73192,13 @@
               "ml": 50,
               "price": 1127,
               "first_seen": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 88,
+              "price": 1799,
+              "first_seen": "2026-08-17",
+              "sold_since": "2026-08-17"
             }
           ],
           "image": "images/in-white-eau-de-toilette--feel22.jpg",
@@ -86080,13 +86098,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6461,
+              "price": 5459,
               "first_seen": "2026-07-23",
-              "prev_price": 7380
+              "prev_price": 6461
             }
           ],
           "image": "images/l-homme-le-parfum--feel22.jpg",
-          "product_url": "https://eg.feel22.com/products/copy-of-yves-saint-laurent-la-nuit-lhomme-eau-de-parfum-for-men"
+          "product_url": "https://eg.feel22.com/products/yves-saint-laurent-lhomme-eau-de-toilette-for-men-100ml"
         },
         {
           "name": "mazaya",
@@ -92865,8 +92883,7 @@
               "kind": "full",
               "ml": 200,
               "price": 4191,
-              "first_seen": "2026-07-23",
-              "prev_price": 4449
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/legend-eau-de-toilette--feel22.jpg",
@@ -94766,8 +94783,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2201,
-              "first_seen": "2026-07-23"
+              "price": 2099,
+              "first_seen": "2026-07-23",
+              "prev_price": 2201
             }
           ],
           "image": "images/london-eau-de-toilette-dunhill--feel22.jpg",
@@ -96403,7 +96421,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1688,
+              "price": 1935,
               "first_seen": "2026-07-23"
             }
           ],
@@ -139143,20 +139161,22 @@
               "ml": 50,
               "price": 3550,
               "first_seen": "2026-07-23",
+              "prev_price": 5225,
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 5982,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "prev_price": 8448
             },
             {
               "kind": "full",
               "ml": 150,
               "price": 6500,
-              "first_seen": "2026-07-30",
-              "sold_since": "2026-07-30"
+              "first_seen": "2026-08-17",
+              "sold_since": "2026-08-17"
             }
           ],
           "image": "images/scandal-eau-de-toilette--feel22.jpg",
@@ -149433,7 +149453,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6355,
+              "price": 6799,
               "first_seen": "2026-07-23"
             }
           ],
@@ -149704,8 +149724,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6773,
-              "first_seen": "2026-07-23"
+              "price": 6699,
+              "first_seen": "2026-07-23",
+              "prev_price": 6773
             }
           ],
           "image": "images/stronger-with-you-intensely--feel22.jpg",
@@ -151741,7 +151762,7 @@
             {
               "kind": "full",
               "ml": 250,
-              "price": 392,
+              "price": 445,
               "first_seen": "2026-07-23"
             }
           ],
@@ -187087,6 +187108,148 @@
         }
       ],
       "_hero_source": "sniffz"
+    },
+    {
+      "id": "supremacy-in-heaven-eau-de-parfum",
+      "name_ar": "Supremacy In Heaven Eau de Parfum",
+      "name_en": "Supremacy In Heaven Eau de Parfum",
+      "brand": "Afnan",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/supremacy-in-heaven-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2155,
+              "first_seen": "2026-08-17"
+            }
+          ],
+          "image": "images/supremacy-in-heaven-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/afnan-supremacy-in-heaven-eau-de-parfum-for-men-100ml"
+        }
+      ],
+      "_hero_source": "feel22"
+    },
+    {
+      "id": "al-dur-al-maknoon-gold-eau-de-parfum",
+      "name_ar": "Al Dur Al Maknoon Gold Eau de Parfum",
+      "name_en": "Al Dur Al Maknoon Gold Eau de Parfum",
+      "brand": "Lattafa",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/al-dur-al-maknoon-gold-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1299,
+              "first_seen": "2026-08-17"
+            }
+          ],
+          "image": "images/al-dur-al-maknoon-gold-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/lattafa-al-dur-al-maknoon-gold-eau-de-parfum-100ml"
+        }
+      ],
+      "_hero_source": "feel22"
+    },
+    {
+      "id": "tuscan-leather-eau-de-parfum",
+      "name_ar": "Tuscan Leather Eau de Parfum",
+      "name_en": "Tuscan Leather Eau de Parfum",
+      "brand": "Tom Ford",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/tuscan-leather-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 17349,
+              "first_seen": "2026-08-17"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 19500,
+              "first_seen": "2026-08-17",
+              "sold_since": "2026-08-17"
+            }
+          ],
+          "image": "images/tuscan-leather-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/tom-ford-tuscan-leather-eau-de-parfum-100ml"
+        }
+      ],
+      "_hero_source": "feel22"
+    },
+    {
+      "id": "rare-passion-eau-de-parfum",
+      "name_ar": "Rare Passion Eau De Parfum",
+      "name_en": "Rare Passion Eau De Parfum",
+      "brand": "Afnan",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/rare-passion-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1975,
+              "first_seen": "2026-08-17"
+            }
+          ],
+          "image": "images/rare-passion-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/afnan-rare-passion-eau-de-parfum-100ml"
+        }
+      ],
+      "_hero_source": "feel22"
+    },
+    {
+      "id": "wurud-dhahab-eau-de-parfum",
+      "name_ar": "Wurud Dhahab Eau de Parfum",
+      "name_en": "Wurud Dhahab Eau de Parfum",
+      "brand": "Al Fares",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/wurud-dhahab-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 825,
+              "first_seen": "2026-08-17"
+            }
+          ],
+          "image": "images/wurud-dhahab-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/al-fares-wurud-dhahab-eau-de-parfum-100ml"
+        }
+      ],
+      "_hero_source": "feel22"
     }
   ]
 }
