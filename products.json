@@ -52658,9 +52658,8 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 135,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "price": 160,
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -52672,9 +52671,8 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1200,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "price": 1325,
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/exotic-rose--og-perfume.jpg",
@@ -64991,7 +64989,8 @@
               "kind": "leftover",
               "ml": 45,
               "price": 725,
-              "first_seen": "2026-08-13"
+              "first_seen": "2026-08-13",
+              "sold_since": "2026-08-17"
             },
             {
               "kind": "leftover",
@@ -65363,7 +65362,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-17"
             }
           ],
           "image": "images/hawas-diva--og-perfume.jpg",
@@ -152225,16 +152225,14 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 190,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-01"
+              "price": 200,
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
-              "price": 500,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-10"
+              "price": 550,
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -152246,9 +152244,8 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1600,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "price": 1700,
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/sweet-paradise--og-perfume.jpg",
@@ -167668,9 +167665,8 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 180,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "price": 190,
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -167682,9 +167678,8 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1600,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "price": 1675,
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/vulcan-sable--og-perfume.jpg",
@@ -183556,6 +183551,32 @@
           ],
           "image": "images/zenith-noire--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/zenith-noire-french-avenue"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-08-17"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 575,
+              "first_seen": "2026-08-17"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1700,
+              "first_seen": "2026-08-17"
+            }
+          ],
+          "image": "images/zenith-noire--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/zenith-noire"
         }
       ],
       "_hero_source": "roseperfume"
