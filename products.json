@@ -153578,15 +153578,9 @@
             {
               "kind": "decant",
               "ml": 5,
-              "price": 300,
-              "first_seen": "2026-07-17"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 450,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-07-30"
+              "price": 0,
+              "first_seen": "2026-07-17",
+              "prev_price": 300
             }
           ],
           "image": "images/terre-d-herm-s-eau-givree--mo-shawky.jpg",
