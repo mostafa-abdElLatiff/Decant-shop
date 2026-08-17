@@ -187330,6 +187330,102 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "one-and-only-winner",
+      "name_ar": "",
+      "name_en": "One And Only Winner",
+      "brand": "Le Chameau",
+      "category": "dupe",
+      "dupe_of": [
+        "One Million Lucky — Paco Rabanne"
+      ],
+      "image": "images/one-and-only-winner.jpg",
+      "accords": [
+        {
+          "label_en": "Grapefruit",
+          "label_ar": "الجريب فروت",
+          "color": "#F9FF52",
+          "w": 100
+        },
+        {
+          "label_en": "Bergamot",
+          "label_ar": "البرغموت",
+          "color": "#F9FF52",
+          "w": 90
+        },
+        {
+          "label_en": "Plum",
+          "label_ar": "البرقوق",
+          "color": "#FC4B29",
+          "w": 80
+        },
+        {
+          "label_en": "Cedar",
+          "label_ar": "الأرز",
+          "color": "#774414",
+          "w": 70
+        },
+        {
+          "label_en": "Cashmere Wood",
+          "label_ar": "خشب الكشمير",
+          "color": "#774414",
+          "w": 60
+        },
+        {
+          "label_en": "Orange Blossom",
+          "label_ar": "زهر البرتقال",
+          "color": "#edf2fb",
+          "w": 50
+        },
+        {
+          "label_en": "Jasmine",
+          "label_ar": "الياسمين",
+          "color": "#FF5F8D",
+          "w": 40
+        },
+        {
+          "label_en": "Patchouli",
+          "label_ar": "الباتشولي",
+          "color": "#63652e",
+          "w": 40
+        },
+        {
+          "label_en": "Amberwood",
+          "label_ar": "خشب العنبر",
+          "color": "#bc4d10",
+          "w": 40
+        },
+        {
+          "label_en": "Lemongrass",
+          "label_ar": "نجيل الهند",
+          "color": "#0E8C1D",
+          "w": 40
+        },
+        {
+          "label_en": "Oakmoss",
+          "label_ar": "طحلب السنديان",
+          "color": "#5B6B32",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 85,
+              "price": 750,
+              "first_seen": "2026-08-17"
+            }
+          ],
+          "image": "images/one-and-only-winner--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/one-and-only-winner-le-chameau"
+        }
+      ],
+      "_hero_source": "roseperfume"
     }
   ]
 }
