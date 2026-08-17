@@ -2439,7 +2439,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1600,
+              "price": 1700,
               "first_seen": "2026-01-01"
             }
           ],
@@ -13615,6 +13615,32 @@
           ],
           "image": "images/aromatix--eslam-nasser.jpg",
           "product_url": "https://www.facebook.com/groups/720783370622840/posts/907937451907430"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 145,
+              "first_seen": "2026-08-17"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 195,
+              "first_seen": "2026-08-17"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 300,
+              "first_seen": "2026-08-17"
+            }
+          ],
+          "image": "images/aromatix--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/aromatix-frostbite"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -17746,20 +17772,23 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 130,
-              "first_seen": "2026-01-01"
+              "price": 115,
+              "first_seen": "2026-01-01",
+              "prev_price": 130
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 165,
-              "first_seen": "2026-01-01"
+              "price": 150,
+              "first_seen": "2026-01-01",
+              "prev_price": 165
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 250,
-              "first_seen": "2026-01-01"
+              "price": 230,
+              "first_seen": "2026-01-01",
+              "prev_price": 250
             }
           ],
           "image": "images/aura-pegasus--sniffz.jpg",
@@ -68721,8 +68750,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2500,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-08-09"
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/hersh-2-hersh--sniffz.jpg",
@@ -112749,6 +112777,24 @@
           "url": "https://sniffz-eg.com/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 3,
+              "price": 75,
+              "first_seen": "2026-08-17"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 100,
+              "first_seen": "2026-08-17"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 150,
+              "first_seen": "2026-08-17"
+            },
+            {
               "kind": "full",
               "ml": 150,
               "price": 1500,
@@ -112756,7 +112802,7 @@
             }
           ],
           "image": "images/nude-coral-diamond--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/ibraheem-alqurashi-nude-coral-diamond-full-sealed"
+          "product_url": "https://sniffz-eg.com/products/ibraheem-alqurashi-nude-coral-diamond"
         },
         {
           "name": "perfuzone",
@@ -147382,23 +147428,29 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 150,
+              "price": 125,
               "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
+              "prev_price": 150
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 190,
+              "price": 165,
               "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
+              "prev_price": 190
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 320,
+              "price": 250,
               "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
+              "prev_price": 320
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1700,
+              "first_seen": "2026-08-17"
             }
           ],
           "image": "images/spectre-ghost--sniffz.jpg",
@@ -186992,6 +187044,45 @@
         }
       ],
       "_hero_source": "roseperfume"
+    },
+    {
+      "id": "ravin-ginger",
+      "name_ar": "",
+      "name_en": "Ravin Ginger",
+      "brand": "French Avenue",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/ravin-ginger.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 130,
+              "first_seen": "2026-08-17"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 175,
+              "first_seen": "2026-08-17"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 265,
+              "first_seen": "2026-08-17"
+            }
+          ],
+          "image": "images/ravin-ginger--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/french-avenue-ravin-ginger"
+        }
+      ],
+      "_hero_source": "sniffz"
     }
   ]
 }
