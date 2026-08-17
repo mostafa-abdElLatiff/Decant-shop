@@ -2609,13 +2609,6 @@
               "sold_since": "2026-08-13"
             },
             {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 975,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-10"
-            },
-            {
               "kind": "full",
               "ml": 100,
               "price": 1650,
@@ -5703,13 +5696,6 @@
               "ml": 10,
               "price": 190,
               "first_seen": "2026-07-18"
-            },
-            {
-              "kind": "leftover",
-              "ml": 30,
-              "price": 650,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-10"
             }
           ],
           "image": "images/al-hilal-9--eldesoki-fragrances.jpg",
@@ -14504,13 +14490,6 @@
               "ml": 50,
               "price": 750,
               "first_seen": "2026-08-10"
-            },
-            {
-              "kind": "leftover",
-              "ml": 200,
-              "price": 1975,
-              "first_seen": "2026-08-04",
-              "sold_since": "2026-08-10"
             }
           ],
           "image": "images/arrogate-pink--eldesoki-fragrances.jpg",
@@ -79835,13 +79814,6 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
-              "kind": "decant",
-              "ml": 10,
-              "price": 200,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-10"
-            },
-            {
               "kind": "full",
               "ml": 100,
               "price": 1775,
@@ -82516,13 +82488,6 @@
           "name": "eldesoki-fragrances",
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 175,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-10"
-            },
             {
               "kind": "full",
               "ml": 100,
@@ -149068,7 +149033,8 @@
               "kind": "leftover",
               "ml": 65,
               "price": 1350,
-              "first_seen": "2026-08-10"
+              "first_seen": "2026-08-10",
+              "sold_since": "2026-08-17"
             },
             {
               "kind": "full",
@@ -159470,13 +159436,6 @@
               "first_seen": "2026-08-10"
             },
             {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 1175,
-              "first_seen": "2026-07-27",
-              "sold_since": "2026-08-10"
-            },
-            {
               "kind": "full",
               "ml": 90,
               "price": 1875,
@@ -165053,8 +165012,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1375,
-              "first_seen": "2026-07-18"
+              "price": 1275,
+              "first_seen": "2026-07-18",
+              "prev_price": 1375
             }
           ],
           "image": "images/verus-tonka--eldesoki-fragrances.jpg",
