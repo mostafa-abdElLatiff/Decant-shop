@@ -59980,7 +59980,7 @@
             }
           ],
           "image": "images/gentleman-r-serve-priv-e--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/givenchy-gentleman-reserve-privee-3ml-435"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/givenchy-gentleman-reserve-privee-5ml-414"
         },
         {
           "name": "sniffz",
@@ -97843,6 +97843,32 @@
           ],
           "image": "images/man-eau-fraiche--ahmed-abdel-kareem.jpg",
           "product_url": "https://www.facebook.com/groups/110919302115466/posts/1166245796582806"
+        },
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 215,
+              "first_seen": "2026-08-18"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 290,
+              "first_seen": "2026-08-18"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 475,
+              "first_seen": "2026-08-18"
+            }
+          ],
+          "image": "images/man-eau-fraiche--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/versace-man-eau-fraiche-3ml-523"
         }
       ],
       "_hero_source": "sniffz",
@@ -109658,7 +109684,7 @@
             }
           ],
           "image": "images/nice-bergamote--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-nice-bergamote-3ml-485"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-nice-bergamote-5ml-486"
         },
         {
           "name": "Hossam ElDeen Gamal",
@@ -171563,7 +171589,7 @@
             }
           ],
           "image": "images/y-edp-intense--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ysl-y-edp-intense-3ml-456"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ysl-y-edp-intense-5ml-315"
         },
         {
           "name": "feel22",
@@ -177655,7 +177681,7 @@
             }
           ],
           "image": "images/neroli-botanica-by-anne-flipo--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-neroli-botanica-5ml-477"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-neroli-botanica-3ml-478"
         }
       ],
       "aliases": [
@@ -187963,6 +187989,45 @@
         }
       ],
       "_hero_source": "roseperfume"
+    },
+    {
+      "id": "man-eau-fraiche-extreme",
+      "name_ar": "",
+      "name_en": "Man Eau Fraiche Extreme",
+      "brand": "Versace",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/man-eau-fraiche-extreme.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 245,
+              "first_seen": "2026-08-18"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 340,
+              "first_seen": "2026-08-18"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 575,
+              "first_seen": "2026-08-18"
+            }
+          ],
+          "image": "images/man-eau-fraiche-extreme--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/versace-man-eau-fraiche-extreme-5ml-525"
+        }
+      ],
+      "_hero_source": "MO Shawky"
     }
   ]
 }
