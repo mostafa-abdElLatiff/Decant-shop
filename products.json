@@ -4550,13 +4550,20 @@
           "offers": [
             {
               "kind": "decant",
+              "ml": 5,
+              "price": 200,
+              "first_seen": "2026-08-18"
+            },
+            {
+              "kind": "decant",
               "ml": 10,
               "price": 325,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-18"
             }
           ],
           "image": "images/after-effect--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/french-avenue-after-effect-10ml-67"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/french-avenue-after-effect-5ml-90"
         },
         {
           "name": "og-perfume",
@@ -35929,11 +35936,18 @@
               "kind": "decant",
               "ml": 5,
               "price": 200,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-18"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 285,
+              "first_seen": "2026-08-18"
             }
           ],
           "image": "images/cool-water-intense--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/davidoff-cool-water-intense-5ml-239"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/davidoff-cool-water-intense-10ml-238"
         },
         {
           "name": "feel22",
@@ -56959,11 +56973,18 @@
               "kind": "decant",
               "ml": 5,
               "price": 125,
-              "first_seen": "2026-08-08"
+              "first_seen": "2026-08-08",
+              "sold_since": "2026-08-18"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-08-18"
             }
           ],
           "image": "images/frankel-battle--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/assaf-frankel-battle-5ml-174"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/assaf-frankel-battle-10ml-175"
         },
         {
           "name": "eldesoki-fragrances",
@@ -74168,7 +74189,7 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 225,
+              "price": 250,
               "first_seen": "2026-01-01"
             }
           ],
@@ -149940,7 +149961,7 @@
             }
           ],
           "image": "images/stronger-with-you-parfum--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/emporio-armani-stronger-with-you-parfum-3ml-431"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/emporio-armani-stronger-with-you-parfum-5ml-332"
         },
         {
           "name": "sniffz",
@@ -177461,7 +177482,7 @@
             }
           ],
           "image": "images/mon-vetiver-by-bruno-jovanovic--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-mon-vetiver-3ml-496"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-mon-vetiver-5ml-497"
         }
       ],
       "aliases": [
