@@ -188521,6 +188521,39 @@
         }
       ],
       "_hero_source": "MO Shawky"
+    },
+    {
+      "id": "rice-milk",
+      "name_ar": "Rice Milk",
+      "name_en": "Rice Milk",
+      "brand": "Gulf Orchid",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/rice-milk.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 130,
+              "first_seen": "2026-08-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-08-19"
+            }
+          ],
+          "image": "images/rice-milk--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/untitled-aug19_20-05-46"
+        }
+      ],
+      "_hero_source": "perfuzone"
     }
   ]
 }
