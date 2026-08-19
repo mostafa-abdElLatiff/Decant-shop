@@ -188317,6 +188317,60 @@
         }
       ],
       "_hero_source": "mazaya"
+    },
+    {
+      "id": "hawasat-bundle-1",
+      "name_ar": "Hawasat Bundle 1 ( 200ml)",
+      "name_en": "Hawasat Bundle 1",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/hawasat-bundle-1.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2950,
+              "first_seen": "2026-08-19"
+            }
+          ],
+          "image": "images/hawasat-bundle-1--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/hawasat-bundle-1-200ml/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "rare-collectors-editions-bundle",
+      "name_ar": "Rare Collectors Editions ( 200ml ) Bundle",
+      "name_en": "Rare Collectors Editions Bundle",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/rare-collectors-editions-bundle.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 4175,
+              "first_seen": "2026-08-19"
+            }
+          ],
+          "image": "images/rare-collectors-editions-bundle--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/rare-collectors-editions-200ml-bundle/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
