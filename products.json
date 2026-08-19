@@ -28595,7 +28595,8 @@
               "kind": "full",
               "ml": 200,
               "price": 4950,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-19"
             }
           ],
           "image": "images/capri--og-perfume.jpg",
@@ -33052,6 +33053,13 @@
               "price": 190,
               "first_seen": "2026-07-19",
               "sold_since": "2026-08-01"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 800,
+              "first_seen": "2026-08-19",
+              "sold_since": "2026-08-19"
             },
             {
               "kind": "full",
