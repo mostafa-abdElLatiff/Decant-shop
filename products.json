@@ -78254,18 +78254,18 @@
               "kind": "decant",
               "ml": 5,
               "price": 125,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-08-01"
+              "first_seen": "2026-01-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-08-01"
+              "first_seen": "2026-08-01",
+              "sold_since": "2026-08-19"
             }
           ],
           "image": "images/jasmin-noir--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/assaf-jasmin-noir-10ml-40"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/assaf-jasmin-noir-5ml-99"
         }
       ],
       "_hero_source": "MO Shawky",
@@ -90916,7 +90916,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 565,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-19"
             }
           ],
           "image": "images/le-beau-le-parfum--mo-shawky.jpg",
@@ -102437,7 +102438,7 @@
             }
           ],
           "image": "images/million-gold-for-her-edp--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/rabanne-million-gold-for-her-edp-5ml-388"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/rabanne-million-gold-for-her-edp-3ml-448"
         },
         {
           "name": "Ahmed Abdel Kareem",
@@ -113352,7 +113353,7 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 175,
+              "price": 200,
               "first_seen": "2026-01-01"
             }
           ],
@@ -150123,7 +150124,7 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 250,
+              "price": 260,
               "first_seen": "2026-07-17"
             },
             {
@@ -188438,6 +188439,33 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "remy-latour-cigar",
+      "name_ar": "",
+      "name_en": "Remy Latour Cigar",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/remy-latour-cigar.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 125,
+              "first_seen": "2026-08-19"
+            }
+          ],
+          "image": "images/remy-latour-cigar--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/remy-latour-cigar-5ml-86"
+        }
+      ],
+      "_hero_source": "MO Shawky"
     }
   ]
 }
