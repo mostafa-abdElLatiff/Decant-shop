@@ -43541,7 +43541,8 @@
               "kind": "full",
               "ml": 200,
               "price": 5750,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-20"
             }
           ],
           "image": "images/dorado--emaratiscents.jpg",
@@ -121498,7 +121499,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-22"
+              "first_seen": "2026-07-22",
+              "sold_since": "2026-08-20"
             }
           ],
           "image": "images/pacific-aloha--emaratiscents.jpg",
@@ -188620,6 +188622,21 @@
           ],
           "image": "images/club-de-nuit-intense-overdose-eau-de-parfum--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/armaf-club-de-nuit-intense-overdose-eau-de-parfum-100ml"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2700,
+              "first_seen": "2026-08-20",
+              "sold_since": "2026-08-20"
+            }
+          ],
+          "image": "images/club-de-nuit-intense-overdose-eau-de-parfum--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/club-de-nuit-intense-overdose"
         }
       ],
       "_hero_source": "mazaya"
@@ -188812,7 +188829,8 @@
               "kind": "full",
               "ml": 50,
               "price": 1550,
-              "first_seen": "2026-08-20"
+              "first_seen": "2026-08-20",
+              "sold_since": "2026-08-20"
             }
           ],
           "image": "images/california-blue--emaratiscents.jpg",
@@ -188839,7 +188857,8 @@
               "kind": "full",
               "ml": 50,
               "price": 1550,
-              "first_seen": "2026-08-20"
+              "first_seen": "2026-08-20",
+              "sold_since": "2026-08-20"
             }
           ],
           "image": "images/slow-living--emaratiscents.jpg",
