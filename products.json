@@ -32801,8 +32801,9 @@
             {
               "kind": "full",
               "ml": 105,
-              "price": 3630,
-              "first_seen": "2026-07-23"
+              "price": 3390,
+              "first_seen": "2026-07-23",
+              "prev_price": 3630
             }
           ],
           "image": "images/club-de-nuit-iconic--mazaya.jpg",
@@ -33114,8 +33115,9 @@
             {
               "kind": "full",
               "ml": 105,
-              "price": 2805,
+              "price": 2690,
               "first_seen": "2026-07-23",
+              "prev_price": 2805,
               "sold_since": "2026-07-23"
             }
           ],
@@ -33785,8 +33787,9 @@
             {
               "kind": "full",
               "ml": 105,
-              "price": 3630,
+              "price": 3390,
               "first_seen": "2026-07-23",
+              "prev_price": 3630,
               "sold_since": "2026-08-03"
             }
           ],
@@ -34110,8 +34113,9 @@
             {
               "kind": "full",
               "ml": 105,
-              "price": 2475,
+              "price": 2290,
               "first_seen": "2026-07-23",
+              "prev_price": 2475,
               "sold_since": "2026-07-23"
             }
           ],
@@ -74552,8 +74556,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1040,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-08-18"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/intense-noir--mazaya.jpg",
@@ -107202,6 +107205,27 @@
           ],
           "image": "images/myslf-edt-intense--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/yves-saint-laurent-myslf-eau-de-toilette-intense"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 6500,
+              "first_seen": "2026-08-20",
+              "sold_since": "2026-08-20"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 7700,
+              "first_seen": "2026-08-20"
+            }
+          ],
+          "image": "images/myslf-edt-intense--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/myslf-edt-intense"
         }
       ],
       "_hero_source": "sniffz",
@@ -123127,7 +123151,7 @@
             }
           ],
           "image": "images/pasha-de-cartier-parfum--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/pasha-de-cartier-parfum-50ml"
+          "product_url": "https://mazaya.eg/en/pasha-de-cartier-parfum"
         },
         {
           "name": "faces",
@@ -127118,8 +127142,7 @@
               "kind": "full",
               "ml": 100,
               "price": 6900,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/pour-homme-edp-michael-kors--mazaya.jpg",
@@ -130091,7 +130114,8 @@
               "kind": "full",
               "ml": 100,
               "price": 23100,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-08-20"
             }
           ],
           "image": "images/purpose--mazaya.jpg",
