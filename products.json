@@ -188790,6 +188790,87 @@
         }
       ],
       "_hero_source": "perfuzone"
+    },
+    {
+      "id": "california-blue",
+      "name_ar": "California Blue",
+      "name_en": "California Blue",
+      "brand": "Mykonos",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/california-blue.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 1550,
+              "first_seen": "2026-08-20"
+            }
+          ],
+          "image": "images/california-blue--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/california-blue"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "slow-living",
+      "name_ar": "Slow Living",
+      "name_en": "Slow Living",
+      "brand": "Mykonos",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/slow-living.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 1550,
+              "first_seen": "2026-08-20"
+            }
+          ],
+          "image": "images/slow-living--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/slow-living"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "california-signature",
+      "name_ar": "California Signature",
+      "name_en": "California Signature",
+      "brand": "Mykonos",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/california-signature.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 1550,
+              "first_seen": "2026-08-20"
+            }
+          ],
+          "image": "images/california-signature--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/california-signature"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
