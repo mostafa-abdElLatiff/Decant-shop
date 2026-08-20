@@ -21376,8 +21376,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 300,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
@@ -21404,8 +21403,7 @@
               "kind": "full",
               "ml": 200,
               "price": 5350,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/beyond-me--og-perfume.jpg",
@@ -87377,8 +87375,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 300,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
@@ -188913,6 +188910,45 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "ateej-sii",
+      "name_ar": "Ateej Sii",
+      "name_en": "Ateej Sii",
+      "brand": "Ateej",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/ateej-sii.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 230,
+              "first_seen": "2026-08-20"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 650,
+              "first_seen": "2026-08-20"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 4000,
+              "first_seen": "2026-08-20"
+            }
+          ],
+          "image": "images/ateej-sii--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/ateej-sii"
+        }
+      ],
+      "_hero_source": "og-perfume"
     }
   ]
 }
