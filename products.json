@@ -65824,8 +65824,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-17"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/hawas-elixir--emaratiscents.jpg",
@@ -119024,6 +119023,20 @@
           ],
           "image": "images/osma-noir--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/osma-noir"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2450,
+              "first_seen": "2026-08-21"
+            }
+          ],
+          "image": "images/osma-noir--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/osma-noir"
         }
       ],
       "_hero_source": "og-perfume",
@@ -119102,8 +119115,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2450,
-              "first_seen": "2026-08-02",
-              "sold_since": "2026-08-10"
+              "first_seen": "2026-08-02"
             }
           ],
           "image": "images/osma-rouge--emaratiscents.jpg",
@@ -160215,8 +160227,7 @@
               "kind": "full",
               "ml": 90,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-19"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/turathi-blue-afnan--emaratiscents.jpg",
@@ -166553,8 +166564,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2500,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-20"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/vintage-tobacco--emaratiscents.jpg",
@@ -169093,7 +169103,8 @@
               "kind": "full",
               "ml": 100,
               "price": 750,
-              "first_seen": "2026-07-31"
+              "first_seen": "2026-07-31",
+              "sold_since": "2026-08-21"
             }
           ],
           "image": "images/white-heart--emaratiscents.jpg",
@@ -169981,8 +169992,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2250,
-              "first_seen": "2026-07-31"
+              "price": 2050,
+              "first_seen": "2026-07-31",
+              "prev_price": 2250
             }
           ],
           "image": "images/wild-colt-boss--emaratiscents.jpg",
