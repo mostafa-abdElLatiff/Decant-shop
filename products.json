@@ -132447,13 +132447,6 @@
               "first_seen": "2026-08-02"
             },
             {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 1050,
-              "first_seen": "2026-08-02",
-              "sold_since": "2026-08-14"
-            },
-            {
               "kind": "full",
               "ml": 100,
               "price": 1750,
@@ -149764,8 +149757,7 @@
               "kind": "leftover",
               "ml": 65,
               "price": 1350,
-              "first_seen": "2026-08-10",
-              "sold_since": "2026-08-17"
+              "first_seen": "2026-08-10"
             },
             {
               "kind": "full",
@@ -188951,6 +188943,87 @@
         }
       ],
       "_hero_source": "og-perfume"
+    },
+    {
+      "id": "kingdom-for-men",
+      "name_ar": "المملكة رجال ١٠٠ملي من لطافة",
+      "name_en": "Kingdom For Men",
+      "brand": "Lattafa",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/kingdom-for-men.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1275,
+              "first_seen": "2026-08-21"
+            }
+          ],
+          "image": "images/kingdom-for-men--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/kingdom-for-men-100ml%d8%a7%d9%84%d9%85%d9%85%d9%84%d9%83%d8%a9-%d8%b1%d8%ac%d8%a7%d9%84-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%84%d8%b7%d8%a7%d9%81%d8%a9/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "riviera-sunset-ibraq",
+      "name_ar": "ريفيرا صن سيت من ابراق ١٠٠ملي",
+      "name_en": "Riviera Sunset Ibraq",
+      "brand": "Ibraq",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/riviera-sunset-ibraq.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1225,
+              "first_seen": "2026-08-21"
+            }
+          ],
+          "image": "images/riviera-sunset-ibraq--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/riviera-sunset-ibraq-100ml%d8%b1%d9%8a%d9%81%d9%8a%d8%b1%d8%a7-%d8%b5%d9%86-%d8%b3%d9%8a%d8%aa-%d9%85%d9%86-%d8%a7%d8%a8%d8%b1%d8%a7%d9%82-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "badee-aloud-honor",
+      "name_ar": "بديع العود اونر اند جلوري ١٠٠ملي",
+      "name_en": "Badee AlOud Honor",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/badee-aloud-honor.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1275,
+              "first_seen": "2026-08-21"
+            }
+          ],
+          "image": "images/badee-aloud-honor--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/badee-eloud-honorglory%d8%a8%d8%af%d9%8a%d8%b9-%d8%a7%d9%84%d8%b9%d9%88%d8%af-%d8%a3%d9%88%d9%86%d8%b1-%d8%ac%d9%84%d9%88%d8%b1%d9%8a-%d9%85%d9%86-%d9%84%d8%b7%d8%a7%d9%81%d8%a9/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
