@@ -2105,8 +2105,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 210,
-              "first_seen": "2026-08-01"
+              "price": 200,
+              "first_seen": "2026-08-01",
+              "prev_price": 210
             },
             {
               "kind": "leftover",
@@ -2449,6 +2450,18 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-08-21"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 975,
+              "first_seen": "2026-08-21"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1675,
@@ -2457,7 +2470,7 @@
             }
           ],
           "image": "images/9pm-rebel--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/9pm-rebel-afnan-100ml%d9%86%d8%a7%d9%8a%d9%86-%d8%a8%d9%8a-%d8%a7%d9%85-%d8%b1%d9%8a%d8%a8%d9%84-%d9%85%d9%86-%d8%a7%d9%81%d9%86%d8%a7%d9%86-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/9pm-rebel-50ml%d9%86%d8%a7%d9%8a%d9%86-%d8%a8%d9%8a-%d8%a7%d9%85-%d8%b1%d9%8a%d8%a8%d9%84-%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d8%b9%d9%84%d8%a8%d8%a9-%d8%aa%d8%b3%d8%aa%d8%b1/"
         },
         {
           "name": "emaratiscents",
@@ -81279,9 +81292,9 @@
             {
               "kind": "full",
               "ml": 110,
-              "price": 4650,
+              "price": 4450,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 4650
             }
           ],
           "image": "images/kenzo-homme-eau-de-parfum--eldesoki-fragrances.jpg",
