@@ -13701,6 +13701,13 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 100,
+              "price": 2000,
+              "first_seen": "2026-08-21",
+              "sold_since": "2026-08-21"
+            },
+            {
+              "kind": "full",
               "ml": 150,
               "price": 2000,
               "first_seen": "2026-08-20",
@@ -189021,6 +189028,114 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "bucephalus-xv-armaf-niche",
+      "name_ar": "Bucephalus XV Armaf Niche",
+      "name_en": "Bucephalus XV Armaf Niche",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/bucephalus-xv-armaf-niche.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2200,
+              "first_seen": "2026-08-21"
+            }
+          ],
+          "image": "images/bucephalus-xv-armaf-niche--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/bucephalus-xv-armaf-niche"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "bucephalus-xii-armaf-niche",
+      "name_ar": "Bucephalus XII Armaf Niche",
+      "name_en": "Bucephalus XII Armaf Niche",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/bucephalus-xii-armaf-niche.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2200,
+              "first_seen": "2026-08-21"
+            }
+          ],
+          "image": "images/bucephalus-xii-armaf-niche--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/bucephalus-xii"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "bucephalus-x-armaf-niche",
+      "name_ar": "Bucephalus X Armaf Niche",
+      "name_en": "Bucephalus X Armaf Niche",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/bucephalus-x-armaf-niche.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2200,
+              "first_seen": "2026-08-21"
+            }
+          ],
+          "image": "images/bucephalus-x-armaf-niche--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/bucephalus-x-armaf-niche"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "bucephalus-xi-armaf-niche",
+      "name_ar": "Bucephalus XI Armaf Niche",
+      "name_en": "Bucephalus XI Armaf Niche",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/bucephalus-xi-armaf-niche.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2200,
+              "first_seen": "2026-08-21"
+            }
+          ],
+          "image": "images/bucephalus-xi-armaf-niche--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/bucephalus-xi"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
     }
   ]
 }
