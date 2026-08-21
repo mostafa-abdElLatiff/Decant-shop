@@ -16275,7 +16275,8 @@
               "kind": "full",
               "ml": 450,
               "price": 5450,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-21"
             }
           ],
           "image": "images/assaf-summer-men-s-bundle--emaratiscents.jpg",
@@ -169979,7 +169980,8 @@
               "kind": "full",
               "ml": 200,
               "price": 2250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-21"
             }
           ],
           "image": "images/wild-colt--emaratiscents.jpg",
@@ -170317,6 +170319,20 @@
           ],
           "image": "images/wild-colt-tobacco-assaf--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/assaf-wild-colt-tobacco-1"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2250,
+              "first_seen": "2026-08-21"
+            }
+          ],
+          "image": "images/wild-colt-tobacco-assaf--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/wild-colt-tobbaco-100-ml"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
