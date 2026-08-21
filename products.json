@@ -81329,19 +81329,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 220,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-21"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 295,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-21"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 450,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-21"
             },
             {
               "kind": "full",
@@ -112467,19 +112470,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 400,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-21"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 550,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-21"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 870,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-21"
             },
             {
               "kind": "full",
@@ -112489,7 +112495,7 @@
             }
           ],
           "image": "images/noir-extreme--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/tom-ford-noir-extrem"
+          "product_url": "https://sniffz-eg.com/products/tom-ford-noir-extreme-full-sealed"
         },
         {
           "name": "Hossam ElDeen Gamal",
@@ -151851,8 +151857,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2450,
-              "first_seen": "2026-07-19",
-              "prev_price": 2550
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/supremacy-collector-s-edition--sniffz.jpg",
