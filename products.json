@@ -3645,12 +3645,12 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 4100,
+              "price": 4200,
               "first_seen": "2026-08-10"
             }
           ],
           "image": "images/acqua-di-gi-parfum--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2140459283514643"
         }
       ],
       "_hero_source": "sniffz",
@@ -58501,10 +58501,16 @@
               "ml": 20,
               "price": 325,
               "first_seen": "2026-08-06"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2200,
+              "first_seen": "2026-08-22"
             }
           ],
           "image": "images/french-tobacco--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2124739308419974"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2140459283514643"
         },
         {
           "name": "EsLam Nasser",
@@ -69432,6 +69438,20 @@
           ],
           "image": "images/hersh-lahab-hersh--dar-elarabia.jpg",
           "product_url": "https://darelarabia.com/products/hersh-lahab"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2600,
+              "first_seen": "2026-08-22"
+            }
+          ],
+          "image": "images/hersh-lahab-hersh--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2140459283514643"
         }
       ],
       "_hero_source": "og-perfume",
@@ -148814,8 +148834,9 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 3850,
-              "first_seen": "2026-07-30"
+              "price": 3200,
+              "first_seen": "2026-07-30",
+              "prev_price": 3850
             },
             {
               "kind": "full",
@@ -148825,7 +148846,7 @@
             }
           ],
           "image": "images/spicebomb-infrared--abo-anas-sayed.jpg",
-          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2134397730787465"
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2140459283514643"
         }
       ],
       "_hero_source": "Abo Anas Sayed",
@@ -150475,6 +150496,20 @@
           ],
           "image": "images/stronger-with-you-eau-de-parfum-amber--mohamed-mohie.jpg",
           "product_url": "https://www.facebook.com/groups/1321209448577265/posts/1965247204173483/"
+        },
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4400,
+              "first_seen": "2026-08-22"
+            }
+          ],
+          "image": "images/stronger-with-you-eau-de-parfum-amber--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2140459283514643"
         }
       ],
       "_hero_source": "mazaya",
@@ -189757,6 +189792,88 @@
         }
       ],
       "_hero_source": "Mohamed Mohie"
+    },
+    {
+      "id": "elysium-noir-roja",
+      "name_ar": "Elysium Noir",
+      "name_en": "Elysium Noir",
+      "brand": "Roja",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/elysium-noir-roja--abo-anas-sayed.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": "as-shown",
+              "price": 9500,
+              "first_seen": "2026-08-22"
+            }
+          ],
+          "image": "images/elysium-noir-roja--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2140459283514643"
+        }
+      ],
+      "_hero_source": "Abo Anas Sayed"
+    },
+    {
+      "id": "true-oud-carolina-herrera",
+      "name_ar": "True Oud",
+      "name_en": "True Oud",
+      "brand": "Carolina Herrera",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/true-oud-carolina-herrera--abo-anas-sayed.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 6300,
+              "tester": true,
+              "first_seen": "2026-08-22"
+            }
+          ],
+          "image": "images/true-oud-carolina-herrera--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2140459283514643"
+        }
+      ],
+      "_hero_source": "Abo Anas Sayed"
+    },
+    {
+      "id": "acqua-di-gio-eau-de-parfum-armani",
+      "name_ar": "Acqua di Giò Eau de Parfum",
+      "name_en": "Acqua di Giò Eau de Parfum",
+      "brand": "Giorgio Armani",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/acqua-di-gio-eau-de-parfum-armani--abo-anas-sayed.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "Abo Anas Sayed",
+          "url": "https://www.facebook.com/100057793202294",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 3900,
+              "first_seen": "2026-08-22"
+            }
+          ],
+          "image": "images/acqua-di-gio-eau-de-parfum-armani--abo-anas-sayed.jpg",
+          "product_url": "https://www.facebook.com/groups/756846691875916/posts/2140459283514643"
+        }
+      ],
+      "_hero_source": "Abo Anas Sayed"
     }
   ]
 }
