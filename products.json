@@ -18066,8 +18066,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1000,
-              "first_seen": "2026-07-25",
-              "sold_since": "2026-08-11"
+              "first_seen": "2026-07-25"
             }
           ],
           "image": "images/aura-vanilla-milk--og-perfume.jpg",
@@ -81144,8 +81143,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-25",
-              "sold_since": "2026-08-15"
+              "first_seen": "2026-07-25"
             },
             {
               "kind": "decant",
@@ -81165,8 +81163,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1700,
-              "first_seen": "2026-07-25",
-              "sold_since": "2026-07-26"
+              "first_seen": "2026-07-25"
             }
           ],
           "image": "images/karus-gold-absolu--og-perfume.jpg",
@@ -137132,9 +137129,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 265,
+              "price": 255,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 265
             },
             {
               "kind": "leftover",
@@ -137146,9 +137143,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2450,
+              "price": 2250,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 2450
             }
           ],
           "image": "images/rose-de-mai--og-perfume.jpg",
@@ -142184,8 +142181,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/serious--og-perfume.jpg",
@@ -157735,7 +157731,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 750,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-22"
             },
             {
               "kind": "leftover",
@@ -164492,7 +164489,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-22"
             },
             {
               "kind": "full",
@@ -164999,7 +164997,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-22"
             },
             {
               "kind": "leftover",
@@ -165019,8 +165018,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1700,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/vanilla-seduction--og-perfume.jpg",
@@ -190826,6 +190824,105 @@
         }
       ],
       "_hero_source": "Ahmed Abdel Kareem"
+    },
+    {
+      "id": "spectrum-chill",
+      "name_ar": "Spectrum Chill",
+      "name_en": "Spectrum Chill",
+      "brand": "Ahmed Al Maghribi",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/spectrum-chill.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-08-22"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1700,
+              "first_seen": "2026-08-22"
+            }
+          ],
+          "image": "images/spectrum-chill--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/spectrum-chill"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "kaaf-pink",
+      "name_ar": "Kaaf Pink",
+      "name_en": "Kaaf Pink",
+      "brand": "Ahmed Al Maghribi",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/kaaf-pink.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 210,
+              "first_seen": "2026-08-22"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1750,
+              "first_seen": "2026-08-22"
+            }
+          ],
+          "image": "images/kaaf-pink--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/kaaf-pink"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "faris-al-arab-maison-asrar",
+      "name_ar": "Faris Al Arab",
+      "name_en": "Faris Al Arab",
+      "brand": "Maison Asrar",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/faris-al-arab-maison-asrar.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 240,
+              "first_seen": "2026-08-22"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2100,
+              "first_seen": "2026-08-22"
+            }
+          ],
+          "image": "images/faris-al-arab-maison-asrar--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/faris-al-arab"
+        }
+      ],
+      "_hero_source": "og-perfume"
     }
   ]
 }
