@@ -2078,8 +2078,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1600,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-08-22"
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/9pm-night-out--sniffz.jpg",
@@ -184715,7 +184714,8 @@
               "kind": "decant",
               "ml": 5,
               "price": 230,
-              "first_seen": "2026-08-12"
+              "first_seen": "2026-08-12",
+              "sold_since": "2026-08-22"
             },
             {
               "kind": "decant",
