@@ -116448,9 +116448,24 @@
           ],
           "image": "images/old-money--eslam-nasser.jpg",
           "product_url": "https://www.facebook.com/groups/720783370622840/posts/904229235611585"
+        },
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1850,
+              "first_seen": "2026-08-22"
+            }
+          ],
+          "image": "images/old-money--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/old-money"
         }
       ],
-      "category": "dupe"
+      "category": "dupe",
+      "_hero_source": "dar.elarabia"
     },
     {
       "id": "old-money-sedra",
@@ -189398,6 +189413,60 @@
           ],
           "image": "images/bucephalus-xi-armaf-niche--dar-elarabia.jpg",
           "product_url": "https://darelarabia.com/products/bucephalus-xi"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "private-key-to-my-soul",
+      "name_ar": "Private Key To My Soul",
+      "name_en": "Private Key To My Soul",
+      "brand": "Armaf",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/private-key-to-my-soul.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3000,
+              "first_seen": "2026-08-22"
+            }
+          ],
+          "image": "images/private-key-to-my-soul--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/private-key-to-my-soul"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "private-key-to-my-dreams",
+      "name_ar": "Private Key To My Dreams",
+      "name_en": "Private Key To My Dreams",
+      "brand": "Armaf",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/private-key-to-my-dreams.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3000,
+              "first_seen": "2026-08-22"
+            }
+          ],
+          "image": "images/private-key-to-my-dreams--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/private-key-to-my-dreams"
         }
       ],
       "_hero_source": "dar.elarabia"
