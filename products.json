@@ -68779,8 +68779,7 @@
               "kind": "full",
               "ml": 200,
               "price": 5500,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-18"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/helen-legacy--emaratiscents.jpg",
@@ -73666,8 +73665,7 @@
               "kind": "full",
               "ml": 200,
               "price": 5750,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-21"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/imperial-valley--emaratiscents.jpg",
@@ -100097,8 +100095,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 5750,
-              "first_seen": "2026-07-18"
+              "price": 5500,
+              "first_seen": "2026-07-18",
+              "prev_price": 5750
             }
           ],
           "image": "images/martinique-osmanthus--emaratiscents.jpg",
@@ -100796,8 +100795,7 @@
               "kind": "full",
               "ml": 200,
               "price": 5750,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-18"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/mavro--emaratiscents.jpg",
@@ -189734,7 +189732,8 @@
               "kind": "full",
               "ml": 50,
               "price": 1550,
-              "first_seen": "2026-08-20"
+              "first_seen": "2026-08-20",
+              "sold_since": "2026-08-22"
             }
           ],
           "image": "images/california-signature--emaratiscents.jpg",
