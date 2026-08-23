@@ -11512,7 +11512,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 1000,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-23"
             },
             {
               "kind": "full",
@@ -14685,7 +14686,8 @@
               "kind": "leftover",
               "ml": 80,
               "price": 1040,
-              "first_seen": "2026-08-14"
+              "first_seen": "2026-08-14",
+              "sold_since": "2026-08-23"
             },
             {
               "kind": "full",
@@ -29414,8 +29416,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 1050,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -51895,6 +51896,19 @@
               "first_seen": "2026-07-19"
             },
             {
+              "kind": "leftover",
+              "ml": 30,
+              "price": 375,
+              "first_seen": "2026-08-23"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 625,
+              "first_seen": "2026-08-23",
+              "sold_since": "2026-08-23"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1250,
@@ -68724,9 +68738,9 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 800,
+              "price": 775,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 800
             },
             {
               "kind": "full",
@@ -81157,8 +81171,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1700,
-              "first_seen": "2026-07-25",
-              "sold_since": "2026-08-22"
+              "first_seen": "2026-07-25"
             }
           ],
           "image": "images/karus-gold-absolu--og-perfume.jpg",
@@ -95342,8 +95355,7 @@
               "kind": "leftover",
               "ml": 65,
               "price": 1085,
-              "first_seen": "2026-08-19",
-              "sold_since": "2026-08-22"
+              "first_seen": "2026-08-19"
             },
             {
               "kind": "leftover",
@@ -114540,8 +114552,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 1000,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -148889,8 +148900,7 @@
               "kind": "leftover",
               "ml": 40,
               "price": 875,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
+              "first_seen": "2026-07-20"
             },
             {
               "kind": "full",
@@ -171876,9 +171886,8 @@
             {
               "kind": "leftover",
               "ml": 40,
-              "price": 800,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "price": 890,
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -174154,6 +174163,12 @@
             },
             {
               "kind": "leftover",
+              "ml": 50,
+              "price": 850,
+              "first_seen": "2026-08-23"
+            },
+            {
+              "kind": "leftover",
               "ml": 70,
               "price": 1190,
               "first_seen": "2026-08-19",
@@ -174263,8 +174278,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 900,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-08"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
