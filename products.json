@@ -9882,8 +9882,7 @@
               "kind": "full",
               "ml": 60,
               "price": 900,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-19"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/ana-abiyedh--emaratiscents.jpg",
@@ -191210,6 +191209,33 @@
         }
       ],
       "_hero_source": "roseperfume"
+    },
+    {
+      "id": "la-charmante-by-maison-alhambra",
+      "name_ar": "La Charmante By Maison Alhambra",
+      "name_en": "La Charmante By Maison Alhambra",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/la-charmante-by-maison-alhambra.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1200,
+              "first_seen": "2026-08-23"
+            }
+          ],
+          "image": "images/la-charmante-by-maison-alhambra--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/la-charmante-by-maison-alhambra"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
