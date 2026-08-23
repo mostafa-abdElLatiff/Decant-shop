@@ -2078,8 +2078,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1600,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-08-23"
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/9pm-night-out--sniffz.jpg",
@@ -157782,6 +157781,32 @@
           ],
           "image": "images/thriller--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/iii-thriller-extrait-de-parfum"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 145,
+              "first_seen": "2026-08-23"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 190,
+              "first_seen": "2026-08-23"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 290,
+              "first_seen": "2026-08-23"
+            }
+          ],
+          "image": "images/thriller--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/maison-asrar-thriller"
         }
       ],
       "_hero_source": "og-perfume",
@@ -168713,7 +168738,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2000,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-23"
             }
           ],
           "image": "images/vulcan-feu--sniffz.jpg",
@@ -185095,6 +185121,12 @@
               "kind": "decant",
               "ml": 10,
               "price": 300,
+              "first_seen": "2026-08-23"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2300,
               "first_seen": "2026-08-23"
             }
           ],
