@@ -154744,7 +154744,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1350,
-              "first_seen": "2026-08-13"
+              "first_seen": "2026-08-13",
+              "sold_since": "2026-08-23"
             }
           ],
           "image": "images/teriaq-intense--roseperfume.jpg",
@@ -181904,22 +181905,19 @@
               "kind": "decant",
               "ml": 5,
               "price": 75,
-              "first_seen": "2026-08-23",
-              "prev_price": 80
+              "first_seen": "2026-08-23"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 125,
-              "first_seen": "2026-08-23",
-              "prev_price": 140
+              "first_seen": "2026-08-23"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 325,
-              "first_seen": "2026-08-23",
-              "prev_price": 375
+              "first_seen": "2026-08-23"
             }
           ],
           "image": "images/boom-blue--roseperfume.jpg",
