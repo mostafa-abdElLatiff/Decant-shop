@@ -3757,8 +3757,7 @@
               "kind": "full",
               "ml": 75,
               "price": 5025,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
@@ -21598,6 +21597,20 @@
           ],
           "image": "images/beyond-me--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/beyond-me-gissah"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 4995,
+              "first_seen": "2026-08-24"
+            }
+          ],
+          "image": "images/beyond-me--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/beyond-me-edp-200-ml"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -68876,6 +68889,20 @@
           ],
           "image": "images/helen-legacy--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/gissah-helen-legacy"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 4995,
+              "first_seen": "2026-08-24"
+            }
+          ],
+          "image": "images/helen-legacy--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/helen-legacy-edp-200-ml"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -100194,6 +100221,20 @@
           ],
           "image": "images/martinique-osmanthus--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/gissah-martinique-osmanthus"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 4995,
+              "first_seen": "2026-08-24"
+            }
+          ],
+          "image": "images/martinique-osmanthus--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/martinique-osmanthus-edp-200-ml"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -154082,6 +154123,20 @@
           ],
           "image": "images/tango--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/gissah-tango"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 4995,
+              "first_seen": "2026-08-24"
+            }
+          ],
+          "image": "images/tango--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/tango-edp-200-ml"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -191297,6 +191352,362 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "titan-set-edp-2x",
+      "name_ar": "Titan Set EDP 2X",
+      "name_en": "Titan Set EDP 2X",
+      "brand": "Gissah",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/titan-set-edp-2x.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 4995,
+              "first_seen": "2026-08-24",
+              "sold_since": "2026-08-24"
+            }
+          ],
+          "image": "images/titan-set-edp-2x--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/titan-set-for-him-edp-2x90ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "la-luna-edp-signautre",
+      "name_ar": "La Luna EDP Signautre",
+      "name_en": "La Luna EDP Signautre",
+      "brand": "Gissah",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/la-luna-edp-signautre.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 4995,
+              "first_seen": "2026-08-24"
+            }
+          ],
+          "image": "images/la-luna-edp-signautre--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/la-luna-edp-signautre-200-ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "imperial-valley-edp-signautre",
+      "name_ar": "Imperial Valley EDP Signautre",
+      "name_en": "Imperial Valley EDP Signautre",
+      "brand": "Gissah",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/imperial-valley-edp-signautre.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 4995,
+              "first_seen": "2026-08-24"
+            }
+          ],
+          "image": "images/imperial-valley-edp-signautre--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/imperial-valley-edp-signautre-200-ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "capri-edp-signautre",
+      "name_ar": "Capri EDP Signautre",
+      "name_en": "Capri EDP Signautre",
+      "brand": "Gissah",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/capri-edp-signautre.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 4995,
+              "first_seen": "2026-08-24"
+            }
+          ],
+          "image": "images/capri-edp-signautre--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/capri-edp-signautre-200-ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "hudson-valley-edp-signautre",
+      "name_ar": "Hudson Valley EDP Signautre",
+      "name_en": "Hudson Valley EDP Signautre",
+      "brand": "Gissah",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/hudson-valley-edp-signautre.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 4995,
+              "first_seen": "2026-08-24"
+            }
+          ],
+          "image": "images/hudson-valley-edp-signautre--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/hudson-valley-edp-signautre-200-ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "akoya-edp-signautre",
+      "name_ar": "Akoya EDP Signautre",
+      "name_en": "Akoya EDP Signautre",
+      "brand": "Gissah",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/akoya-edp-signautre.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 4995,
+              "first_seen": "2026-08-24"
+            }
+          ],
+          "image": "images/akoya-edp-signautre--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/akoya-edp-signautre-200-ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "mavro-edp-signautre",
+      "name_ar": "Mavro EDP Signautre",
+      "name_en": "Mavro EDP Signautre",
+      "brand": "Gissah",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/mavro-edp-signautre.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 4995,
+              "first_seen": "2026-08-24"
+            }
+          ],
+          "image": "images/mavro-edp-signautre--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/mavro-edp-signautre-200-ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "voila-edp-signautre",
+      "name_ar": "Voila EDP Signautre",
+      "name_en": "Voila EDP Signautre",
+      "brand": "Gissah",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/voila-edp-signautre.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 4995,
+              "first_seen": "2026-08-24"
+            }
+          ],
+          "image": "images/voila-edp-signautre--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/voila-edp-signautre-200-ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "siena-valley-edp-signautre",
+      "name_ar": "Siena Valley EDP Signautre",
+      "name_en": "Siena Valley EDP Signautre",
+      "brand": "Gissah",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/siena-valley-edp-signautre.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 4995,
+              "first_seen": "2026-08-24"
+            }
+          ],
+          "image": "images/siena-valley-edp-signautre--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/siena-valley-edp-signautre-200-ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "imperial-valley-all-over-spray",
+      "name_ar": "Imperial Valley All Over Spray",
+      "name_en": "Imperial Valley All Over Spray",
+      "brand": "Gissah",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/imperial-valley-all-over-spray.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3300,
+              "first_seen": "2026-08-24",
+              "sold_since": "2026-08-24"
+            }
+          ],
+          "image": "images/imperial-valley-all-over-spray--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/imperial-valley-all-over-spray-100-ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "vitus-edp",
+      "name_ar": "Vitus EDP",
+      "name_en": "Vitus EDP",
+      "brand": "Gissah",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/vitus-edp.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 9900,
+              "first_seen": "2026-08-24",
+              "sold_since": "2026-08-24"
+            }
+          ],
+          "image": "images/vitus-edp--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/vitus-edp-90-ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "erebus-edp",
+      "name_ar": "Erebus EDP",
+      "name_en": "Erebus EDP",
+      "brand": "Gissah",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/erebus-edp.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 9900,
+              "first_seen": "2026-08-24",
+              "sold_since": "2026-08-24"
+            }
+          ],
+          "image": "images/erebus-edp--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/erebus-edp-90-ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "cueva-verde-edp",
+      "name_ar": "Cueva Verde EDP",
+      "name_en": "Cueva Verde EDP",
+      "brand": "Gissah",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/cueva-verde-edp.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 9900,
+              "first_seen": "2026-08-24",
+              "sold_since": "2026-08-24"
+            }
+          ],
+          "image": "images/cueva-verde-edp--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/cueva-verde-edp-90-ml"
+        }
+      ],
+      "_hero_source": "mazaya"
     }
   ]
 }
