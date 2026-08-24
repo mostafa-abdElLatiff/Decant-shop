@@ -4005,10 +4005,35 @@
           "url": "https://roseperfume.online/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 5,
+              "price": 75,
+              "first_seen": "2026-08-24"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 125,
+              "first_seen": "2026-08-24"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 325,
+              "first_seen": "2026-08-24"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2000,
+              "first_seen": "2026-08-24"
+            },
+            {
               "kind": "full",
               "ml": 200,
               "price": 2000,
-              "first_seen": "2026-08-24"
+              "first_seen": "2026-08-24",
+              "sold_since": "2026-08-24"
             }
           ],
           "image": "images/addict-blue--roseperfume.jpg",
@@ -146686,8 +146711,7 @@
               "kind": "full",
               "ml": 30,
               "price": 130,
-              "first_seen": "2026-01-01",
-              "prev_price": 150
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/smart-collection-172--roseperfume.jpg",
@@ -146716,8 +146740,7 @@
               "kind": "full",
               "ml": 30,
               "price": 130,
-              "first_seen": "2026-01-01",
-              "prev_price": 150
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/smart-collection-362--roseperfume.jpg",
@@ -146746,8 +146769,7 @@
               "kind": "full",
               "ml": 30,
               "price": 130,
-              "first_seen": "2026-01-01",
-              "prev_price": 150
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/smart-collection-401--roseperfume.jpg",
@@ -146776,8 +146798,7 @@
               "kind": "full",
               "ml": 30,
               "price": 130,
-              "first_seen": "2026-01-01",
-              "prev_price": 150
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/smart-collection-486--roseperfume.jpg",
@@ -146806,8 +146827,7 @@
               "kind": "full",
               "ml": 30,
               "price": 130,
-              "first_seen": "2026-01-01",
-              "prev_price": 150
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/smart-collection-521--roseperfume.jpg",
@@ -146836,8 +146856,7 @@
               "kind": "full",
               "ml": 30,
               "price": 130,
-              "first_seen": "2026-01-01",
-              "prev_price": 150
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/smart-collection-527--roseperfume.jpg",
@@ -146866,8 +146885,7 @@
               "kind": "full",
               "ml": 30,
               "price": 130,
-              "first_seen": "2026-07-20",
-              "prev_price": 150
+              "first_seen": "2026-07-20"
             }
           ],
           "image": "images/smart-collection-585--roseperfume.jpg",
@@ -146896,8 +146914,7 @@
               "kind": "full",
               "ml": 30,
               "price": 130,
-              "first_seen": "2026-01-01",
-              "prev_price": 150
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/smart-collection-600--roseperfume.jpg",
@@ -146926,8 +146943,7 @@
               "kind": "full",
               "ml": 30,
               "price": 130,
-              "first_seen": "2026-07-20",
-              "prev_price": 150
+              "first_seen": "2026-07-20"
             }
           ],
           "image": "images/smart-collection-628--roseperfume.jpg",
@@ -146956,8 +146972,7 @@
               "kind": "full",
               "ml": 30,
               "price": 130,
-              "first_seen": "2026-07-20",
-              "prev_price": 150
+              "first_seen": "2026-07-20"
             }
           ],
           "image": "images/smart-collection-658--roseperfume.jpg",
@@ -146986,8 +147001,7 @@
               "kind": "full",
               "ml": 30,
               "price": 130,
-              "first_seen": "2026-01-01",
-              "prev_price": 150
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/smart-collection-666--roseperfume.jpg",
@@ -147016,8 +147030,7 @@
               "kind": "full",
               "ml": 30,
               "price": 130,
-              "first_seen": "2026-01-01",
-              "prev_price": 150
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/smart-collection-668--roseperfume.jpg",
@@ -147046,8 +147059,7 @@
               "kind": "full",
               "ml": 30,
               "price": 130,
-              "first_seen": "2026-01-01",
-              "prev_price": 150
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/smart-collection-671--roseperfume.jpg",
@@ -147076,8 +147088,7 @@
               "kind": "full",
               "ml": 30,
               "price": 130,
-              "first_seen": "2026-07-20",
-              "prev_price": 150
+              "first_seen": "2026-07-20"
             }
           ],
           "image": "images/smart-collection-675--roseperfume.jpg",
@@ -147136,8 +147147,7 @@
               "kind": "full",
               "ml": 30,
               "price": 130,
-              "first_seen": "2026-01-01",
-              "prev_price": 150
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/smart-collection-678--roseperfume.jpg",
