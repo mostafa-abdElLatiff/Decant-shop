@@ -19553,8 +19553,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2100,
-              "first_seen": "2026-07-18"
+              "price": 1650,
+              "first_seen": "2026-07-18",
+              "prev_price": 2100
             }
           ],
           "image": "images/badee-al-oud-amethyst--emaratiscents.jpg",
@@ -46378,8 +46379,7 @@
               "kind": "full",
               "ml": 100,
               "price": 900,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-19"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/ebene--emaratiscents.jpg",
@@ -65737,7 +65737,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-24"
             }
           ],
           "image": "images/hawas--emaratiscents.jpg",
@@ -65972,8 +65973,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2300,
-              "first_seen": "2026-07-18"
+              "price": 2050,
+              "first_seen": "2026-07-18",
+              "prev_price": 2300
             }
           ],
           "image": "images/hawas-chrome--emaratiscents.jpg",
@@ -79997,8 +79999,7 @@
               "kind": "full",
               "ml": 100,
               "price": 18500,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-18"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/jubilation-xxv-man--emaratiscents.jpg",
@@ -132812,8 +132813,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-18"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/ramad-earthy--emaratiscents.jpg",
@@ -135332,8 +135332,7 @@
               "kind": "full",
               "ml": 50,
               "price": 1550,
-              "first_seen": "2026-08-01",
-              "sold_since": "2026-08-23"
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/reflection-mykonos--emaratiscents.jpg",
@@ -142062,8 +142061,7 @@
               "kind": "full",
               "ml": 200,
               "price": 750,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-12"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/sehr-lattafa-perfume-mist--emaratiscents.jpg",
@@ -158822,8 +158820,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2600,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-15"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/tobacco-black-40--emaratiscents.jpg",
@@ -171135,8 +171132,7 @@
               "kind": "full",
               "ml": 200,
               "price": 2250,
-              "first_seen": "2026-08-11",
-              "sold_since": "2026-08-24"
+              "first_seen": "2026-08-11"
             }
           ],
           "image": "images/wild-colt-elixir-assaf--emaratiscents.jpg",
@@ -173701,8 +173697,7 @@
               "kind": "full",
               "ml": 150,
               "price": 5750,
-              "first_seen": "2026-07-29",
-              "sold_since": "2026-08-15"
+              "first_seen": "2026-07-29"
             }
           ],
           "image": "images/yelloneo-summer-edition-set--emaratiscents.jpg",
@@ -176631,8 +176626,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2100,
-              "first_seen": "2026-08-05"
+              "price": 1650,
+              "first_seen": "2026-08-05",
+              "prev_price": 2100
             }
           ],
           "image": "images/badee-al-oud-black-exposed--emaratiscents.jpg",
@@ -176906,8 +176902,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-08-05",
-              "sold_since": "2026-08-24"
+              "first_seen": "2026-08-05"
             }
           ],
           "image": "images/signature-black--emaratiscents.jpg",
@@ -183111,8 +183106,7 @@
               "kind": "full",
               "ml": 10,
               "price": 1150,
-              "first_seen": "2026-08-10",
-              "sold_since": "2026-08-15"
+              "first_seen": "2026-08-10"
             }
           ],
           "image": "images/mini-summer-collection--emaratiscents.jpg",
@@ -185519,8 +185513,7 @@
               "kind": "full",
               "ml": 105,
               "price": 3750,
-              "first_seen": "2026-08-14",
-              "sold_since": "2026-08-15"
+              "first_seen": "2026-08-14"
             }
           ],
           "image": "images/elixir-de-bronze-twilight-secrets-set--emaratiscents.jpg",
@@ -190183,8 +190176,7 @@
               "kind": "full",
               "ml": 50,
               "price": 1550,
-              "first_seen": "2026-08-20",
-              "sold_since": "2026-08-23"
+              "first_seen": "2026-08-20"
             }
           ],
           "image": "images/slow-living--emaratiscents.jpg",
@@ -191800,6 +191792,114 @@
         }
       ],
       "_hero_source": "mazaya"
+    },
+    {
+      "id": "astra-set-edp-powder",
+      "name_ar": "Astra Set - Edp&Powder",
+      "name_en": "Astra Set - Edp&Powder",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/astra-set-edp-powder.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 4100,
+              "first_seen": "2026-08-24"
+            }
+          ],
+          "image": "images/astra-set-edp-powder--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/astra-set-edp-powder"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "vesta-set-edp-powder",
+      "name_ar": "Vesta Set - Edp&Powder",
+      "name_en": "Vesta Set - Edp&Powder",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/vesta-set-edp-powder.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 4100,
+              "first_seen": "2026-08-24"
+            }
+          ],
+          "image": "images/vesta-set-edp-powder--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/vesta-set-edp-powder"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "lunar-set-edp-powder",
+      "name_ar": "Lunar Set - Edp&Powder",
+      "name_en": "Lunar Set - Edp&Powder",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/lunar-set-edp-powder.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 4100,
+              "first_seen": "2026-08-24"
+            }
+          ],
+          "image": "images/lunar-set-edp-powder--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/lunar-set-edp-powder"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "reef-29",
+      "name_ar": "Reef 29",
+      "name_en": "Reef 29",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/reef-29.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2750,
+              "first_seen": "2026-08-24"
+            }
+          ],
+          "image": "images/reef-29--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/reef-29"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
