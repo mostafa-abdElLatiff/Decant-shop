@@ -63533,13 +63533,15 @@
               "kind": "decant",
               "ml": 10,
               "price": 150,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-24"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 450,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-24"
             },
             {
               "kind": "full",
@@ -133766,7 +133768,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2000,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-24"
             }
           ],
           "image": "images/ravine-ice--og-perfume.jpg",
@@ -191197,7 +191200,15 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-08-22"
+              "first_seen": "2026-08-22",
+              "sold_since": "2026-08-24"
+            },
+            {
+              "kind": "leftover",
+              "ml": 90,
+              "price": 1530,
+              "first_seen": "2026-08-24",
+              "sold_since": "2026-08-24"
             },
             {
               "kind": "full",
