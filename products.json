@@ -177207,9 +177207,16 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 75,
+              "price": 2250,
+              "first_seen": "2026-08-25"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-08-05"
+              "first_seen": "2026-08-05",
+              "sold_since": "2026-08-25"
             }
           ],
           "image": "images/special-musk-by-dkhoon--emaratiscents.jpg",
