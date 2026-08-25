@@ -136309,6 +136309,12 @@
           "url": "https://roseperfume.online/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 45,
+              "price": 500,
+              "first_seen": "2026-08-25"
+            },
+            {
               "kind": "full",
               "ml": 85,
               "price": 900,
@@ -144948,8 +144954,21 @@
             {
               "kind": "decant",
               "ml": 30,
-              "price": 475,
+              "price": 500,
               "first_seen": "2026-01-01",
+              "sold_since": "2026-08-25"
+            },
+            {
+              "kind": "decant",
+              "ml": 60,
+              "price": 800,
+              "first_seen": "2026-08-25"
+            },
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 1350,
+              "first_seen": "2026-08-25",
               "sold_since": "2026-08-25"
             }
           ],
@@ -170601,6 +170620,13 @@
               "ml": 30,
               "price": 400,
               "first_seen": "2026-07-20"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 1500,
+              "first_seen": "2026-08-25",
+              "sold_since": "2026-08-25"
             }
           ],
           "image": "images/white-regent-diamond--roseperfume.jpg",
