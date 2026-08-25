@@ -113174,9 +113174,8 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-12"
+              "price": 1800,
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/nomad--dar-elarabia.jpg",
@@ -188901,8 +188900,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2000,
-              "first_seen": "2026-08-16"
+              "price": 1900,
+              "first_seen": "2026-08-16",
+              "prev_price": 2000
             }
           ],
           "image": "images/imperial-ocean--dar-elarabia.jpg",
@@ -191907,6 +191907,33 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "hersh-mehwar-new-batch",
+      "name_ar": "Hersh Mehwar NEW BATCH",
+      "name_en": "Hersh Mehwar NEW BATCH",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/hersh-mehwar-new-batch.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3200,
+              "first_seen": "2026-08-25"
+            }
+          ],
+          "image": "images/hersh-mehwar-new-batch--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/hersh-mehwar-new-batch"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
     }
   ]
 }
