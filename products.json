@@ -2649,8 +2649,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-03"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/aariz--emaratiscents.jpg",
@@ -25128,7 +25127,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2550,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-25"
             }
           ],
           "image": "images/blue-oud--emaratiscents.jpg",
@@ -33213,9 +33213,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2750,
+              "price": 2450,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-08-22"
+              "prev_price": 2750
             }
           ],
           "image": "images/club-de-nuit-iconic-set--emaratiscents.jpg",
@@ -33652,8 +33652,7 @@
               "kind": "full",
               "ml": 105,
               "price": 3850,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-18"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/club-de-nuit-intense-man-limited-edition--emaratiscents.jpg",
@@ -34082,8 +34081,7 @@
               "kind": "full",
               "ml": 55,
               "price": 2950,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-12"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/club-de-nuit-precieux-i-unisex--emaratiscents.jpg",
@@ -50074,8 +50072,7 @@
               "kind": "full",
               "ml": 100,
               "price": 4350,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/enigma-of-taif--emaratiscents.jpg",
@@ -74133,8 +74130,7 @@
               "kind": "full",
               "ml": 50,
               "price": 3600,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/incense-01--emaratiscents.jpg",
@@ -79954,8 +79950,7 @@
               "kind": "full",
               "ml": 100,
               "price": 23000,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/jubilation-40--emaratiscents.jpg",
@@ -96867,8 +96862,7 @@
               "kind": "full",
               "ml": 100,
               "price": 975,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-23"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/lychee-musk-by-arabiyat-prestige--emaratiscents.jpg",
@@ -97387,8 +97381,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-15"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/maahir-legacy--emaratiscents.jpg",
@@ -143574,8 +143567,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1400,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-23"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/sharaf-blend-zimaya--emaratiscents.jpg",
@@ -143722,8 +143714,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1400,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-23"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/sharaf-divine--emaratiscents.jpg",
@@ -152932,8 +152923,7 @@
               "kind": "full",
               "ml": 150,
               "price": 2750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-28"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/supremacy-in-oud-luxury-collection--emaratiscents.jpg",
@@ -152960,8 +152950,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1950,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-23"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/supremacy-incense--emaratiscents.jpg",
@@ -153267,6 +153256,20 @@
           ],
           "image": "images/supremacy-not-only-intense--dar-elarabia.jpg",
           "product_url": "https://darelarabia.com/products/supermacy-not-only-intense-extrait"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 2750,
+              "first_seen": "2026-08-25"
+            }
+          ],
+          "image": "images/supremacy-not-only-intense--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/supremacy-not-only-intense-150-ml"
         }
       ],
       "_hero_source": "sniffz",
@@ -158767,8 +158770,7 @@
               "kind": "full",
               "ml": 50,
               "price": 3600,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-16"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/tobacco-01-swiss-arabian--emaratiscents.jpg",
@@ -164345,8 +164347,7 @@
               "kind": "full",
               "ml": 50,
               "price": 3600,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/vanilla-01-edp--emaratiscents.jpg",
@@ -181398,7 +181399,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1050,
-              "first_seen": "2026-08-07"
+              "first_seen": "2026-08-07",
+              "sold_since": "2026-08-25"
             }
           ],
           "image": "images/kuwaiti--emaratiscents.jpg",
@@ -191435,7 +191437,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1200,
-              "first_seen": "2026-08-23"
+              "first_seen": "2026-08-23",
+              "sold_since": "2026-08-25"
             }
           ],
           "image": "images/la-charmante-by-maison-alhambra--emaratiscents.jpg",
@@ -191934,6 +191937,33 @@
         }
       ],
       "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "qawafi",
+      "name_ar": "Qawafi",
+      "name_en": "Qawafi",
+      "brand": "Paris Corner",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/qawafi.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 750,
+              "first_seen": "2026-08-25"
+            }
+          ],
+          "image": "images/qawafi--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/qawafi"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
