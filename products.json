@@ -174173,7 +174173,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1800,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-08-26"
             }
           ],
           "image": "images/zenith--roseperfume.jpg",
@@ -192027,6 +192028,90 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "don-ballare-padrino-blue-for-men",
+      "name_ar": "",
+      "name_en": "Don Ballare Padrino Blue For Men",
+      "brand": "Vito Ballare",
+      "category": "dupe",
+      "dupe_of": [
+        "Sauvage Elixir — Dior"
+      ],
+      "image": "images/don-ballare-padrino-blue-for-men.jpg",
+      "accords": [
+        {
+          "label_en": "Bergamot",
+          "label_ar": "البرغموت",
+          "color": "#F9FF52",
+          "w": 100
+        },
+        {
+          "label_en": "Lemon",
+          "label_ar": "الليمون",
+          "color": "#F9FF52",
+          "w": 90
+        },
+        {
+          "label_en": "Pink Pepper",
+          "label_ar": "الفلفل الوردي",
+          "color": "#83C928",
+          "w": 80
+        },
+        {
+          "label_en": "Lavender",
+          "label_ar": "اللافندر",
+          "color": "#9B7DB8",
+          "w": 70
+        },
+        {
+          "label_en": "Coriander",
+          "label_ar": "الكزبرة",
+          "color": "#CC3300",
+          "w": 60
+        },
+        {
+          "label_en": "Cedarwood",
+          "label_ar": "خشب الأرز",
+          "color": "#774414",
+          "w": 50
+        },
+        {
+          "label_en": "Lemongrass",
+          "label_ar": "نجيل الهند",
+          "color": "#0E8C1D",
+          "w": 40
+        },
+        {
+          "label_en": "Amber",
+          "label_ar": "العنبر",
+          "color": "#bc4d10",
+          "w": 40
+        },
+        {
+          "label_en": "Musk",
+          "label_ar": "المسك",
+          "color": "#E7D8EA",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 350,
+              "first_seen": "2026-08-26"
+            }
+          ],
+          "image": "images/don-ballare-padrino-blue-for-men--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/don-ballare-padrino-blue-for-men-by-vito-ballare"
+        }
+      ],
+      "_hero_source": "roseperfume"
     }
   ]
 }
