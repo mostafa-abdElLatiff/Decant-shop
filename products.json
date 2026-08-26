@@ -2635,7 +2635,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-26"
             }
           ],
           "image": "images/aariz--eldesoki-fragrances.jpg",
@@ -115348,8 +115349,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 175,
-              "first_seen": "2026-07-18"
+              "price": 160,
+              "first_seen": "2026-07-18",
+              "prev_price": 175
             },
             {
               "kind": "full",
@@ -123585,7 +123587,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 140,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-26"
             },
             {
               "kind": "full",
@@ -145514,8 +145517,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 900,
-              "first_seen": "2026-08-10",
-              "sold_since": "2026-08-26"
+              "first_seen": "2026-08-10"
             },
             {
               "kind": "full",
