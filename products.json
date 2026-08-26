@@ -48467,6 +48467,26 @@
           ],
           "image": "images/emerald-soul-diamond--dar-elarabia.jpg",
           "product_url": "https://darelarabia.com/products/emerald-soul-diamond"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 130,
+              "first_seen": "2026-08-26"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-08-26"
+            }
+          ],
+          "image": "images/emerald-soul-diamond--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/ibraq-emerald-soul-diamond"
         }
       ],
       "_hero_source": "sniffz",
@@ -192315,6 +192335,39 @@
           ],
           "image": "images/pink-sakura--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/ibraq-pink-sakura"
+        }
+      ],
+      "_hero_source": "perfuzone"
+    },
+    {
+      "id": "zenith-by-riiffs",
+      "name_ar": "Zenith By Riiffs",
+      "name_en": "Zenith By Riiffs",
+      "brand": "Riffs",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/zenith-by-riiffs.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 200,
+              "first_seen": "2026-08-26"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 300,
+              "first_seen": "2026-08-26"
+            }
+          ],
+          "image": "images/zenith-by-riiffs--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/zenith-by-riiffs"
         }
       ],
       "_hero_source": "perfuzone"
