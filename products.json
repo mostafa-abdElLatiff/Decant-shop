@@ -16882,6 +16882,13 @@
               "sold_since": "2026-07-19"
             },
             {
+              "kind": "leftover",
+              "ml": 70,
+              "price": 1330,
+              "first_seen": "2026-08-26",
+              "sold_since": "2026-08-26"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1900,
@@ -53241,7 +53248,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 170,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-26"
             },
             {
               "kind": "leftover",
@@ -59829,7 +59837,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 250,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-26"
             },
             {
               "kind": "leftover",
@@ -59837,6 +59846,13 @@
               "price": 1330,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 80,
+              "price": 1600,
+              "first_seen": "2026-08-26",
+              "sold_since": "2026-08-26"
             },
             {
               "kind": "full",
@@ -66120,8 +66136,9 @@
             {
               "kind": "leftover",
               "ml": 60,
-              "price": 990,
+              "price": 950,
               "first_seen": "2026-07-19",
+              "prev_price": 990,
               "sold_since": "2026-07-19"
             },
             {
@@ -95453,7 +95470,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 600,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-26"
             },
             {
               "kind": "leftover",
