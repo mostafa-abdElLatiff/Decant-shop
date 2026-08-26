@@ -192279,6 +192279,39 @@
         }
       ],
       "_hero_source": "feel22"
+    },
+    {
+      "id": "pink-sakura",
+      "name_ar": "Pink Sakura",
+      "name_en": "Pink Sakura",
+      "brand": "Ibraq",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/pink-sakura.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 130,
+              "first_seen": "2026-08-26"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-08-26"
+            }
+          ],
+          "image": "images/pink-sakura--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/ibraq-pink-sakura"
+        }
+      ],
+      "_hero_source": "perfuzone"
     }
   ]
 }
