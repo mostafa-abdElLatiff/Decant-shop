@@ -14660,7 +14660,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 150,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-27"
             },
             {
               "kind": "decant",
@@ -23074,7 +23075,8 @@
               "kind": "full",
               "ml": 120,
               "price": 4000,
-              "first_seen": "2026-08-05"
+              "first_seen": "2026-08-05",
+              "sold_since": "2026-08-27"
             }
           ],
           "image": "images/black-vanilla--og-perfume.jpg",
@@ -27862,6 +27864,13 @@
               "price": 130,
               "first_seen": "2026-07-19",
               "prev_price": 195,
+              "sold_since": "2026-08-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 525,
+              "first_seen": "2026-08-27",
               "sold_since": "2026-08-27"
             },
             {
@@ -38910,7 +38919,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 150,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-27"
             },
             {
               "kind": "decant",
@@ -169017,7 +169027,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 525,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-27"
             },
             {
               "kind": "leftover",
@@ -170638,7 +170649,7 @@
             {
               "kind": "leftover",
               "ml": 70,
-              "price": 770,
+              "price": 780,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
             },
