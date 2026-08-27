@@ -27846,8 +27846,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2350,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-25"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/brazilian-tobacco--emaratiscents.jpg",
@@ -58296,8 +58295,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2000,
-              "first_seen": "2026-07-18"
+              "price": 1650,
+              "first_seen": "2026-07-18",
+              "prev_price": 2000
             }
           ],
           "image": "images/frankel-storm--emaratiscents.jpg",
@@ -97082,7 +97082,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2450,
-              "first_seen": "2026-08-13"
+              "first_seen": "2026-08-13",
+              "sold_since": "2026-08-27"
             }
           ],
           "image": "images/lynked-freedom--emaratiscents.jpg",
@@ -108924,7 +108925,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-27"
             }
           ],
           "image": "images/nafais-sharq--emaratiscents.jpg",
@@ -135285,8 +135287,7 @@
               "kind": "full",
               "ml": 50,
               "price": 1550,
-              "first_seen": "2026-08-01",
-              "sold_since": "2026-08-25"
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/reflection-mykonos--emaratiscents.jpg",
@@ -153417,7 +153418,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1350,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-27"
             }
           ],
           "image": "images/sur-mesure-noir--emaratiscents.jpg",
@@ -165419,8 +165421,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-26"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/vanilla-wood--emaratiscents.jpg",
@@ -167609,8 +167610,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2500,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-23"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/vintage-tobacco--emaratiscents.jpg",
@@ -171458,8 +171458,7 @@
               "kind": "full",
               "ml": 50,
               "price": 1420,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-20"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/wisal--emaratiscents.jpg",
@@ -183138,8 +183137,7 @@
               "kind": "full",
               "ml": 10,
               "price": 1150,
-              "first_seen": "2026-08-10",
-              "sold_since": "2026-08-25"
+              "first_seen": "2026-08-10"
             }
           ],
           "image": "images/mini-summer-collection--emaratiscents.jpg",
@@ -190230,7 +190228,8 @@
               "kind": "full",
               "ml": 50,
               "price": 1550,
-              "first_seen": "2026-08-20"
+              "first_seen": "2026-08-20",
+              "sold_since": "2026-08-27"
             }
           ],
           "image": "images/california-blue--emaratiscents.jpg",
@@ -190257,8 +190256,7 @@
               "kind": "full",
               "ml": 50,
               "price": 1550,
-              "first_seen": "2026-08-20",
-              "sold_since": "2026-08-26"
+              "first_seen": "2026-08-20"
             }
           ],
           "image": "images/slow-living--emaratiscents.jpg",
@@ -192624,6 +192622,33 @@
         }
       ],
       "_hero_source": "roseperfume"
+    },
+    {
+      "id": "solo",
+      "name_ar": "Solo",
+      "name_en": "Solo",
+      "brand": "Dkhoni",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/solo.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-08-27"
+            }
+          ],
+          "image": "images/solo--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/solo"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
