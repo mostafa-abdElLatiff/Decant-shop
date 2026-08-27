@@ -5527,7 +5527,8 @@
               "kind": "full",
               "ml": 15,
               "price": 225,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-08-27"
             },
             {
               "kind": "full",
@@ -17159,9 +17160,16 @@
             },
             {
               "kind": "full",
+              "ml": 50,
+              "price": 1650,
+              "first_seen": "2026-08-27"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-08-27"
             }
           ],
           "image": "images/atlas--roseperfume.jpg",
@@ -79261,8 +79269,7 @@
               "kind": "full",
               "ml": 200,
               "price": 2200,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-08-25"
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/jean-antoine-elviera-imperio-samples-240-ml--roseperfume.jpg",
@@ -88751,7 +88758,8 @@
               "kind": "full",
               "ml": 100,
               "price": 275,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-08-27"
             }
           ],
           "image": "images/la-sera-lord-of-gold--roseperfume.jpg",
@@ -96054,10 +96062,10 @@
           "offers": [
             {
               "kind": "full",
-              "ml": 100,
+              "ml": 50,
               "price": 1650,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
+              "first_seen": "2026-08-27",
+              "sold_since": "2026-08-27"
             }
           ],
           "image": "images/lost-city--roseperfume.jpg",
@@ -114610,9 +114618,16 @@
             },
             {
               "kind": "full",
+              "ml": 50,
+              "price": 1800,
+              "first_seen": "2026-08-27"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 1800,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-08-27"
             }
           ],
           "image": "images/oasis--roseperfume.jpg",
@@ -126716,9 +126731,16 @@
             },
             {
               "kind": "full",
+              "ml": 50,
+              "price": 1650,
+              "first_seen": "2026-08-27"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-08-27"
             }
           ],
           "image": "images/plato--roseperfume.jpg",
@@ -136289,7 +136311,8 @@
               "kind": "decant",
               "ml": 45,
               "price": 500,
-              "first_seen": "2026-08-25"
+              "first_seen": "2026-08-25",
+              "sold_since": "2026-08-27"
             },
             {
               "kind": "full",
@@ -137989,7 +138012,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-08-27"
             }
           ],
           "image": "images/royal-blend--roseperfume.jpg",
@@ -154887,7 +154911,8 @@
               "kind": "decant",
               "ml": 5,
               "price": 100,
-              "first_seen": "2026-08-13"
+              "first_seen": "2026-08-13",
+              "sold_since": "2026-08-27"
             },
             {
               "kind": "decant",
@@ -154900,7 +154925,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 500,
-              "first_seen": "2026-08-13"
+              "first_seen": "2026-08-13",
+              "sold_since": "2026-08-27"
             },
             {
               "kind": "full",
@@ -157829,9 +157855,27 @@
           "url": "https://roseperfume.online/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 5,
+              "price": 75,
+              "first_seen": "2026-08-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 125,
+              "first_seen": "2026-08-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 325,
+              "first_seen": "2026-08-27"
+            },
+            {
               "kind": "full",
               "ml": 100,
-              "price": 950,
+              "price": 1000,
               "first_seen": "2026-07-20"
             }
           ],
@@ -192285,6 +192329,300 @@
         }
       ],
       "_hero_source": "perfuzone"
+    },
+    {
+      "id": "3pm-elixir",
+      "name_ar": "",
+      "name_en": "3PM Elixir",
+      "brand": "Fragrance Deluxe",
+      "category": "dupe",
+      "dupe_of": [
+        "9PM Elixir Afnan"
+      ],
+      "image": "images/3pm-elixir.jpg",
+      "accords": [
+        {
+          "label_en": "Bergamot",
+          "label_ar": "البرغموت",
+          "color": "#F9FF52",
+          "w": 100
+        },
+        {
+          "label_en": "Grapefruit",
+          "label_ar": "الجريب فروت",
+          "color": "#F9FF52",
+          "w": 90
+        },
+        {
+          "label_en": "Lemon",
+          "label_ar": "الليمون",
+          "color": "#F9FF52",
+          "w": 80
+        },
+        {
+          "label_en": "Jasmine",
+          "label_ar": "الياسمين",
+          "color": "#FF5F8D",
+          "w": 70
+        },
+        {
+          "label_en": "Lavender",
+          "label_ar": "الخزامى",
+          "color": "#9B7DB8",
+          "w": 60
+        },
+        {
+          "label_en": "Cardamom",
+          "label_ar": "الهيل",
+          "color": "#CC3300",
+          "w": 50
+        },
+        {
+          "label_en": "Musk",
+          "label_ar": "المسك",
+          "color": "#E7D8EA",
+          "w": 40
+        },
+        {
+          "label_en": "Cedarwood",
+          "label_ar": "خشب الأرز",
+          "color": "#774414",
+          "w": 40
+        },
+        {
+          "label_en": "Amber",
+          "label_ar": "العنبر",
+          "color": "#bc4d10",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 500,
+              "first_seen": "2026-08-27"
+            }
+          ],
+          "image": "images/3pm-elixir--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/3pm-elixir"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "3pm-reve",
+      "name_ar": "",
+      "name_en": "3Pm Reve",
+      "brand": "Fragrance Deluxe",
+      "category": "dupe",
+      "dupe_of": [
+        "9PM Rebel Afnan"
+      ],
+      "image": "images/3pm-reve.jpg",
+      "accords": [
+        {
+          "label_en": "Bergamot",
+          "label_ar": "البرغموت",
+          "color": "#F9FF52",
+          "w": 100
+        },
+        {
+          "label_en": "Blackcurrant",
+          "label_ar": "الكشمش الأسود",
+          "color": "#FC4B29",
+          "w": 90
+        },
+        {
+          "label_en": "Spices",
+          "label_ar": "التوابل",
+          "color": "#CC3300",
+          "w": 80
+        },
+        {
+          "label_en": "Jasmine",
+          "label_ar": "الياسمين",
+          "color": "#FF5F8D",
+          "w": 70
+        },
+        {
+          "label_en": "Musk",
+          "label_ar": "المسك",
+          "color": "#E7D8EA",
+          "w": 60
+        },
+        {
+          "label_en": "Amber",
+          "label_ar": "العنبر",
+          "color": "#bc4d10",
+          "w": 50
+        },
+        {
+          "label_en": "Oud",
+          "label_ar": "العود",
+          "color": "#544136",
+          "w": 40
+        },
+        {
+          "label_en": "Vanilla",
+          "label_ar": "الفانيليا",
+          "color": "#FFFEC0",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 500,
+              "first_seen": "2026-08-27"
+            }
+          ],
+          "image": "images/3pm-reve--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/3pm-reve"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "my-pura",
+      "name_ar": "",
+      "name_en": "My Pura",
+      "brand": "Fragrance Deluxe",
+      "category": "dupe",
+      "dupe_of": [
+        "Erba Pura — Xerjoff"
+      ],
+      "image": "images/my-pura.jpg",
+      "accords": [
+        {
+          "label_en": "Sicilian Orange",
+          "label_ar": "البرتقال الصقلي",
+          "color": "#F9FF52",
+          "w": 100
+        },
+        {
+          "label_en": "Bergamot",
+          "label_ar": "برغموت كالابريا",
+          "color": "#F9FF52",
+          "w": 90
+        },
+        {
+          "label_en": "Amber",
+          "label_ar": "العنبر",
+          "color": "#bc4d10",
+          "w": 80
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 500,
+              "first_seen": "2026-08-27"
+            }
+          ],
+          "image": "images/my-pura--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/my-pura"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "3am-blue",
+      "name_ar": "",
+      "name_en": "3AM Blue",
+      "brand": "Fragrance Deluxe",
+      "category": "dupe",
+      "dupe_of": [
+        "9am Dive Afnan"
+      ],
+      "image": "images/3am-blue.jpg",
+      "accords": [
+        {
+          "label_en": "Bergamot",
+          "label_ar": "البرغموت",
+          "color": "#F9FF52",
+          "w": 100
+        },
+        {
+          "label_en": "Lemon",
+          "label_ar": "الليمون",
+          "color": "#F9FF52",
+          "w": 90
+        },
+        {
+          "label_en": "Marine Notes",
+          "label_ar": "نفحات بحرية",
+          "color": "#0E529B",
+          "w": 80
+        },
+        {
+          "label_en": "Lavender",
+          "label_ar": "الخزامى",
+          "color": "#9B7DB8",
+          "w": 70
+        },
+        {
+          "label_en": "Jasmine",
+          "label_ar": "الياسمين",
+          "color": "#FF5F8D",
+          "w": 60
+        },
+        {
+          "label_en": "Geranium",
+          "label_ar": "إبرة الراعي",
+          "color": "#0E8C1D",
+          "w": 50
+        },
+        {
+          "label_en": "Cedarwood",
+          "label_ar": "خشب الأرز",
+          "color": "#774414",
+          "w": 40
+        },
+        {
+          "label_en": "Musk",
+          "label_ar": "المسك",
+          "color": "#E7D8EA",
+          "w": 40
+        },
+        {
+          "label_en": "Amber",
+          "label_ar": "العنبر",
+          "color": "#bc4d10",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 500,
+              "first_seen": "2026-08-27"
+            }
+          ],
+          "image": "images/3am-blue--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/3am-blue"
+        }
+      ],
+      "_hero_source": "roseperfume"
     }
   ]
 }
