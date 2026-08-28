@@ -192853,6 +192853,39 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "petra",
+      "name_ar": "Petra",
+      "name_en": "Petra",
+      "brand": "Lattafa",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/petra.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 150,
+              "first_seen": "2026-08-28"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 250,
+              "first_seen": "2026-08-28"
+            }
+          ],
+          "image": "images/petra--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/lattafa-petra"
+        }
+      ],
+      "_hero_source": "perfuzone"
     }
   ]
 }
