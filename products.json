@@ -2114,7 +2114,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 1000,
-              "first_seen": "2026-07-27"
+              "first_seen": "2026-07-27",
+              "sold_since": "2026-08-28"
             },
             {
               "kind": "full",
@@ -95252,13 +95253,6 @@
               "first_seen": "2026-07-18"
             },
             {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 975,
-              "first_seen": "2026-08-18",
-              "sold_since": "2026-08-21"
-            },
-            {
               "kind": "full",
               "ml": 100,
               "price": 1675,
@@ -134297,8 +134291,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 140,
-              "first_seen": "2026-07-18",
-              "prev_price": 150
+              "first_seen": "2026-07-18"
             },
             {
               "kind": "leftover",
@@ -143595,7 +143588,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-28"
             }
           ],
           "image": "images/sharaf-blend-zimaya--eldesoki-fragrances.jpg",
@@ -192783,6 +192777,33 @@
         }
       ],
       "_hero_source": "roseperfume"
+    },
+    {
+      "id": "white-coral-bundle",
+      "name_ar": "White Coral Bundle 250ML",
+      "name_en": "White Coral Bundle",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/white-coral-bundle.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 250,
+              "price": 2000,
+              "first_seen": "2026-08-28"
+            }
+          ],
+          "image": "images/white-coral-bundle--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/white-coral-bundle-250ml/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
