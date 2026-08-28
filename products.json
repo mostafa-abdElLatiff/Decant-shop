@@ -192725,6 +192725,85 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "victory-elixir",
+      "name_ar": "",
+      "name_en": "Victory Elixir",
+      "brand": "Fragrance Deluxe",
+      "category": "dupe",
+      "dupe_of": [
+        "Invictus Victory Elixir — Rabanne"
+      ],
+      "image": "images/victory-elixir.jpg",
+      "accords": [
+        {
+          "label_en": "Lavender",
+          "label_ar": "الخزامى",
+          "color": "#9B7DB8",
+          "w": 100
+        },
+        {
+          "label_en": "Cardamom",
+          "label_ar": "الهيل",
+          "color": "#CC3300",
+          "w": 90
+        },
+        {
+          "label_en": "Black Pepper",
+          "label_ar": "الفلفل الأسود",
+          "color": "#CC3300",
+          "w": 80
+        },
+        {
+          "label_en": "Incense",
+          "label_ar": "البخور",
+          "color": "#827487",
+          "w": 70
+        },
+        {
+          "label_en": "Patchouli",
+          "label_ar": "الباتشولي",
+          "color": "#63652e",
+          "w": 60
+        },
+        {
+          "label_en": "Vanilla",
+          "label_ar": "الفانيليا",
+          "color": "#FFFEC0",
+          "w": 50
+        },
+        {
+          "label_en": "Tonka Bean",
+          "label_ar": "فول التونكا",
+          "color": "#FFFEC0",
+          "w": 40
+        },
+        {
+          "label_en": "Amber",
+          "label_ar": "العنبر",
+          "color": "#bc4d10",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 500,
+              "first_seen": "2026-08-28",
+              "sold_since": "2026-08-28"
+            }
+          ],
+          "image": "images/victory-elixir--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/victory-elixir"
+        }
+      ],
+      "_hero_source": "roseperfume"
     }
   ]
 }
