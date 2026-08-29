@@ -3164,7 +3164,8 @@
               "kind": "full",
               "ml": 50,
               "price": 1200,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-29"
             }
           ],
           "image": "images/absolute-musk--emaratiscents.jpg",
@@ -6420,8 +6421,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1050,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-08"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/al-oud-al-azraq--emaratiscents.jpg",
@@ -16273,8 +16273,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1050,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-28"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/ashek-al-oud--emaratiscents.jpg",
@@ -25157,8 +25156,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2550,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-25"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/blue-oud--emaratiscents.jpg",
@@ -42007,7 +42005,8 @@
               "kind": "full",
               "ml": 10,
               "price": 2550,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-29"
             }
           ],
           "image": "images/discovery-diamond-set--emaratiscents.jpg",
@@ -57900,8 +57899,7 @@
               "kind": "full",
               "ml": 200,
               "price": 2450,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-26"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/frankel-blue-elixir--emaratiscents.jpg",
@@ -65783,8 +65781,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-26"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/hawas--emaratiscents.jpg",
@@ -70865,7 +70862,8 @@
               "kind": "full",
               "ml": 100,
               "price": 12900,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-29"
             }
           ],
           "image": "images/hommage-1744--emaratiscents.jpg",
@@ -126514,8 +126512,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-08-11",
-              "sold_since": "2026-08-29"
+              "first_seen": "2026-08-11"
             }
           ],
           "image": "images/platine-blanc--emaratiscents.jpg",
@@ -165468,7 +165465,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1700,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-29"
             }
           ],
           "image": "images/vanilla-voyage-maison-asrar--emaratiscents.jpg",
@@ -167689,6 +167687,20 @@
           ],
           "image": "images/vintage-radio--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/lattafa-vintage-radio"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1530,
+              "first_seen": "2026-08-29"
+            }
+          ],
+          "image": "images/vintage-radio--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/vintage-radio"
         }
       ],
       "_hero_source": "og-perfume",
@@ -189109,6 +189121,20 @@
           ],
           "image": "images/imperial-ocean--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/imperial-ocean"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-08-29"
+            }
+          ],
+          "image": "images/imperial-ocean--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/imperial-ocean"
         }
       ],
       "_hero_source": "dar.elarabia"
@@ -192109,7 +192135,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2750,
-              "first_seen": "2026-08-24"
+              "first_seen": "2026-08-24",
+              "sold_since": "2026-08-29"
             }
           ],
           "image": "images/reef-29--emaratiscents.jpg",
@@ -193155,6 +193182,60 @@
           ],
           "image": "images/mawra--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/mawra-by-rasasi"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "overture-man",
+      "name_ar": "Overture Man",
+      "name_en": "Overture Man",
+      "brand": "Amouage",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/overture-man.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 18500,
+              "first_seen": "2026-08-29"
+            }
+          ],
+          "image": "images/overture-man--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/overture-man"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "el-dorado-french-avenue",
+      "name_ar": "El Dorado",
+      "name_en": "El Dorado",
+      "brand": "French Avenue",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/el-dorado-french-avenue.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-08-29"
+            }
+          ],
+          "image": "images/el-dorado-french-avenue--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/el-dorado-by-french-avenue"
         }
       ],
       "_hero_source": "emaratiscents"
