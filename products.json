@@ -84895,7 +84895,8 @@
               "kind": "full",
               "ml": 200,
               "price": 2200,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-29"
             }
           ],
           "image": "images/klikat-blue--emaratiscents.jpg",
@@ -165437,7 +165438,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1700,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-29"
             }
           ],
           "image": "images/vanilla-voyage-maison-asrar--emaratiscents.jpg",
@@ -192156,8 +192158,9 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 2650,
-              "first_seen": "2026-08-25"
+              "price": 2550,
+              "first_seen": "2026-08-25",
+              "prev_price": 2650
             }
           ],
           "image": "images/aura-black--emaratiscents.jpg",
@@ -193043,6 +193046,87 @@
           ],
           "image": "images/shuhrah-opulence--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/shuhrah-opulence"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "maahi",
+      "name_ar": "Maahi",
+      "name_en": "Maahi",
+      "brand": "Rasasi",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/maahi.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1850,
+              "first_seen": "2026-08-29"
+            }
+          ],
+          "image": "images/maahi--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/maahi"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "madih",
+      "name_ar": "Madih",
+      "name_en": "Madih",
+      "brand": "Rasasi",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/madih.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1850,
+              "first_seen": "2026-08-29"
+            }
+          ],
+          "image": "images/madih--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/madih"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "mawra",
+      "name_ar": "Mawra",
+      "name_en": "Mawra",
+      "brand": "Rasasi",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/mawra.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1850,
+              "first_seen": "2026-08-29"
+            }
+          ],
+          "image": "images/mawra--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/mawra-by-rasasi"
         }
       ],
       "_hero_source": "emaratiscents"
