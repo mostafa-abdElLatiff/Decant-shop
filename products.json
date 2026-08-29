@@ -4012,26 +4012,33 @@
             {
               "kind": "decant",
               "ml": 5,
-              "price": 75,
+              "price": 110,
               "first_seen": "2026-08-24"
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 125,
+              "price": 200,
               "first_seen": "2026-08-24"
             },
             {
               "kind": "decant",
               "ml": 30,
-              "price": 325,
+              "price": 550,
               "first_seen": "2026-08-24"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 2000,
-              "first_seen": "2026-08-24"
+              "first_seen": "2026-08-24",
+              "sold_since": "2026-08-29"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 2000,
+              "first_seen": "2026-08-29"
             },
             {
               "kind": "full",
@@ -84806,8 +84813,7 @@
               "kind": "full",
               "ml": 100,
               "price": 850,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-08-14"
+              "first_seen": "2026-07-20"
             }
           ],
           "image": "images/kismet-magic--roseperfume.jpg",
@@ -163581,6 +163587,24 @@
           "url": "https://roseperfume.online/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 5,
+              "price": 75,
+              "first_seen": "2026-08-29"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 150,
+              "first_seen": "2026-08-29"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 400,
+              "first_seen": "2026-08-29"
+            },
+            {
               "kind": "full",
               "ml": 90,
               "price": 850,
@@ -192822,8 +192846,7 @@
               "kind": "full",
               "ml": 100,
               "price": 500,
-              "first_seen": "2026-08-28",
-              "sold_since": "2026-08-28"
+              "first_seen": "2026-08-28"
             }
           ],
           "image": "images/victory-elixir--roseperfume.jpg",
