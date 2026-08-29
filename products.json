@@ -82723,7 +82723,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1500,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-29"
             }
           ],
           "image": "images/khamrah--eldesoki-fragrances.jpg",
@@ -95005,7 +95006,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1450,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-29"
             }
           ],
           "image": "images/lion-rayhaan--eldesoki-fragrances.jpg",
@@ -143755,13 +143757,6 @@
               "first_seen": "2026-07-18"
             },
             {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 775,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-22"
-            },
-            {
               "kind": "full",
               "ml": 100,
               "price": 1250,
@@ -166910,8 +166905,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1375,
-              "first_seen": "2026-07-18"
+              "price": 1325,
+              "first_seen": "2026-07-18",
+              "prev_price": 1375
             }
           ],
           "image": "images/verus-tonka--eldesoki-fragrances.jpg",
