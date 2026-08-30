@@ -193255,6 +193255,39 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "bal-d-afrique",
+      "name_ar": "Bal D'afrique",
+      "name_en": "Bal D'afrique",
+      "brand": "Byredo",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/bal-d-afrique.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 850,
+              "first_seen": "2026-08-30"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 1600,
+              "first_seen": "2026-08-30"
+            }
+          ],
+          "image": "images/bal-d-afrique--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/byredo-bal-dafrique-1"
+        }
+      ],
+      "_hero_source": "perfuzone"
     }
   ]
 }
