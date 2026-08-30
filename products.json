@@ -75897,7 +75897,7 @@
             }
           ],
           "image": "images/invictus-victory-absolu--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/rabanne-invictus-victory-absolu-5ml-404"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/rabanne-invictus-victory-absolu-3ml-446"
         },
         {
           "name": "Mostafa Mohamed",
@@ -193268,6 +193268,39 @@
         }
       ],
       "_hero_source": "perfuzone"
+    },
+    {
+      "id": "become",
+      "name_ar": "",
+      "name_en": "Become",
+      "brand": "Bentley",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/become.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 245,
+              "first_seen": "2026-08-30"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 375,
+              "first_seen": "2026-08-30"
+            }
+          ],
+          "image": "images/become--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/bentley-become-5ml-534"
+        }
+      ],
+      "_hero_source": "MO Shawky"
     }
   ]
 }
