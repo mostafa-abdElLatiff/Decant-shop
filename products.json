@@ -17761,7 +17761,8 @@
               "kind": "leftover",
               "ml": 70,
               "price": 840,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-30"
             },
             {
               "kind": "leftover",
@@ -191682,8 +191683,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-08-22",
-              "sold_since": "2026-08-24"
+              "first_seen": "2026-08-22"
             },
             {
               "kind": "leftover",
@@ -191696,8 +191696,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1700,
-              "first_seen": "2026-08-22",
-              "sold_since": "2026-08-23"
+              "first_seen": "2026-08-22"
             }
           ],
           "image": "images/spectrum-chill--og-perfume.jpg",
@@ -191724,15 +191723,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 210,
-              "first_seen": "2026-08-22",
-              "sold_since": "2026-08-26"
+              "first_seen": "2026-08-22"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-08-22",
-              "sold_since": "2026-08-23"
+              "first_seen": "2026-08-22"
             }
           ],
           "image": "images/kaaf-pink--og-perfume.jpg",
@@ -194379,6 +194376,45 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "shiyaaka-sky",
+      "name_ar": "Shiyaaka Sky",
+      "name_en": "Shiyaaka Sky",
+      "brand": "Khadlaj",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/shiyaaka-sky.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 195,
+              "first_seen": "2026-08-30"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 540,
+              "first_seen": "2026-08-30"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1650,
+              "first_seen": "2026-08-30"
+            }
+          ],
+          "image": "images/shiyaaka-sky--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/shiyaaka-sky"
+        }
+      ],
+      "_hero_source": "og-perfume"
     }
   ]
 }
