@@ -1632,8 +1632,9 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 950,
-              "first_seen": "2026-08-04"
+              "price": 900,
+              "first_seen": "2026-08-04",
+              "prev_price": 950
             },
             {
               "kind": "full",
@@ -2115,8 +2116,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 1000,
-              "first_seen": "2026-07-27",
-              "sold_since": "2026-08-28"
+              "first_seen": "2026-07-27"
             },
             {
               "kind": "full",
@@ -5352,8 +5352,9 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 1175,
-              "first_seen": "2026-07-18"
+              "price": 1150,
+              "first_seen": "2026-07-18",
+              "prev_price": 1175
             }
           ],
           "image": "images/al-fajr-musk--eldesoki-fragrances.jpg",
@@ -14331,8 +14332,9 @@
             {
               "kind": "leftover",
               "ml": 100,
-              "price": 1225,
-              "first_seen": "2026-07-18"
+              "price": 1200,
+              "first_seen": "2026-07-18",
+              "prev_price": 1225
             },
             {
               "kind": "full",
@@ -16010,8 +16012,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1100,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-17"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/asad-elixir-lattafa-perfumes--eldesoki-fragrances.jpg",
@@ -20132,8 +20133,9 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 700,
-              "first_seen": "2026-08-04"
+              "price": 675,
+              "first_seen": "2026-08-04",
+              "prev_price": 700
             },
             {
               "kind": "full",
@@ -24656,8 +24658,9 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 1675,
-              "first_seen": "2026-07-18"
+              "price": 1600,
+              "first_seen": "2026-07-18",
+              "prev_price": 1675
             }
           ],
           "image": "images/blue-diamond-aqua--eldesoki-fragrances.jpg",
@@ -28856,7 +28859,8 @@
               "kind": "leftover",
               "ml": 60,
               "price": 400,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-30"
             }
           ],
           "image": "images/camaro-homme-intense--eldesoki-fragrances.jpg",
@@ -48394,8 +48398,9 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 1700,
-              "first_seen": "2026-07-18"
+              "price": 1600,
+              "first_seen": "2026-07-18",
+              "prev_price": 1700
             }
           ],
           "image": "images/emerald-soul-diamond--eldesoki-fragrances.jpg",
@@ -83106,9 +83111,8 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1475,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-24"
+              "price": 1500,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/khamrah-qahwa--eldesoki-fragrances.jpg",
@@ -106579,6 +106583,20 @@
           ],
           "image": "images/musamam-white-intense-edp--eslam-nasser.jpg",
           "product_url": "https://www.facebook.com/groups/720783370622840/posts/905558275478681"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1850,
+              "first_seen": "2026-08-30"
+            }
+          ],
+          "image": "images/musamam-white-intense-edp--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/musamam-white-intense-100ml%d9%85%d8%b3%d9%85%d9%85-%d9%88%d8%a7%d9%8a%d8%aa-%d8%a7%d9%86%d8%aa%d9%86%d8%b3-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "perfuzone",
@@ -106864,7 +106882,8 @@
               "kind": "full",
               "ml": 75,
               "price": 1175,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-30"
             }
           ],
           "image": "images/musk-al-qamar-ibraq--eldesoki-fragrances.jpg",
@@ -113962,7 +113981,7 @@
             {
               "kind": "leftover",
               "ml": 70,
-              "price": 900,
+              "price": 950,
               "first_seen": "2026-07-18"
             },
             {
@@ -120987,7 +121006,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 475,
-              "first_seen": "2026-08-18"
+              "first_seen": "2026-08-18",
+              "sold_since": "2026-08-30"
             },
             {
               "kind": "full",
@@ -134333,8 +134353,9 @@
             {
               "kind": "leftover",
               "ml": 100,
-              "price": 1075,
-              "first_seen": "2026-07-18"
+              "price": 1050,
+              "first_seen": "2026-07-18",
+              "prev_price": 1075
             },
             {
               "kind": "full",
@@ -139062,8 +139083,9 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 1100,
-              "first_seen": "2026-08-21"
+              "price": 1075,
+              "first_seen": "2026-08-21",
+              "prev_price": 1100
             },
             {
               "kind": "full",
@@ -144873,7 +144895,7 @@
             {
               "kind": "leftover",
               "ml": 40,
-              "price": 750,
+              "price": 775,
               "first_seen": "2026-07-18"
             },
             {
@@ -156745,7 +156767,7 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 2375,
+              "price": 2475,
               "first_seen": "2026-07-18"
             },
             {
@@ -160380,7 +160402,7 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 7250,
+              "price": 7500,
               "first_seen": "2026-07-18"
             }
           ],
@@ -167852,8 +167874,9 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 575,
-              "first_seen": "2026-08-18"
+              "price": 550,
+              "first_seen": "2026-08-18",
+              "prev_price": 575
             }
           ],
           "image": "images/vip-blend-amber--eldesoki-fragrances.jpg",
@@ -176476,8 +176499,7 @@
               "kind": "leftover",
               "ml": 100,
               "price": 1175,
-              "first_seen": "2026-08-13",
-              "sold_since": "2026-08-25"
+              "first_seen": "2026-08-13"
             }
           ],
           "image": "images/qasida-al-badr--eldesoki-fragrances.jpg",
@@ -176695,8 +176717,9 @@
             {
               "kind": "leftover",
               "ml": 80,
-              "price": 1650,
-              "first_seen": "2026-08-04"
+              "price": 1600,
+              "first_seen": "2026-08-04",
+              "prev_price": 1650
             }
           ],
           "image": "images/supermacy-not-only-intense-tester-box--eldesoki-fragrances.jpg",
@@ -184040,9 +184063,23 @@
           ],
           "image": "images/mishlah-lattafa--eslam-nasser.jpg",
           "product_url": "https://www.facebook.com/groups/720783370622840/posts/904229235611585"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1325,
+              "first_seen": "2026-08-30"
+            }
+          ],
+          "image": "images/mishlah-lattafa--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/mishlah-100ml%d9%85%d8%b4%d9%84%d8%ad-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
-      "_hero_source": "EsLam Nasser"
+      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "ameerat-al-arab",
@@ -193373,6 +193410,33 @@
         }
       ],
       "_hero_source": "MO Shawky"
+    },
+    {
+      "id": "bois-de-nuit-le-bonheur",
+      "name_ar": "بوا دي نوي من لابونير الماس ٥٠ملي",
+      "name_en": "Bois De Nuit Le Bonheur",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/bois-de-nuit-le-bonheur.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 775,
+              "first_seen": "2026-08-30"
+            }
+          ],
+          "image": "images/bois-de-nuit-le-bonheur--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/bois-de-nuit-50ml/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
