@@ -131255,7 +131255,8 @@
               "kind": "full",
               "ml": 100,
               "price": 32200,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-08-30"
             }
           ],
           "image": "images/purpose-50--mazaya.jpg",
@@ -173303,13 +173304,15 @@
               "kind": "full",
               "ml": 60,
               "price": 5950,
-              "first_seen": "2026-08-23"
+              "first_seen": "2026-08-23",
+              "sold_since": "2026-08-30"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 7395,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-08-30"
             },
             {
               "kind": "full",
@@ -173320,7 +173323,7 @@
             }
           ],
           "image": "images/y-eau-de-parfum--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/yves-saint-laurent-y-edp123455-html12344"
+          "product_url": "https://mazaya.eg/en/y-edp-refill-150ml"
         },
         {
           "name": "faces",
@@ -194139,6 +194142,33 @@
         }
       ],
       "_hero_source": "feel22"
+    },
+    {
+      "id": "vision-deo",
+      "name_ar": "Vision Deo",
+      "name_en": "Vision Deo",
+      "brand": "Ajmal",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/vision-deo.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 178,
+              "first_seen": "2026-08-30"
+            }
+          ],
+          "image": "images/vision-deo--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/vision-deo-200-ml"
+        }
+      ],
+      "_hero_source": "mazaya"
     }
   ]
 }
