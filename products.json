@@ -847,6 +847,13 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 100,
+              "price": 4505,
+              "first_seen": "2026-08-30",
+              "sold_since": "2026-08-30"
+            },
+            {
+              "kind": "full",
               "ml": 200,
               "price": 5100,
               "first_seen": "2026-08-30",
@@ -105701,6 +105708,13 @@
           "name": "mazaya",
           "url": "https://mazaya.eg/",
           "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 3816,
+              "first_seen": "2026-08-30",
+              "sold_since": "2026-08-30"
+            },
             {
               "kind": "full",
               "ml": 100,
