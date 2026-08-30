@@ -19591,8 +19591,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1650,
-              "first_seen": "2026-07-18"
+              "price": 1450,
+              "first_seen": "2026-07-18",
+              "prev_price": 1650
             }
           ],
           "image": "images/badee-al-oud-amethyst--emaratiscents.jpg",
@@ -37972,8 +37973,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2300,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-24"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/cuban-tobacco--emaratiscents.jpg",
@@ -62504,8 +62504,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-30"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/gold-tears--emaratiscents.jpg",
@@ -84937,8 +84936,7 @@
               "kind": "full",
               "ml": 200,
               "price": 2200,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-29"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/klikat-blue--emaratiscents.jpg",
@@ -114572,7 +114570,8 @@
               "kind": "full",
               "ml": 80,
               "price": 1250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-30"
             }
           ],
           "image": "images/nyla-vani-elle--emaratiscents.jpg",
@@ -170406,8 +170405,7 @@
               "kind": "full",
               "ml": 100,
               "price": 750,
-              "first_seen": "2026-07-31",
-              "sold_since": "2026-08-30"
+              "first_seen": "2026-07-31"
             }
           ],
           "image": "images/white-heart--emaratiscents.jpg",
@@ -176971,8 +176969,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1650,
-              "first_seen": "2026-08-05"
+              "price": 1450,
+              "first_seen": "2026-08-05",
+              "prev_price": 1650
             }
           ],
           "image": "images/badee-al-oud-black-exposed--emaratiscents.jpg",
@@ -191900,8 +191899,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1200,
-              "first_seen": "2026-08-23",
-              "sold_since": "2026-08-26"
+              "first_seen": "2026-08-23"
             }
           ],
           "image": "images/la-charmante-by-maison-alhambra--emaratiscents.jpg",
@@ -194353,6 +194351,33 @@
         }
       ],
       "_hero_source": "sniffz"
+    },
+    {
+      "id": "bonbon-boom",
+      "name_ar": "Bonbon Boom",
+      "name_en": "Bonbon Boom",
+      "brand": "Gulf Orchid",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/bonbon-boom.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1480,
+              "first_seen": "2026-08-30"
+            }
+          ],
+          "image": "images/bonbon-boom--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/bonbon-boom"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
