@@ -13313,9 +13313,14 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 175,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "price": 180,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 500,
+              "first_seen": "2026-08-31"
             },
             {
               "kind": "leftover",
@@ -13327,9 +13332,8 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1425,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "price": 1500,
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/aristo--og-perfume.jpg",
@@ -19637,6 +19641,26 @@
           ],
           "image": "images/badee-al-oud-amethyst--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/spray-badee-al-oud-amethyst-100ml"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 170,
+              "first_seen": "2026-08-31"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1400,
+              "first_seen": "2026-08-31"
+            }
+          ],
+          "image": "images/badee-al-oud-amethyst--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/badee-al-oud-amethyst-fusion"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -54283,6 +54307,26 @@
           ],
           "image": "images/fahad--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/fahad-by-lattafa"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 205,
+              "first_seen": "2026-08-31"
+            },
+            {
+              "kind": "full",
+              "ml": 80,
+              "price": 1400,
+              "first_seen": "2026-08-31"
+            }
+          ],
+          "image": "images/fahad--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/fahad"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -65994,7 +66038,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 220,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-31"
             },
             {
               "kind": "decant",
@@ -67190,8 +67235,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-31"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/hawas-for-him-ice--og-perfume.jpg",
@@ -67996,7 +68040,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 225,
-              "first_seen": "2026-07-24"
+              "first_seen": "2026-07-24",
+              "sold_since": "2026-08-31"
             },
             {
               "kind": "decant",
@@ -80347,15 +80392,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 165,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-22"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 450,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -80382,8 +80425,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1350,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/jungle-vibe--og-perfume.jpg",
@@ -82367,7 +82409,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 130,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-31"
             },
             {
               "kind": "leftover",
@@ -167801,15 +167844,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 185,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-21"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 500,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-17"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -191752,7 +191793,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1700,
-              "first_seen": "2026-08-22"
+              "first_seen": "2026-08-22",
+              "sold_since": "2026-08-31"
             }
           ],
           "image": "images/spectrum-chill--og-perfume.jpg",
@@ -194951,6 +194993,78 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "delilah-viola",
+      "name_ar": "Delilah Viola",
+      "name_en": "Delilah Viola",
+      "brand": "Maison Alhambra",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/delilah-viola.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 130,
+              "first_seen": "2026-08-31"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 350,
+              "first_seen": "2026-08-31"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 975,
+              "first_seen": "2026-08-31"
+            }
+          ],
+          "image": "images/delilah-viola--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/delilah-viola"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "soprano-ice",
+      "name_ar": "Soprano Ice",
+      "name_en": "Soprano Ice",
+      "brand": "Panucci",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/soprano-ice.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 170,
+              "first_seen": "2026-08-31"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1500,
+              "first_seen": "2026-08-31"
+            }
+          ],
+          "image": "images/soprano-ice--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/soprano-ice"
+        }
+      ],
+      "_hero_source": "og-perfume"
     }
   ]
 }
