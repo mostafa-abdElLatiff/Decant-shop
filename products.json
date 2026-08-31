@@ -21689,8 +21689,7 @@
               "kind": "full",
               "ml": 200,
               "price": 4246,
-              "first_seen": "2026-08-24",
-              "sold_since": "2026-08-30"
+              "first_seen": "2026-08-24"
             }
           ],
           "image": "images/beyond-me--mazaya.jpg",
@@ -33508,7 +33507,8 @@
               "kind": "full",
               "ml": 105,
               "price": 2286,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-08-31"
             }
           ],
           "image": "images/club-de-nuit-intense-man--mazaya.jpg",
@@ -69066,8 +69066,7 @@
               "kind": "full",
               "ml": 200,
               "price": 4246,
-              "first_seen": "2026-08-24",
-              "sold_since": "2026-08-29"
+              "first_seen": "2026-08-24"
             }
           ],
           "image": "images/helen-legacy--mazaya.jpg",
@@ -151438,6 +151437,13 @@
             },
             {
               "kind": "full",
+              "ml": 50,
+              "price": 4760,
+              "first_seen": "2026-08-31",
+              "sold_since": "2026-08-31"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 6120,
               "first_seen": "2026-07-23",
@@ -154378,8 +154384,7 @@
               "kind": "full",
               "ml": 200,
               "price": 4246,
-              "first_seen": "2026-08-24",
-              "sold_since": "2026-08-31"
+              "first_seen": "2026-08-24"
             }
           ],
           "image": "images/tango--mazaya.jpg",
@@ -163106,6 +163111,13 @@
               "first_seen": "2026-08-29",
               "prev_price": 6120,
               "sold_since": "2026-08-29"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 7480,
+              "first_seen": "2026-08-31",
+              "sold_since": "2026-08-31"
             }
           ],
           "image": "images/uomo-intense--mazaya.jpg",
@@ -173424,7 +173436,8 @@
               "kind": "full",
               "ml": 100,
               "price": 6205,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-08-31"
             }
           ],
           "image": "images/y-eau-de-toilette--mazaya.jpg",
@@ -191938,8 +191951,7 @@
               "kind": "full",
               "ml": 90,
               "price": 4246,
-              "first_seen": "2026-08-24",
-              "sold_since": "2026-08-24"
+              "first_seen": "2026-08-24"
             }
           ],
           "image": "images/titan-set-edp-2x--mazaya.jpg",
@@ -191966,8 +191978,7 @@
               "kind": "full",
               "ml": 200,
               "price": 4246,
-              "first_seen": "2026-08-24",
-              "sold_since": "2026-08-30"
+              "first_seen": "2026-08-24"
             }
           ],
           "image": "images/la-luna-edp-signautre--mazaya.jpg",
@@ -192021,8 +192032,7 @@
               "kind": "full",
               "ml": 200,
               "price": 4246,
-              "first_seen": "2026-08-24",
-              "sold_since": "2026-08-30"
+              "first_seen": "2026-08-24"
             }
           ],
           "image": "images/capri-edp-signautre--mazaya.jpg",
@@ -192130,8 +192140,7 @@
               "kind": "full",
               "ml": 200,
               "price": 4246,
-              "first_seen": "2026-08-24",
-              "sold_since": "2026-08-29"
+              "first_seen": "2026-08-24"
             }
           ],
           "image": "images/voila-edp-signautre--mazaya.jpg",
@@ -192185,8 +192194,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2805,
-              "first_seen": "2026-08-24",
-              "sold_since": "2026-08-24"
+              "first_seen": "2026-08-24"
             }
           ],
           "image": "images/imperial-valley-all-over-spray--mazaya.jpg",
@@ -192213,8 +192221,7 @@
               "kind": "full",
               "ml": 90,
               "price": 8415,
-              "first_seen": "2026-08-24",
-              "sold_since": "2026-08-24"
+              "first_seen": "2026-08-24"
             }
           ],
           "image": "images/vitus-edp--mazaya.jpg",
@@ -192241,8 +192248,7 @@
               "kind": "full",
               "ml": 90,
               "price": 8415,
-              "first_seen": "2026-08-24",
-              "sold_since": "2026-08-24"
+              "first_seen": "2026-08-24"
             }
           ],
           "image": "images/erebus-edp--mazaya.jpg",
@@ -192269,8 +192275,7 @@
               "kind": "full",
               "ml": 90,
               "price": 8415,
-              "first_seen": "2026-08-24",
-              "sold_since": "2026-08-24"
+              "first_seen": "2026-08-24"
             }
           ],
           "image": "images/cueva-verde-edp--mazaya.jpg",
@@ -194571,6 +194576,33 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "one-and-only-edp-signautre",
+      "name_ar": "One And Only EDP Signautre",
+      "name_en": "One And Only EDP Signautre",
+      "brand": "Gissah",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/one-and-only-edp-signautre.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 4246,
+              "first_seen": "2026-08-31"
+            }
+          ],
+          "image": "images/one-and-only-edp-signautre--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/one-and-only-edp-signautre-200-ml"
+        }
+      ],
+      "_hero_source": "mazaya"
     }
   ]
 }
