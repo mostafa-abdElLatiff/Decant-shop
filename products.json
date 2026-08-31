@@ -23378,8 +23378,7 @@
               "kind": "full",
               "ml": 200,
               "price": 5750,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-01"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/blanco--emaratiscents.jpg",
@@ -60196,6 +60195,20 @@
           ],
           "image": "images/gentle--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/gentle-laverne"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2200,
+              "first_seen": "2026-08-31"
+            }
+          ],
+          "image": "images/gentle--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/gentle"
         }
       ],
       "_hero_source": "og-perfume",
@@ -76269,8 +76282,7 @@
               "kind": "full",
               "ml": 80,
               "price": 2450,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-18"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/iris-patchouli--emaratiscents.jpg",
@@ -114812,9 +114824,8 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2050,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "price": 2250,
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/obsidian-french-avenue--emaratiscents.jpg",
@@ -146047,7 +146058,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-31"
             }
           ],
           "image": "images/signature-white--emaratiscents.jpg",
@@ -163604,7 +163616,8 @@
               "kind": "full",
               "ml": 90,
               "price": 975,
-              "first_seen": "2026-08-15"
+              "first_seen": "2026-08-15",
+              "sold_since": "2026-08-31"
             }
           ],
           "image": "images/urban-man-le-parfum--emaratiscents.jpg",
@@ -163783,7 +163796,8 @@
               "kind": "full",
               "ml": 90,
               "price": 975,
-              "first_seen": "2026-08-15"
+              "first_seen": "2026-08-15",
+              "sold_since": "2026-08-31"
             }
           ],
           "image": "images/urban-man-paradise-fragrance-world--emaratiscents.jpg",
@@ -163865,7 +163879,8 @@
               "kind": "full",
               "ml": 90,
               "price": 975,
-              "first_seen": "2026-08-15"
+              "first_seen": "2026-08-15",
+              "sold_since": "2026-08-31"
             }
           ],
           "image": "images/urban-man-ultra--emaratiscents.jpg",
@@ -169271,8 +169286,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1850,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-14"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/vulcan-feu--emaratiscents.jpg",
@@ -169714,7 +169728,8 @@
               "kind": "full",
               "ml": 100,
               "price": 12200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-31"
             }
           ],
           "image": "images/wanderlust--emaratiscents.jpg",
@@ -171712,7 +171727,8 @@
               "kind": "full",
               "ml": 90,
               "price": 1180,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-31"
             }
           ],
           "image": "images/winsome--emaratiscents.jpg",
@@ -185871,7 +185887,8 @@
               "kind": "full",
               "ml": 10,
               "price": 2200,
-              "first_seen": "2026-08-14"
+              "first_seen": "2026-08-14",
+              "sold_since": "2026-08-31"
             }
           ],
           "image": "images/the-diamond-experience-set--emaratiscents.jpg",
@@ -194853,6 +194870,87 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "la-dor-santorini",
+      "name_ar": "La'Dor Santorini",
+      "name_en": "La'Dor Santorini",
+      "brand": "Laverne",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/la-dor-santorini.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2800,
+              "first_seen": "2026-08-31"
+            }
+          ],
+          "image": "images/la-dor-santorini--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/lador-santorini"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "angelo",
+      "name_ar": "Angelo",
+      "name_en": "Angelo",
+      "brand": "Sedra Perfumes",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/angelo.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 120,
+              "price": 9500,
+              "first_seen": "2026-08-31"
+            }
+          ],
+          "image": "images/angelo--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/angelo"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "capri-by-sedra",
+      "name_ar": "Capri By Sedra",
+      "name_en": "Capri By Sedra",
+      "brand": "Sedra Perfumes",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/capri-by-sedra.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 120,
+              "price": 9500,
+              "first_seen": "2026-08-31"
+            }
+          ],
+          "image": "images/capri-by-sedra--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/capri-by-sedra"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
