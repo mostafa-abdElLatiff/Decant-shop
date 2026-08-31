@@ -11804,6 +11804,20 @@
               "ml": 100,
               "price": 1550,
               "first_seen": "2026-08-12"
+            },
+            {
+              "kind": "leftover",
+              "ml": 100,
+              "price": 1200,
+              "first_seen": "2026-08-31",
+              "sold_since": "2026-08-31"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2250,
+              "first_seen": "2026-08-31",
+              "sold_since": "2026-08-31"
             }
           ],
           "image": "images/arabian-tobacco--og-perfume.jpg",
@@ -24944,6 +24958,20 @@
               "first_seen": "2026-07-19",
               "prev_price": 425,
               "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 70,
+              "price": 910,
+              "first_seen": "2026-08-31",
+              "sold_since": "2026-08-31"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 1950,
+              "first_seen": "2026-08-31",
+              "sold_since": "2026-08-31"
             },
             {
               "kind": "full",
@@ -38596,6 +38624,13 @@
               "price": 375,
               "first_seen": "2026-08-28",
               "sold_since": "2026-08-28"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 625,
+              "first_seen": "2026-08-31",
+              "sold_since": "2026-08-31"
             },
             {
               "kind": "full",
@@ -67336,7 +67371,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 185,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-08-31"
             },
             {
               "kind": "leftover",
@@ -71560,7 +71596,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 230,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-08-31"
             },
             {
               "kind": "leftover",
@@ -191731,7 +191768,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 240,
-              "first_seen": "2026-08-22"
+              "first_seen": "2026-08-22",
+              "sold_since": "2026-08-31"
             },
             {
               "kind": "full",
