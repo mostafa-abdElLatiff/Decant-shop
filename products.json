@@ -85457,7 +85457,7 @@
             }
           ],
           "image": "images/kutay-unique-e-luxury--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/kutay-uniquee-luxury%d9%83%d9%88%d8%aa%d8%a7%d9%8a-%d9%85%d9%86-%d9%8a%d9%88%d9%86%d9%8a%d9%83-%d9%84%d8%a7%d9%83%d8%b4%d8%b1%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/kutay-uniquee-luxury-100ml%d9%83%d9%88%d8%aa%d8%a7%d9%8a-%d9%85%d9%86-%d9%8a%d9%88%d9%86%d9%8a%d9%83-%d9%84%d8%a7%d9%83%d8%b4%d8%b1%d9%8a-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -133983,14 +133983,16 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 1175,
-              "first_seen": "2026-08-21"
+              "price": 1125,
+              "first_seen": "2026-08-21",
+              "prev_price": 1175
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 1950,
-              "first_seen": "2026-08-13"
+              "price": 1900,
+              "first_seen": "2026-08-13",
+              "prev_price": 1950
             }
           ],
           "image": "images/ravine-ice--eldesoki-fragrances.jpg",
@@ -194824,6 +194826,33 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "bentley-silver-lake-tester-box-authentic",
+      "name_ar": "Bentley Silver Lake 100ml Tester Box Authentic",
+      "name_en": "Bentley Silver Lake Tester Box Authentic",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/bentley-silver-lake-tester-box-authentic.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1875,
+              "first_seen": "2026-08-31"
+            }
+          ],
+          "image": "images/bentley-silver-lake-tester-box-authentic--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/bentley-silver-lake-100ml-tester-box-authentic/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
