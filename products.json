@@ -2954,16 +2954,17 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
-              "kind": "full",
-              "ml": 75,
-              "price": 1250,
-              "first_seen": "2026-07-18"
-            },
-            {
               "kind": "leftover",
               "ml": 75,
               "price": 1075,
               "first_seen": "2026-08-31"
+            },
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 1250,
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-08-31"
             }
           ],
           "image": "images/abaq-pomegranate-musk-ibrahim-al-qurashi--eldesoki-fragrances.jpg",
@@ -127370,7 +127371,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 1175,
+              "price": 1250,
               "first_seen": "2026-07-20"
             }
           ],
