@@ -84130,19 +84130,22 @@
               "kind": "decant",
               "ml": 5,
               "price": 75,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-31"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 125,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-31"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 325,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-08-31"
             },
             {
               "kind": "full",
@@ -194603,6 +194606,186 @@
         }
       ],
       "_hero_source": "mazaya"
+    },
+    {
+      "id": "valentine-man-intense",
+      "name_ar": "",
+      "name_en": "Valentine Man Intense",
+      "brand": "Fragrance Deluxe",
+      "category": "dupe",
+      "dupe_of": [
+        "Valentino Uomo Born In Roma Intense — Valentino"
+      ],
+      "image": "images/valentine-man-intense.jpg",
+      "accords": [
+        {
+          "label_en": "Bergamot",
+          "label_ar": "البرغموت",
+          "color": "#F9FF52",
+          "w": 100
+        },
+        {
+          "label_en": "Orange Blossom",
+          "label_ar": "زهر البرتقال",
+          "color": "#edf2fb",
+          "w": 90
+        },
+        {
+          "label_en": "Peach",
+          "label_ar": "الخوخ",
+          "color": "#FC4B29",
+          "w": 80
+        },
+        {
+          "label_en": "Rose",
+          "label_ar": "الورد",
+          "color": "#FE016B",
+          "w": 70
+        },
+        {
+          "label_en": "Jasmine",
+          "label_ar": "الياسمين",
+          "color": "#FF5F8D",
+          "w": 60
+        },
+        {
+          "label_en": "Vanilla",
+          "label_ar": "الفانيليا",
+          "color": "#FFFEC0",
+          "w": 50
+        },
+        {
+          "label_en": "Musk",
+          "label_ar": "المسك",
+          "color": "#E7D8EA",
+          "w": 40
+        },
+        {
+          "label_en": "Sandalwood",
+          "label_ar": "خشب الصندل",
+          "color": "#774414",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 500,
+              "first_seen": "2026-08-31"
+            }
+          ],
+          "image": "images/valentine-man-intense--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/valentine-man-intense-fragrance-deluxe"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "al-najah-arabiyat-my-perfumes",
+      "name_ar": "",
+      "name_en": "Al Najah Arabiyat & My Perfumes",
+      "brand": "Arabiyat Prestige",
+      "category": "dupe",
+      "dupe_of": [
+        "Hibiscus Mahajád Maison Crivelli"
+      ],
+      "image": "images/al-najah-arabiyat-my-perfumes.jpg",
+      "accords": [
+        {
+          "label_en": "Saffron",
+          "label_ar": "الزعفران",
+          "color": "#CC3300",
+          "w": 100
+        },
+        {
+          "label_en": "Bergamot",
+          "label_ar": "البرغموت",
+          "color": "#F9FF52",
+          "w": 90
+        },
+        {
+          "label_en": "Rose",
+          "label_ar": "الورد",
+          "color": "#FE016B",
+          "w": 80
+        },
+        {
+          "label_en": "Nutmeg",
+          "label_ar": "جوزة الطيب",
+          "color": "#CC3300",
+          "w": 70
+        },
+        {
+          "label_en": "Oud",
+          "label_ar": "العود",
+          "color": "#544136",
+          "w": 60
+        },
+        {
+          "label_en": "Amber",
+          "label_ar": "العنبر",
+          "color": "#bc4d10",
+          "w": 50
+        },
+        {
+          "label_en": "Sandalwood",
+          "label_ar": "خشب الصندل",
+          "color": "#774414",
+          "w": 40
+        },
+        {
+          "label_en": "Patchouli",
+          "label_ar": "الباتشولي",
+          "color": "#63652e",
+          "w": 40
+        },
+        {
+          "label_en": "Musk",
+          "label_ar": "المسك",
+          "color": "#E7D8EA",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 60,
+              "first_seen": "2026-08-31"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 100,
+              "first_seen": "2026-08-31"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 275,
+              "first_seen": "2026-08-31"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 550,
+              "first_seen": "2026-08-31"
+            }
+          ],
+          "image": "images/al-najah-arabiyat-my-perfumes--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/al-najah-arabiyat-my-perfumes"
+        }
+      ],
+      "_hero_source": "roseperfume"
     }
   ]
 }
