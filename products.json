@@ -38033,7 +38033,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2300,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-01"
             }
           ],
           "image": "images/cuban-tobacco--emaratiscents.jpg",
@@ -43723,7 +43724,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2300,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-01"
             }
           ],
           "image": "images/dominican-tobacco--emaratiscents.jpg",
@@ -50421,7 +50423,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1390,
-              "first_seen": "2026-07-25"
+              "first_seen": "2026-07-25",
+              "sold_since": "2026-09-01"
             }
           ],
           "image": "images/entebaa-for-men--emaratiscents.jpg",
@@ -60280,7 +60283,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2200,
-              "first_seen": "2026-08-31"
+              "first_seen": "2026-08-31",
+              "sold_since": "2026-09-01"
             }
           ],
           "image": "images/gentle--emaratiscents.jpg",
@@ -118690,8 +118694,7 @@
               "kind": "full",
               "ml": 100,
               "price": 4350,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/opulence-of-dubai-swiss-arabian--emaratiscents.jpg",
@@ -126519,8 +126522,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1850,
-              "first_seen": "2026-07-18",
-              "prev_price": 2100
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/pisa--emaratiscents.jpg",
@@ -135573,8 +135575,7 @@
               "kind": "full",
               "ml": 50,
               "price": 1550,
-              "first_seen": "2026-08-01",
-              "sold_since": "2026-08-31"
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/reflection-mykonos--emaratiscents.jpg",
@@ -190781,8 +190782,7 @@
               "kind": "full",
               "ml": 50,
               "price": 1550,
-              "first_seen": "2026-08-20",
-              "sold_since": "2026-08-31"
+              "first_seen": "2026-08-20"
             }
           ],
           "image": "images/slow-living--emaratiscents.jpg",
@@ -195247,6 +195247,60 @@
           ],
           "image": "images/nebras-gift-set--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/nebras-gift-set"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "oud-07-edp",
+      "name_ar": "Oud 07 Edp",
+      "name_en": "Oud 07 Edp",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/oud-07-edp.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 3600,
+              "first_seen": "2026-09-01"
+            }
+          ],
+          "image": "images/oud-07-edp--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/oud-07-edp"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "iii-thriller",
+      "name_ar": "Iii Thriller",
+      "name_en": "Iii Thriller",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/iii-thriller.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1950,
+              "first_seen": "2026-09-01"
+            }
+          ],
+          "image": "images/iii-thriller--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/iii-thriller"
         }
       ],
       "_hero_source": "emaratiscents"
