@@ -13360,14 +13360,14 @@
               "kind": "decant",
               "ml": 10,
               "price": 180,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-01"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 500,
-              "first_seen": "2026-08-31"
+              "first_seen": "2026-08-31",
+              "sold_since": "2026-09-01"
             },
             {
               "kind": "leftover",
@@ -14755,7 +14755,7 @@
             {
               "kind": "leftover",
               "ml": 100,
-              "price": 1100,
+              "price": 1125,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
             },
@@ -66380,15 +66380,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 225,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-26"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 650,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-14"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -66401,8 +66399,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1950,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-08"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/hawas-chrome--og-perfume.jpg",
@@ -95546,15 +95543,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 425,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -95567,8 +95562,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1200,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/lion-rayhaan--og-perfume.jpg",
@@ -105503,15 +105497,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 175,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 500,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-20"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -105524,8 +105516,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1500,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-21"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/momento--og-perfume.jpg",
@@ -186344,6 +186335,32 @@
           ],
           "image": "images/hawas-la-mer--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/rasasi-hawas-la-mer"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 205,
+              "first_seen": "2026-09-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 575,
+              "first_seen": "2026-09-01"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1750,
+              "first_seen": "2026-09-01"
+            }
+          ],
+          "image": "images/hawas-la-mer--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/hawas-la-mer"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -195071,8 +195088,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-08-30",
-              "sold_since": "2026-08-30"
+              "first_seen": "2026-08-30"
             }
           ],
           "image": "images/shiyaaka-sky--og-perfume.jpg",
@@ -195823,6 +195839,84 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "cedrus-blanc",
+      "name_ar": "Cedrus Blanc",
+      "name_en": "Cedrus Blanc",
+      "brand": "Rayhaan",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/cedrus-blanc.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 170,
+              "first_seen": "2026-09-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 500,
+              "first_seen": "2026-09-01"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1500,
+              "first_seen": "2026-09-01"
+            }
+          ],
+          "image": "images/cedrus-blanc--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/rayhaan-cedrus-blanc"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "nava-sol",
+      "name_ar": "Nava Sol",
+      "name_en": "Nava Sol",
+      "brand": "Rayhaan",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/nava-sol.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 170,
+              "first_seen": "2026-09-01"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 500,
+              "first_seen": "2026-09-01"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1500,
+              "first_seen": "2026-09-01"
+            }
+          ],
+          "image": "images/nava-sol--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/rayhaan-nava-sol"
+        }
+      ],
+      "_hero_source": "og-perfume"
     }
   ]
 }
