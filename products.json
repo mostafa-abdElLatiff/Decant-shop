@@ -17262,8 +17262,7 @@
               "kind": "full",
               "ml": 55,
               "price": 1550,
-              "first_seen": "2026-07-21",
-              "sold_since": "2026-08-29"
+              "first_seen": "2026-07-21"
             }
           ],
           "image": "images/atlas-lattafa--emaratiscents.jpg",
@@ -56279,6 +56278,20 @@
           ],
           "image": "images/fire-on-ice--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/fire-on-ice-lattafa-perfumes"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1500,
+              "first_seen": "2026-09-01"
+            }
+          ],
+          "image": "images/fire-on-ice--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/fire-on-ice"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -79179,6 +79192,20 @@
           ],
           "image": "images/jasoor-eau-de-parfum--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/lattafa-jasoor-eau-de-parfum-100ml"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1250,
+              "first_seen": "2026-09-01"
+            }
+          ],
+          "image": "images/jasoor-eau-de-parfum--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/jasoor-by-lattafa"
         }
       ],
       "_hero_source": "feel22",
@@ -114679,8 +114706,7 @@
               "kind": "full",
               "ml": 80,
               "price": 1250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-30"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/nyla-vani-elle--emaratiscents.jpg",
@@ -126490,8 +126516,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2100,
-              "first_seen": "2026-07-18"
+              "price": 1850,
+              "first_seen": "2026-07-18",
+              "prev_price": 2100
             }
           ],
           "image": "images/pisa--emaratiscents.jpg",
@@ -153701,8 +153728,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1350,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-27"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/sur-mesure-noir--emaratiscents.jpg",
@@ -162016,8 +162042,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-28"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/uhud--emaratiscents.jpg",
@@ -195110,6 +195135,87 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "tharwah-gold",
+      "name_ar": "Tharwah Gold",
+      "name_en": "Tharwah Gold",
+      "brand": "Lattafa",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/tharwah-gold.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1600,
+              "first_seen": "2026-09-01"
+            }
+          ],
+          "image": "images/tharwah-gold--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/tharwah-gold-by-lattafa"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "love-in-paris",
+      "name_ar": "Love In Paris",
+      "name_en": "Love In Paris",
+      "brand": "Lattafa",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/love-in-paris.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1950,
+              "first_seen": "2026-09-01"
+            }
+          ],
+          "image": "images/love-in-paris--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/love-in-paris"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "nebras-gift-set",
+      "name_ar": "Nebras Gift Set",
+      "name_en": "Nebras Gift Set",
+      "brand": "Lattafa",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/nebras-gift-set.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-09-01"
+            }
+          ],
+          "image": "images/nebras-gift-set--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/nebras-gift-set"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
