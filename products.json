@@ -134039,15 +134039,13 @@
               "kind": "leftover",
               "ml": 50,
               "price": 1125,
-              "first_seen": "2026-08-21",
-              "prev_price": 1175
+              "first_seen": "2026-08-21"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 1900,
-              "first_seen": "2026-08-13",
-              "prev_price": 1950
+              "first_seen": "2026-08-13"
             }
           ],
           "image": "images/ravine-ice--eldesoki-fragrances.jpg",
@@ -195066,6 +195064,33 @@
         }
       ],
       "_hero_source": "og-perfume"
+    },
+    {
+      "id": "summer-hawas-bundle",
+      "name_ar": "بندل سمر هوس عطرين اجمالي ٢٠٠ملي",
+      "name_en": "Summer Hawas Bundle",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/summer-hawas-bundle.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 3075,
+              "first_seen": "2026-09-01"
+            }
+          ],
+          "image": "images/summer-hawas-bundle--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/summer-hawas-bundle-200ml%d8%a8%d9%86%d8%af%d9%84-%d8%b3%d9%85%d8%b1-%d9%87%d9%88%d8%b3-%d8%b9%d8%b7%d8%b1%d9%8a%d9%86-%d8%a7%d8%ac%d9%85%d8%a7%d9%84%d9%8a-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
