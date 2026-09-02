@@ -195991,6 +195991,60 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "qasida-purity",
+      "name_ar": "Qasida Purity",
+      "name_en": "Qasida Purity",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/qasida-purity.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2350,
+              "first_seen": "2026-09-02"
+            }
+          ],
+          "image": "images/qasida-purity--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/qasida-puirry"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "qasida-sahm",
+      "name_ar": "Qasida Sahm",
+      "name_en": "Qasida Sahm",
+      "brand": "FANN",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/qasida-sahm.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2350,
+              "first_seen": "2026-09-02"
+            }
+          ],
+          "image": "images/qasida-sahm--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/qasida-sahm"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
     }
   ]
 }
