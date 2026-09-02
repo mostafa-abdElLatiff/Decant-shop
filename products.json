@@ -56161,7 +56161,7 @@
             }
           ],
           "image": "images/fig-infusion--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-fig-infusion-5ml-474"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-fig-infusion-3ml-475"
         },
         {
           "name": "Hossam ElDeen Gamal",
@@ -195409,6 +195409,39 @@
         }
       ],
       "_hero_source": "og-perfume"
+    },
+    {
+      "id": "nobles",
+      "name_ar": "",
+      "name_en": "Nobles",
+      "brand": "Arabian Oud",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/nobles.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 445,
+              "first_seen": "2026-09-02"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 750,
+              "first_seen": "2026-09-02"
+            }
+          ],
+          "image": "images/nobles--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/arabian-oud-nobles-5ml-536"
+        }
+      ],
+      "_hero_source": "MO Shawky"
     }
   ]
 }
