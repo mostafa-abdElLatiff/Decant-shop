@@ -3258,7 +3258,7 @@
               "ml": 50,
               "price": 12000,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-09-01"
+              "sold_since": "2026-09-02"
             },
             {
               "kind": "full",
@@ -22247,7 +22247,7 @@
               "price": 9200,
               "first_seen": "2026-07-23",
               "prev_price": 10120,
-              "sold_since": "2026-09-01"
+              "sold_since": "2026-09-02"
             }
           ],
           "image": "images/black-aoud--mazaya.jpg",
@@ -35069,7 +35069,7 @@
               "ml": 75,
               "price": 8800,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-09-01"
+              "sold_since": "2026-09-02"
             },
             {
               "kind": "full",
@@ -35083,7 +35083,7 @@
               "ml": 125,
               "price": 9800,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-09-01"
+              "sold_since": "2026-09-02"
             }
           ],
           "image": "images/code-eau-de-parfum--mazaya.jpg",
@@ -37467,7 +37467,7 @@
               "ml": 100,
               "price": 30750,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-09-01"
+              "sold_since": "2026-09-02"
             }
           ],
           "image": "images/creed--mazaya.jpg",
@@ -40350,7 +40350,8 @@
               "kind": "full",
               "ml": 100,
               "price": 4850,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "prev_price": 5850
             },
             {
               "kind": "full",
@@ -47312,7 +47313,7 @@
               "ml": 75,
               "price": 18200,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-09-01"
+              "sold_since": "2026-09-02"
             }
           ],
           "image": "images/edp-palais-bourbon--mazaya.jpg",
@@ -59703,7 +59704,7 @@
               "ml": 30,
               "price": 8600,
               "first_seen": "2026-08-07",
-              "sold_since": "2026-09-01"
+              "sold_since": "2026-09-02"
             },
             {
               "kind": "full",
@@ -60861,7 +60862,7 @@
               "ml": 60,
               "price": 5955,
               "first_seen": "2026-08-27",
-              "sold_since": "2026-09-01"
+              "sold_since": "2026-09-02"
             },
             {
               "kind": "full",
@@ -61179,7 +61180,7 @@
               "ml": 100,
               "price": 8535,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-09-01"
+              "sold_since": "2026-09-02"
             },
             {
               "kind": "full",
@@ -72216,7 +72217,7 @@
               "ml": 75,
               "price": 4600,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-09-01"
+              "sold_since": "2026-09-02"
             },
             {
               "kind": "full",
@@ -75250,7 +75251,7 @@
               "ml": 100,
               "price": 4840,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-09-01"
+              "sold_since": "2026-09-02"
             },
             {
               "kind": "full",
@@ -85478,7 +85479,7 @@
             }
           ],
           "image": "images/kuro-eau-de-parfum--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/kuro-eau-de-parfum-90-ml"
+          "product_url": "https://mazaya.eg/en/kuro-eau-de-parfum123455-html12"
         }
       ],
       "_hero_source": "mazaya",
@@ -117111,7 +117112,7 @@
               "ml": 88,
               "price": 20100,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-09-01"
+              "sold_since": "2026-09-02"
             }
           ],
           "image": "images/oj-parfum--mazaya.jpg",
@@ -123376,7 +123377,7 @@
               "ml": 150,
               "price": 8500,
               "first_seen": "2026-08-02",
-              "sold_since": "2026-09-01"
+              "sold_since": "2026-09-02"
             }
           ],
           "image": "images/paradigme--mazaya.jpg",
@@ -151541,7 +151542,7 @@
               "ml": 100,
               "price": 7200,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-09-01"
+              "sold_since": "2026-09-02"
             }
           ],
           "image": "images/stronger-with-you-intensely--mazaya.jpg",
@@ -157519,6 +157520,21 @@
           ],
           "image": "images/the-one-parfum--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/dolce-gabbana-the-one-pour-homme-parfum/"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 9900,
+              "first_seen": "2026-09-02",
+              "sold_since": "2026-09-02"
+            }
+          ],
+          "image": "images/the-one-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/the-one-parfum-100-ml"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -157750,7 +157766,7 @@
               "price": 7400,
               "first_seen": "2026-07-23",
               "prev_price": 8500,
-              "sold_since": "2026-09-01"
+              "sold_since": "2026-09-02"
             }
           ],
           "image": "images/the-scent-elixir-parfum-intense--mazaya.jpg",
@@ -157777,8 +157793,7 @@
               "kind": "full",
               "ml": 100,
               "price": 8700,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/the-scent-perfume--mazaya.jpg",
@@ -158569,7 +158584,7 @@
               "ml": 30,
               "price": 8600,
               "first_seen": "2026-08-07",
-              "sold_since": "2026-09-01"
+              "sold_since": "2026-09-02"
             },
             {
               "kind": "full",
@@ -162809,7 +162824,7 @@
               "ml": 100,
               "price": 7900,
               "first_seen": "2026-08-27",
-              "sold_since": "2026-09-01"
+              "sold_since": "2026-09-02"
             }
           ],
           "image": "images/uomo-born-in-roma-yellow-dream--mazaya.jpg",
@@ -173412,14 +173427,14 @@
               "ml": 60,
               "price": 7000,
               "first_seen": "2026-08-23",
-              "sold_since": "2026-09-01"
+              "sold_since": "2026-09-02"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 8700,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-09-01"
+              "sold_since": "2026-09-02"
             },
             {
               "kind": "full",
@@ -173856,7 +173871,7 @@
               "price": 7800,
               "first_seen": "2026-07-23",
               "prev_price": 8200,
-              "sold_since": "2026-09-01"
+              "sold_since": "2026-09-02"
             },
             {
               "kind": "full",
@@ -173864,7 +173879,7 @@
               "price": 8800,
               "first_seen": "2026-07-23",
               "prev_price": 9800,
-              "sold_since": "2026-09-01"
+              "sold_since": "2026-09-02"
             },
             {
               "kind": "full",
@@ -181939,7 +181954,7 @@
               "ml": 100,
               "price": 14300,
               "first_seen": "2026-08-07",
-              "sold_since": "2026-09-01"
+              "sold_since": "2026-09-02"
             }
           ],
           "image": "images/b683--mazaya.jpg",
