@@ -2954,10 +2954,23 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-09-02"
+            },
+            {
+              "kind": "leftover",
+              "ml": 35,
+              "price": 675,
+              "first_seen": "2026-09-02"
+            },
+            {
               "kind": "leftover",
               "ml": 75,
               "price": 1075,
-              "first_seen": "2026-08-31"
+              "first_seen": "2026-08-31",
+              "sold_since": "2026-09-02"
             },
             {
               "kind": "full",
@@ -2968,7 +2981,7 @@
             }
           ],
           "image": "images/abaq-pomegranate-musk-ibrahim-al-qurashi--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/pomegranate-musk-75ml%d9%85%d8%b3%d9%83-%d8%a7%d9%84%d8%b1%d9%85%d8%a7%d9%86-%d9%a7%d9%a5%d9%85%d9%84%d9%8a-%d8%af%d9%8a%da%a4%d9%88%d9%87%d8%a7%d8%aa-%d8%a8%d8%b3%d9%8a%d8%b7%d8%a9-%d8%a8%d8%a7/"
+          "product_url": "https://eldesoki-fragrances.com/product/pomegranate-musk-35ml%d9%85%d8%b3%d9%83-%d8%a7%d9%84%d8%b1%d9%85%d8%a7%d9%86-%d8%a7%d8%a8%d8%b1%d8%a7%d9%82-%d9%a3%d9%a5%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "perfuzone",
@@ -14816,6 +14829,26 @@
           ],
           "image": "images/arrogate-pink-diva--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/arrogate-pink-diva"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 175,
+              "first_seen": "2026-09-02"
+            },
+            {
+              "kind": "leftover",
+              "ml": 100,
+              "price": 1275,
+              "first_seen": "2026-09-02"
+            }
+          ],
+          "image": "images/arrogate-pink-diva--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/arrogate-pink-diva-100ml%d8%a7%d8%b1%d9%88%d8%ac%d9%8a%d8%aa-%d8%a8%d9%8a%d9%86%d9%83-%d8%af%d9%8a%da%a4%d8%a7-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "og-perfume",
@@ -15647,13 +15680,6 @@
           "name": "eldesoki-fragrances",
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 140,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-26"
-            },
             {
               "kind": "leftover",
               "ml": 50,
@@ -57991,7 +58017,7 @@
             }
           ],
           "image": "images/frankel-black-elixir--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/frankel-black-elixir-100ml%d9%81%d8%b1%d8%a7%d9%86%d9%83%d9%84-%d8%a8%d9%84%d8%a7%d9%83-%d8%a7%d9%84%d9%8a%d9%83%d8%b2%d9%8a%d8%b1-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/frankel-black-elixir-tester-10ml%d9%81%d8%b1%d8%a7%d9%86%d9%83%d9%84-%d8%a8%d9%84%d8%a7%d9%83-%d8%a7%d9%84%d9%8a%d9%83%d8%b2%d9%8a%d8%b1-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "sniffz",
@@ -66329,6 +66355,18 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 10,
+              "price": 225,
+              "first_seen": "2026-09-02"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 1150,
+              "first_seen": "2026-09-02"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1975,
@@ -66336,7 +66374,7 @@
             }
           ],
           "image": "images/hawas-chrome--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/hawas-chrome-100ml-rasasi%d9%87%d9%88%d8%b3-%d9%83%d8%b1%d9%88%d9%85-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d9%84%d8%b1%d8%b5%d8%a7%d8%b5%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/hawas-chrome-50ml%d9%87%d9%88%d8%b3-%d9%83%d8%b1%d9%88%d9%85-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -93962,6 +94000,20 @@
           ],
           "image": "images/legacy--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/legacy"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1975,
+              "first_seen": "2026-09-02"
+            }
+          ],
+          "image": "images/legacy--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/legacy-100ml-maison-asrar%d9%84%d9%8a%d8%ac%d8%a7%d8%b3%d9%8a-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%85%d9%8a%d8%b2%d9%88%d9%86-%d8%a7%d8%b3%d8%b1%d8%a7%d8%b1/"
         }
       ],
       "_hero_source": "og-perfume",
@@ -99795,6 +99847,20 @@
           ],
           "image": "images/mango-ice--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/mango-ice-1"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1500,
+              "first_seen": "2026-09-02"
+            }
+          ],
+          "image": "images/mango-ice--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/mango-ice-100ml-gulf-orchid%d9%85%d8%a7%d9%86%d8%ac%d9%88-%d8%a7%d9%8a%d8%b3-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%ac%d9%88%d9%84%d9%81-%d8%a7%d9%88%d8%b1%d9%83%d9%8a%d8%af/"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -106163,6 +106229,20 @@
           ],
           "image": "images/muharib--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/muharib-maison-asrar"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1975,
+              "first_seen": "2026-09-02"
+            }
+          ],
+          "image": "images/muharib--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/muharib-100ml-maison-asrar%d9%85%d8%ad%d8%a7%d8%b1%d8%a8-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%85%d9%8a%d8%b2%d9%88%d9%86-%d8%a7%d8%b3%d8%b1%d8%a7%d8%b1/"
         }
       ],
       "_hero_source": "og-perfume",
@@ -136382,6 +136462,20 @@
           ],
           "image": "images/rey--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/rey"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1350,
+              "first_seen": "2026-09-02"
+            }
+          ],
+          "image": "images/rey--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/rey-100ml-maison-asrar%d8%b1%d8%a7%d9%8a-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%85%d9%8a%d8%b2%d9%88%d9%86-%d8%a7%d8%b3%d8%b1%d8%a7%d8%b1/"
         }
       ],
       "_hero_source": "og-perfume",
@@ -161913,7 +162007,7 @@
             }
           ],
           "image": "images/turathi-electric--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/turathi-electric-40ml%d8%aa%d8%b1%d8%a7%d8%ab%d9%8a-%d8%a7%d9%84%d9%8a%d9%83%d8%aa%d8%b1%d9%8a%d9%83-%d9%a4%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/turathi-electric-tester-10ml%d8%aa%d8%b1%d8%a7%d8%ab%d9%8a-%d8%a7%d9%84%d9%8a%d9%83%d8%aa%d8%b1%d9%8a%d9%83-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "og-perfume",
@@ -164611,6 +164705,20 @@
           ],
           "image": "images/vanguard--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/vanguard"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1975,
+              "first_seen": "2026-09-02"
+            }
+          ],
+          "image": "images/vanguard--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/vanguard-100ml-maison-asrar%da%a4%d8%a7%d9%86-%d8%ac%d8%a7%d8%b1%d8%af-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%85%d9%8a%d8%b2%d9%88%d9%86-%d8%a7%d8%b3%d8%b1%d8%a7%d8%b1/"
         }
       ],
       "_hero_source": "og-perfume",
@@ -165172,6 +165280,20 @@
           ],
           "image": "images/vanilla-aura--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/vanilla-aura"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1650,
+              "first_seen": "2026-09-02"
+            }
+          ],
+          "image": "images/vanilla-aura--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/vanilla-aura-100ml-maison-asrar/"
         }
       ],
       "_hero_source": "sniffz",
@@ -165855,6 +165977,20 @@
           ],
           "image": "images/vanilla-voyage-maison-asrar--eslam-nasser.jpg",
           "product_url": "https://www.facebook.com/groups/720783370622840/posts/905558275478681"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1650,
+              "first_seen": "2026-09-02"
+            }
+          ],
+          "image": "images/vanilla-voyage-maison-asrar--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/vanilla-voyage-100ml-maison-asrar/"
         }
       ],
       "_hero_source": "og-perfume",
@@ -166642,7 +166778,8 @@
               "kind": "full",
               "ml": 100,
               "price": 675,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-02"
             }
           ],
           "image": "images/venti-absolu--eldesoki-fragrances.jpg",
@@ -171077,7 +171214,7 @@
             }
           ],
           "image": "images/white-regent-diamond--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/white-regent-diamond-10ml%d9%88%d8%a7%d9%8a%d8%aa-%d8%b1%d9%8a%da%86%d9%8a%d9%86%d8%aa-%d8%af%d8%a7%d9%8a%d9%85%d9%88%d9%86%d8%af-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/white-regent-diamond-150ml%d9%88%d8%a7%d9%8a%d8%aa-%d8%b1%d9%8a%d8%ac%d9%8a%d9%86%d8%aa-%d8%af%d8%a7%d9%8a%d9%85%d9%88%d9%86%d8%af-%d9%a1%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d8%a8%d8%b1/"
         },
         {
           "name": "emaratiscents",
@@ -171430,7 +171567,7 @@
             }
           ],
           "image": "images/wild-colt-bakhur--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/wild-colt-bakhur-70ml%d9%88%d8%a7%d9%8a%d9%84%d8%af-%d9%83%d9%88%d9%84%d8%aa-%d8%a8%d8%ae%d9%88%d8%b1-%d9%a7%d9%a0%d9%85%d9%84%d9%8a-%d8%a8%d8%af%d9%88%d9%86-%d8%a8%d9%88%d9%83%d8%b3/"
+          "product_url": "https://eldesoki-fragrances.com/product/wild-colt-bakhur-10ml%d9%88%d8%a7%d9%8a%d9%84%d8%af-%d9%83%d9%88%d9%84%d8%aa-%d8%a8%d8%ae%d9%88%d8%b1-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "emaratiscents",
@@ -194189,6 +194326,20 @@
           ],
           "image": "images/heritage--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/heritage"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1975,
+              "first_seen": "2026-09-02"
+            }
+          ],
+          "image": "images/heritage--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/heritage-100ml-maison-asrar%d9%87%d9%8a%d8%b1%d8%aa%d8%a7%da%86-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%85%d9%8a%d8%b2%d9%88%d9%86-%d8%a7%d8%b3%d8%b1%d8%a7%d8%b1/"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -195750,6 +195901,93 @@
         }
       ],
       "_hero_source": "mazaya"
+    },
+    {
+      "id": "thriller-iii-maison-asrar",
+      "name_ar": "ثريلر ١٠٠ملي من ميزون اسرار",
+      "name_en": "Thriller III Maison Asrar",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/thriller-iii-maison-asrar.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2050,
+              "first_seen": "2026-09-02"
+            }
+          ],
+          "image": "images/thriller-iii-maison-asrar--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/thriller-iii-100ml-maison-asrar%d8%ab%d8%b1%d9%8a%d9%84%d8%b1-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%85%d9%8a%d8%b2%d9%88%d9%86-%d8%a7%d8%b3%d8%b1%d8%a7%d8%b1/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "faris-al-arab-maison-asar",
+      "name_ar": "فارس العرب ١٠٠ملي من ميزون اسرار",
+      "name_en": "Faris Al Arab Maison Asar",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/faris-al-arab-maison-asar.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1975,
+              "first_seen": "2026-09-02"
+            }
+          ],
+          "image": "images/faris-al-arab-maison-asar--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/faris-al-arab-100ml-maison-asar/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "guerlain-lhomme-edp",
+      "name_ar": "جيرلان لوم اودو بارفم تستر ١٠ملي",
+      "name_en": "Guerlain lhomme edp",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/guerlain-lhomme-edp.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 525,
+              "first_seen": "2026-09-02"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 2700,
+              "first_seen": "2026-09-02"
+            }
+          ],
+          "image": "images/guerlain-lhomme-edp--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/guerlain-lhomme-edp-50ml%d8%ac%d9%8a%d8%b1%d9%84%d8%a7%d9%86-%d9%84%d9%88%d9%85-%d8%a7%d9%88-%d8%af%d9%88-%d8%a8%d8%a7%d8%b1%d9%81%d9%85-%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d8%aa%d8%b3%d8%aa%d8%b1-%d8%a8/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
