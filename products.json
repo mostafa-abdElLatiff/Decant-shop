@@ -25163,8 +25163,7 @@
               "kind": "decant",
               "ml": 30,
               "price": 350,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-01"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -95601,7 +95600,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1700,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-02"
             }
           ],
           "image": "images/liquid-brun--og-perfume.jpg",
@@ -114691,7 +114691,8 @@
               "kind": "full",
               "ml": 80,
               "price": 1200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-02"
             }
           ],
           "image": "images/nyla-sherbet--og-perfume.jpg",
@@ -136855,8 +136856,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 230,
-              "first_seen": "2026-07-19"
+              "price": 205,
+              "first_seen": "2026-07-19",
+              "prev_price": 230
             },
             {
               "kind": "leftover",
@@ -136875,8 +136877,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1850,
-              "first_seen": "2026-07-19"
+              "price": 1750,
+              "first_seen": "2026-07-19",
+              "prev_price": 1850
             }
           ],
           "image": "images/riffs-freeze--og-perfume.jpg",
@@ -149260,6 +149263,13 @@
               "price": 470,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 45,
+              "price": 600,
+              "first_seen": "2026-09-02",
+              "sold_since": "2026-09-02"
             },
             {
               "kind": "full",
