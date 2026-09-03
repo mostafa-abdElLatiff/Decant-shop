@@ -17657,7 +17657,8 @@
               "kind": "full",
               "ml": 12,
               "price": 28500,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-03"
             }
           ],
           "image": "images/attar-luban-al-akhdar--emaratiscents.jpg",
@@ -23488,7 +23489,8 @@
               "kind": "full",
               "ml": 200,
               "price": 5750,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-03"
             }
           ],
           "image": "images/blanco--emaratiscents.jpg",
@@ -101379,7 +101381,8 @@
               "kind": "full",
               "ml": 200,
               "price": 5750,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-03"
             }
           ],
           "image": "images/mavro--emaratiscents.jpg",
@@ -119471,7 +119474,8 @@
               "kind": "full",
               "ml": 200,
               "price": 2800,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-03"
             }
           ],
           "image": "images/orchid-valley--emaratiscents.jpg",
@@ -135794,7 +135798,8 @@
               "kind": "full",
               "ml": 50,
               "price": 1550,
-              "first_seen": "2026-08-01"
+              "first_seen": "2026-08-01",
+              "sold_since": "2026-09-03"
             }
           ],
           "image": "images/reflection-mykonos--emaratiscents.jpg",
@@ -136990,8 +136995,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2250,
-              "first_seen": "2026-07-19"
+              "price": 1950,
+              "first_seen": "2026-07-19",
+              "prev_price": 2250
             }
           ],
           "image": "images/riffs-freeze--emaratiscents.jpg",
@@ -195415,7 +195421,8 @@
               "kind": "full",
               "ml": 120,
               "price": 9500,
-              "first_seen": "2026-08-31"
+              "first_seen": "2026-08-31",
+              "sold_since": "2026-09-03"
             }
           ],
           "image": "images/capri-by-sedra--emaratiscents.jpg",
@@ -196303,6 +196310,33 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "freeze-in-flames",
+      "name_ar": "Freeze In Flames",
+      "name_en": "Freeze In Flames",
+      "brand": "Riffs",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/freeze-in-flames.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2050,
+              "first_seen": "2026-09-03"
+            }
+          ],
+          "image": "images/freeze-in-flames--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/freeze-in-flames"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
