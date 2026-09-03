@@ -40413,10 +40413,24 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 4015,
+              "first_seen": "2026-09-03",
+              "sold_since": "2026-09-03"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 4850,
               "first_seen": "2026-07-23",
               "prev_price": 5850
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 7355,
+              "first_seen": "2026-09-03",
+              "sold_since": "2026-09-03"
             }
           ],
           "image": "images/defy-parfum--mazaya.jpg",
@@ -92749,7 +92763,8 @@
               "kind": "full",
               "ml": 125,
               "price": 9200,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-09-03"
             }
           ],
           "image": "images/le-male-elixir--mazaya.jpg",
@@ -118508,6 +118523,13 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 13650,
+              "first_seen": "2026-09-03",
+              "sold_since": "2026-09-03"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 21150,
               "first_seen": "2026-09-03",
@@ -122199,6 +122221,13 @@
           "name": "mazaya",
           "url": "https://mazaya.eg/",
           "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 12750,
+              "first_seen": "2026-09-03",
+              "sold_since": "2026-09-03"
+            },
             {
               "kind": "full",
               "ml": 100,
@@ -156762,6 +156791,13 @@
               "price": 12850,
               "first_seen": "2026-08-28",
               "sold_since": "2026-08-28"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 18500,
+              "first_seen": "2026-09-03",
+              "sold_since": "2026-09-03"
             }
           ],
           "image": "images/the-hedonist--mazaya.jpg",
@@ -173632,15 +173668,13 @@
               "kind": "full",
               "ml": 60,
               "price": 7000,
-              "first_seen": "2026-08-23",
-              "sold_since": "2026-09-03"
+              "first_seen": "2026-08-23"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 8700,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-09-03"
+              "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
@@ -173651,7 +173685,7 @@
             }
           ],
           "image": "images/y-eau-de-parfum--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/y-edp-refill-150ml"
+          "product_url": "https://mazaya.eg/en/yves-saint-laurent-y-edp123455-html12344"
         },
         {
           "name": "faces",
@@ -176000,6 +176034,13 @@
               "kind": "full",
               "ml": 75,
               "price": 4785,
+              "first_seen": "2026-09-03",
+              "sold_since": "2026-09-03"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 5900,
               "first_seen": "2026-09-03",
               "sold_since": "2026-09-03"
             }
