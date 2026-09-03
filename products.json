@@ -13999,11 +13999,28 @@
           "url": "https://roseperfume.online/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 5,
+              "price": 140,
+              "first_seen": "2026-09-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 250,
+              "first_seen": "2026-09-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 700,
+              "first_seen": "2026-09-03"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 2000,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
+              "first_seen": "2026-07-20"
             }
           ],
           "image": "images/aromatix-forbidden-fruit--roseperfume.jpg",
@@ -83070,6 +83087,38 @@
           ],
           "image": "images/khamrah--eslam-nasser.jpg",
           "product_url": "https://www.facebook.com/groups/720783370622840/posts/905558275478681"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 100,
+              "first_seen": "2026-09-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 175,
+              "first_seen": "2026-09-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 500,
+              "first_seen": "2026-09-03"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1250,
+              "first_seen": "2026-09-03"
+            }
+          ],
+          "image": "images/khamrah--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/khamrah-lattafa-perfumes"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -100366,30 +100415,30 @@
             {
               "kind": "decant",
               "ml": 5,
-              "price": 140,
+              "price": 120,
               "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
+              "prev_price": 140
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 250,
+              "price": 220,
               "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
+              "prev_price": 250
             },
             {
               "kind": "decant",
               "ml": 30,
-              "price": 700,
+              "price": 620,
               "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
+              "prev_price": 700
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 2000,
+              "price": 1750,
               "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
+              "prev_price": 2000
             }
           ],
           "image": "images/marmara--roseperfume.jpg",
@@ -134063,20 +134112,29 @@
             {
               "kind": "decant",
               "ml": 5,
-              "price": 140,
-              "first_seen": "2026-07-20"
+              "price": 120,
+              "first_seen": "2026-07-20",
+              "prev_price": 140
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 250,
-              "first_seen": "2026-07-20"
+              "price": 220,
+              "first_seen": "2026-07-20",
+              "prev_price": 250
             },
             {
               "kind": "decant",
               "ml": 30,
-              "price": 700,
-              "first_seen": "2026-07-20"
+              "price": 620,
+              "first_seen": "2026-07-20",
+              "prev_price": 700
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1750,
+              "first_seen": "2026-09-03"
             }
           ],
           "image": "images/ravine-ginger--roseperfume.jpg",
@@ -139379,29 +139437,26 @@
               "kind": "decant",
               "ml": 5,
               "price": 120,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-31"
+              "first_seen": "2026-07-20"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 210,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-31"
+              "first_seen": "2026-07-20"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 600,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-31"
+              "first_seen": "2026-07-20"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 1850,
+              "price": 1800,
               "first_seen": "2026-07-20",
-              "sold_since": "2026-07-28"
+              "prev_price": 1850
             }
           ],
           "image": "images/safari-breeze--roseperfume.jpg",
@@ -155395,22 +155450,25 @@
               "kind": "decant",
               "ml": 5,
               "price": 100,
-              "first_seen": "2026-08-13",
-              "sold_since": "2026-08-27"
+              "first_seen": "2026-08-13"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 175,
-              "first_seen": "2026-08-13",
-              "sold_since": "2026-08-24"
+              "first_seen": "2026-08-13"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 500,
-              "first_seen": "2026-08-13",
-              "sold_since": "2026-08-27"
+              "first_seen": "2026-08-13"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1350,
+              "first_seen": "2026-09-03"
             }
           ],
           "image": "images/teriaq-intense--roseperfume.jpg",
@@ -195637,6 +195695,39 @@
           ],
           "image": "images/cedrus-blanc--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/rayhaan-cedrus-blanc"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 100,
+              "first_seen": "2026-09-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 175,
+              "first_seen": "2026-09-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 500,
+              "first_seen": "2026-09-03"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1500,
+              "first_seen": "2026-09-03",
+              "sold_since": "2026-09-03"
+            }
+          ],
+          "image": "images/cedrus-blanc--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/cedrus-blanc-rayhaan"
         }
       ],
       "_hero_source": "og-perfume"
@@ -195677,6 +195768,38 @@
           ],
           "image": "images/nava-sol--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/rayhaan-nava-sol"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 100,
+              "first_seen": "2026-09-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 175,
+              "first_seen": "2026-09-03"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 500,
+              "first_seen": "2026-09-03"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1500,
+              "first_seen": "2026-09-03"
+            }
+          ],
+          "image": "images/nava-sol--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/nava-sol-rayhaan"
         }
       ],
       "_hero_source": "og-perfume"
