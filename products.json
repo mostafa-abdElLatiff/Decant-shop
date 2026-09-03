@@ -166184,8 +166184,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-20",
-              "prev_price": 1700
+              "first_seen": "2026-07-20"
             }
           ],
           "image": "images/vanilla-voyage-maison-asrar--roseperfume.jpg",
@@ -194293,6 +194292,20 @@
           ],
           "image": "images/vanilla-musk-tahara-oil--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/vanilla-musk-tahara-oil"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 12,
+              "price": 500,
+              "first_seen": "2026-09-03"
+            }
+          ],
+          "image": "images/vanilla-musk-tahara-oil--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/gulf-orchid-musk-oil-12ml-tahara-vanilla"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -196969,6 +196982,174 @@
         }
       ],
       "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "gulf-orchid-musk-oil-12ml-mysterious-tahara",
+      "name_ar": "",
+      "name_en": "Gulf Orchid Musk Oil 12ML - Mysterious Tahara",
+      "brand": "Gulf Orchid",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/gulf-orchid-musk-oil-12ml-mysterious-tahara.jpg",
+      "accords": [
+        {
+          "label_en": "Musk",
+          "label_ar": "المسك",
+          "color": "#E7D8EA",
+          "w": 100
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 12,
+              "price": 350,
+              "first_seen": "2026-09-03"
+            }
+          ],
+          "image": "images/gulf-orchid-musk-oil-12ml-mysterious-tahara--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/gulf-orchid-musk-oil-12ml-mysterious-tahara"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "gulf-orchid-musk-oil-12ml-tropical-fruits",
+      "name_ar": "",
+      "name_en": "Gulf Orchid Musk Oil 12ML - Tropical Fruits",
+      "brand": "Gulf Orchid",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/gulf-orchid-musk-oil-12ml-tropical-fruits.jpg",
+      "accords": [
+        {
+          "label_en": "Aldehydes",
+          "label_ar": "الألدهيدات",
+          "color": "#d8e9f6",
+          "w": 100
+        },
+        {
+          "label_en": "Pear",
+          "label_ar": "الكمثرى",
+          "color": "#FC4B29",
+          "w": 90
+        },
+        {
+          "label_en": "Musk",
+          "label_ar": "المسك",
+          "color": "#E7D8EA",
+          "w": 80
+        },
+        {
+          "label_en": "Flowers",
+          "label_ar": "الأزهار",
+          "color": "#FF5F8D",
+          "w": 70
+        },
+        {
+          "label_en": "Amber",
+          "label_ar": "العنبر",
+          "color": "#bc4d10",
+          "w": 60
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 12,
+              "price": 350,
+              "first_seen": "2026-09-03"
+            }
+          ],
+          "image": "images/gulf-orchid-musk-oil-12ml-tropical-fruits--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/gulf-orchid-musk-oil-12ml-tropical-fruits"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "gulf-orchid-musk-oil-12ml-pomegranate",
+      "name_ar": "",
+      "name_en": "Gulf Orchid Musk Oil 12ML - Pomegranate",
+      "brand": "Gulf Orchid",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/gulf-orchid-musk-oil-12ml-pomegranate.jpg",
+      "accords": [
+        {
+          "label_en": "Bergamot",
+          "label_ar": "البرغموت",
+          "color": "#F9FF52",
+          "w": 100
+        },
+        {
+          "label_en": "Caramel",
+          "label_ar": "الكراميل",
+          "color": "#DDA356",
+          "w": 90
+        },
+        {
+          "label_en": "Sage",
+          "label_ar": "المريمية",
+          "color": "#6CA47F",
+          "w": 80
+        },
+        {
+          "label_en": "Jasmine",
+          "label_ar": "الياسمين",
+          "color": "#FF5F8D",
+          "w": 70
+        },
+        {
+          "label_en": "Lily of the Valley",
+          "label_ar": "زنبق الوادي",
+          "color": "#FF5F8D",
+          "w": 60
+        },
+        {
+          "label_en": "Amber",
+          "label_ar": "العنبر",
+          "color": "#bc4d10",
+          "w": 50
+        },
+        {
+          "label_en": "Musk",
+          "label_ar": "المسك",
+          "color": "#E7D8EA",
+          "w": 40
+        },
+        {
+          "label_en": "Patchouli",
+          "label_ar": "الباتشولي",
+          "color": "#63652e",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 12,
+              "price": 350,
+              "first_seen": "2026-09-03"
+            }
+          ],
+          "image": "images/gulf-orchid-musk-oil-12ml-pomegranate--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/gulf-orchid-musk-oil-12ml-pomegranate"
+        }
+      ],
+      "_hero_source": "roseperfume"
     }
   ]
 }
