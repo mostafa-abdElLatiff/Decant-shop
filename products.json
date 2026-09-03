@@ -121885,7 +121885,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 155,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-03"
             },
             {
               "kind": "leftover",
@@ -196275,6 +196276,33 @@
         }
       ],
       "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "valentine-man-intense-from-wadi-al-khalij",
+      "name_ar": "Valentine Man intense 100ml From wadi al khalij",
+      "name_en": "Valentine Man intense From wadi al khalij",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/valentine-man-intense-from-wadi-al-khalij.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 700,
+              "first_seen": "2026-09-03"
+            }
+          ],
+          "image": "images/valentine-man-intense-from-wadi-al-khalij--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/valentine-man-intense-100ml-from-wadi-al-khalij/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
