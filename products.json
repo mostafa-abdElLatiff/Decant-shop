@@ -13848,7 +13848,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2000,
-              "first_seen": "2026-08-21"
+              "first_seen": "2026-08-21",
+              "sold_since": "2026-09-03"
             }
           ],
           "image": "images/aromatix--dar-elarabia.jpg",
@@ -193784,6 +193785,20 @@
           ],
           "image": "images/el-dorado-french-avenue--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/el-dorado-by-french-avenue"
+        },
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1950,
+              "first_seen": "2026-09-03"
+            }
+          ],
+          "image": "images/el-dorado-french-avenue--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/el-dorado"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -196027,6 +196042,33 @@
         }
       ],
       "_hero_source": "mazaya"
+    },
+    {
+      "id": "qasida-dunes",
+      "name_ar": "Qasida Dunes",
+      "name_en": "Qasida Dunes",
+      "brand": "FANN",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/qasida-dunes.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2350,
+              "first_seen": "2026-09-03"
+            }
+          ],
+          "image": "images/qasida-dunes--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/qasida-dunes"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
     }
   ]
 }
