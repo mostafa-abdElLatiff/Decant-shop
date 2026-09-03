@@ -106383,6 +106383,20 @@
           ],
           "image": "images/muharib--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/muharib-maison-asrar"
+        },
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2150,
+              "first_seen": "2026-09-03"
+            }
+          ],
+          "image": "images/muharib--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/muharib"
         }
       ],
       "_hero_source": "og-perfume",
@@ -164901,6 +164915,20 @@
           ],
           "image": "images/vanguard--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/vanguard-100ml-maison-asrar%da%a4%d8%a7%d9%86-%d8%ac%d8%a7%d8%b1%d8%af-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%85%d9%8a%d8%b2%d9%88%d9%86-%d8%a7%d8%b3%d8%b1%d8%a7%d8%b1/"
+        },
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1850,
+              "first_seen": "2026-09-03"
+            }
+          ],
+          "image": "images/vanguard--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/vanguard"
         }
       ],
       "_hero_source": "og-perfume",
@@ -194634,6 +194662,20 @@
           ],
           "image": "images/regent--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/regent"
+        },
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1850,
+              "first_seen": "2026-09-03"
+            }
+          ],
+          "image": "images/regent--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/regent"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -195258,6 +195300,20 @@
           ],
           "image": "images/ocean--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/ocean"
+        },
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 3600,
+              "first_seen": "2026-09-03"
+            }
+          ],
+          "image": "images/ocean--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/ocean-sedra"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -195836,6 +195892,20 @@
           ],
           "image": "images/iii-thriller--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/iii-thriller"
+        },
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2000,
+              "first_seen": "2026-09-03"
+            }
+          ],
+          "image": "images/iii-thriller--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/thriller-iii"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -196768,6 +196838,114 @@
         }
       ],
       "_hero_source": "roseperfume"
+    },
+    {
+      "id": "magenta",
+      "name_ar": "Magenta",
+      "name_en": "Magenta",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/magenta.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 3600,
+              "first_seen": "2026-09-03"
+            }
+          ],
+          "image": "images/magenta--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/magenta"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "treasure",
+      "name_ar": "Treasure",
+      "name_en": "Treasure",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/treasure.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1850,
+              "first_seen": "2026-09-03"
+            }
+          ],
+          "image": "images/treasure--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/treasure"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "legacy-1788463285",
+      "name_ar": "Legacy",
+      "name_en": "Legacy",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/legacy-1788463285.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1850,
+              "first_seen": "2026-09-03"
+            }
+          ],
+          "image": "images/legacy-1788463285--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/legacy"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "faris-al-arab-1788463286",
+      "name_ar": "Faris Al Arab",
+      "name_en": "Faris Al Arab",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/faris-al-arab-1788463286.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2150,
+              "first_seen": "2026-09-03"
+            }
+          ],
+          "image": "images/faris-al-arab-1788463286--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/faris-al-arab"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
     }
   ]
 }
