@@ -27316,6 +27316,20 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 30,
+              "price": 1950,
+              "first_seen": "2026-09-03",
+              "sold_since": "2026-09-03"
+            },
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 4659,
+              "first_seen": "2026-09-03",
+              "sold_since": "2026-09-03"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 5254,
               "first_seen": "2026-07-23",
@@ -64681,6 +64695,14 @@
           "name": "feel22",
           "url": "https://eg.feel22.com/",
           "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 3046,
+              "first_seen": "2026-09-03",
+              "prev_price": 4200,
+              "sold_since": "2026-09-03"
+            },
             {
               "kind": "full",
               "ml": 90,
