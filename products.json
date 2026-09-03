@@ -29667,6 +29667,20 @@
           ],
           "image": "images/carnal-desire--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/aromatix-carnal-desire"
+        },
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2050,
+              "first_seen": "2026-09-03"
+            }
+          ],
+          "image": "images/carnal-desire--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/aromatix-carnal-desire"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -196026,6 +196040,33 @@
           ],
           "image": "images/qasida-sahm--dar-elarabia.jpg",
           "product_url": "https://darelarabia.com/products/qasida-sahm"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "aromatix-x-xandel",
+      "name_ar": "Aromatix X Xandel",
+      "name_en": "Aromatix X Xandel",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/aromatix-x-xandel.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2050,
+              "first_seen": "2026-09-03"
+            }
+          ],
+          "image": "images/aromatix-x-xandel--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/aromatix-x-xandel"
         }
       ],
       "_hero_source": "dar.elarabia"
