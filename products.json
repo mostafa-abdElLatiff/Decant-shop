@@ -1021,7 +1021,8 @@
               "kind": "decant",
               "ml": 5,
               "price": 690,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-09-04"
             },
             {
               "kind": "decant",
@@ -83621,19 +83622,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 125,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-09-04"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 165,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-09-04"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 250,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-09-04"
             }
           ],
           "image": "images/khamrah-waha--sniffz.jpg",
@@ -197417,6 +197421,88 @@
         }
       ],
       "_hero_source": "roseperfume"
+    },
+    {
+      "id": "paradise",
+      "name_ar": "",
+      "name_en": "Paradise",
+      "brand": "Dior",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/paradise.jpg",
+      "accords": [
+        {
+          "label_en": "Orange",
+          "label_ar": "",
+          "color": "#F9FF52",
+          "w": 100
+        },
+        {
+          "label_en": "Lime",
+          "label_ar": "",
+          "color": "#F9FF52",
+          "w": 90
+        },
+        {
+          "label_en": "Mandarin",
+          "label_ar": "",
+          "color": "#F9FF52",
+          "w": 80
+        },
+        {
+          "label_en": "Bitter Almond",
+          "label_ar": "",
+          "color": "#C68E5A",
+          "w": 70
+        },
+        {
+          "label_en": "Syrup",
+          "label_ar": "",
+          "color": "#9C9C9C",
+          "w": 60
+        },
+        {
+          "label_en": "Tonka Bean",
+          "label_ar": "",
+          "color": "#FFFEC0",
+          "w": 50
+        },
+        {
+          "label_en": "Woody Notes",
+          "label_ar": "",
+          "color": "#774414",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 630,
+              "first_seen": "2026-09-04"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 900,
+              "first_seen": "2026-09-04"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 1500,
+              "first_seen": "2026-09-04"
+            }
+          ],
+          "image": "images/paradise--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/dior-paradise"
+        }
+      ],
+      "_hero_source": "sniffz"
     }
   ]
 }
