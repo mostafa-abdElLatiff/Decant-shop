@@ -14836,8 +14836,7 @@
               "kind": "decant",
               "ml": 30,
               "price": 425,
-              "first_seen": "2026-07-21",
-              "sold_since": "2026-08-03"
+              "first_seen": "2026-07-21"
             },
             {
               "kind": "leftover",
@@ -14849,8 +14848,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2600,
-              "first_seen": "2026-08-03"
+              "price": 2250,
+              "first_seen": "2026-08-03",
+              "prev_price": 2600
             }
           ],
           "image": "images/arrogate-pink-diva--og-perfume.jpg",
@@ -141013,7 +141013,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 900,
-              "first_seen": "2026-07-25"
+              "first_seen": "2026-07-25",
+              "sold_since": "2026-09-04"
             },
             {
               "kind": "leftover",
@@ -158546,7 +158547,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1950,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-04"
             }
           ],
           "image": "images/the-way-of-love--og-perfume.jpg",
