@@ -17103,13 +17103,14 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 225,
-              "first_seen": "2026-09-01"
+              "price": 215,
+              "first_seen": "2026-09-01",
+              "prev_price": 225
             },
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 1075,
+              "price": 1100,
               "first_seen": "2026-09-01"
             },
             {
@@ -38355,9 +38356,24 @@
           ],
           "image": "images/cuir-infrarouge-extrait-de-parfum--hossam-eldeen-gamal.jpg",
           "product_url": "https://www.facebook.com/groups/original.perfume.market/posts/27975323832153273"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 12900,
+              "first_seen": "2026-09-04"
+            }
+          ],
+          "image": "images/cuir-infrarouge-extrait-de-parfum--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/cuir-infrarouge-extrait-de-parfum-50ml-maison-crivelli/"
         }
       ],
-      "category": "niche"
+      "category": "niche",
+      "_hero_source": "eldesoki-fragrances"
     },
     {
       "id": "cuir-intense",
@@ -66699,6 +66715,12 @@
               "first_seen": "2026-09-04"
             },
             {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 975,
+              "first_seen": "2026-09-04"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1650,
@@ -66706,7 +66728,7 @@
             }
           ],
           "image": "images/hawas-elixir--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/hawas-elixir-10ml%d9%87%d9%88%d8%b3-%d8%a7%d9%84%d9%8a%d9%83%d8%b2%d9%8a%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/hawas-elixir-50ml%d9%87%d9%88%d8%b3-%d8%a7%d9%84%d9%8a%d9%83%d8%b2%d9%8a%d8%b1-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "emaratiscents",
@@ -84573,8 +84595,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 1700,
-              "first_seen": "2026-07-18"
+              "price": 1600,
+              "first_seen": "2026-07-18",
+              "prev_price": 1700
             }
           ],
           "image": "images/kilkat-times--eldesoki-fragrances.jpg",
@@ -101871,6 +101894,18 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 10,
+              "price": 150,
+              "first_seen": "2026-09-04"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 750,
+              "first_seen": "2026-09-04"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1275,
@@ -101878,7 +101913,7 @@
             }
           ],
           "image": "images/mazaaj-emaratiscents--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/mazaaj-edp-zimaya-100ml%d9%85%d8%b2%d8%a7%d8%ac-%d8%a7%d9%88-%d8%af%d9%88-%d8%a8%d8%a7%d8%b1%d9%81%d9%85-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b2%d9%85%d8%a7%d9%8a%d8%a7/"
+          "product_url": "https://eldesoki-fragrances.com/product/mazaaj-edp-50ml%d9%85%d8%b2%d8%a7%da%86-%d8%a7%d9%88-%d8%af%d9%88-%d8%a8%d8%a7%d8%b1%d9%81%d9%85-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "EsLam Nasser",
@@ -130538,7 +130573,8 @@
               "kind": "full",
               "ml": 100,
               "price": 775,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-04"
             }
           ],
           "image": "images/proud-of-you-tobacco-fragrance-world--eldesoki-fragrances.jpg",
@@ -167725,6 +167761,18 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 10,
+              "price": 160,
+              "first_seen": "2026-09-04"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 775,
+              "first_seen": "2026-09-04"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1325,
@@ -167732,7 +167780,7 @@
             }
           ],
           "image": "images/verus-tonka--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/verus-tonka-jean-antoine-100ml%d9%81%d8%a7%d9%8a%d8%b1%d8%b3-%d8%aa%d9%88%d9%86%d9%83%d8%a7-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%da%86%d9%8a%d9%86-%d8%a7%d9%86%d8%b7%d9%88%d8%a7%d9%86/"
+          "product_url": "https://eldesoki-fragrances.com/product/verus-tonka-50ml%d9%81%d9%8a%d8%b1%d9%88%d8%b3-%d8%aa%d9%88%d9%86%d9%83%d8%a7-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -177472,14 +177520,13 @@
           "offers": [
             {
               "kind": "leftover",
-              "ml": 240,
-              "price": 1975,
-              "first_seen": "2026-08-04",
-              "sold_since": "2026-08-28"
+              "ml": 100,
+              "price": 975,
+              "first_seen": "2026-09-04"
             }
           ],
           "image": "images/elviera-lador--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/elviera-lador-240ml%d8%a7%d9%84%d9%81%d9%8a%d9%8a%d8%b1%d8%a7-%d9%84%d8%a7%d8%af%d9%88%d8%b1-%d8%a8%d9%88%d9%83%d8%b3-%d8%af%d9%8a%da%a4%d9%88-%d9%83%d8%a7%d9%85%d9%84-%d9%a2%d9%a4%d9%a0%d9%85%d9%84/"
+          "product_url": "https://eldesoki-fragrances.com/product/elviera-lador-100ml-almas%d9%84%d8%a7%d8%af%d9%88%d8%b1-%d8%a7%d9%84%da%a4%d9%8a%d9%8a%d8%b1%d8%a7-%d8%a7%d8%af%d9%8a%d8%b4%d9%86-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d9%84%d9%85/"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -197555,6 +197602,168 @@
           ],
           "image": "images/9pm-bundle-offer-perfumes--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/bundle-offer-9pm-rebel-night-out-200ml/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "oud-maracuja-extrait-de-parfum-maison-crivelli",
+      "name_ar": "Oud Maracuja Extrait De Parfum 100ml Maison Crivelli",
+      "name_en": "Oud Maracuja Extrait De Parfum Maison Crivelli",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/oud-maracuja-extrait-de-parfum-maison-crivelli.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 20700,
+              "first_seen": "2026-09-04"
+            }
+          ],
+          "image": "images/oud-maracuja-extrait-de-parfum-maison-crivelli--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/oud-maracuja-extrait-de-parfum-100ml-maison-crivelli/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "lv-pacific-chill",
+      "name_ar": "لوي ڤيتون باسيفيك شيل ١٠٠مل",
+      "name_en": "LV Pacific Chill",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/lv-pacific-chill.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 23200,
+              "first_seen": "2026-09-04"
+            }
+          ],
+          "image": "images/lv-pacific-chill--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/lv-pacific-chill-100ml%d9%84%d9%88%d9%8a-%da%a4%d9%8a%d8%aa%d9%88%d9%86-%d8%a8%d8%a7%d8%b3%d9%8a%d9%81%d9%8a%d9%83-%d8%b4%d9%8a%d9%84-%d9%a1%d9%a0%d9%a0%d9%85%d9%84/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "lv-afternoon-swim",
+      "name_ar": "لوي ڤيتون افتر نون سويم ١٠٠ملي",
+      "name_en": "LV Afternoon Swim",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/lv-afternoon-swim.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 23200,
+              "first_seen": "2026-09-04"
+            }
+          ],
+          "image": "images/lv-afternoon-swim--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/lv-afternoon-swim-100ml%d9%84%d9%88%d9%8a-%da%a4%d9%8a%d8%aa%d9%88%d9%86-%d8%a7%d9%81%d8%aa%d8%b1-%d9%86%d9%88%d9%86-%d8%b3%d9%88%d9%8a%d9%85-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "lv-ombre-nomade",
+      "name_ar": "لوي ڤيتون عنبر نوماد ١٠٠ملي",
+      "name_en": "LV Ombre Nomade",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/lv-ombre-nomade.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 27950,
+              "first_seen": "2026-09-04"
+            }
+          ],
+          "image": "images/lv-ombre-nomade--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/lv-ombre-nomade-100ml%d9%84%d9%88%d9%8a-%da%a4%d9%8a%d8%aa%d9%88%d9%86-%d8%b9%d9%86%d8%a8%d8%b1-%d9%86%d9%88%d9%85%d8%a7%d8%af-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "4-tester-elviera-almas",
+      "name_ar": "٤ تسترات الڤييرا من الماس حجم ١٠ملي",
+      "name_en": "4* Tester Elviera Almas",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/4-tester-elviera-almas.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 575,
+              "first_seen": "2026-09-04"
+            }
+          ],
+          "image": "images/4-tester-elviera-almas--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/410ml-tester-elviera-almas%d9%a4-%d8%aa%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%da%a4%d9%8a%d9%8a%d8%b1%d8%a7-%d9%85%d9%86-%d8%a7%d9%84%d9%85%d8%a7%d8%b3-%d8%ad%d8%ac%d9%85-%d9%a1%d9%a0%d9%85/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "elviera-edition",
+      "name_ar": "الفييرا اديشن لادور تستر ١٠ملي",
+      "name_en": "Elviera Edition",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/elviera-edition.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 125,
+              "first_seen": "2026-09-04"
+            }
+          ],
+          "image": "images/elviera-edition--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/elviera-edition-tester-10ml%d8%a7%d9%84%d9%81%d9%8a%d9%8a%d8%b1%d8%a7-%d8%a7%d8%af%d9%8a%d8%b4%d9%86-%d9%84%d8%a7%d8%af%d9%88%d8%b1-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "eldesoki-fragrances"
