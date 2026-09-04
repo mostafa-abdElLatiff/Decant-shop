@@ -184252,9 +184252,35 @@
           ],
           "image": "images/flamenco-edp-monegal--abo-anas-sayed.jpg",
           "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 450,
+              "first_seen": "2026-09-04"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 800,
+              "first_seen": "2026-09-04"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 1500,
+              "first_seen": "2026-09-04"
+            }
+          ],
+          "image": "images/flamenco-edp-monegal--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/flamenco-ramon-monegal"
         }
       ],
-      "_hero_source": "Abo Anas Sayed"
+      "_hero_source": "perfuzone"
     },
     {
       "id": "flamenco-extrait-monegal",
@@ -197725,6 +197751,78 @@
         }
       ],
       "_hero_source": "roseperfume"
+    },
+    {
+      "id": "guirlain-amber-samar-perfume",
+      "name_ar": "Guirlain Amber Samar Perfume",
+      "name_en": "Guirlain Amber Samar Perfume",
+      "brand": "Guerlain",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/guirlain-amber-samar-perfume.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 450,
+              "first_seen": "2026-09-04"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 800,
+              "first_seen": "2026-09-04"
+            }
+          ],
+          "image": "images/guirlain-amber-samar-perfume--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/guirlain-amber-samar-perfume"
+        }
+      ],
+      "_hero_source": "perfuzone"
+    },
+    {
+      "id": "can-t-get-enough",
+      "name_ar": "Can't Get Enough",
+      "name_en": "Can't Get Enough",
+      "brand": "Initio",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/can-t-get-enough.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 480,
+              "first_seen": "2026-09-04"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 960,
+              "first_seen": "2026-09-04"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 1600,
+              "first_seen": "2026-09-04"
+            }
+          ],
+          "image": "images/can-t-get-enough--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/initio-cant-get-enough"
+        }
+      ],
+      "_hero_source": "perfuzone"
     }
   ]
 }
