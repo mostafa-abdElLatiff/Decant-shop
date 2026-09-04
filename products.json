@@ -66696,6 +66696,12 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-09-04"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1650,
@@ -66703,7 +66709,7 @@
             }
           ],
           "image": "images/hawas-elixir--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/hawas-elixir%d9%87%d9%88%d8%b3-%d8%a7%d9%84%d9%8a%d9%83%d8%b2%d9%8a%d8%b1/"
+          "product_url": "https://eldesoki-fragrances.com/product/hawas-elixir-10ml%d9%87%d9%88%d8%b3-%d8%a7%d9%84%d9%8a%d9%83%d8%b2%d9%8a%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "emaratiscents",
@@ -168541,6 +168547,18 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 10,
+              "price": 250,
+              "first_seen": "2026-09-04"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 1575,
+              "first_seen": "2026-09-04"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 2350,
@@ -168548,7 +168566,7 @@
             }
           ],
           "image": "images/vintage-tobacco--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/vintage-tobacco-100ml-10ml%d9%81%d9%8a%d9%86%d8%aa%d8%a7%da%86-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%85%d9%86-%d8%a7%d8%a8%d8%b1%d8%a7%d9%82-%d8%b9%d8%b7%d8%b1-%d9%88%d8%b1%d9%8a%d9%81%d9%84/"
+          "product_url": "https://eldesoki-fragrances.com/product/vintage-tobacco-50ml10ml%d9%81%d9%8a%d9%86%d8%aa%d8%a7%da%86-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d8%b1%d9%8a%d9%81%d9%8a%d9%84-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -193885,7 +193903,8 @@
               "kind": "full",
               "ml": 250,
               "price": 2000,
-              "first_seen": "2026-08-28"
+              "first_seen": "2026-08-28",
+              "sold_since": "2026-09-04"
             }
           ],
           "image": "images/white-coral-bundle--eldesoki-fragrances.jpg",
@@ -195852,7 +195871,8 @@
               "kind": "full",
               "ml": 200,
               "price": 3075,
-              "first_seen": "2026-09-01"
+              "first_seen": "2026-09-01",
+              "sold_since": "2026-09-04"
             }
           ],
           "image": "images/summer-hawas-bundle--eldesoki-fragrances.jpg",
@@ -197503,6 +197523,34 @@
         }
       ],
       "_hero_source": "sniffz"
+    },
+    {
+      "id": "9pm-bundle-offer-perfumes",
+      "name_ar": "9PM Bundle Offer ( 200ML Perfumes )",
+      "name_en": "9PM Bundle Offer Perfumes",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/9pm-bundle-offer-perfumes.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 3300,
+              "first_seen": "2026-09-04",
+              "sold_since": "2026-09-04"
+            }
+          ],
+          "image": "images/9pm-bundle-offer-perfumes--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/bundle-offer-9pm-rebel-night-out-200ml/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
