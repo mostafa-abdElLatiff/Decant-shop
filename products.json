@@ -171943,7 +171943,8 @@
               "kind": "full",
               "ml": 150,
               "price": 2100,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-04"
             }
           ],
           "image": "images/wild-colt-bakhur--dar-elarabia.jpg",
@@ -173275,6 +173276,20 @@
           ],
           "image": "images/x-french-avenue-royal-taboo--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/aromatix-royal-taboo"
+        },
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2050,
+              "first_seen": "2026-09-04"
+            }
+          ],
+          "image": "images/x-french-avenue-royal-taboo--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/aromatix-royal-taboo"
         }
       ],
       "_hero_source": "sniffz",
@@ -193207,8 +193222,7 @@
               "kind": "full",
               "ml": 100,
               "price": 3200,
-              "first_seen": "2026-08-25",
-              "sold_since": "2026-08-31"
+              "first_seen": "2026-08-25"
             }
           ],
           "image": "images/hersh-mehwar-new-batch--dar-elarabia.jpg",
@@ -196621,8 +196635,7 @@
               "kind": "full",
               "ml": 200,
               "price": 2350,
-              "first_seen": "2026-09-02",
-              "sold_since": "2026-09-04"
+              "first_seen": "2026-09-02"
             }
           ],
           "image": "images/qasida-sahm--dar-elarabia.jpg",
