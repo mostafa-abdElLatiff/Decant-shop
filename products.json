@@ -11420,20 +11420,29 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 140,
-              "first_seen": "2026-01-01"
+              "price": 115,
+              "first_seen": "2026-01-01",
+              "prev_price": 140
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 185,
-              "first_seen": "2026-01-01"
+              "price": 150,
+              "first_seen": "2026-01-01",
+              "prev_price": 185
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 280,
-              "first_seen": "2026-01-01"
+              "price": 230,
+              "first_seen": "2026-01-01",
+              "prev_price": 280
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1500,
+              "first_seen": "2026-09-05"
             }
           ],
           "image": "images/aquatica--sniffz.jpg",
@@ -107841,8 +107850,7 @@
               "kind": "full",
               "ml": 75,
               "price": 1000,
-              "first_seen": "2026-08-12",
-              "sold_since": "2026-08-12"
+              "first_seen": "2026-08-12"
             }
           ],
           "image": "images/musk-al-qamar-ibraq--sniffz.jpg",
@@ -156535,6 +156543,38 @@
           ],
           "image": "images/terra-rayhaan--eslam-nasser.jpg",
           "product_url": "https://www.facebook.com/groups/720783370622840/posts/904229235611585"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 115,
+              "first_seen": "2026-09-05"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 150,
+              "first_seen": "2026-09-05"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 230,
+              "first_seen": "2026-09-05"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1500,
+              "first_seen": "2026-09-05"
+            }
+          ],
+          "image": "images/terra-rayhaan--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/rayhaan-terra"
         }
       ],
       "_hero_source": "roseperfume",
@@ -198224,20 +198264,23 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 630,
-              "first_seen": "2026-09-04"
+              "price": 590,
+              "first_seen": "2026-09-04",
+              "prev_price": 630
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 900,
-              "first_seen": "2026-09-04"
+              "price": 840,
+              "first_seen": "2026-09-04",
+              "prev_price": 900
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 1500,
-              "first_seen": "2026-09-04"
+              "price": 1400,
+              "first_seen": "2026-09-04",
+              "prev_price": 1500
             }
           ],
           "image": "images/paradise--sniffz.jpg",
