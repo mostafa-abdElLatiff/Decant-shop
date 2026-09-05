@@ -27716,8 +27716,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3306,
-              "first_seen": "2026-07-23"
+              "price": 3290,
+              "first_seen": "2026-07-23",
+              "prev_price": 3306
             },
             {
               "kind": "full",
@@ -43849,8 +43850,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6306,
-              "first_seen": "2026-07-26"
+              "price": 6299,
+              "first_seen": "2026-07-26",
+              "prev_price": 6306
             }
           ],
           "image": "images/dolce-gabbana-the-one-grey-eau-de-toilette--feel22.jpg",
@@ -112003,7 +112005,7 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 1418,
+              "price": 1749,
               "first_seen": "2026-07-23"
             }
           ],
@@ -190143,8 +190145,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1395,
-              "first_seen": "2026-08-15"
+              "price": 1255,
+              "first_seen": "2026-08-15",
+              "prev_price": 1395
             }
           ],
           "image": "images/one-man-show-ruby-edition-eau-de-toilette--feel22.jpg",
@@ -198827,6 +198830,60 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "black-edition-eau-de-toilette",
+      "name_ar": "Black Edition Eau de Toilette",
+      "name_en": "Black Edition Eau de Toilette",
+      "brand": "Gran Turismo",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/black-edition-eau-de-toilette.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1555,
+              "first_seen": "2026-09-05"
+            }
+          ],
+          "image": "images/black-edition-eau-de-toilette--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/gran-turismo-black-edition-eau-de-toilette-for-men-100ml"
+        }
+      ],
+      "_hero_source": "feel22"
+    },
+    {
+      "id": "eau-de-parfum",
+      "name_ar": "Eau de Parfum",
+      "name_en": "Eau de Parfum",
+      "brand": "Korloff",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 88,
+              "price": 5099,
+              "first_seen": "2026-09-05"
+            }
+          ],
+          "image": "images/eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/korloff-eau-de-parfum-for-men-88ml"
+        }
+      ],
+      "_hero_source": "feel22"
     }
   ]
 }
