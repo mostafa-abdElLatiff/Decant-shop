@@ -20686,8 +20686,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-09-05",
-              "sold_since": "2026-09-05"
+              "first_seen": "2026-09-05"
             }
           ],
           "image": "images/bamboo-reflection--emaratiscents.jpg",
@@ -85845,8 +85844,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1500,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-05"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/kohl-luminous--emaratiscents.jpg",
@@ -85873,8 +85871,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1500,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/kohl-opulence--emaratiscents.jpg",
@@ -97710,8 +97707,7 @@
               "kind": "full",
               "ml": 80,
               "price": 1250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-01"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/lutfah-beyond-forever--emaratiscents.jpg",
@@ -113627,8 +113623,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/noir-absolu--emaratiscents.jpg",
@@ -132859,8 +132854,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-26"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/qissat-al-najah-nedawi--emaratiscents.jpg",
@@ -134006,8 +134000,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1850,
-              "first_seen": "2026-09-05",
-              "sold_since": "2026-09-05"
+              "first_seen": "2026-09-05"
             }
           ],
           "image": "images/ramad-oriental--emaratiscents.jpg",
@@ -184861,8 +184854,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1850,
-              "first_seen": "2026-08-10",
-              "prev_price": 2250
+              "first_seen": "2026-08-10"
             }
           ],
           "image": "images/revolt-uncaged--emaratiscents.jpg",
@@ -199056,12 +199048,38 @@
               "kind": "full",
               "ml": 100,
               "price": 1850,
-              "first_seen": "2026-09-05",
-              "sold_since": "2026-09-05"
+              "first_seen": "2026-09-05"
             }
           ],
           "image": "images/revolt-uprising--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/revolt-uprising"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "lutfah-the-seventh-heaven",
+      "name_ar": "Lutfah The Seventh Heaven",
+      "name_en": "Lutfah The Seventh Heaven",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/lutfah-the-seventh-heaven.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 80,
+              "price": 1250,
+              "first_seen": "2026-09-05"
+            }
+          ],
+          "image": "images/lutfah-the-seventh-heaven--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/lutfah-the-seventh-heaven"
         }
       ],
       "_hero_source": "emaratiscents"
