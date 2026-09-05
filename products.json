@@ -24793,19 +24793,29 @@
               "kind": "decant",
               "ml": 5,
               "price": 90,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-09-05"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 150,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-09-05"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 400,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-09-05"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 1500,
+              "first_seen": "2026-09-05",
+              "sold_since": "2026-09-05"
             }
           ],
           "image": "images/blue-diamond-aqua--roseperfume.jpg",
@@ -66495,19 +66505,22 @@
               "kind": "decant",
               "ml": 5,
               "price": 110,
-              "first_seen": "2026-07-29"
+              "first_seen": "2026-07-29",
+              "sold_since": "2026-09-05"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-29"
+              "first_seen": "2026-07-29",
+              "sold_since": "2026-09-05"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 575,
-              "first_seen": "2026-07-29"
+              "first_seen": "2026-07-29",
+              "sold_since": "2026-09-05"
             },
             {
               "kind": "full",
@@ -170013,19 +170026,22 @@
               "kind": "decant",
               "ml": 5,
               "price": 120,
-              "first_seen": "2026-07-21"
+              "first_seen": "2026-07-21",
+              "sold_since": "2026-09-05"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 210,
-              "first_seen": "2026-07-21"
+              "first_seen": "2026-07-21",
+              "sold_since": "2026-09-05"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 600,
-              "first_seen": "2026-07-21"
+              "first_seen": "2026-07-21",
+              "sold_since": "2026-09-05"
             },
             {
               "kind": "full",
@@ -195395,7 +195411,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-09-01"
+              "first_seen": "2026-09-01",
+              "sold_since": "2026-09-05"
             }
           ],
           "image": "images/shiyaaka-sky--roseperfume.jpg",
