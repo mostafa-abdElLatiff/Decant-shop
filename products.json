@@ -4352,8 +4352,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1825,
-              "first_seen": "2026-08-13",
-              "prev_price": 1850
+              "first_seen": "2026-08-13"
             }
           ],
           "image": "images/aether-extrait--eldesoki-fragrances.jpg",
@@ -22774,22 +22773,19 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-08-31",
-              "prev_price": 215
+              "first_seen": "2026-08-31"
             },
             {
               "kind": "leftover",
               "ml": 50,
               "price": 1000,
-              "first_seen": "2026-08-31",
-              "prev_price": 1075
+              "first_seen": "2026-08-31"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 1775,
-              "first_seen": "2026-07-18",
-              "prev_price": 1850
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/black-cavalier-vi--eldesoki-fragrances.jpg",
@@ -158208,13 +158204,6 @@
               "price": 525,
               "first_seen": "2026-09-05",
               "sold_since": "2026-09-05"
-            },
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 5550,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
             }
           ],
           "image": "images/the-one--eldesoki-fragrances.jpg",
@@ -198914,6 +198903,34 @@
         }
       ],
       "_hero_source": "feel22"
+    },
+    {
+      "id": "d-g-the-one-edp",
+      "name_ar": "دولشي ان جابانا ذا ون (١٥٠ملي) او دو بارفم",
+      "name_en": "D&G THE ONE EDP",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/d-g-the-one-edp.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 5550,
+              "first_seen": "2026-09-05",
+              "sold_since": "2026-09-05"
+            }
+          ],
+          "image": "images/d-g-the-one-edp--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/dg-the-one-edp-150ml%d8%af%d9%88%d9%84%d8%b4%d9%8a-%d8%a7%d9%86-%d8%ac%d8%a7%d8%a8%d8%a7%d9%86%d8%a7-%d8%b0%d8%a7-%d9%88%d9%86-%d9%a1%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d8%a7%d9%88-%d8%af%d9%88/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
