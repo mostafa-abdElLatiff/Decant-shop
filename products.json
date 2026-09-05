@@ -35269,8 +35269,9 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 8800,
+              "price": 7200,
               "first_seen": "2026-07-23",
+              "prev_price": 8800,
               "sold_since": "2026-09-05"
             },
             {
@@ -35283,8 +35284,9 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 9800,
+              "price": 8800,
               "first_seen": "2026-07-23",
+              "prev_price": 9800,
               "sold_since": "2026-09-05"
             }
           ],
@@ -91790,7 +91792,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1795,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-09-05"
             }
           ],
           "image": "images/lattafa-pride-spray-ishq-al-shuyukh-silver--mazaya.jpg",
