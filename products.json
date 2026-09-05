@@ -197986,6 +197986,45 @@
         }
       ],
       "_hero_source": "og-perfume"
+    },
+    {
+      "id": "yum-boujee-marshmallow",
+      "name_ar": "Yum Boujee Marshmallow",
+      "name_en": "Yum Boujee Marshmallow",
+      "brand": "Kayali",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/yum-boujee-marshmallow.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 380,
+              "first_seen": "2026-09-05"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 680,
+              "first_seen": "2026-09-05"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 1100,
+              "first_seen": "2026-09-05"
+            }
+          ],
+          "image": "images/yum-boujee-marshmallow--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/kayali-yum-boujee-marshmallow"
+        }
+      ],
+      "_hero_source": "perfuzone"
     }
   ]
 }
