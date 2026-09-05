@@ -14321,6 +14321,32 @@
           ],
           "image": "images/arrogate-addict-elixir--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/arrogate-addict-elixir-assaf"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 100,
+              "first_seen": "2026-09-05"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 130,
+              "first_seen": "2026-09-05"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-09-05"
+            }
+          ],
+          "image": "images/arrogate-addict-elixir--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/assaf-arrogate-addict-elixir"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -170395,7 +170421,8 @@
               "kind": "decant",
               "ml": 3,
               "price": 165,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-09-05"
             },
             {
               "kind": "decant",
