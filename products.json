@@ -199583,6 +199583,33 @@
         }
       ],
       "_hero_source": "sniffz"
+    },
+    {
+      "id": "hersh-saytara",
+      "name_ar": "Hersh Saytara",
+      "name_en": "Hersh Saytara",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/hersh-saytara.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3200,
+              "first_seen": "2026-09-06"
+            }
+          ],
+          "image": "images/hersh-saytara--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/hersh-saytara"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
     }
   ]
 }
