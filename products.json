@@ -15061,22 +15061,25 @@
               "kind": "decant",
               "ml": 5,
               "price": 140,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-08-25"
+              "first_seen": "2026-07-20"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 260,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-08-25"
+              "first_seen": "2026-07-20"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 725,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-08-25"
+              "first_seen": "2026-07-20"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1750,
+              "first_seen": "2026-09-06"
             }
           ],
           "image": "images/arsh--roseperfume.jpg",
@@ -187268,6 +187271,12 @@
               "price": 600,
               "first_seen": "2026-08-13",
               "sold_since": "2026-09-03"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1700,
+              "first_seen": "2026-09-06"
             }
           ],
           "image": "images/zenith-noire--roseperfume.jpg",
