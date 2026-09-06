@@ -8145,22 +8145,19 @@
               "kind": "decant",
               "ml": 3,
               "price": 150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 195,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 300,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -15896,22 +15893,19 @@
               "kind": "decant",
               "ml": 3,
               "price": 130,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 160,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 240,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -58881,7 +58875,8 @@
               "kind": "decant",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-08-05"
+              "first_seen": "2026-08-05",
+              "sold_since": "2026-09-06"
             }
           ],
           "image": "images/frankel-storm--sniffz.jpg",
@@ -122888,14 +122883,33 @@
           "url": "https://sniffz-eg.com/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 3,
+              "price": 970,
+              "first_seen": "2026-09-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 1380,
+              "first_seen": "2026-09-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 2300,
+              "first_seen": "2026-09-06"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 23000,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-09-06"
             }
           ],
           "image": "images/outlands--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/amouage-outlands"
+          "product_url": "https://sniffz-eg.com/products/amouage-outlands-1"
         },
         {
           "name": "Hossam ElDeen Gamal",
@@ -169130,15 +169144,13 @@
               "kind": "decant",
               "ml": 5,
               "price": 180,
-              "first_seen": "2026-08-12",
-              "sold_since": "2026-08-26"
+              "first_seen": "2026-08-12"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 275,
-              "first_seen": "2026-08-12",
-              "sold_since": "2026-08-26"
+              "first_seen": "2026-08-12"
             }
           ],
           "image": "images/vintage-radio--sniffz.jpg",
@@ -199181,6 +199193,45 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "hawas-nautius",
+      "name_ar": "",
+      "name_en": "Hawas Nautius",
+      "brand": "Rasasi",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/hawas-nautius.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 155,
+              "first_seen": "2026-09-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 180,
+              "first_seen": "2026-09-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 275,
+              "first_seen": "2026-09-06"
+            }
+          ],
+          "image": "images/hawas-nautius--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/rasasi-hawas-nautius"
+        }
+      ],
+      "_hero_source": "sniffz"
     }
   ]
 }
