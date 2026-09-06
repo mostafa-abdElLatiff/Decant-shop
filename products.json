@@ -13819,8 +13819,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2200,
-              "first_seen": "2026-08-13"
+              "price": 2125,
+              "first_seen": "2026-08-13",
+              "prev_price": 2200
             }
           ],
           "image": "images/aromatix--eldesoki-fragrances.jpg",
@@ -13957,14 +13958,16 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 1275,
-              "first_seen": "2026-08-21"
+              "price": 1225,
+              "first_seen": "2026-08-21",
+              "prev_price": 1275
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 2200,
-              "first_seen": "2026-07-19"
+              "price": 2125,
+              "first_seen": "2026-07-19",
+              "prev_price": 2200
             }
           ],
           "image": "images/aromatix-forbidden-fruit--eldesoki-fragrances.jpg",
@@ -29771,14 +29774,16 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 1275,
-              "first_seen": "2026-07-18"
+              "price": 1225,
+              "first_seen": "2026-07-18",
+              "prev_price": 1275
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 2200,
-              "first_seen": "2026-07-18"
+              "price": 2125,
+              "first_seen": "2026-07-18",
+              "prev_price": 2200
             }
           ],
           "image": "images/carnal-desire--eldesoki-fragrances.jpg",
@@ -98511,14 +98516,16 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 1275,
-              "first_seen": "2026-08-21"
+              "price": 1225,
+              "first_seen": "2026-08-21",
+              "prev_price": 1275
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 2200,
-              "first_seen": "2026-07-19"
+              "price": 2125,
+              "first_seen": "2026-07-19",
+              "prev_price": 2200
             }
           ],
           "image": "images/magnetiq--eldesoki-fragrances.jpg",
@@ -100920,8 +100927,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1975,
-              "first_seen": "2026-08-13"
+              "price": 1875,
+              "first_seen": "2026-08-13",
+              "prev_price": 1975
             }
           ],
           "image": "images/marmara--eldesoki-fragrances.jpg",
@@ -121937,13 +121945,6 @@
               "ml": 10,
               "price": 100,
               "first_seen": "2026-07-18"
-            },
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 475,
-              "first_seen": "2026-08-18",
-              "sold_since": "2026-08-30"
             },
             {
               "kind": "full",
@@ -157951,7 +157952,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 475,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-06"
             },
             {
               "kind": "leftover",
@@ -173924,14 +173926,16 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 1275,
-              "first_seen": "2026-07-18"
+              "price": 1225,
+              "first_seen": "2026-07-18",
+              "prev_price": 1275
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 2200,
-              "first_seen": "2026-07-18"
+              "price": 2125,
+              "first_seen": "2026-07-18",
+              "prev_price": 2200
             }
           ],
           "image": "images/x-xandal--eldesoki-fragrances.jpg",
