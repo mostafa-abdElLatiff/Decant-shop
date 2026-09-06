@@ -199434,6 +199434,139 @@
         }
       ],
       "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "byredo-bal-d-afrique-absolu",
+      "name_ar": "",
+      "name_en": "Byredo Bal d'Afrique Absolu",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/byredo-bal-d-afrique-absolu.jpg",
+      "accords": [
+        {
+          "label_en": "Blackcurrant",
+          "label_ar": "",
+          "color": "#FC4B29",
+          "w": 100
+        },
+        {
+          "label_en": "Bergamot",
+          "label_ar": "",
+          "color": "#F9FF52",
+          "w": 90
+        },
+        {
+          "label_en": "Lemon",
+          "label_ar": "",
+          "color": "#F9FF52",
+          "w": 80
+        },
+        {
+          "label_en": "Praline",
+          "label_ar": "",
+          "color": "#DDA356",
+          "w": 70
+        },
+        {
+          "label_en": "Musk",
+          "label_ar": "",
+          "color": "#E7D8EA",
+          "w": 60
+        },
+        {
+          "label_en": "Violet",
+          "label_ar": "",
+          "color": "#EEDDCC",
+          "w": 50
+        },
+        {
+          "label_en": "Black Amber",
+          "label_ar": "",
+          "color": "#bc4d10",
+          "w": 40
+        },
+        {
+          "label_en": "Cedarwood",
+          "label_ar": "",
+          "color": "#774414",
+          "w": 40
+        },
+        {
+          "label_en": "Vetiver",
+          "label_ar": "",
+          "color": "#544838",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 675,
+              "first_seen": "2026-09-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 960,
+              "first_seen": "2026-09-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 1600,
+              "first_seen": "2026-09-06"
+            }
+          ],
+          "image": "images/byredo-bal-d-afrique-absolu--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/byredo-bal-dafrique-absolu"
+        }
+      ],
+      "_hero_source": "sniffz"
+    },
+    {
+      "id": "decision-42",
+      "name_ar": "",
+      "name_en": "Decision 42",
+      "brand": "Amouage",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/decision-42.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 1390,
+              "first_seen": "2026-09-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 1980,
+              "first_seen": "2026-09-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 3300,
+              "first_seen": "2026-09-06"
+            }
+          ],
+          "image": "images/decision-42--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/amouage-decision-42"
+        }
+      ],
+      "_hero_source": "sniffz"
     }
   ]
 }
