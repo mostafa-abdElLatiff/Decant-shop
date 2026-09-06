@@ -1827,13 +1827,14 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 200,
-              "first_seen": "2026-07-18"
+              "price": 190,
+              "first_seen": "2026-07-18",
+              "prev_price": 200
             },
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 900,
+              "price": 950,
               "first_seen": "2026-07-18"
             },
             {
@@ -4634,8 +4635,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 850,
-              "first_seen": "2026-07-18"
+              "price": 775,
+              "first_seen": "2026-07-18",
+              "prev_price": 850
             }
           ],
           "image": "images/afro-leather-alhambra--eldesoki-fragrances.jpg",
@@ -7834,7 +7836,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 750,
+              "price": 775,
               "first_seen": "2026-07-18"
             }
           ],
@@ -18446,7 +18448,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 700,
+              "price": 725,
               "first_seen": "2026-07-18"
             }
           ],
@@ -26322,8 +26324,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1375,
-              "first_seen": "2026-07-20"
+              "price": 1250,
+              "first_seen": "2026-07-20",
+              "prev_price": 1375
             }
           ],
           "image": "images/bois-de-nuit-intense-man--eldesoki-fragrances.jpg",
@@ -79703,7 +79706,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 1900,
+              "price": 1950,
               "first_seen": "2026-07-18"
             }
           ],
@@ -94514,8 +94517,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1975,
-              "first_seen": "2026-09-02"
+              "price": 1850,
+              "first_seen": "2026-09-02",
+              "prev_price": 1975
             }
           ],
           "image": "images/legacy--eldesoki-fragrances.jpg",
@@ -100390,8 +100394,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1500,
-              "first_seen": "2026-09-02"
+              "price": 1450,
+              "first_seen": "2026-09-02",
+              "prev_price": 1500
             }
           ],
           "image": "images/mango-ice--eldesoki-fragrances.jpg",
@@ -100654,8 +100659,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1375,
-              "first_seen": "2026-07-18"
+              "price": 1175,
+              "first_seen": "2026-07-18",
+              "prev_price": 1375
             }
           ],
           "image": "images/marigold--eldesoki-fragrances.jpg",
@@ -165613,8 +165619,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1975,
-              "first_seen": "2026-09-02"
+              "price": 1850,
+              "first_seen": "2026-09-02",
+              "prev_price": 1975
             }
           ],
           "image": "images/vanguard--eldesoki-fragrances.jpg",
@@ -166233,8 +166240,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1650,
-              "first_seen": "2026-09-02"
+              "price": 1600,
+              "first_seen": "2026-09-02",
+              "prev_price": 1650
             }
           ],
           "image": "images/vanilla-aura--eldesoki-fragrances.jpg",
@@ -171824,8 +171832,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 725,
-              "first_seen": "2026-07-19"
+              "price": 675,
+              "first_seen": "2026-07-19",
+              "prev_price": 725
             }
           ],
           "image": "images/white-heart-jean-antoine--eldesoki-fragrances.jpg",
@@ -195587,8 +195596,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1975,
-              "first_seen": "2026-09-02"
+              "price": 1850,
+              "first_seen": "2026-09-02",
+              "prev_price": 1975
             }
           ],
           "image": "images/heritage--eldesoki-fragrances.jpg",
