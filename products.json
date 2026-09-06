@@ -59097,8 +59097,7 @@
               "kind": "full",
               "ml": 50,
               "price": 150,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-09-06"
+              "first_seen": "2026-07-20"
             }
           ],
           "image": "images/french-coffee-alrehab-perfumes--roseperfume.jpg",
@@ -94490,9 +94489,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1850,
+              "price": 1800,
               "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
+              "prev_price": 1850
             }
           ],
           "image": "images/legacy--roseperfume.jpg",
@@ -165571,9 +165570,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1900,
+              "price": 1800,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 1900
             }
           ],
           "image": "images/vanguard--roseperfume.jpg",
@@ -165964,11 +165963,28 @@
           "url": "https://roseperfume.online/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 5,
+              "price": 90,
+              "first_seen": "2026-09-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 150,
+              "first_seen": "2026-09-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 400,
+              "first_seen": "2026-09-06"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1000,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
+              "first_seen": "2026-07-20"
             }
           ],
           "image": "images/vanilla-addiction-gulf-orchid--roseperfume.jpg",
@@ -166134,11 +166150,29 @@
           "url": "https://roseperfume.online/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 5,
+              "price": 110,
+              "first_seen": "2026-09-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-09-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 575,
+              "first_seen": "2026-09-06"
+            },
+            {
               "kind": "full",
               "ml": 100,
-              "price": 1700,
+              "price": 1600,
               "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
+              "prev_price": 1700
             }
           ],
           "image": "images/vanilla-aura--roseperfume.jpg",
@@ -187105,6 +187139,38 @@
           ],
           "image": "images/hawas-la-mer--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/hawas-la-mer"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 125,
+              "first_seen": "2026-09-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 225,
+              "first_seen": "2026-09-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 625,
+              "first_seen": "2026-09-06"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1700,
+              "first_seen": "2026-09-06"
+            }
+          ],
+          "image": "images/hawas-la-mer--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/hawas-la-mer-rasasi"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -195093,6 +195159,38 @@
           ],
           "image": "images/vanilla-latte--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/vanilla-latte"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 90,
+              "first_seen": "2026-09-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 150,
+              "first_seen": "2026-09-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 400,
+              "first_seen": "2026-09-06"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1000,
+              "first_seen": "2026-09-06"
+            }
+          ],
+          "image": "images/vanilla-latte--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/vanilla-latte-gulf-orchid"
         }
       ],
       "_hero_source": "emaratiscents"
