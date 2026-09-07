@@ -67561,8 +67561,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1775,
-              "first_seen": "2026-07-18"
+              "price": 1650,
+              "first_seen": "2026-07-18",
+              "prev_price": 1775
             }
           ],
           "image": "images/hawas-for-him-ice--eldesoki-fragrances.jpg",
@@ -85102,14 +85103,16 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2575,
-              "first_seen": "2026-07-18"
+              "price": 2300,
+              "first_seen": "2026-07-18",
+              "prev_price": 2575
             },
             {
               "kind": "leftover",
               "ml": 200,
-              "price": 2375,
-              "first_seen": "2026-08-31"
+              "price": 2200,
+              "first_seen": "2026-08-31",
+              "prev_price": 2375
             }
           ],
           "image": "images/king-tobacco-laverne--eldesoki-fragrances.jpg",
@@ -96206,8 +96209,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-07"
+              "first_seen": "2026-07-18"
             },
             {
               "kind": "leftover",
@@ -184705,10 +184707,16 @@
               "ml": 10,
               "price": 175,
               "first_seen": "2026-08-10"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 800,
+              "first_seen": "2026-09-07"
             }
           ],
           "image": "images/al-hilal-5--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/al-hilal-5-tester-10ml%d8%a7%d9%84%d9%87%d9%84%d8%a7%d9%84-%d9%a5-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/al-hilal-5-50ml%d8%a7%d9%84%d9%87%d9%84%d8%a7%d9%84-%d9%a5-%d8%ad%d8%ac%d9%85-%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d8%a8%d8%af%d9%88%d9%86-%d8%b9%d9%84%d8%a8%d8%a9/"
         }
       ],
       "_hero_source": "eldesoki-fragrances"
@@ -192247,8 +192255,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1275,
-              "first_seen": "2026-08-21"
+              "price": 1250,
+              "first_seen": "2026-08-21",
+              "prev_price": 1275
             }
           ],
           "image": "images/kingdom-for-men--eldesoki-fragrances.jpg",
@@ -192274,8 +192283,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1225,
-              "first_seen": "2026-08-21"
+              "price": 1175,
+              "first_seen": "2026-08-21",
+              "prev_price": 1225
             }
           ],
           "image": "images/riviera-sunset-ibraq--eldesoki-fragrances.jpg",
@@ -199682,6 +199692,33 @@
         }
       ],
       "_hero_source": "og-perfume"
+    },
+    {
+      "id": "doha-sky-line",
+      "name_ar": "دوحه سكاي لاين ٥٠ملي",
+      "name_en": "Doha Sky Line",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/doha-sky-line.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 875,
+              "first_seen": "2026-09-07"
+            }
+          ],
+          "image": "images/doha-sky-line--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/doha-sky-line-50ml%d8%af%d9%88%d8%ad%d9%87-%d8%b3%d9%83%d8%a7%d9%8a-%d9%84%d8%a7%d9%8a%d9%86-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
