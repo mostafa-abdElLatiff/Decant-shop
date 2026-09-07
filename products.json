@@ -199719,6 +199719,33 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "fresh-rush-bundle",
+      "name_ar": "Fresh Rush Bundle",
+      "name_en": "Fresh Rush Bundle",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/fresh-rush-bundle.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 3400,
+              "first_seen": "2026-09-07"
+            }
+          ],
+          "image": "images/fresh-rush-bundle--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/fresh-rush-bundle"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
