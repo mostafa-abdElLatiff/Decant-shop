@@ -36929,8 +36929,9 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 5545,
+              "price": 2772,
               "first_seen": "2026-07-23",
+              "prev_price": 5545,
               "sold_since": "2026-08-12"
             }
           ],
@@ -40641,8 +40642,7 @@
               "kind": "full",
               "ml": 100,
               "price": 4850,
-              "first_seen": "2026-07-23",
-              "prev_price": 5850
+              "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
@@ -152520,6 +152520,13 @@
             },
             {
               "kind": "full",
+              "ml": 50,
+              "price": 5600,
+              "first_seen": "2026-09-07",
+              "sold_since": "2026-09-07"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 7200,
               "first_seen": "2026-07-23",
@@ -164313,6 +164320,13 @@
               "first_seen": "2026-09-05",
               "prev_price": 7200,
               "sold_since": "2026-09-05"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 8800,
+              "first_seen": "2026-09-07",
+              "sold_since": "2026-09-07"
             }
           ],
           "image": "images/uomo-intense--mazaya.jpg",
