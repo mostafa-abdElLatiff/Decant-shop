@@ -11887,20 +11887,6 @@
               "ml": 100,
               "price": 1550,
               "first_seen": "2026-08-12"
-            },
-            {
-              "kind": "leftover",
-              "ml": 100,
-              "price": 1200,
-              "first_seen": "2026-08-31",
-              "sold_since": "2026-08-31"
-            },
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 2250,
-              "first_seen": "2026-08-31",
-              "sold_since": "2026-08-31"
             }
           ],
           "image": "images/arabian-tobacco--og-perfume.jpg",
@@ -21024,9 +21010,30 @@
           ],
           "image": "images/basso--mostafa-mohamed.jpg",
           "product_url": "https://www.facebook.com/groups/original.perfume.market/posts/27991384253880564/"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 830,
+              "first_seen": "2026-09-07"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 8000,
+              "first_seen": "2026-09-07"
+            }
+          ],
+          "image": "images/basso--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/untitled-sep5_22-26-16"
         }
       ],
-      "category": "niche"
+      "category": "niche",
+      "_hero_source": "og-perfume"
     },
     {
       "id": "baugsons-leave-your-fears-behind-edp",
@@ -25211,20 +25218,6 @@
               "sold_since": "2026-07-19"
             },
             {
-              "kind": "leftover",
-              "ml": 70,
-              "price": 910,
-              "first_seen": "2026-08-31",
-              "sold_since": "2026-08-31"
-            },
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 1950,
-              "first_seen": "2026-08-31",
-              "sold_since": "2026-08-31"
-            },
-            {
               "kind": "full",
               "ml": 200,
               "price": 2100,
@@ -28165,7 +28158,7 @@
               "price": 130,
               "first_seen": "2026-07-19",
               "prev_price": 195,
-              "sold_since": "2026-09-06"
+              "sold_since": "2026-09-07"
             },
             {
               "kind": "decant",
@@ -28178,22 +28171,22 @@
               "kind": "leftover",
               "ml": 100,
               "price": 1150,
-              "first_seen": "2026-08-31",
-              "sold_since": "2026-08-31"
+              "first_seen": "2026-09-07",
+              "sold_since": "2026-09-07"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 1550,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-09-06"
+              "sold_since": "2026-09-07"
             },
             {
               "kind": "full",
               "ml": 200,
               "price": 2250,
-              "first_seen": "2026-08-31",
-              "sold_since": "2026-08-31"
+              "first_seen": "2026-09-07",
+              "sold_since": "2026-09-07"
             }
           ],
           "image": "images/brazilian-tobacco--og-perfume.jpg",
@@ -38922,13 +38915,6 @@
               "sold_since": "2026-09-04"
             },
             {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 625,
-              "first_seen": "2026-08-31",
-              "sold_since": "2026-08-31"
-            },
-            {
               "kind": "full",
               "ml": 100,
               "price": 1250,
@@ -45363,7 +45349,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 120,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-07"
             },
             {
               "kind": "decant",
@@ -59228,14 +59215,14 @@
               "price": 140,
               "first_seen": "2026-07-19",
               "prev_price": 195,
-              "sold_since": "2026-09-06"
+              "sold_since": "2026-09-07"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 525,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-09-06"
+              "sold_since": "2026-09-07"
             },
             {
               "kind": "leftover",
@@ -59249,7 +59236,7 @@
               "ml": 100,
               "price": 1550,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-09-06"
+              "sold_since": "2026-09-07"
             },
             {
               "kind": "full",
@@ -67856,8 +67843,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 185,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-31"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -67870,8 +67856,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-15"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/hawas-for-him-malibu--og-perfume.jpg",
@@ -78234,7 +78219,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 165,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-07"
             },
             {
               "kind": "leftover",
@@ -150260,7 +150246,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 250,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-09-07"
             },
             {
               "kind": "leftover",
@@ -154472,7 +154459,7 @@
               "price": 220,
               "first_seen": "2026-07-19",
               "prev_price": 225,
-              "sold_since": "2026-09-06"
+              "sold_since": "2026-09-07"
             },
             {
               "kind": "decant",
@@ -154500,7 +154487,7 @@
               "ml": 150,
               "price": 2900,
               "first_seen": "2026-07-31",
-              "sold_since": "2026-09-06"
+              "sold_since": "2026-09-07"
             }
           ],
           "image": "images/supremacy-not-only-intense--og-perfume.jpg",
@@ -168678,8 +168665,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 980,
-              "first_seen": "2026-07-21",
-              "sold_since": "2026-07-25"
+              "first_seen": "2026-07-21"
             },
             {
               "kind": "decant",
@@ -168698,9 +168684,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 9500,
+              "price": 9250,
               "first_seen": "2026-07-21",
-              "sold_since": "2026-07-22"
+              "prev_price": 9500
             }
           ],
           "image": "images/vibrato--og-perfume.jpg",
@@ -192097,6 +192083,32 @@
           ],
           "image": "images/rice-milk--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/rice-milk"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 170,
+              "first_seen": "2026-09-07"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 475,
+              "first_seen": "2026-09-07"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1400,
+              "first_seen": "2026-09-07"
+            }
+          ],
+          "image": "images/rice-milk--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/rice-milk-gulf-orchid"
         }
       ],
       "_hero_source": "perfuzone"
@@ -199604,6 +199616,85 @@
         }
       ],
       "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "hawas-majestic",
+      "name_ar": "Hawas Majestic",
+      "name_en": "Hawas Majestic",
+      "brand": "Rasasi",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/hawas-majestic.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 205,
+              "first_seen": "2026-09-07"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 575,
+              "first_seen": "2026-09-07",
+              "sold_since": "2026-09-07"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1750,
+              "first_seen": "2026-09-07"
+            }
+          ],
+          "image": "images/hawas-majestic--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/hawas-majestic"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "pink-queen",
+      "name_ar": "Pink Queen",
+      "name_en": "Pink Queen",
+      "brand": "Assaf",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/pink-queen.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 115,
+              "first_seen": "2026-09-07"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 300,
+              "first_seen": "2026-09-07"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 1650,
+              "first_seen": "2026-09-07"
+            }
+          ],
+          "image": "images/pink-queen--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/pink-queen-assaf-200ml"
+        }
+      ],
+      "_hero_source": "og-perfume"
     }
   ]
 }
