@@ -104373,7 +104373,8 @@
               "kind": "full",
               "ml": 10,
               "price": 1400,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-07"
             }
           ],
           "image": "images/mini-diamond-collection--emaratiscents.jpg",
@@ -136470,8 +136471,7 @@
               "kind": "full",
               "ml": 50,
               "price": 1550,
-              "first_seen": "2026-08-01",
-              "sold_since": "2026-09-05"
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/reflection-mykonos--emaratiscents.jpg",
@@ -147233,7 +147233,8 @@
               "kind": "full",
               "ml": 100,
               "price": 970,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-07"
             }
           ],
           "image": "images/silk-musk--emaratiscents.jpg",
@@ -178063,6 +178064,20 @@
           ],
           "image": "images/qasida-al-badr--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/qasida-al-badr-100ml%d9%82%d8%b5%d9%8a%d8%af%d8%a9-%d8%a7%d9%84%d8%a8%d8%af%d8%b1-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2350,
+              "first_seen": "2026-09-07"
+            }
+          ],
+          "image": "images/qasida-al-badr--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/qasida-al-badr-200-ml"
         }
       ],
       "_hero_source": "dar.elarabia",
@@ -178090,6 +178105,20 @@
           ],
           "image": "images/qasida-signature--dar-elarabia.jpg",
           "product_url": "https://darelarabia.com/products/qasida-signature"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2350,
+              "first_seen": "2026-09-07"
+            }
+          ],
+          "image": "images/qasida-signature--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/qasida-signature-200-ml"
         }
       ],
       "_hero_source": "dar.elarabia",
@@ -178145,6 +178174,20 @@
           ],
           "image": "images/qasida-bakhour--dar-elarabia.jpg",
           "product_url": "https://darelarabia.com/products/qasida-bakhour"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2350,
+              "first_seen": "2026-09-07"
+            }
+          ],
+          "image": "images/qasida-bakhour--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/qasida-bakhour-200-ml"
         }
       ],
       "_hero_source": "dar.elarabia",
@@ -197538,6 +197581,20 @@
           ],
           "image": "images/qasida-purity--dar-elarabia.jpg",
           "product_url": "https://darelarabia.com/products/qasida-puirry"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2350,
+              "first_seen": "2026-09-07"
+            }
+          ],
+          "image": "images/qasida-purity--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/qasida-purity-200-ml"
         }
       ],
       "_hero_source": "dar.elarabia"
@@ -200080,6 +200137,33 @@
           ],
           "image": "images/qasida-sahm-faan-perfumes--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/qasida-sahm-200-ml"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "qasida-dunes-faan-perfumes",
+      "name_ar": "Qasida Dunes",
+      "name_en": "Qasida Dunes",
+      "brand": "FAAN Perfumes",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/qasida-dunes-faan-perfumes.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2350,
+              "first_seen": "2026-09-07"
+            }
+          ],
+          "image": "images/qasida-dunes-faan-perfumes--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/qasida-dunes-200-ml"
         }
       ],
       "_hero_source": "emaratiscents"
