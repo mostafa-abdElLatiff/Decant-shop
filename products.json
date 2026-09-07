@@ -11887,6 +11887,20 @@
               "ml": 100,
               "price": 1550,
               "first_seen": "2026-08-12"
+            },
+            {
+              "kind": "leftover",
+              "ml": 100,
+              "price": 1200,
+              "first_seen": "2026-09-07",
+              "sold_since": "2026-09-07"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2250,
+              "first_seen": "2026-09-07",
+              "sold_since": "2026-09-07"
             }
           ],
           "image": "images/arabian-tobacco--og-perfume.jpg",
@@ -25216,6 +25230,20 @@
               "first_seen": "2026-07-19",
               "prev_price": 425,
               "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 70,
+              "price": 910,
+              "first_seen": "2026-09-07",
+              "sold_since": "2026-09-07"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 1950,
+              "first_seen": "2026-09-07",
+              "sold_since": "2026-09-07"
             },
             {
               "kind": "full",
@@ -38915,6 +38943,13 @@
               "sold_since": "2026-09-04"
             },
             {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 625,
+              "first_seen": "2026-09-07",
+              "sold_since": "2026-09-07"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1250,
@@ -46591,8 +46626,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 300,
-              "first_seen": "2026-07-21",
-              "sold_since": "2026-09-03"
+              "first_seen": "2026-07-21"
             },
             {
               "kind": "decant",
@@ -168672,8 +168706,7 @@
               "kind": "full",
               "ml": 100,
               "price": 9250,
-              "first_seen": "2026-07-21",
-              "prev_price": 9500
+              "first_seen": "2026-07-21"
             }
           ],
           "image": "images/vibrato--og-perfume.jpg",
