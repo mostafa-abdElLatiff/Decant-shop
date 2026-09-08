@@ -4408,7 +4408,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2100,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-08"
             }
           ],
           "image": "images/afeef--emaratiscents.jpg",
@@ -107014,7 +107015,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1250,
-              "first_seen": "2026-07-26"
+              "first_seen": "2026-07-26",
+              "sold_since": "2026-09-08"
             }
           ],
           "image": "images/muharib-hero--emaratiscents.jpg",
@@ -133891,9 +133893,8 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 780,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-31"
+              "price": 1030,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/ramad-al-oud--emaratiscents.jpg",
@@ -191474,7 +191475,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1850,
-              "first_seen": "2026-08-17"
+              "first_seen": "2026-08-17",
+              "sold_since": "2026-09-08"
             }
           ],
           "image": "images/ramad--emaratiscents.jpg",
@@ -200310,6 +200312,60 @@
         }
       ],
       "_hero_source": "sniffz"
+    },
+    {
+      "id": "a-ayan",
+      "name_ar": "A'Ayan",
+      "name_en": "A'Ayan",
+      "brand": "Lattafa",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/a-ayan.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1380,
+              "first_seen": "2026-09-08"
+            }
+          ],
+          "image": "images/a-ayan--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/aayan"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "raghad",
+      "name_ar": "Raghad",
+      "name_en": "Raghad",
+      "brand": "Lattafa",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/raghad.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1950,
+              "first_seen": "2026-09-08"
+            }
+          ],
+          "image": "images/raghad--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/raghad"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
