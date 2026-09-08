@@ -22397,7 +22397,8 @@
               "kind": "full",
               "ml": 30,
               "price": 9250,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-09-08"
             }
           ],
           "image": "images/black-afgano--mazaya.jpg",
@@ -53193,7 +53194,8 @@
               "kind": "full",
               "ml": 100,
               "price": 3760,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-09-08"
             }
           ],
           "image": "images/euphoria-eau-de-toilette--mazaya.jpg",
@@ -78214,7 +78216,6 @@
               "ml": 100,
               "price": 19500,
               "first_seen": "2026-07-23",
-              "prev_price": 19650,
               "sold_since": "2026-07-23"
             }
           ],
@@ -175274,6 +175275,7 @@
               "ml": 60,
               "price": 7800,
               "first_seen": "2026-07-23",
+              "prev_price": 8200,
               "sold_since": "2026-09-08"
             },
             {
@@ -175281,6 +175283,7 @@
               "ml": 100,
               "price": 8800,
               "first_seen": "2026-07-23",
+              "prev_price": 9800,
               "sold_since": "2026-09-08"
             },
             {
