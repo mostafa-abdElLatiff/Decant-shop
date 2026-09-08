@@ -101046,6 +101046,32 @@
           ],
           "image": "images/marmara--eslam-nasser.jpg",
           "product_url": "https://www.facebook.com/groups/720783370622840/posts/907937451907430"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 160,
+              "first_seen": "2026-09-08"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 210,
+              "first_seen": "2026-09-08"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 320,
+              "first_seen": "2026-09-08"
+            }
+          ],
+          "image": "images/marmara--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/french-avenue-marmara"
         }
       ],
       "_hero_source": "MO Shawky",
@@ -178585,6 +178611,32 @@
           ],
           "image": "images/hawas-nautilus--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/hawas-nautilus-rasasi"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 125,
+              "first_seen": "2026-09-08"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 165,
+              "first_seen": "2026-09-08"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 250,
+              "first_seen": "2026-09-08"
+            }
+          ],
+          "image": "images/hawas-nautilus--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/rasasi-hawas-nautilus"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -183686,6 +183738,24 @@
           "url": "https://sniffz-eg.com/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 3,
+              "price": 105,
+              "first_seen": "2026-09-08"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 135,
+              "first_seen": "2026-09-08"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 210,
+              "first_seen": "2026-09-08"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1300,
@@ -183693,7 +183763,7 @@
             }
           ],
           "image": "images/bade-e-al-oud-honor-glory--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/lattafa-badee-al-oud-honor-glory-full-sealed"
+          "product_url": "https://sniffz-eg.com/products/lattafa-badee-al-oud-honor-glory"
         }
       ],
       "_hero_source": "sniffz",
@@ -200211,6 +200281,45 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "ravin-ice",
+      "name_ar": "",
+      "name_en": "Ravin Ice",
+      "brand": "French Avenue",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/ravin-ice.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 130,
+              "first_seen": "2026-09-08"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 175,
+              "first_seen": "2026-09-08"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 265,
+              "first_seen": "2026-09-08"
+            }
+          ],
+          "image": "images/ravin-ice--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/french-avenue-ravin-ice"
+        }
+      ],
+      "_hero_source": "sniffz"
     }
   ]
 }
