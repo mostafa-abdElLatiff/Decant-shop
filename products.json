@@ -29246,7 +29246,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 215,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-08"
             },
             {
               "kind": "decant",
@@ -45800,7 +45801,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 150,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-08"
             },
             {
               "kind": "decant",
@@ -45824,10 +45826,18 @@
               "sold_since": "2026-08-20"
             },
             {
+              "kind": "leftover",
+              "ml": 70,
+              "price": 840,
+              "first_seen": "2026-09-08",
+              "sold_since": "2026-09-08"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-08"
             }
           ],
           "image": "images/dynasty--og-perfume.jpg",
@@ -52359,7 +52369,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1250,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-08"
             }
           ],
           "image": "images/eshal-vanilla--og-perfume.jpg",
@@ -67663,8 +67674,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 195,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-01"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
@@ -68501,7 +68511,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 225,
-              "first_seen": "2026-07-24"
+              "first_seen": "2026-07-24",
+              "sold_since": "2026-09-08"
             },
             {
               "kind": "decant",
@@ -79785,7 +79796,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 325,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-08"
             },
             {
               "kind": "leftover",
@@ -83401,7 +83413,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 140,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-08"
             },
             {
               "kind": "leftover",
@@ -108620,7 +108633,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 500,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-08"
             },
             {
               "kind": "leftover",
@@ -113171,7 +113185,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 340,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-08"
             },
             {
               "kind": "full",
@@ -142995,7 +143010,8 @@
               "kind": "leftover",
               "ml": 40,
               "price": 540,
-              "first_seen": "2026-08-19"
+              "first_seen": "2026-08-19",
+              "sold_since": "2026-09-08"
             },
             {
               "kind": "leftover",
@@ -165684,8 +165700,9 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 975,
+              "price": 875,
               "first_seen": "2026-07-19",
+              "prev_price": 975,
               "sold_since": "2026-07-19"
             },
             {
@@ -192341,8 +192358,7 @@
               "kind": "decant",
               "ml": 30,
               "price": 475,
-              "first_seen": "2026-09-07",
-              "sold_since": "2026-09-07"
+              "first_seen": "2026-09-07"
             },
             {
               "kind": "full",
@@ -199955,7 +199971,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 300,
-              "first_seen": "2026-09-07"
+              "first_seen": "2026-09-07",
+              "sold_since": "2026-09-08"
             },
             {
               "kind": "full",
