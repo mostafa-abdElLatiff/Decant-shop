@@ -85151,7 +85151,8 @@
               "kind": "full",
               "ml": 200,
               "price": 3450,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-09-08"
             }
           ],
           "image": "images/king-s-signature-bundle--emaratiscents.jpg",
@@ -107086,7 +107087,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-08-30"
+              "first_seen": "2026-08-30",
+              "sold_since": "2026-09-08"
             }
           ],
           "image": "images/muharib-le-falcone--emaratiscents.jpg",
@@ -138381,7 +138383,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-08"
             }
           ],
           "image": "images/rose--emaratiscents.jpg",
@@ -144133,8 +144136,7 @@
               "kind": "full",
               "ml": 75,
               "price": 1850,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-07-27"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/shaghaf-oud--emaratiscents.jpg",
@@ -147335,8 +147337,7 @@
               "kind": "full",
               "ml": 100,
               "price": 970,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-07"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/silk-musk--emaratiscents.jpg",
@@ -153594,8 +153595,7 @@
               "kind": "full",
               "ml": 75,
               "price": 4500,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-07"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/summer-musk-bundle--emaratiscents.jpg",
@@ -169312,7 +169312,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1530,
-              "first_seen": "2026-08-29"
+              "first_seen": "2026-08-29",
+              "sold_since": "2026-09-08"
             }
           ],
           "image": "images/vintage-radio--emaratiscents.jpg",
@@ -187585,8 +187586,7 @@
               "kind": "full",
               "ml": 10,
               "price": 2200,
-              "first_seen": "2026-08-14",
-              "sold_since": "2026-09-08"
+              "first_seen": "2026-08-14"
             }
           ],
           "image": "images/the-diamond-experience-set--emaratiscents.jpg",
@@ -187640,8 +187640,7 @@
               "kind": "full",
               "ml": 105,
               "price": 3750,
-              "first_seen": "2026-08-14",
-              "sold_since": "2026-09-08"
+              "first_seen": "2026-08-14"
             }
           ],
           "image": "images/d-or-tresor-twilight-secrets-set--emaratiscents.jpg",
@@ -200417,6 +200416,33 @@
           ],
           "image": "images/raghad--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/raghad"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "hersh-al-asof-al-ezz-oud",
+      "name_ar": "Hersh Al Asof",
+      "name_en": "Hersh Al Asof",
+      "brand": "Al Ezz Oud",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/hersh-al-asof-al-ezz-oud.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3200,
+              "first_seen": "2026-09-08"
+            }
+          ],
+          "image": "images/hersh-al-asof-al-ezz-oud--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/hersh-al-asof"
         }
       ],
       "_hero_source": "emaratiscents"
