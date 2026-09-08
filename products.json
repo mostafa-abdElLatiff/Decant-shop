@@ -1656,8 +1656,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1575,
-              "first_seen": "2026-07-30"
+              "price": 1525,
+              "first_seen": "2026-07-30",
+              "prev_price": 1575
             }
           ],
           "image": "images/9pm--eldesoki-fragrances.jpg",
@@ -1827,7 +1828,7 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 190,
+              "price": 200,
               "first_seen": "2026-07-18"
             },
             {
@@ -41102,8 +41103,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1750,
+              "price": 1550,
               "first_seen": "2026-07-19",
+              "prev_price": 1750,
               "sold_since": "2026-07-19"
             }
           ],
@@ -42921,8 +42923,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1650,
+              "price": 1550,
               "first_seen": "2026-07-19",
+              "prev_price": 1650,
               "sold_since": "2026-07-19"
             }
           ],
@@ -43182,8 +43185,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1650,
-              "first_seen": "2026-07-18"
+              "price": 1550,
+              "first_seen": "2026-07-18",
+              "prev_price": 1650
             }
           ],
           "image": "images/dkhoon-oud--eldesoki-fragrances.jpg",
@@ -43370,8 +43374,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1675,
-              "first_seen": "2026-07-18"
+              "price": 1550,
+              "first_seen": "2026-07-18",
+              "prev_price": 1675
             }
           ],
           "image": "images/dkhoon-rose--eldesoki-fragrances.jpg",
@@ -93634,6 +93639,20 @@
           ],
           "image": "images/le-male-in-blue--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/jean-paul-gaultier-le-male-in-blue-eau-de-parfum-017217606132.html"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 6750,
+              "first_seen": "2026-09-08"
+            }
+          ],
+          "image": "images/le-male-in-blue--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/le-male-in-blue-jean-paul-gaultier-125ml/"
         }
       ],
       "_hero_source": "sniffz",
@@ -100975,8 +100994,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 225,
-              "first_seen": "2026-08-31"
+              "price": 200,
+              "first_seen": "2026-08-31",
+              "prev_price": 225
             },
             {
               "kind": "full",
@@ -107765,8 +107785,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1650,
+              "price": 1550,
               "first_seen": "2026-07-19",
+              "prev_price": 1650,
               "sold_since": "2026-07-19"
             }
           ],
@@ -108052,7 +108073,7 @@
             {
               "kind": "full",
               "ml": 20,
-              "price": 3800,
+              "price": 4050,
               "first_seen": "2026-07-18"
             }
           ],
@@ -128294,8 +128315,9 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 1575,
-              "first_seen": "2026-07-18"
+              "price": 1550,
+              "first_seen": "2026-07-18",
+              "prev_price": 1575
             }
           ],
           "image": "images/pomegranate-musk-dkhoon--eldesoki-fragrances.jpg",
@@ -146813,8 +146835,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1675,
+              "price": 1550,
               "first_seen": "2026-07-19",
+              "prev_price": 1675,
               "sold_since": "2026-07-19"
             }
           ],
@@ -175684,8 +175707,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1575,
-              "first_seen": "2026-07-18"
+              "price": 1550,
+              "first_seen": "2026-07-18",
+              "prev_price": 1575
             }
           ],
           "image": "images/zayed-dkhoon-emirates--eldesoki-fragrances.jpg",
