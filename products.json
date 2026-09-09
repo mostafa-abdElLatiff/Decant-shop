@@ -200457,6 +200457,45 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "almas-bahar-el-arab",
+      "name_ar": "",
+      "name_en": "Almas Bahar el Arab",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/almas-bahar-el-arab.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 90,
+              "first_seen": "2026-09-09"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 120,
+              "first_seen": "2026-09-09"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 180,
+              "first_seen": "2026-09-09"
+            }
+          ],
+          "image": "images/almas-bahar-el-arab--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/almas-bahar-el-arab"
+        }
+      ],
+      "_hero_source": "sniffz"
     }
   ]
 }
