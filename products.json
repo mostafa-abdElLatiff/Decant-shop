@@ -120926,8 +120926,7 @@
               "kind": "full",
               "ml": 75,
               "price": 2250,
-              "first_seen": "2026-08-02",
-              "sold_since": "2026-08-04"
+              "first_seen": "2026-08-02"
             }
           ],
           "image": "images/osma-amber-s--emaratiscents.jpg",
@@ -140596,7 +140595,8 @@
               "kind": "full",
               "ml": 100,
               "price": 780,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-09"
             }
           ],
           "image": "images/salvo--emaratiscents.jpg",
@@ -177435,8 +177435,7 @@
               "kind": "full",
               "ml": 75,
               "price": 2250,
-              "first_seen": "2026-08-02",
-              "sold_since": "2026-08-12"
+              "first_seen": "2026-08-02"
             }
           ],
           "image": "images/paudree-f--emaratiscents.jpg",
@@ -183437,7 +183436,8 @@
               "kind": "full",
               "ml": 80,
               "price": 1260,
-              "first_seen": "2026-08-07"
+              "first_seen": "2026-08-07",
+              "sold_since": "2026-09-09"
             }
           ],
           "image": "images/smoky-touch--emaratiscents.jpg",
@@ -191660,7 +191660,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1850,
-              "first_seen": "2026-08-17"
+              "first_seen": "2026-08-17",
+              "sold_since": "2026-09-09"
             }
           ],
           "image": "images/ramad-louban--emaratiscents.jpg",
@@ -199809,6 +199810,20 @@
           ],
           "image": "images/hersh-2010--dar-elarabia.jpg",
           "product_url": "https://darelarabia.com/products/hersh-2010"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3400,
+              "first_seen": "2026-09-09"
+            }
+          ],
+          "image": "images/hersh-2010--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/hersh-2010"
         }
       ],
       "_hero_source": "dar.elarabia"
@@ -200456,7 +200471,8 @@
               "kind": "full",
               "ml": 200,
               "price": 2350,
-              "first_seen": "2026-09-07"
+              "first_seen": "2026-09-07",
+              "sold_since": "2026-09-09"
             }
           ],
           "image": "images/qasida-sahm-faan-perfumes--emaratiscents.jpg",
@@ -201093,6 +201109,33 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "royal-enable-mix",
+      "name_ar": "Royal Enable Mix",
+      "name_en": "Royal Enable Mix",
+      "brand": "Assaf",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/royal-enable-mix.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 1750,
+              "first_seen": "2026-09-09"
+            }
+          ],
+          "image": "images/royal-enable-mix--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/royal-enable-mix"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
