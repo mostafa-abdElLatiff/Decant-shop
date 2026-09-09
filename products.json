@@ -2112,7 +2112,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1950,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-09"
             }
           ],
           "image": "images/9pm-night-out--emaratiscents.jpg",
@@ -8318,6 +8319,20 @@
           ],
           "image": "images/amber-empire--eslam-nasser.jpg",
           "product_url": "https://www.facebook.com/groups/720783370622840/posts/907937451907430"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-09-09"
+            }
+          ],
+          "image": "images/amber-empire--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/amber-empire"
         }
       ],
       "_hero_source": "sniffz",
@@ -38000,6 +38015,20 @@
           ],
           "image": "images/crimson--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/crimson-rayhaan"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1550,
+              "first_seen": "2026-09-09"
+            }
+          ],
+          "image": "images/crimson--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/rayhaan-crimson"
         }
       ],
       "_hero_source": "sniffz",
@@ -66986,7 +67015,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-09"
             }
           ],
           "image": "images/hawas-elixir--emaratiscents.jpg",
@@ -70615,7 +70645,8 @@
               "kind": "full",
               "ml": 100,
               "price": 3250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-09"
             }
           ],
           "image": "images/hersh-mehwar-old-batch--emaratiscents.jpg",
@@ -104459,8 +104490,7 @@
               "kind": "full",
               "ml": 10,
               "price": 1400,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-07"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/mini-diamond-collection--emaratiscents.jpg",
@@ -107098,8 +107128,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-08-30",
-              "sold_since": "2026-09-08"
+              "first_seen": "2026-08-30"
             }
           ],
           "image": "images/muharib-le-falcone--emaratiscents.jpg",
@@ -138396,8 +138425,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-08"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/rose--emaratiscents.jpg",
@@ -140513,8 +140541,7 @@
               "kind": "full",
               "ml": 100,
               "price": 780,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-08"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/salvo--emaratiscents.jpg",
@@ -144082,7 +144109,8 @@
               "kind": "full",
               "ml": 100,
               "price": 3800,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-09"
             }
           ],
           "image": "images/shaghaf-gift-set-2--emaratiscents.jpg",
@@ -187635,7 +187663,8 @@
               "kind": "full",
               "ml": 105,
               "price": 3750,
-              "first_seen": "2026-08-14"
+              "first_seen": "2026-08-14",
+              "sold_since": "2026-09-09"
             }
           ],
           "image": "images/elixir-de-bronze-twilight-secrets-set--emaratiscents.jpg",
@@ -191033,7 +191062,8 @@
               "kind": "full",
               "ml": 162,
               "price": 2350,
-              "first_seen": "2026-08-16"
+              "first_seen": "2026-08-16",
+              "sold_since": "2026-09-09"
             }
           ],
           "image": "images/teriaq-intense-gift-set--emaratiscents.jpg",
@@ -200312,13 +200342,19 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 100,
+              "price": 1550,
+              "first_seen": "2026-09-09"
+            },
+            {
+              "kind": "full",
               "ml": 200,
               "price": 2350,
               "first_seen": "2026-09-07"
             }
           ],
           "image": "images/qasida-sahm-faan-perfumes--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/qasida-sahm-200-ml"
+          "product_url": "https://emaratiscents.com/products/qasida-sahm-100-ml"
         }
       ],
       "_hero_source": "emaratiscents"
