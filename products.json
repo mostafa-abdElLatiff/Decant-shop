@@ -92579,6 +92579,12 @@
               "ml": 5,
               "price": 330,
               "first_seen": "2026-07-17"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 575,
+              "first_seen": "2026-09-09"
             }
           ],
           "image": "images/le-beau-le-parfum--mo-shawky.jpg",
@@ -147003,13 +147009,20 @@
           "offers": [
             {
               "kind": "decant",
+              "ml": 5,
+              "price": 255,
+              "first_seen": "2026-09-09"
+            },
+            {
+              "kind": "decant",
               "ml": 10,
               "price": 435,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-09-09"
             }
           ],
           "image": "images/signature-mont-blanc--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/montblanc-signature-10ml-380"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/montblanc-signature-5ml-381"
         }
       ],
       "_hero_source": "MO Shawky",
@@ -175050,7 +175063,7 @@
             }
           ],
           "image": "images/y-edp-intense--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ysl-y-edp-intense-5ml-315"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ysl-y-edp-intense-3ml-456"
         },
         {
           "name": "feel22",
