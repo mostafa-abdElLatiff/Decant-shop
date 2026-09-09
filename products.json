@@ -57145,7 +57145,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1375,
+              "price": 1500,
               "first_seen": "2026-07-18"
             }
           ],
@@ -63339,7 +63339,8 @@
               "kind": "full",
               "ml": 100,
               "price": 700,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-09"
             }
           ],
           "image": "images/goodness-oud-riffs--eldesoki-fragrances.jpg",
@@ -128625,8 +128626,9 @@
             {
               "kind": "full",
               "ml": 80,
-              "price": 1475,
-              "first_seen": "2026-07-18"
+              "price": 1150,
+              "first_seen": "2026-07-18",
+              "prev_price": 1475
             }
           ],
           "image": "images/portrait-oud--eldesoki-fragrances.jpg",
@@ -200204,8 +200206,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2975,
-              "first_seen": "2026-09-07",
-              "sold_since": "2026-09-09"
+              "first_seen": "2026-09-07"
             }
           ],
           "image": "images/hersh-mehwar-ezz-oud--eldesoki-fragrances.jpg",
@@ -200345,6 +200346,20 @@
           ],
           "image": "images/amjad-coral--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/amjad-coral-200-ml"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2150,
+              "first_seen": "2026-09-09"
+            }
+          ],
+          "image": "images/amjad-coral--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/amjad-coral-200ml-faan%d8%a7%d9%85%d8%ac%d8%a7%d8%af-%d9%83%d9%88%d8%b1%d8%a7%d9%84-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%81%d8%a7%d9%86-%d9%84%d9%84%d8%a5%d8%a8%d8%af%d8%a7%d8%b9/"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -200372,6 +200387,20 @@
           ],
           "image": "images/amjad-honour--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/amjad-honour-200-ml"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2150,
+              "first_seen": "2026-09-09"
+            }
+          ],
+          "image": "images/amjad-honour--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/amjad-honour-200ml-faan%d8%a7%d9%85%d8%ac%d8%a7%d8%af-%d8%a7%d9%88%d9%86%d8%b1-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%85-%d9%81%d8%a7%d9%86-%d9%84%d9%84%d8%a5%d8%a8%d8%af%d8%a7%d8%b9/"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -200432,6 +200461,20 @@
           ],
           "image": "images/qasida-sahm-faan-perfumes--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/qasida-sahm-100-ml"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2150,
+              "first_seen": "2026-09-09"
+            }
+          ],
+          "image": "images/qasida-sahm-faan-perfumes--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/qasida-sahm-200ml-faan%d9%82%d8%b5%d9%8a%d8%af%d8%a9-%d8%b3%d9%87%d9%85-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%81%d8%a7%d9%86-%d9%84%d9%84%d8%a5%d8%a8%d8%af%d8%a7%d8%b9/"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -200969,6 +201012,87 @@
         }
       ],
       "_hero_source": "sniffz"
+    },
+    {
+      "id": "qasida-bakhur-faan",
+      "name_ar": "قصيدة بخور ٢٠٠ملي من فان للإبداع",
+      "name_en": "Qasida Bakhur Faan",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/qasida-bakhur-faan.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2150,
+              "first_seen": "2026-09-09"
+            }
+          ],
+          "image": "images/qasida-bakhur-faan--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/qasida-bakhur-200ml-faan%d9%82%d8%b5%d9%8a%d8%af%d8%a9-%d8%a8%d8%ae%d9%88%d8%b1-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%81%d8%a7%d9%86-%d9%84%d9%84%d8%a5%d8%a8%d8%af%d8%a7%d8%b9/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "qasida-signature-faan",
+      "name_ar": "قصيدة سجنتشر ٢٠٠ملي من فان للإبداع",
+      "name_en": "Qasida Signature Faan",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/qasida-signature-faan.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2150,
+              "first_seen": "2026-09-09"
+            }
+          ],
+          "image": "images/qasida-signature-faan--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/qaseda-signature-200ml-faan%d9%82%d8%b5%d9%8a%d8%af%d8%a9-%d8%b3%d8%ac%d9%86%d8%aa%d8%b4%d8%b1-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%81%d8%a7%d9%86-%d9%84%d9%84%d8%a5%d8%a8%d8%af/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "qasida-purity-faan",
+      "name_ar": "قصيدة بيورتي ٢٠٠ملي من فان للإبداع",
+      "name_en": "Qasida Purity Faan",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/qasida-purity-faan.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2150,
+              "first_seen": "2026-09-09"
+            }
+          ],
+          "image": "images/qasida-purity-faan--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/qaseda-purity-200ml-faan%d9%82%d8%b5%d9%8a%d8%af%d8%a9-%d8%a8%d9%8a%d9%88%d8%b1%d8%aa%d9%8a-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%81%d8%a7%d9%86-%d9%84%d9%84%d8%a5%d8%a8%d8%af%d8%a7/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
