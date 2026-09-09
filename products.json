@@ -26730,6 +26730,32 @@
           ],
           "image": "images/bonfire-vanilla--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/bonfire-vanilla"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 150,
+              "first_seen": "2026-09-09"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 195,
+              "first_seen": "2026-09-09"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 300,
+              "first_seen": "2026-09-09"
+            }
+          ],
+          "image": "images/bonfire-vanilla--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/mykonos-bonfire-vanilla"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -55120,19 +55146,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 70,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-09-09"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 95,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-09-09"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 140,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-09"
             },
             {
               "kind": "full",
@@ -55143,7 +55172,7 @@
             }
           ],
           "image": "images/fakhar-black--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/lattafa-fakhar-black"
+          "product_url": "https://sniffz-eg.com/products/lattafa-fakhar-black-full-sealed"
         },
         {
           "name": "roseperfume",
@@ -136511,6 +136540,32 @@
           ],
           "image": "images/reflection-elixir--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/reflection-elixir"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 150,
+              "first_seen": "2026-09-09"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 195,
+              "first_seen": "2026-09-09"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 300,
+              "first_seen": "2026-09-09"
+            }
+          ],
+          "image": "images/reflection-elixir--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/mykonos-reflection-elixir"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -192459,6 +192514,32 @@
           ],
           "image": "images/california-blue--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/california-blue"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 150,
+              "first_seen": "2026-09-09"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 195,
+              "first_seen": "2026-09-09"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 300,
+              "first_seen": "2026-09-09"
+            }
+          ],
+          "image": "images/california-blue--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/mykonos-california-blue"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -200537,6 +200618,354 @@
           ],
           "image": "images/almas-bahar-el-arab--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/almas-bahar-el-arab"
+        }
+      ],
+      "_hero_source": "sniffz"
+    },
+    {
+      "id": "mykonons-california-club",
+      "name_ar": "",
+      "name_en": "Mykonons California Club",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/mykonons-california-club.jpg",
+      "accords": [
+        {
+          "label_en": "Violet Leaf",
+          "label_ar": "",
+          "color": "#EEDDCC",
+          "w": 100
+        },
+        {
+          "label_en": "Bergamot",
+          "label_ar": "",
+          "color": "#F9FF52",
+          "w": 90
+        },
+        {
+          "label_en": "Lemon",
+          "label_ar": "",
+          "color": "#F9FF52",
+          "w": 80
+        },
+        {
+          "label_en": "Violet",
+          "label_ar": "",
+          "color": "#EEDDCC",
+          "w": 70
+        },
+        {
+          "label_en": "Rose",
+          "label_ar": "",
+          "color": "#FE016B",
+          "w": 60
+        },
+        {
+          "label_en": "Iris",
+          "label_ar": "",
+          "color": "#b7a7d7",
+          "w": 50
+        },
+        {
+          "label_en": "Ambrette",
+          "label_ar": "",
+          "color": "#E7D8EA",
+          "w": 40
+        },
+        {
+          "label_en": "Amberwood",
+          "label_ar": "",
+          "color": "#bc4d10",
+          "w": 40
+        },
+        {
+          "label_en": "Sandalwood",
+          "label_ar": "",
+          "color": "#774414",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 150,
+              "first_seen": "2026-09-09"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 195,
+              "first_seen": "2026-09-09"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 300,
+              "first_seen": "2026-09-09"
+            }
+          ],
+          "image": "images/mykonons-california-club--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/mykonons-california-club"
+        }
+      ],
+      "_hero_source": "sniffz"
+    },
+    {
+      "id": "mykonos-senja",
+      "name_ar": "",
+      "name_en": "Mykonos Senja",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/mykonos-senja.jpg",
+      "accords": [
+        {
+          "label_en": "Bergamot",
+          "label_ar": "",
+          "color": "#F9FF52",
+          "w": 100
+        },
+        {
+          "label_en": "Lavender",
+          "label_ar": "",
+          "color": "#9B7DB8",
+          "w": 90
+        },
+        {
+          "label_en": "Cardamom",
+          "label_ar": "",
+          "color": "#CC3300",
+          "w": 80
+        },
+        {
+          "label_en": "Lemon",
+          "label_ar": "",
+          "color": "#F9FF52",
+          "w": 70
+        },
+        {
+          "label_en": "Basil",
+          "label_ar": "",
+          "color": "#37a089",
+          "w": 60
+        },
+        {
+          "label_en": "Powdery Notes",
+          "label_ar": "",
+          "color": "#EEDDCC",
+          "w": 50
+        },
+        {
+          "label_en": "Rose Petals",
+          "label_ar": "",
+          "color": "#FE016B",
+          "w": 40
+        },
+        {
+          "label_en": "Geranium",
+          "label_ar": "",
+          "color": "#0E8C1D",
+          "w": 40
+        },
+        {
+          "label_en": "Jasmine",
+          "label_ar": "",
+          "color": "#FF5F8D",
+          "w": 40
+        },
+        {
+          "label_en": "Rose",
+          "label_ar": "",
+          "color": "#FE016B",
+          "w": 40
+        },
+        {
+          "label_en": "Vanilla",
+          "label_ar": "",
+          "color": "#FFFEC0",
+          "w": 40
+        },
+        {
+          "label_en": "Sandalwood",
+          "label_ar": "",
+          "color": "#774414",
+          "w": 40
+        },
+        {
+          "label_en": "Amber",
+          "label_ar": "",
+          "color": "#bc4d10",
+          "w": 40
+        },
+        {
+          "label_en": "Cedarwood",
+          "label_ar": "",
+          "color": "#774414",
+          "w": 40
+        },
+        {
+          "label_en": "Musk",
+          "label_ar": "",
+          "color": "#E7D8EA",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 150,
+              "first_seen": "2026-09-09"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 195,
+              "first_seen": "2026-09-09"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 300,
+              "first_seen": "2026-09-09"
+            }
+          ],
+          "image": "images/mykonos-senja--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/mykonos-senja"
+        }
+      ],
+      "_hero_source": "sniffz"
+    },
+    {
+      "id": "mykonos-monoco-royale",
+      "name_ar": "",
+      "name_en": "Mykonos Monoco Royale",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/mykonos-monoco-royale.jpg",
+      "accords": [
+        {
+          "label_en": "Bergamot",
+          "label_ar": "",
+          "color": "#F9FF52",
+          "w": 100
+        },
+        {
+          "label_en": "Jasmine",
+          "label_ar": "",
+          "color": "#FF5F8D",
+          "w": 90
+        },
+        {
+          "label_en": "Orange",
+          "label_ar": "",
+          "color": "#F9FF52",
+          "w": 80
+        },
+        {
+          "label_en": "Lemon",
+          "label_ar": "",
+          "color": "#F9FF52",
+          "w": 70
+        },
+        {
+          "label_en": "Rose",
+          "label_ar": "",
+          "color": "#FE016B",
+          "w": 60
+        },
+        {
+          "label_en": "Apricot",
+          "label_ar": "",
+          "color": "#FC4B29",
+          "w": 50
+        },
+        {
+          "label_en": "Floral Notes",
+          "label_ar": "",
+          "color": "#FF5F8D",
+          "w": 40
+        },
+        {
+          "label_en": "Ambrette",
+          "label_ar": "",
+          "color": "#E7D8EA",
+          "w": 40
+        },
+        {
+          "label_en": "Raspberry",
+          "label_ar": "",
+          "color": "#FC4B29",
+          "w": 40
+        },
+        {
+          "label_en": "Plum",
+          "label_ar": "",
+          "color": "#FC4B29",
+          "w": 40
+        },
+        {
+          "label_en": "Cedarwood",
+          "label_ar": "",
+          "color": "#774414",
+          "w": 40
+        },
+        {
+          "label_en": "Amber",
+          "label_ar": "",
+          "color": "#bc4d10",
+          "w": 40
+        },
+        {
+          "label_en": "Vetiver",
+          "label_ar": "",
+          "color": "#544838",
+          "w": 40
+        },
+        {
+          "label_en": "Musk",
+          "label_ar": "",
+          "color": "#E7D8EA",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 150,
+              "first_seen": "2026-09-09"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 195,
+              "first_seen": "2026-09-09"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 300,
+              "first_seen": "2026-09-09"
+            }
+          ],
+          "image": "images/mykonos-monoco-royale--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/mykonos-monoco-royale"
         }
       ],
       "_hero_source": "sniffz"
