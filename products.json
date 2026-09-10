@@ -28253,6 +28253,13 @@
               "sold_since": "2026-09-10"
             },
             {
+              "kind": "decant",
+              "ml": 30,
+              "price": 525,
+              "first_seen": "2026-09-10",
+              "sold_since": "2026-09-10"
+            },
+            {
               "kind": "leftover",
               "ml": 100,
               "price": 1150,
@@ -81492,6 +81499,13 @@
             },
             {
               "kind": "leftover",
+              "ml": 40,
+              "price": 660,
+              "first_seen": "2026-09-10",
+              "sold_since": "2026-09-10"
+            },
+            {
+              "kind": "leftover",
               "ml": 50,
               "price": 825,
               "first_seen": "2026-07-19",
@@ -84122,8 +84136,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 220,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-07"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
@@ -96292,7 +96305,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-10"
             },
             {
               "kind": "decant",
@@ -171428,8 +171442,7 @@
               "kind": "full",
               "ml": 200,
               "price": 1800,
-              "first_seen": "2026-07-31",
-              "sold_since": "2026-09-09"
+              "first_seen": "2026-07-31"
             }
           ],
           "image": "images/wanted-lady--og-perfume.jpg",
