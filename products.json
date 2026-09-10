@@ -46747,8 +46747,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2700,
-              "first_seen": "2026-07-21",
-              "sold_since": "2026-08-02"
+              "first_seen": "2026-07-21"
             }
           ],
           "image": "images/eau-de-vintage--og-perfume.jpg",
@@ -96510,15 +96509,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 220,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-25"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 600,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-26"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -96545,8 +96542,7 @@
               "kind": "full",
               "ml": 150,
               "price": 2500,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-23"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/liquid-brun-limited-edition--og-perfume.jpg",
@@ -98138,7 +98134,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2350,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-10"
             }
           ],
           "image": "images/lynked-freedom--og-perfume.jpg",
@@ -132123,15 +132120,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-03"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 450,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-06"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -132165,8 +132160,7 @@
               "kind": "full",
               "ml": 150,
               "price": 1650,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-30"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/purple-heart-diamond--og-perfume.jpg",
@@ -134089,8 +134083,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1900,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-20"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/ramad-earthy--og-perfume.jpg",
@@ -146577,8 +146570,7 @@
               "kind": "full",
               "ml": 90,
               "price": 1300,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/shuhrah-elixir--og-perfume.jpg",
@@ -150175,15 +150167,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 550,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -150196,8 +150186,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/spanish-tobacco--og-perfume.jpg",
@@ -201294,6 +201283,45 @@
         }
       ],
       "_hero_source": "feel22"
+    },
+    {
+      "id": "noted",
+      "name_ar": "Noted",
+      "name_en": "Noted",
+      "brand": "Iven",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/noted.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 330,
+              "first_seen": "2026-09-10"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 950,
+              "first_seen": "2026-09-10"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3000,
+              "first_seen": "2026-09-10"
+            }
+          ],
+          "image": "images/noted--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/noted-iven"
+        }
+      ],
+      "_hero_source": "og-perfume"
     }
   ]
 }
