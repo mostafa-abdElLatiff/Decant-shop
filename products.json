@@ -31104,7 +31104,8 @@
               "kind": "full",
               "ml": 90,
               "price": 2530,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-09-10"
             }
           ],
           "image": "images/champion-man--mazaya.jpg",
@@ -40690,10 +40691,24 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 4015,
+              "first_seen": "2026-09-10",
+              "sold_since": "2026-09-10"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 4850,
               "first_seen": "2026-07-23",
               "prev_price": 5850
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 7355,
+              "first_seen": "2026-09-10",
+              "sold_since": "2026-09-10"
             }
           ],
           "image": "images/defy-parfum--mazaya.jpg",
@@ -69959,8 +69974,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8420,
-              "first_seen": "2026-07-23"
+              "price": 7157,
+              "first_seen": "2026-07-23",
+              "prev_price": 8420
             },
             {
               "kind": "full",
@@ -119290,6 +119306,13 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 13650,
+              "first_seen": "2026-09-10",
+              "sold_since": "2026-09-10"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 21150,
               "first_seen": "2026-09-10",
@@ -122990,6 +123013,13 @@
           "name": "mazaya",
           "url": "https://mazaya.eg/",
           "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 12750,
+              "first_seen": "2026-09-10",
+              "sold_since": "2026-09-10"
+            },
             {
               "kind": "full",
               "ml": 100,
@@ -157845,6 +157875,13 @@
               "price": 12850,
               "first_seen": "2026-09-04",
               "sold_since": "2026-09-04"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 18500,
+              "first_seen": "2026-09-10",
+              "sold_since": "2026-09-10"
             }
           ],
           "image": "images/the-hedonist--mazaya.jpg",
@@ -177270,6 +177307,13 @@
               "kind": "full",
               "ml": 75,
               "price": 4785,
+              "first_seen": "2026-09-10",
+              "sold_since": "2026-09-10"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 5900,
               "first_seen": "2026-09-10",
               "sold_since": "2026-09-10"
             }
