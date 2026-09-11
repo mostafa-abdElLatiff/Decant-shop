@@ -13412,20 +13412,25 @@
               "kind": "decant",
               "ml": 10,
               "price": 180,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-02"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 500,
-              "first_seen": "2026-08-31",
-              "sold_since": "2026-09-01"
+              "first_seen": "2026-08-31"
+            },
+            {
+              "kind": "leftover",
+              "ml": 45,
+              "price": 700,
+              "first_seen": "2026-09-11",
+              "sold_since": "2026-09-11"
             },
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 715,
+              "price": 750,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
             },
@@ -13433,8 +13438,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1500,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-01"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/aristo--og-perfume.jpg",
@@ -14920,9 +14924,9 @@
             {
               "kind": "leftover",
               "ml": 80,
-              "price": 1040,
+              "price": 980,
               "first_seen": "2026-08-14",
-              "sold_since": "2026-08-23"
+              "prev_price": 1040
             },
             {
               "kind": "full",
@@ -28248,7 +28252,7 @@
               "price": 130,
               "first_seen": "2026-07-19",
               "prev_price": 195,
-              "sold_since": "2026-09-10"
+              "sold_since": "2026-09-11"
             },
             {
               "kind": "decant",
@@ -28269,7 +28273,7 @@
               "ml": 100,
               "price": 1550,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-09-10"
+              "sold_since": "2026-09-11"
             },
             {
               "kind": "full",
@@ -37629,6 +37633,12 @@
             },
             {
               "kind": "leftover",
+              "ml": 45,
+              "price": 675,
+              "first_seen": "2026-09-11"
+            },
+            {
+              "kind": "leftover",
               "ml": 50,
               "price": 750,
               "first_seen": "2026-07-19",
@@ -39006,13 +39016,6 @@
             },
             {
               "kind": "leftover",
-              "ml": 30,
-              "price": 375,
-              "first_seen": "2026-09-04",
-              "sold_since": "2026-09-04"
-            },
-            {
-              "kind": "leftover",
               "ml": 50,
               "price": 625,
               "first_seen": "2026-09-07",
@@ -39439,8 +39442,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 650,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -59375,14 +59377,14 @@
               "price": 140,
               "first_seen": "2026-07-19",
               "prev_price": 195,
-              "sold_since": "2026-09-10"
+              "sold_since": "2026-09-11"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 525,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-09-10"
+              "sold_since": "2026-09-11"
             },
             {
               "kind": "leftover",
@@ -59396,7 +59398,7 @@
               "ml": 100,
               "price": 1550,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-09-10"
+              "sold_since": "2026-09-11"
             },
             {
               "kind": "full",
@@ -63752,6 +63754,12 @@
               "first_seen": "2026-07-19"
             },
             {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 875,
+              "first_seen": "2026-09-11"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1750,
@@ -68016,8 +68024,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 775,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-13"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -70467,7 +70474,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 850,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-11"
             },
             {
               "kind": "leftover",
@@ -70672,8 +70680,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 1375,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -70861,8 +70868,7 @@
               "kind": "leftover",
               "ml": 40,
               "price": 500,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -72280,8 +72286,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 230,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-08-31"
+              "first_seen": "2026-07-20"
             },
             {
               "kind": "leftover",
@@ -72294,8 +72299,7 @@
               "kind": "full",
               "ml": 75,
               "price": 1500,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-08-12"
+              "first_seen": "2026-07-20"
             }
           ],
           "image": "images/honey-musk-confidence-dose--og-perfume.jpg",
@@ -76318,7 +76322,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 500,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-11"
             },
             {
               "kind": "leftover",
@@ -81125,8 +81130,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1350,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-01"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/jungle-vibe--og-perfume.jpg",
@@ -85488,13 +85492,6 @@
             },
             {
               "kind": "leftover",
-              "ml": 25,
-              "price": 345,
-              "first_seen": "2026-09-04",
-              "sold_since": "2026-09-04"
-            },
-            {
-              "kind": "leftover",
               "ml": 30,
               "price": 360,
               "first_seen": "2026-09-06",
@@ -85504,8 +85501,8 @@
               "kind": "leftover",
               "ml": 45,
               "price": 540,
-              "first_seen": "2026-09-04",
-              "sold_since": "2026-09-04"
+              "first_seen": "2026-09-11",
+              "sold_since": "2026-09-11"
             },
             {
               "kind": "leftover",
@@ -97762,8 +97759,7 @@
               "kind": "leftover",
               "ml": 35,
               "price": 850,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -102436,8 +102432,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 650,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -109762,8 +109757,7 @@
               "kind": "leftover",
               "ml": 40,
               "price": 975,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -111372,8 +111366,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-23"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -119203,7 +119196,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 450,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-11"
             },
             {
               "kind": "full",
@@ -124069,9 +124063,9 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 875,
+              "price": 850,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 875
             },
             {
               "kind": "full",
@@ -137375,8 +137369,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 525,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -139041,8 +139034,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 230,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -139055,8 +139047,7 @@
               "kind": "full",
               "ml": 75,
               "price": 1550,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/rose-tobacco-happiness-dose--og-perfume.jpg",
@@ -154776,7 +154767,7 @@
               "price": 220,
               "first_seen": "2026-07-19",
               "prev_price": 225,
-              "sold_since": "2026-09-10"
+              "sold_since": "2026-09-11"
             },
             {
               "kind": "decant",
@@ -154789,22 +154780,22 @@
               "kind": "leftover",
               "ml": 50,
               "price": 975,
-              "first_seen": "2026-09-04",
-              "sold_since": "2026-09-04"
+              "first_seen": "2026-09-11",
+              "sold_since": "2026-09-11"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 2200,
-              "first_seen": "2026-09-04",
-              "sold_since": "2026-09-04"
+              "first_seen": "2026-09-11",
+              "sold_since": "2026-09-11"
             },
             {
               "kind": "full",
               "ml": 150,
               "price": 2900,
               "first_seen": "2026-07-31",
-              "sold_since": "2026-09-10"
+              "sold_since": "2026-09-11"
             }
           ],
           "image": "images/supremacy-not-only-intense--og-perfume.jpg",
@@ -155305,8 +155296,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 850,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-30"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -197208,7 +197198,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 350,
-              "first_seen": "2026-08-31"
+              "first_seen": "2026-08-31",
+              "sold_since": "2026-09-11"
             },
             {
               "kind": "full",
@@ -197247,8 +197238,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1500,
-              "first_seen": "2026-08-31",
-              "sold_since": "2026-09-03"
+              "first_seen": "2026-08-31"
             }
           ],
           "image": "images/soprano-ice--og-perfume.jpg",
@@ -200184,8 +200174,7 @@
               "kind": "decant",
               "ml": 30,
               "price": 575,
-              "first_seen": "2026-09-07",
-              "sold_since": "2026-09-07"
+              "first_seen": "2026-09-07"
             },
             {
               "kind": "full",
