@@ -22858,8 +22858,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 215,
-              "first_seen": "2026-08-31"
+              "price": 210,
+              "first_seen": "2026-08-31",
+              "prev_price": 215
             },
             {
               "kind": "leftover",
@@ -131954,7 +131955,8 @@
               "kind": "full",
               "ml": 150,
               "price": 2375,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-11"
             }
           ],
           "image": "images/pure-musk--eldesoki-fragrances.jpg",
