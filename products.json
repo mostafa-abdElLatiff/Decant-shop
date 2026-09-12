@@ -8281,7 +8281,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1800,
-              "first_seen": "2026-08-12"
+              "first_seen": "2026-08-12",
+              "sold_since": "2026-09-12"
             }
           ],
           "image": "images/amber-empire--dar-elarabia.jpg",
@@ -134400,6 +134401,20 @@
           ],
           "image": "images/ramad-earthy--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/ramad-earthy-100ml-arabiyat%d8%b1%d9%85%d8%a7%d8%af-%d8%a7%d9%8a%d8%b1%d8%ab%d9%8a-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b9%d8%b1%d8%a8%d9%8a%d8%a7%d8%aa-%d8%a8%d8%b1%d9%8a%d8%b3/"
+        },
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1990,
+              "first_seen": "2026-09-12"
+            }
+          ],
+          "image": "images/ramad-earthy--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/ramad-earthy"
         }
       ],
       "_hero_source": "og-perfume",
