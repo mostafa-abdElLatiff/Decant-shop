@@ -35590,7 +35590,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1250,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-09-12"
             }
           ],
           "image": "images/coffee-blend-maison-asrar--roseperfume.jpg",
@@ -94793,10 +94794,29 @@
           "url": "https://roseperfume.online/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 5,
+              "price": 125,
+              "first_seen": "2026-09-12"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 225,
+              "first_seen": "2026-09-12"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 625,
+              "first_seen": "2026-09-12"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1800,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-09-12"
             }
           ],
           "image": "images/legacy--roseperfume.jpg",
