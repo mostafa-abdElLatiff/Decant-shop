@@ -13930,8 +13930,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2000,
-              "first_seen": "2026-08-21",
-              "sold_since": "2026-09-03"
+              "first_seen": "2026-08-21"
             }
           ],
           "image": "images/aromatix--dar-elarabia.jpg",
@@ -70780,8 +70779,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2700,
-              "first_seen": "2026-07-25",
-              "sold_since": "2026-09-08"
+              "first_seen": "2026-07-25"
             }
           ],
           "image": "images/hersh-lahab-hersh--dar-elarabia.jpg",
@@ -86080,6 +86078,20 @@
           ],
           "image": "images/klikat-blue--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/kilkat-blue-100ml%d9%83%d9%84%d9%83%d8%a7%d8%aa-%d8%a8%d9%84%d9%88-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+        },
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 1600,
+              "first_seen": "2026-09-13"
+            }
+          ],
+          "image": "images/klikat-blue--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/kilkat-blue"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -194859,8 +194871,7 @@
               "kind": "full",
               "ml": 100,
               "price": 3200,
-              "first_seen": "2026-08-25",
-              "sold_since": "2026-09-12"
+              "first_seen": "2026-08-25"
             }
           ],
           "image": "images/hersh-mehwar-new-batch--dar-elarabia.jpg",
@@ -198447,8 +198458,7 @@
               "kind": "full",
               "ml": 200,
               "price": 2300,
-              "first_seen": "2026-09-02",
-              "sold_since": "2026-09-10"
+              "first_seen": "2026-09-02"
             }
           ],
           "image": "images/qasida-sahm--dar-elarabia.jpg",
@@ -201882,6 +201892,33 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "kilkat-jasas",
+      "name_ar": "Kilkat Jasas",
+      "name_en": "Kilkat Jasas",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/kilkat-jasas.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 1600,
+              "first_seen": "2026-09-13"
+            }
+          ],
+          "image": "images/kilkat-jasas--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/untitled-sep13_04-33-20"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
     }
   ]
 }
