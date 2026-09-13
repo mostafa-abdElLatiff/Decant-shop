@@ -23759,7 +23759,8 @@
               "kind": "full",
               "ml": 200,
               "price": 5750,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-13"
             }
           ],
           "image": "images/blanco--emaratiscents.jpg",
@@ -40463,7 +40464,8 @@
               "kind": "full",
               "ml": 100,
               "price": 19000,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-13"
             }
           ],
           "image": "images/decision--emaratiscents.jpg",
@@ -48434,8 +48436,7 @@
               "kind": "full",
               "ml": 255,
               "price": 3200,
-              "first_seen": "2026-07-21",
-              "sold_since": "2026-09-11"
+              "first_seen": "2026-07-21"
             }
           ],
           "image": "images/elite-musk-bundle--emaratiscents.jpg",
@@ -50494,7 +50495,8 @@
               "kind": "full",
               "ml": 100,
               "price": 20500,
-              "first_seen": "2026-09-12"
+              "first_seen": "2026-09-12",
+              "sold_since": "2026-09-13"
             }
           ],
           "image": "images/enclave--emaratiscents.jpg",
@@ -98440,8 +98442,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2450,
-              "first_seen": "2026-08-13",
-              "sold_since": "2026-09-10"
+              "first_seen": "2026-08-13"
             }
           ],
           "image": "images/lynked-freedom--emaratiscents.jpg",
@@ -154157,8 +154158,7 @@
               "kind": "full",
               "ml": 75,
               "price": 4500,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-12"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/summer-musk-bundle--emaratiscents.jpg",
@@ -170093,7 +170093,8 @@
               "kind": "full",
               "ml": 100,
               "price": 4400,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-13"
             }
           ],
           "image": "images/violet-musk-set-collection--emaratiscents.jpg",
@@ -200719,6 +200720,20 @@
           ],
           "image": "images/hersh-saytara--dar-elarabia.jpg",
           "product_url": "https://darelarabia.com/products/hersh-saytara"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3800,
+              "first_seen": "2026-09-13"
+            }
+          ],
+          "image": "images/hersh-saytara--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/hersh-saytara"
         }
       ],
       "_hero_source": "dar.elarabia"
