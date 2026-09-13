@@ -115565,19 +115565,22 @@
               "kind": "decant",
               "ml": 5,
               "price": 90,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-09-13"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 150,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-09-13"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 400,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-09-13"
             }
           ],
           "image": "images/nude-coral-diamond--roseperfume.jpg",
@@ -202150,6 +202153,42 @@
         }
       ],
       "_hero_source": "feel22"
+    },
+    {
+      "id": "milestone-moonlight-patchouli-100ml-eau-de-parfum",
+      "name_ar": "",
+      "name_en": "MILESTONE Moonlight Patchouli 100ML Eau De Parfum",
+      "brand": "Milestone",
+      "category": "dupe",
+      "dupe_of": [
+        "Moonlight Patchouli Van Cleef &amp; Arpels"
+      ],
+      "image": "images/milestone-moonlight-patchouli-100ml-eau-de-parfum.jpg",
+      "accords": [
+        {
+          "label_en": "Woods",
+          "label_ar": "الأخشاب",
+          "color": "#774414",
+          "w": 100
+        }
+      ],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 700,
+              "first_seen": "2026-09-13"
+            }
+          ],
+          "image": "images/milestone-moonlight-patchouli-100ml-eau-de-parfum--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/milestone-moonlight-patchouli-100ml-eau-de-parfum"
+        }
+      ],
+      "_hero_source": "roseperfume"
     }
   ]
 }
