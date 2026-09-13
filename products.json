@@ -849,6 +849,13 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 100,
+              "price": 5300,
+              "first_seen": "2026-09-13",
+              "sold_since": "2026-09-13"
+            },
+            {
+              "kind": "full",
               "ml": 200,
               "price": 6000,
               "first_seen": "2026-09-13",
@@ -4857,7 +4864,7 @@
             }
           ],
           "image": "images/ajmal-silver-shade--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/ajmal-silver-shade-100-ml"
+          "product_url": "https://mazaya.eg/en/ajmal-silver-shade123455-html12"
         }
       ],
       "_hero_source": "mazaya",
@@ -78333,7 +78340,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 7500,
+              "price": 7700,
               "first_seen": "2026-07-23",
               "sold_since": "2026-08-28"
             }
@@ -87384,7 +87391,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5800,
+              "price": 7800,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -107123,6 +107130,13 @@
           "name": "mazaya",
           "url": "https://mazaya.eg/",
           "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 4490,
+              "first_seen": "2026-09-13",
+              "sold_since": "2026-09-13"
+            },
             {
               "kind": "full",
               "ml": 100,
@@ -175514,6 +175528,13 @@
               "price": 8700,
               "first_seen": "2026-07-23",
               "sold_since": "2026-09-11"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 8700,
+              "first_seen": "2026-09-13",
+              "sold_since": "2026-09-13"
             }
           ],
           "image": "images/y-eau-de-parfum--mazaya.jpg",
