@@ -154828,8 +154828,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4050,
-              "first_seen": "2026-09-10"
+              "price": 3520,
+              "first_seen": "2026-09-10",
+              "prev_price": 4050
             }
           ],
           "image": "images/supremacy-collector-s-edition--feel22.jpg",
@@ -159065,13 +159066,15 @@
               "kind": "full",
               "ml": 100,
               "price": 4686,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "prev_price": 6235
             },
             {
               "kind": "full",
               "ml": 150,
               "price": 6369,
               "first_seen": "2026-07-23",
+              "prev_price": 6480,
               "sold_since": "2026-08-22"
             }
           ],
@@ -192106,7 +192109,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2153,
+              "price": 2190,
               "first_seen": "2026-08-17"
             }
           ],
