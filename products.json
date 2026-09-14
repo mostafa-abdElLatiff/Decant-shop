@@ -162481,7 +162481,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 7500,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-14"
             }
           ],
           "image": "images/tony-iommi-monkey-special--eldesoki-fragrances.jpg",
@@ -178910,7 +178911,7 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 150,
+              "price": 175,
               "first_seen": "2026-08-13"
             },
             {
@@ -178978,6 +178979,20 @@
           ],
           "image": "images/qasida-signature--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/qasida-signature-200-ml"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 175,
+              "first_seen": "2026-09-14"
+            }
+          ],
+          "image": "images/qasida-signature--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/qasida-signature-tester-10ml%d9%82%d8%b5%d9%8a%d8%af%d8%a9-%d8%b3%d8%ac%d9%86%d8%aa%d8%b4%d8%b1-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "dar.elarabia",
@@ -198619,6 +198634,20 @@
           ],
           "image": "images/qasida-purity--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/qasida-purity-200-ml"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 175,
+              "first_seen": "2026-09-14"
+            }
+          ],
+          "image": "images/qasida-purity--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/qasida-purity-tester-10ml%d9%82%d8%b5%d9%8a%d8%af%d8%a9-%d8%a8%d9%8a%d9%88%d8%b1%d8%aa%d9%8a-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "dar.elarabia"
@@ -201130,6 +201159,12 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 10,
+              "price": 175,
+              "first_seen": "2026-09-14"
+            },
+            {
               "kind": "full",
               "ml": 200,
               "price": 2150,
@@ -201137,7 +201172,7 @@
             }
           ],
           "image": "images/amjad-coral--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/amjad-coral-200ml-faan%d8%a7%d9%85%d8%ac%d8%a7%d8%af-%d9%83%d9%88%d8%b1%d8%a7%d9%84-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%81%d8%a7%d9%86-%d9%84%d9%84%d8%a5%d8%a8%d8%af%d8%a7%d8%b9/"
+          "product_url": "https://eldesoki-fragrances.com/product/amjad-coral-tester-10ml%d8%a7%d9%85%d8%ac%d8%a7%d8%af-%d9%83%d9%88%d8%b1%d8%a7%d9%84-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -201171,6 +201206,12 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 10,
+              "price": 175,
+              "first_seen": "2026-09-14"
+            },
+            {
               "kind": "full",
               "ml": 200,
               "price": 2150,
@@ -201178,7 +201219,7 @@
             }
           ],
           "image": "images/amjad-honour--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/amjad-honour-200ml-faan%d8%a7%d9%85%d8%ac%d8%a7%d8%af-%d8%a7%d9%88%d9%86%d8%b1-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%85-%d9%81%d8%a7%d9%86-%d9%84%d9%84%d8%a5%d8%a8%d8%af%d8%a7%d8%b9/"
+          "product_url": "https://eldesoki-fragrances.com/product/amjad-honour-tester-10ml%d8%a7%d9%85%d8%ac%d8%a7%d8%af-%d8%a7%d9%88%d9%86%d8%b1-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -202491,6 +202532,60 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "qasida-sahm-1789422080",
+      "name_ar": "قصيدة سهم تستر ١٠ملي",
+      "name_en": "Qasida Sahm",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/qasida-sahm-1789422080.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 175,
+              "first_seen": "2026-09-14"
+            }
+          ],
+          "image": "images/qasida-sahm-1789422080--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/qasida-sahm-tester-10ml%d9%82%d8%b5%d9%8a%d8%af%d8%a9-%d8%b3%d9%87%d9%85-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "qasida-bakhur",
+      "name_ar": "قصيدة بخور تستر ١٠ملي",
+      "name_en": "Qasida Bakhur",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/qasida-bakhur.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 175,
+              "first_seen": "2026-09-14"
+            }
+          ],
+          "image": "images/qasida-bakhur--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/qasida-bakhur-tester-10ml%d9%82%d8%b5%d9%8a%d8%af%d8%a9-%d8%a8%d8%ae%d9%88%d8%b1-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
