@@ -173579,7 +173579,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 175,
-              "first_seen": "2026-08-04"
+              "first_seen": "2026-08-04",
+              "sold_since": "2026-09-14"
             },
             {
               "kind": "leftover",
@@ -175888,6 +175889,20 @@
           ],
           "image": "images/y-iced-cologne--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/y-iced-cologne"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 5950,
+              "first_seen": "2026-09-14"
+            }
+          ],
+          "image": "images/y-iced-cologne--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/y-iced-cologne-100ml%d9%88%d8%a7%d9%8a-%d8%a7%d9%8a%d8%b3%d8%af-%d9%83%d9%88%d9%84%d9%88%d9%86-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b3%d8%a7%d9%86-%d9%84%d9%88%d8%b1%d8%a7%d9%86/"
         }
       ],
       "_hero_source": "sniffz",
@@ -201923,8 +201938,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 3750,
-              "first_seen": "2026-09-12"
+              "price": 3550,
+              "first_seen": "2026-09-12",
+              "prev_price": 3750
             }
           ],
           "image": "images/incense-days-collection-set-laverne-blue-laverne-bakhur--eldesoki-fragrances.jpg",
