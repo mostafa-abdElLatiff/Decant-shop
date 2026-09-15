@@ -4315,8 +4315,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-08-11",
-              "sold_since": "2026-09-05"
+              "first_seen": "2026-08-11"
             }
           ],
           "image": "images/aether-extrait--emaratiscents.jpg",
@@ -56123,8 +56122,7 @@
               "kind": "full",
               "ml": 50,
               "price": 1450,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-14"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/faqat-lil-rijal--emaratiscents.jpg",
@@ -114210,6 +114208,20 @@
           ],
           "image": "images/noir-1784457946--dar-elarabia.jpg",
           "product_url": "https://darelarabia.com/products/noir"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 2950,
+              "first_seen": "2026-09-15"
+            }
+          ],
+          "image": "images/noir-1784457946--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/noir-150-ml"
         }
       ],
       "_hero_source": "dar.elarabia",
