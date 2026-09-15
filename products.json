@@ -6361,7 +6361,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1500,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-15"
             }
           ],
           "image": "images/al-noor--eldesoki-fragrances.jpg",
@@ -13521,8 +13522,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1575,
-              "first_seen": "2026-09-12"
+              "price": 1550,
+              "first_seen": "2026-09-12",
+              "prev_price": 1575
             }
           ],
           "image": "images/aristo--eldesoki-fragrances.jpg",
@@ -20763,8 +20765,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1500,
-              "first_seen": "2026-09-12",
-              "prev_price": 1575
+              "first_seen": "2026-09-12"
             }
           ],
           "image": "images/bamboo-reflection--eldesoki-fragrances.jpg",
@@ -85552,7 +85553,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2300,
+              "price": 2375,
               "first_seen": "2026-07-18"
             },
             {
@@ -151106,7 +151107,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1750,
+              "price": 1875,
               "first_seen": "2026-08-13"
             }
           ],
@@ -202744,6 +202745,33 @@
           ],
           "image": "images/ehsas-khas-arabian-oud--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/ehsas-khas-100ml-arabian-oud%d8%a7%d8%ad%d8%b3%d8%a7%d8%b3-%d8%ae%d8%a7%d8%b5-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d9%84%d8%b9%d8%b1%d8%a8%d9%8a%d8%a9-%d9%84%d9%84%d8%b9%d9%88/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "ramad-marwa-bundle",
+      "name_ar": "باندل رماد ايرثي ومروة ٢٠٠ملي عطرين",
+      "name_en": "Ramad Marwa Bundle",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/ramad-marwa-bundle.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 3050,
+              "first_seen": "2026-09-15"
+            }
+          ],
+          "image": "images/ramad-marwa-bundle--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/ramad-marwa-bundle-200ml%d8%a8%d8%a7%d9%86%d8%af%d9%84-%d8%b1%d9%85%d8%a7%d8%af-%d8%a7%d9%8a%d8%b1%d8%ab%d9%8a-%d9%88%d9%85%d8%b1%d9%88%d8%a9-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d8%b9%d8%b7%d8%b1/"
         }
       ],
       "_hero_source": "eldesoki-fragrances"
