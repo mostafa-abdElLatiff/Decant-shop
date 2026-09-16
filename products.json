@@ -104439,7 +104439,8 @@
               "kind": "full",
               "ml": 100,
               "price": 500,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-09-16"
             }
           ],
           "image": "images/milestone-l-immensit-classique--roseperfume.jpg",
@@ -202831,6 +202832,34 @@
         }
       ],
       "_hero_source": "mazaya"
+    },
+    {
+      "id": "great-garden-laverne-collection-9-25ml-edp",
+      "name_ar": "",
+      "name_en": "Great Garden Laverne Collection 9 × 25ML EDP",
+      "brand": "Laverne",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/great-garden-laverne-collection-9-25ml-edp.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 25,
+              "price": 500,
+              "first_seen": "2026-09-16",
+              "sold_since": "2026-09-16"
+            }
+          ],
+          "image": "images/great-garden-laverne-collection-9-25ml-edp--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/great-garden-laverne-collection-9-25ml-edp"
+        }
+      ],
+      "_hero_source": "roseperfume"
     }
   ]
 }
