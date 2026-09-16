@@ -26195,8 +26195,7 @@
               "kind": "full",
               "ml": 100,
               "price": 975,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-04"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/blueberry-musk-by-arabiyat-prestige--emaratiscents.jpg",
@@ -42589,7 +42588,8 @@
               "kind": "full",
               "ml": 10,
               "price": 2550,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-16"
             }
           ],
           "image": "images/discovery-diamond-set--emaratiscents.jpg",
@@ -121603,8 +121603,7 @@
               "kind": "full",
               "ml": 75,
               "price": 2250,
-              "first_seen": "2026-08-02",
-              "sold_since": "2026-08-14"
+              "first_seen": "2026-08-02"
             }
           ],
           "image": "images/osma-white-f--emaratiscents.jpg",
@@ -121642,6 +121641,20 @@
           ],
           "image": "images/osma-woody-s--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/osma-woody-s"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 2250,
+              "first_seen": "2026-09-16"
+            }
+          ],
+          "image": "images/osma-woody-s--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/woody-s"
         }
       ],
       "_hero_source": "og-perfume",
@@ -172696,7 +172709,8 @@
               "kind": "full",
               "ml": 100,
               "price": 750,
-              "first_seen": "2026-07-31"
+              "first_seen": "2026-07-31",
+              "sold_since": "2026-09-16"
             }
           ],
           "image": "images/white-heart--emaratiscents.jpg",
@@ -173402,7 +173416,8 @@
               "kind": "full",
               "ml": 200,
               "price": 2250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-16"
             }
           ],
           "image": "images/wild-colt--emaratiscents.jpg",
@@ -177894,6 +177909,21 @@
           ],
           "image": "images/first-impression-ghalati--hany-diab.jpg",
           "product_url": "https://www.facebook.com/groups/363102686791098/posts/978216181946409/"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 120,
+              "price": 2750,
+              "first_seen": "2026-09-16",
+              "sold_since": "2026-09-16"
+            }
+          ],
+          "image": "images/first-impression-ghalati--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/first-impression-by-ghalati"
         }
       ],
       "_hero_source": "dar.elarabia",
@@ -185967,7 +185997,8 @@
               "kind": "full",
               "ml": 10,
               "price": 1150,
-              "first_seen": "2026-08-10"
+              "first_seen": "2026-08-10",
+              "sold_since": "2026-09-16"
             }
           ],
           "image": "images/mini-summer-collection--emaratiscents.jpg",
@@ -191856,7 +191887,8 @@
               "kind": "full",
               "ml": 162,
               "price": 2350,
-              "first_seen": "2026-08-16"
+              "first_seen": "2026-08-16",
+              "sold_since": "2026-09-16"
             }
           ],
           "image": "images/teriaq-intense-gift-set--emaratiscents.jpg",
@@ -194993,7 +195025,8 @@
               "kind": "full",
               "ml": 60,
               "price": 4100,
-              "first_seen": "2026-08-24"
+              "first_seen": "2026-08-24",
+              "sold_since": "2026-09-16"
             }
           ],
           "image": "images/astra-set-edp-powder--emaratiscents.jpg",
@@ -200941,6 +200974,20 @@
           ],
           "image": "images/hawas-majestic--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/hawas-majestic"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2350,
+              "first_seen": "2026-09-16"
+            }
+          ],
+          "image": "images/hawas-majestic--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/hawas-majestic"
         }
       ],
       "_hero_source": "og-perfume"
@@ -202868,6 +202915,141 @@
         }
       ],
       "_hero_source": "roseperfume"
+    },
+    {
+      "id": "risk-collection-set",
+      "name_ar": "Risk Collection Set",
+      "name_en": "Risk Collection Set",
+      "brand": "Assaf",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/risk-collection-set.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 4500,
+              "first_seen": "2026-09-16"
+            }
+          ],
+          "image": "images/risk-collection-set--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/risk-collection-set"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "romance",
+      "name_ar": "Romance",
+      "name_en": "Romance",
+      "brand": "Osma",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/romance.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 2250,
+              "first_seen": "2026-09-16"
+            }
+          ],
+          "image": "images/romance--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/romance-by-osma"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "amalfi",
+      "name_ar": "Amalfi",
+      "name_en": "Amalfi",
+      "brand": "Osma",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/amalfi.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 2250,
+              "first_seen": "2026-09-16"
+            }
+          ],
+          "image": "images/amalfi--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/amalfi-by-osma"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "citrus-f",
+      "name_ar": "Citrus' F",
+      "name_en": "Citrus' F",
+      "brand": "Osma",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/citrus-f.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 2250,
+              "first_seen": "2026-09-16"
+            }
+          ],
+          "image": "images/citrus-f--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/citrus-f"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "breeze-osma",
+      "name_ar": "Breeze",
+      "name_en": "Breeze",
+      "brand": "Osma",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/breeze-osma.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 2550,
+              "first_seen": "2026-09-16"
+            }
+          ],
+          "image": "images/breeze-osma--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/breeze-150-ml-by-osma"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
