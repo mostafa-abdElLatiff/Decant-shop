@@ -50623,13 +50623,20 @@
           "offers": [
             {
               "kind": "decant",
+              "ml": 5,
+              "price": 165,
+              "first_seen": "2026-09-16"
+            },
+            {
+              "kind": "decant",
               "ml": 10,
               "price": 250,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-09-16"
             }
           ],
           "image": "images/encre-noire-a-lextreme--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lalique-encre-noire-a-lextreme-10ml-204"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lalique-encre-noire-a-lextreme-5ml-205"
         },
         {
           "name": "sniffz",
@@ -91385,7 +91392,7 @@
             }
           ],
           "image": "images/la-vie-est-belle-iris-absolu-women--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lancome-la-vie-est-belle-iris-absolu-women-5ml-421"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lancome-la-vie-est-belle-iris-absolu-women-3ml-440"
         }
       ],
       "_hero_source": "MO Shawky",
@@ -104811,7 +104818,7 @@
             }
           ],
           "image": "images/million-gold-for-her-edp--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/rabanne-million-gold-for-her-edp-3ml-448"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/rabanne-million-gold-for-her-edp-5ml-388"
         },
         {
           "name": "Ahmed Abdel Kareem",
@@ -129906,7 +129913,7 @@
             }
           ],
           "image": "images/power-of-you-women--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/giorgio-armani-power-of-you-women-5ml-398"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/giorgio-armani-power-of-you-women-3ml-433"
         },
         {
           "name": "sniffz",
@@ -175874,7 +175881,7 @@
             }
           ],
           "image": "images/y-edp-intense--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ysl-y-edp-intense-3ml-456"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ysl-y-edp-intense-5ml-315"
         },
         {
           "name": "feel22",
