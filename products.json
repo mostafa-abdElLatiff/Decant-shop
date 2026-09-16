@@ -94046,7 +94046,8 @@
               "kind": "full",
               "ml": 125,
               "price": 6750,
-              "first_seen": "2026-09-08"
+              "first_seen": "2026-09-08",
+              "sold_since": "2026-09-16"
             }
           ],
           "image": "images/le-male-in-blue--eldesoki-fragrances.jpg",
@@ -199766,7 +199767,8 @@
               "kind": "full",
               "ml": 100,
               "price": 20700,
-              "first_seen": "2026-09-04"
+              "first_seen": "2026-09-04",
+              "sold_since": "2026-09-16"
             }
           ],
           "image": "images/oud-maracuja-extrait-de-parfum-maison-crivelli--eldesoki-fragrances.jpg",
@@ -203053,6 +203055,33 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "solo-musk-sterling",
+      "name_ar": "سولو مسك فانيلا ١٠٠ملي من ستيرلنج",
+      "name_en": "Solo Musk Sterling",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/solo-musk-sterling.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 275,
+              "first_seen": "2026-09-16"
+            }
+          ],
+          "image": "images/solo-musk-sterling--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/solo-musk-100ml-sterling-%d8%b3%d9%88%d9%84%d9%88-%d9%85%d8%b3%d9%83-%d9%81%d8%a7%d9%86%d9%8a%d9%84%d8%a7-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b3%d8%aa%d9%8a%d8%b1%d9%84%d9%86%d8%ac/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
