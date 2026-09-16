@@ -9336,7 +9336,8 @@
               "kind": "full",
               "ml": 100,
               "price": 975,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-16"
             }
           ],
           "image": "images/ameer-al-oudh-intense-oud--eldesoki-fragrances.jpg",
@@ -67906,13 +67907,6 @@
             },
             {
               "kind": "leftover",
-              "ml": 30,
-              "price": 700,
-              "first_seen": "2026-09-05",
-              "sold_since": "2026-09-05"
-            },
-            {
-              "kind": "leftover",
               "ml": 50,
               "price": 1050,
               "first_seen": "2026-09-05",
@@ -85535,8 +85529,7 @@
               "kind": "leftover",
               "ml": 100,
               "price": 1500,
-              "first_seen": "2026-09-05",
-              "sold_since": "2026-09-05"
+              "first_seen": "2026-09-05"
             },
             {
               "kind": "full",
@@ -123238,6 +123231,20 @@
           ],
           "image": "images/oud-wood--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/tom-ford-oud-wood-eau-de-parfum-for-men-100ml"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 16750,
+              "first_seen": "2026-09-16"
+            }
+          ],
+          "image": "images/oud-wood--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/oud-wood-100ml-tom-ford%d8%b9%d9%88%d8%af-%d9%88%d9%88%d8%af-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%aa%d9%88%d9%85-%d9%81%d9%88%d8%b1%d8%af/"
         }
       ],
       "_hero_source": "perfuzone",
@@ -156936,7 +156943,7 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 925,
+              "price": 975,
               "first_seen": "2026-09-05",
               "sold_since": "2026-09-05"
             },
