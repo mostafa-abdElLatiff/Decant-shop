@@ -2225,20 +2225,21 @@
               "kind": "decant",
               "ml": 5,
               "price": 110,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-09-17"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-09-17"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 550,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-09-17"
+              "first_seen": "2026-07-20"
             },
             {
               "kind": "full",
@@ -25565,8 +25566,7 @@
               "kind": "full",
               "ml": 50,
               "price": 130,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-09-11"
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/blue-night-al-rehab--roseperfume.jpg",
@@ -29725,8 +29725,7 @@
               "kind": "full",
               "ml": 50,
               "price": 130,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-09-12"
+              "first_seen": "2026-07-20"
             }
           ],
           "image": "images/caramello-al-rehab-perfumes--roseperfume.jpg",
@@ -32171,8 +32170,7 @@
               "kind": "full",
               "ml": 50,
               "price": 150,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-09-17"
+              "first_seen": "2026-07-20"
             }
           ],
           "image": "images/choco-musk-marshmallow-alrehab-perfumes--roseperfume.jpg",
@@ -96090,8 +96088,7 @@
               "kind": "full",
               "ml": 50,
               "price": 130,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-09-12"
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/limonar-alrehab-perfumes--roseperfume.jpg",
