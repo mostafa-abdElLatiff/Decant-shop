@@ -40824,10 +40824,24 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 4015,
+              "first_seen": "2026-09-17",
+              "sold_since": "2026-09-17"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 4850,
               "first_seen": "2026-07-23",
               "prev_price": 5850
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 7355,
+              "first_seen": "2026-09-17",
+              "sold_since": "2026-09-17"
             }
           ],
           "image": "images/defy-parfum--mazaya.jpg",
@@ -119790,6 +119804,13 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 13650,
+              "first_seen": "2026-09-17",
+              "sold_since": "2026-09-17"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 21150,
               "first_seen": "2026-09-17",
@@ -123526,6 +123547,13 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 12750,
+              "first_seen": "2026-09-17",
+              "sold_since": "2026-09-17"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 23100,
               "first_seen": "2026-07-23"
@@ -125675,7 +125703,8 @@
               "kind": "full",
               "ml": 100,
               "price": 8215,
-              "first_seen": "2026-09-15"
+              "first_seen": "2026-09-15",
+              "sold_since": "2026-09-17"
             },
             {
               "kind": "full",
@@ -125686,7 +125715,7 @@
             }
           ],
           "image": "images/pasha-de-cartier-parfum--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/pasha-de-cartier-parfum"
+          "product_url": "https://mazaya.eg/en/pasha-de-cartier-parfum-50ml"
         },
         {
           "name": "faces",
@@ -158538,6 +158567,13 @@
               "price": 12850,
               "first_seen": "2026-09-11",
               "sold_since": "2026-09-11"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 18500,
+              "first_seen": "2026-09-17",
+              "sold_since": "2026-09-17"
             }
           ],
           "image": "images/the-hedonist--mazaya.jpg",
@@ -178091,6 +178127,13 @@
               "kind": "full",
               "ml": 75,
               "price": 4785,
+              "first_seen": "2026-09-17",
+              "sold_since": "2026-09-17"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 5900,
               "first_seen": "2026-09-17",
               "sold_since": "2026-09-17"
             }
