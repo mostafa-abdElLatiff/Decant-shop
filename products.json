@@ -6363,9 +6363,8 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1500,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-15"
+              "price": 1575,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/al-noor--eldesoki-fragrances.jpg",
@@ -77882,7 +77881,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 175,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-17"
             },
             {
               "kind": "leftover",
@@ -111521,12 +111521,13 @@
             {
               "kind": "full",
               "ml": 70,
-              "price": 1250,
-              "first_seen": "2026-07-18"
+              "price": 1175,
+              "first_seen": "2026-07-18",
+              "prev_price": 1250
             }
           ],
           "image": "images/nayel-queen-extrait--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/nayel-queen-70ml-extrait%d9%86%d8%a7%d9%8a%d9%84-%d9%83%d9%88%d9%8a%d9%86-%d9%85%d9%86-%d8%b9%d8%b1%d8%a8%d9%8a%d8%a7%d8%aa-%d8%a8%d8%b1%d9%8a%d8%b3%d8%aa%d9%8a%da%86-%d9%a7%d9%a0%d9%85%d9%84/"
+          "product_url": "https://eldesoki-fragrances.com/product/nayel-queen-70ml-arabiyat%d9%86%d8%a7%d8%a6%d9%84-%d9%83%d9%88%d9%8a%d9%86-%d9%a7%d9%a5%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b9%d8%b1%d8%a8%d9%8a%d8%a7%d8%aa-%d8%a8%d8%b1%d9%8a%d8%b3%d8%aa%d9%8a%da%86/"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -179029,14 +179030,16 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 175,
-              "first_seen": "2026-09-14"
+              "price": 165,
+              "first_seen": "2026-09-14",
+              "prev_price": 175
             },
             {
               "kind": "leftover",
               "ml": 100,
-              "price": 1275,
-              "first_seen": "2026-09-15"
+              "price": 1250,
+              "first_seen": "2026-09-15",
+              "prev_price": 1275
             }
           ],
           "image": "images/qasida-signature--eldesoki-fragrances.jpg",
@@ -185881,8 +185884,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2150,
-              "first_seen": "2026-08-10"
+              "price": 2100,
+              "first_seen": "2026-08-10",
+              "prev_price": 2150
             }
           ],
           "image": "images/qasida-al-badr-faan--eldesoki-fragrances.jpg",
@@ -198693,14 +198697,16 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 175,
-              "first_seen": "2026-09-14"
+              "price": 165,
+              "first_seen": "2026-09-14",
+              "prev_price": 175
             },
             {
               "kind": "leftover",
               "ml": 100,
-              "price": 1275,
-              "first_seen": "2026-09-15"
+              "price": 1250,
+              "first_seen": "2026-09-15",
+              "prev_price": 1275
             }
           ],
           "image": "images/qasida-purity--eldesoki-fragrances.jpg",
@@ -201239,20 +201245,23 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 175,
-              "first_seen": "2026-09-14"
+              "price": 165,
+              "first_seen": "2026-09-14",
+              "prev_price": 175
             },
             {
               "kind": "leftover",
               "ml": 85,
-              "price": 1125,
-              "first_seen": "2026-09-15"
+              "price": 1100,
+              "first_seen": "2026-09-15",
+              "prev_price": 1125
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 2150,
-              "first_seen": "2026-09-09"
+              "price": 2100,
+              "first_seen": "2026-09-09",
+              "prev_price": 2150
             }
           ],
           "image": "images/amjad-coral--eldesoki-fragrances.jpg",
@@ -201292,14 +201301,16 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 175,
-              "first_seen": "2026-09-14"
+              "price": 165,
+              "first_seen": "2026-09-14",
+              "prev_price": 175
             },
             {
               "kind": "leftover",
               "ml": 100,
-              "price": 1275,
-              "first_seen": "2026-09-15"
+              "price": 1250,
+              "first_seen": "2026-09-15",
+              "prev_price": 1275
             },
             {
               "kind": "full",
@@ -201379,8 +201390,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2150,
-              "first_seen": "2026-09-09"
+              "price": 2100,
+              "first_seen": "2026-09-09",
+              "prev_price": 2150
             }
           ],
           "image": "images/qasida-sahm-faan-perfumes--eldesoki-fragrances.jpg",
@@ -201941,8 +201953,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2150,
-              "first_seen": "2026-09-09"
+              "price": 2100,
+              "first_seen": "2026-09-09",
+              "prev_price": 2150
             }
           ],
           "image": "images/qasida-bakhur-faan--eldesoki-fragrances.jpg",
@@ -201968,8 +201981,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2150,
-              "first_seen": "2026-09-09"
+              "price": 2100,
+              "first_seen": "2026-09-09",
+              "prev_price": 2150
             }
           ],
           "image": "images/qasida-signature-faan--eldesoki-fragrances.jpg",
@@ -201995,8 +202009,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2150,
-              "first_seen": "2026-09-09"
+              "price": 2100,
+              "first_seen": "2026-09-09",
+              "prev_price": 2150
             }
           ],
           "image": "images/qasida-purity-faan--eldesoki-fragrances.jpg",
@@ -202640,14 +202655,16 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 175,
-              "first_seen": "2026-09-14"
+              "price": 165,
+              "first_seen": "2026-09-14",
+              "prev_price": 175
             },
             {
               "kind": "leftover",
               "ml": 100,
-              "price": 1275,
-              "first_seen": "2026-09-15"
+              "price": 1250,
+              "first_seen": "2026-09-15",
+              "prev_price": 1275
             }
           ],
           "image": "images/qasida-sahm-1789422080--eldesoki-fragrances.jpg",
@@ -202673,14 +202690,16 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 175,
-              "first_seen": "2026-09-14"
+              "price": 165,
+              "first_seen": "2026-09-14",
+              "prev_price": 175
             },
             {
               "kind": "leftover",
               "ml": 100,
-              "price": 1275,
-              "first_seen": "2026-09-15"
+              "price": 1250,
+              "first_seen": "2026-09-15",
+              "prev_price": 1275
             }
           ],
           "image": "images/qasida-bakhur--eldesoki-fragrances.jpg",
