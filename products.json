@@ -23341,8 +23341,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 9706,
-              "first_seen": "2026-07-23"
+              "price": 9449,
+              "first_seen": "2026-07-23",
+              "prev_price": 9706
             },
             {
               "kind": "full",
@@ -95336,7 +95337,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3905,
+              "price": 4155,
               "first_seen": "2026-07-23"
             }
           ],
@@ -135237,6 +135238,20 @@
           ],
           "image": "images/rare-reef--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/afnan-rare-reef"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2494,
+              "first_seen": "2026-09-17"
+            }
+          ],
+          "image": "images/rare-reef--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/afnan-rare-reef-extrait-de-parfum-unisex-100ml"
         }
       ],
       "_hero_source": "sniffz",
@@ -155461,6 +155476,20 @@
           ],
           "image": "images/supremacy-not-only-intense--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/supremacy-not-only-intense-150-ml"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 3555,
+              "first_seen": "2026-09-17"
+            }
+          ],
+          "image": "images/supremacy-not-only-intense--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/afnan-afnan-supremacy-not-only-intense-extrait-de-parfum-for-men-150ml"
         }
       ],
       "_hero_source": "sniffz",
@@ -170462,8 +170491,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1463,
-              "first_seen": "2026-07-23"
+              "price": 1455,
+              "first_seen": "2026-07-23",
+              "prev_price": 1463
             }
           ],
           "image": "images/vision-iii-eau-de-toilette--feel22.jpg",
@@ -175700,7 +175730,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8030,
+              "price": 8299,
               "first_seen": "2026-07-23"
             },
             {
