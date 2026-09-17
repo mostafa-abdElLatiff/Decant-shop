@@ -14654,7 +14654,8 @@
               "kind": "full",
               "ml": 200,
               "price": 2250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-17"
             }
           ],
           "image": "images/arrogate-comete--emaratiscents.jpg",
@@ -42608,8 +42609,7 @@
               "kind": "full",
               "ml": 10,
               "price": 2550,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-16"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/discovery-diamond-set--emaratiscents.jpg",
@@ -98208,7 +98208,8 @@
               "kind": "full",
               "ml": 100,
               "price": 21000,
-              "first_seen": "2026-07-28"
+              "first_seen": "2026-07-28",
+              "sold_since": "2026-09-17"
             }
           ],
           "image": "images/lustre--emaratiscents.jpg",
@@ -104954,8 +104955,7 @@
               "kind": "full",
               "ml": 10,
               "price": 1400,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-17"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/mini-diamond-collection--emaratiscents.jpg",
@@ -121922,7 +121922,8 @@
               "kind": "full",
               "ml": 50,
               "price": 1030,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-17"
             }
           ],
           "image": "images/oud-al-abyad--emaratiscents.jpg",
@@ -137247,7 +137248,8 @@
               "kind": "full",
               "ml": 100,
               "price": 18000,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-17"
             }
           ],
           "image": "images/reflection-man--emaratiscents.jpg",
@@ -148093,7 +148095,8 @@
               "kind": "full",
               "ml": 100,
               "price": 970,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-17"
             }
           ],
           "image": "images/silk-musk--emaratiscents.jpg",
@@ -150480,8 +150483,7 @@
               "kind": "full",
               "ml": 50,
               "price": 1550,
-              "first_seen": "2026-08-01",
-              "sold_since": "2026-08-09"
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/sorrento--emaratiscents.jpg",
@@ -171693,7 +171695,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1850,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-17"
             }
           ],
           "image": "images/vulcan-feu--emaratiscents.jpg",
@@ -173574,8 +173577,7 @@
               "kind": "full",
               "ml": 200,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-16"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/wild-colt--emaratiscents.jpg",
@@ -179220,13 +179222,19 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 100,
+              "price": 1550,
+              "first_seen": "2026-09-17"
+            },
+            {
+              "kind": "full",
               "ml": 200,
               "price": 2350,
               "first_seen": "2026-09-07"
             }
           ],
           "image": "images/qasida-signature--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/qasida-signature-200-ml"
+          "product_url": "https://emaratiscents.com/products/qasida-signature-100-ml"
         },
         {
           "name": "eldesoki-fragrances",
@@ -179309,13 +179317,19 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 100,
+              "price": 1550,
+              "first_seen": "2026-09-17"
+            },
+            {
+              "kind": "full",
               "ml": 200,
               "price": 2350,
               "first_seen": "2026-09-07"
             }
           ],
           "image": "images/qasida-bakhour--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/qasida-bakhour-200-ml"
+          "product_url": "https://emaratiscents.com/products/qasida-bakhour-100-ml"
         }
       ],
       "_hero_source": "dar.elarabia",
@@ -198901,13 +198915,19 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 100,
+              "price": 1550,
+              "first_seen": "2026-09-17"
+            },
+            {
+              "kind": "full",
               "ml": 200,
               "price": 2350,
               "first_seen": "2026-09-07"
             }
           ],
           "image": "images/qasida-purity--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/qasida-purity-200-ml"
+          "product_url": "https://emaratiscents.com/products/qasida-purity-100-ml"
         },
         {
           "name": "eldesoki-fragrances",
@@ -201082,6 +201102,20 @@
           ],
           "image": "images/decision-42--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/amouage-decision-42"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 27900,
+              "first_seen": "2026-09-17"
+            }
+          ],
+          "image": "images/decision-42--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/decision-42"
         }
       ],
       "_hero_source": "sniffz"
@@ -201629,13 +201663,19 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 100,
+              "price": 1550,
+              "first_seen": "2026-09-17"
+            },
+            {
+              "kind": "full",
               "ml": 200,
               "price": 2350,
               "first_seen": "2026-09-07"
             }
           ],
           "image": "images/qasida-dunes-faan-perfumes--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/qasida-dunes-200-ml"
+          "product_url": "https://emaratiscents.com/products/qasida-dunes-100-ml"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -203320,6 +203360,33 @@
         }
       ],
       "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "bakhoor-al-arais",
+      "name_ar": "Bakhoor Al Arais",
+      "name_en": "Bakhoor Al Arais",
+      "brand": "Swiss Arabian",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/bakhoor-al-arais.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 445,
+              "first_seen": "2026-09-17"
+            }
+          ],
+          "image": "images/bakhoor-al-arais--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/bakhoor-al-arais-by-swiss-arabian"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
