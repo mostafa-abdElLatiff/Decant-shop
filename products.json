@@ -27666,6 +27666,20 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 30,
+              "price": 1950,
+              "first_seen": "2026-09-17",
+              "sold_since": "2026-09-17"
+            },
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 4659,
+              "first_seen": "2026-09-17",
+              "sold_since": "2026-09-17"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 5254,
               "first_seen": "2026-07-23",
@@ -65300,6 +65314,14 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 3046,
+              "first_seen": "2026-09-17",
+              "prev_price": 4200,
+              "sold_since": "2026-09-17"
+            },
+            {
+              "kind": "full",
               "ml": 90,
               "price": 4957,
               "first_seen": "2026-07-23",
@@ -70182,7 +70204,8 @@
               "kind": "full",
               "ml": 150,
               "price": 6829,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-09-17"
             }
           ],
           "image": "images/hero-eau-de-parfum--feel22.jpg",
