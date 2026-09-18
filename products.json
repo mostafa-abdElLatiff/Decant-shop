@@ -73969,9 +73969,15 @@
           "url": "https://roseperfume.online/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 70,
+              "price": 1225,
+              "first_seen": "2026-09-18"
+            },
+            {
               "kind": "full",
               "ml": 100,
-              "price": 120,
+              "price": 1750,
               "first_seen": "2026-08-13",
               "sold_since": "2026-08-13"
             }
@@ -195705,7 +195711,8 @@
               "kind": "full",
               "ml": 100,
               "price": 500,
-              "first_seen": "2026-08-27"
+              "first_seen": "2026-08-27",
+              "sold_since": "2026-09-18"
             }
           ],
           "image": "images/3pm-elixir--roseperfume.jpg",
@@ -197836,7 +197843,8 @@
               "kind": "full",
               "ml": 100,
               "price": 500,
-              "first_seen": "2026-08-31"
+              "first_seen": "2026-08-31",
+              "sold_since": "2026-09-18"
             }
           ],
           "image": "images/valentine-man-intense--roseperfume.jpg",
