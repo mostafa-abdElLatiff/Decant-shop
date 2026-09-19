@@ -82368,7 +82368,8 @@
               "kind": "full",
               "ml": 50,
               "price": 1950,
-              "first_seen": "2026-09-15"
+              "first_seen": "2026-09-15",
+              "sold_since": "2026-09-19"
             }
           ],
           "image": "images/kalemat--eldesoki-fragrances.jpg",
@@ -150792,7 +150793,6 @@
               "ml": 100,
               "price": 1650,
               "first_seen": "2026-07-18",
-              "prev_price": 1675,
               "sold_since": "2026-08-02"
             }
           ],
@@ -203072,8 +203072,9 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 3700,
-              "first_seen": "2026-09-15"
+              "price": 3450,
+              "first_seen": "2026-09-15",
+              "prev_price": 3700
             }
           ],
           "image": "images/tarteel-silver-arabian-oud--eldesoki-fragrances.jpg",
@@ -203153,8 +203154,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4250,
-              "first_seen": "2026-09-15"
+              "price": 3950,
+              "first_seen": "2026-09-15",
+              "prev_price": 4250
             }
           ],
           "image": "images/ehsas-khas-arabian-oud--eldesoki-fragrances.jpg",
