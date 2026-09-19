@@ -66304,14 +66304,33 @@
           "url": "https://sniffz-eg.com/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 3,
+              "price": 380,
+              "first_seen": "2026-09-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 540,
+              "first_seen": "2026-09-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 900,
+              "first_seen": "2026-09-19"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 12500,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-09-19"
             }
           ],
           "image": "images/halfeti--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/penhaligons-halfeti-full-sealed"
+          "product_url": "https://sniffz-eg.com/products/penhaligons-halfeti"
         }
       ],
       "_hero_source": "sniffz",
@@ -77085,6 +77104,32 @@
           ],
           "image": "images/invictus-victory-elixir--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/invictus-victory-elixir-100ml%d8%a7%d9%86%d9%81%d9%8a%d9%83%d8%aa%d9%88%d8%b3-%d9%81%d9%8a%d9%83%d8%aa%d9%88%d8%b1%d9%8a-%d8%a7%d9%84%d9%8a%d9%83%d8%b2%d9%8a%d8%b1-%d9%a1%d9%a0%d9%a0%d9%85%d9%84/"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 220,
+              "first_seen": "2026-09-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 300,
+              "first_seen": "2026-09-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 480,
+              "first_seen": "2026-09-19"
+            }
+          ],
+          "image": "images/invictus-victory-elixir--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/invictus-victory-elixir"
         }
       ],
       "_hero_source": "mazaya",
@@ -78741,7 +78786,8 @@
               "kind": "full",
               "ml": 100,
               "price": 3450,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-09-19"
             }
           ],
           "image": "images/iven-peace--sniffz.jpg",
@@ -87908,22 +87954,19 @@
               "kind": "decant",
               "ml": 3,
               "price": 230,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 315,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 500,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/l-homme-id-al-eau-de-parfum--sniffz.jpg",
@@ -89152,6 +89195,32 @@
           ],
           "image": "images/la-dor-bakhur--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/lador-bakhur-laverne-200ml%d9%84%d8%a7%d8%af%d9%88%d8%b1-%d8%a8%d8%ae%d9%88%d8%b1-%d9%84%d8%a7%d9%81%d9%8a%d8%b1%d9%86-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 110,
+              "first_seen": "2026-09-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 145,
+              "first_seen": "2026-09-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 220,
+              "first_seen": "2026-09-19"
+            }
+          ],
+          "image": "images/la-dor-bakhur--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/laverne-lador-bakhur-classic"
         }
       ],
       "aliases": [
@@ -203456,6 +203525,139 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "punto-collines",
+      "name_ar": "",
+      "name_en": "Punto Collines",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/punto-collines.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 125,
+              "first_seen": "2026-09-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 165,
+              "first_seen": "2026-09-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 250,
+              "first_seen": "2026-09-19"
+            }
+          ],
+          "image": "images/punto-collines--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/punto-collines-1"
+        }
+      ],
+      "_hero_source": "sniffz"
+    },
+    {
+      "id": "attacks-blue",
+      "name_ar": "",
+      "name_en": "Attacks Blue",
+      "brand": "Assaf",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/attacks-blue.jpg",
+      "accords": [
+        {
+          "label_en": "Cumin",
+          "label_ar": "",
+          "color": "#CC3300",
+          "w": 100
+        },
+        {
+          "label_en": "Apple",
+          "label_ar": "",
+          "color": "#FC4B29",
+          "w": 90
+        },
+        {
+          "label_en": "Pear",
+          "label_ar": "",
+          "color": "#FC4B29",
+          "w": 80
+        },
+        {
+          "label_en": "Labdanum",
+          "label_ar": "",
+          "color": "#ad8359",
+          "w": 70
+        },
+        {
+          "label_en": "Orange Blossom",
+          "label_ar": "",
+          "color": "#edf2fb",
+          "w": 60
+        },
+        {
+          "label_en": "Patchouli",
+          "label_ar": "",
+          "color": "#63652e",
+          "w": 50
+        },
+        {
+          "label_en": "Amber",
+          "label_ar": "",
+          "color": "#bc4d10",
+          "w": 40
+        },
+        {
+          "label_en": "Sandalwood",
+          "label_ar": "",
+          "color": "#774414",
+          "w": 40
+        },
+        {
+          "label_en": "Vetiver",
+          "label_ar": "",
+          "color": "#544838",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 75,
+              "first_seen": "2026-09-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 100,
+              "first_seen": "2026-09-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 150,
+              "first_seen": "2026-09-19"
+            }
+          ],
+          "image": "images/attacks-blue--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/assaf-attacks-blue"
+        }
+      ],
+      "_hero_source": "sniffz"
     }
   ]
 }
