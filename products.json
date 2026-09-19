@@ -72897,8 +72897,7 @@
               "kind": "full",
               "ml": 200,
               "price": 4850,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-18"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/hudson-valley--emaratiscents.jpg",
@@ -83765,8 +83764,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-15"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/khalifa--emaratiscents.jpg",
@@ -94850,7 +94848,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-19"
             }
           ],
           "image": "images/leather--emaratiscents.jpg",
@@ -177852,8 +177851,7 @@
               "kind": "full",
               "ml": 150,
               "price": 2250,
-              "first_seen": "2026-08-01",
-              "sold_since": "2026-08-16"
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/first-night--emaratiscents.jpg",
@@ -177941,8 +177939,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1850,
-              "first_seen": "2026-08-01",
-              "sold_since": "2026-08-26"
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/amber-cashmer--emaratiscents.jpg",
@@ -200640,6 +200637,20 @@
           ],
           "image": "images/most-wanted-parfum--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/most-wanted-parfum-50ml%d8%a7%d8%b2%d8%a7%d8%b1%d9%88-%d9%85%d9%88%d8%b3%d8%aa-%d9%88%d9%86%d8%aa%d8%af-%d8%a8%d8%a7%d8%b1%d9%81%d9%85-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 120,
+              "price": 2750,
+              "first_seen": "2026-09-19"
+            }
+          ],
+          "image": "images/most-wanted-parfum--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/most-wanted-by-ghalati"
         }
       ],
       "_hero_source": "eldesoki-fragrances"
@@ -203663,6 +203674,276 @@
         }
       ],
       "_hero_source": "sniffz"
+    },
+    {
+      "id": "exotic-wood",
+      "name_ar": "Exotic Wood",
+      "name_en": "Exotic Wood",
+      "brand": "Ghalati",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/exotic-wood.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 1700,
+              "first_seen": "2026-09-19"
+            }
+          ],
+          "image": "images/exotic-wood--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/exotic-wood"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "rose-intense",
+      "name_ar": "Rose Intense",
+      "name_en": "Rose Intense",
+      "brand": "Ghalati",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/rose-intense.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 1700,
+              "first_seen": "2026-09-19"
+            }
+          ],
+          "image": "images/rose-intense--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/rose-intense"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "sublime-woods",
+      "name_ar": "Sublime Woods",
+      "name_en": "Sublime Woods",
+      "brand": "Ghalati",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/sublime-woods.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1700,
+              "first_seen": "2026-09-19"
+            }
+          ],
+          "image": "images/sublime-woods--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/sublime-woods"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "majestic-woods",
+      "name_ar": "Majestic Woods",
+      "name_en": "Majestic Woods",
+      "brand": "Ghalati",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/majestic-woods.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1700,
+              "first_seen": "2026-09-19"
+            }
+          ],
+          "image": "images/majestic-woods--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/majestic-woods"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "utopia-essence",
+      "name_ar": "Utopia Essence",
+      "name_en": "Utopia Essence",
+      "brand": "Ghalati",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/utopia-essence.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1650,
+              "first_seen": "2026-09-19"
+            }
+          ],
+          "image": "images/utopia-essence--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/utopia-essence"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "utopia-platinum",
+      "name_ar": "Utopia Platinum",
+      "name_en": "Utopia Platinum",
+      "brand": "Ghalati",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/utopia-platinum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1650,
+              "first_seen": "2026-09-19"
+            }
+          ],
+          "image": "images/utopia-platinum--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/utopia-platinum"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "just-leather",
+      "name_ar": "Just Leather",
+      "name_en": "Just Leather",
+      "brand": "Ghalati",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/just-leather.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1700,
+              "first_seen": "2026-09-19"
+            }
+          ],
+          "image": "images/just-leather--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/just-leather"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "just-tobacco",
+      "name_ar": "Just Tobacco",
+      "name_en": "Just Tobacco",
+      "brand": "Ghalati",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/just-tobacco.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1700,
+              "first_seen": "2026-09-19"
+            }
+          ],
+          "image": "images/just-tobacco--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/just-tobacco"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "just-oud",
+      "name_ar": "Just Oud",
+      "name_en": "Just Oud",
+      "brand": "Ghalati",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/just-oud.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1700,
+              "first_seen": "2026-09-19"
+            }
+          ],
+          "image": "images/just-oud--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/just-oud"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "floral-a",
+      "name_ar": "Floral A",
+      "name_en": "Floral A",
+      "brand": "Osma",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/floral-a.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 2250,
+              "first_seen": "2026-09-19"
+            }
+          ],
+          "image": "images/floral-a--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/floral-a-by-osma"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
