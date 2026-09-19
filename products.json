@@ -49125,7 +49125,8 @@
               "kind": "leftover",
               "ml": 55,
               "price": 640,
-              "first_seen": "2026-09-11"
+              "first_seen": "2026-09-11",
+              "sold_since": "2026-09-19"
             },
             {
               "kind": "leftover",
@@ -52633,7 +52634,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 150,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-19"
             },
             {
               "kind": "leftover",
@@ -83460,7 +83462,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 110,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-19"
             },
             {
               "kind": "leftover",
@@ -127370,8 +127373,9 @@
             {
               "kind": "leftover",
               "ml": 35,
-              "price": 600,
+              "price": 525,
               "first_seen": "2026-08-13",
+              "prev_price": 600,
               "sold_since": "2026-08-15"
             },
             {
@@ -145935,13 +145939,15 @@
               "kind": "decant",
               "ml": 30,
               "price": 395,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-19"
             },
             {
               "kind": "leftover",
               "ml": 50,
               "price": 600,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-19"
             },
             {
               "kind": "full",
@@ -202494,6 +202500,13 @@
               "ml": 30,
               "price": 950,
               "first_seen": "2026-09-10"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 1500,
+              "first_seen": "2026-09-19",
+              "sold_since": "2026-09-19"
             },
             {
               "kind": "full",
