@@ -3284,8 +3284,7 @@
               "kind": "full",
               "ml": 100,
               "price": 18200,
-              "first_seen": "2026-09-18",
-              "sold_since": "2026-09-18"
+              "first_seen": "2026-09-18"
             }
           ],
           "image": "images/accento-edp--mazaya.jpg",
@@ -10739,8 +10738,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1295,
-              "first_seen": "2026-09-02",
-              "sold_since": "2026-09-12"
+              "first_seen": "2026-09-02"
             }
           ],
           "image": "images/angham--mazaya.jpg",
@@ -37119,8 +37117,9 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 5545,
-              "first_seen": "2026-07-23"
+              "price": 2772,
+              "first_seen": "2026-07-23",
+              "prev_price": 5545
             }
           ],
           "image": "images/cool-water-reborn-man-edt--mazaya.jpg",
@@ -51505,8 +51504,7 @@
               "kind": "full",
               "ml": 100,
               "price": 15950,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/erba-pura--mazaya.jpg",
@@ -78694,8 +78692,7 @@
               "kind": "full",
               "ml": 100,
               "price": 19500,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/italica-edp--mazaya.jpg",
@@ -86662,7 +86659,7 @@
             }
           ],
           "image": "images/kuro-eau-de-parfum--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/kuro-eau-de-parfum-90-ml"
+          "product_url": "https://mazaya.eg/en/kuro-eau-de-parfum123455-html12"
         }
       ],
       "_hero_source": "mazaya",
@@ -165461,9 +165458,10 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8800,
+              "price": 8000,
               "first_seen": "2026-09-14",
-              "sold_since": "2026-09-14"
+              "prev_price": 8800,
+              "sold_since": "2026-09-20"
             }
           ],
           "image": "images/uomo-intense--mazaya.jpg",
