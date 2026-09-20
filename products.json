@@ -106661,11 +106661,28 @@
           "url": "https://roseperfume.online/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 5,
+              "price": 110,
+              "first_seen": "2026-09-20"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-09-20"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 550,
+              "first_seen": "2026-09-20"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1500,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
+              "first_seen": "2026-07-20"
             }
           ],
           "image": "images/momento--roseperfume.jpg",
@@ -107586,7 +107603,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1850,
-              "first_seen": "2026-09-03"
+              "first_seen": "2026-09-03",
+              "sold_since": "2026-09-20"
             }
           ],
           "image": "images/muharib--roseperfume.jpg",
@@ -138710,11 +138728,29 @@
           "url": "https://roseperfume.online/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 5,
+              "price": 125,
+              "first_seen": "2026-09-20"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 225,
+              "first_seen": "2026-09-20"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 625,
+              "first_seen": "2026-09-20"
+            },
+            {
               "kind": "full",
               "ml": 100,
-              "price": 2000,
+              "price": 1700,
               "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
+              "prev_price": 2000
             }
           ],
           "image": "images/riffs-freeze--roseperfume.jpg",
@@ -140189,19 +140225,22 @@
               "kind": "decant",
               "ml": 5,
               "price": 110,
-              "first_seen": "2026-08-15"
+              "first_seen": "2026-08-15",
+              "sold_since": "2026-09-20"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-08-15"
+              "first_seen": "2026-08-15",
+              "sold_since": "2026-09-20"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 550,
-              "first_seen": "2026-08-15"
+              "first_seen": "2026-08-15",
+              "sold_since": "2026-09-20"
             },
             {
               "kind": "full",
@@ -147984,8 +148023,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1500,
-              "first_seen": "2026-07-20",
-              "prev_price": 1550
+              "first_seen": "2026-07-20"
             }
           ],
           "image": "images/signature-rose-gold-dkhoon-emirates--roseperfume.jpg",
