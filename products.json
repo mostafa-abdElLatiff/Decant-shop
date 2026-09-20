@@ -17484,7 +17484,8 @@
               "kind": "full",
               "ml": 55,
               "price": 1550,
-              "first_seen": "2026-07-21"
+              "first_seen": "2026-07-21",
+              "sold_since": "2026-09-20"
             }
           ],
           "image": "images/atlas-lattafa--emaratiscents.jpg",
@@ -29279,8 +29280,7 @@
               "kind": "full",
               "ml": 200,
               "price": 4850,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-16"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/calabria--emaratiscents.jpg",
@@ -56197,8 +56197,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-19"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/faris-al-arab--emaratiscents.jpg",
@@ -75250,7 +75249,8 @@
               "kind": "full",
               "ml": 50,
               "price": 1550,
-              "first_seen": "2026-08-01"
+              "first_seen": "2026-08-01",
+              "sold_since": "2026-09-20"
             }
           ],
           "image": "images/inception--emaratiscents.jpg",
@@ -85717,8 +85717,7 @@
               "kind": "full",
               "ml": 200,
               "price": 3200,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-19"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/king-tobacco-laverne--emaratiscents.jpg",
@@ -108103,7 +108102,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1950,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-20"
             }
           ],
           "image": "images/musamam-black-intense--emaratiscents.jpg",
@@ -120828,8 +120828,7 @@
               "kind": "full",
               "ml": 200,
               "price": 2800,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-10"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/orchid-valley--emaratiscents.jpg",
@@ -129925,7 +129924,8 @@
               "kind": "full",
               "ml": 75,
               "price": 1700,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-20"
             }
           ],
           "image": "images/powder-musk--emaratiscents.jpg",
@@ -169295,8 +169295,7 @@
               "kind": "full",
               "ml": 100,
               "price": 600,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-13"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/verato-for-men--emaratiscents.jpg",
@@ -171765,7 +171764,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1850,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-20"
             }
           ],
           "image": "images/vulcan-feu--emaratiscents.jpg",
@@ -201733,13 +201733,6 @@
           "offers": [
             {
               "kind": "full",
-              "ml": 100,
-              "price": 1550,
-              "first_seen": "2026-09-09",
-              "sold_since": "2026-09-13"
-            },
-            {
-              "kind": "full",
               "ml": 200,
               "price": 2350,
               "first_seen": "2026-09-07"
@@ -203964,6 +203957,33 @@
           ],
           "image": "images/floral-a--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/floral-a-by-osma"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "pure-fruity",
+      "name_ar": "Pure Fruity",
+      "name_en": "Pure Fruity",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/pure-fruity.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 2950,
+              "first_seen": "2026-09-20"
+            }
+          ],
+          "image": "images/pure-fruity--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/pure-fruity-150-ml"
         }
       ],
       "_hero_source": "emaratiscents"
