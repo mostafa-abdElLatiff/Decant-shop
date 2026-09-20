@@ -21646,7 +21646,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-20"
             },
             {
               "kind": "leftover",
@@ -21654,6 +21655,13 @@
               "price": 850,
               "first_seen": "2026-07-19",
               "sold_since": "2026-09-15"
+            },
+            {
+              "kind": "leftover",
+              "ml": 90,
+              "price": 1530,
+              "first_seen": "2026-09-20",
+              "sold_since": "2026-09-20"
             },
             {
               "kind": "full",
@@ -23131,7 +23139,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 425,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-20"
             },
             {
               "kind": "leftover",
@@ -25093,14 +25102,22 @@
             },
             {
               "kind": "leftover",
-              "ml": 80,
+              "ml": 70,
               "price": 770,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-09-20",
+              "sold_since": "2026-09-20"
+            },
+            {
+              "kind": "leftover",
+              "ml": 80,
+              "price": 880,
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-20"
             },
             {
               "kind": "leftover",
               "ml": 95,
-              "price": 880,
+              "price": 1045,
               "first_seen": "2026-09-11",
               "sold_since": "2026-09-12"
             },
@@ -49271,6 +49288,13 @@
               "price": 440,
               "first_seen": "2026-09-11",
               "sold_since": "2026-09-12"
+            },
+            {
+              "kind": "leftover",
+              "ml": 40,
+              "price": 440,
+              "first_seen": "2026-09-20",
+              "sold_since": "2026-09-20"
             },
             {
               "kind": "leftover",
@@ -116104,8 +116128,7 @@
               "kind": "full",
               "ml": 150,
               "price": 1650,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/nude-coral-diamond--og-perfume.jpg",
@@ -198200,8 +198223,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 825,
-              "first_seen": "2026-09-11",
-              "sold_since": "2026-09-11"
+              "first_seen": "2026-09-11"
             },
             {
               "kind": "leftover",
