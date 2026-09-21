@@ -11920,6 +11920,20 @@
               "ml": 100,
               "price": 1550,
               "first_seen": "2026-08-12"
+            },
+            {
+              "kind": "leftover",
+              "ml": 100,
+              "price": 1200,
+              "first_seen": "2026-09-21",
+              "sold_since": "2026-09-21"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2250,
+              "first_seen": "2026-09-21",
+              "sold_since": "2026-09-21"
             }
           ],
           "image": "images/arabian-tobacco--og-perfume.jpg",
@@ -25402,6 +25416,13 @@
               "price": 910,
               "first_seen": "2026-09-19",
               "sold_since": "2026-09-19"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 1950,
+              "first_seen": "2026-09-21",
+              "sold_since": "2026-09-21"
             },
             {
               "kind": "full",
@@ -39154,6 +39175,13 @@
               "sold_since": "2026-09-18"
             },
             {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 625,
+              "first_seen": "2026-09-21",
+              "sold_since": "2026-09-21"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1250,
@@ -43253,7 +43281,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 875,
-              "first_seen": "2026-09-11"
+              "first_seen": "2026-09-11",
+              "sold_since": "2026-09-21"
             },
             {
               "kind": "full",
@@ -52601,7 +52630,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 170,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-21"
             },
             {
               "kind": "decant",
@@ -56946,8 +56976,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 175,
-              "first_seen": "2026-07-19",
-              "prev_price": 180
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -56960,8 +56989,7 @@
               "kind": "full",
               "ml": 110,
               "price": 1450,
-              "first_seen": "2026-07-19",
-              "prev_price": 1550
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/fire-on-ice--og-perfume.jpg",
@@ -102746,8 +102774,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1050,
-              "first_seen": "2026-07-19",
-              "prev_price": 1100
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/mayar-cherry-intense--og-perfume.jpg",
@@ -176691,8 +176718,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1100,
-              "first_seen": "2026-07-19",
-              "prev_price": 1200
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/yara-elixir--og-perfume.jpg",
