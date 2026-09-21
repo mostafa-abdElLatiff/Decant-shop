@@ -67394,14 +67394,16 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 975,
-              "first_seen": "2026-09-04"
+              "price": 950,
+              "first_seen": "2026-09-04",
+              "prev_price": 975
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-21"
             }
           ],
           "image": "images/hawas-elixir--eldesoki-fragrances.jpg",
@@ -82447,9 +82449,8 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 1950,
-              "first_seen": "2026-09-15",
-              "sold_since": "2026-09-19"
+              "price": 2050,
+              "first_seen": "2026-09-15"
             }
           ],
           "image": "images/kalemat--eldesoki-fragrances.jpg",
@@ -117250,7 +117251,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 160,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-21"
             },
             {
               "kind": "leftover",
@@ -125572,8 +125574,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 700,
-              "first_seen": "2026-09-01",
-              "prev_price": 750
+              "first_seen": "2026-09-01"
             },
             {
               "kind": "full",
@@ -170564,8 +170565,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 250,
-              "first_seen": "2026-09-04"
+              "price": 240,
+              "first_seen": "2026-09-04",
+              "prev_price": 250
             },
             {
               "kind": "leftover",
@@ -203345,8 +203347,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2350,
-              "first_seen": "2026-09-15"
+              "price": 2300,
+              "first_seen": "2026-09-15",
+              "prev_price": 2350
             }
           ],
           "image": "images/woody-style-arabian-oud--eldesoki-fragrances.jpg",
