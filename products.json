@@ -18436,15 +18436,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 130,
-              "first_seen": "2026-07-25",
-              "sold_since": "2026-08-22"
+              "first_seen": "2026-07-25"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 350,
-              "first_seen": "2026-07-25",
-              "sold_since": "2026-08-22"
+              "first_seen": "2026-07-25"
             },
             {
               "kind": "leftover",
@@ -18464,8 +18462,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1000,
-              "first_seen": "2026-07-25",
-              "sold_since": "2026-08-23"
+              "first_seen": "2026-07-25"
             }
           ],
           "image": "images/aura-vanilla-milk--og-perfume.jpg",
@@ -28398,7 +28395,7 @@
               "price": 130,
               "first_seen": "2026-07-19",
               "prev_price": 195,
-              "sold_since": "2026-09-21"
+              "sold_since": "2026-09-22"
             },
             {
               "kind": "decant",
@@ -28419,7 +28416,7 @@
               "ml": 100,
               "price": 1550,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-09-21"
+              "sold_since": "2026-09-22"
             },
             {
               "kind": "full",
@@ -59677,14 +59674,14 @@
               "price": 140,
               "first_seen": "2026-07-19",
               "prev_price": 195,
-              "sold_since": "2026-09-21"
+              "sold_since": "2026-09-22"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 525,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-09-21"
+              "sold_since": "2026-09-22"
             },
             {
               "kind": "leftover",
@@ -59698,7 +59695,7 @@
               "ml": 100,
               "price": 1550,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-09-21"
+              "sold_since": "2026-09-22"
             },
             {
               "kind": "full",
@@ -67169,7 +67166,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-22"
             }
           ],
           "image": "images/hawas-diva--og-perfume.jpg",
@@ -70993,8 +70991,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 330,
-              "first_seen": "2026-07-19"
+              "price": 300,
+              "first_seen": "2026-07-19",
+              "prev_price": 330
             },
             {
               "kind": "decant",
@@ -82593,15 +82592,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-25",
-              "sold_since": "2026-08-23"
+              "first_seen": "2026-07-25"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 575,
-              "first_seen": "2026-07-25",
-              "sold_since": "2026-08-13"
+              "first_seen": "2026-07-25"
             },
             {
               "kind": "leftover",
@@ -82614,8 +82611,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1700,
-              "first_seen": "2026-07-25",
-              "sold_since": "2026-09-05"
+              "first_seen": "2026-07-25"
             }
           ],
           "image": "images/karus-gold-absolu--og-perfume.jpg",
@@ -138383,7 +138379,8 @@
               "kind": "leftover",
               "ml": 45,
               "price": 695,
-              "first_seen": "2026-09-12"
+              "first_seen": "2026-09-12",
+              "sold_since": "2026-09-22"
             },
             {
               "kind": "full",
@@ -155690,14 +155687,7 @@
               "price": 220,
               "first_seen": "2026-07-19",
               "prev_price": 225,
-              "sold_since": "2026-09-21"
-            },
-            {
-              "kind": "decant",
-              "ml": 30,
-              "price": 625,
-              "first_seen": "2026-09-15",
-              "sold_since": "2026-09-15"
+              "sold_since": "2026-09-22"
             },
             {
               "kind": "leftover",
@@ -155718,7 +155708,7 @@
               "ml": 150,
               "price": 2900,
               "first_seen": "2026-07-31",
-              "sold_since": "2026-09-21"
+              "sold_since": "2026-09-22"
             }
           ],
           "image": "images/supremacy-not-only-intense--og-perfume.jpg",
@@ -185413,6 +185403,32 @@
           ],
           "image": "images/boom-blue--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/boom-blue-assaf"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 120,
+              "first_seen": "2026-09-22"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 325,
+              "first_seen": "2026-09-22"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 1750,
+              "first_seen": "2026-09-22"
+            }
+          ],
+          "image": "images/boom-blue--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/boom-blue"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -187332,6 +187348,32 @@
           ],
           "image": "images/hook-blue--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/hook-blue-200ml-assaf%d9%87%d9%88%d9%83-%d8%a8%d9%84%d9%88-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d8%b9%d8%b3%d8%a7%d9%81-%d8%ad%d8%b5%d8%b1%d9%8a/"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 120,
+              "first_seen": "2026-09-22"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 325,
+              "first_seen": "2026-09-22"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 1750,
+              "first_seen": "2026-09-22"
+            }
+          ],
+          "image": "images/hook-blue--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/hook-blue"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -194877,8 +194919,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1700,
-              "first_seen": "2026-08-22",
-              "sold_since": "2026-08-31"
+              "first_seen": "2026-08-22"
             }
           ],
           "image": "images/spectrum-chill--og-perfume.jpg",
@@ -194912,8 +194953,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-08-22",
-              "sold_since": "2026-08-31"
+              "first_seen": "2026-08-22"
             }
           ],
           "image": "images/kaaf-pink--og-perfume.jpg",
@@ -204270,6 +204310,39 @@
           ],
           "image": "images/rave-now-black--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/rave-now-black"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "hersh-mehwar-new-version",
+      "name_ar": "Hersh Mehwar (New Version)",
+      "name_en": "Hersh Mehwar (New Version)",
+      "brand": "Al Ezz Lel Oud",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/hersh-mehwar-new-version.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 330,
+              "first_seen": "2026-09-22"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3000,
+              "first_seen": "2026-09-22"
+            }
+          ],
+          "image": "images/hersh-mehwar-new-version--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/hersh-mehwar-new-version"
         }
       ],
       "_hero_source": "og-perfume"
