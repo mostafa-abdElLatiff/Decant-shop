@@ -156351,7 +156351,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 1300,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-22"
             }
           ],
           "image": "images/symphonium-parfum--perfuzone.jpg",
@@ -204732,6 +204733,39 @@
         }
       ],
       "_hero_source": "MO Shawky"
+    },
+    {
+      "id": "ilio-diptyque-eau-de-toilette",
+      "name_ar": "Ilio Diptyque Eau De Toilette",
+      "name_en": "Ilio Diptyque Eau De Toilette",
+      "brand": "Diptyque",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/ilio-diptyque-eau-de-toilette.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 550,
+              "first_seen": "2026-09-22"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 1000,
+              "first_seen": "2026-09-22"
+            }
+          ],
+          "image": "images/ilio-diptyque-eau-de-toilette--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/ilio-diptyque-eau-de-toilette"
+        }
+      ],
+      "_hero_source": "perfuzone"
     }
   ]
 }
