@@ -115867,7 +115867,8 @@
               "kind": "full",
               "ml": 150,
               "price": 1650,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-22"
             }
           ],
           "image": "images/nude-coral-diamond--og-perfume.jpg",
@@ -132076,7 +132077,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 90,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-22"
             },
             {
               "kind": "decant",
@@ -144004,8 +144006,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1350,
-              "first_seen": "2026-07-19"
+              "price": 1250,
+              "first_seen": "2026-07-19",
+              "prev_price": 1350
             }
           ],
           "image": "images/second-song--og-perfume.jpg",
@@ -166913,7 +166916,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 875,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-22"
             },
             {
               "kind": "full",
@@ -178065,6 +178069,32 @@
           ],
           "image": "images/oud-bakhur-arrogate--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/oud-bakhur-arrogate-150-ml"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 210,
+              "first_seen": "2026-09-22"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 585,
+              "first_seen": "2026-09-22"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 2250,
+              "first_seen": "2026-09-22"
+            }
+          ],
+          "image": "images/oud-bakhur-arrogate--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/oud-bakhur-arrogate"
         }
       ],
       "_hero_source": "emaratiscents",
