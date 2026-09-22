@@ -8385,14 +8385,16 @@
             {
               "kind": "decant",
               "ml": 5,
-              "price": 5,
-              "first_seen": "2026-07-20"
+              "price": 50,
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-09-22"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 80,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-09-22"
             },
             {
               "kind": "decant",
@@ -165947,6 +165949,24 @@
           "url": "https://roseperfume.online/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 5,
+              "price": 75,
+              "first_seen": "2026-09-22"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 125,
+              "first_seen": "2026-09-22"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 325,
+              "first_seen": "2026-09-22"
+            },
+            {
               "kind": "full",
               "ml": 90,
               "price": 850,
@@ -166214,14 +166234,16 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 150,
-              "first_seen": "2026-08-29"
+              "price": 125,
+              "first_seen": "2026-08-29",
+              "prev_price": 150
             },
             {
               "kind": "decant",
               "ml": 30,
-              "price": 400,
-              "first_seen": "2026-08-29"
+              "price": 325,
+              "first_seen": "2026-08-29",
+              "prev_price": 400
             },
             {
               "kind": "full",
@@ -202832,6 +202854,24 @@
           "name": "roseperfume",
           "url": "https://roseperfume.online/",
           "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 75,
+              "first_seen": "2026-09-22"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 125,
+              "first_seen": "2026-09-22"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 325,
+              "first_seen": "2026-09-22"
+            },
             {
               "kind": "full",
               "ml": 100,
