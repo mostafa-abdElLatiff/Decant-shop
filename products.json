@@ -11562,7 +11562,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1450,
+              "price": 1500,
               "first_seen": "2026-07-19"
             }
           ],
@@ -19002,15 +19002,13 @@
               "kind": "decant",
               "ml": 5,
               "price": 100,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-09-02"
+              "first_seen": "2026-01-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 175,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-09-03"
+              "first_seen": "2026-01-01"
             },
             {
               "kind": "decant",
@@ -19022,7 +19020,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1450,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-09-22"
             }
           ],
           "image": "images/azul-rayhaan--roseperfume.jpg",
@@ -38199,8 +38198,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1500,
-              "first_seen": "2026-08-17"
+              "price": 1350,
+              "first_seen": "2026-08-17",
+              "prev_price": 1500
             }
           ],
           "image": "images/crimson--roseperfume.jpg",
@@ -127526,8 +127526,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1500,
-              "first_seen": "2026-07-20"
+              "price": 1450,
+              "first_seen": "2026-07-20",
+              "prev_price": 1500
             }
           ],
           "image": "images/pharaoh--roseperfume.jpg",
@@ -144739,8 +144740,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1150,
-              "first_seen": "2026-07-20"
+              "price": 1050,
+              "first_seen": "2026-07-20",
+              "prev_price": 1150
             }
           ],
           "image": "images/seville--roseperfume.jpg",
@@ -162716,7 +162718,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1350,
+              "price": 1400,
               "first_seen": "2026-07-20"
             }
           ],
