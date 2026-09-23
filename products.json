@@ -8232,7 +8232,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-23"
             }
           ],
           "image": "images/amber-empire--og-perfume.jpg",
@@ -28419,7 +28420,7 @@
               "price": 130,
               "first_seen": "2026-07-19",
               "prev_price": 195,
-              "sold_since": "2026-09-22"
+              "sold_since": "2026-09-23"
             },
             {
               "kind": "decant",
@@ -28440,7 +28441,7 @@
               "ml": 100,
               "price": 1550,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-09-22"
+              "sold_since": "2026-09-23"
             },
             {
               "kind": "full",
@@ -59692,14 +59693,14 @@
               "price": 140,
               "first_seen": "2026-07-19",
               "prev_price": 195,
-              "sold_since": "2026-09-22"
+              "sold_since": "2026-09-23"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 525,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-09-22"
+              "sold_since": "2026-09-23"
             },
             {
               "kind": "leftover",
@@ -59713,7 +59714,7 @@
               "ml": 100,
               "price": 1550,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-09-22"
+              "sold_since": "2026-09-23"
             },
             {
               "kind": "full",
@@ -61055,15 +61056,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/gentle--og-perfume.jpg",
@@ -83222,22 +83221,19 @@
               "kind": "decant",
               "ml": 10,
               "price": 350,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 1000,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 3250,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/kenzo-homme-eau-de-parfum--og-perfume.jpg",
@@ -84389,7 +84385,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 405,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-23"
             },
             {
               "kind": "leftover",
@@ -108982,8 +108979,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-22"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -108996,8 +108992,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/musk-garden--og-perfume.jpg",
@@ -144092,8 +144087,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1700,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-02"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/secret-garden--og-perfume.jpg",
@@ -155709,7 +155703,7 @@
               "price": 220,
               "first_seen": "2026-07-19",
               "prev_price": 225,
-              "sold_since": "2026-09-22"
+              "sold_since": "2026-09-23"
             },
             {
               "kind": "decant",
@@ -155737,7 +155731,7 @@
               "ml": 150,
               "price": 2900,
               "first_seen": "2026-07-31",
-              "sold_since": "2026-09-22"
+              "sold_since": "2026-09-23"
             }
           ],
           "image": "images/supremacy-not-only-intense--og-perfume.jpg",
@@ -204748,6 +204742,45 @@
         }
       ],
       "_hero_source": "perfuzone"
+    },
+    {
+      "id": "marciano",
+      "name_ar": "Marciano",
+      "name_en": "Marciano",
+      "brand": "Guess",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/marciano.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 180,
+              "first_seen": "2026-09-23"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 500,
+              "first_seen": "2026-09-23"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1500,
+              "first_seen": "2026-09-23"
+            }
+          ],
+          "image": "images/marciano--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/guess-marciano"
+        }
+      ],
+      "_hero_source": "og-perfume"
     }
   ]
 }
