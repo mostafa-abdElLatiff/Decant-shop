@@ -84420,23 +84420,23 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 130,
+              "price": 115,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 130
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 165,
+              "price": 150,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 165
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 270,
+              "price": 230,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 270
             },
             {
               "kind": "full",
@@ -116066,7 +116066,8 @@
               "kind": "full",
               "ml": 150,
               "price": 1500,
-              "first_seen": "2026-08-05"
+              "first_seen": "2026-08-05",
+              "sold_since": "2026-09-23"
             }
           ],
           "image": "images/nude-coral-diamond--sniffz.jpg",
@@ -135479,7 +135480,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-09-23"
             }
           ],
           "image": "images/rare-reef--sniffz.jpg",
@@ -155242,7 +155244,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2450,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-23"
             }
           ],
           "image": "images/supremacy-collector-s-edition--sniffz.jpg",
@@ -201667,19 +201670,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 675,
-              "first_seen": "2026-09-06"
+              "first_seen": "2026-09-06",
+              "sold_since": "2026-09-23"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 960,
-              "first_seen": "2026-09-06"
+              "first_seen": "2026-09-06",
+              "sold_since": "2026-09-23"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 1600,
-              "first_seen": "2026-09-06"
+              "first_seen": "2026-09-06",
+              "sold_since": "2026-09-23"
             }
           ],
           "image": "images/byredo-bal-d-afrique-absolu--sniffz.jpg",
