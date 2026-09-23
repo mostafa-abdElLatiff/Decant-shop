@@ -2112,7 +2112,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1950,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-23"
             }
           ],
           "image": "images/9pm-night-out--emaratiscents.jpg",
@@ -48383,8 +48384,7 @@
               "kind": "full",
               "ml": 100,
               "price": 780,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-20"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/ejaazi--emaratiscents.jpg",
@@ -80860,7 +80860,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1310,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-23"
             }
           ],
           "image": "images/jean-lowe-fraiche--emaratiscents.jpg",
@@ -97088,7 +97089,8 @@
               "kind": "full",
               "ml": 150,
               "price": 2450,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-23"
             }
           ],
           "image": "images/liquid-brun-limited-edition--emaratiscents.jpg",
@@ -114583,7 +114585,8 @@
               "kind": "full",
               "ml": 150,
               "price": 2950,
-              "first_seen": "2026-09-15"
+              "first_seen": "2026-09-15",
+              "sold_since": "2026-09-23"
             }
           ],
           "image": "images/noir-1784457946--emaratiscents.jpg",
@@ -129377,7 +129380,8 @@
               "kind": "full",
               "ml": 12,
               "price": 575,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-23"
             }
           ],
           "image": "images/pomegranate-musk-tahara-oil--emaratiscents.jpg",
@@ -130939,8 +130943,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1800,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-15"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/prime-26--emaratiscents.jpg",
@@ -134104,8 +134107,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-16"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/qumra--emaratiscents.jpg",
@@ -156368,7 +156370,8 @@
               "kind": "full",
               "ml": 100,
               "price": 850,
-              "first_seen": "2026-07-31"
+              "first_seen": "2026-07-31",
+              "sold_since": "2026-09-23"
             }
           ],
           "image": "images/sweet-oud--emaratiscents.jpg",
@@ -164413,8 +164416,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1100,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-21"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/tuwaiq-almas--emaratiscents.jpg",
@@ -169886,8 +169888,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1350,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-01"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/verus-hot--emaratiscents.jpg",
@@ -197612,8 +197613,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1850,
-              "first_seen": "2026-08-30",
-              "sold_since": "2026-09-21"
+              "first_seen": "2026-08-30"
             }
           ],
           "image": "images/regent--emaratiscents.jpg",
@@ -206409,6 +206409,33 @@
         }
       ],
       "_hero_source": "roseperfume"
+    },
+    {
+      "id": "musk-al-ruman-by-almas",
+      "name_ar": "Musk Al Ruman By Almas",
+      "name_en": "Musk Al Ruman By Almas",
+      "brand": "Almas Perfumes",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/musk-al-ruman-by-almas.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1100,
+              "first_seen": "2026-09-23"
+            }
+          ],
+          "image": "images/musk-al-ruman-by-almas--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/musk-al-ruman-by-almas"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
