@@ -40992,10 +40992,24 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 4015,
+              "first_seen": "2026-09-24",
+              "sold_since": "2026-09-24"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 4850,
               "first_seen": "2026-07-23",
               "prev_price": 5850
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 7355,
+              "first_seen": "2026-09-24",
+              "sold_since": "2026-09-24"
             }
           ],
           "image": "images/defy-parfum--mazaya.jpg",
@@ -52292,6 +52306,14 @@
           "name": "mazaya",
           "url": "https://mazaya.eg/",
           "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 3400,
+              "first_seen": "2026-09-24",
+              "prev_price": 5700,
+              "sold_since": "2026-09-24"
+            },
             {
               "kind": "full",
               "ml": 100,
@@ -120167,6 +120189,13 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 13650,
+              "first_seen": "2026-09-24",
+              "sold_since": "2026-09-24"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 21150,
               "first_seen": "2026-09-24",
@@ -123901,6 +123930,13 @@
           "name": "mazaya",
           "url": "https://mazaya.eg/",
           "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 12750,
+              "first_seen": "2026-09-24",
+              "sold_since": "2026-09-24"
+            },
             {
               "kind": "full",
               "ml": 100,
@@ -153147,7 +153183,8 @@
               "kind": "full",
               "ml": 50,
               "price": 10850,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-09-24"
             }
           ],
           "image": "images/stercus-orto-paris--mazaya.jpg",
@@ -159092,6 +159129,13 @@
               "price": 12850,
               "first_seen": "2026-09-18",
               "sold_since": "2026-09-18"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 18500,
+              "first_seen": "2026-09-24",
+              "sold_since": "2026-09-24"
             }
           ],
           "image": "images/the-hedonist--mazaya.jpg",
@@ -178699,6 +178743,13 @@
               "kind": "full",
               "ml": 75,
               "price": 4785,
+              "first_seen": "2026-09-24",
+              "sold_since": "2026-09-24"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 5900,
               "first_seen": "2026-09-24",
               "sold_since": "2026-09-24"
             }
