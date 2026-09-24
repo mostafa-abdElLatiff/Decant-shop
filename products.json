@@ -17312,8 +17312,9 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 1100,
-              "first_seen": "2026-09-01"
+              "price": 1075,
+              "first_seen": "2026-09-01",
+              "prev_price": 1100
             },
             {
               "kind": "full",
@@ -17951,8 +17952,9 @@
             {
               "kind": "leftover",
               "ml": 80,
-              "price": 1200,
-              "first_seen": "2026-09-01"
+              "price": 1175,
+              "first_seen": "2026-09-01",
+              "prev_price": 1200
             },
             {
               "kind": "full",
@@ -33780,7 +33782,7 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 1200,
+              "price": 1225,
               "first_seen": "2026-07-26"
             },
             {
@@ -120558,15 +120560,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 100,
-              "first_seen": "2026-09-05",
-              "sold_since": "2026-09-05"
+              "first_seen": "2026-09-05"
             },
             {
               "kind": "leftover",
               "ml": 50,
               "price": 475,
-              "first_seen": "2026-09-05",
-              "sold_since": "2026-09-05"
+              "first_seen": "2026-09-05"
             },
             {
               "kind": "full",
@@ -135498,8 +135498,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 1050,
-              "first_seen": "2026-09-05",
-              "sold_since": "2026-09-05"
+              "first_seen": "2026-09-05"
             },
             {
               "kind": "full",
@@ -160493,9 +160492,14 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 190,
-              "first_seen": "2026-09-05",
-              "sold_since": "2026-09-05"
+              "price": 200,
+              "first_seen": "2026-09-05"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 975,
+              "first_seen": "2026-09-24"
             },
             {
               "kind": "full",
@@ -160505,7 +160509,7 @@
             }
           ],
           "image": "images/the-story-sport-le-bonheur--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/the-story-sport-10ml%d8%b0%d8%a7-%d8%b3%d8%aa%d9%88%d8%b1%d9%8a-%d8%b3%d8%a8%d9%88%d8%b1%d8%aa-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/the-story-sport-50ml%d8%b0%d8%a7-%d8%b3%d8%aa%d9%88%d8%b1%d9%8a-%d8%b3%d8%a8%d9%88%d8%b1%d8%aa-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "emaratiscents",
@@ -173751,15 +173755,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 150,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-01"
+              "first_seen": "2026-07-18"
             },
             {
               "kind": "leftover",
               "ml": 70,
-              "price": 900,
-              "first_seen": "2026-09-05",
-              "sold_since": "2026-09-05"
+              "price": 950,
+              "first_seen": "2026-09-05"
             },
             {
               "kind": "full",
@@ -189038,8 +189040,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 230,
-              "first_seen": "2026-09-24"
+              "price": 225,
+              "first_seen": "2026-09-24",
+              "prev_price": 230
             },
             {
               "kind": "leftover",
