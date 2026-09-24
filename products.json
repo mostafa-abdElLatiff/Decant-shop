@@ -2507,8 +2507,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-21"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/9pm-rebel--emaratiscents.jpg",
@@ -11490,8 +11489,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-13"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/aquatica--emaratiscents.jpg",
@@ -15919,7 +15917,8 @@
               "kind": "full",
               "ml": 200,
               "price": 290,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-24"
             }
           ],
           "image": "images/asad-body-spray--emaratiscents.jpg",
@@ -68895,7 +68894,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1950,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-24"
             }
           ],
           "image": "images/hawas-lava-gold--emaratiscents.jpg",
@@ -75427,7 +75427,8 @@
               "kind": "full",
               "ml": 50,
               "price": 1550,
-              "first_seen": "2026-08-01"
+              "first_seen": "2026-08-01",
+              "sold_since": "2026-09-24"
             }
           ],
           "image": "images/inception--emaratiscents.jpg",
@@ -109140,7 +109141,14 @@
               "kind": "full",
               "ml": 100,
               "price": 2400,
-              "first_seen": "2026-09-13"
+              "first_seen": "2026-09-13",
+              "sold_since": "2026-09-24"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2800,
+              "first_seen": "2026-09-24"
             }
           ],
           "image": "images/musk-garden--emaratiscents.jpg",
@@ -164292,6 +164300,20 @@
           ],
           "image": "images/turathi-brown--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/afnan-turathi-brown-eau-de-parfum-for-men-90ml"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 2050,
+              "first_seen": "2026-09-24"
+            }
+          ],
+          "image": "images/turathi-brown--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/turathi-brown"
         }
       ],
       "_hero_source": "og-perfume",
@@ -188575,8 +188597,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2250,
-              "first_seen": "2026-08-11"
+              "price": 2050,
+              "first_seen": "2026-08-11",
+              "prev_price": 2250
             }
           ],
           "image": "images/private-purple--emaratiscents.jpg",
@@ -197681,7 +197704,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1850,
-              "first_seen": "2026-08-30"
+              "first_seen": "2026-08-30",
+              "sold_since": "2026-09-24"
             }
           ],
           "image": "images/regent--emaratiscents.jpg",
@@ -206543,6 +206567,33 @@
           ],
           "image": "images/smoky-vanilla--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/smoky-vanilla"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "assaf-garden-musk-jasmine-musk-bundle-powder",
+      "name_ar": "Assaf Garden Musk & Jasmine Musk Bundle + Powder",
+      "name_en": "Assaf Garden Musk & Jasmine Musk Bundle + Powder",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/assaf-garden-musk-jasmine-musk-bundle-powder.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 4850,
+              "first_seen": "2026-09-24"
+            }
+          ],
+          "image": "images/assaf-garden-musk-jasmine-musk-bundle-powder--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/assaf-gardern-musk-jasmine-musk-bundle-powder"
         }
       ],
       "_hero_source": "emaratiscents"
