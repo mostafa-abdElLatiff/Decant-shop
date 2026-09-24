@@ -3193,8 +3193,7 @@
               "kind": "full",
               "ml": 50,
               "price": 1200,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-29"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/absolute-musk--emaratiscents.jpg",
@@ -14678,8 +14677,7 @@
               "kind": "full",
               "ml": 200,
               "price": 2150,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-24"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/arrogate-blue-exclusive--emaratiscents.jpg",
@@ -25596,8 +25594,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2050,
-              "first_seen": "2026-07-18",
-              "prev_price": 2750
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/blue-laverne-elixir--emaratiscents.jpg",
@@ -75513,8 +75510,7 @@
               "kind": "full",
               "ml": 50,
               "price": 1550,
-              "first_seen": "2026-08-01",
-              "sold_since": "2026-09-24"
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/inception--emaratiscents.jpg",
@@ -106994,8 +106990,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1950,
-              "first_seen": "2026-07-22",
-              "sold_since": "2026-09-24"
+              "first_seen": "2026-07-22"
             }
           ],
           "image": "images/momento-by-riiffs--emaratiscents.jpg",
@@ -203373,7 +203368,8 @@
               "kind": "full",
               "ml": 100,
               "price": 17500,
-              "first_seen": "2026-09-12"
+              "first_seen": "2026-09-12",
+              "sold_since": "2026-09-24"
             }
           ],
           "image": "images/boundless--emaratiscents.jpg",
@@ -207169,6 +207165,34 @@
         }
       ],
       "_hero_source": "mazaya"
+    },
+    {
+      "id": "hawas-ice-freeze",
+      "name_ar": "Hawas Ice Freeze",
+      "name_en": "Hawas Ice Freeze",
+      "brand": "Rasasi",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/hawas-ice-freeze.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2050,
+              "first_seen": "2026-09-24",
+              "sold_since": "2026-09-24"
+            }
+          ],
+          "image": "images/hawas-ice-freeze--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/hawas-ice-freeze"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
