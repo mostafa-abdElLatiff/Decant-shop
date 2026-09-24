@@ -32850,7 +32850,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2358,
+              "price": 2499,
               "first_seen": "2026-07-23"
             }
           ],
@@ -41869,7 +41869,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1999,
+              "price": 2249,
               "first_seen": "2026-07-23"
             },
             {
@@ -42698,9 +42698,30 @@
           ],
           "image": "images/dior-homme-sport--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/dior-homme-sport-eau-de-toilette-PM_DIOR_Homme_Sport_EDT.html"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 6411,
+              "first_seen": "2026-09-24",
+              "sold_since": "2026-09-24"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 10799,
+              "first_seen": "2026-09-24"
+            }
+          ],
+          "image": "images/dior-homme-sport--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/dior-homme-sport-very-cool-eau-de-toilette-spray-100ml"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "feel22",
       "category": "designer"
     },
     {
@@ -44318,8 +44339,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5576,
-              "first_seen": "2026-07-23"
+              "price": 5499,
+              "first_seen": "2026-07-23",
+              "prev_price": 5576
             }
           ],
           "image": "images/dolce-gabbana-the-one-eau-de-parfum-intense--feel22.jpg",
@@ -49130,6 +49152,20 @@
           ],
           "image": "images/emeer-lattafa--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/emeer"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2095,
+              "first_seen": "2026-09-24"
+            }
+          ],
+          "image": "images/emeer-lattafa--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/lattafa-emeer-eau-de-parfum-100ml"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -53443,8 +53479,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2014,
-              "first_seen": "2026-07-23"
+              "price": 1999,
+              "first_seen": "2026-07-23",
+              "prev_price": 2014
             },
             {
               "kind": "full",
@@ -61632,8 +61669,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5400,
-              "first_seen": "2026-07-23"
+              "price": 5299,
+              "first_seen": "2026-07-23",
+              "prev_price": 5400
             }
           ],
           "image": "images/gentleman-intense-eau-de-toilet-spray--feel22.jpg",
@@ -113497,12 +113535,19 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5744,
+              "price": 6199,
               "first_seen": "2026-07-26"
+            },
+            {
+              "kind": "full",
+              "ml": 240,
+              "price": 9763,
+              "first_seen": "2026-09-24",
+              "sold_since": "2026-09-24"
             }
           ],
           "image": "images/no-4-apr-s-l-amour--feel22.jpg",
-          "product_url": "https://eg.feel22.com/products/thomas-kosmala-no-4-apres-lamour-eau-de-parfum-100ml"
+          "product_url": "https://eg.feel22.com/products/thomas-kosmala-no-4-apres-lamour-eau-de-parfum-unisex-perfume"
         }
       ],
       "aliases": [
@@ -116264,9 +116309,23 @@
           ],
           "image": "images/nuit-d-issey-parfum--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/issey-miyake-nuit-dissey-eau-de-parfum-PM_ISSEY_MIYAKE_Nuit_DIssey_EDP.html"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 2899,
+              "first_seen": "2026-09-24"
+            }
+          ],
+          "image": "images/nuit-d-issey-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/issey-miyake-nuit-dissey-eau-de-toilette-for-men-75ml"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "feel22",
       "category": "designer"
     },
     {
@@ -119270,8 +119329,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 16097,
-              "first_seen": "2026-07-23"
+              "price": 13687,
+              "first_seen": "2026-07-23",
+              "prev_price": 16097
             }
           ],
           "image": "images/ombre-leather-parfum--feel22.jpg",
@@ -119522,15 +119582,17 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6657,
+              "price": 6335,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-09-13"
+              "prev_price": 6657
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 7435,
-              "first_seen": "2026-07-23"
+              "price": 7128,
+              "first_seen": "2026-07-23",
+              "prev_price": 7435,
+              "sold_since": "2026-09-24"
             }
           ],
           "image": "images/one-million-elixir-parfum-intense--feel22.jpg",
@@ -123581,7 +123643,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1661,
+              "price": 1749,
               "first_seen": "2026-07-23"
             }
           ],
@@ -144723,8 +144785,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3298,
-              "first_seen": "2026-07-23"
+              "price": 3022,
+              "first_seen": "2026-07-23",
+              "prev_price": 3298
             }
           ],
           "image": "images/sentiment-eau-de-toilette--feel22.jpg",
@@ -159598,8 +159661,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5849,
-              "first_seen": "2026-07-23"
+              "price": 5599,
+              "first_seen": "2026-07-23",
+              "prev_price": 5849
             }
           ],
           "image": "images/the-most-wanted-parfum--feel22.jpg",
@@ -160450,7 +160514,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1415,
+              "price": 1559,
               "first_seen": "2026-07-23"
             }
           ],
@@ -206609,6 +206673,202 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "roger-gallet-open-white-eau-de-toilette",
+      "name_ar": "Roger & Gallet Open White Eau De Toilette",
+      "name_en": "Roger & Gallet Open White Eau De Toilette",
+      "brand": "Roger and Gallet",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/roger-gallet-open-white-eau-de-toilette.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1299,
+              "first_seen": "2026-09-24"
+            }
+          ],
+          "image": "images/roger-gallet-open-white-eau-de-toilette--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/roger-gallet-open-white-eau-de-toilette-for-men-100ml"
+        }
+      ],
+      "_hero_source": "feel22"
+    },
+    {
+      "id": "agar-wood-eau-de-parfum",
+      "name_ar": "Agar Wood Eau De Parfum",
+      "name_en": "Agar Wood Eau De Parfum",
+      "brand": "Dunhill",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/agar-wood-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4686,
+              "first_seen": "2026-09-24"
+            }
+          ],
+          "image": "images/agar-wood-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/dunhill-agar-wood-eau-de-parfum-for-men-100ml"
+        }
+      ],
+      "_hero_source": "feel22"
+    },
+    {
+      "id": "egoiste-eau-de-toilette",
+      "name_ar": "Egoiste Eau De Toilette",
+      "name_en": "Egoiste Eau De Toilette",
+      "brand": "Chanel",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/egoiste-eau-de-toilette.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 10499,
+              "first_seen": "2026-09-24"
+            }
+          ],
+          "image": "images/egoiste-eau-de-toilette--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/chanel-egoiste-eau-de-toilette-for-men-100ml"
+        }
+      ],
+      "_hero_source": "feel22"
+    },
+    {
+      "id": "polo-deep-blue-eau-de-parfum",
+      "name_ar": "Polo Deep Blue Eau De Parfum",
+      "name_en": "Polo Deep Blue Eau De Parfum",
+      "brand": "Ralph Lauren",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/polo-deep-blue-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 4050,
+              "first_seen": "2026-09-24",
+              "sold_since": "2026-09-24"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 5630,
+              "first_seen": "2026-09-24"
+            }
+          ],
+          "image": "images/polo-deep-blue-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/polo-ralph-lauren-de-blue-eau-de-parfum"
+        }
+      ],
+      "_hero_source": "feel22"
+    },
+    {
+      "id": "eau-de-toilette",
+      "name_ar": "Eau De Toilette",
+      "name_en": "Eau De Toilette",
+      "brand": "Giorgio Beverly Hills",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/eau-de-toilette.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 118,
+              "price": 2024,
+              "first_seen": "2026-09-24"
+            }
+          ],
+          "image": "images/eau-de-toilette--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/giorgio-beverly-hills-eau-de-toilette-for-men-118ml"
+        }
+      ],
+      "_hero_source": "feel22"
+    },
+    {
+      "id": "hypnose-homme-eau-de-toilette",
+      "name_ar": "Hypnose Homme Eau De Toilette",
+      "name_en": "Hypnose Homme Eau De Toilette",
+      "brand": "Lancôme",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/hypnose-homme-eau-de-toilette.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 5566,
+              "first_seen": "2026-09-24"
+            }
+          ],
+          "image": "images/hypnose-homme-eau-de-toilette--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/lancome-hypnose-homme-eau-de-toilette-75ml"
+        }
+      ],
+      "_hero_source": "feel22"
+    },
+    {
+      "id": "prestige-aariz-eau-de-parfum",
+      "name_ar": "Prestige Aariz Eau De Parfum",
+      "name_en": "Prestige Aariz Eau De Parfum",
+      "brand": "Arabiyat",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/prestige-aariz-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1704,
+              "first_seen": "2026-09-24"
+            }
+          ],
+          "image": "images/prestige-aariz-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/arabiyat-prestige-aariz-eau-de-parfum-100ml"
+        }
+      ],
+      "_hero_source": "feel22"
     }
   ]
 }
