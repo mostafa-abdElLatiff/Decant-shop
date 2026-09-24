@@ -4143,7 +4143,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2190,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-09-24"
             }
           ],
           "image": "images/adventure-man-edt--mazaya.jpg",
@@ -15594,6 +15595,20 @@
           ],
           "image": "images/art-of-universe--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/art-of-universe-lattafa-perfumes"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2695,
+              "first_seen": "2026-09-24"
+            }
+          ],
+          "image": "images/art-of-universe--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/art-of-universe-100-ml"
         }
       ],
       "_hero_source": "og-perfume",
@@ -45821,7 +45836,8 @@
               "kind": "full",
               "ml": 30,
               "price": 9250,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-09-24"
             }
           ],
           "image": "images/duro--mazaya.jpg",
@@ -53431,6 +53447,20 @@
           ],
           "image": "images/eternal-vanille--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/eternal-vanille-lattafa-perfumes"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1995,
+              "first_seen": "2026-09-24"
+            }
+          ],
+          "image": "images/eternal-vanille--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/eternal-vanille-100ml"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -60668,11 +60698,12 @@
               "kind": "full",
               "ml": 100,
               "price": 14300,
-              "first_seen": "2026-09-21"
+              "first_seen": "2026-09-21",
+              "sold_since": "2026-09-24"
             }
           ],
           "image": "images/ganymede--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/ganymede-100-ml"
+          "product_url": "https://mazaya.eg/en/ganymede-30-ml"
         },
         {
           "name": "Ahmed Abdel Kareem",
@@ -198018,8 +198049,7 @@
               "kind": "full",
               "ml": 200,
               "price": 210,
-              "first_seen": "2026-08-30",
-              "sold_since": "2026-09-23"
+              "first_seen": "2026-08-30"
             }
           ],
           "image": "images/vision-deo--mazaya.jpg",
@@ -206869,6 +206899,276 @@
         }
       ],
       "_hero_source": "feel22"
+    },
+    {
+      "id": "1-m-night-elixir-eau-de-parfum",
+      "name_ar": "1 M Night Elixir Eau de Parfum",
+      "name_en": "1 M Night Elixir Eau de Parfum",
+      "brand": "Paco Rabanne",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/1-m-night-elixir-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 8800,
+              "first_seen": "2026-09-24"
+            }
+          ],
+          "image": "images/1-m-night-elixir-eau-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/1-m-night-elixir-eau-de-parfum-100ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "royale-oud-1604-eau-de-parfum",
+      "name_ar": "Royale Oud 1604 Eau de Parfum",
+      "name_en": "Royale Oud 1604 Eau de Parfum",
+      "brand": "Sapil",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/royale-oud-1604-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1150,
+              "first_seen": "2026-09-24"
+            }
+          ],
+          "image": "images/royale-oud-1604-eau-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/royale-oud-1604-eau-de-parfum-100ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "royale-flair-1604-eau-de-parfum",
+      "name_ar": "Royale Flair 1604 Eau de Parfum",
+      "name_en": "Royale Flair 1604 Eau de Parfum",
+      "brand": "Sapil",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/royale-flair-1604-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1150,
+              "first_seen": "2026-09-24"
+            }
+          ],
+          "image": "images/royale-flair-1604-eau-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/royale-flair-1604-eau-de-parfum-100ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "ombre-turquoise-1603-eau-de-parfum",
+      "name_ar": "Ombre Turquoise 1603 Eau de Parfum",
+      "name_en": "Ombre Turquoise 1603 Eau de Parfum",
+      "brand": "Sapil",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/ombre-turquoise-1603-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1240,
+              "first_seen": "2026-09-24"
+            }
+          ],
+          "image": "images/ombre-turquoise-1603-eau-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/ombre-turquoise-1603-eau-de-parfum-100ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "ombre-smoky-quartz-1603-eau-de-parfum",
+      "name_ar": "Ombre Smoky Quartz 1603 Eau de Parfum",
+      "name_en": "Ombre Smoky Quartz 1603 Eau de Parfum",
+      "brand": "Sapil",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/ombre-smoky-quartz-1603-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1240,
+              "first_seen": "2026-09-24"
+            }
+          ],
+          "image": "images/ombre-smoky-quartz-1603-eau-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/ombre-smoky-quartz-1603-eau-de-parfum-100ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "ombre-flame-aura-1603-eau-de-parfum",
+      "name_ar": "Ombre Flame Aura 1603 Eau de Parfum",
+      "name_en": "Ombre Flame Aura 1603 Eau de Parfum",
+      "brand": "Sapil",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/ombre-flame-aura-1603-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1240,
+              "first_seen": "2026-09-24"
+            }
+          ],
+          "image": "images/ombre-flame-aura-1603-eau-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/ombre-flame-aura-1603-eau-de-parfum-100ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "elixir-intense-1605-eau-de-parfum",
+      "name_ar": "Elixir Intense 1605 Eau de Parfum",
+      "name_en": "Elixir Intense 1605 Eau de Parfum",
+      "brand": "Sapil",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/elixir-intense-1605-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1150,
+              "first_seen": "2026-09-24"
+            }
+          ],
+          "image": "images/elixir-intense-1605-eau-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/elixir-intense-1605-eau-de-parfum-100ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "elixir-fusion-1605-eau-de-parfum",
+      "name_ar": "Elixir Fusion 1605 Eau de Parfum",
+      "name_en": "Elixir Fusion 1605 Eau de Parfum",
+      "brand": "Sapil",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/elixir-fusion-1605-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1150,
+              "first_seen": "2026-09-24"
+            }
+          ],
+          "image": "images/elixir-fusion-1605-eau-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/elixir-fusion-1605-eau-de-parfum-100ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "elixir-of-dubai-1605-eau-de-parfum",
+      "name_ar": "Elixir of Dubai 1605 Eau de Parfum",
+      "name_en": "Elixir of Dubai 1605 Eau de Parfum",
+      "brand": "Sapil",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/elixir-of-dubai-1605-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1150,
+              "first_seen": "2026-09-24"
+            }
+          ],
+          "image": "images/elixir-of-dubai-1605-eau-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/elixir-of-dubai-1605-eau-de-parfum-100ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "spray-sing",
+      "name_ar": "Spray Sing",
+      "name_en": "Spray Sing",
+      "brand": "Lattafa",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/spray-sing.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 750,
+              "first_seen": "2026-09-24"
+            }
+          ],
+          "image": "images/spray-sing--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/spray-sing-75ml"
+        }
+      ],
+      "_hero_source": "mazaya"
     }
   ]
 }
