@@ -166649,7 +166649,8 @@
               "kind": "full",
               "ml": 90,
               "price": 850,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-09-25"
             }
           ],
           "image": "images/urban-man-paradise-fragrance-world--roseperfume.jpg",
@@ -197383,8 +197384,10 @@
             {
               "kind": "full",
               "ml": 12,
-              "price": 500,
-              "first_seen": "2026-09-03"
+              "price": 350,
+              "first_seen": "2026-09-03",
+              "prev_price": 500,
+              "sold_since": "2026-09-25"
             }
           ],
           "image": "images/vanilla-musk-tahara-oil--roseperfume.jpg",
