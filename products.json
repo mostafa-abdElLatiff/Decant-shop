@@ -13586,8 +13586,9 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 950,
-              "first_seen": "2026-09-20"
+              "price": 925,
+              "first_seen": "2026-09-20",
+              "prev_price": 950
             },
             {
               "kind": "full",
@@ -18244,7 +18245,7 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 500,
+              "price": 550,
               "first_seen": "2026-07-18"
             },
             {
@@ -43815,7 +43816,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-25"
             }
           ],
           "image": "images/dkhoon-rose--eldesoki-fragrances.jpg",
@@ -58859,15 +58861,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 175,
-              "first_seen": "2026-08-10",
-              "sold_since": "2026-09-22"
+              "first_seen": "2026-08-10"
             },
             {
               "kind": "leftover",
               "ml": 100,
-              "price": 1200,
-              "first_seen": "2026-08-10",
-              "sold_since": "2026-09-01"
+              "price": 1250,
+              "first_seen": "2026-08-10"
             },
             {
               "kind": "full",
@@ -68246,8 +68246,9 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 1050,
-              "first_seen": "2026-09-05"
+              "price": 975,
+              "first_seen": "2026-09-05",
+              "prev_price": 1050
             },
             {
               "kind": "full",
@@ -76310,8 +76311,9 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 1250,
-              "first_seen": "2026-07-27"
+              "price": 1200,
+              "first_seen": "2026-07-27",
+              "prev_price": 1250
             }
           ],
           "image": "images/intense--eldesoki-fragrances.jpg",
@@ -81292,7 +81294,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 675,
+              "price": 725,
               "first_seen": "2026-07-18"
             }
           ],
@@ -104307,7 +104309,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-25"
             }
           ],
           "image": "images/mexican-tobacco--eldesoki-fragrances.jpg",
@@ -107918,7 +107921,7 @@
             {
               "kind": "full",
               "ml": 85,
-              "price": 1075,
+              "price": 1200,
               "first_seen": "2026-07-18"
             }
           ],
@@ -122960,7 +122963,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 650,
+              "price": 675,
               "first_seen": "2026-07-18"
             }
           ],
@@ -136249,8 +136252,9 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 1125,
-              "first_seen": "2026-08-21"
+              "price": 1075,
+              "first_seen": "2026-08-21",
+              "prev_price": 1125
             },
             {
               "kind": "full",
@@ -169799,7 +169803,8 @@
               "kind": "full",
               "ml": 100,
               "price": 425,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-25"
             }
           ],
           "image": "images/verato-for-men--eldesoki-fragrances.jpg",
@@ -207136,6 +207141,33 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "solo-bundle-pomegranate-vanilla-musks",
+      "name_ar": "Solo Bundle ( Pomegranate & Vanilla ) 200ml Musks",
+      "name_en": "Solo Bundle Pomegranate & Vanilla Musks",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/solo-bundle-pomegranate-vanilla-musks.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 400,
+              "first_seen": "2026-09-25"
+            }
+          ],
+          "image": "images/solo-bundle-pomegranate-vanilla-musks--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/solo-bundle-pomegranate-vanilla-200ml-musks/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
