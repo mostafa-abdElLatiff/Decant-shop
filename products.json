@@ -29054,22 +29054,19 @@
               "kind": "decant",
               "ml": 3,
               "price": 675,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-10"
+              "first_seen": "2026-07-18"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 960,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-10"
+              "first_seen": "2026-07-18"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 1600,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-10"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/byredo-mojave-ghost-absolu--sniffz.jpg",
@@ -53465,6 +53462,32 @@
           ],
           "image": "images/eternal-vanille--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/eternal-vanille-100ml"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 120,
+              "first_seen": "2026-09-25"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 160,
+              "first_seen": "2026-09-25"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 240,
+              "first_seen": "2026-09-25"
+            }
+          ],
+          "image": "images/eternal-vanille--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/lattafa-eternal-vanille"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -107914,6 +107937,32 @@
           ],
           "image": "images/muharib--dar-elarabia.jpg",
           "product_url": "https://darelarabia.com/products/muharib"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 150,
+              "first_seen": "2026-09-25"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 195,
+              "first_seen": "2026-09-25"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 300,
+              "first_seen": "2026-09-25"
+            }
+          ],
+          "image": "images/muharib--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/maison-asrar-muharib"
         }
       ],
       "_hero_source": "og-perfume",
@@ -180413,14 +180462,33 @@
           "url": "https://sniffz-eg.com/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 3,
+              "price": 100,
+              "first_seen": "2026-09-25"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 130,
+              "first_seen": "2026-09-25"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-09-25"
+            },
+            {
               "kind": "full",
               "ml": 100,
-              "price": 1750,
-              "first_seen": "2026-08-05"
+              "price": 1600,
+              "first_seen": "2026-08-05",
+              "prev_price": 1750
             }
           ],
           "image": "images/royal-blend-bourbon--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/french-avenue-royal-blend-bourbon"
+          "product_url": "https://sniffz-eg.com/products/french-avenue-royal-blend-bourbon-1"
         },
         {
           "name": "emaratiscents",
@@ -195448,6 +195516,32 @@
           ],
           "image": "images/faris-al-arab-maison-asrar--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/faris-al-arab-maison-asrar"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 150,
+              "first_seen": "2026-09-25"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 195,
+              "first_seen": "2026-09-25"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 300,
+              "first_seen": "2026-09-25"
+            }
+          ],
+          "image": "images/faris-al-arab-maison-asrar--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/maison-asrar-faris-al-arab"
         }
       ],
       "_hero_source": "og-perfume"
@@ -202781,7 +202875,8 @@
               "kind": "decant",
               "ml": 5,
               "price": 195,
-              "first_seen": "2026-09-09"
+              "first_seen": "2026-09-09",
+              "sold_since": "2026-09-25"
             },
             {
               "kind": "decant",
@@ -207244,6 +207339,45 @@
         }
       ],
       "_hero_source": "feel22"
+    },
+    {
+      "id": "california-dream",
+      "name_ar": "",
+      "name_en": "California Dream",
+      "brand": "Louis Vuitton",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/california-dream.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 885,
+              "first_seen": "2026-09-25"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 1260,
+              "first_seen": "2026-09-25"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 2100,
+              "first_seen": "2026-09-25"
+            }
+          ],
+          "image": "images/california-dream--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/louis-vuitton-california-dream"
+        }
+      ],
+      "_hero_source": "sniffz"
     }
   ]
 }
