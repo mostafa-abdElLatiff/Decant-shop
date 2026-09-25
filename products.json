@@ -102289,13 +102289,20 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 60,
+              "price": 2500,
+              "first_seen": "2026-09-25",
+              "sold_since": "2026-09-25"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 1750,
               "first_seen": "2026-07-18"
             }
           ],
           "image": "images/marwa--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/marwa"
+          "product_url": "https://emaratiscents.com/products/marwa-extrait-1"
         },
         {
           "name": "eldesoki-fragrances",
@@ -177131,7 +177138,8 @@
               "kind": "full",
               "ml": 150,
               "price": 4850,
-              "first_seen": "2026-07-29"
+              "first_seen": "2026-07-29",
+              "sold_since": "2026-09-25"
             }
           ],
           "image": "images/yelloneo-summer-edition-set--emaratiscents.jpg",
@@ -178463,13 +178471,6 @@
               "ml": 100,
               "price": 2350,
               "first_seen": "2026-09-18"
-            },
-            {
-              "kind": "full",
-              "ml": 150,
-              "price": 2650,
-              "first_seen": "2026-08-01",
-              "sold_since": "2026-09-18"
             }
           ],
           "image": "images/elbrince--emaratiscents.jpg",
