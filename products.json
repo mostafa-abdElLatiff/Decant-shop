@@ -97014,29 +97014,26 @@
               "kind": "decant",
               "ml": 3,
               "price": 150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 190,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 310,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 2250,
+              "price": 1900,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-08-24"
+              "prev_price": 2250
             }
           ],
           "image": "images/liquid-brun--sniffz.jpg",
@@ -159404,6 +159401,32 @@
           ],
           "image": "images/the-kingdom-men--eslam-nasser.jpg",
           "product_url": "https://www.facebook.com/groups/720783370622840/posts/904229235611585"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 120,
+              "first_seen": "2026-09-25"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 150,
+              "first_seen": "2026-09-25"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 250,
+              "first_seen": "2026-09-25"
+            }
+          ],
+          "image": "images/the-kingdom-men--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/lattafa-the-kingdom"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -179661,13 +179684,15 @@
               "kind": "decant",
               "ml": 5,
               "price": 330,
-              "first_seen": "2026-08-03"
+              "first_seen": "2026-08-03",
+              "sold_since": "2026-09-25"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 520,
-              "first_seen": "2026-08-03"
+              "first_seen": "2026-08-03",
+              "sold_since": "2026-09-25"
             },
             {
               "kind": "full",
