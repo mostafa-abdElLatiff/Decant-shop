@@ -14062,8 +14062,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 1225,
-              "first_seen": "2026-08-21",
-              "sold_since": "2026-09-10"
+              "first_seen": "2026-08-21"
             },
             {
               "kind": "full",
@@ -16060,9 +16059,8 @@
             {
               "kind": "leftover",
               "ml": 30,
-              "price": 400,
-              "first_seen": "2026-09-05",
-              "sold_since": "2026-09-05"
+              "price": 425,
+              "first_seen": "2026-09-05"
             },
             {
               "kind": "full",
@@ -88404,7 +88402,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4750,
+              "price": 4900,
               "first_seen": "2026-07-18"
             }
           ],
@@ -160204,8 +160202,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6900,
-              "first_seen": "2026-08-02"
+              "price": 5750,
+              "first_seen": "2026-08-02",
+              "prev_price": 6900
             }
           ],
           "image": "images/the-one-parfum--eldesoki-fragrances.jpg",
