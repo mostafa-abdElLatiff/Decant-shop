@@ -69027,8 +69027,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1950,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-24"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/hawas-lava-gold--emaratiscents.jpg",
@@ -72197,8 +72196,7 @@
               "kind": "full",
               "ml": 100,
               "price": 12900,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-29"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/hommage-1744--emaratiscents.jpg",
@@ -77777,12 +77775,12 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3200,
+              "price": 3750,
               "first_seen": "2026-07-18"
             }
           ],
           "image": "images/irth-collection--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/irth-collection-mini-diamond-set"
+          "product_url": "https://emaratiscents.com/products/new-irth-collection"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -107043,7 +107041,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1950,
-              "first_seen": "2026-07-22"
+              "first_seen": "2026-07-22",
+              "sold_since": "2026-09-26"
             }
           ],
           "image": "images/momento-by-riiffs--emaratiscents.jpg",
@@ -108537,8 +108536,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1950,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-26"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/musamam-black-intense--emaratiscents.jpg",
@@ -172882,8 +172880,7 @@
               "kind": "full",
               "ml": 100,
               "price": 12200,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-31"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/wanderlust--emaratiscents.jpg",
@@ -197037,8 +197034,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2200,
-              "first_seen": "2026-08-28",
-              "prev_price": 2600
+              "first_seen": "2026-08-28"
             }
           ],
           "image": "images/hawas-gold-digger--emaratiscents.jpg",
@@ -198931,8 +198927,7 @@
               "kind": "full",
               "ml": 50,
               "price": 1200,
-              "first_seen": "2026-08-31",
-              "sold_since": "2026-09-26"
+              "first_seen": "2026-08-31"
             }
           ],
           "image": "images/iris-musk--emaratiscents.jpg",
@@ -207471,6 +207466,33 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "frankel-collection",
+      "name_ar": "Frankel Collection",
+      "name_en": "Frankel Collection",
+      "brand": "Assaf",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/frankel-collection.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 300,
+              "price": 3900,
+              "first_seen": "2026-09-26"
+            }
+          ],
+          "image": "images/frankel-collection--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/frankel-collection-300-ml"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
