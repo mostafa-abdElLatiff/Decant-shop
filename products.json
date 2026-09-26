@@ -8245,7 +8245,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 825,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-26"
             },
             {
               "kind": "full",
@@ -20200,7 +20201,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 575,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-26"
             },
             {
               "kind": "leftover",
@@ -39733,7 +39735,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-26"
             }
           ],
           "image": "images/daiman-eden--og-perfume.jpg",
@@ -77868,7 +77871,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 150,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-26"
             },
             {
               "kind": "leftover",
@@ -82859,7 +82863,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-25"
+              "first_seen": "2026-07-25",
+              "sold_since": "2026-09-26"
             },
             {
               "kind": "decant",
@@ -84657,7 +84662,8 @@
               "kind": "leftover",
               "ml": 60,
               "price": 810,
-              "first_seen": "2026-08-19"
+              "first_seen": "2026-08-19",
+              "sold_since": "2026-09-26"
             },
             {
               "kind": "full",
@@ -132427,7 +132433,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 90,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-26"
             },
             {
               "kind": "decant",
@@ -140918,8 +140925,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 800,
-              "first_seen": "2026-07-19",
-              "prev_price": 900
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -195510,10 +195516,18 @@
               "sold_since": "2026-09-03"
             },
             {
+              "kind": "leftover",
+              "ml": 90,
+              "price": 1575,
+              "first_seen": "2026-09-26",
+              "sold_since": "2026-09-26"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-08-22"
+              "first_seen": "2026-08-22",
+              "sold_since": "2026-09-26"
             }
           ],
           "image": "images/kaaf-pink--og-perfume.jpg",
@@ -199107,6 +199121,13 @@
               "ml": 10,
               "price": 170,
               "first_seen": "2026-08-31"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 495,
+              "first_seen": "2026-09-26",
+              "sold_since": "2026-09-26"
             },
             {
               "kind": "leftover",
