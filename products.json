@@ -25538,6 +25538,13 @@
               "sold_since": "2026-07-19"
             },
             {
+              "kind": "leftover",
+              "ml": 80,
+              "price": 910,
+              "first_seen": "2026-09-26",
+              "sold_since": "2026-09-26"
+            },
+            {
               "kind": "full",
               "ml": 150,
               "price": 1950,
@@ -132396,8 +132403,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 90,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-22"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
@@ -164834,8 +164840,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/uhud--og-perfume.jpg",
