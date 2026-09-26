@@ -25538,13 +25538,6 @@
               "sold_since": "2026-07-19"
             },
             {
-              "kind": "leftover",
-              "ml": 80,
-              "price": 910,
-              "first_seen": "2026-09-19",
-              "sold_since": "2026-09-19"
-            },
-            {
               "kind": "full",
               "ml": 150,
               "price": 1950,
@@ -28524,7 +28517,7 @@
               "price": 130,
               "first_seen": "2026-07-19",
               "prev_price": 195,
-              "sold_since": "2026-09-25"
+              "sold_since": "2026-09-26"
             },
             {
               "kind": "decant",
@@ -28545,7 +28538,7 @@
               "ml": 100,
               "price": 1550,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-09-25"
+              "sold_since": "2026-09-26"
             },
             {
               "kind": "full",
@@ -59907,14 +59900,14 @@
               "price": 140,
               "first_seen": "2026-07-19",
               "prev_price": 195,
-              "sold_since": "2026-09-25"
+              "sold_since": "2026-09-26"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 525,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-09-25"
+              "sold_since": "2026-09-26"
             },
             {
               "kind": "leftover",
@@ -59928,7 +59921,7 @@
               "ml": 100,
               "price": 1550,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-09-25"
+              "sold_since": "2026-09-26"
             },
             {
               "kind": "full",
@@ -156059,7 +156052,7 @@
               "price": 220,
               "first_seen": "2026-07-19",
               "prev_price": 225,
-              "sold_since": "2026-09-25"
+              "sold_since": "2026-09-26"
             },
             {
               "kind": "decant",
@@ -156087,7 +156080,7 @@
               "ml": 150,
               "price": 2900,
               "first_seen": "2026-07-31",
-              "sold_since": "2026-09-25"
+              "sold_since": "2026-09-26"
             }
           ],
           "image": "images/supremacy-not-only-intense--og-perfume.jpg",
@@ -194049,6 +194042,33 @@
           ],
           "image": "images/club-de-nuit-intense-overdose-eau-de-parfum--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/club-de-nuit-intense-overdose"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 260,
+              "first_seen": "2026-09-26"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 735,
+              "first_seen": "2026-09-26",
+              "sold_since": "2026-09-26"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2300,
+              "first_seen": "2026-09-26"
+            }
+          ],
+          "image": "images/club-de-nuit-intense-overdose-eau-de-parfum--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/club-de-nuit-intense-overdose"
         }
       ],
       "_hero_source": "mazaya"
