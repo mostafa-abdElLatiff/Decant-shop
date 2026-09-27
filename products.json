@@ -82928,6 +82928,32 @@
           ],
           "image": "images/karus-gold-absolu--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/karus-gold-absolu-khadlaj-perfumes"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 140,
+              "first_seen": "2026-09-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 185,
+              "first_seen": "2026-09-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 280,
+              "first_seen": "2026-09-27"
+            }
+          ],
+          "image": "images/karus-gold-absolu--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/khadlaj-karus-gold-absolu"
         }
       ],
       "_hero_source": "og-perfume",
@@ -179739,7 +179765,8 @@
               "kind": "decant",
               "ml": 3,
               "price": 235,
-              "first_seen": "2026-08-03"
+              "first_seen": "2026-08-03",
+              "sold_since": "2026-09-27"
             },
             {
               "kind": "decant",
