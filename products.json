@@ -50862,7 +50862,7 @@
             }
           ],
           "image": "images/encre-indigo--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lalique-encre-indigo-3ml-515"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lalique-encre-indigo-5ml-511"
         }
       ],
       "_hero_source": "MO Shawky",
@@ -94444,7 +94444,7 @@
             }
           ],
           "image": "images/le-male-elixir-absolu--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/jpg-le-male-elixir-absolu-3ml-519"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/jpg-le-male-elixir-absolu-5ml-513"
         }
       ],
       "_hero_source": "sniffz",
@@ -143276,6 +143276,32 @@
           ],
           "image": "images/scandal-eau-de-toilette--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/jean-paul-gaultier-scandal-eau-de-toilette-for-men-100-ml"
+        },
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 250,
+              "first_seen": "2026-09-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 350,
+              "first_seen": "2026-09-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 595,
+              "first_seen": "2026-09-27"
+            }
+          ],
+          "image": "images/scandal-eau-de-toilette--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/jpg-scandal-le-parfum-3ml-569"
         }
       ],
       "_hero_source": "feel22",
@@ -193934,7 +193960,7 @@
             }
           ],
           "image": "images/man-eau-fraiche-extreme--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/versace-man-eau-fraiche-extreme-3ml-526"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/versace-man-eau-fraiche-extreme-5ml-525"
         },
         {
           "name": "Ahmed Abdel Kareem",
@@ -205126,7 +205152,7 @@
             }
           ],
           "image": "images/212-vip-black-elixir--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ch-212-vip-black-elixir-3ml-557"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ch-212-vip-black-elixir-5ml-556"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -207477,6 +207503,45 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "eld-o-experimentum-crucis",
+      "name_ar": "",
+      "name_en": "ELD'O Experimentum Crucis",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/eld-o-experimentum-crucis.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 315,
+              "first_seen": "2026-09-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 460,
+              "first_seen": "2026-09-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 815,
+              "first_seen": "2026-09-27"
+            }
+          ],
+          "image": "images/eld-o-experimentum-crucis--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/etat-libre-d-orange-experimentum-crucis-5ml-552"
+        }
+      ],
+      "_hero_source": "MO Shawky"
     }
   ]
 }
