@@ -39736,8 +39736,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1200,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-26"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/daiman-eden--og-perfume.jpg",
@@ -86241,6 +86240,13 @@
               "price": 540,
               "first_seen": "2026-09-25",
               "sold_since": "2026-09-25"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 575,
+              "first_seen": "2026-09-27",
+              "sold_since": "2026-09-27"
             },
             {
               "kind": "full",
@@ -154967,7 +154973,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 220,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-27"
             },
             {
               "kind": "leftover",
@@ -155561,7 +155568,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 1375,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-27"
             },
             {
               "kind": "full",
