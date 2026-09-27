@@ -5164,8 +5164,7 @@
               "kind": "full",
               "ml": 200,
               "price": 4850,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-22"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/akoya--emaratiscents.jpg",
@@ -29646,8 +29645,7 @@
               "kind": "full",
               "ml": 200,
               "price": 4850,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-25"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/capri--emaratiscents.jpg",
@@ -70267,8 +70265,7 @@
               "kind": "full",
               "ml": 200,
               "price": 4850,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-14"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/helen-legacy--emaratiscents.jpg",
@@ -73236,8 +73233,7 @@
               "kind": "full",
               "ml": 200,
               "price": 4850,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-24"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/hudson-valley--emaratiscents.jpg",
@@ -89734,8 +89730,7 @@
               "kind": "full",
               "ml": 200,
               "price": 2950,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-27"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/la-dor-bakhur-white--emaratiscents.jpg",
@@ -102967,8 +102962,7 @@
               "kind": "full",
               "ml": 200,
               "price": 4850,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-03"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/mavro--emaratiscents.jpg",
@@ -117215,7 +117209,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-27"
             }
           ],
           "image": "images/obsidian-rayhaan--emaratiscents.jpg",
@@ -130442,8 +130437,7 @@
               "kind": "full",
               "ml": 75,
               "price": 1700,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-23"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/powder-musk--emaratiscents.jpg",
@@ -157158,8 +157152,7 @@
               "kind": "full",
               "ml": 200,
               "price": 4850,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-03"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/tango--emaratiscents.jpg",
@@ -194554,8 +194547,7 @@
               "kind": "full",
               "ml": 50,
               "price": 1550,
-              "first_seen": "2026-08-20",
-              "sold_since": "2026-09-11"
+              "first_seen": "2026-08-20"
             }
           ],
           "image": "images/slow-living--emaratiscents.jpg",
@@ -202799,7 +202791,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-09-27"
+              "first_seen": "2026-09-27",
+              "sold_since": "2026-09-27"
             },
             {
               "kind": "full",
@@ -203242,6 +203235,20 @@
           ],
           "image": "images/mykonos-senja--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/mykonos-senja"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 1550,
+              "first_seen": "2026-09-27"
+            }
+          ],
+          "image": "images/mykonos-senja--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/senja"
         }
       ],
       "_hero_source": "sniffz"
@@ -207986,6 +207993,33 @@
         }
       ],
       "_hero_source": "roseperfume"
+    },
+    {
+      "id": "enchanted",
+      "name_ar": "Enchanted",
+      "name_en": "Enchanted",
+      "brand": "Mykonos",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/enchanted.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 1550,
+              "first_seen": "2026-09-27"
+            }
+          ],
+          "image": "images/enchanted--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/enchanted-by-mykonos"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
