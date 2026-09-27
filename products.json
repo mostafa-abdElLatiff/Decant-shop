@@ -6608,7 +6608,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-27"
             }
           ],
           "image": "images/al-wisam--emaratiscents.jpg",
@@ -16438,8 +16439,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1270,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-27"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/asad-elixir-lattafa-perfumes--emaratiscents.jpg",
@@ -17584,8 +17584,7 @@
               "kind": "full",
               "ml": 55,
               "price": 1550,
-              "first_seen": "2026-07-21",
-              "sold_since": "2026-09-22"
+              "first_seen": "2026-07-21"
             }
           ],
           "image": "images/atlas-lattafa--emaratiscents.jpg",
@@ -22965,7 +22964,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1900,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-27"
             }
           ],
           "image": "images/black-cavalier-seductive--emaratiscents.jpg",
@@ -38840,7 +38840,8 @@
               "kind": "full",
               "ml": 150,
               "price": 2950,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-27"
             }
           ],
           "image": "images/cuir--emaratiscents.jpg",
@@ -82567,8 +82568,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-26"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/kahilan--emaratiscents.jpg",
@@ -135147,8 +135147,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1030,
-              "first_seen": "2026-07-18"
+              "price": 900,
+              "first_seen": "2026-07-18",
+              "prev_price": 1030
             }
           ],
           "image": "images/ramad-al-oud--emaratiscents.jpg",
@@ -142242,8 +142243,7 @@
               "kind": "full",
               "ml": 100,
               "price": 880,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-25"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/santorini-beaches--emaratiscents.jpg",
@@ -148307,8 +148307,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-27"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/signature-gold--emaratiscents.jpg",
@@ -157701,8 +157700,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2350,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-23"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/teriaq-gift-set--emaratiscents.jpg",
@@ -164451,8 +164449,7 @@
               "kind": "full",
               "ml": 90,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-21"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/turathi-blue-afnan--emaratiscents.jpg",
@@ -178628,7 +178625,8 @@
               "kind": "full",
               "ml": 150,
               "price": 2250,
-              "first_seen": "2026-08-01"
+              "first_seen": "2026-08-01",
+              "sold_since": "2026-09-27"
             }
           ],
           "image": "images/first-night--emaratiscents.jpg",
@@ -189220,6 +189218,20 @@
           ],
           "product_url": "https://og-perfume.com/products/wood-white",
           "image": "images/wood-white--og-perfume.jpg"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 2350,
+              "first_seen": "2026-09-27"
+            }
+          ],
+          "image": "images/wood-white--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/wood-white"
         }
       ],
       "_hero_source": "og-perfume"
@@ -197686,7 +197698,8 @@
               "kind": "full",
               "ml": 60,
               "price": 900,
-              "first_seen": "2026-08-30"
+              "first_seen": "2026-08-30",
+              "sold_since": "2026-09-27"
             }
           ],
           "image": "images/musk-tahara-angel--emaratiscents.jpg",
@@ -202882,8 +202895,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1950,
-              "first_seen": "2026-09-08"
+              "price": 1350,
+              "first_seen": "2026-09-08",
+              "prev_price": 1950
             }
           ],
           "image": "images/raghad--emaratiscents.jpg",
@@ -204309,8 +204323,9 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 4500,
-              "first_seen": "2026-09-16"
+              "price": 4250,
+              "first_seen": "2026-09-16",
+              "prev_price": 4500
             }
           ],
           "image": "images/risk-collection-set--emaratiscents.jpg",
@@ -204718,6 +204733,20 @@
           ],
           "image": "images/attacks-blue--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/assaf-attacks-blue"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2450,
+              "first_seen": "2026-09-27"
+            }
+          ],
+          "image": "images/attacks-blue--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/attacks-blue"
         }
       ],
       "_hero_source": "sniffz"
@@ -207596,6 +207625,141 @@
         }
       ],
       "_hero_source": "MO Shawky"
+    },
+    {
+      "id": "invade-by-mykonos-setiawanade",
+      "name_ar": "Invade By Mykonos × Setiawanade",
+      "name_en": "Invade By Mykonos × Setiawanade",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/invade-by-mykonos-setiawanade.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 1550,
+              "first_seen": "2026-09-27"
+            }
+          ],
+          "image": "images/invade-by-mykonos-setiawanade--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/invade-by-mykonos-setiawanade"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "penthouse",
+      "name_ar": "Penthouse",
+      "name_en": "Penthouse",
+      "brand": "Mykonos",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/penthouse.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 1550,
+              "first_seen": "2026-09-27"
+            }
+          ],
+          "image": "images/penthouse--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/penthouse"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "sea",
+      "name_ar": "Sea",
+      "name_en": "Sea",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/sea.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 2350,
+              "first_seen": "2026-09-27"
+            }
+          ],
+          "image": "images/sea--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/sea"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "ice-by-al-majid-oud",
+      "name_ar": "Ice By Al Majid Oud",
+      "name_en": "Ice By Al Majid Oud",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/ice-by-al-majid-oud.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 2350,
+              "first_seen": "2026-09-27"
+            }
+          ],
+          "image": "images/ice-by-al-majid-oud--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/ice-by-al-majid-oud"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "aura-collection",
+      "name_ar": "Aura Collection",
+      "name_en": "Aura Collection",
+      "brand": "Assaf",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/aura-collection.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4200,
+              "first_seen": "2026-09-27"
+            }
+          ],
+          "image": "images/aura-collection--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/aura-collection"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
