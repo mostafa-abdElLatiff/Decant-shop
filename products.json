@@ -35,7 +35,8 @@
               "kind": "full",
               "ml": 100,
               "price": 6600,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-09-27"
             }
           ],
           "image": "images/1-million-edt--mazaya.jpg",
@@ -81526,6 +81527,20 @@
           ],
           "image": "images/jubilation-40--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/jubilation-40-man"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 32200,
+              "first_seen": "2026-09-27"
+            }
+          ],
+          "image": "images/jubilation-40--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/jubilation-40-extrait-100ml"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -81556,6 +81571,20 @@
           ],
           "image": "images/jubilation-xxv-man--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/jubilation-xxv-man"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 23100,
+              "first_seen": "2026-09-27"
+            }
+          ],
+          "image": "images/jubilation-xxv-man--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/jubilation-xxv-edp-100ml"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -207771,6 +207800,114 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "remain-essence-de-parfum",
+      "name_ar": "Remain Essence De Parfum",
+      "name_en": "Remain Essence De Parfum",
+      "brand": "Amouage",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/remain-essence-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 27300,
+              "first_seen": "2026-09-27"
+            }
+          ],
+          "image": "images/remain-essence-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/remain-essence-de-parfum-100ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "sequence-essence-de-parfum",
+      "name_ar": "Sequence Essence De Parfum",
+      "name_en": "Sequence Essence De Parfum",
+      "brand": "Amouage",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/sequence-essence-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 27300,
+              "first_seen": "2026-09-27"
+            }
+          ],
+          "image": "images/sequence-essence-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/sequence-essence-de-parfum-100ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "line-618-essence-de-parfum",
+      "name_ar": "Line 618 Essence De Parfum",
+      "name_en": "Line 618 Essence De Parfum",
+      "brand": "Amouage",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/line-618-essence-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 27300,
+              "first_seen": "2026-09-27"
+            }
+          ],
+          "image": "images/line-618-essence-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/line-618-essence-de-parfum-100ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "millesime-wild-vetiver",
+      "name_ar": "Millesime Wild Vetiver",
+      "name_en": "Millesime Wild Vetiver",
+      "brand": "Creed",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/millesime-wild-vetiver.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 26900,
+              "first_seen": "2026-09-27"
+            }
+          ],
+          "image": "images/millesime-wild-vetiver--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/millesime-wild-vetiver-100-ml"
+        }
+      ],
+      "_hero_source": "mazaya"
     }
   ]
 }
