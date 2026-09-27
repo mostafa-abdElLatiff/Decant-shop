@@ -848,6 +848,13 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 100,
+              "price": 5300,
+              "first_seen": "2026-09-27",
+              "sold_since": "2026-09-27"
+            },
+            {
+              "kind": "full",
               "ml": 200,
               "price": 6000,
               "first_seen": "2026-09-27",
@@ -51963,7 +51970,8 @@
               "kind": "full",
               "ml": 100,
               "price": 7400,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-09-27"
             }
           ],
           "image": "images/eros-eau-de-parfum--mazaya.jpg",
@@ -107705,6 +107713,13 @@
           "name": "mazaya",
           "url": "https://mazaya.eg/",
           "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 4490,
+              "first_seen": "2026-09-27",
+              "sold_since": "2026-09-27"
+            },
             {
               "kind": "full",
               "ml": 100,
