@@ -7103,7 +7103,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-28"
             }
           ],
           "image": "images/alhilal-9-dkhoon--eldesoki-fragrances.jpg",
@@ -29831,7 +29832,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1350,
+              "price": 1450,
               "first_seen": "2026-07-18"
             }
           ],
@@ -72424,13 +72425,12 @@
             {
               "kind": "full",
               "ml": 110,
-              "price": 3750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "price": 4150,
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/homme-eau-de-toilette-intense--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/kenzo-edt-intense-110ml%d9%83%d9%8a%d9%86%d8%b2%d9%88-%d8%a7%d9%8a-%d8%af%d9%8a-%d8%aa%d9%8a-%d8%a7%d9%86%d8%aa%d9%86%d8%b3-%d9%a1%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/kenzo-edt-intense-60ml%d9%83%d9%8a%d9%86%d8%b2%d9%88-%d8%a7%d9%8a-%d8%af%d9%8a-%d8%aa%d9%8a-%d8%a7%d9%86%d8%aa%d9%86%d8%b3-%d9%a6%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "faces",
@@ -99581,9 +99581,16 @@
             },
             {
               "kind": "leftover",
+              "ml": 40,
+              "price": 1000,
+              "first_seen": "2026-09-28"
+            },
+            {
+              "kind": "leftover",
               "ml": 50,
               "price": 1225,
-              "first_seen": "2026-08-21"
+              "first_seen": "2026-08-21",
+              "sold_since": "2026-09-28"
             },
             {
               "kind": "full",
@@ -147084,7 +147091,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1525,
+              "price": 1650,
               "first_seen": "2026-07-18"
             }
           ],
@@ -147205,7 +147212,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1575,
+              "price": 1650,
               "first_seen": "2026-07-18"
             }
           ],
@@ -147327,7 +147334,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1575,
+              "price": 1650,
               "first_seen": "2026-07-18"
             }
           ],
@@ -159771,15 +159778,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 475,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-06"
+              "first_seen": "2026-07-18"
             },
             {
               "kind": "leftover",
               "ml": 50,
               "price": 2475,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-22"
+              "first_seen": "2026-07-18"
             },
             {
               "kind": "full",
@@ -199286,8 +199291,7 @@
               "kind": "full",
               "ml": 200,
               "price": 3075,
-              "first_seen": "2026-09-01",
-              "sold_since": "2026-09-04"
+              "first_seen": "2026-09-01"
             }
           ],
           "image": "images/summer-hawas-bundle--eldesoki-fragrances.jpg",
@@ -201474,6 +201478,12 @@
               "price": 450,
               "first_seen": "2026-09-05",
               "sold_since": "2026-09-05"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4550,
+              "first_seen": "2026-09-28"
             }
           ],
           "image": "images/azzaro-most-wanted--eldesoki-fragrances.jpg",
@@ -207606,8 +207616,9 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 3400,
-              "first_seen": "2026-09-26"
+              "price": 3275,
+              "first_seen": "2026-09-26",
+              "prev_price": 3400
             }
           ],
           "image": "images/ysl-iced-cologne--eldesoki-fragrances.jpg",
@@ -208021,6 +208032,33 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "bulgari-man-in-black-tester-box",
+      "name_ar": "بلجاري مان ان بلاك ١٠٠ملي علبة تستر",
+      "name_en": "Bulgari Man In Black Tester box",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/bulgari-man-in-black-tester-box.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4900,
+              "first_seen": "2026-09-28"
+            }
+          ],
+          "image": "images/bulgari-man-in-black-tester-box--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/bulgari-man-in-black-100ml-tester-box-%d8%a8%d9%84%d8%ac%d8%a7%d8%b1%d9%8a-%d9%85%d8%a7%d9%86-%d8%a7%d9%86-%d8%a8%d9%84%d8%a7%d9%83-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d8%b9%d9%84%d8%a8%d8%a9/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
