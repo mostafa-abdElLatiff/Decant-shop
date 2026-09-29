@@ -23572,6 +23572,13 @@
               "sold_since": "2026-07-19"
             },
             {
+              "kind": "leftover",
+              "ml": 30,
+              "price": 500,
+              "first_seen": "2026-09-29",
+              "sold_since": "2026-09-29"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1650,
@@ -39995,6 +40002,13 @@
               "price": 185,
               "first_seen": "2026-07-19",
               "sold_since": "2026-08-17"
+            },
+            {
+              "kind": "leftover",
+              "ml": 40,
+              "price": 660,
+              "first_seen": "2026-09-29",
+              "sold_since": "2026-09-29"
             },
             {
               "kind": "full",
@@ -57113,7 +57127,7 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 130,
+              "price": 145,
               "first_seen": "2026-07-19",
               "sold_since": "2026-08-24"
             },
@@ -57127,7 +57141,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1075,
+              "price": 1150,
               "first_seen": "2026-07-19",
               "sold_since": "2026-08-17"
             }
@@ -67854,6 +67868,13 @@
             },
             {
               "kind": "leftover",
+              "ml": 40,
+              "price": 700,
+              "first_seen": "2026-09-29",
+              "sold_since": "2026-09-29"
+            },
+            {
+              "kind": "leftover",
               "ml": 50,
               "price": 875,
               "first_seen": "2026-07-19",
@@ -70261,6 +70282,13 @@
               "price": 135,
               "first_seen": "2026-07-19",
               "sold_since": "2026-09-24"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 575,
+              "first_seen": "2026-09-29",
+              "sold_since": "2026-09-29"
             },
             {
               "kind": "full",
@@ -73235,7 +73263,8 @@
               "kind": "full",
               "ml": 200,
               "price": 4850,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-29"
             }
           ],
           "image": "images/hudson-ii--og-perfume.jpg",
@@ -109456,6 +109485,13 @@
             },
             {
               "kind": "leftover",
+              "ml": 40,
+              "price": 660,
+              "first_seen": "2026-09-29",
+              "sold_since": "2026-09-29"
+            },
+            {
+              "kind": "leftover",
               "ml": 50,
               "price": 850,
               "first_seen": "2026-07-19",
@@ -140466,8 +140502,9 @@
             {
               "kind": "leftover",
               "ml": 60,
-              "price": 3600,
+              "price": 1800,
               "first_seen": "2026-07-19",
+              "prev_price": 3600,
               "sold_since": "2026-07-19"
             },
             {
@@ -166929,6 +166966,13 @@
               "first_seen": "2026-07-19"
             },
             {
+              "kind": "leftover",
+              "ml": 40,
+              "price": 360,
+              "first_seen": "2026-09-29",
+              "sold_since": "2026-09-29"
+            },
+            {
               "kind": "full",
               "ml": 90,
               "price": 900,
@@ -185921,6 +185965,13 @@
               "ml": 30,
               "price": 525,
               "first_seen": "2026-08-07"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 800,
+              "first_seen": "2026-09-29",
+              "sold_since": "2026-09-29"
             },
             {
               "kind": "full",
@@ -208582,6 +208633,162 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "gladius-nusuk",
+      "name_ar": "Gladius Nusuk",
+      "name_en": "Gladius Nusuk",
+      "brand": "Nusuk",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/gladius-nusuk.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 160,
+              "first_seen": "2026-09-29"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 435,
+              "first_seen": "2026-09-29"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1300,
+              "first_seen": "2026-09-29"
+            }
+          ],
+          "image": "images/gladius-nusuk--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/gladius-nusuk"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "falak-nusuk",
+      "name_ar": "Falak Nusuk",
+      "name_en": "Falak Nusuk",
+      "brand": "Nusuk",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/falak-nusuk.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 180,
+              "first_seen": "2026-09-29"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 500,
+              "first_seen": "2026-09-29"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1500,
+              "first_seen": "2026-09-29"
+            }
+          ],
+          "image": "images/falak-nusuk--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/falak-nusuk"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "safa-nusuk",
+      "name_ar": "Safa Nusuk",
+      "name_en": "Safa Nusuk",
+      "brand": "Nusuk",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/safa-nusuk.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 140,
+              "first_seen": "2026-09-29"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 375,
+              "first_seen": "2026-09-29"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1100,
+              "first_seen": "2026-09-29"
+            }
+          ],
+          "image": "images/safa-nusuk--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/safa-nusuk"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "raheeq-nusuk",
+      "name_ar": "Raheeq Nusuk",
+      "name_en": "Raheeq Nusuk",
+      "brand": "Nusuk",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/raheeq-nusuk.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 160,
+              "first_seen": "2026-09-29"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 435,
+              "first_seen": "2026-09-29"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1300,
+              "first_seen": "2026-09-29"
+            }
+          ],
+          "image": "images/raheeq-nusuk--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/raheeq-nusuk"
+        }
+      ],
+      "_hero_source": "og-perfume"
     }
   ]
 }
