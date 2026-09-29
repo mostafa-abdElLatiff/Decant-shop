@@ -26518,7 +26518,8 @@
               "kind": "full",
               "ml": 50,
               "price": 10850,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-09-29"
             }
           ],
           "image": "images/boccanera--mazaya.jpg",
@@ -37377,8 +37378,7 @@
               "kind": "full",
               "ml": 125,
               "price": 2772,
-              "first_seen": "2026-07-23",
-              "prev_price": 5545
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/cool-water-reborn-man-edt--mazaya.jpg",
@@ -194307,6 +194307,28 @@
           ],
           "image": "images/man-eau-fraiche-extreme--ahmed-abdel-kareem.jpg",
           "product_url": "https://www.facebook.com/groups/110919302115466/posts/1180363758504343"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 6700,
+              "first_seen": "2026-09-29",
+              "sold_since": "2026-09-29"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 8900,
+              "first_seen": "2026-09-29",
+              "sold_since": "2026-09-29"
+            }
+          ],
+          "image": "images/man-eau-fraiche-extreme--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/versace-eau-fraiche-extreme"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -209294,6 +209316,47 @@
         }
       ],
       "_hero_source": "og-perfume"
+    },
+    {
+      "id": "eros-energy-pour-homme",
+      "name_ar": "Eros Energy Pour Homme",
+      "name_en": "Eros Energy Pour Homme",
+      "brand": "Versace",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/eros-energy-pour-homme.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 5700,
+              "first_seen": "2026-09-29",
+              "sold_since": "2026-09-29"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 7400,
+              "first_seen": "2026-09-29"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 9800,
+              "first_seen": "2026-09-29",
+              "sold_since": "2026-09-29"
+            }
+          ],
+          "image": "images/eros-energy-pour-homme--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/eros-energy-pour-homme"
+        }
+      ],
+      "_hero_source": "mazaya"
     }
   ]
 }
