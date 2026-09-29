@@ -2795,7 +2795,8 @@
               "kind": "full",
               "ml": 100,
               "price": 880,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-29"
             }
           ],
           "image": "images/abaan--emaratiscents.jpg",
@@ -11048,7 +11049,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1350,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-29"
             }
           ],
           "image": "images/anna-fayrouz--emaratiscents.jpg",
@@ -75639,8 +75641,7 @@
               "kind": "full",
               "ml": 50,
               "price": 1550,
-              "first_seen": "2026-08-01",
-              "sold_since": "2026-09-28"
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/inception--emaratiscents.jpg",
@@ -107229,7 +107230,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1950,
-              "first_seen": "2026-07-22"
+              "first_seen": "2026-07-22",
+              "sold_since": "2026-09-29"
             }
           ],
           "image": "images/momento-by-riiffs--emaratiscents.jpg",
@@ -109767,6 +109769,20 @@
           ],
           "image": "images/musk-rose-arabian-oud--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/musk-rose-arabian-oud%d9%85%d8%b3%d9%83-%d8%b1%d9%88%d8%b2-%d9%85%d9%86-%d8%a7%d9%84%d8%b9%d8%b1%d8%a8%d9%8a%d8%a9-%d9%84%d9%84%d8%b9%d9%88%d8%af/"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2900,
+              "first_seen": "2026-09-29"
+            }
+          ],
+          "image": "images/musk-rose-arabian-oud--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/musk-rose-by-arabian-oud"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -121026,8 +121042,7 @@
               "kind": "full",
               "ml": 100,
               "price": 900,
-              "first_seen": "2026-07-18",
-              "prev_price": 1050
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/opulent-dubai--emaratiscents.jpg",
@@ -122228,6 +122243,20 @@
           ],
           "image": "images/osma-ambry-a--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/osma-ambry-a"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 2250,
+              "first_seen": "2026-09-29"
+            }
+          ],
+          "image": "images/osma-ambry-a--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/ambry-a"
         }
       ],
       "_hero_source": "og-perfume",
@@ -122355,8 +122384,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2450,
-              "first_seen": "2026-08-02",
-              "sold_since": "2026-08-26"
+              "first_seen": "2026-08-02"
             }
           ],
           "image": "images/osma-rouge--emaratiscents.jpg",
@@ -157289,7 +157317,8 @@
               "kind": "full",
               "ml": 200,
               "price": 4850,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-29"
             }
           ],
           "image": "images/tango--emaratiscents.jpg",
@@ -175598,6 +175627,20 @@
           ],
           "image": "images/woody-style--dar-elarabia.jpg",
           "product_url": "https://darelarabia.com/products/woody-style"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2550,
+              "first_seen": "2026-09-29"
+            }
+          ],
+          "image": "images/woody-style--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/woody-style"
         }
       ],
       "_hero_source": "dar.elarabia",
@@ -180767,8 +180810,7 @@
               "kind": "full",
               "ml": 55,
               "price": 1850,
-              "first_seen": "2026-08-05",
-              "prev_price": 2550
+              "first_seen": "2026-08-05"
             }
           ],
           "image": "images/atlas-glacial-valley--emaratiscents.jpg",
@@ -208813,6 +208855,249 @@
         }
       ],
       "_hero_source": "og-perfume"
+    },
+    {
+      "id": "woody-s-by-osma",
+      "name_ar": "Woody S By Osma",
+      "name_en": "Woody S By Osma",
+      "brand": "Osma Perfumes",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/woody-s-by-osma.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 2250,
+              "first_seen": "2026-09-29"
+            }
+          ],
+          "image": "images/woody-s-by-osma--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/woody-s-by-osma"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "vanilla-s-by-osma",
+      "name_ar": "Vanilla S By Osma",
+      "name_en": "Vanilla S By Osma",
+      "brand": "Osma Perfumes",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/vanilla-s-by-osma.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 2250,
+              "first_seen": "2026-09-29"
+            }
+          ],
+          "image": "images/vanilla-s-by-osma--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/vanilla-s"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "paudree-musk-by-osma",
+      "name_ar": "Paudree Musk By Osma",
+      "name_en": "Paudree Musk By Osma",
+      "brand": "Osma Perfumes",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/paudree-musk-by-osma.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 2250,
+              "first_seen": "2026-09-29"
+            }
+          ],
+          "image": "images/paudree-musk-by-osma--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/paudree-musk-by-osma"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "fruity-musk",
+      "name_ar": "Fruity Musk",
+      "name_en": "Fruity Musk",
+      "brand": "Osma",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/fruity-musk.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 2250,
+              "first_seen": "2026-09-29"
+            }
+          ],
+          "image": "images/fruity-musk--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/fruity-musk-by-osma"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "oud-absolute",
+      "name_ar": "Oud Absolute",
+      "name_en": "Oud Absolute",
+      "brand": "Ghalati",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/oud-absolute.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 1700,
+              "first_seen": "2026-09-29"
+            }
+          ],
+          "image": "images/oud-absolute--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/oud-absolute"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "oud-argent",
+      "name_ar": "Oud Argent",
+      "name_en": "Oud Argent",
+      "brand": "Ghalati",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/oud-argent.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2650,
+              "first_seen": "2026-09-29"
+            }
+          ],
+          "image": "images/oud-argent--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/oud-argent"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "tender-musk-arabian-oud",
+      "name_ar": "Tender Musk",
+      "name_en": "Tender Musk",
+      "brand": "Arabian Oud",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/tender-musk-arabian-oud.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2550,
+              "first_seen": "2026-09-29"
+            }
+          ],
+          "image": "images/tender-musk-arabian-oud--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/tender-musk-1"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "wasm-al-musk",
+      "name_ar": "Wasm Al Musk",
+      "name_en": "Wasm Al Musk",
+      "brand": "Arabian Oud",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/wasm-al-musk.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3200,
+              "first_seen": "2026-09-29"
+            }
+          ],
+          "image": "images/wasm-al-musk--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/wasm-al-musk"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "asrar",
+      "name_ar": "Asrar",
+      "name_en": "Asrar",
+      "brand": "Arabian Oud",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/asrar.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2450,
+              "first_seen": "2026-09-29"
+            }
+          ],
+          "image": "images/asrar--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/asrar"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
