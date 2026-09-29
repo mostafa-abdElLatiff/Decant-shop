@@ -4839,7 +4839,8 @@
               "kind": "full",
               "ml": 12,
               "price": 1450,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-09-29"
             }
           ],
           "image": "images/ajmal-musk-silk--emaratiscents.jpg",
@@ -17922,8 +17923,7 @@
               "kind": "full",
               "ml": 12,
               "price": 28500,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-20"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/attar-luban-al-akhdar--emaratiscents.jpg",
@@ -26053,6 +26053,12 @@
           "name": "emaratiscents",
           "url": "https://emaratiscents.com/",
           "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 3700,
+              "first_seen": "2026-09-29"
+            },
             {
               "kind": "full",
               "ml": 225,
@@ -81520,8 +81526,7 @@
               "kind": "full",
               "ml": 100,
               "price": 23000,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-04"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/jubilation-40--emaratiscents.jpg",
@@ -105455,8 +105460,7 @@
               "kind": "full",
               "ml": 10,
               "price": 1400,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-24"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/mini-diamond-collection--emaratiscents.jpg",
@@ -194508,8 +194512,7 @@
               "kind": "full",
               "ml": 50,
               "price": 1550,
-              "first_seen": "2026-08-20",
-              "sold_since": "2026-09-28"
+              "first_seen": "2026-08-20"
             }
           ],
           "image": "images/california-blue--emaratiscents.jpg",
