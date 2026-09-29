@@ -52415,15 +52415,17 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5700,
+              "price": 3400,
               "first_seen": "2026-09-24",
+              "prev_price": 5700,
               "sold_since": "2026-09-24"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 7400,
-              "first_seen": "2026-09-17"
+              "first_seen": "2026-09-17",
+              "sold_since": "2026-09-29"
             },
             {
               "kind": "full",
@@ -52434,7 +52436,7 @@
             }
           ],
           "image": "images/eros-flame--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/versace-eros-flame-eau-de-parfum-spray123455-html123"
+          "product_url": "https://mazaya.eg/en/eros-flame-edp-200-ml"
         },
         {
           "name": "Abo Anas Sayed",
@@ -94261,7 +94263,8 @@
               "kind": "full",
               "ml": 125,
               "price": 9200,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-09-29"
             }
           ],
           "image": "images/le-male-elixir--mazaya.jpg",
@@ -126341,6 +126344,13 @@
               "ml": 100,
               "price": 8215,
               "first_seen": "2026-09-15",
+              "sold_since": "2026-09-29"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 9845,
+              "first_seen": "2026-09-29",
               "sold_since": "2026-09-29"
             }
           ],
