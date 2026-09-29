@@ -37367,8 +37367,9 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 5545,
-              "first_seen": "2026-07-23"
+              "price": 2772,
+              "first_seen": "2026-07-23",
+              "prev_price": 5545
             }
           ],
           "image": "images/cool-water-reborn-man-edt--mazaya.jpg",
@@ -90152,6 +90153,20 @@
           ],
           "image": "images/la-nuit-de-l-homme--ahmed-abdel-kareem.jpg",
           "product_url": "https://www.facebook.com/groups/110919302115466/posts/1180363758504343"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 8300,
+              "first_seen": "2026-09-29"
+            }
+          ],
+          "image": "images/la-nuit-de-l-homme--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/la-nuit-de-l-homme-edp-100ml"
         }
       ],
       "_hero_source": "sniffz",
@@ -94324,8 +94339,7 @@
               "kind": "full",
               "ml": 125,
               "price": 9200,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-09-29"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/le-male-elixir--mazaya.jpg",
@@ -194261,8 +194275,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2690,
-              "first_seen": "2026-08-18",
-              "sold_since": "2026-09-28"
+              "first_seen": "2026-08-18"
             }
           ],
           "image": "images/club-de-nuit-heritage-lionheart-man-eau-de-toilette--mazaya.jpg",
