@@ -336,11 +336,18 @@
               "kind": "decant",
               "ml": 5,
               "price": 115,
-              "first_seen": "2026-09-05"
+              "first_seen": "2026-09-05",
+              "sold_since": "2026-09-30"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 375,
+              "first_seen": "2026-09-30"
             }
           ],
           "image": "images/1000-miglia--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/chopard-1000-miglia-5ml-131"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/chopard-1000-miglia-10ml-8"
         },
         {
           "name": "feel22",
@@ -50950,7 +50957,7 @@
             }
           ],
           "image": "images/encre-indigo--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lalique-encre-indigo-5ml-511"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lalique-encre-indigo-3ml-515"
         }
       ],
       "_hero_source": "MO Shawky",
@@ -69404,11 +69411,12 @@
               "kind": "decant",
               "ml": 10,
               "price": 270,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-09-30"
             }
           ],
           "image": "images/hawas-tropical--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/hawas-tropical-rasasi-10ml-340"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/rasasi-hawas-tropical-5ml-341"
         },
         {
           "name": "sniffz",
@@ -87606,7 +87614,7 @@
             }
           ],
           "image": "images/l-eau-d-issey-noir-ambre--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/issey-miyake-l-eau-d-issey-noir-ambre-5ml-489"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/issey-miyake-l-eau-d-issey-noir-ambre-3ml-490"
         }
       ],
       "_hero_source": "MO Shawky",
@@ -92071,7 +92079,7 @@
             }
           ],
           "image": "images/la-vie-est-belle-iris-absolu-women--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lancome-la-vie-est-belle-iris-absolu-women-3ml-440"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lancome-la-vie-est-belle-iris-absolu-women-5ml-421"
         }
       ],
       "_hero_source": "MO Shawky",
@@ -140328,13 +140336,20 @@
           "offers": [
             {
               "kind": "decant",
+              "ml": 5,
+              "price": 200,
+              "first_seen": "2026-09-30"
+            },
+            {
+              "kind": "decant",
               "ml": 10,
               "price": 300,
-              "first_seen": "2026-09-14"
+              "first_seen": "2026-09-14",
+              "sold_since": "2026-09-30"
             }
           ],
           "image": "images/rose-noir--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ahmed-al-maghribi-rose-noir-10ml-166"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ahmed-al-maghribi-rose-noir-5ml-167"
         },
         {
           "name": "og-perfume",
@@ -177164,7 +177179,7 @@
             }
           ],
           "image": "images/y-edp-intense--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ysl-y-edp-intense-5ml-315"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ysl-y-edp-intense-3ml-456"
         },
         {
           "name": "feel22",
@@ -205780,7 +205795,7 @@
             }
           ],
           "image": "images/good-girl-jasmine-absolute--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ch-good-girl-jasmine-absolute-3ml-559"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ch-good-girl-jasmine-absolute-5ml-558"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -205858,7 +205873,7 @@
             }
           ],
           "image": "images/crystal-noir-parfum--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/versace-crystal-noir-parfum-3ml-567"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/versace-crystal-noir-parfum-5ml-566"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -208088,7 +208103,7 @@
             }
           ],
           "image": "images/eld-o-experimentum-crucis--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/etat-libre-d-orange-experimentum-crucis-10ml-551"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/etat-libre-d-orange-experimentum-crucis-5ml-552"
         }
       ],
       "_hero_source": "MO Shawky"
