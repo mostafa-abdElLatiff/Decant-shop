@@ -11571,8 +11571,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1500,
-              "first_seen": "2026-07-19"
+              "price": 1350,
+              "first_seen": "2026-07-19",
+              "prev_price": 1500
             }
           ],
           "image": "images/aquatica--og-perfume.jpg",
@@ -22938,6 +22939,12 @@
               "price": 150,
               "first_seen": "2026-07-19",
               "sold_since": "2026-09-25"
+            },
+            {
+              "kind": "leftover",
+              "ml": 20,
+              "price": 220,
+              "first_seen": "2026-09-30"
             },
             {
               "kind": "decant",
@@ -52950,7 +52957,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 450,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-30"
             },
             {
               "kind": "leftover",
@@ -89887,7 +89895,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 425,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-09-30"
             },
             {
               "kind": "leftover",
@@ -205976,7 +205985,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 500,
-              "first_seen": "2026-09-23"
+              "first_seen": "2026-09-23",
+              "sold_since": "2026-09-30"
             },
             {
               "kind": "full",
