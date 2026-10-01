@@ -63189,14 +63189,16 @@
             {
               "kind": "decant",
               "ml": 5,
-              "price": 250,
-              "first_seen": "2026-07-19"
+              "price": 150,
+              "first_seen": "2026-07-19",
+              "prev_price": 250
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 350,
-              "first_seen": "2026-07-19"
+              "price": 220,
+              "first_seen": "2026-07-19",
+              "prev_price": 350
             }
           ],
           "image": "images/glitch--perfuzone.jpg",
