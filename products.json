@@ -109556,13 +109556,6 @@
           "offers": [
             {
               "kind": "full",
-              "ml": 100,
-              "price": 2400,
-              "first_seen": "2026-09-13",
-              "sold_since": "2026-09-24"
-            },
-            {
-              "kind": "full",
               "ml": 200,
               "price": 2800,
               "first_seen": "2026-09-24"
@@ -209639,6 +209632,87 @@
         }
       ],
       "_hero_source": "sniffz"
+    },
+    {
+      "id": "atlas-canyon",
+      "name_ar": "Atlas Canyon",
+      "name_en": "Atlas Canyon",
+      "brand": "Lattafa",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/atlas-canyon.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 55,
+              "price": 1850,
+              "first_seen": "2026-10-01"
+            }
+          ],
+          "image": "images/atlas-canyon--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/atlas-canyon"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "matcha-swirl",
+      "name_ar": "Matcha Swirl",
+      "name_en": "Matcha Swirl",
+      "brand": "Lattafa",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/matcha-swirl.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 1900,
+              "first_seen": "2026-10-01"
+            }
+          ],
+          "image": "images/matcha-swirl--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/matcha-swirl"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "harlequin-cream",
+      "name_ar": "Harlequin Cream",
+      "name_en": "Harlequin Cream",
+      "brand": "Lattafa",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/harlequin-cream.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 1900,
+              "first_seen": "2026-10-01"
+            }
+          ],
+          "image": "images/harlequin-cream--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/harlequin-cream"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
