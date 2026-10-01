@@ -66239,9 +66239,8 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 1550,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "price": 1600,
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/h2m-honey-musk--eldesoki-fragrances.jpg",
@@ -71195,6 +71194,12 @@
               "price": 1500,
               "first_seen": "2026-09-05",
               "sold_since": "2026-09-05"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2675,
+              "first_seen": "2026-10-01"
             }
           ],
           "image": "images/hersh-2-hersh--eldesoki-fragrances.jpg",
@@ -84456,8 +84461,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-11"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/khalifa--eldesoki-fragrances.jpg",
@@ -86112,8 +86116,7 @@
               "kind": "full",
               "ml": 200,
               "price": 1700,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
+              "first_seen": "2026-07-20"
             }
           ],
           "image": "images/kilkat-blue-ezz-oud--eldesoki-fragrances.jpg",
@@ -89916,7 +89919,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 1975,
+              "price": 2250,
               "first_seen": "2026-07-18"
             }
           ],
@@ -128614,7 +128617,7 @@
             {
               "kind": "leftover",
               "ml": 30,
-              "price": 300,
+              "price": 350,
               "first_seen": "2026-08-10"
             },
             {
@@ -135071,9 +135074,9 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 1675,
+              "price": 1600,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 1675
             }
           ],
           "image": "images/r2t-rose-tobacco--eldesoki-fragrances.jpg",
@@ -141177,9 +141180,9 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 1400,
+              "price": 1375,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 1400
             }
           ],
           "image": "images/roshn-thnyan-riyadh--eldesoki-fragrances.jpg",
@@ -150831,9 +150834,8 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 1475,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "price": 1600,
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/so2-spicy-oud--eldesoki-fragrances.jpg",
@@ -210156,6 +210158,60 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "frankel-boss-bundle",
+      "name_ar": "فرانكل بوص باندل ٤٠٠ملي من العطور",
+      "name_en": "Frankel Boss Bundle",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/frankel-boss-bundle.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 400,
+              "price": 3600,
+              "first_seen": "2026-10-01"
+            }
+          ],
+          "image": "images/frankel-boss-bundle--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/frankel-boss-bundle-400ml-%d9%81%d8%b1%d8%a7%d9%86%d9%83%d9%84-%d8%a8%d9%88%d8%b5-%d8%a8%d8%a7%d9%86%d8%af%d9%84-%d9%a4%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d9%84%d8%b9%d8%b7%d9%88/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "hersh-55-ezz-oud",
+      "name_ar": "هرش ٥٥ من العز للعود ١٠٠ملي",
+      "name_en": "Hersh 55 Ezz Oud",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/hersh-55-ezz-oud.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2975,
+              "first_seen": "2026-10-01"
+            }
+          ],
+          "image": "images/hersh-55-ezz-oud--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/hersh-55-ezz-oud-100ml%d9%87%d8%b1%d8%b4-%d9%a5%d9%a5-%d9%85%d9%86-%d8%a7%d9%84%d8%b9%d8%b2-%d9%84%d9%84%d8%b9%d9%88%d8%af-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
