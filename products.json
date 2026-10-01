@@ -63415,15 +63415,13 @@
               "kind": "decant",
               "ml": 5,
               "price": 150,
-              "first_seen": "2026-07-19",
-              "prev_price": 250
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 220,
-              "first_seen": "2026-07-19",
-              "prev_price": 350
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/glitch--perfuzone.jpg",
@@ -154914,7 +154912,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 550,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-01"
             }
           ],
           "image": "images/stronger-with-you-intensely--perfuzone.jpg",
