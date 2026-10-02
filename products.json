@@ -209941,6 +209941,39 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "no-limits-edp",
+      "name_ar": "No Limits EDP",
+      "name_en": "No Limits EDP",
+      "brand": "Philipp Plein",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/no-limits-edp.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 280,
+              "first_seen": "2026-10-02"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 500,
+              "first_seen": "2026-10-02"
+            }
+          ],
+          "image": "images/no-limits-edp--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/no-limits-edp"
+        }
+      ],
+      "_hero_source": "perfuzone"
     }
   ]
 }
