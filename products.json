@@ -56638,8 +56638,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1450,
-              "first_seen": "2026-07-18"
+              "price": 1400,
+              "first_seen": "2026-07-18",
+              "prev_price": 1450
             }
           ],
           "image": "images/faqat-lil-rijal--eldesoki-fragrances.jpg",
@@ -58406,7 +58407,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 625,
+              "price": 750,
               "first_seen": "2026-07-18",
               "sold_since": "2026-09-02"
             }
@@ -153993,13 +153994,6 @@
               "ml": 60,
               "price": 1250,
               "first_seen": "2026-09-26"
-            },
-            {
-              "kind": "leftover",
-              "ml": 65,
-              "price": 1275,
-              "first_seen": "2026-08-10",
-              "sold_since": "2026-09-26"
             },
             {
               "kind": "full",
