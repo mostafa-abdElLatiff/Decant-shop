@@ -43792,7 +43792,7 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 875,
+              "price": 900,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
             },
@@ -67629,7 +67629,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 185,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-04"
             },
             {
               "kind": "leftover",
@@ -109680,7 +109681,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-04"
             }
           ],
           "image": "images/musk-garden--og-perfume.jpg",
@@ -198733,7 +198735,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 210,
-              "first_seen": "2026-09-05"
+              "first_seen": "2026-09-05",
+              "sold_since": "2026-10-04"
             },
             {
               "kind": "decant",
@@ -206178,6 +206181,12 @@
               "sold_since": "2026-09-30"
             },
             {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 750,
+              "first_seen": "2026-10-04"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1500,
@@ -209262,8 +209271,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 650,
-              "first_seen": "2026-10-01",
-              "sold_since": "2026-10-03"
+              "first_seen": "2026-10-01"
             },
             {
               "kind": "full",
