@@ -4852,8 +4852,7 @@
               "kind": "full",
               "ml": 12,
               "price": 1450,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-10-02"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/ajmal-musk-silk--emaratiscents.jpg",
@@ -11524,8 +11523,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-24"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/aquatica--emaratiscents.jpg",
@@ -67922,8 +67920,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-10-02"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/hawas-elixir--emaratiscents.jpg",
@@ -117589,8 +117586,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-28"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/obsidian-rayhaan--emaratiscents.jpg",
@@ -148088,7 +148084,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1370,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-10-04"
             }
           ],
           "image": "images/shuhrah--emaratiscents.jpg",
@@ -149246,8 +149243,7 @@
               "kind": "full",
               "ml": 100,
               "price": 970,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-10-04"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/silk-musk--emaratiscents.jpg",
@@ -155579,8 +155575,7 @@
               "kind": "full",
               "ml": 75,
               "price": 4500,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-10-04"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/summer-musk-bundle--emaratiscents.jpg",
@@ -158770,8 +158765,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-08-08",
-              "sold_since": "2026-10-02"
+              "first_seen": "2026-08-08"
             }
           ],
           "image": "images/terra-rayhaan--emaratiscents.jpg",
@@ -175752,8 +175746,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-10-01"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/wolf--emaratiscents.jpg",
@@ -199792,8 +199785,7 @@
               "kind": "full",
               "ml": 120,
               "price": 9500,
-              "first_seen": "2026-08-31",
-              "sold_since": "2026-09-01"
+              "first_seen": "2026-08-31"
             }
           ],
           "image": "images/angelo--emaratiscents.jpg",
@@ -199820,8 +199812,7 @@
               "kind": "full",
               "ml": 120,
               "price": 9500,
-              "first_seen": "2026-08-31",
-              "sold_since": "2026-09-03"
+              "first_seen": "2026-08-31"
             }
           ],
           "image": "images/capri-by-sedra--emaratiscents.jpg",
@@ -208214,8 +208205,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2050,
-              "first_seen": "2026-09-24",
-              "sold_since": "2026-10-03"
+              "first_seen": "2026-09-24"
             }
           ],
           "image": "images/hawas-ice-freeze--emaratiscents.jpg",
@@ -210650,6 +210640,87 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "rave-now",
+      "name_ar": "Rave Now",
+      "name_en": "Rave Now",
+      "brand": "Lattafa",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/rave-now.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1030,
+              "first_seen": "2026-10-04"
+            }
+          ],
+          "image": "images/rave-now--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/rave-now"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "ivory",
+      "name_ar": "Ivory",
+      "name_en": "Ivory",
+      "brand": "Sedra",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/ivory.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 3850,
+              "first_seen": "2026-10-04"
+            }
+          ],
+          "image": "images/ivory--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/ivory"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "grande-set-box-by-sedra",
+      "name_ar": "Grande Set Box By Sedra",
+      "name_en": "Grande Set Box By Sedra",
+      "brand": "Sedra Perfumes",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/grande-set-box-by-sedra.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 6700,
+              "first_seen": "2026-10-04"
+            }
+          ],
+          "image": "images/grande-set-box-by-sedra--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/grande-set-box-by-sedra"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
