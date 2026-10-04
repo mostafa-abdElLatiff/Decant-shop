@@ -80795,8 +80795,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 1950,
-              "first_seen": "2026-07-18"
+              "price": 1875,
+              "first_seen": "2026-07-18",
+              "prev_price": 1950
             }
           ],
           "image": "images/jassas-ezz-oud--eldesoki-fragrances.jpg",
@@ -116574,8 +116575,7 @@
               "kind": "full",
               "ml": 150,
               "price": 1650,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-19"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/nude-coral-diamond--eldesoki-fragrances.jpg",
@@ -147148,6 +147148,20 @@
           ],
           "image": "images/sherlock--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/sherlock-200-ml"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 1750,
+              "first_seen": "2026-10-04"
+            }
+          ],
+          "image": "images/sherlock--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/sherlock-200ml-assaf%d8%b4%d9%8a%d8%b1%d9%84%d9%88%d9%83-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b9%d8%b3%d8%a7%d9%81/"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -200633,7 +200647,8 @@
               "kind": "leftover",
               "ml": 100,
               "price": 1250,
-              "first_seen": "2026-09-15"
+              "first_seen": "2026-09-15",
+              "sold_since": "2026-10-04"
             }
           ],
           "image": "images/qasida-purity--eldesoki-fragrances.jpg",
