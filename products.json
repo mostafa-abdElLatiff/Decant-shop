@@ -28064,7 +28064,8 @@
               "kind": "full",
               "ml": 200,
               "price": 5700,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-10-04"
             }
           ],
           "image": "images/bottled-night-eau-de-toilette--feel22.jpg",
@@ -35308,7 +35309,7 @@
             {
               "kind": "full",
               "ml": 105,
-              "price": 1555,
+              "price": 2449,
               "first_seen": "2026-07-23"
             }
           ],
@@ -48669,6 +48670,20 @@
           ],
           "image": "images/ejaazi--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/spray-ejaazi-100ml"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 934,
+              "first_seen": "2026-10-04"
+            }
+          ],
+          "image": "images/ejaazi--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/lattafa-ejaazi-eau-de-parfum-100ml"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -49738,7 +49753,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 935,
+              "price": 1135,
               "first_seen": "2026-07-23"
             }
           ],
@@ -75990,7 +76005,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2464,
+              "price": 2499,
               "first_seen": "2026-07-23"
             }
           ],
@@ -88984,17 +88999,19 @@
               "kind": "full",
               "ml": 60,
               "price": 6435,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-10-04"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 7623,
-              "first_seen": "2026-07-23"
+              "price": 6290,
+              "first_seen": "2026-07-23",
+              "prev_price": 7623
             }
           ],
           "image": "images/l-homme-le-parfum--feel22.jpg",
-          "product_url": "https://eg.feel22.com/products/yves-saint-laurent-lhomme-le-parfum-for-men"
+          "product_url": "https://eg.feel22.com/products/copy-of-yves-saint-laurent-la-nuit-lhomme-eau-de-parfum-for-men"
         },
         {
           "name": "mazaya",
@@ -93618,7 +93635,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 20244,
+              "price": 20999,
               "first_seen": "2026-07-23"
             }
           ],
@@ -96080,7 +96097,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3716,
+              "price": 3899,
               "first_seen": "2026-07-23"
             }
           ],
@@ -127859,9 +127876,23 @@
           ],
           "image": "images/perfect-tobacco-edp-100ml--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/st-dupont-perfect-tobacco-edp-100ml-eaudeparfum-029914582278.html"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4727,
+              "first_seen": "2026-10-04"
+            }
+          ],
+          "image": "images/perfect-tobacco-edp-100ml--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/s-t-dupont-perfect-tobacco-eau-de-parfum-100ml"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "feel22",
       "aliases": [
         "Perfect Tobacco EDP 100ML"
       ],
@@ -146992,7 +147023,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1074,
+              "price": 1099,
               "first_seen": "2026-07-23"
             }
           ],
@@ -158909,8 +158940,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6941,
-              "first_seen": "2026-07-23"
+              "price": 6555,
+              "first_seen": "2026-07-23",
+              "prev_price": 6941
             },
             {
               "kind": "full",
@@ -193606,8 +193638,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2672,
-              "first_seen": "2026-08-16"
+              "price": 2299,
+              "first_seen": "2026-08-16",
+              "prev_price": 2672
             }
           ],
           "image": "images/momentum-unlimited-eau-de-toilette--feel22.jpg",
@@ -210475,6 +210508,60 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "wild-eau-de-toilette",
+      "name_ar": "Wild Eau de Toilette",
+      "name_en": "Wild Eau de Toilette",
+      "brand": "Joop",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/wild-eau-de-toilette.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 2485,
+              "first_seen": "2026-10-04"
+            }
+          ],
+          "image": "images/wild-eau-de-toilette--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/joop-wild-eau-de-toilette-for-men-125ml"
+        }
+      ],
+      "_hero_source": "feel22"
+    },
+    {
+      "id": "amber-malaki-eau-de-parfum",
+      "name_ar": "Amber Malaki Eau de Parfum",
+      "name_en": "Amber Malaki Eau de Parfum",
+      "brand": "Chopard",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/amber-malaki-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 80,
+              "price": 3550,
+              "first_seen": "2026-10-04"
+            }
+          ],
+          "image": "images/amber-malaki-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/chopard-amber-malaki-eau-de-parfum-80ml"
+        }
+      ],
+      "_hero_source": "feel22"
     }
   ]
 }
