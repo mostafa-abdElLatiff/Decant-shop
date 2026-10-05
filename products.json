@@ -71040,7 +71040,8 @@
               "kind": "full",
               "ml": 60,
               "price": 8500,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-10-05"
             }
           ],
           "image": "images/hero-elixr-perfum-60ml--mazaya.jpg",
@@ -211022,6 +211023,60 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "myslf-le-perfum",
+      "name_ar": "Myslf Le Perfum",
+      "name_en": "Myslf Le Perfum",
+      "brand": "Yves Saint Laurent",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/myslf-le-perfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 9500,
+              "first_seen": "2026-10-05"
+            }
+          ],
+          "image": "images/myslf-le-perfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/myslf-le-perfum-150ml-refill"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "devotion-edp-male",
+      "name_ar": "Devotion EDP Male",
+      "name_en": "Devotion EDP Male",
+      "brand": "Dolce&Gabbana",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/devotion-edp-male.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 6200,
+              "first_seen": "2026-10-05"
+            }
+          ],
+          "image": "images/devotion-edp-male--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/devotion-edp-male-50ml"
+        }
+      ],
+      "_hero_source": "mazaya"
     }
   ]
 }
