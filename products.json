@@ -11857,8 +11857,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2850,
-              "first_seen": "2026-07-19"
+              "price": 2500,
+              "first_seen": "2026-07-19",
+              "prev_price": 2850
             }
           ],
           "image": "images/arabian-knight--dar-elarabia.jpg",
@@ -11898,8 +11899,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2850,
-              "first_seen": "2026-07-19"
+              "price": 2500,
+              "first_seen": "2026-07-19",
+              "prev_price": 2850
             }
           ],
           "image": "images/arabian-knight-silver--dar-elarabia.jpg",
@@ -157790,8 +157792,9 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 3700,
-              "first_seen": "2026-07-19"
+              "price": 2500,
+              "first_seen": "2026-07-19",
+              "prev_price": 3700
             }
           ],
           "image": "images/tarteel-gold--dar-elarabia.jpg",
@@ -157831,8 +157834,9 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 4350,
-              "first_seen": "2026-07-19"
+              "price": 2500,
+              "first_seen": "2026-07-19",
+              "prev_price": 4350
             }
           ],
           "image": "images/tarteel-silver--dar-elarabia.jpg",
@@ -203024,8 +203028,7 @@
               "kind": "full",
               "ml": 100,
               "price": 3200,
-              "first_seen": "2026-09-06",
-              "sold_since": "2026-10-01"
+              "first_seen": "2026-09-06"
             }
           ],
           "image": "images/hersh-saytara--dar-elarabia.jpg",
