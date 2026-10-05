@@ -33814,6 +33814,32 @@
             }
           ],
           "image": "images/club-black--ahmed-abdel-kareem.jpg"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 165,
+              "first_seen": "2026-10-05"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 220,
+              "first_seen": "2026-10-05"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 360,
+              "first_seen": "2026-10-05"
+            }
+          ],
+          "image": "images/club-black-edt--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/mercedes-benz-club-black"
         }
       ],
       "_hero_source": "perfuzone",
@@ -46549,7 +46575,8 @@
               "kind": "decant",
               "ml": 3,
               "price": 135,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-10-05"
             },
             {
               "kind": "decant",
@@ -76556,6 +76583,24 @@
           "url": "https://sniffz-eg.com/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 3,
+              "price": 150,
+              "first_seen": "2026-10-05"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 195,
+              "first_seen": "2026-10-05"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 300,
+              "first_seen": "2026-10-05"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 2000,
@@ -76563,7 +76608,7 @@
             }
           ],
           "image": "images/intense--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/bentley-for-men-intense-full-sealed"
+          "product_url": "https://sniffz-eg.com/products/bentley-for-men-intense"
         },
         {
           "name": "perfuzone",
