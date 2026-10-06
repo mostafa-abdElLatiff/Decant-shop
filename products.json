@@ -104613,13 +104613,13 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 165,
+              "price": 175,
               "first_seen": "2026-07-18"
             },
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 825,
+              "price": 875,
               "first_seen": "2026-07-18"
             }
           ],
@@ -116617,7 +116617,8 @@
               "kind": "full",
               "ml": 150,
               "price": 1650,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-10-06"
             }
           ],
           "image": "images/nude-coral-diamond--eldesoki-fragrances.jpg",
@@ -174999,9 +175000,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2050,
+              "price": 2025,
               "first_seen": "2026-09-30",
-              "sold_since": "2026-09-30"
+              "prev_price": 2050
             }
           ],
           "image": "images/wild-colt--eldesoki-fragrances.jpg",
