@@ -140077,7 +140077,8 @@
               "kind": "full",
               "ml": 150,
               "price": 2300,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-06"
             }
           ],
           "image": "images/risk-comete--og-perfume.jpg",
@@ -147015,7 +147016,8 @@
               "kind": "leftover",
               "ml": 40,
               "price": 480,
-              "first_seen": "2026-10-05"
+              "first_seen": "2026-10-05",
+              "sold_since": "2026-10-06"
             },
             {
               "kind": "leftover",
@@ -156714,6 +156716,13 @@
               "price": 220,
               "first_seen": "2026-07-19",
               "prev_price": 225,
+              "sold_since": "2026-10-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 625,
+              "first_seen": "2026-10-06",
               "sold_since": "2026-10-06"
             },
             {
