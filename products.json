@@ -105467,6 +105467,26 @@
           ],
           "image": "images/milk-drops--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/milk-drops"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 270,
+              "first_seen": "2026-10-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 490,
+              "first_seen": "2026-10-06"
+            }
+          ],
+          "image": "images/milk-drops--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/milk-drops"
         }
       ],
       "_hero_source": "emaratiscents",
