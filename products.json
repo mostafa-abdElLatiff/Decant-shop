@@ -57406,7 +57406,7 @@
             }
           ],
           "image": "images/fig-infusion--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-fig-infusion-3ml-475"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-fig-infusion-5ml-474"
         },
         {
           "name": "Hossam ElDeen Gamal",
@@ -101020,7 +101020,7 @@
             }
           ],
           "image": "images/man-eau-fraiche--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/versace-man-eau-fraiche-3ml-523"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/versace-man-eau-fraiche-5ml-522"
         }
       ],
       "_hero_source": "sniffz",
@@ -101314,7 +101314,7 @@
             }
           ],
           "image": "images/man-rain-essence-edp--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/bvlgari-man-rain-essence-3ml-529"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/bvlgari-man-rain-essence-5ml-528"
         }
       ],
       "_hero_source": "mazaya",
@@ -131037,7 +131037,7 @@
             }
           ],
           "image": "images/power-of-you-women--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/giorgio-armani-power-of-you-women-3ml-433"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/giorgio-armani-power-of-you-women-5ml-398"
         },
         {
           "name": "sniffz",
@@ -190020,13 +190020,26 @@
           "offers": [
             {
               "kind": "decant",
+              "ml": 3,
+              "price": 240,
+              "first_seen": "2026-10-06"
+            },
+            {
+              "kind": "decant",
               "ml": 5,
-              "price": 365,
-              "first_seen": "2026-08-13"
+              "price": 335,
+              "first_seen": "2026-08-13",
+              "prev_price": 365
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 565,
+              "first_seen": "2026-10-06"
             }
           ],
           "image": "images/bottled-absolu--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/hugo-boss-bottled-absolu-5-ml-52"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/hugo-boss-bottled-absolu-3-ml-586"
         },
         {
           "name": "Ahmed Abdel Kareem",
@@ -206530,7 +206543,7 @@
             }
           ],
           "image": "images/ambre-d-alexandrie--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/boucheron-ambre-d-alexandrie-3ml-575"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/boucheron-ambre-d-alexandrie-5ml-574"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -208509,7 +208522,7 @@
             }
           ],
           "image": "images/eld-o-experimentum-crucis--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/etat-libre-d-orange-experimentum-crucis-5ml-552"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/etat-libre-d-orange-experimentum-crucis-10ml-551"
         }
       ],
       "_hero_source": "MO Shawky"
