@@ -2590,14 +2590,14 @@
               "kind": "leftover",
               "ml": 40,
               "price": 660,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-07"
             },
             {
               "kind": "leftover",
               "ml": 50,
               "price": 825,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -11611,9 +11611,9 @@
             {
               "kind": "leftover",
               "ml": 45,
-              "price": 750,
+              "price": 675,
               "first_seen": "2026-08-10",
-              "sold_since": "2026-08-10"
+              "prev_price": 750
             },
             {
               "kind": "full",
@@ -31955,7 +31955,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 940,
-              "first_seen": "2026-10-05"
+              "first_seen": "2026-10-05",
+              "sold_since": "2026-10-07"
             },
             {
               "kind": "full",
@@ -37845,7 +37846,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 400,
-              "first_seen": "2026-08-07"
+              "first_seen": "2026-08-07",
+              "sold_since": "2026-10-07"
             },
             {
               "kind": "full",
@@ -82231,8 +82233,7 @@
               "kind": "leftover",
               "ml": 45,
               "price": 675,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -83931,7 +83932,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 350,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-07"
             },
             {
               "kind": "decant",
@@ -86975,10 +86977,16 @@
             },
             {
               "kind": "leftover",
+              "ml": 35,
+              "price": 540,
+              "first_seen": "2026-10-07",
+              "sold_since": "2026-10-07"
+            },
+            {
+              "kind": "leftover",
               "ml": 45,
               "price": 675,
-              "first_seen": "2026-07-26",
-              "sold_since": "2026-10-03"
+              "first_seen": "2026-07-26"
             },
             {
               "kind": "full",
@@ -109898,7 +109906,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-07"
             },
             {
               "kind": "leftover",
@@ -115116,8 +115125,7 @@
               "kind": "leftover",
               "ml": 45,
               "price": 725,
-              "first_seen": "2026-08-13",
-              "sold_since": "2026-08-13"
+              "first_seen": "2026-08-13"
             },
             {
               "kind": "full",
@@ -125413,8 +125421,7 @@
               "kind": "leftover",
               "ml": 45,
               "price": 725,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-15"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -152288,8 +152295,9 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 900,
+              "price": 825,
               "first_seen": "2026-07-19",
+              "prev_price": 900,
               "sold_since": "2026-07-19"
             },
             {
@@ -156399,8 +156407,9 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 1375,
+              "price": 1250,
               "first_seen": "2026-07-19",
+              "prev_price": 1375,
               "sold_since": "2026-09-27"
             },
             {
@@ -163995,8 +164004,7 @@
               "kind": "leftover",
               "ml": 45,
               "price": 725,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -165295,11 +165303,23 @@
               "sold_since": "2026-08-21"
             },
             {
+              "kind": "leftover",
+              "ml": 20,
+              "price": 415,
+              "first_seen": "2026-10-07"
+            },
+            {
               "kind": "decant",
               "ml": 30,
               "price": 675,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 30,
+              "price": 620,
+              "first_seen": "2026-10-07"
             },
             {
               "kind": "full",
@@ -165478,14 +165498,14 @@
               "kind": "leftover",
               "ml": 40,
               "price": 845,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
               "ml": 45,
-              "price": 975,
-              "first_seen": "2026-09-13"
+              "price": 950,
+              "first_seen": "2026-09-13",
+              "prev_price": 975
             },
             {
               "kind": "full",
@@ -171419,7 +171439,8 @@
               "kind": "full",
               "ml": 100,
               "price": 9250,
-              "first_seen": "2026-07-21"
+              "first_seen": "2026-07-21",
+              "sold_since": "2026-10-07"
             }
           ],
           "image": "images/vibrato--og-perfume.jpg",
@@ -175063,7 +175084,8 @@
               "kind": "full",
               "ml": 150,
               "price": 1650,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-07"
             }
           ],
           "image": "images/white-regent-diamond--og-perfume.jpg",
@@ -176098,6 +176120,12 @@
               "sold_since": "2026-08-31"
             },
             {
+              "kind": "leftover",
+              "ml": 25,
+              "price": 365,
+              "first_seen": "2026-10-07"
+            },
+            {
               "kind": "decant",
               "ml": 30,
               "price": 500,
@@ -176115,8 +176143,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 725,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -195580,6 +195607,13 @@
               "price": 650,
               "first_seen": "2026-08-20",
               "sold_since": "2026-08-21"
+            },
+            {
+              "kind": "leftover",
+              "ml": 80,
+              "price": 1600,
+              "first_seen": "2026-10-07",
+              "sold_since": "2026-10-07"
             },
             {
               "kind": "leftover",
