@@ -44856,9 +44856,27 @@
           "url": "https://roseperfume.online/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 5,
+              "price": 90,
+              "first_seen": "2026-10-07"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 150,
+              "first_seen": "2026-10-07"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 400,
+              "first_seen": "2026-10-07"
+            },
+            {
               "kind": "full",
               "ml": 100,
-              "price": 1000,
+              "price": 1050,
               "first_seen": "2026-07-20",
               "sold_since": "2026-08-14"
             }
@@ -83008,8 +83026,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1400,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
+              "first_seen": "2026-07-20"
             }
           ],
           "image": "images/kahilan--roseperfume.jpg",
@@ -158699,7 +158716,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 175,
-              "first_seen": "2026-08-13"
+              "first_seen": "2026-08-13",
+              "sold_since": "2026-10-07"
             },
             {
               "kind": "decant",
