@@ -211358,6 +211358,33 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "hersh-al-galabeya",
+      "name_ar": "Hersh Al Galabeya",
+      "name_en": "Hersh Al Galabeya",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/hersh-al-galabeya.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3200,
+              "first_seen": "2026-10-07"
+            }
+          ],
+          "image": "images/hersh-al-galabeya--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/hersh-al-galabeya"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
     }
   ]
 }
