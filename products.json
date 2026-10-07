@@ -31329,7 +31329,8 @@
               "kind": "full",
               "ml": 200,
               "price": 4100,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-10-07"
             }
           ],
           "image": "images/chamonix--emaratiscents.jpg",
@@ -65698,7 +65699,8 @@
               "kind": "full",
               "ml": 100,
               "price": 17000,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-10-07"
             }
           ],
           "image": "images/guidance--emaratiscents.jpg",
@@ -73387,7 +73389,8 @@
               "kind": "full",
               "ml": 200,
               "price": 4850,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-10-07"
             }
           ],
           "image": "images/hudson-ii--emaratiscents.jpg",
@@ -157849,7 +157852,8 @@
               "kind": "full",
               "ml": 75,
               "price": 2550,
-              "first_seen": "2026-09-29"
+              "first_seen": "2026-09-29",
+              "sold_since": "2026-10-07"
             }
           ],
           "image": "images/tarteel-gold--emaratiscents.jpg",
@@ -165442,13 +165446,6 @@
           "name": "emaratiscents",
           "url": "https://emaratiscents.com/",
           "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 2200,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-30"
-            },
             {
               "kind": "full",
               "ml": 200,
@@ -180748,7 +180745,8 @@
               "kind": "full",
               "ml": 200,
               "price": 2350,
-              "first_seen": "2026-09-07"
+              "first_seen": "2026-09-07",
+              "sold_since": "2026-10-07"
             }
           ],
           "image": "images/qasida-signature--emaratiscents.jpg",
@@ -181264,8 +181262,7 @@
               "kind": "full",
               "ml": 55,
               "price": 1550,
-              "first_seen": "2026-08-05",
-              "prev_price": 1850
+              "first_seen": "2026-08-05"
             }
           ],
           "image": "images/atlas-glacial-valley--emaratiscents.jpg",
@@ -210076,8 +210073,7 @@
               "kind": "full",
               "ml": 55,
               "price": 1550,
-              "first_seen": "2026-10-01",
-              "prev_price": 1850
+              "first_seen": "2026-10-01"
             }
           ],
           "image": "images/atlas-canyon--emaratiscents.jpg",
