@@ -1637,10 +1637,15 @@
             },
             {
               "kind": "leftover",
+              "ml": 40,
+              "price": 640,
+              "first_seen": "2026-10-07"
+            },
+            {
+              "kind": "leftover",
               "ml": 50,
               "price": 800,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-16"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -1891,6 +1896,12 @@
               "ml": 30,
               "price": 525,
               "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 40,
+              "price": 660,
+              "first_seen": "2026-10-07"
             },
             {
               "kind": "leftover",
@@ -2221,8 +2232,7 @@
               "kind": "leftover",
               "ml": 40,
               "price": 700,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -2235,8 +2245,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 875,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -2580,8 +2589,7 @@
               "kind": "leftover",
               "ml": 40,
               "price": 660,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -20409,7 +20417,8 @@
               "kind": "leftover",
               "ml": 40,
               "price": 480,
-              "first_seen": "2026-08-21"
+              "first_seen": "2026-08-21",
+              "sold_since": "2026-10-07"
             },
             {
               "kind": "leftover",
@@ -37813,8 +37822,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 400,
-              "first_seen": "2026-08-07",
-              "sold_since": "2026-08-07"
+              "first_seen": "2026-08-07"
             },
             {
               "kind": "full",
@@ -43863,7 +43871,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-07"
             },
             {
               "kind": "leftover",
@@ -64508,7 +64517,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 950,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-07"
             },
             {
               "kind": "full",
@@ -77248,6 +77258,12 @@
               "price": 500,
               "first_seen": "2026-07-19",
               "sold_since": "2026-09-11"
+            },
+            {
+              "kind": "leftover",
+              "ml": 30,
+              "price": 465,
+              "first_seen": "2026-10-07"
             },
             {
               "kind": "leftover",
@@ -99232,8 +99248,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 1175,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -117501,8 +117516,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 230,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -117522,8 +117536,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2000,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/obsidian-french-avenue--og-perfume.jpg",
@@ -131921,7 +131934,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 185,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-07"
             },
             {
               "kind": "decant",
@@ -133815,7 +133829,8 @@
               "kind": "leftover",
               "ml": 85,
               "price": 990,
-              "first_seen": "2026-09-11"
+              "first_seen": "2026-09-11",
+              "sold_since": "2026-10-07"
             },
             {
               "kind": "leftover",
@@ -170843,8 +170858,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 1500,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-01"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -171707,7 +171721,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-07"
             }
           ],
           "image": "images/vintage-radio--og-perfume.jpg",
@@ -211032,7 +211047,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2150,
-              "first_seen": "2026-10-04"
+              "first_seen": "2026-10-04",
+              "sold_since": "2026-10-07"
             }
           ],
           "image": "images/only-white--og-perfume.jpg",
