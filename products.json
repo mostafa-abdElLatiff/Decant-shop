@@ -211321,6 +211321,33 @@
         }
       ],
       "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "hersh-jumarmar",
+      "name_ar": "Hersh Jumarmar",
+      "name_en": "Hersh Jumarmar",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/hersh-jumarmar.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3200,
+              "first_seen": "2026-10-08"
+            }
+          ],
+          "image": "images/hersh-jumarmar--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/hersh-jumarmar"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
     }
   ]
 }
