@@ -41252,10 +41252,24 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 4015,
+              "first_seen": "2026-10-08",
+              "sold_since": "2026-10-08"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 4850,
               "first_seen": "2026-07-23",
               "prev_price": 5850
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 7355,
+              "first_seen": "2026-10-08",
+              "sold_since": "2026-10-08"
             }
           ],
           "image": "images/defy-parfum--mazaya.jpg",
@@ -52666,6 +52680,14 @@
           "name": "mazaya",
           "url": "https://mazaya.eg/",
           "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 3400,
+              "first_seen": "2026-10-08",
+              "prev_price": 5700,
+              "sold_since": "2026-10-08"
+            },
             {
               "kind": "full",
               "ml": 100,
@@ -120981,6 +121003,13 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 13650,
+              "first_seen": "2026-10-08",
+              "sold_since": "2026-10-08"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 21150,
               "first_seen": "2026-10-08",
@@ -160079,6 +160108,13 @@
               "price": 12850,
               "first_seen": "2026-10-02",
               "sold_since": "2026-10-02"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 18500,
+              "first_seen": "2026-10-08",
+              "sold_since": "2026-10-08"
             }
           ],
           "image": "images/the-hedonist--mazaya.jpg",
@@ -162155,11 +162191,12 @@
               "kind": "full",
               "ml": 100,
               "price": 14300,
-              "first_seen": "2026-08-07"
+              "first_seen": "2026-08-07",
+              "sold_since": "2026-10-08"
             }
           ],
           "image": "images/tilia--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/tilia-100-ml"
+          "product_url": "https://mazaya.eg/en/tilia-30-ml"
         },
         {
           "name": "Mohamed Mohie",
@@ -179876,6 +179913,13 @@
               "kind": "full",
               "ml": 75,
               "price": 4785,
+              "first_seen": "2026-10-08",
+              "sold_since": "2026-10-08"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 5900,
               "first_seen": "2026-10-08",
               "sold_since": "2026-10-08"
             }
