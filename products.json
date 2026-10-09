@@ -3794,7 +3794,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 555,
-              "first_seen": "2026-09-08"
+              "first_seen": "2026-09-08",
+              "sold_since": "2026-10-09"
             }
           ],
           "image": "images/acqua-di-gi-profondo--mo-shawky.jpg",
@@ -11516,7 +11517,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 240,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-10-09"
             }
           ],
           "image": "images/aquatica--mo-shawky.jpg",
@@ -18208,11 +18210,12 @@
               "kind": "decant",
               "ml": 10,
               "price": 235,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-10-09"
             }
           ],
           "image": "images/aura-c35--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/assaf-aura-35-10ml-461"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/assaf-aura-c35-5ml-462"
         },
         {
           "name": "og-perfume",
@@ -42295,11 +42298,12 @@
               "kind": "decant",
               "ml": 10,
               "price": 500,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-10-09"
             }
           ],
           "image": "images/devotion-edp-intense-women--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/dolcegabbana-devotion-edp-intense-women-10ml-326"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/d-g-devotion-edp-intense-women-5ml-327"
         },
         {
           "name": "mazaya",
@@ -45051,7 +45055,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 720,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-10-09"
             }
           ],
           "image": "images/donna-born-in-roma-ivory-women--mo-shawky.jpg",
@@ -45258,13 +45263,20 @@
           "offers": [
             {
               "kind": "decant",
+              "ml": 5,
+              "price": 115,
+              "first_seen": "2026-10-09"
+            },
+            {
+              "kind": "decant",
               "ml": 10,
               "price": 195,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-10-09"
             }
           ],
           "image": "images/drakkar-noir--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/guy-laroche-drakkar-noir-10ml-71"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/guy-laroche-drakkar-noir-5ml-80"
         },
         {
           "name": "eldesoki-fragrances",
@@ -48520,7 +48532,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 330,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-10-09"
             }
           ],
           "image": "images/edp-women--mo-shawky.jpg",
@@ -51160,7 +51173,7 @@
             }
           ],
           "image": "images/encre-indigo--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lalique-encre-indigo-5ml-511"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lalique-encre-indigo-3ml-515"
         }
       ],
       "_hero_source": "MO Shawky",
@@ -52442,13 +52455,20 @@
           "offers": [
             {
               "kind": "decant",
+              "ml": 5,
+              "price": 250,
+              "first_seen": "2026-10-09"
+            },
+            {
+              "kind": "decant",
               "ml": 10,
               "price": 415,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-10-09"
             }
           ],
           "image": "images/eros-eau-de-toilette--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/versace-eros-edt-10ml-283"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/versace-eros-edt-5ml-284"
         },
         {
           "name": "eldesoki-fragrances",
@@ -57505,7 +57525,7 @@
             }
           ],
           "image": "images/fig-infusion--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-fig-infusion-5ml-474"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-fig-infusion-3ml-475"
         },
         {
           "name": "Hossam ElDeen Gamal",
@@ -88945,13 +88965,20 @@
           "offers": [
             {
               "kind": "decant",
+              "ml": 5,
+              "price": 270,
+              "first_seen": "2026-10-09"
+            },
+            {
+              "kind": "decant",
               "ml": 10,
               "price": 470,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-10-09"
             }
           ],
           "image": "images/l-homme-id-al-l-intense--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/guerlain-l-homme-ideal-l-intense-10ml-334"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/guerlain-l-homme-ideal-l-intense-5ml-335"
         },
         {
           "name": "feel22",
@@ -89453,7 +89480,7 @@
             }
           ],
           "image": "images/l-instant-de-guerlain-edp-women--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/guerlain-l-instant-de-guerlain-edp-women-5ml-339"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/guerlain-linstant-de-guerlain-edp-10ml-338"
         }
       ],
       "_hero_source": "MO Shawky",
@@ -89585,11 +89612,12 @@
               "kind": "decant",
               "ml": 10,
               "price": 635,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-10-09"
             }
           ],
           "image": "images/l-interdit-edp-women--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/givenchy-linterdit-edp-women-5ml-320"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/givenchy-l-interdit-edp-women-3ml-434"
         },
         {
           "name": "Ahmed Abdel Kareem",
@@ -90214,7 +90242,7 @@
             }
           ],
           "image": "images/la-femme-absolu--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/prada-la-femme-absolu-5ml-400"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/prada-la-femme-absolu-3ml-445"
         }
       ],
       "_hero_source": "MO Shawky",
@@ -92393,11 +92421,12 @@
               "kind": "decant",
               "ml": 10,
               "price": 685,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-10-09"
             }
           ],
           "image": "images/la-vie-est-belle-l-elixir-women--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lancome-la-vie-est-belle-lelixir-women-10ml-384"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/lancome-la-vie-est-belle-l-elixir-women-3ml-441"
         },
         {
           "name": "Ahmed Abdel Kareem",
@@ -93941,7 +93970,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 575,
-              "first_seen": "2026-09-09"
+              "first_seen": "2026-09-09",
+              "sold_since": "2026-10-09"
             }
           ],
           "image": "images/le-beau-le-parfum--mo-shawky.jpg",
@@ -96202,13 +96232,20 @@
           "offers": [
             {
               "kind": "decant",
+              "ml": 5,
+              "price": 150,
+              "first_seen": "2026-10-09"
+            },
+            {
+              "kind": "decant",
               "ml": 10,
               "price": 235,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-10-09"
             }
           ],
           "image": "images/legend-eau-de-toilette--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/mont-blanc-legend-edt-10ml-270"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/mont-blanc-legend-edt-5ml-271"
         }
       ],
       "_hero_source": "feel22",
@@ -101646,7 +101683,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 430,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-10-09"
             }
           ],
           "image": "images/man-wood-neroli--mo-shawky.jpg",
@@ -113554,7 +113592,7 @@
             }
           ],
           "image": "images/nice-bergamote--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-nice-bergamote-5ml-486"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-nice-bergamote-3ml-485"
         },
         {
           "name": "Hossam ElDeen Gamal",
@@ -126219,7 +126257,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 690,
-              "first_seen": "2026-08-17"
+              "first_seen": "2026-08-17",
+              "sold_since": "2026-10-09"
             }
           ],
           "image": "images/paradigme-le-parfum--mo-shawky.jpg",
@@ -131196,7 +131235,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 680,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-10-09"
             }
           ],
           "image": "images/power-of-you-women--mo-shawky.jpg",
@@ -132122,13 +132162,20 @@
           "offers": [
             {
               "kind": "decant",
+              "ml": 5,
+              "price": 200,
+              "first_seen": "2026-10-09"
+            },
+            {
+              "kind": "decant",
               "ml": 10,
               "price": 300,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-10-09"
             }
           ],
           "image": "images/private-mercedes-benz--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/mercedes-benz-private-10ml-206"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/mercedes-benz-private-5ml-207"
         }
       ],
       "_hero_source": "MO Shawky",
@@ -173999,7 +174046,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 300,
-              "first_seen": "2026-09-17"
+              "first_seen": "2026-09-17",
+              "sold_since": "2026-10-09"
             }
           ],
           "image": "images/wave--mo-shawky.jpg",
@@ -177714,7 +177762,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 630,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-10-09"
             }
           ],
           "image": "images/y-edp-intense--mo-shawky.jpg",
@@ -206397,7 +206446,7 @@
             }
           ],
           "image": "images/212-vip-black-elixir--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ch-212-vip-black-elixir-3ml-557"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ch-212-vip-black-elixir-5ml-556"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -206436,7 +206485,7 @@
             }
           ],
           "image": "images/1-million-black--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/rabanne-1-million-black-5ml-564"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/rabanne-1-million-black-3ml-565"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -206475,7 +206524,7 @@
             }
           ],
           "image": "images/good-girl-jasmine-absolute--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ch-good-girl-jasmine-absolute-3ml-559"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ch-good-girl-jasmine-absolute-5ml-558"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -206894,7 +206943,7 @@
             }
           ],
           "image": "images/man-bright--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/mercedes-benz-man-bright-5ml-570"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/mercedes-benz-man-bright-3ml-571"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -208820,7 +208869,7 @@
             }
           ],
           "image": "images/eld-o-experimentum-crucis--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/etat-libre-d-orange-experimentum-crucis-10ml-551"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/etat-libre-d-orange-experimentum-crucis-5ml-552"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -211522,6 +211571,33 @@
         }
       ],
       "_hero_source": "perfuzone"
+    },
+    {
+      "id": "giorgio-armani-si-passione-edp",
+      "name_ar": "",
+      "name_en": "Giorgio Armani(Si passione) EDP",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/giorgio-armani-si-passione-edp.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 250,
+              "first_seen": "2026-10-09"
+            }
+          ],
+          "image": "images/giorgio-armani-si-passione-edp--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/giorgio-armani-si-passione-edp-3ml-15"
+        }
+      ],
+      "_hero_source": "MO Shawky"
     }
   ]
 }
