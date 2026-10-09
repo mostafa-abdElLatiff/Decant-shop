@@ -28709,7 +28709,7 @@
               "price": 130,
               "first_seen": "2026-07-19",
               "prev_price": 195,
-              "sold_since": "2026-10-08"
+              "sold_since": "2026-10-09"
             },
             {
               "kind": "decant",
@@ -28730,7 +28730,7 @@
               "ml": 100,
               "price": 1550,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-10-08"
+              "sold_since": "2026-10-09"
             },
             {
               "kind": "full",
@@ -39563,13 +39563,6 @@
               "ml": 10,
               "price": 150,
               "first_seen": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 30,
-              "price": 375,
-              "first_seen": "2026-10-02",
-              "sold_since": "2026-10-02"
             },
             {
               "kind": "leftover",
@@ -59897,7 +59890,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 350,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-09"
             },
             {
               "kind": "leftover",
@@ -60301,14 +60295,14 @@
               "price": 140,
               "first_seen": "2026-07-19",
               "prev_price": 195,
-              "sold_since": "2026-10-08"
+              "sold_since": "2026-10-09"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 525,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-10-08"
+              "sold_since": "2026-10-09"
             },
             {
               "kind": "leftover",
@@ -60322,7 +60316,7 @@
               "ml": 100,
               "price": 1550,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-10-08"
+              "sold_since": "2026-10-09"
             },
             {
               "kind": "full",
@@ -86690,13 +86684,6 @@
             },
             {
               "kind": "leftover",
-              "ml": 25,
-              "price": 345,
-              "first_seen": "2026-10-02",
-              "sold_since": "2026-10-02"
-            },
-            {
-              "kind": "leftover",
               "ml": 30,
               "price": 360,
               "first_seen": "2026-10-04",
@@ -86706,8 +86693,8 @@
               "kind": "leftover",
               "ml": 45,
               "price": 540,
-              "first_seen": "2026-10-02",
-              "sold_since": "2026-10-02"
+              "first_seen": "2026-10-09",
+              "sold_since": "2026-10-09"
             },
             {
               "kind": "leftover",
@@ -118763,7 +118750,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1250,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-09"
             }
           ],
           "image": "images/odyssey-homme-white-edition--og-perfume.jpg",
@@ -135852,7 +135840,15 @@
               "kind": "decant",
               "ml": 30,
               "price": 570,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-09"
+            },
+            {
+              "kind": "leftover",
+              "ml": 30,
+              "price": 570,
+              "first_seen": "2026-10-09",
+              "sold_since": "2026-10-09"
             },
             {
               "kind": "leftover",
@@ -156943,7 +156939,7 @@
               "price": 220,
               "first_seen": "2026-07-19",
               "prev_price": 225,
-              "sold_since": "2026-10-08"
+              "sold_since": "2026-10-09"
             },
             {
               "kind": "decant",
@@ -156956,22 +156952,22 @@
               "kind": "leftover",
               "ml": 50,
               "price": 975,
-              "first_seen": "2026-10-02",
-              "sold_since": "2026-10-02"
+              "first_seen": "2026-10-09",
+              "sold_since": "2026-10-09"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 2200,
-              "first_seen": "2026-10-02",
-              "sold_since": "2026-10-02"
+              "first_seen": "2026-10-09",
+              "sold_since": "2026-10-09"
             },
             {
               "kind": "full",
               "ml": 150,
               "price": 2900,
               "first_seen": "2026-07-31",
-              "sold_since": "2026-10-08"
+              "sold_since": "2026-10-09"
             }
           ],
           "image": "images/supremacy-not-only-intense--og-perfume.jpg",
@@ -157286,7 +157282,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1150,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-09"
             }
           ],
           "image": "images/sweet-cherry-kiss--og-perfume.jpg",
@@ -208604,6 +208601,32 @@
           ],
           "image": "images/hawas-ice-freeze--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/hawas-ice-freeze"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 210,
+              "first_seen": "2026-10-09"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 400,
+              "first_seen": "2026-10-09"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1800,
+              "first_seen": "2026-10-09"
+            }
+          ],
+          "image": "images/hawas-ice-freeze--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/hawas-ice-freeze"
         }
       ],
       "_hero_source": "emaratiscents"
