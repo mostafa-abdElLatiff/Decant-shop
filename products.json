@@ -23880,6 +23880,26 @@
           ],
           "image": "images/black-xs-eau-de-toilette--abo-anas-sayed.jpg",
           "product_url": "https://www.facebook.com/groups/756846691875916/posts/2124739308419974"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 300,
+              "first_seen": "2026-10-09"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 550,
+              "first_seen": "2026-10-09"
+            }
+          ],
+          "image": "images/black-xs-eau-de-toilette--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/paco-rabanne-black-xs"
         }
       ],
       "_hero_source": "feel22",
@@ -24035,8 +24055,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 1400,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/blanche-bete--perfuzone.jpg",
@@ -157550,8 +157569,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 1300,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-22"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/symphonium-parfum--perfuzone.jpg",
@@ -211446,6 +211464,39 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "1-million-prive",
+      "name_ar": "1 Million Prive",
+      "name_en": "1 Million Prive",
+      "brand": "Paco Rabanne",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/1-million-prive.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 500,
+              "first_seen": "2026-10-09"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 900,
+              "first_seen": "2026-10-09"
+            }
+          ],
+          "image": "images/1-million-prive--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/paco-rabanne-1-million-prive"
+        }
+      ],
+      "_hero_source": "perfuzone"
     }
   ]
 }
