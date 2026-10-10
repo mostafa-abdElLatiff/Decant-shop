@@ -53526,7 +53526,8 @@
               "kind": "full",
               "ml": 100,
               "price": 6460,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-10-10"
             }
           ],
           "image": "images/essence-of-casablanca-1404--mazaya.jpg",
@@ -93796,7 +93797,8 @@
               "kind": "full",
               "ml": 125,
               "price": 21250,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-10-10"
             }
           ],
           "image": "images/layton--mazaya.jpg",
@@ -167022,6 +167024,7 @@
               "ml": 50,
               "price": 7000,
               "first_seen": "2026-10-10",
+              "prev_price": 7200,
               "sold_since": "2026-10-10"
             },
             {
@@ -167029,7 +167032,8 @@
               "ml": 100,
               "price": 8000,
               "first_seen": "2026-09-14",
-              "sold_since": "2026-10-09"
+              "prev_price": 8800,
+              "sold_since": "2026-10-10"
             }
           ],
           "image": "images/uomo-intense--mazaya.jpg",
@@ -177597,25 +177601,24 @@
               "kind": "full",
               "ml": 60,
               "price": 7000,
-              "first_seen": "2026-08-23",
-              "sold_since": "2026-10-10"
+              "first_seen": "2026-08-23"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 8700,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-10-10"
+              "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 150,
               "price": 8700,
-              "first_seen": "2026-09-20"
+              "first_seen": "2026-09-20",
+              "sold_since": "2026-10-10"
             }
           ],
           "image": "images/y-eau-de-parfum--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/y-edp-refill-150ml"
+          "product_url": "https://mazaya.eg/en/yves-saint-laurent-y-edp123455-html12344"
         },
         {
           "name": "faces",
@@ -209091,7 +209094,8 @@
               "kind": "full",
               "ml": 100,
               "price": 27300,
-              "first_seen": "2026-09-27"
+              "first_seen": "2026-09-27",
+              "sold_since": "2026-10-10"
             }
           ],
           "image": "images/sequence-essence-de-parfum--mazaya.jpg",
