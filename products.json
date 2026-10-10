@@ -94032,13 +94032,15 @@
               "kind": "decant",
               "ml": 5,
               "price": 390,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-10-10"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 620,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-10-10"
             },
             {
               "kind": "full",
@@ -158683,7 +158685,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1600,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-10-10"
             }
           ],
           "image": "images/teriaq-intense--sniffz.jpg",
@@ -210404,7 +210407,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 300,
-              "first_seen": "2026-09-30"
+              "first_seen": "2026-09-30",
+              "sold_since": "2026-10-10"
             }
           ],
           "image": "images/ibraq-diamond-collection-10ml-travel-size--sniffz.jpg",
