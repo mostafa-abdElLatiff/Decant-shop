@@ -11631,8 +11631,7 @@
               "kind": "leftover",
               "ml": 45,
               "price": 675,
-              "first_seen": "2026-08-10",
-              "sold_since": "2026-10-08"
+              "first_seen": "2026-08-10"
             },
             {
               "kind": "full",
@@ -17383,9 +17382,8 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 925,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "price": 950,
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -17762,6 +17760,12 @@
               "ml": 10,
               "price": 100,
               "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 375,
+              "first_seen": "2026-10-10"
             },
             {
               "kind": "full",
@@ -20179,6 +20183,13 @@
               "first_seen": "2026-08-31"
             },
             {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 700,
+              "first_seen": "2026-10-10",
+              "sold_since": "2026-10-10"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1400,
@@ -20355,8 +20366,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 575,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-26"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -38589,8 +38599,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 700,
-              "first_seen": "2026-08-13",
-              "sold_since": "2026-08-13"
+              "first_seen": "2026-08-13"
             },
             {
               "kind": "full",
@@ -55828,8 +55837,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 205,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
@@ -55849,8 +55857,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/fahad-gaze--og-perfume.jpg",
@@ -71770,6 +71777,12 @@
               "price": 850,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 1375,
+              "first_seen": "2026-10-10"
             },
             {
               "kind": "full",
@@ -92799,8 +92812,7 @@
               "kind": "leftover",
               "ml": 60,
               "price": 880,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -100201,8 +100213,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 1050,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -103024,23 +103035,27 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "price": 190,
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 525,
+              "first_seen": "2026-10-10"
             },
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 675,
+              "price": 800,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 1350,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "price": 1600,
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/marwa--og-perfume.jpg",
@@ -127516,8 +127531,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 1025,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -135940,8 +135954,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 220,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-15"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
@@ -135968,8 +135981,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1900,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-13"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/ramad-earthy--og-perfume.jpg",
@@ -136108,14 +136120,16 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 220,
-              "first_seen": "2026-07-19"
+              "price": 205,
+              "first_seen": "2026-07-19",
+              "prev_price": 220
             },
             {
               "kind": "decant",
               "ml": 30,
-              "price": 625,
+              "price": 600,
               "first_seen": "2026-07-19",
+              "prev_price": 625,
               "sold_since": "2026-08-10"
             },
             {
@@ -136127,8 +136141,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1900,
-              "first_seen": "2026-07-19"
+              "price": 1750,
+              "first_seen": "2026-07-19",
+              "prev_price": 1900
             }
           ],
           "image": "images/ramad-oriental--og-perfume.jpg",
@@ -136925,8 +136940,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 925,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-02"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -161977,9 +161991,9 @@
             {
               "kind": "leftover",
               "ml": 30,
-              "price": 700,
+              "price": 600,
               "first_seen": "2026-07-30",
-              "sold_since": "2026-07-30"
+              "prev_price": 700
             },
             {
               "kind": "leftover",
@@ -161992,8 +162006,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 1000,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-13"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -165880,15 +165893,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 185,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 525,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-05"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -196776,8 +196787,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 1050,
-              "first_seen": "2026-09-02",
-              "sold_since": "2026-09-02"
+              "first_seen": "2026-09-02"
             },
             {
               "kind": "full",
@@ -208771,6 +208781,13 @@
               "sold_since": "2026-10-09"
             },
             {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 900,
+              "first_seen": "2026-10-10",
+              "sold_since": "2026-10-10"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1800,
@@ -210826,6 +210843,12 @@
               "sold_since": "2026-10-02"
             },
             {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 925,
+              "first_seen": "2026-10-10"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1850,
@@ -210864,6 +210887,12 @@
               "price": 600,
               "first_seen": "2026-10-02",
               "sold_since": "2026-10-02"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 925,
+              "first_seen": "2026-10-10"
             },
             {
               "kind": "full",
