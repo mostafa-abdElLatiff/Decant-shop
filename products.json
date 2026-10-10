@@ -16632,12 +16632,17 @@
               "kind": "decant",
               "ml": 10,
               "price": 140,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-26"
+              "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 675,
+              "first_seen": "2026-10-10"
             }
           ],
           "image": "images/asad-zanzibar--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/asad-zanzibar-10ml%d8%a7%d8%b3%d8%af-%d8%b2%d9%86%d8%b2%d8%a8%d8%a7%d8%b1-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/asad-zanzibar-50ml%d8%a7%d8%b3%d8%af-%d8%b2%d9%86%d8%b2%d8%a8%d8%a7%d8%b1-%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d8%a8%d8%a7%d8%aa%d8%b4-%d9%82%d8%af%d9%8a%d9%85/"
         },
         {
           "name": "emaratiscents",
@@ -109221,7 +109226,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1875,
-              "first_seen": "2026-08-18"
+              "first_seen": "2026-08-18",
+              "sold_since": "2026-10-10"
             }
           ],
           "image": "images/musamam-black-intense--eldesoki-fragrances.jpg",
@@ -208873,14 +208879,16 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 630,
-              "first_seen": "2026-09-26"
+              "price": 600,
+              "first_seen": "2026-09-26",
+              "prev_price": 630
             },
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 3275,
-              "first_seen": "2026-09-26"
+              "price": 3225,
+              "first_seen": "2026-09-26",
+              "prev_price": 3275
             }
           ],
           "image": "images/ysl-iced-cologne--eldesoki-fragrances.jpg",
