@@ -82247,13 +82247,14 @@
             {
               "kind": "decant",
               "ml": 5,
-              "price": 170,
-              "first_seen": "2026-07-19"
+              "price": 160,
+              "first_seen": "2026-07-19",
+              "prev_price": 170
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 230,
+              "price": 250,
               "first_seen": "2026-07-19"
             }
           ],
@@ -103009,7 +103010,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 270,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-10"
             }
           ],
           "image": "images/marwa--perfuzone.jpg",
@@ -165097,7 +165099,8 @@
               "kind": "decant",
               "ml": 5,
               "price": 180,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-10"
             },
             {
               "kind": "decant",
