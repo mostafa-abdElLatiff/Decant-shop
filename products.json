@@ -35986,8 +35986,9 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 8800,
+              "price": 7200,
               "first_seen": "2026-07-23",
+              "prev_price": 8800,
               "sold_since": "2026-10-10"
             },
             {
@@ -36000,8 +36001,9 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 9800,
+              "price": 8800,
               "first_seen": "2026-07-23",
+              "prev_price": 9800,
               "sold_since": "2026-10-10"
             }
           ],
@@ -125047,8 +125049,7 @@
               "kind": "full",
               "ml": 100,
               "price": 27300,
-              "first_seen": "2026-07-29",
-              "sold_since": "2026-10-10"
+              "first_seen": "2026-07-29"
             }
           ],
           "image": "images/outlands-essence-de-parfum--mazaya.jpg",
