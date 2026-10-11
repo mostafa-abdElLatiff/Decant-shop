@@ -875,6 +875,13 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 100,
+              "price": 5300,
+              "first_seen": "2026-10-11",
+              "sold_since": "2026-10-11"
+            },
+            {
+              "kind": "full",
               "ml": 200,
               "price": 6000,
               "first_seen": "2026-10-11",
@@ -108414,6 +108421,13 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 4490,
+              "first_seen": "2026-10-11",
+              "sold_since": "2026-10-11"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 5795,
               "first_seen": "2026-10-10",
@@ -155045,6 +155059,13 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 30,
+              "price": 3700,
+              "first_seen": "2026-10-11",
+              "sold_since": "2026-10-11"
+            },
+            {
+              "kind": "full",
               "ml": 50,
               "price": 5600,
               "first_seen": "2026-10-05",
@@ -155054,11 +155075,12 @@
               "kind": "full",
               "ml": 100,
               "price": 7200,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-10-11"
             }
           ],
           "image": "images/stronger-with-you-intensely--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/emporio-armani-stronger-with-you-intensely-edp123455-html12"
+          "product_url": "https://mazaya.eg/en/emporio-armani-stronger-with-you-intensely-30ml"
         },
         {
           "name": "faces",
@@ -167093,6 +167115,7 @@
               "ml": 50,
               "price": 7000,
               "first_seen": "2026-10-10",
+              "prev_price": 7200,
               "sold_since": "2026-10-10"
             },
             {
@@ -167100,7 +167123,8 @@
               "ml": 100,
               "price": 8000,
               "first_seen": "2026-09-14",
-              "sold_since": "2026-10-10"
+              "prev_price": 8800,
+              "sold_since": "2026-10-11"
             }
           ],
           "image": "images/uomo-intense--mazaya.jpg",
