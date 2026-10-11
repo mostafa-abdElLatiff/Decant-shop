@@ -16455,7 +16455,8 @@
               "kind": "decant",
               "ml": 5,
               "price": 80,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-10-11"
             },
             {
               "kind": "decant",
@@ -97943,25 +97944,29 @@
               "kind": "decant",
               "ml": 5,
               "price": 110,
-              "first_seen": "2026-09-29"
+              "first_seen": "2026-09-29",
+              "sold_since": "2026-10-11"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-09-29"
+              "first_seen": "2026-09-29",
+              "sold_since": "2026-10-11"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 575,
-              "first_seen": "2026-09-29"
+              "first_seen": "2026-09-29",
+              "sold_since": "2026-10-11"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-09-29"
+              "first_seen": "2026-09-29",
+              "sold_since": "2026-10-11"
             }
           ],
           "image": "images/liquid-brun--roseperfume.jpg",
@@ -149958,8 +149963,7 @@
               "kind": "full",
               "ml": 100,
               "price": 650,
-              "first_seen": "2026-08-13",
-              "sold_since": "2026-09-16"
+              "first_seen": "2026-08-13"
             }
           ],
           "image": "images/silk-musk--roseperfume.jpg",
@@ -197202,7 +197206,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1850,
-              "first_seen": "2026-09-03"
+              "first_seen": "2026-09-03",
+              "sold_since": "2026-10-11"
             }
           ],
           "image": "images/faris-al-arab-maison-asrar--roseperfume.jpg",
