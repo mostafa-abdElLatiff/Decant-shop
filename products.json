@@ -13742,8 +13742,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1575,
-              "first_seen": "2026-09-12"
+              "price": 1550,
+              "first_seen": "2026-09-12",
+              "prev_price": 1575
             }
           ],
           "image": "images/aristo--eldesoki-fragrances.jpg",
@@ -58680,8 +58681,7 @@
               "kind": "full",
               "ml": 100,
               "price": 750,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-02"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/fortnight-for-men--eldesoki-fragrances.jpg",
@@ -108821,6 +108821,20 @@
           ],
           "image": "images/muharib-hero--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/muharib-hero-100ml-eau-de-parfum-le-falcone-perfumes"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 85,
+              "price": 1275,
+              "first_seen": "2026-10-11"
+            }
+          ],
+          "image": "images/muharib-hero--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/muharib-hero-85ml-le-falcone%d9%85%d8%ad%d8%a7%d8%b1%d8%a8-%d9%87%d9%8a%d8%b1%d9%88-%d9%a8%d9%a5%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%84%d9%88-%d9%81%d8%a7%d9%84%d9%83%d9%88%d9%86/"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -136108,9 +136122,8 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1575,
-              "first_seen": "2026-09-12",
-              "sold_since": "2026-10-08"
+              "price": 1750,
+              "first_seen": "2026-09-12"
             }
           ],
           "image": "images/ramad-earthy--eldesoki-fragrances.jpg",
@@ -158820,7 +158833,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-09-20"
+              "first_seen": "2026-09-20",
+              "sold_since": "2026-10-11"
             },
             {
               "kind": "leftover",
@@ -211970,6 +211984,33 @@
         }
       ],
       "_hero_source": "og-perfume"
+    },
+    {
+      "id": "toffe-vanilla-camara",
+      "name_ar": "توفي فانيلا ١٠٠ملي من كمارا",
+      "name_en": "Toffe Vanilla Camara",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/toffe-vanilla-camara.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 700,
+              "first_seen": "2026-10-11"
+            }
+          ],
+          "image": "images/toffe-vanilla-camara--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/toffe-vanilla-100ml-camara%d8%aa%d9%88%d9%81%d9%8a-%d9%81%d8%a7%d9%86%d9%8a%d9%84%d8%a7-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%83%d9%85%d8%a7%d8%b1%d8%a7/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
