@@ -16658,8 +16658,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1196,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-10-08"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/asad-elixir-lattafa-perfumes--mazaya.jpg",
@@ -19849,10 +19848,17 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 6700,
+              "first_seen": "2026-10-12",
+              "sold_since": "2026-10-12"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 7600,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "first_seen": "2026-10-12",
+              "sold_since": "2026-10-12"
             }
           ],
           "image": "images/bad-boy-cobalt-edp--mazaya.jpg",
@@ -20142,7 +20148,8 @@
               "ml": 100,
               "price": 6600,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "prev_price": 7600,
+              "sold_since": "2026-10-12"
             }
           ],
           "image": "images/bad-boy-le-parfum-edp--mazaya.jpg",
@@ -27678,8 +27685,7 @@
               "kind": "full",
               "ml": 100,
               "price": 8800,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-09-30"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/born-in-roma-uomo-extradose--mazaya.jpg",
@@ -28103,6 +28109,21 @@
           ],
           "image": "images/in-motion-eau-de-toilette-100ml--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/hugo-boss-in-motion-eau-de-toilette-100ml-eaudetoilette-014815594356.html"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3500,
+              "first_seen": "2026-10-12",
+              "sold_since": "2026-10-12"
+            }
+          ],
+          "image": "images/boss-in-motion-eau-de-toilette--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/boss-in-motion-eau-de-toilette-for-men-100ml"
         }
       ],
       "_hero_source": "feel22",
@@ -28147,13 +28168,21 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 6100,
+              "first_seen": "2026-10-12",
+              "sold_since": "2026-10-12"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 8200,
-              "first_seen": "2026-08-19"
+              "first_seen": "2026-08-19",
+              "sold_since": "2026-10-12"
             }
           ],
           "image": "images/boss-the-scent-intense--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/boss-the-scent-intense-100-ml"
+          "product_url": "https://mazaya.eg/en/boss-the-scent-intense-for-him-eau-de-parfum-50ml"
         },
         {
           "name": "Ahmed Abdel Kareem",
@@ -28303,6 +28332,21 @@
           ],
           "image": "images/bottled-eau-de-toilette--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/hugo-boss-boss-bottled-eau-de-parfum-PM_hugo_boss_Botteled_edp.html"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 5900,
+              "first_seen": "2026-10-12",
+              "sold_since": "2026-10-12"
+            }
+          ],
+          "image": "images/bottled-eau-de-toilette--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/boss-bottled-eau-de-parfum-for-men-50ml"
         }
       ],
       "_hero_source": "feel22",
@@ -40597,6 +40641,21 @@
           ],
           "image": "images/dark-blue-eau-de-toilette--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/hugo-boss-dark-blue-eau-de-toilette-for-men-75ml"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 2900,
+              "first_seen": "2026-10-12",
+              "sold_since": "2026-10-12"
+            }
+          ],
+          "image": "images/dark-blue-eau-de-toilette--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/hugo-dark-blue-eau-de-toilette-for-men-75ml"
         }
       ],
       "_hero_source": "feel22",
@@ -51732,6 +51791,21 @@
           ],
           "image": "images/energise-eau-de-toilette--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/hugo-boss-energise-for-men-eau-de-toilette"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 3600,
+              "first_seen": "2026-10-12",
+              "sold_since": "2026-10-12"
+            }
+          ],
+          "image": "images/energise-eau-de-toilette--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/hugo-energise-eau-de-toilette-for-men-75ml"
         }
       ],
       "_hero_source": "feel22",
@@ -52448,7 +52522,8 @@
               "kind": "full",
               "ml": 100,
               "price": 15950,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-10-12"
             }
           ],
           "image": "images/erba-pura--mazaya.jpg",
@@ -93891,7 +93966,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1683,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-10-12"
             }
           ],
           "image": "images/lattafa-pride-spray-ishq-al-shuyukh-silver--mazaya.jpg",
@@ -111645,8 +111721,7 @@
               "kind": "full",
               "ml": 100,
               "price": 9700,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-10-08"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/myslf-l-absolu--mazaya.jpg",
@@ -155624,8 +155699,7 @@
               "kind": "full",
               "ml": 50,
               "price": 5700,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
@@ -184516,7 +184590,7 @@
       "name_en": "Devotion Pour Homme",
       "name_ar": "",
       "brand": "Dolce & Gabbana",
-      "image": "images/devotion-pour-homme--ahmed-abdel-kareem.jpg",
+      "image": "images/devotion-pour-homme.jpg",
       "accords": [],
       "stores": [
         {
@@ -184532,9 +184606,24 @@
           ],
           "image": "images/devotion-pour-homme--ahmed-abdel-kareem.jpg",
           "product_url": "https://www.facebook.com/groups/original.perfume.market/posts/27802400792778912"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 9900,
+              "first_seen": "2026-10-12"
+            }
+          ],
+          "image": "images/devotion-pour-homme--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/devotion-pour-homme-parfum-100ml"
         }
       ],
-      "category": "designer"
+      "category": "designer",
+      "_hero_source": "mazaya"
     },
     {
       "id": "si-passione",
@@ -213216,6 +213305,298 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "k-by-eau-de-parfum",
+      "name_ar": "K by Eau de Parfum",
+      "name_en": "K by Eau de Parfum",
+      "brand": "Dolce&Gabbana",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/k-by-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 10800,
+              "first_seen": "2026-10-12",
+              "prev_price": 12800,
+              "sold_since": "2026-10-12"
+            }
+          ],
+          "image": "images/k-by-eau-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/k-by-eau-de-toilette-for-men-200ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "ch-men-limited-edition-2026-eau-de-parfum",
+      "name_ar": "CH Men Limited Edition 2026 Eau de Parfum",
+      "name_en": "CH Men Limited Edition 2026 Eau de Parfum",
+      "brand": "Carolina Herrera",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/ch-men-limited-edition-2026-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 7900,
+              "first_seen": "2026-10-12"
+            }
+          ],
+          "image": "images/ch-men-limited-edition-2026-eau-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/ch-men-limited-edition-2026-eau-de-parfum-100ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "ch-men-limited-edition-eau-de-parfum",
+      "name_ar": "CH Men Limited Edition Eau de Parfum",
+      "name_en": "CH Men Limited Edition Eau de Parfum",
+      "brand": "Carolina Herrera",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/ch-men-limited-edition-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 7200,
+              "first_seen": "2026-10-12"
+            }
+          ],
+          "image": "images/ch-men-limited-edition-eau-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/ch-men-limited-edition-eau-de-parfum-100ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "hugo-x-krink-eau-de-parfum",
+      "name_ar": "HUGO x Krink Eau de Parfum",
+      "name_en": "HUGO x Krink Eau de Parfum",
+      "brand": "Boss",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/hugo-x-krink-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 4700,
+              "first_seen": "2026-10-12"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 6100,
+              "first_seen": "2026-10-12"
+            }
+          ],
+          "image": "images/hugo-x-krink-eau-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/hugo-x-krink-eau-de-parfum-for-men"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "light-blue-pour-homme-eau-de-toilette",
+      "name_ar": "Light Blue pour Homme Eau de Toilette",
+      "name_en": "Light Blue pour Homme Eau de Toilette",
+      "brand": "Dolce&Gabbana",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/light-blue-pour-homme-eau-de-toilette.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 7800,
+              "first_seen": "2026-10-12",
+              "sold_since": "2026-10-12"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 11300,
+              "first_seen": "2026-10-12",
+              "sold_since": "2026-10-12"
+            }
+          ],
+          "image": "images/light-blue-pour-homme-eau-de-toilette--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/light-blue-pour-homme-eau-de-toilette"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "the-one-pour-homme-parfum",
+      "name_ar": "The One pour Homme Parfum",
+      "name_en": "The One pour Homme Parfum",
+      "brand": "Dolce&Gabbana",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/the-one-pour-homme-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 6200,
+              "first_seen": "2026-10-12",
+              "prev_price": 6900,
+              "sold_since": "2026-10-12"
+            }
+          ],
+          "image": "images/the-one-pour-homme-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/the-one-pour-homme-eau-de-parfum-50ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "ch-men-priv-eau-de-toilette",
+      "name_ar": "CH Men Privé Eau de Toilette",
+      "name_en": "CH Men Privé Eau de Toilette",
+      "brand": "Carolina Herrera",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/ch-men-priv-eau-de-toilette.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1950,
+              "first_seen": "2026-10-12",
+              "sold_since": "2026-10-12"
+            }
+          ],
+          "image": "images/ch-men-priv-eau-de-toilette--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/ch-men-prive-eau-de-toilette-100ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "bottled-absolu-parfum-intense",
+      "name_ar": "Bottled Absolu Parfum Intense",
+      "name_en": "Bottled Absolu Parfum Intense",
+      "brand": "Boss",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/bottled-absolu-parfum-intense.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 6700,
+              "first_seen": "2026-10-12",
+              "sold_since": "2026-10-12"
+            }
+          ],
+          "image": "images/bottled-absolu-parfum-intense--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/boss-bottled-absolu-parfum-intense-for-men-50ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "bottled-eau-de-parfum-refill",
+      "name_ar": "Bottled Eau de Parfum Refill",
+      "name_en": "Bottled Eau de Parfum Refill",
+      "brand": "Boss",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/bottled-eau-de-parfum-refill.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 9900,
+              "first_seen": "2026-10-12",
+              "sold_since": "2026-10-12"
+            }
+          ],
+          "image": "images/bottled-eau-de-parfum-refill--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/boss-bottled-eau-de-parfum-refill-for-men-200ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "hugo-hugo-man-limited-edition-eau-de-parfum",
+      "name_ar": "HUGO Hugo Man Limited Edition Eau de Parfum",
+      "name_en": "HUGO Hugo Man Limited Edition Eau de Parfum",
+      "brand": "Boss",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/hugo-hugo-man-limited-edition-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 5700,
+              "first_seen": "2026-10-12",
+              "sold_since": "2026-10-12"
+            }
+          ],
+          "image": "images/hugo-hugo-man-limited-edition-eau-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/hugo-hugo-man-limited-edition-eau-de-parfum-125ml"
+        }
+      ],
+      "_hero_source": "mazaya"
     }
   ]
 }
