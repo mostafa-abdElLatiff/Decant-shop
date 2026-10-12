@@ -67728,7 +67728,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 250,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-12"
             }
           ],
           "image": "images/hawas--perfuzone.jpg",
@@ -95636,7 +95637,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 600,
-              "first_seen": "2026-10-11"
+              "first_seen": "2026-10-11",
+              "sold_since": "2026-10-12"
             }
           ],
           "image": "images/le-male-le-parfum-edp-intense--perfuzone.jpg",
@@ -103333,8 +103335,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 270,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-10"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/marwa--perfuzone.jpg",
@@ -111845,8 +111846,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 800,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/n-6--perfuzone.jpg",
@@ -113136,12 +113136,41 @@
           ],
           "image": "images/naxos--ahmed-abdel-kareem.jpg",
           "product_url": "https://www.facebook.com/groups/original.perfume.market/posts/27802400792778912"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 450,
+              "first_seen": "2026-10-12",
+              "sold_since": "2026-10-12"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 840,
+              "first_seen": "2026-10-12",
+              "sold_since": "2026-10-12"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 1400,
+              "first_seen": "2026-10-12"
+            }
+          ],
+          "image": "images/naxos--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/xerjoff-naxos-edp"
         }
       ],
       "category": "niche",
       "aliases": [
         "Naxos 1861"
-      ]
+      ],
+      "_hero_source": "perfuzone"
     },
     {
       "id": "naya-eau-de-parfum",
@@ -156923,15 +156952,13 @@
               "kind": "decant",
               "ml": 5,
               "price": 260,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-16"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 360,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-02"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/supremacy-collector-s-edition--perfuzone.jpg",
@@ -161169,6 +161196,27 @@
           ],
           "image": "images/the-most-wanted-eau-de-parfum-intense--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/most-wanted-edp-intense-50ml%d9%85%d9%88%d8%b3%d8%aa-%d9%88%d9%86%d8%aa%d8%af-%d8%a7%d8%b2%d8%a7%d8%b1%d9%88-%d8%a7%d9%88-%d8%af%d9%88-%d8%a8%d8%a7%d8%b1%d9%81%d9%85-%d8%a7%d9%86%d8%aa%d9%86%d8%b3/"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 390,
+              "first_seen": "2026-10-12"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 650,
+              "first_seen": "2026-10-12",
+              "sold_since": "2026-10-12"
+            }
+          ],
+          "image": "images/the-most-wanted-eau-de-parfum-intense--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/azzaro-the-most-wanted-intense-1"
         }
       ],
       "_hero_source": "sniffz",
@@ -178481,6 +178529,27 @@
           ],
           "image": "images/y-edp-intense--abo-anas-sayed.jpg",
           "product_url": "https://www.facebook.com/groups/756846691875916/posts/2130867611140477/"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 460,
+              "first_seen": "2026-10-12"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 750,
+              "first_seen": "2026-10-12",
+              "sold_since": "2026-10-12"
+            }
+          ],
+          "image": "images/y-edp-intense--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/ysly-edp-intense"
         }
       ],
       "_hero_source": "MO Shawky",
@@ -207402,13 +207471,13 @@
             {
               "kind": "decant",
               "ml": 5,
-              "price": 550,
+              "price": 600,
               "first_seen": "2026-09-22"
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 1000,
+              "price": 1100,
               "first_seen": "2026-09-22"
             }
           ],
