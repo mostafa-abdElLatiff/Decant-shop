@@ -21595,7 +21595,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1155,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-10-13"
             }
           ],
           "image": "images/baugsons-leave-your-fears-behind-edp--mazaya.jpg",
@@ -53035,17 +53036,15 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 3400,
+              "price": 5700,
               "first_seen": "2026-10-08",
-              "prev_price": 5700,
               "sold_since": "2026-10-08"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 7400,
-              "first_seen": "2026-09-17",
-              "sold_since": "2026-10-13"
+              "first_seen": "2026-09-17"
             },
             {
               "kind": "full",
@@ -53056,7 +53055,7 @@
             }
           ],
           "image": "images/eros-flame--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/eros-flame-edp-200-ml"
+          "product_url": "https://mazaya.eg/en/versace-eros-flame-eau-de-parfum-spray123455-html123"
         },
         {
           "name": "Abo Anas Sayed",
@@ -62936,9 +62935,29 @@
           ],
           "image": "images/gentleman-society-eau-de-parfum-sport--mohamed-mohie.jpg",
           "product_url": "https://www.facebook.com/groups/1321209448577265/posts/1965247204173483/"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 5955,
+              "first_seen": "2026-10-13"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 7940,
+              "first_seen": "2026-10-13"
+            }
+          ],
+          "image": "images/gentleman-society-eau-de-parfum-sport--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/gentleman-society-sport-eau-de-parfum-for-men"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "mazaya",
       "category": "designer"
     },
     {
@@ -77537,7 +77556,7 @@
               "ml": 100,
               "price": 32200,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "sold_since": "2026-10-13"
             }
           ],
           "image": "images/interlude-53-man--mazaya.jpg",
@@ -99630,7 +99649,8 @@
               "kind": "full",
               "ml": 100,
               "price": 18500,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "prev_price": 25350
             }
           ],
           "image": "images/lust-in-paradise--mazaya.jpg",
@@ -123881,7 +123901,8 @@
               "kind": "full",
               "ml": 100,
               "price": 880,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-10-13"
             }
           ],
           "image": "images/oud-al-hayat--mazaya.jpg",
@@ -127637,7 +127658,7 @@
               "ml": 100,
               "price": 8215,
               "first_seen": "2026-09-15",
-              "sold_since": "2026-10-11"
+              "sold_since": "2026-10-13"
             },
             {
               "kind": "full",
@@ -129458,6 +129479,21 @@
           ],
           "image": "images/pi-edt-100ml--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/givenchy-pi-edp-013117290772.html"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 6615,
+              "first_seen": "2026-10-13",
+              "sold_since": "2026-10-13"
+            }
+          ],
+          "image": "images/pi-eau-de-toilette--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/pi-eau-de-toilette-for-men-100ml"
         }
       ],
       "_hero_source": "feel22",
@@ -139138,7 +139174,7 @@
               "ml": 100,
               "price": 32200,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "sold_since": "2026-10-13"
             }
           ],
           "image": "images/reflection-45-man--mazaya.jpg",
@@ -155666,12 +155702,11 @@
               "kind": "full",
               "ml": 100,
               "price": 7200,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-10-13"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/stronger-with-you-intensely--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/emporio-armani-stronger-with-you-intensely-30ml"
+          "product_url": "https://mazaya.eg/en/emporio-armani-stronger-with-you-intensely-edp123455-html12"
         },
         {
           "name": "faces",
@@ -159265,8 +159300,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1612,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-10-13"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/teriaq--mazaya.jpg",
@@ -198009,7 +198043,8 @@
               "kind": "full",
               "ml": 200,
               "price": 4995,
-              "first_seen": "2026-08-24"
+              "first_seen": "2026-08-24",
+              "sold_since": "2026-10-13"
             }
           ],
           "image": "images/la-luna-edp-signautre--mazaya.jpg",
@@ -213549,6 +213584,169 @@
         }
       ],
       "_hero_source": "og-perfume"
+    },
+    {
+      "id": "eternity",
+      "name_ar": "Eternity",
+      "name_en": "Eternity",
+      "brand": "Calvin Klein",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/eternity.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4675,
+              "first_seen": "2026-10-13"
+            }
+          ],
+          "image": "images/eternity--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/eternity-man-edt-100-ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "originals-type-3-edp",
+      "name_ar": "Originals Type 3 EDP",
+      "name_en": "Originals Type 3 EDP",
+      "brand": "Guess",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/originals-type-3-edp.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 6400,
+              "first_seen": "2026-10-13"
+            }
+          ],
+          "image": "images/originals-type-3-edp--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/guess-originals-type-3"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "gentlemen-only-intense-eau-de-toilette",
+      "name_ar": "Gentlemen Only Intense Eau de Toilette",
+      "name_en": "Gentlemen Only Intense Eau de Toilette",
+      "brand": "Givenchy",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/gentlemen-only-intense-eau-de-toilette.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 1520,
+              "first_seen": "2026-10-13",
+              "sold_since": "2026-10-13"
+            }
+          ],
+          "image": "images/gentlemen-only-intense-eau-de-toilette--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/gentlemen-only-intense-eau-de-toilette-for-men-50ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "spiky-muse",
+      "name_ar": "Spiky Muse",
+      "name_en": "Spiky Muse",
+      "brand": "ExNihilo",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/spiky-muse.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 18500,
+              "first_seen": "2026-10-13"
+            }
+          ],
+          "image": "images/spiky-muse--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/spiky-muse-100ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "speed-legends",
+      "name_ar": "Speed Legends",
+      "name_en": "Speed Legends",
+      "brand": "ExNihilo",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/speed-legends.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 18500,
+              "first_seen": "2026-10-13"
+            }
+          ],
+          "image": "images/speed-legends--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/speed-legends-100-ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "chandigarh-express",
+      "name_ar": "Chandigarh Express",
+      "name_en": "Chandigarh Express",
+      "brand": "ExNihilo",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/chandigarh-express.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 25100,
+              "first_seen": "2026-10-13"
+            }
+          ],
+          "image": "images/chandigarh-express--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/chandigarh-express-100ml"
+        }
+      ],
+      "_hero_source": "mazaya"
     }
   ]
 }
