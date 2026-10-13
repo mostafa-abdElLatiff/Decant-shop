@@ -1653,7 +1653,8 @@
               "kind": "leftover",
               "ml": 40,
               "price": 640,
-              "first_seen": "2026-10-07"
+              "first_seen": "2026-10-07",
+              "sold_since": "2026-10-13"
             },
             {
               "kind": "leftover",
@@ -40177,8 +40178,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1200,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-28"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/daiman-eden--og-perfume.jpg",
@@ -76717,7 +76717,8 @@
               "kind": "leftover",
               "ml": 55,
               "price": 1100,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-13"
             },
             {
               "kind": "full",
@@ -90139,7 +90140,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 210,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-13"
             },
             {
               "kind": "full",
@@ -107176,7 +107178,8 @@
               "kind": "full",
               "ml": 150,
               "price": 2050,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-13"
             }
           ],
           "image": "images/miss-gris-dance--og-perfume.jpg",
@@ -107303,15 +107306,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 575,
-              "first_seen": "2026-10-10",
-              "sold_since": "2026-10-10"
+              "first_seen": "2026-10-10"
             },
             {
               "kind": "leftover",
@@ -107324,8 +107325,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/miss-laverne-bloom--og-perfume.jpg",
@@ -136575,7 +136575,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1900,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-13"
             }
           ],
           "image": "images/ramad-earthy--og-perfume.jpg",
@@ -147961,7 +147962,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-13"
             }
           ],
           "image": "images/sharaf-divine--og-perfume.jpg",
@@ -176494,6 +176496,32 @@
           ],
           "image": "images/wild-colt-elixir-assaf--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/wild-colt-elixir-200-ml"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 150,
+              "first_seen": "2026-10-13"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 375,
+              "first_seen": "2026-10-13"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2150,
+              "first_seen": "2026-10-13"
+            }
+          ],
+          "image": "images/wild-colt-elixir-assaf--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/wild-colt-elixir"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -211184,7 +211212,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2150,
-              "first_seen": "2026-10-04"
+              "first_seen": "2026-10-04",
+              "sold_since": "2026-10-13"
             }
           ],
           "image": "images/asrar--og-perfume.jpg",
@@ -213480,6 +213509,45 @@
         }
       ],
       "_hero_source": "perfuzone"
+    },
+    {
+      "id": "the-last-dance",
+      "name_ar": "The last dance",
+      "name_en": "The last dance",
+      "brand": "Laverne",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/the-last-dance.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 205,
+              "first_seen": "2026-10-13"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 560,
+              "first_seen": "2026-10-13"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1750,
+              "first_seen": "2026-10-13"
+            }
+          ],
+          "image": "images/the-last-dance--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/the-last-dance"
+        }
+      ],
+      "_hero_source": "og-perfume"
     }
   ]
 }
