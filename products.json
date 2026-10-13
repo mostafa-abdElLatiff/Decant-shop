@@ -29529,7 +29529,8 @@
               "kind": "full",
               "ml": 100,
               "price": 12200,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-10-13"
             }
           ],
           "image": "images/caden--emaratiscents.jpg",
@@ -57052,8 +57053,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1380,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-10-10"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/fanoos-siraj--emaratiscents.jpg",
@@ -57178,7 +57178,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-10-13"
             }
           ],
           "image": "images/faris-al-arab--emaratiscents.jpg",
@@ -82485,8 +82486,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-05"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/juman-exclusive--emaratiscents.jpg",
@@ -174733,7 +174733,8 @@
               "kind": "full",
               "ml": 100,
               "price": 12200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-13"
             }
           ],
           "image": "images/wanderlust--emaratiscents.jpg",
@@ -210437,8 +210438,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-09-28",
-              "sold_since": "2026-10-09"
+              "first_seen": "2026-09-28"
             }
           ],
           "image": "images/juman-precious--emaratiscents.jpg",
@@ -213742,6 +213742,33 @@
         }
       ],
       "_hero_source": "mazaya"
+    },
+    {
+      "id": "shaheen-by-le-falcone",
+      "name_ar": "Shaheen By Le Falcone",
+      "name_en": "Shaheen By Le Falcone",
+      "brand": "Le Falcone Perfumes",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/shaheen-by-le-falcone.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1200,
+              "first_seen": "2026-10-13"
+            }
+          ],
+          "image": "images/shaheen-by-le-falcone--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/shaheen-by-le-falcone"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
