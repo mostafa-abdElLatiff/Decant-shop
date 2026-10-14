@@ -643,7 +643,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4485,
+              "price": 4999,
               "first_seen": "2026-07-23"
             }
           ],
@@ -9586,8 +9586,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1138,
-              "first_seen": "2026-07-23"
+              "price": 1099,
+              "first_seen": "2026-07-23",
+              "prev_price": 1138
             }
           ],
           "image": "images/ameer-al-oudh-intense-oud--feel22.jpg",
@@ -33598,7 +33599,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1161,
+              "price": 1165,
               "first_seen": "2026-07-23"
             }
           ],
@@ -34854,7 +34855,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 3490,
+              "price": 3545,
               "first_seen": "2026-08-04"
             }
           ],
@@ -82175,7 +82176,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 1872,
+              "price": 1895,
               "first_seen": "2026-07-23"
             },
             {
@@ -161670,7 +161671,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5577,
+              "price": 5849,
               "first_seen": "2026-07-23"
             }
           ],
@@ -182409,8 +182410,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1869,
-              "first_seen": "2026-08-04"
+              "price": 1855,
+              "first_seen": "2026-08-04",
+              "prev_price": 1869
             }
           ],
           "image": "images/the-game-men-eau-de-toilette--feel22.jpg",
@@ -194097,7 +194099,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 3645,
+              "price": 5299,
               "first_seen": "2026-09-03"
             }
           ],
@@ -214193,6 +214195,60 @@
         }
       ],
       "_hero_source": "mazaya"
+    },
+    {
+      "id": "no-1-intense-eau-de-toilette",
+      "name_ar": "No.1 Intense Eau de Toilette",
+      "name_en": "No.1 Intense Eau de Toilette",
+      "brand": "Aigner",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/no-1-intense-eau-de-toilette.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1622,
+              "first_seen": "2026-10-14"
+            }
+          ],
+          "image": "images/no-1-intense-eau-de-toilette--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/aigner-no-1-intense-eau-de-toilette-for-men-100ml"
+        }
+      ],
+      "_hero_source": "feel22"
+    },
+    {
+      "id": "pure-addiction-eau-de-parfum",
+      "name_ar": "Pure Addiction Eau de Parfum",
+      "name_en": "Pure Addiction Eau de Parfum",
+      "brand": "Franck Olivier",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/pure-addiction-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1562,
+              "first_seen": "2026-10-14"
+            }
+          ],
+          "image": "images/pure-addiction-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/franck-olivier-pure-addiction-eau-de-parfum-100ml"
+        }
+      ],
+      "_hero_source": "feel22"
     }
   ]
 }
