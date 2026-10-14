@@ -3872,17 +3872,32 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 6700,
+              "first_seen": "2026-10-14",
+              "sold_since": "2026-10-14"
+            },
+            {
+              "kind": "full",
               "ml": 75,
               "price": 6700,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-09-24"
+              "first_seen": "2026-10-14",
+              "sold_since": "2026-10-14"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 7800,
+              "first_seen": "2026-10-14",
+              "prev_price": 9100,
+              "sold_since": "2026-10-14"
             },
             {
               "kind": "full",
               "ml": 125,
               "price": 7500,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "first_seen": "2026-10-14",
+              "sold_since": "2026-10-14"
             }
           ],
           "image": "images/acqua-di-gi-profondo--mazaya.jpg",
@@ -66019,9 +66034,24 @@
           ],
           "image": "images/gucci-guilty-pour-homme-eau-de-toilette--faces.jpg",
           "product_url": "https://www.faces.eg/en/p/gucci-guilty-pour-homme-eau-de-toilette-PM_GUCCI_Gucci_Guilty_Pour_Homme.html"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 5600,
+              "first_seen": "2026-10-14",
+              "sold_since": "2026-10-14"
+            }
+          ],
+          "image": "images/gucci-guilty-pour-homme-eau-de-toilette--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/gucci-guilty-pour-homme-eau-de-parfum-50ml"
         }
       ],
-      "_hero_source": "faces",
+      "_hero_source": "mazaya",
       "category": "designer"
     },
     {
@@ -88026,7 +88056,7 @@
             }
           ],
           "image": "images/kuro-eau-de-parfum--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/kuro-eau-de-parfum-90-ml"
+          "product_url": "https://mazaya.eg/en/kuro-eau-de-parfum123455-html12"
         }
       ],
       "_hero_source": "mazaya",
@@ -145127,7 +145157,8 @@
               "kind": "full",
               "ml": 100,
               "price": 9200,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-10-14"
             }
           ],
           "image": "images/scandal-re24-him-parfum--mazaya.jpg",
@@ -178663,25 +178694,24 @@
               "kind": "full",
               "ml": 60,
               "price": 7000,
-              "first_seen": "2026-08-23",
-              "sold_since": "2026-10-14"
+              "first_seen": "2026-08-23"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 8700,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-10-14"
+              "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 150,
               "price": 8700,
-              "first_seen": "2026-09-20"
+              "first_seen": "2026-09-20",
+              "sold_since": "2026-10-14"
             }
           ],
           "image": "images/y-eau-de-parfum--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/y-edp-refill-150ml"
+          "product_url": "https://mazaya.eg/en/yves-saint-laurent-y-edp123455-html12344"
         },
         {
           "name": "faces",
@@ -181315,7 +181345,7 @@
       "name_en": "Guilty Absolu Pour Homme",
       "name_ar": "",
       "brand": "Gucci",
-      "image": "images/guilty-absolu-pour-homme--mohamed-mohie.jpg",
+      "image": "images/guilty-absolu-pour-homme.jpg",
       "accords": [],
       "stores": [
         {
@@ -181375,9 +181405,25 @@
           ],
           "image": "images/guilty-absolu-pour-homme--hossam-eldeen-gamal.jpg",
           "product_url": "https://www.facebook.com/groups/original.perfume.market/posts/27975323832153273"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 7700,
+              "first_seen": "2026-10-14",
+              "sold_since": "2026-10-14"
+            }
+          ],
+          "image": "images/guilty-absolu-pour-homme--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/gucci-guilty-absolu-de-parfum-pour-homme-60ml"
         }
       ],
-      "category": "designer"
+      "category": "designer",
+      "_hero_source": "mazaya"
     },
     {
       "id": "this-is-not-a-blue-bottle-1-1",
@@ -214249,6 +214295,61 @@
         }
       ],
       "_hero_source": "feel22"
+    },
+    {
+      "id": "emporio-armani-stronger-with-you-spices-elixir-eau-de-parfum",
+      "name_ar": "Emporio Armani Stronger With You Spices Elixir Eau de Parfum",
+      "name_en": "Emporio Armani Stronger With You Spices Elixir Eau de Parfum",
+      "brand": "Giorgio Armani",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/emporio-armani-stronger-with-you-spices-elixir-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 8000,
+              "first_seen": "2026-10-14"
+            }
+          ],
+          "image": "images/emporio-armani-stronger-with-you-spices-elixir-eau-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/emporio-armani-stronger-with-you-spices-elixir-eau-de-parfum-100ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "guilty-essence-pour-homme-eau-de-toilette",
+      "name_ar": "Guilty Essence Pour Homme Eau de Toilette",
+      "name_en": "Guilty Essence Pour Homme Eau de Toilette",
+      "brand": "Gucci",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/guilty-essence-pour-homme-eau-de-toilette.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 4900,
+              "first_seen": "2026-10-14",
+              "sold_since": "2026-10-14"
+            }
+          ],
+          "image": "images/guilty-essence-pour-homme-eau-de-toilette--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/gucci-guilty-essence-pour-homme-eau-de-toilette-50ml"
+        }
+      ],
+      "_hero_source": "mazaya"
     }
   ]
 }
