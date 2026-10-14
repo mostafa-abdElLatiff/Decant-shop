@@ -3358,6 +3358,20 @@
           ],
           "image": "images/accento-edp--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/accento-edp-100ml"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 1500,
+              "first_seen": "2026-10-14"
+            }
+          ],
+          "image": "images/accento-edp--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/xerjoff-accento"
         }
       ],
       "_hero_source": "mazaya",
@@ -3939,7 +3953,7 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 500,
+              "price": 750,
               "first_seen": "2026-07-20"
             }
           ],
@@ -76968,6 +76982,20 @@
           ],
           "image": "images/ingenious-ginger--hossam-eldeen-gamal.jpg",
           "product_url": "https://www.facebook.com/groups/original.perfume.market/posts/27975323832153273"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 1300,
+              "first_seen": "2026-10-14"
+            }
+          ],
+          "image": "images/ingenious-ginger--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/ingenious-ginger"
         }
       ],
       "_hero_source": "sniffz",
@@ -155697,7 +155725,7 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 550,
+              "price": 700,
               "first_seen": "2026-07-19"
             }
           ],
@@ -183943,7 +183971,7 @@
       "name_en": "Madurai",
       "name_ar": "",
       "brand": "Memo Paris",
-      "image": "images/madurai--ahmed-abdel-kareem.jpg",
+      "image": "images/madurai.jpg",
       "accords": [],
       "stores": [
         {
@@ -183959,9 +183987,24 @@
           ],
           "image": "images/madurai--ahmed-abdel-kareem.jpg",
           "product_url": "https://www.facebook.com/groups/original.perfume.market/posts/27802400792778912"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 2000,
+              "first_seen": "2026-10-14"
+            }
+          ],
+          "image": "images/madurai--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/memo-paris-maduria"
         }
       ],
-      "category": "niche"
+      "category": "niche",
+      "_hero_source": "perfuzone"
     },
     {
       "id": "pure-musc-blanc-for-her",
@@ -213865,6 +213908,33 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "encre-noir-a-l-extreme",
+      "name_ar": "Encre Noir A L'extreme",
+      "name_en": "Encre Noir A L'extreme",
+      "brand": "Lalique",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/encre-noir-a-l-extreme.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 300,
+              "first_seen": "2026-10-14"
+            }
+          ],
+          "image": "images/encre-noir-a-l-extreme--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/lalique-encre-noir-a-lextreme"
+        }
+      ],
+      "_hero_source": "perfuzone"
     }
   ]
 }
