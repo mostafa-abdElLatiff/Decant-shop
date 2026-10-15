@@ -9780,8 +9780,7 @@
               "kind": "full",
               "ml": 75,
               "price": 2230,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-28"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/amethyst-khozam--emaratiscents.jpg",
@@ -26284,8 +26283,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2550,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-28"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/blue-oud--emaratiscents.jpg",
@@ -76593,8 +76591,7 @@
               "kind": "full",
               "ml": 50,
               "price": 3600,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-04"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/incense-01--emaratiscents.jpg",
@@ -141544,7 +141541,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-10-15"
             }
           ],
           "image": "images/rose--emaratiscents.jpg",
@@ -159726,7 +159724,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2350,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-10-15"
             }
           ],
           "image": "images/teriaq-gift-set--emaratiscents.jpg",
@@ -181209,8 +181208,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2550,
-              "first_seen": "2026-08-01",
-              "sold_since": "2026-08-07"
+              "first_seen": "2026-08-01"
             }
           ],
           "image": "images/al-wafia-sandalwood--emaratiscents.jpg",
@@ -210712,8 +210710,7 @@
               "kind": "full",
               "ml": 75,
               "price": 2350,
-              "first_seen": "2026-09-27",
-              "sold_since": "2026-10-12"
+              "first_seen": "2026-09-27"
             }
           ],
           "image": "images/ice-by-al-majid-oud--emaratiscents.jpg",
@@ -214970,6 +214967,33 @@
         }
       ],
       "_hero_source": "mazaya"
+    },
+    {
+      "id": "hersh-0",
+      "name_ar": "Hersh -0",
+      "name_en": "Hersh -0",
+      "brand": "Al Ezz Oud",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/hersh-0.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3400,
+              "first_seen": "2026-10-15"
+            }
+          ],
+          "image": "images/hersh-0--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/hersh-0"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
