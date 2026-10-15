@@ -41607,10 +41607,24 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 3212,
+              "first_seen": "2026-10-15",
+              "sold_since": "2026-10-15"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 3880,
               "first_seen": "2026-07-23",
               "prev_price": 4680
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 5884,
+              "first_seen": "2026-10-15",
+              "sold_since": "2026-10-15"
             }
           ],
           "image": "images/defy-parfum--mazaya.jpg",
@@ -53127,6 +53141,14 @@
           "name": "mazaya",
           "url": "https://mazaya.eg/",
           "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 3400,
+              "first_seen": "2026-10-15",
+              "prev_price": 5700,
+              "sold_since": "2026-10-15"
+            },
             {
               "kind": "full",
               "ml": 100,
@@ -71500,15 +71522,13 @@
               "kind": "full",
               "ml": 100,
               "price": 6736,
-              "first_seen": "2026-07-23",
-              "prev_price": 8420
+              "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 150,
               "price": 8096,
-              "first_seen": "2026-07-23",
-              "prev_price": 10120
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/hero-eau-de-parfum--mazaya.jpg",
@@ -88067,7 +88087,7 @@
             }
           ],
           "image": "images/kuro-eau-de-parfum--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/kuro-eau-de-parfum123455-html12"
+          "product_url": "https://mazaya.eg/en/kuro-eau-de-parfum-90-ml"
         }
       ],
       "_hero_source": "mazaya",
@@ -121913,6 +121933,13 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 13650,
+              "first_seen": "2026-10-15",
+              "sold_since": "2026-10-15"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 21150,
               "first_seen": "2026-10-15",
@@ -125684,6 +125711,13 @@
           "name": "mazaya",
           "url": "https://mazaya.eg/",
           "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 12750,
+              "first_seen": "2026-10-15",
+              "sold_since": "2026-10-15"
+            },
             {
               "kind": "full",
               "ml": 100,
@@ -155896,12 +155930,11 @@
               "kind": "full",
               "ml": 100,
               "price": 7200,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-10-15"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/stronger-with-you-intensely--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/emporio-armani-stronger-with-you-intensely-30ml"
+          "product_url": "https://mazaya.eg/en/emporio-armani-stronger-with-you-intensely-edp123455-html12"
         },
         {
           "name": "faces",
@@ -161215,6 +161248,13 @@
               "price": 12850,
               "first_seen": "2026-10-09",
               "sold_since": "2026-10-09"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 18500,
+              "first_seen": "2026-10-15",
+              "sold_since": "2026-10-15"
             }
           ],
           "image": "images/the-hedonist--mazaya.jpg",
@@ -181207,6 +181247,13 @@
               "kind": "full",
               "ml": 75,
               "price": 4785,
+              "first_seen": "2026-10-15",
+              "sold_since": "2026-10-15"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 5900,
               "first_seen": "2026-10-15",
               "sold_since": "2026-10-15"
             }
