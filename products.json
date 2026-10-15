@@ -136769,15 +136769,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-09-20",
-              "sold_since": "2026-10-15"
+              "first_seen": "2026-09-20"
             },
             {
               "kind": "leftover",
               "ml": 50,
               "price": 975,
-              "first_seen": "2026-09-20",
-              "sold_since": "2026-10-08"
+              "first_seen": "2026-09-20"
             },
             {
               "kind": "full",
@@ -172152,7 +172150,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 775,
-              "first_seen": "2026-09-04"
+              "first_seen": "2026-09-04",
+              "sold_since": "2026-10-15"
             },
             {
               "kind": "full",
@@ -176309,6 +176308,18 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 10,
+              "price": 150,
+              "first_seen": "2026-10-15"
+            },
+            {
+              "kind": "leftover",
+              "ml": 100,
+              "price": 1150,
+              "first_seen": "2026-10-15"
+            },
+            {
               "kind": "full",
               "ml": 200,
               "price": 2025,
@@ -176316,7 +176327,7 @@
             }
           ],
           "image": "images/wild-colt--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/wild-colt-assaf-100ml%d9%88%d8%a7%d9%8a%d9%84%d8%af-%d9%83%d9%88%d9%84%d8%aa-%d9%85%d9%86-%d8%b9%d8%b3%d8%a7%d9%81-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/wild-colt-100ml%d9%88%d8%a7%d9%8a%d9%84%d8%af-%d9%83%d9%88%d9%84%d8%aa-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "og-perfume",
@@ -176592,6 +176603,18 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 10,
+              "price": 150,
+              "first_seen": "2026-10-15"
+            },
+            {
+              "kind": "leftover",
+              "ml": 100,
+              "price": 1100,
+              "first_seen": "2026-10-15"
+            },
+            {
               "kind": "full",
               "ml": 200,
               "price": 1975,
@@ -176599,7 +176622,7 @@
             }
           ],
           "image": "images/wild-colt-boss--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/wild-colt-boss-200ml-assaf%d9%88%d8%a7%d9%8a%d9%84%d8%af-%d9%83%d9%88%d9%84%d8%aa-%d8%a8%d9%88%d8%b5-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b9%d8%b3%d8%a7%d9%81/"
+          "product_url": "https://eldesoki-fragrances.com/product/wild-colt-boss-100ml%d9%88%d8%a7%d9%8a%d9%84%d8%af-%d9%83%d9%88%d9%84%d8%aa-%d8%a8%d9%88%d8%b5-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -198727,6 +198750,20 @@
           ],
           "image": "images/aura-black--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/aura-black"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 1975,
+              "first_seen": "2026-10-15"
+            }
+          ],
+          "image": "images/aura-black--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/aura-black-150ml-assaf%d8%a7%d9%88%d8%b1%d8%a7-%d8%a8%d9%84%d8%a7%d9%83-%d9%a1%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b9%d8%b3%d8%a7%d9%81/"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -202933,8 +202970,9 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 1175,
-              "first_seen": "2026-09-20"
+              "price": 1150,
+              "first_seen": "2026-09-20",
+              "prev_price": 1175
             }
           ],
           "image": "images/faris-al-arab-1788463286--eldesoki-fragrances.jpg",
@@ -214295,6 +214333,114 @@
         }
       ],
       "_hero_source": "mazaya"
+    },
+    {
+      "id": "itqan",
+      "name_ar": "اتقان تستر ١٠ملي",
+      "name_en": "Itqan",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/itqan.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 175,
+              "first_seen": "2026-10-15"
+            }
+          ],
+          "image": "images/itqan--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/itqan-tester-10ml%d8%a7%d8%aa%d9%82%d8%a7%d9%86-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "khanjar-1792054974",
+      "name_ar": "خنجر تستر ١٠ملي",
+      "name_en": "Khanjar",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/khanjar-1792054974.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 125,
+              "first_seen": "2026-10-15"
+            }
+          ],
+          "image": "images/khanjar-1792054974--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/khanjar-tester-10ml%d8%ae%d9%86%d8%ac%d8%b1-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "itqan-zimaya",
+      "name_ar": "اتقان ٥٠ملي من زيمايا",
+      "name_en": "Itqan Zimaya",
+      "brand": "Zimaya",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/itqan-zimaya.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 875,
+              "first_seen": "2026-10-15"
+            }
+          ],
+          "image": "images/itqan-zimaya--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/itqan-50ml-zimaya%d8%a7%d8%aa%d9%82%d8%a7%d9%86-%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b2%d9%8a%d9%85%d8%a7%d9%8a%d8%a7/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "khanjar-1792055102",
+      "name_ar": "خنجر ٤٠ملي",
+      "name_en": "Khanjar",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/khanjar-1792055102.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "leftover",
+              "ml": 40,
+              "price": 450,
+              "first_seen": "2026-10-15"
+            }
+          ],
+          "image": "images/khanjar-1792055102--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/khanjar-40ml-%d8%ae%d9%86%d8%ac%d8%b1-%d9%a4%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
