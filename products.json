@@ -197663,7 +197663,7 @@
       "brand": "Gritti",
       "category": "designer",
       "dupe_of": [],
-      "image": "images/duchessa-gritti--ahmed-abdel-kareem.jpg",
+      "image": "images/duchessa-gritti.jpg",
       "accords": [],
       "stores": [
         {
@@ -197679,9 +197679,23 @@
           ],
           "image": "images/duchessa-gritti--ahmed-abdel-kareem.jpg",
           "product_url": "https://www.facebook.com/groups/110919302115466/posts/1180363758504343"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 1700,
+              "first_seen": "2026-10-16"
+            }
+          ],
+          "image": "images/duchessa-gritti--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/duchessa-gritti"
         }
       ],
-      "_hero_source": "Ahmed Abdel Kareem"
+      "_hero_source": "perfuzone"
     },
     {
       "id": "bohemian-lime-goldfield-banks",
@@ -208079,6 +208093,20 @@
           ],
           "image": "images/1-million-black--mo-shawky.jpg",
           "product_url": "https://z-original-perfumes-decant.odoo.com/shop/rabanne-1-million-black-3ml-565"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 850,
+              "first_seen": "2026-10-16"
+            }
+          ],
+          "image": "images/1-million-black--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/paco-rabanne-1-million-black"
         }
       ],
       "_hero_source": "MO Shawky"
