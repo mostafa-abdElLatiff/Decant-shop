@@ -16312,8 +16312,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1150,
-              "first_seen": "2026-01-01"
+              "price": 1100,
+              "first_seen": "2026-01-01",
+              "prev_price": 1150
             }
           ],
           "image": "images/asad-bourbon--sniffz.jpg",
@@ -85669,6 +85670,20 @@
           ],
           "image": "images/khamrah-dukhan--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/lattafa-khamrah-dukhan-eau-de-parfum-unisex-100ml"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1500,
+              "first_seen": "2026-10-16"
+            }
+          ],
+          "image": "images/khamrah-dukhan--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/lattafa-khamrah-dukhan-full-sealed"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -85756,8 +85771,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1300,
-              "first_seen": "2026-08-05",
-              "sold_since": "2026-10-06"
+              "first_seen": "2026-08-05"
             }
           ],
           "image": "images/khamrah-qahwa--sniffz.jpg",
