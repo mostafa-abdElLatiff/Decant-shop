@@ -16313,8 +16313,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1100,
-              "first_seen": "2026-01-01",
-              "prev_price": 1150
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/asad-bourbon--sniffz.jpg",
@@ -153708,25 +153707,29 @@
               "kind": "decant",
               "ml": 3,
               "price": 140,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-10-16"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 185,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-10-16"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 280,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-10-16"
             },
             {
               "kind": "full",
               "ml": 80,
               "price": 1750,
-              "first_seen": "2026-10-03"
+              "first_seen": "2026-10-03",
+              "sold_since": "2026-10-16"
             }
           ],
           "image": "images/spectre-ghost--sniffz.jpg",
