@@ -6769,7 +6769,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-10-17"
             }
           ],
           "image": "images/al-wisam--emaratiscents.jpg",
@@ -147445,7 +147446,8 @@
               "kind": "full",
               "ml": 75,
               "price": 1850,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-10-17"
             }
           ],
           "image": "images/shaghaf-oud-aswad--emaratiscents.jpg",
@@ -210583,8 +210585,9 @@
             {
               "kind": "full",
               "ml": 300,
-              "price": 3900,
-              "first_seen": "2026-09-26"
+              "price": 2800,
+              "first_seen": "2026-09-26",
+              "prev_price": 3900
             }
           ],
           "image": "images/frankel-collection--emaratiscents.jpg",
