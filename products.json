@@ -15135,8 +15135,9 @@
             {
               "kind": "leftover",
               "ml": 100,
-              "price": 1000,
+              "price": 975,
               "first_seen": "2026-07-19",
+              "prev_price": 1000,
               "sold_since": "2026-07-19"
             },
             {
@@ -26065,6 +26066,13 @@
               "first_seen": "2026-07-19",
               "prev_price": 425,
               "sold_since": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 80,
+              "price": 910,
+              "first_seen": "2026-10-17",
+              "sold_since": "2026-10-17"
             },
             {
               "kind": "full",
@@ -96706,7 +96714,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1850,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-17"
             }
           ],
           "image": "images/legacy--og-perfume.jpg",
@@ -98399,7 +98408,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-17"
             },
             {
               "kind": "decant",
@@ -126771,8 +126781,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 205,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-05"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
@@ -144873,8 +144882,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 190,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-22"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -153748,7 +153756,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 250,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-10-17"
             },
             {
               "kind": "leftover",
