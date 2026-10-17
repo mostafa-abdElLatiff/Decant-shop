@@ -16386,7 +16386,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 525,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-17"
             },
             {
               "kind": "leftover",
@@ -113767,8 +113768,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 625,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-23"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -141696,7 +141696,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 110,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-17"
             },
             {
               "kind": "leftover",
@@ -171166,6 +171167,26 @@
           ],
           "image": "images/varna--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/varna"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 300,
+              "first_seen": "2026-10-17"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2700,
+              "first_seen": "2026-10-17"
+            }
+          ],
+          "image": "images/varna--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/varna-ghalati"
         }
       ],
       "_hero_source": "dar.elarabia",
