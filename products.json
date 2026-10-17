@@ -11730,7 +11730,13 @@
               "kind": "leftover",
               "ml": 45,
               "price": 675,
-              "first_seen": "2026-08-10",
+              "first_seen": "2026-08-10"
+            },
+            {
+              "kind": "leftover",
+              "ml": 70,
+              "price": 945,
+              "first_seen": "2026-10-17",
               "sold_since": "2026-10-17"
             },
             {
@@ -15138,7 +15144,6 @@
               "ml": 100,
               "price": 975,
               "first_seen": "2026-07-19",
-              "prev_price": 1000,
               "sold_since": "2026-07-19"
             },
             {
@@ -16381,8 +16386,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 525,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -98139,6 +98143,13 @@
             },
             {
               "kind": "leftover",
+              "ml": 45,
+              "price": 600,
+              "first_seen": "2026-10-17",
+              "sold_since": "2026-10-17"
+            },
+            {
+              "kind": "leftover",
               "ml": 50,
               "price": 600,
               "first_seen": "2026-07-19",
@@ -116041,7 +116052,8 @@
               "kind": "leftover",
               "ml": 45,
               "price": 725,
-              "first_seen": "2026-08-13"
+              "first_seen": "2026-08-13",
+              "sold_since": "2026-10-17"
             },
             {
               "kind": "full",
@@ -212614,7 +212626,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 925,
-              "first_seen": "2026-10-10"
+              "first_seen": "2026-10-10",
+              "sold_since": "2026-10-17"
             },
             {
               "kind": "full",
