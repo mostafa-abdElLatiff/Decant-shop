@@ -85353,23 +85353,22 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 120,
+              "price": 115,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 120
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 250,
+              "price": 230,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 250
             }
           ],
           "image": "images/khamrah--sniffz.jpg",
@@ -98293,7 +98292,8 @@
               "kind": "decant",
               "ml": 3,
               "price": 150,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-18"
             },
             {
               "kind": "decant",
@@ -206308,6 +206308,32 @@
           ],
           "image": "images/qasida-signature-faan--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/qaseda-signature-200ml-faan%d9%82%d8%b5%d9%8a%d8%af%d8%a9-%d8%b3%d8%ac%d9%86%d8%aa%d8%b4%d8%b1-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%81%d8%a7%d9%86-%d9%84%d9%84%d8%a5%d8%a8%d8%af/"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 90,
+              "first_seen": "2026-10-18"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 130,
+              "first_seen": "2026-10-18"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-10-18"
+            }
+          ],
+          "image": "images/qasida-signature-faan--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/faan-qasida-signature"
         }
       ],
       "_hero_source": "eldesoki-fragrances"
@@ -210488,6 +210514,32 @@
           ],
           "image": "images/hawas-ice-freeze--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/hawas-ice-freeze-100ml-eau-de-parfum-rasasi"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 140,
+              "first_seen": "2026-10-18"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 185,
+              "first_seen": "2026-10-18"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 285,
+              "first_seen": "2026-10-18"
+            }
+          ],
+          "image": "images/hawas-ice-freeze--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/hawas-ice-freeze"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -215157,6 +215209,100 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "clive-christian-strange-heavens-out-of-the-blue",
+      "name_ar": "",
+      "name_en": "Clive Christian Strange Heavens Out Of The Blue",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/clive-christian-strange-heavens-out-of-the-blue.jpg",
+      "accords": [
+        {
+          "label_en": "Coffee",
+          "label_ar": "",
+          "color": "#503B1D",
+          "w": 100
+        },
+        {
+          "label_en": "Pink Pepper",
+          "label_ar": "",
+          "color": "#83C928",
+          "w": 90
+        },
+        {
+          "label_en": "Anise",
+          "label_ar": "",
+          "color": "#37a089",
+          "w": 80
+        },
+        {
+          "label_en": "Orange Blossom",
+          "label_ar": "",
+          "color": "#edf2fb",
+          "w": 70
+        },
+        {
+          "label_en": "Jasmine",
+          "label_ar": "",
+          "color": "#FF5F8D",
+          "w": 60
+        },
+        {
+          "label_en": "Caramel",
+          "label_ar": "",
+          "color": "#DDA356",
+          "w": 50
+        },
+        {
+          "label_en": "Cocoa",
+          "label_ar": "",
+          "color": "#603000",
+          "w": 40
+        },
+        {
+          "label_en": "Vanilla",
+          "label_ar": "",
+          "color": "#FFFEC0",
+          "w": 40
+        },
+        {
+          "label_en": "Smoke",
+          "label_ar": "",
+          "color": "#827487",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 1890,
+              "first_seen": "2026-10-18"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 2700,
+              "first_seen": "2026-10-18"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 4500,
+              "first_seen": "2026-10-18"
+            }
+          ],
+          "image": "images/clive-christian-strange-heavens-out-of-the-blue--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/clive-christian-strange-heavens-out-of-the-blue"
+        }
+      ],
+      "_hero_source": "sniffz"
     }
   ]
 }
