@@ -890,6 +890,13 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 100,
+              "price": 5300,
+              "first_seen": "2026-10-18",
+              "sold_since": "2026-10-18"
+            },
+            {
+              "kind": "full",
               "ml": 200,
               "price": 6000,
               "first_seen": "2026-10-18",
@@ -83059,6 +83066,13 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 75,
+              "price": 4200,
+              "first_seen": "2026-10-18",
+              "sold_since": "2026-10-18"
+            },
+            {
+              "kind": "full",
               "ml": 125,
               "price": 4800,
               "first_seen": "2026-10-18",
@@ -109110,6 +109124,13 @@
           "name": "mazaya",
           "url": "https://mazaya.eg/",
           "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 3592,
+              "first_seen": "2026-10-18",
+              "sold_since": "2026-10-18"
+            },
             {
               "kind": "full",
               "ml": 100,
@@ -162566,10 +162587,24 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 4900,
+              "first_seen": "2026-10-18",
+              "sold_since": "2026-10-18"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 6100,
               "first_seen": "2026-07-23",
               "prev_price": 7500,
+              "sold_since": "2026-10-18"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 9900,
+              "first_seen": "2026-10-18",
               "sold_since": "2026-10-18"
             }
           ],
