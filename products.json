@@ -36354,8 +36354,9 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 8800,
+              "price": 7200,
               "first_seen": "2026-07-23",
+              "prev_price": 8800,
               "sold_since": "2026-10-18"
             },
             {
@@ -36368,8 +36369,9 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 9800,
+              "price": 8800,
               "first_seen": "2026-07-23",
+              "prev_price": 9800,
               "sold_since": "2026-10-18"
             }
           ],
@@ -125832,12 +125834,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 23100,
-              "first_seen": "2026-07-23"
+              "price": 18500,
+              "first_seen": "2026-07-23",
+              "prev_price": 23100
             }
           ],
           "image": "images/outcast-blue--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/outcast-blue-100-ml"
+          "product_url": "https://mazaya.eg/en/outcast-blue"
         }
       ],
       "_hero_source": "mazaya",
@@ -145229,7 +145232,7 @@
             }
           ],
           "image": "images/scandal-intense-men--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/scandal-intense-men"
+          "product_url": "https://mazaya.eg/en/scandal-intense-men-100-ml"
         },
         {
           "name": "faces",
