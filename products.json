@@ -36422,8 +36422,9 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 8800,
+              "price": 7200,
               "first_seen": "2026-07-23",
+              "prev_price": 8800,
               "sold_since": "2026-10-19"
             },
             {
@@ -36436,8 +36437,9 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 9800,
+              "price": 8800,
               "first_seen": "2026-07-23",
+              "prev_price": 9800,
               "sold_since": "2026-10-19"
             }
           ],
@@ -95318,9 +95320,32 @@
           ],
           "image": "images/le-gemme-tygar--ahmed-abdel-kareem.jpg",
           "product_url": "https://www.facebook.com/groups/original.perfume.market/posts/27938464252505898"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 20328,
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-19"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 22088,
+              "first_seen": "2026-10-19",
+              "prev_price": 28820
+            }
+          ],
+          "image": "images/le-gemme-tygar--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/bvlgari-le-gemme-tygar-edp-125ml"
         }
       ],
-      "category": "designer"
+      "category": "designer",
+      "_hero_source": "mazaya"
     },
     {
       "id": "le-gemme-yasep",
@@ -95358,9 +95383,24 @@
           ],
           "image": "images/le-gemme-yasep--ahmed-abdel-kareem.jpg",
           "product_url": "https://www.facebook.com/groups/original.perfume.market/posts/27938464252505898"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 22088,
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-19"
+            }
+          ],
+          "image": "images/le-gemme-yasep--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/bvlgari-le-gemme-yasep-edp-125ml"
         }
       ],
-      "_hero_source": "Abo Anas Sayed",
+      "_hero_source": "mazaya",
       "category": "designer"
     },
     {
@@ -102196,11 +102236,19 @@
               "kind": "full",
               "ml": 100,
               "price": 7920,
-              "first_seen": "2026-07-26"
+              "first_seen": "2026-07-26",
+              "sold_since": "2026-10-19"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 9548,
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-19"
             }
           ],
           "image": "images/man-in-black-eau-de-parfum--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/bvlgari-man-in-black123455-html123"
+          "product_url": "https://mazaya.eg/en/bvlgari-man-in-black-edp"
         }
       ],
       "_hero_source": "feel22",
@@ -102235,9 +102283,23 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 60,
+              "price": 6848,
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-19"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 9504,
               "first_seen": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 10956,
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-19"
             }
           ],
           "image": "images/man-in-black-le-parfum--mazaya.jpg",
@@ -102349,13 +102411,21 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 60,
+              "price": 5808,
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-19"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 7920,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-10-19"
             }
           ],
           "image": "images/man-rain-essence-edp--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/man-rain-essence-edp-100ml"
+          "product_url": "https://mazaya.eg/en/bvlgari-man-rain-essence-edp"
         },
         {
           "name": "Ahmed Abdel Kareem",
@@ -102522,17 +102592,26 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 60,
+              "price": 6848,
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-19"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 7920,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "prev_price": 8008,
+              "sold_since": "2026-10-19"
             },
             {
               "kind": "full",
               "ml": 150,
               "price": 9416,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "prev_price": 10956,
+              "sold_since": "2026-10-19"
             }
           ],
           "image": "images/man-wood-essence--mazaya.jpg",
@@ -132238,6 +132317,13 @@
           "name": "mazaya",
           "url": "https://mazaya.eg/",
           "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 5368,
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-19"
+            },
             {
               "kind": "full",
               "ml": 100,
@@ -185435,7 +185521,7 @@
       "name_en": "Le Gemme Gyan",
       "name_ar": "",
       "brand": "Bvlgari",
-      "image": "images/le-gemme-gyan--ahmed-abdel-kareem.jpg",
+      "image": "images/le-gemme-gyan.jpg",
       "accords": [],
       "stores": [
         {
@@ -185451,16 +185537,37 @@
           ],
           "image": "images/le-gemme-gyan--ahmed-abdel-kareem.jpg",
           "product_url": "https://www.facebook.com/groups/original.perfume.market/posts/27938464252505898"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 15840,
+              "first_seen": "2026-10-19"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 22088,
+              "first_seen": "2026-10-19"
+            }
+          ],
+          "image": "images/le-gemme-gyan--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/bvlgari-le-gemme-gyan-edp"
         }
       ],
-      "category": "designer"
+      "category": "designer",
+      "_hero_source": "mazaya"
     },
     {
       "id": "le-gemme-amunae",
       "name_en": "Le Gemme Amunae",
       "name_ar": "",
       "brand": "Bvlgari",
-      "image": "images/le-gemme-amunae--ahmed-abdel-kareem.jpg",
+      "image": "images/le-gemme-amunae.jpg",
       "accords": [],
       "stores": [
         {
@@ -185476,16 +185583,31 @@
           ],
           "image": "images/le-gemme-amunae--ahmed-abdel-kareem.jpg",
           "product_url": "https://www.facebook.com/groups/original.perfume.market/posts/27938464252505898"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 22088,
+              "first_seen": "2026-10-19"
+            }
+          ],
+          "image": "images/le-gemme-amunae--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/bvlgari-le-gemme-amunae-edp-125ml"
         }
       ],
-      "category": "designer"
+      "category": "designer",
+      "_hero_source": "mazaya"
     },
     {
       "id": "le-gemme-azaran",
       "name_en": "Le Gemme Azaran",
       "name_ar": "",
       "brand": "Bvlgari",
-      "image": "images/le-gemme-azaran--ahmed-abdel-kareem.jpg",
+      "image": "images/le-gemme-azaran.jpg",
       "accords": [],
       "stores": [
         {
@@ -185501,9 +185623,24 @@
           ],
           "image": "images/le-gemme-azaran--ahmed-abdel-kareem.jpg",
           "product_url": "https://www.facebook.com/groups/original.perfume.market/posts/27938464252505898"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 22088,
+              "first_seen": "2026-10-19"
+            }
+          ],
+          "image": "images/le-gemme-azaran--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/bvlgari-le-gemme-azaran-edp-125ml"
         }
       ],
-      "category": "designer"
+      "category": "designer",
+      "_hero_source": "mazaya"
     },
     {
       "id": "le-gemme-kobraa",
@@ -185535,7 +185672,7 @@
       "name_en": "Le Gemme Orom",
       "name_ar": "",
       "brand": "Bvlgari",
-      "image": "images/le-gemme-orom--ahmed-abdel-kareem.jpg",
+      "image": "images/le-gemme-orom.jpg",
       "accords": [],
       "stores": [
         {
@@ -185551,16 +185688,39 @@
           ],
           "image": "images/le-gemme-orom--ahmed-abdel-kareem.jpg",
           "product_url": "https://www.facebook.com/groups/original.perfume.market/posts/27938464252505898"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 15840,
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-19"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 22088,
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-19"
+            }
+          ],
+          "image": "images/le-gemme-orom--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/bvlgari-le-gemme-orom-edp"
         }
       ],
-      "category": "designer"
+      "category": "designer",
+      "_hero_source": "mazaya"
     },
     {
       "id": "le-gemme-falkar",
       "name_en": "Le Gemme Falkar",
       "name_ar": "",
       "brand": "Bvlgari",
-      "image": "images/le-gemme-falkar--ahmed-abdel-kareem.jpg",
+      "image": "images/le-gemme-falkar.jpg",
       "accords": [],
       "stores": [
         {
@@ -185576,16 +185736,37 @@
           ],
           "image": "images/le-gemme-falkar--ahmed-abdel-kareem.jpg",
           "product_url": "https://www.facebook.com/groups/original.perfume.market/posts/27938464252505898"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 15840,
+              "first_seen": "2026-10-19"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 22088,
+              "first_seen": "2026-10-19"
+            }
+          ],
+          "image": "images/le-gemme-falkar--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/bvlgari-le-gemme-falkar-edp"
         }
       ],
-      "category": "designer"
+      "category": "designer",
+      "_hero_source": "mazaya"
     },
     {
       "id": "le-gemme-onekh",
       "name_en": "Le Gemme Onekh",
       "name_ar": "",
       "brand": "Bvlgari",
-      "image": "images/le-gemme-onekh--ahmed-abdel-kareem.jpg",
+      "image": "images/le-gemme-onekh.jpg",
       "accords": [],
       "stores": [
         {
@@ -185601,9 +185782,24 @@
           ],
           "image": "images/le-gemme-onekh--ahmed-abdel-kareem.jpg",
           "product_url": "https://www.facebook.com/groups/original.perfume.market/posts/27938464252505898"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 22088,
+              "first_seen": "2026-10-19"
+            }
+          ],
+          "image": "images/le-gemme-onekh--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/bvlgari-le-gemme-onekh-edp-125ml"
         }
       ],
-      "category": "designer"
+      "category": "designer",
+      "_hero_source": "mazaya"
     },
     {
       "id": "terre-d-hermes-eau-intense-vetiver",
@@ -215848,6 +216044,102 @@
         }
       ],
       "_hero_source": "perfuzone"
+    },
+    {
+      "id": "aqva-amara-edt",
+      "name_ar": "Aqva Amara EDT",
+      "name_en": "Aqva Amara EDT",
+      "brand": "Bvlgari",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/aqva-amara-edt.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 1452,
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-19"
+            }
+          ],
+          "image": "images/aqva-amara-edt--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/bvlgari-aqva-amara-edt-50ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "le-gemme-sahare-edp",
+      "name_ar": "Le Gemme Sahare EDP",
+      "name_en": "Le Gemme Sahare EDP",
+      "brand": "Bvlgari",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/le-gemme-sahare-edp.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 15840,
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-19"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 22088,
+              "first_seen": "2026-10-19"
+            }
+          ],
+          "image": "images/le-gemme-sahare-edp--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/bvlgari-le-gemme-sahare-edp"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "eau-parfum-e-th-imp-rial-edt",
+      "name_ar": "Eau Parfumée Thé Impérial EDT",
+      "name_en": "Eau Parfumée Thé Impérial EDT",
+      "brand": "Bvlgari",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/eau-parfum-e-th-imp-rial-edt.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 5680,
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-19"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 8640,
+              "first_seen": "2026-10-19"
+            }
+          ],
+          "image": "images/eau-parfum-e-th-imp-rial-edt--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/bvlgari-eau-parfumee-the-imperial-edt"
+        }
+      ],
+      "_hero_source": "mazaya"
     }
   ]
 }
