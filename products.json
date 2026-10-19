@@ -30547,7 +30547,7 @@
             }
           ],
           "image": "images/carbon-man-eau-de-parfum--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/ajmal-carbon-edp-100-ml"
+          "product_url": "https://mazaya.eg/en/ajmal-carbon-edp12"
         }
       ],
       "_hero_source": "feel22",
@@ -179019,25 +179019,24 @@
               "kind": "full",
               "ml": 60,
               "price": 7000,
-              "first_seen": "2026-08-23",
-              "sold_since": "2026-10-19"
+              "first_seen": "2026-08-23"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 8700,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-10-19"
+              "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 150,
               "price": 8700,
-              "first_seen": "2026-09-20"
+              "first_seen": "2026-09-20",
+              "sold_since": "2026-10-19"
             }
           ],
           "image": "images/y-eau-de-parfum--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/y-edp-refill-150ml"
+          "product_url": "https://mazaya.eg/en/yves-saint-laurent-y-edp123455-html12344"
         },
         {
           "name": "faces",
@@ -214008,7 +214007,8 @@
               "kind": "full",
               "ml": 125,
               "price": 6100,
-              "first_seen": "2026-10-12"
+              "first_seen": "2026-10-12",
+              "sold_since": "2026-10-19"
             }
           ],
           "image": "images/hugo-x-krink-eau-de-parfum--mazaya.jpg",
@@ -215383,6 +215383,146 @@
         }
       ],
       "_hero_source": "perfuzone"
+    },
+    {
+      "id": "ab-spirit-platinum-edt",
+      "name_ar": "AB Spirit Platinum EDT",
+      "name_en": "AB Spirit Platinum EDT",
+      "brand": "Parour",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/ab-spirit-platinum-edt.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1185,
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-19"
+            }
+          ],
+          "image": "images/ab-spirit-platinum-edt--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/parour-ab-spirit-platinum-edt-100ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "my-perfumes-creation-energy-deodorant",
+      "name_ar": "My Perfumes Creation Energy Deodorant",
+      "name_en": "My Perfumes Creation Energy Deodorant",
+      "brand": "My Perfume",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/my-perfumes-creation-energy-deodorant.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 135,
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-19"
+            }
+          ],
+          "image": "images/my-perfumes-creation-energy-deodorant--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/my-perfumes-creation-energy-deodorant-200ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "the-scent-edt-refill",
+      "name_ar": "The Scent EDT Refill",
+      "name_en": "The Scent EDT Refill",
+      "brand": "Boss",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/the-scent-edt-refill.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 9500,
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-19"
+            }
+          ],
+          "image": "images/the-scent-edt-refill--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/boss-the-scent-edt-refill-200ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "rose-prick-edp",
+      "name_ar": "Rose Prick EDP",
+      "name_en": "Rose Prick EDP",
+      "brand": "Tom Ford",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/rose-prick-edp.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 22600,
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-19"
+            }
+          ],
+          "image": "images/rose-prick-edp--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/tom-ford-rose-prick-edp-50ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "mpf-wow-oud-edp",
+      "name_ar": "MPF Wow Oud EDP",
+      "name_en": "MPF Wow Oud EDP",
+      "brand": "My Perfume",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/mpf-wow-oud-edp.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 80,
+              "price": 1135,
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-19"
+            }
+          ],
+          "image": "images/mpf-wow-oud-edp--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/mpf-wow-oud-edp-80ml"
+        }
+      ],
+      "_hero_source": "mazaya"
     }
   ]
 }
