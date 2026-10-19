@@ -12178,6 +12178,20 @@
               "ml": 100,
               "price": 1550,
               "first_seen": "2026-08-12"
+            },
+            {
+              "kind": "leftover",
+              "ml": 100,
+              "price": 1200,
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-19"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2250,
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-19"
             }
           ],
           "image": "images/arabian-tobacco--og-perfume.jpg",
@@ -26100,6 +26114,13 @@
             },
             {
               "kind": "full",
+              "ml": 150,
+              "price": 1950,
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-19"
+            },
+            {
+              "kind": "full",
               "ml": 200,
               "price": 2100,
               "first_seen": "2026-08-05"
@@ -39998,6 +40019,13 @@
               "price": 375,
               "first_seen": "2026-10-16",
               "sold_since": "2026-10-16"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 625,
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-19"
             },
             {
               "kind": "full",
@@ -134979,7 +135007,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 550,
-              "first_seen": "2026-10-14"
+              "first_seen": "2026-10-14",
+              "sold_since": "2026-10-19"
             },
             {
               "kind": "full",
