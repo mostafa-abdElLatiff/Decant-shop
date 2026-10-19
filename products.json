@@ -44478,7 +44478,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 220,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-19"
             },
             {
               "kind": "leftover",
@@ -44589,8 +44590,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1600,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/dkhoon-rose--og-perfume.jpg",
@@ -46194,7 +46194,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 205,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-19"
             },
             {
               "kind": "decant",
@@ -68411,7 +68412,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 185,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-19"
             },
             {
               "kind": "leftover",
@@ -84472,7 +84474,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 320,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-19"
             },
             {
               "kind": "decant",
@@ -99917,7 +99920,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 245,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-19"
             },
             {
               "kind": "leftover",
@@ -116284,7 +116288,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 175,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-19"
             },
             {
               "kind": "full",
@@ -140629,6 +140634,13 @@
               "price": 695,
               "first_seen": "2026-09-12",
               "sold_since": "2026-09-22"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 725,
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-19"
             },
             {
               "kind": "full",
@@ -170054,8 +170066,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 570,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-12"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -198352,6 +198363,13 @@
             },
             {
               "kind": "leftover",
+              "ml": 50,
+              "price": 875,
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-19"
+            },
+            {
+              "kind": "leftover",
               "ml": 90,
               "price": 1575,
               "first_seen": "2026-09-26",
@@ -200932,7 +200950,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 210,
-              "first_seen": "2026-09-05"
+              "first_seen": "2026-09-05",
+              "sold_since": "2026-10-19"
             },
             {
               "kind": "decant",
@@ -211993,11 +212012,17 @@
               "first_seen": "2026-10-04"
             },
             {
+              "kind": "leftover",
+              "ml": 70,
+              "price": 1500,
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-19"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 2150,
-              "first_seen": "2026-10-04",
-              "sold_since": "2026-10-13"
+              "first_seen": "2026-10-04"
             }
           ],
           "image": "images/asrar--og-perfume.jpg",
@@ -213327,7 +213352,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 240,
-              "first_seen": "2026-10-04"
+              "first_seen": "2026-10-04",
+              "sold_since": "2026-10-19"
             },
             {
               "kind": "decant",
@@ -213335,6 +213361,13 @@
               "price": 690,
               "first_seen": "2026-10-12",
               "sold_since": "2026-10-12"
+            },
+            {
+              "kind": "leftover",
+              "ml": 40,
+              "price": 860,
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-19"
             },
             {
               "kind": "full",
@@ -215280,6 +215313,33 @@
           ],
           "image": "images/rayhaan-vantage--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/rayhaan-vantage"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 180,
+              "first_seen": "2026-10-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 500,
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1500,
+              "first_seen": "2026-10-19"
+            }
+          ],
+          "image": "images/rayhaan-vantage--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/rayhaan-vantage"
         }
       ],
       "_hero_source": "emaratiscents"
