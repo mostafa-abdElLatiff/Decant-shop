@@ -97548,10 +97548,17 @@
               "first_seen": "2026-07-20"
             },
             {
+              "kind": "full",
+              "ml": 100,
+              "price": 1950,
+              "first_seen": "2026-10-20"
+            },
+            {
               "kind": "decant",
               "ml": 100,
               "price": 1950,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-10-20"
             }
           ],
           "image": "images/leo--roseperfume.jpg",
