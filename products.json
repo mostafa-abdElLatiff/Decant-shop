@@ -69115,19 +69115,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 125,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-10-20"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 165,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-10-20"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 250,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-10-20"
             },
             {
               "kind": "full",
@@ -69137,7 +69140,7 @@
             }
           ],
           "image": "images/hawas-for-him-black--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/rasasi-hawas-black"
+          "product_url": "https://sniffz-eg.com/products/rasasi-hawas-black-full-sealed"
         },
         {
           "name": "eldesoki-fragrances",
@@ -216151,6 +216154,45 @@
         }
       ],
       "_hero_source": "mazaya"
+    },
+    {
+      "id": "tonka-sarapia-extrait-75",
+      "name_ar": "",
+      "name_en": "Tonka Sarapia Extrait 75",
+      "brand": "Guerlain",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/tonka-sarapia-extrait-75.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 2185,
+              "first_seen": "2026-10-20"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 3120,
+              "first_seen": "2026-10-20"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 5200,
+              "first_seen": "2026-10-20"
+            }
+          ],
+          "image": "images/tonka-sarapia-extrait-75--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/guerlain-tonka-sarapia"
+        }
+      ],
+      "_hero_source": "sniffz"
     }
   ]
 }
