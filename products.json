@@ -5576,8 +5576,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8200,
-              "first_seen": "2026-10-12"
+              "price": 7500,
+              "first_seen": "2026-10-12",
+              "prev_price": 8200
             }
           ],
           "image": "images/al-fareed--eldesoki-fragrances.jpg",
@@ -113918,7 +113919,8 @@
               "kind": "full",
               "ml": 70,
               "price": 1175,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-21"
             }
           ],
           "image": "images/nayel-king-arabiyat--eldesoki-fragrances.jpg",
@@ -113945,7 +113947,8 @@
               "kind": "full",
               "ml": 70,
               "price": 1175,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-10-21"
             }
           ],
           "image": "images/nayel-queen-extrait--eldesoki-fragrances.jpg",
@@ -153465,7 +153468,8 @@
               "kind": "full",
               "ml": 100,
               "price": 825,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-10-21"
             }
           ],
           "image": "images/soul-bruno--eldesoki-fragrances.jpg",
