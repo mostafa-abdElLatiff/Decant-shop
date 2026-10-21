@@ -12002,9 +12002,9 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 1025,
+              "price": 925,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 1025
             },
             {
               "kind": "full",
@@ -13742,8 +13742,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -15239,6 +15238,13 @@
               "price": 565,
               "first_seen": "2026-10-14",
               "sold_since": "2026-10-15"
+            },
+            {
+              "kind": "leftover",
+              "ml": 60,
+              "price": 675,
+              "first_seen": "2026-10-21",
+              "sold_since": "2026-10-21"
             },
             {
               "kind": "leftover",
@@ -56251,7 +56257,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 205,
-              "first_seen": "2026-08-31"
+              "first_seen": "2026-08-31",
+              "sold_since": "2026-10-21"
             },
             {
               "kind": "leftover",
@@ -63481,6 +63488,12 @@
               "sold_since": "2026-07-23"
             },
             {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 875,
+              "first_seen": "2026-10-21"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1750,
@@ -68122,8 +68135,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 775,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -69230,6 +69242,13 @@
               "price": 775,
               "first_seen": "2026-07-19",
               "sold_since": "2026-08-14"
+            },
+            {
+              "kind": "leftover",
+              "ml": 60,
+              "price": 930,
+              "first_seen": "2026-10-21",
+              "sold_since": "2026-10-21"
             },
             {
               "kind": "full",
@@ -72200,8 +72219,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 1375,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -84410,8 +84428,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 700,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -103615,8 +103632,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -144365,6 +144381,12 @@
               "sold_since": "2026-07-19"
             },
             {
+              "kind": "leftover",
+              "ml": 70,
+              "price": 770,
+              "first_seen": "2026-10-21"
+            },
+            {
               "kind": "full",
               "ml": 150,
               "price": 1650,
@@ -160591,7 +160613,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1400,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-21"
             }
           ],
           "image": "images/terra-rayhaan--og-perfume.jpg",
@@ -166996,8 +167019,9 @@
             {
               "kind": "leftover",
               "ml": 40,
-              "price": 825,
+              "price": 800,
               "first_seen": "2026-07-19",
+              "prev_price": 825,
               "sold_since": "2026-07-19"
             },
             {
@@ -181347,7 +181371,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 210,
-              "first_seen": "2026-09-22"
+              "first_seen": "2026-09-22",
+              "sold_since": "2026-10-21"
             },
             {
               "kind": "decant",
@@ -192767,7 +192792,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 625,
-              "first_seen": "2026-08-14"
+              "first_seen": "2026-08-14",
+              "sold_since": "2026-10-21"
             },
             {
               "kind": "full",
@@ -192806,7 +192832,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 625,
-              "first_seen": "2026-08-14"
+              "first_seen": "2026-08-14",
+              "sold_since": "2026-10-21"
             },
             {
               "kind": "full",
@@ -200343,7 +200370,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 575,
-              "first_seen": "2026-10-04"
+              "first_seen": "2026-10-04",
+              "sold_since": "2026-10-21"
             },
             {
               "kind": "full",
@@ -201365,8 +201393,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 900,
-              "first_seen": "2026-09-12",
-              "sold_since": "2026-09-13"
+              "first_seen": "2026-09-12"
             },
             {
               "kind": "full",
@@ -208627,6 +208654,12 @@
               "first_seen": "2026-09-22"
             },
             {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 1375,
+              "first_seen": "2026-10-21"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 2750,
@@ -212438,7 +212471,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 240,
-              "first_seen": "2026-10-04"
+              "first_seen": "2026-10-04",
+              "sold_since": "2026-10-21"
             },
             {
               "kind": "leftover",
@@ -215752,7 +215786,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 180,
-              "first_seen": "2026-10-19"
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-21"
             },
             {
               "kind": "decant",
@@ -215762,10 +215797,18 @@
               "sold_since": "2026-10-20"
             },
             {
+              "kind": "leftover",
+              "ml": 45,
+              "price": 750,
+              "first_seen": "2026-10-21",
+              "sold_since": "2026-10-21"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1500,
-              "first_seen": "2026-10-19"
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-21"
             }
           ],
           "image": "images/rayhaan-vantage--og-perfume.jpg",
