@@ -93393,7 +93393,8 @@
               "kind": "full",
               "ml": 80,
               "price": 3300,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-22"
             }
           ],
           "image": "images/laathani--dar-elarabia.jpg",
@@ -103360,9 +103361,8 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 2750,
-              "first_seen": "2026-07-30",
-              "sold_since": "2026-10-14"
+              "price": 2850,
+              "first_seen": "2026-07-30"
             }
           ],
           "image": "images/marj--dar-elarabia.jpg",
@@ -109644,8 +109644,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2150,
-              "first_seen": "2026-09-03",
-              "sold_since": "2026-10-18"
+              "first_seen": "2026-09-03"
             }
           ],
           "image": "images/muharib--dar-elarabia.jpg",
@@ -203446,9 +203445,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2300,
+              "price": 2200,
               "first_seen": "2026-09-02",
-              "sold_since": "2026-10-18"
+              "prev_price": 2300
             }
           ],
           "image": "images/qasida-sahm--dar-elarabia.jpg",
@@ -203936,8 +203935,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2150,
-              "first_seen": "2026-09-03",
-              "sold_since": "2026-09-25"
+              "first_seen": "2026-09-03"
             }
           ],
           "image": "images/faris-al-arab-1788463286--dar-elarabia.jpg",
