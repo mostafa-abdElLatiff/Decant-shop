@@ -48961,7 +48961,8 @@
               "kind": "full",
               "ml": 75,
               "price": 18200,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-10-22"
             }
           ],
           "image": "images/edp-odeon--mazaya.jpg",
@@ -53312,6 +53313,14 @@
           "name": "mazaya",
           "url": "https://mazaya.eg/",
           "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 3400,
+              "first_seen": "2026-10-22",
+              "prev_price": 5700,
+              "sold_since": "2026-10-22"
+            },
             {
               "kind": "full",
               "ml": 100,
@@ -64599,7 +64608,8 @@
               "kind": "full",
               "ml": 100,
               "price": 23100,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-10-22"
             }
           ],
           "image": "images/gold-immortals--mazaya.jpg",
@@ -88340,7 +88350,7 @@
             }
           ],
           "image": "images/kuro-eau-de-parfum--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/kuro-eau-de-parfum-90-ml"
+          "product_url": "https://mazaya.eg/en/kuro-eau-de-parfum123455-html12"
         }
       ],
       "_hero_source": "mazaya",
@@ -109124,9 +109134,23 @@
             }
           ],
           "image": "images/more-than-words-tester--abo-anas-sayed.jpg"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 18900,
+              "first_seen": "2026-10-22"
+            }
+          ],
+          "image": "images/more-than-words-tester--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/more-than-words-edp"
         }
       ],
-      "_hero_source": "Abo Anas Sayed",
+      "_hero_source": "mazaya",
       "aliases": [
         "More Than Words Tester"
       ],
@@ -122321,6 +122345,13 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 13650,
+              "first_seen": "2026-10-22",
+              "sold_since": "2026-10-22"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 21150,
               "first_seen": "2026-10-22",
@@ -126092,6 +126123,13 @@
           "name": "mazaya",
           "url": "https://mazaya.eg/",
           "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 12750,
+              "first_seen": "2026-10-22",
+              "sold_since": "2026-10-22"
+            },
             {
               "kind": "full",
               "ml": 100,
@@ -151262,7 +151300,8 @@
               "kind": "full",
               "ml": 30,
               "price": 9250,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-10-22"
             }
           ],
           "image": "images/silver-musk--mazaya.jpg",
@@ -161760,6 +161799,13 @@
               "price": 12850,
               "first_seen": "2026-10-16",
               "sold_since": "2026-10-16"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 18500,
+              "first_seen": "2026-10-22",
+              "sold_since": "2026-10-22"
             }
           ],
           "image": "images/the-hedonist--mazaya.jpg",
@@ -181830,6 +181876,13 @@
               "kind": "full",
               "ml": 75,
               "price": 4785,
+              "first_seen": "2026-10-22",
+              "sold_since": "2026-10-22"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 5900,
               "first_seen": "2026-10-22",
               "sold_since": "2026-10-22"
             }
