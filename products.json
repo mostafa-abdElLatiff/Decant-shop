@@ -11715,6 +11715,13 @@
               "first_seen": "2026-07-19"
             },
             {
+              "kind": "leftover",
+              "ml": 25,
+              "price": 375,
+              "first_seen": "2026-10-22",
+              "sold_since": "2026-10-22"
+            },
+            {
               "kind": "decant",
               "ml": 30,
               "price": 480,
@@ -38214,7 +38221,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-22"
             }
           ],
           "image": "images/corium--og-perfume.jpg",
@@ -44475,7 +44483,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 950,
-              "first_seen": "2026-10-01"
+              "first_seen": "2026-10-01",
+              "sold_since": "2026-10-22"
             },
             {
               "kind": "full",
@@ -98363,7 +98372,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 180,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-22"
             },
             {
               "kind": "decant",
@@ -98628,7 +98638,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 875,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-22"
             },
             {
               "kind": "full",
@@ -164379,7 +164390,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 450,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-22"
             },
             {
               "kind": "full",
