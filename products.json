@@ -69280,20 +69280,23 @@
             {
               "kind": "decant",
               "ml": 5,
-              "price": 110,
-              "first_seen": "2026-07-29"
+              "price": 100,
+              "first_seen": "2026-07-29",
+              "prev_price": 110
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 200,
-              "first_seen": "2026-07-29"
+              "price": 175,
+              "first_seen": "2026-07-29",
+              "prev_price": 200
             },
             {
               "kind": "decant",
               "ml": 30,
-              "price": 550,
-              "first_seen": "2026-07-29"
+              "price": 500,
+              "first_seen": "2026-07-29",
+              "prev_price": 550
             },
             {
               "kind": "full",
@@ -126600,7 +126603,8 @@
               "kind": "decant",
               "ml": 5,
               "price": 100,
-              "first_seen": "2026-07-21"
+              "first_seen": "2026-07-21",
+              "sold_since": "2026-10-22"
             },
             {
               "kind": "decant",
@@ -151053,13 +151057,15 @@
               "kind": "decant",
               "ml": 5,
               "price": 65,
-              "first_seen": "2026-08-13"
+              "first_seen": "2026-08-13",
+              "sold_since": "2026-10-22"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 110,
-              "first_seen": "2026-08-13"
+              "first_seen": "2026-08-13",
+              "sold_since": "2026-10-22"
             },
             {
               "kind": "decant",
@@ -202313,13 +202319,15 @@
               "kind": "decant",
               "ml": 5,
               "price": 60,
-              "first_seen": "2026-08-31"
+              "first_seen": "2026-08-31",
+              "sold_since": "2026-10-22"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 100,
-              "first_seen": "2026-08-31"
+              "first_seen": "2026-08-31",
+              "sold_since": "2026-10-22"
             },
             {
               "kind": "decant",
@@ -202332,7 +202340,8 @@
               "kind": "full",
               "ml": 100,
               "price": 550,
-              "first_seen": "2026-08-31"
+              "first_seen": "2026-08-31",
+              "sold_since": "2026-10-22"
             }
           ],
           "image": "images/al-najah-arabiyat-my-perfumes--roseperfume.jpg",
