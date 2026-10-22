@@ -69620,7 +69620,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2485,
+              "price": 2599,
               "first_seen": "2026-10-07"
             }
           ],
@@ -82478,15 +82478,14 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 2007,
+              "price": 2099,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 200,
               "price": 2380,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-10-07"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/joop-homme-edt--feel22.jpg",
@@ -216479,6 +216478,40 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "dynamic-pulse-eau-de-toilette",
+      "name_ar": "Dynamic Pulse Eau de Toilette",
+      "name_en": "Dynamic Pulse Eau de Toilette",
+      "brand": "Adidas",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/dynamic-pulse-eau-de-toilette.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 345,
+              "first_seen": "2026-10-22",
+              "sold_since": "2026-10-22"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 599,
+              "first_seen": "2026-10-22"
+            }
+          ],
+          "image": "images/dynamic-pulse-eau-de-toilette--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/adidas-dynamic-pulse-eau-de-toilette-for-men"
+        }
+      ],
+      "_hero_source": "feel22"
     }
   ]
 }
