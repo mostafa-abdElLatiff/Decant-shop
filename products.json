@@ -22223,7 +22223,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7183,
+              "price": 8499,
               "first_seen": "2026-07-23"
             }
           ],
@@ -23213,7 +23213,7 @@
             {
               "kind": "full",
               "ml": 30,
-              "price": 10125,
+              "price": 12999,
               "first_seen": "2026-07-23"
             }
           ],
@@ -43429,7 +43429,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 9544,
+              "price": 9999,
               "first_seen": "2026-09-10"
             }
           ],
@@ -55564,7 +55564,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4095,
+              "price": 4899,
               "first_seen": "2026-07-23"
             }
           ],
@@ -74549,7 +74549,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 5538,
+              "price": 6299,
               "first_seen": "2026-07-23"
             }
           ],
@@ -83908,7 +83908,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 775,
+              "price": 799,
               "first_seen": "2026-07-23"
             }
           ],
@@ -102045,6 +102045,20 @@
           ],
           "image": "images/man-eau-de-toilette-calvin-klein--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/calvin-klein-man-eau-de-toilette123455-html11"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2699,
+              "first_seen": "2026-10-23"
+            }
+          ],
+          "image": "images/man-eau-de-toilette-calvin-klein--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/calvin-klein-man-eau-de-toilette-100ml"
         }
       ],
       "_hero_source": "mazaya",
@@ -104391,7 +104405,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3048,
+              "price": 3999,
               "first_seen": "2026-07-23"
             }
           ],
@@ -108936,9 +108950,8 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3511,
-              "first_seen": "2026-07-26",
-              "prev_price": 3687
+              "price": 3999,
+              "first_seen": "2026-07-26"
             }
           ],
           "image": "images/mont-blanc-emblem-eau-de-toilette-spray--feel22.jpg",
@@ -121692,7 +121705,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6335,
+              "price": 6899,
               "first_seen": "2026-07-23"
             },
             {
@@ -128225,7 +128238,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6429,
+              "price": 6699,
               "first_seen": "2026-07-23"
             }
           ],
@@ -137746,7 +137759,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1094,
+              "price": 1199,
               "first_seen": "2026-07-23"
             }
           ],
@@ -138069,7 +138082,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1627,
+              "price": 2299,
               "first_seen": "2026-07-23"
             }
           ],
@@ -152851,6 +152864,27 @@
           ],
           "image": "images/soleil-blanc-edp--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/tom-ford-soleil-blanc-edp"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 11405,
+              "first_seen": "2026-10-23",
+              "sold_since": "2026-10-23"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 26999,
+              "first_seen": "2026-10-23"
+            }
+          ],
+          "image": "images/soleil-blanc-edp--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/tom-ford-soleil-blanc-eau-de-parfum-spray-unise"
         }
       ],
       "_hero_source": "perfuzone",
@@ -210716,7 +210750,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4772,
+              "price": 4899,
               "first_seen": "2026-09-24"
             }
           ],
@@ -216580,7 +216614,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 599,
+              "price": 699,
               "first_seen": "2026-10-22"
             }
           ],
@@ -216695,12 +216729,73 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1228,
+              "price": 2799,
               "first_seen": "2026-10-23"
             }
           ],
           "image": "images/oud-eau-de-toilette--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/jacomo-oud-eau-de-toilette-for-men-100ml"
+        }
+      ],
+      "_hero_source": "feel22"
+    },
+    {
+      "id": "oud-noir-eau-de-parfum",
+      "name_ar": "Oud Noir Eau de Parfum",
+      "name_en": "Oud Noir Eau de Parfum",
+      "brand": "Versace",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/oud-noir-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 5999,
+              "first_seen": "2026-10-23"
+            }
+          ],
+          "image": "images/oud-noir-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/versace-oud-noir-eau-de-parfum-for-men-100ml"
+        }
+      ],
+      "_hero_source": "feel22"
+    },
+    {
+      "id": "hugo-reversed-eau-de-toilette",
+      "name_ar": "Hugo Reversed Eau De Toilette",
+      "name_en": "Hugo Reversed Eau De Toilette",
+      "brand": "Hugo Boss",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/hugo-reversed-eau-de-toilette.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 2250,
+              "first_seen": "2026-10-23",
+              "sold_since": "2026-10-23"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 3499,
+              "first_seen": "2026-10-23"
+            }
+          ],
+          "image": "images/hugo-reversed-eau-de-toilette--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/hugo-boss-hugo-reversed-eau-de-toilette-for-men"
         }
       ],
       "_hero_source": "feel22"
