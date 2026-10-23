@@ -40071,6 +40071,13 @@
             },
             {
               "kind": "leftover",
+              "ml": 30,
+              "price": 375,
+              "first_seen": "2026-10-23",
+              "sold_since": "2026-10-23"
+            },
+            {
+              "kind": "leftover",
               "ml": 50,
               "price": 625,
               "first_seen": "2026-10-19",
@@ -87594,6 +87601,13 @@
               "ml": 10,
               "price": 150,
               "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "leftover",
+              "ml": 25,
+              "price": 345,
+              "first_seen": "2026-10-23",
+              "sold_since": "2026-10-23"
             },
             {
               "kind": "leftover",
@@ -148709,7 +148723,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-23"
             }
           ],
           "image": "images/sharaf-divine--og-perfume.jpg",
@@ -205896,7 +205911,8 @@
               "kind": "full",
               "ml": 200,
               "price": 1650,
-              "first_seen": "2026-09-07"
+              "first_seen": "2026-09-07",
+              "sold_since": "2026-10-23"
             }
           ],
           "image": "images/pink-queen--og-perfume.jpg",
