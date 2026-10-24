@@ -39097,7 +39097,8 @@
               "kind": "decant",
               "ml": 5,
               "price": 100,
-              "first_seen": "2026-08-17"
+              "first_seen": "2026-08-17",
+              "sold_since": "2026-10-24"
             },
             {
               "kind": "decant",
@@ -39110,7 +39111,14 @@
               "kind": "decant",
               "ml": 30,
               "price": 500,
-              "first_seen": "2026-08-17"
+              "first_seen": "2026-08-17",
+              "sold_since": "2026-10-24"
+            },
+            {
+              "kind": "decant",
+              "ml": 35,
+              "price": 525,
+              "first_seen": "2026-10-24"
             },
             {
               "kind": "full",
@@ -118510,7 +118518,8 @@
               "kind": "full",
               "ml": 100,
               "price": 700,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-10-24"
             }
           ],
           "image": "images/nuke-2-0-fragrance-world--roseperfume.jpg",
@@ -130078,13 +130087,15 @@
               "kind": "decant",
               "ml": 5,
               "price": 100,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-10-24"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 175,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-10-24"
             },
             {
               "kind": "decant",
