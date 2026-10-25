@@ -31193,7 +31193,7 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 165,
+              "price": 175,
               "first_seen": "2026-07-31"
             },
             {
@@ -31213,7 +31213,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1350,
+              "price": 1450,
               "first_seen": "2026-07-31"
             }
           ],
@@ -38253,7 +38253,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 425,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-25"
             },
             {
               "kind": "full",
@@ -65480,7 +65481,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-25"
             }
           ],
           "image": "images/greek-tobacco--og-perfume.jpg",
@@ -101291,7 +101293,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 1050,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-25"
             },
             {
               "kind": "full",
@@ -107884,7 +107887,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2050,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-25"
             }
           ],
           "image": "images/miss-gris--og-perfume.jpg",
@@ -116548,7 +116552,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1450,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-25"
             }
           ],
           "image": "images/nocturno-elixir--og-perfume.jpg",
@@ -145526,7 +145531,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-25"
             },
             {
               "kind": "leftover",
@@ -147823,7 +147829,8 @@
               "kind": "full",
               "ml": 75,
               "price": 2600,
-              "first_seen": "2026-08-22"
+              "first_seen": "2026-08-22",
+              "sold_since": "2026-10-25"
             }
           ],
           "image": "images/shaghaf-amber-infusion--og-perfume.jpg",
@@ -177145,7 +177152,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 145,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-25"
             },
             {
               "kind": "decant",
@@ -190434,8 +190442,7 @@
               "kind": "decant",
               "ml": 30,
               "price": 435,
-              "first_seen": "2026-08-10",
-              "sold_since": "2026-08-29"
+              "first_seen": "2026-08-10"
             },
             {
               "kind": "leftover",
