@@ -890,6 +890,13 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 100,
+              "price": 5300,
+              "first_seen": "2026-10-25",
+              "sold_since": "2026-10-25"
+            },
+            {
+              "kind": "full",
               "ml": 200,
               "price": 6000,
               "first_seen": "2026-10-25",
@@ -83286,6 +83293,13 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 75,
+              "price": 4200,
+              "first_seen": "2026-10-25",
+              "sold_since": "2026-10-25"
+            },
+            {
+              "kind": "full",
               "ml": 125,
               "price": 4800,
               "first_seen": "2026-10-25",
@@ -109573,6 +109587,13 @@
           "name": "mazaya",
           "url": "https://mazaya.eg/",
           "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 3592,
+              "first_seen": "2026-10-25",
+              "sold_since": "2026-10-25"
+            },
             {
               "kind": "full",
               "ml": 100,
@@ -163306,10 +163327,24 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 4900,
+              "first_seen": "2026-10-25",
+              "sold_since": "2026-10-25"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 6100,
               "first_seen": "2026-07-23",
               "prev_price": 7500,
+              "sold_since": "2026-10-25"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 9900,
+              "first_seen": "2026-10-25",
               "sold_since": "2026-10-25"
             }
           ],
@@ -180187,7 +180222,6 @@
               "ml": 60,
               "price": 7800,
               "first_seen": "2026-07-23",
-              "prev_price": 8200,
               "sold_since": "2026-10-25"
             },
             {
@@ -180195,7 +180229,6 @@
               "ml": 100,
               "price": 8800,
               "first_seen": "2026-07-23",
-              "prev_price": 9800,
               "sold_since": "2026-10-25"
             },
             {
@@ -216073,7 +216106,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2300,
-              "first_seen": "2026-10-15"
+              "first_seen": "2026-10-15",
+              "sold_since": "2026-10-25"
             }
           ],
           "image": "images/champion-eau-de-parfum--mazaya.jpg",
