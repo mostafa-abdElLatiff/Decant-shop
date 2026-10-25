@@ -51868,7 +51868,8 @@
               "kind": "full",
               "ml": 100,
               "price": 6200,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-10-25"
             }
           ],
           "image": "images/emporio-armani-stronger-with-you-eau-de-toilette--mazaya.jpg",
@@ -128970,6 +128971,13 @@
               "price": 6572,
               "first_seen": "2026-09-15",
               "sold_since": "2026-10-25"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 7876,
+              "first_seen": "2026-10-25",
+              "sold_since": "2026-10-25"
             }
           ],
           "image": "images/pasha-de-cartier-parfum--mazaya.jpg",
@@ -178383,7 +178391,8 @@
               "kind": "full",
               "ml": 200,
               "price": 2900,
-              "first_seen": "2026-10-15"
+              "first_seen": "2026-10-15",
+              "sold_since": "2026-10-25"
             }
           ],
           "image": "images/wild-colt-elixir-assaf--mazaya.jpg",
@@ -180827,6 +180836,7 @@
               "ml": 60,
               "price": 7800,
               "first_seen": "2026-07-23",
+              "prev_price": 8200,
               "sold_since": "2026-10-25"
             },
             {
@@ -180834,6 +180844,7 @@
               "ml": 100,
               "price": 8800,
               "first_seen": "2026-07-23",
+              "prev_price": 9800,
               "sold_since": "2026-10-25"
             },
             {
