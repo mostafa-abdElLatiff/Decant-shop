@@ -8596,7 +8596,8 @@
               "kind": "full",
               "ml": 100,
               "price": 650,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-10-25"
             }
           ],
           "image": "images/amber-grand--eldesoki-fragrances.jpg",
@@ -105373,7 +105374,6 @@
               "ml": 100,
               "price": 1275,
               "first_seen": "2026-07-18",
-              "prev_price": 1325,
               "sold_since": "2026-08-03"
             }
           ],
@@ -138065,7 +138065,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1575,
+              "price": 1650,
               "first_seen": "2026-09-12"
             }
           ],
@@ -139328,7 +139328,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1450,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-10-25"
             }
           ],
           "image": "images/rayhaan-elixir--eldesoki-fragrances.jpg",
@@ -218543,6 +218544,33 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "encre-noir-a-l-extreme-lalique",
+      "name_ar": "انكر نوار اكستريم ١٠٠ملي من لاليك",
+      "name_en": "Encre Noir A L’Extreme Lalique",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/encre-noir-a-l-extreme-lalique.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1725,
+              "first_seen": "2026-10-25"
+            }
+          ],
+          "image": "images/encre-noir-a-l-extreme-lalique--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/encre-noir-a-lextreme-lalique-100ml-%d8%a7%d9%86%d9%83%d8%b1-%d9%86%d9%88%d8%a7%d8%b1-%d8%a7%d9%83%d8%b3%d8%aa%d8%b1%d9%8a%d9%85-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%84%d8%a7%d9%84/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
