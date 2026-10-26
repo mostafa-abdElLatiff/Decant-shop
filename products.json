@@ -36463,8 +36463,9 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 8800,
+              "price": 7200,
               "first_seen": "2026-07-23",
+              "prev_price": 8800,
               "sold_since": "2026-10-26"
             },
             {
@@ -36477,8 +36478,9 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 9800,
+              "price": 8800,
               "first_seen": "2026-07-23",
+              "prev_price": 9800,
               "sold_since": "2026-10-26"
             }
           ],
@@ -54957,7 +54959,6 @@
               "ml": 200,
               "price": 4112,
               "first_seen": "2026-07-23",
-              "prev_price": 4276,
               "sold_since": "2026-07-23"
             }
           ],
@@ -105945,7 +105946,8 @@
               "kind": "full",
               "ml": 100,
               "price": 5280,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-10-26"
             }
           ],
           "image": "images/mercedes-benz-eau-de-parfum--mazaya.jpg",
@@ -199655,8 +199657,7 @@
               "kind": "full",
               "ml": 200,
               "price": 4995,
-              "first_seen": "2026-08-24",
-              "sold_since": "2026-10-26"
+              "first_seen": "2026-08-24"
             }
           ],
           "image": "images/la-luna-edp-signautre--mazaya.jpg",
