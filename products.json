@@ -29848,8 +29848,7 @@
               "kind": "full",
               "ml": 100,
               "price": 12200,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-10-24"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/caden--emaratiscents.jpg",
@@ -35087,14 +35086,13 @@
           "offers": [
             {
               "kind": "full",
-              "ml": 200,
-              "price": 3250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-10-10"
+              "ml": 150,
+              "price": 2850,
+              "first_seen": "2026-10-26"
             }
           ],
           "image": "images/club-de-nuit-intense-man-edp--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/club-de-nuit-intense-man-edp-200-ml"
+          "product_url": "https://emaratiscents.com/products/club-de-nuit-intense-man-edp-150-ml"
         },
         {
           "name": "feel22",
@@ -40218,8 +40216,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1200,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-10-18"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/daarej-extrait--emaratiscents.jpg",
@@ -54431,7 +54428,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1950,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-10-26"
             }
           ],
           "image": "images/eternal-vanille--emaratiscents.jpg",
@@ -111345,7 +111343,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2550,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-26"
             }
           ],
           "image": "images/musk-kashmir--emaratiscents.jpg",
@@ -126260,8 +126259,7 @@
               "kind": "full",
               "ml": 100,
               "price": 37000,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/oud-zuhal-limited-edition--emaratiscents.jpg",
@@ -151158,8 +151156,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-10-25"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/signature-rose-gold-dkhoon-emirates--emaratiscents.jpg",
@@ -177212,8 +177209,7 @@
               "kind": "full",
               "ml": 150,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-10-26"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/white-regent-diamond--emaratiscents.jpg",
@@ -206757,7 +206753,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-09-27"
+              "first_seen": "2026-09-27",
+              "sold_since": "2026-10-26"
             },
             {
               "kind": "full",
@@ -216403,7 +216400,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-10-18"
+              "first_seen": "2026-10-18",
+              "sold_since": "2026-10-26"
             }
           ],
           "image": "images/rayhaan-vantage--emaratiscents.jpg",
@@ -218121,6 +218119,33 @@
         }
       ],
       "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "momento-liquid-gold",
+      "name_ar": "Momento Liquid Gold",
+      "name_en": "Momento Liquid Gold",
+      "brand": "Riffs",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/momento-liquid-gold.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2050,
+              "first_seen": "2026-10-26"
+            }
+          ],
+          "image": "images/momento-liquid-gold--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/momento-liquid-gold"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
