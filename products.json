@@ -16707,7 +16707,7 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 135,
+              "price": 140,
               "first_seen": "2026-07-19"
             },
             {
@@ -16741,7 +16741,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1050,
+              "price": 1100,
               "first_seen": "2026-07-19"
             }
           ],
@@ -23781,15 +23781,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-13"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 425,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-20"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -23809,8 +23807,7 @@
               "kind": "full",
               "ml": 150,
               "price": 1650,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-24"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/black-diamond-incense--og-perfume.jpg",
@@ -25784,15 +25781,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 145,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-28"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 400,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-01"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -25833,8 +25828,7 @@
               "kind": "full",
               "ml": 150,
               "price": 1650,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/blue-diamond-aqua--og-perfume.jpg",
@@ -50384,8 +50378,7 @@
               "kind": "full",
               "ml": 150,
               "price": 1650,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-22"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/emerald-soul-diamond--og-perfume.jpg",
@@ -65480,8 +65473,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-29"
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 575,
+              "first_seen": "2026-10-26"
             },
             {
               "kind": "leftover",
@@ -65501,8 +65499,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-25"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/greek-tobacco--og-perfume.jpg",
@@ -106235,29 +106232,19 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
-              "kind": "leftover",
-              "ml": 43,
-              "price": 850,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 1750,
-              "first_seen": "2026-09-29",
-              "sold_since": "2026-09-29"
+              "kind": "decant",
+              "ml": 30,
+              "price": 575,
+              "first_seen": "2026-10-26"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/mexican-tobacco--og-perfume.jpg",
@@ -109816,8 +109803,9 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 1200,
+              "price": 1075,
               "first_seen": "2026-07-19",
+              "prev_price": 1200,
               "sold_since": "2026-07-19"
             },
             {
@@ -118333,15 +118321,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-18"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 385,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-16"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -118382,8 +118368,7 @@
               "kind": "full",
               "ml": 150,
               "price": 1650,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-22"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/nude-coral-diamond--og-perfume.jpg",
@@ -177255,15 +177240,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 145,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-25"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 385,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-02"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -177290,8 +177273,7 @@
               "kind": "full",
               "ml": 150,
               "price": 1650,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-07"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/white-regent-diamond--og-perfume.jpg",
@@ -180468,7 +180450,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1050,
+              "price": 1100,
               "first_seen": "2026-07-19"
             }
           ],
@@ -180533,7 +180515,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1050,
+              "price": 1100,
               "first_seen": "2026-07-19"
             }
           ],
