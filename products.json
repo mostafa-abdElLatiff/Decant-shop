@@ -12206,6 +12206,20 @@
               "ml": 100,
               "price": 1550,
               "first_seen": "2026-08-12"
+            },
+            {
+              "kind": "leftover",
+              "ml": 100,
+              "price": 1200,
+              "first_seen": "2026-10-26",
+              "sold_since": "2026-10-26"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2250,
+              "first_seen": "2026-10-26",
+              "sold_since": "2026-10-26"
             }
           ],
           "image": "images/arabian-tobacco--og-perfume.jpg",
@@ -26185,6 +26199,13 @@
             },
             {
               "kind": "full",
+              "ml": 150,
+              "price": 1950,
+              "first_seen": "2026-10-26",
+              "sold_since": "2026-10-26"
+            },
+            {
+              "kind": "full",
               "ml": 200,
               "price": 2100,
               "first_seen": "2026-08-05"
@@ -29220,6 +29241,13 @@
               "kind": "leftover",
               "ml": 100,
               "price": 1150,
+              "first_seen": "2026-10-26",
+              "sold_since": "2026-10-26"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1550,
               "first_seen": "2026-10-26",
               "sold_since": "2026-10-26"
             },
@@ -40108,6 +40136,13 @@
               "price": 375,
               "first_seen": "2026-10-23",
               "sold_since": "2026-10-23"
+            },
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 625,
+              "first_seen": "2026-10-26",
+              "sold_since": "2026-10-26"
             },
             {
               "kind": "full",
@@ -74106,7 +74141,8 @@
               "kind": "leftover",
               "ml": 35,
               "price": 700,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-10-26"
             },
             {
               "kind": "full",
