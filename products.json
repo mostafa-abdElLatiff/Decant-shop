@@ -1710,7 +1710,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1525,
+              "price": 1650,
               "first_seen": "2026-07-30"
             }
           ],
@@ -2202,7 +2202,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1750,
+              "price": 1800,
               "first_seen": "2026-07-19",
               "sold_since": "2026-09-06"
             }
@@ -65980,8 +65980,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2050,
-              "first_seen": "2026-07-18"
+              "price": 1975,
+              "first_seen": "2026-07-18",
+              "prev_price": 2050
             }
           ],
           "image": "images/gris-eric-assaf--eldesoki-fragrances.jpg",
@@ -158931,7 +158932,7 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 2500,
+              "price": 2675,
               "first_seen": "2026-07-30"
             }
           ],
@@ -165167,7 +165168,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 225,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-10-26"
             },
             {
               "kind": "leftover",
@@ -214928,8 +214930,9 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 7750,
-              "first_seen": "2026-10-12"
+              "price": 7400,
+              "first_seen": "2026-10-12",
+              "prev_price": 7750
             }
           ],
           "image": "images/al-qurashi-blend-abdul-samad-al-qurashi--eldesoki-fragrances.jpg",
@@ -216060,8 +216063,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 125,
-              "first_seen": "2026-10-15"
+              "price": 115,
+              "first_seen": "2026-10-15",
+              "prev_price": 125
             }
           ],
           "image": "images/khanjar-1792054974--eldesoki-fragrances.jpg",
