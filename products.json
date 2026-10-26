@@ -93540,8 +93540,7 @@
               "kind": "full",
               "ml": 80,
               "price": 3300,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-22"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/laathani--dar-elarabia.jpg",
@@ -214498,6 +214497,20 @@
           ],
           "image": "images/hersh-96--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/hersh-96"
+        },
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3300,
+              "first_seen": "2026-10-26"
+            }
+          ],
+          "image": "images/hersh-96--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/hersh-96"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -218065,6 +218078,33 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "spirito-ignite",
+      "name_ar": "Spirito Ignite",
+      "name_en": "Spirito Ignite",
+      "brand": "French Avenue",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/spirito-ignite.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1950,
+              "first_seen": "2026-10-26"
+            }
+          ],
+          "image": "images/spirito-ignite--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/spirito-ignite"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
     }
   ]
 }
