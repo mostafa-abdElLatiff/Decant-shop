@@ -110489,9 +110489,8 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1950,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-10-20"
+              "price": 2050,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/musamam-black-intense--emaratiscents.jpg",
@@ -151185,7 +151184,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-10-26"
             }
           ],
           "image": "images/signature-rose-gold-dkhoon-emirates--emaratiscents.jpg",
@@ -218206,6 +218206,87 @@
         }
       ],
       "_hero_source": "mazaya"
+    },
+    {
+      "id": "take-off",
+      "name_ar": "Take Off",
+      "name_en": "Take Off",
+      "brand": "Assaf",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/take-off.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2450,
+              "first_seen": "2026-10-26"
+            }
+          ],
+          "image": "images/take-off--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/take-off-200-ml"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "frankel-aventus-strike",
+      "name_ar": "Frankel Aventus Strike",
+      "name_en": "Frankel Aventus Strike",
+      "brand": "Assaf",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/frankel-aventus-strike.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2250,
+              "first_seen": "2026-10-26"
+            }
+          ],
+          "image": "images/frankel-aventus-strike--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/frankel-aventus-strike-200-ml"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "frankel-ascot",
+      "name_ar": "Frankel Ascot",
+      "name_en": "Frankel Ascot",
+      "brand": "Assaf",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/frankel-ascot.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2250,
+              "first_seen": "2026-10-26"
+            }
+          ],
+          "image": "images/frankel-ascot--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/frankel-ascot-200-ml"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
