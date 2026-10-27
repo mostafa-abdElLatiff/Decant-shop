@@ -97757,13 +97757,6 @@
               "ml": 100,
               "price": 1950,
               "first_seen": "2026-10-20"
-            },
-            {
-              "kind": "decant",
-              "ml": 100,
-              "price": 1950,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-10-20"
             }
           ],
           "image": "images/leo--roseperfume.jpg",
@@ -131180,7 +131173,8 @@
               "kind": "decant",
               "ml": 45,
               "price": 950,
-              "first_seen": "2026-10-19"
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-27"
             },
             {
               "kind": "full",
@@ -191596,7 +191590,8 @@
               "kind": "decant",
               "ml": 60,
               "price": 500,
-              "first_seen": "2026-10-19"
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-10-27"
             },
             {
               "kind": "full",
