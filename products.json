@@ -12253,7 +12253,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1999,
+              "price": 2500,
               "first_seen": "2026-07-23"
             },
             {
@@ -19290,7 +19290,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 26460,
+              "price": 27692,
               "first_seen": "2026-09-13"
             }
           ],
@@ -45841,7 +45841,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1937,
+              "price": 1999,
               "first_seen": "2026-07-23"
             }
           ],
@@ -65650,7 +65650,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 17662,
+              "price": 21000,
               "first_seen": "2026-07-23"
             }
           ],
@@ -72064,6 +72064,20 @@
           ],
           "image": "images/herod-edp--mohamed-mohie.jpg",
           "product_url": "https://www.facebook.com/groups/1321209448577265/posts/1965247204173483/"
+        },
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 19231,
+              "first_seen": "2026-10-27"
+            }
+          ],
+          "image": "images/herod-edp--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/parfums-de-marly-herod-eau-de-parfum-for-men-125ml"
         }
       ],
       "_hero_source": "mazaya",
@@ -151680,7 +151694,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 18715,
+              "price": 21000,
               "first_seen": "2026-07-23"
             }
           ],
@@ -218437,6 +218451,33 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "the-scent-magnetic-eau-de-parfum",
+      "name_ar": "The Scent Magnetic Eau de Parfum",
+      "name_en": "The Scent Magnetic Eau de Parfum",
+      "brand": "Hugo Boss",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/the-scent-magnetic-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 4898,
+              "first_seen": "2026-10-27"
+            }
+          ],
+          "image": "images/the-scent-magnetic-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/hugo-boss-the-scent-magnetic-eau-de-parfum-for-men-100ml"
+        }
+      ],
+      "_hero_source": "feel22"
     }
   ]
 }
