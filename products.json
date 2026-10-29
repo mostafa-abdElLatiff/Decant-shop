@@ -23531,14 +23531,14 @@
               "kind": "leftover",
               "ml": 70,
               "price": 770,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-29"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
               "ml": 75,
               "price": 880,
-              "first_seen": "2026-09-11"
+              "first_seen": "2026-09-11",
+              "sold_since": "2026-10-29"
             },
             {
               "kind": "full",
@@ -68687,7 +68687,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 775,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-29"
             },
             {
               "kind": "leftover",
@@ -69648,8 +69649,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 195,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-18"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
@@ -69683,8 +69683,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-14"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/hawas-for-him-ice--og-perfume.jpg",
@@ -130833,8 +130832,7 @@
               "kind": "leftover",
               "ml": 80,
               "price": 880,
-              "first_seen": "2026-09-12",
-              "sold_since": "2026-10-15"
+              "first_seen": "2026-09-12"
             },
             {
               "kind": "leftover",
@@ -133417,7 +133415,7 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 265,
+              "price": 285,
               "first_seen": "2026-07-19",
               "sold_since": "2026-07-19"
             },
@@ -133438,9 +133436,8 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2450,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "price": 2650,
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/prestige-ruby--og-perfume.jpg",
@@ -136799,15 +136796,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 130,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-31"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 350,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -147692,8 +147687,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 305,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-06"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -147706,8 +147700,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-05"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/serious--og-perfume.jpg",
@@ -149355,7 +149348,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 400,
-              "first_seen": "2026-09-21"
+              "first_seen": "2026-09-21",
+              "sold_since": "2026-10-29"
             },
             {
               "kind": "full",
@@ -161210,7 +161204,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 170,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-29"
             },
             {
               "kind": "decant",
@@ -218729,6 +218724,171 @@
         }
       ],
       "_hero_source": "feel22"
+    },
+    {
+      "id": "caneza-mezmar-men",
+      "name_ar": "Caneza Mezmar Men",
+      "name_en": "Caneza Mezmar Men",
+      "brand": "Canéza",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/caneza-mezmar-men.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 210,
+              "first_seen": "2026-10-29"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1750,
+              "first_seen": "2026-10-29"
+            }
+          ],
+          "image": "images/caneza-mezmar-men--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/caneza-mezmar-men"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "caneza-mortal",
+      "name_ar": "Caneza Mortal",
+      "name_en": "Caneza Mortal",
+      "brand": "Canéza",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/caneza-mortal.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 210,
+              "first_seen": "2026-10-29"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1750,
+              "first_seen": "2026-10-29"
+            }
+          ],
+          "image": "images/caneza-mortal--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/caneza-mortal"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "caneza-sultan",
+      "name_ar": "Caneza Sultan",
+      "name_en": "Caneza Sultan",
+      "brand": "Canéza",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/caneza-sultan.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 210,
+              "first_seen": "2026-10-29"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1750,
+              "first_seen": "2026-10-29"
+            }
+          ],
+          "image": "images/caneza-sultan--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/caneza-sultan"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "caneza-prisca",
+      "name_ar": "Caneza Prisca",
+      "name_en": "Caneza Prisca",
+      "brand": "Canéza",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/caneza-prisca.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 210,
+              "first_seen": "2026-10-29"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1750,
+              "first_seen": "2026-10-29"
+            }
+          ],
+          "image": "images/caneza-prisca--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/caneza-prisca"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "caneza-veleno",
+      "name_ar": "Caneza Veleno",
+      "name_en": "Caneza Veleno",
+      "brand": "Canéza",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/caneza-veleno.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 210,
+              "first_seen": "2026-10-29"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1750,
+              "first_seen": "2026-10-29"
+            }
+          ],
+          "image": "images/caneza-veleno--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/caneza-veleno"
+        }
+      ],
+      "_hero_source": "og-perfume"
     }
   ]
 }
