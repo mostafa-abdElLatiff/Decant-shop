@@ -47472,10 +47472,24 @@
           "offers": [
             {
               "kind": "decant",
+              "ml": 3,
+              "price": 300,
+              "first_seen": "2026-10-29",
+              "sold_since": "2026-10-29"
+            },
+            {
+              "kind": "decant",
               "ml": 5,
               "price": 410,
               "first_seen": "2026-10-24",
               "sold_since": "2026-10-24"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 650,
+              "first_seen": "2026-10-29",
+              "sold_since": "2026-10-29"
             },
             {
               "kind": "full",
