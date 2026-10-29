@@ -102941,20 +102941,22 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8880,
+              "price": 8720,
               "first_seen": "2026-07-23",
-              "prev_price": 10560
+              "prev_price": 8880,
+              "sold_since": "2026-10-29"
             },
             {
               "kind": "full",
               "ml": 150,
-              "price": 12080,
+              "price": 10400,
               "first_seen": "2026-07-23",
+              "prev_price": 12080,
               "sold_since": "2026-10-29"
             }
           ],
           "image": "images/man-wood-essence--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/bvlgari-man-wood-essence-edp-100ml"
+          "product_url": "https://mazaya.eg/en/bvlgari-man-wood-essence-edp123"
         },
         {
           "name": "Ahmed Abdel Kareem",
@@ -168044,7 +168046,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-10-15"
+              "first_seen": "2026-10-15",
+              "sold_since": "2026-10-29"
             }
           ],
           "image": "images/tyrant--mazaya.jpg",
