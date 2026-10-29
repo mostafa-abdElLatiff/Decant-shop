@@ -3821,13 +3821,20 @@
           "offers": [
             {
               "kind": "decant",
+              "ml": 3,
+              "price": 215,
+              "first_seen": "2026-10-29"
+            },
+            {
+              "kind": "decant",
               "ml": 5,
               "price": 330,
-              "first_seen": "2026-07-17"
+              "first_seen": "2026-07-17",
+              "sold_since": "2026-10-29"
             }
           ],
           "image": "images/acqua-di-gi-profondo--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/giorgio-armani-acqua-di-gio-profondo-edp-5ml-323"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/giorgio-armani-acqua-di-gio-profondo-edp-3ml-432"
         },
         {
           "name": "sniffz",
@@ -45653,13 +45660,6 @@
               "ml": 3,
               "price": 255,
               "first_seen": "2026-07-17"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 395,
-              "first_seen": "2026-07-17",
-              "sold_since": "2026-10-21"
             }
           ],
           "image": "images/donna-born-in-roma-ivory-women--mo-shawky.jpg",
@@ -58906,7 +58906,7 @@
             }
           ],
           "image": "images/for-her-intense--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/narciso-rodriguez-for-her-intense-3ml-444"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/narciso-rodriguez-for-her-intense-5ml-390"
         }
       ],
       "_hero_source": "MO Shawky",
@@ -60586,11 +60586,18 @@
               "kind": "decant",
               "ml": 5,
               "price": 125,
-              "first_seen": "2026-08-08"
+              "first_seen": "2026-08-08",
+              "sold_since": "2026-10-29"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-10-29"
             }
           ],
           "image": "images/frankel-silver-assaf--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/assaf-frankel-silver-5ml-173"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/assaf-frankel-silver-10ml-172"
         },
         {
           "name": "feel22",
@@ -102433,7 +102440,7 @@
             }
           ],
           "image": "images/man-eau-fraiche--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/versace-man-eau-fraiche-3ml-523"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/versace-man-eau-fraiche-5ml-522"
         }
       ],
       "_hero_source": "sniffz",
@@ -186713,7 +186720,7 @@
             }
           ],
           "image": "images/velvet-iris-by-dominique-ropion--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-velvet-iris-5ml-480"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-velvet-iris-3ml-481"
         }
       ],
       "aliases": [
@@ -209473,7 +209480,7 @@
             }
           ],
           "image": "images/212-vip-black-elixir--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ch-212-vip-black-elixir-5ml-556"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/ch-212-vip-black-elixir-3ml-557"
         }
       ],
       "_hero_source": "MO Shawky"
