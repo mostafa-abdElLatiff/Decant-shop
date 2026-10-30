@@ -76863,7 +76863,8 @@
               "kind": "full",
               "ml": 50,
               "price": 3600,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-30"
             }
           ],
           "image": "images/incense-01--emaratiscents.jpg",
@@ -79176,12 +79177,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3750,
-              "first_seen": "2026-07-18"
+              "price": 3200,
+              "first_seen": "2026-07-18",
+              "prev_price": 3750
             }
           ],
           "image": "images/irth-collection--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/new-irth-collection"
+          "product_url": "https://emaratiscents.com/products/irth-collection-mini-diamond-set"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -165361,7 +165363,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2450,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-10-30"
             }
           ],
           "image": "images/tobacco-jam-50--emaratiscents.jpg",
@@ -206842,7 +206845,8 @@
               "kind": "full",
               "ml": 200,
               "price": 2350,
-              "first_seen": "2026-09-07"
+              "first_seen": "2026-09-07",
+              "sold_since": "2026-10-30"
             }
           ],
           "image": "images/amjad-coral--emaratiscents.jpg",
