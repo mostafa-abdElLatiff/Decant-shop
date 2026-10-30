@@ -86634,7 +86634,8 @@
               "kind": "full",
               "ml": 75,
               "price": 800,
-              "first_seen": "2026-07-28"
+              "first_seen": "2026-07-28",
+              "sold_since": "2026-10-30"
             }
           ],
           "image": "images/khanjar-otoori--emaratiscents.jpg",
@@ -151628,8 +151629,7 @@
               "kind": "full",
               "ml": 100,
               "price": 790,
-              "first_seen": "2026-07-18",
-              "prev_price": 970
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/silk-musk--emaratiscents.jpg",
@@ -161367,7 +161367,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-08-08"
+              "first_seen": "2026-08-08",
+              "sold_since": "2026-10-30"
             }
           ],
           "image": "images/terra-rayhaan--emaratiscents.jpg",
@@ -216819,7 +216820,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1650,
+              "price": 1750,
               "first_seen": "2026-10-18",
               "sold_since": "2026-10-26"
             }
@@ -219218,6 +219219,33 @@
           ],
           "image": "images/silk-musk-black--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/silk-musk-black"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "the-new-king-s-bundle",
+      "name_ar": "The New King'S Bundle",
+      "name_en": "The New King'S Bundle",
+      "brand": "Arabiyat Prestige",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/the-new-king-s-bundle.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 4350,
+              "first_seen": "2026-10-30"
+            }
+          ],
+          "image": "images/the-new-king-s-bundle--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/the-new-kings-bundle"
         }
       ],
       "_hero_source": "emaratiscents"
