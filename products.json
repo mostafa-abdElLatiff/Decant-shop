@@ -47058,7 +47058,8 @@
               "kind": "full",
               "ml": 200,
               "price": 4850,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-30"
             }
           ],
           "image": "images/dylan-blue--eldesoki-fragrances.jpg",
@@ -161591,7 +161592,8 @@
               "kind": "full",
               "ml": 200,
               "price": 8150,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-10-30"
             }
           ],
           "image": "images/terre-d-hermes-edt--eldesoki-fragrances.jpg",
@@ -174459,14 +174461,15 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 240,
+              "price": 250,
               "first_seen": "2026-09-04"
             },
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 1575,
-              "first_seen": "2026-09-04"
+              "price": 1500,
+              "first_seen": "2026-09-04",
+              "prev_price": 1575
             },
             {
               "kind": "full",
@@ -183643,15 +183646,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 175,
-              "first_seen": "2026-09-14",
-              "sold_since": "2026-10-23"
+              "first_seen": "2026-09-14"
             },
             {
               "kind": "leftover",
               "ml": 100,
-              "price": 1250,
-              "first_seen": "2026-09-15",
-              "sold_since": "2026-09-17"
+              "price": 1350,
+              "first_seen": "2026-09-15"
             }
           ],
           "image": "images/qasida-signature--eldesoki-fragrances.jpg",
