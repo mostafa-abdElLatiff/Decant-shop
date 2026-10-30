@@ -3873,14 +3873,14 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4690,
+              "price": 6700,
               "first_seen": "2026-10-14",
               "sold_since": "2026-10-30"
             },
             {
               "kind": "full",
               "ml": 75,
-              "price": 4690,
+              "price": 6700,
               "first_seen": "2026-10-14",
               "sold_since": "2026-10-30"
             },
@@ -3889,12 +3889,13 @@
               "ml": 100,
               "price": 7800,
               "first_seen": "2026-10-14",
+              "prev_price": 9100,
               "sold_since": "2026-10-30"
             },
             {
               "kind": "full",
               "ml": 125,
-              "price": 5250,
+              "price": 7500,
               "first_seen": "2026-10-28",
               "sold_since": "2026-10-28"
             }
@@ -14064,8 +14065,9 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 6160,
-              "first_seen": "2026-07-23"
+              "price": 8800,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-10-30"
             }
           ],
           "image": "images/armani-code-parfum--mazaya.jpg",
@@ -36565,9 +36567,8 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 5040,
+              "price": 7200,
               "first_seen": "2026-07-23",
-              "prev_price": 6160,
               "sold_since": "2026-10-30"
             },
             {
@@ -36580,9 +36581,8 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 6160,
+              "price": 8800,
               "first_seen": "2026-07-23",
-              "prev_price": 6860,
               "sold_since": "2026-10-28"
             }
           ],
@@ -61918,13 +61918,13 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 4550,
+              "price": 6500,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 125,
-              "price": 5460,
+              "price": 7800,
               "first_seen": "2026-07-23"
             }
           ],
@@ -63930,13 +63930,13 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 5460,
+              "price": 7800,
               "first_seen": "2026-08-02"
             },
             {
               "kind": "full",
               "ml": 125,
-              "price": 6300,
+              "price": 9000,
               "first_seen": "2026-08-02",
               "sold_since": "2026-09-12"
             }
@@ -138627,7 +138627,8 @@
               "kind": "full",
               "ml": 100,
               "price": 825,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-10-30"
             }
           ],
           "image": "images/rave--mazaya.jpg",
@@ -156824,13 +156825,13 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 3990,
+              "price": 5700,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 5250,
+              "price": 7500,
               "first_seen": "2026-07-23"
             }
           ],
@@ -156904,7 +156905,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5600,
+              "price": 8000,
               "first_seen": "2026-07-23"
             }
           ],
@@ -157117,14 +157118,14 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 3920,
+              "price": 5600,
               "first_seen": "2026-10-26",
               "sold_since": "2026-10-26"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 5040,
+              "price": 7200,
               "first_seen": "2026-07-23",
               "sold_since": "2026-10-30"
             }
@@ -157292,14 +157293,14 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4270,
+              "price": 6100,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 5810,
+              "price": 8300,
               "first_seen": "2026-07-23"
             }
           ],
@@ -157414,14 +157415,14 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 3920,
+              "price": 5600,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 5040,
+              "price": 7200,
               "first_seen": "2026-07-23"
             }
           ],
@@ -180154,25 +180155,24 @@
               "kind": "full",
               "ml": 60,
               "price": 7000,
-              "first_seen": "2026-08-23",
-              "sold_since": "2026-10-30"
+              "first_seen": "2026-08-23"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 8700,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-10-30"
+              "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 150,
               "price": 8700,
-              "first_seen": "2026-09-20"
+              "first_seen": "2026-09-20",
+              "sold_since": "2026-10-30"
             }
           ],
           "image": "images/y-eau-de-parfum--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/y-edp-refill-150ml"
+          "product_url": "https://mazaya.eg/en/yves-saint-laurent-y-edp123455-html12344"
         },
         {
           "name": "faces",
