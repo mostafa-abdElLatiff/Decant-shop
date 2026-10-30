@@ -3875,7 +3875,6 @@
               "ml": 50,
               "price": 4690,
               "first_seen": "2026-10-14",
-              "prev_price": 6700,
               "sold_since": "2026-10-30"
             },
             {
@@ -3883,7 +3882,6 @@
               "ml": 75,
               "price": 4690,
               "first_seen": "2026-10-14",
-              "prev_price": 6700,
               "sold_since": "2026-10-30"
             },
             {
@@ -3898,7 +3896,6 @@
               "ml": 125,
               "price": 5250,
               "first_seen": "2026-10-28",
-              "prev_price": 7500,
               "sold_since": "2026-10-28"
             }
           ],
@@ -14068,8 +14065,7 @@
               "kind": "full",
               "ml": 150,
               "price": 6160,
-              "first_seen": "2026-07-23",
-              "prev_price": 8800
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/armani-code-parfum--mazaya.jpg",
@@ -61907,15 +61903,13 @@
               "kind": "full",
               "ml": 75,
               "price": 4550,
-              "first_seen": "2026-07-23",
-              "prev_price": 6500
+              "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 125,
               "price": 5460,
-              "first_seen": "2026-07-23",
-              "prev_price": 7800
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/ga-new-code-edt-v--mazaya.jpg",
@@ -63921,15 +63915,13 @@
               "kind": "full",
               "ml": 75,
               "price": 5460,
-              "first_seen": "2026-08-02",
-              "prev_price": 7800
+              "first_seen": "2026-08-02"
             },
             {
               "kind": "full",
               "ml": 125,
               "price": 6300,
               "first_seen": "2026-08-02",
-              "prev_price": 9000,
               "sold_since": "2026-09-12"
             }
           ],
@@ -156801,15 +156793,13 @@
               "kind": "full",
               "ml": 50,
               "price": 3990,
-              "first_seen": "2026-07-23",
-              "prev_price": 5700
+              "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 5250,
-              "first_seen": "2026-07-23",
-              "prev_price": 7500
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/stronger-with-you-absolutely--mazaya.jpg",
@@ -156883,8 +156873,7 @@
               "kind": "full",
               "ml": 100,
               "price": 5600,
-              "first_seen": "2026-07-23",
-              "prev_price": 8000
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/stronger-with-you-eau-de-parfum-amber--mazaya.jpg",
@@ -157098,7 +157087,6 @@
               "ml": 50,
               "price": 3920,
               "first_seen": "2026-10-26",
-              "prev_price": 5600,
               "sold_since": "2026-10-26"
             },
             {
@@ -157106,7 +157094,6 @@
               "ml": 100,
               "price": 5040,
               "first_seen": "2026-07-23",
-              "prev_price": 7200,
               "sold_since": "2026-10-30"
             }
           ],
@@ -157274,15 +157261,13 @@
               "ml": 50,
               "price": 4270,
               "first_seen": "2026-07-23",
-              "prev_price": 6100,
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 5810,
-              "first_seen": "2026-07-23",
-              "prev_price": 8300
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/stronger-with-you-parfum--mazaya.jpg",
@@ -157398,15 +157383,13 @@
               "ml": 50,
               "price": 3920,
               "first_seen": "2026-07-23",
-              "prev_price": 5600,
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 5040,
-              "first_seen": "2026-07-23",
-              "prev_price": 7200
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/stronger-with-you-powerfully--mazaya.jpg",
@@ -180135,24 +180118,25 @@
               "kind": "full",
               "ml": 60,
               "price": 7000,
-              "first_seen": "2026-08-23"
+              "first_seen": "2026-08-23",
+              "sold_since": "2026-10-30"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 8700,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-10-30"
             },
             {
               "kind": "full",
               "ml": 150,
               "price": 8700,
-              "first_seen": "2026-09-20",
-              "sold_since": "2026-10-30"
+              "first_seen": "2026-09-20"
             }
           ],
           "image": "images/y-eau-de-parfum--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/yves-saint-laurent-y-edp123455-html12344"
+          "product_url": "https://mazaya.eg/en/y-edp-refill-150ml"
         },
         {
           "name": "faces",
