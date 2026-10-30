@@ -15865,6 +15865,20 @@
           ],
           "image": "images/art-of-arabia-ii-eau-de-parfum--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/lattafa-art-of-arabia-ii-eau-de-parfum-100ml"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1890,
+              "first_seen": "2026-10-30"
+            }
+          ],
+          "image": "images/art-of-arabia-ii-eau-de-parfum--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/art-of-arabia-ii"
         }
       ],
       "_hero_source": "feel22",
@@ -38781,8 +38795,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1450,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-10-25"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/cream-velvet-khadlaj--emaratiscents.jpg",
@@ -57661,7 +57674,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-10-30"
             }
           ],
           "image": "images/faris-al-arab--emaratiscents.jpg",
@@ -76886,8 +76900,7 @@
               "kind": "full",
               "ml": 50,
               "price": 3600,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-30"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/incense-01--emaratiscents.jpg",
@@ -84501,7 +84514,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-10-14"
+              "first_seen": "2026-10-14",
+              "sold_since": "2026-10-30"
             }
           ],
           "image": "images/karus-secret-musk--emaratiscents.jpg",
@@ -151606,8 +151620,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 970,
-              "first_seen": "2026-07-18"
+              "price": 790,
+              "first_seen": "2026-07-18",
+              "prev_price": 970
             }
           ],
           "image": "images/silk-musk--emaratiscents.jpg",
@@ -172160,7 +172175,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-10-30"
             }
           ],
           "image": "images/vanilla-wood--emaratiscents.jpg",
@@ -219171,6 +219187,33 @@
         }
       ],
       "_hero_source": "mazaya"
+    },
+    {
+      "id": "silk-musk-black",
+      "name_ar": "Silk Musk Black",
+      "name_en": "Silk Musk Black",
+      "brand": "Wadi Al Khaleej",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/silk-musk-black.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 790,
+              "first_seen": "2026-10-30"
+            }
+          ],
+          "image": "images/silk-musk-black--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/silk-musk-black"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
