@@ -23554,7 +23554,8 @@
               "kind": "leftover",
               "ml": 70,
               "price": 770,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-31"
             },
             {
               "kind": "leftover",
@@ -64355,7 +64356,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 600,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-31"
             },
             {
               "kind": "leftover",
@@ -68758,8 +68760,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-27"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/hawas-diva--og-perfume.jpg",
@@ -119325,6 +119326,13 @@
               "first_seen": "2026-07-19"
             },
             {
+              "kind": "decant",
+              "ml": 30,
+              "price": 645,
+              "first_seen": "2026-10-31",
+              "sold_since": "2026-10-31"
+            },
+            {
               "kind": "leftover",
               "ml": 40,
               "price": 800,
@@ -121971,7 +121979,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 300,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-31"
             },
             {
               "kind": "decant",
@@ -136935,8 +136944,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 130,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-30"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
@@ -154453,7 +154461,8 @@
               "kind": "leftover",
               "ml": 30,
               "price": 500,
-              "first_seen": "2026-10-21"
+              "first_seen": "2026-10-21",
+              "sold_since": "2026-10-31"
             },
             {
               "kind": "leftover",
@@ -167755,8 +167764,7 @@
               "kind": "leftover",
               "ml": 30,
               "price": 620,
-              "first_seen": "2026-10-07",
-              "sold_since": "2026-10-20"
+              "first_seen": "2026-10-07"
             },
             {
               "kind": "full",
@@ -171950,6 +171958,12 @@
               "ml": 10,
               "price": 200,
               "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 555,
+              "first_seen": "2026-10-31"
             },
             {
               "kind": "leftover",
@@ -206126,7 +206140,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-10-10"
+              "first_seen": "2026-10-10",
+              "sold_since": "2026-10-31"
             }
           ],
           "image": "images/revolt-uprising--og-perfume.jpg",
@@ -214230,10 +214245,16 @@
             },
             {
               "kind": "leftover",
+              "ml": 40,
+              "price": 740,
+              "first_seen": "2026-10-31",
+              "sold_since": "2026-10-31"
+            },
+            {
+              "kind": "leftover",
               "ml": 50,
               "price": 925,
-              "first_seen": "2026-10-10",
-              "sold_since": "2026-10-31"
+              "first_seen": "2026-10-10"
             },
             {
               "kind": "full",
@@ -219015,7 +219036,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-10-29"
+              "first_seen": "2026-10-29",
+              "sold_since": "2026-10-31"
             }
           ],
           "image": "images/caneza-prisca--og-perfume.jpg",
