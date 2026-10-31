@@ -23624,7 +23624,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1900,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-10-31"
             }
           ],
           "image": "images/black-cavalier-seductive--emaratiscents.jpg",
@@ -34811,7 +34812,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2800,
+              "price": 3800,
               "first_seen": "2026-10-11"
             }
           ],
@@ -86632,8 +86633,7 @@
               "kind": "full",
               "ml": 75,
               "price": 800,
-              "first_seen": "2026-07-28",
-              "sold_since": "2026-10-30"
+              "first_seen": "2026-07-28"
             }
           ],
           "image": "images/khanjar-otoori--emaratiscents.jpg",
@@ -132205,8 +132205,7 @@
               "kind": "full",
               "ml": 12,
               "price": 575,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-23"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/pomegranate-musk-tahara-oil--emaratiscents.jpg",
@@ -165496,8 +165495,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2450,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-10-30"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/tobacco-jam-50--emaratiscents.jpg",
@@ -167485,13 +167483,6 @@
           "name": "emaratiscents",
           "url": "https://emaratiscents.com/",
           "offers": [
-            {
-              "kind": "full",
-              "ml": 100,
-              "price": 1250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-10-24"
-            },
             {
               "kind": "full",
               "ml": 150,
@@ -172109,8 +172100,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1700,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-29"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/vanilla-voyage-maison-asrar--emaratiscents.jpg",
@@ -174123,7 +174113,8 @@
               "kind": "full",
               "ml": 100,
               "price": 780,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-10-31"
             }
           ],
           "image": "images/victorioso-nero--emaratiscents.jpg",
@@ -198473,8 +198464,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1480,
-              "first_seen": "2026-08-30",
-              "sold_since": "2026-10-07"
+              "first_seen": "2026-08-30"
             }
           ],
           "image": "images/rice-milk--emaratiscents.jpg",
@@ -201752,8 +201742,7 @@
               "kind": "full",
               "ml": 12,
               "price": 575,
-              "first_seen": "2026-08-30",
-              "sold_since": "2026-10-18"
+              "first_seen": "2026-08-30"
             }
           ],
           "image": "images/vanilla-musk-tahara-oil--emaratiscents.jpg",
@@ -201855,8 +201844,7 @@
               "kind": "full",
               "ml": 12,
               "price": 575,
-              "first_seen": "2026-08-30",
-              "sold_since": "2026-09-26"
+              "first_seen": "2026-08-30"
             }
           ],
           "image": "images/toffee-musk-tahara-oil--emaratiscents.jpg",
@@ -207151,13 +207139,6 @@
               "price": 1550,
               "first_seen": "2026-09-27",
               "sold_since": "2026-10-29"
-            },
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 2350,
-              "first_seen": "2026-09-07",
-              "sold_since": "2026-10-24"
             }
           ],
           "image": "images/qasida-sahm-faan-perfumes--emaratiscents.jpg",
@@ -216825,8 +216806,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-10-18",
-              "sold_since": "2026-10-26"
+              "first_seen": "2026-10-18"
             }
           ],
           "image": "images/rayhaan-vantage--emaratiscents.jpg",
@@ -219250,6 +219230,33 @@
           ],
           "image": "images/the-new-king-s-bundle--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/the-new-kings-bundle"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "blueberry-musk-tahara-oil",
+      "name_ar": "Blueberry Musk Tahara Oil",
+      "name_en": "Blueberry Musk Tahara Oil",
+      "brand": "Gulf Orchid",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/blueberry-musk-tahara-oil.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 12,
+              "price": 575,
+              "first_seen": "2026-10-31"
+            }
+          ],
+          "image": "images/blueberry-musk-tahara-oil--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/blueberry-musk-tahara-oil"
         }
       ],
       "_hero_source": "emaratiscents"
