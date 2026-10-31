@@ -24380,20 +24380,13 @@
           "offers": [
             {
               "kind": "full",
-              "ml": 50,
-              "price": 3290,
-              "first_seen": "2026-09-13",
-              "sold_since": "2026-09-13"
-            },
-            {
-              "kind": "full",
               "ml": 100,
-              "price": 4367,
+              "price": 4462,
               "first_seen": "2026-07-23"
             }
           ],
           "image": "images/black-xs-eau-de-toilette--feel22.jpg",
-          "product_url": "https://eg.feel22.com/products/paco-rabanne-black-xs-eau-de-toilette-for-men-50ml"
+          "product_url": "https://eg.feel22.com/products/copy-of-paco-rabanne-black-xs-eau-de-toilette-for-men-100ml"
         },
         {
           "name": "eldesoki-fragrances",
@@ -63021,7 +63014,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5278,
+              "price": 6922,
               "first_seen": "2026-07-23"
             }
           ],
@@ -89483,7 +89476,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2818,
+              "price": 2992,
               "first_seen": "2026-07-26"
             }
           ],
@@ -102796,7 +102789,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3046,
+              "price": 4077,
               "first_seen": "2026-07-26"
             }
           ],
@@ -115960,19 +115953,12 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6763,
+              "price": 6923,
               "first_seen": "2026-07-26"
-            },
-            {
-              "kind": "full",
-              "ml": 240,
-              "price": 9763,
-              "first_seen": "2026-09-24",
-              "sold_since": "2026-09-24"
             }
           ],
           "image": "images/no-4-apr-s-l-amour--feel22.jpg",
-          "product_url": "https://eg.feel22.com/products/thomas-kosmala-no-4-apres-lamour-eau-de-parfum-unisex-perfume"
+          "product_url": "https://eg.feel22.com/products/thomas-kosmala-no-4-apres-lamour-eau-de-parfum-100ml"
         }
       ],
       "aliases": [
@@ -189158,7 +189144,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2667,
+              "price": 2799,
               "first_seen": "2026-08-07"
             }
           ],
@@ -219403,6 +219389,60 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "one-man-show-eau-de-toilette",
+      "name_ar": "One Man Show Eau de Toilette",
+      "name_en": "One Man Show Eau de Toilette",
+      "brand": "Jacques bogart",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/one-man-show-eau-de-toilette.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1231,
+              "first_seen": "2026-10-31"
+            }
+          ],
+          "image": "images/one-man-show-eau-de-toilette--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/jacques-bogart-one-man-show-eau-de-toilette-for-men-100ml"
+        }
+      ],
+      "_hero_source": "feel22"
+    },
+    {
+      "id": "tropical-fruits-arabian-eau-de-parfum",
+      "name_ar": "Tropical Fruits Arabian Eau de Parfum",
+      "name_en": "Tropical Fruits Arabian Eau de Parfum",
+      "brand": "Gulf Orchid",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/tropical-fruits-arabian-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 1010,
+              "first_seen": "2026-10-31"
+            }
+          ],
+          "image": "images/tropical-fruits-arabian-eau-de-parfum--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/arabian-perfume-gulf-orchid-tropical-fruits-edp-60ml"
+        }
+      ],
+      "_hero_source": "feel22"
     }
   ]
 }
