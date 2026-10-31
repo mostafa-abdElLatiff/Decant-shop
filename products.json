@@ -40816,19 +40816,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 70,
-              "first_seen": "2026-08-05"
+              "first_seen": "2026-08-05",
+              "sold_since": "2026-10-31"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 95,
-              "first_seen": "2026-08-05"
+              "first_seen": "2026-08-05",
+              "sold_since": "2026-10-31"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 145,
-              "first_seen": "2026-08-05"
+              "first_seen": "2026-08-05",
+              "sold_since": "2026-10-31"
             },
             {
               "kind": "full",
@@ -40839,7 +40842,7 @@
             }
           ],
           "image": "images/dangerous-arrogate--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/assaf-dangerous-arrogate"
+          "product_url": "https://sniffz-eg.com/products/assaf-dangerous-arrogate-full-sealed"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -163151,7 +163154,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 500,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-10-31"
             },
             {
               "kind": "full",
