@@ -54029,6 +54029,20 @@
           ],
           "image": "images/eshal-vanilla--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/eshal-vanilla"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1800,
+              "first_seen": "2026-11-01"
+            }
+          ],
+          "image": "images/eshal-vanilla--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/eshal-vanilla"
         }
       ],
       "_hero_source": "og-perfume",
@@ -57785,7 +57799,8 @@
               "kind": "full",
               "ml": 200,
               "price": 2400,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-01"
             }
           ],
           "image": "images/fearless--emaratiscents.jpg",
@@ -149257,8 +149272,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1400,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-10-31"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/sharaf-divine--emaratiscents.jpg",
@@ -206818,7 +206832,8 @@
               "kind": "full",
               "ml": 200,
               "price": 3400,
-              "first_seen": "2026-09-07"
+              "first_seen": "2026-09-07",
+              "sold_since": "2026-11-01"
             }
           ],
           "image": "images/fresh-rush-bundle--emaratiscents.jpg",
@@ -216853,8 +216868,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-10-18",
-              "sold_since": "2026-10-31"
+              "first_seen": "2026-10-18"
             }
           ],
           "image": "images/rayhaan-vantage--emaratiscents.jpg",
