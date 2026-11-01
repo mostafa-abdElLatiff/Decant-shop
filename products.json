@@ -14623,8 +14623,7 @@
               "kind": "full",
               "ml": 200,
               "price": 2050,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/arrogate-addict--eldesoki-fragrances.jpg",
@@ -18602,14 +18601,16 @@
             {
               "kind": "leftover",
               "ml": 80,
-              "price": 1175,
-              "first_seen": "2026-09-01"
+              "price": 1000,
+              "first_seen": "2026-09-01",
+              "prev_price": 1175
             },
             {
               "kind": "full",
               "ml": 150,
-              "price": 1975,
-              "first_seen": "2026-07-18"
+              "price": 1775,
+              "first_seen": "2026-07-18",
+              "prev_price": 1975
             }
           ],
           "image": "images/aura-35-assaf--eldesoki-fragrances.jpg",
@@ -40789,9 +40790,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2200,
+              "price": 1975,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "prev_price": 2200
             }
           ],
           "image": "images/dangerous-arrogate--eldesoki-fragrances.jpg",
@@ -71884,6 +71885,20 @@
           ],
           "image": "images/heritage-bakhur--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/heritage-bakhur"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 1975,
+              "first_seen": "2026-11-01"
+            }
+          ],
+          "image": "images/heritage-bakhur--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/heritage-bakhur-laverne-150ml-%d9%87%d9%8a%d8%b1%d8%aa%d8%a7%da%86-%d8%a8%d8%ae%d9%88%d8%b1-%d9%a1%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%84%d8%a7%d9%81%d9%8a%d8%b1%d9%86/"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -82636,7 +82651,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1075,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-01"
             }
           ],
           "image": "images/jean-lowe-noir--eldesoki-fragrances.jpg",
@@ -111678,6 +111694,20 @@
           ],
           "image": "images/musk-garden--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/musk-garden-laverne"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1675,
+              "first_seen": "2026-11-01"
+            }
+          ],
+          "image": "images/musk-garden--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/musk-garden-laverne-100ml-%d9%85%d8%b3%d9%83-%d8%ac%d8%a7%d8%b1%d8%af%d9%86-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%84%d8%a7%d9%81%d9%8a%d8%b1%d9%86/"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -178103,8 +178133,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2025,
+              "price": 1975,
               "first_seen": "2026-09-30",
+              "prev_price": 2025,
               "sold_since": "2026-10-19"
             }
           ],
@@ -200851,8 +200882,9 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 1975,
-              "first_seen": "2026-10-15"
+              "price": 1775,
+              "first_seen": "2026-10-15",
+              "prev_price": 1975
             }
           ],
           "image": "images/aura-black--eldesoki-fragrances.jpg",
@@ -208914,8 +208946,9 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 3500,
-              "first_seen": "2026-09-15"
+              "price": 3450,
+              "first_seen": "2026-09-15",
+              "prev_price": 3500
             }
           ],
           "image": "images/tarteel-silver-arabian-oud--eldesoki-fragrances.jpg",
@@ -208941,7 +208974,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1950,
+              "price": 2025,
               "first_seen": "2026-09-15"
             }
           ],
@@ -208995,8 +209028,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4250,
-              "first_seen": "2026-09-15"
+              "price": 4175,
+              "first_seen": "2026-09-15",
+              "prev_price": 4250
             }
           ],
           "image": "images/ehsas-khas-arabian-oud--eldesoki-fragrances.jpg",
@@ -214999,8 +215033,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3650,
-              "first_seen": "2026-10-04"
+              "price": 3475,
+              "first_seen": "2026-10-04",
+              "prev_price": 3650
             }
           ],
           "image": "images/montale-black-aoud-tester-box--eldesoki-fragrances.jpg",
@@ -220132,6 +220167,114 @@
         }
       ],
       "_hero_source": "og-perfume"
+    },
+    {
+      "id": "risk-set-assaf",
+      "name_ar": "مجموعة ريسك من عساف اجمالي ٢٥٠ملي",
+      "name_en": "Risk Set Assaf &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/risk-set-assaf.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 250,
+              "price": 3550,
+              "first_seen": "2026-11-01"
+            }
+          ],
+          "image": "images/risk-set-assaf--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/risk-set-assaf-250ml-%d9%85%d8%ac%d9%85%d9%88%d8%b9%d8%a9-%d8%b1%d9%8a%d8%b3%d9%83-%d9%85%d9%86-%d8%b9%d8%b3%d8%a7%d9%81-%d8%a7%d8%ac%d9%85%d8%a7%d9%84%d9%8a-%d9%a2%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "aura-summer-set",
+      "name_ar": "مجموعة اورا الصيفية ٣ عطور اجمالي ٣٠٠ملي",
+      "name_en": "Aura Summer Set &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/aura-summer-set.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 300,
+              "price": 3550,
+              "first_seen": "2026-11-01"
+            }
+          ],
+          "image": "images/aura-summer-set--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/aura-summer-set-300ml-%d9%85%d8%ac%d9%85%d9%88%d8%b9%d8%a9-%d8%a7%d9%88%d8%b1%d8%a7-%d8%a7%d9%84%d8%b5%d9%8a%d9%81%d9%8a%d8%a9-%d9%a3-%d8%b9%d8%b7%d9%88%d8%b1-%d8%a7%d8%ac%d9%85%d8%a7%d9%84/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "eror-404-assaf",
+      "name_ar": "ايرور ٤٠٤ ١٠٠ملي من عساف",
+      "name_en": "Eror 404 Assaf &",
+      "brand": "Assaf",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/eror-404-assaf.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1650,
+              "first_seen": "2026-11-01"
+            }
+          ],
+          "image": "images/eror-404-assaf--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/eror-404-assaf-100ml-%d8%a7%d9%8a%d8%b1%d9%88%d8%b1-%d9%a4%d9%a0%d9%a4-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b9%d8%b3%d8%a7%d9%81/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "94th-anniversary-laverne-limited-edition",
+      "name_ar": "اصدار اليوم الوطني عطر ٩٤ ليميتد ١٠٠ملي",
+      "name_en": "94th Anniversary Laverne Limited Edition &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/94th-anniversary-laverne-limited-edition.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1700,
+              "first_seen": "2026-11-01"
+            }
+          ],
+          "image": "images/94th-anniversary-laverne-limited-edition--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/94th-anniversary-100ml-laverne-limited-edition-%d8%a7%d8%b5%d8%af%d8%a7%d8%b1-%d8%a7%d9%84%d9%8a%d9%88%d9%85-%d8%a7%d9%84%d9%88%d8%b7%d9%86%d9%8a-%d8%b9%d8%b7%d8%b1-%d9%a9%d9%a4-%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
