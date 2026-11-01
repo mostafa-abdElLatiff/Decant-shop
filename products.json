@@ -58423,7 +58423,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 500,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-11-01"
             }
           ],
           "image": "images/fig-infusion--mo-shawky.jpg",
@@ -103217,14 +103218,15 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 170,
+              "price": 185,
               "first_seen": "2026-07-17"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 250,
-              "first_seen": "2026-07-17"
+              "first_seen": "2026-07-17",
+              "sold_since": "2026-11-01"
             }
           ],
           "image": "images/man-wood-neroli--mo-shawky.jpg",
@@ -187238,7 +187240,7 @@
             }
           ],
           "image": "images/velvet-iris-by-dominique-ropion--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-velvet-iris-3ml-481"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-velvet-iris-5ml-480"
         }
       ],
       "aliases": [
@@ -187293,7 +187295,7 @@
             }
           ],
           "image": "images/neroli-botanica-by-anne-flipo--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-neroli-botanica-3ml-478"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/essential-parfums-neroli-botanica-5ml-477"
         }
       ],
       "aliases": [
@@ -198394,7 +198396,7 @@
             }
           ],
           "image": "images/man-eau-fraiche-extreme--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/versace-man-eau-fraiche-extreme-5ml-525"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/versace-man-eau-fraiche-extreme-3ml-526"
         },
         {
           "name": "Ahmed Abdel Kareem",
