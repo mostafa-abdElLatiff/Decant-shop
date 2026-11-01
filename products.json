@@ -12190,8 +12190,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1800,
-              "first_seen": "2026-07-19"
+              "price": 1750,
+              "first_seen": "2026-07-19",
+              "prev_price": 1800
             }
           ],
           "image": "images/arabian-tobacco--eldesoki-fragrances.jpg",
@@ -23471,8 +23472,9 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 1800,
-              "first_seen": "2026-07-18"
+              "price": 1750,
+              "first_seen": "2026-07-18",
+              "prev_price": 1800
             }
           ],
           "image": "images/black-carbon-diamond--eldesoki-fragrances.jpg",
@@ -25946,8 +25948,9 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 1800,
-              "first_seen": "2026-07-18"
+              "price": 1750,
+              "first_seen": "2026-07-18",
+              "prev_price": 1800
             }
           ],
           "image": "images/blue-diamond-aqua--eldesoki-fragrances.jpg",
@@ -29271,7 +29274,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1650,
+              "price": 1750,
               "first_seen": "2026-07-19"
             }
           ],
@@ -45433,8 +45436,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1800,
-              "first_seen": "2026-07-19"
+              "price": 1750,
+              "first_seen": "2026-07-19",
+              "prev_price": 1800
             }
           ],
           "image": "images/dominican-tobacco--eldesoki-fragrances.jpg",
@@ -61275,8 +61279,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1800,
-              "first_seen": "2026-07-18"
+              "price": 1750,
+              "first_seen": "2026-07-18",
+              "prev_price": 1800
             }
           ],
           "image": "images/french-tobacco--eldesoki-fragrances.jpg",
@@ -66125,6 +66130,12 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "leftover",
+              "ml": 100,
+              "price": 1250,
+              "first_seen": "2026-11-01"
+            },
+            {
               "kind": "full",
               "ml": 200,
               "price": 1975,
@@ -66132,7 +66143,7 @@
             }
           ],
           "image": "images/gris-eric-assaf--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/gris-eric-200ml-assaf%d8%ac%d8%b1%d9%8a%d8%b3-%d8%a7%d9%8a%d8%b1%d9%8a%d9%83-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b9%d8%b3%d8%a7%d9%81/"
+          "product_url": "https://eldesoki-fragrances.com/product/gris-eric-100ml-%d8%ac%d8%b1%d9%8a%d8%b3-%d8%a7%d9%8a%d8%b1%d9%8a%d9%83-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d8%b9%d8%b3%d8%a7%d9%81/"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -118869,14 +118880,21 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 1950,
+              "first_seen": "2026-11-01"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 3650,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-01"
             }
           ],
           "image": "images/nyc-212-edt--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/212-men-nyc-edt-tester-box%d8%aa%d9%88-%d9%88%d8%a7%d9%86-%d8%aa%d9%88-%d8%a7%d9%88-%d8%af%d9%88-%d8%aa%d9%88%d8%a7%d9%84%d9%8a%d8%aa-%d8%aa%d8%b3%d8%aa%d8%b1-%d8%a8%d9%88%d9%83%d8%b3/"
+          "product_url": "https://eldesoki-fragrances.com/product/212-nyc-50ml-%d9%a2%d9%a1%d9%a2-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "feel22",
@@ -149540,6 +149558,12 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "leftover",
+              "ml": 100,
+              "price": 1000,
+              "first_seen": "2026-11-01"
+            },
+            {
               "kind": "full",
               "ml": 200,
               "price": 1750,
@@ -149547,7 +149571,7 @@
             }
           ],
           "image": "images/sherlock--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/sherlock-200ml-assaf%d8%b4%d9%8a%d8%b1%d9%84%d9%88%d9%83-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b9%d8%b3%d8%a7%d9%81/"
+          "product_url": "https://eldesoki-fragrances.com/product/sherlock-100ml-%d8%b4%d9%8a%d8%b1%d9%84%d9%88%d9%83-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d8%b9%d8%b3%d8%a7%d9%81/"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -150010,6 +150034,12 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 975,
+              "first_seen": "2026-11-01"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1650,
@@ -150017,7 +150047,7 @@
             }
           ],
           "image": "images/shiyaaka-silver--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/shiyaaka-silver-khadlaj-100ml%d8%b4%d9%8a%d8%a7%d9%83%d8%a9-%d8%b3%d9%8a%d9%84%d9%81%d8%b1-%d9%85%d9%86-%d8%ae%d8%a7%d8%af%d9%84%d8%a7%da%86-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/shiyaaka-silver-50ml-%d8%b4%d9%8a%d8%a7%d9%83%d8%a9-%d8%b3%d9%8a%d9%84%d9%81%d8%b1-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "emaratiscents",
@@ -154363,8 +154393,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1800,
-              "first_seen": "2026-07-18"
+              "price": 1750,
+              "first_seen": "2026-07-18",
+              "prev_price": 1800
             }
           ],
           "image": "images/spanish-tobacco--eldesoki-fragrances.jpg",
@@ -177514,8 +177545,9 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 1800,
-              "first_seen": "2026-07-18"
+              "price": 1750,
+              "first_seen": "2026-07-18",
+              "prev_price": 1800
             }
           ],
           "image": "images/white-regent-diamond--eldesoki-fragrances.jpg",
@@ -184458,6 +184490,20 @@
           ],
           "image": "images/balqees--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/balqees"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 875,
+              "first_seen": "2026-11-01"
+            }
+          ],
+          "image": "images/balqees--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/balqees-50ml-%d8%a8%d9%84%d9%82%d9%8a%d8%b3-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -206815,8 +206861,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2975,
-              "first_seen": "2026-09-07"
+              "price": 2800,
+              "first_seen": "2026-09-07",
+              "prev_price": 2975
             }
           ],
           "image": "images/hersh-mehwar-ezz-oud--eldesoki-fragrances.jpg",
@@ -213999,8 +214046,10 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2975,
-              "first_seen": "2026-10-01"
+              "price": 2800,
+              "first_seen": "2026-10-01",
+              "prev_price": 2975,
+              "sold_since": "2026-11-01"
             }
           ],
           "image": "images/hersh-55-ezz-oud--eldesoki-fragrances.jpg",
@@ -219416,6 +219465,303 @@
         }
       ],
       "_hero_source": "feel22"
+    },
+    {
+      "id": "encre-noir-extreme-tester",
+      "name_ar": "انكر نوار اكستريم تستر ١٠ملي لاليك",
+      "name_en": "Encre Noir Extreme tester &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/encre-noir-extreme-tester.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-11-01"
+            }
+          ],
+          "image": "images/encre-noir-extreme-tester--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/encre-noir-extreme-tester-10ml-%d8%a7%d9%86%d9%83%d8%b1-%d9%86%d9%88%d8%a7%d8%b1-%d8%a7%d9%83%d8%b3%d8%aa%d8%b1%d9%8a%d9%85-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a-%d9%84%d8%a7/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "212-nyc-tester",
+      "name_ar": "٢١٢  تستر ١٠ملي",
+      "name_en": "212 Nyc tester &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/212-nyc-tester.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 375,
+              "first_seen": "2026-11-01"
+            }
+          ],
+          "image": "images/212-nyc-tester--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/212-nyc-tester-10ml-%d9%a2%d9%a1%d9%a2-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "ana-abyadeh-scarlet-tester",
+      "name_ar": "انا ابيض سكارليت تستر ١٠ملي",
+      "name_en": "Ana Abyadeh Scarlet tester &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/ana-abyadeh-scarlet-tester.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 175,
+              "first_seen": "2026-11-01"
+            }
+          ],
+          "image": "images/ana-abyadeh-scarlet-tester--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/ana-abyadeh-scarlet-tester-10ml-%d8%a7%d9%86%d8%a7-%d8%a7%d8%a8%d9%8a%d8%b6-%d8%b3%d9%83%d8%a7%d8%b1%d9%84%d9%8a%d8%aa-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "sherlock-tester",
+      "name_ar": "شيرلوك تستر ١٠ملي عساف",
+      "name_en": "Sherlock tester &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/sherlock-tester.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 140,
+              "first_seen": "2026-11-01"
+            }
+          ],
+          "image": "images/sherlock-tester--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/sherlock-tester-10ml-%d8%b4%d9%8a%d8%b1%d9%84%d9%88%d9%83-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a-%d8%b9%d8%b3%d8%a7%d9%81/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "hersh-55-tester",
+      "name_ar": "هرش ٥٥ تستر ١٠ملي العز للعود",
+      "name_en": "Hersh 55 tester &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/hersh-55-tester.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 325,
+              "first_seen": "2026-11-01"
+            }
+          ],
+          "image": "images/hersh-55-tester--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/hersh-55-tester-10ml-%d9%87%d8%b1%d8%b4-%d9%a5%d9%a5-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a-%d8%a7%d9%84%d8%b9%d8%b2-%d9%84%d9%84%d8%b9%d9%88%d8%af/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "gris-eric-tester",
+      "name_ar": "جريس ايريك تستر ١٠ملي عساف",
+      "name_en": "Gris Eric tester &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/gris-eric-tester.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 160,
+              "first_seen": "2026-11-01"
+            }
+          ],
+          "image": "images/gris-eric-tester--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/gris-eric-tester-10ml-%d8%ac%d8%b1%d9%8a%d8%b3-%d8%a7%d9%8a%d8%b1%d9%8a%d9%83-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a-%d8%b9%d8%b3%d8%a7%d9%81/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "shiyaaka-silver-tester",
+      "name_ar": "سيلكة سيلفر تستر ١٠ملي",
+      "name_en": "Shiyaaka Silver tester &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/shiyaaka-silver-tester.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-11-01"
+            }
+          ],
+          "image": "images/shiyaaka-silver-tester--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/shiyaaka-silver-tester-10ml-%d8%b3%d9%8a%d9%84%d9%83%d8%a9-%d8%b3%d9%8a%d9%84%d9%81%d8%b1-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "balqees-tester-dkhooni",
+      "name_ar": "بلقيس تستر ١٠ملي من دخوني",
+      "name_en": "Balqees tester Dkhooni &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/balqees-tester-dkhooni.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 175,
+              "first_seen": "2026-11-01"
+            }
+          ],
+          "image": "images/balqees-tester-dkhooni--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/balqees-tester-10ml-dkhooni-%d8%a8%d9%84%d9%82%d9%8a%d8%b3-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%af%d8%ae%d9%88%d9%86%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "encre-noir-extreme",
+      "name_ar": "انكر نوار اكستريم ٥٠ملي",
+      "name_en": "Encre Noir Extreme &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/encre-noir-extreme.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 975,
+              "first_seen": "2026-11-01"
+            }
+          ],
+          "image": "images/encre-noir-extreme--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/encre-noir-extreme-50ml-%d8%a7%d9%86%d9%83%d8%b1-%d9%86%d9%88%d8%a7%d8%b1-%d8%a7%d9%83%d8%b3%d8%aa%d8%b1%d9%8a%d9%85-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "ana-abyadeh-scarlet",
+      "name_ar": "انا ابيض سكارليت ٣٠ملي",
+      "name_en": "Ana Abyadeh Scarlet &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/ana-abyadeh-scarlet.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "leftover",
+              "ml": 30,
+              "price": 550,
+              "first_seen": "2026-11-01"
+            }
+          ],
+          "image": "images/ana-abyadeh-scarlet--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/ana-abyadeh-scarlet-30ml-%d8%a7%d9%86%d8%a7-%d8%a7%d8%a8%d9%8a%d8%b6-%d8%b3%d9%83%d8%a7%d8%b1%d9%84%d9%8a%d8%aa-%d9%a3%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "hersh-55",
+      "name_ar": "هرش ٥٥ ٥٠ملي",
+      "name_en": "Hersh 55 &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/hersh-55.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 1600,
+              "first_seen": "2026-11-01"
+            }
+          ],
+          "image": "images/hersh-55--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/hersh-55-50ml-%d9%87%d8%b1%d8%b4-%d9%a5%d9%a5-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
