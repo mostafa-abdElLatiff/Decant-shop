@@ -27159,7 +27159,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 975,
+              "price": 1050,
               "first_seen": "2026-07-18"
             }
           ],
@@ -79338,12 +79338,12 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3200,
+              "price": 3750,
               "first_seen": "2026-07-18"
             }
           ],
           "image": "images/irth-collection--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/irth-collection-mini-diamond-set"
+          "product_url": "https://emaratiscents.com/products/new-irth-collection"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -84171,8 +84171,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-10-31"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/kahilan--emaratiscents.jpg",
@@ -218930,6 +218929,20 @@
           ],
           "image": "images/spirito-ignite--dar-elarabia.jpg",
           "product_url": "https://darelarabia.com/products/spirito-ignite"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-11-01"
+            }
+          ],
+          "image": "images/spirito-ignite--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/spirito-ignite"
         }
       ],
       "_hero_source": "dar.elarabia"
@@ -220275,6 +220288,60 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "pear-musk",
+      "name_ar": "Pear Musk",
+      "name_en": "Pear Musk",
+      "brand": "Arabiyat Prestige",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/pear-musk.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1050,
+              "first_seen": "2026-11-01"
+            }
+          ],
+          "image": "images/pear-musk--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/pear-musk"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "spirito-mystic",
+      "name_ar": "Spirito Mystic",
+      "name_en": "Spirito Mystic",
+      "brand": "French Avenue",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/spirito-mystic.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-11-01"
+            }
+          ],
+          "image": "images/spirito-mystic--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/spirito-mystic"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
