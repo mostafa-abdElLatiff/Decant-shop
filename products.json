@@ -5558,8 +5558,7 @@
               "kind": "full",
               "ml": 100,
               "price": 7850,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-23"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/al-fareed--emaratiscents.jpg",
@@ -8304,8 +8303,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-10-31"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/amber--emaratiscents.jpg",
@@ -8591,8 +8589,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-09-09",
-              "sold_since": "2026-10-20"
+              "first_seen": "2026-09-09"
             }
           ],
           "image": "images/amber-empire--emaratiscents.jpg",
@@ -23661,8 +23658,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1900,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-10-31"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/black-cavalier-seductive--emaratiscents.jpg",
@@ -26224,8 +26220,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2750,
-              "first_seen": "2026-07-18"
+              "price": 2200,
+              "first_seen": "2026-07-18",
+              "prev_price": 2750
             }
           ],
           "image": "images/blue-laverne--emaratiscents.jpg",
@@ -26388,8 +26385,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2050,
-              "first_seen": "2026-07-18"
+              "price": 1950,
+              "first_seen": "2026-07-18",
+              "prev_price": 2050
             }
           ],
           "image": "images/blue-laverne-elixir--emaratiscents.jpg",
@@ -40365,8 +40363,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1200,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-11-01"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/daarej-extrait--emaratiscents.jpg",
@@ -40474,9 +40471,8 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1040,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "price": 1140,
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/daarej-for-men--emaratiscents.jpg",
@@ -62642,9 +62638,8 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2200,
-              "first_seen": "2026-08-31",
-              "sold_since": "2026-09-01"
+              "price": 3200,
+              "first_seen": "2026-08-31"
             }
           ],
           "image": "images/gentle--emaratiscents.jpg",
@@ -142748,8 +142743,7 @@
               "kind": "full",
               "ml": 50,
               "price": 3600,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-10-20"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/rose-01--emaratiscents.jpg",
@@ -151666,8 +151660,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-10-31"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/signature-silver--emaratiscents.jpg",
@@ -167671,7 +167664,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1550,
+              "price": 1650,
               "first_seen": "2026-07-27"
             }
           ],
@@ -172167,7 +172160,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-08-30"
+              "first_seen": "2026-08-30",
+              "sold_since": "2026-11-02"
             }
           ],
           "image": "images/vanilla-seduction--emaratiscents.jpg",
@@ -178867,7 +178861,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-02"
             }
           ],
           "image": "images/wolf--emaratiscents.jpg",
@@ -179091,8 +179086,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2550,
-              "first_seen": "2026-09-29",
-              "sold_since": "2026-10-23"
+              "first_seen": "2026-09-29"
             }
           ],
           "image": "images/woody-style--emaratiscents.jpg",
@@ -183851,7 +183845,8 @@
               "kind": "full",
               "ml": 200,
               "price": 2350,
-              "first_seen": "2026-09-07"
+              "first_seen": "2026-09-07",
+              "sold_since": "2026-11-02"
             }
           ],
           "image": "images/qasida-signature--emaratiscents.jpg",
@@ -201742,8 +201737,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1850,
-              "first_seen": "2026-08-29",
-              "sold_since": "2026-08-31"
+              "first_seen": "2026-08-29"
             }
           ],
           "image": "images/madih--emaratiscents.jpg",
