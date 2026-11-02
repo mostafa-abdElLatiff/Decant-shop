@@ -36063,7 +36063,8 @@
               "kind": "full",
               "ml": 105,
               "price": 2016,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-11-02"
             }
           ],
           "image": "images/club-de-nuit-urban-man-elixir--mazaya.jpg",
@@ -43757,7 +43758,8 @@
               "kind": "full",
               "ml": 100,
               "price": 619,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-11-02"
             }
           ],
           "image": "images/disclosure--mazaya.jpg",
@@ -102756,16 +102758,16 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8720,
+              "price": 10900,
               "first_seen": "2026-07-26",
-              "sold_since": "2026-10-29"
+              "sold_since": "2026-11-02"
             },
             {
               "kind": "full",
               "ml": 150,
               "price": 13200,
-              "first_seen": "2026-10-26",
-              "sold_since": "2026-10-26"
+              "first_seen": "2026-11-02",
+              "sold_since": "2026-11-02"
             }
           ],
           "image": "images/man-in-black-eau-de-parfum--mazaya.jpg",
@@ -103121,22 +103123,20 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 10900,
+              "price": 11100,
               "first_seen": "2026-07-23",
-              "prev_price": 11100,
-              "sold_since": "2026-11-02"
+              "prev_price": 13200
             },
             {
               "kind": "full",
               "ml": 150,
-              "price": 13000,
+              "price": 15100,
               "first_seen": "2026-07-23",
-              "prev_price": 15100,
               "sold_since": "2026-11-02"
             }
           ],
           "image": "images/man-wood-essence--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/bvlgari-man-wood-essence-edp123"
+          "product_url": "https://mazaya.eg/en/bvlgari-man-wood-essence-edp-100ml"
         },
         {
           "name": "Ahmed Abdel Kareem",
@@ -146390,7 +146390,7 @@
             }
           ],
           "image": "images/scandal-intense-men--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/scandal-intense-men-100-ml"
+          "product_url": "https://mazaya.eg/en/scandal-intense-men"
         },
         {
           "name": "faces",
@@ -157305,6 +157305,13 @@
               "price": 3700,
               "first_seen": "2026-11-01",
               "sold_since": "2026-11-01"
+            },
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 5600,
+              "first_seen": "2026-11-02",
+              "sold_since": "2026-11-02"
             },
             {
               "kind": "full",
