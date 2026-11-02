@@ -7660,7 +7660,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 1000,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-02"
             }
           ],
           "image": "images/allure-homme-edition-balanche--perfuzone.jpg",
@@ -163016,8 +163017,7 @@
               "kind": "decant",
               "ml": 5,
               "price": 390,
-              "first_seen": "2026-10-12",
-              "sold_since": "2026-10-18"
+              "first_seen": "2026-10-12"
             },
             {
               "kind": "decant",
@@ -220121,6 +220121,40 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "risk",
+      "name_ar": "Risk",
+      "name_en": "Risk",
+      "brand": "Assaf",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/risk.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 150,
+              "first_seen": "2026-11-02"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-11-02",
+              "sold_since": "2026-11-02"
+            }
+          ],
+          "image": "images/risk--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/assaf-risk"
+        }
+      ],
+      "_hero_source": "perfuzone"
     }
   ]
 }
