@@ -90045,7 +90045,8 @@
               "kind": "decant",
               "ml": 3,
               "price": 270,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-03"
             },
             {
               "kind": "decant",
@@ -121489,7 +121490,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1700,
-              "first_seen": "2026-08-06"
+              "first_seen": "2026-08-06",
+              "sold_since": "2026-11-03"
             }
           ],
           "image": "images/odyssey-toffee-coffee--sniffz.jpg",
@@ -217174,22 +217176,25 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 155,
+              "price": 150,
               "first_seen": "2026-10-24",
+              "prev_price": 155,
               "sold_since": "2026-11-02"
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 205,
+              "price": 195,
               "first_seen": "2026-10-24",
+              "prev_price": 205,
               "sold_since": "2026-11-01"
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 310,
+              "price": 300,
               "first_seen": "2026-10-24",
+              "prev_price": 310,
               "sold_since": "2026-11-01"
             }
           ],
