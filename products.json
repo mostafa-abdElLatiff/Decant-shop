@@ -5558,7 +5558,8 @@
               "kind": "full",
               "ml": 100,
               "price": 7850,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-03"
             }
           ],
           "image": "images/al-fareed--emaratiscents.jpg",
@@ -39320,9 +39321,8 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1550,
-              "first_seen": "2026-09-09",
-              "sold_since": "2026-09-29"
+              "price": 1650,
+              "first_seen": "2026-09-09"
             }
           ],
           "image": "images/crimson--emaratiscents.jpg",
@@ -80922,8 +80922,7 @@
               "kind": "full",
               "ml": 100,
               "price": 750,
-              "first_seen": "2026-09-07",
-              "sold_since": "2026-09-16"
+              "first_seen": "2026-09-07"
             }
           ],
           "image": "images/jacques-yves-imaginari--emaratiscents.jpg",
@@ -123761,6 +123760,20 @@
           ],
           "image": "images/opus-magnum--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/opus-magnum-100ml-french-avenue/"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1950,
+              "first_seen": "2026-11-03"
+            }
+          ],
+          "image": "images/opus-magnum--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/opus-magnum"
         }
       ],
       "_hero_source": "og-perfume",
@@ -135029,8 +135042,7 @@
               "kind": "full",
               "ml": 100,
               "price": 850,
-              "first_seen": "2026-08-15",
-              "sold_since": "2026-09-15"
+              "first_seen": "2026-08-15"
             }
           ],
           "image": "images/proud-of-you-intense-fragrance-world--emaratiscents.jpg",
@@ -173474,8 +173486,7 @@
               "kind": "full",
               "ml": 100,
               "price": 750,
-              "first_seen": "2026-08-15",
-              "sold_since": "2026-10-14"
+              "first_seen": "2026-08-15"
             }
           ],
           "image": "images/venti-green-tweed--emaratiscents.jpg",
@@ -173622,8 +173633,7 @@
               "kind": "full",
               "ml": 100,
               "price": 600,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-18"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/verato-for-men--emaratiscents.jpg",
@@ -206862,8 +206872,7 @@
               "kind": "full",
               "ml": 100,
               "price": 3800,
-              "first_seen": "2026-09-13",
-              "sold_since": "2026-11-01"
+              "first_seen": "2026-09-13"
             }
           ],
           "image": "images/hersh-saytara--emaratiscents.jpg",
@@ -220553,6 +220562,33 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "icon-laverne",
+      "name_ar": "Icon",
+      "name_en": "Icon",
+      "brand": "Laverne",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/icon-laverne.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2050,
+              "first_seen": "2026-11-03"
+            }
+          ],
+          "image": "images/icon-laverne--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/icon-by-laverne"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
