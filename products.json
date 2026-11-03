@@ -15770,7 +15770,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 1175,
-              "first_seen": "2026-08-21"
+              "first_seen": "2026-08-21",
+              "sold_since": "2026-11-03"
             },
             {
               "kind": "full",
@@ -15780,7 +15781,7 @@
             }
           ],
           "image": "images/arsh-extrait--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/arsh-extrait-50ml%d8%b9%d8%b1%d8%b4-%d8%a7%d9%83%d8%b3%d8%aa%d8%b1%d9%8a%d8%aa-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/arsh-extrait-tester-10ml%d8%b9%d8%b1%d8%b4-%d8%a7%d9%83%d8%b3%d8%aa%d8%b1%d9%8a%d8%aa-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -16506,7 +16507,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 140,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-03"
             },
             {
               "kind": "leftover",
@@ -23781,7 +23783,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 210,
-              "first_seen": "2026-08-31"
+              "first_seen": "2026-08-31",
+              "sold_since": "2026-11-03"
             },
             {
               "kind": "leftover",
@@ -29327,6 +29330,12 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 1000,
+              "first_seen": "2026-11-03"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1750,
@@ -29334,7 +29343,7 @@
             }
           ],
           "image": "images/brazilian-tobacco--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/brazilian-tobacco-100ml%d8%a8%d8%b1%d8%a7%d8%b2%d9%8a%d9%84%d9%8a%d8%a7%d9%86-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%85%d9%86-%d8%a7%d8%a8%d8%b1%d8%a7%d9%82-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/brazilian-tobacco-50ml-%d8%a8%d8%b1%d8%a7%d8%b2%d9%8a%d9%84%d9%8a%d8%a7%d9%86-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "emaratiscents",
@@ -72381,9 +72390,8 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 1500,
-              "first_seen": "2026-09-05",
-              "sold_since": "2026-09-05"
+              "price": 1525,
+              "first_seen": "2026-09-05"
             },
             {
               "kind": "full",
@@ -72393,7 +72401,7 @@
             }
           ],
           "image": "images/hersh-2-hersh--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/hersh-2-50ml/"
+          "product_url": "https://eldesoki-fragrances.com/product/hersh-2-50ml-%d9%87%d8%b1%d8%b4-%d9%a2-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "og-perfume",
@@ -85051,8 +85059,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 475,
-              "first_seen": "2026-08-10"
+              "price": 425,
+              "first_seen": "2026-08-10",
+              "prev_price": 475
             },
             {
               "kind": "leftover",
@@ -108925,6 +108934,20 @@
           ],
           "image": "images/mohra-silky-rose--eslam-nasser.jpg",
           "product_url": "https://www.facebook.com/groups/720783370622840/posts/905547152146460"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 675,
+              "first_seen": "2026-11-03"
+            }
+          ],
+          "image": "images/mohra-silky-rose--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/mohra-silky-rose-50ml-%d9%85%d9%87%d8%b1%d9%87-%d8%b3%d9%8a%d9%84%d9%83%d9%8a-%d8%b1%d9%88%d8%b2-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "og-perfume",
@@ -118453,6 +118476,12 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "leftover",
+              "ml": 40,
+              "price": 475,
+              "first_seen": "2026-11-03"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 975,
@@ -118460,7 +118489,7 @@
             }
           ],
           "image": "images/nouf--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/nouf-100ml-paris-corner%d9%86%d9%88%d9%81-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a8%d8%a7%d8%b1%d9%8a%d8%b3-%d9%83%d9%88%d8%b1%d9%86%d8%b1/"
+          "product_url": "https://eldesoki-fragrances.com/product/nouf-40ml-%d9%86%d9%88%d9%81-%d9%a4%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "roseperfume",
@@ -203043,8 +203072,9 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 1150,
-              "first_seen": "2026-08-31"
+              "price": 1100,
+              "first_seen": "2026-08-31",
+              "prev_price": 1150
             }
           ],
           "image": "images/maramara--eldesoki-fragrances.jpg",
@@ -220278,6 +220308,195 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "9am-dive-tester",
+      "name_ar": "ناين اي ام دايف تستر ١٠ملي",
+      "name_en": "9AM Dive tester &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/9am-dive-tester.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-11-03"
+            }
+          ],
+          "image": "images/9am-dive-tester--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/9am-dive-tester-10ml-%d9%86%d8%a7%d9%8a%d9%86-%d8%a7%d9%8a-%d8%a7%d9%85-%d8%af%d8%a7%d9%8a%d9%81-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "brazilian-tobacco-tester",
+      "name_ar": "برازيليان توباكو تستر ١٠ملي",
+      "name_en": "Brazilian Tobacco tester &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/brazilian-tobacco-tester.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-11-03"
+            }
+          ],
+          "image": "images/brazilian-tobacco-tester--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/brazilian-tobacco-tester-10ml-%d8%a8%d8%b1%d8%a7%d8%b2%d9%8a%d9%84%d9%8a%d8%a7%d9%86-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "hersh-2-tester",
+      "name_ar": "هرش ٢ تستر ١٠ملي",
+      "name_en": "Hersh 2 tester &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/hersh-2-tester.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 300,
+              "first_seen": "2026-11-03"
+            }
+          ],
+          "image": "images/hersh-2-tester--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/hersh-2-tester-10ml-%d9%87%d8%b1%d8%b4-%d9%a2-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "nouf-tester",
+      "name_ar": "نوف تستر ١٠ملي",
+      "name_en": "Nouf tester &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/nouf-tester.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 125,
+              "first_seen": "2026-11-03"
+            }
+          ],
+          "image": "images/nouf-tester--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/nouf-tester-10ml-%d9%86%d9%88%d9%81-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "angham-second-song-tester",
+      "name_ar": "انغام ساكند سونج تستر ١٠ملي",
+      "name_en": "Angham Second Song tester &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/angham-second-song-tester.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 160,
+              "first_seen": "2026-11-03"
+            }
+          ],
+          "image": "images/angham-second-song-tester--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/angham-second-song-tester-10ml-%d8%a7%d9%86%d8%ba%d8%a7%d9%85-%d8%b3%d8%a7%d9%83%d9%86%d8%af-%d8%b3%d9%88%d9%86%d8%ac-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "mohra-silky-rose-tester",
+      "name_ar": "مهره روز تستر ١٠ملي",
+      "name_en": "Mohra Silky Rose tester &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/mohra-silky-rose-tester.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 140,
+              "first_seen": "2026-11-03"
+            }
+          ],
+          "image": "images/mohra-silky-rose-tester--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/mohra-silky-rose-tester-10ml-%d9%85%d9%87%d8%b1%d9%87-%d8%b1%d9%88%d8%b2-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "angham-second-song",
+      "name_ar": "انغام ساكند سونج ٥٠ملي",
+      "name_en": "Angham Second Song &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/angham-second-song.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 775,
+              "first_seen": "2026-11-03"
+            }
+          ],
+          "image": "images/angham-second-song--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/angham-second-song-50ml-%d8%a7%d9%86%d8%ba%d8%a7%d9%85-%d8%b3%d8%a7%d9%83%d9%86%d8%af-%d8%b3%d9%88%d9%86%d8%ac-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
