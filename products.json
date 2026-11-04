@@ -2210,8 +2210,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1800,
-              "first_seen": "2026-07-19"
+              "price": 1775,
+              "first_seen": "2026-07-19",
+              "prev_price": 1800
             }
           ],
           "image": "images/9pm-night-out--eldesoki-fragrances.jpg",
@@ -48626,7 +48627,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-04"
             }
           ],
           "image": "images/eclaire-affair--eldesoki-fragrances.jpg",
@@ -79621,7 +79623,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1475,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-04"
             }
           ],
           "image": "images/island--eldesoki-fragrances.jpg",
@@ -87726,7 +87729,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 175,
-              "first_seen": "2026-07-26"
+              "first_seen": "2026-07-26",
+              "sold_since": "2026-11-04"
             },
             {
               "kind": "leftover",
@@ -105301,8 +105305,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1275,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-08-03"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/mazaaj--eldesoki-fragrances.jpg",
@@ -108817,6 +108820,20 @@
           ],
           "image": "images/modhesh-noble--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/modhesh-noble"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1400,
+              "first_seen": "2026-11-04"
+            }
+          ],
+          "image": "images/modhesh-noble--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/modhesh-noble-100ml-zimaya-%d9%85%d8%af%d9%87%d8%b4-%d9%86%d9%88%d8%a8%d9%84-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b2%d9%8a%d9%85%d8%a7%d9%8a%d8%a7/"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -179690,7 +179707,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2125,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-04"
             }
           ],
           "image": "images/x-xandal--eldesoki-fragrances.jpg",
