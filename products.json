@@ -34152,8 +34152,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1299,
-              "first_seen": "2026-07-23"
+              "price": 1199,
+              "first_seen": "2026-07-23",
+              "prev_price": 1299
             }
           ],
           "image": "images/classic-red-eau-de-toilette--feel22.jpg",
@@ -112715,13 +112716,20 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 60,
+              "price": 8000,
+              "first_seen": "2026-11-04"
+            },
+            {
+              "kind": "full",
               "ml": 100,
-              "price": 8299,
-              "first_seen": "2026-07-23"
+              "price": 7999,
+              "first_seen": "2026-07-23",
+              "prev_price": 8299
             }
           ],
           "image": "images/myslf-le-parfum--feel22.jpg",
-          "product_url": "https://eg.feel22.com/products/yves-saint-laurent-myslf-le-parfum-for-men-100ml"
+          "product_url": "https://eg.feel22.com/products/yves-saint-laurent-myslf-le-parfum-for-men"
         },
         {
           "name": "mazaya",
@@ -220950,6 +220958,40 @@
         }
       ],
       "_hero_source": "mazaya"
+    },
+    {
+      "id": "christian-dior-eau-sauvage-eau-de-toilette",
+      "name_ar": "Christian Dior Eau Sauvage Eau De Toilette",
+      "name_en": "Christian Dior Eau Sauvage Eau De Toilette",
+      "brand": "Dior",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/christian-dior-eau-sauvage-eau-de-toilette.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "feel22",
+          "url": "https://eg.feel22.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 5120,
+              "first_seen": "2026-11-04",
+              "sold_since": "2026-11-04"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 8299,
+              "first_seen": "2026-11-04"
+            }
+          ],
+          "image": "images/christian-dior-eau-sauvage-eau-de-toilette--feel22.jpg",
+          "product_url": "https://eg.feel22.com/products/christian-dior-eau-sauvage-eau-de-parfum"
+        }
+      ],
+      "_hero_source": "feel22"
     }
   ]
 }
