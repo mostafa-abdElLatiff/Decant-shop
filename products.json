@@ -28516,7 +28516,8 @@
               "kind": "full",
               "ml": 100,
               "price": 3500,
-              "first_seen": "2026-10-12"
+              "first_seen": "2026-10-12",
+              "sold_since": "2026-11-04"
             }
           ],
           "image": "images/boss-in-motion-eau-de-toilette--mazaya.jpg",
@@ -36079,8 +36080,7 @@
               "kind": "full",
               "ml": 105,
               "price": 2016,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-11-02"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/club-de-nuit-urban-man-elixir--mazaya.jpg",
@@ -212196,8 +212196,7 @@
               "kind": "full",
               "ml": 100,
               "price": 862,
-              "first_seen": "2026-09-24",
-              "sold_since": "2026-11-02"
+              "first_seen": "2026-09-24"
             }
           ],
           "image": "images/elixir-intense-1605-eau-de-parfum--mazaya.jpg",
@@ -220915,6 +220914,60 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "gaultier-divine-re25-edp",
+      "name_ar": "Gaultier Divine RE25 EDP",
+      "name_en": "Gaultier Divine RE25 EDP",
+      "brand": "Jean Paul Gaultier",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/gaultier-divine-re25-edp.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 10700,
+              "first_seen": "2026-11-04"
+            }
+          ],
+          "image": "images/gaultier-divine-re25-edp--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/gaultier-divine-re25-edp-100ml"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "edp-cap-camarat",
+      "name_ar": "EDP Cap Camarat",
+      "name_en": "EDP Cap Camarat",
+      "brand": "Memo",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/edp-cap-camarat.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 20000,
+              "first_seen": "2026-11-04"
+            }
+          ],
+          "image": "images/edp-cap-camarat--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/edp-cap-camarat-75ml"
+        }
+      ],
+      "_hero_source": "mazaya"
     }
   ]
 }
