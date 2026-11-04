@@ -60127,8 +60127,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2000,
-              "first_seen": "2026-08-05"
+              "price": 1500,
+              "first_seen": "2026-08-05",
+              "prev_price": 2000
             }
           ],
           "image": "images/frankel-battle--sniffz.jpg",
@@ -110219,22 +110220,19 @@
               "kind": "decant",
               "ml": 3,
               "price": 165,
-              "first_seen": "2026-09-25",
-              "sold_since": "2026-10-30"
+              "first_seen": "2026-09-25"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 215,
-              "first_seen": "2026-09-25",
-              "sold_since": "2026-10-30"
+              "first_seen": "2026-09-25"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 330,
-              "first_seen": "2026-09-25",
-              "sold_since": "2026-10-30"
+              "first_seen": "2026-09-25"
             }
           ],
           "image": "images/muharib--sniffz.jpg",
@@ -152537,13 +152535,15 @@
               "kind": "decant",
               "ml": 100,
               "price": 91000,
-              "first_seen": "2026-10-03"
+              "first_seen": "2026-10-03",
+              "sold_since": "2026-11-04"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 91000,
-              "first_seen": "2026-10-03"
+              "first_seen": "2026-10-03",
+              "sold_since": "2026-11-04"
             }
           ],
           "image": "images/sindbad--sniffz.jpg",
@@ -220632,6 +220632,94 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "sauvage-extrait",
+      "name_ar": "",
+      "name_en": "Sauvage Extrait",
+      "brand": "Dior",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/sauvage-extrait.jpg",
+      "accords": [
+        {
+          "label_en": "Lavender",
+          "label_ar": "",
+          "color": "#9B7DB8",
+          "w": 100
+        },
+        {
+          "label_en": "Ambroxan",
+          "label_ar": "",
+          "color": "#bc4d10",
+          "w": 90
+        },
+        {
+          "label_en": "Bergamot",
+          "label_ar": "",
+          "color": "#F9FF52",
+          "w": 80
+        },
+        {
+          "label_en": "Vietnamese Oud",
+          "label_ar": "",
+          "color": "#544136",
+          "w": 70
+        },
+        {
+          "label_en": "Virginia Cedar",
+          "label_ar": "",
+          "color": "#774414",
+          "w": 60
+        },
+        {
+          "label_en": "Atlas Cedar",
+          "label_ar": "",
+          "color": "#774414",
+          "w": 50
+        },
+        {
+          "label_en": "Patchouli",
+          "label_ar": "",
+          "color": "#63652e",
+          "w": 40
+        },
+        {
+          "label_en": "Vetiver",
+          "label_ar": "",
+          "color": "#544838",
+          "w": 40
+        }
+      ],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 840,
+              "first_seen": "2026-11-04"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 1200,
+              "first_seen": "2026-11-04"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 2000,
+              "first_seen": "2026-11-04"
+            }
+          ],
+          "image": "images/sauvage-extrait--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/dior-sauve-extrait"
+        }
+      ],
+      "_hero_source": "sniffz"
     }
   ]
 }
