@@ -47742,24 +47742,10 @@
           "offers": [
             {
               "kind": "decant",
-              "ml": 3,
-              "price": 325,
-              "first_seen": "2026-10-29",
-              "sold_since": "2026-10-29"
-            },
-            {
-              "kind": "decant",
               "ml": 5,
               "price": 440,
               "first_seen": "2026-10-31",
               "sold_since": "2026-10-31"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 700,
-              "first_seen": "2026-10-29",
-              "sold_since": "2026-10-29"
             },
             {
               "kind": "full",
@@ -50484,21 +50470,21 @@
               "ml": 3,
               "price": 105,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-11-04"
+              "sold_since": "2026-11-05"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 140,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-11-04"
+              "sold_since": "2026-11-05"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 210,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-11-04"
+              "sold_since": "2026-11-05"
             },
             {
               "kind": "full",
@@ -217684,13 +217670,15 @@
               "kind": "decant",
               "ml": 3,
               "price": 150,
-              "first_seen": "2026-10-24"
+              "first_seen": "2026-10-24",
+              "sold_since": "2026-11-05"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 195,
-              "first_seen": "2026-10-24"
+              "first_seen": "2026-10-24",
+              "sold_since": "2026-11-05"
             },
             {
               "kind": "decant",
