@@ -8385,19 +8385,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 165,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-05"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 215,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-05"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 330,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-05"
             },
             {
               "kind": "full",
@@ -47613,10 +47616,24 @@
           "offers": [
             {
               "kind": "decant",
+              "ml": 3,
+              "price": 325,
+              "first_seen": "2026-11-05",
+              "sold_since": "2026-11-05"
+            },
+            {
+              "kind": "decant",
               "ml": 5,
               "price": 440,
               "first_seen": "2026-10-31",
               "sold_since": "2026-10-31"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 700,
+              "first_seen": "2026-11-05",
+              "sold_since": "2026-11-05"
             },
             {
               "kind": "full",
@@ -69611,8 +69628,7 @@
               "kind": "decant",
               "ml": 5,
               "price": 220,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-11-03"
+              "first_seen": "2026-01-01"
             },
             {
               "kind": "decant",
@@ -217180,22 +217196,19 @@
               "kind": "decant",
               "ml": 3,
               "price": 150,
-              "first_seen": "2026-10-24",
-              "sold_since": "2026-11-05"
+              "first_seen": "2026-10-24"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 195,
-              "first_seen": "2026-10-24",
-              "sold_since": "2026-11-05"
+              "first_seen": "2026-10-24"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 300,
-              "first_seen": "2026-10-24",
-              "sold_since": "2026-11-01"
+              "first_seen": "2026-10-24"
             }
           ],
           "image": "images/rayhaan-vantage--sniffz.jpg",
