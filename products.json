@@ -52793,20 +52793,21 @@
               "kind": "decant",
               "ml": 3,
               "price": 545,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-10-31"
+              "first_seen": "2026-01-01"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 780,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-11-05"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 1300,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-11-05"
             }
           ],
           "image": "images/erba-gold--sniffz.jpg",
@@ -60247,15 +60248,33 @@
           "url": "https://sniffz-eg.com/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 3,
+              "price": 80,
+              "first_seen": "2026-11-05"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 105,
+              "first_seen": "2026-11-05"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 160,
+              "first_seen": "2026-11-05"
+            },
+            {
               "kind": "full",
               "ml": 200,
-              "price": 2250,
+              "price": 200,
               "first_seen": "2026-08-05",
-              "sold_since": "2026-10-15"
+              "prev_price": 2250
             }
           ],
           "image": "images/frankel-black-elixir--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/assaf-frankel-black-elixir-full-sealed"
+          "product_url": "https://sniffz-eg.com/products/assaf-frankel-black-elixir"
         },
         {
           "name": "mazaya",
@@ -62234,8 +62253,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 330,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-08-10"
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/gary--sniffz.jpg",
@@ -69691,7 +69709,8 @@
               "kind": "decant",
               "ml": 5,
               "price": 220,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-11-05"
             },
             {
               "kind": "decant",
@@ -84662,15 +84681,13 @@
               "kind": "decant",
               "ml": 3,
               "price": 145,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 190,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
@@ -86155,15 +86172,13 @@
               "kind": "decant",
               "ml": 3,
               "price": 130,
-              "first_seen": "2026-10-24",
-              "sold_since": "2026-10-24"
+              "first_seen": "2026-10-24"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 170,
-              "first_seen": "2026-10-24",
-              "sold_since": "2026-10-24"
+              "first_seen": "2026-10-24"
             },
             {
               "kind": "decant",
@@ -96000,19 +96015,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 300,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-05"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 410,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-05"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 650,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-05"
             },
             {
               "kind": "full",
@@ -156334,8 +156352,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 330,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-08-10"
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/squidward--sniffz.jpg",
@@ -163420,22 +163437,19 @@
               "kind": "decant",
               "ml": 3,
               "price": 255,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 345,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 550,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-31"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
