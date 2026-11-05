@@ -1631,15 +1631,13 @@
               "kind": "decant",
               "ml": 5,
               "price": 150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-03"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 250,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-03"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/9pm--perfuzone.jpg",
@@ -73858,8 +73856,7 @@
               "kind": "decant",
               "ml": 5,
               "price": 270,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
@@ -74008,8 +74005,7 @@
               "kind": "decant",
               "ml": 5,
               "price": 500,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-03"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
@@ -114665,8 +114661,7 @@
               "kind": "decant",
               "ml": 5,
               "price": 120,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-31"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
@@ -114836,8 +114831,7 @@
               "kind": "decant",
               "ml": 5,
               "price": 140,
-              "first_seen": "2026-08-04",
-              "sold_since": "2026-11-03"
+              "first_seen": "2026-08-04"
             },
             {
               "kind": "decant",
@@ -136188,6 +136182,26 @@
           ],
           "image": "images/purple-heart-diamond--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/purple-heart-10ml%d8%a8%d8%b1%d8%a8%d9%84-%d9%87%d8%a7%d8%b1%d8%aa-%d9%a1%d9%a0%d9%85%d9%84%d9%8a-%d8%b2%d8%ac%d8%a7%d8%ac%d8%a9-%d8%a7%d8%a8%d8%b1%d8%a7%d9%82/"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 130,
+              "first_seen": "2026-11-05"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-11-05"
+            }
+          ],
+          "image": "images/purple-heart-diamond--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/purple-heart-diamond"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -151618,8 +151632,7 @@
               "kind": "decant",
               "ml": 5,
               "price": 180,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-25"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
@@ -176258,8 +176271,7 @@
               "kind": "decant",
               "ml": 5,
               "price": 220,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-06"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
@@ -201711,8 +201723,7 @@
               "kind": "decant",
               "ml": 5,
               "price": 150,
-              "first_seen": "2026-08-28",
-              "sold_since": "2026-11-04"
+              "first_seen": "2026-08-28"
             },
             {
               "kind": "decant",
@@ -202001,19 +202012,26 @@
           "offers": [
             {
               "kind": "decant",
+              "ml": 3,
+              "price": 500,
+              "first_seen": "2026-11-05"
+            },
+            {
+              "kind": "decant",
               "ml": 5,
-              "price": 850,
+              "price": 1000,
               "first_seen": "2026-08-30"
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 1600,
-              "first_seen": "2026-08-30"
+              "price": 1500,
+              "first_seen": "2026-08-30",
+              "prev_price": 1600
             }
           ],
           "image": "images/bal-d-afrique--perfuzone.jpg",
-          "product_url": "https://perfuzone-2.myshopify.com/products/byredo-bal-dafrique-1"
+          "product_url": "https://perfuzone-2.myshopify.com/products/byredo-bal-dafrique"
         }
       ],
       "_hero_source": "perfuzone"
