@@ -32339,7 +32339,14 @@
               "kind": "full",
               "ml": 150,
               "price": 2800,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-06"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2550,
+              "first_seen": "2026-11-06"
             }
           ],
           "image": "images/champion-turquoise--emaratiscents.jpg",
@@ -74291,7 +74298,8 @@
               "kind": "full",
               "ml": 75,
               "price": 1950,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-06"
             }
           ],
           "image": "images/honey-musk-confidence-dose--emaratiscents.jpg",
@@ -159316,7 +159324,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2750,
-              "first_seen": "2026-09-26"
+              "first_seen": "2026-09-26",
+              "sold_since": "2026-11-06"
             }
           ],
           "image": "images/supremacy-in-oud-luxury-collection--emaratiscents.jpg",
@@ -174786,8 +174795,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2500,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-11-05"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/vintage-tobacco--emaratiscents.jpg",
@@ -221266,6 +221274,33 @@
         }
       ],
       "_hero_source": "og-perfume"
+    },
+    {
+      "id": "wanted",
+      "name_ar": "Wanted",
+      "name_en": "Wanted",
+      "brand": "Laverne",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/wanted.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2550,
+              "first_seen": "2026-11-06"
+            }
+          ],
+          "image": "images/wanted--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/wanted-200-ml"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
