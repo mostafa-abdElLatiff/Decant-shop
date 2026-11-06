@@ -98770,6 +98770,13 @@
               "first_seen": "2026-07-19"
             },
             {
+              "kind": "leftover",
+              "ml": 15,
+              "price": 180,
+              "first_seen": "2026-11-06",
+              "sold_since": "2026-11-06"
+            },
+            {
               "kind": "decant",
               "ml": 30,
               "price": 425,
@@ -136174,7 +136181,8 @@
               "kind": "leftover",
               "ml": 60,
               "price": 770,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-06"
             },
             {
               "kind": "leftover",
@@ -221133,19 +221141,22 @@
               "kind": "decant",
               "ml": 10,
               "price": 205,
-              "first_seen": "2026-11-06"
+              "first_seen": "2026-11-06",
+              "sold_since": "2026-11-06"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 570,
-              "first_seen": "2026-11-06"
+              "first_seen": "2026-11-06",
+              "sold_since": "2026-11-06"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-11-06"
+              "first_seen": "2026-11-06",
+              "sold_since": "2026-11-06"
             }
           ],
           "image": "images/cloud-9-gulf-orchid--og-perfume.jpg",
@@ -221185,7 +221196,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-11-06"
+              "first_seen": "2026-11-06",
+              "sold_since": "2026-11-06"
             }
           ],
           "image": "images/fakhama-arabica--og-perfume.jpg",
