@@ -8481,7 +8481,8 @@
               "kind": "leftover",
               "ml": 40,
               "price": 660,
-              "first_seen": "2026-08-21"
+              "first_seen": "2026-08-21",
+              "sold_since": "2026-11-06"
             },
             {
               "kind": "leftover",
@@ -15399,7 +15400,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 160,
-              "first_seen": "2026-07-21"
+              "first_seen": "2026-07-21",
+              "sold_since": "2026-11-06"
             },
             {
               "kind": "decant",
@@ -18679,7 +18681,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 150,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-06"
             },
             {
               "kind": "decant",
@@ -39257,8 +39260,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 700,
-              "first_seen": "2026-08-13",
-              "sold_since": "2026-10-21"
+              "first_seen": "2026-08-13"
             },
             {
               "kind": "full",
@@ -48540,7 +48542,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1250,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-06"
             }
           ],
           "image": "images/eclaire--og-perfume.jpg",
@@ -69776,8 +69779,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 195,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-02"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
@@ -74704,7 +74706,8 @@
               "kind": "full",
               "ml": 200,
               "price": 5350,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-06"
             }
           ],
           "image": "images/hudson-valley--og-perfume.jpg",
@@ -108839,7 +108842,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 450,
-              "first_seen": "2026-11-01"
+              "first_seen": "2026-11-01",
+              "sold_since": "2026-11-06"
             },
             {
               "kind": "full",
@@ -124659,7 +124663,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 130,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-06"
             },
             {
               "kind": "decant",
@@ -146200,8 +146205,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-06"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
@@ -146221,8 +146225,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-02"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/sawaar-vanille-blanc--og-perfume.jpg",
@@ -171469,8 +171472,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1250,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-31"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/vanilla-addiction-gulf-orchid--og-perfume.jpg",
@@ -177870,7 +177872,8 @@
               "kind": "decant",
               "ml": 30,
               "price": 385,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-06"
             },
             {
               "kind": "leftover",
@@ -217288,6 +217291,13 @@
             },
             {
               "kind": "leftover",
+              "ml": 50,
+              "price": 750,
+              "first_seen": "2026-11-06",
+              "sold_since": "2026-11-06"
+            },
+            {
+              "kind": "leftover",
               "ml": 90,
               "price": 1350,
               "first_seen": "2026-10-24",
@@ -219440,8 +219450,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-10-29",
-              "sold_since": "2026-10-31"
+              "first_seen": "2026-10-29"
             }
           ],
           "image": "images/caneza-prisca--og-perfume.jpg",
@@ -221087,6 +221096,166 @@
         }
       ],
       "_hero_source": "feel22"
+    },
+    {
+      "id": "cloud-9-gulf-orchid",
+      "name_ar": "Cloud 9 Gulf Orchid",
+      "name_en": "Cloud 9 Gulf Orchid",
+      "brand": "Gulf Orchid",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/cloud-9-gulf-orchid.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 205,
+              "first_seen": "2026-11-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 570,
+              "first_seen": "2026-11-06"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1750,
+              "first_seen": "2026-11-06"
+            }
+          ],
+          "image": "images/cloud-9-gulf-orchid--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/cloud-9-gulf-orchid"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "fakhama-arabica",
+      "name_ar": "Fakhama Arabica",
+      "name_en": "Fakhama Arabica",
+      "brand": "Maison Asrar",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/fakhama-arabica.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 205,
+              "first_seen": "2026-11-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 570,
+              "first_seen": "2026-11-06",
+              "sold_since": "2026-11-06"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1750,
+              "first_seen": "2026-11-06"
+            }
+          ],
+          "image": "images/fakhama-arabica--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/fakhama-arabica"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "ameer",
+      "name_ar": "Ameer",
+      "name_en": "Ameer",
+      "brand": "Maison Asrar",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/ameer.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 280,
+              "first_seen": "2026-11-06",
+              "sold_since": "2026-11-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 790,
+              "first_seen": "2026-11-06",
+              "sold_since": "2026-11-06"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2500,
+              "first_seen": "2026-11-06",
+              "sold_since": "2026-11-06"
+            }
+          ],
+          "image": "images/ameer--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/ameer"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "maestro",
+      "name_ar": "Maestro",
+      "name_en": "Maestro",
+      "brand": "Gulf Orchid",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/maestro.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 205,
+              "first_seen": "2026-11-06"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 570,
+              "first_seen": "2026-11-06"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1750,
+              "first_seen": "2026-11-06"
+            }
+          ],
+          "image": "images/maestro--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/maestro"
+        }
+      ],
+      "_hero_source": "og-perfume"
     }
   ]
 }
