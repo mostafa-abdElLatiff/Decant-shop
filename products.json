@@ -11724,24 +11724,10 @@
           "offers": [
             {
               "kind": "decant",
-              "ml": 3,
-              "price": 115,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-10-30"
-            },
-            {
-              "kind": "decant",
               "ml": 5,
               "price": 150,
               "first_seen": "2026-01-01",
               "sold_since": "2026-10-31"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 230,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-10-30"
             },
             {
               "kind": "full",
@@ -50382,21 +50368,21 @@
               "ml": 3,
               "price": 105,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-11-05"
+              "sold_since": "2026-11-06"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 140,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-11-05"
+              "sold_since": "2026-11-06"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 210,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-11-05"
+              "sold_since": "2026-11-06"
             },
             {
               "kind": "full",
@@ -60261,7 +60247,7 @@
               "ml": 200,
               "price": 200,
               "first_seen": "2026-08-05",
-              "prev_price": 2250
+              "sold_since": "2026-11-06"
             }
           ],
           "image": "images/frankel-black-elixir--sniffz.jpg",
@@ -73955,19 +73941,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 410,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-06"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 540,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-06"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 900,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-06"
             },
             {
               "kind": "full",
@@ -141378,22 +141367,19 @@
               "kind": "decant",
               "ml": 3,
               "price": 300,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-27"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 410,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-27"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 650,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-27"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -157794,22 +157780,19 @@
               "kind": "decant",
               "ml": 3,
               "price": 320,
-              "first_seen": "2026-09-03",
-              "sold_since": "2026-10-21"
+              "first_seen": "2026-09-03"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 440,
-              "first_seen": "2026-09-03",
-              "sold_since": "2026-10-21"
+              "first_seen": "2026-09-03"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 700,
-              "first_seen": "2026-09-03",
-              "sold_since": "2026-10-21"
+              "first_seen": "2026-09-03"
             }
           ],
           "image": "images/stronger-with-you-powerfully--sniffz.jpg",
@@ -161742,22 +161725,19 @@
               "kind": "decant",
               "ml": 3,
               "price": 130,
-              "first_seen": "2026-09-05",
-              "sold_since": "2026-09-19"
+              "first_seen": "2026-09-05"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 170,
-              "first_seen": "2026-09-05",
-              "sold_since": "2026-09-19"
+              "first_seen": "2026-09-05"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 260,
-              "first_seen": "2026-09-05",
-              "sold_since": "2026-09-19"
+              "first_seen": "2026-09-05"
             },
             {
               "kind": "full",
@@ -174731,7 +174711,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 305,
-              "first_seen": "2026-08-12"
+              "first_seen": "2026-08-12",
+              "sold_since": "2026-11-06"
             }
           ],
           "image": "images/vintage-radio--sniffz.jpg",
