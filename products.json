@@ -7567,8 +7567,7 @@
               "kind": "full",
               "ml": 125,
               "price": 2762,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-11-06"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/all-over-magnolia--mazaya.jpg",
@@ -18821,7 +18820,8 @@
               "kind": "full",
               "ml": 150,
               "price": 2422,
-              "first_seen": "2026-10-15"
+              "first_seen": "2026-10-15",
+              "sold_since": "2026-11-06"
             }
           ],
           "image": "images/aura-c35--mazaya.jpg",
@@ -42173,6 +42173,7 @@
               "ml": 100,
               "price": 4122,
               "first_seen": "2026-07-23",
+              "prev_price": 4972,
               "sold_since": "2026-11-06"
             },
             {
@@ -148847,7 +148848,8 @@
               "kind": "full",
               "ml": 200,
               "price": 196,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-11-06"
             }
           ],
           "image": "images/shadow-him-deo--mazaya.jpg",
