@@ -2167,8 +2167,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1900,
-              "first_seen": "2026-01-01",
-              "prev_price": 1950
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/9pm-night-out--sniffz.jpg",
@@ -50380,7 +50379,8 @@
               "kind": "full",
               "ml": 150,
               "price": 2300,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-11-07"
             }
           ],
           "image": "images/emerald-soul-diamond--sniffz.jpg",
@@ -53922,8 +53922,7 @@
               "kind": "full",
               "ml": 100,
               "price": 990,
-              "first_seen": "2026-08-05",
-              "prev_price": 2400
+              "first_seen": "2026-08-05"
             }
           ],
           "image": "images/error-404--sniffz.jpg",
@@ -60101,8 +60100,7 @@
               "kind": "full",
               "ml": 100,
               "price": 990,
-              "first_seen": "2026-08-05",
-              "prev_price": 1500
+              "first_seen": "2026-08-05"
             }
           ],
           "image": "images/frankel-battle--sniffz.jpg",
@@ -80612,7 +80610,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 450,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-11-07"
             }
           ],
           "image": "images/iven-peace--sniffz.jpg",
@@ -96374,13 +96373,15 @@
               "kind": "decant",
               "ml": 3,
               "price": 300,
-              "first_seen": "2026-07-25"
+              "first_seen": "2026-07-25",
+              "sold_since": "2026-11-07"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 410,
-              "first_seen": "2026-07-25"
+              "first_seen": "2026-07-25",
+              "sold_since": "2026-11-07"
             },
             {
               "kind": "decant",
@@ -141445,7 +141446,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 650,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-07"
             },
             {
               "kind": "full",
@@ -161293,9 +161295,8 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1900,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-10-10"
+              "price": 2200,
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/teriaq-intense--sniffz.jpg",
@@ -178037,19 +178038,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 80,
-              "first_seen": "2026-08-12"
+              "first_seen": "2026-08-12",
+              "sold_since": "2026-11-07"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 105,
-              "first_seen": "2026-08-12"
+              "first_seen": "2026-08-12",
+              "sold_since": "2026-11-07"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 160,
-              "first_seen": "2026-08-12"
+              "first_seen": "2026-08-12",
+              "sold_since": "2026-11-07"
             }
           ],
           "image": "images/white-regent-diamond--sniffz.jpg",
