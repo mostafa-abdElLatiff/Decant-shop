@@ -64937,8 +64937,7 @@
               "kind": "full",
               "ml": 100,
               "price": 18000,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-11-07"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/gold-man--emaratiscents.jpg",
@@ -84114,7 +84113,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-07"
             }
           ],
           "image": "images/kahilan--emaratiscents.jpg",
@@ -172347,7 +172347,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-08-30"
+              "first_seen": "2026-08-30",
+              "sold_since": "2026-11-07"
             }
           ],
           "image": "images/vanilla-seduction--emaratiscents.jpg",
@@ -191314,8 +191315,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1850,
-              "first_seen": "2026-08-10",
-              "sold_since": "2026-11-07"
+              "first_seen": "2026-08-10"
             }
           ],
           "image": "images/revolt-uncaged--emaratiscents.jpg",
@@ -219232,7 +219232,8 @@
               "kind": "full",
               "ml": 300,
               "price": 3000,
-              "first_seen": "2026-10-27"
+              "first_seen": "2026-10-27",
+              "sold_since": "2026-11-07"
             }
           ],
           "image": "images/al-hilal-bundle-by-dkhoni--emaratiscents.jpg",
@@ -221383,6 +221384,60 @@
         }
       ],
       "_hero_source": "sniffz"
+    },
+    {
+      "id": "al-wisam-hayan",
+      "name_ar": "Al Wisam Hayan",
+      "name_en": "Al Wisam Hayan",
+      "brand": "Rasasi",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/al-wisam-hayan.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2550,
+              "first_seen": "2026-11-07"
+            }
+          ],
+          "image": "images/al-wisam-hayan--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/al-wisam-hayan"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "al-wisam-habban",
+      "name_ar": "Al Wisam Habban",
+      "name_en": "Al Wisam Habban",
+      "brand": "Rasasi",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/al-wisam-habban.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2550,
+              "first_seen": "2026-11-07"
+            }
+          ],
+          "image": "images/al-wisam-habban--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/al-wisam-habban"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
