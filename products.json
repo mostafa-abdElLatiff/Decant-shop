@@ -157435,19 +157435,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 300,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-08"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 410,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-08"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 650,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-08"
             },
             {
               "kind": "full",
@@ -157865,20 +157868,23 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 320,
-              "first_seen": "2026-09-03"
+              "price": 300,
+              "first_seen": "2026-09-03",
+              "prev_price": 320
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 440,
-              "first_seen": "2026-09-03"
+              "price": 410,
+              "first_seen": "2026-09-03",
+              "prev_price": 440
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 700,
-              "first_seen": "2026-09-03"
+              "price": 650,
+              "first_seen": "2026-09-03",
+              "prev_price": 700
             }
           ],
           "image": "images/stronger-with-you-powerfully--sniffz.jpg",
