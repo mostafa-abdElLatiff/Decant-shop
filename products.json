@@ -18757,8 +18757,7 @@
               "kind": "full",
               "ml": 150,
               "price": 2850,
-              "first_seen": "2026-10-15",
-              "sold_since": "2026-11-06"
+              "first_seen": "2026-10-15"
             }
           ],
           "image": "images/aura-c35--mazaya.jpg",
@@ -53692,8 +53691,7 @@
               "kind": "full",
               "ml": 100,
               "price": 9200,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-11-06"
+              "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
@@ -60462,8 +60460,7 @@
               "kind": "full",
               "ml": 200,
               "price": 3400,
-              "first_seen": "2026-10-15",
-              "sold_since": "2026-11-06"
+              "first_seen": "2026-10-15"
             }
           ],
           "image": "images/frankel-chill-assaf--mazaya.jpg",
@@ -63222,18 +63219,17 @@
               "ml": 60,
               "price": 5955,
               "first_seen": "2026-10-15",
-              "sold_since": "2026-11-06"
+              "sold_since": "2026-11-08"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 7940,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-11-08"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/gentleman-r-serve-priv-e--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/gentleman-reserve-privee-eau-de-parfum-60-ml"
+          "product_url": "https://mazaya.eg/en/gentleman-reserve-privee-edp-100ml"
         },
         {
           "name": "feel22",
@@ -98197,8 +98193,7 @@
               "kind": "full",
               "ml": 90,
               "price": 23000,
-              "first_seen": "2026-10-30",
-              "sold_since": "2026-10-30"
+              "first_seen": "2026-10-30"
             }
           ],
           "image": "images/lift-me-up--mazaya.jpg",
@@ -102799,7 +102794,7 @@
               "ml": 100,
               "price": 10900,
               "first_seen": "2026-07-26",
-              "sold_since": "2026-11-03"
+              "sold_since": "2026-11-08"
             },
             {
               "kind": "full",
@@ -103162,22 +103157,20 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 10900,
+              "price": 11100,
               "first_seen": "2026-07-23",
-              "prev_price": 11100,
-              "sold_since": "2026-11-08"
+              "prev_price": 13200
             },
             {
               "kind": "full",
               "ml": 150,
-              "price": 13000,
+              "price": 15100,
               "first_seen": "2026-07-23",
-              "prev_price": 15100,
               "sold_since": "2026-11-08"
             }
           ],
           "image": "images/man-wood-essence--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/bvlgari-man-wood-essence-edp123"
+          "product_url": "https://mazaya.eg/en/bvlgari-man-wood-essence-edp-100ml"
         },
         {
           "name": "Ahmed Abdel Kareem",
@@ -104270,8 +104263,7 @@
               "kind": "full",
               "ml": 100,
               "price": 5400,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-10-01"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/marshoud-4-white--mazaya.jpg",
@@ -145251,8 +145243,7 @@
               "kind": "full",
               "ml": 100,
               "price": 20400,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-09-06"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/santal-calling--mazaya.jpg",
@@ -156750,8 +156741,7 @@
               "kind": "full",
               "ml": 50,
               "price": 12000,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-09-24"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/stercus-orto-paris--mazaya.jpg",
@@ -221496,6 +221486,33 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "men-s-le-male-elixir-collector",
+      "name_ar": "Men's Le Male Elixir Collector",
+      "name_en": "Men's Le Male Elixir Collector",
+      "brand": "Jean Paul Gaultier",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/men-s-le-male-elixir-collector.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 8700,
+              "first_seen": "2026-11-08"
+            }
+          ],
+          "image": "images/men-s-le-male-elixir-collector--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/men-s-le-male-elixir-collector-125-ml"
+        }
+      ],
+      "_hero_source": "mazaya"
     }
   ]
 }
