@@ -204353,6 +204353,20 @@
           ],
           "image": "images/cedrus-blanc--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/cedrus-blanc"
+        },
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1500,
+              "first_seen": "2026-11-09"
+            }
+          ],
+          "image": "images/cedrus-blanc--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/rayhaan-cedrus-blanc"
         }
       ],
       "_hero_source": "og-perfume"
@@ -221688,6 +221702,60 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "rayhaan-nova-sol",
+      "name_ar": "Rayhaan Nova Sol",
+      "name_en": "Rayhaan Nova Sol",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/rayhaan-nova-sol.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1500,
+              "first_seen": "2026-11-09"
+            }
+          ],
+          "image": "images/rayhaan-nova-sol--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/rayhaan-nova-sol"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "rayhaan-crismon",
+      "name_ar": "Rayhaan Crismon",
+      "name_en": "Rayhaan Crismon",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/rayhaan-crismon.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1450,
+              "first_seen": "2026-11-09"
+            }
+          ],
+          "image": "images/rayhaan-crismon--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/rayhaan-crismon"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
     }
   ]
 }
