@@ -119706,8 +119706,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2000,
-              "first_seen": "2026-07-20",
-              "prev_price": 2200
+              "first_seen": "2026-07-20"
             }
           ],
           "image": "images/obsidian-french-avenue--dar-elarabia.jpg",
@@ -156993,7 +156992,8 @@
               "kind": "full",
               "ml": 125,
               "price": 2000,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-10"
             }
           ],
           "image": "images/strike-black--dar-elarabia.jpg",
@@ -204764,8 +204764,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2300,
-              "first_seen": "2026-09-02"
+              "price": 2200,
+              "first_seen": "2026-09-02",
+              "prev_price": 2300
             }
           ],
           "image": "images/qasida-purity--dar-elarabia.jpg",
@@ -204915,8 +204916,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2300,
-              "first_seen": "2026-09-03"
+              "price": 2200,
+              "first_seen": "2026-09-03",
+              "prev_price": 2300
             }
           ],
           "image": "images/qasida-dunes--dar-elarabia.jpg",
