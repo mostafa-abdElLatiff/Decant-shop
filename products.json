@@ -16255,7 +16255,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 515,
-              "first_seen": "2026-10-12"
+              "first_seen": "2026-10-12",
+              "sold_since": "2026-11-10"
             },
             {
               "kind": "full",
@@ -20950,7 +20951,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1200,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-10"
             }
           ],
           "image": "images/badee-al-oud-oud-for-glory--og-perfume.jpg",
@@ -42149,7 +42151,8 @@
               "kind": "leftover",
               "ml": 40,
               "price": 1025,
-              "first_seen": "2026-09-12"
+              "first_seen": "2026-09-12",
+              "sold_since": "2026-11-10"
             },
             {
               "kind": "full",
@@ -51687,7 +51690,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 195,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-10"
             },
             {
               "kind": "decant",
@@ -51700,8 +51704,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 825,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -54040,16 +54043,14 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-19"
+              "price": 165,
+              "first_seen": "2026-07-19"
             },
             {
-              "kind": "leftover",
-              "ml": 40,
-              "price": 500,
-              "first_seen": "2026-08-01",
-              "sold_since": "2026-08-01"
+              "kind": "decant",
+              "ml": 30,
+              "price": 450,
+              "first_seen": "2026-11-10"
             },
             {
               "kind": "leftover",
@@ -54059,18 +54060,10 @@
               "sold_since": "2026-07-19"
             },
             {
-              "kind": "leftover",
-              "ml": 80,
-              "price": 1000,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
               "kind": "full",
               "ml": 100,
-              "price": 1250,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-08"
+              "price": 1350,
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/eshal-vanilla--og-perfume.jpg",
@@ -61739,6 +61732,13 @@
               "price": 525,
               "first_seen": "2026-07-19",
               "sold_since": "2026-10-15"
+            },
+            {
+              "kind": "leftover",
+              "ml": 60,
+              "price": 630,
+              "first_seen": "2026-11-10",
+              "sold_since": "2026-11-10"
             },
             {
               "kind": "full",
@@ -80662,15 +80662,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 320,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-16"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 925,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-21"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -80717,9 +80715,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2750,
+              "price": 2500,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-08-15"
+              "prev_price": 2750
             }
           ],
           "image": "images/iven-peace--og-perfume.jpg",
@@ -85434,8 +85432,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 110,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -85448,8 +85445,7 @@
               "kind": "full",
               "ml": 100,
               "price": 850,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-15"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/khair-confection--og-perfume.jpg",
@@ -85476,8 +85472,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 130,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-31"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -85497,8 +85492,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1050,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-08-27"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/khair-felicity--og-perfume.jpg",
@@ -108224,15 +108218,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 235,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-14"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 675,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -108252,8 +108244,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2050,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-25"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/miss-gris--og-perfume.jpg",
@@ -134387,6 +134378,13 @@
               "sold_since": "2026-08-25"
             },
             {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 725,
+              "first_seen": "2026-11-10",
+              "sold_since": "2026-11-10"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1450,
@@ -137158,16 +137156,14 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 110,
-              "first_seen": "2026-07-25",
-              "sold_since": "2026-08-08"
+              "price": 120,
+              "first_seen": "2026-07-25"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 750,
-              "first_seen": "2026-07-25",
-              "sold_since": "2026-07-29"
+              "price": 850,
+              "first_seen": "2026-07-25"
             }
           ],
           "image": "images/qissa-delicious--og-perfume.jpg",
@@ -149673,7 +149669,7 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 600,
+              "price": 640,
               "first_seen": "2026-07-19",
               "sold_since": "2026-09-19"
             },
@@ -178258,8 +178254,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 120,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 325,
+              "first_seen": "2026-11-10"
             },
             {
               "kind": "leftover",
@@ -178272,8 +178273,7 @@
               "kind": "full",
               "ml": 200,
               "price": 1800,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/wild-colt--og-perfume.jpg",
@@ -200248,7 +200248,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2100,
-              "first_seen": "2026-08-22"
+              "first_seen": "2026-08-22",
+              "sold_since": "2026-11-10"
             }
           ],
           "image": "images/faris-al-arab-maison-asrar--og-perfume.jpg",
@@ -204186,15 +204187,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 170,
-              "first_seen": "2026-09-01",
-              "sold_since": "2026-09-02"
+              "first_seen": "2026-09-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 500,
-              "first_seen": "2026-09-01",
-              "sold_since": "2026-09-01"
+              "first_seen": "2026-09-01"
             },
             {
               "kind": "leftover",
@@ -204221,8 +204220,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1500,
-              "first_seen": "2026-09-01",
-              "sold_since": "2026-09-02"
+              "first_seen": "2026-09-01"
             }
           ],
           "image": "images/cedrus-blanc--og-perfume.jpg",
@@ -204313,15 +204311,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 170,
-              "first_seen": "2026-09-01",
-              "sold_since": "2026-09-14"
+              "first_seen": "2026-09-01"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 500,
-              "first_seen": "2026-09-01",
-              "sold_since": "2026-09-01"
+              "first_seen": "2026-09-01"
             },
             {
               "kind": "leftover",
@@ -204348,8 +204344,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1500,
-              "first_seen": "2026-09-01",
-              "sold_since": "2026-09-16"
+              "first_seen": "2026-09-01"
             }
           ],
           "image": "images/nava-sol--og-perfume.jpg",
@@ -222125,6 +222120,84 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "cammaro-homme-intense-pendora",
+      "name_ar": "Cammaro Homme Intense Pendora",
+      "name_en": "Cammaro Homme Intense Pendora",
+      "brand": "Paris Corner",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/cammaro-homme-intense-pendora.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 100,
+              "first_seen": "2026-11-10"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 285,
+              "first_seen": "2026-11-10"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 700,
+              "first_seen": "2026-11-10"
+            }
+          ],
+          "image": "images/cammaro-homme-intense-pendora--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/cammaro-homme-intense-pendora"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "aira-paris-corner",
+      "name_ar": "Aira Paris Corner",
+      "name_en": "Aira Paris Corner",
+      "brand": "paris corner",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/aira-paris-corner.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 165,
+              "first_seen": "2026-11-10"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 450,
+              "first_seen": "2026-11-10"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1350,
+              "first_seen": "2026-11-10"
+            }
+          ],
+          "image": "images/aira-paris-corner--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/aira-paris-corner"
+        }
+      ],
+      "_hero_source": "og-perfume"
     }
   ]
 }
