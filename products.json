@@ -11889,8 +11889,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1550,
-              "first_seen": "2026-09-19"
+              "price": 1500,
+              "first_seen": "2026-09-19",
+              "prev_price": 1550
             }
           ],
           "image": "images/aquatica--eldesoki-fragrances.jpg",
@@ -14615,8 +14616,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2050,
-              "first_seen": "2026-07-19"
+              "price": 1850,
+              "first_seen": "2026-07-19",
+              "prev_price": 2050
             }
           ],
           "image": "images/arrogate-addict--eldesoki-fragrances.jpg",
@@ -14934,8 +14936,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2050,
-              "first_seen": "2026-07-19"
+              "price": 1750,
+              "first_seen": "2026-07-19",
+              "prev_price": 2050
             }
           ],
           "image": "images/arrogate-blue-de--eldesoki-fragrances.jpg",
@@ -23781,9 +23784,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1850,
+              "price": 1800,
               "first_seen": "2026-07-18",
-              "sold_since": "2026-11-07"
+              "prev_price": 1850
             }
           ],
           "image": "images/black-cavalier-vi--eldesoki-fragrances.jpg",
@@ -30200,8 +30203,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1375,
-              "first_seen": "2026-07-18"
+              "price": 1300,
+              "first_seen": "2026-07-18",
+              "prev_price": 1375
             }
           ],
           "image": "images/caffe-latte--eldesoki-fragrances.jpg",
@@ -40801,8 +40805,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 1975,
-              "first_seen": "2026-07-19"
+              "price": 1750,
+              "first_seen": "2026-07-19",
+              "prev_price": 1975
             }
           ],
           "image": "images/dangerous-arrogate--eldesoki-fragrances.jpg",
@@ -56258,6 +56263,20 @@
           ],
           "image": "images/extradose-homme-arabiyat-prestige--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/extradose-homme"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 80,
+              "price": 1850,
+              "first_seen": "2026-11-11"
+            }
+          ],
+          "image": "images/extradose-homme-arabiyat-prestige--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/extradose-homme-80ml-arabiyat-%d8%a7%d9%83%d8%b3%d8%aa%d8%b1%d8%a7%d8%af%d9%88%d8%b2-%d9%84%d9%84%d8%b1%d8%ac%d8%a7%d9%84-%d9%a8%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b9%d8%b1%d8%a8%d9%8a/"
         }
       ],
       "_hero_source": "roseperfume",
@@ -65623,11 +65642,18 @@
               "kind": "decant",
               "ml": 20,
               "price": 450,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-11"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1750,
+              "first_seen": "2026-11-11"
             }
           ],
           "image": "images/greek-tobacco--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/greek-tobacco-20ml%d8%ac%d8%b1%d9%8a%d9%83-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%85%d9%86-%d8%a8%d9%88%d9%83%d8%b3-%d8%a7%d8%a8%d8%b1%d8%a7%d9%82-%d9%a2%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/greek-tobacco-100ml-ibraq-%d8%ac%d8%b1%d9%8a%d9%83-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d8%a8%d8%b1%d8%a7%d9%82/"
         },
         {
           "name": "emaratiscents",
@@ -82129,8 +82155,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 1875,
-              "first_seen": "2026-07-18"
+              "price": 1850,
+              "first_seen": "2026-07-18",
+              "prev_price": 1875
             }
           ],
           "image": "images/jassas-ezz-oud--eldesoki-fragrances.jpg",
@@ -106558,9 +106585,8 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1650,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-25"
+              "price": 1750,
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/mexican-tobacco--eldesoki-fragrances.jpg",
@@ -134167,7 +134193,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1700,
+              "price": 1725,
               "first_seen": "2026-07-18",
               "sold_since": "2026-09-13"
             }
@@ -140461,8 +140487,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2150,
-              "first_seen": "2026-07-18"
+              "price": 1900,
+              "first_seen": "2026-07-18",
+              "prev_price": 2150
             }
           ],
           "image": "images/reef-33--eldesoki-fragrances.jpg",
@@ -161906,8 +161933,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1550,
-              "first_seen": "2026-10-12"
+              "price": 1500,
+              "first_seen": "2026-10-12",
+              "prev_price": 1550
             }
           ],
           "image": "images/terra-rayhaan--eldesoki-fragrances.jpg",
@@ -181048,8 +181076,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5950,
-              "first_seen": "2026-09-14"
+              "price": 5450,
+              "first_seen": "2026-09-14",
+              "prev_price": 5950
             }
           ],
           "image": "images/y-iced-cologne--eldesoki-fragrances.jpg",
@@ -209659,7 +209688,8 @@
               "kind": "full",
               "ml": 75,
               "price": 675,
-              "first_seen": "2026-09-20"
+              "first_seen": "2026-09-20",
+              "sold_since": "2026-11-11"
             }
           ],
           "image": "images/khanjar-outory-arabiyat--eldesoki-fragrances.jpg",
@@ -212784,14 +212814,16 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 600,
-              "first_seen": "2026-09-26"
+              "price": 550,
+              "first_seen": "2026-09-26",
+              "prev_price": 600
             },
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 3225,
-              "first_seen": "2026-09-26"
+              "price": 3100,
+              "first_seen": "2026-09-26",
+              "prev_price": 3225
             }
           ],
           "image": "images/ysl-iced-cologne--eldesoki-fragrances.jpg",
@@ -218145,6 +218177,20 @@
           ],
           "image": "images/ultra-extrait-50--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/ultra-extrait-50"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1275,
+              "first_seen": "2026-11-11"
+            }
+          ],
+          "image": "images/ultra-extrait-50--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/ultra-extrait-50-100ml-almas-%d8%a7%d9%84%d8%aa%d8%b1%d8%a7-%d9%a5%d9%a0-%d8%a7%d9%83%d8%b3%d8%aa%d8%b1%d9%8a%d8%aa-%d9%85%d9%86-%d8%a7%d9%84%d9%85%d8%a7%d8%b3/"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -220385,8 +220431,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 1600,
-              "first_seen": "2026-11-01",
-              "sold_since": "2026-11-10"
+              "first_seen": "2026-11-01"
             }
           ],
           "image": "images/hersh-55--eldesoki-fragrances.jpg",
@@ -222232,6 +222277,87 @@
         }
       ],
       "_hero_source": "og-perfume"
+    },
+    {
+      "id": "mulham-nawar-almas",
+      "name_ar": "ملهم نوار ١٠٠ملي من الماس",
+      "name_en": "Mulham Nawar Almas &",
+      "brand": "Almas",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/mulham-nawar-almas.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1275,
+              "first_seen": "2026-11-11"
+            }
+          ],
+          "image": "images/mulham-nawar-almas--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/mulham-nawar-100ml-almas-%d9%85%d9%84%d9%87%d9%85-%d9%86%d9%88%d8%a7%d8%b1-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d9%84%d9%85%d8%a7%d8%b3/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "frankel-black-out-assaf",
+      "name_ar": "فرانكل بلاك اوت ٢٠٠ملي من عساف",
+      "name_en": "Frankel Black Out Assaf &",
+      "brand": "Assaf",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/frankel-black-out-assaf.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 1750,
+              "first_seen": "2026-11-11"
+            }
+          ],
+          "image": "images/frankel-black-out-assaf--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/frankel-black-out-200ml-assaf-%d9%81%d8%b1%d8%a7%d9%86%d9%83%d9%84-%d8%a8%d9%84%d8%a7%d9%83-%d8%a7%d9%88%d8%aa-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b9%d8%b3%d8%a7%d9%81/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "kilkat-monaya-ezz-oud",
+      "name_ar": "كلكات منايا ٢٠٠ملي من العز للعود",
+      "name_en": "Kilkat Monaya Ezz Oud &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/kilkat-monaya-ezz-oud.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 1850,
+              "first_seen": "2026-11-11"
+            }
+          ],
+          "image": "images/kilkat-monaya-ezz-oud--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/kilkat-monaya-200ml-ezz-oud-%d9%83%d9%84%d9%83%d8%a7%d8%aa-%d9%85%d9%86%d8%a7%d9%8a%d8%a7-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d9%84%d8%b9%d8%b2-%d9%84%d9%84%d8%b9%d9%88/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
