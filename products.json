@@ -12400,22 +12400,19 @@
               "kind": "decant",
               "ml": 3,
               "price": 320,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-10"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 440,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-10"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 700,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-10"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -26431,8 +26428,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2450,
-              "first_seen": "2026-08-05"
+              "price": 1500,
+              "first_seen": "2026-08-05",
+              "prev_price": 2450
             }
           ],
           "image": "images/blue-laverne-elixir--sniffz.jpg",
@@ -35955,13 +35953,15 @@
               "kind": "decant",
               "ml": 3,
               "price": 130,
-              "first_seen": "2026-08-03"
+              "first_seen": "2026-08-03",
+              "sold_since": "2026-11-11"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 170,
-              "first_seen": "2026-08-03"
+              "first_seen": "2026-08-03",
+              "sold_since": "2026-11-11"
             },
             {
               "kind": "decant",
@@ -56925,6 +56925,24 @@
           "url": "https://sniffz-eg.com/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 3,
+              "price": 100,
+              "first_seen": "2026-11-11"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 130,
+              "first_seen": "2026-11-11"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-11-11"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1650,
@@ -56933,7 +56951,7 @@
             }
           ],
           "image": "images/fakhar-black--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/lattafa-fakhar-black-full-sealed"
+          "product_url": "https://sniffz-eg.com/products/lattafa-fakhar-black"
         },
         {
           "name": "roseperfume",
@@ -69474,8 +69492,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1900,
-              "first_seen": "2026-01-01"
+              "price": 1150,
+              "first_seen": "2026-01-01",
+              "prev_price": 1900
             }
           ],
           "image": "images/hawas-for-him-black--sniffz.jpg",
@@ -80668,13 +80687,15 @@
               "kind": "decant",
               "ml": 3,
               "price": 230,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-11-11"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 290,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-11-11"
             },
             {
               "kind": "decant",
@@ -101347,6 +101368,32 @@
           ],
           "image": "images/maahir-honor--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/spray-maahir-honor-100ml"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 125,
+              "first_seen": "2026-11-11"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 165,
+              "first_seen": "2026-11-11"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 250,
+              "first_seen": "2026-11-11"
+            }
+          ],
+          "image": "images/maahir-honor--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/lattafa-maahir-honor"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -120392,8 +120439,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1700,
-              "first_seen": "2026-08-06"
+              "price": 1050,
+              "first_seen": "2026-08-06",
+              "prev_price": 1700
             }
           ],
           "image": "images/odyssey-artisto--sniffz.jpg",
@@ -120625,8 +120673,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1700,
-              "first_seen": "2026-08-03"
+              "price": 1050,
+              "first_seen": "2026-08-03",
+              "prev_price": 1700
             }
           ],
           "image": "images/odyssey-chocolate-dubai--sniffz.jpg",
@@ -121253,8 +121302,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1700,
-              "first_seen": "2026-08-03"
+              "price": 1050,
+              "first_seen": "2026-08-03",
+              "prev_price": 1700
             }
           ],
           "image": "images/odyssey-mandarin-sky-vintage--sniffz.jpg",
@@ -140309,7 +140359,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 600,
-              "first_seen": "2026-10-24"
+              "first_seen": "2026-10-24",
+              "sold_since": "2026-11-11"
             }
           ],
           "image": "images/red-tobacco-intense--sniffz.jpg",
@@ -157960,13 +158011,15 @@
               "kind": "decant",
               "ml": 5,
               "price": 410,
-              "first_seen": "2026-09-03"
+              "first_seen": "2026-09-03",
+              "sold_since": "2026-11-11"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 650,
-              "first_seen": "2026-09-03"
+              "first_seen": "2026-09-03",
+              "sold_since": "2026-11-11"
             }
           ],
           "image": "images/stronger-with-you-powerfully--sniffz.jpg",
@@ -161378,7 +161431,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 310,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-11"
             },
             {
               "kind": "full",
@@ -169376,13 +169430,15 @@
               "kind": "decant",
               "ml": 5,
               "price": 455,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-11"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 700,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-11"
             },
             {
               "kind": "full",
@@ -175032,7 +175088,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 330,
-              "first_seen": "2026-09-30"
+              "first_seen": "2026-09-30",
+              "sold_since": "2026-11-11"
             }
           ],
           "image": "images/vintage-tobacco--sniffz.jpg",
@@ -180602,13 +180659,15 @@
               "kind": "decant",
               "ml": 3,
               "price": 295,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-11-11"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 405,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-11-11"
             },
             {
               "kind": "decant",
@@ -184876,8 +184935,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1900,
-              "first_seen": "2026-08-05"
+              "price": 1100,
+              "first_seen": "2026-08-05",
+              "prev_price": 1900
             }
           ],
           "image": "images/tobacco-pasha--sniffz.jpg",
@@ -188760,8 +188820,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1700,
-              "first_seen": "2026-08-06"
+              "price": 1050,
+              "first_seen": "2026-08-06",
+              "prev_price": 1700
             }
           ],
           "image": "images/odyssey-black-forest--sniffz.jpg",
@@ -193487,8 +193548,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3050,
-              "first_seen": "2026-09-30"
+              "price": 2000,
+              "first_seen": "2026-09-30",
+              "prev_price": 3050
             }
           ],
           "image": "images/hawas-sapphire--sniffz.jpg",
@@ -205053,6 +205115,32 @@
           ],
           "image": "images/freeze-in-flames--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/freeze-in-flames"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 150,
+              "first_seen": "2026-11-11"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 195,
+              "first_seen": "2026-11-11"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 300,
+              "first_seen": "2026-11-11"
+            }
+          ],
+          "image": "images/freeze-in-flames--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/riffs-freeze-in-flames"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -218583,7 +218671,8 @@
               "kind": "decant",
               "ml": 5,
               "price": 690,
-              "first_seen": "2026-10-24"
+              "first_seen": "2026-10-24",
+              "sold_since": "2026-11-11"
             },
             {
               "kind": "decant",
