@@ -9582,22 +9582,19 @@
               "kind": "decant",
               "ml": 3,
               "price": 100,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-07-30"
+              "first_seen": "2026-01-01"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 135,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-07-30"
+              "first_seen": "2026-01-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 210,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-07-30"
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/ameer-al-oudh-intense-oud--sniffz.jpg",
@@ -77035,6 +77032,32 @@
           ],
           "image": "images/inception--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/inception"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 120,
+              "first_seen": "2026-11-11"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 160,
+              "first_seen": "2026-11-11"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 250,
+              "first_seen": "2026-11-11"
+            }
+          ],
+          "image": "images/inception--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/mykonos-inception"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -80620,7 +80643,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 450,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-11-11"
             }
           ],
           "image": "images/iven-peace--sniffz.jpg",
@@ -86505,22 +86529,25 @@
               "kind": "decant",
               "ml": 3,
               "price": 140,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-09-07"
+              "first_seen": "2026-01-01"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 185,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-09-04"
+              "first_seen": "2026-01-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 280,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-09-04"
+              "first_seen": "2026-01-01"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1650,
+              "first_seen": "2026-11-11"
             }
           ],
           "image": "images/khamrah-waha--sniffz.jpg",
@@ -157451,22 +157478,19 @@
               "kind": "decant",
               "ml": 3,
               "price": 300,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-08"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 410,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-08"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 650,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-08"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -163556,19 +163580,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 255,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-11"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 345,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-11"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 550,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-11"
             },
             {
               "kind": "full",
@@ -164781,22 +164808,19 @@
               "kind": "decant",
               "ml": 3,
               "price": 160,
-              "first_seen": "2026-08-23",
-              "sold_since": "2026-10-27"
+              "first_seen": "2026-08-23"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 210,
-              "first_seen": "2026-08-23",
-              "sold_since": "2026-10-27"
+              "first_seen": "2026-08-23"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 320,
-              "first_seen": "2026-08-23",
-              "sold_since": "2026-10-27"
+              "first_seen": "2026-08-23"
             }
           ],
           "image": "images/thriller--sniffz.jpg",
@@ -169300,22 +169324,19 @@
               "kind": "decant",
               "ml": 3,
               "price": 355,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-10"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 455,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-10"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 700,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-10"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -178477,15 +178498,26 @@
           "url": "https://sniffz-eg.com/",
           "offers": [
             {
-              "kind": "full",
-              "ml": 150,
-              "price": 2000,
-              "first_seen": "2026-08-23",
-              "sold_since": "2026-09-01"
+              "kind": "decant",
+              "ml": 3,
+              "price": 100,
+              "first_seen": "2026-11-11"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 130,
+              "first_seen": "2026-11-11"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-11-11"
             }
           ],
           "image": "images/wild-colt-boss--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/assaf-wild-colt-boss"
+          "product_url": "https://sniffz-eg.com/products/assaf-wild-colt-boss-1"
         },
         {
           "name": "roseperfume",
