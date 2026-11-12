@@ -26419,8 +26419,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1500,
-              "first_seen": "2026-08-05",
-              "prev_price": 2450
+              "first_seen": "2026-08-05"
             }
           ],
           "image": "images/blue-laverne-elixir--sniffz.jpg",
@@ -47630,24 +47629,10 @@
           "offers": [
             {
               "kind": "decant",
-              "ml": 3,
-              "price": 325,
-              "first_seen": "2026-11-05",
-              "sold_since": "2026-11-05"
-            },
-            {
-              "kind": "decant",
               "ml": 5,
               "price": 440,
               "first_seen": "2026-11-07",
               "sold_since": "2026-11-07"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 700,
-              "first_seen": "2026-11-05",
-              "sold_since": "2026-11-05"
             },
             {
               "kind": "full",
@@ -50373,21 +50358,21 @@
               "ml": 3,
               "price": 105,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-11-11"
+              "sold_since": "2026-11-12"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 140,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-11-11"
+              "sold_since": "2026-11-12"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 210,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-11-11"
+              "sold_since": "2026-11-12"
             },
             {
               "kind": "full",
@@ -69484,7 +69469,7 @@
               "ml": 100,
               "price": 1150,
               "first_seen": "2026-01-01",
-              "prev_price": 1900
+              "sold_since": "2026-11-12"
             }
           ],
           "image": "images/hawas-for-him-black--sniffz.jpg",
@@ -91398,19 +91383,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 125,
-              "first_seen": "2026-09-19"
+              "first_seen": "2026-09-19",
+              "sold_since": "2026-11-12"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 165,
-              "first_seen": "2026-09-19"
+              "first_seen": "2026-09-19",
+              "sold_since": "2026-11-12"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 250,
-              "first_seen": "2026-09-19"
+              "first_seen": "2026-09-19",
+              "sold_since": "2026-11-12"
             }
           ],
           "image": "images/la-dor-bakhur--sniffz.jpg",
@@ -120432,8 +120420,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1050,
-              "first_seen": "2026-08-06",
-              "prev_price": 1700
+              "first_seen": "2026-08-06"
             }
           ],
           "image": "images/odyssey-artisto--sniffz.jpg",
@@ -120666,8 +120653,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1050,
-              "first_seen": "2026-08-03",
-              "prev_price": 1700
+              "first_seen": "2026-08-03"
             }
           ],
           "image": "images/odyssey-chocolate-dubai--sniffz.jpg",
@@ -121295,8 +121281,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1050,
-              "first_seen": "2026-08-03",
-              "prev_price": 1700
+              "first_seen": "2026-08-03"
             }
           ],
           "image": "images/odyssey-mandarin-sky-vintage--sniffz.jpg",
@@ -140339,13 +140324,15 @@
               "kind": "decant",
               "ml": 3,
               "price": 275,
-              "first_seen": "2026-10-24"
+              "first_seen": "2026-10-24",
+              "sold_since": "2026-11-12"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 380,
-              "first_seen": "2026-10-24"
+              "first_seen": "2026-10-24",
+              "sold_since": "2026-11-12"
             },
             {
               "kind": "decant",
@@ -157997,7 +157984,8 @@
               "kind": "decant",
               "ml": 3,
               "price": 300,
-              "first_seen": "2026-09-03"
+              "first_seen": "2026-09-03",
+              "sold_since": "2026-11-12"
             },
             {
               "kind": "decant",
@@ -169417,7 +169405,8 @@
               "kind": "decant",
               "ml": 3,
               "price": 355,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-12"
             },
             {
               "kind": "decant",
@@ -184961,8 +184950,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1100,
-              "first_seen": "2026-08-05",
-              "prev_price": 1900
+              "first_seen": "2026-08-05"
             }
           ],
           "image": "images/tobacco-pasha--sniffz.jpg",
@@ -188847,8 +188835,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1050,
-              "first_seen": "2026-08-06",
-              "prev_price": 1700
+              "first_seen": "2026-08-06"
             }
           ],
           "image": "images/odyssey-black-forest--sniffz.jpg",
@@ -193575,8 +193562,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2000,
-              "first_seen": "2026-09-30",
-              "prev_price": 3050
+              "first_seen": "2026-09-30"
             }
           ],
           "image": "images/hawas-sapphire--sniffz.jpg",
