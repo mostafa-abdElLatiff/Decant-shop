@@ -10084,22 +10084,19 @@
               "kind": "decant",
               "ml": 3,
               "price": 240,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 360,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 600,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-05"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/amore-caff--perfuzone.jpg",
@@ -142704,6 +142701,26 @@
           ],
           "image": "images/ria--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/ria-khadlaj"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 150,
+              "first_seen": "2026-11-12"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 250,
+              "first_seen": "2026-11-12"
+            }
+          ],
+          "image": "images/ria--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/ria-edp"
         }
       ],
       "_hero_source": "og-perfume",
@@ -203173,7 +203190,8 @@
               "kind": "decant",
               "ml": 3,
               "price": 500,
-              "first_seen": "2026-11-05"
+              "first_seen": "2026-11-05",
+              "sold_since": "2026-11-12"
             },
             {
               "kind": "decant",
