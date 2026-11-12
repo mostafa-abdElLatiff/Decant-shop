@@ -7547,8 +7547,7 @@
               "kind": "full",
               "ml": 125,
               "price": 3250,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-11-08"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/all-over-magnolia--mazaya.jpg",
@@ -18769,7 +18768,8 @@
               "kind": "full",
               "ml": 150,
               "price": 2850,
-              "first_seen": "2026-10-15"
+              "first_seen": "2026-10-15",
+              "sold_since": "2026-11-12"
             }
           ],
           "image": "images/aura-c35--mazaya.jpg",
@@ -100606,7 +100606,8 @@
               "kind": "full",
               "ml": 100,
               "price": 8200,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-11-12"
             }
           ],
           "image": "images/luna-rossa-black-eau-de-parfum--mazaya.jpg",
@@ -210978,6 +210979,20 @@
           ],
           "image": "images/1-million-black--perfuzone.jpg",
           "product_url": "https://perfuzone-2.myshopify.com/products/paco-rabanne-1-million-black"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 7300,
+              "first_seen": "2026-11-12"
+            }
+          ],
+          "image": "images/1-million-black--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/paco-rabanne-1-million-black"
         }
       ],
       "_hero_source": "MO Shawky"
