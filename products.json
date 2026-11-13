@@ -2149,7 +2149,8 @@
               "kind": "decant",
               "ml": 3,
               "price": 140,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-11-13"
             },
             {
               "kind": "decant",
@@ -16449,21 +16450,20 @@
               "kind": "decant",
               "ml": 5,
               "price": 180,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-13"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 270,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-13"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-11-13"
             }
           ],
           "image": "images/asad-bourbon--sniffz.jpg",
@@ -18473,6 +18473,32 @@
           ],
           "image": "images/attacks--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/attacks-eau-de-parfum-for-men-150ml"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 120,
+              "first_seen": "2026-11-13"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 155,
+              "first_seen": "2026-11-13"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 240,
+              "first_seen": "2026-11-13"
+            }
+          ],
+          "image": "images/attacks--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/assaf-attacks"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -35967,8 +35993,7 @@
               "kind": "full",
               "ml": 250,
               "price": 2500,
-              "first_seen": "2026-08-03",
-              "prev_price": 3800
+              "first_seen": "2026-08-03"
             }
           ],
           "image": "images/club-de-nuit-sillage--sniffz.jpg",
@@ -60318,8 +60343,7 @@
               "kind": "full",
               "ml": 200,
               "price": 2000,
-              "first_seen": "2026-01-01",
-              "prev_price": 2650
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/frankel-blue-elixir--sniffz.jpg",
@@ -72411,8 +72435,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2300,
-              "first_seen": "2026-01-01",
-              "prev_price": 3000
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/hersh-2-hersh--sniffz.jpg",
@@ -72612,6 +72635,24 @@
           "url": "https://sniffz-eg.com/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 3,
+              "price": 170,
+              "first_seen": "2026-11-13"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 230,
+              "first_seen": "2026-11-13"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 350,
+              "first_seen": "2026-11-13"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 2800,
@@ -72620,7 +72661,7 @@
             }
           ],
           "image": "images/hersh-lahab-hersh--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/al-ezz-for-oud-hersh-lahab-full-sealed"
+          "product_url": "https://sniffz-eg.com/products/al-ezz-for-oud-hersh-lahab"
         },
         {
           "name": "eldesoki-fragrances",
@@ -99089,8 +99130,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 340,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-12"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -101005,15 +101045,26 @@
           "url": "https://sniffz-eg.com/",
           "offers": [
             {
-              "kind": "full",
-              "ml": 100,
-              "price": 2500,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-07-23"
+              "kind": "decant",
+              "ml": 3,
+              "price": 180,
+              "first_seen": "2026-11-13"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 230,
+              "first_seen": "2026-11-13"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 350,
+              "first_seen": "2026-11-13"
             }
           ],
           "image": "images/lynked-freedom--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/afnan-lynked-freedom-full-sealed"
+          "product_url": "https://sniffz-eg.com/products/afnan-lynked-freedom"
         },
         {
           "name": "eldesoki-fragrances",
@@ -104242,22 +104293,19 @@
               "kind": "decant",
               "ml": 3,
               "price": 175,
-              "first_seen": "2026-09-08",
-              "sold_since": "2026-11-08"
+              "first_seen": "2026-09-08"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 230,
-              "first_seen": "2026-09-08",
-              "sold_since": "2026-11-08"
+              "first_seen": "2026-09-08"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 350,
-              "first_seen": "2026-09-08",
-              "sold_since": "2026-11-08"
+              "first_seen": "2026-09-08"
             }
           ],
           "image": "images/marmara--sniffz.jpg",
@@ -112943,8 +112991,7 @@
               "kind": "full",
               "ml": 100,
               "price": 4990,
-              "first_seen": "2026-01-01",
-              "prev_price": 6500
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/myslf-le-parfum--sniffz.jpg",
@@ -133287,7 +133334,6 @@
               "ml": 100,
               "price": 2990,
               "first_seen": "2026-01-01",
-              "prev_price": 4000,
               "sold_since": "2026-11-13"
             },
             {
@@ -158088,7 +158134,8 @@
               "kind": "decant",
               "ml": 3,
               "price": 300,
-              "first_seen": "2026-09-03"
+              "first_seen": "2026-09-03",
+              "sold_since": "2026-11-13"
             },
             {
               "kind": "decant",
@@ -161510,15 +161557,13 @@
               "kind": "decant",
               "ml": 5,
               "price": 200,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-12"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 310,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-11"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -175167,13 +175212,15 @@
               "kind": "decant",
               "ml": 3,
               "price": 165,
-              "first_seen": "2026-09-30"
+              "first_seen": "2026-09-30",
+              "sold_since": "2026-11-13"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 215,
-              "first_seen": "2026-09-30"
+              "first_seen": "2026-09-30",
+              "sold_since": "2026-11-13"
             },
             {
               "kind": "decant",
@@ -193675,8 +193722,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1850,
-              "first_seen": "2026-09-30",
-              "prev_price": 2000
+              "first_seen": "2026-09-30"
             }
           ],
           "image": "images/hawas-sapphire--sniffz.jpg",
@@ -210078,23 +210124,20 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 75,
-              "first_seen": "2026-09-19",
-              "sold_since": "2026-10-01"
+              "price": 115,
+              "first_seen": "2026-09-19"
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 100,
-              "first_seen": "2026-09-19",
-              "sold_since": "2026-10-01"
+              "price": 150,
+              "first_seen": "2026-09-19"
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 150,
-              "first_seen": "2026-09-19",
-              "sold_since": "2026-09-29"
+              "price": 230,
+              "first_seen": "2026-09-19"
             }
           ],
           "image": "images/attacks-blue--sniffz.jpg",
@@ -215396,22 +215439,19 @@
               "kind": "decant",
               "ml": 3,
               "price": 125,
-              "first_seen": "2026-10-03",
-              "sold_since": "2026-10-24"
+              "first_seen": "2026-10-03"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 165,
-              "first_seen": "2026-10-03",
-              "sold_since": "2026-10-24"
+              "first_seen": "2026-10-03"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 250,
-              "first_seen": "2026-10-03",
-              "sold_since": "2026-10-25"
+              "first_seen": "2026-10-03"
             }
           ],
           "image": "images/paris-corner-rifaaqat--sniffz.jpg",
@@ -222859,6 +222899,45 @@
         }
       ],
       "_hero_source": "feel22"
+    },
+    {
+      "id": "punto-hibiscus",
+      "name_ar": "",
+      "name_en": "Punto Hibiscus",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/punto-hibiscus.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 140,
+              "first_seen": "2026-11-13"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 180,
+              "first_seen": "2026-11-13"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 280,
+              "first_seen": "2026-11-13"
+            }
+          ],
+          "image": "images/punto-hibiscus--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/punto-hibiscus"
+        }
+      ],
+      "_hero_source": "sniffz"
     }
   ]
 }
