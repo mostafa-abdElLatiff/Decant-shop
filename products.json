@@ -2149,8 +2149,7 @@
               "kind": "decant",
               "ml": 3,
               "price": 140,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-11-10"
+              "first_seen": "2026-01-01"
             },
             {
               "kind": "decant",
@@ -13871,19 +13870,19 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 115,
+              "price": 125,
               "first_seen": "2026-07-25"
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 150,
+              "price": 165,
               "first_seen": "2026-07-25"
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 230,
+              "price": 250,
               "first_seen": "2026-07-25"
             }
           ],
@@ -16449,13 +16448,15 @@
               "kind": "decant",
               "ml": 5,
               "price": 180,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-13"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 270,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-13"
             },
             {
               "kind": "full",
@@ -35953,13 +35954,15 @@
               "kind": "full",
               "ml": 105,
               "price": 2300,
-              "first_seen": "2026-08-03"
+              "first_seen": "2026-08-03",
+              "sold_since": "2026-11-13"
             },
             {
               "kind": "full",
               "ml": 250,
-              "price": 3800,
-              "first_seen": "2026-08-03"
+              "price": 2500,
+              "first_seen": "2026-08-03",
+              "prev_price": 3800
             }
           ],
           "image": "images/club-de-nuit-sillage--sniffz.jpg",
@@ -60300,8 +60303,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2650,
-              "first_seen": "2026-01-01"
+              "price": 2000,
+              "first_seen": "2026-01-01",
+              "prev_price": 2650
             }
           ],
           "image": "images/frankel-blue-elixir--sniffz.jpg",
@@ -72392,9 +72396,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3000,
+              "price": 2300,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-10-04"
+              "prev_price": 3000
             }
           ],
           "image": "images/hersh-2-hersh--sniffz.jpg",
@@ -91377,22 +91381,19 @@
               "kind": "decant",
               "ml": 3,
               "price": 125,
-              "first_seen": "2026-09-19",
-              "sold_since": "2026-11-12"
+              "first_seen": "2026-09-19"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 165,
-              "first_seen": "2026-09-19",
-              "sold_since": "2026-11-12"
+              "first_seen": "2026-09-19"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 250,
-              "first_seen": "2026-09-19",
-              "sold_since": "2026-11-12"
+              "first_seen": "2026-09-19"
             }
           ],
           "image": "images/la-dor-bakhur--sniffz.jpg",
@@ -99039,15 +99040,13 @@
               "kind": "decant",
               "ml": 3,
               "price": 165,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-12"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 220,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-12"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
@@ -112904,8 +112903,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6500,
-              "first_seen": "2026-01-01"
+              "price": 4990,
+              "first_seen": "2026-01-01",
+              "prev_price": 6500
             }
           ],
           "image": "images/myslf-le-parfum--sniffz.jpg",
@@ -133236,8 +133236,10 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4000,
-              "first_seen": "2026-01-01"
+              "price": 2990,
+              "first_seen": "2026-01-01",
+              "prev_price": 4000,
+              "sold_since": "2026-11-13"
             },
             {
               "kind": "full",
@@ -158042,7 +158044,8 @@
               "kind": "decant",
               "ml": 5,
               "price": 410,
-              "first_seen": "2026-09-03"
+              "first_seen": "2026-09-03",
+              "sold_since": "2026-11-13"
             },
             {
               "kind": "decant",
@@ -161451,8 +161454,7 @@
               "kind": "decant",
               "ml": 3,
               "price": 150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-12"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
@@ -169466,7 +169468,8 @@
               "kind": "decant",
               "ml": 5,
               "price": 455,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-13"
             },
             {
               "kind": "decant",
@@ -193622,8 +193625,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2000,
-              "first_seen": "2026-09-30"
+              "price": 1850,
+              "first_seen": "2026-09-30",
+              "prev_price": 2000
             }
           ],
           "image": "images/hawas-sapphire--sniffz.jpg",
@@ -213015,8 +213019,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 2200,
-              "first_seen": "2026-09-25",
-              "sold_since": "2026-11-10"
+              "first_seen": "2026-09-25"
             }
           ],
           "image": "images/california-dream--sniffz.jpg",
@@ -218792,8 +218795,7 @@
               "kind": "decant",
               "ml": 5,
               "price": 690,
-              "first_seen": "2026-10-24",
-              "sold_since": "2026-11-11"
+              "first_seen": "2026-10-24"
             },
             {
               "kind": "decant",
