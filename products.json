@@ -32373,13 +32373,6 @@
           "offers": [
             {
               "kind": "full",
-              "ml": 150,
-              "price": 2800,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-11-06"
-            },
-            {
-              "kind": "full",
               "ml": 200,
               "price": 2550,
               "first_seen": "2026-11-06"
@@ -152413,8 +152406,7 @@
               "kind": "full",
               "ml": 100,
               "price": 750,
-              "first_seen": "2026-07-18",
-              "prev_price": 790
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/silk-musk--emaratiscents.jpg",
@@ -165870,7 +165862,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-13"
             }
           ],
           "image": "images/titan--emaratiscents.jpg",
@@ -172961,7 +172954,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1700,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-13"
             }
           ],
           "image": "images/vanilla-voyage-maison-asrar--emaratiscents.jpg",
@@ -173040,7 +173034,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-13"
             }
           ],
           "image": "images/vanilla-wood--emaratiscents.jpg",
@@ -208261,7 +208256,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-09-27"
+              "first_seen": "2026-09-27",
+              "sold_since": "2026-11-13"
             }
           ],
           "image": "images/qasida-sahm-faan-perfumes--emaratiscents.jpg",
