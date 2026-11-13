@@ -19952,6 +19952,13 @@
               "sold_since": "2026-07-19"
             },
             {
+              "kind": "leftover",
+              "ml": 90,
+              "price": 1215,
+              "first_seen": "2026-11-13",
+              "sold_since": "2026-11-13"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1350,
@@ -38431,6 +38438,13 @@
               "price": 400,
               "first_seen": "2026-10-29",
               "sold_since": "2026-10-29"
+            },
+            {
+              "kind": "leftover",
+              "ml": 45,
+              "price": 540,
+              "first_seen": "2026-11-13",
+              "sold_since": "2026-11-13"
             },
             {
               "kind": "full",
@@ -69576,7 +69590,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 775,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-13"
             },
             {
               "kind": "leftover",
@@ -99229,15 +99244,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-13"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 550,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-07"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -99263,9 +99276,8 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1750,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-28"
+              "price": 1850,
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/liquid-brun--og-perfume.jpg",
@@ -99440,15 +99452,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 220,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-02"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 600,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-13"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -99482,8 +99492,7 @@
               "kind": "full",
               "ml": 150,
               "price": 2500,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-09-27"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/liquid-brun-limited-edition--og-perfume.jpg",
@@ -117234,7 +117243,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 175,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-13"
             },
             {
               "kind": "decant",
@@ -151150,7 +151160,8 @@
               "kind": "leftover",
               "ml": 40,
               "price": 545,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-13"
             },
             {
               "kind": "full",
@@ -164972,8 +164983,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 230,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-25"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
@@ -164992,8 +165002,9 @@
             {
               "kind": "leftover",
               "ml": 40,
-              "price": 900,
+              "price": 800,
               "first_seen": "2026-07-19",
+              "prev_price": 900,
               "sold_since": "2026-07-19"
             },
             {
@@ -171629,7 +171640,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 180,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-13"
             },
             {
               "kind": "leftover",
@@ -220043,7 +220055,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-10-29"
+              "first_seen": "2026-10-29",
+              "sold_since": "2026-11-13"
             }
           ],
           "image": "images/caneza-prisca--og-perfume.jpg",
