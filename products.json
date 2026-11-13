@@ -27540,27 +27540,6 @@
           "url": "https://sniffz-eg.com/",
           "offers": [
             {
-              "kind": "decant",
-              "ml": 3,
-              "price": 385,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-11-06"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 535,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-11-06"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 850,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-11-06"
-            },
-            {
               "kind": "full",
               "ml": 100,
               "price": 8000,
@@ -36209,27 +36188,6 @@
           "name": "sniffz",
           "url": "https://sniffz-eg.com/",
           "offers": [
-            {
-              "kind": "decant",
-              "ml": 3,
-              "price": 140,
-              "first_seen": "2026-08-03",
-              "sold_since": "2026-11-06"
-            },
-            {
-              "kind": "decant",
-              "ml": 5,
-              "price": 185,
-              "first_seen": "2026-08-03",
-              "sold_since": "2026-11-06"
-            },
-            {
-              "kind": "decant",
-              "ml": 10,
-              "price": 285,
-              "first_seen": "2026-08-03",
-              "sold_since": "2026-11-06"
-            },
             {
               "kind": "full",
               "ml": 105,
@@ -50458,21 +50416,21 @@
               "ml": 3,
               "price": 105,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-11-12"
+              "sold_since": "2026-11-13"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 140,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-11-12"
+              "sold_since": "2026-11-13"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 210,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-11-12"
+              "sold_since": "2026-11-13"
             },
             {
               "kind": "full",
@@ -185341,7 +185299,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1100,
-              "first_seen": "2026-08-05"
+              "first_seen": "2026-08-05",
+              "sold_since": "2026-11-13"
             }
           ],
           "image": "images/tobacco-pasha--sniffz.jpg",
