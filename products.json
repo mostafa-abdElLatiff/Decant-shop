@@ -21085,7 +21085,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 135,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-14"
             },
             {
               "kind": "decant",
@@ -30622,7 +30623,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 120,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-14"
             },
             {
               "kind": "full",
@@ -69618,6 +69620,13 @@
             },
             {
               "kind": "leftover",
+              "ml": 40,
+              "price": 620,
+              "first_seen": "2026-11-14",
+              "sold_since": "2026-11-14"
+            },
+            {
+              "kind": "leftover",
               "ml": 45,
               "price": 725,
               "first_seen": "2026-07-19",
@@ -104795,7 +104804,8 @@
               "kind": "leftover",
               "ml": 40,
               "price": 650,
-              "first_seen": "2026-11-05"
+              "first_seen": "2026-11-05",
+              "sold_since": "2026-11-14"
             },
             {
               "kind": "leftover",
@@ -137490,7 +137500,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 475,
-              "first_seen": "2026-10-27"
+              "first_seen": "2026-10-27",
+              "sold_since": "2026-11-14"
             },
             {
               "kind": "full",
@@ -139667,6 +139678,12 @@
               "sold_since": "2026-10-06"
             },
             {
+              "kind": "leftover",
+              "ml": 60,
+              "price": 1200,
+              "first_seen": "2026-11-14"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 2000,
@@ -140779,7 +140796,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 215,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-14"
             },
             {
               "kind": "decant",
@@ -160023,6 +160041,13 @@
               "sold_since": "2026-11-13"
             },
             {
+              "kind": "leftover",
+              "ml": 70,
+              "price": 1360,
+              "first_seen": "2026-11-14",
+              "sold_since": "2026-11-14"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 2200,
@@ -172424,7 +172449,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 120,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-14"
             },
             {
               "kind": "full",
@@ -223459,6 +223485,45 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "noble-cedar",
+      "name_ar": "Noble Cedar",
+      "name_en": "Noble Cedar",
+      "brand": "French Avenue",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/noble-cedar.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 255,
+              "first_seen": "2026-11-14"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 725,
+              "first_seen": "2026-11-14"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2250,
+              "first_seen": "2026-11-14"
+            }
+          ],
+          "image": "images/noble-cedar--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/noble-cedar"
+        }
+      ],
+      "_hero_source": "og-perfume"
     }
   ]
 }
