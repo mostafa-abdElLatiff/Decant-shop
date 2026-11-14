@@ -5596,8 +5596,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7750,
-              "first_seen": "2026-10-12"
+              "price": 7250,
+              "first_seen": "2026-10-12",
+              "prev_price": 7750
             }
           ],
           "image": "images/al-fareed--eldesoki-fragrances.jpg",
@@ -26035,7 +26036,8 @@
               "kind": "full",
               "ml": 150,
               "price": 1750,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-14"
             }
           ],
           "image": "images/blue-diamond-aqua--eldesoki-fragrances.jpg",
@@ -53519,8 +53521,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4300,
-              "first_seen": "2026-09-27"
+              "price": 4125,
+              "first_seen": "2026-09-27",
+              "prev_price": 4300
             },
             {
               "kind": "full",
@@ -68795,15 +68798,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 215,
-              "first_seen": "2026-09-02",
-              "prev_price": 225
+              "first_seen": "2026-09-02"
             },
             {
               "kind": "leftover",
               "ml": 50,
               "price": 1050,
-              "first_seen": "2026-09-02",
-              "prev_price": 1150
+              "first_seen": "2026-09-02"
             },
             {
               "kind": "full",
@@ -70613,8 +70614,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1650,
-              "first_seen": "2026-08-05"
+              "price": 1600,
+              "first_seen": "2026-08-05",
+              "prev_price": 1650
             }
           ],
           "image": "images/hawas-london--eldesoki-fragrances.jpg",
@@ -71946,8 +71948,9 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 1975,
-              "first_seen": "2026-11-01"
+              "price": 1900,
+              "first_seen": "2026-11-01",
+              "prev_price": 1975
             }
           ],
           "image": "images/heritage-bakhur--eldesoki-fragrances.jpg",
@@ -79079,8 +79082,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5950,
-              "first_seen": "2026-08-02"
+              "price": 5700,
+              "first_seen": "2026-08-02",
+              "prev_price": 5950
             }
           ],
           "image": "images/invictus-victory-elixir--eldesoki-fragrances.jpg",
@@ -140660,8 +140664,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1900,
-              "first_seen": "2026-07-18"
+              "price": 1850,
+              "first_seen": "2026-07-18",
+              "prev_price": 1900
             }
           ],
           "image": "images/reef-33--eldesoki-fragrances.jpg",
@@ -181344,8 +181349,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5450,
-              "first_seen": "2026-09-14"
+              "price": 4950,
+              "first_seen": "2026-09-14",
+              "prev_price": 5450
             }
           ],
           "image": "images/y-iced-cologne--eldesoki-fragrances.jpg",
@@ -191025,8 +191031,9 @@
             {
               "kind": "full",
               "ml": 120,
-              "price": 4950,
-              "first_seen": "2026-08-09"
+              "price": 4850,
+              "first_seen": "2026-08-09",
+              "prev_price": 4950
             }
           ],
           "image": "images/mancera-cedrat-boise--eldesoki-fragrances.jpg",
@@ -194196,8 +194203,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1775,
-              "first_seen": "2026-09-19"
+              "price": 1600,
+              "first_seen": "2026-09-19",
+              "prev_price": 1775
             }
           ],
           "image": "images/hawas-la-mer--eldesoki-fragrances.jpg",
@@ -199546,8 +199554,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1275,
-              "first_seen": "2026-08-21"
+              "price": 1100,
+              "first_seen": "2026-08-21",
+              "prev_price": 1275
             }
           ],
           "image": "images/kingdom-for-men--eldesoki-fragrances.jpg",
@@ -204117,8 +204126,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1875,
-              "first_seen": "2026-08-31"
+              "price": 1800,
+              "first_seen": "2026-08-31",
+              "prev_price": 1875
             }
           ],
           "image": "images/bentley-silver-lake-tester-box-authentic--eldesoki-fragrances.jpg",
@@ -207896,8 +207906,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1550,
-              "first_seen": "2026-09-12"
+              "price": 1375,
+              "first_seen": "2026-09-12",
+              "prev_price": 1550
             }
           ],
           "image": "images/swar-seduire--eldesoki-fragrances.jpg",
@@ -208983,8 +208994,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 3650,
+              "price": 3200,
               "first_seen": "2026-09-12",
+              "prev_price": 3650,
               "sold_since": "2026-10-05"
             }
           ],
@@ -209564,8 +209576,9 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 3450,
-              "first_seen": "2026-09-15"
+              "price": 2950,
+              "first_seen": "2026-09-15",
+              "prev_price": 3450
             }
           ],
           "image": "images/tarteel-silver-arabian-oud--eldesoki-fragrances.jpg",
@@ -209591,8 +209604,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2025,
-              "first_seen": "2026-09-15"
+              "price": 1900,
+              "first_seen": "2026-09-15",
+              "prev_price": 2025
             }
           ],
           "image": "images/only-black-arabian-oud--eldesoki-fragrances.jpg",
@@ -213174,8 +213188,9 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 3100,
-              "first_seen": "2026-09-26"
+              "price": 2750,
+              "first_seen": "2026-09-26",
+              "prev_price": 3100
             }
           ],
           "image": "images/ysl-iced-cologne--eldesoki-fragrances.jpg",
@@ -213608,8 +213623,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4900,
-              "first_seen": "2026-09-28"
+              "price": 4600,
+              "first_seen": "2026-09-28",
+              "prev_price": 4900
             }
           ],
           "image": "images/bulgari-man-in-black-tester-box--eldesoki-fragrances.jpg",
@@ -220901,8 +220917,9 @@
             {
               "kind": "full",
               "ml": 300,
-              "price": 3550,
-              "first_seen": "2026-11-01"
+              "price": 3250,
+              "first_seen": "2026-11-01",
+              "prev_price": 3550
             }
           ],
           "image": "images/aura-summer-set--eldesoki-fragrances.jpg",
@@ -221488,8 +221505,9 @@
             {
               "kind": "full",
               "ml": 110,
-              "price": 3750,
-              "first_seen": "2026-11-04"
+              "price": 3450,
+              "first_seen": "2026-11-04",
+              "prev_price": 3750
             }
           ],
           "image": "images/kenzo-homme-edt-marine--eldesoki-fragrances.jpg",
