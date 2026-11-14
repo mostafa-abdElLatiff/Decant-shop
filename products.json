@@ -26449,7 +26449,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1500,
-              "first_seen": "2026-08-05"
+              "first_seen": "2026-08-05",
+              "sold_since": "2026-11-14"
             }
           ],
           "image": "images/blue-laverne-elixir--sniffz.jpg",
@@ -47631,6 +47632,13 @@
               "price": 325,
               "first_seen": "2026-11-12",
               "sold_since": "2026-11-12"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 440,
+              "first_seen": "2026-11-14",
+              "sold_since": "2026-11-14"
             },
             {
               "kind": "decant",
@@ -72422,7 +72430,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2300,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-11-14"
             }
           ],
           "image": "images/hersh-2-hersh--sniffz.jpg",
@@ -85395,19 +85404,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 185,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-14"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 250,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-14"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 400,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-14"
             }
           ],
           "image": "images/kenzo-homme-indigo--sniffz.jpg",
@@ -91445,7 +91457,8 @@
               "kind": "decant",
               "ml": 3,
               "price": 125,
-              "first_seen": "2026-09-19"
+              "first_seen": "2026-09-19",
+              "sold_since": "2026-11-14"
             },
             {
               "kind": "decant",
