@@ -15528,7 +15528,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2000,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-14"
             }
           ],
           "image": "images/arsh--dar-elarabia.jpg",
@@ -183314,8 +183315,9 @@
             {
               "kind": "full",
               "ml": 120,
-              "price": 2850,
-              "first_seen": "2026-08-02"
+              "price": 2800,
+              "first_seen": "2026-08-02",
+              "prev_price": 2850
             }
           ],
           "image": "images/serenade-al-barqa-box--dar-elarabia.jpg",
