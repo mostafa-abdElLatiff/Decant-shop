@@ -2149,22 +2149,19 @@
               "kind": "decant",
               "ml": 3,
               "price": 140,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-11-13"
+              "first_seen": "2026-01-01"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 185,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-11-10"
+              "first_seen": "2026-01-01"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 280,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-11-10"
+              "first_seen": "2026-01-01"
             },
             {
               "kind": "full",
@@ -47653,13 +47650,6 @@
             },
             {
               "kind": "decant",
-              "ml": 5,
-              "price": 440,
-              "first_seen": "2026-11-07",
-              "sold_since": "2026-11-07"
-            },
-            {
-              "kind": "decant",
               "ml": 10,
               "price": 700,
               "first_seen": "2026-11-12",
@@ -50388,21 +50378,21 @@
               "ml": 3,
               "price": 105,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-11-13"
+              "sold_since": "2026-11-14"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 140,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-11-13"
+              "sold_since": "2026-11-14"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 210,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-11-13"
+              "sold_since": "2026-11-14"
             },
             {
               "kind": "full",
@@ -169573,7 +169563,8 @@
               "kind": "decant",
               "ml": 3,
               "price": 355,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-14"
             },
             {
               "kind": "decant",
@@ -193739,7 +193730,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1850,
-              "first_seen": "2026-09-30"
+              "first_seen": "2026-09-30",
+              "sold_since": "2026-11-14"
             }
           ],
           "image": "images/hawas-sapphire--sniffz.jpg",
