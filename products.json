@@ -18376,8 +18376,7 @@
               "kind": "full",
               "ml": 150,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-11-12"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/attacks--emaratiscents.jpg",
@@ -71901,8 +71900,7 @@
               "kind": "full",
               "ml": 150,
               "price": 2550,
-              "first_seen": "2026-07-18",
-              "prev_price": 2900
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/heritage-bakhur--emaratiscents.jpg",
@@ -77078,8 +77076,7 @@
               "kind": "full",
               "ml": 50,
               "price": 3600,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-13"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/incense-01--emaratiscents.jpg",
@@ -158812,8 +158809,7 @@
               "kind": "full",
               "ml": 75,
               "price": 4500,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-10-06"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/summer-musk-bundle--emaratiscents.jpg",
@@ -204162,8 +204158,7 @@
               "kind": "full",
               "ml": 120,
               "price": 7600,
-              "first_seen": "2026-08-31",
-              "sold_since": "2026-11-12"
+              "first_seen": "2026-08-31"
             }
           ],
           "image": "images/angelo--emaratiscents.jpg",
@@ -223200,6 +223195,141 @@
           ],
           "image": "images/musk-al-sabah--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/musk-al-sabah"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "naqeeb",
+      "name_ar": "Naqeeb",
+      "name_en": "Naqeeb",
+      "brand": "Ard Al Zaafaran",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/naqeeb.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 850,
+              "first_seen": "2026-11-14"
+            }
+          ],
+          "image": "images/naqeeb--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/naqeeb"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "sama-dubai",
+      "name_ar": "Sama Dubai",
+      "name_en": "Sama Dubai",
+      "brand": "Ard Al Zaafaran",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/sama-dubai.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 890,
+              "first_seen": "2026-11-14"
+            }
+          ],
+          "image": "images/sama-dubai--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/sama-dubai"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "safeer-al-oud",
+      "name_ar": "Safeer Al Oud",
+      "name_en": "Safeer Al Oud",
+      "brand": "Ard Al Zaafaran",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/safeer-al-oud.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 890,
+              "first_seen": "2026-11-14"
+            }
+          ],
+          "image": "images/safeer-al-oud--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/safeer-al-oud"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "taj-al-malik",
+      "name_ar": "Taj Al Malik",
+      "name_en": "Taj Al Malik",
+      "brand": "Ard Al Zaafaran",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/taj-al-malik.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1070,
+              "first_seen": "2026-11-14"
+            }
+          ],
+          "image": "images/taj-al-malik--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/taj-al-malik"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "turab-al-dhahab",
+      "name_ar": "Turab Al Dhahab",
+      "name_en": "Turab Al Dhahab",
+      "brand": "Ard Al Zaafaran",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/turab-al-dhahab.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 890,
+              "first_seen": "2026-11-14"
+            }
+          ],
+          "image": "images/turab-al-dhahab--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/turab-al-dhahab"
         }
       ],
       "_hero_source": "emaratiscents"
