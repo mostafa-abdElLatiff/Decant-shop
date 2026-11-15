@@ -149249,6 +149249,20 @@
           ],
           "image": "images/shadow--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/ajmal-shadow123455-html12"
+        },
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 2150,
+              "first_seen": "2026-11-15"
+            }
+          ],
+          "image": "images/shadow--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/shadow"
         }
       ],
       "_hero_source": "mazaya",
@@ -221911,8 +221925,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2650,
-              "first_seen": "2026-11-01"
+              "price": 2550,
+              "first_seen": "2026-11-01",
+              "prev_price": 2650
             }
           ],
           "image": "images/supermacy-collector-s-edition--dar-elarabia.jpg",
@@ -224790,6 +224805,33 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "unknown",
+      "name_ar": "Unknown",
+      "name_en": "Unknown",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/unknown.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 2150,
+              "first_seen": "2026-11-15"
+            }
+          ],
+          "image": "images/unknown--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/unknown"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
     }
   ]
 }
