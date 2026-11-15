@@ -27313,15 +27313,32 @@
           "url": "https://roseperfume.online/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 5,
+              "price": 75,
+              "first_seen": "2026-11-15"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 125,
+              "first_seen": "2026-11-15"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 350,
+              "first_seen": "2026-11-15"
+            },
+            {
               "kind": "full",
-              "ml": 20,
-              "price": 175,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-07-20"
+              "ml": 100,
+              "price": 900,
+              "first_seen": "2026-11-15"
             }
           ],
           "image": "images/blueberry-musk-by-arabiyat-prestige--roseperfume.jpg",
-          "product_url": "https://roseperfume.online/products/arabiyat-blueberry-musk-concentrated-perfume-oil"
+          "product_url": "https://roseperfume.online/products/blueberry-musk-100ml-eau-de-parfum-arabiyat-prestige"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -80411,7 +80428,8 @@
               "kind": "decant",
               "ml": 40,
               "price": 600,
-              "first_seen": "2026-10-19"
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-11-15"
             },
             {
               "kind": "full",
@@ -92601,8 +92619,7 @@
               "kind": "full",
               "ml": 100,
               "price": 275,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-10-15"
+              "first_seen": "2026-07-20"
             }
           ],
           "image": "images/la-sera-hikaya-signiture--roseperfume.jpg",
@@ -93000,8 +93017,7 @@
               "kind": "full",
               "ml": 100,
               "price": 275,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-10-06"
+              "first_seen": "2026-07-20"
             }
           ],
           "image": "images/la-sera-mirage-moonlands--roseperfume.jpg",
@@ -93265,8 +93281,7 @@
               "kind": "full",
               "ml": 100,
               "price": 275,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-08-24"
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/la-sera-nine-to-9--roseperfume.jpg",
@@ -93344,8 +93359,7 @@
               "kind": "full",
               "ml": 100,
               "price": 275,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-09-07"
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/la-sera-noir-homme-extreme--roseperfume.jpg",
@@ -93574,8 +93588,7 @@
               "kind": "full",
               "ml": 100,
               "price": 275,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-08-14"
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/la-sera-sharaf--roseperfume.jpg",
@@ -93763,8 +93776,7 @@
               "kind": "full",
               "ml": 100,
               "price": 275,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-09-10"
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/la-sera-valero-uomo--roseperfume.jpg",
@@ -102482,29 +102494,25 @@
               "kind": "decant",
               "ml": 5,
               "price": 100,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-10-11"
+              "first_seen": "2026-07-20"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 175,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-10-11"
+              "first_seen": "2026-07-20"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 475,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-10-11"
+              "first_seen": "2026-07-20"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 1450,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-10-15"
+              "first_seen": "2026-07-20"
             }
           ],
           "image": "images/mahd-al-dhahab--roseperfume.jpg",
@@ -118116,22 +118124,25 @@
               "kind": "decant",
               "ml": 5,
               "price": 100,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 175,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 475,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1450,
+              "first_seen": "2026-11-15"
             }
           ],
           "image": "images/noir-absolu--roseperfume.jpg",
@@ -139135,23 +139146,29 @@
             {
               "kind": "decant",
               "ml": 5,
-              "price": 125,
+              "price": 100,
               "first_seen": "2026-07-20",
-              "sold_since": "2026-08-01"
+              "prev_price": 125
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 225,
+              "price": 175,
               "first_seen": "2026-07-20",
-              "sold_since": "2026-08-01"
+              "prev_price": 225
             },
             {
               "kind": "decant",
               "ml": 30,
-              "price": 625,
+              "price": 500,
               "first_seen": "2026-07-20",
-              "sold_since": "2026-08-01"
+              "prev_price": 625
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1450,
+              "first_seen": "2026-11-15"
             }
           ],
           "image": "images/ramad-oriental--roseperfume.jpg",
@@ -151445,7 +151462,8 @@
               "kind": "decant",
               "ml": 20,
               "price": 300,
-              "first_seen": "2026-10-19"
+              "first_seen": "2026-10-19",
+              "sold_since": "2026-11-15"
             },
             {
               "kind": "decant",
@@ -152903,29 +152921,25 @@
               "kind": "decant",
               "ml": 5,
               "price": 65,
-              "first_seen": "2026-08-13",
-              "sold_since": "2026-10-22"
+              "first_seen": "2026-08-13"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 110,
-              "first_seen": "2026-08-13",
-              "sold_since": "2026-10-22"
+              "first_seen": "2026-08-13"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 300,
-              "first_seen": "2026-08-13",
-              "sold_since": "2026-10-21"
+              "first_seen": "2026-08-13"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 650,
-              "first_seen": "2026-08-13",
-              "sold_since": "2026-10-19"
+              "first_seen": "2026-08-13"
             }
           ],
           "image": "images/silk-musk--roseperfume.jpg",
@@ -192392,6 +192406,38 @@
           ],
           "image": "images/revolt-uncaged--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/revolt-uncaged"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 110,
+              "first_seen": "2026-11-15"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-11-15"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 575,
+              "first_seen": "2026-11-15"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1675,
+              "first_seen": "2026-11-15"
+            }
+          ],
+          "image": "images/revolt-uncaged--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/revolt-uncaged-100ml-eau-de-parfum-arabiyat-prestige"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -202422,9 +202468,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 500,
+              "price": 425,
               "first_seen": "2026-08-27",
-              "sold_since": "2026-09-18"
+              "prev_price": 500
             }
           ],
           "image": "images/3pm-elixir--roseperfume.jpg",
@@ -202740,9 +202786,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 500,
+              "price": 425,
               "first_seen": "2026-08-28",
-              "sold_since": "2026-09-10"
+              "prev_price": 500
             }
           ],
           "image": "images/victory-elixir--roseperfume.jpg",
@@ -202870,8 +202916,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-10-15",
-              "prev_price": 1750
+              "first_seen": "2026-10-15"
             }
           ],
           "image": "images/hawas-gold-digger--roseperfume.jpg",
@@ -207777,6 +207822,38 @@
           ],
           "image": "images/revolt-uprising--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/revolt-uprising"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 110,
+              "first_seen": "2026-11-15"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-11-15"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 575,
+              "first_seen": "2026-11-15"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1675,
+              "first_seen": "2026-11-15"
+            }
+          ],
+          "image": "images/revolt-uprising--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/revolt-uprising-100ml-eau-de-parfum-arabiyat-prestige"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -213733,8 +213810,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-10-13",
-              "prev_price": 1800
+              "first_seen": "2026-10-13"
             }
           ],
           "image": "images/hawas-ice-freeze--roseperfume.jpg",
@@ -216943,6 +217019,38 @@
           ],
           "image": "images/marasi-for-him--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/marasi-for-him"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 110,
+              "first_seen": "2026-11-15"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-11-15"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 575,
+              "first_seen": "2026-11-15"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1650,
+              "first_seen": "2026-11-15"
+            }
+          ],
+          "image": "images/marasi-for-him--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/marasi-for-him-100ml-eau-de-parfum-arabiyat-prestige"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -221727,6 +221835,38 @@
           ],
           "image": "images/pear-musk--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/pear-musk"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 75,
+              "first_seen": "2026-11-15"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 125,
+              "first_seen": "2026-11-15"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 350,
+              "first_seen": "2026-11-15"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 900,
+              "first_seen": "2026-11-15"
+            }
+          ],
+          "image": "images/pear-musk--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/pear-musk-100ml-eau-de-parfum-arabiyat-prestige"
         }
       ],
       "_hero_source": "emaratiscents"
