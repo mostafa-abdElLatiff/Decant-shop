@@ -2170,7 +2170,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1900,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-11-15"
             }
           ],
           "image": "images/9pm-night-out--sniffz.jpg",
@@ -60216,7 +60217,8 @@
               "kind": "full",
               "ml": 100,
               "price": 990,
-              "first_seen": "2026-08-05"
+              "first_seen": "2026-08-05",
+              "sold_since": "2026-11-15"
             }
           ],
           "image": "images/frankel-battle--sniffz.jpg",
@@ -85514,22 +85516,19 @@
               "kind": "decant",
               "ml": 3,
               "price": 185,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-14"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 250,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-14"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 400,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-14"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/kenzo-homme-indigo--sniffz.jpg",
@@ -95288,6 +95287,24 @@
           "url": "https://sniffz-eg.com/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 3,
+              "price": 525,
+              "first_seen": "2026-11-15"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 750,
+              "first_seen": "2026-11-15"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 1250,
+              "first_seen": "2026-11-15"
+            },
+            {
               "kind": "full",
               "ml": 125,
               "price": 13000,
@@ -95296,7 +95313,7 @@
             }
           ],
           "image": "images/layton--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/parfums-de-marly-layton-full-sealed"
+          "product_url": "https://sniffz-eg.com/products/parfums-de-marly-layton"
         },
         {
           "name": "mazaya",
@@ -120629,8 +120646,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1050,
-              "first_seen": "2026-08-06"
+              "price": 990,
+              "first_seen": "2026-08-06",
+              "prev_price": 1050
             }
           ],
           "image": "images/odyssey-artisto--sniffz.jpg",
@@ -120863,8 +120881,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1050,
-              "first_seen": "2026-08-03"
+              "price": 995,
+              "first_seen": "2026-08-03",
+              "prev_price": 1050
             }
           ],
           "image": "images/odyssey-chocolate-dubai--sniffz.jpg",
@@ -121491,8 +121510,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1050,
-              "first_seen": "2026-08-03"
+              "price": 990,
+              "first_seen": "2026-08-03",
+              "prev_price": 1050
             }
           ],
           "image": "images/odyssey-mandarin-sky-vintage--sniffz.jpg",
@@ -163871,7 +163891,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 650,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-15"
             },
             {
               "kind": "full",
@@ -169780,22 +169801,19 @@
               "kind": "decant",
               "ml": 3,
               "price": 355,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-14"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 455,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-13"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 700,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-11"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -179741,19 +179759,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 130,
-              "first_seen": "2026-08-23"
+              "first_seen": "2026-08-23",
+              "sold_since": "2026-11-15"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 170,
-              "first_seen": "2026-08-23"
+              "first_seen": "2026-08-23",
+              "sold_since": "2026-11-15"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 260,
-              "first_seen": "2026-08-23"
+              "first_seen": "2026-08-23",
+              "sold_since": "2026-11-15"
             }
           ],
           "image": "images/wolf--sniffz.jpg",
@@ -189229,8 +189250,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1050,
-              "first_seen": "2026-08-06"
+              "price": 990,
+              "first_seen": "2026-08-06",
+              "prev_price": 1050
             }
           ],
           "image": "images/odyssey-black-forest--sniffz.jpg",
@@ -222084,6 +222106,32 @@
           ],
           "image": "images/ameer--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/ameer"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 190,
+              "first_seen": "2026-11-15"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 250,
+              "first_seen": "2026-11-15"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 385,
+              "first_seen": "2026-11-15"
+            }
+          ],
+          "image": "images/ameer--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/maison-asrar-ameer"
         }
       ],
       "_hero_source": "og-perfume"
