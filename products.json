@@ -885,6 +885,13 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 100,
+              "price": 5300,
+              "first_seen": "2026-11-15",
+              "sold_since": "2026-11-15"
+            },
+            {
+              "kind": "full",
               "ml": 200,
               "price": 6000,
               "first_seen": "2026-11-15",
@@ -83745,6 +83752,13 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 75,
+              "price": 4200,
+              "first_seen": "2026-11-15",
+              "sold_since": "2026-11-15"
+            },
+            {
+              "kind": "full",
               "ml": 125,
               "price": 4800,
               "first_seen": "2026-11-15",
@@ -147017,7 +147031,7 @@
             }
           ],
           "image": "images/scandal-intense-men--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/scandal-intense-men-100-ml"
+          "product_url": "https://mazaya.eg/en/scandal-intense-men"
         },
         {
           "name": "faces",
@@ -164594,10 +164608,24 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 4900,
+              "first_seen": "2026-11-15",
+              "sold_since": "2026-11-15"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 6100,
               "first_seen": "2026-07-23",
               "prev_price": 7500,
+              "sold_since": "2026-11-15"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 9900,
+              "first_seen": "2026-11-15",
               "sold_since": "2026-11-15"
             }
           ],
@@ -181120,24 +181148,25 @@
               "kind": "full",
               "ml": 60,
               "price": 7000,
-              "first_seen": "2026-08-23"
+              "first_seen": "2026-08-23",
+              "sold_since": "2026-11-15"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 8700,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-11-15"
             },
             {
               "kind": "full",
               "ml": 150,
               "price": 8700,
-              "first_seen": "2026-09-20",
-              "sold_since": "2026-11-15"
+              "first_seen": "2026-09-20"
             }
           ],
           "image": "images/y-eau-de-parfum--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/yves-saint-laurent-y-edp123455-html12344"
+          "product_url": "https://mazaya.eg/en/y-edp-refill-150ml"
         },
         {
           "name": "faces",
