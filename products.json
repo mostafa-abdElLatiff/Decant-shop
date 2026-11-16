@@ -18376,7 +18376,8 @@
               "kind": "full",
               "ml": 150,
               "price": 2250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-16"
             }
           ],
           "image": "images/attacks--emaratiscents.jpg",
@@ -77123,7 +77124,8 @@
               "kind": "full",
               "ml": 50,
               "price": 3600,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-16"
             }
           ],
           "image": "images/incense-01--emaratiscents.jpg",
@@ -80927,8 +80929,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3200,
-              "first_seen": "2026-11-08"
+              "price": 3000,
+              "first_seen": "2026-11-08",
+              "prev_price": 3200
             }
           ],
           "image": "images/iven-peace--emaratiscents.jpg",
@@ -99247,8 +99250,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2000,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-11-15"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/liquid-brun--emaratiscents.jpg",
@@ -138551,8 +138553,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-11-15"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/ramad-earthy--emaratiscents.jpg",
@@ -172971,8 +172972,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1700,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-14"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/vanilla-voyage-maison-asrar--emaratiscents.jpg",
@@ -224897,6 +224897,60 @@
         }
       ],
       "_hero_source": "MO Shawky"
+    },
+    {
+      "id": "les-extraits-absolus-unknown",
+      "name_ar": "Les Extraits Absolus Unknown",
+      "name_en": "Les Extraits Absolus Unknown",
+      "brand": "French Avenue",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/les-extraits-absolus-unknown.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 2500,
+              "first_seen": "2026-11-16"
+            }
+          ],
+          "image": "images/les-extraits-absolus-unknown--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/les-extraits-absolus-unknown"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "les-extraits-absolus-shadow",
+      "name_ar": "Les Extraits Absolus Shadow",
+      "name_en": "Les Extraits Absolus Shadow",
+      "brand": "French Avenue",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/les-extraits-absolus-shadow.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 2500,
+              "first_seen": "2026-11-16"
+            }
+          ],
+          "image": "images/les-extraits-absolus-shadow--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/les-extraits-absolus-shadow"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
