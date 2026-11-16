@@ -12303,8 +12303,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2478,
-              "first_seen": "2026-07-23"
+              "price": 1949,
+              "first_seen": "2026-07-23",
+              "prev_price": 2478
             },
             {
               "kind": "full",
@@ -40165,8 +40166,9 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 2403,
-              "first_seen": "2026-07-23"
+              "price": 1949,
+              "first_seen": "2026-07-23",
+              "prev_price": 2403
             },
             {
               "kind": "full",
@@ -146913,6 +146915,13 @@
               "ml": 100,
               "price": 8530,
               "first_seen": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 5781,
+              "first_seen": "2026-11-16",
+              "sold_since": "2026-11-16"
             }
           ],
           "image": "images/scandal-eau-de-toilette--feel22.jpg",
@@ -155352,8 +155361,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2441,
-              "first_seen": "2026-07-23"
+              "price": 1949,
+              "first_seen": "2026-07-23",
+              "prev_price": 2441
             }
           ],
           "image": "images/spanish-tobacco--feel22.jpg",
