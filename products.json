@@ -25471,7 +25471,7 @@
             }
           ],
           "image": "images/bleu-noir-eau-de-parfum--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/narciso-rodriguez-bleu-noir-edp-3ml-561"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/narciso-rodriguez-bleu-noir-edp-5ml-560"
         }
       ],
       "_hero_source": "feel22",
@@ -52041,8 +52041,14 @@
             {
               "kind": "decant",
               "ml": 5,
-              "price": 165,
+              "price": 175,
               "first_seen": "2026-09-16"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 245,
+              "first_seen": "2026-11-16"
             }
           ],
           "image": "images/encre-noire-a-lextreme--mo-shawky.jpg",
@@ -163750,19 +163756,26 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 210,
-              "first_seen": "2026-10-12"
+              "price": 200,
+              "first_seen": "2026-10-12",
+              "prev_price": 210
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 285,
+              "price": 270,
               "first_seen": "2026-07-17",
-              "sold_since": "2026-11-14"
+              "prev_price": 285
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 435,
+              "first_seen": "2026-11-16"
             }
           ],
           "image": "images/the-most-wanted-parfum--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/azzaro-the-most-wanted-parfum-3ml-589"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/azzaro-the-most-wanted-parfum-3ml-310"
         },
         {
           "name": "sniffz",
@@ -186288,8 +186301,9 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 150,
-              "first_seen": "2026-11-07"
+              "price": 145,
+              "first_seen": "2026-11-07",
+              "prev_price": 150
             }
           ],
           "image": "images/encre-noire-l-extr-me--mo-shawky.jpg",
@@ -211066,7 +211080,7 @@
             }
           ],
           "image": "images/crystal-noir-parfum--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/versace-crystal-noir-parfum-5ml-566"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/versace-crystal-noir-parfum-3ml-567"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -211323,7 +211337,7 @@
             }
           ],
           "image": "images/ambre-d-alexandrie--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/boucheron-ambre-d-alexandrie-3ml-575"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/boucheron-ambre-d-alexandrie-5ml-574"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -211362,7 +211376,7 @@
             }
           ],
           "image": "images/for-men-absolute--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/bentley-for-men-absolute-3ml-573"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/bentley-for-men-absolute-5ml-572"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -224764,6 +224778,117 @@
         }
       ],
       "_hero_source": "roseperfume"
+    },
+    {
+      "id": "goddess-amber-vanilla",
+      "name_ar": "",
+      "name_en": "Goddess Amber Vanilla",
+      "brand": "Burberry",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/goddess-amber-vanilla.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 300,
+              "first_seen": "2026-11-16"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 435,
+              "first_seen": "2026-11-16"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 765,
+              "first_seen": "2026-11-16"
+            }
+          ],
+          "image": "images/goddess-amber-vanilla--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/burberry-goddess-amber-vanilla-3ml-598"
+        }
+      ],
+      "_hero_source": "MO Shawky"
+    },
+    {
+      "id": "paradoxe-intense",
+      "name_ar": "",
+      "name_en": "Paradoxe Intense",
+      "brand": "Prada",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/paradoxe-intense.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 300,
+              "first_seen": "2026-11-16"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 435,
+              "first_seen": "2026-11-16"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 765,
+              "first_seen": "2026-11-16"
+            }
+          ],
+          "image": "images/paradoxe-intense--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/prada-paradoxe-intense-5ml-357"
+        }
+      ],
+      "_hero_source": "MO Shawky"
+    },
+    {
+      "id": "explorer-extreme-mont-blanc",
+      "name_ar": "",
+      "name_en": "Explorer Extreme",
+      "brand": "Mont Blanc",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/explorer-extreme-mont-blanc.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "MO Shawky",
+          "url": "https://www.facebook.com/mo.freeto.play/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 215,
+              "first_seen": "2026-11-16"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 490,
+              "first_seen": "2026-11-16"
+            }
+          ],
+          "image": "images/explorer-extreme-mont-blanc--mo-shawky.jpg",
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/montblanc-explorer-extreme-3ml-281"
+        }
+      ],
+      "_hero_source": "MO Shawky"
     }
   ]
 }
