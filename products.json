@@ -119787,8 +119787,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 1900,
-              "first_seen": "2026-11-01",
-              "prev_price": 1950
+              "first_seen": "2026-11-01"
             }
           ],
           "image": "images/nyc-212-edt--eldesoki-fragrances.jpg",
@@ -136083,13 +136082,6 @@
               "price": 650,
               "first_seen": "2026-09-05",
               "sold_since": "2026-09-05"
-            },
-            {
-              "kind": "full",
-              "ml": 200,
-              "price": 1025,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
             }
           ],
           "image": "images/provence-dor--eldesoki-fragrances.jpg",
@@ -152825,8 +152817,7 @@
               "kind": "full",
               "ml": 100,
               "price": 600,
-              "first_seen": "2026-07-18",
-              "prev_price": 750
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/silk-musk--eldesoki-fragrances.jpg",
@@ -221341,8 +221332,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 300,
-              "first_seen": "2026-11-01",
-              "prev_price": 375
+              "first_seen": "2026-11-01"
             }
           ],
           "image": "images/212-nyc-tester--eldesoki-fragrances.jpg",
@@ -224746,6 +224736,21 @@
           ],
           "image": "images/provence-d-or--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/provence-dor-200-ml"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 1025,
+              "first_seen": "2026-11-16",
+              "sold_since": "2026-11-16"
+            }
+          ],
+          "image": "images/provence-d-or--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/provence-dor-200ml%d8%a8%d8%b1%d9%88%d9%81%d9%86%d8%b3-%d8%af%d9%88%d8%b1-%da%86%d9%8a%d9%86-%d8%a7%d9%86%d8%b7%d9%88%d8%a7%d9%86-%d8%a7%d9%84%d9%85%d8%a7%d8%b3-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "emaratiscents"
