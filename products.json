@@ -23656,6 +23656,26 @@
           ],
           "image": "images/black-carbon-diamond--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/black-carbon-diamond"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 130,
+              "first_seen": "2026-11-16"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-11-16"
+            }
+          ],
+          "image": "images/black-carbon-diamond--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/black-carbon-diamond"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -99280,7 +99300,8 @@
               "kind": "decant",
               "ml": 5,
               "price": 190,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-16"
             },
             {
               "kind": "decant",
@@ -178569,6 +178590,26 @@
           ],
           "image": "images/white-regent-diamond--dar-elarabia.jpg",
           "product_url": "https://darelarabia.com/products/white-regent-diamond"
+        },
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 130,
+              "first_seen": "2026-11-16"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-11-16"
+            }
+          ],
+          "image": "images/white-regent-diamond--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/white-regent-diamond"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -224955,6 +224996,37 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "muse-eau-de-parfum",
+      "name_ar": "Muse Eau de Parfum",
+      "name_en": "Muse Eau de Parfum",
+      "brand": "Khadlaj",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "",
+      "accords": [],
+      "stores": [
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 150,
+              "first_seen": "2026-11-16"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 250,
+              "first_seen": "2026-11-16"
+            }
+          ],
+          "product_url": "https://perfuzone-2.myshopify.com/products/muse"
+        }
+      ]
     }
   ]
 }
