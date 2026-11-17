@@ -54762,19 +54762,22 @@
               "kind": "decant",
               "ml": 5,
               "price": 120,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-11-17"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 210,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-11-17"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 600,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-11-17"
             },
             {
               "kind": "full",
@@ -80293,7 +80296,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1400,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/island-dreams--roseperfume.jpg",
@@ -105806,13 +105810,15 @@
               "kind": "decant",
               "ml": 5,
               "price": 100,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-11-17"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 175,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-11-17"
             },
             {
               "kind": "decant",
@@ -224545,7 +224551,7 @@
             {
               "kind": "full",
               "ml": 30,
-              "price": 0,
+              "price": 135,
               "first_seen": "2026-11-16"
             }
           ],
@@ -225280,6 +225286,267 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "smart-collection-no-676",
+      "name_ar": "",
+      "name_en": "Smart Collection No.676",
+      "brand": "Smart Collection",
+      "category": "dupe",
+      "dupe_of": [
+        "Imagination — Louis Vuitton"
+      ],
+      "image": "images/smart-collection-no-676.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 30,
+              "price": 135,
+              "first_seen": "2026-11-17"
+            }
+          ],
+          "image": "images/smart-collection-no-676--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/smart-collection-no-676"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "smart-collection-no-647",
+      "name_ar": "",
+      "name_en": "Smart Collection No.647",
+      "brand": "Smart Collection",
+      "category": "dupe",
+      "dupe_of": [
+        "Le Male Elixir — Jean Paul Gaultier"
+      ],
+      "image": "images/smart-collection-no-647.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 30,
+              "price": 135,
+              "first_seen": "2026-11-17"
+            }
+          ],
+          "image": "images/smart-collection-no-647--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/smart-collection-no-647"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "ex-hawas-black",
+      "name_ar": "",
+      "name_en": "EX Hawas Black",
+      "brand": "EX",
+      "category": "dupe",
+      "dupe_of": [
+        "Hawas Black Rasasi"
+      ],
+      "image": "images/ex-hawas-black.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 30,
+              "price": 135,
+              "first_seen": "2026-11-17"
+            }
+          ],
+          "image": "images/ex-hawas-black--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/ex-hawas-black"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "smart-collection-no-252",
+      "name_ar": "",
+      "name_en": "Smart Collection No.252",
+      "brand": "Smart Collection",
+      "category": "dupe",
+      "dupe_of": [
+        "The One for Men Eau de Parfum Dolce&amp;Gabbana"
+      ],
+      "image": "images/smart-collection-no-252.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 30,
+              "price": 135,
+              "first_seen": "2026-11-17"
+            }
+          ],
+          "image": "images/smart-collection-no-252--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/smart-collection-no-252"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "smart-collection-no-535",
+      "name_ar": "",
+      "name_en": "Smart Collection No.535",
+      "brand": "Smart Collection",
+      "category": "dupe",
+      "dupe_of": [
+        "Bad Boy Carolina Herrera"
+      ],
+      "image": "images/smart-collection-no-535.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 30,
+              "price": 135,
+              "first_seen": "2026-11-17"
+            }
+          ],
+          "image": "images/smart-collection-no-535--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/smart-collection-no-535"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "smart-collection-no-708",
+      "name_ar": "",
+      "name_en": "Smart Collection No.708",
+      "brand": "Smart Collection",
+      "category": "dupe",
+      "dupe_of": [
+        "Tobacco Vanille — Tom Ford"
+      ],
+      "image": "images/smart-collection-no-708.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 30,
+              "price": 135,
+              "first_seen": "2026-11-17"
+            }
+          ],
+          "image": "images/smart-collection-no-708--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/smart-collection-no-708"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "ex-nibras-30ml",
+      "name_ar": "",
+      "name_en": "EX Nibras 30ML",
+      "brand": "EX",
+      "category": "dupe",
+      "dupe_of": [
+        "Nebras Lattafa Perfumes"
+      ],
+      "image": "images/ex-nibras-30ml.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 30,
+              "price": 135,
+              "first_seen": "2026-11-17"
+            }
+          ],
+          "image": "images/ex-nibras-30ml--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/ex-nibras-30ml"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "ex-khamrah-qahwa",
+      "name_ar": "",
+      "name_en": "EX Khamrah Qahwa",
+      "brand": "EX",
+      "category": "dupe",
+      "dupe_of": [
+        "Khamrah Qahwa Lattafa"
+      ],
+      "image": "images/ex-khamrah-qahwa.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 30,
+              "price": 135,
+              "first_seen": "2026-11-17"
+            }
+          ],
+          "image": "images/ex-khamrah-qahwa--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/ex-khamrah-qahwa"
+        }
+      ],
+      "_hero_source": "roseperfume"
+    },
+    {
+      "id": "smart-collection-no-680",
+      "name_ar": "",
+      "name_en": "Smart Collection No.680",
+      "brand": "Smart Collection",
+      "category": "dupe",
+      "dupe_of": [
+        "Althaïr — Parfums de Marly"
+      ],
+      "image": "images/smart-collection-no-680.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 30,
+              "price": 135,
+              "first_seen": "2026-11-17"
+            }
+          ],
+          "image": "images/smart-collection-no-680--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/smart-collection-no-680"
+        }
+      ],
+      "_hero_source": "roseperfume"
     }
   ]
 }
