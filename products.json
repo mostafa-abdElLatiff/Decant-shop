@@ -148811,7 +148811,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2600,
-              "first_seen": "2026-11-12"
+              "first_seen": "2026-11-12",
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/serious--dar-elarabia.jpg",
@@ -183710,7 +183711,8 @@
               "kind": "full",
               "ml": 120,
               "price": 2800,
-              "first_seen": "2026-08-02"
+              "first_seen": "2026-08-02",
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/serenade-al-barqa-box--dar-elarabia.jpg",
@@ -225565,6 +225567,33 @@
         }
       ],
       "_hero_source": "roseperfume"
+    },
+    {
+      "id": "essence-of-casablanca",
+      "name_ar": "Essence Of Casablanca",
+      "name_en": "Essence Of Casablanca",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/essence-of-casablanca.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3850,
+              "first_seen": "2026-11-17"
+            }
+          ],
+          "image": "images/essence-of-casablanca--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/essence-of-casablanca"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
     }
   ]
 }
