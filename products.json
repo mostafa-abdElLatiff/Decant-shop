@@ -12312,8 +12312,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2350,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-11-17"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/arabian-tobacco--emaratiscents.jpg",
@@ -113133,7 +113132,8 @@
               "kind": "full",
               "ml": 50,
               "price": 1550,
-              "first_seen": "2026-11-15"
+              "first_seen": "2026-11-15",
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/mykonos-conquer--emaratiscents.jpg",
@@ -216886,7 +216886,8 @@
               "kind": "full",
               "ml": 50,
               "price": 5800,
-              "first_seen": "2026-10-04"
+              "first_seen": "2026-10-04",
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/grande-set-box-by-sedra--emaratiscents.jpg",
@@ -225955,6 +225956,33 @@
         }
       ],
       "_hero_source": "mazaya"
+    },
+    {
+      "id": "icon-by-khadlaj",
+      "name_ar": "Icon By Khadlaj",
+      "name_en": "Icon By Khadlaj",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/icon-by-khadlaj.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1650,
+              "first_seen": "2026-11-17"
+            }
+          ],
+          "image": "images/icon-by-khadlaj--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/icon-by-khadlaj"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
