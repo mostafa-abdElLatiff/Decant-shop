@@ -14015,7 +14015,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 925,
-              "first_seen": "2026-09-20"
+              "first_seen": "2026-09-20",
+              "sold_since": "2026-11-17"
             },
             {
               "kind": "full",
@@ -69524,8 +69525,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1400,
-              "first_seen": "2026-07-18"
+              "price": 1375,
+              "first_seen": "2026-07-18",
+              "prev_price": 1400
             }
           ],
           "image": "images/hawas-elixir--eldesoki-fragrances.jpg",
@@ -70459,8 +70461,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1400,
-              "first_seen": "2026-07-18"
+              "price": 1375,
+              "first_seen": "2026-07-18",
+              "prev_price": 1400
             }
           ],
           "image": "images/hawas-for-him-malibu--eldesoki-fragrances.jpg",
