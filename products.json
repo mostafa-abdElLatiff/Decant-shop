@@ -137162,7 +137162,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 150,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-17"
             },
             {
               "kind": "decant",
@@ -160804,6 +160805,13 @@
               "price": 220,
               "first_seen": "2026-07-19",
               "prev_price": 225,
+              "sold_since": "2026-11-17"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 625,
+              "first_seen": "2026-11-17",
               "sold_since": "2026-11-17"
             },
             {
