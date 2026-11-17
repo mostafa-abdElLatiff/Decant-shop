@@ -6236,8 +6236,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1636,
+              "price": 1540,
               "first_seen": "2026-07-23",
+              "prev_price": 1636,
               "sold_since": "2026-07-23"
             }
           ],
@@ -9503,8 +9504,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 924,
+              "price": 866,
               "first_seen": "2026-09-02",
+              "prev_price": 924,
               "sold_since": "2026-09-02"
             }
           ],
@@ -9710,8 +9712,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1024,
+              "price": 904,
               "first_seen": "2026-07-23",
+              "prev_price": 1024,
               "sold_since": "2026-07-23"
             }
           ],
@@ -10369,8 +10372,9 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 924,
-              "first_seen": "2026-07-23"
+              "price": 866,
+              "first_seen": "2026-07-23",
+              "prev_price": 924
             }
           ],
           "image": "images/ana-abiyedh--mazaya.jpg",
@@ -10656,8 +10660,9 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 924,
-              "first_seen": "2026-07-23"
+              "price": 866,
+              "first_seen": "2026-07-23",
+              "prev_price": 924
             }
           ],
           "image": "images/ana-abiyedh-rouge--mazaya.jpg",
@@ -16056,8 +16061,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2471,
-              "first_seen": "2026-09-24"
+              "price": 2142,
+              "first_seen": "2026-09-24",
+              "prev_price": 2471
             }
           ],
           "image": "images/art-of-universe--mazaya.jpg",
@@ -16330,8 +16336,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1234,
-              "first_seen": "2026-07-23"
+              "price": 1069,
+              "first_seen": "2026-07-23",
+              "prev_price": 1234
             }
           ],
           "image": "images/asad--mazaya.jpg",
@@ -16604,8 +16611,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1234,
-              "first_seen": "2026-07-23"
+              "price": 1069,
+              "first_seen": "2026-07-23",
+              "prev_price": 1234
             }
           ],
           "image": "images/asad-bourbon--mazaya.jpg",
@@ -16878,8 +16886,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1316,
-              "first_seen": "2026-07-23"
+              "price": 1234,
+              "first_seen": "2026-07-23",
+              "prev_price": 1316
             }
           ],
           "image": "images/asad-elixir-lattafa-perfumes--mazaya.jpg",
@@ -17048,8 +17057,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1234,
+              "price": 1069,
               "first_seen": "2026-07-23",
+              "prev_price": 1234,
               "sold_since": "2026-07-23"
             }
           ],
@@ -20321,13 +20331,14 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 9300,
+              "price": 8800,
               "first_seen": "2026-10-18",
-              "sold_since": "2026-11-16"
+              "prev_price": 9300,
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/bad-boy-cobalt-elixir--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/bad-boy-cobalt-elixir-100ml"
+          "product_url": "https://mazaya.eg/en/bad-boy-elixir-50-ml"
         },
         {
           "name": "feel22",
@@ -20704,8 +20715,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1444,
+              "price": 1251,
               "first_seen": "2026-07-23",
+              "prev_price": 1444,
               "sold_since": "2026-07-23"
             }
           ],
@@ -20838,8 +20850,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1444,
+              "price": 1251,
               "first_seen": "2026-07-23",
+              "prev_price": 1444,
               "sold_since": "2026-07-23"
             }
           ],
@@ -20933,8 +20946,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1444,
-              "first_seen": "2026-07-23"
+              "price": 1348,
+              "first_seen": "2026-07-23",
+              "prev_price": 1444
             }
           ],
           "image": "images/badee-al-oud-noble-blush--mazaya.jpg",
@@ -21145,8 +21159,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1444,
-              "first_seen": "2026-07-23"
+              "price": 1251,
+              "first_seen": "2026-07-23",
+              "prev_price": 1444
             }
           ],
           "image": "images/badee-al-oud-sublime--mazaya.jpg",
@@ -47368,8 +47383,7 @@
               "kind": "full",
               "ml": 100,
               "price": 6700,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-11-02"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/dylan-blue--mazaya.jpg",
@@ -49081,8 +49095,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1452,
-              "first_seen": "2026-09-02"
+              "price": 1270,
+              "first_seen": "2026-09-02",
+              "prev_price": 1452
             }
           ],
           "image": "images/eclaire-pistache--mazaya.jpg",
@@ -49739,8 +49754,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 821,
+              "price": 712,
               "first_seen": "2026-07-23",
+              "prev_price": 821,
               "sold_since": "2026-07-23"
             }
           ],
@@ -54860,8 +54876,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2053,
-              "first_seen": "2026-09-24"
+              "price": 1932,
+              "first_seen": "2026-09-24",
+              "prev_price": 2053
             }
           ],
           "image": "images/eternal-vanille--mazaya.jpg",
@@ -57224,8 +57241,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1232,
-              "first_seen": "2026-07-23"
+              "price": 1078,
+              "first_seen": "2026-07-23",
+              "prev_price": 1232
             }
           ],
           "image": "images/fakhar-black--mazaya.jpg",
@@ -57388,8 +57406,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1232,
+              "price": 1078,
               "first_seen": "2026-07-23",
+              "prev_price": 1232,
               "sold_since": "2026-07-23"
             }
           ],
@@ -71405,7 +71424,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 931,
+              "price": 1095,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -71456,7 +71475,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 931,
+              "price": 1095,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -86330,8 +86349,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1716,
-              "first_seen": "2026-07-23"
+              "price": 1502,
+              "first_seen": "2026-07-23",
+              "prev_price": 1716
             }
           ],
           "image": "images/khamrah--mazaya.jpg",
@@ -86522,8 +86542,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1716,
-              "first_seen": "2026-07-23"
+              "price": 1502,
+              "first_seen": "2026-07-23",
+              "prev_price": 1716
             }
           ],
           "image": "images/khamrah-dukhan--mazaya.jpg",
@@ -86775,8 +86796,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1716,
-              "first_seen": "2026-07-23"
+              "price": 1502,
+              "first_seen": "2026-07-23",
+              "prev_price": 1716
             }
           ],
           "image": "images/khamrah-qahwa--mazaya.jpg",
@@ -94801,8 +94823,9 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 2471,
-              "first_seen": "2026-07-23"
+              "price": 2142,
+              "first_seen": "2026-07-23",
+              "prev_price": 2471
             }
           ],
           "image": "images/lattafa-pride-spray-ajwaa--mazaya.jpg",
@@ -94828,8 +94851,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1635,
+              "price": 1417,
               "first_seen": "2026-07-23",
+              "prev_price": 1635,
               "sold_since": "2026-07-23"
             }
           ],
@@ -94856,7 +94880,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1853,
+              "price": 2180,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -94884,8 +94908,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2471,
+              "price": 2142,
               "first_seen": "2026-07-23",
+              "prev_price": 2471,
               "sold_since": "2026-07-23"
             }
           ],
@@ -94912,7 +94937,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1853,
+              "price": 2180,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -94940,7 +94965,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2801,
+              "price": 3295,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -94968,7 +94993,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1853,
+              "price": 2180,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -94996,7 +95021,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1853,
+              "price": 2180,
               "first_seen": "2026-07-23",
               "sold_since": "2026-11-01"
             }
@@ -95024,7 +95049,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2801,
+              "price": 3295,
               "first_seen": "2026-07-23"
             }
           ],
@@ -95051,7 +95076,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2801,
+              "price": 3295,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -95079,7 +95104,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1853,
+              "price": 2180,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -95107,8 +95132,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1756,
+              "price": 1536,
               "first_seen": "2026-07-23",
+              "prev_price": 1756,
               "sold_since": "2026-11-11"
             }
           ],
@@ -95135,8 +95161,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1679,
+              "price": 1580,
               "first_seen": "2026-07-23",
+              "prev_price": 1679,
               "sold_since": "2026-07-23"
             }
           ],
@@ -95163,7 +95190,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1823,
+              "price": 2145,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -95191,8 +95218,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1635,
+              "price": 1526,
               "first_seen": "2026-07-23",
+              "prev_price": 1635,
               "sold_since": "2026-07-23"
             }
           ],
@@ -95219,7 +95247,7 @@
             {
               "kind": "full",
               "ml": 80,
-              "price": 2316,
+              "price": 2725,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -95247,7 +95275,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1853,
+              "price": 2180,
               "first_seen": "2026-07-23",
               "sold_since": "2026-10-23"
             }
@@ -101548,8 +101576,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1609,
-              "first_seen": "2026-07-23"
+              "price": 1502,
+              "first_seen": "2026-07-23",
+              "prev_price": 1609
             }
           ],
           "image": "images/maahir--mazaya.jpg",
@@ -101856,8 +101885,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1609,
-              "first_seen": "2026-07-23"
+              "price": 1502,
+              "first_seen": "2026-07-23",
+              "prev_price": 1609
             }
           ],
           "image": "images/maahir-legacy--mazaya.jpg",
@@ -105780,8 +105810,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1356,
+              "price": 1196,
               "first_seen": "2026-09-02",
+              "prev_price": 1356,
               "sold_since": "2026-09-02"
             }
           ],
@@ -111401,8 +111432,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2186,
-              "first_seen": "2026-07-23"
+              "price": 1895,
+              "first_seen": "2026-07-23",
+              "prev_price": 2186
             }
           ],
           "image": "images/musamam-black-intense--mazaya.jpg",
@@ -111538,8 +111570,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2186,
-              "first_seen": "2026-07-23"
+              "price": 1895,
+              "first_seen": "2026-07-23",
+              "prev_price": 2186
             }
           ],
           "image": "images/musamam-white-intense-edp--mazaya.jpg",
@@ -112340,8 +112373,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1012,
+              "price": 886,
               "first_seen": "2026-07-23",
+              "prev_price": 1012,
               "sold_since": "2026-07-23"
             }
           ],
@@ -116182,7 +116216,7 @@
             {
               "kind": "full",
               "ml": 80,
-              "price": 2801,
+              "price": 3295,
               "first_seen": "2026-07-23"
             }
           ],
@@ -116209,7 +116243,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2801,
+              "price": 3295,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -116237,7 +116271,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2801,
+              "price": 3295,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -116265,7 +116299,7 @@
             {
               "kind": "full",
               "ml": 80,
-              "price": 2801,
+              "price": 3295,
               "first_seen": "2026-07-23",
               "sold_since": "2026-09-06"
             }
@@ -116293,7 +116327,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2801,
+              "price": 3295,
               "first_seen": "2026-07-23"
             }
           ],
@@ -126725,8 +126759,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1012,
+              "price": 886,
               "first_seen": "2026-07-23",
+              "prev_price": 1012,
               "sold_since": "2026-07-23"
             }
           ],
@@ -126785,8 +126820,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1012,
+              "price": 886,
               "first_seen": "2026-07-23",
+              "prev_price": 1012,
               "sold_since": "2026-07-23"
             }
           ],
@@ -126846,8 +126882,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1012,
+              "price": 886,
               "first_seen": "2026-07-23",
+              "prev_price": 1012,
               "sold_since": "2026-07-23"
             }
           ],
@@ -129743,7 +129780,8 @@
               "kind": "full",
               "ml": 100,
               "price": 9050,
-              "first_seen": "2026-11-13"
+              "first_seen": "2026-11-13",
+              "sold_since": "2026-11-17"
             },
             {
               "kind": "full",
@@ -129754,7 +129792,7 @@
             }
           ],
           "image": "images/pasha-de-cartier-parfum--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/pasha-de-cartier-parfum"
+          "product_url": "https://mazaya.eg/en/pasha-de-cartier-parfum-50ml"
         },
         {
           "name": "faces",
@@ -130929,7 +130967,7 @@
             {
               "kind": "full",
               "ml": 250,
-              "price": 132,
+              "price": 155,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -133857,8 +133895,7 @@
               "kind": "full",
               "ml": 100,
               "price": 6900,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-11-03"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/pour-homme-edp-michael-kors--mazaya.jpg",
@@ -139287,8 +139324,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 931,
+              "price": 821,
               "first_seen": "2026-07-23",
+              "prev_price": 931,
               "sold_since": "2026-07-23"
             }
           ],
@@ -148535,8 +148573,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2186,
+              "price": 1895,
               "first_seen": "2026-07-23",
+              "prev_price": 2186,
               "sold_since": "2026-07-23"
             }
           ],
@@ -156639,7 +156678,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1122,
+              "price": 1320,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -156685,7 +156724,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1122,
+              "price": 1320,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -156730,8 +156769,9 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 1316,
+              "price": 1152,
               "first_seen": "2026-07-23",
+              "prev_price": 1316,
               "sold_since": "2026-07-23"
             }
           ],
@@ -156790,8 +156830,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1444,
+              "price": 1251,
               "first_seen": "2026-07-23",
+              "prev_price": 1444,
               "sold_since": "2026-07-23"
             }
           ],
@@ -156835,7 +156876,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1590,
+              "price": 1870,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -156863,7 +156904,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1636,
+              "price": 1925,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -156891,8 +156932,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 931,
+              "price": 876,
               "first_seen": "2026-07-23",
+              "prev_price": 931,
               "sold_since": "2026-07-23"
             }
           ],
@@ -156919,7 +156961,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 744,
+              "price": 875,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -156975,8 +157017,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 837,
+              "price": 788,
               "first_seen": "2026-07-23",
+              "prev_price": 837,
               "sold_since": "2026-07-23"
             }
           ],
@@ -157003,7 +157046,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1543,
+              "price": 1815,
               "first_seen": "2026-07-23"
             }
           ],
@@ -157030,8 +157073,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 931,
+              "price": 821,
               "first_seen": "2026-07-23",
+              "prev_price": 931,
               "sold_since": "2026-07-23"
             }
           ],
@@ -157075,8 +157119,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1452,
-              "first_seen": "2026-07-23"
+              "price": 1361,
+              "first_seen": "2026-07-23",
+              "prev_price": 1452
             }
           ],
           "image": "images/spray-the-kingdom-man--mazaya.jpg",
@@ -161940,8 +161985,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1774,
-              "first_seen": "2026-07-23"
+              "price": 1656,
+              "first_seen": "2026-07-23",
+              "prev_price": 1774
             }
           ],
           "image": "images/teriaq--mazaya.jpg",
@@ -162168,8 +162214,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1774,
+              "price": 1656,
               "first_seen": "2026-07-23",
+              "prev_price": 1774,
               "sold_since": "2026-07-23"
             }
           ],
@@ -173694,8 +173741,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1122,
+              "price": 990,
               "first_seen": "2026-07-23",
+              "prev_price": 1122,
               "sold_since": "2026-10-10"
             }
           ],
@@ -173740,8 +173788,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1122,
+              "price": 990,
               "first_seen": "2026-07-23",
+              "prev_price": 1122,
               "sold_since": "2026-07-23"
             }
           ],
@@ -175299,8 +175348,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1543,
+              "price": 1452,
               "first_seen": "2026-07-23",
+              "prev_price": 1543,
               "sold_since": "2026-07-23"
             }
           ],
@@ -181459,25 +181509,24 @@
               "kind": "full",
               "ml": 60,
               "price": 7000,
-              "first_seen": "2026-08-23",
-              "sold_since": "2026-11-17"
+              "first_seen": "2026-08-23"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 8700,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-11-17"
+              "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 150,
               "price": 8700,
-              "first_seen": "2026-09-20"
+              "first_seen": "2026-09-20",
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/y-eau-de-parfum--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/y-edp-refill-150ml"
+          "product_url": "https://mazaya.eg/en/yves-saint-laurent-y-edp123455-html12344"
         },
         {
           "name": "faces",
@@ -213527,7 +213576,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 774,
+              "price": 910,
               "first_seen": "2026-09-24"
             }
           ],
