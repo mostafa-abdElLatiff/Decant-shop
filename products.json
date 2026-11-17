@@ -150,7 +150,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6800,
+              "price": 8500,
               "first_seen": "2026-07-23"
             }
           ],
@@ -263,7 +263,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5200,
+              "price": 6500,
               "first_seen": "2026-10-11"
             }
           ],
@@ -310,7 +310,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 5840,
+              "price": 7300,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -505,7 +505,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2760,
+              "price": 3450,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -533,7 +533,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 6400,
+              "price": 8000,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -671,7 +671,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5520,
+              "price": 6900,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -741,14 +741,14 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4720,
+              "price": 5900,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 6240,
+              "price": 7800,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -897,14 +897,14 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4240,
+              "price": 5300,
               "first_seen": "2026-11-15",
               "sold_since": "2026-11-15"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 4800,
+              "price": 6000,
               "first_seen": "2026-11-15",
               "sold_since": "2026-11-15"
             }
@@ -3384,7 +3384,7 @@
               "ml": 100,
               "price": 20100,
               "first_seen": "2026-09-18",
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/accento-edp--mazaya.jpg",
@@ -3789,7 +3789,7 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 4480,
+              "price": 5600,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -3897,29 +3897,29 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5360,
+              "price": 6700,
               "first_seen": "2026-10-14",
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             },
             {
               "kind": "full",
               "ml": 75,
-              "price": 5360,
+              "price": 6700,
               "first_seen": "2026-10-14",
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 6240,
+              "price": 7800,
               "first_seen": "2026-10-14",
-              "prev_price": 7280,
-              "sold_since": "2026-11-16"
+              "prev_price": 9100,
+              "sold_since": "2026-11-17"
             },
             {
               "kind": "full",
               "ml": 125,
-              "price": 6000,
+              "price": 7500,
               "first_seen": "2026-11-11",
               "sold_since": "2026-11-11"
             }
@@ -4279,7 +4279,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1752,
+              "price": 2190,
               "first_seen": "2026-07-23",
               "sold_since": "2026-09-24"
             }
@@ -4575,8 +4575,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2415,
+              "price": 2053,
               "first_seen": "2026-07-23",
+              "prev_price": 2415,
               "sold_since": "2026-07-23"
             }
           ],
@@ -5015,7 +5016,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1308,
+              "price": 1635,
               "first_seen": "2026-07-23"
             }
           ],
@@ -6263,8 +6264,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1925,
+              "price": 1636,
               "first_seen": "2026-07-23",
+              "prev_price": 1925,
               "sold_since": "2026-07-23"
             }
           ],
@@ -7028,7 +7030,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 704,
+              "price": 880,
               "first_seen": "2026-07-23"
             }
           ],
@@ -7534,7 +7536,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 2600,
+              "price": 3250,
               "first_seen": "2026-07-23"
             }
           ],
@@ -7561,8 +7563,9 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 2600,
-              "first_seen": "2026-07-23"
+              "price": 3250,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/all-over-lychee--mazaya.jpg",
@@ -7588,7 +7591,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 2600,
+              "price": 3250,
               "first_seen": "2026-07-23"
             }
           ],
@@ -7615,7 +7618,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 2600,
+              "price": 3250,
               "first_seen": "2026-07-23"
             }
           ],
@@ -8332,7 +8335,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1920,
+              "price": 2400,
               "first_seen": "2026-07-23"
             }
           ],
@@ -8756,7 +8759,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5420,
+              "price": 6775,
               "first_seen": "2026-07-23"
             }
           ],
@@ -9086,7 +9089,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5040,
+              "price": 6300,
               "first_seen": "2026-07-23",
               "sold_since": "2026-08-19"
             }
@@ -9184,7 +9187,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7936,
+              "price": 9920,
               "first_seen": "2026-07-23",
               "sold_since": "2026-08-09"
             }
@@ -9539,8 +9542,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1155,
+              "price": 924,
               "first_seen": "2026-09-02",
+              "prev_price": 1155,
               "sold_since": "2026-09-02"
             }
           ],
@@ -9749,8 +9753,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1205,
+              "price": 1024,
               "first_seen": "2026-07-23",
+              "prev_price": 1205,
               "sold_since": "2026-07-23"
             }
           ],
@@ -9941,7 +9946,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5640,
+              "price": 7050,
               "first_seen": "2026-07-23"
             }
           ],
@@ -9968,7 +9973,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5640,
+              "price": 7050,
               "first_seen": "2026-07-23"
             }
           ],
@@ -9995,7 +10000,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5640,
+              "price": 7050,
               "first_seen": "2026-07-23"
             }
           ],
@@ -10146,7 +10151,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2760,
+              "price": 3450,
               "first_seen": "2026-07-23"
             }
           ],
@@ -10173,7 +10178,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2760,
+              "price": 3450,
               "first_seen": "2026-07-23"
             }
           ],
@@ -10200,7 +10205,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2760,
+              "price": 3450,
               "first_seen": "2026-07-23",
               "sold_since": "2026-08-18"
             }
@@ -10408,8 +10413,9 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 1155,
-              "first_seen": "2026-07-23"
+              "price": 924,
+              "first_seen": "2026-07-23",
+              "prev_price": 1155
             }
           ],
           "image": "images/ana-abiyedh--mazaya.jpg",
@@ -10696,8 +10702,9 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 1155,
-              "first_seen": "2026-07-23"
+              "price": 924,
+              "first_seen": "2026-07-23",
+              "prev_price": 1155
             }
           ],
           "image": "images/ana-abiyedh-rouge--mazaya.jpg",
@@ -11108,8 +11115,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1595,
+              "price": 1356,
               "first_seen": "2026-09-02",
+              "prev_price": 1595,
               "sold_since": "2026-09-21"
             }
           ],
@@ -11538,7 +11546,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7760,
+              "price": 9700,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -11752,14 +11760,14 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 5040,
+              "price": 6300,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 125,
-              "price": 6320,
+              "price": 7900,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -14142,7 +14150,7 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 7040,
+              "price": 8800,
               "first_seen": "2026-07-23",
               "sold_since": "2026-10-30"
             }
@@ -16103,8 +16111,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3295,
-              "first_seen": "2026-09-24"
+              "price": 2471,
+              "first_seen": "2026-09-24",
+              "prev_price": 3295
             }
           ],
           "image": "images/art-of-universe--mazaya.jpg",
@@ -16377,8 +16386,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1645,
-              "first_seen": "2026-07-23"
+              "price": 1234,
+              "first_seen": "2026-07-23",
+              "prev_price": 1645
             }
           ],
           "image": "images/asad--mazaya.jpg",
@@ -16651,8 +16661,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1645,
-              "first_seen": "2026-07-23"
+              "price": 1234,
+              "first_seen": "2026-07-23",
+              "prev_price": 1645
             }
           ],
           "image": "images/asad-bourbon--mazaya.jpg",
@@ -16925,8 +16936,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1645,
-              "first_seen": "2026-07-23"
+              "price": 1316,
+              "first_seen": "2026-07-23",
+              "prev_price": 1645
             }
           ],
           "image": "images/asad-elixir-lattafa-perfumes--mazaya.jpg",
@@ -17086,8 +17098,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1645,
+              "price": 1234,
               "first_seen": "2026-07-23",
+              "prev_price": 1645,
               "sold_since": "2026-07-23"
             }
           ],
@@ -18550,7 +18563,7 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 2600,
+              "price": 3250,
               "first_seen": "2026-10-15",
               "sold_since": "2026-10-15"
             }
@@ -18861,7 +18874,7 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 2280,
+              "price": 2850,
               "first_seen": "2026-10-15",
               "sold_since": "2026-11-12"
             }
@@ -19289,7 +19302,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 2240,
+              "price": 2800,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -19588,7 +19601,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 184,
+              "price": 230,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -20244,7 +20257,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7440,
+              "price": 9300,
               "first_seen": "2026-07-29"
             }
           ],
@@ -20291,14 +20304,14 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5360,
+              "price": 6700,
               "first_seen": "2026-10-12",
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 6160,
+              "price": 7700,
               "first_seen": "2026-11-16",
               "sold_since": "2026-11-16"
             }
@@ -20354,14 +20367,14 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4960,
+              "price": 6200,
               "first_seen": "2026-11-12",
               "sold_since": "2026-11-12"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 7440,
+              "price": 9300,
               "first_seen": "2026-10-18",
               "sold_since": "2026-11-16"
             }
@@ -20588,10 +20601,10 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5280,
+              "price": 6600,
               "first_seen": "2026-07-23",
-              "prev_price": 6080,
-              "sold_since": "2026-11-16"
+              "prev_price": 7600,
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/bad-boy-le-parfum-edp--mazaya.jpg",
@@ -20750,8 +20763,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1925,
+              "price": 1444,
               "first_seen": "2026-07-23",
+              "prev_price": 1925,
               "sold_since": "2026-07-23"
             }
           ],
@@ -20885,8 +20899,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1925,
+              "price": 1444,
               "first_seen": "2026-07-23",
+              "prev_price": 1925,
               "sold_since": "2026-07-23"
             }
           ],
@@ -20980,8 +20995,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1925,
-              "first_seen": "2026-07-23"
+              "price": 1444,
+              "first_seen": "2026-07-23",
+              "prev_price": 1925
             }
           ],
           "image": "images/badee-al-oud-noble-blush--mazaya.jpg",
@@ -21192,8 +21208,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1925,
-              "first_seen": "2026-07-23"
+              "price": 1444,
+              "first_seen": "2026-07-23",
+              "prev_price": 1925
             }
           ],
           "image": "images/badee-al-oud-sublime--mazaya.jpg",
@@ -22105,7 +22122,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 924,
+              "price": 1155,
               "first_seen": "2026-07-23",
               "sold_since": "2026-10-13"
             }
@@ -23162,7 +23179,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4720,
+              "price": 5900,
               "first_seen": "2026-07-23",
               "sold_since": "2026-09-19"
             }
@@ -23205,7 +23222,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6320,
+              "price": 7900,
               "first_seen": "2026-07-23"
             }
           ],
@@ -23529,9 +23546,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7360,
+              "price": 9200,
               "first_seen": "2026-07-23",
-              "prev_price": 8960,
+              "prev_price": 11200,
               "sold_since": "2026-10-28"
             }
           ],
@@ -24640,7 +24657,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1452,
+              "price": 1815,
               "first_seen": "2026-10-11",
               "sold_since": "2026-10-11"
             }
@@ -25581,7 +25598,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5920,
+              "price": 7400,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -25751,7 +25768,7 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 1500,
+              "price": 1875,
               "first_seen": "2026-07-23"
             }
           ],
@@ -26073,7 +26090,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 184,
+              "price": 230,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -26421,7 +26438,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2280,
+              "price": 2850,
               "first_seen": "2026-10-15",
               "sold_since": "2026-10-31"
             }
@@ -28110,7 +28127,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5360,
+              "price": 6700,
               "first_seen": "2026-07-23"
             }
           ],
@@ -28154,7 +28171,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7040,
+              "price": 8800,
               "first_seen": "2026-07-23"
             }
           ],
@@ -28217,14 +28234,14 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5360,
+              "price": 6700,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 6320,
+              "price": 7900,
               "first_seen": "2026-07-23"
             }
           ],
@@ -28251,7 +28268,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7040,
+              "price": 8800,
               "first_seen": "2026-07-23"
             }
           ],
@@ -28320,13 +28337,13 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5360,
+              "price": 6700,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 6320,
+              "price": 7900,
               "first_seen": "2026-07-23"
             }
           ],
@@ -28515,7 +28532,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6240,
+              "price": 7800,
               "first_seen": "2026-07-23",
               "sold_since": "2026-11-03"
             }
@@ -28587,7 +28604,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5040,
+              "price": 6300,
               "first_seen": "2026-07-23",
               "sold_since": "2026-11-01"
             }
@@ -28707,7 +28724,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2800,
+              "price": 3500,
               "first_seen": "2026-10-12",
               "sold_since": "2026-11-04"
             }
@@ -28759,14 +28776,14 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4880,
+              "price": 6100,
               "first_seen": "2026-11-16",
               "sold_since": "2026-11-16"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 6560,
+              "price": 8200,
               "first_seen": "2026-08-19",
               "sold_since": "2026-11-16"
             }
@@ -28835,7 +28852,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6720,
+              "price": 8400,
               "first_seen": "2026-08-19"
             }
           ],
@@ -28930,7 +28947,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4720,
+              "price": 5900,
               "first_seen": "2026-10-12",
               "sold_since": "2026-10-12"
             }
@@ -29125,7 +29142,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5360,
+              "price": 6700,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -29196,14 +29213,14 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4000,
+              "price": 5000,
               "first_seen": "2026-07-23",
               "sold_since": "2026-08-23"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 5040,
+              "price": 6300,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -29266,7 +29283,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 832,
+              "price": 1040,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -29918,14 +29935,14 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5360,
+              "price": 6700,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 7440,
+              "price": 9995,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -31001,7 +31018,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1160,
+              "price": 1450,
               "first_seen": "2026-07-23"
             }
           ],
@@ -31411,7 +31428,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2976,
+              "price": 3720,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -31823,7 +31840,7 @@
             {
               "kind": "full",
               "ml": 120,
-              "price": 11440,
+              "price": 14300,
               "first_seen": "2026-07-29",
               "sold_since": "2026-08-01"
             }
@@ -31968,7 +31985,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4200,
+              "price": 5250,
               "first_seen": "2026-07-23"
             }
           ],
@@ -32476,7 +32493,7 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 2024,
+              "price": 2600,
               "first_seen": "2026-07-23",
               "sold_since": "2026-10-27"
             }
@@ -32884,7 +32901,7 @@
             {
               "kind": "full",
               "ml": 120,
-              "price": 10320,
+              "price": 12900,
               "first_seen": "2026-07-23"
             }
           ],
@@ -34043,7 +34060,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 3760,
+              "price": 4700,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -34074,13 +34091,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4592,
+              "price": 5740,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 6120,
+              "price": 7650,
               "first_seen": "2026-07-26",
               "sold_since": "2026-07-26"
             }
@@ -34155,7 +34172,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3960,
+              "price": 4950,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -34783,7 +34800,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4360,
+              "price": 5450,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -35008,7 +35025,7 @@
             {
               "kind": "full",
               "ml": 105,
-              "price": 2984,
+              "price": 3730,
               "first_seen": "2026-07-23"
             }
           ],
@@ -35310,7 +35327,7 @@
             {
               "kind": "full",
               "ml": 105,
-              "price": 2368,
+              "price": 2960,
               "first_seen": "2026-07-23"
             }
           ],
@@ -35948,7 +35965,7 @@
             {
               "kind": "full",
               "ml": 55,
-              "price": 3920,
+              "price": 4900,
               "first_seen": "2026-07-23"
             }
           ],
@@ -35993,7 +36010,7 @@
             {
               "kind": "full",
               "ml": 105,
-              "price": 2984,
+              "price": 3730,
               "first_seen": "2026-07-23"
             }
           ],
@@ -36141,7 +36158,7 @@
             {
               "kind": "full",
               "ml": 105,
-              "price": 3148,
+              "price": 3935,
               "first_seen": "2026-07-23"
             }
           ],
@@ -36321,7 +36338,7 @@
             {
               "kind": "full",
               "ml": 105,
-              "price": 2016,
+              "price": 2520,
               "first_seen": "2026-07-23",
               "sold_since": "2026-11-05"
             }
@@ -36849,31 +36866,31 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 4480,
-              "first_seen": "2026-11-12",
-              "sold_since": "2026-11-12"
-            },
-            {
-              "kind": "full",
-              "ml": 75,
-              "price": 5760,
-              "first_seen": "2026-07-23",
-              "prev_price": 7040,
-              "sold_since": "2026-11-16"
-            },
-            {
-              "kind": "full",
-              "ml": 110,
               "price": 5600,
               "first_seen": "2026-11-12",
               "sold_since": "2026-11-12"
             },
             {
               "kind": "full",
+              "ml": 75,
+              "price": 7200,
+              "first_seen": "2026-07-23",
+              "prev_price": 8800,
+              "sold_since": "2026-11-17"
+            },
+            {
+              "kind": "full",
+              "ml": 110,
+              "price": 7000,
+              "first_seen": "2026-11-12",
+              "sold_since": "2026-11-12"
+            },
+            {
+              "kind": "full",
               "ml": 125,
-              "price": 7040,
+              "price": 8800,
               "first_seen": "2026-11-11",
-              "prev_price": 7840,
+              "prev_price": 9800,
               "sold_since": "2026-11-11"
             }
           ],
@@ -37918,7 +37935,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 768,
+              "price": 960,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -37946,7 +37963,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1160,
+              "price": 1450,
               "first_seen": "2026-07-23"
             }
           ],
@@ -38479,7 +38496,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 4436,
+              "price": 5545,
               "first_seen": "2026-07-23"
             }
           ],
@@ -38766,7 +38783,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1160,
+              "price": 1450,
               "first_seen": "2026-07-23"
             }
           ],
@@ -39318,7 +39335,7 @@
               "ml": 100,
               "price": 33900,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/creed--mazaya.jpg",
@@ -39674,7 +39691,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3480,
+              "price": 4350,
               "first_seen": "2026-07-23"
             }
           ],
@@ -40201,7 +40218,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5192,
+              "price": 6490,
               "first_seen": "2026-07-23",
               "sold_since": "2026-08-09"
             }
@@ -40459,7 +40476,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 4400,
+              "price": 5500,
               "first_seen": "2026-07-23"
             }
           ],
@@ -41290,7 +41307,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 2320,
+              "price": 2900,
               "first_seen": "2026-10-12",
               "sold_since": "2026-10-12"
             }
@@ -41435,7 +41452,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 772,
+              "price": 965,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -42057,9 +42074,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2480,
+              "price": 3100,
               "first_seen": "2026-07-23",
-              "prev_price": 5760,
+              "prev_price": 7200,
               "sold_since": "2026-07-23"
             }
           ],
@@ -42127,7 +42144,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5760,
+              "price": 7200,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -42173,7 +42190,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7240,
+              "price": 9050,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -42275,17 +42292,17 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3880,
+              "price": 4850,
               "first_seen": "2026-07-23",
-              "prev_price": 4680,
-              "sold_since": "2026-11-16"
+              "prev_price": 5850,
+              "sold_since": "2026-11-17"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 5884,
+              "price": 7355,
               "first_seen": "2026-11-12",
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/defy-parfum--mazaya.jpg",
@@ -43311,13 +43328,13 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5840,
+              "price": 7300,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 8960,
+              "price": 11200,
               "first_seen": "2026-07-23"
             }
           ],
@@ -43364,7 +43381,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6560,
+              "price": 8200,
               "first_seen": "2026-07-23"
             }
           ],
@@ -44016,7 +44033,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 660,
+              "price": 825,
               "first_seen": "2026-07-23",
               "sold_since": "2026-11-02"
             }
@@ -44044,7 +44061,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 660,
+              "price": 825,
               "first_seen": "2026-07-23"
             }
           ],
@@ -44099,7 +44116,7 @@
             {
               "kind": "full",
               "ml": 2,
-              "price": 2040,
+              "price": 2550,
               "first_seen": "2026-07-23",
               "sold_since": "2026-09-17"
             }
@@ -47009,7 +47026,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4360,
+              "price": 5450,
               "first_seen": "2026-07-23"
             }
           ],
@@ -47486,7 +47503,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5360,
+              "price": 6700,
               "first_seen": "2026-07-23",
               "sold_since": "2026-11-02"
             }
@@ -47797,7 +47814,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1320,
+              "price": 1650,
               "first_seen": "2026-10-11"
             }
           ],
@@ -48264,7 +48281,7 @@
             {
               "kind": "full",
               "ml": 120,
-              "price": 4280,
+              "price": 5350,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -49076,7 +49093,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1452,
+              "price": 1815,
               "first_seen": "2026-10-11"
             }
           ],
@@ -49202,8 +49219,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1815,
-              "first_seen": "2026-09-02"
+              "price": 1452,
+              "first_seen": "2026-09-02",
+              "prev_price": 1815
             }
           ],
           "image": "images/eclaire-pistache--mazaya.jpg",
@@ -49506,7 +49524,7 @@
               "ml": 75,
               "price": 20000,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/edp-palais-bourbon--mazaya.jpg",
@@ -49615,7 +49633,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 3440,
+              "price": 4300,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -49860,8 +49878,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1095,
+              "price": 821,
               "first_seen": "2026-07-23",
+              "prev_price": 1095,
               "sold_since": "2026-07-23"
             }
           ],
@@ -52125,7 +52144,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4960,
+              "price": 6200,
               "first_seen": "2026-07-23",
               "sold_since": "2026-10-25"
             }
@@ -52470,7 +52489,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 2880,
+              "price": 3600,
               "first_seen": "2026-10-12",
               "sold_since": "2026-10-12"
             }
@@ -52554,7 +52573,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1160,
+              "price": 1450,
               "first_seen": "2026-07-23"
             }
           ],
@@ -53411,7 +53430,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5920,
+              "price": 7400,
               "first_seen": "2026-07-23",
               "sold_since": "2026-09-27"
             }
@@ -53624,21 +53643,21 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4080,
+              "price": 5100,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 5360,
+              "price": 6700,
               "first_seen": "2026-07-23",
               "sold_since": "2026-09-25"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 7040,
+              "price": 8800,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -53859,21 +53878,21 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4560,
+              "price": 5700,
               "first_seen": "2026-11-12",
               "sold_since": "2026-11-12"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 5920,
+              "price": 7400,
               "first_seen": "2026-11-14",
               "sold_since": "2026-11-14"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 7840,
+              "price": 9800,
               "first_seen": "2026-11-12",
               "sold_since": "2026-11-12"
             }
@@ -54021,13 +54040,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7360,
+              "price": 9200,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 9520,
+              "price": 11900,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -54643,7 +54662,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5168,
+              "price": 6460,
               "first_seen": "2026-07-23",
               "sold_since": "2026-10-10"
             }
@@ -54990,8 +55009,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2415,
-              "first_seen": "2026-09-24"
+              "price": 2053,
+              "first_seen": "2026-09-24",
+              "prev_price": 2415
             }
           ],
           "image": "images/eternal-vanille--mazaya.jpg",
@@ -55043,7 +55063,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4280,
+              "price": 5350,
               "first_seen": "2026-07-23"
             }
           ],
@@ -55104,7 +55124,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3240,
+              "price": 4050,
               "first_seen": "2026-07-23"
             }
           ],
@@ -55303,7 +55323,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3008,
+              "price": 3950,
               "first_seen": "2026-07-23"
             }
           ],
@@ -55459,7 +55479,7 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 1920,
+              "price": 2400,
               "first_seen": "2026-07-23"
             }
           ],
@@ -55486,7 +55506,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 184,
+              "price": 230,
               "first_seen": "2026-07-23",
               "sold_since": "2026-10-26"
             }
@@ -55514,7 +55534,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 772,
+              "price": 965,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -56706,7 +56726,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 912,
+              "price": 1140,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -57361,8 +57381,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1540,
-              "first_seen": "2026-07-23"
+              "price": 1232,
+              "first_seen": "2026-07-23",
+              "prev_price": 1540
             }
           ],
           "image": "images/fakhar-black--mazaya.jpg",
@@ -57526,8 +57547,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1540,
+              "price": 1232,
               "first_seen": "2026-07-23",
+              "prev_price": 1540,
               "sold_since": "2026-07-23"
             }
           ],
@@ -57701,7 +57723,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1232,
+              "price": 1540,
               "first_seen": "2026-10-11"
             }
           ],
@@ -58887,7 +58909,7 @@
             {
               "kind": "full",
               "ml": 110,
-              "price": 1628,
+              "price": 2035,
               "first_seen": "2026-10-11"
             }
           ],
@@ -59813,7 +59835,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4200,
+              "price": 5250,
               "first_seen": "2026-07-23"
             }
           ],
@@ -60629,7 +60651,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2560,
+              "price": 3200,
               "first_seen": "2026-10-15",
               "sold_since": "2026-11-04"
             }
@@ -60839,7 +60861,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2720,
+              "price": 3400,
               "first_seen": "2026-10-15",
               "sold_since": "2026-11-11"
             }
@@ -61932,7 +61954,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1160,
+              "price": 1450,
               "first_seen": "2026-07-23"
             }
           ],
@@ -62150,7 +62172,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 3040,
+              "price": 3800,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -62236,7 +62258,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5200,
+              "price": 6500,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -62373,13 +62395,13 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 5200,
+              "price": 6500,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 125,
-              "price": 6240,
+              "price": 7800,
               "first_seen": "2026-07-23"
             }
           ],
@@ -62406,7 +62428,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3480,
+              "price": 4350,
               "first_seen": "2026-07-23",
               "sold_since": "2026-10-03"
             }
@@ -62642,7 +62664,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8400,
+              "price": 10500,
               "first_seen": "2026-07-23"
             }
           ],
@@ -63126,7 +63148,7 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 4764,
+              "price": 5955,
               "first_seen": "2026-07-23",
               "sold_since": "2026-11-16"
             }
@@ -63278,7 +63300,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 9660,
+              "price": 12075,
               "first_seen": "2026-07-23",
               "sold_since": "2026-11-12"
             }
@@ -63357,7 +63379,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5292,
+              "price": 6615,
               "first_seen": "2026-07-23"
             }
           ],
@@ -63387,7 +63409,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6352,
+              "price": 7940,
               "first_seen": "2026-07-23"
             }
           ],
@@ -63616,21 +63638,14 @@
           "offers": [
             {
               "kind": "full",
-              "ml": 60,
-              "price": 4764,
-              "first_seen": "2026-10-15",
-              "sold_since": "2026-11-10"
-            },
-            {
-              "kind": "full",
               "ml": 100,
-              "price": 6352,
+              "price": 7940,
               "first_seen": "2026-07-23",
               "sold_since": "2026-11-16"
             }
           ],
           "image": "images/gentleman-r-serve-priv-e--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/gentleman-reserve-privee-eau-de-parfum-60-ml"
+          "product_url": "https://mazaya.eg/en/gentleman-reserve-privee-edp-100ml"
         },
         {
           "name": "feel22",
@@ -63727,13 +63742,13 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 5292,
+              "price": 6615,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 7100,
+              "price": 8875,
               "first_seen": "2026-07-23"
             }
           ],
@@ -63925,13 +63940,13 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 4764,
+              "price": 5955,
               "first_seen": "2026-10-13"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 6352,
+              "price": 7940,
               "first_seen": "2026-10-13"
             }
           ],
@@ -63958,14 +63973,14 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6828,
+              "price": 8535,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 10140,
+              "price": 12675,
               "first_seen": "2026-11-12",
               "sold_since": "2026-11-12"
             }
@@ -64040,13 +64055,13 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 5028,
+              "price": 6285,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 6748,
+              "price": 8435,
               "first_seen": "2026-07-23"
             }
           ],
@@ -64221,7 +64236,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 3800,
+              "price": 4750,
               "first_seen": "2026-07-23",
               "sold_since": "2026-10-18"
             }
@@ -64399,13 +64414,13 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 6240,
+              "price": 7800,
               "first_seen": "2026-08-02"
             },
             {
               "kind": "full",
               "ml": 125,
-              "price": 7200,
+              "price": 9000,
               "first_seen": "2026-08-02",
               "sold_since": "2026-09-12"
             }
@@ -64474,7 +64489,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5200,
+              "price": 6500,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -64592,7 +64607,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5556,
+              "price": 6945,
               "first_seen": "2026-07-26",
               "sold_since": "2026-07-26"
             }
@@ -65287,7 +65302,7 @@
               "ml": 100,
               "price": 25500,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/gold-immortals--mazaya.jpg",
@@ -65817,7 +65832,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1308,
+              "price": 1635,
               "first_seen": "2026-07-23"
             }
           ],
@@ -66159,7 +66174,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3520,
+              "price": 4400,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -66865,7 +66880,7 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 6240,
+              "price": 7800,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -66984,7 +66999,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4480,
+              "price": 5600,
               "first_seen": "2026-10-14",
               "sold_since": "2026-10-14"
             }
@@ -67080,7 +67095,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2840,
+              "price": 3550,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -67126,7 +67141,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2760,
+              "price": 3450,
               "first_seen": "2026-07-23"
             }
           ],
@@ -67527,7 +67542,7 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 6000,
+              "price": 7500,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -68615,7 +68630,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 3880,
+              "price": 4850,
               "first_seen": "2026-07-23"
             }
           ],
@@ -68642,7 +68657,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 3880,
+              "price": 4850,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -71561,8 +71576,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1095,
+              "price": 931,
               "first_seen": "2026-07-23",
+              "prev_price": 1095,
               "sold_since": "2026-07-23"
             }
           ],
@@ -71612,8 +71628,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1095,
+              "price": 931,
               "first_seen": "2026-07-23",
+              "prev_price": 1095,
               "sold_since": "2026-07-23"
             }
           ],
@@ -72523,14 +72540,15 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7440,
+              "price": 9300,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 150,
-              "price": 8960,
-              "first_seen": "2026-07-23"
+              "price": 11200,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/hero-eau-de-parfum--mazaya.jpg",
@@ -72608,7 +72626,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6360,
+              "price": 7950,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -72680,7 +72698,7 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 7548,
+              "price": 9435,
               "first_seen": "2026-07-23"
             }
           ],
@@ -73811,8 +73829,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2420,
+              "price": 2057,
               "first_seen": "2026-07-23",
+              "prev_price": 2420,
               "sold_since": "2026-11-10"
             }
           ],
@@ -74077,7 +74096,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 4720,
+              "price": 5900,
               "first_seen": "2026-07-23"
             }
           ],
@@ -75000,7 +75019,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 2456,
+              "price": 3070,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -75071,7 +75090,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1492,
+              "price": 1865,
               "first_seen": "2026-07-23"
             }
           ],
@@ -75314,7 +75333,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5360,
+              "price": 6700,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -75357,14 +75376,14 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 3680,
+              "price": 4600,
               "first_seen": "2026-11-13",
               "sold_since": "2026-11-13"
             },
             {
               "kind": "full",
               "ml": 125,
-              "price": 5040,
+              "price": 6300,
               "first_seen": "2026-11-11",
               "sold_since": "2026-11-11"
             }
@@ -75426,7 +75445,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 3200,
+              "price": 4000,
               "first_seen": "2026-07-23",
               "sold_since": "2026-11-06"
             }
@@ -76110,7 +76129,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4044,
+              "price": 5055,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -76156,7 +76175,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4044,
+              "price": 5055,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -76443,7 +76462,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3800,
+              "price": 4750,
               "first_seen": "2026-07-23",
               "sold_since": "2026-11-16"
             }
@@ -77296,7 +77315,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 11520,
+              "price": 14400,
               "first_seen": "2026-07-23"
             }
           ],
@@ -78508,14 +78527,14 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4280,
+              "price": 5350,
               "first_seen": "2026-07-23",
               "sold_since": "2026-11-15"
             },
             {
               "kind": "full",
               "ml": 120,
-              "price": 3384,
+              "price": 4230,
               "first_seen": "2026-11-12",
               "sold_since": "2026-11-12"
             }
@@ -78607,7 +78626,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 832,
+              "price": 1040,
               "first_seen": "2026-07-23",
               "sold_since": "2026-11-04"
             }
@@ -78791,7 +78810,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 832,
+              "price": 1040,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -78835,7 +78854,7 @@
               "ml": 100,
               "price": 35500,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/interlude-53-man--mazaya.jpg",
@@ -79085,7 +79104,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 5760,
+              "price": 7200,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -79151,16 +79170,16 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5280,
+              "price": 6600,
               "first_seen": "2026-11-12",
               "sold_since": "2026-11-12"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 6880,
+              "price": 8600,
               "first_seen": "2026-08-19",
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/invictus-elixir--mazaya.jpg",
@@ -79284,14 +79303,14 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4560,
+              "price": 5700,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 6160,
+              "price": 7700,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -79369,7 +79388,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7120,
+              "price": 8900,
               "first_seen": "2026-07-23"
             }
           ],
@@ -79446,7 +79465,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6320,
+              "price": 7900,
               "first_seen": "2026-07-23"
             }
           ],
@@ -79487,7 +79506,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6880,
+              "price": 8600,
               "first_seen": "2026-07-23"
             }
           ],
@@ -80836,7 +80855,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 6160,
+              "price": 7700,
               "first_seen": "2026-07-23"
             }
           ],
@@ -83279,7 +83298,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6720,
+              "price": 8400,
               "first_seen": "2026-07-23"
             }
           ],
@@ -84099,14 +84118,14 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 3360,
+              "price": 4200,
               "first_seen": "2026-11-15",
               "sold_since": "2026-11-15"
             },
             {
               "kind": "full",
               "ml": 125,
-              "price": 3840,
+              "price": 4800,
               "first_seen": "2026-11-15",
               "sold_since": "2026-11-15"
             }
@@ -84186,14 +84205,14 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4560,
+              "price": 5700,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 7360,
+              "price": 9200,
               "first_seen": "2026-07-23"
             }
           ],
@@ -84272,14 +84291,14 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4400,
+              "price": 5500,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 7120,
+              "price": 8900,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -86520,8 +86539,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2145,
-              "first_seen": "2026-07-23"
+              "price": 1716,
+              "first_seen": "2026-07-23",
+              "prev_price": 2145
             }
           ],
           "image": "images/khamrah--mazaya.jpg",
@@ -86712,8 +86732,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2145,
-              "first_seen": "2026-07-23"
+              "price": 1716,
+              "first_seen": "2026-07-23",
+              "prev_price": 2145
             }
           ],
           "image": "images/khamrah-dukhan--mazaya.jpg",
@@ -86967,8 +86988,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2145,
-              "first_seen": "2026-07-23"
+              "price": 1716,
+              "first_seen": "2026-07-23",
+              "prev_price": 2145
             }
           ],
           "image": "images/khamrah-qahwa--mazaya.jpg",
@@ -87237,7 +87259,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1716,
+              "price": 2145,
               "first_seen": "2026-10-11"
             }
           ],
@@ -88496,7 +88518,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 596,
+              "price": 745,
               "first_seen": "2026-07-23",
               "sold_since": "2026-09-10"
             }
@@ -89312,7 +89334,7 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 1500,
+              "price": 1875,
               "first_seen": "2026-07-23"
             }
           ],
@@ -89711,7 +89733,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 6800,
+              "price": 8500,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -90207,7 +90229,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3360,
+              "price": 4200,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -90235,7 +90257,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6240,
+              "price": 7800,
               "first_seen": "2026-07-23"
             }
           ],
@@ -91093,14 +91115,14 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 5200,
+              "price": 6500,
               "first_seen": "2026-07-23",
               "sold_since": "2026-08-09"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 6160,
+              "price": 7700,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -91168,7 +91190,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7360,
+              "price": 9200,
               "first_seen": "2026-07-23"
             }
           ],
@@ -91455,14 +91477,14 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 6484,
+              "price": 8105,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 80,
-              "price": 8248,
+              "price": 10310,
               "first_seen": "2026-07-23"
             }
           ],
@@ -92422,7 +92444,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6640,
+              "price": 8300,
               "first_seen": "2026-09-29",
               "sold_since": "2026-11-16"
             }
@@ -92454,14 +92476,14 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 4400,
+              "price": 5500,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 6160,
+              "price": 7700,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -94782,7 +94804,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 704,
+              "price": 880,
               "first_seen": "2026-07-23"
             }
           ],
@@ -94982,7 +95004,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 772,
+              "price": 965,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -95010,8 +95032,9 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 3295,
-              "first_seen": "2026-07-23"
+              "price": 2471,
+              "first_seen": "2026-07-23",
+              "prev_price": 3295
             }
           ],
           "image": "images/lattafa-pride-spray-ajwaa--mazaya.jpg",
@@ -95037,8 +95060,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2180,
+              "price": 1635,
               "first_seen": "2026-07-23",
+              "prev_price": 2180,
               "sold_since": "2026-07-23"
             }
           ],
@@ -95065,8 +95089,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2180,
+              "price": 1853,
               "first_seen": "2026-07-23",
+              "prev_price": 2180,
               "sold_since": "2026-07-23"
             }
           ],
@@ -95093,8 +95118,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3295,
+              "price": 2471,
               "first_seen": "2026-07-23",
+              "prev_price": 3295,
               "sold_since": "2026-07-23"
             }
           ],
@@ -95121,8 +95147,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2180,
+              "price": 1853,
               "first_seen": "2026-07-23",
+              "prev_price": 2180,
               "sold_since": "2026-07-23"
             }
           ],
@@ -95149,8 +95176,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3295,
+              "price": 2801,
               "first_seen": "2026-07-23",
+              "prev_price": 3295,
               "sold_since": "2026-07-23"
             }
           ],
@@ -95177,8 +95205,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2180,
+              "price": 1853,
               "first_seen": "2026-07-23",
+              "prev_price": 2180,
               "sold_since": "2026-07-23"
             }
           ],
@@ -95205,8 +95234,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2180,
+              "price": 1853,
               "first_seen": "2026-07-23",
+              "prev_price": 2180,
               "sold_since": "2026-11-01"
             }
           ],
@@ -95233,8 +95263,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3295,
-              "first_seen": "2026-07-23"
+              "price": 2801,
+              "first_seen": "2026-07-23",
+              "prev_price": 3295
             }
           ],
           "image": "images/lattafa-pride-spray-la-collection-d-antiquites-1505-watch--mazaya.jpg",
@@ -95260,8 +95291,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3295,
+              "price": 2801,
               "first_seen": "2026-07-23",
+              "prev_price": 3295,
               "sold_since": "2026-07-23"
             }
           ],
@@ -95288,8 +95320,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2180,
+              "price": 1853,
               "first_seen": "2026-07-23",
+              "prev_price": 2180,
               "sold_since": "2026-07-23"
             }
           ],
@@ -95316,8 +95349,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2195,
+              "price": 1756,
               "first_seen": "2026-07-23",
+              "prev_price": 2195,
               "sold_since": "2026-11-11"
             }
           ],
@@ -95344,8 +95378,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1975,
+              "price": 1679,
               "first_seen": "2026-07-23",
+              "prev_price": 1975,
               "sold_since": "2026-07-23"
             }
           ],
@@ -95372,8 +95407,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2145,
+              "price": 1823,
               "first_seen": "2026-07-23",
+              "prev_price": 2145,
               "sold_since": "2026-07-23"
             }
           ],
@@ -95400,8 +95436,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2180,
+              "price": 1635,
               "first_seen": "2026-07-23",
+              "prev_price": 2180,
               "sold_since": "2026-07-23"
             }
           ],
@@ -95428,8 +95465,9 @@
             {
               "kind": "full",
               "ml": 80,
-              "price": 2725,
+              "price": 2316,
               "first_seen": "2026-07-23",
+              "prev_price": 2725,
               "sold_since": "2026-07-23"
             }
           ],
@@ -95456,8 +95494,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2180,
+              "price": 1853,
               "first_seen": "2026-07-23",
+              "prev_price": 2180,
               "sold_since": "2026-10-23"
             }
           ],
@@ -95834,7 +95873,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 7120,
+              "price": 8900,
               "first_seen": "2026-07-23"
             }
           ],
@@ -96005,7 +96044,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 5440,
+              "price": 6800,
               "first_seen": "2026-10-30",
               "sold_since": "2026-10-30"
             }
@@ -96252,7 +96291,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 6800,
+              "price": 8500,
               "first_seen": "2026-10-30"
             }
           ],
@@ -96452,7 +96491,7 @@
               "ml": 60,
               "price": 28000,
               "first_seen": "2026-10-19",
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             },
             {
               "kind": "full",
@@ -96712,7 +96751,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 7360,
+              "price": 9200,
               "first_seen": "2026-07-23",
               "sold_since": "2026-10-19"
             }
@@ -96992,7 +97031,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 7840,
+              "price": 9800,
               "first_seen": "2026-07-23",
               "sold_since": "2026-11-14"
             }
@@ -97257,7 +97296,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 6160,
+              "price": 7700,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -97363,7 +97402,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 4960,
+              "price": 6200,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -97546,7 +97585,7 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 8000,
+              "price": 10000,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -97905,7 +97944,7 @@
             {
               "kind": "full",
               "ml": 80,
-              "price": 7200,
+              "price": 9000,
               "first_seen": "2026-07-23"
             }
           ],
@@ -97932,7 +97971,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 5200,
+              "price": 6500,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -98164,7 +98203,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 872,
+              "price": 1090,
               "first_seen": "2026-07-23"
             }
           ],
@@ -98520,7 +98559,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3280,
+              "price": 4100,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -100064,7 +100103,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 11520,
+              "price": 14400,
               "first_seen": "2026-07-23",
               "sold_since": "2026-11-16"
             }
@@ -100177,7 +100216,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 668,
+              "price": 835,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -100205,7 +100244,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 676,
+              "price": 845,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -100233,7 +100272,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 676,
+              "price": 845,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -101003,7 +101042,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6560,
+              "price": 8200,
               "first_seen": "2026-07-23"
             }
           ],
@@ -101048,7 +101087,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5360,
+              "price": 6700,
               "first_seen": "2026-07-23",
               "sold_since": "2026-10-08"
             }
@@ -101120,13 +101159,13 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5440,
+              "price": 6800,
               "first_seen": "2026-10-14"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 6560,
+              "price": 8200,
               "first_seen": "2026-07-23"
             }
           ],
@@ -101191,7 +101230,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4200,
+              "price": 5250,
               "first_seen": "2026-07-23"
             }
           ],
@@ -101318,7 +101357,7 @@
               "ml": 100,
               "price": 27900,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/lust-in-paradise--mazaya.jpg",
@@ -101775,8 +101814,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2145,
-              "first_seen": "2026-07-23"
+              "price": 1609,
+              "first_seen": "2026-07-23",
+              "prev_price": 2145
             }
           ],
           "image": "images/maahir--mazaya.jpg",
@@ -101962,7 +102002,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1716,
+              "price": 2145,
               "first_seen": "2026-10-11"
             }
           ],
@@ -102085,8 +102125,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2145,
-              "first_seen": "2026-07-23"
+              "price": 1609,
+              "first_seen": "2026-07-23",
+              "prev_price": 2145
             }
           ],
           "image": "images/maahir-legacy--mazaya.jpg",
@@ -102207,7 +102248,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 2520,
+              "price": 3150,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -102705,7 +102746,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 852,
+              "price": 1065,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -102733,7 +102774,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 852,
+              "price": 1065,
               "first_seen": "2026-07-23"
             }
           ],
@@ -103018,7 +103059,7 @@
             {
               "kind": "full",
               "ml": 80,
-              "price": 7200,
+              "price": 9000,
               "first_seen": "2026-07-23"
             }
           ],
@@ -103045,7 +103086,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 772,
+              "price": 965,
               "first_seen": "2026-07-23",
               "sold_since": "2026-11-15"
             }
@@ -103218,7 +103259,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3540,
+              "price": 4425,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -103261,7 +103302,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 5440,
+              "price": 6800,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -103467,14 +103508,14 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 2480,
+              "price": 3100,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 3520,
+              "price": 4400,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -103576,7 +103617,7 @@
               "ml": 60,
               "price": 9450,
               "first_seen": "2026-10-19",
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             },
             {
               "kind": "full",
@@ -103589,7 +103630,7 @@
               "ml": 150,
               "price": 15100,
               "first_seen": "2026-10-19",
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/man-in-black-le-parfum--mazaya.jpg",
@@ -103712,7 +103753,7 @@
               "ml": 100,
               "price": 10900,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/man-rain-essence-edp--mazaya.jpg",
@@ -103886,7 +103927,7 @@
               "ml": 60,
               "price": 9450,
               "first_seen": "2026-10-19",
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             },
             {
               "kind": "full",
@@ -103894,7 +103935,7 @@
               "price": 10900,
               "first_seen": "2026-07-23",
               "prev_price": 11100,
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             },
             {
               "kind": "full",
@@ -103902,7 +103943,7 @@
               "price": 13000,
               "first_seen": "2026-07-23",
               "prev_price": 15100,
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/man-wood-essence--mazaya.jpg",
@@ -104972,7 +105013,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4320,
+              "price": 5400,
               "first_seen": "2026-07-23"
             }
           ],
@@ -104999,7 +105040,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4320,
+              "price": 5400,
               "first_seen": "2026-07-23",
               "sold_since": "2026-11-11"
             }
@@ -106021,8 +106062,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1595,
+              "price": 1356,
               "first_seen": "2026-09-02",
+              "prev_price": 1595,
               "sold_since": "2026-09-02"
             }
           ],
@@ -106850,7 +106892,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6960,
+              "price": 8700,
               "first_seen": "2026-07-23",
               "sold_since": "2026-08-28"
             }
@@ -106980,7 +107022,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7440,
+              "price": 9300,
               "first_seen": "2026-08-19"
             }
           ],
@@ -107007,7 +107049,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4680,
+              "price": 5850,
               "first_seen": "2026-07-23",
               "sold_since": "2026-10-26"
             }
@@ -107035,7 +107077,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4080,
+              "price": 5100,
               "first_seen": "2026-07-23",
               "sold_since": "2026-10-02"
             }
@@ -107163,7 +107205,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 12480,
+              "price": 15600,
               "first_seen": "2026-07-23",
               "sold_since": "2026-11-16"
             }
@@ -107383,7 +107425,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8640,
+              "price": 10800,
               "first_seen": "2026-07-23"
             }
           ],
@@ -107410,7 +107452,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8640,
+              "price": 10800,
               "first_seen": "2026-07-23"
             }
           ],
@@ -107437,7 +107479,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8640,
+              "price": 10800,
               "first_seen": "2026-07-23"
             }
           ],
@@ -107464,7 +107506,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8640,
+              "price": 10800,
               "first_seen": "2026-07-23"
             }
           ],
@@ -107491,7 +107533,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8640,
+              "price": 10800,
               "first_seen": "2026-07-23"
             }
           ],
@@ -107518,7 +107560,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4200,
+              "price": 5250,
               "first_seen": "2026-07-23"
             }
           ],
@@ -108084,14 +108126,14 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4480,
+              "price": 5600,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 6080,
+              "price": 7600,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -108186,14 +108228,14 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5280,
+              "price": 6600,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 7040,
+              "price": 8800,
               "first_seen": "2026-07-23"
             }
           ],
@@ -109349,7 +109391,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 220,
+              "price": 275,
               "first_seen": "2026-07-23",
               "sold_since": "2026-10-26"
             }
@@ -110293,7 +110335,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3360,
+              "price": 4200,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -110356,7 +110398,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3280,
+              "price": 4100,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -110384,7 +110426,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6120,
+              "price": 7650,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -110814,7 +110856,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5120,
+              "price": 6400,
               "first_seen": "2026-10-31",
               "sold_since": "2026-10-31"
             }
@@ -111332,7 +111374,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 772,
+              "price": 965,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -111650,8 +111692,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2915,
-              "first_seen": "2026-07-23"
+              "price": 2186,
+              "first_seen": "2026-07-23",
+              "prev_price": 2915
             }
           ],
           "image": "images/musamam-black-intense--mazaya.jpg",
@@ -111788,8 +111831,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2915,
-              "first_seen": "2026-07-23"
+              "price": 2186,
+              "first_seen": "2026-07-23",
+              "prev_price": 2915
             }
           ],
           "image": "images/musamam-white-intense-edp--mazaya.jpg",
@@ -112591,8 +112635,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1265,
+              "price": 1012,
               "first_seen": "2026-07-23",
+              "prev_price": 1265,
               "sold_since": "2026-07-23"
             }
           ],
@@ -112808,7 +112853,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5572,
+              "price": 6965,
               "first_seen": "2026-07-23"
             }
           ],
@@ -112835,7 +112880,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5572,
+              "price": 6965,
               "first_seen": "2026-07-23"
             }
           ],
@@ -112997,7 +113042,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1116,
+              "price": 1395,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -113261,13 +113306,13 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 5920,
+              "price": 7400,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 6800,
+              "price": 8500,
               "first_seen": "2026-07-23",
               "sold_since": "2026-11-11"
             }
@@ -113346,14 +113391,14 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 5200,
+              "price": 6500,
               "first_seen": "2026-08-20",
               "sold_since": "2026-08-20"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 6160,
+              "price": 7700,
               "first_seen": "2026-08-20"
             }
           ],
@@ -113523,13 +113568,13 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 6560,
+              "price": 8200,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 7760,
+              "price": 9700,
               "first_seen": "2026-07-23"
             }
           ],
@@ -113607,14 +113652,14 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 6400,
+              "price": 8000,
               "first_seen": "2026-07-23",
               "sold_since": "2026-11-05"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 7520,
+              "price": 9400,
               "first_seen": "2026-07-23"
             }
           ],
@@ -113696,7 +113741,7 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 6800,
+              "price": 8500,
               "first_seen": "2026-07-23"
             }
           ],
@@ -115441,7 +115486,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2548,
+              "price": 3185,
               "first_seen": "2026-07-23"
             }
           ],
@@ -115715,7 +115760,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1756,
+              "price": 2195,
               "first_seen": "2026-10-11"
             }
           ],
@@ -116076,7 +116121,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 824,
+              "price": 1030,
               "first_seen": "2026-07-23"
             }
           ],
@@ -116353,7 +116398,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 660,
+              "price": 825,
               "first_seen": "2026-07-23"
             }
           ],
@@ -116380,7 +116425,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 660,
+              "price": 825,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -116436,8 +116481,9 @@
             {
               "kind": "full",
               "ml": 80,
-              "price": 3295,
-              "first_seen": "2026-07-23"
+              "price": 2801,
+              "first_seen": "2026-07-23",
+              "prev_price": 3295
             }
           ],
           "image": "images/niche-emarati-spray-khalid--mazaya.jpg",
@@ -116463,8 +116509,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3295,
+              "price": 2801,
               "first_seen": "2026-07-23",
+              "prev_price": 3295,
               "sold_since": "2026-07-23"
             }
           ],
@@ -116491,8 +116538,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3295,
+              "price": 2801,
               "first_seen": "2026-07-23",
+              "prev_price": 3295,
               "sold_since": "2026-07-23"
             }
           ],
@@ -116519,8 +116567,9 @@
             {
               "kind": "full",
               "ml": 80,
-              "price": 3295,
+              "price": 2801,
               "first_seen": "2026-07-23",
+              "prev_price": 3295,
               "sold_since": "2026-09-06"
             }
           ],
@@ -116547,8 +116596,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3295,
-              "first_seen": "2026-07-23"
+              "price": 2801,
+              "first_seen": "2026-07-23",
+              "prev_price": 3295
             }
           ],
           "image": "images/niche-emarati-spray-vintage-castle--mazaya.jpg",
@@ -117228,20 +117278,20 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 3440,
+              "price": 4300,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 4800,
+              "price": 6000,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 6640,
+              "price": 8300,
               "first_seen": "2026-07-23"
             }
           ],
@@ -118901,7 +118951,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2548,
+              "price": 3185,
               "first_seen": "2026-07-23",
               "sold_since": "2026-09-25"
             }
@@ -120884,7 +120934,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 872,
+              "price": 1090,
               "first_seen": "2026-07-23"
             }
           ],
@@ -120911,7 +120961,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6520,
+              "price": 8150,
               "first_seen": "2026-07-23"
             }
           ],
@@ -121057,7 +121107,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1532,
+              "price": 1915,
               "first_seen": "2026-08-18"
             }
           ],
@@ -121124,7 +121174,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1532,
+              "price": 1915,
               "first_seen": "2026-08-18"
             }
           ],
@@ -121650,7 +121700,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1532,
+              "price": 1915,
               "first_seen": "2026-08-18"
             }
           ],
@@ -121831,7 +121881,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1532,
+              "price": 1915,
               "first_seen": "2026-07-23"
             }
           ],
@@ -122683,7 +122733,7 @@
               "ml": 88,
               "price": 22200,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/oj-parfum--mazaya.jpg",
@@ -122962,7 +123012,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 2760,
+              "price": 3450,
               "first_seen": "2026-07-23"
             }
           ],
@@ -123148,7 +123198,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 3800,
+              "price": 4750,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -123356,13 +123406,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3140,
+              "price": 3925,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 3600,
+              "price": 4500,
               "first_seen": "2026-07-23",
               "sold_since": "2026-11-03"
             }
@@ -123989,7 +124039,7 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 2480,
+              "price": 3100,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -124019,7 +124069,7 @@
               "ml": 50,
               "price": 15100,
               "first_seen": "2026-11-05",
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             },
             {
               "kind": "full",
@@ -124548,7 +124598,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 876,
+              "price": 1095,
               "first_seen": "2026-10-11"
             }
           ],
@@ -124950,7 +125000,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1308,
+              "price": 1635,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -125130,7 +125180,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1160,
+              "price": 1450,
               "first_seen": "2026-07-23"
             }
           ],
@@ -125277,13 +125327,13 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 2600,
+              "price": 3250,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 3600,
+              "price": 4500,
               "first_seen": "2026-07-23"
             }
           ],
@@ -126234,7 +126284,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 704,
+              "price": 880,
               "first_seen": "2026-07-23",
               "sold_since": "2026-10-13"
             }
@@ -126262,7 +126312,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 704,
+              "price": 880,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -126996,8 +127046,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1265,
+              "price": 1012,
               "first_seen": "2026-07-23",
+              "prev_price": 1265,
               "sold_since": "2026-07-23"
             }
           ],
@@ -127057,8 +127108,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1265,
+              "price": 1012,
               "first_seen": "2026-07-23",
+              "prev_price": 1265,
               "sold_since": "2026-07-23"
             }
           ],
@@ -127118,8 +127170,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1265,
+              "price": 1012,
               "first_seen": "2026-07-23",
+              "prev_price": 1265,
               "sold_since": "2026-07-23"
             }
           ],
@@ -127709,7 +127762,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5572,
+              "price": 6965,
               "first_seen": "2026-07-23"
             }
           ],
@@ -128773,7 +128826,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6640,
+              "price": 8300,
               "first_seen": "2026-07-23"
             }
           ],
@@ -129182,21 +129235,21 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5200,
+              "price": 6500,
               "first_seen": "2026-11-14"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 7120,
+              "price": 8900,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 150,
-              "price": 6800,
+              "price": 8500,
               "first_seen": "2026-08-02",
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/paradigme--mazaya.jpg",
@@ -129276,14 +129329,14 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5920,
+              "price": 7400,
               "first_seen": "2026-08-07",
               "sold_since": "2026-08-18"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 7920,
+              "price": 9900,
               "first_seen": "2026-08-07"
             }
           ],
@@ -129502,7 +129555,7 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 8320,
+              "price": 10400,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -129730,7 +129783,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5760,
+              "price": 7200,
               "first_seen": "2026-07-23",
               "sold_since": "2026-10-31"
             }
@@ -129825,7 +129878,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5920,
+              "price": 7400,
               "first_seen": "2026-07-23"
             }
           ],
@@ -129947,7 +130000,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5920,
+              "price": 7400,
               "first_seen": "2026-07-23"
             }
           ],
@@ -129974,7 +130027,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7560,
+              "price": 9450,
               "first_seen": "2026-07-23"
             }
           ],
@@ -130015,7 +130068,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4920,
+              "price": 6150,
               "first_seen": "2026-11-13",
               "sold_since": "2026-11-13"
             },
@@ -130202,7 +130255,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5168,
+              "price": 6460,
               "first_seen": "2026-07-23"
             }
           ],
@@ -130348,7 +130401,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7468,
+              "price": 9335,
               "first_seen": "2026-07-23"
             }
           ],
@@ -131216,8 +131269,9 @@
             {
               "kind": "full",
               "ml": 250,
-              "price": 155,
+              "price": 132,
               "first_seen": "2026-07-23",
+              "prev_price": 155,
               "sold_since": "2026-07-23"
             }
           ],
@@ -131869,7 +131923,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5292,
+              "price": 6615,
               "first_seen": "2026-10-13",
               "sold_since": "2026-10-13"
             }
@@ -132812,7 +132866,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3680,
+              "price": 4600,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-29"
             }
@@ -132979,7 +133033,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3480,
+              "price": 4350,
               "first_seen": "2026-07-23"
             }
           ],
@@ -133156,7 +133210,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1160,
+              "price": 1450,
               "first_seen": "2026-07-23"
             }
           ],
@@ -133183,7 +133237,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1160,
+              "price": 1450,
               "first_seen": "2026-07-23"
             }
           ],
@@ -133210,7 +133264,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1160,
+              "price": 1450,
               "first_seen": "2026-07-23"
             }
           ],
@@ -133237,8 +133291,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1160,
-              "first_seen": "2026-07-23"
+              "price": 1450,
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/police-gentleman-eau-de-toilette--mazaya.jpg",
@@ -133264,7 +133319,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1160,
+              "price": 1450,
               "first_seen": "2026-07-23"
             }
           ],
@@ -133663,14 +133718,14 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4560,
+              "price": 5700,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 5840,
+              "price": 7300,
               "first_seen": "2026-07-23"
             }
           ],
@@ -133932,21 +133987,21 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4080,
+              "price": 5100,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 5360,
+              "price": 6700,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 7040,
+              "price": 8800,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -134116,7 +134171,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5040,
+              "price": 6300,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -134144,14 +134199,14 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4240,
+              "price": 5300,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 5520,
+              "price": 6900,
               "first_seen": "2026-07-23",
               "sold_since": "2026-11-03"
             }
@@ -134181,7 +134236,7 @@
               "ml": 50,
               "price": 7400,
               "first_seen": "2026-10-19",
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             },
             {
               "kind": "full",
@@ -134530,7 +134585,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 4320,
+              "price": 5400,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -137546,7 +137601,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2548,
+              "price": 3185,
               "first_seen": "2026-07-23"
             }
           ],
@@ -137745,8 +137800,9 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 985,
+              "price": 837,
               "first_seen": "2026-07-23",
+              "prev_price": 985,
               "sold_since": "2026-07-23"
             }
           ],
@@ -137791,8 +137847,9 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 985,
+              "price": 837,
               "first_seen": "2026-09-02",
+              "prev_price": 985,
               "sold_since": "2026-10-31"
             }
           ],
@@ -137895,7 +137952,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 704,
+              "price": 880,
               "first_seen": "2026-07-23"
             }
           ],
@@ -139016,7 +139073,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 4752,
+              "price": 5940,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -139593,8 +139650,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1095,
+              "price": 931,
               "first_seen": "2026-07-23",
+              "prev_price": 1095,
               "sold_since": "2026-07-23"
             }
           ],
@@ -139961,7 +140019,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 660,
+              "price": 825,
               "first_seen": "2026-07-23",
               "sold_since": "2026-10-30"
             }
@@ -141110,7 +141168,7 @@
             {
               "kind": "full",
               "ml": 120,
-              "price": 13200,
+              "price": 16500,
               "first_seen": "2026-07-23"
             }
           ],
@@ -141780,7 +141838,7 @@
               "ml": 100,
               "price": 35500,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/reflection-45-man--mazaya.jpg",
@@ -142813,7 +142871,7 @@
             {
               "kind": "full",
               "ml": 85,
-              "price": 764,
+              "price": 955,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -142951,7 +143009,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2128,
+              "price": 2660,
               "first_seen": "2026-07-23"
             }
           ],
@@ -143031,7 +143089,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 772,
+              "price": 965,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -144409,7 +144467,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7708,
+              "price": 9635,
               "first_seen": "2026-07-23",
               "sold_since": "2026-08-09"
             }
@@ -144437,7 +144495,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5572,
+              "price": 6965,
               "first_seen": "2026-07-23"
             }
           ],
@@ -145533,7 +145591,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2548,
+              "price": 3185,
               "first_seen": "2026-07-23",
               "sold_since": "2026-10-22"
             }
@@ -145960,7 +146018,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4200,
+              "price": 5250,
               "first_seen": "2026-07-23"
             }
           ],
@@ -146133,7 +146191,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7708,
+              "price": 9635,
               "first_seen": "2026-07-23",
               "sold_since": "2026-08-09"
             }
@@ -146194,7 +146252,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4200,
+              "price": 5250,
               "first_seen": "2026-07-23"
             }
           ],
@@ -147602,13 +147660,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6400,
+              "price": 8000,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 150,
-              "price": 7440,
+              "price": 9300,
               "first_seen": "2026-11-14",
               "sold_since": "2026-11-14"
             }
@@ -147683,14 +147741,14 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5440,
+              "price": 6800,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 7360,
+              "price": 9200,
               "first_seen": "2026-07-23"
             }
           ],
@@ -148206,7 +148264,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 772,
+              "price": 965,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -148748,7 +148806,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2760,
+              "price": 3450,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -148793,7 +148851,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2760,
+              "price": 3450,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -148867,8 +148925,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2915,
+              "price": 2186,
               "first_seen": "2026-07-23",
+              "prev_price": 2915,
               "sold_since": "2026-07-23"
             }
           ],
@@ -148985,7 +149044,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4480,
+              "price": 5600,
               "first_seen": "2026-07-23"
             }
           ],
@@ -149088,7 +149147,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 644,
+              "price": 805,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -149447,7 +149506,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 1512,
+              "price": 1890,
               "first_seen": "2026-07-23"
             }
           ],
@@ -149488,7 +149547,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 184,
+              "price": 230,
               "first_seen": "2026-07-23",
               "sold_since": "2026-11-06"
             }
@@ -149516,7 +149575,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 1988,
+              "price": 2485,
               "first_seen": "2026-07-23",
               "sold_since": "2026-10-06"
             }
@@ -149744,7 +149803,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 2368,
+              "price": 2960,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -149775,7 +149834,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 3980,
+              "price": 4975,
               "first_seen": "2026-07-23"
             }
           ],
@@ -149956,7 +150015,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 3976,
+              "price": 4970,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -152393,7 +152452,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4280,
+              "price": 5350,
               "first_seen": "2026-07-23",
               "sold_since": "2026-08-03"
             }
@@ -152455,7 +152514,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4360,
+              "price": 5450,
               "first_seen": "2026-07-23"
             }
           ],
@@ -153470,7 +153529,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 184,
+              "price": 230,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -154911,7 +154970,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 748,
+              "price": 935,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -154939,7 +154998,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 748,
+              "price": 935,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -154967,7 +155026,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 748,
+              "price": 935,
               "first_seen": "2026-07-23"
             }
           ],
@@ -155272,7 +155331,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8560,
+              "price": 10700,
               "first_seen": "2026-07-23"
             }
           ],
@@ -155299,7 +155358,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8560,
+              "price": 10700,
               "first_seen": "2026-07-23"
             }
           ],
@@ -155326,7 +155385,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8560,
+              "price": 10700,
               "first_seen": "2026-07-23"
             }
           ],
@@ -155353,7 +155412,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8560,
+              "price": 10700,
               "first_seen": "2026-07-23"
             }
           ],
@@ -155380,7 +155439,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5200,
+              "price": 6500,
               "first_seen": "2026-07-23"
             }
           ],
@@ -155434,7 +155493,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5200,
+              "price": 6500,
               "first_seen": "2026-07-23"
             }
           ],
@@ -155461,7 +155520,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5200,
+              "price": 6500,
               "first_seen": "2026-07-23"
             }
           ],
@@ -155488,7 +155547,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5200,
+              "price": 6500,
               "first_seen": "2026-07-23"
             }
           ],
@@ -156919,7 +156978,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5168,
+              "price": 6460,
               "first_seen": "2026-07-23"
             }
           ],
@@ -156974,8 +157033,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1320,
+              "price": 1122,
               "first_seen": "2026-07-23",
+              "prev_price": 1320,
               "sold_since": "2026-07-23"
             }
           ],
@@ -157020,8 +157080,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1320,
+              "price": 1122,
               "first_seen": "2026-07-23",
+              "prev_price": 1320,
               "sold_since": "2026-07-23"
             }
           ],
@@ -157066,8 +157127,9 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 1645,
+              "price": 1316,
               "first_seen": "2026-07-23",
+              "prev_price": 1645,
               "sold_since": "2026-07-23"
             }
           ],
@@ -157126,8 +157188,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1925,
+              "price": 1444,
               "first_seen": "2026-07-23",
+              "prev_price": 1925,
               "sold_since": "2026-07-23"
             }
           ],
@@ -157172,8 +157235,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1870,
+              "price": 1590,
               "first_seen": "2026-07-23",
+              "prev_price": 1870,
               "sold_since": "2026-07-23"
             }
           ],
@@ -157200,8 +157264,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1925,
+              "price": 1636,
               "first_seen": "2026-07-23",
+              "prev_price": 1925,
               "sold_since": "2026-07-23"
             }
           ],
@@ -157228,8 +157293,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1095,
+              "price": 931,
               "first_seen": "2026-07-23",
+              "prev_price": 1095,
               "sold_since": "2026-07-23"
             }
           ],
@@ -157256,8 +157322,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 875,
+              "price": 744,
               "first_seen": "2026-07-23",
+              "prev_price": 875,
               "sold_since": "2026-07-23"
             }
           ],
@@ -157284,8 +157351,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1080,
+              "price": 918,
               "first_seen": "2026-07-23",
+              "prev_price": 1080,
               "sold_since": "2026-07-23"
             }
           ],
@@ -157312,8 +157380,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 985,
+              "price": 837,
               "first_seen": "2026-07-23",
+              "prev_price": 985,
               "sold_since": "2026-07-23"
             }
           ],
@@ -157340,8 +157409,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1815,
-              "first_seen": "2026-07-23"
+              "price": 1543,
+              "first_seen": "2026-07-23",
+              "prev_price": 1815
             }
           ],
           "image": "images/spray-sakeena--mazaya.jpg",
@@ -157367,8 +157437,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1095,
+              "price": 931,
               "first_seen": "2026-07-23",
+              "prev_price": 1095,
               "sold_since": "2026-07-23"
             }
           ],
@@ -157413,8 +157484,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1815,
-              "first_seen": "2026-07-23"
+              "price": 1452,
+              "first_seen": "2026-07-23",
+              "prev_price": 1815
             }
           ],
           "image": "images/spray-the-kingdom-man--mazaya.jpg",
@@ -158297,13 +158369,13 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4560,
+              "price": 5700,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 6000,
+              "price": 7500,
               "first_seen": "2026-07-23"
             }
           ],
@@ -158376,7 +158448,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6400,
+              "price": 8000,
               "first_seen": "2026-07-23"
             }
           ],
@@ -158584,23 +158656,23 @@
             {
               "kind": "full",
               "ml": 30,
-              "price": 2960,
+              "price": 3700,
               "first_seen": "2026-11-15",
               "sold_since": "2026-11-15"
             },
             {
               "kind": "full",
               "ml": 50,
-              "price": 4480,
+              "price": 5600,
               "first_seen": "2026-11-16",
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 5760,
+              "price": 7200,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/stronger-with-you-intensely--mazaya.jpg",
@@ -158765,13 +158837,13 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4880,
+              "price": 6100,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 6640,
+              "price": 8300,
               "first_seen": "2026-07-23"
             }
           ],
@@ -158906,14 +158978,14 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4480,
+              "price": 5600,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 5760,
+              "price": 7200,
               "first_seen": "2026-07-23"
             }
           ],
@@ -162281,8 +162353,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2365,
-              "first_seen": "2026-07-23"
+              "price": 1774,
+              "first_seen": "2026-07-23",
+              "prev_price": 2365
             }
           ],
           "image": "images/teriaq--mazaya.jpg",
@@ -162509,8 +162582,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2365,
+              "price": 1774,
               "first_seen": "2026-07-23",
+              "prev_price": 2365,
               "sold_since": "2026-07-23"
             }
           ],
@@ -163825,7 +163899,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 768,
+              "price": 960,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -164599,7 +164673,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3800,
+              "price": 4750,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -165050,7 +165124,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7920,
+              "price": 9900,
               "first_seen": "2026-09-02",
               "sold_since": "2026-11-03"
             }
@@ -165241,22 +165315,22 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 3920,
+              "price": 4900,
               "first_seen": "2026-11-15",
               "sold_since": "2026-11-15"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 4880,
+              "price": 6100,
               "first_seen": "2026-07-23",
-              "prev_price": 6000,
-              "sold_since": "2026-11-16"
+              "prev_price": 7500,
+              "sold_since": "2026-11-17"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 7920,
+              "price": 9900,
               "first_seen": "2026-11-15",
               "sold_since": "2026-11-15"
             }
@@ -165317,9 +165391,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5920,
+              "price": 7400,
               "first_seen": "2026-07-23",
-              "prev_price": 6800,
+              "prev_price": 8500,
               "sold_since": "2026-09-07"
             }
           ],
@@ -165346,14 +165420,14 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5200,
+              "price": 6500,
               "first_seen": "2026-10-14",
               "sold_since": "2026-10-14"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 6960,
+              "price": 8700,
               "first_seen": "2026-07-23"
             }
           ],
@@ -166083,7 +166157,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4200,
+              "price": 5250,
               "first_seen": "2026-07-23"
             }
           ],
@@ -166720,7 +166794,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 764,
+              "price": 955,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -168696,14 +168770,14 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 2800,
+              "price": 3500,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 3640,
+              "price": 4550,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -169722,7 +169796,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1800,
+              "price": 2250,
               "first_seen": "2026-10-15",
               "sold_since": "2026-10-29"
             }
@@ -170377,7 +170451,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5360,
+              "price": 6700,
               "first_seen": "2026-07-23",
               "sold_since": "2026-10-17"
             }
@@ -170557,15 +170631,15 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5360,
+              "price": 6700,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 6320,
+              "price": 7900,
               "first_seen": "2026-08-27",
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/uomo-born-in-roma-yellow-dream--mazaya.jpg",
@@ -170720,7 +170794,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3280,
+              "price": 4100,
               "first_seen": "2026-07-23"
             }
           ],
@@ -170956,17 +171030,15 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5600,
+              "price": 7000,
               "first_seen": "2026-11-07",
-              "prev_price": 5760,
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 6400,
+              "price": 8000,
               "first_seen": "2026-09-14",
-              "prev_price": 7040,
               "sold_since": "2026-11-16"
             }
           ],
@@ -171031,7 +171103,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3280,
+              "price": 4100,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -171986,7 +172058,7 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 1128,
+              "price": 1410,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -173568,7 +173640,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4200,
+              "price": 5250,
               "first_seen": "2026-07-23"
             }
           ],
@@ -174059,8 +174131,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1320,
+              "price": 1122,
               "first_seen": "2026-07-23",
+              "prev_price": 1320,
               "sold_since": "2026-10-10"
             }
           ],
@@ -174106,8 +174179,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1320,
+              "price": 1122,
               "first_seen": "2026-07-23",
+              "prev_price": 1320,
               "sold_since": "2026-07-23"
             }
           ],
@@ -175366,14 +175440,14 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 3360,
+              "price": 4200,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 5360,
+              "price": 6700,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -175666,8 +175740,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1815,
+              "price": 1543,
               "first_seen": "2026-07-23",
+              "prev_price": 1815,
               "sold_since": "2026-07-23"
             }
           ],
@@ -175822,7 +175897,7 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 4720,
+              "price": 5900,
               "first_seen": "2026-07-26",
               "sold_since": "2026-07-26"
             }
@@ -176139,7 +176214,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5420,
+              "price": 6775,
               "first_seen": "2026-07-23"
             }
           ],
@@ -176481,7 +176556,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 888,
+              "price": 1110,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -178586,7 +178661,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4360,
+              "price": 5450,
               "first_seen": "2026-07-23"
             }
           ],
@@ -179031,7 +179106,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7440,
+              "price": 9300,
               "first_seen": "2026-07-23"
             }
           ],
@@ -179862,7 +179937,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2320,
+              "price": 2900,
               "first_seen": "2026-10-15",
               "sold_since": "2026-10-25"
             }
@@ -179952,7 +180027,7 @@
             {
               "kind": "full",
               "ml": 115,
-              "price": 768,
+              "price": 960,
               "first_seen": "2026-07-23",
               "sold_since": "2026-11-01"
             }
@@ -180185,7 +180260,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 220,
+              "price": 275,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -180259,7 +180334,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 2468,
+              "price": 3085,
               "first_seen": "2026-07-23"
             }
           ],
@@ -180286,7 +180361,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4064,
+              "price": 5080,
               "first_seen": "2026-07-23"
             }
           ],
@@ -180658,7 +180733,7 @@
             {
               "kind": "full",
               "ml": 80,
-              "price": 912,
+              "price": 1140,
               "first_seen": "2026-07-23"
             }
           ],
@@ -181846,21 +181921,21 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 5600,
+              "price": 7000,
               "first_seen": "2026-08-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 6960,
+              "price": 8700,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 150,
-              "price": 6960,
+              "price": 8700,
               "first_seen": "2026-09-20",
-              "sold_since": "2026-11-16"
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/y-eau-de-parfum--mazaya.jpg",
@@ -181959,13 +182034,13 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 5040,
+              "price": 6300,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 5840,
+              "price": 7300,
               "first_seen": "2026-07-23",
               "sold_since": "2026-08-31"
             }
@@ -182068,13 +182143,13 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 6400,
+              "price": 8000,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 7360,
+              "price": 9200,
               "first_seen": "2026-07-23"
             }
           ],
@@ -182237,13 +182312,13 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 5200,
+              "price": 6500,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 6240,
+              "price": 7800,
               "first_seen": "2026-07-23"
             }
           ],
@@ -182317,23 +182392,23 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 6240,
+              "price": 7800,
               "first_seen": "2026-07-23",
-              "prev_price": 6560,
-              "sold_since": "2026-11-16"
+              "prev_price": 8200,
+              "sold_since": "2026-11-17"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 7040,
+              "price": 8800,
               "first_seen": "2026-07-23",
-              "prev_price": 7840,
-              "sold_since": "2026-11-16"
+              "prev_price": 9800,
+              "sold_since": "2026-11-17"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 7040,
+              "price": 8800,
               "first_seen": "2026-11-15",
               "sold_since": "2026-11-15"
             }
@@ -184317,14 +184392,14 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 3828,
+              "price": 4785,
               "first_seen": "2026-11-12",
               "sold_since": "2026-11-12"
             },
             {
               "kind": "full",
               "ml": 125,
-              "price": 4720,
+              "price": 5900,
               "first_seen": "2026-11-12",
               "sold_since": "2026-11-12"
             }
@@ -184564,7 +184639,7 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 6160,
+              "price": 7700,
               "first_seen": "2026-10-14",
               "sold_since": "2026-10-14"
             }
@@ -184946,7 +185021,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2760,
+              "price": 3450,
               "first_seen": "2026-07-23",
               "sold_since": "2026-07-23"
             }
@@ -185879,7 +185954,7 @@
             {
               "kind": "full",
               "ml": 55,
-              "price": 1936,
+              "price": 2420,
               "first_seen": "2026-10-11"
             }
           ],
@@ -187743,7 +187818,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7920,
+              "price": 9900,
               "first_seen": "2026-10-12",
               "sold_since": "2026-10-14"
             }
@@ -199899,14 +199974,14 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5360,
+              "price": 6700,
               "first_seen": "2026-09-29",
               "sold_since": "2026-09-29"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 7120,
+              "price": 8900,
               "first_seen": "2026-09-29",
               "sold_since": "2026-09-29"
             }
@@ -199934,7 +200009,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2368,
+              "price": 2960,
               "first_seen": "2026-08-18",
               "sold_since": "2026-10-03"
             }
@@ -199962,7 +200037,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1532,
+              "price": 1915,
               "first_seen": "2026-08-18"
             }
           ],
@@ -199989,7 +200064,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1532,
+              "price": 1915,
               "first_seen": "2026-08-18"
             }
           ],
@@ -200016,7 +200091,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1532,
+              "price": 1915,
               "first_seen": "2026-08-18"
             }
           ],
@@ -200043,7 +200118,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2900,
+              "price": 3625,
               "first_seen": "2026-08-18"
             }
           ],
@@ -200117,7 +200192,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1532,
+              "price": 1915,
               "first_seen": "2026-08-18"
             }
           ],
@@ -200144,7 +200219,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1532,
+              "price": 1915,
               "first_seen": "2026-08-18"
             }
           ],
@@ -204355,7 +204430,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 184,
+              "price": 230,
               "first_seen": "2026-08-30",
               "sold_since": "2026-09-28"
             }
@@ -205808,7 +205883,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1760,
+              "price": 2200,
               "first_seen": "2026-09-02"
             }
           ],
@@ -205835,7 +205910,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1760,
+              "price": 2200,
               "first_seen": "2026-09-02",
               "sold_since": "2026-10-16"
             }
@@ -205863,7 +205938,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1760,
+              "price": 2200,
               "first_seen": "2026-09-02"
             }
           ],
@@ -205890,7 +205965,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1760,
+              "price": 2200,
               "first_seen": "2026-09-02"
             }
           ],
@@ -205917,7 +205992,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1760,
+              "price": 2200,
               "first_seen": "2026-09-02"
             }
           ],
@@ -205944,7 +206019,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1760,
+              "price": 2200,
               "first_seen": "2026-09-02"
             }
           ],
@@ -205971,7 +206046,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1760,
+              "price": 2200,
               "first_seen": "2026-09-02"
             }
           ],
@@ -205998,7 +206073,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1760,
+              "price": 2200,
               "first_seen": "2026-09-02"
             }
           ],
@@ -206237,7 +206312,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8960,
+              "price": 11200,
               "first_seen": "2026-09-03",
               "sold_since": "2026-10-18"
             }
@@ -210725,7 +210800,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7360,
+              "price": 9200,
               "first_seen": "2026-09-15",
               "sold_since": "2026-09-15"
             }
@@ -211780,14 +211855,14 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4320,
+              "price": 5400,
               "first_seen": "2026-11-13",
               "sold_since": "2026-11-13"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 5840,
+              "price": 7300,
               "first_seen": "2026-11-12",
               "sold_since": "2026-11-16"
             }
@@ -213708,7 +213783,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7040,
+              "price": 8800,
               "first_seen": "2026-09-24"
             }
           ],
@@ -213735,7 +213810,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 920,
+              "price": 1150,
               "first_seen": "2026-09-24",
               "sold_since": "2026-11-07"
             }
@@ -213763,7 +213838,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 920,
+              "price": 1150,
               "first_seen": "2026-09-24"
             }
           ],
@@ -213790,7 +213865,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 992,
+              "price": 1240,
               "first_seen": "2026-09-24"
             }
           ],
@@ -213817,7 +213892,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 992,
+              "price": 1240,
               "first_seen": "2026-09-24"
             }
           ],
@@ -213844,7 +213919,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 992,
+              "price": 1240,
               "first_seen": "2026-09-24"
             }
           ],
@@ -213871,7 +213946,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 920,
+              "price": 1150,
               "first_seen": "2026-09-24",
               "sold_since": "2026-11-05"
             }
@@ -213899,7 +213974,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 920,
+              "price": 1150,
               "first_seen": "2026-09-24",
               "sold_since": "2026-10-10"
             }
@@ -213927,7 +214002,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 920,
+              "price": 1150,
               "first_seen": "2026-09-24"
             }
           ],
@@ -213954,8 +214029,9 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 910,
-              "first_seen": "2026-09-24"
+              "price": 774,
+              "first_seen": "2026-09-24",
+              "prev_price": 910
             }
           ],
           "image": "images/spray-sing--mazaya.jpg",
@@ -215770,20 +215846,20 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4560,
+              "price": 5700,
               "first_seen": "2026-09-29",
               "sold_since": "2026-09-29"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 5920,
+              "price": 7400,
               "first_seen": "2026-09-29"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 7840,
+              "price": 9800,
               "first_seen": "2026-09-29",
               "sold_since": "2026-09-29"
             }
@@ -215920,7 +215996,7 @@
             {
               "kind": "full",
               "ml": 55,
-              "price": 1936,
+              "price": 2420,
               "first_seen": "2026-10-11"
             }
           ],
@@ -217019,7 +217095,7 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 7600,
+              "price": 9500,
               "first_seen": "2026-10-05",
               "sold_since": "2026-10-22"
             }
@@ -217047,7 +217123,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4960,
+              "price": 6200,
               "first_seen": "2026-10-05"
             }
           ],
@@ -217453,7 +217529,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 7920,
+              "price": 9900,
               "first_seen": "2026-10-11"
             }
           ],
@@ -217575,10 +217651,10 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 8640,
+              "price": 10800,
               "first_seen": "2026-10-12",
-              "prev_price": 10240,
-              "sold_since": "2026-11-16"
+              "prev_price": 12800,
+              "sold_since": "2026-11-17"
             }
           ],
           "image": "images/k-by-eau-de-parfum--mazaya.jpg",
@@ -217604,7 +217680,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6320,
+              "price": 7900,
               "first_seen": "2026-10-12"
             }
           ],
@@ -217631,7 +217707,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5760,
+              "price": 7200,
               "first_seen": "2026-10-12",
               "sold_since": "2026-11-16"
             }
@@ -217659,14 +217735,14 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 3760,
+              "price": 4700,
               "first_seen": "2026-10-12",
               "sold_since": "2026-11-16"
             },
             {
               "kind": "full",
               "ml": 125,
-              "price": 4880,
+              "price": 6100,
               "first_seen": "2026-10-12",
               "sold_since": "2026-11-13"
             }
@@ -217694,14 +217770,14 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6240,
+              "price": 7800,
               "first_seen": "2026-10-12",
               "sold_since": "2026-10-12"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 9040,
+              "price": 11300,
               "first_seen": "2026-10-12",
               "sold_since": "2026-10-12"
             }
@@ -217729,9 +217805,9 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4960,
+              "price": 6200,
               "first_seen": "2026-10-12",
-              "prev_price": 5520,
+              "prev_price": 6900,
               "sold_since": "2026-10-12"
             }
           ],
@@ -217758,7 +217834,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1560,
+              "price": 1950,
               "first_seen": "2026-10-12",
               "sold_since": "2026-10-12"
             }
@@ -217786,7 +217862,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5360,
+              "price": 6700,
               "first_seen": "2026-10-12",
               "sold_since": "2026-10-12"
             }
@@ -217814,7 +217890,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 7920,
+              "price": 9900,
               "first_seen": "2026-10-12",
               "sold_since": "2026-10-12"
             }
@@ -217842,7 +217918,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 4560,
+              "price": 5700,
               "first_seen": "2026-10-12",
               "sold_since": "2026-10-12"
             }
@@ -217870,7 +217946,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 1040,
+              "price": 1300,
               "first_seen": "2026-10-13",
               "sold_since": "2026-10-13"
             }
@@ -218086,7 +218162,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3740,
+              "price": 4675,
               "first_seen": "2026-10-13"
             }
           ],
@@ -218113,7 +218189,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5640,
+              "price": 7050,
               "first_seen": "2026-10-13"
             }
           ],
@@ -218140,7 +218216,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 1216,
+              "price": 1520,
               "first_seen": "2026-10-13",
               "sold_since": "2026-10-13"
             }
@@ -218466,7 +218542,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7600,
+              "price": 9500,
               "first_seen": "2026-10-14"
             }
           ],
@@ -218493,7 +218569,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 5360,
+              "price": 6700,
               "first_seen": "2026-10-14",
               "sold_since": "2026-10-14"
             }
@@ -218576,7 +218652,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6400,
+              "price": 8000,
               "first_seen": "2026-10-14"
             }
           ],
@@ -218603,7 +218679,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 3920,
+              "price": 4900,
               "first_seen": "2026-10-14",
               "sold_since": "2026-10-14"
             }
@@ -218773,7 +218849,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1840,
+              "price": 2300,
               "first_seen": "2026-10-15",
               "sold_since": "2026-11-03"
             }
@@ -218801,7 +218877,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1600,
+              "price": 2000,
               "first_seen": "2026-10-15",
               "sold_since": "2026-11-05"
             }
@@ -219217,7 +219293,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 948,
+              "price": 1185,
               "first_seen": "2026-10-19",
               "sold_since": "2026-10-19"
             }
@@ -219245,7 +219321,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 108,
+              "price": 135,
               "first_seen": "2026-10-19",
               "sold_since": "2026-10-19"
             }
@@ -219273,7 +219349,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 7600,
+              "price": 9500,
               "first_seen": "2026-10-19",
               "sold_since": "2026-10-19"
             }
@@ -219301,7 +219377,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 18080,
+              "price": 22600,
               "first_seen": "2026-10-19",
               "sold_since": "2026-10-19"
             }
@@ -219329,7 +219405,7 @@
             {
               "kind": "full",
               "ml": 80,
-              "price": 908,
+              "price": 1135,
               "first_seen": "2026-10-19",
               "sold_since": "2026-10-19"
             }
@@ -221005,7 +221081,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 6000,
+              "price": 7500,
               "first_seen": "2026-10-28"
             }
           ],
@@ -221226,7 +221302,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7920,
+              "price": 9900,
               "first_seen": "2026-10-30"
             }
           ],
@@ -222756,7 +222832,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8560,
+              "price": 10700,
               "first_seen": "2026-11-04"
             }
           ],
@@ -223191,7 +223267,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 6960,
+              "price": 8700,
               "first_seen": "2026-11-08",
               "sold_since": "2026-11-11"
             }
@@ -225856,14 +225932,14 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4880,
+              "price": 6100,
               "first_seen": "2026-11-16",
               "sold_since": "2026-11-16"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 6640,
+              "price": 8300,
               "first_seen": "2026-11-16"
             }
           ],
