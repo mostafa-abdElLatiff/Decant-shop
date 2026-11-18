@@ -50560,14 +50560,14 @@
               "ml": 3,
               "price": 105,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-11-17"
+              "sold_since": "2026-11-18"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 140,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-11-17"
+              "sold_since": "2026-11-18"
             },
             {
               "kind": "decant",
@@ -61545,23 +61545,20 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 75,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-11-17"
+              "price": 110,
+              "first_seen": "2026-01-01"
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 100,
-              "first_seen": "2026-01-01",
-              "sold_since": "2026-11-17"
+              "price": 145,
+              "first_seen": "2026-01-01"
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-17"
+              "price": 220,
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/french-tobacco--sniffz.jpg",
@@ -78222,19 +78219,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 165,
-              "first_seen": "2026-10-05"
+              "first_seen": "2026-10-05",
+              "sold_since": "2026-11-18"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 215,
-              "first_seen": "2026-10-05"
+              "first_seen": "2026-10-05",
+              "sold_since": "2026-11-18"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 330,
-              "first_seen": "2026-10-05"
+              "first_seen": "2026-10-05",
+              "sold_since": "2026-11-18"
             },
             {
               "kind": "full",
@@ -150401,19 +150401,22 @@
               "kind": "decant",
               "ml": 3,
               "price": 145,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-11-18"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 185,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-11-18"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 280,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-11-18"
             }
           ],
           "image": "images/sharaf-divine--sniffz.jpg",
@@ -158001,13 +158004,15 @@
               "kind": "decant",
               "ml": 5,
               "price": 410,
-              "first_seen": "2026-11-07"
+              "first_seen": "2026-11-07",
+              "sold_since": "2026-11-18"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 650,
-              "first_seen": "2026-11-07"
+              "first_seen": "2026-11-07",
+              "sold_since": "2026-11-18"
             },
             {
               "kind": "full",
@@ -169300,6 +169305,20 @@
           ],
           "image": "images/turathi-electric--eldesoki-fragrances.jpg",
           "product_url": "https://eldesoki-fragrances.com/product/turathi-electric-40ml%d8%aa%d8%b1%d8%a7%d8%ab%d9%8a-%d8%a7%d9%84%d9%8a%d9%83%d8%aa%d8%b1%d9%8a%d9%83-%d9%a4%d9%a0%d9%85%d9%84%d9%8a/"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 1650,
+              "first_seen": "2026-11-18"
+            }
+          ],
+          "image": "images/turathi-electric--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/afnan-turathi-electric-full-sealed"
         }
       ],
       "_hero_source": "og-perfume",
