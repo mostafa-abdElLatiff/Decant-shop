@@ -112691,7 +112691,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-07-26"
+              "first_seen": "2026-07-26",
+              "sold_since": "2026-11-18"
             }
           ],
           "image": "images/muzn--dar-elarabia.jpg",
@@ -205356,7 +205357,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1500,
-              "first_seen": "2026-11-09"
+              "first_seen": "2026-11-09",
+              "sold_since": "2026-11-18"
             }
           ],
           "image": "images/cedrus-blanc--dar-elarabia.jpg",
@@ -226196,6 +226198,87 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "bun-shaikh",
+      "name_ar": "Bun Shaikh",
+      "name_en": "Bun Shaikh",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/bun-shaikh.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 4200,
+              "first_seen": "2026-11-18"
+            }
+          ],
+          "image": "images/bun-shaikh--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/bun-shaikh"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "bin-ameer",
+      "name_ar": "Bin Ameer",
+      "name_en": "Bin Ameer",
+      "brand": "Ahmed Al Maghribi",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/bin-ameer.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 3950,
+              "first_seen": "2026-11-18"
+            }
+          ],
+          "image": "images/bin-ameer--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/bin-ameer"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "azure-oud",
+      "name_ar": "Azure Oud",
+      "name_en": "Azure Oud",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/azure-oud.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1800,
+              "first_seen": "2026-11-18"
+            }
+          ],
+          "image": "images/azure-oud--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/azure-oud"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
     }
   ]
 }
