@@ -16590,7 +16590,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1069,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-11-18"
             }
           ],
           "image": "images/asad-bourbon--mazaya.jpg",
@@ -36748,6 +36749,14 @@
               "price": 7000,
               "first_seen": "2026-11-12",
               "sold_since": "2026-11-12"
+            },
+            {
+              "kind": "full",
+              "ml": 125,
+              "price": 8800,
+              "first_seen": "2026-11-18",
+              "prev_price": 9800,
+              "sold_since": "2026-11-18"
             }
           ],
           "image": "images/code-eau-de-parfum--mazaya.jpg",
@@ -147239,7 +147248,7 @@
             }
           ],
           "image": "images/scandal-intense-men--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/scandal-intense-men"
+          "product_url": "https://mazaya.eg/en/scandal-intense-men-100-ml"
         },
         {
           "name": "faces",
