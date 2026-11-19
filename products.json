@@ -35016,8 +35016,7 @@
               "kind": "full",
               "ml": 105,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-23"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/club-de-nuit-imperiale--emaratiscents.jpg",
@@ -35849,8 +35848,7 @@
               "kind": "full",
               "ml": 55,
               "price": 2950,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-10-31"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/club-de-nuit-precieux-i-unisex--emaratiscents.jpg",
@@ -36237,8 +36235,7 @@
               "kind": "full",
               "ml": 105,
               "price": 1950,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-10-10"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/club-de-nuit-urban-man-elixir--emaratiscents.jpg",
@@ -88921,8 +88918,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2100,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/kohl-opulence--emaratiscents.jpg",
@@ -101460,8 +101456,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2450,
-              "first_seen": "2026-08-13",
-              "sold_since": "2026-10-29"
+              "first_seen": "2026-08-13"
             }
           ],
           "image": "images/lynked-freedom--emaratiscents.jpg",
@@ -114162,7 +114157,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/nafais-sharq--emaratiscents.jpg",
@@ -145014,7 +145010,8 @@
               "kind": "full",
               "ml": 100,
               "price": 12700,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/royal-incense--emaratiscents.jpg",
@@ -173359,8 +173356,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1700,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-17"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/vanilla-voyage-maison-asrar--emaratiscents.jpg",
@@ -175690,7 +175686,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2500,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/vintage-tobacco--emaratiscents.jpg",
@@ -184961,7 +184958,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-11-10"
+              "first_seen": "2026-11-10",
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
@@ -185062,8 +185060,7 @@
               "kind": "full",
               "ml": 200,
               "price": 2350,
-              "first_seen": "2026-09-07",
-              "sold_since": "2026-11-19"
+              "first_seen": "2026-09-07"
             }
           ],
           "image": "images/qasida-bakhour--emaratiscents.jpg",
@@ -205815,8 +205812,7 @@
               "kind": "full",
               "ml": 200,
               "price": 2350,
-              "first_seen": "2026-09-07",
-              "sold_since": "2026-11-17"
+              "first_seen": "2026-09-07"
             }
           ],
           "image": "images/qasida-purity--emaratiscents.jpg",
@@ -220177,7 +220173,8 @@
               "kind": "full",
               "ml": 80,
               "price": 2950,
-              "first_seen": "2026-10-24"
+              "first_seen": "2026-10-24",
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/musk-toffee-by-abdulsamad-alqurashi--emaratiscents.jpg",
@@ -222818,8 +222815,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2550,
-              "first_seen": "2026-11-07"
+              "price": 1950,
+              "first_seen": "2026-11-07",
+              "prev_price": 2550
             }
           ],
           "image": "images/al-wisam-hayan--emaratiscents.jpg",
@@ -222845,8 +222843,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2550,
-              "first_seen": "2026-11-07"
+              "price": 1950,
+              "first_seen": "2026-11-07",
+              "prev_price": 2550
             }
           ],
           "image": "images/al-wisam-habban--emaratiscents.jpg",
@@ -226466,6 +226465,33 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "asad-polar",
+      "name_ar": "Asad Polar",
+      "name_en": "Asad Polar",
+      "brand": "Lattafa",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/asad-polar.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1950,
+              "first_seen": "2026-11-19"
+            }
+          ],
+          "image": "images/asad-polar--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/asad-polar"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
