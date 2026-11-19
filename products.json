@@ -53658,7 +53658,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4125,
+              "price": 4375,
               "first_seen": "2026-09-27"
             },
             {
@@ -61394,7 +61394,7 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 425,
+              "price": 550,
               "first_seen": "2026-07-18"
             },
             {
@@ -83128,7 +83128,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 1275,
+              "price": 1650,
               "first_seen": "2026-07-18"
             }
           ],
@@ -85421,7 +85421,7 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 375,
+              "price": 475,
               "first_seen": "2026-08-10"
             },
             {
@@ -90566,7 +90566,7 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 400,
+              "price": 500,
               "first_seen": "2026-07-18"
             },
             {
@@ -111964,8 +111964,7 @@
               "kind": "full",
               "ml": 75,
               "price": 1175,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-26"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/musk-al-shams-ibraq--eldesoki-fragrances.jpg",
@@ -119771,7 +119770,7 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 1900,
+              "price": 1950,
               "first_seen": "2026-11-01"
             }
           ],
@@ -146170,7 +146169,8 @@
               "kind": "leftover",
               "ml": 70,
               "price": 975,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
@@ -150685,7 +150685,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 1400,
+              "price": 1600,
               "first_seen": "2026-10-04"
             }
           ],
@@ -152771,7 +152771,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 600,
+              "price": 650,
               "first_seen": "2026-07-18"
             }
           ],
@@ -160477,7 +160477,7 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 2450,
+              "price": 2775,
               "first_seen": "2026-07-30"
             }
           ],
@@ -164106,8 +164106,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4250,
-              "first_seen": "2026-07-19"
+              "price": 4200,
+              "first_seen": "2026-07-19",
+              "prev_price": 4250
             }
           ],
           "image": "images/the-most-wanted-eau-de-parfum-intense--eldesoki-fragrances.jpg",
@@ -166779,7 +166780,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1875,
+              "price": 2200,
               "first_seen": "2026-07-19"
             }
           ],
@@ -200235,7 +200236,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1175,
+              "price": 1275,
               "first_seen": "2026-08-21"
             }
           ],
@@ -205797,7 +205798,7 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 400,
+              "price": 525,
               "first_seen": "2026-09-02"
             },
             {
@@ -213899,7 +213900,7 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 495,
+              "price": 575,
               "first_seen": "2026-09-26"
             },
             {
@@ -214920,6 +214921,20 @@
           ],
           "image": "images/raheeq-nusuk--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/raheeq-nusuk"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1400,
+              "first_seen": "2026-11-19"
+            }
+          ],
+          "image": "images/raheeq-nusuk--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/raheeq-100ml-nusuk-%d8%b1%d8%ad%d9%8a%d9%82-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%86%d8%b3%d9%83/"
         }
       ],
       "_hero_source": "og-perfume"
@@ -220487,6 +220502,20 @@
           ],
           "image": "images/take-off--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/take-off-200-ml"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 1975,
+              "first_seen": "2026-11-19"
+            }
+          ],
+          "image": "images/take-off--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/take-off-200ml-assaf-%d8%aa%d9%8a%d9%83-%d8%a7%d9%88%d9%81-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b9%d8%b3%d8%a7%d9%81/"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -221326,7 +221355,7 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 300,
+              "price": 375,
               "first_seen": "2026-11-01"
             }
           ],
@@ -223500,8 +223529,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1250,
-              "first_seen": "2026-11-11"
+              "price": 1100,
+              "first_seen": "2026-11-11",
+              "prev_price": 1250
             }
           ],
           "image": "images/mulham-nawar-almas--eldesoki-fragrances.jpg",
@@ -226392,6 +226422,87 @@
         }
       ],
       "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "riwayah-amalfi-alfaris",
+      "name_ar": "رواية امالفي ١٠٠ملي الفارس",
+      "name_en": "Riwayah Amalfi Alfaris &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/riwayah-amalfi-alfaris.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1200,
+              "first_seen": "2026-11-19"
+            }
+          ],
+          "image": "images/riwayah-amalfi-alfaris--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/riwayah-amalfi-100ml-alfaris-%d8%b1%d9%88%d8%a7%d9%8a%d8%a9-%d8%a7%d9%85%d8%a7%d9%84%d9%81%d9%8a-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d8%a7%d9%84%d9%81%d8%a7%d8%b1%d8%b3/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "riwayah-azuro-alfaris",
+      "name_ar": "رواية ازور ١٠٠ملي من الفارس",
+      "name_en": "Riwayah Azuro Alfaris &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/riwayah-azuro-alfaris.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1200,
+              "first_seen": "2026-11-19"
+            }
+          ],
+          "image": "images/riwayah-azuro-alfaris--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/riwayah-azuro-100ml-alfaris-%d8%b1%d9%88%d8%a7%d9%8a%d8%a9-%d8%a7%d8%b2%d9%88%d8%b1-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d9%84%d9%81%d8%a7%d8%b1%d8%b3/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "ice-edp-al-majed-oud",
+      "name_ar": "آيس ٧٥ ملي من الماجد للعود",
+      "name_en": "ICE edp Al Majed Oud &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/ice-edp-al-majed-oud.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 75,
+              "price": 2125,
+              "first_seen": "2026-11-19"
+            }
+          ],
+          "image": "images/ice-edp-al-majed-oud--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/ice-edp-al-majed-oud-75ml-%d8%a2%d9%8a%d8%b3-%d9%a7%d9%a5-%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d9%84%d9%85%d8%a7%d8%ac%d8%af-%d9%84%d9%84%d8%b9%d9%88%d8%af/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
