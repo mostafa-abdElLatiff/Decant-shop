@@ -14354,8 +14354,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2050,
-              "first_seen": "2026-08-21",
-              "sold_since": "2026-11-16"
+              "first_seen": "2026-08-21"
             }
           ],
           "image": "images/aromatix--dar-elarabia.jpg",
@@ -66537,8 +66536,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-14"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/grow--dar-elarabia.jpg",
@@ -104337,7 +104335,7 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 2850,
+              "price": 2900,
               "first_seen": "2026-07-30"
             }
           ],
@@ -172016,7 +172014,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1850,
-              "first_seen": "2026-09-03"
+              "first_seen": "2026-09-03",
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/vanguard--dar-elarabia.jpg",
@@ -206354,7 +206353,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1850,
-              "first_seen": "2026-09-03"
+              "first_seen": "2026-09-03",
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/legacy-1788463285--dar-elarabia.jpg",
@@ -225997,6 +225997,20 @@
           ],
           "image": "images/valencia--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/valencia"
+        },
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2600,
+              "first_seen": "2026-11-19"
+            }
+          ],
+          "image": "images/valencia--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/valencia"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -226154,7 +226168,8 @@
               "kind": "full",
               "ml": 90,
               "price": 4200,
-              "first_seen": "2026-11-18"
+              "first_seen": "2026-11-18",
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/bun-shaikh--dar-elarabia.jpg",
@@ -226181,7 +226196,8 @@
               "kind": "full",
               "ml": 90,
               "price": 3950,
-              "first_seen": "2026-11-18"
+              "first_seen": "2026-11-18",
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/bin-ameer--dar-elarabia.jpg",
@@ -226282,6 +226298,34 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "saadik",
+      "name_ar": "Saadik",
+      "name_en": "Saadik",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/saadik.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 4250,
+              "first_seen": "2026-11-19",
+              "sold_since": "2026-11-19"
+            }
+          ],
+          "image": "images/saadik--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/saadik"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
     }
   ]
 }
