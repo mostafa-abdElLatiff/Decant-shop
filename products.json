@@ -8559,8 +8559,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1800,
-              "first_seen": "2026-08-12",
-              "sold_since": "2026-09-12"
+              "first_seen": "2026-08-12"
             }
           ],
           "image": "images/amber-empire--dar-elarabia.jpg",
@@ -173562,8 +173561,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2550,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-20"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/varna--dar-elarabia.jpg",
@@ -182998,7 +182996,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1700,
+              "price": 1750,
               "first_seen": "2026-07-19",
               "sold_since": "2026-10-06"
             }
@@ -225865,7 +225863,8 @@
               "kind": "full",
               "ml": 100,
               "price": 3850,
-              "first_seen": "2026-11-17"
+              "first_seen": "2026-11-17",
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/essence-of-casablanca--dar-elarabia.jpg",
@@ -226492,6 +226491,33 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "intense-addiction",
+      "name_ar": "Intense Addiction",
+      "name_en": "Intense Addiction",
+      "brand": "French Avenue",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/intense-addiction.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1700,
+              "first_seen": "2026-11-19"
+            }
+          ],
+          "image": "images/intense-addiction--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/intense-addiction"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
     }
   ]
 }
