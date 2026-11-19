@@ -4381,7 +4381,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1500,
+              "price": 1800,
               "first_seen": "2026-07-20"
             }
           ],
@@ -8976,7 +8976,7 @@
             {
               "kind": "full",
               "ml": 80,
-              "price": 2000,
+              "price": 2350,
               "first_seen": "2026-07-20"
             }
           ],
@@ -14539,7 +14539,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1675,
+              "price": 2000,
               "first_seen": "2026-07-20"
             }
           ],
@@ -15615,7 +15615,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1650,
+              "price": 1850,
               "first_seen": "2026-09-06"
             }
           ],
@@ -17880,7 +17880,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1650,
+              "price": 1800,
               "first_seen": "2026-07-20"
             }
           ],
@@ -36484,7 +36484,7 @@
             {
               "kind": "full",
               "ml": 80,
-              "price": 1500,
+              "price": 1800,
               "first_seen": "2026-11-14"
             },
             {
@@ -71837,7 +71837,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1350,
+              "price": 1550,
               "first_seen": "2026-01-01"
             }
           ],
@@ -102160,7 +102160,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1675,
+              "price": 2000,
               "first_seen": "2026-07-20"
             }
           ],
@@ -104509,7 +104509,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1600,
+              "price": 1850,
               "first_seen": "2026-07-20"
             }
           ],
@@ -132368,7 +132368,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1700,
+              "price": 2000,
               "first_seen": "2026-07-20"
             }
           ],
@@ -139881,7 +139881,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1475,
+              "price": 1750,
               "first_seen": "2026-09-03"
             }
           ],
@@ -143181,7 +143181,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1500,
+              "price": 1700,
               "first_seen": "2026-07-20"
             }
           ],
@@ -145454,7 +145454,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1550,
+              "price": 1800,
               "first_seen": "2026-07-20"
             }
           ],
@@ -150624,7 +150624,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1050,
-              "first_seen": "2026-10-15"
+              "first_seen": "2026-10-15",
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/sherif--roseperfume.jpg",
@@ -173999,7 +174000,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1650,
+              "price": 1900,
               "first_seen": "2026-07-20"
             }
           ],
@@ -191169,6 +191170,12 @@
               "ml": 30,
               "price": 325,
               "first_seen": "2026-08-23"
+            },
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 1800,
+              "first_seen": "2026-11-19"
             }
           ],
           "image": "images/boom-blue--roseperfume.jpg",
@@ -193166,7 +193173,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1800,
-              "first_seen": "2026-08-23"
+              "first_seen": "2026-08-23",
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/hook-blue--roseperfume.jpg",
@@ -213688,7 +213696,8 @@
               "kind": "decant",
               "ml": 5,
               "price": 120,
-              "first_seen": "2026-10-13"
+              "first_seen": "2026-10-13",
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "decant",
