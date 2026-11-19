@@ -49,7 +49,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4330,
+              "price": 4969,
               "first_seen": "2026-07-23"
             }
           ],
@@ -196,7 +196,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6027,
+              "price": 6916,
               "first_seen": "2026-07-23"
             }
           ],
@@ -364,7 +364,7 @@
             {
               "kind": "full",
               "ml": 80,
-              "price": 2257,
+              "price": 2590,
               "first_seen": "2026-08-15"
             }
           ],
@@ -439,7 +439,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 3526,
+              "price": 4046,
               "first_seen": "2026-07-23"
             }
           ],
@@ -466,13 +466,13 @@
             {
               "kind": "full",
               "ml": 30,
-              "price": 819,
+              "price": 939,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 1525,
+              "price": 1750,
               "first_seen": "2026-07-23"
             }
           ],
@@ -555,7 +555,7 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 4947,
+              "price": 5677,
               "first_seen": "2026-07-23"
             }
           ],
@@ -609,7 +609,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4509,
+              "price": 5174,
               "first_seen": "2026-07-23"
             }
           ],
@@ -636,7 +636,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4199,
+              "price": 4721,
               "first_seen": "2026-07-23"
             }
           ],
@@ -691,13 +691,13 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4665,
+              "price": 5534,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 5948,
+              "price": 6825,
               "first_seen": "2026-07-23"
             }
           ],
@@ -789,7 +789,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4599,
+              "price": 5278,
               "first_seen": "2026-07-23"
             }
           ],
@@ -816,7 +816,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4956,
+              "price": 5880,
               "first_seen": "2026-07-23"
             }
           ],
@@ -857,7 +857,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 6135,
+              "price": 7041,
               "first_seen": "2026-07-23"
             }
           ],
@@ -906,7 +906,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4124,
+              "price": 4732,
               "first_seen": "2026-07-23"
             }
           ],
@@ -1124,7 +1124,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1342,
+              "price": 1540,
               "first_seen": "2026-07-23"
             }
           ],
@@ -1151,7 +1151,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 1610,
+              "price": 1848,
               "first_seen": "2026-07-23"
             }
           ],
@@ -1178,7 +1178,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 1470,
+              "price": 1687,
               "first_seen": "2026-07-23"
             }
           ],
@@ -1442,7 +1442,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1836,
+              "price": 2107,
               "first_seen": "2026-07-23"
             }
           ],
@@ -1474,7 +1474,7 @@
             {
               "kind": "full",
               "ml": 250,
-              "price": 332,
+              "price": 381,
               "first_seen": "2026-07-23"
             }
           ],
@@ -1690,7 +1690,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1950,
+              "price": 2029,
               "first_seen": "2026-07-23"
             }
           ],
@@ -1970,7 +1970,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1798,
+              "price": 2064,
               "first_seen": "2026-07-23"
             }
           ],
@@ -2834,7 +2834,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1464,
+              "price": 1680,
               "first_seen": "2026-07-23"
             }
           ],
@@ -2879,7 +2879,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1022,
+              "price": 1173,
               "first_seen": "2026-07-23"
             }
           ],
@@ -3239,7 +3239,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2255,
+              "price": 2587,
               "first_seen": "2026-07-23"
             }
           ],
@@ -3736,8 +3736,9 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 8400,
-              "first_seen": "2026-07-23"
+              "price": 7092,
+              "first_seen": "2026-07-23",
+              "prev_price": 8400
             }
           ],
           "image": "images/acqua-di-gi-parfum--feel22.jpg",
@@ -3981,20 +3982,23 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 6000,
-              "first_seen": "2026-11-02"
+              "price": 5278,
+              "first_seen": "2026-11-02",
+              "prev_price": 6000
             },
             {
               "kind": "full",
               "ml": 75,
-              "price": 6700,
-              "first_seen": "2026-07-23"
+              "price": 5937,
+              "first_seen": "2026-07-23",
+              "prev_price": 6700
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 7800,
-              "first_seen": "2026-07-23"
+              "price": 6931,
+              "first_seen": "2026-07-23",
+              "prev_price": 7800
             },
             {
               "kind": "full",
@@ -4075,7 +4079,7 @@
             {
               "kind": "full",
               "ml": 80,
-              "price": 932,
+              "price": 1106,
               "first_seen": "2026-07-23"
             }
           ],
@@ -4488,7 +4492,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1534,
+              "price": 1820,
               "first_seen": "2026-07-23"
             }
           ],
@@ -4816,7 +4820,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1586,
+              "price": 1820,
               "first_seen": "2026-07-23"
             },
             {
@@ -5027,7 +5031,7 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 1888,
+              "price": 2240,
               "first_seen": "2026-07-23"
             }
           ],
@@ -5334,7 +5338,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1395,
+              "price": 1655,
               "first_seen": "2026-07-23"
             }
           ],
@@ -5361,7 +5365,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1476,
+              "price": 1694,
               "first_seen": "2026-07-23"
             }
           ],
@@ -5429,7 +5433,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1037,
+              "price": 1190,
               "first_seen": "2026-07-23"
             }
           ],
@@ -6205,7 +6209,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1374,
+              "price": 1630,
               "first_seen": "2026-07-23"
             }
           ],
@@ -6351,7 +6355,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1452,
+              "price": 1666,
               "first_seen": "2026-10-29"
             }
           ],
@@ -6447,7 +6451,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1159,
+              "price": 1330,
               "first_seen": "2026-08-17"
             }
           ],
@@ -6829,7 +6833,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2119,
+              "price": 2432,
               "first_seen": "2026-07-23"
             }
           ],
@@ -7596,7 +7600,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 9479,
+              "price": 11246,
               "first_seen": "2026-07-23"
             }
           ],
@@ -7706,7 +7710,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 10736,
+              "price": 12320,
               "first_seen": "2026-10-27"
             },
             {
@@ -7744,13 +7748,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8564,
+              "price": 9828,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 150,
-              "price": 11403,
+              "price": 13086,
               "first_seen": "2026-07-23"
             }
           ],
@@ -7979,13 +7983,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 9882,
+              "price": 11340,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 150,
-              "price": 11955,
+              "price": 13719,
               "first_seen": "2026-07-23"
             }
           ],
@@ -8879,7 +8883,7 @@
             {
               "kind": "full",
               "ml": 120,
-              "price": 5817,
+              "price": 7241,
               "first_seen": "2026-07-23"
             }
           ],
@@ -9085,7 +9089,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2385,
+              "price": 2737,
               "first_seen": "2026-07-23"
             }
           ],
@@ -9509,7 +9513,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 872,
+              "price": 1001,
               "first_seen": "2026-07-23"
             }
           ],
@@ -9536,7 +9540,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 916,
+              "price": 1051,
               "first_seen": "2026-07-23"
             }
           ],
@@ -9674,7 +9678,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 960,
+              "price": 1102,
               "first_seen": "2026-07-23"
             }
           ],
@@ -10499,7 +10503,7 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 996,
+              "price": 1142,
               "first_seen": "2026-07-23"
             }
           ],
@@ -10692,7 +10696,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1087,
+              "price": 1289,
               "first_seen": "2026-07-23"
             }
           ],
@@ -11366,7 +11370,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3726,
+              "price": 5436,
               "first_seen": "2026-07-23"
             }
           ],
@@ -13604,7 +13608,7 @@
             {
               "kind": "full",
               "ml": 110,
-              "price": 2120,
+              "price": 2433,
               "first_seen": "2026-07-23"
             },
             {
@@ -14055,8 +14059,9 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 8800,
-              "first_seen": "2026-07-23"
+              "price": 7462,
+              "first_seen": "2026-07-23",
+              "prev_price": 8800
             },
             {
               "kind": "full",
@@ -15176,7 +15181,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2330,
+              "price": 2674,
               "first_seen": "2026-07-23"
             }
           ],
@@ -15838,7 +15843,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2562,
+              "price": 2940,
               "first_seen": "2026-07-29"
             }
           ],
@@ -15865,7 +15870,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1706,
+              "price": 2024,
               "first_seen": "2026-07-23"
             }
           ],
@@ -15906,7 +15911,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2330,
+              "price": 2674,
               "first_seen": "2026-07-23"
             }
           ],
@@ -16291,7 +16296,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1220,
+              "price": 1389,
               "first_seen": "2026-07-23"
             }
           ],
@@ -17010,7 +17015,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1292,
+              "price": 1483,
               "first_seen": "2026-07-23"
             }
           ],
@@ -18072,7 +18077,7 @@
             {
               "kind": "full",
               "ml": 55,
-              "price": 1824,
+              "price": 2093,
               "first_seen": "2026-10-29"
             }
           ],
@@ -19406,7 +19411,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 21960,
+              "price": 32040,
               "first_seen": "2026-09-13"
             }
           ],
@@ -19610,7 +19615,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 585,
+              "price": 694,
               "first_seen": "2026-07-23"
             }
           ],
@@ -20320,9 +20325,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6595,
+              "price": 7568,
               "first_seen": "2026-07-23",
-              "prev_price": 6673
+              "prev_price": 7917
             }
           ],
           "image": "images/bad-boy-cobalt-elixir--feel22.jpg",
@@ -20389,13 +20394,13 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 3780,
+              "price": 4484,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 5213,
+              "price": 5982,
               "first_seen": "2026-07-23"
             }
           ],
@@ -20429,7 +20434,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5246,
+              "price": 6020,
               "first_seen": "2026-07-23"
             },
             {
@@ -20490,21 +20495,21 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 3642,
+              "price": 4179,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 5973,
+              "price": 6854,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
               "ml": 150,
-              "price": 5327,
+              "price": 6320,
               "first_seen": "2026-07-23",
               "prev_price": 6835
             }
@@ -20591,7 +20596,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1452,
+              "price": 1666,
               "first_seen": "2026-07-23"
             }
           ],
@@ -20618,7 +20623,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1495,
+              "price": 1715,
               "first_seen": "2026-07-23"
             }
           ],
@@ -20799,7 +20804,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1509,
+              "price": 1732,
               "first_seen": "2026-07-23"
             }
           ],
@@ -22323,7 +22328,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5673,
+              "price": 6510,
               "first_seen": "2026-07-23"
             }
           ],
@@ -22403,7 +22408,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6741,
+              "price": 7735,
               "first_seen": "2026-07-23"
             }
           ],
@@ -23103,7 +23108,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3989,
+              "price": 4578,
               "first_seen": "2026-10-07"
             }
           ],
@@ -23397,7 +23402,7 @@
             {
               "kind": "full",
               "ml": 30,
-              "price": 11440,
+              "price": 14240,
               "first_seen": "2026-07-23"
             }
           ],
@@ -24085,13 +24090,13 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 1669,
+              "price": 1915,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 75,
-              "price": 2045,
+              "price": 2346,
               "first_seen": "2026-07-23"
             }
           ],
@@ -24118,7 +24123,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2411,
+              "price": 2766,
               "first_seen": "2026-07-23"
             }
           ],
@@ -24213,7 +24218,7 @@
             {
               "kind": "full",
               "ml": 80,
-              "price": 3810,
+              "price": 4372,
               "first_seen": "2026-07-23"
             }
           ],
@@ -24258,7 +24263,7 @@
             {
               "kind": "full",
               "ml": 120,
-              "price": 4499,
+              "price": 5600,
               "first_seen": "2026-07-23"
             }
           ],
@@ -24285,7 +24290,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8298,
+              "price": 12108,
               "first_seen": "2026-07-23"
             },
             {
@@ -24361,7 +24366,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 700,
+              "price": 804,
               "first_seen": "2026-07-26"
             }
           ],
@@ -24495,9 +24500,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3538,
+              "price": 4060,
               "first_seen": "2026-07-23",
-              "prev_price": 3625
+              "prev_price": 4159
             }
           ],
           "image": "images/black-xs-eau-de-toilette--feel22.jpg",
@@ -25047,7 +25052,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 10798,
+              "price": 12391,
               "first_seen": "2026-07-23"
             },
             {
@@ -25115,13 +25120,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 9550,
+              "price": 10959,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 150,
-              "price": 10492,
+              "price": 12040,
               "first_seen": "2026-07-23"
             }
           ],
@@ -25394,13 +25399,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 11712,
+              "price": 13440,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 150,
-              "price": 13298,
+              "price": 15260,
               "first_seen": "2026-07-23"
             }
           ],
@@ -26183,7 +26188,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 841,
+              "price": 965,
               "first_seen": "2026-07-23"
             }
           ],
@@ -26210,7 +26215,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3527,
+              "price": 4047,
               "first_seen": "2026-07-26"
             }
           ],
@@ -26291,7 +26296,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 1835,
+              "price": 2106,
               "first_seen": "2026-07-23"
             }
           ],
@@ -27982,14 +27987,15 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4824,
+              "price": 5723,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 8200,
-              "first_seen": "2026-07-23"
+              "price": 7155,
+              "first_seen": "2026-07-23",
+              "prev_price": 8200
             }
           ],
           "image": "images/born-in-roma-eau-de-toilette--feel22.jpg",
@@ -28271,14 +28277,15 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4696,
+              "price": 5572,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 8200,
-              "first_seen": "2026-07-23"
+              "price": 7189,
+              "first_seen": "2026-07-23",
+              "prev_price": 8200
             }
           ],
           "image": "images/born-in-roma-yellow-dream-eau-de-toilette--feel22.jpg",
@@ -28418,7 +28425,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5263,
+              "price": 6040,
               "first_seen": "2026-07-23"
             }
           ],
@@ -28595,7 +28602,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1929,
+              "price": 2213,
               "first_seen": "2026-07-23"
             }
           ],
@@ -28777,29 +28784,15 @@
           "offers": [
             {
               "kind": "full",
-              "ml": 30,
-              "price": 423,
-              "first_seen": "2026-11-12",
-              "sold_since": "2026-11-12"
-            },
-            {
-              "kind": "full",
-              "ml": 50,
-              "price": 4690,
-              "first_seen": "2026-11-12",
-              "sold_since": "2026-11-12"
-            },
-            {
-              "kind": "full",
               "ml": 100,
-              "price": 4514,
+              "price": 5180,
               "first_seen": "2026-07-23",
-              "prev_price": 4768
+              "prev_price": 5471
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 6553,
+              "price": 7519,
               "first_seen": "2026-07-23",
               "prev_price": 8351
             }
@@ -28886,13 +28879,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3366,
+              "price": 3819,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 3662,
+              "price": 4203,
               "first_seen": "2026-07-23"
             }
           ],
@@ -28976,7 +28969,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2639,
+              "price": 3028,
               "first_seen": "2026-07-23"
             },
             {
@@ -29010,7 +29003,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4956,
+              "price": 5687,
               "first_seen": "2026-07-23"
             }
           ],
@@ -29072,7 +29065,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2840,
+              "price": 3259,
               "first_seen": "2026-07-23"
             },
             {
@@ -29709,7 +29702,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2525,
+              "price": 2898,
               "first_seen": "2026-07-26"
             }
           ],
@@ -29736,7 +29729,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 3470,
+              "price": 4117,
               "first_seen": "2026-07-23"
             }
           ],
@@ -29908,7 +29901,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1385,
+              "price": 1589,
               "first_seen": "2026-07-23"
             }
           ],
@@ -29935,7 +29928,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 1068,
+              "price": 1267,
               "first_seen": "2026-07-23"
             }
           ],
@@ -30886,7 +30879,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1121,
+              "price": 1330,
               "first_seen": "2026-07-23"
             }
           ],
@@ -31991,7 +31984,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5368,
+              "price": 6160,
               "first_seen": "2026-07-23"
             }
           ],
@@ -32032,7 +32025,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 5856,
+              "price": 6720,
               "first_seen": "2026-07-23"
             }
           ],
@@ -32073,7 +32066,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3717,
+              "price": 4410,
               "first_seen": "2026-07-23"
             }
           ],
@@ -32107,7 +32100,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3116,
+              "price": 3576,
               "first_seen": "2026-07-23"
             }
           ],
@@ -32393,7 +32386,7 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 1723,
+              "price": 1977,
               "first_seen": "2026-07-23"
             }
           ],
@@ -32583,7 +32576,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1665,
+              "price": 1975,
               "first_seen": "2026-07-23"
             }
           ],
@@ -33507,7 +33500,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 9211,
+              "price": 10570,
               "first_seen": "2026-07-23"
             }
           ],
@@ -33534,13 +33527,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3355,
+              "price": 3850,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 4147,
+              "price": 4759,
               "first_seen": "2026-07-23"
             }
           ],
@@ -33567,7 +33560,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 1687,
+              "price": 1936,
               "first_seen": "2026-07-23"
             },
             {
@@ -33601,7 +33594,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2222,
+              "price": 2636,
               "first_seen": "2026-07-23"
             }
           ],
@@ -33874,7 +33867,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2131,
+              "price": 2446,
               "first_seen": "2026-07-23"
             }
           ],
@@ -33901,7 +33894,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 1037,
+              "price": 1190,
               "first_seen": "2026-07-23"
             },
             {
@@ -34082,7 +34075,7 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 2299,
+              "price": 2586,
               "first_seen": "2026-07-23"
             }
           ],
@@ -34109,7 +34102,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2593,
+              "price": 2975,
               "first_seen": "2026-07-23"
             }
           ],
@@ -34181,7 +34174,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1365,
+              "price": 1567,
               "first_seen": "2026-07-23"
             }
           ],
@@ -34238,7 +34231,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1072,
+              "price": 1231,
               "first_seen": "2026-07-23"
             }
           ],
@@ -34265,7 +34258,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 987,
+              "price": 1133,
               "first_seen": "2026-07-23"
             }
           ],
@@ -34725,7 +34718,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3431,
+              "price": 3937,
               "first_seen": "2026-10-07"
             }
           ],
@@ -34910,7 +34903,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 4385,
+              "price": 5032,
               "first_seen": "2026-07-23"
             }
           ],
@@ -35203,14 +35196,14 @@
             {
               "kind": "full",
               "ml": 105,
-              "price": 1999,
+              "price": 2243,
               "first_seen": "2026-07-26",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
               "ml": 150,
-              "price": 2921,
+              "price": 3352,
               "first_seen": "2026-07-23"
             }
           ],
@@ -35364,7 +35357,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 3148,
+              "price": 3612,
               "first_seen": "2026-08-04"
             }
           ],
@@ -35420,7 +35413,7 @@
             {
               "kind": "full",
               "ml": 105,
-              "price": 4114,
+              "price": 4721,
               "first_seen": "2026-07-23"
             }
           ],
@@ -35627,7 +35620,7 @@
             {
               "kind": "full",
               "ml": 105,
-              "price": 2048,
+              "price": 2351,
               "first_seen": "2026-07-23"
             }
           ],
@@ -35657,13 +35650,13 @@
             {
               "kind": "full",
               "ml": 105,
-              "price": 2655,
+              "price": 3150,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 3623,
+              "price": 4158,
               "first_seen": "2026-07-23"
             }
           ],
@@ -36027,7 +36020,7 @@
             {
               "kind": "full",
               "ml": 105,
-              "price": 2196,
+              "price": 2520,
               "first_seen": "2026-07-23"
             }
           ],
@@ -36158,13 +36151,13 @@
             {
               "kind": "full",
               "ml": 105,
-              "price": 2541,
+              "price": 2916,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 4241,
+              "price": 5032,
               "first_seen": "2026-07-23"
             }
           ],
@@ -36206,7 +36199,7 @@
             {
               "kind": "full",
               "ml": 105,
-              "price": 2189,
+              "price": 2512,
               "first_seen": "2026-07-23"
             }
           ],
@@ -37647,7 +37640,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 794,
+              "price": 911,
               "first_seen": "2026-07-23"
             }
           ],
@@ -37757,7 +37750,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1110,
+              "price": 1274,
               "first_seen": "2026-07-23"
             }
           ],
@@ -37839,7 +37832,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1042,
+              "price": 1236,
               "first_seen": "2026-07-23"
             }
           ],
@@ -37961,7 +37954,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 932,
+              "price": 1106,
               "first_seen": "2026-07-23"
             }
           ],
@@ -38019,7 +38012,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 964,
+              "price": 1106,
               "first_seen": "2026-07-23"
             }
           ],
@@ -38142,7 +38135,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 2294,
+              "price": 2722,
               "first_seen": "2026-07-23"
             }
           ],
@@ -38183,7 +38176,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 2928,
+              "price": 3360,
               "first_seen": "2026-07-23"
             }
           ],
@@ -38921,7 +38914,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1281,
+              "price": 1470,
               "first_seen": "2026-07-23"
             }
           ],
@@ -39672,7 +39665,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2192,
+              "price": 2516,
               "first_seen": "2026-07-23"
             }
           ],
@@ -39860,7 +39853,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 1068,
+              "price": 1267,
               "first_seen": "2026-07-23"
             }
           ],
@@ -40292,7 +40285,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1769,
+              "price": 2030,
               "first_seen": "2026-07-23"
             }
           ],
@@ -40470,7 +40463,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1207,
+              "price": 1385,
               "first_seen": "2026-07-23"
             }
           ],
@@ -41134,7 +41127,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 2105,
+              "price": 2415,
               "first_seen": "2026-07-23"
             }
           ],
@@ -41393,7 +41386,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2044,
+              "price": 2345,
               "first_seen": "2026-07-23"
             }
           ],
@@ -41999,7 +41992,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5795,
+              "price": 6650,
               "first_seen": "2026-07-23"
             }
           ],
@@ -42773,7 +42766,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1757,
+              "price": 2016,
               "first_seen": "2026-07-23"
             }
           ],
@@ -42966,7 +42959,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1635,
+              "price": 1876,
               "first_seen": "2026-07-23"
             }
           ],
@@ -42993,7 +42986,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2062,
+              "price": 2366,
               "first_seen": "2026-07-23"
             },
             {
@@ -43027,7 +43020,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2065,
+              "price": 2370,
               "first_seen": "2026-07-23"
             }
           ],
@@ -43756,7 +43749,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8052,
+              "price": 9240,
               "first_seen": "2026-09-10"
             }
           ],
@@ -43832,13 +43825,13 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 7259,
+              "price": 8330,
               "first_seen": "2026-09-24"
             },
             {
               "kind": "full",
               "ml": 125,
-              "price": 9363,
+              "price": 10744,
               "first_seen": "2026-09-24"
             }
           ],
@@ -45290,7 +45283,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 4470,
+              "price": 5130,
               "first_seen": "2026-07-23"
             },
             {
@@ -45341,7 +45334,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4036,
+              "price": 4788,
               "first_seen": "2026-07-23"
             },
             {
@@ -45375,13 +45368,13 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4543,
+              "price": 5390,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 4482,
+              "price": 5317,
               "first_seen": "2026-07-23"
             },
             {
@@ -45478,7 +45471,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4640,
+              "price": 5324,
               "first_seen": "2026-07-23"
             }
           ],
@@ -45505,7 +45498,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5418,
+              "price": 6217,
               "first_seen": "2026-07-26"
             }
           ],
@@ -46131,13 +46124,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2369,
+              "price": 2719,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 2189,
+              "price": 2512,
               "first_seen": "2026-07-23"
             }
           ],
@@ -46216,13 +46209,13 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 1280,
+              "price": 1519,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 1900,
+              "price": 2180,
               "first_seen": "2026-07-23"
             }
           ],
@@ -47260,13 +47253,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4067,
+              "price": 4668,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 5328,
+              "price": 6114,
               "first_seen": "2026-07-23"
             }
           ],
@@ -47767,7 +47760,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 11854,
+              "price": 17294,
               "first_seen": "2026-07-23"
             }
           ],
@@ -47857,7 +47850,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3764,
+              "price": 4466,
               "first_seen": "2026-07-23"
             }
           ],
@@ -47919,7 +47912,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5168,
+              "price": 6132,
               "first_seen": "2026-07-23"
             }
           ],
@@ -48004,7 +47997,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3706,
+              "price": 4253,
               "first_seen": "2026-07-23"
             }
           ],
@@ -48031,7 +48024,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1592,
+              "price": 1889,
               "first_seen": "2026-07-23"
             }
           ],
@@ -48191,8 +48184,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7700,
-              "first_seen": "2026-07-23"
+              "price": 6468,
+              "first_seen": "2026-07-23",
+              "prev_price": 7700
             }
           ],
           "image": "images/eau-de-toilette-valentino--feel22.jpg",
@@ -49457,7 +49451,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1448,
+              "price": 1718,
               "first_seen": "2026-07-23"
             }
           ],
@@ -49688,7 +49682,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 825,
+              "price": 946,
               "first_seen": "2026-10-04"
             }
           ],
@@ -49788,7 +49782,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 852,
+              "price": 1011,
               "first_seen": "2026-07-23"
             }
           ],
@@ -49815,7 +49809,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1002,
+              "price": 1189,
               "first_seen": "2026-07-23"
             }
           ],
@@ -49842,7 +49836,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1007,
+              "price": 1155,
               "first_seen": "2026-07-23"
             }
           ],
@@ -50289,7 +50283,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2965,
+              "price": 3402,
               "first_seen": "2026-07-23"
             }
           ],
@@ -50330,7 +50324,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1281,
+              "price": 1470,
               "first_seen": "2026-07-29"
             }
           ],
@@ -50391,7 +50385,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1800,
+              "price": 2065,
               "first_seen": "2026-09-24"
             }
           ],
@@ -50750,7 +50744,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1037,
+              "price": 1231,
               "first_seen": "2026-07-23"
             }
           ],
@@ -50804,7 +50798,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 983,
+              "price": 1128,
               "first_seen": "2026-07-23"
             }
           ],
@@ -50831,7 +50825,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 990,
+              "price": 1175,
               "first_seen": "2026-07-23"
             }
           ],
@@ -50858,7 +50852,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1035,
+              "price": 1228,
               "first_seen": "2026-07-23"
             }
           ],
@@ -50885,7 +50879,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 915,
+              "price": 1050,
               "first_seen": "2026-07-23"
             }
           ],
@@ -51040,7 +51034,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 946,
+              "price": 1123,
               "first_seen": "2026-07-23"
             }
           ],
@@ -51898,19 +51892,21 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5200,
-              "first_seen": "2026-07-23"
+              "price": 4368,
+              "first_seen": "2026-07-23",
+              "prev_price": 5200
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 6500,
-              "first_seen": "2026-07-23"
+              "price": 5642,
+              "first_seen": "2026-07-23",
+              "prev_price": 6500
             },
             {
               "kind": "full",
               "ml": 150,
-              "price": 5853,
+              "price": 6944,
               "first_seen": "2026-07-23"
             }
           ],
@@ -52094,7 +52090,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1599,
+              "price": 1799,
               "first_seen": "2026-07-23"
             }
           ],
@@ -52217,7 +52213,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1830,
+              "price": 2100,
               "first_seen": "2026-07-23"
             }
           ],
@@ -53351,7 +53347,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 5579,
+              "price": 6402,
               "first_seen": "2026-07-29"
             }
           ],
@@ -53466,8 +53462,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5155,
-              "first_seen": "2026-07-23"
+              "price": 4085,
+              "first_seen": "2026-07-23",
+              "prev_price": 5155
             }
           ],
           "image": "images/eros-energy-eau-de-parfum--feel22.jpg",
@@ -53718,7 +53715,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4525,
+              "price": 5193,
               "first_seen": "2026-08-15"
             },
             {
@@ -53793,13 +53790,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4995,
+              "price": 5557,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 6954,
+              "price": 7980,
               "first_seen": "2026-07-23"
             }
           ],
@@ -53995,7 +53992,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5563,
+              "price": 6384,
               "first_seen": "2026-07-30"
             },
             {
@@ -54406,7 +54403,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 891,
+              "price": 1057,
               "first_seen": "2026-07-23"
             }
           ],
@@ -54920,7 +54917,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 3043,
+              "price": 3492,
               "first_seen": "2026-08-02"
             }
           ],
@@ -54951,7 +54948,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1956,
+              "price": 2321,
               "first_seen": "2026-07-23"
             }
           ],
@@ -55081,7 +55078,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2061,
+              "price": 2365,
               "first_seen": "2026-07-23"
             }
           ],
@@ -55334,7 +55331,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1164,
+              "price": 1336,
               "first_seen": "2026-07-23"
             }
           ],
@@ -55361,7 +55358,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2164,
+              "price": 2484,
               "first_seen": "2026-07-23"
             }
           ],
@@ -55948,7 +55945,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3638,
+              "price": 4175,
               "first_seen": "2026-07-23"
             }
           ],
@@ -56864,7 +56861,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 10065,
+              "price": 11550,
               "first_seen": "2026-07-23"
             }
           ],
@@ -57135,7 +57132,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1149,
+              "price": 1319,
               "first_seen": "2026-07-23"
             }
           ],
@@ -57299,7 +57296,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1346,
+              "price": 1544,
               "first_seen": "2026-07-23"
             }
           ],
@@ -57896,7 +57893,7 @@
             {
               "kind": "full",
               "ml": 80,
-              "price": 1068,
+              "price": 1267,
               "first_seen": "2026-07-23"
             }
           ],
@@ -58768,7 +58765,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1874,
+              "price": 2223,
               "first_seen": "2026-07-23"
             }
           ],
@@ -59455,7 +59452,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 1562,
+              "price": 1792,
               "first_seen": "2026-07-23"
             }
           ],
@@ -60935,14 +60932,15 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1716,
+              "price": 1680,
               "first_seen": "2026-09-10",
+              "prev_price": 1716,
               "sold_since": "2026-11-11"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 2312,
+              "price": 2653,
               "first_seen": "2026-09-10"
             }
           ],
@@ -61080,7 +61078,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1708,
+              "price": 1960,
               "first_seen": "2026-07-23"
             }
           ],
@@ -61958,7 +61956,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 3106,
+              "price": 3564,
               "first_seen": "2026-07-23"
             },
             {
@@ -62056,7 +62054,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4758,
+              "price": 5460,
               "first_seen": "2026-07-23"
             }
           ],
@@ -62970,7 +62968,7 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 4172,
+              "price": 4788,
               "first_seen": "2026-07-23"
             },
             {
@@ -63072,7 +63070,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5299,
+              "price": 6069,
               "first_seen": "2026-07-23"
             }
           ],
@@ -63117,13 +63115,13 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 3904,
+              "price": 4480,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 4876,
+              "price": 5596,
               "first_seen": "2026-07-23"
             }
           ],
@@ -63326,7 +63324,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3154,
+              "price": 3619,
               "first_seen": "2026-07-23"
             }
           ],
@@ -63451,7 +63449,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6295,
+              "price": 7224,
               "first_seen": "2026-07-26"
             }
           ],
@@ -63614,7 +63612,7 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 4984,
+              "price": 5719,
               "first_seen": "2026-07-23"
             },
             {
@@ -63790,13 +63788,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5888,
+              "price": 6756,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 9871,
+              "price": 11711,
               "first_seen": "2026-07-23"
             }
           ],
@@ -64151,21 +64149,23 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 6600,
+              "price": 5788,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-11-18"
+              "prev_price": 6600,
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
               "ml": 125,
-              "price": 8200,
+              "price": 7189,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-11-18"
+              "prev_price": 8200,
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
               "ml": 150,
-              "price": 6372,
+              "price": 7560,
               "first_seen": "2026-07-23"
             }
           ],
@@ -64253,8 +64253,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6800,
-              "first_seen": "2026-07-23"
+              "price": 5954,
+              "first_seen": "2026-07-23",
+              "prev_price": 6800
             },
             {
               "kind": "full",
@@ -64305,14 +64306,14 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 6500,
+              "price": 5611,
               "first_seen": "2026-07-23",
-              "prev_price": 7700
+              "prev_price": 6765
             },
             {
               "kind": "full",
               "ml": 125,
-              "price": 7800,
+              "price": 6688,
               "first_seen": "2026-07-23",
               "prev_price": 8180
             }
@@ -64434,7 +64435,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6100,
+              "price": 7000,
               "first_seen": "2026-08-07"
             }
           ],
@@ -64765,13 +64766,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1330,
+              "price": 1526,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 2891,
+              "price": 3430,
               "first_seen": "2026-07-23"
             }
           ],
@@ -65110,7 +65111,7 @@
             {
               "kind": "full",
               "ml": 120,
-              "price": 5832,
+              "price": 7259,
               "first_seen": "2026-07-23"
             }
           ],
@@ -65390,7 +65391,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1784,
+              "price": 2117,
               "first_seen": "2026-07-23"
             }
           ],
@@ -65520,7 +65521,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2365,
+              "price": 2806,
               "first_seen": "2026-07-23"
             }
           ],
@@ -65961,7 +65962,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2416,
+              "price": 2772,
               "first_seen": "2026-07-23"
             }
           ],
@@ -66029,7 +66030,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 16175,
+              "price": 23599,
               "first_seen": "2026-07-23"
             }
           ],
@@ -66664,7 +66665,7 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 5614,
+              "price": 6443,
               "first_seen": "2026-07-23"
             }
           ],
@@ -66878,7 +66879,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1376,
+              "price": 1579,
               "first_seen": "2026-07-23"
             }
           ],
@@ -67243,7 +67244,7 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 5797,
+              "price": 6653,
               "first_seen": "2026-07-23"
             },
             {
@@ -67276,26 +67277,17 @@
           "offers": [
             {
               "kind": "full",
-              "ml": 50,
-              "price": 3067,
-              "first_seen": "2026-11-12",
-              "prev_price": 3398,
-              "sold_since": "2026-11-12"
-            },
-            {
-              "kind": "full",
               "ml": 90,
-              "price": 4119,
+              "price": 4887,
               "first_seen": "2026-07-23",
-              "prev_price": 4492
+              "prev_price": 5155
             },
             {
               "kind": "full",
               "ml": 150,
-              "price": 5534,
+              "price": 6566,
               "first_seen": "2026-07-23",
-              "prev_price": 5852,
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/guilty-eau-de-toilette--feel22.jpg",
@@ -67365,7 +67357,7 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 4740,
+              "price": 5624,
               "first_seen": "2026-07-26"
             }
           ],
@@ -67419,7 +67411,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5866,
+              "price": 6731,
               "first_seen": "2026-07-23"
             }
           ],
@@ -67905,7 +67897,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 14718,
+              "price": 18320,
               "first_seen": "2026-07-23"
             }
           ],
@@ -68036,7 +68028,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 828,
+              "price": 983,
               "first_seen": "2026-07-23"
             }
           ],
@@ -69363,7 +69355,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1946,
+              "price": 2233,
               "first_seen": "2026-07-23"
             }
           ],
@@ -70113,7 +70105,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2162,
+              "price": 2481,
               "first_seen": "2026-10-07"
             }
           ],
@@ -72259,7 +72251,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5031,
+              "price": 5774,
               "first_seen": "2026-07-23"
             },
             {
@@ -72338,13 +72330,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4636,
+              "price": 5320,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 150,
-              "price": 4346,
+              "price": 5156,
               "first_seen": "2026-07-23"
             }
           ],
@@ -72509,7 +72501,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 17875,
+              "price": 22250,
               "first_seen": "2026-10-27"
             }
           ],
@@ -73688,7 +73680,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2227,
+              "price": 2555,
               "first_seen": "2026-07-23"
             }
           ],
@@ -73747,7 +73739,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2227,
+              "price": 2555,
               "first_seen": "2026-07-23"
             }
           ],
@@ -73938,7 +73930,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 2213,
+              "price": 2540,
               "first_seen": "2026-07-23"
             }
           ],
@@ -74059,7 +74051,7 @@
             {
               "kind": "full",
               "ml": 110,
-              "price": 4103,
+              "price": 4708,
               "first_seen": "2026-07-23"
             }
           ],
@@ -74279,13 +74271,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 9556,
+              "price": 10966,
               "first_seen": "2026-07-26"
             },
             {
               "kind": "full",
               "ml": 150,
-              "price": 12078,
+              "price": 13860,
               "first_seen": "2026-07-26"
             }
           ],
@@ -74338,7 +74330,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 2318,
+              "price": 2660,
               "first_seen": "2026-07-26"
             }
           ],
@@ -74766,7 +74758,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 1942,
+              "price": 2229,
               "first_seen": "2026-07-23"
             }
           ],
@@ -74808,7 +74800,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 472,
+              "price": 560,
               "first_seen": "2026-07-23"
             }
           ],
@@ -74835,7 +74827,7 @@
             {
               "kind": "full",
               "ml": 110,
-              "price": 1787,
+              "price": 2051,
               "first_seen": "2026-07-23"
             }
           ],
@@ -75120,7 +75112,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 4758,
+              "price": 5460,
               "first_seen": "2026-07-23"
             }
           ],
@@ -75224,13 +75216,13 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 1830,
+              "price": 2100,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 125,
-              "price": 2318,
+              "price": 2660,
               "first_seen": "2026-07-23"
             },
             {
@@ -75243,7 +75235,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 3245,
+              "price": 3724,
               "first_seen": "2026-07-23"
             }
           ],
@@ -75580,7 +75572,7 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 920,
+              "price": 1092,
               "first_seen": "2026-07-23"
             }
           ],
@@ -75867,7 +75859,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2821,
+              "price": 3237,
               "first_seen": "2026-07-23"
             }
           ],
@@ -75912,7 +75904,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4676,
+              "price": 5366,
               "first_seen": "2026-07-23"
             }
           ],
@@ -75977,7 +75969,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4026,
+              "price": 4620,
               "first_seen": "2026-07-23"
             }
           ],
@@ -76163,7 +76155,7 @@
             {
               "kind": "full",
               "ml": 30,
-              "price": 1585,
+              "price": 1819,
               "first_seen": "2026-07-23"
             },
             {
@@ -77091,15 +77083,15 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 1136,
+              "price": 1348,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 88,
-              "price": 1852,
+              "price": 2125,
               "first_seen": "2026-08-17",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/in-white-eau-de-toilette--feel22.jpg",
@@ -77125,7 +77117,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 728,
+              "price": 864,
               "first_seen": "2026-07-23"
             }
           ],
@@ -77170,7 +77162,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 728,
+              "price": 864,
               "first_seen": "2026-07-23"
             }
           ],
@@ -77483,7 +77475,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1915,
+              "price": 2198,
               "first_seen": "2026-07-23"
             }
           ],
@@ -77555,7 +77547,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2133,
+              "price": 2531,
               "first_seen": "2026-07-23"
             }
           ],
@@ -78249,7 +78241,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2135,
+              "price": 2450,
               "first_seen": "2026-07-23"
             }
           ],
@@ -78298,7 +78290,7 @@
             {
               "kind": "full",
               "ml": 120,
-              "price": 2952,
+              "price": 3388,
               "first_seen": "2026-07-26"
             }
           ],
@@ -78471,7 +78463,7 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 7432,
+              "price": 8529,
               "first_seen": "2026-07-26"
             }
           ],
@@ -78823,7 +78815,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4574,
+              "price": 5249,
               "first_seen": "2026-07-23"
             },
             {
@@ -78836,7 +78828,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 6659,
+              "price": 7641,
               "first_seen": "2026-07-23"
             }
           ],
@@ -78977,7 +78969,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5185,
+              "price": 5950,
               "first_seen": "2026-07-23"
             }
           ],
@@ -79011,7 +79003,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6123,
+              "price": 7027,
               "first_seen": "2026-07-23"
             }
           ],
@@ -79337,7 +79329,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6185,
+              "price": 7098,
               "first_seen": "2026-07-23"
             }
           ],
@@ -79390,13 +79382,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5948,
+              "price": 7057,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 6324,
+              "price": 7258,
               "first_seen": "2026-07-23"
             }
           ],
@@ -80792,7 +80784,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1061,
+              "price": 1218,
               "first_seen": "2026-07-26"
             }
           ],
@@ -82095,7 +82087,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4239,
+              "price": 5276,
               "first_seen": "2026-09-03"
             }
           ],
@@ -82361,7 +82353,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1394,
+              "price": 1600,
               "first_seen": "2026-07-23"
             }
           ],
@@ -83119,13 +83111,13 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 1746,
+              "price": 2003,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 2331,
+              "price": 2675,
               "first_seen": "2026-07-23"
             }
           ],
@@ -83776,7 +83768,7 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 1929,
+              "price": 2289,
               "first_seen": "2026-07-23"
             }
           ],
@@ -84054,7 +84046,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4593,
+              "price": 5271,
               "first_seen": "2026-07-30"
             },
             {
@@ -84535,7 +84527,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 634,
+              "price": 728,
               "first_seen": "2026-07-23"
             }
           ],
@@ -84562,7 +84554,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 15015,
+              "price": 18690,
               "first_seen": "2026-07-23"
             }
           ],
@@ -86139,7 +86131,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1243,
+              "price": 1474,
               "first_seen": "2026-07-23"
             }
           ],
@@ -86280,7 +86272,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1590,
+              "price": 1800,
               "first_seen": "2026-07-23"
             }
           ],
@@ -86500,7 +86492,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1537,
+              "price": 1764,
               "first_seen": "2026-07-23"
             }
           ],
@@ -86725,7 +86717,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1555,
+              "price": 1763,
               "first_seen": "2026-07-23"
             }
           ],
@@ -87216,7 +87208,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 976,
+              "price": 1158,
               "first_seen": "2026-07-23"
             }
           ],
@@ -88784,7 +88776,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1402,
+              "price": 1663,
               "first_seen": "2026-07-23"
             }
           ],
@@ -88961,8 +88953,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6000,
-              "first_seen": "2026-07-23"
+              "price": 5174,
+              "first_seen": "2026-07-23",
+              "prev_price": 6000
             }
           ],
           "image": "images/kouros-eau-de-toilette--feel22.jpg",
@@ -89095,7 +89088,7 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 1601,
+              "price": 1837,
               "first_seen": "2026-11-06"
             }
           ],
@@ -89209,7 +89202,7 @@
             {
               "kind": "full",
               "ml": 175,
-              "price": 4046,
+              "price": 4642,
               "first_seen": "2026-07-23"
             }
           ],
@@ -89493,13 +89486,13 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 5139,
+              "price": 6097,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 4332,
+              "price": 4971,
               "first_seen": "2026-07-23"
             }
           ],
@@ -89701,7 +89694,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 2429,
+              "price": 2787,
               "first_seen": "2026-07-23"
             }
           ],
@@ -89831,7 +89824,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4547,
+              "price": 5218,
               "first_seen": "2026-07-23"
             }
           ],
@@ -89942,7 +89935,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2373,
+              "price": 2723,
               "first_seen": "2026-07-26"
             }
           ],
@@ -90113,7 +90106,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6832,
+              "price": 7840,
               "first_seen": "2026-07-23"
             }
           ],
@@ -90140,7 +90133,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6466,
+              "price": 7420,
               "first_seen": "2026-07-23"
             }
           ],
@@ -90167,7 +90160,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2473,
+              "price": 2838,
               "first_seen": "2026-07-23"
             }
           ],
@@ -90619,7 +90612,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5788,
+              "price": 6642,
               "first_seen": "2026-07-23"
             }
           ],
@@ -90748,7 +90741,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6588,
+              "price": 7560,
               "first_seen": "2026-07-23"
             }
           ],
@@ -90775,7 +90768,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 9882,
+              "price": 11340,
               "first_seen": "2026-07-23"
             }
           ],
@@ -90829,16 +90822,17 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 7000,
+              "price": 5915,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-11-18"
+              "prev_price": 7000,
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 7400,
+              "price": 6356,
               "first_seen": "2026-07-23",
-              "prev_price": 8700
+              "prev_price": 7294
             }
           ],
           "image": "images/l-homme-le-parfum--feel22.jpg",
@@ -90960,8 +90954,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 9500,
-              "first_seen": "2026-08-04"
+              "price": 8372,
+              "first_seen": "2026-08-04",
+              "prev_price": 9500
             }
           ],
           "image": "images/l-homme-prada-intense-edp--feel22.jpg",
@@ -91004,7 +90999,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1830,
+              "price": 2100,
               "first_seen": "2026-07-23"
             }
           ],
@@ -91148,7 +91143,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5939,
+              "price": 6815,
               "first_seen": "2026-07-23"
             }
           ],
@@ -91324,7 +91319,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1416,
+              "price": 1680,
               "first_seen": "2026-07-23"
             }
           ],
@@ -91511,7 +91506,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1952,
+              "price": 2240,
               "first_seen": "2026-07-23"
             }
           ],
@@ -92086,8 +92081,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8500,
-              "first_seen": "2026-08-04"
+              "price": 7508,
+              "first_seen": "2026-08-04",
+              "prev_price": 8500
             }
           ],
           "image": "images/la-nuit-de-l-homme--feel22.jpg",
@@ -95474,7 +95470,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 20020,
+              "price": 24920,
               "first_seen": "2026-10-23"
             }
           ],
@@ -95525,7 +95521,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 21935,
+              "price": 27303,
               "first_seen": "2026-07-23"
             }
           ],
@@ -95598,7 +95594,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 6832,
+              "price": 7840,
               "first_seen": "2026-07-23"
             }
           ],
@@ -95706,7 +95702,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 7052,
+              "price": 8092,
               "first_seen": "2026-07-26"
             }
           ],
@@ -96325,7 +96321,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 3965,
+              "price": 4550,
               "first_seen": "2026-07-26"
             }
           ],
@@ -96352,7 +96348,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 5376,
+              "price": 6378,
               "first_seen": "2026-07-23"
             }
           ],
@@ -96469,7 +96465,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 6711,
+              "price": 7701,
               "first_seen": "2026-07-23"
             }
           ],
@@ -96748,7 +96744,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 7214,
+              "price": 8278,
               "first_seen": "2026-07-23"
             }
           ],
@@ -96931,7 +96927,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 5605,
+              "price": 6432,
               "first_seen": "2026-07-23"
             },
             {
@@ -97014,7 +97010,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 6514,
+              "price": 7475,
               "first_seen": "2026-07-23"
             },
             {
@@ -97089,7 +97085,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 5416,
+              "price": 6215,
               "first_seen": "2026-07-23"
             }
           ],
@@ -97211,7 +97207,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1182,
+              "price": 1357,
               "first_seen": "2026-07-23"
             }
           ],
@@ -97238,7 +97234,7 @@
             {
               "kind": "full",
               "ml": 120,
-              "price": 3001,
+              "price": 3444,
               "first_seen": "2026-07-23"
             }
           ],
@@ -97698,7 +97694,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2338,
+              "price": 2682,
               "first_seen": "2026-07-23"
             }
           ],
@@ -97972,7 +97968,7 @@
             {
               "kind": "full",
               "ml": 30,
-              "price": 1342,
+              "price": 1540,
               "first_seen": "2026-07-23"
             },
             {
@@ -97985,13 +97981,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3054,
+              "price": 3504,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 3451,
+              "price": 3961,
               "first_seen": "2026-07-23"
             }
           ],
@@ -98157,7 +98153,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3171,
+              "price": 3639,
               "first_seen": "2026-07-23"
             }
           ],
@@ -98205,13 +98201,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3028,
+              "price": 3475,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 3723,
+              "price": 4273,
               "first_seen": "2026-07-23"
             }
           ],
@@ -100013,7 +100009,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2851,
+              "price": 3272,
               "first_seen": "2026-07-23"
             }
           ],
@@ -100054,7 +100050,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1830,
+              "price": 2100,
               "first_seen": "2026-07-23"
             }
           ],
@@ -100273,13 +100269,13 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 18840,
+              "price": 27489,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 21878,
+              "price": 31921,
               "first_seen": "2026-07-23"
             }
           ],
@@ -100730,8 +100726,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8500,
-              "first_seen": "2026-07-23"
+              "price": 7462,
+              "first_seen": "2026-07-23",
+              "prev_price": 8500
             }
           ],
           "image": "images/luna-rossa-black-eau-de-parfum--feel22.jpg",
@@ -100804,8 +100801,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7000,
-              "first_seen": "2026-07-23"
+              "price": 6097,
+              "first_seen": "2026-07-23",
+              "prev_price": 7000
             },
             {
               "kind": "full",
@@ -101502,7 +101500,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1667,
+              "price": 1912,
               "first_seen": "2026-07-23"
             }
           ],
@@ -101602,7 +101600,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1525,
+              "price": 1750,
               "first_seen": "2026-07-23"
             }
           ],
@@ -101810,7 +101808,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1574,
+              "price": 1806,
               "first_seen": "2026-07-23"
             }
           ],
@@ -102189,7 +102187,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2099,
+              "price": 2491,
               "first_seen": "2026-07-23"
             }
           ],
@@ -102255,7 +102253,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1534,
+              "price": 1820,
               "first_seen": "2026-07-23"
             }
           ],
@@ -102572,7 +102570,7 @@
             {
               "kind": "full",
               "ml": 85,
-              "price": 1760,
+              "price": 2020,
               "first_seen": "2026-07-23"
             }
           ],
@@ -102599,7 +102597,7 @@
             {
               "kind": "full",
               "ml": 85,
-              "price": 1652,
+              "price": 1960,
               "first_seen": "2026-07-23"
             }
           ],
@@ -102626,7 +102624,7 @@
             {
               "kind": "full",
               "ml": 85,
-              "price": 1760,
+              "price": 2020,
               "first_seen": "2026-07-23"
             }
           ],
@@ -102653,7 +102651,7 @@
             {
               "kind": "full",
               "ml": 85,
-              "price": 1713,
+              "price": 2033,
               "first_seen": "2026-07-23"
             }
           ],
@@ -102916,7 +102914,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 1487,
+              "price": 1707,
               "first_seen": "2026-07-23"
             },
             {
@@ -102965,7 +102963,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2135,
+              "price": 2450,
               "first_seen": "2026-10-23"
             }
           ],
@@ -103126,7 +103124,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4110,
+              "price": 4717,
               "first_seen": "2026-07-26"
             }
           ],
@@ -103239,7 +103237,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5717,
+              "price": 6560,
               "first_seen": "2026-07-23"
             }
           ],
@@ -103281,7 +103279,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6721,
+              "price": 7713,
               "first_seen": "2026-07-23"
             }
           ],
@@ -103369,7 +103367,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3192,
+              "price": 3662,
               "first_seen": "2026-07-26"
             }
           ],
@@ -103706,7 +103704,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4552,
+              "price": 5223,
               "first_seen": "2026-07-30"
             }
           ],
@@ -104129,7 +104127,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 815,
+              "price": 935,
               "first_seen": "2026-07-23"
             }
           ],
@@ -104349,7 +104347,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 436,
+              "price": 500,
               "first_seen": "2026-07-26"
             }
           ],
@@ -105087,7 +105085,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1888,
+              "price": 2240,
               "first_seen": "2026-07-23"
             }
           ],
@@ -105328,7 +105326,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2998,
+              "price": 3440,
               "first_seen": "2026-07-23"
             }
           ],
@@ -106658,7 +106656,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3171,
+              "price": 3639,
               "first_seen": "2026-07-23"
             }
           ],
@@ -107824,13 +107822,13 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4441,
+              "price": 5096,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 5169,
+              "price": 5932,
               "first_seen": "2026-07-23"
             }
           ],
@@ -107880,13 +107878,13 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4967,
+              "price": 5699,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 6504,
+              "price": 7717,
               "first_seen": "2026-07-23"
             }
           ],
@@ -109222,7 +109220,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1870,
+              "price": 2146,
               "first_seen": "2026-07-23"
             }
           ],
@@ -109414,7 +109412,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1016,
+              "price": 1166,
               "first_seen": "2026-07-23"
             }
           ],
@@ -109946,7 +109944,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3046,
+              "price": 3496,
               "first_seen": "2026-07-23"
             }
           ],
@@ -110055,7 +110053,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3111,
+              "price": 3570,
               "first_seen": "2026-07-26"
             }
           ],
@@ -110538,13 +110536,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3440,
+              "price": 3948,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 150,
-              "price": 4676,
+              "price": 5366,
               "first_seen": "2026-07-23"
             }
           ],
@@ -110589,13 +110587,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3355,
+              "price": 3850,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 150,
-              "price": 4144,
+              "price": 4756,
               "first_seen": "2026-07-23"
             }
           ],
@@ -111196,7 +111194,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1953,
+              "price": 2317,
               "first_seen": "2026-07-23"
             }
           ],
@@ -111515,7 +111513,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2157,
+              "price": 2475,
               "first_seen": "2026-07-23"
             }
           ],
@@ -112317,7 +112315,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1063,
+              "price": 1219,
               "first_seen": "2026-07-23"
             }
           ],
@@ -112982,14 +112980,16 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 7600,
-              "first_seen": "2026-07-23"
+              "price": 6672,
+              "first_seen": "2026-07-23",
+              "prev_price": 7600
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 8700,
-              "first_seen": "2026-07-23"
+              "price": 7700,
+              "first_seen": "2026-07-23",
+              "prev_price": 8700
             }
           ],
           "image": "images/myslf-eau-de-parfum--feel22.jpg",
@@ -113122,14 +113122,16 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 6700,
-              "first_seen": "2026-11-05"
+              "price": 5915,
+              "first_seen": "2026-11-05",
+              "prev_price": 6700
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 7950,
-              "first_seen": "2026-11-05"
+              "price": 7007,
+              "first_seen": "2026-11-05",
+              "prev_price": 7950
             }
           ],
           "image": "images/myslf-edt-intense--feel22.jpg",
@@ -113328,14 +113330,16 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 8300,
-              "first_seen": "2026-11-04"
+              "price": 7280,
+              "first_seen": "2026-11-04",
+              "prev_price": 8300
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 9400,
-              "first_seen": "2026-07-23"
+              "price": 8177,
+              "first_seen": "2026-07-23",
+              "prev_price": 9400
             }
           ],
           "image": "images/myslf-le-parfum--feel22.jpg",
@@ -114367,7 +114371,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 641,
+              "price": 760,
               "first_seen": "2026-07-23"
             }
           ],
@@ -114408,7 +114412,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 811,
+              "price": 931,
               "first_seen": "2026-07-23"
             }
           ],
@@ -115326,7 +115330,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1709,
+              "price": 1961,
               "first_seen": "2026-07-23"
             }
           ],
@@ -115841,7 +115845,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 675,
+              "price": 774,
               "first_seen": "2026-07-23"
             }
           ],
@@ -116145,7 +116149,7 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 1416,
+              "price": 1680,
               "first_seen": "2026-07-23"
             }
           ],
@@ -116337,7 +116341,7 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 1470,
+              "price": 1687,
               "first_seen": "2026-07-23"
             }
           ],
@@ -116696,7 +116700,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2020,
+              "price": 2318,
               "first_seen": "2026-07-23"
             }
           ],
@@ -118340,7 +118344,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8705,
+              "price": 12700,
               "first_seen": "2026-11-09"
             }
           ],
@@ -118522,7 +118526,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 9517,
+              "price": 13886,
               "first_seen": "2026-07-23"
             },
             {
@@ -119618,7 +119622,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 2483,
+              "price": 2849,
               "first_seen": "2026-09-24"
             }
           ],
@@ -119742,7 +119746,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4486,
+              "price": 5148,
               "first_seen": "2026-07-23"
             },
             {
@@ -122249,7 +122253,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1427,
+              "price": 1638,
               "first_seen": "2026-07-23"
             }
           ],
@@ -122722,7 +122726,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 11760,
+              "price": 17157,
               "first_seen": "2026-07-23"
             }
           ],
@@ -122908,7 +122912,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2109,
+              "price": 2421,
               "first_seen": "2026-07-23"
             }
           ],
@@ -122935,7 +122939,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 651,
+              "price": 748,
               "first_seen": "2026-07-23"
             }
           ],
@@ -122989,7 +122993,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6055,
+              "price": 6948,
               "first_seen": "2026-07-23"
             },
             {
@@ -123023,13 +123027,13 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4892,
+              "price": 5614,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 6027,
+              "price": 6916,
               "first_seen": "2026-07-23"
             },
             {
@@ -123205,7 +123209,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1586,
+              "price": 1820,
               "first_seen": "2026-07-23"
             },
             {
@@ -123267,14 +123271,16 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 3900,
-              "first_seen": "2026-07-23"
+              "price": 3458,
+              "first_seen": "2026-07-23",
+              "prev_price": 3900
             },
             {
               "kind": "full",
               "ml": 125,
-              "price": 5150,
-              "first_seen": "2026-07-23"
+              "price": 4550,
+              "first_seen": "2026-07-23",
+              "prev_price": 5150
             }
           ],
           "image": "images/only-the-brave-street-eau-de-toilette--feel22.jpg",
@@ -123671,7 +123677,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3128,
+              "price": 3711,
               "first_seen": "2026-07-23"
             }
           ],
@@ -124339,7 +124345,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 908,
+              "price": 1042,
               "first_seen": "2026-07-23"
             }
           ],
@@ -124943,7 +124949,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1952,
+              "price": 2240,
               "first_seen": "2026-07-23"
             }
           ],
@@ -124970,7 +124976,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1769,
+              "price": 2099,
               "first_seen": "2026-07-23"
             }
           ],
@@ -126185,7 +126191,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1075,
+              "price": 1233,
               "first_seen": "2026-07-23"
             }
           ],
@@ -126266,7 +126272,7 @@
             {
               "kind": "full",
               "ml": 85,
-              "price": 714,
+              "price": 819,
               "first_seen": "2026-07-23"
             }
           ],
@@ -126499,7 +126505,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 21960,
+              "price": 25200,
               "first_seen": "2026-07-23"
             },
             {
@@ -126697,7 +126703,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 969,
+              "price": 1112,
               "first_seen": "2026-07-23"
             }
           ],
@@ -126757,7 +126763,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 952,
+              "price": 1092,
               "first_seen": "2026-07-23"
             }
           ],
@@ -126817,7 +126823,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 948,
+              "price": 1124,
               "first_seen": "2026-07-23"
             }
           ],
@@ -126863,7 +126869,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 9747,
+              "price": 11564,
               "first_seen": "2026-07-23"
             }
           ],
@@ -127173,7 +127179,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1524,
+              "price": 1749,
               "first_seen": "2026-07-23"
             }
           ],
@@ -127312,13 +127318,13 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 12811,
+              "price": 18692,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 22054,
+              "price": 32177,
               "first_seen": "2026-07-23"
             }
           ],
@@ -127457,7 +127463,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 915,
+              "price": 1050,
               "first_seen": "2026-07-23"
             }
           ],
@@ -127744,7 +127750,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 785,
+              "price": 931,
               "first_seen": "2026-07-23"
             }
           ],
@@ -127771,7 +127777,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1375,
+              "price": 1578,
               "first_seen": "2026-07-23"
             }
           ],
@@ -129305,7 +129311,7 @@
             {
               "kind": "full",
               "ml": 120,
-              "price": 5434,
+              "price": 6764,
               "first_seen": "2026-07-23"
             }
           ],
@@ -129332,7 +129338,7 @@
             {
               "kind": "full",
               "ml": 88,
-              "price": 2260,
+              "price": 2681,
               "first_seen": "2026-07-23"
             }
           ],
@@ -129359,7 +129365,7 @@
             {
               "kind": "full",
               "ml": 88,
-              "price": 2106,
+              "price": 2416,
               "first_seen": "2026-07-23"
             }
           ],
@@ -129582,7 +129588,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5544,
+              "price": 6362,
               "first_seen": "2026-07-23"
             }
           ],
@@ -129771,7 +129777,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5490,
+              "price": 6300,
               "first_seen": "2026-07-23"
             }
           ],
@@ -129812,7 +129818,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2560,
+              "price": 2937,
               "first_seen": "2026-07-23"
             }
           ],
@@ -129839,7 +129845,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 791,
+              "price": 907,
               "first_seen": "2026-07-23"
             }
           ],
@@ -130876,7 +130882,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3738,
+              "price": 4290,
               "first_seen": "2026-10-04"
             }
           ],
@@ -131134,13 +131140,13 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 3717,
+              "price": 4410,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 5124,
+              "price": 5880,
               "first_seen": "2026-07-23"
             }
           ],
@@ -131543,7 +131549,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3902,
+              "price": 4477,
               "first_seen": "2026-07-23"
             }
           ],
@@ -132487,7 +132493,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 538,
+              "price": 638,
               "first_seen": "2026-07-23"
             }
           ],
@@ -132566,7 +132572,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 9565,
+              "price": 10976,
               "first_seen": "2026-07-23"
             }
           ],
@@ -132760,7 +132766,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2458,
+              "price": 2821,
               "first_seen": "2026-07-23"
             }
           ],
@@ -132992,13 +132998,13 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 3499,
+              "price": 4151,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 125,
-              "price": 4627,
+              "price": 5489,
               "first_seen": "2026-07-23"
             }
           ],
@@ -133213,7 +133219,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2478,
+              "price": 2843,
               "first_seen": "2026-07-23"
             }
           ],
@@ -133315,7 +133321,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2242,
+              "price": 2573,
               "first_seen": "2026-07-23"
             }
           ],
@@ -133468,7 +133474,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2921,
+              "price": 3352,
               "first_seen": "2026-07-23"
             },
             {
@@ -133563,7 +133569,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3910,
+              "price": 4487,
               "first_seen": "2026-07-23"
             }
           ],
@@ -133604,7 +133610,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 5490,
+              "price": 6300,
               "first_seen": "2026-07-23"
             }
           ],
@@ -134026,13 +134032,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1251,
+              "price": 1435,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 200,
-              "price": 1647,
+              "price": 1890,
               "first_seen": "2026-07-23"
             }
           ],
@@ -134247,7 +134253,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 2349,
+              "price": 2695,
               "first_seen": "2026-07-23"
             }
           ],
@@ -134274,7 +134280,7 @@
             {
               "kind": "full",
               "ml": 80,
-              "price": 1474,
+              "price": 1749,
               "first_seen": "2026-07-23"
             }
           ],
@@ -134301,7 +134307,7 @@
             {
               "kind": "full",
               "ml": 80,
-              "price": 1474,
+              "price": 1749,
               "first_seen": "2026-07-23"
             }
           ],
@@ -134328,7 +134334,7 @@
             {
               "kind": "full",
               "ml": 80,
-              "price": 1474,
+              "price": 1749,
               "first_seen": "2026-07-23"
             }
           ],
@@ -134518,7 +134524,7 @@
             {
               "kind": "full",
               "ml": 80,
-              "price": 1474,
+              "price": 1749,
               "first_seen": "2026-07-23"
             }
           ],
@@ -136485,7 +136491,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 443,
+              "price": 508,
               "first_seen": "2026-07-23"
             }
           ],
@@ -136660,7 +136666,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 786,
+              "price": 932,
               "first_seen": "2026-07-23"
             }
           ],
@@ -136728,7 +136734,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3803,
+              "price": 4365,
               "first_seen": "2026-07-23"
             }
           ],
@@ -137146,7 +137152,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 1704,
+              "price": 1956,
               "first_seen": "2026-07-23"
             }
           ],
@@ -137336,7 +137342,7 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 744,
+              "price": 854,
               "first_seen": "2026-07-23"
             }
           ],
@@ -137414,7 +137420,7 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 799,
+              "price": 917,
               "first_seen": "2026-07-23"
             }
           ],
@@ -137842,7 +137848,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2301,
+              "price": 2730,
               "first_seen": "2026-07-23"
             }
           ],
@@ -138300,7 +138306,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1356,
+              "price": 1609,
               "first_seen": "2026-07-23"
             }
           ],
@@ -138626,7 +138632,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 854,
+              "price": 980,
               "first_seen": "2026-07-23"
             }
           ],
@@ -138653,7 +138659,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 770,
+              "price": 883,
               "first_seen": "2026-07-23"
             }
           ],
@@ -138710,7 +138716,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 4025,
+              "price": 4619,
               "first_seen": "2026-07-23"
             }
           ],
@@ -138737,7 +138743,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1003,
+              "price": 1190,
               "first_seen": "2026-07-23"
             }
           ],
@@ -139176,7 +139182,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 881,
+              "price": 1046,
               "first_seen": "2026-07-23"
             }
           ],
@@ -139255,7 +139261,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 833,
+              "price": 956,
               "first_seen": "2026-07-23"
             }
           ],
@@ -139533,7 +139539,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1922,
+              "price": 2205,
               "first_seen": "2026-09-17"
             }
           ],
@@ -139560,7 +139566,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1837,
+              "price": 2108,
               "first_seen": "2026-07-23"
             }
           ],
@@ -140075,7 +140081,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1296,
+              "price": 1487,
               "first_seen": "2026-07-23"
             }
           ],
@@ -140253,7 +140259,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 305,
+              "price": 350,
               "first_seen": "2026-07-23"
             }
           ],
@@ -140280,7 +140286,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 448,
+              "price": 514,
               "first_seen": "2026-07-23"
             }
           ],
@@ -140632,7 +140638,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 743,
+              "price": 853,
               "first_seen": "2026-07-23"
             }
           ],
@@ -140685,7 +140691,7 @@
             {
               "kind": "full",
               "ml": 120,
-              "price": 6741,
+              "price": 8391,
               "first_seen": "2026-07-23"
             }
           ],
@@ -140807,7 +140813,7 @@
             {
               "kind": "full",
               "ml": 120,
-              "price": 7482,
+              "price": 9313,
               "first_seen": "2026-10-07"
             }
           ],
@@ -143480,7 +143486,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1369,
+              "price": 1571,
               "first_seen": "2026-07-23"
             }
           ],
@@ -143787,7 +143793,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7763,
+              "price": 9664,
               "first_seen": "2026-07-23"
             }
           ],
@@ -143814,7 +143820,7 @@
             {
               "kind": "full",
               "ml": 80,
-              "price": 3420,
+              "price": 3924,
               "first_seen": "2026-07-23"
             }
           ],
@@ -143925,7 +143931,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1652,
+              "price": 1960,
               "first_seen": "2026-07-23"
             }
           ],
@@ -144403,7 +144409,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 877,
+              "price": 1007,
               "first_seen": "2026-07-23"
             }
           ],
@@ -145120,7 +145126,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 760,
+              "price": 872,
               "first_seen": "2026-07-23"
             }
           ],
@@ -146008,7 +146014,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2192,
+              "price": 2516,
               "first_seen": "2026-07-23"
             }
           ],
@@ -146476,13 +146482,13 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 7008,
+              "price": 8042,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 9150,
+              "price": 10500,
               "first_seen": "2026-07-23"
             },
             {
@@ -146556,7 +146562,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 10801,
+              "price": 12394,
               "first_seen": "2026-07-23"
             }
           ],
@@ -146629,13 +146635,13 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 11718,
+              "price": 13447,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 14262,
+              "price": 16366,
               "first_seen": "2026-07-23"
             }
           ],
@@ -146729,7 +146735,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 11662,
+              "price": 13383,
               "first_seen": "2026-07-26"
             },
             {
@@ -146809,7 +146815,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7320,
+              "price": 8400,
               "first_seen": "2026-07-23"
             }
           ],
@@ -146883,7 +146889,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3532,
+              "price": 4190,
               "first_seen": "2026-07-23"
             }
           ],
@@ -147073,7 +147079,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6753,
+              "price": 7749,
               "first_seen": "2026-07-23"
             }
           ],
@@ -147126,7 +147132,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6714,
+              "price": 7704,
               "first_seen": "2026-07-23"
             },
             {
@@ -147394,7 +147400,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 289,
+              "price": 343,
               "first_seen": "2026-07-23"
             },
             {
@@ -147799,7 +147805,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 1713,
+              "price": 1966,
               "first_seen": "2026-07-23"
             }
           ],
@@ -147826,7 +147832,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 1606,
+              "price": 1842,
               "first_seen": "2026-07-23"
             }
           ],
@@ -147968,7 +147974,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1403,
+              "price": 1610,
               "first_seen": "2026-07-23"
             }
           ],
@@ -148768,7 +148774,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2596,
+              "price": 2979,
               "first_seen": "2026-07-23"
             }
           ],
@@ -148822,7 +148828,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 976,
+              "price": 1120,
               "first_seen": "2026-07-23"
             }
           ],
@@ -149852,7 +149858,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1762,
+              "price": 2022,
               "first_seen": "2026-07-23"
             }
           ],
@@ -149896,7 +149902,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1536,
+              "price": 1823,
               "first_seen": "2026-07-23"
             }
           ],
@@ -150066,7 +150072,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1030,
+              "price": 1222,
               "first_seen": "2026-07-23"
             }
           ],
@@ -150093,7 +150099,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1030,
+              "price": 1222,
               "first_seen": "2026-07-23"
             }
           ],
@@ -150120,7 +150126,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1017,
+              "price": 1168,
               "first_seen": "2026-07-23"
             }
           ],
@@ -150147,7 +150153,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1017,
+              "price": 1168,
               "first_seen": "2026-07-23"
             }
           ],
@@ -150434,7 +150440,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 964,
+              "price": 1106,
               "first_seen": "2026-07-23"
             }
           ],
@@ -152928,7 +152934,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1753,
+              "price": 2012,
               "first_seen": "2026-07-23"
             }
           ],
@@ -153012,7 +153018,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 16612,
+              "price": 24236,
               "first_seen": "2026-07-23"
             }
           ],
@@ -153067,7 +153073,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2033,
+              "price": 2332,
               "first_seen": "2026-07-23"
             }
           ],
@@ -153149,7 +153155,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 1157,
+              "price": 1327,
               "first_seen": "2026-07-23"
             }
           ],
@@ -153183,13 +153189,13 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 878,
+              "price": 1008,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 300,
-              "price": 1252,
+              "price": 1436,
               "first_seen": "2026-07-23"
             }
           ],
@@ -155297,7 +155303,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 668,
+              "price": 792,
               "first_seen": "2026-07-23"
             }
           ],
@@ -155324,7 +155330,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 759,
+              "price": 871,
               "first_seen": "2026-07-23"
             }
           ],
@@ -156269,8 +156275,9 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 6580,
-              "first_seen": "2026-07-23"
+              "price": 5943,
+              "first_seen": "2026-07-23",
+              "prev_price": 6580
             }
           ],
           "image": "images/spicebomb-extreme-viktor-rolf--feel22.jpg",
@@ -156533,8 +156540,9 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 4250,
-              "first_seen": "2026-07-23"
+              "price": 3731,
+              "first_seen": "2026-07-23",
+              "prev_price": 4250
             },
             {
               "kind": "full",
@@ -156594,7 +156602,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1402,
+              "price": 1609,
               "first_seen": "2026-07-23"
             }
           ],
@@ -156636,7 +156644,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1161,
+              "price": 1378,
               "first_seen": "2026-07-23"
             }
           ],
@@ -156681,7 +156689,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1037,
+              "price": 1190,
               "first_seen": "2026-07-23"
             }
           ],
@@ -156726,7 +156734,7 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 1313,
+              "price": 1506,
               "first_seen": "2026-07-23"
             }
           ],
@@ -156786,7 +156794,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1465,
+              "price": 1681,
               "first_seen": "2026-07-23"
             }
           ],
@@ -157026,7 +157034,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1002,
+              "price": 1149,
               "first_seen": "2026-07-23"
             }
           ],
@@ -157253,7 +157261,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 2686,
+              "price": 3083,
               "first_seen": "2026-07-23"
             }
           ],
@@ -157961,14 +157969,16 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5900,
-              "first_seen": "2026-07-23"
+              "price": 5187,
+              "first_seen": "2026-07-23",
+              "prev_price": 5900
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 7500,
-              "first_seen": "2026-07-23"
+              "price": 6727,
+              "first_seen": "2026-07-23",
+              "prev_price": 7500
             }
           ],
           "image": "images/stronger-with-you-absolutely--feel22.jpg",
@@ -158076,8 +158086,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7900,
-              "first_seen": "2026-10-14"
+              "price": 6719,
+              "first_seen": "2026-10-14",
+              "prev_price": 7900
             }
           ],
           "image": "images/stronger-with-you-eau-de-parfum-amber--feel22.jpg",
@@ -158476,14 +158487,16 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 6300,
-              "first_seen": "2026-11-02"
+              "price": 5551,
+              "first_seen": "2026-11-02",
+              "prev_price": 6300
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 8400,
-              "first_seen": "2026-11-02"
+              "price": 7417,
+              "first_seen": "2026-11-02",
+              "prev_price": 8400
             }
           ],
           "image": "images/stronger-with-you-parfum--feel22.jpg",
@@ -159920,7 +159933,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3294,
+              "price": 3780,
               "first_seen": "2026-09-10"
             }
           ],
@@ -160062,13 +160075,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2729,
+              "price": 3238,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 150,
-              "price": 3428,
+              "price": 3934,
               "first_seen": "2026-07-23"
             }
           ],
@@ -160156,7 +160169,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1859,
+              "price": 2134,
               "first_seen": "2026-07-23"
             }
           ],
@@ -160203,7 +160216,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2048,
+              "price": 2351,
               "first_seen": "2026-07-23"
             }
           ],
@@ -160458,7 +160471,7 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 2971,
+              "price": 3409,
               "first_seen": "2026-09-17"
             }
           ],
@@ -160489,13 +160502,13 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1764,
+              "price": 2024,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 150,
-              "price": 2206,
+              "price": 2531,
               "first_seen": "2026-07-23"
             }
           ],
@@ -160547,7 +160560,7 @@
             {
               "kind": "full",
               "ml": 250,
-              "price": 353,
+              "price": 405,
               "first_seen": "2026-07-23"
             }
           ],
@@ -161191,7 +161204,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1241,
+              "price": 1424,
               "first_seen": "2026-07-23"
             }
           ],
@@ -161306,7 +161319,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 661,
+              "price": 784,
               "first_seen": "2026-07-23"
             }
           ],
@@ -161905,7 +161918,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2013,
+              "price": 2310,
               "first_seen": "2026-07-23"
             }
           ],
@@ -162805,7 +162818,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 12810,
+              "price": 14700,
               "first_seen": "2026-07-23"
             }
           ],
@@ -162927,7 +162940,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 4837,
+              "price": 5551,
               "first_seen": "2026-08-02"
             },
             {
@@ -162940,7 +162953,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 7136,
+              "price": 8189,
               "first_seen": "2026-08-02"
             }
           ],
@@ -163136,7 +163149,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 611,
+              "price": 725,
               "first_seen": "2026-07-23"
             }
           ],
@@ -163163,7 +163176,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7979,
+              "price": 9932,
               "first_seen": "2026-07-23"
             }
           ],
@@ -164002,7 +164015,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4667,
+              "price": 5355,
               "first_seen": "2026-07-23"
             }
           ],
@@ -164153,7 +164166,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4636,
+              "price": 5320,
               "first_seen": "2026-07-23"
             }
           ],
@@ -164781,7 +164794,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4728,
+              "price": 5885,
               "first_seen": "2026-09-03"
             }
           ],
@@ -164811,7 +164824,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6608,
+              "price": 7840,
               "first_seen": "2026-07-23"
             }
           ],
@@ -165038,7 +165051,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4167,
+              "price": 4943,
               "first_seen": "2026-07-23"
             }
           ],
@@ -165065,7 +165078,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1403,
+              "price": 1610,
               "first_seen": "2026-07-23"
             }
           ],
@@ -165412,7 +165425,7 @@
             {
               "kind": "full",
               "ml": 80,
-              "price": 1891,
+              "price": 2170,
               "first_seen": "2026-07-23"
             }
           ],
@@ -166988,13 +167001,13 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 15459,
+              "price": 22554,
               "first_seen": "2026-08-15"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 20740,
+              "price": 30260,
               "first_seen": "2026-08-15"
             }
           ],
@@ -167247,7 +167260,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2969,
+              "price": 3408,
               "first_seen": "2026-07-23"
             }
           ],
@@ -168295,7 +168308,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2506,
+              "price": 2876,
               "first_seen": "2026-07-23"
             }
           ],
@@ -168395,13 +168408,13 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 2397,
+              "price": 2751,
               "first_seen": "2026-07-26"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 3457,
+              "price": 3968,
               "first_seen": "2026-07-26"
             }
           ],
@@ -168458,7 +168471,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1319,
+              "price": 1513,
               "first_seen": "2026-07-23"
             }
           ],
@@ -168934,7 +168947,7 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 2527,
+              "price": 2899,
               "first_seen": "2026-07-30"
             }
           ],
@@ -169012,7 +169025,7 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 2257,
+              "price": 2678,
               "first_seen": "2026-07-23"
             }
           ],
@@ -169120,7 +169133,7 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 2494,
+              "price": 2862,
               "first_seen": "2026-07-23"
             }
           ],
@@ -169284,7 +169297,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1903,
+              "price": 2184,
               "first_seen": "2026-07-23"
             }
           ],
@@ -169643,7 +169656,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 5785,
+              "price": 6639,
               "first_seen": "2026-07-23"
             },
             {
@@ -169677,7 +169690,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2989,
+              "price": 3430,
               "first_seen": "2026-07-23"
             }
           ],
@@ -169989,8 +170002,9 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 7200,
-              "first_seen": "2026-07-23"
+              "price": 6238,
+              "first_seen": "2026-07-23",
+              "prev_price": 7200
             },
             {
               "kind": "full",
@@ -170112,14 +170126,16 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 7200,
-              "first_seen": "2026-07-23"
+              "price": 6047,
+              "first_seen": "2026-07-23",
+              "prev_price": 7200
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 8800,
-              "first_seen": "2026-07-23"
+              "price": 7683,
+              "first_seen": "2026-07-23",
+              "prev_price": 8800
             }
           ],
           "image": "images/uomo-born-in-roma-intense--feel22.jpg",
@@ -170163,8 +170179,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7200,
-              "first_seen": "2026-07-23"
+              "price": 6279,
+              "first_seen": "2026-07-23",
+              "prev_price": 7200
             }
           ],
           "image": "images/uomo-born-in-roma-rockstud-noir-eau-de-toilette--feel22.jpg",
@@ -170311,7 +170328,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2474,
+              "price": 2839,
               "first_seen": "2026-07-23"
             }
           ],
@@ -170426,7 +170443,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3511,
+              "price": 4165,
               "first_seen": "2026-07-23"
             }
           ],
@@ -170567,14 +170584,16 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 7200,
-              "first_seen": "2026-07-23"
+              "price": 6370,
+              "first_seen": "2026-07-23",
+              "prev_price": 7200
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 10200,
-              "first_seen": "2026-07-23"
+              "price": 9001,
+              "first_seen": "2026-07-23",
+              "prev_price": 10200
             }
           ],
           "image": "images/uomo-intense--feel22.jpg",
@@ -170708,7 +170727,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2497,
+              "price": 2866,
               "first_seen": "2026-07-23"
             }
           ],
@@ -171525,13 +171544,13 @@
             {
               "kind": "full",
               "ml": 40,
-              "price": 944,
+              "price": 1084,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 90,
-              "price": 1643,
+              "price": 1886,
               "first_seen": "2026-07-23"
             }
           ],
@@ -171801,7 +171820,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 683,
+              "price": 784,
               "first_seen": "2026-07-23"
             }
           ],
@@ -172421,7 +172440,7 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 802,
+              "price": 920,
               "first_seen": "2026-07-23"
             }
           ],
@@ -173670,7 +173689,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1150,
+              "price": 1320,
               "first_seen": "2026-07-23"
             }
           ],
@@ -173716,7 +173735,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1111,
+              "price": 1275,
               "first_seen": "2026-07-23"
             }
           ],
@@ -174975,7 +174994,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3956,
+              "price": 4540,
               "first_seen": "2026-07-23"
             }
           ],
@@ -175431,8 +175450,9 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 5656,
-              "first_seen": "2026-07-23"
+              "price": 4770,
+              "first_seen": "2026-07-23",
+              "prev_price": 5656
             }
           ],
           "image": "images/viktor-rolf-spicebomb-eau-de-toilette--feel22.jpg",
@@ -175473,9 +175493,9 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 5008,
+              "price": 5942,
               "first_seen": "2026-07-23",
-              "prev_price": 7729
+              "prev_price": 6518
             }
           ],
           "image": "images/viktor-rolf-spicebomb-night-vision-eau-de-toilette--feel22.jpg",
@@ -175903,7 +175923,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5355,
+              "price": 6666,
               "first_seen": "2026-07-23"
             }
           ],
@@ -175957,7 +175977,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1342,
+              "price": 1540,
               "first_seen": "2026-07-23"
             }
           ],
@@ -176019,7 +176039,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 905,
+              "price": 1039,
               "first_seen": "2026-07-23"
             }
           ],
@@ -177527,7 +177547,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 2135,
+              "price": 2450,
               "first_seen": "2026-07-23"
             }
           ],
@@ -177637,7 +177657,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3889,
+              "price": 4463,
               "first_seen": "2026-07-23"
             }
           ],
@@ -177922,13 +177942,13 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 1818,
+              "price": 2086,
               "first_seen": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 2358,
+              "price": 2706,
               "first_seen": "2026-07-23"
             }
           ],
@@ -178275,7 +178295,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 1818,
+              "price": 2086,
               "first_seen": "2026-07-23"
             }
           ],
@@ -178460,7 +178480,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 2623,
+              "price": 3010,
               "first_seen": "2026-08-15"
             }
           ],
@@ -178684,7 +178704,7 @@
             {
               "kind": "full",
               "ml": 88,
-              "price": 570,
+              "price": 654,
               "first_seen": "2026-07-26"
             }
           ],
@@ -179135,7 +179155,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2312,
+              "price": 2653,
               "first_seen": "2026-07-23"
             }
           ],
@@ -179618,7 +179638,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1826,
+              "price": 2096,
               "first_seen": "2026-07-23"
             }
           ],
@@ -179837,7 +179857,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2273,
+              "price": 2608,
               "first_seen": "2026-07-23"
             }
           ],
@@ -179921,7 +179941,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 1739,
+              "price": 1995,
               "first_seen": "2026-07-23"
             }
           ],
@@ -180972,7 +180992,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3721,
+              "price": 4270,
               "first_seen": "2026-07-23"
             }
           ],
@@ -181124,7 +181144,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2643,
+              "price": 3032,
               "first_seen": "2026-07-23"
             }
           ],
@@ -181151,7 +181171,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2544,
+              "price": 2919,
               "first_seen": "2026-07-23"
             }
           ],
@@ -181270,7 +181290,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2414,
+              "price": 2771,
               "first_seen": "2026-07-23"
             }
           ],
@@ -181421,14 +181441,16 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 7250,
-              "first_seen": "2026-07-23"
+              "price": 6370,
+              "first_seen": "2026-07-23",
+              "prev_price": 7250
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 8700,
-              "first_seen": "2026-07-23"
+              "price": 7552,
+              "first_seen": "2026-07-23",
+              "prev_price": 8700
             },
             {
               "kind": "full",
@@ -181650,14 +181672,16 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 8300,
-              "first_seen": "2026-07-23"
+              "price": 7280,
+              "first_seen": "2026-07-23",
+              "prev_price": 8300
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 9300,
-              "first_seen": "2026-07-23"
+              "price": 8169,
+              "first_seen": "2026-07-23",
+              "prev_price": 9300
             }
           ],
           "image": "images/y-edp-intense--feel22.jpg",
@@ -181897,8 +181921,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 9800,
-              "first_seen": "2026-07-23"
+              "price": 8610,
+              "first_seen": "2026-07-23",
+              "prev_price": 9800
             },
             {
               "kind": "full",
@@ -183897,13 +183922,13 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 3755,
+              "price": 4455,
               "first_seen": "2026-08-02"
             },
             {
               "kind": "full",
               "ml": 125,
-              "price": 4130,
+              "price": 4900,
               "first_seen": "2026-08-02"
             }
           ],
@@ -185190,7 +185215,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1606,
+              "price": 1842,
               "first_seen": "2026-08-04"
             }
           ],
@@ -185217,7 +185242,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 1891,
+              "price": 2170,
               "first_seen": "2026-08-04"
             }
           ],
@@ -190429,7 +190454,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2184,
+              "price": 2506,
               "first_seen": "2026-08-07"
             }
           ],
@@ -194772,7 +194797,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1524,
+              "price": 1749,
               "first_seen": "2026-08-13"
             }
           ],
@@ -197205,7 +197230,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 4590,
+              "price": 5267,
               "first_seen": "2026-09-03"
             }
           ],
@@ -198034,7 +198059,7 @@
             {
               "kind": "full",
               "ml": 20,
-              "price": 582,
+              "price": 668,
               "first_seen": "2026-08-15"
             }
           ],
@@ -198061,7 +198086,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1753,
+              "price": 2012,
               "first_seen": "2026-08-15"
             }
           ],
@@ -198088,7 +198113,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1281,
+              "price": 1470,
               "first_seen": "2026-08-15"
             }
           ],
@@ -198115,13 +198140,13 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 1669,
+              "price": 1915,
               "first_seen": "2026-08-15"
             },
             {
               "kind": "full",
               "ml": 90,
-              "price": 2120,
+              "price": 2433,
               "first_seen": "2026-08-15"
             }
           ],
@@ -198148,13 +198173,13 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 1947,
+              "price": 2234,
               "first_seen": "2026-08-15"
             },
             {
               "kind": "full",
               "ml": 75,
-              "price": 2379,
+              "price": 2730,
               "first_seen": "2026-08-15"
             }
           ],
@@ -198181,7 +198206,7 @@
             {
               "kind": "full",
               "ml": 120,
-              "price": 6735,
+              "price": 8384,
               "first_seen": "2026-08-15"
             }
           ],
@@ -198208,7 +198233,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2189,
+              "price": 2512,
               "first_seen": "2026-08-15"
             }
           ],
@@ -198322,7 +198347,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2189,
+              "price": 2512,
               "first_seen": "2026-08-16"
             }
           ],
@@ -198349,7 +198374,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1952,
+              "price": 2240,
               "first_seen": "2026-08-16"
             }
           ],
@@ -198728,7 +198753,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1850,
+              "price": 2122,
               "first_seen": "2026-08-17"
             }
           ],
@@ -198755,7 +198780,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1057,
+              "price": 1212,
               "first_seen": "2026-08-17"
             }
           ],
@@ -198782,7 +198807,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 14111,
+              "price": 20587,
               "first_seen": "2026-08-17"
             },
             {
@@ -198843,7 +198868,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 671,
+              "price": 770,
               "first_seen": "2026-08-17"
             }
           ],
@@ -202120,7 +202145,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2379,
+              "price": 2730,
               "first_seen": "2026-08-26"
             }
           ],
@@ -202147,7 +202172,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 649,
+              "price": 745,
               "first_seen": "2026-08-26"
             }
           ],
@@ -202174,7 +202199,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3592,
+              "price": 4122,
               "first_seen": "2026-08-26"
             }
           ],
@@ -202201,7 +202226,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1596,
+              "price": 1831,
               "first_seen": "2026-08-26"
             }
           ],
@@ -203970,7 +203995,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2497,
+              "price": 2866,
               "first_seen": "2026-08-30"
             }
           ],
@@ -206013,7 +206038,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2643,
+              "price": 3032,
               "first_seen": "2026-09-03"
             }
           ],
@@ -206074,7 +206099,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 974,
+              "price": 1117,
               "first_seen": "2026-09-03"
             }
           ],
@@ -206101,7 +206126,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 1669,
+              "price": 1915,
               "first_seen": "2026-09-03"
             }
           ],
@@ -206128,7 +206153,7 @@
             {
               "kind": "full",
               "ml": 88,
-              "price": 1669,
+              "price": 1915,
               "first_seen": "2026-09-03"
             }
           ],
@@ -206155,7 +206180,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4239,
+              "price": 5276,
               "first_seen": "2026-09-03"
             }
           ],
@@ -206182,7 +206207,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4239,
+              "price": 5276,
               "first_seen": "2026-09-03"
             }
           ],
@@ -207545,7 +207570,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 834,
+              "price": 958,
               "first_seen": "2026-09-05"
             }
           ],
@@ -209533,7 +209558,7 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 2380,
+              "price": 2731,
               "first_seen": "2026-09-10"
             }
           ],
@@ -209560,7 +209585,7 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 802,
+              "price": 920,
               "first_seen": "2026-09-10"
             }
           ],
@@ -209814,7 +209839,7 @@
             {
               "kind": "full",
               "ml": 90,
-              "price": 1476,
+              "price": 1694,
               "first_seen": "2026-09-13"
             }
           ],
@@ -209841,7 +209866,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 582,
+              "price": 668,
               "first_seen": "2026-09-13"
             }
           ],
@@ -209875,7 +209900,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 505,
+              "price": 580,
               "first_seen": "2026-09-13"
             }
           ],
@@ -213138,7 +213163,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1220,
+              "price": 1400,
               "first_seen": "2026-09-24"
             }
           ],
@@ -213165,7 +213190,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4026,
+              "price": 4620,
               "first_seen": "2026-09-24"
             }
           ],
@@ -213253,7 +213278,7 @@
             {
               "kind": "full",
               "ml": 118,
-              "price": 1769,
+              "price": 2030,
               "first_seen": "2026-09-24"
             }
           ],
@@ -213280,8 +213305,9 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 5800,
-              "first_seen": "2026-09-24"
+              "price": 5096,
+              "first_seen": "2026-09-24",
+              "prev_price": 5800
             }
           ],
           "image": "images/hypnose-homme-eau-de-toilette--feel22.jpg",
@@ -213307,7 +213333,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1464,
+              "price": 1680,
               "first_seen": "2026-09-24"
             }
           ],
@@ -216211,7 +216237,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 2135,
+              "price": 2450,
               "first_seen": "2026-10-04"
             }
           ],
@@ -216712,7 +216738,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1202,
+              "price": 1379,
               "first_seen": "2026-10-29"
             }
           ],
@@ -218170,7 +218196,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1271,
+              "price": 1459,
               "first_seen": "2026-10-14"
             }
           ],
@@ -218367,8 +218393,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7200,
-              "first_seen": "2026-10-15"
+              "price": 6255,
+              "first_seen": "2026-10-15",
+              "prev_price": 7200
             }
           ],
           "image": "images/emporio-armani-stronger-with-you-powerfully-eau-de-parfum--feel22.jpg",
@@ -219278,7 +219305,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 472,
+              "price": 542,
               "first_seen": "2026-10-22"
             }
           ],
@@ -219332,7 +219359,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 1193,
+              "price": 1369,
               "first_seen": "2026-10-23"
             }
           ],
@@ -219366,7 +219393,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 4026,
+              "price": 4620,
               "first_seen": "2026-10-23"
             }
           ],
@@ -219393,7 +219420,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2257,
+              "price": 2590,
               "first_seen": "2026-10-23"
             }
           ],
@@ -219420,7 +219447,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4880,
+              "price": 5600,
               "first_seen": "2026-10-23"
             }
           ],
@@ -219454,7 +219481,7 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 4026,
+              "price": 4620,
               "first_seen": "2026-10-23"
             }
           ],
@@ -221166,7 +221193,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 976,
+              "price": 1120,
               "first_seen": "2026-10-31"
             }
           ],
@@ -221193,7 +221220,7 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 802,
+              "price": 920,
               "first_seen": "2026-10-31"
             }
           ],
@@ -221866,14 +221893,16 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 6900,
-              "first_seen": "2026-11-02"
+              "price": 6097,
+              "first_seen": "2026-11-02",
+              "prev_price": 6900
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 8700,
-              "first_seen": "2026-11-02"
+              "price": 7473,
+              "first_seen": "2026-11-02",
+              "prev_price": 8700
             }
           ],
           "image": "images/giorgio-armani-acqua-di-gi-profondo-parfum--feel22.jpg",
@@ -222426,7 +222455,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 6830,
+              "price": 7837,
               "first_seen": "2026-11-04"
             }
           ],
@@ -222453,7 +222482,7 @@
             {
               "kind": "full",
               "ml": 120,
-              "price": 6176,
+              "price": 7688,
               "first_seen": "2026-11-06"
             }
           ],
@@ -222909,7 +222938,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2660,
+              "price": 3052,
               "first_seen": "2026-11-09"
             }
           ],
@@ -222936,7 +222965,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 3689,
+              "price": 4234,
               "first_seen": "2026-11-09"
             }
           ],
@@ -223663,7 +223692,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7239,
+              "price": 8308,
               "first_seen": "2026-11-12"
             }
           ],
@@ -223690,7 +223719,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4718,
+              "price": 5414,
               "first_seen": "2026-11-12"
             }
           ],
