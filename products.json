@@ -3359,7 +3359,7 @@
               "ml": 100,
               "price": 20100,
               "first_seen": "2026-09-18",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/accento-edp--mazaya.jpg",
@@ -3872,24 +3872,25 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 6700,
+              "price": 5025,
               "first_seen": "2026-10-14",
-              "sold_since": "2026-11-18"
+              "prev_price": 6700,
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
               "ml": 75,
-              "price": 6700,
+              "price": 4355,
               "first_seen": "2026-10-14",
-              "sold_since": "2026-11-18"
+              "prev_price": 6700,
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 7800,
               "first_seen": "2026-10-14",
-              "prev_price": 9100,
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
@@ -20233,7 +20234,7 @@
               "ml": 50,
               "price": 6700,
               "first_seen": "2026-10-12",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
@@ -20295,8 +20296,8 @@
               "kind": "full",
               "ml": 50,
               "price": 6200,
-              "first_seen": "2026-11-12",
-              "sold_since": "2026-11-12"
+              "first_seen": "2026-11-19",
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
@@ -20304,7 +20305,7 @@
               "price": 8800,
               "first_seen": "2026-10-18",
               "prev_price": 9300,
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/bad-boy-cobalt-elixir--mazaya.jpg",
@@ -20527,7 +20528,7 @@
               "price": 6600,
               "first_seen": "2026-07-23",
               "prev_price": 7600,
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/bad-boy-le-parfum-edp--mazaya.jpg",
@@ -23135,8 +23136,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 7900,
-              "first_seen": "2026-07-23"
+              "price": 5925,
+              "first_seen": "2026-07-23",
+              "prev_price": 7900
             }
           ],
           "image": "images/biroma-uomo-man--mazaya.jpg",
@@ -28034,8 +28036,9 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 6700,
-              "first_seen": "2026-07-23"
+              "price": 4355,
+              "first_seen": "2026-07-23",
+              "prev_price": 6700
             }
           ],
           "image": "images/born-in-roma-eau-de-toilette--mazaya.jpg",
@@ -28141,15 +28144,17 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 6700,
+              "price": 5025,
               "first_seen": "2026-07-23",
+              "prev_price": 6700,
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 7900,
-              "first_seen": "2026-07-23"
+              "price": 5925,
+              "first_seen": "2026-07-23",
+              "prev_price": 7900
             }
           ],
           "image": "images/born-in-roma-purple-uomo--mazaya.jpg",
@@ -28175,8 +28180,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8800,
-              "first_seen": "2026-07-23"
+              "price": 6600,
+              "first_seen": "2026-07-23",
+              "prev_price": 8800
             }
           ],
           "image": "images/born-in-roma-uomo-extradose--mazaya.jpg",
@@ -28244,14 +28250,16 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 6700,
-              "first_seen": "2026-07-23"
+              "price": 4355,
+              "first_seen": "2026-07-23",
+              "prev_price": 6700
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 7900,
-              "first_seen": "2026-07-23"
+              "price": 5135,
+              "first_seen": "2026-07-23",
+              "prev_price": 7900
             }
           ],
           "image": "images/born-in-roma-uomo-green-stravaganza--mazaya.jpg",
@@ -28691,7 +28699,7 @@
               "ml": 100,
               "price": 8200,
               "first_seen": "2026-08-19",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/boss-the-scent-intense--mazaya.jpg",
@@ -36712,28 +36720,27 @@
               "kind": "full",
               "ml": 60,
               "price": 5600,
-              "first_seen": "2026-11-12",
-              "sold_since": "2026-11-12"
+              "first_seen": "2026-11-19",
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
               "ml": 75,
               "price": 7200,
               "first_seen": "2026-07-23",
-              "prev_price": 8800,
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
               "ml": 110,
               "price": 7000,
-              "first_seen": "2026-11-12",
-              "sold_since": "2026-11-12"
+              "first_seen": "2026-11-19",
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
               "ml": 125,
-              "price": 8800,
+              "price": 5720,
               "first_seen": "2026-11-18",
               "prev_price": 9800,
               "sold_since": "2026-11-18"
@@ -39171,7 +39178,7 @@
               "ml": 100,
               "price": 33900,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/creed--mazaya.jpg",
@@ -42127,14 +42134,14 @@
               "price": 4850,
               "first_seen": "2026-07-23",
               "prev_price": 5850,
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
               "ml": 200,
               "price": 7355,
               "first_seen": "2026-11-12",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/defy-parfum--mazaya.jpg",
@@ -49306,15 +49313,15 @@
               "kind": "full",
               "ml": 30,
               "price": 10400,
-              "first_seen": "2026-11-12",
-              "sold_since": "2026-11-12"
+              "first_seen": "2026-11-19",
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
               "ml": 75,
               "price": 20000,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/edp-palais-bourbon--mazaya.jpg",
@@ -53652,8 +53659,8 @@
               "kind": "full",
               "ml": 50,
               "price": 5700,
-              "first_seen": "2026-11-12",
-              "sold_since": "2026-11-12"
+              "first_seen": "2026-11-19",
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
@@ -53666,8 +53673,8 @@
               "kind": "full",
               "ml": 200,
               "price": 9800,
-              "first_seen": "2026-11-12",
-              "sold_since": "2026-11-12"
+              "first_seen": "2026-11-19",
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/eros-flame--mazaya.jpg",
@@ -62162,14 +62169,16 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 6500,
-              "first_seen": "2026-07-23"
+              "price": 4225,
+              "first_seen": "2026-07-23",
+              "prev_price": 6500
             },
             {
               "kind": "full",
               "ml": 125,
-              "price": 7800,
-              "first_seen": "2026-07-23"
+              "price": 5070,
+              "first_seen": "2026-07-23",
+              "prev_price": 7800
             }
           ],
           "image": "images/ga-new-code-edt-v--mazaya.jpg",
@@ -62247,7 +62256,7 @@
               "ml": 100,
               "price": 15800,
               "first_seen": "2026-09-21",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/ganymede--mazaya.jpg",
@@ -63422,7 +63431,7 @@
               "ml": 60,
               "price": 5955,
               "first_seen": "2026-11-17",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
@@ -63761,14 +63770,14 @@
               "ml": 100,
               "price": 8535,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
               "ml": 200,
               "price": 12675,
-              "first_seen": "2026-11-12",
-              "sold_since": "2026-11-12"
+              "first_seen": "2026-11-19",
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/gentleman-society-edp--mazaya.jpg",
@@ -64199,8 +64208,9 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 7800,
-              "first_seen": "2026-08-02"
+              "price": 5070,
+              "first_seen": "2026-08-02",
+              "prev_price": 7800
             },
             {
               "kind": "full",
@@ -65085,7 +65095,7 @@
               "ml": 100,
               "price": 25500,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/gold-immortals--mazaya.jpg",
@@ -78276,8 +78286,8 @@
               "kind": "full",
               "ml": 120,
               "price": 4230,
-              "first_seen": "2026-11-12",
-              "sold_since": "2026-11-12"
+              "first_seen": "2026-11-19",
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/intense-edt--mazaya.jpg",
@@ -78593,7 +78603,7 @@
               "ml": 100,
               "price": 35500,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/interlude-53-man--mazaya.jpg",
@@ -78909,15 +78919,15 @@
               "kind": "full",
               "ml": 50,
               "price": 6600,
-              "first_seen": "2026-11-12",
-              "sold_since": "2026-11-12"
+              "first_seen": "2026-11-19",
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 8600,
               "first_seen": "2026-08-19",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/invictus-elixir--mazaya.jpg",
@@ -90920,8 +90930,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 9200,
-              "first_seen": "2026-07-23"
+              "price": 6900,
+              "first_seen": "2026-07-23",
+              "prev_price": 9200
             }
           ],
           "image": "images/l-homme-prada-intense-edp--mazaya.jpg",
@@ -92171,8 +92182,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8300,
+              "price": 6225,
               "first_seen": "2026-09-29",
+              "prev_price": 8300,
               "sold_since": "2026-11-16"
             }
           ],
@@ -96192,7 +96204,7 @@
               "ml": 60,
               "price": 28000,
               "first_seen": "2026-10-19",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
@@ -96200,7 +96212,7 @@
               "price": 30400,
               "first_seen": "2026-10-19",
               "prev_price": 39700,
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/le-gemme-tygar--mazaya.jpg",
@@ -100741,8 +100753,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8200,
-              "first_seen": "2026-07-23"
+              "price": 5330,
+              "first_seen": "2026-07-23",
+              "prev_price": 8200
             }
           ],
           "image": "images/luna-rossa-black-eau-de-parfum--mazaya.jpg",
@@ -100859,14 +100872,16 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 6800,
-              "first_seen": "2026-10-14"
+              "price": 4420,
+              "first_seen": "2026-10-14",
+              "prev_price": 6800
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 8200,
+              "price": 5330,
               "first_seen": "2026-07-23",
+              "prev_price": 8200,
               "sold_since": "2026-11-18"
             }
           ],
@@ -101058,7 +101073,7 @@
               "ml": 100,
               "price": 27900,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/lust-in-paradise--mazaya.jpg",
@@ -103295,7 +103310,7 @@
               "ml": 60,
               "price": 9450,
               "first_seen": "2026-10-19",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
@@ -103308,7 +103323,7 @@
               "ml": 150,
               "price": 15100,
               "first_seen": "2026-10-19",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/man-in-black-le-parfum--mazaya.jpg",
@@ -103430,7 +103445,7 @@
               "ml": 100,
               "price": 10900,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/man-rain-essence-edp--mazaya.jpg",
@@ -103604,7 +103619,7 @@
               "ml": 60,
               "price": 9450,
               "first_seen": "2026-10-19",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
@@ -103612,7 +103627,7 @@
               "price": 10900,
               "first_seen": "2026-07-23",
               "prev_price": 11100,
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
@@ -103620,7 +103635,7 @@
               "price": 13000,
               "first_seen": "2026-07-23",
               "prev_price": 15100,
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/man-wood-essence--mazaya.jpg",
@@ -113002,8 +113017,9 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 7400,
-              "first_seen": "2026-07-23"
+              "price": 4810,
+              "first_seen": "2026-07-23",
+              "prev_price": 7400
             },
             {
               "kind": "full",
@@ -113266,14 +113282,16 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 8200,
-              "first_seen": "2026-07-23"
+              "price": 5330,
+              "first_seen": "2026-07-23",
+              "prev_price": 8200
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 9700,
-              "first_seen": "2026-07-23"
+              "price": 7275,
+              "first_seen": "2026-07-23",
+              "prev_price": 9700
             }
           ],
           "image": "images/myslf-l-absolu--mazaya.jpg",
@@ -122420,7 +122438,7 @@
               "ml": 88,
               "price": 22200,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/oj-parfum--mazaya.jpg",
@@ -123748,14 +123766,14 @@
               "ml": 50,
               "price": 15100,
               "first_seen": "2026-11-05",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 23300,
-              "first_seen": "2026-11-12",
-              "sold_since": "2026-11-12"
+              "first_seen": "2026-11-19",
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/opera-edp--mazaya.jpg",
@@ -128890,21 +128908,23 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 6500,
-              "first_seen": "2026-11-14"
+              "price": 4875,
+              "first_seen": "2026-11-14",
+              "prev_price": 6500
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 8900,
-              "first_seen": "2026-07-23"
+              "price": 6675,
+              "first_seen": "2026-07-23",
+              "prev_price": 8900
             },
             {
               "kind": "full",
               "ml": 150,
               "price": 8500,
               "first_seen": "2026-08-02",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/paradigme--mazaya.jpg",
@@ -128991,8 +129011,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 9900,
-              "first_seen": "2026-08-07"
+              "price": 7425,
+              "first_seen": "2026-08-07",
+              "prev_price": 9900
             }
           ],
           "image": "images/paradigme-le-parfum--mazaya.jpg",
@@ -133872,7 +133893,7 @@
               "ml": 50,
               "price": 7400,
               "first_seen": "2026-10-19",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
@@ -141454,7 +141475,7 @@
               "ml": 100,
               "price": 35500,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/reflection-45-man--mazaya.jpg",
@@ -147270,7 +147291,7 @@
             }
           ],
           "image": "images/scandal-intense-men--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/scandal-intense-men"
+          "product_url": "https://mazaya.eg/en/scandal-intense-men-100-ml"
         },
         {
           "name": "faces",
@@ -157949,14 +157970,16 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5700,
-              "first_seen": "2026-07-23"
+              "price": 3705,
+              "first_seen": "2026-07-23",
+              "prev_price": 5700
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 7500,
-              "first_seen": "2026-07-23"
+              "price": 5625,
+              "first_seen": "2026-07-23",
+              "prev_price": 7500
             }
           ],
           "image": "images/stronger-with-you-absolutely--mazaya.jpg",
@@ -158030,8 +158053,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 8000,
-              "first_seen": "2026-07-23"
+              "price": 6000,
+              "first_seen": "2026-07-23",
+              "prev_price": 8000
             }
           ],
           "image": "images/stronger-with-you-eau-de-parfum-amber--mazaya.jpg",
@@ -158244,16 +158268,18 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 5600,
+              "price": 4200,
               "first_seen": "2026-11-16",
-              "sold_since": "2026-11-18"
+              "prev_price": 5600,
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 7200,
+              "price": 5400,
               "first_seen": "2026-07-23",
-              "sold_since": "2026-11-18"
+              "prev_price": 7200,
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/stronger-with-you-intensely--mazaya.jpg",
@@ -158418,14 +158444,16 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 6100,
-              "first_seen": "2026-07-23"
+              "price": 3965,
+              "first_seen": "2026-07-23",
+              "prev_price": 6100
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 8300,
-              "first_seen": "2026-07-23"
+              "price": 6225,
+              "first_seen": "2026-07-23",
+              "prev_price": 8300
             }
           ],
           "image": "images/stronger-with-you-parfum--mazaya.jpg",
@@ -161933,7 +161961,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1656,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/teriaq--mazaya.jpg",
@@ -164889,7 +164918,7 @@
               "price": 6100,
               "first_seen": "2026-07-23",
               "prev_price": 7500,
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
@@ -165855,15 +165884,15 @@
               "kind": "full",
               "ml": 30,
               "price": 9500,
-              "first_seen": "2026-11-12",
-              "sold_since": "2026-11-12"
+              "first_seen": "2026-11-19",
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 15800,
               "first_seen": "2026-08-07",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/tilia--mazaya.jpg",
@@ -170207,15 +170236,17 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 6700,
-              "first_seen": "2026-07-23"
+              "price": 4355,
+              "first_seen": "2026-07-23",
+              "prev_price": 6700
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 7900,
+              "price": 5135,
               "first_seen": "2026-08-27",
-              "sold_since": "2026-11-18"
+              "prev_price": 7900,
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/uomo-born-in-roma-yellow-dream--mazaya.jpg",
@@ -170606,20 +170637,22 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 7200,
+              "price": 7000,
               "first_seen": "2026-11-07",
-              "sold_since": "2026-11-18"
+              "prev_price": 7200,
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 8800,
+              "price": 8000,
               "first_seen": "2026-09-14",
+              "prev_price": 8800,
               "sold_since": "2026-11-18"
             }
           ],
           "image": "images/uomo-intense--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/valentino-bir-uomo-edp-intense-man"
+          "product_url": "https://mazaya.eg/en/uomo-intense-edp-100ml"
         },
         {
           "name": "Mohamed Mohie",
@@ -181470,21 +181503,23 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 7000,
-              "first_seen": "2026-08-23"
+              "price": 4550,
+              "first_seen": "2026-08-23",
+              "prev_price": 7000
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 8700,
-              "first_seen": "2026-07-23"
+              "price": 6525,
+              "first_seen": "2026-07-23",
+              "prev_price": 8700
             },
             {
               "kind": "full",
               "ml": 150,
               "price": 8700,
               "first_seen": "2026-09-20",
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/y-eau-de-parfum--mazaya.jpg",
@@ -181583,8 +181618,9 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 6300,
-              "first_seen": "2026-07-23"
+              "price": 4095,
+              "first_seen": "2026-07-23",
+              "prev_price": 6300
             },
             {
               "kind": "full",
@@ -181694,14 +181730,16 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 8000,
-              "first_seen": "2026-07-23"
+              "price": 5200,
+              "first_seen": "2026-07-23",
+              "prev_price": 8000
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 9200,
-              "first_seen": "2026-07-23"
+              "price": 6900,
+              "first_seen": "2026-07-23",
+              "prev_price": 9200
             }
           ],
           "image": "images/y-edp-intense--mazaya.jpg",
@@ -181863,14 +181901,16 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 6500,
-              "first_seen": "2026-07-23"
+              "price": 4875,
+              "first_seen": "2026-07-23",
+              "prev_price": 6500
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 7800,
-              "first_seen": "2026-07-23"
+              "price": 5850,
+              "first_seen": "2026-07-23",
+              "prev_price": 7800
             }
           ],
           "image": "images/y-iced-cologne--mazaya.jpg",
@@ -181945,16 +181985,14 @@
               "ml": 60,
               "price": 7800,
               "first_seen": "2026-07-23",
-              "prev_price": 8200,
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 8800,
               "first_seen": "2026-07-23",
-              "prev_price": 9800,
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             },
             {
               "kind": "full",
@@ -183943,15 +183981,8 @@
               "kind": "full",
               "ml": 75,
               "price": 4785,
-              "first_seen": "2026-11-12",
-              "sold_since": "2026-11-12"
-            },
-            {
-              "kind": "full",
-              "ml": 125,
-              "price": 5900,
-              "first_seen": "2026-11-12",
-              "sold_since": "2026-11-12"
+              "first_seen": "2026-11-19",
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/polo-red-eau-de-parfum--mazaya.jpg",
@@ -217227,7 +217258,7 @@
               "price": 10800,
               "first_seen": "2026-10-12",
               "prev_price": 12800,
-              "sold_since": "2026-11-18"
+              "sold_since": "2026-11-19"
             }
           ],
           "image": "images/k-by-eau-de-parfum--mazaya.jpg",
