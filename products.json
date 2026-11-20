@@ -16603,7 +16603,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1069,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-11-20"
             }
           ],
           "image": "images/asad-bourbon--mazaya.jpg",
@@ -32210,6 +32211,20 @@
           ],
           "image": "images/challenge--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/challenge-assaf"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2700,
+              "first_seen": "2026-11-20"
+            }
+          ],
+          "image": "images/challenge--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/assaf-challenge-perfume-100ml"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -96825,7 +96840,8 @@
               "kind": "full",
               "ml": 125,
               "price": 9800,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-11-20"
             }
           ],
           "image": "images/le-male-elixir-absolu-intense--mazaya.jpg",
@@ -100959,8 +100975,7 @@
               "kind": "full",
               "ml": 100,
               "price": 8200,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-11-18"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/luna-rossa-ocean-eau-de-parfum--mazaya.jpg",
@@ -103709,22 +103724,20 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 10900,
+              "price": 11100,
               "first_seen": "2026-07-23",
-              "prev_price": 11100,
-              "sold_since": "2026-11-20"
+              "prev_price": 13200
             },
             {
               "kind": "full",
               "ml": 150,
-              "price": 13000,
+              "price": 15100,
               "first_seen": "2026-07-23",
-              "prev_price": 15100,
               "sold_since": "2026-11-20"
             }
           ],
           "image": "images/man-wood-essence--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/bvlgari-man-wood-essence-edp123"
+          "product_url": "https://mazaya.eg/en/bvlgari-man-wood-essence-edp-100ml"
         },
         {
           "name": "Ahmed Abdel Kareem",
@@ -136507,6 +136520,20 @@
           ],
           "image": "images/pure-crystal--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/pure-crystal-lattafa-perfumes"
+        },
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2420,
+              "first_seen": "2026-11-20"
+            }
+          ],
+          "image": "images/pure-crystal--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/lattafa-pure-crystal-perfume-spray-100ml"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -158389,19 +158416,17 @@
               "kind": "full",
               "ml": 50,
               "price": 5600,
-              "first_seen": "2026-11-16",
-              "sold_since": "2026-11-20"
+              "first_seen": "2026-11-16"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 7200,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-11-20"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/stronger-with-you-intensely--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/emporio-armani-stronger-with-you-intensely-30ml"
+          "product_url": "https://mazaya.eg/en/emporio-armani-stronger-with-you-intensely-edp123455-html12"
         },
         {
           "name": "faces",
@@ -227680,6 +227705,142 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "charisma-homme-eau-de-parfum",
+      "name_ar": "Charisma Homme Eau de Parfum",
+      "name_en": "Charisma Homme Eau de Parfum",
+      "brand": "Zimaia",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/charisma-homme-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1395,
+              "first_seen": "2026-11-20"
+            }
+          ],
+          "image": "images/charisma-homme-eau-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/zimaia-charisma-homme-eau-de-parfum-100ml-for-men"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "ysl-la-nuit-de-l-homme-eau-de-parfum",
+      "name_ar": "YSL La Nuit de l'Homme Eau de Parfum",
+      "name_en": "YSL La Nuit de l'Homme Eau de Parfum",
+      "brand": "Yves Saint Laurent",
+      "category": "designer",
+      "dupe_of": [],
+      "image": "images/ysl-la-nuit-de-l-homme-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 8000,
+              "first_seen": "2026-11-20",
+              "sold_since": "2026-11-20"
+            }
+          ],
+          "image": "images/ysl-la-nuit-de-l-homme-eau-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/ysl-la-nuit-de-l-homme-eau-de-parfum-60ml-for-men"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "tiramisu-coco-eau-de-parfum",
+      "name_ar": "Tiramisu Coco Eau de Parfum",
+      "name_en": "Tiramisu Coco Eau de Parfum",
+      "brand": "Zimaia",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/tiramisu-coco-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1800,
+              "first_seen": "2026-11-20"
+            }
+          ],
+          "image": "images/tiramisu-coco-eau-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/zimaia-tiramisu-coco-eau-de-parfum-100ml-unisex"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "tiramisu-caramel-eau-de-parfum",
+      "name_ar": "Tiramisu Caramel Eau de Parfum",
+      "name_en": "Tiramisu Caramel Eau de Parfum",
+      "brand": "Zimaia",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/tiramisu-caramel-eau-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1800,
+              "first_seen": "2026-11-20"
+            }
+          ],
+          "image": "images/tiramisu-caramel-eau-de-parfum--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/zimaia-tiramisu-caramel-eau-de-parfum-100ml-unisex"
+        }
+      ],
+      "_hero_source": "mazaya"
+    },
+    {
+      "id": "frankel-perfume-collection-3-x",
+      "name_ar": "Frankel Perfume Collection 3 x",
+      "name_en": "Frankel Perfume Collection 3 x",
+      "brand": "Assaf",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/frankel-perfume-collection-3-x.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "mazaya",
+          "url": "https://mazaya.eg/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3700,
+              "first_seen": "2026-11-20"
+            }
+          ],
+          "image": "images/frankel-perfume-collection-3-x--mazaya.jpg",
+          "product_url": "https://mazaya.eg/en/assaf-frankel-perfume-collection-3-x-100ml"
+        }
+      ],
+      "_hero_source": "mazaya"
     }
   ]
 }
