@@ -3057,7 +3057,7 @@
             {
               "kind": "leftover",
               "ml": 35,
-              "price": 675,
+              "price": 725,
               "first_seen": "2026-09-02"
             }
           ],
@@ -5982,10 +5982,17 @@
               "ml": 10,
               "price": 190,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "leftover",
+              "ml": 30,
+              "price": 650,
+              "first_seen": "2026-11-20",
+              "sold_since": "2026-11-20"
             }
           ],
           "image": "images/al-hilal-9--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/al-hilal-9-10ml%d8%a7%d9%84%d9%87%d9%84%d8%a7%d9%84%d9%a9-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/al-hilal-9-30ml%d8%a7%d9%84%d9%87%d9%84%d8%a7%d9%84-%d9%a9-%d9%a2%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "og-perfume",
@@ -15470,8 +15477,9 @@
             {
               "kind": "leftover",
               "ml": 100,
-              "price": 1275,
-              "first_seen": "2026-09-02"
+              "price": 1200,
+              "first_seen": "2026-09-02",
+              "prev_price": 1275
             }
           ],
           "image": "images/arrogate-pink-diva--eldesoki-fragrances.jpg",
@@ -15762,6 +15770,12 @@
               "first_seen": "2026-08-21"
             },
             {
+              "kind": "leftover",
+              "ml": 30,
+              "price": 750,
+              "first_seen": "2026-11-20"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1900,
@@ -15769,7 +15783,7 @@
             }
           ],
           "image": "images/arsh-extrait--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/arsh-extrait-tester-10ml%d8%b9%d8%b1%d8%b4-%d8%a7%d9%83%d8%b3%d8%aa%d8%b1%d9%8a%d8%aa-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/arsh-extrait-30ml-%d8%b9%d8%b1%d8%b4-%d9%a3%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -18639,7 +18653,7 @@
             {
               "kind": "leftover",
               "ml": 80,
-              "price": 1000,
+              "price": 1100,
               "first_seen": "2026-09-01"
             },
             {
@@ -21609,7 +21623,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1375,
+              "price": 1500,
               "first_seen": "2026-09-12"
             }
           ],
@@ -23871,6 +23885,13 @@
               "sold_since": "2026-10-13"
             },
             {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 1100,
+              "first_seen": "2026-11-20",
+              "sold_since": "2026-11-20"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1800,
@@ -23878,7 +23899,7 @@
             }
           ],
           "image": "images/black-cavalier-vi--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/black-cavalier-vi-30ml%d8%a8%d9%84%d8%a7%d9%83-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a%d8%b1-%d9%a3%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/black-cavalier-vi-50ml%d8%a8%d9%84%d8%a7%d9%83-%d9%83%d8%a7%d9%81%d8%a7%d9%84%d9%8a%d9%8a%d8%b1-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "emaratiscents",
@@ -25656,6 +25677,13 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "leftover",
+              "ml": 45,
+              "price": 750,
+              "first_seen": "2026-11-20",
+              "sold_since": "2026-11-20"
+            },
+            {
               "kind": "full",
               "ml": 90,
               "price": 1250,
@@ -25664,7 +25692,7 @@
             }
           ],
           "image": "images/blu--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/blu-ajmal%d8%a8%d9%84%d9%88-%d9%85%d9%86-%d8%a7%da%86%d9%85%d9%84/"
+          "product_url": "https://eldesoki-fragrances.com/product/blu-ajmal-45ml%d8%a8%d9%84%d9%88-%d9%85%d9%86-%d8%a7%da%86%d9%85%d9%84-%d9%a4%d9%a5-%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "mazaya",
@@ -26381,8 +26409,9 @@
             {
               "kind": "full",
               "ml": 150,
-              "price": 2100,
-              "first_seen": "2026-07-18"
+              "price": 2050,
+              "first_seen": "2026-07-18",
+              "prev_price": 2100
             },
             {
               "kind": "full",
@@ -27031,7 +27060,7 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 900,
+              "price": 1025,
               "first_seen": "2026-07-18"
             }
           ],
@@ -44958,6 +44987,13 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "leftover",
+              "ml": 30,
+              "price": 625,
+              "first_seen": "2026-11-20",
+              "sold_since": "2026-11-20"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1550,
@@ -44966,7 +45002,7 @@
             }
           ],
           "image": "images/dkhoon-rose--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/dokhoon-rose%d8%af%d8%ae%d9%88%d9%86-%d8%b1%d9%88%d8%b2/"
+          "product_url": "https://eldesoki-fragrances.com/product/dkhoon-rose-30ml%d8%af%d8%ae%d9%88%d9%86-%d8%b1%d9%88%d8%b2-%d9%a3%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "og-perfume",
@@ -53663,8 +53699,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4375,
-              "first_seen": "2026-09-27"
+              "price": 4275,
+              "first_seen": "2026-09-27",
+              "prev_price": 4375
             },
             {
               "kind": "full",
@@ -66366,6 +66403,13 @@
               "first_seen": "2026-07-18"
             },
             {
+              "kind": "leftover",
+              "ml": 70,
+              "price": 900,
+              "first_seen": "2026-11-20",
+              "sold_since": "2026-11-20"
+            },
+            {
               "kind": "full",
               "ml": 150,
               "price": 1650,
@@ -66374,7 +66418,7 @@
             }
           ],
           "image": "images/grey-pearl-diamond--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/grey-pearl-10ml%d8%ac%d8%b1%d8%a7%d9%8a-%d8%a8%d9%8a%d8%b1%d9%84-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/grey-pearl-70ml%d8%ac%d8%b1%d8%a7%d9%8a-%d8%a8%d9%8a%d8%b1%d9%84-%d8%af%d8%a7%d9%8a%d9%85%d9%88%d9%86%d8%af-%d9%a7%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "og-perfume",
@@ -70808,7 +70852,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1575,
+              "price": 1750,
               "first_seen": "2026-08-05"
             }
           ],
@@ -72660,7 +72704,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2675,
+              "price": 2700,
               "first_seen": "2026-10-01"
             }
           ],
@@ -79322,7 +79366,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 5600,
+              "price": 5950,
               "first_seen": "2026-08-02"
             }
           ],
@@ -86129,6 +86173,13 @@
               "first_seen": "2026-07-18"
             },
             {
+              "kind": "leftover",
+              "ml": 30,
+              "price": 575,
+              "first_seen": "2026-11-20",
+              "sold_since": "2026-11-20"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1300,
@@ -86136,7 +86187,7 @@
             }
           ],
           "image": "images/khalifa--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/khalifa-10ml%d8%ae%d9%84%d9%8a%d9%81%d8%a9-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/khalifa-30ml%d8%ae%d9%84%d9%8a%d9%81%d8%a9-%d9%a3%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "emaratiscents",
@@ -88140,7 +88191,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2275,
+              "price": 2450,
               "first_seen": "2026-07-18"
             },
             {
@@ -106019,8 +106070,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1025,
-              "first_seen": "2026-07-18"
+              "price": 1000,
+              "first_seen": "2026-07-18",
+              "prev_price": 1025
             }
           ],
           "image": "images/mazaaj-emaratiscents--eldesoki-fragrances.jpg",
@@ -131524,7 +131576,8 @@
               "kind": "leftover",
               "ml": 50,
               "price": 450,
-              "first_seen": "2026-08-18"
+              "first_seen": "2026-08-18",
+              "sold_since": "2026-11-20"
             },
             {
               "kind": "full",
@@ -131534,7 +131587,7 @@
             }
           ],
           "image": "images/philos-centro-alhambra--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/philos-centro-50ml%d9%81%d9%8a%d9%84%d9%88%d8%b3-%d8%b3%d9%8a%d9%86%d8%aa%d8%b1%d9%88-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/philos-centro-30ml%d9%81%d9%8a%d9%84%d9%88%d8%b3-%d8%b3%d9%8a%d9%86%d8%aa%d8%b1%d9%88-%d9%a3%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -139466,7 +139519,7 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 1025,
+              "price": 1125,
               "first_seen": "2026-09-05"
             },
             {
@@ -141085,14 +141138,21 @@
               "sold_since": "2026-09-05"
             },
             {
+              "kind": "leftover",
+              "ml": 30,
+              "price": 775,
+              "first_seen": "2026-11-20",
+              "sold_since": "2026-11-20"
+            },
+            {
               "kind": "full",
               "ml": 100,
-              "price": 1850,
+              "price": 2050,
               "first_seen": "2026-07-18"
             }
           ],
           "image": "images/reef-33--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/reef-33-10ml%d8%b1%d9%8a%d9%81-%d9%a3%d9%a3-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/reef-33-30ml%d8%b1%d9%8a%d9%81-%d9%a3%d9%a3-%d9%a3%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "emaratiscents",
@@ -144321,10 +144381,17 @@
               "ml": 10,
               "price": 150,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "leftover",
+              "ml": 30,
+              "price": 425,
+              "first_seen": "2026-11-20",
+              "sold_since": "2026-11-20"
             }
           ],
           "image": "images/roshn--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/roshn-10ml%d8%b1%d9%88%d8%b4%d9%86-%d9%85%d9%86-%d8%ab%d9%86%d9%8a%d8%a7%d9%86-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/roshn-30ml%d8%b1%d9%88%d8%b4%d9%86-%d9%85%d9%86-%d8%ab%d9%86%d9%8a%d8%a7%d9%86-%d9%a3%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "eldesoki-fragrances",
@@ -150374,8 +150441,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 775,
-              "first_seen": "2026-09-05",
-              "sold_since": "2026-09-05"
+              "first_seen": "2026-09-05"
             },
             {
               "kind": "full",
@@ -152585,6 +152651,21 @@
           ],
           "image": "images/signature-rose-gold-dkhoon-emirates--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/signature-rose-gold"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "leftover",
+              "ml": 30,
+              "price": 650,
+              "first_seen": "2026-11-20",
+              "sold_since": "2026-11-20"
+            }
+          ],
+          "image": "images/signature-rose-gold-dkhoon-emirates--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/signature-rose-gold-30ml%d8%b3%d8%ac%d9%86%d8%aa%d8%b4%d8%b1-%d8%b1%d9%88%d8%b2-%d8%ac%d9%88%d9%84%d8%af-%d9%a3%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "og-perfume",
@@ -159872,8 +159953,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 1475,
-              "first_seen": "2026-08-02",
-              "sold_since": "2026-08-07"
+              "first_seen": "2026-08-02"
             }
           ],
           "image": "images/supremacy-collector-s-edition--eldesoki-fragrances.jpg",
@@ -160196,7 +160276,7 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 900,
+              "price": 975,
               "first_seen": "2026-07-18"
             },
             {
@@ -175762,9 +175842,16 @@
             },
             {
               "kind": "leftover",
+              "ml": 40,
+              "price": 1025,
+              "first_seen": "2026-11-20"
+            },
+            {
+              "kind": "leftover",
               "ml": 50,
               "price": 1500,
-              "first_seen": "2026-09-04"
+              "first_seen": "2026-09-04",
+              "sold_since": "2026-11-20"
             },
             {
               "kind": "full",
@@ -175774,7 +175861,7 @@
             }
           ],
           "image": "images/vintage-tobacco--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/vintage-tobacco-50ml10ml%d9%81%d9%8a%d9%86%d8%aa%d8%a7%da%86-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d8%b1%d9%8a%d9%81%d9%8a%d9%84-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/tobacco-vintage-40ml-%d8%aa%d9%88%d8%a8%d8%a7%d9%83%d9%88-%d9%81%d9%8a%d9%86%d8%aa%d8%a7%d8%ac-%d9%a4%d9%a0%d9%85%d9%84%d9%8a-%d8%b4%d8%a7%d9%85%d9%84-%d8%a7%d9%84%d8%b2%d8%ac%d8%a7%d8%ac%d8%a9/"
         },
         {
           "name": "sniffz",
@@ -175915,7 +176002,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 850,
+              "price": 975,
               "first_seen": "2026-07-18"
             }
           ],
@@ -179437,7 +179524,7 @@
             {
               "kind": "leftover",
               "ml": 100,
-              "price": 1100,
+              "price": 1175,
               "first_seen": "2026-10-15"
             },
             {
@@ -181926,7 +182013,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 4950,
+              "price": 5950,
               "first_seen": "2026-09-14"
             }
           ],
@@ -185024,8 +185111,9 @@
             {
               "kind": "leftover",
               "ml": 100,
-              "price": 1350,
-              "first_seen": "2026-09-15"
+              "price": 1300,
+              "first_seen": "2026-09-15",
+              "prev_price": 1350
             }
           ],
           "image": "images/qasida-signature--eldesoki-fragrances.jpg",
@@ -185206,7 +185294,7 @@
             {
               "kind": "leftover",
               "ml": 100,
-              "price": 975,
+              "price": 1050,
               "first_seen": "2026-09-04"
             }
           ],
@@ -185233,7 +185321,7 @@
             {
               "kind": "leftover",
               "ml": 80,
-              "price": 1600,
+              "price": 1650,
               "first_seen": "2026-08-04"
             }
           ],
@@ -191625,7 +191713,7 @@
             {
               "kind": "full",
               "ml": 120,
-              "price": 4750,
+              "price": 4950,
               "first_seen": "2026-08-09"
             }
           ],
@@ -192141,7 +192229,7 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 875,
+              "price": 900,
               "first_seen": "2026-09-07"
             }
           ],
@@ -193235,7 +193323,7 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 1500,
+              "price": 1600,
               "first_seen": "2026-09-19"
             }
           ],
@@ -194574,8 +194662,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 300,
-              "first_seen": "2026-08-13",
-              "sold_since": "2026-09-09"
+              "first_seen": "2026-08-13"
             },
             {
               "kind": "leftover",
@@ -194822,7 +194909,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1650,
+              "price": 1750,
               "first_seen": "2026-09-19"
             }
           ],
@@ -202811,6 +202898,12 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 1000,
+              "first_seen": "2026-11-20"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1500,
@@ -202818,7 +202911,7 @@
             }
           ],
           "image": "images/hawas-gold-digger--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/hawas-gold-digger-100ml%d9%87%d9%88%d8%b3-%d8%ac%d9%88%d9%84%d8%af-%d8%af%d9%8a%d8%ac%d8%b1-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d9%84%d8%b1%d8%b5%d8%a7%d8%b5%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/hawas-gold-digger-50ml-%d9%87%d9%88%d8%b3-%d8%ac%d9%88%d9%84%d8%af-%d8%af%d9%8a%d8%ac%d8%b1-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "og-perfume",
@@ -204451,8 +204544,9 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 1100,
-              "first_seen": "2026-08-31"
+              "price": 1075,
+              "first_seen": "2026-08-31",
+              "prev_price": 1100
             }
           ],
           "image": "images/maramara--eldesoki-fragrances.jpg",
@@ -207349,10 +207443,17 @@
               "price": 225,
               "first_seen": "2026-09-05",
               "sold_since": "2026-09-05"
+            },
+            {
+              "kind": "leftover",
+              "ml": 30,
+              "price": 600,
+              "first_seen": "2026-11-20",
+              "sold_since": "2026-11-20"
             }
           ],
           "image": "images/shuhra-elixir--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/shuhra-elixir-10ml%d8%b4%d9%87%d8%b1%d9%87-%d8%a7%d9%84%d9%8a%d9%83%d8%b2%d9%8a%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+          "product_url": "https://eldesoki-fragrances.com/product/shuhra-elixir-30ml%d8%b4%d9%87%d8%b1%d9%87-%d8%a7%d9%84%d9%8a%d9%83%d8%b2%d9%8a%d8%b1-%d9%a3%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "eldesoki-fragrances"
@@ -208469,7 +208570,7 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 875,
+              "price": 900,
               "first_seen": "2026-09-07"
             }
           ],
@@ -208631,7 +208732,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1375,
+              "price": 1550,
               "first_seen": "2026-09-12"
             }
           ],
@@ -210301,7 +210402,7 @@
             {
               "kind": "full",
               "ml": 75,
-              "price": 2250,
+              "price": 3250,
               "first_seen": "2026-09-15"
             }
           ],
@@ -210355,7 +210456,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2100,
+              "price": 2450,
               "first_seen": "2026-09-15"
             }
           ],
@@ -213909,7 +214010,7 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 2750,
+              "price": 3100,
               "first_seen": "2026-09-26"
             }
           ],
@@ -221605,9 +221706,9 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 1600,
+              "price": 1550,
               "first_seen": "2026-11-01",
-              "sold_since": "2026-11-14"
+              "prev_price": 1600
             }
           ],
           "image": "images/hersh-55--eldesoki-fragrances.jpg",
@@ -222400,7 +222501,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2650,
+              "price": 2775,
               "first_seen": "2026-11-04"
             }
           ],
@@ -223535,8 +223636,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1100,
-              "first_seen": "2026-11-11"
+              "price": 1050,
+              "first_seen": "2026-11-11",
+              "prev_price": 1100
             }
           ],
           "image": "images/mulham-nawar-almas--eldesoki-fragrances.jpg",
@@ -227251,6 +227353,197 @@
         }
       ],
       "_hero_source": "roseperfume"
+    },
+    {
+      "id": "bleu-de-al-rehab",
+      "name_ar": "بلو دي رحاب ٥٠ملي",
+      "name_en": "Bleu De Al rehab &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/bleu-de-al-rehab.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 250,
+              "first_seen": "2026-11-20"
+            }
+          ],
+          "image": "images/bleu-de-al-rehab--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/bleu-de-al-rehab-50ml-%d8%a8%d9%84%d9%88-%d8%af%d9%8a-%d8%b1%d8%ad%d8%a7%d8%a8-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "urban-wood-al-rehab",
+      "name_ar": "اربن وود ٥٠ملي من الرحاب",
+      "name_en": "Urban Wood Al rehab &",
+      "brand": "Al Rehab",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/urban-wood-al-rehab.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 250,
+              "first_seen": "2026-11-20"
+            }
+          ],
+          "image": "images/urban-wood-al-rehab--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/urban-wood-50ml-al-rehab-%d8%a7%d8%b1%d8%a8%d9%86-%d9%88%d9%88%d8%af-%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d9%84%d8%b1%d8%ad%d8%a7%d8%a8/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "hawas-gold-digger-tester",
+      "name_ar": "هوس جولد ديجر تستر ١٠ملي",
+      "name_en": "Hawas Gold Digger tester &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/hawas-gold-digger-tester.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 200,
+              "first_seen": "2026-11-20"
+            }
+          ],
+          "image": "images/hawas-gold-digger-tester--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/hawas-gold-digger-tester-10ml-%d9%87%d9%88%d8%b3-%d8%ac%d9%88%d9%84%d8%af-%d8%af%d9%8a%d8%ac%d8%b1-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "hersh-mehwar-tester",
+      "name_ar": "هرش محور تستر ١٠ملي",
+      "name_en": "Hersh Mehwar Tester &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/hersh-mehwar-tester.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 300,
+              "first_seen": "2026-11-20"
+            }
+          ],
+          "image": "images/hersh-mehwar-tester--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/hersh-mehwar-tester-10ml-%d9%87%d8%b1%d8%b4-%d9%85%d8%ad%d9%88%d8%b1-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "hersh-mehwar",
+      "name_ar": "هرش محور ٥٠ملي",
+      "name_en": "Hersh Mehwar &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/hersh-mehwar.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 1550,
+              "first_seen": "2026-11-20"
+            }
+          ],
+          "image": "images/hersh-mehwar--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/hersh-mehwar-50ml-%d9%87%d8%b1%d8%b4-%d9%85%d8%ad%d9%88%d8%b1-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "rifaqaat",
+      "name_ar": "رفاقات ٢٥ملي",
+      "name_en": "Rifaqaat",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/rifaqaat.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "leftover",
+              "ml": 25,
+              "price": 375,
+              "first_seen": "2026-11-20",
+              "sold_since": "2026-11-20"
+            }
+          ],
+          "image": "images/rifaqaat--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/rifaqaat-25ml%d8%b1%d9%81%d8%a7%d9%82%d8%a7%d8%aa-%d9%a2%d9%a5%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "suave-deraa",
+      "name_ar": "سويف من درعه ١٠٠ملي",
+      "name_en": "Suave Deraa",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/suave-deraa.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "leftover",
+              "ml": 100,
+              "price": 1575,
+              "first_seen": "2026-11-20",
+              "sold_since": "2026-11-20"
+            }
+          ],
+          "image": "images/suave-deraa--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/suave-deraa-100ml%d8%b3%d9%88%d9%8a%d9%81-%d9%85%d9%86-%d8%af%d8%b1%d8%b9%d9%87-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
