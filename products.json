@@ -61184,7 +61184,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-21"
             }
           ],
           "image": "images/frankel-storm--emaratiscents.jpg",
@@ -91980,8 +91981,7 @@
               "kind": "full",
               "ml": 200,
               "price": 2650,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-11-12"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/la-dor-bakhur--emaratiscents.jpg",
@@ -185547,7 +185547,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-11-10"
+              "first_seen": "2026-11-10",
+              "sold_since": "2026-11-21"
             },
             {
               "kind": "full",
@@ -185557,7 +185558,7 @@
             }
           ],
           "image": "images/qasida-signature--emaratiscents.jpg",
-          "product_url": "https://emaratiscents.com/products/qasida-signature-100-ml"
+          "product_url": "https://emaratiscents.com/products/qasida-signature-200-ml"
         },
         {
           "name": "eldesoki-fragrances",
@@ -193730,8 +193731,9 @@
             {
               "kind": "full",
               "ml": 200,
-              "price": 2250,
-              "first_seen": "2026-08-11"
+              "price": 1500,
+              "first_seen": "2026-08-11",
+              "prev_price": 2250
             }
           ],
           "image": "images/hook-blue--emaratiscents.jpg",
@@ -228478,6 +228480,60 @@
         }
       ],
       "_hero_source": "og-perfume"
+    },
+    {
+      "id": "tyrant-marine",
+      "name_ar": "Tyrant Marine",
+      "name_en": "Tyrant Marine",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/tyrant-marine.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2550,
+              "first_seen": "2026-11-21"
+            }
+          ],
+          "image": "images/tyrant-marine--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/tyrant-marine-200-ml"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "dark",
+      "name_ar": "Dark",
+      "name_en": "Dark",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/dark.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3200,
+              "first_seen": "2026-11-21"
+            }
+          ],
+          "image": "images/dark--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/dark"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
