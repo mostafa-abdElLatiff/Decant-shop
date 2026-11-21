@@ -26447,6 +26447,13 @@
               "sold_since": "2026-07-19"
             },
             {
+              "kind": "leftover",
+              "ml": 80,
+              "price": 910,
+              "first_seen": "2026-11-21",
+              "sold_since": "2026-11-21"
+            },
+            {
               "kind": "full",
               "ml": 150,
               "price": 1950,
@@ -34593,8 +34600,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 150,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -34607,8 +34613,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1350,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/cloud-candy--og-perfume.jpg",
@@ -114237,8 +114242,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 175,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "leftover",
@@ -114258,8 +114262,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1500,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/nafais-sharq--og-perfume.jpg",
@@ -123503,15 +123506,13 @@
               "kind": "decant",
               "ml": 10,
               "price": 165,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 1550,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/onyx-gold--og-perfume.jpg",
@@ -136302,7 +136303,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1500,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-21"
             }
           ],
           "image": "images/punto-alexandria--og-perfume.jpg",
@@ -160529,6 +160531,13 @@
               "price": 975,
               "first_seen": "2026-11-20",
               "sold_since": "2026-11-20"
+            },
+            {
+              "kind": "leftover",
+              "ml": 70,
+              "price": 1360,
+              "first_seen": "2026-11-21",
+              "sold_since": "2026-11-21"
             },
             {
               "kind": "full",
@@ -225678,6 +225687,32 @@
           ],
           "product_url": "https://perfuzone-2.myshopify.com/products/muse",
           "image": "images/muse-eau-de-parfum--perfuzone.jpg"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 195,
+              "first_seen": "2026-11-21"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 540,
+              "first_seen": "2026-11-21"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1650,
+              "first_seen": "2026-11-21"
+            }
+          ],
+          "image": "images/muse-eau-de-parfum--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/muse-khadlaj"
         }
       ],
       "_hero_source": "perfuzone"
@@ -227800,6 +227835,84 @@
         }
       ],
       "_hero_source": "mazaya"
+    },
+    {
+      "id": "sueno",
+      "name_ar": "Sueno",
+      "name_en": "Sueno",
+      "brand": "khadlaj",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/sueno.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 195,
+              "first_seen": "2026-11-21"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 540,
+              "first_seen": "2026-11-21"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1650,
+              "first_seen": "2026-11-21"
+            }
+          ],
+          "image": "images/sueno--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/sueno"
+        }
+      ],
+      "_hero_source": "og-perfume"
+    },
+    {
+      "id": "intoxicate-blue-elixir",
+      "name_ar": "Intoxicate Blue Elixir",
+      "name_en": "Intoxicate Blue Elixir",
+      "brand": "Khadlaj",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/intoxicate-blue-elixir.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 175,
+              "first_seen": "2026-11-21"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 475,
+              "first_seen": "2026-11-21"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1450,
+              "first_seen": "2026-11-21"
+            }
+          ],
+          "image": "images/intoxicate-blue-elixir--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/intoxicated-blue-elixir"
+        }
+      ],
+      "_hero_source": "og-perfume"
     }
   ]
 }
