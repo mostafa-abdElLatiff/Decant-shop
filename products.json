@@ -21173,6 +21173,13 @@
             },
             {
               "kind": "leftover",
+              "ml": 40,
+              "price": 440,
+              "first_seen": "2026-11-21",
+              "sold_since": "2026-11-21"
+            },
+            {
+              "kind": "leftover",
               "ml": 50,
               "price": 550,
               "first_seen": "2026-07-19",
@@ -61552,6 +61559,13 @@
             },
             {
               "kind": "leftover",
+              "ml": 60,
+              "price": 2250,
+              "first_seen": "2026-11-21",
+              "sold_since": "2026-11-21"
+            },
+            {
+              "kind": "leftover",
               "ml": 80,
               "price": 2625,
               "first_seen": "2026-09-12",
@@ -86091,7 +86105,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 130,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-21"
             },
             {
               "kind": "leftover",
@@ -109870,7 +109885,8 @@
               "kind": "full",
               "ml": 100,
               "price": 800,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-21"
             }
           ],
           "image": "images/mohra-silky-rose--og-perfume.jpg",
@@ -141024,7 +141040,8 @@
               "kind": "full",
               "ml": 150,
               "price": 1650,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-21"
             }
           ],
           "image": "images/rebel-enable-assaf--og-perfume.jpg",
