@@ -100247,7 +100247,8 @@
               "kind": "full",
               "ml": 100,
               "price": 400,
-              "first_seen": "2026-07-30"
+              "first_seen": "2026-07-30",
+              "sold_since": "2026-11-21"
             }
           ],
           "image": "images/lively-paris-bleu-parfums--roseperfume.jpg",
@@ -106260,6 +106261,12 @@
               "price": 175,
               "first_seen": "2026-07-20",
               "sold_since": "2026-11-17"
+            },
+            {
+              "kind": "decant",
+              "ml": 25,
+              "price": 325,
+              "first_seen": "2026-11-21"
             },
             {
               "kind": "decant",
@@ -209254,19 +209261,28 @@
               "kind": "decant",
               "ml": 5,
               "price": 100,
-              "first_seen": "2026-09-23"
+              "first_seen": "2026-09-23",
+              "sold_since": "2026-11-21"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 175,
-              "first_seen": "2026-09-23"
+              "first_seen": "2026-09-23",
+              "sold_since": "2026-11-21"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 500,
-              "first_seen": "2026-09-23"
+              "first_seen": "2026-09-23",
+              "sold_since": "2026-11-21"
+            },
+            {
+              "kind": "decant",
+              "ml": 40,
+              "price": 600,
+              "first_seen": "2026-11-21"
             },
             {
               "kind": "full",
@@ -226140,6 +226156,32 @@
           ],
           "image": "images/les-extraits-absolus-unknown--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/les-extraits-absolus-unknown"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 250,
+              "first_seen": "2026-11-21"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 475,
+              "first_seen": "2026-11-21"
+            },
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 2200,
+              "first_seen": "2026-11-21"
+            }
+          ],
+          "image": "images/les-extraits-absolus-unknown--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/french-avenue-les-extraits-absolus-unknown-50ml-eau-de-parfum"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -226167,6 +226209,32 @@
           ],
           "image": "images/les-extraits-absolus-shadow--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/les-extraits-absolus-shadow"
+        },
+        {
+          "name": "roseperfume",
+          "url": "https://roseperfume.online/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 250,
+              "first_seen": "2026-11-21"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 475,
+              "first_seen": "2026-11-21"
+            },
+            {
+              "kind": "full",
+              "ml": 50,
+              "price": 2200,
+              "first_seen": "2026-11-21"
+            }
+          ],
+          "image": "images/les-extraits-absolus-shadow--roseperfume.jpg",
+          "product_url": "https://roseperfume.online/products/french-avenue-les-extraits-absolus-shadow-50ml-eau-de-parfum"
         }
       ],
       "_hero_source": "emaratiscents"
