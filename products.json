@@ -36526,13 +36526,6 @@
               "ml": 80,
               "price": 1800,
               "first_seen": "2026-11-14"
-            },
-            {
-              "kind": "decant",
-              "ml": 100,
-              "price": 1800,
-              "first_seen": "2026-07-20",
-              "sold_since": "2026-11-14"
             }
           ],
           "image": "images/cocolatte-lassi--roseperfume.jpg",
@@ -210138,7 +210131,8 @@
               "kind": "full",
               "ml": 100,
               "price": 700,
-              "first_seen": "2026-09-13"
+              "first_seen": "2026-09-13",
+              "sold_since": "2026-11-21"
             }
           ],
           "image": "images/milestone-moonlight-patchouli-100ml-eau-de-parfum--roseperfume.jpg",
