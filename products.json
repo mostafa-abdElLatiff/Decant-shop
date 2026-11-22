@@ -65149,13 +65149,20 @@
           "offers": [
             {
               "kind": "decant",
+              "ml": 3,
+              "price": 250,
+              "first_seen": "2026-11-22"
+            },
+            {
+              "kind": "decant",
               "ml": 5,
               "price": 350,
-              "first_seen": "2026-09-30"
+              "first_seen": "2026-09-30",
+              "sold_since": "2026-11-22"
             }
           ],
           "image": "images/goddess-parfum--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/burberry-goddess-parfum-5ml-235"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/burberry-goddess-parfum-3ml-428"
         },
         {
           "name": "Ahmed Abdel Kareem",
@@ -89678,7 +89685,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 550,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-11-22"
             }
           ],
           "image": "images/l-eau-d-issey-noir-ambre--mo-shawky.jpg",
@@ -129186,14 +129194,15 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 290,
+              "price": 300,
               "first_seen": "2026-08-17"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 415,
-              "first_seen": "2026-08-17"
+              "first_seen": "2026-08-17",
+              "sold_since": "2026-11-22"
             }
           ],
           "image": "images/paradigme-le-parfum--mo-shawky.jpg",
@@ -211736,7 +211745,7 @@
             }
           ],
           "image": "images/1-million-black--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/rabanne-1-million-black-5ml-564"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/rabanne-1-million-black-3ml-565"
         },
         {
           "name": "perfuzone",
@@ -211872,15 +211881,14 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 245,
+              "price": 255,
               "first_seen": "2026-09-22"
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 335,
-              "first_seen": "2026-09-22",
-              "sold_since": "2026-11-21"
+              "price": 360,
+              "first_seen": "2026-09-22"
             },
             {
               "kind": "decant",
@@ -211891,7 +211899,7 @@
             }
           ],
           "image": "images/crystal-noir-parfum--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/versace-crystal-noir-edp-3ml-209"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/versace-crystal-noir-parfum-3ml-567"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -212226,7 +212234,7 @@
             }
           ],
           "image": "images/man-bright--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/mercedes-benz-man-bright-5ml-570"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/mercedes-benz-man-bright-3ml-571"
         }
       ],
       "_hero_source": "MO Shawky"
@@ -214251,7 +214259,7 @@
             }
           ],
           "image": "images/eld-o-experimentum-crucis--mo-shawky.jpg",
-          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/etat-libre-d-orange-experimentum-crucis-5ml-552"
+          "product_url": "https://z-original-perfumes-decant.odoo.com/shop/etat-libre-d-orange-experimentum-crucis-10ml-551"
         }
       ],
       "_hero_source": "MO Shawky"
