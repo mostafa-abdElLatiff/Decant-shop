@@ -26452,6 +26452,13 @@
               "sold_since": "2026-11-21"
             },
             {
+              "kind": "full",
+              "ml": 150,
+              "price": 1950,
+              "first_seen": "2026-11-23",
+              "sold_since": "2026-11-23"
+            },
+            {
               "kind": "leftover",
               "ml": 160,
               "price": 1700,
@@ -30489,7 +30496,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 190,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-23"
             },
             {
               "kind": "decant",
@@ -40431,6 +40439,13 @@
               "sold_since": "2026-11-20"
             },
             {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 625,
+              "first_seen": "2026-11-23",
+              "sold_since": "2026-11-23"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1250,
@@ -49015,8 +49030,7 @@
               "kind": "leftover",
               "ml": 50,
               "price": 650,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-24"
+              "first_seen": "2026-07-19"
             },
             {
               "kind": "full",
@@ -50617,7 +50631,8 @@
               "kind": "leftover",
               "ml": 60,
               "price": 715,
-              "first_seen": "2026-09-11"
+              "first_seen": "2026-09-11",
+              "sold_since": "2026-11-23"
             },
             {
               "kind": "leftover",
@@ -61683,7 +61698,8 @@
               "kind": "full",
               "ml": 100,
               "price": 850,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-23"
             }
           ],
           "image": "images/frenetic-delicieuse-emir--og-perfume.jpg",
@@ -97603,7 +97619,8 @@
               "kind": "full",
               "ml": 50,
               "price": 1150,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-23"
             }
           ],
           "image": "images/leather-ahmed-al-maghribi--og-perfume.jpg",
@@ -105034,39 +105051,25 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 190,
+              "price": 380,
               "first_seen": "2026-07-19"
             },
             {
-              "kind": "decant",
-              "ml": 30,
-              "price": 525,
-              "first_seen": "2026-10-10",
-              "sold_since": "2026-10-20"
-            },
-            {
-              "kind": "leftover",
-              "ml": 40,
-              "price": 650,
-              "first_seen": "2026-11-05",
-              "sold_since": "2026-11-14"
-            },
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 800,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-01"
+              "kind": "full",
+              "ml": 60,
+              "price": 2000,
+              "first_seen": "2026-11-23"
             },
             {
               "kind": "full",
               "ml": 100,
               "price": 1600,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-23"
             }
           ],
           "image": "images/marwa--og-perfume.jpg",
-          "product_url": "https://og-perfume.com/products/marwa-arabiyat-prestige"
+          "product_url": "https://og-perfume.com/products/marwa-extrait"
         },
         {
           "name": "EsLam Nasser",
@@ -136901,55 +136904,6 @@
               "ml": 30,
               "price": 450,
               "first_seen": "2026-07-19",
-              "sold_since": "2026-09-17"
-            },
-            {
-              "kind": "leftover",
-              "ml": 50,
-              "price": 550,
-              "first_seen": "2026-10-14",
-              "sold_since": "2026-10-19"
-            },
-            {
-              "kind": "full",
-              "ml": 60,
-              "price": 450,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
-            },
-            {
-              "kind": "leftover",
-              "ml": 60,
-              "price": 770,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-06"
-            },
-            {
-              "kind": "leftover",
-              "ml": 80,
-              "price": 825,
-              "first_seen": "2026-09-12",
-              "sold_since": "2026-09-16"
-            },
-            {
-              "kind": "leftover",
-              "ml": 85,
-              "price": 990,
-              "first_seen": "2026-09-11",
-              "sold_since": "2026-11-07"
-            },
-            {
-              "kind": "leftover",
-              "ml": 95,
-              "price": 1070,
-              "first_seen": "2026-09-11",
-              "sold_since": "2026-09-22"
-            },
-            {
-              "kind": "leftover",
-              "ml": 100,
-              "price": 1100,
-              "first_seen": "2026-09-11",
               "sold_since": "2026-09-17"
             },
             {
@@ -220769,6 +220723,32 @@
           ],
           "image": "images/spirito-ignite--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/spirito-ignite"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 230,
+              "first_seen": "2026-11-23"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 630,
+              "first_seen": "2026-11-23"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2000,
+              "first_seen": "2026-11-23"
+            }
+          ],
+          "image": "images/spirito-ignite--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/spirito-ignite"
         }
       ],
       "_hero_source": "dar.elarabia"
@@ -221169,7 +221149,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-10-29"
+              "first_seen": "2026-10-29",
+              "sold_since": "2026-11-23"
             }
           ],
           "image": "images/caneza-mortal--og-perfume.jpg",
@@ -222214,6 +222195,32 @@
           ],
           "image": "images/spirito-mystic--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/spirito-mystic"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 230,
+              "first_seen": "2026-11-23"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 630,
+              "first_seen": "2026-11-23"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2000,
+              "first_seen": "2026-11-23"
+            }
+          ],
+          "image": "images/spirito-mystic--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/spirito-mystic"
         }
       ],
       "_hero_source": "emaratiscents"
