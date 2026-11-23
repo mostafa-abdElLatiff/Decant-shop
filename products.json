@@ -3355,6 +3355,13 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 13300,
+              "first_seen": "2026-11-23",
+              "sold_since": "2026-11-23"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 20100,
               "first_seen": "2026-09-18",
@@ -28787,8 +28794,7 @@
               "kind": "full",
               "ml": 100,
               "price": 8400,
-              "first_seen": "2026-08-19",
-              "sold_since": "2026-11-21"
+              "first_seen": "2026-08-19"
             }
           ],
           "image": "images/bottled-beyond--mazaya.jpg",
@@ -42179,7 +42185,7 @@
               "ml": 200,
               "price": 7355,
               "first_seen": "2026-11-12",
-              "sold_since": "2026-11-22"
+              "sold_since": "2026-11-23"
             }
           ],
           "image": "images/defy-parfum--mazaya.jpg",
@@ -101141,6 +101147,13 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 50,
+              "price": 14200,
+              "first_seen": "2026-11-23",
+              "sold_since": "2026-11-23"
+            },
+            {
+              "kind": "full",
               "ml": 100,
               "price": 27900,
               "first_seen": "2026-07-23",
@@ -138810,8 +138823,7 @@
               "kind": "full",
               "ml": 125,
               "price": 5940,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-07-23"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/ralph-lauren-cologne-polo-red-edt-spray-unisex-fragrance--mazaya.jpg",
@@ -170904,10 +170916,9 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 7000,
+              "price": 7200,
               "first_seen": "2026-11-07",
-              "prev_price": 7200,
-              "sold_since": "2026-11-21"
+              "sold_since": "2026-11-23"
             },
             {
               "kind": "full",
@@ -170918,7 +170929,7 @@
             }
           ],
           "image": "images/uomo-intense--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/valentino-uomo-intense-eau-de-parfum"
+          "product_url": "https://mazaya.eg/en/valentino-bir-uomo-edp-intense-man"
         },
         {
           "name": "Mohamed Mohie",
