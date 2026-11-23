@@ -112934,7 +112934,8 @@
               "kind": "full",
               "ml": 50,
               "price": 1550,
-              "first_seen": "2026-11-15"
+              "first_seen": "2026-11-15",
+              "sold_since": "2026-11-23"
             }
           ],
           "image": "images/mykonos-conquer--emaratiscents.jpg",
@@ -118055,8 +118056,7 @@
               "kind": "full",
               "ml": 150,
               "price": 2950,
-              "first_seen": "2026-09-15",
-              "sold_since": "2026-11-18"
+              "first_seen": "2026-09-15"
             }
           ],
           "image": "images/noir-1784457946--emaratiscents.jpg",
@@ -139276,8 +139276,7 @@
               "kind": "full",
               "ml": 100,
               "price": 900,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-11-22"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/ramz-lattafa-gold--emaratiscents.jpg",
@@ -162295,8 +162294,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1800,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-10-28"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/teriaq-intense--emaratiscents.jpg",
@@ -166970,8 +166968,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2450,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-11-22"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/tobacco-jam-50--emaratiscents.jpg",
@@ -203890,7 +203887,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1080,
-              "first_seen": "2026-08-30"
+              "first_seen": "2026-08-30",
+              "sold_since": "2026-11-23"
             }
           ],
           "image": "images/sweet-heaven--emaratiscents.jpg",
@@ -221499,7 +221497,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2750,
-              "first_seen": "2026-10-31"
+              "first_seen": "2026-10-31",
+              "sold_since": "2026-11-23"
             }
           ],
           "image": "images/reef-31--emaratiscents.jpg",
@@ -228391,6 +228390,114 @@
         }
       ],
       "_hero_source": "og-perfume"
+    },
+    {
+      "id": "musk-07-concentrated-oil",
+      "name_ar": "Musk 07 Concentrated Oil",
+      "name_en": "Musk 07 Concentrated Oil",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/musk-07-concentrated-oil.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 12,
+              "price": 1850,
+              "first_seen": "2026-11-23"
+            }
+          ],
+          "image": "images/musk-07-concentrated-oil--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/musk-07-concentrated-oil"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "secret-musk-concentrated-oil",
+      "name_ar": "Secret Musk Concentrated Oil",
+      "name_en": "Secret Musk Concentrated Oil",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/secret-musk-concentrated-oil.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 12,
+              "price": 1700,
+              "first_seen": "2026-11-23"
+            }
+          ],
+          "image": "images/secret-musk-concentrated-oil--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/secret-musk-concentrated-oil"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "rose-01-concentrated-oil",
+      "name_ar": "Rose 01 Concentrated Oil",
+      "name_en": "Rose 01 Concentrated Oil",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/rose-01-concentrated-oil.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 12,
+              "price": 1850,
+              "first_seen": "2026-11-23"
+            }
+          ],
+          "image": "images/rose-01-concentrated-oil--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/rose-01-concentrated-oil"
+        }
+      ],
+      "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "private-oud-concentrated-oil",
+      "name_ar": "Private Oud Concentrated Oil",
+      "name_en": "Private Oud Concentrated Oil",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/private-oud-concentrated-oil.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 12,
+              "price": 1700,
+              "first_seen": "2026-11-23"
+            }
+          ],
+          "image": "images/private-oud-concentrated-oil--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/private-oud-concentrated-oil"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
