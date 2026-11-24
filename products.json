@@ -15778,8 +15778,9 @@
             {
               "kind": "leftover",
               "ml": 30,
-              "price": 750,
-              "first_seen": "2026-11-20"
+              "price": 725,
+              "first_seen": "2026-11-20",
+              "prev_price": 750
             },
             {
               "kind": "full",
@@ -21619,8 +21620,9 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 950,
-              "first_seen": "2026-09-20"
+              "price": 900,
+              "first_seen": "2026-09-20",
+              "prev_price": 950
             },
             {
               "kind": "full",
@@ -69346,14 +69348,20 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 900,
+              "first_seen": "2026-11-24"
+            },
+            {
               "kind": "full",
               "ml": 100,
-              "price": 1375,
+              "price": 1500,
               "first_seen": "2026-07-18"
             }
           ],
           "image": "images/hawas-elixir--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/hawas-elixir%d9%87%d9%88%d8%b3-%d8%a7%d9%84%d9%8a%d9%83%d8%b2%d9%8a%d8%b1/"
+          "product_url": "https://eldesoki-fragrances.com/product/hawas-elixir-50ml-%d9%87%d9%88%d8%b3-%d8%a7%d9%84%d9%8a%d9%83%d8%b2%d9%8a%d8%b1-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "emaratiscents",
@@ -94329,13 +94337,6 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
-              "kind": "decant",
-              "ml": 10,
-              "price": 150,
-              "first_seen": "2026-09-05",
-              "sold_since": "2026-09-05"
-            },
-            {
               "kind": "leftover",
               "ml": 100,
               "price": 1300,
@@ -110884,6 +110885,12 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 1175,
+              "first_seen": "2026-11-24"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 2050,
@@ -110891,7 +110898,7 @@
             }
           ],
           "image": "images/muharib--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/muharib-100ml-maison-asrar%d9%85%d8%ad%d8%a7%d8%b1%d8%a8-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%85%d9%8a%d8%b2%d9%88%d9%86-%d8%a7%d8%b3%d8%b1%d8%a7%d8%b1/"
+          "product_url": "https://eldesoki-fragrances.com/product/muharib-50ml-%d9%85%d8%ad%d8%a7%d8%b1%d8%a8-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         },
         {
           "name": "roseperfume",
@@ -157920,8 +157927,9 @@
             {
               "kind": "full",
               "ml": 125,
-              "price": 2125,
-              "first_seen": "2026-07-18"
+              "price": 2100,
+              "first_seen": "2026-07-18",
+              "prev_price": 2125
             }
           ],
           "image": "images/strike-black--eldesoki-fragrances.jpg",
@@ -175217,7 +175225,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1100,
+              "price": 1275,
               "first_seen": "2026-07-18"
             }
           ],
@@ -176050,7 +176058,8 @@
               "kind": "leftover",
               "ml": 40,
               "price": 1025,
-              "first_seen": "2026-11-20"
+              "first_seen": "2026-11-20",
+              "sold_since": "2026-11-24"
             },
             {
               "kind": "leftover",
@@ -180544,6 +180553,20 @@
           ],
           "image": "images/woody-style--emaratiscents.jpg",
           "product_url": "https://emaratiscents.com/products/woody-style"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 1400,
+              "first_seen": "2026-11-24"
+            }
+          ],
+          "image": "images/woody-style--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/woody-style-50ml-%d9%88%d9%88%d8%af%d9%8a-%d8%b3%d8%aa%d8%a7%d9%8a%d9%84-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "dar.elarabia",
@@ -200578,7 +200601,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1175,
+              "price": 1200,
               "first_seen": "2026-08-21"
             }
           ],
@@ -202397,6 +202420,12 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "leftover",
+              "ml": 100,
+              "price": 1250,
+              "first_seen": "2026-11-24"
+            },
+            {
               "kind": "full",
               "ml": 150,
               "price": 1775,
@@ -202405,7 +202434,7 @@
             }
           ],
           "image": "images/aura-black--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/aura-black-150ml-assaf%d8%a7%d9%88%d8%b1%d8%a7-%d8%a8%d9%84%d8%a7%d9%83-%d9%a1%d9%a5%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b9%d8%b3%d8%a7%d9%81/"
+          "product_url": "https://eldesoki-fragrances.com/product/aura-black-100ml-%d8%a7%d9%88%d8%b1%d8%a7-%d8%a8%d9%84%d8%a7%d9%83-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a8%d9%88%d9%83%d8%b3-%d8%a7%d9%84%d8%b3%d9%85%d8%b1-%d8%a8%d8%af%d9%88/"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -203129,13 +203158,13 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 1000,
+              "price": 1025,
               "first_seen": "2026-11-20"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 1500,
+              "price": 1750,
               "first_seen": "2026-09-07"
             }
           ],
@@ -206801,9 +206830,8 @@
             {
               "kind": "leftover",
               "ml": 50,
-              "price": 1150,
-              "first_seen": "2026-09-20",
-              "sold_since": "2026-10-25"
+              "price": 1175,
+              "first_seen": "2026-09-20"
             }
           ],
           "image": "images/faris-al-arab-1788463286--eldesoki-fragrances.jpg",
@@ -211311,6 +211339,20 @@
           ],
           "image": "images/attacks-blue--dar-elarabia.jpg",
           "product_url": "https://darelarabia.com/products/attacks-blue"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 200,
+              "price": 2100,
+              "first_seen": "2026-11-24"
+            }
+          ],
+          "image": "images/attacks-blue--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/attacks-blue-200ml-assaf-%d8%a7%d8%aa%d8%a7%d9%83%d8%b3-%d8%a8%d9%84%d9%88-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b9%d8%b3%d8%a7%d9%81/"
         }
       ],
       "_hero_source": "sniffz"
@@ -219744,6 +219786,12 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 775,
+              "first_seen": "2026-11-24"
+            },
+            {
               "kind": "full",
               "ml": 100,
               "price": 1275,
@@ -219751,7 +219799,7 @@
             }
           ],
           "image": "images/ultra-extrait-50--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/ultra-extrait-50-100ml-almas-%d8%a7%d9%84%d8%aa%d8%b1%d8%a7-%d9%a5%d9%a0-%d8%a7%d9%83%d8%b3%d8%aa%d8%b1%d9%8a%d8%aa-%d9%85%d9%86-%d8%a7%d9%84%d9%85%d8%a7%d8%b3/"
+          "product_url": "https://eldesoki-fragrances.com/product/ultra-50-extrait-50ml-%d8%a7%d9%84%d8%aa%d8%b1%d8%a7-%d9%a5%d9%a0-%d8%a7%d9%83%d8%b3%d8%aa%d8%b1%d9%8a%d8%aa-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "emaratiscents"
@@ -228847,6 +228895,276 @@
         }
       ],
       "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "solo-intoxicated-amaran",
+      "name_ar": "سولو انتوكسيكاتد ١٠٠ملي من اماران",
+      "name_en": "Solo Intoxicated Amaran &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/solo-intoxicated-amaran.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1300,
+              "first_seen": "2026-11-24"
+            }
+          ],
+          "image": "images/solo-intoxicated-amaran--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/solo-intoxicated-100ml-amaran-%d8%b3%d9%88%d9%84%d9%88-%d8%a7%d9%86%d8%aa%d9%88%d9%83%d8%b3%d9%8a%d9%83%d8%a7%d8%aa%d8%af-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a7%d9%85%d8%a7/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "lador-bakhur-classic-tester",
+      "name_ar": "لادور بخور كلاسيك تستر ١٠ملي",
+      "name_en": "Lador Bakhur Classic Tester &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/lador-bakhur-classic-tester.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 175,
+              "first_seen": "2026-11-24"
+            }
+          ],
+          "image": "images/lador-bakhur-classic-tester--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/lador-bakhur-classic-tester-10ml-%d9%84%d8%a7%d8%af%d9%88%d8%b1-%d8%a8%d8%ae%d9%88%d8%b1-%d9%83%d9%84%d8%a7%d8%b3%d9%8a%d9%83-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "muharib-tester",
+      "name_ar": "محارب تستر ١٠ملي",
+      "name_en": "Muharib Tester &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/muharib-tester.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 230,
+              "first_seen": "2026-11-24"
+            }
+          ],
+          "image": "images/muharib-tester--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/muharib-tester-10ml-%d9%85%d8%ad%d8%a7%d8%b1%d8%a8-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "ultra-50-extrait-tester",
+      "name_ar": "الترا ٥٠ تستر ١٠ملي",
+      "name_en": "Ultra 50 Extrait Tester &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/ultra-50-extrait-tester.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 155,
+              "first_seen": "2026-11-24"
+            }
+          ],
+          "image": "images/ultra-50-extrait-tester--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/ultra-50-extrait-tester-10ml-%d8%a7%d9%84%d8%aa%d8%b1%d8%a7-%d9%a5%d9%a0-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "devin-vert-tester",
+      "name_ar": "ديفن فيرت تستر ١٠ملي",
+      "name_en": "Devin Vert Tester &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/devin-vert-tester.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 175,
+              "first_seen": "2026-11-24"
+            }
+          ],
+          "image": "images/devin-vert-tester--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/devin-vert-tester-10ml-%d8%af%d9%8a%d9%81%d9%86-%d9%81%d9%8a%d8%b1%d8%aa-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "hawas-elixir-tester",
+      "name_ar": "هوس اليكزير تستر ١٠ملي",
+      "name_en": "Hawas Elixir Tester &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/hawas-elixir-tester.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 175,
+              "first_seen": "2026-11-24"
+            }
+          ],
+          "image": "images/hawas-elixir-tester--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/hawas-elixir-tester-10ml-%d9%87%d9%88%d8%b3-%d8%a7%d9%84%d9%8a%d9%83%d8%b2%d9%8a%d8%b1-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "woody-style-tester",
+      "name_ar": "وودي ستايل العربية للعود تستر ١٠ملي",
+      "name_en": "Woody Style Tester &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/woody-style-tester.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 275,
+              "first_seen": "2026-11-24"
+            }
+          ],
+          "image": "images/woody-style-tester--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/woody-style-tester-10ml-%d9%88%d9%88%d8%af%d9%8a-%d8%b3%d8%aa%d8%a7%d9%8a%d9%84-%d8%a7%d9%84%d8%b9%d8%b1%d8%a8%d9%8a%d8%a9-%d9%84%d9%84%d8%b9%d9%88%d8%af-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "aura-blue",
+      "name_ar": "اورا بلو ١٠٠ملي من بوكس السمر بدون علبو",
+      "name_en": "Aura Blue &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/aura-blue.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "leftover",
+              "ml": 100,
+              "price": 1250,
+              "first_seen": "2026-11-24"
+            }
+          ],
+          "image": "images/aura-blue--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/aura-blue-100ml-%d8%a7%d9%88%d8%b1%d8%a7-%d8%a8%d9%84%d9%88-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a8%d9%88%d9%83%d8%b3-%d8%a7%d9%84%d8%b3%d9%85%d8%b1-%d8%a8%d8%af%d9%88%d9%86/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "aura-30",
+      "name_ar": "اورا ٣٠ ١٠٠ملي من بوكس السمر بدون علبة",
+      "name_en": "Aura 30 &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/aura-30.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "leftover",
+              "ml": 100,
+              "price": 1250,
+              "first_seen": "2026-11-24"
+            }
+          ],
+          "image": "images/aura-30--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/aura-30-100ml-%d8%a7%d9%88%d8%b1%d8%a7-%d9%a3%d9%a0-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%a8%d9%88%d9%83%d8%b3-%d8%a7%d9%84%d8%b3%d9%85%d8%b1-%d8%a8%d8%af%d9%88%d9%86-%d8%b9/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "devin-vert",
+      "name_ar": "ديفن فيرت ٥٠ملي",
+      "name_en": "Devin Vert &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/devin-vert.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "leftover",
+              "ml": 50,
+              "price": 875,
+              "first_seen": "2026-11-24"
+            }
+          ],
+          "image": "images/devin-vert--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/devin-vert-50ml-%d8%af%d9%8a%d9%81%d9%86-%d9%81%d9%8a%d8%b1%d8%aa-%d9%a5%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
