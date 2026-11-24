@@ -12148,7 +12148,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2500,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-24"
             }
           ],
           "image": "images/arabian-knight--dar-elarabia.jpg",
@@ -104596,7 +104597,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2000,
-              "first_seen": "2026-07-25"
+              "first_seen": "2026-07-25",
+              "sold_since": "2026-11-24"
             }
           ],
           "image": "images/marmara--dar-elarabia.jpg",
@@ -208372,8 +208374,7 @@
               "kind": "full",
               "ml": 100,
               "price": 3000,
-              "first_seen": "2026-09-06",
-              "sold_since": "2026-10-12"
+              "first_seen": "2026-09-06"
             }
           ],
           "image": "images/hersh-2010--dar-elarabia.jpg",
@@ -229164,6 +229165,60 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "hersh-luxury",
+      "name_ar": "Hersh Luxury",
+      "name_en": "Hersh Luxury",
+      "brand": "Al Ezz Oud",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/hersh-luxury.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3200,
+              "first_seen": "2026-11-24"
+            }
+          ],
+          "image": "images/hersh-luxury--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/hersh-luxury"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "hersh-owner",
+      "name_ar": "Hersh Owner",
+      "name_en": "Hersh Owner",
+      "brand": "Al Ezz Oud",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/hersh-owner.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "dar.elarabia",
+          "url": "https://darelarabia.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 3200,
+              "first_seen": "2026-11-24"
+            }
+          ],
+          "image": "images/hersh-owner--dar-elarabia.jpg",
+          "product_url": "https://darelarabia.com/products/hersh-owner"
+        }
+      ],
+      "_hero_source": "dar.elarabia"
     }
   ]
 }
