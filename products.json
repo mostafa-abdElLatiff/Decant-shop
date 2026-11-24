@@ -100727,7 +100727,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2200,
-              "first_seen": "2026-09-23"
+              "first_seen": "2026-09-23",
+              "sold_since": "2026-11-24"
             }
           ],
           "image": "images/lumiere-garcon--dar-elarabia.jpg",
@@ -149287,8 +149288,7 @@
               "kind": "full",
               "ml": 50,
               "price": 2150,
-              "first_seen": "2026-11-15",
-              "sold_since": "2026-11-18"
+              "first_seen": "2026-11-15"
             }
           ],
           "image": "images/shadow--dar-elarabia.jpg",
@@ -185333,8 +185333,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 2000,
-              "first_seen": "2026-08-04"
+              "price": 1950,
+              "first_seen": "2026-08-04",
+              "prev_price": 2000
             }
           ],
           "image": "images/8th-wonder--dar-elarabia.jpg",
