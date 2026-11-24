@@ -12201,7 +12201,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2550,
-              "first_seen": "2026-09-29"
+              "first_seen": "2026-09-29",
+              "sold_since": "2026-11-24"
             }
           ],
           "image": "images/arabian-knight-silver--emaratiscents.jpg",
@@ -77068,7 +77069,8 @@
               "kind": "full",
               "ml": 100,
               "price": 890,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-24"
             }
           ],
           "image": "images/impulse-oud--emaratiscents.jpg",
@@ -91741,7 +91743,8 @@
               "kind": "full",
               "ml": 200,
               "price": 2650,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-24"
             }
           ],
           "image": "images/la-dor-bakhur--emaratiscents.jpg",
@@ -145128,8 +145131,7 @@
               "kind": "full",
               "ml": 100,
               "price": 12700,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-11-19"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/royal-incense--emaratiscents.jpg",
@@ -195305,8 +195307,7 @@
               "kind": "full",
               "ml": 105,
               "price": 3750,
-              "first_seen": "2026-08-14",
-              "sold_since": "2026-11-21"
+              "first_seen": "2026-08-14"
             }
           ],
           "image": "images/elixir-de-bronze-twilight-secrets-set--emaratiscents.jpg",
@@ -216325,6 +216326,20 @@
           ],
           "image": "images/coral-bloom-reef--og-perfume.jpg",
           "product_url": "https://og-perfume.com/products/coral-bloom-reef"
+        },
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2750,
+              "first_seen": "2026-11-24"
+            }
+          ],
+          "image": "images/coral-bloom-reef--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/reef-coral-bloom"
         }
       ],
       "_hero_source": "og-perfume"
@@ -226412,8 +226427,7 @@
               "kind": "full",
               "ml": 100,
               "price": 4350,
-              "first_seen": "2026-11-18",
-              "sold_since": "2026-11-22"
+              "first_seen": "2026-11-18"
             }
           ],
           "image": "images/essence-of-casablanca--emaratiscents.jpg",
@@ -228741,6 +228755,33 @@
         }
       ],
       "_hero_source": "roseperfume"
+    },
+    {
+      "id": "khamrah-qahwa-gift-set",
+      "name_ar": "Khamrah Qahwa Gift Set",
+      "name_en": "Khamrah Qahwa Gift Set",
+      "brand": "Lattafa",
+      "category": "dupe",
+      "dupe_of": [],
+      "image": "images/khamrah-qahwa-gift-set.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2400,
+              "first_seen": "2026-11-24"
+            }
+          ],
+          "image": "images/khamrah-qahwa-gift-set--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/khamrah-qahwa-gift-set"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
