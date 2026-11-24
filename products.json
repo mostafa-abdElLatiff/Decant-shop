@@ -48713,8 +48713,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1250,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-24"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/eclaire--og-perfume.jpg",
@@ -160651,6 +160650,13 @@
               "sold_since": "2026-11-24"
             },
             {
+              "kind": "decant",
+              "ml": 30,
+              "price": 625,
+              "first_seen": "2026-11-24",
+              "sold_since": "2026-11-24"
+            },
+            {
               "kind": "leftover",
               "ml": 50,
               "price": 975,
@@ -192589,7 +192595,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 160,
-              "first_seen": "2026-08-10"
+              "first_seen": "2026-08-10",
+              "sold_since": "2026-11-24"
             },
             {
               "kind": "decant",
@@ -211182,6 +211189,35 @@
           ],
           "image": "images/punto-collines--sniffz.jpg",
           "product_url": "https://sniffz-eg.com/products/punto-collines-1"
+        },
+        {
+          "name": "og-perfume",
+          "url": "https://og-perfume.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 230,
+              "first_seen": "2026-11-24",
+              "sold_since": "2026-11-24"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 635,
+              "first_seen": "2026-11-24",
+              "sold_since": "2026-11-24"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 2000,
+              "first_seen": "2026-11-24",
+              "sold_since": "2026-11-24"
+            }
+          ],
+          "image": "images/punto-collines--og-perfume.jpg",
+          "product_url": "https://og-perfume.com/products/punto-collines"
         }
       ],
       "_hero_source": "sniffz"
