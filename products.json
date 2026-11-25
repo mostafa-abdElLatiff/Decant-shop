@@ -1335,7 +1335,7 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 175,
+              "price": 185,
               "first_seen": "2026-07-18"
             },
             {
@@ -2198,8 +2198,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 225,
-              "first_seen": "2026-08-01"
+              "price": 215,
+              "first_seen": "2026-08-01",
+              "prev_price": 225
             },
             {
               "kind": "leftover",
@@ -4746,7 +4747,8 @@
               "kind": "full",
               "ml": 100,
               "price": 775,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-25"
             }
           ],
           "image": "images/afro-leather-alhambra--eldesoki-fragrances.jpg",
@@ -9516,6 +9518,20 @@
           ],
           "image": "images/ameer-al-arab-imperium--mazaya.jpg",
           "product_url": "https://mazaya.eg/en/spray-ameer-al-arab-imperium-100ml-men"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 875,
+              "first_seen": "2026-11-25"
+            }
+          ],
+          "image": "images/ameer-al-arab-imperium--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/ameer-al-arab-imperium-100ml-%d8%a7%d9%85%d9%8a%d8%b1-%d8%a7%d9%84%d8%b9%d8%b1%d8%a8-%d8%a7%d9%85%d8%a8%d9%8a%d8%b1%d9%8a%d9%88%d9%85-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -13604,8 +13620,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 150,
-              "first_seen": "2026-07-18"
+              "price": 145,
+              "first_seen": "2026-07-18",
+              "prev_price": 150
             },
             {
               "kind": "full",
@@ -14434,8 +14451,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 250,
-              "first_seen": "2026-08-21"
+              "price": 240,
+              "first_seen": "2026-08-21",
+              "prev_price": 250
             },
             {
               "kind": "leftover",
@@ -21257,8 +21275,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 140,
-              "first_seen": "2026-08-04"
+              "price": 135,
+              "first_seen": "2026-08-04",
+              "prev_price": 140
             },
             {
               "kind": "leftover",
@@ -27564,8 +27583,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 175,
-              "first_seen": "2026-07-26"
+              "price": 165,
+              "first_seen": "2026-07-26",
+              "prev_price": 175
             }
           ],
           "image": "images/bois-de-nuit--eldesoki-fragrances.jpg",
@@ -31118,8 +31138,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 250,
-              "first_seen": "2026-07-18"
+              "price": 240,
+              "first_seen": "2026-07-18",
+              "prev_price": 250
             },
             {
               "kind": "leftover",
@@ -34899,8 +34920,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 225,
-              "first_seen": "2026-07-26"
+              "price": 200,
+              "first_seen": "2026-07-26",
+              "prev_price": 225
             },
             {
               "kind": "leftover",
@@ -39775,6 +39797,12 @@
               "ml": 10,
               "price": 200,
               "first_seen": "2026-07-18"
+            },
+            {
+              "kind": "decant",
+              "ml": 20,
+              "price": 450,
+              "first_seen": "2026-11-25"
             }
           ],
           "image": "images/cuban-tobacco--eldesoki-fragrances.jpg",
@@ -48619,8 +48647,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1475,
-              "first_seen": "2026-07-19"
+              "price": 1325,
+              "first_seen": "2026-07-19",
+              "prev_price": 1475
             }
           ],
           "image": "images/eclaire--eldesoki-fragrances.jpg",
@@ -61420,8 +61449,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 550,
-              "first_seen": "2026-07-18"
+              "price": 525,
+              "first_seen": "2026-07-18",
+              "prev_price": 550
             },
             {
               "kind": "leftover",
@@ -69706,8 +69736,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 200,
-              "first_seen": "2026-07-18"
+              "price": 195,
+              "first_seen": "2026-07-18",
+              "prev_price": 200
             },
             {
               "kind": "leftover",
@@ -70817,8 +70848,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 215,
-              "first_seen": "2026-08-10"
+              "price": 185,
+              "first_seen": "2026-08-10",
+              "prev_price": 215
             },
             {
               "kind": "leftover",
@@ -82000,6 +82032,12 @@
               "sold_since": "2026-11-24"
             },
             {
+              "kind": "decant",
+              "ml": 20,
+              "price": 450,
+              "first_seen": "2026-11-25"
+            },
+            {
               "kind": "leftover",
               "ml": 50,
               "price": 900,
@@ -84490,8 +84528,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 200,
-              "first_seen": "2026-07-18"
+              "price": 185,
+              "first_seen": "2026-07-18",
+              "prev_price": 200
             },
             {
               "kind": "leftover",
@@ -102105,8 +102144,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 250,
-              "first_seen": "2026-08-21"
+              "price": 240,
+              "first_seen": "2026-08-21",
+              "prev_price": 250
             },
             {
               "kind": "leftover",
@@ -105897,8 +105937,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 165,
-              "first_seen": "2026-07-18"
+              "price": 160,
+              "first_seen": "2026-07-18",
+              "prev_price": 165
             },
             {
               "kind": "leftover",
@@ -109712,8 +109753,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 170,
-              "first_seen": "2026-07-18"
+              "price": 160,
+              "first_seen": "2026-07-18",
+              "prev_price": 170
             },
             {
               "kind": "leftover",
@@ -115364,8 +115406,7 @@
               "kind": "full",
               "ml": 70,
               "price": 1175,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-10-21"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/nayel-king-arabiyat--eldesoki-fragrances.jpg",
@@ -129554,8 +129595,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 150,
-              "first_seen": "2026-07-18"
+              "price": 135,
+              "first_seen": "2026-07-18",
+              "prev_price": 150
             },
             {
               "kind": "leftover",
@@ -132255,8 +132297,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 200,
-              "first_seen": "2026-07-18"
+              "price": 185,
+              "first_seen": "2026-07-18",
+              "prev_price": 200
             },
             {
               "kind": "leftover",
@@ -137329,6 +137372,20 @@
           ],
           "image": "images/qaaed--feel22.jpg",
           "product_url": "https://eg.feel22.com/products/lattafa-qaaed-eau-de-parfum-100ml"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1075,
+              "first_seen": "2026-11-25"
+            }
+          ],
+          "image": "images/qaaed--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/qaaed-100ml-lattafa-%d9%82%d8%a7%d8%a6%d8%af-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d9%84%d8%b7%d8%a7%d9%81%d8%a9/"
         }
       ],
       "_hero_source": "emaratiscents",
@@ -137492,6 +137549,21 @@
           ],
           "image": "images/qaed-al-fursan--roseperfume.jpg",
           "product_url": "https://roseperfume.online/products/qaed-al-fursan-100ml-eau-de-parfum-lattafa-perfumes"
+        },
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 90,
+              "price": 775,
+              "first_seen": "2026-11-25",
+              "sold_since": "2026-11-25"
+            }
+          ],
+          "image": "images/qaed-al-fursan--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/qaed-alfursan%d9%82%d8%a7%d8%a6%d8%af-%d8%a7%d9%84%d9%81%d8%b1%d8%b3%d8%a7%d9%86-%d8%a7%d9%84%d8%a3%d8%b3%d9%88%d8%af-%d9%85%d9%86-%d9%84%d8%b7%d8%a7%d9%81%d8%a9/"
         }
       ],
       "_hero_source": "sniffz",
@@ -139539,8 +139611,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 200,
-              "first_seen": "2026-08-02"
+              "price": 195,
+              "first_seen": "2026-08-02",
+              "prev_price": 200
             },
             {
               "kind": "leftover",
@@ -140169,8 +140242,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 225,
-              "first_seen": "2026-08-21"
+              "price": 215,
+              "first_seen": "2026-08-21",
+              "prev_price": 225
             },
             {
               "kind": "leftover",
@@ -144759,8 +144833,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 200,
-              "first_seen": "2026-07-18"
+              "price": 190,
+              "first_seen": "2026-07-18",
+              "prev_price": 200
             },
             {
               "kind": "leftover",
@@ -157907,8 +157982,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 250,
-              "first_seen": "2026-07-24"
+              "price": 240,
+              "first_seen": "2026-07-24",
+              "prev_price": 250
             },
             {
               "kind": "leftover",
@@ -159844,8 +159920,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 140,
-              "first_seen": "2026-07-18"
+              "price": 135,
+              "first_seen": "2026-07-18",
+              "prev_price": 140
             },
             {
               "kind": "full",
@@ -167017,21 +167094,20 @@
               "kind": "decant",
               "ml": 10,
               "price": 225,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-10-26"
+              "first_seen": "2026-07-18"
             },
             {
               "kind": "leftover",
               "ml": 30,
               "price": 750,
-              "first_seen": "2026-09-05",
-              "sold_since": "2026-09-05"
+              "first_seen": "2026-09-05"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 2200,
-              "first_seen": "2026-07-19"
+              "price": 1975,
+              "first_seen": "2026-07-19",
+              "prev_price": 2200
             }
           ],
           "image": "images/tobacco-jam-50--eldesoki-fragrances.jpg",
@@ -169164,8 +169240,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 250,
-              "first_seen": "2026-07-18"
+              "price": 240,
+              "first_seen": "2026-07-18",
+              "prev_price": 250
             },
             {
               "kind": "leftover",
@@ -169474,8 +169551,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 250,
-              "first_seen": "2026-08-21"
+              "price": 240,
+              "first_seen": "2026-08-21",
+              "prev_price": 250
             },
             {
               "kind": "leftover",
@@ -173696,8 +173774,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 200,
-              "first_seen": "2026-10-27"
+              "price": 195,
+              "first_seen": "2026-10-27",
+              "prev_price": 200
             },
             {
               "kind": "leftover",
@@ -173947,8 +174026,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1075,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-07-19"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/velvet-musk--eldesoki-fragrances.jpg",
@@ -179713,7 +179791,7 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 150,
+              "price": 160,
               "first_seen": "2026-10-15"
             },
             {
@@ -181089,8 +181167,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 250,
-              "first_seen": "2026-07-19"
+              "price": 240,
+              "first_seen": "2026-07-19",
+              "prev_price": 250
             },
             {
               "kind": "leftover",
@@ -193548,8 +193627,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 150,
-              "first_seen": "2026-10-24"
+              "price": 135,
+              "first_seen": "2026-10-24",
+              "prev_price": 150
             },
             {
               "kind": "leftover",
@@ -208984,8 +209064,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 185,
-              "first_seen": "2026-10-27"
+              "price": 180,
+              "first_seen": "2026-10-27",
+              "prev_price": 185
             },
             {
               "kind": "leftover",
@@ -211135,8 +211216,7 @@
               "kind": "full",
               "ml": 75,
               "price": 700,
-              "first_seen": "2026-09-20",
-              "sold_since": "2026-11-11"
+              "first_seen": "2026-09-20"
             }
           ],
           "image": "images/khanjar-outory-arabiyat--eldesoki-fragrances.jpg",
@@ -211334,6 +211414,12 @@
           "url": "https://eldesoki-fragrances.com/",
           "offers": [
             {
+              "kind": "leftover",
+              "ml": 100,
+              "price": 1250,
+              "first_seen": "2026-11-25"
+            },
+            {
               "kind": "full",
               "ml": 200,
               "price": 2100,
@@ -211341,7 +211427,7 @@
             }
           ],
           "image": "images/attacks-blue--eldesoki-fragrances.jpg",
-          "product_url": "https://eldesoki-fragrances.com/product/attacks-blue-200ml-assaf-%d8%a7%d8%aa%d8%a7%d9%83%d8%b3-%d8%a8%d9%84%d9%88-%d9%a2%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b9%d8%b3%d8%a7%d9%81/"
+          "product_url": "https://eldesoki-fragrances.com/product/attacks-blue-100ml-%d8%a7%d8%aa%d8%a7%d9%83%d8%b3-%d8%a8%d9%84%d9%88-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d8%b9%d8%b3%d8%a7%d9%81/"
         }
       ],
       "_hero_source": "sniffz"
@@ -218815,8 +218901,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 115,
-              "first_seen": "2026-10-15"
+              "price": 110,
+              "first_seen": "2026-10-15",
+              "prev_price": 115
             }
           ],
           "image": "images/khanjar-1792054974--eldesoki-fragrances.jpg",
@@ -221810,7 +221897,7 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 200,
+              "price": 210,
               "first_seen": "2026-11-01"
             }
           ],
@@ -221891,8 +221978,9 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 125,
-              "first_seen": "2026-11-01"
+              "price": 120,
+              "first_seen": "2026-11-01",
+              "prev_price": 125
             }
           ],
           "image": "images/sherlock-tester--eldesoki-fragrances.jpg",
@@ -229237,6 +229325,87 @@
         }
       ],
       "_hero_source": "dar.elarabia"
+    },
+    {
+      "id": "just-oud-and-wood-mpf",
+      "name_ar": "چست عود اند وود ١٠٠ملي من عطوري",
+      "name_en": "Just Oud and Wood Mpf &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/just-oud-and-wood-mpf.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 700,
+              "first_seen": "2026-11-25"
+            }
+          ],
+          "image": "images/just-oud-and-wood-mpf--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/just-oud-and-wood-100ml-mpf-%da%86%d8%b3%d8%aa-%d8%b9%d9%88%d8%af-%d8%a7%d9%86%d8%af-%d9%88%d9%88%d8%af-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a-%d9%85%d9%86-%d8%b9%d8%b7%d9%88%d8%b1%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "mpf-lamour",
+      "name_ar": "لامور من عطوري ١٠٠ملي",
+      "name_en": "Mpf Lamour &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/mpf-lamour.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 700,
+              "first_seen": "2026-11-25"
+            }
+          ],
+          "image": "images/mpf-lamour--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/mpf-lamour-100ml-%d9%84%d8%a7%d9%85%d9%88%d8%b1-%d9%85%d9%86-%d8%b9%d8%b7%d9%88%d8%b1%d9%8a-%d9%a1%d9%a0%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "attacks-blue-tester",
+      "name_ar": "اتاكس بلو تستر ١٠ملي",
+      "name_en": "Attacks Blue tester &",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/attacks-blue-tester.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "eldesoki-fragrances",
+          "url": "https://eldesoki-fragrances.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 160,
+              "first_seen": "2026-11-25"
+            }
+          ],
+          "image": "images/attacks-blue-tester--eldesoki-fragrances.jpg",
+          "product_url": "https://eldesoki-fragrances.com/product/attacks-blue-tester-10ml-%d8%a7%d8%aa%d8%a7%d9%83%d8%b3-%d8%a8%d9%84%d9%88-%d8%aa%d8%b3%d8%aa%d8%b1-%d9%a1%d9%a0%d9%85%d9%84%d9%8a/"
+        }
+      ],
+      "_hero_source": "eldesoki-fragrances"
     }
   ]
 }
