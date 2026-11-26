@@ -5782,6 +5782,13 @@
               "price": 225,
               "first_seen": "2026-11-26",
               "sold_since": "2026-11-26"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 550,
+              "first_seen": "2026-11-26",
+              "sold_since": "2026-11-26"
             }
           ],
           "image": "images/al-faris-arabiyat-prestige-arabiyat-prestige--roseperfume.jpg",
@@ -9852,7 +9859,7 @@
             {
               "kind": "full",
               "ml": 35,
-              "price": 130,
+              "price": 135,
               "first_seen": "2026-01-01"
             }
           ],
@@ -11956,7 +11963,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1250,
+              "price": 1450,
               "first_seen": "2026-07-19"
             }
           ],
@@ -14314,26 +14321,30 @@
             {
               "kind": "decant",
               "ml": 5,
-              "price": 150,
-              "first_seen": "2026-07-20"
+              "price": 130,
+              "first_seen": "2026-07-20",
+              "prev_price": 150
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 275,
-              "first_seen": "2026-07-20"
+              "price": 240,
+              "first_seen": "2026-07-20",
+              "prev_price": 275
             },
             {
               "kind": "decant",
               "ml": 30,
-              "price": 800,
-              "first_seen": "2026-07-20"
+              "price": 700,
+              "first_seen": "2026-07-20",
+              "prev_price": 800
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 2200,
-              "first_seen": "2026-08-30"
+              "price": 2000,
+              "first_seen": "2026-08-30",
+              "prev_price": 2200
             }
           ],
           "image": "images/aromatix--roseperfume.jpg",
@@ -14595,15 +14606,17 @@
             {
               "kind": "decant",
               "ml": 5,
-              "price": 140,
+              "price": 130,
               "first_seen": "2026-09-03",
+              "prev_price": 140,
               "sold_since": "2026-10-19"
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 250,
-              "first_seen": "2026-09-03"
+              "price": 240,
+              "first_seen": "2026-09-03",
+              "prev_price": 250
             },
             {
               "kind": "decant",
@@ -16838,7 +16851,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 950,
+              "price": 1000,
               "first_seen": "2026-01-01"
             }
           ],
@@ -17140,7 +17153,7 @@
             {
               "kind": "full",
               "ml": 35,
-              "price": 130,
+              "price": 135,
               "first_seen": "2026-07-20"
             }
           ],
@@ -19846,7 +19859,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1200,
+              "price": 1350,
               "first_seen": "2026-10-19"
             }
           ],
@@ -22604,7 +22617,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1350,
+              "price": 1500,
               "first_seen": "2026-07-20"
             }
           ],
@@ -27289,7 +27302,7 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 675,
+              "price": 750,
               "first_seen": "2026-07-20"
             }
           ],
@@ -33339,7 +33352,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 130,
+              "price": 135,
               "first_seen": "2026-01-01"
             }
           ],
@@ -38970,7 +38983,7 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 675,
+              "price": 750,
               "first_seen": "2026-07-20"
             }
           ],
@@ -39608,7 +39621,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1250,
+              "price": 1350,
               "first_seen": "2026-08-17"
             }
           ],
@@ -43655,7 +43668,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 130,
+              "price": 135,
               "first_seen": "2026-07-20"
             }
           ],
@@ -47313,7 +47326,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1700,
+              "price": 1900,
               "first_seen": "2026-07-31"
             }
           ],
@@ -81670,7 +81683,8 @@
               "kind": "full",
               "ml": 100,
               "price": 250,
-              "first_seen": "2026-07-20"
+              "first_seen": "2026-07-20",
+              "sold_since": "2026-11-26"
             }
           ],
           "image": "images/jad-bohemian--roseperfume.jpg",
@@ -81747,8 +81761,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 250,
-              "first_seen": "2026-07-20"
+              "price": 200,
+              "first_seen": "2026-07-20",
+              "prev_price": 250
             }
           ],
           "image": "images/jad-coral--roseperfume.jpg",
@@ -81825,8 +81840,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 250,
-              "first_seen": "2026-07-20"
+              "price": 200,
+              "first_seen": "2026-07-20",
+              "prev_price": 250
             }
           ],
           "image": "images/jad-fleur--roseperfume.jpg",
@@ -99267,7 +99283,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 130,
+              "price": 135,
               "first_seen": "2026-01-01"
             }
           ],
@@ -99947,22 +99963,19 @@
               "kind": "decant",
               "ml": 5,
               "price": 120,
-              "first_seen": "2026-09-29",
-              "sold_since": "2026-11-24"
+              "first_seen": "2026-09-29"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 220,
-              "first_seen": "2026-09-29",
-              "sold_since": "2026-11-24"
+              "first_seen": "2026-09-29"
             },
             {
               "kind": "decant",
               "ml": 30,
               "price": 620,
-              "first_seen": "2026-09-29",
-              "sold_since": "2026-11-24"
+              "first_seen": "2026-09-29"
             },
             {
               "kind": "full",
@@ -100496,7 +100509,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 130,
+              "price": 135,
               "first_seen": "2026-01-01"
             }
           ],
@@ -100613,7 +100626,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 130,
+              "price": 135,
               "first_seen": "2026-01-01"
             }
           ],
@@ -102542,7 +102555,7 @@
             {
               "kind": "decant",
               "ml": 30,
-              "price": 675,
+              "price": 700,
               "first_seen": "2026-07-20"
             },
             {
@@ -111275,7 +111288,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1700,
+              "price": 1850,
               "first_seen": "2026-09-03"
             }
           ],
@@ -128613,7 +128626,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1200,
+              "price": 1250,
               "first_seen": "2026-07-21"
             }
           ],
@@ -132903,14 +132916,16 @@
             {
               "kind": "decant",
               "ml": 5,
-              "price": 140,
-              "first_seen": "2026-07-20"
+              "price": 130,
+              "first_seen": "2026-07-20",
+              "prev_price": 140
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 250,
-              "first_seen": "2026-07-20"
+              "price": 140,
+              "first_seen": "2026-07-20",
+              "prev_price": 250
             },
             {
               "kind": "decant",
@@ -133659,7 +133674,7 @@
             {
               "kind": "full",
               "ml": 60,
-              "price": 675,
+              "price": 750,
               "first_seen": "2026-07-20"
             }
           ],
@@ -140744,7 +140759,7 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 130,
+              "price": 135,
               "first_seen": "2026-01-01"
             }
           ],
@@ -143055,7 +143070,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1100,
+              "price": 1250,
               "first_seen": "2026-09-03"
             }
           ],
@@ -168520,25 +168535,28 @@
             {
               "kind": "decant",
               "ml": 5,
-              "price": 100,
-              "first_seen": "2026-07-20"
+              "price": 90,
+              "first_seen": "2026-07-20",
+              "prev_price": 100
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 175,
-              "first_seen": "2026-07-20"
+              "price": 150,
+              "first_seen": "2026-07-20",
+              "prev_price": 175
             },
             {
               "kind": "decant",
               "ml": 30,
-              "price": 575,
-              "first_seen": "2026-07-20"
+              "price": 400,
+              "first_seen": "2026-07-20",
+              "prev_price": 575
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 1175,
+              "price": 1250,
               "first_seen": "2026-07-20"
             }
           ],
@@ -173491,7 +173509,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1450,
+              "price": 1550,
               "first_seen": "2026-07-20"
             }
           ],
@@ -174232,7 +174250,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1450,
+              "price": 1550,
               "first_seen": "2026-07-20"
             }
           ],
@@ -181813,29 +181831,33 @@
             {
               "kind": "decant",
               "ml": 5,
-              "price": 150,
+              "price": 130,
               "first_seen": "2026-08-30",
+              "prev_price": 150,
               "sold_since": "2026-10-16"
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 275,
+              "price": 240,
               "first_seen": "2026-08-30",
+              "prev_price": 275,
               "sold_since": "2026-10-16"
             },
             {
               "kind": "decant",
               "ml": 30,
-              "price": 800,
+              "price": 700,
               "first_seen": "2026-08-30",
+              "prev_price": 800,
               "sold_since": "2026-10-16"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 2200,
+              "price": 2000,
               "first_seen": "2026-08-30",
+              "prev_price": 2200,
               "sold_since": "2026-10-13"
             }
           ],
@@ -203399,7 +203421,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 425,
+              "price": 500,
               "first_seen": "2026-08-27"
             }
           ],
@@ -203526,7 +203548,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 425,
+              "price": 500,
               "first_seen": "2026-08-27"
             }
           ],
@@ -203716,7 +203738,7 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 425,
+              "price": 500,
               "first_seen": "2026-08-28"
             }
           ],
@@ -211490,7 +211512,7 @@
             {
               "kind": "decant",
               "ml": 25,
-              "price": 375,
+              "price": 425,
               "first_seen": "2026-09-16"
             }
           ],
