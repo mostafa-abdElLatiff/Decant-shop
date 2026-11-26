@@ -57995,8 +57995,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-11-25"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/faris-al-arab--emaratiscents.jpg",
@@ -61962,8 +61961,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1150,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-11-25"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/fursan-brown--emaratiscents.jpg",
@@ -64678,7 +64676,8 @@
               "kind": "full",
               "ml": 100,
               "price": 920,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-26"
             }
           ],
           "image": "images/gladiator-twilight-elixir--emaratiscents.jpg",
@@ -77410,8 +77409,7 @@
               "kind": "full",
               "ml": 50,
               "price": 3600,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-16"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/incense-01--emaratiscents.jpg",
@@ -84628,7 +84626,8 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-26"
             }
           ],
           "image": "images/kahilan--emaratiscents.jpg",
@@ -113110,7 +113109,8 @@
               "kind": "full",
               "ml": 50,
               "price": 1550,
-              "first_seen": "2026-11-15"
+              "first_seen": "2026-11-15",
+              "sold_since": "2026-11-26"
             }
           ],
           "image": "images/mykonos-conquer--emaratiscents.jpg",
@@ -120656,7 +120656,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-26"
             }
           ],
           "image": "images/obsidian-rayhaan--emaratiscents.jpg",
@@ -123679,7 +123680,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1650,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-26"
             }
           ],
           "image": "images/onyx-gold--emaratiscents.jpg",
@@ -140753,7 +140755,8 @@
               "kind": "full",
               "ml": 100,
               "price": 21500,
-              "first_seen": "2026-07-28"
+              "first_seen": "2026-07-28",
+              "sold_since": "2026-11-26"
             }
           ],
           "image": "images/reasons--emaratiscents.jpg",
@@ -160583,8 +160586,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1950,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-26"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/supremacy-incense--emaratiscents.jpg",
@@ -162515,8 +162517,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1800,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-11-24"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/teriaq-intense--emaratiscents.jpg",
@@ -199100,8 +199101,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1450,
-              "first_seen": "2026-08-29",
-              "prev_price": 1750
+              "first_seen": "2026-08-29"
             }
           ],
           "image": "images/imperial-ocean--emaratiscents.jpg",
@@ -225391,7 +225391,8 @@
               "kind": "full",
               "ml": 50,
               "price": 1550,
-              "first_seen": "2026-11-15"
+              "first_seen": "2026-11-15",
+              "sold_since": "2026-11-26"
             }
           ],
           "image": "images/dreamscape--emaratiscents.jpg",
@@ -225418,7 +225419,8 @@
               "kind": "full",
               "ml": 100,
               "price": 3200,
-              "first_seen": "2026-11-15"
+              "first_seen": "2026-11-15",
+              "sold_since": "2026-11-26"
             }
           ],
           "image": "images/inferno--emaratiscents.jpg",
@@ -228947,8 +228949,7 @@
               "kind": "full",
               "ml": 12,
               "price": 1700,
-              "first_seen": "2026-11-23",
-              "sold_since": "2026-11-26"
+              "first_seen": "2026-11-23"
             }
           ],
           "image": "images/secret-musk-concentrated-oil--emaratiscents.jpg",
@@ -229642,6 +229643,33 @@
         }
       ],
       "_hero_source": "sniffz"
+    },
+    {
+      "id": "secret-oud-concentrated-oil",
+      "name_ar": "Secret Oud Concentrated Oil",
+      "name_en": "Secret Oud Concentrated Oil",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/secret-oud-concentrated-oil.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "emaratiscents",
+          "url": "https://emaratiscents.com/",
+          "offers": [
+            {
+              "kind": "full",
+              "ml": 12,
+              "price": 1700,
+              "first_seen": "2026-11-26"
+            }
+          ],
+          "image": "images/secret-oud-concentrated-oil--emaratiscents.jpg",
+          "product_url": "https://emaratiscents.com/products/secret-oud-concentrated-oil"
+        }
+      ],
+      "_hero_source": "emaratiscents"
     }
   ]
 }
