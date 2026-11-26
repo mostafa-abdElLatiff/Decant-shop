@@ -87005,8 +87005,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1950,
-              "first_seen": "2026-07-18"
+              "price": 1750,
+              "first_seen": "2026-07-18",
+              "prev_price": 1950
             }
           ],
           "image": "images/khamrah-waha--emaratiscents.jpg",
@@ -113010,8 +113011,7 @@
               "kind": "full",
               "ml": 50,
               "price": 1550,
-              "first_seen": "2026-11-15",
-              "sold_since": "2026-11-23"
+              "first_seen": "2026-11-15"
             }
           ],
           "image": "images/mykonos-conquer--emaratiscents.jpg",
@@ -225197,8 +225197,7 @@
               "kind": "full",
               "ml": 50,
               "price": 1550,
-              "first_seen": "2026-11-15",
-              "sold_since": "2026-11-24"
+              "first_seen": "2026-11-15"
             }
           ],
           "image": "images/dreamscape--emaratiscents.jpg",
@@ -225225,8 +225224,7 @@
               "kind": "full",
               "ml": 100,
               "price": 3200,
-              "first_seen": "2026-11-15",
-              "sold_since": "2026-11-24"
+              "first_seen": "2026-11-15"
             }
           ],
           "image": "images/inferno--emaratiscents.jpg",
@@ -225309,8 +225307,7 @@
               "kind": "full",
               "ml": 100,
               "price": 3000,
-              "first_seen": "2026-11-15",
-              "sold_since": "2026-11-22"
+              "first_seen": "2026-11-15"
             }
           ],
           "image": "images/nautilus--emaratiscents.jpg",
@@ -228757,7 +228754,8 @@
               "kind": "full",
               "ml": 12,
               "price": 1700,
-              "first_seen": "2026-11-23"
+              "first_seen": "2026-11-23",
+              "sold_since": "2026-11-26"
             }
           ],
           "image": "images/secret-musk-concentrated-oil--emaratiscents.jpg",
