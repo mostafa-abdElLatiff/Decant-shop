@@ -229667,6 +229667,41 @@
         }
       ],
       "_hero_source": "emaratiscents"
+    },
+    {
+      "id": "musk-74-poudr-extrait-de-parfum",
+      "name_ar": "Musk 74 Poudré Extrait de Parfum",
+      "name_en": "Musk 74 Poudré Extrait de Parfum",
+      "brand": "Swiss Arabian",
+      "category": "niche",
+      "dupe_of": [],
+      "image": "images/musk-74-poudr-extrait-de-parfum.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "perfuzone",
+          "url": "https://perfuzone-2.myshopify.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 450,
+              "first_seen": "2026-11-26",
+              "sold_since": "2026-11-26"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 800,
+              "first_seen": "2026-11-26",
+              "sold_since": "2026-11-26"
+            }
+          ],
+          "image": "images/musk-74-poudr-extrait-de-parfum--perfuzone.jpg",
+          "product_url": "https://perfuzone-2.myshopify.com/products/swiss-arabian-musk-74-poudre"
+        }
+      ],
+      "_hero_source": "perfuzone"
     }
   ]
 }
