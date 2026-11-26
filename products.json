@@ -14270,8 +14270,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2075,
-              "first_seen": "2026-07-19",
-              "prev_price": 2350
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/aromatix--og-perfume.jpg",
@@ -16591,7 +16590,15 @@
               "kind": "decant",
               "ml": 10,
               "price": 125,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-26"
+            },
+            {
+              "kind": "decant",
+              "ml": 30,
+              "price": 360,
+              "first_seen": "2026-11-26",
+              "sold_since": "2026-11-26"
             },
             {
               "kind": "leftover",
@@ -24115,7 +24122,8 @@
               "kind": "full",
               "ml": 150,
               "price": 1650,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-26"
             }
           ],
           "image": "images/black-diamond-incense--og-perfume.jpg",
@@ -82401,8 +82409,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1900,
-              "first_seen": "2026-07-19",
-              "prev_price": 2100
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/jasmere--og-perfume.jpg",
@@ -99927,8 +99934,7 @@
               "kind": "full",
               "ml": 150,
               "price": 2300,
-              "first_seen": "2026-07-19",
-              "prev_price": 2500
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/liquid-brun-limited-edition--og-perfume.jpg",
@@ -101561,6 +101567,13 @@
               "price": 265,
               "first_seen": "2026-07-19",
               "sold_since": "2026-08-25"
+            },
+            {
+              "kind": "leftover",
+              "ml": 45,
+              "price": 1058,
+              "first_seen": "2026-11-26",
+              "sold_since": "2026-11-26"
             },
             {
               "kind": "leftover",
@@ -132606,8 +132619,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2075,
-              "first_seen": "2026-07-19",
-              "prev_price": 2350
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/platine-blanc--og-perfume.jpg",
@@ -181029,8 +181041,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2075,
-              "first_seen": "2026-07-19",
-              "prev_price": 2220
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/x-aromatix-teas-me--og-perfume.jpg",
@@ -181356,8 +181367,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2075,
-              "first_seen": "2026-07-19",
-              "prev_price": 2220
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/x-xandal--og-perfume.jpg",
