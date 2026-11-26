@@ -12461,7 +12461,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 700,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-26"
             },
             {
               "kind": "full",
@@ -18597,7 +18598,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 240,
-              "first_seen": "2026-11-13"
+              "first_seen": "2026-11-13",
+              "sold_since": "2026-11-26"
             }
           ],
           "image": "images/attacks--sniffz.jpg",
@@ -47875,10 +47877,24 @@
           "offers": [
             {
               "kind": "decant",
+              "ml": 3,
+              "price": 325,
+              "first_seen": "2026-11-26",
+              "sold_since": "2026-11-26"
+            },
+            {
+              "kind": "decant",
               "ml": 5,
               "price": 440,
               "first_seen": "2026-11-21",
               "sold_since": "2026-11-21"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 700,
+              "first_seen": "2026-11-26",
+              "sold_since": "2026-11-26"
             },
             {
               "kind": "full",
@@ -95587,7 +95603,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 1250,
-              "first_seen": "2026-11-15"
+              "first_seen": "2026-11-15",
+              "sold_since": "2026-11-26"
             },
             {
               "kind": "full",
@@ -220380,7 +220397,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 1150,
-              "first_seen": "2026-10-24"
+              "first_seen": "2026-10-24",
+              "sold_since": "2026-11-26"
             }
           ],
           "image": "images/haltane--sniffz.jpg",
@@ -229586,6 +229604,45 @@
         }
       ],
       "_hero_source": "eldesoki-fragrances"
+    },
+    {
+      "id": "pacco-rabanne-1-million-black",
+      "name_ar": "",
+      "name_en": "Pacco Rabanne 1 Million Black",
+      "brand": "",
+      "category": "",
+      "dupe_of": [],
+      "image": "images/pacco-rabanne-1-million-black.jpg",
+      "accords": [],
+      "stores": [
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 275,
+              "first_seen": "2026-11-26"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 380,
+              "first_seen": "2026-11-26"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 600,
+              "first_seen": "2026-11-26"
+            }
+          ],
+          "image": "images/pacco-rabanne-1-million-black--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/pacco-rabanne-1-million-black"
+        }
+      ],
+      "_hero_source": "sniffz"
     }
   ]
 }
