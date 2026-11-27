@@ -112102,6 +112102,12 @@
           "offers": [
             {
               "kind": "decant",
+              "ml": 3,
+              "price": 350,
+              "first_seen": "2026-11-27"
+            },
+            {
+              "kind": "decant",
               "ml": 5,
               "price": 530,
               "first_seen": "2026-07-19"
@@ -229766,17 +229772,21 @@
           "offers": [
             {
               "kind": "decant",
+              "ml": 3,
+              "price": 300,
+              "first_seen": "2026-11-27"
+            },
+            {
+              "kind": "decant",
               "ml": 5,
               "price": 450,
-              "first_seen": "2026-11-26",
-              "sold_since": "2026-11-26"
+              "first_seen": "2026-11-26"
             },
             {
               "kind": "decant",
               "ml": 10,
               "price": 800,
-              "first_seen": "2026-11-26",
-              "sold_since": "2026-11-26"
+              "first_seen": "2026-11-26"
             }
           ],
           "image": "images/musk-74-poudr-extrait-de-parfum--perfuzone.jpg",
