@@ -2169,9 +2169,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1900,
+              "price": 1850,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-11-15"
+              "prev_price": 1900
             }
           ],
           "image": "images/9pm-night-out--sniffz.jpg",
@@ -9639,7 +9639,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 210,
-              "first_seen": "2026-01-01"
+              "first_seen": "2026-01-01",
+              "sold_since": "2026-11-27"
             }
           ],
           "image": "images/ameer-al-oudh-intense-oud--sniffz.jpg",
@@ -12454,7 +12455,8 @@
               "kind": "decant",
               "ml": 5,
               "price": 440,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-27"
             },
             {
               "kind": "decant",
@@ -18592,13 +18594,15 @@
               "kind": "decant",
               "ml": 3,
               "price": 120,
-              "first_seen": "2026-11-13"
+              "first_seen": "2026-11-13",
+              "sold_since": "2026-11-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 155,
-              "first_seen": "2026-11-13"
+              "first_seen": "2026-11-13",
+              "sold_since": "2026-11-27"
             },
             {
               "kind": "decant",
@@ -50626,6 +50630,13 @@
             },
             {
               "kind": "decant",
+              "ml": 5,
+              "price": 140,
+              "first_seen": "2026-11-27",
+              "sold_since": "2026-11-27"
+            },
+            {
+              "kind": "decant",
               "ml": 10,
               "price": 210,
               "first_seen": "2026-11-24",
@@ -73080,13 +73091,15 @@
               "kind": "decant",
               "ml": 3,
               "price": 175,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-27"
             },
             {
               "kind": "decant",
               "ml": 5,
               "price": 230,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-27"
             },
             {
               "kind": "decant",
@@ -86798,9 +86811,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1600,
+              "price": 1500,
               "first_seen": "2026-08-05",
-              "sold_since": "2026-10-27"
+              "prev_price": 1600
             }
           ],
           "image": "images/khamrah-qahwa--sniffz.jpg",
@@ -97054,7 +97067,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 650,
-              "first_seen": "2026-07-19"
+              "first_seen": "2026-07-19",
+              "sold_since": "2026-11-27"
             }
           ],
           "image": "images/le-male-le-parfum--sniffz.jpg",
@@ -99556,8 +99570,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1850,
-              "first_seen": "2026-01-01",
-              "prev_price": 2200
+              "first_seen": "2026-01-01"
             }
           ],
           "image": "images/liquid-brun--sniffz.jpg",
@@ -104735,20 +104748,29 @@
             {
               "kind": "decant",
               "ml": 3,
-              "price": 175,
-              "first_seen": "2026-09-08"
+              "price": 150,
+              "first_seen": "2026-09-08",
+              "prev_price": 175
             },
             {
               "kind": "decant",
               "ml": 5,
-              "price": 230,
-              "first_seen": "2026-09-08"
+              "price": 195,
+              "first_seen": "2026-09-08",
+              "prev_price": 230
             },
             {
               "kind": "decant",
               "ml": 10,
-              "price": 350,
-              "first_seen": "2026-09-08"
+              "price": 300,
+              "first_seen": "2026-09-08",
+              "prev_price": 350
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1950,
+              "first_seen": "2026-11-27"
             }
           ],
           "image": "images/marmara--sniffz.jpg",
@@ -121351,8 +121373,9 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 995,
-              "first_seen": "2026-08-03"
+              "price": 850,
+              "first_seen": "2026-08-03",
+              "prev_price": 995
             }
           ],
           "image": "images/odyssey-chocolate-dubai--sniffz.jpg",
@@ -145125,6 +145148,38 @@
           ],
           "image": "images/royal-blend-sequoia--dar-elarabia.jpg",
           "product_url": "https://darelarabia.com/products/royal-blend-sequoia"
+        },
+        {
+          "name": "sniffz",
+          "url": "https://sniffz-eg.com/",
+          "offers": [
+            {
+              "kind": "decant",
+              "ml": 3,
+              "price": 135,
+              "first_seen": "2026-11-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 180,
+              "first_seen": "2026-11-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 275,
+              "first_seen": "2026-11-27"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 1600,
+              "first_seen": "2026-11-27"
+            }
+          ],
+          "image": "images/royal-blend-sequoia--sniffz.jpg",
+          "product_url": "https://sniffz-eg.com/products/french-avenue-royal-blend-sequoia"
         }
       ],
       "_hero_source": "og-perfume",
@@ -159037,7 +159092,8 @@
               "kind": "decant",
               "ml": 10,
               "price": 650,
-              "first_seen": "2026-09-03"
+              "first_seen": "2026-09-03",
+              "sold_since": "2026-11-27"
             }
           ],
           "image": "images/stronger-with-you-powerfully--sniffz.jpg",
@@ -177875,15 +177931,34 @@
           "url": "https://sniffz-eg.com/",
           "offers": [
             {
+              "kind": "decant",
+              "ml": 3,
+              "price": 140,
+              "first_seen": "2026-11-27",
+              "sold_since": "2026-11-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 5,
+              "price": 185,
+              "first_seen": "2026-11-27"
+            },
+            {
+              "kind": "decant",
+              "ml": 10,
+              "price": 280,
+              "first_seen": "2026-11-27"
+            },
+            {
               "kind": "full",
               "ml": 100,
-              "price": 2000,
+              "price": 1700,
               "first_seen": "2026-01-01",
-              "sold_since": "2026-07-27"
+              "prev_price": 2000
             }
           ],
           "image": "images/vulcan-sable--sniffz.jpg",
-          "product_url": "https://sniffz-eg.com/products/french-avenue-vulcan-sable-full-sealed"
+          "product_url": "https://sniffz-eg.com/products/french-avenue-vulcan-sable"
         },
         {
           "name": "perfuzone",
