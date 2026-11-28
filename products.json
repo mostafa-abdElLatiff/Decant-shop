@@ -2377,7 +2377,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1750,
-              "first_seen": "2026-11-14"
+              "first_seen": "2026-11-14",
+              "sold_since": "2026-11-28"
             }
           ],
           "image": "images/9pm-night-out--dar-elarabia.jpg",
@@ -35288,8 +35289,9 @@
             {
               "kind": "full",
               "ml": 105,
-              "price": 1750,
-              "first_seen": "2026-07-19"
+              "price": 1500,
+              "first_seen": "2026-07-19",
+              "prev_price": 1750
             }
           ],
           "image": "images/club-de-nuit-intense-man--dar-elarabia.jpg",
@@ -111821,9 +111823,8 @@
             {
               "kind": "full",
               "ml": 100,
-              "price": 1850,
-              "first_seen": "2026-08-27",
-              "sold_since": "2026-09-28"
+              "price": 1900,
+              "first_seen": "2026-08-27"
             }
           ],
           "image": "images/musamam-black-intense--dar-elarabia.jpg",
