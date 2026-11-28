@@ -14778,9 +14778,16 @@
           "offers": [
             {
               "kind": "full",
+              "ml": 125,
+              "price": 2450,
+              "first_seen": "2026-11-28"
+            },
+            {
+              "kind": "full",
               "ml": 150,
               "price": 2450,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-28"
             }
           ],
           "image": "images/arrogate-addict-elixir--emaratiscents.jpg",
@@ -61349,8 +61356,7 @@
               "kind": "full",
               "ml": 90,
               "price": 1050,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-11-27"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/freeze-peach-me-cherry-you--emaratiscents.jpg",
@@ -66470,8 +66476,7 @@
               "kind": "full",
               "ml": 75,
               "price": 3700,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-11-27"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/grey-diamond-collection--emaratiscents.jpg",
@@ -80757,7 +80762,8 @@
               "kind": "full",
               "ml": 100,
               "price": 1450,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-28"
             }
           ],
           "image": "images/island-vanilla-dunes--emaratiscents.jpg",
@@ -104660,8 +104666,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-07-19",
-              "sold_since": "2026-11-27"
+              "first_seen": "2026-07-19"
             }
           ],
           "image": "images/marmara--emaratiscents.jpg",
@@ -157088,7 +157093,8 @@
               "kind": "full",
               "ml": 75,
               "price": 2250,
-              "first_seen": "2026-07-18"
+              "first_seen": "2026-07-18",
+              "sold_since": "2026-11-28"
             }
           ],
           "image": "images/spicy-oud-proud-dose--emaratiscents.jpg",
@@ -183955,8 +183961,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2900,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-11-27"
+              "first_seen": "2026-07-18"
             }
           ],
           "image": "images/zikra-lattafa-niche--emaratiscents.jpg",
@@ -195071,8 +195076,7 @@
               "kind": "full",
               "ml": 100,
               "price": 2250,
-              "first_seen": "2026-08-13",
-              "sold_since": "2026-11-27"
+              "first_seen": "2026-08-13"
             }
           ],
           "image": "images/hawas-sapphire--emaratiscents.jpg",
@@ -195712,7 +195716,8 @@
               "kind": "full",
               "ml": 105,
               "price": 3750,
-              "first_seen": "2026-08-14"
+              "first_seen": "2026-08-14",
+              "sold_since": "2026-11-28"
             }
           ],
           "image": "images/d-or-tresor-twilight-secrets-set--emaratiscents.jpg",
