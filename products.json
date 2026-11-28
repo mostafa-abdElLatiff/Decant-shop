@@ -99661,8 +99661,7 @@
               "kind": "decant",
               "ml": 10,
               "price": 200,
-              "first_seen": "2026-07-18",
-              "sold_since": "2026-09-09"
+              "first_seen": "2026-07-18"
             },
             {
               "kind": "leftover",
@@ -208133,8 +208132,7 @@
               "kind": "full",
               "ml": 100,
               "price": 4300,
-              "first_seen": "2026-09-28",
-              "sold_since": "2026-11-18"
+              "first_seen": "2026-09-28"
             }
           ],
           "image": "images/azzaro-most-wanted--eldesoki-fragrances.jpg",
@@ -224545,8 +224543,9 @@
             {
               "kind": "full",
               "ml": 6,
-              "price": 175,
-              "first_seen": "2026-11-12"
+              "price": 150,
+              "first_seen": "2026-11-12",
+              "prev_price": 175
             }
           ],
           "image": "images/don-roll-french-fragrance--eldesoki-fragrances.jpg",
@@ -229742,7 +229741,7 @@
             {
               "kind": "decant",
               "ml": 10,
-              "price": 160,
+              "price": 170,
               "first_seen": "2026-11-25"
             }
           ],
