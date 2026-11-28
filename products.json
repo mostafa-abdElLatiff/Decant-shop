@@ -16663,8 +16663,7 @@
               "kind": "full",
               "ml": 100,
               "price": 1234,
-              "first_seen": "2026-07-23",
-              "sold_since": "2026-11-20"
+              "first_seen": "2026-07-23"
             }
           ],
           "image": "images/asad-bourbon--mazaya.jpg",
@@ -55421,7 +55420,8 @@
               "kind": "full",
               "ml": 90,
               "price": 1800,
-              "first_seen": "2026-07-23"
+              "first_seen": "2026-07-23",
+              "sold_since": "2026-11-28"
             }
           ],
           "image": "images/evoke-silver-edition-eau-de-parfum--mazaya.jpg",
@@ -96459,6 +96459,13 @@
           "name": "mazaya",
           "url": "https://mazaya.eg/",
           "offers": [
+            {
+              "kind": "full",
+              "ml": 60,
+              "price": 28000,
+              "first_seen": "2026-11-28",
+              "sold_since": "2026-11-28"
+            },
             {
               "kind": "full",
               "ml": 125,
@@ -147766,6 +147773,13 @@
               "ml": 100,
               "price": 6000,
               "first_seen": "2026-07-23"
+            },
+            {
+              "kind": "full",
+              "ml": 150,
+              "price": 6975,
+              "first_seen": "2026-11-28",
+              "sold_since": "2026-11-28"
             }
           ],
           "image": "images/scandal-intense-men--mazaya.jpg",
@@ -147838,15 +147852,17 @@
             {
               "kind": "full",
               "ml": 50,
-              "price": 6800,
+              "price": 5100,
               "first_seen": "2026-07-23",
+              "prev_price": 6800,
               "sold_since": "2026-07-23"
             },
             {
               "kind": "full",
               "ml": 100,
-              "price": 9200,
-              "first_seen": "2026-07-23"
+              "price": 6900,
+              "first_seen": "2026-07-23",
+              "prev_price": 9200
             }
           ],
           "image": "images/scandal-re24-him-parfum--mazaya.jpg",
@@ -158866,7 +158882,7 @@
             }
           ],
           "image": "images/stronger-with-you-intensely--mazaya.jpg",
-          "product_url": "https://mazaya.eg/en/emporio-armani-stronger-with-you-intensely-30ml"
+          "product_url": "https://mazaya.eg/en/emporio-armani-stronger-with-you-intensely-edp123455-html12"
         },
         {
           "name": "faces",
@@ -182189,6 +182205,13 @@
               "ml": 60,
               "price": 5250,
               "first_seen": "2026-08-23",
+              "sold_since": "2026-11-28"
+            },
+            {
+              "kind": "full",
+              "ml": 100,
+              "price": 6525,
+              "first_seen": "2026-11-28",
               "sold_since": "2026-11-28"
             },
             {
@@ -221621,7 +221644,8 @@
               "kind": "full",
               "ml": 125,
               "price": 5625,
-              "first_seen": "2026-10-28"
+              "first_seen": "2026-10-28",
+              "sold_since": "2026-11-28"
             }
           ],
           "image": "images/l-eau-d-issey-edp--mazaya.jpg",
